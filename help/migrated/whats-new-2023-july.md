@@ -1,0 +1,610 @@
+---
+title: Novidades desta versão (julho de 2023)
+description: Saiba mais sobre os novos recursos e aprimoramentos no Adobe Learning Manager
+hidefromtoc: true
+source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+workflow-type: tm+mt
+source-wordcount: '2052'
+ht-degree: 0%
+
+---
+
+# Novidades desta versão (julho de 2023)
+
+## Recomendações aprimoradas
+
+O Adobe Learning Manager introduziu um novo e renovado sistema de recomendação para cursos. Esse recurso de recomendações usa algoritmos de IA e interesses de usuários, como produtos, funções e níveis, para fornecer recomendações de conteúdo personalizadas.
+
+Para obter mais informações, consulte [Recommendations no Adobe Learning Manager](recommendations-adobe-learning-manager.md).
+
+## Várias inscrições
+
+Nesta versão do Adobe Learning Manager, estamos introduzindo a multiinscrição para alunos que permite que eles se inscrevam em mais de uma instância de um curso em um ou diferentes períodos de tempo.
+
+Para obter mais informações, consulte [Várias inscrições](/help/migrated/authors/feature-summary/courses.md).
+
+### Várias inscrições no aplicativo móvel ou imersivo
+
+Os alunos não podem se inscrever em várias instâncias em um aplicativo móvel/imersivo. Não há suporte para várias inscrições no aplicativo móvel e na Web móvel imersiva.
+
+>[!NOTE]
+>
+>A ativação da inscrição múltipla resulta na adição de várias linhas ao Relatório de transcrição do aluno de cada curso (uma linha para cada instância).
+>
+>Se você tiver uma configuração de automação de relatórios que prevê apenas uma linha por curso, deverá fazer os ajustes necessários na automação de relatórios antes de ativar o recurso de Várias Inscrições.
+
+### Formato de medalhas em uma instância com vários registros
+
+Para oferecer suporte a medalhas em uma instância com várias inscrições, o formato da medalha é alterado para `userId_badgeId_COURSE_courseId_courseInstanceId`.
+
+### Iniciar o player em várias inscrições usando um modo sem periféricos
+
+Nesta versão, alteramos a biblioteca usada para comunicação com o reprodutor sem periféricos.
+
+Em várias inscrições, você deve passar os argumentos quebrados dentro de um objeto.
+
+```
+{{startplayer(argument_object) ,
+where
+argument_object=
+{ loId = <loId>, accountId = <accountId>, userId =<userId>, accessToken = <accessToken>, domId = <elementId>, onModuleLoaded = fn(), isMultiEnrolled=<boolean>, instanceId=<instanceId> }
+}}
+```
+
+## Descontinuação do conector exavault
+
+Esta versão do Adobe Learning Manager incluirá um novo conector, que usará o protocolo SFTP da família AWS Transfer.
+
+Essa alteração também substituirá o conector ExaVault, que não estará mais disponível para novos usuários. Você pode usar qualquer cliente FTP de código aberto como uma substituição para o ExaVault. Para obter mais informações, consulte [Transição do Gerenciador de FTP do Adobe](transition-from-ftp-manager.md).
+
+## Lembretes no Outlook para sessões de sala de aula e virtuais
+
+As sessões de sala de aula e sala de aula virtual criadas no Adobe Learning Manager que foram adicionadas ao calendário do Outlook do aluno agora suportarão lembretes do Outlook de forma consistente (semelhante aos lembretes de reunião no Outlook).
+
+## Aprimoramentos na atribuição de habilidades a cursos
+
+Aprimoramos o fluxo de trabalho de atribuição de habilidades para Autores. A lista de sugestões de habilidades na página Configurações do curso agora inclui um recurso de pesquisa com preenchimento automático. Os autores agora podem pesquisar Habilidades digitando os primeiros caracteres, e as sugestões serão exibidas na lista suspensa Habilidade com base na entrada. Com esse aprimoramento, os autores não precisam percorrer a lista completa para localizar e atribuir habilidades aos cursos.
+
+## Melhorias no fluxo de trabalho do curso aprovado pelo gerente
+
+Os cursos aprovados pelo gerente agora fornecem informações apropriadas sobre erros para gerentes e alunos.
+
+![mensagens de erro](assets/error-messages.png)
+
+Os gerentes agora podem exibir mensagens de erro relevantes com informações (por exemplo, o prazo de inscrição terminou) quando não conseguem aprovar uma solicitação de inscrição no curso. Os alunos recebem o erro e a ação corretiva.
+
+## Relatório do novo plano de aprendizado
+
+Os administradores/administradores personalizados agora podem exportar uma lista de todos os planos de aprendizado na conta e metadados, como status, grupos de usuários aplicáveis, informações de acionador, cursos/caminhos de aprendizado incluídos no plano de aprendizado e informações de lembrete.
+
+## Relatório para rastrear próximas instâncias desativadas
+
+O Relatório de treinamentos inclui uma coluna adicional para exibir o prazo de conclusão das instâncias presentes nos cursos ou caminhos de aprendizado, para que os administradores e autores saibam quais instâncias serão desativadas e possam tomar as medidas necessárias.
+
+## Aprimoramentos para capturar as classificações do curso dos alunos
+
+Uma janela pop-up para capturar a classificação por estrelas de um curso é exibida assim que o usuário conclui o último módulo do curso.
+
+![classificações](assets/ratings.png)
+
+## Personalizar modelos de email
+
+Os modelos de e-mail no Learning Manager agora incluem seções totalmente editáveis, fornecendo maior flexibilidade na personalização das comunicações por e-mail com base nas preferências de mensagens e de marca.
+
+Para obter mais informações, consulte [Personalizar modelo de email](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates).
+
+## Aprimoramentos no assistente de agendamento
+
+Ajustar o processo de seleção de um professor para sessões de sala de aula ou virtuais. Um filtro Grupo de usuários foi adicionado ao campo Professor no Assistente de agendamento. Os autores agora podem filtrar professores com base em “Habilidades do professor” e qualquer parâmetro adicional, como local, idioma, designação e assim por diante.
+
+Para obter mais informações, consulte [Filtro Grupo de usuários no Assistente de agendamento](/help/migrated/authors/feature-summary/courses.md#user-group-filter).
+
+## Aprimoramentos no fluxo de trabalho de retirada do objeto de aprendizado
+
+Os autores agora podem fornecer um **Desativação automática** data de um curso. Isso ajuda a evitar a inflação do catálogo com o tempo e a necessidade de voltar e desativar manualmente os cursos.
+
+Os administradores também podem decidir, no nível da conta, a natureza do acesso aos objetos de aprendizado “retirados”.
+
+O Relatório de treinamento inclui uma nova coluna, **Data da Baixa Automática**, para exibir a data de aposentadoria de cada objeto de aprendizado (se definido).
+
+## Valores de etiqueta de catálogo por autores
+
+Os autores agora podem adicionar seus valores para rótulos de catálogo ao criar ou editar um curso. Os administradores podem ativar esse recurso no nível da conta. Depois que um autor adiciona um novo valor de etiqueta de catálogo, ele se torna parte da pesquisa de preenchimento automático.
+
+![selecionar catálogo](assets/select-catalog.png)
+
+## Aprimoramentos na pesquisa de curso para funções de administrador, autor e gerente
+
+Foram feitos aprimoramentos de pesquisa para as funções de administrador, autor e gerente. Agora, eles poderão pesquisar os títulos com palavras-chave. Isso se aplica a cursos, caminhos de aprendizado e certificações.
+
+## Notificações de falhas de migração
+
+Os administradores de integração são notificados por email se alguma operação de importação ou exportação falhar durante a migração ou ao usar conectores de dados como PowerBI, FTP, Box etc.
+
+## Configuração de vários gerenciadores por meio de APIs
+
+Uma nova API foi adicionada ao conjunto de APIs do Managed Office para oferecer suporte à configuração de vários gerentes.
+
+## Aprimoramentos na API de inscrição
+
+Foram feitos aprimoramentos na API de inscrição para oferecer suporte e otimizar inscrições em massa em grande escala.
+
+## Aplicativo móvel - Exibição de conteúdo offline
+
+Os alunos podem baixar e consumir conteúdo no modo offline. Os caminhos de aprendizado aninhados e flexíveis não são compatíveis com a exibição offline.
+
+*Nesta versão, a exibição de conteúdo offline é compatível apenas com conteúdo em inglês.*
+
+## Acessibilidade
+
+Várias melhorias foram implementadas para aprimorar a acessibilidade, incluindo aprimoramentos para otimizar a legibilidade pelos leitores de tela.
+
+## Suporte ao aplicativo móvel
+
+Na próxima versão principal, o aplicativo Adobe Learning Manager para dispositivos móveis oferecerá suporte apenas às três versões mais recentes de sistemas operacionais móveis.
+
+## Conteúdo no LinkedIn
+
+O conteúdo do linkedIn não é carregado como esperado no aplicativo Imersivo no navegador Safari. Como solução alternativa, faça o seguinte:
+
+1. No dispositivo, selecione **[!UICONTROL Configurações]** > **[!UICONTROL Safari]**.
+1. Desativar **Impedir Rastreamento Entre Sites**.
+1. Desativar **Bloquear todos os cookies**.
+1. Faça logon no aplicativo Imersivo.
+1. Reproduzir o conteúdo.
+1. Permita os pop-ups.
+
+## Outros aprimoramentos
+
+### Alternar instâncias no MS Teams
+
+Um aluno pode alternar para uma instância diferente do curso até sua conclusão e manter o progresso do curso.
+
+### Suporte a várias inscrições no MS Teams
+
+Um aluno pode se inscrever em outra instância do curso independentemente do status de conclusão em quaisquer instâncias anteriores. Isso fará com que o aluno se inscreva em várias instâncias do mesmo curso.
+
+### As notas do curso oferecem suporte a várias inscrições no MS Teams
+
+As notas do curso estão disponíveis em um nível de instância do curso para oferecer suporte a várias inscrições.
+
+## Alterações de API
+
+Para obter mais informações sobre as alterações na API, consulte o [Referência da API do Adobe Learning Manager](https://captivateprime.adobe.com/docs/primeapi/v2/).
+
+### Suporte de API para novas recomendações
+
+**GET /conta**
+
+Retorna se prlrecommendation está habilitado.
+
+**Solicitar**
+
+`https://learningmanagerstage1.adobe.com/primeapi/v2/account`
+
+**GET /data?filter.recommendationCriteria=product**
+
+Retorna a lista de produtos/tópicos. Os resultados dependem das configurações da conta, que confirmam se todos os produtos estarão visíveis para o aluno ou catálogo visível para produtos/tópicos.
+
+**Solicitar**
+
+`https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=product&filter.showAllRecommenda`
+
+**`GET /data?filter.recommendationCriteria=role`**
+
+Retorna a lista de Funções recomendadas.
+
+**Solicitar**
+
+`https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=role&filter.showAllRecommendationCriteria=false`
+
+**`GET /data?filter.recommendationCriteria=level`**
+
+Retorna a lista de Funções recomendadas.
+
+**Solicitar**
+
+`https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=level&filter.showAllRecommendationCriteria=false`
+
+**POST /search/query**
+
+A pesquisa também inclui produtos e parâmetros de função na consulta. Não há nenhuma alteração na consulta e no corpo. Adicionaremos novas opções de classificação
+
+**Solicitar**
+
+`https://learningmanagerstage1.adobe.com/primeapi/v2/search/query?...`
+
+**GET /learningObjects**
+
+O modelo Objeto de aprendizado retorna recomendações marcadas pelo autor se a recomendação PRL estiver ativa.
+
+**URL da Solicitação**
+
+`https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects?sort=recommendationScore&filter.recommendationProducts=...&filter.recommendationRoles=...&filter.excludeIgnoredRecommendations=true`
+
+POST /learningObjects/query
+
+Os seguintes atributos são suportados no corpo da chamada de consulta:
+
+```javascript {line-numbers="true"}
+{
+  "filter.announcedGroups": [
+    "string"
+  ],
+  "filter.bookmarks": true,
+  "filter.catalogIds": [
+    "string"
+  ],
+  "filter.cityName": [
+    "string"
+  ],
+  "filter.duration.range": [
+    "string"
+  ],
+  "filter.effectiveModifiedDate.fromDate": "string",
+  "filter.effectiveModifiedDate.toDate": "string",
+  "filter.excludeIgnoredRecommendations": true,
+  "filter.ignoreEnhancedLP": true,
+  "filter.ignoreHigherOrderLOEnrollment": true,
+  "filter.lang.subLOs": true,
+  "filter.lang.twoLetterCode": true,
+  "filter.learnerState": [
+    "string"
+  ],
+  "filter.loFormat": [
+    "string"
+  ],
+  "filter.loTypes": [
+    "string"
+  ],
+  "filter.price": "string",
+  "filter.priceRange": [
+    "string"
+  ],
+  "filter.recommendationLevels": [
+    "string"
+  ],
+  "filter.skill.level": [
+    "string"
+  ],
+  "filter.skillName": [
+    "string"
+  ],
+  "filter.tagName": [
+    "string"
+  ],
+  "language": [
+    "string"
+  ],
+  "preferredSortPartitionOrder": [
+    "string"
+  ],
+  "showLoContentSource": true,
+  "useCache": true,
+  "filter.recommendationProducts": [
+    {
+      "levels": [
+        "string"
+      ],
+      "name": "string"
+    }
+  ],
+  "filter.recommendationRoles": [
+    {
+      "levels": [
+        "string"
+      ],
+      "name": "string"
+    }
+  ]
+}
+```
+
+**GET /recommendationProducts**
+
+Recupera o produto PRL por recommendationProduct Id.
+
+**URL da Solicitação**
+
+`https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationProducts`
+
+GET /recommendationRoles
+
+Recupera o produto PRL por recommendationProduct Id. Somente as funções visíveis de (Objetos de aprendizado) serão retornadas.
+
+**URL da Solicitação**
+
+`https://learningmanagerstage1.adobe.com/primeapi/v2/prlRecommendations/roles`
+
+`POST /users/{id}/recommendationPreferences`
+
+Cria/Recria (Substitui) as Preferências de recomendação PRL. Carga de exemplo:
+
+```javascript {line-numbers="true"}
+{
+    "data": {
+        "id": "userRecommendationPreferences:14755328",
+        "type": "userRecommendationPreferences",
+        "attributes": {
+            "products": [
+                {
+                    "id": "recommendationProduct:1",
+                    "dateCreated": "2023-05-07T20:00:00.000Z"
+                },
+                {
+                    "id": "recommendationProduct:37",
+                    "dateCreated": "2023-05-07T21:00:00.000Z"
+                }
+            ],
+            "roles": [
+                {
+                    "id": "recommendationRole:23",
+                    "dateCreated": "2023-05-07'T'21:00:00.000'Z'"
+                },
+                {
+                    "id": "recommendationRole:1",
+                    "dateCreated": "2023-05-07'T'20:01:00.000'Z'"
+                },
+                {
+                    "id": "recommendationRole:2",
+                    "dateCreated": "2023-05-07'T'19:02:00.000'Z'"
+                },
+                 {
+                    "id": "recommendationRole:3",
+                    "dateCreated": "2023-05-07'T'18:02:00.000'Z'"
+                },
+                {
+                    "id": "recommendationRole:20",
+                    "dateCreated": "2023-05-07'T'17:02:00.000'Z'",
+                    "levels": [
+                        "INTERMEDIATE"
+                    ]
+                }
+            ]
+        }
+    }
+}
+```
+
+**`GET /users/{id}/recommendationPreferences`**
+
+**URL da Solicitação**
+
+`https://learningmanagerstage1.adobe.com/primeapi/v2//users/123/recommendationPreferences`
+
+**`DELETE /users/{id}/recommendationPreferences`**
+
+Exclui as preferências do usuário da recomendação PRL para um produto ou função.
+
+**URL da Solicitação**
+
+`https://learningmanagerstage1.adobe.com/primeapi/v2/users/123/recommendationPreferences?ids=recommendationRole:123,recommendationRole:234`
+
+Parâmetros:
+
+Ids = Lista de IDs a excluir
+
+**PATCH /users/{id}/recommendationPreferences**
+
+Adição/Atualização Parcial. Carga de exemplo:
+
+```javascript {line-numbers="true"}
+{
+  "data": {
+    "id": "userRecommendationPreferences:<USER_ID>",
+    "type": "userRecommendationPreferences",
+    "attributes": {
+      "roles": [
+        {
+          "id": "recommendationRole:123",
+          "type": "recommendationRole",
+          "attributes": {
+            "levels": [
+              "INTERMEDIATE"
+            ]
+          }
+        },
+        {
+          "id": "recommendationRole:123",
+          "type": "recommendationRole",
+          "attributes": {
+            "levels": [
+              "ADVANCED"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**POST /recommendationPreferences/learningObjects/{id}/ignore**
+
+Adicione o LO às recomendações bloqueadas.
+
+**URL da Solicitação**
+
+`https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
+
+**`DELETE /recommendationPreferences/learningObjects/{id}/ignore`**
+
+Exclui o OA das recomendações bloqueadas.
+
+**URL da Solicitação**
+
+`https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
+
+**`GET /users/{id}/recommendationStrips`**
+
+Recupera todas as faixas a serem usadas para mostrar recomendações prl
+
+### Suporte a várias inscrições para API
+
+**GET /primeapi/v2/account**
+
+Dois novos atributos são adicionados:
+
+* instanceSwitchEnabled
+* multiEnrollmentEnabled
+
+**GET /users/{userId}/userNotifications**
+
+Adicionada a ID da instância do curso nas notificações no novo atributo de metadados.
+
+**GET /learningObjects**
+
+O relacionamento de inscrição exibe somente a inscrição principal, ou seja, inscrito pela primeira vez ou concluído pela primeira vez.
+
+**`GET /learningObjects/{id}`**
+
+O relacionamento de inscrição exibe somente a inscrição principal, ou seja, inscrito pela primeira vez ou concluído pela primeira vez.
+
+**`GET /learningObjects/{loId}/instances/{loInstanceId}`**
+
+Um novo relacionamento é adicionado ao modelo de instância do LO.
+
+**`GET /enrollments/{id}`**
+
+Recuperar inscrição de cursos com várias inscrições.
+
+**`DELETE /enrollments/{id}`**
+
+Cancela a inscrição em uma instância específica do objeto de aprendizado.
+
+**POST /enrollments**
+
+Oferece suporte à inscrição em instâncias diferentes.
+
+**GET /enrollments**
+
+Obtém inscrições somente para as inscrições principais do Objeto de Aprendizado.
+
+**`GET /learningObjects/{id}/note`**
+
+Recupera uma lista de notas de um curso.
+
+**`GET /learningObjects/{lo_id}/instances/{loi_id}/note`**
+
+Recupera uma lista de notas de um curso e da instância.
+
+**`GET /learningObjects/{id}/resources/{loResourceId}/note`**
+
+Recupera uma lista de notas de um recurso em um curso.
+
+**`POST /learningObjects/{id}/resources/{loResourceId}/note`**
+
+Adiciona uma observação em um módulo de um curso para um curso específico.
+
+**`DELETE /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
+
+Exclui observações específicas de um determinado módulo em relação a uma instância específica (parte da ID loResource).
+
+**`GET /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
+
+Recupera uma observação específica em um módulo em um curso para uma determinada instância (parte de loResourceId).
+
+**`PATCH /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
+
+Atualiza observações específicas de um determinado módulo em relação a uma instância específica (parte da Id loResource).
+
+**Alterações na API do administrador**
+
+* GET /users/{id}/enrollments
+* POST /users/{id}/enrollments
+* DELETE /users/{id}/enrollments/{enrollmentId}
+* PATCH /users/{id}/enrollments/{enrollmentId}
+
+### Campos aplicados para pontos de extremidade
+
+Os Produtos e as Funções são carregados somente quando aplicados.
+
+Exemplo de solicitação
+
+* GET `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects/course%3A7418798?enforcedFields[learningObject]=products`
+* GET `https://learningmanagerstage1.adobe.com/primeapi/v2/users/11255638/userBadges?include=model&page[offset]=0&page[limit]=10&sort=dateAchieved&enforcedFields[learningObject]=products,roles`
+
+### Implementação da base de alterações da API de pesquisa (localidade inglesa)
+
+O truncamento é o processo de reduzir uma palavra à sua forma raiz. Isso garante que as variantes de uma palavra correspondam durante uma pesquisa. Por exemplo, andar e andar podem ter a mesma raiz: caminhar. Uma vez feita a raiz, uma ocorrência de uma palavra corresponderia à outra em uma pesquisa.
+
+Nesta versão, adicionamos a raiz para localidades em inglês, que inclui as seguintes variantes: en_US, en_AU, en_GB.
+
+O atributo raiz menciona se a raiz é necessária nos resultados da pesquisa. Por padrão, esta opção está definida como False
+
+### Remoção de pontos finais V1
+
+As APIs V1 deixarão de funcionar nesta versão. Para obter mais informações, consulte o [Manual do desenvolvedor](/help/migrated/integration-admin/feature-summary/developer-manual.md).
+
+### Notificações para inscrição ou cancelamento de inscrição no curso
+
+Esta versão apresenta compatibilidade com a ID da instância do curso com notificações no novo atributo de metadados.
+
+### Suporte a feedback L1
+
+Permite que o aluno forneça feedback em cada nível de instância do recurso de Inscrição Múltipla.
+
+**API:** `POST /enrollments/{id}/l1Feedback`
+
+### Lista de campos obrigatórios do LO
+
+Nesta versão, você deve enviar seções, prequisiteConstraints, prerequisiteLOs, subLOs, additionalResources, additionalLOs, instâncias, catalogLabels para o learningObject explicitamente.
+
+Por exemplo,
+
+`enforcedFields[learningObject]=prerequisiteLOs,instances`
+
+### Aviso de descontinuação para a próxima versão
+
+* Sinalizador de substituição para APIs do aluno.
+* Mudaremos o padrão para highlightResults=false. Além disso, alteraremos o padrão de snippetType=courseName.
+* Descontinuaremos matchType=bool no ponto de extremidade de pesquisa.
+* autoCompleteMode tem o [Descontinuado] e para fornecer a mesma funcionalidade de autoCompleteMode =false, temos um matchType adicionado chamado Match.
+
+### Formato de ID de medalha com várias inscrições
+
+Para suportar medalhas de instância com várias inscrições, estamos alterando o formato das medalhas do curso de `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` para identificar exclusivamente as medalhas.
+
+## Notas de versão
+
+Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte a [Notas de versão](/help/migrated/release-note/release-notes.md).
+
+## Problemas conhecidos ou limitações nesta versão
+
+Estas são as limitações desta versão:
+
+### Visualização de conteúdo offline no aplicativo para dispositivos móveis
+
+Os itens a seguir não são compatíveis ao exibir conteúdo offline no aplicativo:
+
+* Cursos, planos de aprendizado ou certificações da Flex.
+* Cursos aprimorados, planos de aprendizado ou certificações.
+* Cursos, planos de aprendizado ou certificações habilitados para vários quiz.
+* Harvard Manage Mentor, Marketplace de Conteúdo, GetAbstract ou Cursos, Planos de Aprendizado ou Certificações do LinkedIn.
+* Planos de Aprendizado e Certificados com pré-requisitos ativados.
+* Cursos, planos de aprendizado ou certificações desativados.
+* Cursos, planos de aprendizado ou certificações com prazo expirado.
+* Certificados Externos.
+* Cursos, planos de aprendizado ou certificações habilitados para eCommerce.
+
+Os seguintes caminhos de aprendizado, cursos ou certificações têm alguns problemas com a sincronização offline:
+
+* Todos os caminhos de aprendizado.
+* Todos os certificados internos.
+* Conteúdo com chamadas de POST.
+
+### Recommendations
+
+Os itens a seguir não têm suporte para Produto/Função/Nível no novo sistema de recomendação:
+
+* Adobe Experience Manager, Teams, SFDC e Não conectado.
+* O aplicativo para dispositivos móveis não oferece suporte à edição de produtos e funções na página de recomendação.
+* O mapeamento não é possível durante a migração.
+* Marcação automática de LinkedIn, Marketplace de conteúdo e outros cursos externos, planos de aprendizado ou certificações.
+* Revertendo para Baseado em habilidade ou Clássico depois de colocar no ar.
+* O menu de pesquisa de Produtos e funções no aplicativo do aluno.
+* Mapeamento em massa de cursos, planos de aprendizado ou certificações e usuários no aplicativo do administrador.
+
+## Requisitos de sistema
+
+[Requisitos de sistema do Learning Manager](/help/migrated/system-requirements.md)
