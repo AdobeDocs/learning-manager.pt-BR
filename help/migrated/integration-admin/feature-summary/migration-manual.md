@@ -2,9 +2,9 @@
 description: Consulte o manual para administradores de integração que desejam migrar um LMS existente para o LMS do Learning Manager
 jcr-language: en_us
 title: Manual de migração
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
 workflow-type: tm+mt
-source-wordcount: '3705'
+source-wordcount: '3641'
 ht-degree: 72%
 
 ---
@@ -419,11 +419,11 @@ Antes de começar o procedimento de migração, é importante observar os seguin
 
 É muito importante planejar o projeto de migração. Recomenda-se dividir os projetos em vários sprints e identificar com clareza o que se quer migrar em cada sprint. Pode ser uma boa ideia fazer validações após cada sprint para estar seguro dos dados migrados nesse sprint, em vez de fazer uma grande fase de validação no fim do projeto. Antes de começar o sprint como parte do projeto de migração, é necessário carregar arquivos CSV de dados e conteúdo no FTP e nos servidores do Box respectivamente. Se você não tiver contas para FTP e Box personalizados, é possível criá-las.
 
-**Criar conta FTP**
+<!--**Create FTP account**-->
 
-Clique em **[!UICONTROL Solicitar pasta FTP para CSV]**. Uma caixa de diálogo pop-up será exibida, solicitando que você insira a ID de e-mail. Siga as instruções online e crie uma conta FTP. Assim que criar sua conta, você poderá visualizar seu projeto de migração e as pastas do projeto de sprint no FTP.
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-Um instantâneo de amostra de arquivos de projeto e pasta de FTP é mostrado abaixo para sua referência.
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
