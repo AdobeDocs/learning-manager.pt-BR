@@ -1,7 +1,7 @@
 ---
 title: Novidades desta versão
 description: Saiba mais sobre os novos recursos e aprimoramentos no Adobe Learning Manager
-source-git-commit: 95ab7a13a7f3e9815785134bc1d1675c002ab64b
+source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -170,11 +170,48 @@ Se a permissão Usuário ou Todo o grupo de usuários estiver selecionada, e o a
 
 Um administrador personalizado pode acessar os seguintes relatórios de acordo com o escopo definido:
 
-| Denunciar | Disponível | Escopo |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Denunciar</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Disponível</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Escopo</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Registro de auditoria do conteúdo</p></td>
+   <td>
+    <p>Sim</p></td>
+   <td>
+    <p>Catálogo completo</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Registro de auditoria do usuário</p></td>
+   <td>
+    <p>Sim</p></td>
+   <td>
+    <p>Usuário Completo</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Acesso de login</p></td>
+   <td>
+    <p>Sim</p></td>
+   <td>
+    <p>Usuário Completo</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Registro de auditoria do conteúdo | Sim | Catálogo completo |
-| Registro de auditoria do usuário | Sim | Usuário Completo |
-| Acesso de login | Sim | Usuário Completo |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Integração de conexão aprimorada
 
