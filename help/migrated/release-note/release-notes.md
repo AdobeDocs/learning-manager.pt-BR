@@ -3,7 +3,7 @@ description: Saiba mais sobre os novos recursos e as melhorias no Adobe Learning
 jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+source-git-commit: 253cc73b4ee1cf4a11a82a5716611133d68d2031
 workflow-type: tm+mt
 source-wordcount: '26196'
 ht-degree: 72%
@@ -1345,7 +1345,7 @@ Para obter mais informações, consulte  [***Novidades do lançamento do Adobe L
 
 **Comunicados**
 
-* Se um comunicado contém a tag <a>, o comunicado não é criado conforme esperado.
+* Se um comunicado contém a tag `<a>`, o comunicado não é criado conforme esperado.
 
 **A conta**
 
