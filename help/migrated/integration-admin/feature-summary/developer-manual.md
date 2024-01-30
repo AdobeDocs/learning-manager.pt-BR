@@ -728,7 +728,7 @@ id de catálogo padrão \
 name\
 pointsEarned\
 perfil\
-ROLE\
+|||ROLE|||\
 estado\
 timeZoneCode\
 uiLocale
@@ -783,7 +783,7 @@ modelIds\
 modelNames\
 modelTypes\
 leitura\
-ROLE
+||ROLE||
 
 +++
 
