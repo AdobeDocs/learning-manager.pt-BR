@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 0%
+ht-degree: 61%
 
 ---
 
@@ -26,9 +26,9 @@ No Adobe Learning Manager, há uma opção que permite excluir um usuário se el
 
 ### Para alunos internos
 
-1. Fazer logon como **Administrador**.
+1. Faça logon como **Administrador**.
 1. Em **Configurar**, clique em **Configurações** > **Geral**.
-1. Na página Configurações gerais, consulte a opção **Excluir usuários internos automaticamente**.
+1. Na página Configurações gerais, consulte a opção **Excluir automaticamente usuários internos**.
 1. Clique em **[!UICONTROL Editar]** para inserir o número de dias no campo, para excluir automaticamente um aluno caso ele não tenha acessado o sistema.
 
    ![](assets/cp-autodelete-internal.png)
@@ -44,11 +44,11 @@ No Adobe Learning Manager, há uma opção que permite excluir um usuário se el
 
 ### Para alunos externos:
 
-1. Fazer logon como **Administrador**.
+1. Faça logon como **Administrador**.
 1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Externo]**.
 1. Clique no nome de um usuário externo para o qual a configuração precisa ser aplicada.
 
-   Isso abre a janela **Editar Perfil de Registro Externo** janela.
+   Isso abre a janela **Editar perfil de registro externo**.
 
 1. Clique em **[!UICONTROL Configurações avançadas]** no canto inferior esquerdo.
 

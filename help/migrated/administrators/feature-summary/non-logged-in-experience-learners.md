@@ -4,7 +4,7 @@ description: O portal nativo do Adobe Learning Manager oferecerá suporte a uma 
 source-git-commit: aef2dfe9d6f49dcccaf1f71b57ffa25a3075efe8
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 0%
+ht-degree: 54%
 
 ---
 
@@ -24,7 +24,7 @@ O treinamento pode ser exportado do conector.
 
 O administrador pode modificar e configurar a página inicial, que se destina a usuários não conectados.
 
-## Iniciar as opções da página inicial
+## Executar as opções da página inicial
 
 Na página inicial do Adobe Learning Manager, selecione **Marca**. Em seguida, no painel esquerdo, selecione Não conectado na página inicial.
 

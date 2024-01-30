@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -20,7 +20,7 @@ Saiba como usar os catálogos no Learning Manager para visualizar os objetos de 
 
 Os alunos podem exibir todos os objetos de aprendizado atribuídos e qualificados (programas de aprendizado, cursos e certificações) na **Catálogo Padrão**. Esses objetos de aprendizado são exclusivos para cada aluno com base em sua função, designação, grupo de usuários, perfil e assim por diante.
 
-Você pode filtrar a lista de objetos de aprendizado usando habilidades e o tipo dos objetos de aprendizado (ritmo individualizado, mesclado, sala de aula, sala de aula virtual, atividade) . Também é possível filtrar usando as opções no painel esquerdo: por objetos de aprendizado, por habilidades e pelo status de conclusão.
+É possível filtrar a lista de objetos de aprendizado usando habilidades e tipo de objetos de aprendizado (ritmo individualizado, misto, sala de aula, sala de aula virtual, atividade). Também é possível filtrar usando as opções no painel esquerdo: por objetos de aprendizado, por habilidades e pelo status de conclusão.
 
 Use a barra de pesquisa na parte superior da página para inserir os nomes dos objetos de aprendizado comuns.
 

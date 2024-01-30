@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Mapear habilidades com domínios de habilidades
-description: Para que o Mecanismo de curadoria por IA selecione automaticamente uma publicação de usuário para um domínio de habilidade específico, a empresa do usuário precisa ter mapeado suas habilidades personalizadas nos domínios de habilidade presentes no LMS do Learning Manager.
+description: Para que o Mecanismo de curadoria por AI selecione automaticamente uma publicação de usuário para um domínio de habilidade específico, a empresa do usuário precisa ter mapeado suas habilidades personalizadas nos domínios de habilidade presentes no LMS do Learning Manager.
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
@@ -14,42 +14,42 @@ ht-degree: 0%
 
 # Mapear habilidades com domínios de habilidades
 
-Para que o Mecanismo de curadoria por IA selecione automaticamente uma publicação de usuário para um domínio de habilidade específico, a empresa do usuário precisa ter mapeado suas habilidades personalizadas nos domínios de habilidade presentes no LMS do Learning Manager.
+Para que o Mecanismo de curadoria por AI selecione automaticamente uma publicação de usuário para um domínio de habilidade específico, a empresa do usuário precisa ter mapeado suas habilidades personalizadas nos domínios de habilidade presentes no LMS do Learning Manager.
 
-Ao criar uma habilidade, o administrador pode mapeá-la com os domínios de habilidade mais relevantes suportados pelo Learning Manager. Isso será levado em consideração no processo de curadoria automática. O LMS do Learning Manager lista as seguintes habilidades:
+Ao criar uma habilidade, o administrador pode mapeá-la com os domínios de habilidade mais relevantes suportados pelo Learning Manager. Posteriormente, isso será levado em conta no processo de curadoria automática. O LMS do Learning Manager lista as seguintes habilidades:
 
-* Gerenciamento da cadeia de fornecimento
+* Gestão de cadeia de suprimento
 * Contabilidade
 * Pesquisa científica e engenharia
-* Segurança do computador
-* Gerenciamento estratégico
+* Segurança da computação
+* Gestão estratégica
 * Redes sociais
 * Medicina
 * Finanças
-* Segurança do local de trabalho
-* Habilidades pessoais
-* Direito comercial
-* Gerenciamento
-* Gestão dos recursos humanos
+* Segurança no trabalho
+* Habilidades interpessoais
+* Direito empresarial
+* Gestão
+* Gestão de recursos humanos
 * Comunicação técnica
-* Ética comercial
+* Ética empresarial
 * Gerenciamento de relacionamento com o cliente
 * Tecnologia da informação
-* Produção e fabrico
+* Produção e fabricação
 * Marketing
-* Gerenciamento de qualidade
+* Gestão da qualidade
 * Processo empresarial
 * Aprendizado
 * Design
-* Analytics
+* Análise
 * Vendas
 
-Para adicionar um domínio de habilidade, siga as etapas abaixo:
+Siga as etapas abaixo para adicionar um domínio de habilidades:
 
-1. No painel esquerdo do aplicativo do administrador, clique em **[!UICONTROL Habilidades]**.
+1. No painel esquerdo do Admin Console, clique em **[!UICONTROL Habilidades]**.
 1. Para adicionar uma habilidade, clique em **[!UICONTROL Adicionar]** no canto superior direito da página.
-1. No menu **[!UICONTROL Adicionar habilidade]** adicione uma habilidade e uma descrição da habilidade.
-1. No menu **[!UICONTROL Domínio da habilidade]** adicione os domínios de habilidade. Ao inserir um domínio, os domínios são adicionados. Esses domínios são preenchidos a partir da lista mencionada acima.
+1. Na caixa de diálogo **[!UICONTROL Adicionar habilidade]**, adicione uma habilidade e sua descrição.
+1. Na seção **[!UICONTROL Domínio de habilidades]**, adicione os domínios de habilidades. Ao digitar um domínio, vários domínios aparecem. Esses domínios são preenchidos a partir da lista mencionada.
 
    ![](assets/skill-domain-mapping.png)
 
@@ -57,11 +57,11 @@ Para adicionar um domínio de habilidade, siga as etapas abaixo:
 
 1. Para salvar as alterações, clique em **[!UICONTROL Salvar]**.
 
-Quando um usuário publica um conteúdo em um painel, o conteúdo é selecionado e aprovado ou rejeitado, dependendo da pontuação de confiança em relação à habilidade mapeada para o painel.
+Quando um usuário publica conteúdo em um painel, o conteúdo é selecionado e pode acabar aprovado ou rejeitado, dependendo da pontuação de confiança em relação à habilidade mapeada no painel.
 
 <!--![](assets/content-uploaded.png)-->
 
-Dependendo se o conteúdo que está sendo carregado tiver uma pontuação de confiança de mais de 50%, o conteúdo será carregado no painel. Se o seu conteúdo atender aos critérios, você receberá uma notificação informando que o conteúdo foi selecionado com sucesso e agora está disponível no painel.
+Se o conteúdo carregado tiver uma pontuação de confiança acima de 50%, ele será enviado ao painel. Se o conteúdo atender aos critérios, você receberá uma notificação informando que o conteúdo foi selecionado com êxito e já está disponível no painel.
 
 ![](assets/curation-notification.png)
 

@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
@@ -32,4 +32,4 @@ Os administradores podem criar as medalhas para os alunos da seguinte maneira:
 
    *Adicionar um nome de medalha e sua imagem*
 
-1. Insira o nome da medalha. Carregar a medalha clicando em **[!UICONTROL Carregar medalha]** e clique em **[!UICONTROL Salvar]**.
+1. Digite o nome da medalha. Carregar a medalha clicando em **[!UICONTROL Carregar medalha]** e clique em **[!UICONTROL Salvar]**.

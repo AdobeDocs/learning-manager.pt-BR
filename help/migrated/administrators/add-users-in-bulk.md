@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Sim, você pode adicionar vários usuários de uma vez seguindo as etapas abaixo:
 
-1. Clique em **[!UICONTROL Usuários]** no painel esquerdo de login do administrador e, em seguida, clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Fazer upload de um csv]**. Uma caixa de diálogo suspensa será exibida.
+1. Clique em **[!UICONTROL Usuários]** no painel esquerdo de login do administrador e, em seguida, clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Fazer upload de um csv]**. Uma caixa de diálogo pop-up é exibida.
 
-1. É possível adicionar vários usuários usando um arquivo .CSV. Clique em **[!UICONTROL Importar]** e selecione/abra o arquivo .csv no computador.
+1. Você pode adicionar vários usuários usando um arquivo .CSV. Clique em **[!UICONTROL Importar]** e selecione/abra o arquivo .csv no computador.
 
 1. Após importar o arquivo, mapeie o conteúdo do arquivo .csv com os rótulos do aplicativo ao fazer upload do arquivo .csv pela primeira vez.
 

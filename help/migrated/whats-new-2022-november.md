@@ -1,11 +1,11 @@
 ---
 title: Novidades desta versão (novembro de 2022)
-description: Saiba mais sobre os novos recursos e aprimoramentos no Adobe Learning Manager
+description: Saiba mais sobre os novos recursos e as melhorias no Adobe Learning Manager
 hidefromtoc: true
 source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
 workflow-type: tm+mt
 source-wordcount: '1994'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
@@ -17,15 +17,15 @@ IN-PROGRESS
 <https://helpx.adobe.com/learning-manager/whats-new-nov-2022.html>
 -->
 
-## Configuração de SSO Múltiplo
+## Configuração de SSO múltiplo
 
 O Adobe Learning Manager atualmente suporta um método de logon para usuários internos e outro para usuários externos. Isso cria limitações nos casos em que os clientes têm seus funcionários e seus próprios clientes e parceiros de canal na mesma conta.
 
 Com a intenção de oferecer suporte a vários tipos de grupos de usuários que fazem logon na plataforma, o Adobe Learning Manager agora oferece suporte a vários métodos de logon por meio de configurações de SSO múltiplo para usuários internos e externos.
 
-Para obter mais informações, consulte [Logons de SSO Múltiplo](/help/migrated/administrators/feature-summary/multiple-sso-logins.md).
+Para mais informações, consulte [Logons de SSO Múltiplo](/help/migrated/administrators/feature-summary/multiple-sso-logins.md).
 
-## Suporte a recurso não conectado
+## Suporte ao recurso não conectado
 
 O portal nativo do Adobe Learning Manager agora oferece suporte a formas não registradas de acessar um portal de treinamento.
 
@@ -33,7 +33,7 @@ Os alunos agora podem descobrir e acessar o site de treinamento, verificar vári
 
 Esse recurso facilita a criação de um portal de aprendizado voltado para o cliente, no qual os alunos podem navegar por vários cursos sem estar conectados inicialmente.
 
-Para obter mais informações, consulte [Experiência não conectada para alunos](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md).
+Para mais informações, consulte [Experiência não conectada para alunos](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md).
 
 ## Melhorias na página de visão geral do treinamento
 
@@ -77,8 +77,8 @@ Você pode mostrar e ocultar várias configurações e opções do reprodutor co
 
 As várias opções que você pode alterar incluem:
 
-* Alternar o sumário
-* Observações
+* Alternar índice
+* Notas
 * Idioma
 * Velocidade
 * Legenda
@@ -87,9 +87,9 @@ As várias opções que você pode alterar incluem:
 
 ## Representação do aluno e do gerente
 
-Os administradores podem iniciar uma sessão representada na qual podem fazer logon em nome de qualquer usuário da conta na função de aluno e gerente.
+Os administradores podem iniciar uma sessão representada na qual podem fazer logon em nome de qualquer usuário na conta na função de aluno e gerente.
 
-Para obter mais informações, consulte [Representação do aluno e do gerente](/help/migrated/administrators/feature-summary/impersonation-learner-manager.md).
+Para mais informações, consulte [Representação do aluno e do gerente](/help/migrated/administrators/feature-summary/impersonation-learner-manager.md).
 
 ## Outros aprimoramentos
 
@@ -101,19 +101,19 @@ Esse log captura todos os dados relacionados aos e-mails enviados nos últimos 3
 
 Baixe o relatório em Relatórios > Relatórios personalizados > Relatórios do Excel > Relatório de e-mails. Uma notificação é exibida para que você possa baixar o relatório.
 
-Esse relatório consiste nos seguintes campos:
+Este relatório consiste nos seguintes campos:
 
 * Hora do Acionamento do E-mail (Fuso Horário UTC)
 * Hora do Status do Último Evento (Fuso Horário UTC)
 * Status da Entrega
 * E-mail do Destinatário
-* ID de Usuário Remetente
-* Assunto do Email
+* ID de Usuário do Remetente
+* Assunto do E-mail
 * Tipo de Entidade
 * Nome da Entidade
 * ID da Entidade
 
-### Notificação de aluno em lista de espera
+### Notificação de aluno na lista de espera
 
 Quando um autor adiciona uma nova instância, ele pode acionar um e-mail para notificar os alunos na lista de espera sobre outras instâncias. Os alunos recebem um e-mail da alteração.
 
@@ -157,7 +157,7 @@ Um aluno pode ver suas pesquisas recentes somente na sessão atual.
 
 ### Catálogo de cursos gratuitos do marketplace de conteúdo
 
-Um conjunto de catálogos gratuitos, de alta qualidade e selecionados com 50 cursos gratuitos já está disponível no marketplace de conteúdo para os alunos.
+Pronto para uso, um conjunto de catálogos gratuitos, de alta qualidade e selecionados com 50 cursos gratuitos já está disponível no marketplace de conteúdo para os alunos.
 
 ### Suporte ao idioma indonésio
 
@@ -197,9 +197,9 @@ Ao importar um CSV, ele contém Idioma da interface, Idioma do conteúdo e Fuso 
 
 O administrador também pode exportar o relatório, que contém os mesmos campos acima.
 
-* Idioma da interface
-* Idioma do conteúdo
-* Fuso horário
+* Idioma da Interface
+* Idioma do Conteúdo
+* Fuso Horário
 
 Além dos administradores, um administrador personalizado também pode exportar esse relatório.
 
@@ -219,12 +219,12 @@ Além dos administradores, um administrador personalizado também pode exportar 
 Se uma ID de e-mail do administrador for usada para configurar o conector VC, esse administrador específico deverá ter permissão para o seguinte:
 
 * Criar uma reunião
-* Atualizando uma reunião
-* Buscando relatório de participação
+* Atualizar uma reunião
+* Obter relatório de presença
 
 Ao criar ou atualizar a reunião de sala de aula virtual, os professores devem ENCERRAR a reunião no prazo de 30 minutos a contar da hora prevista para o seu termo.
 
-### Marcadores
+### Marcações
 
 As seguintes APIs foram adicionadas para marcar um curso na página Visão geral do treinamento:
 
@@ -247,18 +247,18 @@ Crie o projeto de migração como um administrador de integração e compartilhe
 * Versão do módulo
 * Certificação
 * Programa de aprendizado
-* Ajuda de tarefa
-* Versão de ajuda de tarefa
+* Material de ajuda
+* Versão do material de ajuda
 
 #### Especificação do CSV
 
 O Adobe Learning Manager fornece um conjunto de especificações CSV padrão para a migração ativada para várias localidades. A prática recomendada é analisar essas especificações CSV antes de iniciar o processo de migração. O administrador de integração da sua empresa pode analisar os formatos de dados existentes e mapeá-los para que correspondam aos itens de modelo CSV fornecidos do Learning Manager.
 
-#### Alterações com suporte a vários locais
+#### Alterações com suporte para várias localidades
 
-* A coluna module_version não tem suporte em module_version.csv e course_module.csv.
+* A coluna module_version não é suportada em module_version.csv e course_module.csv.
 * Não é possível atualizar module_version na mesma execução (na mesma execução, o módulo não pode ser migrado com duas versões com o mesmo módulo).
-* A atualização de conteúdo ou de metadados é considerada uma atualização da versão do módulo do module_version.csv.
+* A atualização de conteúdo ou de metadados é considerada uma atualização da versão do módulo de module_version.csv.
 * Não é possível oferecer suporte à atualização de Job_Aid_Version por meio de job_aid_version.csv
 
 ### Revogar tokens de autenticação e cookies
@@ -269,7 +269,7 @@ Assim, para limpar o cookie, introduzimos um novo ponto de extremidade, que revo
 
 **Detalhes**
 
-**Ponto de Extremidade**
+**Objetivo final**
 
 `POST oauth/o/revoke`
 
@@ -300,7 +300,7 @@ Nesta versão, tornamos algumas APIs públicas.
 
 | API | Tipo | Descrição |
 |---|---|---|
-| /social/search | GET | Pesquisar nas redes sociais. |
+| /social/search | GET | Pesquise nas redes sociais. |
 | /announcements | GET | Obtenha informações detalhadas sobre o comunicado na manchete atribuída ao aluno. |
 | /announcements/`{id}` | GET | Obtenha informações detalhadas sobre o comunicado na manchete atribuída ao aluno. |
 | /learningObjects/`{id}`/loResources/{loResourcesId} | GET | Carregue a url do arquivo para o loResource do resourceType &#39;Activity&#39;, onde o envio do arquivo é necessário. |
@@ -313,7 +313,7 @@ Nesta versão, tornamos algumas APIs públicas.
 | /avatar | POST | Atualiza a imagem do avatar do aluno com uma nova imagem. |
 | /avatar | DELETE | Exclui a imagem do avatar do aluno. |
 
-### Aplicativo do Salesforce
+### Aplicativo Salesforce
 
 O **Ignorar OA de ordem superior** deve estar ativada no aplicativo Salesforce para que todos os cursos, programas de aprendizado e certificados possam ser exibidos ao mesmo tempo.
 
@@ -322,16 +322,16 @@ O **Ignorar OA de ordem superior** deve estar ativada no aplicativo Salesforce p
 Nesta versão, fornecemos APIs para personalizar um reprodutor. Você pode:
 
 * Iniciar ou carregar o reprodutor.
-* Navegue até um módulo específico.
-* Alternar Sumário.
-* Alterar idioma.
-* Feche o reprodutor.
+* Navegar até um módulo específico.
+* Alternar o Sumário.
+* Alterar o idioma.
+* Fechar o reprodutor.
 * Reproduzir, pausar, avançar, retroceder, buscar, alterar volume ou alterar velocidade.
 * Capturar eventos emitidos pelo reprodutor.
 
 ### Mostrar a posição da lista de espera de um aluno
 
-GET /enrollments/{id}A API /waitlistPosition na API do LO recupera a posição da lista de espera de um usuário para uma inscrição especificada.
+A API GET /enrollments/{id}/waitlistPosition na API do LO recupera a posição da lista de espera de um usuário para uma inscrição especificada.
 
 ### Envio da data de conclusão em certificações externas
 
@@ -357,6 +357,6 @@ Para obter informações sobre as versões atuais e anteriores do aplicativo Web
 
 Para ver os erros corrigidos nesta atualização, consulte a seção [Lista de erros corrigidos](release-note/release-notes.md#bugs-fixed-in-this-release).
 
-## Requisitos de sistema
+## Requisitos do sistema
 
 [Requisitos de sistema do Learning Manager](/help/migrated/system-requirements.md)

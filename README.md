@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 # Artigo do Contribute
@@ -11,7 +11,7 @@ Damos as boas-vindas às contribuições de nossa comunidade, bem como de funcio
 
 ## Código de Conduta de Código Aberto do Adobe
 
-Este projeto adotou a [Código de Conduta de Código Aberto do Adobe](code-of-conduct.md) ou o [Código de Conduta do .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Para obter mais informações, consulte o [Contribuindo](contributing.md) artigo.
+Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-conduct.md) ou o [Código de conduta do .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Para obter mais informações, consulte o artigo [Contribuição](contributing.md).
 
 ## Sobre suas contribuições para o conteúdo do Adobe
 

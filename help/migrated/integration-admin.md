@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Administrador de integração
-description: Administrador de integração
+title: Administrador de Integração
+description: Administrador de Integração
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# Administrador de integração
+# Administrador de Integração
 
 <table> 
  <tbody>
@@ -29,5 +29,5 @@ ht-degree: 0%
 
 * [Conectores do Learning Manager](integration-admin/feature-summary/connectors.md)
 * [Manual do desenvolvedor de aplicativos](integration-admin/feature-summary/developer-manual.md)
-* [Aplicativo do Salesforce](integration-admin/feature-summary/sfdc-app.md)
+* [Aplicativo Salesforce](integration-admin/feature-summary/sfdc-app.md)
 

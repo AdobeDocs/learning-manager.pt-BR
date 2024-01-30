@@ -3,10 +3,10 @@ description: O Learning Manager apresenta o Catálogo de Conteúdo
 jcr-language: en_us
 title: Catálogo de Conteúdo do Learning Manager
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 6ab762701908a280325fd6a60bf49f87a2a60da7
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 32%
 
 ---
 
@@ -23,15 +23,15 @@ O Catálogo de Conteúdo não é suportado em uma instância do Azure no Learnin
 
 O Learning Manager apresenta o Catálogo de conteúdo, uma base de conteúdo pronta para uso que você pode comprar. Você pode comprar os cursos prontos para uso, como cursos sobre habilidades empresariais, conformidade do local de trabalho, Adobe creative cloud e tecnologia, no nosso marketplace de conteúdo selecionado.
 
-No painel esquerdo, clique em Marketplace de Conteúdo e, em seguida, clique em **[!UICONTROL Treinamento de Creative Cloud]**.
+No painel esquerdo, clique em Marketplace de Conteúdo e, em seguida, clique em **[!UICONTROL Treinamento do Creative Cloud]**.
 
 <!--![](assets/content-catalog.png)-->
 
-Para ver os detalhes do catálogo e os cursos em cada um dos catálogos, clique em **[!UICONTROL Exibir]**. A nova janela mostra todos os cursos.
+Para ver os detalhes e os cursos do catálogo em cada catálogo, clique em **[!UICONTROL Ver]**. A nova janela mostra todos os cursos.
 
 <!--![](assets/course-details.png)-->
 
-Para ver os detalhes do curso, clique em **[!UICONTROL Visitar]**. Use as caixas de seleção para selecionar os cursos nos quais está interessado.
+Para ver os detalhes do curso, clique em **[!UICONTROL Visitar]**. Use as caixas de seleção para selecionar os cursos nos quais você está interessado.
 
 * Você pode compartilhar os cursos selecionados com seus colegas selecionando  **[!UICONTROL Compartilhar]**.
 * Você pode entrar em contato com o Adobe selecionando  **[!UICONTROL Adobe de contato]**.

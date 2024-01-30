@@ -5,7 +5,7 @@ title: Iniciando como professor no Learning Manager
 source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 93%
 
 ---
 

@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -42,8 +42,8 @@ O problema ocorre devido ao seguinte:
 ### Configurações de exibição
 
 1. Clique em **[!UICONTROL Início]** > **[!UICONTROL Configurações]** > **[!UICONTROL Sistema]**.
-1. Clique em **[!UICONTROL Exibição]**.
-1. Sob a **[!UICONTROL Dimensionar e layout]** use a lista suspensa. Altere as configurações para 100%.
+1. Clique em **[!UICONTROL Exibir]**.
+1. Na seção **[!UICONTROL Escala e layout]**, use a lista suspensa. Altere as configurações para 100%.
 
    ![](assets/scale-layout.png)
 

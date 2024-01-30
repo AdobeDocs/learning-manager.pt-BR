@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 0%
+ht-degree: 51%
 
 ---
 
@@ -32,7 +32,7 @@ O Learning Manager oferece um pacote do aplicativo Salesforce. Depois de instala
 ### Criar conta no aplicativo Salesforce
 
 1. Crie uma conta na página de inscrição do Salesforce. Você deve criar uma conta do Salesforce na edição para desenvolvedores ou corporativa.  [URL de inscrição do desenvolvedor](https://developer.salesforce.com/signup). Certifique-se de usar a ID de e-mail para se inscrever no Salesforce que você usou para o Learning Manager.
-1. Verifique sua conta por meio do e-mail de verificação.
+1. Verifique a sua conta por meio do e-mail de verificação.
 1. Crie uma senha e faça logon no Salesforce.
 1. Anote o URL do Salesforce após o logon (por exemplo, site.lightning.force.com)
 
@@ -58,12 +58,12 @@ Se quiser instalar o pacote, primeiro exclua o pacote existente no Salesforce. A
 1. Para configurar o aplicativo, clique em **[!UICONTROL Configurar]**.
 1. Clique em **[!UICONTROL Novo]** e adicione os seguintes detalhes:
 
-   * **Configuração:** Insira um nome de sua escolha.
+   * **Config:** insira um nome de sua escolha.
    * **ClientID**: insira o valor obtido na primeira seção.
    * **ClientSecret:** Insira o valor obtido na primeira seção.
    * **RefreshToken:** Insira o valor obtido na primeira seção.
    * **URL de base do LearningManager:** O URL do site onde o Learning Manager está hospedado.
-   * **Desativar redirecionamento:** Desative o redirecionamento para a página inicial do aluno no Learning Manager.
+   * **Desativar redirecionamento:** desative o redirecionamento para a página inicial do aluno no Learning Manager.
 
 >[!NOTE]
 >
@@ -76,8 +76,8 @@ Se quiser instalar o pacote, primeiro exclua o pacote existente no Salesforce. A
 1. Clique em **[!UICONTROL Novo site remoto]**.
 1. Insira os detalhes:
 
-   1. **Nome do site remoto:** Insira um nome de sua escolha.
-   1. **URL do site remoto:** O URL do site onde o Learning Manager está hospedado.
+   1. **Nome do site remoto:** insira um nome de sua escolha.
+   1. **URL do site remoto:** o URL do site onde o Learning Manager está hospedado.
 
 1. Inicie o Learning Manager.
 
@@ -138,7 +138,7 @@ Selecione os usuários e atribua as permissões adequadamente. Os alunos agora p
 
 Agora, selecione um perfil, por exemplo, Perfil padrão de um usuário e clique no perfil. Clique em **[!UICONTROL Editar]** e no **Configurações do aplicativo personalizado** , ative a caixa de seleção **Adobe Learning Manager**. Isso torna o aplicativo acessível ao usuário.
 
-No menu **Configurações da guia personalizada** , na seção **Página inicial do aluno** , selecione a opção **[!UICONTROL Padrão Ativado]**.
+Na seção **Configurações da guia personalizada**, na lista suspensa **Página inicial do aluno**, selecione a opção **[!UICONTROL Padrão ativado]**.
 
 Você deve tornar o aplicativo visível para todos os perfis.
 

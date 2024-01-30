@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '2224'
-ht-degree: 0%
+ht-degree: 63%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esse recurso ajuda a definir funções personalizadas e atribuir responsabilidades específicas a um conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 
-Você pode criar uma função personalizada para fornecer recursos de criação limitados a um catálogo específico. Você também pode criar uma função dedicada para gerenciar relatórios. Essas funções podem então ser atribuídas a indivíduos que devem assumir essas responsabilidades específicas.
+Você pode criar uma função personalizada para fornecer habilidades limitadas de criação de um catálogo específico. Também pode criar uma função dedicada ao gerenciamento de relatórios. Tais funções podem, então, ser atribuídas a indivíduos que deveriam assumir essas responsabilidades específicas.
 
 ## Criar uma função personalizada {#create-role}
 
@@ -28,7 +28,7 @@ Você pode criar uma função personalizada para fornecer recursos de criação 
    *Criar uma função personalizada*
 
 1. Insira o nome no campo **[!UICONTROL Nome da Função]** campo.
-1. **[!UICONTROL Privilégios da conta]**: Esses privilégios concedem aos proprietários da função acesso a aspectos específicos de configuração do sistema e que atuam na conta inteira. Escolha as permissões de acesso. O usuário obtém controle total sobre as permissões atribuídas.
+1. **[!UICONTROL Privilégios da conta]**: Esses privilégios concedem aos proprietários da função acesso a aspectos específicos de configuração do sistema e que atuam na conta inteira. Escolha as permissões de acesso. O usuário recebe controle total sobre as permissões atribuídas.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Você pode criar uma função personalizada para fornecer recursos de criação 
 
 *Definir o escopo*
 
-1. **Privilégios do recurso - recursos principais**: usado para conceder acesso a recursos específicos para gerenciar atividades de aprendizado. As permissões para os seguintes recursos podem ser fornecidas usando essa opção.
+1. **Privilégios do recurso - recursos principais**: usado para conceder acesso a recursos específicos para gerenciar atividades de aprendizado. Através dessa opção é possível conceder permissões aos recursos a seguir.
 
    * Catálogos
    * Relatórios
@@ -52,16 +52,16 @@ Você pode criar uma função personalizada para fornecer recursos de criação 
 1. **Privilégios do recurso- Objetos de aprendizado:**  Use esta opção para fornecer acesso aos recursos relacionados aos OAs. Você pode fornecer acesso aos seguintes LOs.
 
    * Certificações
-   * Cursos
+   * Cursos 
    * Ajudas de tarefa
    * Programas de aprendizado
 
-   Você também pode conceder controle de operação específico para os OAs. A permissão pode ser uma das seguintes:
+   Você também pode conceder controle de operação específico para os OAs. A permissão pode ser uma das seguintes opções:
 
    * Controle total
    * Editar e excluir
    * Inscrição
-   * Denunciar
+   * Relatório
 
    ![](assets/learning-objects.png)
 
@@ -69,15 +69,15 @@ Você pode criar uma função personalizada para fornecer recursos de criação 
 
 1. **Escopo para privilégios de recurso:** O escopo dos privilégios de Recurso alocados para esta função pode ser restrito a um Grupo de Usuários específico ou a um ou mais Catálogos.
 
-   Catálogos: use o botão de opção para fornecer controle sobre **[!UICONTROL Todos os catálogos]** ou use o **[!UICONTROL Definir acesso por catálogo]** opção para fornecer acesso a catálogos específicos. Você também pode selecionar vários catálogos.
+   Catálogos: use o botão de opção para fornecer controle sobre **[!UICONTROL Todos os catálogos]** ou use a opção **[!UICONTROL Definir acesso por catálogo]** para fornecer acesso a catálogos específicos. Também é possível selecionar vários catálogos.
 
-   Grupos de usuários: fornecer acesso a **[!UICONTROL Todos os grupos de usuários]** ou use o **[!UICONTROL Definir acesso por grupo de usuários]** opção para fornecer acesso a grupos de usuários específicos. Somente um único grupo de usuários pode ser especificado.
+   Grupos de usuários: forneça acesso a **[!UICONTROL Todos os grupos de usuários]** ou use a opção **[!UICONTROL Definir acesso por grupo de usuários]** para fornecer acesso a grupos de usuários específicos. É possível especificar apenas um grupo de usuários.
 
    >[!NOTE]
    >
    >Se você selecionou Anúncio, Gamificação, Modelos de email, Habilidades e usuários em Privilégios da conta, o acesso ao grupo de usuários é fornecido a todos os grupos de usuários por padrão e essa opção é desativada.
 
-   Se você selecionou Planos de aprendizado em Privilégios de conta, o acesso a todos os catálogos e grupos de usuários é fornecido por padrão e essas opções em Escopo estão desativadas.
+   Se tiver selecionado Planos de aprendizado em Privilégios da conta, o acesso a todos os Catálogos e Grupos de usuários é fornecido por padrão e estas opções estão desativas em Escopo.
 
    ![](assets/define-scope-of-privileges.png)
 
@@ -85,13 +85,13 @@ Você pode criar uma função personalizada para fornecer recursos de criação 
 
 >[!NOTE]
 >
->   No Learning Manager 27.6, você pode criar uma função personalizada que estará no escopo de vários catálogos e a cada catálogo será concedido um conjunto diferente de permissões.
+>   No Learning Manager 27.6, é possível criar uma função personalizada que estará no escopo de vários catálogos e a cada catálogo será concedido um conjunto diferente de permissões.
 
 
-Para conceder várias permissões aos catálogos, siga as etapas abaixo:
+Para obter mais permissões para os catálogos, siga as etapas abaixo:
 
 1. Clique na opção **[!UICONTROL Definir acesso por catálogo]**.
-1. Escolha os catálogos e você poderá ver o nível de permissão para cada catálogo. As permissões são as seguintes:
+1. Escolha os catálogos para você poder ver o nível de permissão de cada catálogo. As permissões são as seguintes:
 
    <table>
         <tbody>
@@ -105,49 +105,49 @@ Para conceder várias permissões aos catálogos, siga as etapas abaixo:
           <td>
           <p>Controle total</p></td>
           <td>
-          <p>Concede Controle Total sobre todos os Objetos de Aprendizado. As permissões incluem adicionar, editar, excluir, ler, inscrever e relatar.<br></p></td>
+          <p>Concede o controle total em todos os objetos de aprendizado. As permissões incluem adicionar, editar, excluir, ler, inscrever e relatar.<br></p></td>
         </tr>
         <tr>
           <td>
-          <p>Denunciar</p></td>
+          <p>Relatório</p></td>
           <td>
-          <p>Concede acesso à guia Relatórios somente do Objeto de aprendizado.</p></td>
+          <p>Concede acesso somente à guia Relatórios do objeto de aprendizado.</p></td>
         </tr>
         <tr>
           <td>
-          <p>Inscrever-se</p></td>
+          <p>Inscrever</p></td>
           <td>
-          <p>Concede permissão para se inscrever apenas no Objeto de aprendizado.</p></td>
+          <p>Concede permissão para inscrições somente no objeto de aprendizado.</p></td>
         </tr>
         <tr>
           <td>
           <p>Somente leitura</p></td>
           <td>
-          <p>Concede permissão para exibir apenas os objetos de aprendizado no catálogo.</p></td>
+          <p>Concede permissão somente para ver os objetos de aprendizado no catálogo.</p></td>
         </tr>
         </tbody>
       </table>
 
-1. Ative ou desative as permissões de acordo com seus requisitos.
-1. Para salvar as alterações, clique em **[!UICONTROL OK]**. Em seguida, para salvar as alterações para a Função personalizada, clique em **[!UICONTROL Salvar]**.
+1. Ative ou desative as permissões de acordo com suas necessidades.
+1. Para salvar as alterações, clique em **[!UICONTROL OK]**. Em seguida, para salvar as alterações na Função personalizada, clique em **[!UICONTROL Salvar]**.
 
-Por exemplo, considere o seguinte cenário.
+Considere, por exemplo, o seguinte cenário.
 
-A permissão resultante, que um usuário personalizado teria em um Objeto de aprendizado, é uma interseção da Permissão do objeto de aprendizado e da Permissão do catálogo.
+A permissão resultante, que um usuário personalizado teria em um objeto de aprendizado, é uma interseção da permissão do objeto de aprendizado e da permissão do catálogo.
 
-Um usuário personalizado tem permissão completa nos cursos e acesso de somente leitura no catálogo A, mas tem permissão completa no catálogo B. Os resultados são acesso somente leitura nos cursos do Catálogo A e controle total sobre os cursos do Catálogo B.
+Um usuário personalizado tem permissão completa nos cursos e acesso de somente leitura no catálogo A, mas tem permissão completa no catálogo B. Os resultados são acesso de somente leitura nos cursos do catálogo A e controle total nos cursos do catálogo B.
 
-Um usuário com uma Função personalizada pode:
+Os usuários com função personalizada podem:
 
-* Exiba apenas o conteúdo dos catálogos aos quais ele tem acesso.
-* Acesse qualquer objeto de aprendizado com base nas permissões do catálogo do qual o objeto de aprendizado faz parte.
+* Ver somente o conteúdo dos catálogos aos quais eles têm acesso.
+* Acessar qualquer objeto de aprendizado com base nas permissões do catálogo do qual o objeto de aprendizado faz parte.
 
 Como administrador, você pode:
 
-* Escolha mais de um catálogo para uma Função Personalizada.
-* Modifique as permissões de um catálogo a qualquer momento.
-* Remova os catálogos de um escopo ao qual você não deseja mais conceder permissões.
-* Conceder implicitamente permissão Somente Leitura a um catálogo, ao conceder permissões ao catálogo.
+* Escolher mais de um catálogo para uma função personalizada.
+* Modificar as permissões de um catálogo a qualquer momento.
+* Remover os catálogos de um escopo para o qual você não deseja mais conceder permissões.
+* Conceder implicitamente a permissão Somente leitura para um catálogo, ao conceder permissões para o catálogo.
 
 A tabela abaixo ilustra como as permissões são concedidas.
 
@@ -166,9 +166,9 @@ A tabela abaixo ilustra como as permissões são concedidas.
       <td>
        <p>Controle total</p></td>
       <td>
-       <p>Inscrever-se</p></td>
+       <p>Inscrever</p></td>
       <td>
-       <p>Denunciar</p></td>
+       <p>Relatório</p></td>
       <td>
        <p>Somente leitura</p></td>
      </tr>
@@ -178,19 +178,19 @@ A tabela abaixo ilustra como as permissões são concedidas.
       <td>
        <p>Controle total</p></td>
       <td>
-       <p>Inscrever-se</p></td>
+       <p>Inscrever</p></td>
       <td>
-       <p>Denunciar</p></td>
+       <p>Relatório</p></td>
       <td>
        <p>Somente leitura</p></td>
      </tr>
      <tr>
       <td>
-       <p>Inscrever-se</p></td>
+       <p>Inscrever</p></td>
       <td>
-       <p>Inscrever-se</p></td>
+       <p>Inscrever</p></td>
       <td>
-       <p>Inscrever-se</p></td>
+       <p>Inscrever</p></td>
       <td>
        <p>Somente leitura</p></td>
       <td>
@@ -210,13 +210,13 @@ A tabela abaixo ilustra como as permissões são concedidas.
      </tr>
      <tr>
       <td>
-       <p>Denunciar</p></td>
+       <p>Relatório</p></td>
       <td>
-       <p>Denunciar</p></td>
+       <p>Relatório</p></td>
       <td>
        <p>Somente leitura</p></td>
       <td>
-       <p>Denunciar</p></td>
+       <p>Relatório</p></td>
       <td>
        <p>Somente leitura</p></td>
      </tr>
@@ -239,7 +239,7 @@ Coluna CustomRoleObservação:
 
 ## Restringir o acesso de pasta para autores personalizados {#folder-custom-author}
 
-O Learning Manager já é compatível com a capacidade de fornecer acesso à biblioteca de conteúdo usando funções personalizadas. Todos os autores personalizados que já têm acesso à biblioteca de conteúdo continuarão a ter acesso a todos os arquivos de conteúdo mesmo depois que as pastas de conteúdo forem configuradas. Isso serve para manter o comportamento herdado. Os administradores não precisam fazer alterações caso desejem continuar com o comportamento atual.
+O Learning Manager já é compatível com a capacidade de fornecer acesso à biblioteca de conteúdo usando funções personalizadas. Todos os autores personalizados que já têm acesso à biblioteca de conteúdo continuarão a ter acesso a todos os arquivos de conteúdo mesmo depois que as pastas de conteúdo forem configuradas. Isso é para manter o comportamento herdado. Os administradores não precisam fazer alterações caso desejem continuar com o comportamento atual.
 
 Caso desejem restringir o acesso a esses autores personalizados, os administradores precisam editar a função personalizada existente e configurá-la, fornecendo acesso apenas a pastas de conteúdo específicas.
 
@@ -247,9 +247,9 @@ Caso desejem restringir o acesso a esses autores personalizados, os administrado
 
 *Restringir o acesso de pasta para autores personalizados*
 
-Ao criar um autor personalizado, agora é possível atribuir pastas de conteúdo ao autor. Escolha a opção **Pastas selecionadas**.
+Ao criar um autor personalizado, será possível atribuir pastas de conteúdo ao autor. Escolha a opção **Pastas selecionadas**.
 
-Depois de clicar na opção, uma nova caixa de diálogo é aberta, na qual você pode atribuir as pastas ao autor personalizado.
+Depois de clicar na opção, uma nova caixa de diálogo é aberta. Nela, você poderá atribuir as pastas ao autor personalizado.
 
 ![](assets/choose-folder.png)
 
@@ -257,7 +257,7 @@ Depois de clicar na opção, uma nova caixa de diálogo é aberta, na qual você
 
 Escolha as pastas e clique em **[!UICONTROL OK]**.
 
-## Painel Resumo do aprendizado para administrador personalizado {#custom-admin-dashboard}
+## Painel de resumo de aprendizado para Administração personalizada {#custom-admin-dashboard}
 
 Os administradores personalizados podem ver a mesma exibição que um administrador vê. Um administrador personalizado pode ter dados fora deste escopo. Isso só é aplicável se o administrador personalizado tiver escopo completo. Para conceder um escopo completo, ao criar um administrador personalizado, ative a opção **[!UICONTROL Controle total]** no Relatório Resumido da Conta.
 
@@ -280,29 +280,29 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
   <tr>
    <th>Tipo de acesso</th>
    <th>Permissão de entidade concedida pelo administrador</th>
-   <th>Permissão de Entidade Implícita</th>
+   <th>Permissão implícita de entidade</th>
    <th>Acesso implícito</th>
   </tr>
   <tr>
    <td>Gerenciar</td>
    <td>Usuário</td>
-   <td>Agrupar</td>
-   <td>Crud</td>
+   <td>Grupo</td>
+   <td>Criar, ler, atualizar e excluir</td>
   </tr>
   <tr>
-   <td>Inscrever-se</td>
-   <td>Todas as perdas (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
+   <td>Inscrever</td>
+   <td>Qualquer objeto de aprendizado (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
    <td>Usuário<br>
      Plano de aprendizado</td>
-   <td>Leitura</td>
+   <td>Ler</td>
   </tr>
   <tr>
    <td>Criar</td>
    <td>
     <p>Grupo de conteúdo<br>
       Ajuda de tarefa<br></p></td>
-   <td>Tag</td>
-   <td>Leitura</td>
+   <td>Etiqueta</td>
+   <td>Ler</td>
   </tr>
   <tr>
    <td>Criar</td>
@@ -312,7 +312,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
      Habilidade<br>
      Medalha<br>
      Ajuda de tarefa</td>
-   <td>Ler tudo</td>
+   <td>Leitura em todos</td>
   </tr>
   <tr>
    <td>Criar</td>
@@ -322,7 +322,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
      Tag<br>
      Habilidade<br>
      Medalha</td>
-   <td>Leitura</td>
+   <td>Ler</td>
   </tr>
   <tr>
    <td>Criar</td>
@@ -331,7 +331,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
      Agrupar<br>
      Habilidade<br>
      Todas as perdas (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
-   <td>Leitura</td>
+   <td>Ler</td>
   </tr>
   <tr>
    <td>Criar</td>
@@ -339,77 +339,77 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
    <td>Usuário<br>
      Agrupar<br>
      Todas as perdas (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
-   <td>Leitura</td>
+   <td>Ler</td>
   </tr>
   <tr>
    <td>Criar</td>
    <td>Gamificação</td>
    <td>Marca</td>
-   <td>Gravar</td>
+   <td>Escrever</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Usuário</td>
    <td>Faturamento</td>
-   <td>Leitura</td>
+   <td>Ler</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Catálogo</td>
    <td>Agrupar<br>
      Todas as perdas (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
-   <td>Leitura</td>
+   <td>Ler</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Configuração</td>
    <td>Marca<br>
      Usuário</td>
-   <td>Leitura</td>
+   <td>Ler</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Marca</td>
    <td>Configuração</td>
-   <td>Leitura</td>
+   <td>Ler</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Faturamento<br>
      Gamificação</td>
    <td>Usuário</td>
-   <td>Leitura</td>
+   <td>Ler</td>
   </tr>
  </tbody>
 </table>
 
 ## Acessar uma função personalizada {#accessacustomrole}
 
-Quando um administrador atribui uma função personalizada, você recebe uma notificação por email.
+Quando um administrador atribui uma função personalizada, você recebe uma notificação por e-mail.
 
-Observação: Se já estiver conectado ao Learning Manager com uma função personalizada, será necessário efetuar o login novamente no Learning Manager para acessar a nova função.
+Observação: Se já tiver feito logon no Learning Manager com uma função personalizada, você precisará fazer logon novamente no Learning Manager para acessar a nova função.
 
-Para alternar entre as funções, clique no ícone do seu perfil no canto superior direito do Learning Manager e selecione a função.
+Para alternar entre funções, clique no ícone do perfil no canto superior direito do Learning Manager e selecione a função.
 
-## Planos de aprendizado com escopo de funções configuráveis {#scopeconfigure}
+## Planos de aprendizado com escopo definido por funções configuráveis {#scopeconfigure}
 
-Em versões anteriores do Learning Manager, qualquer função personalizada com permissão para criar planos de aprendizado podia definir o escopo do plano de aprendizado para todos os tipos de grupos de usuários e objetos de aprendizado.
+Em versões anteriores do Learning Manager, qualquer função personalizada com permissão para criar planos de aprendizado podia ampliar o escopo do plano de aprendizado a todos os tipos de grupos de usuários e objetos de aprendizado.
 
 A configuração do escopo costumava ser desativada quando o acesso ao plano de aprendizado era concedido, o que dava ao usuário acesso a Todos os catálogos e Todos os grupos de usuários por padrão.
 
-Todos os planos de aprendizado criados por um administrador, por padrão, são aplicáveis a todos os usuários. Os usuários também podem ser atribuídos a qualquer Objeto de aprendizado. Por outro lado, os usuários com funções personalizadas têm acesso a escopos completos, por exemplo, todos os catálogos, objetos de aprendizado ou grupos de usuários. Isso significava que os administradores não conseguiam criar funções personalizadas conforme o esperado, o que permitia o acesso aos planos de aprendizado para usuários com escopo limitado.
+Todos os planos de aprendizado criados por um administrador, por padrão, são aplicáveis a todos os usuários. Os usuários também podem ser atribuídos a qualquer objeto de aprendizado. Por outro lado, os usuários com funções personalizadas têm acesso a escopos completos, por exemplo, todos os catálogos, objetos de aprendizado ou grupos de usuários. Isso significava que os administradores não conseguiam criar funções personalizadas conforme o esperado, o que permitia o acesso a planos de aprendizado aos usuários com escopo limitado.
 
-Nesta atualização do Learning Manager, você pode criar funções personalizadas para planos de aprendizado que permitem o escopo dos usuários e objetos de aprendizado. Em outras palavras, os planos de aprendizado podem ser criados com um escopo limitado derivado do escopo de função de um administrador personalizado.
+Nesta atualização do Learning Manager, você pode criar funções personalizadas para os planos de aprendizado que permitem criar o escopo de usuários e objetos de aprendizado. Em outras palavras, os Planos de aprendizado podem ser criados com um escopo limitado, derivado do escopo da função de um administrador personalizado.
 
-Agora, um administrador pode definir ou restringir o escopo ao conceder acesso ao gerenciamento do plano de aprendizado.
+Agora, um Administrador pode definir ou restringir o escopo enquanto concede acesso ao gerenciamento do plano de aprendizado.
 
-Os administradores personalizados podem criar planos de aprendizado com um escopo limitado, determinado pelo escopo da função configurável do administrador personalizado. Esses planos de aprendizado só são acessíveis a administradores personalizados com a mesma função, além de serem acessíveis a administradores comuns. Além disso, os administradores personalizados não podem ver nenhum outro plano de aprendizado na conta.
+Os administradores personalizados podem criar planos de aprendizado com um escopo limitado, determinado pelo escopo da função configurável do administrador personalizado. Esses planos de aprendizado estão acessíveis somente a administradores personalizados com a mesma função, além de estarem acessíveis a administradores normais. Além disso, os administradores personalizados não podem ver outros planos de aprendizado na conta.
 
-Os administradores personalizados existentes, que têm acesso aos planos de aprendizado, sempre terão escopo completo (por definição). Eles terão acesso a todos os planos de aprendizado na conta, assim como os administradores regulares têm. Novas funções personalizadas criadas com escopo completo e novos administradores personalizados adicionados a essas funções continuarão a ter acesso a todos os planos de aprendizado.
+Os administradores personalizados existentes, que têm acesso aos planos de aprendizado, sempre terão escopo completo (por definição). Eles terão acesso a todos os planos de aprendizado na conta como fazem os administradores normais. Novas funções personalizadas criadas com escopo completo e novos administradores personalizados adicionados a essas funções continuarão a ter acesso a todos os planos de aprendizado.
 
-Os planos de aprendizado criados por administradores e administradores personalizados de escopo completo serão criados normalmente e não serão limitados pelo escopo.
+Os planos de aprendizado criados por administradores e administradores personalizados de escopo completo serão criados como de costume e não serão limitados pelo escopo.
 
-Na seção **Escopo para Privilégios de Recurso**, conceda acesso a Grupos de usuários e/ou Catálogo para a Função personalizada.
+Na seção **Escopo dos privilégios do recurso**, conceda acesso a grupos de usuários e/ou catálogo para a função personalizada.
 
 ![](assets/scope-for-featureprivileges.png)
 
@@ -431,39 +431,39 @@ Agora, este plano de aprendizado é aplicável ao aluno apenas se o usuário tam
 
 <!--![](assets/add-learner-to-thegroup.png)-->
 
-O administrador personalizado pode selecionar qualquer grupo de usuários que tenha usuários do grupo de usuários com escopo da função.
+O administrador personalizado pode selecionar qualquer grupo de usuários dentro do grupo de usuários com escopo da função.
 
-Quando um usuário é adicionado ao grupo especificado, somente os usuários que já fazem parte do grupo de usuários com escopo do plano de aprendizado e foram adicionados ao grupo de usuários especificado serão atribuídos ao Objeto de aprendizado.
+Quando um usuário é adicionado ao grupo especificado, somente os usuários que já fazem parte do grupo de usuários com escopo do plano de aprendizado e foram adicionados ao grupo de usuários especificado serão atribuídos ao objeto de aprendizado.
 
 ## Alteração no escopo {#changeinscope}
 
-Quando o administrador altera o escopo da função personalizada, a alteração também é transmitida em cascata para o administrador personalizado. Quando o administrador personalizado escolhe um plano de aprendizado que já estava no escopo de uma função personalizada anterior, uma mensagem é exibida, conforme mostrado abaixo:
+Quando o administrador altera o escopo da função personalizada, a alteração também ocorre em cadeia no administrador personalizado. Quando o administrador personalizado escolhe um plano de aprendizado que já foi definido por uma função personalizada anterior, uma mensagem é exibida, conforme mostrado abaixo:
 
 ![](assets/change-scope.png)
 
 *Mensagem após alterações de escopo*
 
-O administrador personalizado agora deve atualizar ou atualizar o escopo anterior para o novo escopo.
+O administrador personalizado agora deve atualizar o escopo anterior para o novo escopo.
 
-Clicando **[!UICONTROL Atualizar Escopo]** atualiza o escopo. Há uma mensagem de aviso que é exibida.
+Clicar em **[!UICONTROL Atualizar escopo]** atualiza o escopo. É exibida uma mensagem de aviso.
 
 ![](assets/refresh-scope-message.png)
 
 *Mensagem de aviso após atualizar um escopo*
 
-Clicando **[!UICONTROL Sim]** atualiza o escopo.
+Clicar em **[!UICONTROL Sim]** atualiza o escopo.
 
 ## Adicionar relatório de gamificação a uma função personalizada {#gamification-custom}
 
 Um administrador pode ativar relatórios de gamificação para um usuário personalizado.
 
-1. No menu **[!UICONTROL Funções personalizadas]** insira o nome da função personalizada.
+1. Na página **[!UICONTROL Funções personalizadas]**, digite o nome da função personalizada.
 1. No menu **[!UICONTROL Privilégios do recurso: recursos principais]** , ative a opção **[!UICONTROL Controle total]** para a categoria **[!UICONTROL Relatórios]**.
 
 1. Na seção **[!UICONTROL Usuários]**, selecione o usuário ao qual será atribuída a função personalizada recém-criada.
 1. Clique em **[!UICONTROL Salvar]**.
 
-Quando um usuário faz logon como administrador personalizado e clica em **[!UICONTROL Relatórios]** no painel esquerdo, as transcrições são exibidas, conforme mostrado abaixo:
+Quando um usuário faz logon como administrador personalizado e clica em **[!UICONTROL Relatórios]** no painel esquerdo, são exibidas as transcrições, conforme mostrado abaixo:
 
 ![](assets/download-gamificationtranscripts.png)
 
@@ -471,9 +471,9 @@ Quando um usuário faz logon como administrador personalizado e clica em **[!UIC
 
 Clique em **[!UICONTROL Transcrições de gamificação]**, escolha um usuário e gere o relatório.
 
-Se um administrador alterar os pontos de nível, os relatórios mostrarão níveis de acordo com os pontos atuais.
+Se um administrador alterar os pontos de nível, os relatórios mostrarão os níveis de acordo com os pontos atuais.
 
-Redefinir a gamificação não redefine a data de nível atingido.
+Redefinir gamificação não redefine o nível atingido.
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
@@ -481,5 +481,5 @@ Redefinir a gamificação não redefine a data de nível atingido.
 
 Uma função personalizada é como um subconjunto de uma função de autor ou administrador. Permita um ou vários privilégios, defina o escopo e atribua a função a um usuário.
 
-Clique em **[!UICONTROL Usuários]** > **[!UICONTROL Funções personalizadas]**. Na página Funções personalizadas, clique em **[!UICONTROL Criar Função]**. Insira o nome da função personalizada e defina os privilégios para a função. Para obter mais informações, consulte [Criar uma função personalizada](custom-role.md#create-role).
+Clique em **[!UICONTROL Usuários]** > **[!UICONTROL Funções personalizadas]**. Na página Funções personalizadas, clique em **[!UICONTROL Criar função]**. Insira o nome da função personalizada e defina os privilégios para a função. Para mais informações, consulte [Criar uma função personalizada](custom-role.md#create-role).
 +++

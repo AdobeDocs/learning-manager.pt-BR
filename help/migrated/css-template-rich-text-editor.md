@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Por que a CSS é necessária?
 
-O rich text é composto de marcação HTML. A renderização da marcação como está resultaria no estilo padrão aplicado pelo navegador. Isso geralmente não dá certo com as diretrizes de estilo da empresa. Uma CSS é necessária para atender às diretrizes.
+O Rick Text é composto de marcação HTML. A renderização da marcação como está resultaria no estilo padrão aplicado pelo navegador. Isso geralmente não dá certo com as diretrizes de estilo da empresa. É necessária uma CSS para atender às diretrizes.
 
 ## Estilo padrão
 

@@ -1,12 +1,12 @@
 ---
-description: Logon de usuário como gerente no Learning Manager.
+description: Login do usuário como um gerente no Learning Manager.
 jcr-language: en_us
 title: Logon de usuário
 contentowner: manochan
 source-git-commit: 7f34a1781e009b8255530111e3cbec4df3ed28c1
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Logon de usuário
 
-Logon de usuário como gerente no Learning Manager.
+Login do usuário como um gerente no Learning Manager.
 
 Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua conta seguindo as etapas abaixo:
 
@@ -28,7 +28,7 @@ Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua cont
 
    *Fazer logon no Adobe Learning Manager*
 
-1. Insira Adobe ID e senha, e clique em Fazer logon.
+1. Insira a ID Adobe e a senha, e clique em Entrar.
 
    Se você esqueceu a senha, clique em Esqueceu a senha? e forneça a ID de e-mail que você usou ao criar o Adobe ID.
 

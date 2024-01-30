@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
@@ -28,9 +28,9 @@ Ao tentar fazer logon no Adobe Learning Manager, a mensagem de erro, mostrada ab
 
 ## Motivo
 
-Quando um usuário faz logon por SSO, é criado um cookie de sessão que é armazenado no navegador. Ele também permite que o usuário faça logon em outros aplicativos. A maioria dos SSOs é configurada para fazer logoff após 24 horas. O usuário precisa autenticar novamente para uma nova sessão.
+Quando um usuário faz logon por SSO, é criado um cookie de sessão que é armazenado no navegador. Isso também permite que o usuário faça logon em outros aplicativos. A maioria dos SSOs é configurada para fazer logoff após 24 horas. O usuário precisa autenticar novamente para uma nova sessão.
 
-Em certos casos, um usuário não pode acessar o sistema devido a cookies SSO obsoletos. Esses cookies são encaminhados ao Adobe Learning Manager para autenticação. A sessão não é encerrada se um usuário não fechar o navegador por muito tempo ou não tiver feito logoff.
+Em determinados casos, um usuário não pode acessar o sistema devido a cookies SSO obsoletos. Esses cookies são encaminhados ao Adobe Learning Manager para autenticação. A sessão não é finalizada se um usuário não fechar o navegador por muito tempo ou não tiver feito logoff.
 
 O Adobe Learning Manager rejeita esses cookies obsoletos, resultando em um erro.
 
@@ -38,7 +38,7 @@ O Adobe Learning Manager rejeita esses cookies obsoletos, resultando em um erro.
 
 Se um cookie obsoleto for rejeitado pelo Adobe Learning Manager, tente as seguintes opções:
 
-1. Limpe os cookies do navegador e o cache. Para obter mais informações, consulte esta página [documento](unable-log-in-learning-manager.md).
+1. Limpe os cookies do navegador e o cache. Para mais informações, consulte este [documento](unable-log-in-learning-manager.md).
 
    Como alternativa, o administrador de IDP pode definir um logoff forçado após um determinado tempo definido. Esta etapa autentica o usuário novamente para iniciar uma nova sessão.
 

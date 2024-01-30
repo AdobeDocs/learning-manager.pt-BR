@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 0%
+ht-degree: 36%
 
 ---
 
@@ -23,7 +23,7 @@ A resposta de um aluno ao convite da sessão é registrada no Learning Manager e
 
 Se um aluno responder ao mesmo convite mais de uma vez, a resposta mais recente será considerada e substituirá a anterior. Se os tempos de sessão forem alterados, todas as respostas de convite serão apagadas e os alunos precisarão responder à solicitação novamente.
 
-## Ativar o recurso de rastreamento da resposta de convite {#enablingtheinvitereplytrackingfeature}
+## Ativação do recurso de rastreamento da resposta de convite {#enablingtheinvitereplytrackingfeature}
 
 * Entre em contato com o Suporte do Adobe Learning Manager para ativar o recurso de rastreamento da resposta de convite.
 * Depois que o recurso é ativado na conta, todas as futuras sessões de sala de aula virtual/sala de aula criadas por um autor podem registrar a resposta do aluno ao convite do calendário.

@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
@@ -20,7 +20,7 @@ Os alunos externos não podem se registrar em um perfil.
 
 ## Erro
 
-A ID de e-mail já está registrada. Use um email diferente.
+A ID de e-mail já está registrada. Use um e-mail diferente.
 
 ![](assets/cp-register-profile.png)
 
@@ -38,7 +38,7 @@ Esse problema ocorre em um dos seguintes cenários:
 * O usuário já é um aluno interno.
 * O usuário está em um estado excluído.
 
-## Resolução:
+## Solução:
 
 **Cenário 1:** O usuário já está registrado em outro perfil externo.
 

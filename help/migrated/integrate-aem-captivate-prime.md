@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
@@ -16,39 +16,39 @@ ht-degree: 0%
 
 ## Visão geral {#overview}
 
-O Learning Manager é um Sistema de Gerenciamento de Aprendizado com um Sistema de Gerenciamento de Conteúdo de Aprendizado interno. Os usuários gerenciam seu conteúdo de aprendizado fazendo upload dele no Learning Manager para que ele execute o controle de versão, a alocação dos cursos, a definição da visibilidade para os alunos, o rastreamento do consumo e o relatório para os administradores.
+O Learning Manager é um Sistema de Gerenciamento de Aprendizado com um Sistema de Gerenciamento de Conteúdo de Aprendizado interno. Os usuários gerenciam o conteúdo de aprendizado fazendo upload para o Learning Manager para que ele execute o controle de versão, a alocação para os cursos, a definição da visibilidade para os alunos, o controle do consumo e a emissão de relatórios para os administradores.
 
-No entanto, há usuários que armazenam e gerenciam seu conteúdo em sistemas de gerenciamento de ativos. O conteúdo então é redirecionado para várias outras funções.
+No entanto, há usuários que armazenam e gerenciam os seus conteúdo em sistemas de gerenciamento de ativos. O conteúdo é então redefinido para várias outras funções.
 
-As várias tiras presentes no aplicativo do aluno podem ser incorporadas nos sites do AEM. Qualquer aluno que entrar no site do AEM verá seus dados de treinamento específicos nessas faixas.
+As várias faixas presentes no aplicativo do aluno podem ser incorporadas nos sites de AEM. Qualquer aluno que fizer logon no site do AEM verá os seus dados de treinamento específicos nessas faixas.
 
 ## Baixar o pacote de conteúdo {#downloadthecontentpackage}
 
-O instalador é enviado como um pacote de conteúdo AEM. [***Baixar o pacote***](https://github.com/adobe/captivate-prime-aem-components/releases).
+O instalador é enviado como um pacote de conteúdo do AEM. [***Baixar o pacote***](https://github.com/adobe/captivate-prime-aem-components/releases).
 
 O pacote de conteúdo está disponível com arquivo zip e é compatível com AEM 6.4 e AEM 6.5.
 
-## Instalar o componente do Learning Manager {#installcaptivateprimecomponent}
+## Instalar componente do Learning Manager {#installcaptivateprimecomponent}
 
-Instale o pacote de conteúdo do Learning Manager usando o Gerenciador de pacote AEM:
+Instale o pacote de conteúdo do Learning Manager usando o Gerenciador de pacotes do AEM:
 
 >[!NOTE]
 >
 >Para obter informações sobre a instalação de pacotes, consulte  [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
-1. Como autor de AEM, abra o Gerenciador de pacotes AEM.
+1. Como autor do AEM, abra o Gerenciador de pacotes do AEM.
 
 1. Clique no botão **Carregar pacote**.
 
 1. Clique em **[!UICONTROL Procurar]** e faça upload do pacote de conteúdo.
 1. Clique em **[!UICONTROL Carregar]**.
-1. Após o upload do pacote, instale o pacote de conteúdo selecionando-o e clicando em **[!UICONTROL Instalar]**.
+1. Após ser carregado, instale o pacote de conteúdo selecionando-o e clicando em **[!UICONTROL Instalar]**.
 
    ![](assets/install-package.jpg)
 
 ## Gerar o token de atualização {#generatetherefreshtoken}
 
-O administrador AEM requer um token de atualização da conta do Learning Manager. O administrador de integração do Learning Manager gerará o token de atualização.
+O administrador do AEM requer um token de atualização da conta do Learning Manager. O administrador de integração do Learning Manager gerará o token de atualização.
 
 1. Aprove o aplicativo em destaque do AEM Sites.
 
@@ -80,26 +80,26 @@ Você também pode definir várias configurações de conta em várias páginas.
 
 1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuração do widget do Captivate Learning Manager]**.
 1. Clique em **[!UICONTROL Criar]**.
-1. Insira o token de atualização aqui. Defina as outras configurações.
+1. Digite o token de atualização aqui. Configure as outras configurações.
 1. O nome do host deve ser alterado para “learningmanagereu” para as regiões da UE.
-1. Salvar e fechar a configuração.
+1. Salve e feche a configuração.
 1. Selecione uma configuração e publique-a.
 
 ## Autor do AEM {#aemauthor}
 
-O autor do AEM deve primeiro adicionar o componente no modelo AEM
+O autor do AEM deve primeiro adicionar o componente no modelo do AEM
 
 O autor do AEM poderá arrastar e soltar o componente Adobe Learning Manager e configurar adequadamente.
 
-O componente do Learning Manager requer que a configuração criada na etapa acima seja mapeada para a página.  O autor pode mapear a configuração editando as propriedades da página em **[!UICONTROL Avançado]** > **[!UICONTROL Configuração]** > **[!UICONTROL Configuração da nuvem]** e forneça o caminho de configuração. Dessa forma, o autor pode criar configurações para várias contas do Learning Manager e mapear cada uma para páginas de sites diferentes. Se uma configuração não for mapeada para a página, o componente lerá a configuração da página principal recursivamente até encontrar uma.
+O componente do Learning Manager requer que a configuração criada na etapa acima seja mapeada para a página.  O autor pode mapear a configuração editando as propriedades da página em **[!UICONTROL Avançado]** > **[!UICONTROL Configuração]** > **[!UICONTROL Configuração da nuvem]** e forneça o caminho de configuração. Dessa forma, o autor pode criar configurações para várias contas do Learning Manager e mapear cada uma para páginas de sites diferentes. Se uma configuração não for mapeada para a página, o componente lerá a configuração da página pai recursivamente até encontrar uma.
 
 ## Aluno {#learner}
 
-O aluno pode fazer os cursos na página.
+O aluno pode fazer os cursos de dentro da página.
 
-Para poder acessar o widget do Learning Manager, o aluno deve ser um usuário de AEM conectado. Além disso, a propriedade **email** deve estar presente no nó “/profile” do nó rep:User do aluno. Este e-mail deve ser exatamente igual ao da conta do Learning Manager.
+Para poder acessar o widget do Learning Manager, o aluno deve ser um usuário do AEM conectado. Além disso, a propriedade **email** deve estar presente no nó “/profile” do nó rep:User do aluno. Este e-mail deve ser exatamente igual ao da conta do Learning Manager.
 
-O aluno pode fazer os cursos na página.
+O aluno pode fazer os cursos de dentro da página.
 
 O progresso do curso também é salvo.
 
@@ -110,8 +110,8 @@ Os seguintes widgets são fornecidos:
 1. Widget social
 1. Widget Catálogo
 1. Meu aprendizado
-1. Recomendação baseada na aprendizagem entre pares
-1. Recommendations por administrador
+1. Recomendação baseada no aprendizado entre pares
+1. Recomendações do administrador
 1. Recomendação baseada nos interesses do aluno
 
 Se não houver recomendações, o widget aparecerá em branco.
@@ -183,4 +183,4 @@ A configuração é então aplicada no widget.
 
 ### Segurança
 
-Os campos ID do cliente e Segredo do cliente são adicionados. Além disso, o token de atualização fica mascarado. Depois que um usuário cria a configuração inteira, se ele abrir a configuração novamente para editá-la ou se algum outro usuário abrir essa configuração, o token de atualização será mascarado.
+Os campos ID do cliente e Segredo do cliente estão adicionados. Além disso, o token de atualização fica mascarado. Depois que um usuário cria a configuração inteira, se ele abrir a configuração novamente para editá-la ou se algum outro usuário abrir essa configuração, o token de atualização será mascarado.

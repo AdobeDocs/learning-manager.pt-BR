@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 0%
 
 Leia este artigo para saber como criar e gerenciar programas de aprendizado no Learning Manager
 
-Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Os administradores criam esses programas de aprendizado para os alunos. Você pode exibir esses programas de aprendizado como um aluno.
+Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Os administradores criam esses programas de aprendizado para os alunos. Você pode visualizar esses programas de aprendizado como aluno.
 
 ## Criar um programa de aprendizado {#createalearningprogram}
 
 Os administradores podem criar programas de aprendizado. Para criar um programa de aprendizado, siga as etapas abaixo:
 
-1. Faça logon como administrador. Clique em **[!UICONTROL Programa de aprendizado]** no painel esquerdo. A página Programas de aprendizado é exibida com uma lista de programas de aprendizado existentes se já tiverem sido criados para sua organização.
+1. Faça logon como administrador. Clique em **[!UICONTROL Programa de aprendizado]** no painel esquerdo. A página Programas de aprendizado é exibida com uma lista dos programas de aprendizado existentes, caso eles já tenham sido criados para sua empresa.
 1. Clique em Adicionar no canto superior direito da página. A página Adicionar novo programa de aprendizado é exibida.
 1. Insira o nome do programa de aprendizado, a visão geral e os benefícios do programa.
-1. Para criar os programas de aprendizado em outros locais, clique em Adicionar novo idioma na parte superior da página. Selecione os idiomas necessários e clique em Adicionar. Talvez seja necessário adicionar todos os metadados do programa de aprendizado em todos os idiomas escolhidos. Caso contrário, as informações em inglês serão exibidas em outras localidades.
-1. Insira uma ID exclusiva do Objeto de aprendizado para o seu programa de aprendizado. A ID exclusiva deve conter apenas letras do alfabeto e números, e nenhum caractere especial. Dois objetos de aprendizado não devem ter a mesma ID.
-1. Escolha o tipo de inscrição como inscrição do administrador ou autorinscrição, de acordo com sua escolha. Selecione a opção de cancelamento de inscrição e as opções de solicitação de cursos e clique em Salvar. Se você escolher a inscrição automática, os alunos poderão se inscrever no programa de aprendizado.
+1. Para criar os programas de aprendizado em outros locais, clique em Adicionar novo idioma na parte superior da página. Selecione os idiomas necessários e clique em Adicionar. Talvez seja necessário adicionar todos os metadados do programa de aprendizado em todos os idiomas escolhidos. Além disso, as informações em inglês são exibidas em outras localidades.
+1. Insira uma ID exclusiva do objeto de aprendizado para o seu programa de aprendizado. A ID exclusiva deve conter apenas letras e números e nenhum caractere especial. Nenhum objeto de aprendizado deve ter a mesma ID.
+1. Escolha o tipo de inscrição como inscrição por administrador ou inscrição automática, conforme sua escolha. Selecione a opção de cancelamento de inscrição e as opções de organização do curso e clique em Salvar. Se você escolher se inscrever automaticamente, os alunos poderão se inscrever no programa de aprendizado.
 
    A página Cursos é exibida para adicionar cursos aos programas de aprendizado. Você pode ver as guias Currículo e Catálogo nele.
 
@@ -38,16 +38,16 @@ Os administradores podem criar programas de aprendizado. Para criar um programa 
 
 1. É necessário adicionar cursos ao programa de aprendizado antes de publicá-lo. Clique em **[!UICONTROL Catálogo]** para associar cursos ao programa de aprendizado. Uma lista de todos os cursos disponíveis é exibida.
 
-1. Escolha os cursos que deseja adicionar ao programa de aprendizado passando o ponteiro do mouse sobre qualquer cartão do curso e clicando nele. Se o curso ainda não tiver sido adicionado ao programa de aprendizado, você poderá visualizar um símbolo + no meio do cartão do curso.
+1. Escolha os cursos que deseja adicionar ao programa de aprendizado passando o ponteiro do mouse sobre o cartão de qualquer curso e clicando nela. Se o curso não foi adicionado ao programa de aprendizado, você pode ver um símbolo + no meio do cartão do curso.
 
    Para incluir mais cursos, repita essa etapa.
 
    **Observação**
 
-   Exiba a lista de todos os cursos adicionados do seu programa de aprendizado em **[!UICONTROL Currículo]** guia. O rótulo adicionado pode ser visto para os cursos adicionados, na parte inferior do cartão do curso em **[!UICONTROL Catálogo]** guia.
+   Exiba a lista de todos os cursos adicionados do seu programa de aprendizado em **[!UICONTROL Currículo]** guia. É possível ver o rótulo adicionado dos cursos adicionados na parte inferior do cartão do curso na guia **[!UICONTROL Catálogo]**.
 
-1. Clique em **[!UICONTROL Voltar aos programas]** na parte superior do painel esquerdo, para exibir uma lista de todos os programas de aprendizado. Você pode ver seu programa de aprendizado recém-adicionado listado lá.
-1. Você pode publicar o programa de aprendizado clicando em Visão geral no painel esquerdo e escolhendo Ações>Publicar. Você também pode publicar o programa de aprendizado por meio da exibição Cursos e instâncias clicando em Publicar no canto superior direito da página.
+1. Clique em **[!UICONTROL Voltar aos programas]** na parte superior do painel esquerdo, para exibir uma lista de todos os programas de aprendizado. Você pode ver programa de aprendizado que acabou de adicionar listado ali.
+1. Você pode publicar o programa de aprendizado clicando em Visão geral no painel esquerdo e escolhendo Ações > Publicar. Você também pode publicar o programa de aprendizado na exibição Cursos e Instâncias clicando em Publicar no canto superior direito da página.
 
 ## Adicionar alunos a um programa de aprendizado {#addlearnerstoalearningprogram}
 
@@ -71,22 +71,22 @@ Os alunos agora podem iniciar os módulos dos cursos selecionados desde o iníci
 
 **Nota: somente os módulos com falha e incompletos do curso serão redefinidos.**
 
-## Criar várias instâncias dos programas de aprendizado {#createmultipleinstancesoflearningprograms}
+## Criar várias instâncias de programas de aprendizado {#createmultipleinstancesoflearningprograms}
 
 Você pode criar várias instâncias de um curso ou programa de aprendizado.
 
 1. Clique em Programas de aprendizado no painel esquerdo.
-1. Clique no nome do programa de aprendizado na lista de miniaturas cursos/programas de aprendizado.
+1. Clique no nome do programa de aprendizado na lista de miniaturas dos cursos/programas de aprendizado.
 1. Clique em Instâncias no painel esquerdo.
-1. Clique em Adicionar nova instância no canto direito do canto superior direito das informações do curso.
-1. Uma nova instância do programa de aprendizado é exibida.
-1. Clique nos ícones de edição (conforme mostrado com a seta vermelha na captura de tela) na nova instância para modificar os valores do curso/programa de aprendizado, como prazo, nome da instância, feedback e medalha. Após fazer as alterações, clique na marca de seleção próxima ao valor modificado para salvar as alterações. Clique na marca X para cancelar as alterações.
+1. Clique em Adicionar nova instância no canto superior direito das informações do curso.
+1. É exibida uma nova instância do programa de aprendizado.
+1. Clique nos ícones de edição (conforme mostrado com a seta vermelha na imagem) na nova instância para modificar os valores do curso/programa de aprendizado, como prazo, nome da instância, feedback e medalha. Depois de fazer as alterações, clique na marca de verificação ao lado do valor modificado para salvar as alterações. Clique na marca X para cancelar as alterações.
 
-Um administrador pode adicionar cursos de tipo de sala de aula virtual e sala de aula a um Programa de aprendizado. Qualquer sessão que o autor tenha dado durante a criação do curso se torna a instância padrão. Quando o administrador adiciona cursos a um programa de aprendizado, por padrão, ele é mapeado para a instância padrão de todos os cursos, mas o administrador pode alterar o mapeamento de instância. O número de cursos adicionados a um programa de aprendizado também é visível na página de instâncias, conforme mostrado abaixo.
+Um administrador pode adicionar cursos de tipo de sala de aula virtual e sala de aula a um Programa de aprendizado. Qualquer sessão dada pelo autor durante a criação do curso se torna a instância padrão. Quando o administrador adiciona cursos a um programa de aprendizado, ele é mapeado, por padrão, para a instância padrão de todos os cursos, mas o administrador pode alterar o mapeamento da instância. O número de cursos adicionados a um programa de aprendizado também é visível na página de instâncias, conforme mostrado abaixo.
 
 **Alterar mapeamento de instância**
 
-Para alterar o mapeamento de instâncias, clique no número de cursos na página Instância. Uma caixa de mapeamento da instância do curso aparece com uma lista de instâncias. Agora você pode selecionar o mapeamento de instâncias.
+Para alterar o mapeamento de instâncias, clique no número de cursos na página Instância. Uma caixa de mapeamento de instância do curso é exibida com uma lista de instâncias. Agora você pode selecionar o mapeamento de instâncias.
 
 ![](assets/change-instance-mapping.jpeg)
 
@@ -105,18 +105,18 @@ Um administrador também pode mapear uma instância de um programa de aprendizad
 
 ## Assinatura {#subscription}
 
-Um administrador pode obter a pontuação do questionário e os relatórios de status do aluno. Eles podem definir a frequência do relatório, o assunto do e-mail e a ID de e-mail dos destinatários. Dependendo da frequência definida, o destinatário receberá um email com o relatório anexado.
+Os administradores podem obter relatórios de pontuação do questionário e de status do aluno. Eles podem definir a frequência do relatório, o assunto do e-mail e a ID de e-mail dos destinatários. Dependendo da frequência definida, o destinatário receberá um e-mail com o relatório anexado.
 
 ![](assets/report-subscription.jpeg)
 
-## Exibir pontuações do quiz {#viewquizscores}
+## Exibir pontuações do questionário {#viewquizscores}
 
-1. Clique no bloco de qualquer programa de aprendizado
-1. Clique em Pontuação do quiz no painel esquerdo.
+1. Clique no quadro de qualquer programa de aprendizado
+1. Clique em Pontuação do questionário no painel esquerdo.
 
-Você pode visualizar as pontuações dos quiz de qualquer programa de aprendizado específico com base no nome do usuário ou em cada pergunta. Escolha as guias Por usuário ou Por pergunta adequadamente.
+Você pode ver as pontuações do questionário de qualquer programa de aprendizado específico com base no nome do usuário ou com base em cada pergunta. Escolha as guias Por usuário ou Por pergunta de acordo com a opção desejada.
 
-As pontuações do quiz aparecem para um curso de cada vez. Altere o nome do curso na lista suspensa para exibir as pontuações do quiz para outros cursos. Você também pode exportar as pontuações do questionário de cada curso.
+As pontuações do questionário são exibidas de um curso de cada vez. Altere o nome do curso na lista suspensa para exibir as pontuações do questionário de outros cursos. Você também pode exportar as pontuações do questionário de cada curso.
 
 Escolha o tipo de instância na lista suspensa para exibir as pontuações com base em cada instância do programa de aprendizado.
 
@@ -124,27 +124,27 @@ Escolha o tipo de instância na lista suspensa para exibir as pontuações com b
 
 Como administrador, você pode ativar o feedback N1 e N3 para um programa de aprendizado. O feedback N1 fornecido pelo aluno estará visível na guia de feedback N1 e o feedback N3 fornecido pelo gerente será visto na guia de feedback N3.
 
-## Cancelar inscrição dos alunos {#unenrollmentforlearners}
+## Cancelar as inscrições dos alunos {#unenrollmentforlearners}
 
-Ao criar programas de aprendizado, o administrador tem a opção de selecionar se os alunos podem cancelar suas inscrições nos programas de aprendizado. Se o administrador selecionar a opção, o aluno poderá cancelar a inscrição.
+Ao criar programas de aprendizado, o administrador tem a opção de selecionar se os alunos podem cancelar a inscrição nos programas de aprendizado. Se o administrador seleciona a opção, então o aluno pode cancelar a inscrição.
 
 ![](assets/unenrollment.png)
 
 ## Marcar conclusão {#markcompletion}
 
-Os administradores podem marcar um programa de aprendizado como concluído usando a opção disponível para eles. Para marcar a conclusão do programa de aprendizado, use as seguintes etapas.
+Os administradores podem marcar um programa de aprendizado como concluído usando a opção disponível para eles. Para marcar a conclusão do programa de aprendizado, siga estas etapas.
 
 1. Abra o **[!UICONTROL Programa de aprendizado]**.
-1. Abra o **[!UICONTROL Alunos]** do menu à esquerda.
+1. Abra a página **[!UICONTROL Alunos]** no menu à esquerda.
 
-   O **[!UICONTROL Alunos]** é aberta com a lista de alunos inscritos.
+   A página **[!UICONTROL Alunos]** é aberta com a lista de alunos inscritos.
 
-1. Selecione um, vários ou todos os alunos para marcar a conclusão da LP usando a caixa de seleção disponível para cada aluno.
+1. Selecione um, vários ou todos os alunos para marcar a conclusão do programa de aprendizado (PA) usando a caixa de seleção disponível para cada aluno.
 1. Clique em **[!UICONTROL Usuários]** > **[!UICONTROL Ação]** > **[!UICONTROL Marcar conclusão]**.
 
-   Se o LP tiver vários cursos, todos os cursos serão marcados como concluídos.
+   Se o programa de aprendizado tiver vários cursos, todos os cursos serão marcados como concluídos.
 
-## Ordem de cursos no programa de aprendizado {#orderingofcoursesinlearningprogram}
+## Ordem dos cursos no programa de aprendizado {#orderingofcoursesinlearningprogram}
 
 Os administradores podem definir a ordem em que os alunos devem realizar os cursos no programa de aprendizado. Depois de criar um programa de aprendizado, você pode atualizar essa ordem de cursos a qualquer momento.
 
@@ -152,14 +152,14 @@ Para atualizar a ordem dos cursos em um programa de aprendizado,
 
 1. Clique no cartão do programa de aprendizado de sua escolha e clique em **[!UICONTROL Cursos]** no painel esquerdo.
 
-1. Uma lista de cartões de curso associados ao programa de aprendizado é exibida. Clique em **[!UICONTROL Editar]** no canto superior direito da página.
+1. Uma lista de cartões de cursos associados ao programa de aprendizado é exibida. Clique em **[!UICONTROL Editar]** no canto superior direito da página.
 1. Você pode alterar a ordem da lista clicando e arrastando cada cartão do curso para a posição apropriada.
 1. Clique em **[!UICONTROL Republicar]**.
 
-## Editar um programa de aprendizado publicado {#editingapublishedlearningprogram}
+## Edição de um programa de aprendizado publicado {#editingapublishedlearningprogram}
 
-Um programa de aprendizado pode ser editado por um administrador em um estado publicado. Nesse estado, o administrador pode editar todas as seções de um programa de aprendizado e publicá-lo novamente.
+Um administrador pode editar programas de aprendizado no estado publicado. Nesse estado, o administrador pode editar todas as seções dos programas de aprendizado e republicá-los.
 
 Para editar um programa de aprendizado publicado, clique no cartão do programa de aprendizado e clique em **[!UICONTROL Editar]** no canto superior direito da página.
 
-Ao editar as seções de um programa de aprendizado, se for necessário sair da página, é necessário republicar o programa de aprendizado. Você obtém uma caixa de diálogo de confirmação solicitando que você republique o programa de aprendizado.
+Ao editar as seções de um programa de aprendizado, se for necessário sair da página, será necessário republicar o programa de aprendizado. É exibida uma caixa de diálogo de confirmação que solicitará que o programa de aprendizado seja publicado novamente.

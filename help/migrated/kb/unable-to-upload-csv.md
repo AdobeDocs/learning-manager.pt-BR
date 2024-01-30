@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Erro: Truncamento de dados: Dados muito longos para a coluna
 
-Ao tentar carregar um CSV no Adobe Learning Manager, você vê a seguinte mensagem de erro.
+Ao tentar carregar um CSV no Adobe Learning Manager, você verá a seguinte mensagem de erro.
 
 ![](assets/csv-upload-failed.png)
 
@@ -32,7 +32,7 @@ O erro ocorre se os dados presentes na coluna especificada excederem o limite de
 * Verifique os dados na coluna mencionada no erro.
 * Se houver um valor grande (por exemplo, maior que 60 caracteres), altere o valor para corrigir os dados.
 
-## Erro: a primeira coluna no CSV exibe um caractere especial
+## Erro: A primeira coluna no CSV exibe um caractere especial
 
 Não é possível carregar um CSV porque a primeira coluna exibe um caractere especial ao mapear as colunas.
 
@@ -42,11 +42,11 @@ Não é possível carregar um CSV porque a primeira coluna exibe um caractere es
 
 ## Causa
 
-O problema ocorre quando o CSV é salvo como um formato UTF-8 no Excel. Quando você salva um CSV no Excel como UTF-8, o arquivo é salvo em um formato UTF-BOM. Você pode verificar isso usando o Notepad++ ou ao carregar um CSV no Learning Manager. Ao mapear as colunas, a primeira coluna exibe um caractere especial.
+O problema ocorre quando o CSV é salvo como um formato UTF-8 no Excel. Quando você salva um CSV no Excel como UTF-8, o arquivo é salvo em um formato UTF-BOM. Você pode verificar isso usando o Notepad++ ou ao carregar um CSV no Learning Manager. Enquanto mapeia as colunas, a primeira coluna exibe um caractere especial.
 
 ## Resolução
 
-* **R:** Salvando pelo Excel:
+* **A:** Salvando no Excel:
 
    1. Abra o CSV no Excel.
    1. Salve o arquivo como um CSV normal.
@@ -56,7 +56,7 @@ O problema ocorre quando o CSV é salvo como um formato UTF-8 no Excel. Quando v
    * Abra o CSV no Bloco de notas ou no Notepad++.
    * Salve o arquivo no formato UTF-8.
 
-## Erro: Endereço de email do usuário já presente no sistema
+## Erro: Endereço de e-mail do usuário já presente no sistema
 
 Não é possível carregar um CSV porque o processamento de CSV falhou. Você verá a mensagem de erro abaixo:
 

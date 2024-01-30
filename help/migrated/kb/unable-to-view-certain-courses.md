@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
@@ -22,11 +22,11 @@ Ao procurar um curso específico para adicioná-lo a uma certificação, você n
 
 Há três tipos de inscrição no Learning Manager:
 
-* Autoinscrição
+* Auto-inscrição
 * Gerente indicado
 * Gerente aprovado
 
-## Autoinscrição
+## Auto-inscrição
 
 Os alunos podem se inscrever diretamente nesses tipos de cursos.
 
@@ -36,13 +36,13 @@ Esses cursos devem ser aprovados pelos gerentes. Os alunos podem se inscrever ne
 
 ## Gerente indicado
 
-Esses cursos só podem ser indicados por gerentes. Um aluno não pode se inscrever nesses tipos de cursos.
+Esses cursos só podem ser indicados por gerentes. Um aluno não poderá se inscrever nesses tipos de cursos.
 
-## Novidades
+## O que vem a seguir
 
-Em uma Certificação, você só pode adicionar cursos com autoinscrição, e não cursos indicados ou aprovados pelo gerente.
+Em uma Certificação, você só pode adicionar cursos com auto-inscrição, e não cursos indicados ou aprovados pelo por gerentes.
 
 * **Certificações permanentes:**  Você pode adicionar cursos de sessão CR ou VC em uma certificação.
-* **Certificações recorrentes:** Não é possível adicionar cursos de sessão CR ou VC em uma certificação.
+* **Certificações recorrentes:** não é possível adicionar cursos de sessão CR ou VC em uma certificação.
 
 Esse é um comportamento padrão no Learning Manager.

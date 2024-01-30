@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
 workflow-type: tm+mt
 source-wordcount: '2146'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 O Adobe Learning Manager (ALM) integra-se aos sites do Adobe Experience Manager (AEM). Isso permite que você crie seu próprio site e interfaces móveis responsivas para o Adobe Learning Manager com o mínimo esforço de codificação. Com essa integração, você pode criar experiências de aprendizado personalizadas para seus usuários.
 
-Para criar essa experiência, o ALM fornece um pacote de site de referência do Adobe Learning Manager (pacote do site de referência ALM) para o AEM Sites na forma de um arquivo ZIP que você pode instalar na sua instância do AEM Sites.
+Para criar essa experiência, o ALM fornece um pacote de site de referência do Adobe Learning Manager (pacote do site de referência ALM) para os sites do AEM na forma de um arquivo ZIP que você pode instalar na sua instância do AEM Sites.
 
 O pacote inclui modelos de página da Web e componentes do AEM Sites junto com widgets incorporáveis, por exemplo, catálogo de aprendizado, widgets incorporáveis, calendário e assim por diante.
 
 Depois de instalar o pacote do site de referência ALM, você pode começar a criar um site para o Adobe Learning Manager, que você pode hospedar na sua instância do AEM Sites. Seus usuários podem arrastar e soltar os componentes no site.
 
-Instalar pacote do site de referência do ALM
+Instalar pacote do site de referência ALM
 
 ## Pré-requisitos
 
@@ -29,30 +29,30 @@ Instalar pacote do site de referência do ALM
 * AEM on-premise 6.5 ou Adobe Experience Manager - Cloud Service
 * Adobe Commerce 2.4.3
 
-Depois de proteger seu ambiente do AEM Sites, você deve instalar o pacote do site de referência ALM. Este pacote inclui páginas da Web AEM e componentes de sites que ajudam a construir a plataforma de aprendizado.
+Depois de proteger seu ambiente do AEM Sites, você deve instalar o pacote do site de referência ALM. Esse pacote inclui páginas da Web e componentes de sites do AEM que ajudam a construir a plataforma de aprendizado.
 
 O pacote do site de referência é hospedado no [**Repositório GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
-Para obter mais informações, consulte o README.
+Para mais informações, consulte o README:
 
 ## Criar um aplicativo no [!DNL Adobe Learning Manager]
 
-Depois de instalar o pacote do site AEM, você deve configurar um aplicativo ALM para conectar seu portal de aprendizado ao site AEM.
+Depois de instalar o pacote do site do AEM, você deve configurar um aplicativo ALM para conectar seu portal de aprendizado ao site do AEM.
 
 Esse cenário é aplicável quando o AEM é usado com [!DNL Adobe Learning Manager].
 
 Siga as etapas abaixo:
 
 1. Como administrador de integração, clique em **[!UICONTROL Aplicativos]**.
-1. Para criar um novo aplicativo, no canto superior direito da página, clique em **[!UICONTROL Registrar]**.
+1. Para criar um no aplicativo, no canto superior direito da página, clique em **[!UICONTROL Registrar]**.
 1. Na tela Registrar um novo aplicativo, insira os seguintes detalhes:
 
    1. Nome do aplicativo: o nome do aplicativo que você está criando.
    1. URL: o URL da sua organização.
-   1. Domínios de redirecionamento: os domínios de hospedagem do site AEM. Você também pode especificar curingas.
+   1. Domínios de redirecionamento: os domínios de hospedagem do site do AEM. Você também pode especificar curingas.
    1. Descrição: a descrição do aplicativo.
    1. Escopos: selecione o acesso de leitura da função Aluno e o acesso de gravação da função Aluno.
-   1. Somente para esta conta?: selecione Sim se quiser usar o aplicativo para a conta do ALM existente.
+   1. Apenas para esta conta?: selecione Sim se quiser usar o aplicativo para a conta do ALM existente.
 
 1. Após fazer as alterações, clique em Salvar.
 
@@ -110,11 +110,11 @@ Para aprovar o aplicativo, clique em **[!UICONTROL Aprovar]**.
    1. ID do cliente, Segredo do cliente e Token de atualização do autor: insira as credenciais que você obteve ao criar o aplicativo no ALM.
    1. Personalização do widget: para mais informações, consulte [Integrar ao AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
-1. Salvar e fechar a configuração.
+1. Salve e feche a configuração.
 
 ### AEM + Adobe Learning Manager (usuários conectados/não conectados)
 
-O Adobe Learning Manager agora permite que você mostre seu produto e treinamento para seus clientes atuais e potenciais e parceiros sem exigir a criação de contas ou logon. Essa funcionalidade ajudará a impulsionar a adoção de produtos e treinamentos, oferecendo aos alunos uma visualização rápida e fácil do treinamento, o que ajuda a destacar e promover recursos do produto. Portanto, você pode apresentar seus produtos e ofertas com eficácia, especialmente para clientes potenciais e parceiros, resultando em um maior reconhecimento do produto. A facilidade de acesso e a melhor acessibilidade aumentam o interesse, o que ajuda a impulsionar inscrições em treinamentos e a adoção de aprendizado.
+O Adobe Learning Manager agora permite que você mostre seu produto e treinamento para seus clientes atuais e potenciais e parceiros sem exigir a criação de contas ou logon. Essa funcionalidade ajudará a impulsionar a adoção de produtos e treinamentos, oferecendo aos alunos uma visualização rápida e fácil do treinamento, o que ajuda a destacar e promover recursos do produto. Portanto, você pode apresentar seus produtos e ofertas com eficácia, especialmente para clientes potenciais e parceiros, resultando em um maior reconhecimento do produto. A facilidade de acesso e melhor acessibilidade aumenta o interesse, o que ajuda a impulsionar inscrições em treinamentos e a adoção de aprendizado.
 
 Usando esse fluxo de trabalho, um aluno pode visualizar um treinamento, acessar informações de treinamento ou procurar por treinamento sem fazer logon no Adobe Learning Manager. Esse fluxo de trabalho não é aplicável à interface nativa do Learning Manager (aplicável SOMENTE para o AEM Sites e outras interfaces sem periféricos).
 
@@ -139,7 +139,7 @@ Ative este conector para criar e renderizar suas páginas da Web baseadas no AEM
 
 ### AEM + Adobe Learning Manager + Adobe Commerce (usuários conectados/não conectados)
 
-O Adobe Learning Manager agora fornece soluções para ajudar você a integrar perfeitamente a plataforma de aprendizado com o Adobe Commerce. Esta versão permitirá que você conecte facilmente suas interfaces nativas, baseadas em sites AEM ou outras interfaces sem periféricos do Learning Manager ao Adobe Commerce. Essa integração permite compreender os recursos de comércio eletrônico na sua plataforma de aprendizado. Agora, você pode oferecer treinamento pago aos seus clientes e parceiros de negócios, bem como permitir compras de treinamento facilmente nas interfaces nativas e não nativas do Learning Manager. Um aluno também pode visualizar um treinamento, acessar informações de treinamento ou procurar por treinamento sem fazer logon no Adobe Learning Manager.
+O Adobe Learning Manager agora fornece soluções para ajudar você a integrar perfeitamente a plataforma de aprendizado com o Adobe Commerce. Esta versão permitirá que você conecte facilmente suas interfaces nativas, baseadas no AEM Sites ou outras interfaces sem periféricos do Learning Manager ao Adobe Commerce. Essa integração permite compreender os recursos de e-commerce na sua plataforma de aprendizado. Agora você pode oferecer treinamento pago para seus clientes e parceiros de negócios, bem como permitir compras de treinamento facilmente nas interfaces nativas e não nativas do Learning Manager. Um aluno também pode visualizar um treinamento, acessar informações de treinamento ou procurar por treinamento sem fazer logon no Adobe Learning Manager.
 
 Um usuário já pode usar o aplicativo AEM e aprová-lo, em vez de criar um.
 
@@ -172,7 +172,7 @@ Personalize suas páginas da Web usando o site de referências AEM e os widgets 
 
 ## Criar páginas da Web
 
-Além dos modelos que você pode usar que são fornecidos pelo pacote do site de referência, você também pode criar páginas da Web com base nos modelos de AEM.
+Além dos modelos que você pode usar que são fornecidos pelo pacote do site de referência, você também pode criar páginas da Web com base nos modelos do AEM.
 
 1. Na página principal do AEM, clique em Criar > Página.
 
@@ -196,7 +196,7 @@ Além dos modelos que você pode usar que são fornecidos pelo pacote do site de
 
 ## Criar site a partir do Blueprint
 
-O pacote do site de referência do ALM fornece um “Plano do site de aprendizado”, que permite criar um site para sua plataforma de aprendizado. Os blueprints de AEM permitem criar páginas da Web diretamente dos componentes do AEM Sites. Você não precisa usar nenhum modelo.
+O pacote do site de referência do ALM fornece um “Plano do site de aprendizado”, que permite criar um site para sua plataforma de aprendizado. Os blueprints do AEM permitem criar páginas da web diretamente dos componentes do AEM Sites. Você não precisa usar nenhum modelo.
 
 1. Na página inicial do AEM, clique em **[!UICONTROL Sites]**.
 
@@ -221,7 +221,7 @@ O pacote do site de referência do ALM fornece um “Plano do site de aprendizad
 
 Além de usar os modelos integrados e criar seu site do zero usando os componentes do WYSIWYG, você também pode escrever código e criar o site.
 
-O código está na [Repositório GitHub do site de referência](https://github.com/adobe/adobe-learning-manager-reference-site) para começar.
+O código está no [Repositório GitHub do site de referência](https://github.com/adobe/adobe-learning-manager-reference-site) para você começar.
 
 As principais partes do modelo são:
 
@@ -234,7 +234,7 @@ Todos os códigos estão no repositório para você começar a trabalhar.
 
 ## Importar e adicionar componentes do Learning Manager para páginas da Web ou modelos existentes
 
-Instalar o pacote do site de referência AEM adiciona os componentes do Learning Manager à sua instância do AEM Sites. Por padrão, você pode adicionar esses componentes ao site de aprendizado do projeto da Web (site) que fornecemos prontos para uso. Esses componentes também estão disponíveis no site criado a partir do Blueprint do site de aprendizado.
+Instalar o pacote do site de referência do AEM adiciona os componentes do Learning Manager à sua instância do AEM Sites. Por padrão, você pode adicionar esses componentes ao site de aprendizado do projeto da Web (site) que fornecemos prontos para uso. Esses componentes também estão disponíveis no site que você cria a partir do Blueprint do site de aprendizado.
 
 No entanto, se quiser usar esses componentes recém-adicionados do Learning Manager em seu projeto da Web ou site existente, você deve importá-los usando o procedimento a seguir.
 

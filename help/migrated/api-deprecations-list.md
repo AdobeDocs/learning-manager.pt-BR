@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ A tabela a seguir lista os limites de taxa e intermitência para as APIs.
         <th>Número de solicitações-Intermitência</th>
     </tr>
     <tr>
-        <td>Admin</td>
+        <td>Administrador</td>
         <td>5</td>
         <td>5</td>
     </tr>
@@ -46,7 +46,7 @@ A tabela a seguir lista os limites de taxa e intermitência para as APIs.
         <td>5</td>
     </tr>
     <tr>
-        <td>Pesquisar</td>
+        <td>Pesquisa</td>
         <td>50</td>
         <td>5</td>
     </tr>
@@ -124,7 +124,7 @@ Na próxima versão do Adobe Learning Manager, nome e -name são descontinuados 
 
 ## Descontinuações da API na versão de novembro de 2023 do Adobe Learning Manager
 
-### Substituir sinalizador
+### Sinalizador de substituição
 
 Na versão de novembro de 2023 do Adobe Learning Manager, descontinuamos o sinalizador de substituição das APIs. O sinalizador de substituição não faz parte da especificação da API pública e destina-se a testes de back-end. O sinalizador foi descontinuado para APIs do aluno. No entanto, o sinalizador ainda é válido para APIs de administrador.
 

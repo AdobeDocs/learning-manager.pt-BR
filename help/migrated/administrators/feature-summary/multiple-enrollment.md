@@ -4,7 +4,7 @@ description: Como administrador da conta, uma das suas principais tarefas é cri
 source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 No Adobe Learning Manager, cada curso pode ter instâncias diferentes. Como administrador da conta, uma das suas principais tarefas é criar instâncias diferentes de sessões VILT em fusos horários diferentes e, possivelmente, criar sessões para grupos de usuários específicos.
 
-Antes da versão de julho de 2023, quando um administrador inscrevia um aluno, ele podia se inscrever em apenas uma instância. Se um aluno quisesse fazer um curso em instâncias diferentes, o administrador criaria muitos cursos, um para cada instância.
+Antes da versão de julho de 2023, quando um administrador inscrevia um aluno, ele podia se inscrever em apenas uma instância. Se um aluno quisesse fazer um curso em instâncias diferentes, o administrador criava muitos cursos, um para cada instância.
 
-O recurso de várias inscrições do Adobe Learning Manager ajuda um administrador a evitar esses cenários.
+O recurso de inscrição múltipla do Adobe Learning Manager ajuda um administrador a evitar esses cenários.
 
-## O que é multi-enrollment
+## O que é inscrição múltipla
 
-A inscrição múltipla inscreve um aluno várias vezes em um curso por meio de várias instâncias disponíveis.  Um aluno pode se inscrever em várias instâncias do curso independentemente do estado em que está inscrito, concluído ou ainda não iniciado. Quando o autor ativa o [!UICONTROL Inscrição múltipla] se alternar, um aluno pode se inscrever em várias instâncias do curso.
+A inscrição múltipla inscreve um aluno várias vezes em um curso por meio de várias instâncias disponíveis.  Um aluno pode se inscrever em várias instâncias do curso independentemente do estado em que está inscrito, concluído ou ainda não iniciado. Quando o autor ativa a opção [!UICONTROL Inscrição múltipla], um aluno pode se inscrever em várias instâncias do curso.
 
 ![imagem de várias inscrições](assets/multi-enrollment-author.png)
 *Iniciar Inscrição Múltipla nas Configurações*
@@ -28,10 +28,10 @@ O progresso de cada instância pode ser acompanhado individualmente, e um relat�
 ## Pontos importantes
 
 * A inscrição múltipla é aplicável somente quando um curso tem várias instâncias.
-* Quando a opção de várias inscrições estiver ativada e os usuários estiverem inscritos em várias instâncias, novas linhas são criadas para cada curso no relatório de transcrição do aluno (uma linha para cada instância e cada aluno)
-* Se a automação de relatórios estiver configurada para antecipar apenas uma linha por curso, você deverá fazer os ajustes necessários na automação de relatórios antes de ativar o recurso de Várias Inscrições.
+* Quando a opção inscrição múltipla estiver ativada e os usuários estiverem inscritos em várias instâncias, novas linhas são criadas para cada curso no relatório de transcrição do aluno (uma linha para cada instância e cada aluno)
+* Caso a automação de relatórios estiver configurada para antecipar apenas uma linha por curso, você deve fazer os ajustes necessários na automação de relatórios antes de habilitar o recurso Inscrição Múltipla.
 
-## Como habilitar a inscrição múltipla
+## Como ativar a Inscrição Múltipla
 
 1. Faça logon na sua conta do Adobe Learning Manager como autor.
 1. Selecione o curso no qual deseja que os alunos se inscrevam várias vezes.
@@ -63,7 +63,7 @@ O progresso em cada instância pode ser acompanhado da seguinte maneira:
 ![acompanhar progresso](assets/check-progress.png)
 *Acompanhar o progresso de cada instância*
 
-## Alterações de várias inscrições no administrador
+## Alterações de Inscrição Múltipla no administrador
 
 **Inscrição:**
 

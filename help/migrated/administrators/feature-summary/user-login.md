@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Logon de usuário
 description: Logon de usuário para o Adobe Learning Manager
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,7 @@ Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua cont
 
 *Fazer logon no Adobe Learning Manager*
 
-1. Insira Adobe ID e senha, e clique em Fazer logon.\
+1. Insira a ID Adobe e a senha, e clique em Entrar.\
    Se você esqueceu a senha, clique em **[!UICONTROL Esqueceu a senha?]** e forneça a ID de e-mail que você usou ao criar o Adobe ID.
 
 1. Como alternativa, você pode usar o Enterprise ID clicando em **[!UICONTROL Fazer logon com um link de Enterprise ID]**.
@@ -35,6 +35,6 @@ Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua cont
 
 ## Métodos de logon de usuário {#userloginmethods}
 
-Se você for um usuário interno da organização, poderá fazer logon no Learning Manager usando a Adobe ID ou o método de logon único.
+Se você for um usuário interno da organização, poderá fazer logon no Learning Manager usando a ID Adobe ou o método de logon único.
 
-Se você for um usuário externo à organização, poderá fazer logon no Learning Manager usando a Adobe ID, o logon único ou a Learning Manager ID.
+Se você for um usuário interno da organização, poderá fazer logon no Learning Manager usando a ID Adobe, o método de logon único ou a Learning Manager ID.

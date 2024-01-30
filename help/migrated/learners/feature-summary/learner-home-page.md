@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 021a5eaa979be241faa2cf2b372731afc157ea9b
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -48,7 +48,7 @@ A aparência dos ícones em cada cartão de treinamento é ativada/desativada pe
 
 **Adicionar à Minha lista de aprendizado**
 
-Se você passar o mouse sobre qualquer cartão do curso na **Recomendado com base em suas áreas de interesse** e **Recomendado com base em listas de atividades de mesmo nível**, você verá uma opção para adicionar o curso ao **Lista do meu aprendizado**. Clique em **[!UICONTROL +]** no cartão do curso e o curso será adicionado ao **Lista do meu aprendizado**.
+Se você passar o mouse em qualquer cartão do curso em **Recomendado com base em suas áreas de interesse** e **Recomendado com base em listas de atividades entre pares**, você verá uma opção para adicionar o curso à **Minha lista de aprendizado**. Clique em **[!UICONTROL +]** no cartão do curso e o curso será adicionado ao **Lista do meu aprendizado**.
 
 ![](assets/add-my-learning.png)
 
@@ -62,7 +62,7 @@ Como aluno, você pode filtrar o catálogo do curso de acordo com estes níveis:
 * Intermediário
 * Avançado
 
-Escolha uma opção e você pode ver o catálogo do curso de acordo com a seleção.
+Escolha uma opção e você poderá ver o catálogo do curso de acordo com a seleção.
 
 ![](assets/skill-levels.png)
 
@@ -70,7 +70,7 @@ Escolha uma opção e você pode ver o catálogo do curso de acordo com a seleç
 
 ## Calendário {#calendar}
 
-Mostra suas sessões agendadas e o treinamento. Navegue no calendário para ver o treinamento para os meses subsequentes.
+Mostra as suas sessões agendadas e treinamento. Navegue no calendário para ver o treinamento para os meses subsequentes.
 
 ![](assets/learner-calendar.png)
 
@@ -105,9 +105,9 @@ As habilidades de perfil são usadas para as recomendações do curso. Se o admi
 
 Se um aluno se inscrever em um curso, somente as habilidades externas que são baseadas em uma pontuação são adicionadas às habilidades de perfil. Além disso, um aluno pode pesquisar, selecionar e adicionar habilidades externas ao seu perfil.Se um aluno fez logon no aplicativo do aluno pela primeira vez e se as habilidades do aluno já estiverem presentes, as habilidades serão exibidas em Meu perfil.
 
-## Recomendação baseada em sua área de interesse {#recommendationbasedonyourareaofinterest}
+## Recomendação baseada na sua área de interesse {#recommendationbasedonyourareaofinterest}
 
-Exibe o treinamento com base na área de interesse escolhida. A recomendação é orientada por um algoritmo de Aprendizado de Máquina.
+Exibe treinamento com base na área de interesse escolhida. A recomendação é orientada por um algoritmo de Aprendizado de Máquina.
 
 ![](assets/learner-recommendation.png)
 
@@ -115,7 +115,7 @@ Exibe o treinamento com base na área de interesse escolhida. A recomendação �
 
 Para obter recomendações mais direcionadas, você pode atualizar suas habilidades clicando em **Exibir/Atualizar**.
 
-Depois de adicionar uma habilidade, as recomendações futuras se tornarão mais direcionadas e focadas de acordo com suas preferências.
+Depois de adicionar uma habilidade, as recomendações futuras se tornarão mais direcionadas e focadas de acordo com as suas preferências.
 
 Se o administrador desabilitou a opção **Explorar habilidades**, você poderá adicionar interesse às suas habilidades.
 
@@ -125,11 +125,11 @@ A terminologia do produto também é suportada.
 
 **Habilidades alinhadas ao setor**
 
-Você poderá ver o gráfico de habilidades da rede se o administrador tiver ativado a opção **Setor alinhado** no aplicativo do administrador.
+Você poderá ver o gráfico de habilidades da rede se o administrador tiver ativado a opção **Alinhado ao setor** no aplicativo do administrador.
 
 Essas habilidades só podem ser visualizadas quando o administrador definir o tipo de treinamento para Alinhado ao setor.
 
-Na visualização do Mapa de habilidades, você pode pesquisar uma habilidade ou habilidades e adicioná-las.
+Na visualização do Mapa de habilidades, você pode procurar uma habilidade ou habilidades e adicioná-las.
 
 ![](assets/learner-add-industry-skills.png)
 
@@ -139,7 +139,7 @@ Ativar a opção **Mostrar habilidades para as quais os treinamentos estão pres
 
 Depois de adicionar uma habilidade, você pode ver o gráfico de força direcionada com a habilidade selecionada como o vértice principal e as habilidades associadas como vértices menores.
 
-As habilidades escolhidas também são exibidas na **Habilidades selecionadas** seção.
+As habilidades escolhidas também são exibidas na seção **Habilidades selecionadas**.
 
 ![](assets/learner-add-industry-skills-1.png)
 
@@ -147,6 +147,6 @@ As habilidades escolhidas também são exibidas na **Habilidades selecionadas** 
 
 Para adicionar as habilidades, clique em **[!UICONTROL Adicionar]**.
 
-## Recomendação baseada na atividade de pares {#recommendationbasedonpeeractivity}
+## Recomendação baseada na atividade entre pares {#recommendationbasedonpeeractivity}
 
-Exibe treinamento com base no que seus colegas estão fazendo. Isso é novamente orientado por um algoritmo de aprendizado de máquina. As recomendações são baseadas em treinamento para alunos personalizados e alinhados ao setor.
+Exibe treinamento com base no que seus colegas estão fazendo. Isso é controlado novamente por um algoritmo de aprendizado de máquina. As recomendações são baseadas em treinamento para alunos personalizados e alinhados ao setor.

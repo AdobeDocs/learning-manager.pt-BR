@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -17,24 +17,24 @@ Criação de planos de aprendizado para administradores no Learning Manager.
 
 ## Visão geral {#overview}
 
-Um plano de aprendizado é um conjunto de regras que inscreve os alunos em treinamentos específicos com base em determinados critérios.
+Um plano de aprendizado é um conjunto de regras que serve para inscrever alunos em treinamentos especificados com base em determinados critérios.
 
-Um plano de aprendizado permite que um administrador atribua automaticamente cursos, programas de aprendizado ou certificações com base na ocorrência de determinados eventos, como a integração de um novo funcionário ou a alteração na designação ou no local dos funcionários.
+Um plano de aprendizado permite que um administrador atribua automaticamente cursos, programas de aprendizado ou certificações baseados na existência de determinados eventos como a contratação de um novo funcionário ou a alteração na designação ou no local dos funcionários.
 
-Por exemplo, quando um funcionário entra em uma organização, o Programa de Orientação para Novos Funcionários é atribuído automaticamente ao funcionário. Da mesma forma, se um funcionário for promovido como gerente, um Novo Programa de Orientação do Gerente será atribuído automaticamente ao funcionário.
+Por exemplo, quando um funcionário entra em uma empresa, o programa de orientação para novos funcionários é atribuído automaticamente ao funcionário. Da mesma forma, se um funcionário é promovido a gerente, o programa de orientação para novos gerentes é atribuído automaticamente ao funcionário.
 
-Você pode inscrever os alunos em qualquer curso e programas de aprendizado automaticamente com base em um conjunto predefinido de eventos. Você pode criar caminhos de aprendizado para os alunos atribuindo automaticamente uma atividade de aprendizado de acompanhamento depois que um aluno conclui uma habilidade, um curso ou um programa de aprendizado.
+É possível inscrever alunos a todos os cursos e programas de aprendizado automaticamente com base em um conjunto predefinido de eventos. É possível criar caminhos de aprendizado para os alunos atribuindo automaticamente uma atividade de acompanhamento do aprendizado depois que o aluno conclui uma habilidade, curso ou programa de aprendizado.
 
 ## Criar planos de aprendizado {#createlearningplans}
 
-Para criar um plano de aprendizado, você deve fazer logon como administrador.
+Para criar um plano de aprendizado, é preciso fazer logon como administrador.
 
-1. No painel esquerdo, clique em **[!UICONTROL Planos de aprendizado]**. Se houver eventos existentes, eles serão listados na página. No entanto, se estiver configurando o recurso plano de aprendizado pela primeira vez, vá para a próxima etapa.
-1. No canto superior direito da página, clique em **[!UICONTROL Adicionar]**. No menu **[!UICONTROL Adicionar plano de aprendizado]** , insira o nome do Plano de Aprendizado que um funcionário deve ter.
+1. No painel esquerdo, clique em **[!UICONTROL Planos de aprendizado]**. Se houver eventos, eles são listados na página. No entanto, se você estiver configurando o recurso do plano de aprendizado pela primeira vez, passe para a próxima etapa.
+1. No canto superior direito da página, clique em **[!UICONTROL Adicionar]**. Na caixa de diálogo **[!UICONTROL Adicionar plano de aprendizado]**, digite o nome do plano de aprendizado que um funcionário deve realizar.
 
    ![](assets/add-learning-plandialog.png)
 
-1. No menu **[!UICONTROL Ocorre quando]** selecione o evento necessário. As opções determinam quando um aluno faz o curso. Depois de selecionar o tipo de evento, selecione o treinamento, os cursos, o programa de aprendizado ou a certificação apropriados.
+1. Na lista suspensa **[!UICONTROL Ocorre quando]**, escolha o evento necessário. As opções determinam quando um aluno faz o curso. Depois de selecionar o tipo de evento, selecione o treinamento, os cursos, o programa de aprendizado ou a certificação apropriados.
 
    **Observação:** Administradores e autores podem criar eventos de inscrição automática.
 
@@ -44,35 +44,35 @@ Para criar um plano de aprendizado, você deve fazer logon como administrador.
 
    ![](assets/new-learner-is-added.png)
 
-   **2 - O aluno é adicionado a um grupo:** Quando um novo usuário ou funcionário ingressa em um grupo.  Insira e selecione o grupo de usuários na lista suspensa, ao qual este evento é aplicável. É possível escolher vários grupos. Além disso, você pode atribuir esse evento a todos os membros existentes desses grupos selecionando a opção.
+   **2 - O aluno é adicionado a um grupo:** Quando um novo usuário ou funcionário ingressa em um grupo.  Insira e selecione o grupo de usuários na lista suspensa, ao qual este evento é aplicável. É possível escolher vários grupos. Além disso, você pode atribuir esse evento a todos os membros desses grupos selecionando a opção.
 
    ![](assets/learner-gets-addedtoagroup.png)
 
-   Este plano de aprendizado foi projetado especificamente para ***Personalizado - Grupo*** usuários. Digite o nome do grupo no campo e, usando a pesquisa com preenchimento automático, escolha o grupo ou grupos.
+   Este plano de aprendizado está destinado especificamente para usuários do ***Grupo personalizado***. Digite o nome do grupo no campo e, usando a pesquisa com preenchimento automático, escolha o grupo ou grupos.
 
-   **3 - O aluno conclui um objeto de aprendizado:** O evento é acionado quando um aluno conclui qualquer objeto de aprendizado, como curso, programa de aprendizado e assim por diante. Selecione o objeto de aprendizado ao qual esse evento se aplica. Selecione o status de conclusão do evento. Opcionalmente, você também pode escolher o grupo de usuários ao qual este aluno pertence. Insira o número de dias, após a conclusão do objeto de aprendizado, em que esse evento é acionado. Selecione a opção se quiser atribuir esse evento a usuários existentes que já concluíram esse objeto de aprendizado.
+   **3 - O aluno conclui um objeto de aprendizado:** O evento é acionado quando um aluno conclui qualquer objeto de aprendizado, como curso, programa de aprendizado e assim por diante. Selecione o objeto de aprendizado ao qual se aplica este evento. Selecione o status de conclusão do evento. Como opção, você também pode escolher o grupo de usuários ao qual esse aluno pertence. Insira o número de dias que, depois de concluir o objeto de aprendizado, esse evento será acionado. Selecione a opção se quiser atribuir esse evento a usuários existentes que já concluíram esse objeto de aprendizado.
 
    ![](assets/learner-completealearningobject.png)
 
-   **4 - O aluno atinge um nível de habilidade:** Insira o nome da habilidade e selecione o nível de habilidade. Você também pode escolher o grupo de usuários ao qual este aluno pertence. É opcional. Insira o número de dias, após obter a habilidade, em que esse evento será acionado. Selecione a opção se quiser atribuir esse evento a alunos existentes que já obtiveram essa habilidade.
+   **4 - O aluno atinge um nível de habilidade:** Insira o nome da habilidade e selecione o nível de habilidade. Você também pode escolher o grupo de usuários ao qual esse aluno pertence. É opcional. Insira o número de dias que, depois de concluir a habilidade, esse evento será acionado. Selecione a opção se deseja atribuir esse evento aos alunos que já obtiveram essa habilidade.
 
    ![](assets/learner-achievesaskilllevel.png)
 
-   Além disso, defina o número de dias após os quais o plano de aprendizado deve ser atribuído aos alunos.
+   Além disso, defina o número de dias após o qual o plano de aprendizado deve ser atribuído aos alunos.
 
    ![](assets/assign-learning.png)
 
-   **5 - Em uma data específica:** Quando os eventos devem ocorrer em uma data específica. Selecione a data na qual o evento deve ser atribuído. Selecione os grupos de usuários para os quais o evento precisa ser atribuído automaticamente. Selecione as instâncias que precisam ser atribuídas e, opcionalmente, insira após quantos dias o evento precisa ser acionado.
+   **5 - Em uma data específica:** Quando os eventos devem ocorrer em uma data específica. Selecione a data na qual o evento deve ser atribuído. Selecione os grupos de usuários para os quais o evento precisa ser atribuído automaticamente. Selecione as instâncias que precisam ser atribuídas e opcionalmente insira o número de dias após o qual o evento deve ser acionado.
 
    ![](assets/on-a-specific-date.png)
 
-1. Para todos os eventos, você pode selecionar a instância no **[!UICONTROL Instância]** lista suspensa. Você também pode selecionar instâncias do aprendizado atribuído para qualquer evento.
+1. Em todos os eventos, é possível selecionar a instância na lista suspensa **[!UICONTROL Instância]**. Também é possível selecionar instâncias do aprendizado atribuído em qualquer evento.
 
    ![](assets/choose-instance.png)
 
-   No Learning Manager, um plano de aprendizado cria sua própria instância, Automático. Ao escolher um grupo, por exemplo, Todos os alunos, por padrão, todos os alunos do plano de aprendizado são inscritos na instância Automático.
+   No Learning Manager, um plano de aprendizado cria sua própria instância, Automático. Quando você escolhe um grupo, por exemplo, Todos os participantes, todos os alunos do plano de aprendizado por padrão são inscritos automaticamente na instância.
 
-   Ao salvar o plano de aprendizado, a instância Automático aparece como uma opção na **[!UICONTROL Selecionar instância]** na seção Alunos de um curso.
+   Quando você salva o plano de aprendizado, a instância automática aparece como opção na lista suspensa **[!UICONTROL Selecionar instância]** na seção Alunos de um curso.
 
 1. Para salvar o plano de aprendizado, clique em **[!UICONTROL Salvar]**.
 
@@ -134,38 +134,38 @@ As próximas seções representam os acionadores nos quais a opção **[!UICONTR
 
 ## Editar um plano de aprendizado {#editalearningplan}
 
-Depois de criar um plano de aprendizado, o administrador pode editar/atualizar o plano a qualquer momento. Para editar, clique no nome do plano de aprendizado e modifique os valores na **[!UICONTROL Editar plano de aprendizado]** caixa de diálogo pop-up que aparece. Clique em **[!UICONTROL Salvar]**.
+Após a criação de um plano de aprendizado, o administrador pode editar/atualizar o plano de aprendizado a qualquer momento. Para editar, clique no nome do plano de aprendizado e modifique os valores na caixa de diálogo pop-up **[!UICONTROL Editar plano de aprendizado]** exibida. Clique em **[!UICONTROL Salvar]**.
 
 ## Ativar um plano de aprendizado {#enablealearningplan}
 
-Por padrão, todos os novos planos de aprendizado criados estão em um estado desativado. Você deve ativar um plano ao qual um aluno será atribuído. Quando você ativa a caixa de seleção **[!UICONTROL Alunos atuais]**, o evento é ativado sozinho.
+Por padrão, todos os planos de aprendizado novos criados estão no estado desativado. Você deve ativar um plano ao qual um aluno será atribuído. Quando você ativa a caixa de seleção **[!UICONTROL Alunos atuais]**, o evento é ativado sozinho.
 
 Para ativar um plano de aprendizado,
 
-1. Na lista de Planos de aprendizado, escolha o plano que deseja ativar.
+1. Na lista Planos de aprendizado, escolha o plano que deseja ativar.
 
    ![](assets/list-of-learningplans.png)
 
-1. No canto superior direito da página, clique em **[!UICONTROL Ações]** > **[!UICONTROL Habilitar]**. Isso ativa o Plano de aprendizado.
+1. No canto superior direito da página, clique em **[!UICONTROL Ações]** > **[!UICONTROL Habilitar]**. Isso ativa o plano de aprendizado.
 
 ## Excluir um plano de aprendizado {#deletealearningplan}
 
 Para excluir um plano de aprendizado,
 
-1. Na lista de Planos de aprendizado, escolha o plano que deseja excluir.
+1. Na lista Planos de aprendizado, escolha o plano que deseja excluir.
 1. No canto superior direito da página, clique em **[!UICONTROL Ações]** > **[!UICONTROL Excluir]**.
 
 ## Desativar um plano de aprendizado {#disablealearningplan}
 
 Para desativar um plano de aprendizado,
 
-1. Clique na guia **[!UICONTROL Habilitado]**.
-1. Na lista de Planos de aprendizado, escolha o plano que deseja desativar.
-1. No canto superior direito da página, clique em **[!UICONTROL Ações]** > **[!UICONTROL Desativar]**. Isso move o plano para a **[!UICONTROL Desativado]** guia.
+1. Clique na guia **[!UICONTROL Ativado]**.
+1. Na lista Planos de aprendizado, escolha o plano que deseja desativar.
+1. No canto superior direito da página, clique em **[!UICONTROL Ações]** > **[!UICONTROL Desativar]**. Isso move o plano para a guia **[!UICONTROL Desativado]**.
 
 ## Filtrar um plano de aprendizado {#filteralearningplan}
 
-Você pode filtrar Planos de aprendizado de acordo com o tipo de evento usado ao criar um Plano de aprendizado. Clique em **[!UICONTROL Tipo]** e escolha qualquer opção para exibir os Planos de aprendizado que correspondem à seleção.
+Você pode filtrar os planos de aprendizado de acordo com o tipo de evento usado para criar um plano de aprendizado. Clique em **[!UICONTROL Tipo]** e escolha qualquer opção para exibir os Planos de aprendizado que correspondem à seleção.
 
 ![](assets/filter-a-learningplan.png)
 
@@ -173,11 +173,11 @@ Você pode filtrar Planos de aprendizado de acordo com o tipo de evento usado ao
 
 1. Como configuro o Learning Manager para configurar inscrições automáticas para os novos funcionários contratados?
 
-   No menu **[!UICONTROL Ocorre quando]** , escolha a opção **[!UICONTROL Novo aluno adicionado]**. Em seguida, atribua os Objetos de aprendizado, a instância e a data de conclusão do aluno. Administradores e autores podem criar eventos de inscrição automática. Ative o evento depois de criá-lo.
+   No menu **[!UICONTROL Ocorre quando]** , escolha a opção **[!UICONTROL Novo aluno adicionado]**. A seguir, atribua os objetos de aprendizado, a instância e a data de conclusão do aluno. Administradores e autores podem criar eventos de inscrição automática. Ative o evento depois de criá-lo.
 
 1. Como configurar um plano de aprendizado/inscrição automática para o curso em sala de aula e sala de aula virtual?
 
-   É recomendável configurar a instância do curso com os detalhes da sessão necessários. Em seguida, configure um plano de aprendizado e mapeie-o para a instância do curso, que já foi criada.
+   Recomenda-se configurar a instância do curso com os detalhes necessários da sessão. Em seguida, configure um plano de aprendizado e mapeie-o para a instância do curso, que já foi criada.
 
 1. Como visualizar a lista de alunos inscritos em um plano de aprendizado específico?
 

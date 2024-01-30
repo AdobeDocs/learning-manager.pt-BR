@@ -6,7 +6,7 @@ contentowner: jayakarr
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 Temas de cores e marcas no Learning Manager
 
-O Learning Manager permite que você altere a aparência do aplicativo para corresponder aos requisitos de marca da sua organização.
+O Learning Manager permite alterar a aparência do aplicativo para corresponder aos requisitos de marca da empresa.
 
 ## Marca {#branding}
 
 Clique em **[!UICONTROL Marca]** no painel esquerdo para atualizar o nome da sua organização, altere o subdomínio, os estilos de registro e os temas. Clique em **[!UICONTROL Editar]** adjacentes a cada um desses tópicos para modificar o conteúdo.
 
-## Estilo do logotipo {#logostyling}
+## Estilo de logotipo {#logostyling}
 
 Clique em **[!UICONTROL Editar]** para definir a aparência do logotipo e nome da empresa no aplicativo Learning Manager.
 
-Clique em **[!UICONTROL Fazer upload do novo logotipo]** e escolha o logotipo do seu computador para carregar. Você pode visualizar a aparência do logotipo e o nome da sua organização abaixo. Escolha o estilo de cabeçalho de sua escolha e clique em **[!UICONTROL Salvar]**.
+Clique em **[!UICONTROL Carregar novo logotipo]** e escolha o logotipo no computador para carregar. Você pode visualizar a aparência do logotipo e o nome da sua empresa abaixo. Escolha o estilo de cabeçalho de sua escolha e clique em **[!UICONTROL Salvar]**.
 
 ## Temas {#themes}
 
 Um conjunto de cinco imagens representativas é fornecido para visualizar as alterações do tema de cores antes de aplicá-las ao aplicativo. Navegue por essas imagens clicando nos símbolos &lt; e > no lado esquerdo e direito das imagens, respectivamente, para visualizar. Como alternativa, você também pode clicar nos círculos de navegação na parte inferior dessas imagens para navegar pelo conjunto de instantâneos de visualização.
 
-**Escolher um tema**
+**Selecionar um tema**
 
 Clique no botão **[!UICONTROL Mostrar dicas]** abaixo desta seção para exibir as dicas na imagem, conforme mostrado abaixo.
 
@@ -42,8 +42,8 @@ Clique no botão **[!UICONTROL Mostrar dicas]** abaixo desta seção para exibir
 
 O aplicativo Learning Manager fornece cinco opções de temas de cores aos seus usuários:
 
-* Padrão do Prime
-* Seixos
+* Padrão Prime
+* Bolhas
 * Carnaval
 * Outono
 * Céu de inverno
@@ -57,7 +57,7 @@ Você pode personalizar a cor da barra superior, a cor do destaque (por exemplo,
 
 No menu **[!UICONTROL Cor primária]** , você pode escolher a cor usada para a interface do usuário imersiva.
 
-Para personalizar, escolha o tipo de tema no painel esquerdo e clique nos quadrados adjacentes à cor da marca e às cores dos ícones da barra lateral. Clique na barra lateral em brilho da barra lateral e arraste para frente ou para trás para ajustar o brilho. Observe a visualização nas imagens acima à medida que modifica essas opções.
+Para personalizar, escolha o tipo de tema no painel esquerdo e clique nos quadrados adjacentes às cores dos ícones da marca e da barra lateral. Clique na barra lateral de brilho e arraste para frente ou para trás para ajustar o brilho. Observe a visualização nas imagens acima conforme você modifica essas opções.
 
 Clique em **[!UICONTROL Redefinir Tema]** para restaurar as configurações originais do tema. Clique em **[!UICONTROL Salvar]** após concluir as alterações.
 
@@ -69,11 +69,11 @@ Clique em **[!UICONTROL Visualização ao vivo]** no canto inferior esquerdo da 
 
 *O pop-up Visualização ao vivo*
 
-Escolha o tema de sua escolha na lista suspensa, ajuste as configurações e clique em **[!UICONTROL Visualizar]** para exibir as alterações em tempo real em seu aplicativo. Agora, você pode passar por todos os recursos do aplicativo e testemunhar as alterações. Você também pode alterar suas funções enquanto passa pela visualização ao vivo. Quando estiver satisfeito com as alterações, volte para o recurso pop-up Visualização dinâmica do tema e clique em **[!UICONTROL Aplicar Tema]**.
+Escolha o tema de sua preferência na lista suspensa, ajuste as configurações e clique em **[!UICONTROL Visualizar]** para exibir as alterações em tempo real no aplicativo. Agora, você pode analisar todos os recursos do aplicativo e testemunhar as alterações. Você também pode alterar as funções ao passar pela visualização ao vivo. Quando estiver satisfeito com as alterações, volte para o recurso pop-up Visualização dinâmica do tema e clique em **[!UICONTROL Aplicar Tema]**.
 
-Enquanto você está visualizando as alterações ao vivo, o pop-up de visualização de tema ao vivo ainda é exibido na parte inferior da tela. Você pode optar por minimizar o pop-up.
+Ao visualizar as alterações em tempo real, a janela pop-up de visualização dinâmica do tema ainda aparece na parte inferior da tela. Você pode optar por minimizar a janela pop-up.
 
-## Personalizar sua conta {#customize}
+## Personalize sua conta {#customize}
 
 O Adobe Learning Manager permite que você personalize sua conta para fornecer uma experiência de usuário aprimorada.
 
@@ -93,7 +93,7 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
    <td>
     <p> </p>
     <ul>
-     <li>Até 12 cores personalizadas. </li>
+     <li>Somente até 12 cores personalizadas. </li>
      <li>As cores são aplicadas a todos os objetos de aprendizado. As cores serão aplicadas sequencialmente a todos os objetos de aprendizado (treinamentos) e o código de cores hexadecimais é o formato necessário para todas as cores, por exemplo, #ffffff.</li>
      <li>Se apenas uma cor for fornecida, essa cor será aplicada a todos os objetos de aprendizado.</li>
     </ul>
@@ -101,9 +101,9 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
   </tr>
   <tr>
    <td>
-    <p>Imagem do cursor</p></td>
+    <p>Imagem do ponteiro do cursor</p></td>
    <td>
-    <p>A imagem personalizada aparece quando um usuário passa o mouse sobre qualquer objeto de aprendizado. </p>
+    <p>A imagem personalizada é exibida quando um usuário passa o mouse sobre qualquer objeto de aprendizado. </p>
     <ul>
      <li>A imagem personalizada aplicada será exibida quando o usuário passar o mouse na página da Web do Learning Manager.<br></li>
      <li>Tamanho recomendado - 16x16 ou 24x24 px</li>
@@ -125,14 +125,14 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
     <p>Fontes</p></td>
    <td>
     <p>Para aplicar as fontes, é necessário um CDN. Além disso, você deve compartilhar a família de fontes a ser aplicada.</p>
-    <p><b>Observação:</b> A família da fonte deve ser compatível com todos os navegadores.</p></td>
+    <p><b>Observação:</b> a família da fonte deve ser compatível com todos os navegadores.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Imagem do plano de fundo</p></td>
+    <p>Imagem do Fundo</p></td>
    <td>
     <p>Uma imagem de fundo é visível somente em uma função de aluno. </p>
-    <p>Você deve ter a imagem que precisa ser aplicada ao plano de fundo do aluno.</p>
+    <p>Você deve compartilhar a imagem que precisa ser aplicada ao plano de fundo do aluno.</p>
     <ul>
      <li><b>Formato de imagem recomendado:</b> PNG, JPG, JPEG</li>
      <li><b>Tamanho recomendado: </b>1400 x 908 px</li>
@@ -171,7 +171,7 @@ Na guia **Geral** você tem as seguintes opções:
    <td>
     <p>Permitir que o aluno explore áreas de interesse</p></td>
    <td>
-    <p>Somente para a experiência Clássica. Escolher <strong>Sim </strong>ou <strong>Não</strong>.<br></p></td>
+    <p>Somente para a experiência clássica. Escolher <strong>Sim </strong>ou <strong>Não</strong>.<br></p></td>
   </tr>
   <tr>
    <td>

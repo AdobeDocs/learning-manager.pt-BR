@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Não é possível pesquisar um curso no Learning Manager
-description: Um aluno não pode pesquisar um curso no Learning Manager.
+description: Um aluno está impossibilitado de pesquisar um curso no Learning Manager.
 contentowner: nluke
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 ## Problema
 
-Um aluno não pode pesquisar um curso no Learning Manager.
+Um aluno está impossibilitado de pesquisar um curso no Learning Manager.
 
 ## Cenário 1: A inscrição é feita por meio de um objeto de aprendizado superior
 
 ### Resumo
 
-Há cenários em que um aluno pesquisa um curso e o curso não é listado. Mas se o aluno se inscreveu em um Programa de aprendizado/Certificação, ele poderá ver o curso dentro do Objeto de aprendizado.
+Há cenários onde um aluno pesquisa um curso e o curso não é listado. Mas se o aluno se inscreveu em um Programa de aprendizado/Certificação, ele poderá ver o curso dentro do Objeto de aprendizado.
 
-### Por que isso acontece?
+### Por que isso ocorre?
 
 No Learning Manager, quando um aluno é inscrito por meio de um Programa de aprendizado/Certificação, a inscrição para esse curso é feita por meio do Programa de aprendizado/Certificação.
 
-Portanto, o aluno não pode pesquisar os cursos independentes na seção **Meu aprendizado**.
+Portanto, o aluno não pode procurar os cursos independentes em **Meu aprendizado**.
 
 No entanto, o aluno não pode visualizar os cursos dentro do Programa de aprendizado/Certificação.
 
@@ -36,9 +36,9 @@ No entanto, o aluno não pode visualizar os cursos dentro do Programa de aprendi
 
 ### Resumo
 
-Um aluno não pode pesquisar cursos no catálogo ou no painel de aprendizado.
+Um aluno não pode pesquisar cursos no Catálogo ou no Painel de aprendizado.
 
-### Por que isso acontece?
+### Por que isso ocorre?
 
 Esse problema ocorre se:
 

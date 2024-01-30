@@ -7,7 +7,7 @@ preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Leia este artigo para saber como incorporar o fluidic player em um aplicativo personalizado.
 
-Como corporação, agora você pode fornecer uma experiência personalizada para seus alunos, mesmo fora do Learning Manager. Usando a API pública, você pode obter todas as informações relacionadas aos objetos de aprendizado, às inscrições dos alunos e ao progresso do aprendizado e exibi-las no seu site. Mais importante ainda: você pode até mesmo incorporar o Fluidic Player do Learning Manager em seu site, para que o aluno possa consumir o conteúdo diretamente em seu site. O Fluidic Player lhe dá o poder de reproduzir qualquer conteúdo compatível com o Learning Manager. Quando incorporado em seu próprio site, ele tem exatamente os mesmos recursos que quando usado no Learning Manager.
+Como corporação, agora você pode fornecer uma experiência personalizada para seus alunos, mesmo fora do Learning Manager. Usando a API pública, você pode obter todas as informações relacionadas aos objetos de aprendizado, às inscrições dos alunos e ao progresso do aprendizado e exibi-las no seu site. Mais importante ainda: você pode até mesmo incorporar o fluidic player do Learning Manager em seu site, para que o aluno possa consumir o conteúdo diretamente em seu site. O Fluidic Player lhe dá o poder de reproduzir qualquer conteúdo compatível com o Learning Manager. Quando incorporado em seu próprio site, ele tem exatamente os mesmos recursos que quando usado no Learning Manager.
 
 **Reproduzir qualquer conteúdo de e-learning[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
@@ -33,7 +33,7 @@ Aqui estão alguns exemplos de onde você pode usar o fluidic player incorporáv
 
 * Você pode usar o fluidic player incorporável no seu *** site para listar os cursos inscritos do seu funcionário e também fornecer um link para iniciar um treinamento na mesma página. Isso significa que os alunos podem realizar treinamentos no site da intranet.
 
-* Se você estiver no negócio de treinamento, talvez tenha um site no qual os clientes compram cursos. Você pode integrar o player incorporável com o mesmo site para que seus clientes possam consumir o conteúdo que compram no seu site.
+* Se estiver no negócio de treinamentos, talvez você tenha um site no qual os clientes compram cursos. Você pode integrar o player incorporável com o mesmo site para que seus clientes possam consumir o conteúdo que compram no seu site.
 
 ## Etapas para incorporar o fluidic player em seu site {#stepstoembedfluidicplayerinyourwebsite}
 
@@ -47,10 +47,10 @@ A criação de um aplicativo personalizado para incorporar o fluidic player em s
 
 Esta etapa é necessária para criar uma ID de aplicativo/cliente e um segredo de aplicativo/cliente que é usado para recuperar o token de atualização e o token de acesso. Para obter mais informações sobre a criação de um aplicativo, consulte  [Processo de desenvolvimento de aplicativos.](developer-manual.md#main-pars_header_994876235)
 
-1. Ir para **[!UICONTROL IntegrationAdmin]** aplicativo e abrir **[!UICONTROL Aplicativos]**.
+1. Vá para o aplicativo **[!UICONTROL IntegrationAdmin]** e abra **[!UICONTROL Aplicativos]**.
 
-1. Selecionar **[!UICONTROL Registrar]** no canto superior direito da página.
-1. O **[!UICONTROL Registrar um novo aplicativo]** é aberta. Preencha os campos obrigatórios.
+1. Selecione **[!UICONTROL Registrar]** no canto superior direito da página.
+1. A janela **[!UICONTROL Registrar um novo aplicativo]** é aberta. Preencha os campos obrigatórios.
 1. Se o aplicativo personalizado precisar ser compartilhado em várias contas, selecione **[!UICONTROL Não]** no campo de opção  **[!UICONTROL Apenas para esta conta?]**
 1. Para salvar o aplicativo e gerar a ID e o segredo do aplicativo, clique em **[!UICONTROL Salvar]**.
 
@@ -152,7 +152,7 @@ code window.addEventListener("message", function closePlayer(){
 });
 ```
 
-## Tutorial do aplicativo de amostra {#sampleapplicationtutorial}
+## Tutorial de amostra do aplicativo {#sampleapplicationtutorial}
 
 O documento PDF anexado contém um tutorial de amostra do aplicativo.
 [Tutorial de amostra e fonte do tutorial para incorporar o Fluidic Player.](assets/sample-applicationtutorial.zip) Conteúdos alternativos

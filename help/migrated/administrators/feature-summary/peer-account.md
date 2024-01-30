@@ -6,7 +6,7 @@ contentowner: shhivkum
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
@@ -34,11 +34,11 @@ O Learning Manager oferece a capacidade de compartilhar licenças compradas usan
    *Adicionar um subdomínio*
 
 1. Insira a ID de e-mail do administrador que aceita ou rejeita a solicitação da conta entre parceiros.
-1. Especifique o número de licenças que deseja compartilhar com seu parceiro. Quando você compartilha licenças com a conta entre parceiros, a conta entra no estado Ativo com as licenças recebidas ou com as próprias licenças compradas pelo parceiro.
+1. Especifique o número de licenças que deseja compartilhar com o seu parceiro. Quando você compartilha licenças com a conta entre parceiros, a conta entra no estado Ativo com as licenças recebidas ou com as próprias licenças compradas pelo parceiro.
 
    Se você inserir um número maior que as licenças disponíveis, o sistema exibirá um aviso.
 
-1. Marque a caixa de seleção se quiser exibir os relatórios de inscrição e de catálogo compartilhado de seus parceiros.
+1. Marque a caixa de seleção se quiser exibir os relatórios de inscrição e de catálogo compartilhado dos seus parceiros.
 1. Clique em Adicionar para adicionar à conta entre parceiros.
 
    Se um administrador compartilha licenças com um parceiro, ele não pode compartilhá-las com mais ninguém. No entanto, o parceiro pode comprar algumas licenças separadamente e compartilhá-las.
@@ -49,7 +49,7 @@ Depois de estabelecer uma conta entre parceiros, você também pode criar relat�
 
 Se o parceiro também quiser exibir os relatórios do administrador, ele deverá enviar uma solicitação de conta entre parceiros separada ao administrador.
 
-Para saber como gerar e exibir os catálogos compartilhados da conta entre parceiros, consulte [Exibição de relatórios de mesmo nível](reports.md#main-pars_header_894271250).
+Para saber como gerar e exibir os catálogos compartilhados da conta entre parceiros, consulte [Visualizando relatórios de parceiros](reports.md#main-pars_header_894271250).
 
 ## Excluindo contas entre parceiros {#deletingpeeraccounts}
 
@@ -59,16 +59,16 @@ Se você não deseja mais compartilhar licenças ou compras com uma conta, é po
 1. Selecione a(s) conta(s) entre parceiros que deseja excluir.
 1. Siga um destes procedimentos:
 
-   * Clique em Excluir no canto superior direito da página.
+   * Clique em Excluir no canto superior direito da página.
    * Clique no ícone Excluir próximo à conta entre parceiros que deseja excluir.
 
-   Depois que uma conta entre parceiros é excluída, as licenças recebidas não ficam mais disponíveis. Se a conta entre parceiros tiver recebido apenas licenças e nenhuma licença comprada, a conta será exibida em um estado Inativo.
+   Após excluir uma conta entre parceiros, as licenças recebidas não estarão mais disponíveis. Se a conta entre parceiros tiver recebido apenas licenças e nenhuma licença comprada, a conta será exibida em um estado Inativo.
 
 ## Relatório de usuário para contas entre parceiros {#download-peer-account}
 
 O administrador pode exibir o relatório de usuário da conta entre parceiros. O administrador da conta principal pode solicitar acesso ao relatório e, depois que o administrador da conta entre parceiros aceitar isso, o administrador pai poderá exibir o número de usuários registrados na conta entre parceiros e poderá baixar o relatório de usuário para a conta entre parceiros.
 
-1. Na página Contas entre Parceiros, clique em **[!UICONTROL Adicionar]**.
+1. Na página Contas entre Parceiros, clique em **[!UICONTROL Adicionar]**.
 1. Ative a opção, **[!UICONTROL Solicitar permissão para baixar relatórios de usuário para a conta inteira]**.
 
 ![](assets/image034.png)

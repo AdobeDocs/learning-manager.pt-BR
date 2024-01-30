@@ -1,71 +1,71 @@
 ---
-description: Configurar notificações de usuário para Gerentes.
+description: Configurar as notificações para o usuário para Gerentes.
 jcr-language: en_us
-title: Notificações do usuário
+title: Notificações para o usuário
 contentowner: manochan
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
 
 
-# Notificações do usuário
+# Notificações de usuário
 
-Configurar notificações de usuário para Gerentes.
+Configurar as notificações para o usuário para Gerentes.
 
-O recurso Notificações é aplicável a todos os usuários do Adobe Learning Manager 1.0. Mas cada usuário com base em sua função recebe diferentes tipos de notificações em vários cenários. Todos os alertas e notificações aos usuários são exibidos por meio da caixa de diálogo pop-up de notificações.
+O recurso de notificações é aplicável a todos os usuários do Adobe Learning Manager 1.0. Porém, cada usuário obtém diferentes tipos de notificações em várias circunstâncias dependendo da sua função. Todos os alertas e notificações dos usuários são exibidos através de caixa de diálogo pop-up de notificações.
 
-## Acessar notificações {#accessnotifications}
+## Notificações de acesso {#accessnotifications}
 
-Os usuários podem ver as notificações clicando no ícone de notificações no canto superior direito da janela. No login do gerente, você também pode clicar em Notificações no painel esquerdo para acessar essas notificações.
+Os usuários podem ver as notificações clicando no ícone de notificações no canto superior direito da janela. No login do Gerente, você também pode clicar em Notificações no painel esquerdo para acessar essas notificações.
 
-Instantâneo de notificações do gerenciador de amostra:
+Captura de tela de notificações de amostra para o Gerente
 
 ![](assets/manager-notifications-2.png)
 
 *Exibir todas as notificações*
 
-Essa janela pop-up exibe realces de todas as notificações junto com a hora da ocorrência e uma barra de rolagem. Para exibir mais informações sobre todas as notificações, clique em Mostrar todas as notificações na parte inferior da janela pop-up. A página Notificações é exibida.
+Esta janela suspensa exibe os destaques de todas as notificações junto com a hora da ocorrência e uma barra de rolagem. Para exibir mais informações sobre todas as notificações, clique em Mostrar todas as notificações na parte inferior da janela pop-up. A página Notificações será exibida.
 
-Um gerente pode ver as tarefas pendentes e todas as notificações em um formulário com guias na página de notificações. As notificações de tarefas pendentes são categorizadas com base em aprovações, nomeações e assim por diante. Para exibir todas as notificações, clique em **[!UICONTROL Todas as notificações]** guia. Em todas as guias de notificações, as notificações são ordenadas com base na data e hora e listadas.
+Um Gerente pode exibir as tarefas pendentes e todas as notificações em um formulário tabulado na página Notificações. As notificações de tarefas pendentes são categorizadas com base em aprovações, indicações e assim por diante. Para exibir todas as notificações, clique em **[!UICONTROL Todas as notificações]** guia. Na guia Todas as notificações, as notificações são ordenadas com base na on data e time e listadas.
 
 ![](assets/manager-notifications-page.png)
 
 *Exibir todas as tarefas pendentes*
 
-É possível saber o número de notificações mais recentes com base no número destacado acima do ícone de notificações. Por exemplo, se houver cinco notificações mais recentes após seu logon anterior, você poderá ver o número cinco exibido sobre o ícone de notificações. Esses números desaparecem assim que você lê todas as notificações mais recentes.
+É possível saber o número de notificações mais recentes com base no número destacado sobre o ícone de notificações. Por exemplo, se houver cinco notificações mais recentes após o seu login anterior, é possível ver o número cinco exibido no topo do ícone de notificações. Esses números desaparecem assim que você lê todas as notificações mais recentes.
 
-## Nomear alunos para os cursos {#nominatelearnersforcourses}
+## Indicar Alunos para os cursos {#nominatelearnersforcourses}
 
-Na janela de notificações, conforme mostrado na captura de tela acima, clique no link Nomear. Uma caixa de diálogo suspensa será exibida. Clique em Nomear.
+Na janela Notificações, como mostrado na captura de tela acima, clique no link Indicar. Uma caixa de diálogo suspensa será exibida. Clique em Indicar.
 
 ![](assets/nominate-learners.png)
 
 *Nomear alunos para os cursos*
 
-**Tipos de notificações para gerentes**
+**Tipos de notificações para Gerentes** 
 
-Os gerentes podem receber notificações quando os seguintes eventos forem acionados:
+Os Gerentes podem receber notificações sempre que ocorrer os seguintes eventos:
 
-1. Um aluno se inscreve em um curso ou programa de aprendizado
-1. Um aluno conclui um curso ou programa de aprendizado
-1. Um administrador inscreve um aluno em um curso ou programa de aprendizado
-1. Um gerente precisa fornecer feedback N3 para o aluno
-1. Um gerente precisa indicar alunos para um curso
-1. Um gerente precisa aprovar um aluno para um curso.
-1. Um gerente precisa aprovar o documento de prova de certificação carregado pelo aluno
-1. Um aluno não conclui o curso mesmo após a data limite. (esse evento é acionado somente quando o lembrete de notificação da instância do curso é definido com o nível de escalonamento para o gerente do aluno)
+1. Um Aluno se inscreve em um curso ou programa de aprendizado
+1. Um Aluno completa um curso ou programa de aprendizado
+1. Um Administrador inscreve um Aluno em um curso ou programa de aprendizado
+1. É necessário um Gerente para fornecer feedback L3 ao Aluno
+1. É necessário que o Gerente indique Alunos para um curso
+1. É necessário que o Gerente aprove um Aluno para um curso.
+1. É necessário que o Gerente aprove o documento de prova de certificação carregado pelo Aluno
+1. Um Aluno não conclui o curso mesmo após a data de fim do prazo. (esse evento é acionado somente quando o lembrete de notificação da instância do curso é definido com o nível de escalonamento para o gerente do aluno)
 
 >[!NOTE]
 >
->Os gerentes também podem receber notificações quando eles exercem o papel de um aluno. Consulte as notificações do aluno para mais informações.
+>Os gerentes também podem receber notificações quando eles exercem o papel de um aluno. Consulte as notificações para o Aluno para obter mais informações.
 
 ## Fornecer feedback {#providefeedback}
 
-Como mostrado na captura de tela acima, os gerentes podem clicar em Fornecer feedback para fornecer feedback L3 para os alunos de cada curso ou programas de aprendizado.
+Como mostrado na captura de tela acima, os Gerentes podem clicar em Fornecer feedback para fornecer feedback L3 para os Alunos de cada curso ou programas de aprendizado.
 
 >[!NOTE]
 >

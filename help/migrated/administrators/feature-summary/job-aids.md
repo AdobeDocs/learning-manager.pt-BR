@@ -6,7 +6,7 @@ contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Ajudas de tarefa para administradores no Learning Manager.
 
-Ajudas de tarefa é um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma organização.
+Ajudas de tarefa é um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
 
 As ajudas de tarefa podem ser usadas de forma independente ou em conjunto com a realização do curso no Learning Manager.
 
-Os administradores de uma empresa podem gerenciar a atribuição de ajudas de tarefa aos alunos e também retirar ou republicar ajudas de tarefa.
+Os administradores de uma organização podem gerenciar a atribuição de ajudas de tarefa aos alunos e também remover ou republicar ajudas de tarefa.
 
-## Retirar/publicar ajudas de tarefa {#withdrawrepublishjobaids}
+## Retirar/republicar ajudas de tarefa {#withdrawrepublishjobaids}
 
 Em Logon do administrador, clique em **[!UICONTROL Ajudas de tarefa]** no painel esquerdo para acessar ajudas de tarefa.
 
@@ -67,6 +67,6 @@ Entrada **[!UICONTROL Publicado]** clique no ícone configurações ao lado de u
 
 +++Como retirar uma ajuda de tarefa?
 
-Entrada **[!UICONTROL Publicado]** clique no ícone configurações ao lado de uma ajuda de tarefa. Clique em **[!UICONTROL Retirar]**. A ajuda de tarefa agora não aparece mais na guia Publicado. Para visualizar a ajuda de tarefa retirada, clique na guia Retirado.
+Entrada **[!UICONTROL Publicado]** clique no ícone configurações ao lado de uma ajuda de tarefa. Clique em **[!UICONTROL Remover]**. A ajuda de tarefa não é mais exibida na guia Publicado. Para exibir a ajuda de tarefa retirada, clique na guia Retirado.
 
 +++

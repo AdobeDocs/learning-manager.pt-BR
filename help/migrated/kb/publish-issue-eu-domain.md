@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 83%
 
 ---
 
@@ -24,15 +24,15 @@ Nenhuma conta encontrada
 
 ## Descrição
 
-Há cenários em que os autores tentam publicar um curso do Adobe Captivate para o Adobe Learning Manager. No entanto, eles não podem fazer isso, pois veem a mensagem de erro “Nenhuma conta encontrada”.
+Há cenários em que os autores tentam publicar um curso do Adobe Captivate para o Adobe Learning Manager. No entanto, eles não podem fazer isso, pois veem a mensagem de erro &quot;Nenhuma conta encontrada&quot;.
 
 ## Causa
 
 Esse problema ocorre porque o Adobe Captivate está configurado por padrão para publicar conteúdo no domínio dos EUA do Adobe Learning Manager.
 
-## Resolução:
+## Solução:
 
-Itens a serem observados:
+Observações:
 
 * Se estiver aberto, feche o aplicativo Adobe Captivate.
 * Você precisaria de acesso de administrador em sua máquina para executar as etapas abaixo. Caso você não tenha acesso de administrador, entre em contato com a equipe de TI para obter assistência.
@@ -43,7 +43,7 @@ Execute as etapas abaixo:
 
    Por exemplo,  `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64` (2019 é a versão Captivate. Difere se você estiver usando uma versão diferente do Adobe Captivate).
 
-1. Copiar o arquivo de configuração **AdobeCaptivate.ini** ao seu desktop.
+1. Copie o arquivo de configuração **AdobeCaptivate.ini** para a área de trabalho.
 
    ![](assets/cp-captivate.ini.png)
    *Exibir o arquivo de configuração*

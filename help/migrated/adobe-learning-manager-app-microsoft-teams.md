@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 81dd3cecf7393c08434a70e15457d967a56df8d3
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Como configurar
 
-Configurar o ALM no MS Teams envolve três etapas e precisa de ajuda do administrador do ALM e do administrador do Microsoft Azure. Em algumas organizações, o administrador do Azure e os administradores do MS Teams não são os mesmos e, portanto, exigem administradores adicionais do MS Teams.
+A configuração do ALM no MS Teams envolve três etapas e precisa da ajuda do administrador do ALM e do administrador do Microsoft Azure. Em algumas organizações, o administrador do Azure e os administradores de equipes da MS não são os mesmos e, portanto, também exigem administradores de equipes adicionais da MS.
 
 **Administrador do ALM - A função de administrador de integração aprova o aplicativo do Teams**
 
@@ -23,11 +23,11 @@ Depois que o administrador de integração aprovar o aplicativo do MS Teams, o a
 
 **O administrador do Microsoft Azure aprova a permissão para o aplicativo ALM no painel do Azure**
 
-O administrador do Azure terá que aprovar as permissões necessárias para o aplicativo ALM. Isso permitirá que o aplicativo ALM envie notificações ao MS Teams e permita o logon silencioso. No logon silencioso, os usuários não precisam fazer logon separadamente no Adobe Learning Manager no navegador.
+O administrador do Azure terá que aprovar as permissões necessárias para o aplicativo ALM. Isso permitirá que o aplicativo ALM envie notificações para o MS Teams e permita logon silencioso. No logon silencioso, os usuários não precisam fazer logon separadamente no Adobe Learning Manager no navegador.
 
 **O administrador do MS Teams cria uma política para as equipes do ALM**
 
-O administrador do MS Teams no centro de administração deve fixar o aplicativo ALM para todos os seus usuários e permiti-lo como uma política global. Caso o ALM seja usado apenas por um determinado grupo na empresa, o administrador do MS Teams deverá escolher uma política personalizada e aplicá-la somente a esse grupo específico.
+O administrador do MS Teams, no Centro de Administração, deve fixar o aplicativo ALM para todos os seus usuários e permitir isso como uma política global. Caso o ALM seja usado somente por um determinado grupo na empresa, o administrador do MS Teams deverá escolher uma política personalizada e aplicá-la somente a esse grupo específico.
 
 ## A função de administrador de integração aprova o aplicativo do Teams
 
@@ -55,7 +55,7 @@ Siga as etapas abaixo:
 
 Agora, os usuários podem acessar o aplicativo ALM no MS Teams.
 
-## O administrador do Microsoft Azure aprova a permissão para o aplicativo ALM no painel do Azure
+## O administrador do Microsoft Azure aprova a permissão do aplicativo ALM no painel do Azure
 
 Siga as etapas abaixo:
 
@@ -75,7 +75,7 @@ Siga as etapas abaixo:
    ![](assets/microsoft_azure_dashboard.jpg)
    *Adicionar ao Azure*
 
-1. Selecione a guia Aplicativos Enterprise e selecione Todos os Aplicativos. Você verá ALMTeamsApp listado aqui.
+1. Selecione a guia Aplicativos Empresariais e selecione Todos os Aplicativos. Você verá ALMTeamsApp listado aqui.
 
    ![](assets/microsoft_azure_enterprise_applications.jpg)
    *Exibir o aplicativo ALM*
@@ -114,11 +114,11 @@ Siga as etapas abaixo:
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
    *Adicionar a política*
 
-1. Na caixa de diálogo a seguir, pesquise **[!UICONTROL Adobe Learning Manager]** e adicione o aplicativo. Isso adiciona o Adobe do Learning Manager na seção Aplicativos instalados.
+1. Na caixa de diálogo a seguir, pesquise por **[!UICONTROL Adobe Learning Manager]** e adicione o aplicativo. Isso adiciona o Adobe do Learning Manager na seção Aplicativos instalados.
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
    *Instalar o aplicativo*
 
-1. Salve essa política. Isso disponibiliza o aplicativo para todos na organização.
+1. Salve esta política. Isso disponibiliza o aplicativo para todos na organização.
 
 Como alternativa, os administradores podem criar uma política personalizada em vez de uma política global. Adicione o Adobe Learning Manager a essa política personalizada e, em seguida, aplique a política personalizada somente aos conjuntos de usuários que precisam acessar o Adobe Learning Manager.

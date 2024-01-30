@@ -1,18 +1,18 @@
 ---
-description: Instalar o conector Microsoft Teams no Adobe Learning Manager
+description: Instalar o conector do Microsoft Teams no Adobe Learning Manager
 jcr-language: en_us
-title: Instalar o conector Microsoft Teams no Adobe Learning Manager
+title: Instalar o conector do Microsoft Teams no Adobe Learning Manager
 contentowner: saghosh
 source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 
 
-# Instalar o conector Microsoft Teams no Adobe Learning Manager
+# Instalar o conector do Microsoft Teams no Adobe Learning Manager
 
 ## Visão geral
 
@@ -20,21 +20,21 @@ O Microsoft® Teams® é uma plataforma de colaboração baseada em bate-papo pe
 
 O Adobe Learning Manager usa um conector de sala de aula virtual que pode ser usado para integrar reuniões Microsoft Teams com o Learning Manager.
 
-O conector Microsoft Teams conecta os sistemas Learning Manager e Microsoft Teams para permitir a sincronização automática de reuniões virtuais. A lista a seguir descreve os recursos do conector do Microsoft Teams:
+O conector do Microsoft Teams conecta os sistemas Learning Manager e Microsoft Teams para permitir a sincronização automática de reuniões virtuais. A lista a seguir descreve os recursos do conector do Microsoft Teams:
 
 **Configurar sessões virtuais usando Microsoft Teams**
 
-Este conector ajuda a integrar sua conta do Adobe Learning Manager com sua conta Microsoft Teams. Uma vez integrado, o conector permite que um autor no Learning Manager use Microsoft Teams como o provedor de serviços de tecnologia para os módulos de Sala de aula virtual criados no Learning Manager.
+Este conector ajuda a integrar sua conta do Adobe Learning Manager com sua conta do Microsoft Teams. Uma vez integrado, o conector permite que um autor no Learning Manager use o Microsoft Teams como o provedor de serviços de tecnologia para os módulos de Sala de aula virtual criados no Learning Manager.
 
 **Permitir que os Microsoft Teams autentiquem os alunos ao entrarem na sala de aula virtual**
 
-Este conector ajuda a configurar o organizador de reuniões do Microsoft Teams no Learning Manager ao criar uma reunião. O Organizador de Reuniões pode gerenciar a sala de espera para restringir ou admitir a entrada em uma reunião, bem como controlar outras opções de reunião fornecidas por Microsoft Teams.
+Este conector ajuda a configurar o organizador de reuniões do Microsoft Teams no Learning Manager ao criar uma reunião. O Organizador de Reuniões pode gerenciar a sala de espera para restringir ou admitir a entrada em uma reunião, bem como controlar outras opções de reunião fornecidas pelo Microsoft Teams.
 
 **Usar a sincronização automática de conclusão do usuário**
 
 O processo de sincronização automática de conclusão do usuário permite que um administrador do Learning Manager busque automaticamente os registros de conclusão e URL de gravação para reuniões do Microsoft Teams.
 
-## Funções em Microsoft Teams
+## Funções no Microsoft Teams
 
 Se estiver organizando uma reunião com vários participantes, você pode atribuir funções a cada participante para que um participante saiba o que pode fazer na reunião.
 
@@ -42,7 +42,7 @@ Há duas funções para escolher: **presenter** e **participante**.
 
 Para obter mais informações, consulte  [Funções em uma reunião no Teams - Microsoft](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-## Configurar o conector de Microsoft Teams
+## Configurar o conector do Microsoft Teams
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Observe o segredo do cliente, que será usado posteriormente durante a integraç
 
 Para configurar a política de acesso do aplicativo para o conector Microsoft Teams executando scripts do PowerShell, siga o procedimento descrito neste  [documento](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
-Isso permite que o conector acesse Microsoft Teams reuniões online.
+Isso permite que o conector acesse reuniões online do Microsoft Teams.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ A API usada para gravar uma sessão é uma API protegida. Para acessar a API, vo
 
 No documento,
 
-*“Para solicitar acesso a essas APIs protegidas, conclua o seguinte  [formulário de solicitação](https://aka.ms/teamsgraph/requestaccess). Revisamos as solicitações de acesso todas as quartas-feiras e implantamos as aprovações todas as sextas-feiras, exceto durante as principais semanas de feriados nos EUA. Os envios durante essas semanas serão processados na semana seguinte sem feriados. Para verificar se sua solicitação foi aprovada, teste o acesso do aplicativo na próxima segunda-feira aplicável.”*
+*“Para solicitar acesso a essas APIs protegidas, conclua o seguinte  [formulário de solicitação](https://aka.ms/teamsgraph/requestaccess). Revisamos as solicitações de acesso todas as quartas-feiras e implantamos as aprovações todas as sextas-feiras, exceto durante as principais semanas de feriados nos EUA. Os envios durante essas semanas serão processados &#x200B;&#x200B;na semana seguinte sem feriados. Para verificar se sua solicitação foi aprovada, teste o acesso do aplicativo na próxima segunda-feira aplicável.”*
 
 Para os alunos, o URL de gravação é exibido na página de visão geral do curso da sala de aula virtual.
 
@@ -187,7 +187,7 @@ Sim, o apresentador também deve fazer parte do Learning Manager e do Microsoft 
 
 +++
 
-+++Microsoft Teams tem reuniões, webinars e eventos ao vivo. Qual deles é compatível com o conector do Teams?
++++Microsoft Teams tem reuniões, webinars e eventos ao vivo. Qual deles faz o suporte do conector do Teams?
 
 No momento, o conector do Teams oferece suporte apenas a reuniões em Microsoft Teams. Para obter mais informações, consulte esta página  [documento](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 

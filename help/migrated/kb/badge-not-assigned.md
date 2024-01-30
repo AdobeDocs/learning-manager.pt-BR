@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 74%
 
 ---
 
@@ -38,7 +38,7 @@ Se um aluno tiver um problema, tente as etapas abaixo:
 
 1. Faça logon como administrador.
 
-1. Abra o objeto de aprendizado relevante (curso/programa de aprendizado).
+1. Abra o Objeto de aprendizado relevante (curso/programa de aprendizado).
 
 1. Clique em **[!UICONTROL Instâncias]** > **[!UICONTROL Medalha]**.
 

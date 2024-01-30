@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 72%
 
 ---
 
@@ -26,14 +26,14 @@ Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** e
 
 Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPad. Baixe e faça cursos no modo off-line e sincronize o conteúdo com o aplicativo on-line ao conectar-se à rede.
 
-1. Toque na lista suspensa Menu na parte superior e toque em Opção de aprendizado. Uma lista de todos os cursos disponíveis é exibida em blocos.
-1. Toque no ícone de download na parte inferior de cada bloco do objeto de aprendizado para baixar o conteúdo de aprendizado.
+1. Toque na lista suspensa Menu na parte superior e toque em Opção de aprendizado. Uma lista de todos os cursos disponíveis é exibida em quadros.
+1. Toque no ícone de download na parte inferior de cada quadro do objeto de aprendizado para baixar o conteúdo do aprendizado.
 
 ![](assets/download-ipad.png)
 
-1. Quando você estiver online, será exibido um prompt em uma barra na parte superior do aplicativo para verificar se deseja sincronizar o conteúdo online. Toque na barra de cor vermelha se a resposta for sim. Uma barra verde indica que o conteúdo está em sincronia com o aplicativo online.
+1. Quando estiver on-line, um prompt aparecerá em uma barra na parte superior do aplicativo para verificar se você quer sincronizar seu conteúdo on-line. Toque na barra vermelha se a resposta for sim. Uma barra verde indica que o conteúdo está em sincronia com o aplicativo on-line.
 
-## Rastrear o armazenamento do dispositivo {#nbsptrackdevicestorage}
+## Controlar o armazenamento do dispositivo {#nbsptrackdevicestorage}
 
 É possível monitorar periodicamente o armazenamento do dispositivo.
 
@@ -45,4 +45,4 @@ Uma caixa de diálogo com informações de armazenamento do aplicativo é exibid
 
 ![](assets/app-storage.png)
 
-Usando as informações de armazenamento do aplicativo, você pode verificar o espaço total do dispositivo, aplicativo e os cursos baixados. Essas informações permitem baixar os cursos adequadamente. Para excluir os cursos baixados no dispositivo, toque no ícone X ao lado de cada nome de curso.
+Com as informações de armazenamento do aplicativo, você pode verificar o espaço total do dispositivo, do aplicativo e dos cursos baixados. Essas informações permitem baixar cursos de acordo com o espaço disponível. Para excluir cursos baixados no dispositivo, toque no ícone X ao lado do nome de cada curso.

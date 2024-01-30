@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
 workflow-type: tm+mt
 source-wordcount: '932'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
@@ -19,12 +19,12 @@ O Learning Manager segue os padrões de acessibilidade WCAG 2.1 do W3C para a pl
 
 A função Aluno do Adobe Learning Manager permite que os alunos naveguem pela plataforma e aproveitem os seguintes recursos de acessibilidade:
 
-* Reader da tela
+* Leitor de tela
 * Teclado
 * Legendas ocultas
 * Outros
 
-## Suporte para Reader de tela {#supportforscreenreaders}
+## Suporte para leitores de tela {#supportforscreenreaders}
 
 O Adobe Learning Manager oferece suporte a leitores de tela, como NVDA, JAWS e Voice-over no desktop, Talkback e Voice-over no dispositivo móvel, que permitem que os alunos leiam o texto na plataforma do Learning Manager e naveguem adequadamente.
 
@@ -44,7 +44,7 @@ Esta é a combinação de leitor de tela e navegador que oferecemos suporte no d
    <td>
     <p>Windows</p></td>
    <td>
-    <p>Cromo</p></td>
+    <p>Chrome</p></td>
    <td>
     <p>NVDA</p></td>
   </tr>
@@ -68,7 +68,7 @@ Esta é a combinação de leitor de tela e navegador que oferecemos suporte no d
    <td>
     <p>Android</p></td>
    <td>
-    <p>Cromo</p></td>
+    <p>Chrome</p></td>
    <td>
     <p>Talkback</p></td>
   </tr>
@@ -85,7 +85,7 @@ Esta é a combinação de leitor de tela e navegador que oferecemos suporte no d
 
 ## Suporte para navegação no teclado {#supportforkeyboardnavigation}
 
-Os alunos podem usar teclas padrão para navegar pelas páginas com ou sem o leitor de tela. Isso ajuda os alunos a navegar nos elementos da página e ler o conteúdo usando um leitor de tela.
+Os alunos podem usar teclas padrão para navegar pelas páginas com ou sem o leitor de tela. Isso ajuda os alunos a navegarem pelos elementos da página e ler o conteúdo usando um leitor de tela.
 
 Além disso, o Learning Manager oferece suporte aos seguintes atalhos de teclado:
 
@@ -193,9 +193,9 @@ Além disso, o Learning Manager oferece suporte aos seguintes atalhos de teclado
 
 A função Aluno do Learning Manager suporta vários outros recursos de acessibilidade, incluindo, sem limitação:
 
-1. A estrutura semântica para as páginas de função do aluno, incluindo cabeçalho, marcação de lista, títulos descritivos etc, é fornecida.
+1. A estrutura semântica para as páginas de função do aluno, como cabeçalho, marcação de lista, títulos descritivos etc, é fornecida.
 1. O suporte para zoom do navegador até 200% sem perda de conteúdo ou funcionalidade é mantido durante a função do aluno.
-1. O contraste de cores para elementos de texto e não texto é mantido na função do aluno. Para uma melhor experiência, use o [Vívido](/help/migrated/administrators/feature-summary/themes.md) tema.
+1. O contraste de cores para elementos de texto e não texto é mantido na função do aluno. Para obter uma melhor experiência, use o tema [Vívido](/help/migrated/administrators/feature-summary/themes.md).
 1. Suporte aos padrões de design WAI ARIA da W3C para manter a consistência e as práticas recomendadas do setor.
 
 Para obter mais informações, consulte:
@@ -211,7 +211,7 @@ Use o `kbd Tab`para navegar pelos elementos da página. Use o `kbd Shift + Tab` 
 
 ## Pesquisar um treinamento no Learning Manager {#searchforatrainingincaptivateprime}
 
-1. Use essas dicas para navegar e chegar à caixa Pesquisar no canto superior direito da página inicial.
+1. Use essas dicas para navegar e acessar a caixa Pesquisar no canto superior direito da página inicial.
 1. Digite o texto usando o teclado. Os resultados da pesquisa serão exibidos.
 1. Usar o teclado `kbd Up/Down` setas para navegar pelos resultados ou pressionar `kbd ENTER`para ver todos os resultados.
 
@@ -224,15 +224,15 @@ Use o `kbd Tab`para navegar pelos elementos da página. Use o `kbd Shift + Tab` 
 1. Acerto `kbd ENTER`para iniciar o treinamento.
 1. Veja a seguir os controles que aparecem independentemente do tipo de conteúdo:
 
-   * Sumário
-   * Observações
+   * Tabela de conteúdos
+   * Notas
    * Botão Reproduzir/Pausar
    * Tela cheia
    * Botão Fechar
    * Configurações
    * Rótulo do nome do módulo
 
-1. Veja a seguir os controles que aparecem com base no tipo de conteúdo:
+1. Estes são os controles exibidos com base no tipo de conteúdo:
 
    * Conteúdo de VÍDEO - Controles de Deslizar, Avançar e Voltar.
    * Conteúdo do DOCUMENTO - Número da página, Página acima, Página abaixo, Mais zoom, Menos zoom.
@@ -242,27 +242,27 @@ Use o `kbd Tab`para navegar pelos elementos da página. Use o `kbd Shift + Tab` 
 
 1. Para o tipo DOCUMENTO, use controles de seta como `kbd UP/DOWN` para percorrer o documento.
 
-## Suporte de acessibilidade para necessidades específicas
+## Suporte à acessibilidade para necessidades específicas
 
 Vamos analisar os recursos de acessibilidade que os alunos podem utilizar com base em suas necessidades específicas.
 
-### Usuários surdos ou com deficiência auditiva
+### Usuários surdos ou com deficiências auditivas
 
-* Use legendas codificadas disponíveis no conteúdo criado com a ferramenta de criação do Adobe Captivate.
-* Para vídeos, os autores podem codificar os vídeos com texto de legenda. Esses vídeos têm legendas ocultas incorporadas e podem ser consumidos pelos alunos.
+* Use legendas ocultas disponíveis no conteúdo criado usando a ferramenta de criação do Adobe Captivate.
+* Para vídeos, os autores podem codificar os vídeos com texto de legenda. Esses vídeos têm legendas incorporadas e podem ser consumidas pelos alunos.
 * O Learning Manager oferece suporte à capacidade de carregar arquivos WebVTT de legenda para conteúdo de vídeo. Para obter mais informações, consulte  [*Carregar arquivo WebVTT para legendas*](authors/feature-summary/content-library.md#webvtt).
 
 ### Usuários cegos ou com pouca visão
 
 * Use os atalhos de teclado e comandos padrão para navegar pela página.
-* Uso de leitores de tela, conforme mencionado acima, para ler as informações na página da Web.
+* Uso os leitores de tela mencionados acima para ler as informações na página da Web.
 * Use os ampliadores de tela para ampliar a tela para melhorar a legibilidade e ampliar o navegador para 200% para ler o conteúdo.
 
 ### Usuários que têm dificuldade com cores
 
 A função Aluno do Adobe Learning Manager tenta fornecer aos usuários uma interface de usuário limpa e legível de acordo com os padrões WCAG 2.1.
 
-Para obter uma melhor experiência na página do aluno, use o [Tema vívido](/help/migrated/administrators/feature-summary/themes.md).
+Para obter uma melhor experiência na página do aluno, use o [tema Vívido](/help/migrated/administrators/feature-summary/themes.md).
 
 ### Usuários com mobilidade e acesso limitados
 
@@ -274,4 +274,4 @@ Ao criar um curso, os autores podem carregar arquivos webVTT junto com os arquiv
 
 ## O que será abordado em uma versão futura {#whatwillbeaddressedinafuturerelease}
 
-* Suporte a legendas ocultas para vídeos. Os autores devem ter a capacidade de fazer upload de arquivos SRT junto com os arquivos de vídeo. Os alunos devem poder ver as legendas ocultas dos vídeos.
+* Suporte a legendas ocultas para vídeos. Os autores devem ter a capacidade de carregar arquivos SRT junto com os arquivos de vídeo. Os alunos devem poder exibir legendas ocultas nos vídeos.

@@ -1,12 +1,12 @@
 ---
-description: Gamificação é o uso do pensamento e da mecânica de jogos em contextos fora do jogo para envolver os usuários em ganhar pontos enquanto aprendem.
+description: Gamificação é o uso do pensamento e da mecânica de jogos em contextos fora do jogo para envolver os usuários em ganho de pontos durante o aprendizado.
 jcr-language: en_us
 title: Gamificação
 contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1418'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Gamificação
 
-Gamificação é o uso do pensamento e da mecânica de jogos em contextos fora do jogo para envolver os usuários em ganhar pontos enquanto aprendem.
+Gamificação é o uso do pensamento e da mecânica de jogos em contextos fora do jogo para envolver os usuários em ganho de pontos durante o aprendizado.
 
 ## Visão geral {#overview}
 
@@ -31,7 +31,7 @@ Por padrão, alguns pontos e dados de gamificação de amostra estão disponíve
 Para acessar as configurações, siga as etapas abaixo:
 
 1. Faça logon como administrador e, no painel esquerdo, clique em **[!UICONTROL Gamificação]**.
-1. Ao criar uma nova conta do Learning Manager, a gamificação é desativada por padrão. Para ativá-lo, clique em **[!UICONTROL Habilitar]** no canto superior direito da página.
+1. Quando você cria uma nova conta do Learning Manager, a gamificação é desativada por padrão. Para ativá-la, clique em **[!UICONTROL Ativar]** no canto superior direito da página.
 
 ## Ações do administrador {#administratoractions}
 
@@ -82,7 +82,7 @@ Clique em [!UICONTROL **Gamificação**] > [!UICONTROL **Recurso de gamificaçã
 
 *Desativar gamificação*
 
-É possível desativar a gamificação para usuários internos e externos.
+Você pode desativar a gamificação para usuários internos e externos.
 
 ## Configurar pontos {#setuppoints}
 
@@ -106,14 +106,14 @@ Ao atribuir cursos aos pontos, o administrador precisa garantir que os alunos re
 
 **Para alunos rápidos**
 
-Essa tarefa se aplica quando um aluno conclui um número específico de cursos dentro de um mês/trimestre/ano. Essa tarefa é incentivar os alunos rápidos.
+Essa tarefa se aplica quando um aluno finaliza um número específico de cursos dentro de um mês/trimestre/ano. Essa tarefa tem como objetivo estimular os alunos rápidos.
 
 Você pode ver os seguintes cenários possíveis:
 
-1. Quando os alunos concluem dois cursos em um mês/trimestre/ano, eles obtêm 20 pontos.
-1. Quando os alunos concluem quatro cursos em um mês/trimestre/ano, eles obtêm 100 pontos.
-1. Quando os alunos terminam oito cursos, eles obtêm 300 pontos.
-1. Quando os alunos terminam dez cursos, eles obtêm 500 pontos.
+1. Quando os alunos concluem dois cursos dentro de um mês/trimestre/ano, eles obtêm 20 pontos.
+1. Quando os alunos concluem quatro cursos dentro de um mês/trimestre/ano, eles obtêm 100 pontos.
+1. Quando os alunos concluem oito cursos, eles obtêm 300 pontos.
+1. Quando os alunos concluem dez cursos, eles obtêm 500 pontos.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Essa tarefa se aplica quando os alunos se inscrevem no número prescrito de curs
 
 Cenários possíveis:
 
-1. Quando os alunos se inscrevem em um curso dentro de um mês/trimestre/ano, eles obtêm 50 pontos.
+1. Quando os alunos se inscrevem em um curso de um mês/trimestre/ano, eles obtêm 50 pontos.
 1. Quando os alunos se inscrevem em dois cursos dentro de um mês/trimestre/ano, eles obtêm 150 pontos.
 
 >[!NOTE]
@@ -136,14 +136,14 @@ Cenários possíveis:
 
 **Para alunos autodirigidos (b)**
 
-Essa tarefa se aplica quando os alunos se inscrevem e concluem mais cursos do que o necessário para concluir em um mês/trimestre/ano. Nesses casos, o administrador pode ativar essa tarefa para alocar pontos e incentivá-los.
+Essa tarefa se aplica quando os alunos se inscrevem e terminam mais cursos do que o exigido em um mês/trimestre/ano. Nesses casos, o administrador pode permitir que essa tarefa atribua pontos para incentivá-los.
 
-Cenários possíveis para a inscrição dos alunos nos cursos, além dos cursos atribuídos:
+Cenários possíveis de inscrição dos alunos em cursos além dos cursos previstos:
 
-1. Quando os alunos se inscrevem em um curso dentro de um mês/trimestre/ano, eles obtêm 20 pontos.
+1. Quando os alunos se inscrevem em um curso de um mês/trimestre/ano, eles obtêm 20 pontos.
 1. Quando os alunos se inscrevem em dois cursos dentro de um mês/trimestre/ano, eles obtêm 100 pontos.
 1. Quando os alunos se inscrevem em três cursos dentro de um mês/trimestre/ano, eles obtêm 300 pontos.
-1. Quando os alunos se inscrevem em quatro cursos dentro de um mês/trimestre/ano, eles obtêm 500 pontos.
+1. Quando os alunos se inscrevem em quatro cursos dentro de um mês/trimestre/ano, eles obtêm 500 pontos.
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ Cenários possíveis para a inscrição dos alunos nos cursos, além dos cursos 
 
 **Para melhoria de habilidades (a)**
 
-Essa tarefa se aplica quando um aluno adquire um número específico de competências. O administrador pode escolher essa tarefa para incentivar os alunos a ganharem o maior número de competências possível.
+Essa tarefa se aplica quando um aluno adquiri um número específico de competências. O administrador pode optar por essa tarefa para estimular os alunos a ganharem o maior número de competências possível.
 
 Cenários possíveis para melhoria nas habilidades:
 
@@ -166,9 +166,9 @@ Cenários possíveis para melhoria nas habilidades:
 
 **Para melhoria de habilidades (b)**
 
-Essa tarefa é aplicável sempre que os alunos concluem cada nível superior em uma competência.
+Essa tarefa se aplica sempre que os alunos concluírem o nível mais alto de uma competência.
 
-Cenários possíveis para melhoria de habilidades em níveis dentro de uma determinada competência:
+Cenários possíveis para melhoria dos níveis em uma determinada competência:
 
 1. Quando os alunos atingem um nível, eles obtêm 100 pontos.
 1. Quando os alunos atingem dois níveis, eles obtêm 200 pontos.
@@ -176,9 +176,9 @@ Cenários possíveis para melhoria de habilidades em níveis dentro de uma deter
 
 >[!NOTE]
 >
->O período de tempo não se aplica a esta tarefa. Se os alunos atingem o nível mais alto e, em seguida, atingem o nível mais baixo de uma competência, eles ganham pontos apenas para o nível mais alto.
+>O período de tempo não se aplica a esta tarefa. Se os alunos atingem o nível mais alto e, depois, atingem o nível mais baixo de uma competência, eles ganham pontos somente para o nível mais alto.
 
-**Pontos de conclusão antecipada**
+**Pontos por concluir primeiro**
 
 Essa tarefa se aplica aos alunos que estão entre os primeiros N alunos em concluir o curso.
 
@@ -192,7 +192,7 @@ Essa tarefa se aplica aos alunos que concluem um curso dentro de um número esti
 Cenário possível:\
 Quando os alunos terminam um curso 10 dias depois do início do curso, eles obtém 100 pontos.
 
-## Gamificação no nível de grupo {#grouplevelgamification}
+## Gamificação do nível de grupo {#grouplevelgamification}
 
 Os administradores podem definir o escopo da gamificação alterando as configurações do escopo. É possível ativar de forma seletiva a gamificação entre usuários, grupos ou locais de perfil semelhantes.
 
@@ -209,7 +209,7 @@ Os administradores podem definir o escopo da gamificação alterando as configur
 
    <!--![](assets/user-charecteristic.png)-->
 
-1. Selecione o valor correspondente à característica do usuário escolhida. Por exemplo, se você selecionou característica do usuário como perfil, será necessário selecionar o valor na lista suspensa. Um exemplo de valores de perfil é mostrado na captura de tela abaixo para sua referência.
+1. Selecione o valor correspondente à característica do usuário que você escolheu. Por exemplo, se você selecionou característica do usuário como perfil, será necessário selecionar o valor na lista suspensa. Um exemplo de valores de perfil é mostrado na captura de tela abaixo para sua referência.
 
    <!--![](assets/value.png)-->
 

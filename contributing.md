@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 # Contribuindo
@@ -13,7 +13,7 @@ Veja a seguir um conjunto de diretrizes a serem seguidas ao contribuir com este 
 
 ## Código De Conduta
 
-Este projeto está em conformidade com o Adobe [código de conduta](code-of-conduct.md). Ao participar, espera-se que você mantenha esse código. Denuncie comportamento inaceitável para
+Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao participar, espera-se que você mantenha esse código. Denuncie comportamento inaceitável para
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Documentação do Guia do Colaborador
@@ -30,7 +30,7 @@ Todas as contribuições de terceiros para este projeto devem ser acompanhadas d
 
 ## Revisões de código
 
-Todos os envios devem vir na forma de solicitações de recepção e devem ser revisados pelos responsáveis pelo projeto. Leitura [Documentação de solicitação pull do GitHub](https://help.github.com/articles/about-pull-requests/)
+Todos os envios devem vir na forma de solicitações de recepção e devem ser revisados pelos responsáveis pelo projeto. Leitura [Documentação de solicitação pull do GitHub](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 para obter mais informações sobre o envio de solicitações pull.
 
 <!--

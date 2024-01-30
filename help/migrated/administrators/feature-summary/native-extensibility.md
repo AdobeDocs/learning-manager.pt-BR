@@ -1,14 +1,14 @@
 ---
-title: Extensão nativa
+title: Extensibilidade nativa
 description: Configure experiências personalizadas na versão nativa do Adobe Learning Manager, permitindo que você não use headless para casos menos complicados.
 source-git-commit: 86c80607e2f50e6abf6d64fd7a916ef5b024b837
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
-# Extensão nativa
+# Extensibilidade nativa
 
 Você pode configurar experiências personalizadas dentro da versão nativa do Adobe Learning Manager, permitindo que você não use headless para casos menos complicados. Você também pode criar aplicativos personalizados e colocá-los em vários pontos na versão nativa dos fluxos de trabalho do aluno, gerente, administrador, autor ou professor.
 
@@ -28,7 +28,7 @@ O Adobe Learning Manager oferece suporte a 15 pontos de chamada no aplicativo do
    *Selecionar ponto de invocação*
 
 1. Digite o rótulo da extensão que aparecerá na interface do usuário no **[!UICONTROL Rótulo de Extensão]** campo.
-1. Digite a URL onde deseja hospedar a extensão no **[!UICONTROL URL]** campo.
+1. Digite a URL onde deseja hospedar a extensão no campo **[!UICONTROL URL]**.
 1. No menu suspenso Abrir em, selecione se deseja iniciar a extensão em uma janela modal ou em uma nova guia.
 1. Selecione o tamanho do modal. As opções estarão disponíveis se você selecionou *No aplicativo* modal na etapa anterior.
 
@@ -42,20 +42,20 @@ O Adobe Learning Manager oferece suporte a 15 pontos de chamada no aplicativo do
    ,{}'');
    ```
 
-1. Defina o escopo da extensão. Os seguintes escopos estão disponíveis:
+1. Defina o escopo da extensão. Estão disponíveis os seguintes escopos:
 
    * **[!UICONTROL Todos os cursos, caminhos de aprendizado e certificações]**: esta extensão é ativada para todos os cursos, caminhos de aprendizado e certificações. Junto com os administradores, os autores podem desativá-la para alguns cursos, caminhos de aprendizado e certificações.
    * **[!UICONTROL Cursos selecionados, caminhos de aprendizado e certificações]**: esta extensão é desativada para todos os cursos, caminhos de aprendizado e certificações. Junto com os administradores, os autores podem ativá-la para alguns cursos, caminhos de aprendizado e certificações.
 
-1. Selecione o **[!UICONTROL Ativar]** alterne para tornar a extensão ativa. Uma vez ativa, a extensão aparece no ponto de chamada especificado de acordo com o escopo.
-1. Selecionar **[!UICONTROL Salvar]** no canto superior direito da página para criar a extensão.
+1. Selecione a opção **[!UICONTROL Ativar]** para tornar a extensão ativa. Uma vez ativa, a extensão aparece no ponto de chamada especificado de acordo com o escopo.
+1. Selecione **[!UICONTROL Salvar]** no canto superior direito da página para criar a extensão.
 
 ## Acessar a extensão como administrador
 
-1. Como administrador, selecione **[!UICONTROL Caminhos de aprendizado]** na barra de ferramentas esquerda.
-1. Selecione um curso > **[!UICONTROL Exibir caminho de aprendizado]**.
-1. Selecionar **[!UICONTROL Instâncias]** no painel esquerdo.
-1. Selecionar **[!UICONTROL Mais]** na seção Instâncias. A extensão aparece na seção Instâncias.
+1. Como administrador, selecione **[!UICONTROL Caminhos de Aprendizado]** na barra de ferramentas esquerda.
+1. Selecione um curso > **[!UICONTROL Exibir Caminho de Aprendizado]**.
+1. Selecione **[!UICONTROL Instâncias]** no painel esquerdo.
+1. Selecione **[!UICONTROL Mais]** na seção Instâncias. A extensão aparece na seção Instâncias.
 
    ![imagem de instâncias](assets/instances-extension.png)
    *Selecione a extensão*
@@ -64,10 +64,10 @@ O Adobe Learning Manager oferece suporte a 15 pontos de chamada no aplicativo do
 
 ## Acessar a extensão como autor
 
-1. Como administrador, selecione **[!UICONTROL Caminhos de aprendizado]** na barra de ferramentas esquerda.
-1. Selecione um curso > **[!UICONTROL Exibir caminho de aprendizado]**.
-1. Selecionar **[!UICONTROL Instâncias]** no painel esquerdo.
-1. Selecionar **[!UICONTROL Mais]** na seção Instâncias. A extensão aparece na seção Instâncias.
+1. Como administrador, selecione **[!UICONTROL Caminhos de Aprendizado]** na barra de ferramentas esquerda.
+1. Selecione um curso > **[!UICONTROL Exibir Caminho de Aprendizado]**.
+1. Selecione **[!UICONTROL Instâncias]** no painel esquerdo.
+1. Selecione **[!UICONTROL Mais]** na seção Instâncias. A extensão aparece na seção Instâncias.
 
    ![imagem de instâncias](assets/instances-extension.png)
    *Acessar a extensão como autor*
@@ -83,7 +83,7 @@ Como administrador, você pode exibir todas as extensões na página Extensões 
 
 ## Ativar ou desativar uma extensão
 
-Como autor, na página Configurações de um curso, você pode ativar ou desativar uma extensão para um curso, certificação ou caminho de aprendizado.
+Como autor, na página Configurações de um curso, você pode ativar ou desativar uma extensão para um Curso, Certificação ou Caminho de Aprendizado.
 
 ![ativar imagem de extensão](assets/activate-extension.png)
 *Ativar uma extensão*
@@ -121,16 +121,16 @@ Há duas maneiras de baixar este relatório.
 
    O relatório contém os seguintes campos:
 
-   * Nome da extensão
+   * Nome da Extensão
    * Ponto de Invocação
    * Rótulo
    * Abrir no URL
    * Escopo
    * Ativar
-   * ID exclusiva do LO
-   * ID do treinamento
-   * Tipo de treinamento
-   * Nome do treinamento
+   * ID exclusiva do OA
+   * Id do treinamento
+   * Tipo de Treinamento
+   * Nome do Treinamento
 
 **Página Relatórios**
 

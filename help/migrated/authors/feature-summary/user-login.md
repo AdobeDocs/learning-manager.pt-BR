@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Logon de usuário
+title: Logon do usuário
 description: Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua conta.
 contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 42%
 
 ---
 
 
 
-# Logon de usuário
+# Logon do usuário
 
 Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua conta seguindo as etapas abaixo:
 
@@ -20,7 +20,7 @@ Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua cont
 
    A tela de logon é exibida.
 
-1. Clique em Login.
+1. Clique em Logon.
 
 ![](assets/adobeid-signin.png)
 

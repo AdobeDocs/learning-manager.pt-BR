@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1894'
-ht-degree: 0%
+ht-degree: 43%
 
 ---
 
@@ -24,7 +24,7 @@ Por exemplo, quando se admite novos funcionários, uma organização realiza tre
 
 ## Vantagens de um caminho de aprendizado
 
-Os caminhos de aprendizado tornam o fornecimento de um programa de treinamento prático e sem complicações. Aqui estão alguns dos principais benefícios de um caminho de aprendizado:
+Os caminhos de aprendizado tornam o fornecimento de um programa de treinamento prático e sem complicações. Estes são alguns dos principais benefícios de um caminho de aprendizado:
 
 1. Atribua uma habilidade e um nível de habilidade a um caminho de aprendizado diretamente. Não há necessidade de combinar créditos de habilidade. Depois que o aluno conclui um caminho de aprendizado, ele atinge o nível de habilidade mencionado.
 1. Capacidade de incorporar um caminho de aprendizado existente em um novo caminho de aprendizado. O recurso de incorporação está disponível somente para um nível de incorporação. Assim, um caminho de aprendizado que já contém um caminho incorporado não pode ser incorporado em um novo caminho.
@@ -52,7 +52,7 @@ Atribua uma medalha ao Caminho de aprendizado. Escolha uma medalha da lista de m
 
 Escolha o tipo de sequenciamento para as seções e treinamentos como Ordenado ou Não ordenado de acordo com a sua preferência.
 
-Se optar por Ordenado, os cursos serão exibidos na mesma sequência em que foram criados. Se escolher Não ordenado, os cursos não são organizados em sequência. Os alunos podem concluir os cursos em qualquer ordem.
+Se optar por Ordenado, os cursos serão exibidos na mesma sequência em que foram criados. Se optar por Não ordenado, os cursos não são organizados em sequência. Os alunos podem finalizar os cursos em qualquer ordem.
 
 Para adicionar um curso no Caminho de aprendizado, clique em **[!UICONTROL Adicionar cursos ou caminhos de aprendizado]**.
 
@@ -100,7 +100,7 @@ Insira o Caminho de aprendizado como se insere um curso.
 
 *Adicionar um caminho de aprendizado em um caminho de aprendizado*
 
-## Configurações do Caminho de Aprendizado
+## Configurações do Caminho de aprendizado
 
 Na seção Configurações, você pode adicionar os pré-requisitos e as ajudas de tarefa que um aluno deve aceitar antes de iniciar o Caminho de aprendizado. Você também pode adicionar recursos úteis ao aluno.
 
@@ -110,7 +110,7 @@ Na seção Configurações, você pode adicionar os pré-requisitos e as ajudas 
 
 ## Instâncias
 
-As instâncias do Caminho de aprendizado exibem um bloco adicional, **[!UICONTROL Caminhos de aprendizado]**. O mosaico exibe o número. de programas de aprendizado adicionados a um Caminho de aprendizado.
+As instâncias do Caminho de aprendizado exibem um bloco adicional: **[!UICONTROL Caminhos de aprendizado]**. O mosaico exibe o número. de programas de aprendizado adicionados a um Caminho de aprendizado.
 
 No menu **Cursos** lado a lado, você pode ver as instâncias do curso que estão visíveis para os alunos inscritos nesta instância.
 
@@ -134,7 +134,7 @@ Os lembretes de notificação são acionados com base na opção. Por padrão, a
 
 Observe que o recurso existente dos Programas de aprendizado será renomeado para Caminho de aprendizado imediatamente após a versão. Caso queira continuar a chamá-los de Programas de aprendizado, recomendamos que você use o recurso “Terminologias” para aplicar a terminologia desejada. Dessa forma, você pode usar o termo Programa de aprendizado.
 
-Os Caminhos de aprendizado trazem para você uma variedade de funcionalidades. Algumas delas ficam disponíveis imediatamente após o lançamento. Administradores/autores podem começar a usá-los. Recursos estendidos, como “Seções”, “adição do Caminho de aprendizado em outro caminho” etc. estão desativadas e podem ser ativadas marcando a caixa de seleção mencionada abaixo.
+Os Caminhos de aprendizado trazem para você uma variedade de funcionalidades. Algumas delas ficam disponíveis imediatamente após o lançamento da versão. Administradores/autores podem começar a usá-los. Recursos estendidos, como “Seções”, “adição do Caminho de aprendizado em outro caminho” etc. estão desativadas e podem ser ativadas marcando a caixa de seleção mencionada abaixo.
 
 Os alunos podem continuar a usar os Programas de aprendizado (agora chamados de Caminhos de aprendizado) e os autores/administradores também podem continuar a criá-los. Para aproveitar as funcionalidades estendidas do Caminho de aprendizado mencionadas acima, o administrador deve ativar a configuração conforme mencionado abaixo. Uma vez ativado, todos os novos recursos estendidos do Caminho de aprendizado estarão disponíveis.
 
@@ -158,7 +158,7 @@ O **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** tem uma nova opção
 **Autores e administradores**
 
 * A terminologia nos aplicativos de administrador/autor é a mesma dos alunos.
-* A interface para autores e administradores criarem e atualizarem os objetos anteriores do “Programa de aprendizado” agora será atualizada para a nova interface. Não há perda de funcionalidade, apenas que a interface do usuário executará a operação de maneira muito mais intuitiva. Essas alterações na interface do usuário refletirão na sua conta, mesmo que você tenha optado por não ativar “Recursos estendidos do Caminho de aprendizado”, sem perda de funcionalidade.
+* A interface para autores e administradores criarem e atualizarem os objetos anteriores do “Programa de aprendizado” agora será atualizada para a nova interface. Não há perda de funcionalidade, apenas que a interface do usuário executará a operação de uma forma muito mais intuitiva. Essas alterações na interface do usuário refletirão na sua conta, mesmo que você tenha optado por não ativar “Recursos estendidos do Caminho de aprendizado”, sem perda de funcionalidade.
 
 * Observe que os objetos existentes do Programa de aprendizado não mudarão. Portanto, não haverá impacto nos alunos (além do ponto de terminologia mencionado acima). Os autores/administradores podem notar um agrupamento padrão chamado “Seção” dentro de seus objetos existentes, o que não teria nenhum impacto material no que diz respeito à funcionalidade. Os autores/administradores também verão funcionalidades adicionais, como habilidades, ajudas de tarefa etc. Mas que você ainda não o tenha usado, isso não causará nenhum impacto no lado do aluno até que você realmente comece a usá-lo.
 
@@ -204,7 +204,7 @@ O **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** tem uma nova opção
 **Alunos**
 
 * Não há alterações para seus alunos, a menos que você faça alterações na implementação do LMS sem periféricos, pois as APIs nas quais você criou sua interface sem periféricos não serão alteradas.
-* Se você começar a usar os recursos estendidos dos caminhos de aprendizado criando novos caminhos de aprendizado, será necessário fazer alterações na implementação do LMS sem periféricos para refletir os recursos no aplicativo do aluno. As APIs do Learning Manager permitirão que você faça isso.
+* Se você começar a usar os recursos estendidos dos caminhos de aprendizado criando novos caminhos de aprendizado, será necessário fazer alterações na implementação do LMS sem periféricos para refletir os recursos no aplicativo do aluno. As APIs do Learning Manager permitem que você faça isso.
 
 **Autores e administradores**
 

@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 0%
 
 ## Recursos {#features}
 
-* [Começar](managers/feature-summary/learning-objects.md#main-pars_header)
+* [Introdução](managers/feature-summary/learning-objects.md#main-pars_header)
 * [Usuários de tablet Android e iPad](managers/feature-summary/ipad-android-tablet-users.md)
 * [Relatórios](managers/feature-summary/reports.md)
 * [Configurações](managers/feature-summary/settings.md)
-* [Logon de usuário](managers/feature-summary/user-login.md)
+* [Logon do usuário](managers/feature-summary/user-login.md)
 * [Notificações do usuário](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
 * [Objetos de aprendizado](managers/feature-summary/learning-objects.md)

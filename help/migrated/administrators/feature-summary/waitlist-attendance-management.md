@@ -1,20 +1,20 @@
 ---
 jcr-language: en_us
-title: Gerenciamento de lista de espera e participação
-description: Os administradores podem gerenciar a participação e a lista de espera dos cursos dos alunos.
+title: Gerenciamento de listas de espera e participações
+description: Os administradores podem gerenciar a presença e as listas de espera dos cursos dos alunos.
 contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
 
 
-# Gerenciamento de lista de espera e participação
+# Gerenciamento de listas de espera e participações
 
-Os administradores podem gerenciar a participação e a lista de espera dos cursos dos alunos.
+Os administradores podem gerenciar a presença e as listas de espera dos cursos dos alunos.
 
 ## Gerenciamento de listas de espera {#waitlistmanagement}
 
@@ -34,7 +34,7 @@ Os alunos são colocados em lista de espera de qualquer curso em sala de aula qu
 
 Este recurso se aplica somente a cursos em sala de aula e sala de aula virtual. Você pode registrar a participação seguindo as etapas abaixo:
 
-1. Clique em Cursos no painel esquerdo depois de fazer logon como administrador.
+1. Clique em Cursos no painel esquerdo depois de fazer logon como administrador.
 1. Na lista de cursos disponíveis, clique no nome do curso de qualquer módulo de sala de aula/curso da sua escolha. Uma nova página é exibida com informações detalhadas sobre o curso.
 1. Clique na guia Participação, selecione os alunos e clique em Salvar para marcar a participação.
 

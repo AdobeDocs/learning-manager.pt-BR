@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Perguntas frequentes para administradores
+title: Perguntas Frequentes para Administradores
 description: Perguntas frequentes para administradores do Adobe Learning Manager
 contentowner: manochan
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '2398'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
 
 
-# Perguntas frequentes para administradores
+# Perguntas Frequentes para Administradores
 
 <table>
  <tbody>
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 +++Posso adicionar usuários em massa? Como?
 
-Sim, você pode adicionar usuários em massa usando o recurso de upload de CSV. Clique em  [aqui](/help/migrated/administrators/add-users-in-bulk.md) para obter mais informações.
+Sim, você pode adicionar usuários em massa usando o recurso de carregamento de CSV. Clique em  [aqui](/help/migrated/administrators/add-users-in-bulk.md) para obter mais informações.
 
 +++
 
 +++Eu digito incorretamente a id de e-mail ao criar logon para meus alunos. Como corrigir isso?
 
-Para corrigir o logon do usuário, é necessário importar CSV no Learning Manager. Um arquivo CSV de exemplo é anexado na parte inferior desta página para sua referência. Como o email é considerado um identificador exclusivo de uma pessoa, ele não pode ser editado. Siga estas etapas:
+Para corrigir o logon do usuário, é necessário importar CSV no Learning Manager. Um arquivo CSV de exemplo é anexado na parte inferior desta página para sua referência. Como o e-mail é considerado um identificador exclusivo de uma pessoa, ele não pode ser editado. Siga estas etapas:
 
 1. Adicione o mesmo usuário com a ID de e-mail correta no CSV e verifique se ele permanece como Gerente de outros usuários adicionando sua ID de e-mail à coluna “E-mail do Gerente do Funcionário” no CSV de exemplo.
 1. Adicione outros usuários em sua conta ao CSV, incluindo você mesmo
@@ -74,8 +74,8 @@ Na versão 1.0 do Adobe Learning Manager, não temos nenhuma provisão para conf
 
 Os alunos são colocados em lista de espera de qualquer curso em sala de aula quando as vagas são limitadas, com base na ordem de inscrição. Os administradores podem selecionar os alunos da lista de espera e atribuir vagas que ultrapassam o limite de vagas para qualquer curso em sala de aula. Os alunos são inscritos no curso assim que o administrador atribui uma vaga.
 
-1. Clique em Cursos no painel esquerdo depois de fazer logon como administrador.
-1. Na lista de cursos disponíveis, clique no nome do curso de qualquer curso de sala de aula de sua escolha. Uma nova página é exibida com informações detalhadas sobre o curso.
+1. Clique em Cursos no painel esquerdo depois de fazer logon como administrador.
+1. Na lista de cursos disponíveis, clique no nome do curso de qualquer curso de sala em aula de sua escolha. Uma nova página é exibida com informações detalhadas sobre o curso.
 1. Clique em Lista de espera no painel esquerdo da página de detalhes do curso. Uma lista de alunos na lista de espera é exibida na página.
 1. Selecione os alunos e clique em Atribuir vagas para inscrever os alunos diretamente nos cursos, substituindo o limite de vagas.
 
@@ -87,7 +87,7 @@ Para obter mais informações, consulte  [lista de espera e presença](/help/mig
 
 Sim, você pode registrar a participação seguindo as etapas abaixo:
 
-1. Clique em Cursos no painel esquerdo depois de fazer logon como administrador.
+1. Clique em Cursos no painel esquerdo depois de fazer logon como administrador.
 1. Na lista de cursos disponíveis, clique no nome do curso de qualquer módulo de sala de aula/curso da sua escolha. Uma nova página é exibida com informações detalhadas sobre o curso.
 1. Selecione os alunos e clique em Salvar para registrar a conclusão do curso.
 
@@ -113,12 +113,12 @@ Você pode adicionar o feedback N3 enquanto inscreve os alunos nos cursos. Adici
 
 Como administrador, você pode solicitar a indicação do gerente para os cursos seguindo as etapas abaixo:
 
-1. Clique em Cursos no painel esquerdo
+1. Clique em Cursos no painel esquerdo
 1. Passe o mouse sobre qualquer curso indicado pelo gerente e clique em **[!UICONTROL Buscar indicação do gerente]**.
 
 1. Na lista de instâncias, clique em **[!UICONTROL Gerentes indicados]** link seguido por **[!UICONTROL Adicionar Gerentes]** link.
 
-1. Adicione o nome do gerente, o número de licenças atribuídas e clique na marca de seleção para salvar as alterações.
+1. Adicione o nome do gerente, o número devagas atribuídas e clique na marca de seleção para salvar as alterações.
 
 Ao criar os cursos, o autor escolhe o tipo de curso como Indicado pelo gerente.
 
@@ -156,7 +156,7 @@ Para criar um programa de aprendizado, siga as etapas abaixo:
 1. Clique em Programa de aprendizado no painel esquerdo. A página Programas de aprendizado é exibida com uma lista de programas de aprendizado existentes.
 1. Clique em Adicionar no canto superior direito da página.\
    Insira o nome do programa, a visão geral, a descrição e clique em Salvar.
-1. Clique em Cursos no painel esquerdo.
+1. Clique em Cursos no painel esquerdo.
 1. Adicione um ou vários cursos clicando em + em cada quadro do curso.
 
    >[!NOTE]
@@ -185,16 +185,16 @@ Para modificar o perfil da empresa, clique em **[!UICONTROL Configurações]** n
 
 +++Como pesquisar os cursos?
 
-Clique em Cursos no painel esquerdo depois de fazer logon como administrador. Uma lista de todos os cursos disponíveis é exibida.
+Clique em Cursos no painel esquerdo depois de fazer logon como administrador. Uma lista de todos os cursos disponíveis é exibida.
 
 Você pode pesquisar cursos de duas maneiras:
 
-1. Clique no ícone de pesquisa exibido no canto superior direito. Um campo de pesquisa é exibido. Digite o nome do curso ou qualquer palavra-chave associada aos seus cursos para localizá-los.
+1. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou qualquer palavra-chave associada aos seus cursos para localizá-los.
 1. Filtrando a lista de cursos usando os filtros.
 
 Você pode filtrar os cursos por estado, como Todos, Publicado e Retirado clicando em cada uma dessas opções. Você também pode pesquisar com base em competências clicando em Competências e escolhendo cada uma delas.
 
-Com base na sua escolha, você pode exibir a lista filtrada de cursos e selecionar os cursos necessários.
+Com base na sua escolha, você pode exibir a lista filtrada de cursos e fazer a escolha apropriada.
 
 +++
 
@@ -211,7 +211,7 @@ Consulte  [Ajuda sobre temas de cores e marcas](/help/migrated/administrators/fe
 +++Como configurar medalhas para os cursos?
 
 1. Clique em Medalhas no painel esquerdo depois de fazer logon como administrador.
-1. Clique em Adicionar no canto superior direito da página exibida.
+1. Clique em Adicionar no canto superior direito da página que aparece.
 1. Adicione o nome da medalha.
 1. Carregue a medalha clicando em Carregar medalha e clique em Salvar.
 
@@ -232,7 +232,7 @@ Consultar  [Recurso de gamificação](/help/migrated/administrators/feature-summ
 
 Você pode criar relatórios seguindo as etapas abaixo:
 
-1. Clique em Relatórios no painel esquerdo. A página Resumo do relatório é exibida.
+1. Clique em Relatórios no painel esquerdo. A página de resumo de relatório será exibida.
 1. Na página Relatórios, clique em **[!UICONTROL Adicionar]** no canto superior direito.
 
    **[!UICONTROL Adicionar relatório]** é exibida.
@@ -272,7 +272,7 @@ O Adobe Learning Manager fornece a você a facilidade de inscrever membros de de
 
    A caixa de diálogo Adicionar usuário é exibida.
 
-1. Adicione o nome do perfil, e-mail do gerente, vagas atribuídas e informações de expiração. Você também pode adicionar imagem ao perfil externo.
+1. Adicione o nome do perfil, e-mail do Gerente, vagas atribuídas e informações de expiração. Você também pode adicionar imagem ao perfil externo.
 1. Clique em **[!UICONTROL Salvar]**.
 
 O administrador pode copiar o URL de registro e enviá-lo ao grupo de inscrição externo. Os usuários externos podem se registrar, fazer logon no aplicativo Learning Manager e acessar os seus cursos.
@@ -346,8 +346,8 @@ Para exibir os cursos, clique em **[!UICONTROL Cursos]** no painel esquerdo. Con
 
 Para adicionar novos usuários, siga as etapas abaixo:
 
-1. Clique em Usuários no painel esquerdo depois de fazer logon como administrador. Você também pode adicionar usuários clicando em Introdução no painel esquerdo da janela e clicando em Adicionar usuários.
-1. Para adicionar novos usuários, clique em Adicionar no canto superior direito da página.
+1. Clique em Usuários no painel esquerdo depois de fazer logon como administrador. Você também pode adicionar usuários clicando em Introdução no painel esquerdo da janela e clicando em Adicionar usuários.
+1. Para dicionar novos usuários, clique em Adicionar no canto superior direito da página.
 
 Por padrão, todos os novos usuários são atribuídos com uma função de aluno. Você pode atribuir funções de administrador ou autor aos alunos clicando em **[!UICONTROL Ações]** no canto superior direito da página e escolhendo **[!UICONTROL Atribuir Função]** > **[!UICONTROL Criar autor]** ou **[!UICONTROL Criar administrador]**.
 

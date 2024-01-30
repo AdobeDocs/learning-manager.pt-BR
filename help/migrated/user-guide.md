@@ -1,16 +1,16 @@
 ---
-title: Bem-vindo ao Guia do usuário do Adobe Learning Manager
+title: Bem-vindo ao Guia do Usuário do Adobe Learning Manager
 description: Saiba mais sobre as ofertas mais recentes no Adobe Learning Manager (anteriormente Adobe Captivate Prime). Dê os primeiros passos, acesse cada seção individualmente ou conecte-se com a Comunidade para trabalhar do seu jeito em um projeto.
 contentowner: dhv
 source-git-commit: 73a1fe972eb8d399dd9ae53b6b1128bb11561924
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
 
-# Bem-vindo ao Guia do usuário do Adobe Learning Manager
+# Bem-vindo ao Guia do Usuário do Adobe Learning Manager
 
 Leia para saber quais são as ofertas mais recentes no Adobe Learning Manager (anteriormente Adobe Captivate Prime). Dê os primeiros passos, acesse cada seção individualmente ou conecte-se com a Comunidade para trabalhar do seu jeito em um projeto.
 
@@ -40,7 +40,7 @@ Visite o [Comunidade de Usuários do Adobe Learning Manager](https://community.a
    </td>
    <td>
     <a href="integration-admin/feature-summary/connectors.md">
-    <img alt="conector" src="assets/prime-connector.jpeg">
+    <img alt="conector do ADFS" src="assets/prime-connector.jpeg">
     </a>
     <div>
     <a href="integration-admin/feature-summary/connectors.md"><strong>Conectores do Learning Manager</strong></a>

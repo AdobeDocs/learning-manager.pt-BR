@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Como escolher os módulos do curso?
-description: O Adobe Learning Manager suporta quatro tipos de módulos de curso. Se você é responsável pela criação de um programa de treinamento, pode estar se perguntando que tipo de módulo você precisa escolher para atender aos requisitos da sua organização. Com base no orçamento da sua organização e nas necessidades do público-alvo, você pode escolher os módulos de curso. Alguns dos casos de uso típicos para cada tipo de módulo são explicados abaixo para sua referência.
+description: O Adobe Learning Manager suporta quatro tipos de módulos de curso. Se você é responsável pela criação de um programa de treinamento, pode estar se perguntando que tipo de módulo você precisa escolher para atender aos requisitos da sua organização. Com base no orçamento da sua organização e nas necessidades do público-alvo, você pode escolher os módulos de curso. Alguns dos casos típicos de uso para cada tipo de módulo são explicados abaixo para sua referência.
 contentowner: jayakarr
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Como escolher os módulos do curso?
 
-O Learning Manager oferece suporte a quatro tipos de módulos de curso. Se você é responsável pela criação de um programa de treinamento, pode estar se perguntando que tipo de módulo você precisa escolher para atender aos requisitos da sua organização. Com base no orçamento da sua organização e nas necessidades do público-alvo, você pode escolher os módulos de curso. Alguns dos casos de uso típicos para cada tipo de módulo são explicados abaixo para sua referência.
+O Learning Manager suporta quatro tipos de módulos de curso. Se você é responsável pela criação de um programa de treinamento, pode estar se perguntando que tipo de módulo você precisa escolher para atender aos requisitos da sua organização. Com base no orçamento da sua organização e nas necessidades do público-alvo, você pode escolher os módulos de curso. Alguns dos casos típicos de uso para cada tipo de módulo são explicados abaixo para sua referência.
 
 <table>
  <tbody>
@@ -186,7 +186,7 @@ O Learning Manager oferece suporte a quatro tipos de módulos de curso. Se você
   </tr>
   <tr>
    <td>
-    <p><strong>Tempo limite</strong></p></td>
+    <p><strong>Limitada no tempo</strong></p></td>
    <td>
     <p>Sim</p></td>
    <td>

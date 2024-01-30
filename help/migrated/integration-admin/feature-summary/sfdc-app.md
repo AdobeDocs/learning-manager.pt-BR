@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Aplicativo Learning Manager para Salesforce
-description: O Salesforce é uma das soluções de CRM mais populares entre as equipes de vendas e marketing. Ao usar o aplicativo Adobe Learning Manager no Salesforce, você pode permitir que os usuários acessem todo o direito de conteúdo de aprendizado a partir da interface do Salesforce. Os usuários podem acessar o conteúdo de aprendizado atribuído, como cursos, programas de aprendizado, ajudas de tarefa e assim por diante, de dentro do Salesforce. Os usuários também podem receber notificações sobre suas inscrições e comunicados do administrador.
+description: O Salesforce é uma das soluções de CRM mais populares entre as equipes de vendas e marketing. Ao usar o aplicativo Adobe Learning Manager no Salesforce, você pode permitir que os usuários acessem todo o direito de conteúdo de aprendizado a partir da interface do Salesforce. Os usuários podem acessar o conteúdo de aprendizado atribuído, tais como cursos, programas de aprendizado, ajudas de tarefa e assim por diante, de dentro do Salesforce. Os usuários também podem receber notificações sobre suas inscrições e comunicados do administrador.
 contentowner: jayakarr
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## Visão geral {#overview}
 
-Salesforce™ é uma das soluções de CRM mais populares entre as equipes de vendas e marketing. Ao usar o aplicativo Adobe Learning Manager no Salesforce, você pode permitir que os usuários acessem todo o direito de conteúdo de aprendizado a partir da interface do Salesforce. Os usuários podem acessar o conteúdo de aprendizado atribuído, como cursos, programas de aprendizado, ajudas de tarefa e assim por diante, de dentro do Salesforce. Os usuários também podem receber notificações sobre suas inscrições e comunicados do administrador.
+Salesforce™ é uma das soluções de CRM mais populares entre as equipes de vendas e marketing. Ao usar o aplicativo Adobe Learning Manager no Salesforce, você pode permitir que os usuários acessem todo o direito de conteúdo de aprendizado a partir da interface do Salesforce. Os usuários podem acessar o conteúdo de aprendizado atribuído, tais como cursos, programas de aprendizado, ajudas de tarefa e assim por diante, de dentro do Salesforce. Os usuários também podem receber notificações sobre suas inscrições e comunicados do administrador.
 
-No momento, o aplicativo Salesforce não está disponível, pois a aprovação está pendente no Salesforce App Exchange. Se você estiver interessado em visualizar a versão beta do aplicativo, entre em contato com seu Gerente de Conta ou com a equipe de suporte do Learning Manager.
+No momento, o aplicativo do Salesforce não está mais disponível, já que a a aprovação está pendente pelo Salesforce App Exchange.. Se você estiver interessado em visualizar a versão beta do aplicativo, entre em contato com seu Gerente de Conta ou com a equipe de suporte do Learning Manager.
 
 ## Instalação e configuração {#installationandsetup}
 
@@ -49,7 +49,7 @@ Saiba como instalar e configurar o aplicativo Learning Manager para Salesforce s
 
    Uma mensagem é exibida confirmando que o aplicativo foi instalado com sucesso. Clique em **Concluído**.
 
-## Adicionar componente de notificação à Home page {#addnotificationcomponenttothehomepage}
+## Adicionar componente de notificações à Página inicial {#addnotificationcomponenttothehomepage}
 
 A equipe do Learning Manager recomenda que o administrador do Salesforce também adicione o componente de notificações do Learning Manager ao layout da página inicial. Esse componente permite que os usuários do Salesforce recebam notificações sobre atribuições e outros comunicados do Learning Manager, mesmo quando eles não estão no contexto do aplicativo do aluno.
 

@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Não é possível exibir determinado curso no catálogo ao criar um Programa de aprendizado
-description: Ao procurar um curso específico para adicioná-lo a um programa de aprendizado, você não pode visualizar o curso no catálogo.
+description: Ao procurar um curso específico para adicioná-lo a um Programa de aprendizado, você não pode visualizar o curso no catálogo.
 contentowner: saghosh
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## Problema
 
-Ao procurar um curso específico para adicioná-lo a um programa de aprendizado, você não pode visualizar o curso no catálogo.
+Ao procurar um curso específico para adicioná-lo a um Programa de aprendizado, você não pode visualizar o curso no catálogo.
 
 ## Tipos de inscrição
 
 Há três tipos de inscrição no Learning Manager:
 
-* Autoinscrição
+* Auto-inscrição
 * Gerente indicado
 * Gerente aprovado
 
-## Autoinscrição
+## Auto-inscrição
 
 Os alunos podem se inscrever diretamente nesses tipos de cursos.
 
@@ -36,10 +36,10 @@ Esses cursos devem ser aprovados pelos gerentes. Os alunos podem se inscrever ne
 
 ## Gerente indicado
 
-Esses cursos só podem ser indicados por gerentes. Um aluno não pode se inscrever nesses tipos de cursos.
+Esses cursos só podem ser indicados por gerentes. Um aluno não poderá se inscrever nesses tipos de cursos.
 
-## Novidades
+## O que vem a seguir
 
-Em um Programa de aprendizado, você só pode adicionar cursos com autoinscrição, e não cursos indicados ou aprovados pelo gerente.
+Em um Programa de aprendizado, você só pode adicionar cursos com iauto-nscrição, e não cursos indicados ou aprovados por gerentes.
 
 Esse é um comportamento padrão no Learning Manager.

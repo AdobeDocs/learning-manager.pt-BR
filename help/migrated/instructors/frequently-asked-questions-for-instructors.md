@@ -1,18 +1,18 @@
 ---
 description: Leia para conhecer as perguntas frequentes para professores no Learning Manager.
 jcr-language: en_us
-title: Perguntas frequentes para professores
+title: Perguntas Frequentes para Professores
 contentowner: shhivkum
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 0%
+ht-degree: 85%
 
 ---
 
 
 
-# Perguntas frequentes para professores
+# Perguntas Frequentes para Professores
 
 Leia para conhecer as perguntas frequentes para professores no Learning Manager.
 
@@ -20,7 +20,7 @@ Leia para conhecer as perguntas frequentes para professores no Learning Manager.
 
 Se um autor concedeu a você privilégios de professor, você receberá um e-mail juntamente com um link para fazer logon no aplicativo do professor.
 
-Se você já estiver conectado ao aplicativo Learning Manager em outra função, clique em Configurações de perfil e selecione Professor. A tela é atualizada imediatamente para exibir o aplicativo do professor.
+Se você já estiver conectado ao aplicativo do Learning Manager em outra função, clique em Configurações de perfil e selecione Professor. A tela é atualizada imediatamente para exibir o aplicativo do professor.
 
 +++
 
@@ -28,7 +28,7 @@ Se você já estiver conectado ao aplicativo Learning Manager em outra função,
 
 Os professores de módulos ou sessões podem gerenciar a data, a hora e o local da sessão. Os professores também podem gerenciar o limite de vagas para módulos, gerenciando o limite da lista de espera também. Eles podem limpar a lista de espera e confirmar a lista de participantes de uma sessão. Os professores também podem aprovar envios dos alunos e definir lembretes para os cursos que hospedam as sessões do professor.
 
-Depois que a sessão termina, os professores também podem marcar a participação na sessão e aprovar as atribuições e outros arquivos de recursos relacionados à sessão. Para obter informações detalhadas sobre os recursos do professor, consulte [Resumo do recurso](feature-summary/modules.md).
+Depois que a sessão termina, os professores também podem marcar a participação na sessão e aprovar as atribuições e outros arquivos de recursos relacionados à sessão. Para obter informações detalhadas sobre os recursos do professor, consulte [Resumo dos recursos](feature-summary/modules.md).
 
 +++
 

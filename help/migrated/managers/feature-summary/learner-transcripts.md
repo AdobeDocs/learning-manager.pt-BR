@@ -5,7 +5,7 @@ title: Transcrições do aluno
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 0%
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ O Adobe Learning Manager permite que os gerentes de uma empresa gerem transcriç
 
    *Criar relatórios para transcrições do aluno*
 
-1. Uma caixa de diálogo de transcrições do aluno é exibida. Escolha o intervalo de datas para o qual você precisa da transcrição gerada.
+1. É exibida a caixa de diálogo Transcrições do aluno. Escolha o intervalo de datas das quais você precisa que a transcrição seja gerada.
 
    >[!NOTE]
    >
@@ -35,9 +35,9 @@ O Adobe Learning Manager permite que os gerentes de uma empresa gerem transcriç
 
 1. Escolha os nomes dos alunos no campo Selecionar alunos e clique em **[!UICONTROL Gerar]**.
 
-Você pode escolher um único aluno ou grupos de alunos. Para adicionar mais de um aluno, clique em Adicionar mais alunos.
+É possível escolher um único aluno ou grupos de alunos. Para adicionar mais de um aluno, clique em Adicionar mais alunos.
 
-As transcrições são geradas e baixadas no computador como arquivos .xls. Cada arquivo .xls excel tem sete folhas, cujos detalhes são mencionados abaixo:
+As transcrições são geradas e baixadas no seu computador como arquivos de .xls. Cada arquivo .xls excel tem sete folhas, cujos detalhes são mencionados abaixo:
 
 ## Baixar transcrição do aluno com base no fuso horário {#lt-timezone}
 
@@ -55,36 +55,36 @@ Se o gerente ativar essa opção, o fuso horário será selecionado no conjunto 
 
 ## Conteúdo do arquivo de transcrição do aluno {#learnertranscriptfilecontent}
 
-Um arquivo de transcrição do aluno típico consiste em seis planilhas do Excel em um único arquivo. As folhas de transcrição do aluno fornecem uma visão geral dos dados, incluindo o número de alunos envolvidos por curso, suas habilidades, a porcentagem de conclusão com base no curso ou aluno e um painel de conformidade. Estes são os painéis disponíveis nas transcrições do aluno:
+Um arquivo típico de transcrição do aluno consiste em seis planilhas do Excel em um único arquivo. As planilhas de transcrição do aluno oferecem uma ideia total dos dados, incluindo o número de alunos envolvidos por curso, suas habilidades, a porcentagem de concorrência com base no curso ou no aluno e um painel de conformidade. Estes são os painéis disponíveis nas transcrições do aluno:
 
 **Transcrição do aluno**
 
-Na folha de excel de transcrição do aluno, juntamente com os detalhes do perfil sobre o aluno, são fornecidos detalhes de consumo de objetos de aprendizado, como data de inscrição, data de início, nota obtida, pontuação do questionário obtida e assim por diante. Se os cursos fizerem parte de qualquer programa de aprendizado, eles serão listados separadamente, além dos detalhes de consumo individuais do curso.
+Na planilha do Excel de transcrição do aluno, junto com os detalhes do perfil sobre o aluno, são fornecidos detalhes de consumo inteligentes do objeto de aprendizado, como data de inscrição, data inicial, classificação alcançada, pontuação obtida no questionário e assim por diante. Se os cursos fizerem parte de qualquer programa de aprendizado, serão listados separadamente em relação aos detalhes individuais do consumo do curso.
 
 **1 - Painel da atividade de aprendizado**
 
-Neste painel específico do OA, você pode ver o número de alunos de cada curso, programa de aprendizado ou certificação. Você pode exibir a planilha de progresso dos alunos de um objeto de aprendizado específico. Essa planilha exibe dados como o número de alunos que concluíram o curso ou o programa de aprendizado, os alunos em andamento e as datas de vencimento dos alunos.
+Nesse painel específico do objeto de aprendizado, é possível ver o número de alunos de cada curso, programa de aprendizado ou certificação. Você pode visualizar a planilha de progresso dos alunos de um objeto de aprendizado específico. Esta página exibe dados como o número de alunos que concluíram o curso ou o programa de aprendizado, os alunos em andamento e as datas de vencimento dos alunos.
 
-O progresso dos usuários para o curso específico é calculado com base nos Campos de entrada, onde você especifica a data de vencimento e os limites de porcentagem de progresso. Por exemplo, se você especificar 7 dias e 70% como valores no campo de entrada, é exibido o progresso do curso para os cursos vencidos em 7 dias, e para os cursos que têm mais de 70% de progresso. Você também pode alterar o período nesta planilha, em que os dados modificados são exibidos automaticamente neste painel.
+O progresso dos usuários para o curso especificado é calculado com base nos Campos de entrada, onde você especifica os limites da porcentagem da data de vencimento e do progresso. Por exemplo, se você especificar 7 dias e 70% como valores no campo de entrada, é exibido o progresso do curso para os cursos vencidos em 7 dias, e para os cursos que têm mais de 70% de progresso. Você também pode alterar o período nesta planilha, na qual os dados modificados são automaticamente exibidos nesse painel.
 
 **2 - Painel da atividade de aprendizado**
 
-Esse painel de aprendizado exibirá dados para um usuário específico. Nesse painel, você pode ver os cursos, programas de aprendizado ou certificações nos quais um usuário específico se inscreveu. A tabela também exibe dados sobre quais objetos de aprendizado o usuário concluiu, os objetos de aprendizado em andamento e as datas de vencimento iminentes do usuário.
+Esse painel de aprendizado exibirá os dados de um usuário específico. Nesse painel, é possível visualizar os tutoriais, os programas de aprendizado ou as certificações em que um determinado usuário se inscreveu. A tabela também exibe os dados sobre os objetos de aprendizado concluídos pelo usuário, os objetos de aprendizado em andamento e as próximas datas de vencimento do usuário.
 
-O progresso dos usuários em cada curso é calculado com base nas entradas especificadas. Ou seja, os valores de data de vencimento e porcentagem de andamento. Por exemplo, se você especificar 7 dias e 70% como valores no campo de entrada, é exibido o progresso de cursos diferentes para os cursos vencidos em 7 dias, e para os cursos que têm mais de 70% de progresso.
+O progresso dos usuários para cada curso é calculado com base nas entradas que você especificar. Isto é, os valores de porcentagem da data de vencimento e do progresso. Por exemplo, se você especificar 7 dias e 70% como valores no Campo de entrada, é exibido o progresso de cursos diferentes para os cursos vencidos em sete dias, e para os cursos que têm mais de 70% de progresso.
 
 **Habilidade**
 
-Na planilha de habilidades, são fornecidos o nome da habilidade, o nível de habilidade, os créditos necessários, os créditos ganhos, a porcentagem de conclusão e outros detalhes do perfil. Um instantâneo de amostra da planilha habilidades do Excel é fornecido abaixo para referência.
+Na planilha Habilidades, são fornecidos o nome e o nível de habilidade, os créditos exigidos, os créditos necessários, a porcentagem de conclusão e outros detalhes do perfil. Para referência, é fornecido abaixo um instantâneo de exemplo da planilha do Excel de habilidades.
 
 **Painel de habilidade**
 
-Nesse painel, você pode ver se sua organização está equipada com várias habilidades. Para uma habilidade específica, você pode verificar o número de usuários em uma organização que devem ter essa habilidade em comparação com o número que realmente tem a habilidade. Esse painel também especifica os usuários que podem precisar atualizar suas habilidades. Esse valor é calculado com base na entrada inserida no campo Entrada. Por exemplo, se você inserir 50 dias como entrada, o painel fornecerá dados sobre usuários que podem precisar atualizar suas habilidades após 50 dias.
+Nesse painel, é possível ver se a sua organização está equipada em várias habilidades.  Para uma habilidade específica, você pode verificar o número de usuários em uma organização que deve ter essa habilidade em comparação com o número que tem realmente a habilidade. Esse painel também especifica os usuários que podem precisar atualizar suas habilidades. Esse valor é calculado com base na entrada inserida no campo de entrada. Por exemplo, se você inserir 50 dias como sua entrada, o painel fornece dados sobre os usuários que podem precisar de suas habilidades atualizadas após o período de 50 dias.
 
-Esse painel de habilidades é mais específico do usuário. Você pode filtrar um usuário específico ou vários usuários e exibir seu nível de habilidade como um painel. Essa planilha pode ajudar gerentes e administradores a controlar o nível de qualificação de cada aluno em comparação com o nível de qualificação esperado. O painel Habilidade também ilumina os alunos que precisam atualizar suas habilidades. A lista de atualização de alunos é calculada com base no número de dias inserido no campo de entrada.
+Este painel de habilidade é mais específico ao usuário. É possível filtrar um usuário específico ou vários usuários e visualizar seu nível de habilidade como um painel. Esta página pode ajudar os gerentes e administradores a controlarem o grau de habilidade de cada aluno em comparação ao que se espera dele. O painel Habilidade também ajuda a identificar os alunos que precisam atualizar suas habilidades. A lista de atualização de alunos é calculada com base no número de dias inserido no campo de entrada.
 
-**Painel de Conformidade**
+**Painel de conformidade**
 
-O Painel de conformidade tem duas partes: relatório de conformidade por usuário e relatório de conformidade por treinamento. Para o relatório baseado no usuário, você pode usar o Painel de Conformidade para rastrear usuários com datas de vencimento iminentes para iniciativas de conformidade importantes. Para o relatório baseado em treinamento, você pode filtrar por programa de aprendizado ou certificação.
+O painel de conformidade tem duas partes: relatório de conformidade por usuário e relatório de conformidade por treinamento. No relatório baseado em usuário, você pode usar o painel de conformidade para controlar os usuários cujas datas de vencimento de iniciativas importantes de conformidade estão próximas. No relatório baseado em treinamento, você pode filtrar por certificação ou programa de aprendizado.
 
-Para ambos os relatórios de conformidade, filtre pela data de vencimento para exibir os dados apropriados.
+Em ambos os relatórios de conformidade, filtre pela data de vencimento para ver os dados apropriados.

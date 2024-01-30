@@ -5,7 +5,7 @@ contentowner: saghosh
 source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
@@ -42,7 +42,7 @@ Para configurar um SSO, siga as etapas abaixo:
       * Se você selecionou IDP iniciado, insira o URL do IDP. Esse será o URL que será o identificador exclusivo do seu aplicativo e as informações fornecidas pelo provedor de serviços de IDP. Este é o URL para o qual todos os usuários do Adobe Learning Manager serão redirecionados após o logon.
       * Carregue o XML de metadados de IDP do seu provedor de IDP. Esse arquivo contém informações sobre o IdP que permite que o Adobe Learning Manager aceite asserções SAML dele
       * Se você selecionou SP iniciado, insira a ID da entidade. A ID da entidade é um URL fornecido pelo provedor de serviços (SP).
-      * Insira o URL de login do SP. Essa URL é usada pelos usuários para fazer logon no aplicativo.
+      * Digite o URL de login do SP. Essa URL é usada pelos usuários para fazer logon no aplicativo.
 
 1. A configuração de SSO é adicionada à lista.
 

@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 0%
 Devido à falta de botões de opção, um administrador não pode executar o seguinte (não é uma lista completa):
 
 * Atribuir ou remover funções.
-* Envie um e-mail de boas-vindas.
-* Exclua um usuário.
+* Enviar um e-mail de boas-vindas.
+* Excluir um usuário.
 
 ## Causa
 

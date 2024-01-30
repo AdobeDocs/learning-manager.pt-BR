@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
-title: Requisitos de sistema
+title: Requisitos do sistema
 description: Requisitos de sistema do Adobe Learning Manager
 contentowner: dvenkate
 source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -25,13 +25,13 @@ macOS X 10.12, 10.13, 10.14, 10.15
 
 8 GB de RAM.
 
-## Exibição
+## Tela
 
 Resolução mínima suportada - 1024 x 720.
 
 ## Espaço em disco
 
-Mínimo de 5 GB de espaço disponível em disco.
+Mínimo de 5 GB de espaço em disco disponível.
 
 ## Gravação
 
@@ -46,7 +46,7 @@ São necessárias uma conexão ativa com a Internet e uma conta de aluno do Adob
 
 A página inicial de layout imersivo não é compatível com navegadores IE 11.
 
-* Google Chrome versão 43 e posterior.
+* Versão 43 do Google Chrome e posterior.
 * Versões mais recentes do Edge, Safari (versão 13 e posterior) e Firefox.
 * Internet Explorer versão 11 e posterior
 
@@ -77,13 +77,13 @@ Mínimo de 8 GB necessário.
 
 ### Espaço em disco
 
-Mínimo de 5 GB de espaço disponível em disco.
+Mínimo de 5 GB de espaço em disco disponível.
 
 ### Gravação
 
 É necessário um microfone para gravação de áudio; uma webcam é necessária para gravação de vídeo.
 
-## Aplicativo móvel
+## Aplicativo para dispositivos móveis
 
 ### Dispositivos
 
@@ -99,7 +99,7 @@ Mínimo de 5 GB de espaço disponível em disco.
 
 * 1 Mbps
 
-### CPU, dispositivos de memória (min)
+### CPU, dispositivos de memória (mín.)
 
 * Qualcomm® Snapdragon™ 695 5G ou equivalente, 6 GB de memória
 
@@ -115,20 +115,20 @@ Mínimo de 5 GB de espaço disponível em disco.
 >
 >O aplicativo móvel do Learning Manager é compatível somente com a função do aluno.
 
-## Tamanho máximo do conteúdo {#maximumcontentsize}
+## Tamanho máximo de conteúdo {#maximumcontentsize}
 
-O tamanho máximo do arquivo que pode ser carregado é 600 MB.
+O tamanho máximo do arquivo que pode ser carregado é de 600 MB.
 
 >[!NOTE]
 >
->Se o tamanho do *user.csv* exceder 100 MB, a importação desse arquivo pode fazer com que o navegador se comporte de forma inesperada. O problema ocorre porque o navegador está sem memória.
+>Se o tamanho do arquivo *user.csv* exceder 100 MB, a importação desse arquivo pode fazer com que o navegador se comporte de forma imprevisível. O problema ocorre porque o navegador fica sem memória.
 
 Recomendamos importar tamanho grande *user.csv* arquivos usando o fluxo de trabalho automatizado do Box/Exavault. Para saber mais, consulte [Migração de arquivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Formatos de conteúdo suportados
 
-### Upload do módulo {#moduleupload}
+### Carregar o módulo {#moduleupload}
 
 <table>
  <tbody>
@@ -142,43 +142,43 @@ Recomendamos importar tamanho grande *user.csv* arquivos usando o fluxo de traba
    <td>
     <p>Documentos</p></td>
    <td>
-    <p>“pdf”, “docx”, “doc”, “xls”, “xlsx”</p></td>
+    <p>"pdf", "docx", "doc", "xls", "xlsx"</p></td>
   </tr>
   <tr>
    <td>
     <p>Apresentações do PowerPoint</p></td>
    <td>
-    <p>“pptx”, “ppt”</p></td>
+    <p>"pptx", "ppt"</p></td>
   </tr>
   <tr>
    <td>
     <p>Vídeos</p></td>
    <td>
-    <p>“mp4”, “wmv”, “3gp”, “3g2”, “3gp2”, “asf”, “avi”, “f4v”, “h264”, “mpe”, “mpeg”, “mpg”, “mpg2”, “m4v”, “mov”, “wmv”</p></td>
+    <p>"mp4", "wmv", "3gp", "3g2", "3gp2", "asf", "avi", "f4v", "h264", "mpe", "mpeg", "mpg", "mpg2", "m4v", "mov", "wmv"</p></td>
   </tr>
   <tr>
    <td>
     <p>SCORM 1.2</p></td>
    <td>
-    <p>“zip”</p></td>
+    <p>"zip"</p></td>
   </tr>
   <tr>
    <td>
     <p>SCORM 2004</p></td>
    <td>
-    <p>“zip”</p></td>
+    <p>"zip"</p></td>
   </tr>
   <tr>
    <td>
     <p>CAPI</p></td>
    <td>
-    <p>“zip”</p></td>
+    <p>"zip"</p></td>
   </tr>
   <tr>
    <td>
     <p>AICC</p></td>
    <td>
-    <p>“zip”</p></td>
+    <p>"zip"</p></td>
   </tr>
   <tr>
    <td>
@@ -199,7 +199,7 @@ Recomendamos importar tamanho grande *user.csv* arquivos usando o fluxo de traba
   </tr>
   <tr>
    <td>
-    <p><strong>Foto de perfil do usuário</strong></p></td>
+    <p><strong>Foto no perfil do usuário</strong></p></td>
    <td>
     <p>“png”, “jpg”, “jpeg”, “gif”</p></td>
   </tr>
@@ -211,7 +211,7 @@ Recomendamos importar tamanho grande *user.csv* arquivos usando o fluxo de traba
   </tr>
   <tr>
    <td>
-    <p><strong>Upload de certificações</strong></p></td>
+    <p><strong>Carregar certificações</strong></p></td>
    <td>
     <p> “png”, “jpg”, “jpeg”, “pdf”, “doc”, “docx”, “gif”</p></td>
   </tr>
@@ -224,7 +224,7 @@ Recomendamos importar tamanho grande *user.csv* arquivos usando o fluxo de traba
  </tbody>
 </table>
 
-## Especificação de altura e largura para carregamento de elementos {#heightandwidthspecificationforuploadingelements}
+## Especificação de altura e largura para carregar elementos {#heightandwidthspecificationforuploadingelements}
 
 <table>
  <tbody>
@@ -236,25 +236,25 @@ Recomendamos importar tamanho grande *user.csv* arquivos usando o fluxo de traba
   </tr>
   <tr>
    <td>
-    <p>Medalha no quadro de realizações do aluno</p></td>
+    <p>Crachá no quadro Realizações do Aluno</p></td>
    <td>
-    <p>40x40 pixels</p></td>
+    <p>40 x 40 pixels</p></td>
   </tr>
   <tr>
    <td>
-    <p>Medalha expandida no aplicativo do aluno</p></td>
+    <p>Crachá expandido no aplicativo do Aluno</p></td>
    <td>
     <p>90 x 90 pixels</p></td>
   </tr>
   <tr>
    <td>
-    <p>Foto do perfil do usuário sobre as Conquistas do aluno</p></td>
+    <p>Foto no perfil do usuário nas Realizações do Aluno</p></td>
    <td>
     <p>100 x 100 pixels</p></td>
   </tr>
   <tr>
    <td>
-    <p>Menu suspenso Foto do perfil do usuário ao fazer logoff</p></td>
+    <p>Foto no perfil do usuário no menu suspenso Logout</p></td>
    <td>
     <p>42 x 42 pixels</p></td>
   </tr>
@@ -283,16 +283,16 @@ As seguintes combinações são suportadas:
 * Edge + Narrador
 * Mac Safari + VoiceOver
 
-### Suporte para dispositivos móveis imersivos
+### Suporte para o dispositivos móveis imersivo
 
-Os seguintes itens são compatíveis:
+São suportados os seguintes:
 
 * Android+Talkback
 * iOS+voiceOver
 
 ## Requisitos de rede {#networkrequirements}
 
-Certifique-se de que os seguintes domínios de terceiros estejam na lista de permissões se você estiver em qualquer rede que tenha restrições.
+Certifique-se de que os seguintes domínios de terceiros estão permitidos se você estiver em qualquer rede que tenha restrições.
 
 * &#42;.adobe.com
 * &#42;.boltdns.net
@@ -308,13 +308,13 @@ Certifique-se de que os seguintes domínios de terceiros estejam na lista de per
 * &#42;.akamaihd.net
 
 
-### Casos específicos alargados {#specificextendedcases}
+### Casos estendidos específicos {#specificextendedcases}
 
 <table>
  <tbody>
   <tr>
    <th>Recurso</th>
-   <th>Serviços usados</th>
+   <th>Serviços utilizados</th>
   </tr>
   <tr>
    <td>Conector FTP</td>
@@ -325,11 +325,11 @@ Certifique-se de que os seguintes domínios de terceiros estejam na lista de per
    <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
   </tr>
   <tr>
-   <td>Conector do Lynda</td>
+   <td>Conector Lynda</td>
    <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.lynda.com/" target="_blank">www.lynda.com</a></td>
   </tr>
   <tr>
-   <td>Conector do Harvard ManageMentor</td>
+   <td>Conector Harvard ManageMentor</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://myhbp.org" target="_blank">www.myhbp.org</a></td>
   </tr>
   <tr>
@@ -337,15 +337,15 @@ Certifique-se de que os seguintes domínios de terceiros estejam na lista de per
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
   </tr>
   <tr>
-   <td>Conector da caixa</td>
-   <td>Box Zones em Frankfurt</td>
+   <td>Conector Box</td>
+   <td>Box Zones localizado em Frankfurt</td>
   </tr>
   <tr>
-   <td>Mini conector laranja</td>
-   <td>Mini laranja</td>
+   <td>Conector Mini Orange</td>
+   <td>Mini Orange</td>
   </tr>
   <tr>
-   <td>Conector do Workday</td>
+   <td>Conector Workday</td>
    <td>Workday</td>
   </tr>
   <tr>

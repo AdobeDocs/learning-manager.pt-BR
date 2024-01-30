@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 73%
 
 ---
 
@@ -38,7 +38,7 @@ Para evitar erros relacionados a links quebrados, que podem aparecer devido à p
 
 1. Navegue até o modelo necessário e clique para modificá-lo.
 
-   Isso abre a janela **Visualização do modelo** janela.
+   Isso abre a janela **Visualização do modelo**.
 
    ![](assets/email-template.png)
 

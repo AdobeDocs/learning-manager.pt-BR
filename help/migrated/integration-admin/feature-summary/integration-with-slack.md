@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 Nós temos **removido** **Slack** como um conector no Learning Manager. Você não terá mais acesso ao conector Slack.
 
-Como usuário de Slack, você pode instalar o aplicativo Adobe Learning Manager do diretório de aplicativos Slack nas suas equipes de Slack e explorar o conteúdo do Learning Manager diretamente no Slack. Você pode interagir com o Primebot para pesquisar novos cursos, visualizar recomendações e obter notificações sobre futuros prazos de conclusão no Learning Manager. Você também pode se inscrever e ir diretamente para o seu aprendizado no Slack.
+Os usuários do Slack podem instalar o aplicativo Adobe Learning Manager através do diretório de aplicativos do Slack nas suas equipes do Slack e explorar o conteúdo do Learning Manager no próprio Slack. Você pode interagir com o Primebot para pesquisar novos cursos, visualizar recomendações e obter notificações sobre futuros prazos de conclusão no Learning Manager. Você também pode se inscrever e ir diretamente para o seu aprendizado no Slack.
 
 O aplicativo Learning Manager para Slack não tem suporte em uma instância do Azure no Learning Manager.
 
 ## Instalando o aplicativo Adobe Learning Manager {#installingadobecaptivateprimeapp}
 
-Como aluno, você pode instalar o aplicativo CP Prime na sua conta Slack. Para instalar o aplicativo, na sua conta de Slack, abra o diretório do aplicativo e procure por Learning Manager. Baixe e instale o aplicativo Se o aplicativo não for aprovado em sua conta, entre em contato com o administrador de integração para obter aprovação. Se já estiver aprovado, você poderá fazer logon.
+Como aluno, você pode instalar o aplicativo CP Prime na sua conta do Slack. Para instalar o aplicativo, na sua conta do Slack, abra o diretório do aplicativo e procure por Learning Manager. Baixe e instale o aplicativo Se o aplicativo não for aprovado em sua conta, entre em contato com o administrador de integração para obter aprovação. Se já estiver aprovado, você poderá fazer logon.
 
 ## Aprovando o logon do aluno como administrador de integração {#approvinglearnersigninasanintegrationadmin}
 
 Como administrador de integração, para aprovar a permissão de um aluno para usar o aplicativo Prime no Slack, siga estas etapas.
 
-1. Selecionar **[!UICONTROL Aplicativos]** no painel esquerdo e clique no botão **[!UICONTROL Aplicativos em destaque]** guia.
+1. Selecione **[!UICONTROL Aplicativos]** no painel esquerdo e clique na guia **[!UICONTROL Aplicativos em destaque]**.
 
    ![](assets/featuredapps.jpg)
 
-1. Clique no botão **[!UICONTROL Slack]** bloco > a página integração do slack é aberta. Clique em **[!UICONTROL Aprovar]** no canto superior direito para aprovar o aplicativo.
+1. Clique no bloco do **[!UICONTROL Slack]** > a página de integração do Slack é aberta. Clique em **[!UICONTROL Aprovar]** no canto superior direito para aprovar o aplicativo.
 
    ![](assets/approval.png)
 
@@ -41,7 +41,7 @@ Como administrador de integração, para aprovar a permissão de um aluno para u
 
 ## Funcionalidades do Primebot {#primebotfunctionalities}
 
-Agora você pode começar a interagir com o Primebot. Estas são as funcionalidades do bot.
+Agora você pode começar a interagir com o Primebot. Estas são as funcionalidades do bot:
 
 1 - Comando
 
@@ -65,9 +65,9 @@ Os subcomandos disponíveis são:
 
 /prime invite - [Somente administrador] convide os usuários do Slack na equipe atual para experimentar o primebot
 
-/prime profile- mostrar perfil
+/prime porfile - mostra perfil
 
-/prime logout - faça logoff da sua conta Prime nesta equipe Slack
+/prime logout - faça logoff da sua conta Prime nesta equipe do Slack
 
 /prime help - mostra mensagem de ajuda
 

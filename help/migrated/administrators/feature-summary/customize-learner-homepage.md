@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 0%
+ht-degree: 46%
 
 ---
 
@@ -28,13 +28,13 @@ Na guia **Marca** > **Página inicial do aluno** Um administrador pode personali
 
 Os administradores podem definir a interface do usuário (aparência e funcionalidade) no aplicativo do administrador (**Marca** > **Página inicial do aluno** ).
 
-Os administradores podem alternar para a exibição Widget de interface imersiva, personalizar os widgets/recursos de acordo e ativar a interface imersiva.
+Os administradores podem alternar para a exibição Widget de interface de usuário imersiva, personalizar os widgets/recursos de acordo e, em seguida, ativar a interface de usuário imersiva.
 
 O **Página inicial do aluno** contém as seguintes seções:
 
 ## Opção de layout imersivo {#immersivelayoutoption}
 
-Para exibir o layout de uma página orientada por imersão, ative a opção **Imersivo**. Você pode alternar essa opção no **Marca > Geral**.
+Para exibir o layout de uma página orientada por imersão, ative a opção **Imersivo**. Você pode alternar essa opção em **Marcas > Geral**.
 
 Nas versões anteriores, as opções da Página inicial do aluno estavam em Configurações.
 
@@ -62,18 +62,18 @@ A opção **Permitir que o aluno explore áreas de interesse** está disponível
    <td>
     <p>Você pode escolher no máximo um campo ativo Interno e Externo.</p></td>
    <td>
-    <p>Você pode escolher no máximo cinco e no mínimo um campo. Por padrão, a opção <b>Perfil </b>está selecionado.</p></td>
+    <p>Você pode escolher no máximo cinco e pelo menos um campo. Por padrão, a opção <b>Perfil </b>está selecionada.</p></td>
   </tr>
  </tbody>
 </table>
 
-Se houver menos de 1.000 alunos, a conta inteira será considerada como um escopo único. Isso é especificamente para o tipo de treinamento personalizado. Se a conta tiver menos de 1.000 usuários, ela considerará a conta completa como seu escopo.
+Se houver menos de 1.000 alunos, a conta inteira será considerada como um escopo único. Isso é específico para o tipo Treinamento personalizado. Se a conta tiver menos de 1.000 usuários, ela irá considerar a conta completa como o seu escopo.
 
 >[!NOTE]
 >
 >A caixa de seleção **Explorar habilidades** foi movido para Configurações > Geral.
 
-Isso será ativado e esmaecido se a experiência imersiva for escolhida. Esta caixa de seleção será ativada somente para a experiência Clássica.
+Isso será ativado e esmaecido se a experiência imersiva for escolhida. Essa caixa de seleção será ativada somente para a experiência Clássica.
 
 ![](assets/option-immersive.png)
 
@@ -83,7 +83,7 @@ O layout imersivo é o padrão para todas as novas contas. A layout é controlad
 
 Aqui estão os widgets que você pode ativar/desativar.
 
-Usando isso, você pode visualizar a interface do aluno antes que a interface do aluno entre em funcionamento.
+Com isso, você pode visualizar a interface do usuário do aluno antes que ela entre em funcionamento.
 
 Para contas existentes, a opção **Imersivo** será **DESLIGADO**. Está ativada para nova conta com Social e Gamificação ativadas.
 
@@ -109,7 +109,7 @@ Para contas existentes, a opção **Imersivo** será **DESLIGADO**. Está ativad
     <ol>
      <li>No painel esquerdo, clique em <b>Comunicados</b>.<br></li>
      <li>No canto superior direito da página, clique em <b>Adicionar</b>.</li>
-     <li>Na guia <b>Tipo </b>, escolha <b>Como Manchete</b>.</li>
+     <li>Na lista suspensa <b>Tipo </b>, escolha <b>Como Manchete</b>.</li>
      <li>Escreva uma mensagem que aparecerá na manchete.</li>
      <li>Carregue uma imagem ou um vídeo.</li>
      <li>Escolha o público-alvo. Selecione um grupo de usuários ou treinamento no qual a manchete será exibida.</li>
@@ -126,13 +126,13 @@ Para contas existentes, a opção **Imersivo** será **DESLIGADO**. Está ativad
    <td>
     <p>Calendário</p></td>
    <td>
-    <p>Exibe vários treinamentos de treinamento futuros em Sala de aula e Sala de aula virtual para os alunos por mês. São exibidos aqueles nos quais o aluno pode se inscrever ou nos quais já foi inscrito, incluindo treinamentos aprovados pelo gerente. </p></td>
+    <p>Exibe vários treinamentos futuros em sala de aula e sala de aula virtual para os alunos por mês. As que o aluno pode se inscrever ou já foi inscrito são exibidas, incluindo treinamentos aprovados pelo gerente. </p></td>
   </tr>
   <tr>
    <td>
     <p>Gamificação</p></td>
    <td>
-    <p>Exibe o quadro de classificação com base nas atividades de aprendizado.</p></td>
+    <p>Exibe o quadro de classificação com base em atividades de aprendizado.</p></td>
   </tr>
   <tr>
    <td>
@@ -149,7 +149,7 @@ Para contas existentes, a opção **Imersivo** será **DESLIGADO**. Está ativad
      <li>
       <p>Em primeiro lugar, o <a href="announcements.md#recommendation">cria um comunicado</a> de tipo <b>Como Recomendação</b> e, em seguida, seleciona o treinamento necessário e usa grupos. Um aluno pertencente a um grupo de usuários verá o treinamento recomendado.</p></li>
      <li>
-      <p>Em segundo lugar, o administrador também pode decidir se as recomendações serão aplicadas imediatamente ou em uma data especificada.</p></li>
+      <p>Em segundo lugar, o administrador também pode decidir se as recomendações são iniciadas imediatamente ou em uma data especificada.</p></li>
     </ul></td>
   </tr>
   <tr>
@@ -166,7 +166,7 @@ Para contas existentes, a opção **Imersivo** será **DESLIGADO**. Está ativad
   </tr>
   <tr>
    <td>
-    <p>Recomendação baseada na atividade de pares<br></p></td>
+    <p>Recomendação baseada na atividade entre pares<br></p></td>
    <td>
     <p>Exibe o treinamento com base no que os colegas de um aluno estão fazendo. Isso é novamente orientado por um algoritmo de aprendizado de máquina.</p></td>
   </tr>
@@ -194,7 +194,7 @@ Quando o aluno faz logon no aplicativo do aluno por meio de um navegador, ele po
 
 ## Opção de layout clássico {#classiclayoutoption}
 
-O layout da interface do usuário, que sempre existiu até agora, agora é chamado de Layout clássico. Quando você escolhe esta opção, a exibição da página inicial do aluno é revertida para o layout clássico.
+O layout da interface do usuário que sempre existiu até agora é chamado de Layout clássico. Quando você escolhe esta opção, a exibição da página inicial do aluno é revertida para o layout clássico.
 
 ![](assets/classic-layout.png)
 
@@ -210,7 +210,7 @@ Na guia **Geral** você tem as seguintes opções:
  <tbody>
   <tr>
    <td>
-    <p>Nome da Organização</p></td>
+    <p>Nome da organização</p></td>
    <td>
     <p>O nome da organização à qual o aluno pertence.</p></td>
   </tr>
@@ -260,7 +260,7 @@ Na guia **Geral** você tem as seguintes opções:
    <td>
     <p>Permitir que o aluno explore áreas de interesse</p></td>
    <td>
-    <p>Somente para a experiência Clássica. Escolher <b>Sim </b>ou <b>Não</b>.<br></p></td>
+    <p>Somente para a experiência clássica. Escolher <b>Sim </b>ou <b>Não</b>.<br></p></td>
   </tr>
   <tr>
    <td>

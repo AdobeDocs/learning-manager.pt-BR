@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -20,9 +20,9 @@ Um programa de aprendizado é automaticamente desativado.
 
 ## Causa
 
-Há situações em que um programa de aprendizado é desativado sem um administrador/autor desativar o LP explicitamente.
+Há situações em que um programa de aprendizad é desativado sem um administrador/autor desativar o LP explicitamente.
 
-Esse problema ocorre porque um programa de aprendizado é uma coleção de cursos. Os treinamentos de ordem superior são desativados se qualquer um dos cursos dentro deles contiver uma instância desativada ou a instância do curso for desativada.
+Esse problema ocorre porque um programa de aprendizado é uma coleção de cursos. Os treinamentos de ordem superior são desativados se algum dos cursos dentro deles contiver uma instância desativada ou a instância do curso for desativada.
 
 ## Resolução
 
@@ -44,10 +44,10 @@ Para verificar o curso que contém uma instância desativada, siga as etapas aba
 
    *Editar a data de conclusão de um curso*
 
-1. Depois de concluído, clique na lista suspensa conforme mostrado na imagem abaixo. Depois clique em **[!UICONTROL Reabrir instância]**.
+1. Depois de concluído, clique na lista suspensa conforme mostrado na imagem abaixo. Em seguida, clique em **[!UICONTROL Reabrir instância]**.
 
    ![](assets/re-open-instance.png)
 
    *Reabrir a instância de um curso*
 
-1. Visite o programa de aprendizado relevante. Clique em **[!UICONTROL Instâncias]** e execute a etapa anterior para reabrir a instância do Programa de aprendizado.
+1. Visite o Programa de aprendizado relevante. Clique em **[!UICONTROL Instâncias]** e execute a etapa anterior para reabrir a instância do Programa de aprendizado.

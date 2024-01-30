@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 0%
+ht-degree: 52%
 
 ---
 
@@ -26,7 +26,7 @@ Esse problema ocorre se o **Créditos necessários** para obter essa habilidade 
 
 Verificar o atual **Créditos de habilidade** e **Ponto** informações necessárias para obter a habilidade. Siga as etapas abaixo:
 
-1. Para o aluno, gere um **Transcrição do aluno** relatório.
+1. Para o aluno, gere um relatório de **Transcrição do aluno**.
 1. Ao gerar a transcrição do aluno, clique em **[!UICONTROL Opções avançadas]** e marque a opção **[!UICONTROL Incluir dados de habilidades e folhas de resumo]**.
 
    ![](assets/advanced-options.png)
@@ -34,7 +34,7 @@ Verificar o atual **Créditos de habilidade** e **Ponto** informações necessá
    *Selecione a opção Incluir dados de habilidades e folhas de resumo*
 
 1. Abra o relatório de transcrição do aluno baixado.
-1. Navegue até a guia **[!UICONTROL Transcrição de habilidades]** planilha. Aqui, você pode ver o **[!UICONTROL Créditos necessários]** e **[!UICONTROL Créditos obtidos]** pelo aluno.
+1. Navegue até a folha de **[!UICONTROL Transcrição de habilidades]**. Aqui, você pode ver o **[!UICONTROL Créditos necessários]** e **[!UICONTROL Créditos obtidos]** pelo aluno.
 
    Por exemplo, no exemplo abaixo, os créditos necessários para obter a habilidade para um curso são 50. Mas o aluno obteve apenas um crédito.
 
@@ -42,7 +42,7 @@ Verificar o atual **Créditos de habilidade** e **Ponto** informações necessá
 
    *Exibir créditos necessários*
 
-1. Para verificar os créditos atribuídos a uma habilidade específica, faça logon como administrador e navegue até **Habilidades** como mostrado abaixo:
+1. Para verificar os créditos atribuídos a uma habilidade específica, faça logon como administrador e navegue até a guia **Habilidades**, conforme mostrado abaixo:
 
    ![](assets/skill.png)
 

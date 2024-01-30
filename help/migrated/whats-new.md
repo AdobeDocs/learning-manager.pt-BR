@@ -1,18 +1,18 @@
 ---
 title: Novidades desta versão
-description: Saiba mais sobre os novos recursos e aprimoramentos no Adobe Learning Manager
+description: Saiba mais sobre os novos recursos e as melhorias no Adobe Learning Manager
 source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
 # Novidades desta versão
 
-## Interface do usuário remodelada
+## Interface do usuário reformulada
 
-A interface de usuário do Adobe Learning Manager foi submetida a algumas atualizações para oferecer uma experiência mais limpa e mais moderna. As páginas de aterrissagem das funções de administrador e autor foram renovadas e as atualizações de tema da interface do usuário foram feitas para todas as funções. No entanto, não foram feitas alterações no local de menus, botões ou links, e você poderá encontrá-los exatamente onde estavam localizados antes.
+A interface de usuário do Adobe Learning Manager foi submetida a algumas atualizações para oferecer uma experiência mais limpa e mais moderna. As páginas de destino para as funções de administrador e autor foram renovadas e as atualizações de tema da interface do usuário foram feitas para todas as funções. No entanto, não foram feitas alterações no local de menus, botões ou links, e você poderá encontrá-los exatamente onde estavam localizados antes.
 
 As atualizações do tema serão aplicadas automaticamente a contas que usam o tema padrão. As atualizações do tema da interface do usuário não afetarão as contas que fizeram modificações para usar um tema personalizado. Essas contas precisam voltar para o tema padrão para obter as atualizações do novo tema.
 
@@ -22,7 +22,7 @@ As atualizações do tema serão aplicadas automaticamente a contas que usam o t
 
 ### Sobre esta alteração
 
-**Quais são as alterações nesta versão?**
+**O que muda nesta versão?**
 
 Há um novo modelo no cabeçalho que redimensiona automaticamente o logotipo para um tamanho e posição fixos, mantendo a proporção do logotipo. A alteração pretende melhorar o apelo visual da experiência do aluno.
 
@@ -43,13 +43,13 @@ Nomes de empresas que forem mais longos serão cortados, e um reticências preen
 * Redimensione a imagem mantendo a proporção intacta. O tamanho máximo recomendado do logotipo é 42 px (vertical) x 210 px (horizontal).
 * Para muitas contas, isso seria aplicado automaticamente; nenhuma alteração é necessária.
 
-## Extensão nativa
+## Extensibilidade nativa
 
-Configure experiências personalizadas na versão nativa do Adobe Learning Manager, permitindo que você não use headless para casos menos complicados. Você também pode criar aplicativos personalizados e colocá-los em vários pontos na versão nativa dos fluxos de trabalho do aluno, gerente, administrador, autor ou professor.
+Configure experiências personalizadas dentro da versão nativa do Adobe Learning Manager, permitindo que você não use headless para casos menos complicados. Você também pode criar aplicativos personalizados e colocá-los em vários pontos na versão nativa dos fluxos de trabalho do aluno, gerente, administrador, autor ou professor.
 
 Um aluno pode usar um aplicativo personalizado ou uma extensão que um administrador criou.
 
-Exibir [Extensão nativa](/help/migrated/administrators/feature-summary/native-extensibility.md) para saber mais.
+Consulte [Extensão nativa](/help/migrated/administrators/feature-summary/native-extensibility.md) para saber mais.
 
 ## Ferramenta de criação de quiz
 
@@ -83,7 +83,7 @@ Nas versões anteriores do Adobe Learning Manager, se um administrador personali
 
 ### Relatório de alterações na presença
 
-O relatório de participação na página de participação dos cursos no aplicativo do administrador e na página Alunos da sessão do aplicativo do professor costumavam ser baixados de forma síncrona. Nesta versão, o download deste relatório será feito de forma assíncrona por meio de uma notificação.
+O Relatório de participação na página de participação dos cursos no aplicativo do administrador e na página Alunos da sessão do aplicativo do professor costumavam ser baixados de forma síncrona. Nesta versão, o download desse relatório será feito de forma assíncrona por meio de uma notificação.
 
 Para obter mais informações sobre relatórios, consulte [Relatórios](/help/migrated/administrators/feature-summary/reports.md) no Adobe Learning Manager.
 
@@ -103,13 +103,13 @@ O grupo de colegas agora se torna uma conta e os alunos verão uma sequência de
 
 Os administradores personalizados agora terão mais paridade com as funções de administrador em relação ao acesso aos relatórios. Os administradores poderão configurar o acesso aos relatórios com melhor controle.
 
-No Adobe Learning Manager, somente a transcrição de aprendizado e a transcrição de gamificação estão disponíveis para um administrador personalizado. Nesta versão, um administrador personalizado pode acessar todos os relatórios personalizados, exceto relatórios de xAPI e de email, que ainda estão disponíveis somente para o administrador. O acesso a todos os relatórios está sujeito ao catálogo e ao escopo do usuário que o administrador personalizado tem. Há poucos relatórios que estão disponíveis apenas com escopo completo. São eles:
+No Adobe Learning Manager, somente a transcrição de aprendizado e a transcrição de gamificação estão disponíveis para um administrador personalizado. Nesta versão, um administrador personalizado pode acessar todos os relatórios personalizados, exceto relatórios de xAPI e de e-mail, que ainda estão disponíveis somente para o administrador. O acesso a todos os relatórios está sujeito ao catálogo e ao escopo do usuário que o administrador personalizado tem. Há poucos relatórios que estão disponíveis apenas com escopo completo. São eles:
 
 <table>
     <tbody>
         <tr>
             <td>
-    <p style="text-align: left;"><b>Denunciar</b></p></td>
+    <p style="text-align: left;"><b>Relatório</b></p></td>
    <td>
     <p style="text-align: left;"><b>Disponível</b></p></td>
    <td>
@@ -129,7 +129,7 @@ No Adobe Learning Manager, somente a transcrição de aprendizado e a transcriç
    <td>
     <p>Sim</p></td>
    <td>
-    <p>Usuário Completo</p></td>
+    <p>Usuário completo</p></td>
   </tr>
   <tr>
    <td>
@@ -137,7 +137,7 @@ No Adobe Learning Manager, somente a transcrição de aprendizado e a transcriç
    <td>
     <p>Sim</p></td>
    <td>
-    <p>Usuário Completo</p></td>
+    <p>Usuário completo</p></td>
   </tr>
     </tbody>
 </table>
@@ -148,7 +148,7 @@ Na página Funções personalizadas, adicionamos as seguintes opções Somente l
 
 **Usuários**:
 
-Se você selecionar Somente leitura, o administrador personalizado poderá exibir todos os usuários, mas não poderá editar os dados do usuário, e criar um portal de autorregistro para os usuários.
+Se você selecionar Somente leitura, o administrador personalizado poderá exibir todos os usuários, mas não poderá editar os dados do usuário, e criar um portal de autoinscrição para os usuários.
 
 **Planos de aprendizado**:
 
@@ -160,7 +160,7 @@ Se você selecionar Somente leitura, um administrador personalizado não poderá
 
 **Modelos de e-mail**
 
-Se você selecionar Somente leitura, um administrador personalizado poderá exibir os modelos de email. Eles não podem ativar ou desativar as configurações de modelo de e-mail, mas podem baixar relatórios de acesso a e-mail.
+Se você selecionar Somente leitura, um administrador personalizado poderá exibir os modelos de e-mail. Eles não podem ativar ou desativar as configurações de modelo de e-mail, mas podem baixar relatórios de acesso a e-mail.
 
 ### Transcrições do aluno
 
@@ -174,7 +174,7 @@ Um administrador personalizado pode acessar os seguintes relatórios de acordo c
     <tbody>
         <tr>
             <td>
-    <p style="text-align: left;"><b>Denunciar</b></p></td>
+    <p style="text-align: left;"><b>Relatório</b></p></td>
    <td>
     <p style="text-align: left;"><b>Disponível</b></p></td>
    <td>
@@ -194,7 +194,7 @@ Um administrador personalizado pode acessar os seguintes relatórios de acordo c
    <td>
     <p>Sim</p></td>
    <td>
-    <p>Usuário Completo</p></td>
+    <p>Usuário completo</p></td>
   </tr>
   <tr>
    <td>
@@ -202,7 +202,7 @@ Um administrador personalizado pode acessar os seguintes relatórios de acordo c
    <td>
     <p>Sim</p></td>
    <td>
-    <p>Usuário Completo</p></td>
+    <p>Usuário completo</p></td>
   </tr>
     </tbody>
 </table>
@@ -240,19 +240,19 @@ Relatórios dessa magnitude não podem ser exibidos na interface do usuário, ma
 
 ## Suporte de migração para etiquetas de catálogo
 
-O fluxo de trabalho de migração agora oferece suporte a rótulos de catálogo. Os CSVs de migração podem ser usados para importar chaves de rótulo de catálogo e valores de rótulo de catálogo e anexá-los a cursos, programações de aprendizado, certificações e ajudas de tarefa. O fluxo de trabalho também pode ser usado para excluir valores e chaves incorretos, se necessário.
+O fluxo de trabalho de migração agora oferece suporte a etiquetas de catálogo. Os CSVs de migração podem ser usados para importar chaves de etiqueta de catálogo e valores de etiqueta de catálogo e anexá-las a cursos, programações de aprendizado, certificações e ajudas de tarefa. O fluxo de trabalho também pode ser usado para excluir valores e chaves incorretos, se necessário.
 
 ## Aprimoramentos da API para filtragem de curso complexo
 
 A filtragem avançada de cursos por tags e etiquetas de catálogo (usando uma combinação das condições “AND” e “OR”) agora será possível por meio das APIs do Learning Manager.
 
-## Alterações de API nesta versão
+## Alterações da API nesta versão
 
 ### Validação na API de trabalho
 
 Nesta versão, se o relatório de ajuda de tarefa exceder 10 milhões gerados usando a API de tarefa, a resposta terá a mensagem: “O relatório solicitado tem muitos dados para ser gerado; considere aplicar filtros de ajuda de tarefa!”.
 
-### Notificação de uma postagem excluída
+### Notificação de uma publicação excluída
 
 Nas versões anteriores do Adobe Learning Manager, se qualquer curso, certificação ou plano de aprendizado fosse excluído e sua notificação estivesse presente, você ainda podia acessar o curso, certificação ou plano de aprendizado visitando sua notificação.
 
@@ -262,7 +262,7 @@ Nesta versão, garantiremos que uma postagem excluída não esteja mais acessív
 
 Nas versões anteriores, o Adobe Learning Manager buscava o prazo na tabela de inscrição. Nesta versão, o Adobe Learning Manager calculará o prazo a partir da tabela de instâncias do curso. Se o prazo não estiver disponível, ele retornará à tabela de inscrição.
 
-### Substituir sinalizador
+### Sinalizador de substituição
 
 Na versão de novembro de 2023 do Adobe Learning Manager, estamos descontinuando o sinalizador de substituição das APIs. O sinalizador de substituição não faz parte da especificação da API pública e destina-se a testes de back-end. O sinalizador foi descontinuado para APIs do aluno. No entanto, o sinalizador ainda é válido para APIs de administrador.
 
@@ -282,7 +282,7 @@ Além disso, alteraremos o padrão de snippetTypes para courseName. Isso destaca
 
 O `instances.loResources.resources` o ponto de extremidade retornará `ResourceContentType` com o quiz.
 
-## Aviso de obsolescência
+## Aviso de descontinuação
 
 Em 30 de novembro de 2023, o LinkedIn Learning descontinuará o uso do método HTTP GET para obter um token OAuth. Após a substituição, você só poderá gerar um token OAuth usando o método POST HTTP.
 O Adobe Learning Manager descontinuará o BlueJeans em fevereiro de 2024. Todas as novas contas após fevereiro de 2024 não incluirão o conector do BlueJeans.
@@ -314,9 +314,9 @@ Para obter informações sobre as versões atuais e anteriores do aplicativo Web
 
 * Uma nova inscrição ou atualização de uma inscrição falha quando um plano de aprendizado do Flex está em outro plano de aprendizado do Flex.
 * O URL de transcrição não exibe as gravações de sessão nas sessões do Adobe Connect.
-* Um aluno pode fazer um questionário offline no aplicativo móvel mesmo que ele falhe.
+* Um aluno pode fazer um quiz offline no aplicativo móvel mesmo que ele falhe.
 
-## Requisitos de sistema
+## Requisitos do sistema
 
 [Requisitos de sistema do Learning Manager](system-requirements.md)
 

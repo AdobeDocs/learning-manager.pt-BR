@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 
@@ -26,13 +26,13 @@ A ação de remover um usuário pode ter os seguintes resultados:
 * Se um autor for removido, o seu nome será substituído pelo nome do administrador que removeu o usuário.
 * Se os professores forem removidos, eles serão removidos das sessões. O administrador precisa substituir/adicionar professores para essas sessões.
 * Remover um usuário no Learning Manager não remove o usuário em nenhum aplicativo externo (sistemas de terceiros ou outros aplicativos criados por você). Entre em contato com proprietários de aplicativos externos para remover os usuários desses aplicativos.
-* Se um usuário removido for referido nas definições de configuração de um conector, o conector será desativado. O conector precisa ser reconfigurado pelo administrador para continuar.
+* Se um usuário removido for referido nas configurações de um conector, o conector será desativado. O conector precisa ser reconfigurado pelo administrador para continuar.
 
 Para remover usuários, siga estas etapas:
 
-1. Como administrador, selecione **[!UICONTROL Usuários]** no painel esquerdo. O **[!UICONTROL Usuários internos]** é aberta.
+1. Como administrador, selecione **[!UICONTROL Usuários]** no painel esquerdo. A página **[!UICONTROL Usuários internos]** é aberta.
 1. Exclua os usuários que deseja remover. Para excluir, selecione um ou mais usuários usando a caixa de seleção. Abra o **[!UICONTROL Ação]** e selecione **[!UICONTROL Excluir usuário.]**
-1. No painel esquerdo, selecione **[!UICONTROL Limpeza do Usuário]**. O **[!UICONTROL Limpeza do Usuário]** é exibida com a lista de usuários excluídos. Use os botões de opção para selecionar o usuário a ser removido. Você só pode remover um usuário por vez.
+1. No painel esquerdo, selecione **[!UICONTROL Limpeza do usuário]**. A página **[!UICONTROL Limpeza do Usuário]** é exibida com a lista de usuários excluídos. Use os botões de opção para selecionar o usuário a ser removido. Você só pode remover um usuário por vez.
 
    ![](assets/purge-1.png)
 
@@ -50,11 +50,11 @@ Para remover usuários, siga estas etapas:
 
    *Mensagem de confirmação após remover um usuário*
 
-1. Depois de confirmar e clicar em Remover, a solicitação de remoção será aceita. Você receberá uma notificação assim que a ação for concluída. Uma ID de solicitação de remoção também é fornecida. Você pode fornecer essa ID ao CSM para rastrear a solicitação.
+1. Após confirmar e clicar em Remover, a solicitação de remoção será aceita. Você receberá uma notificação assim que a ação for concluída. Uma ID de solicitação de remoção também é fornecida. Você pode fornecer essa ID ao CSM para rastrear a solicitação.
 
 ## Remoção em massa de usuários
 
-Você pode selecionar os 50 primeiros usuários e removê-los de uma só vez. Isso permite que os administradores selecionem 50 usuários e os removam de uma só vez. Isso ajuda os administradores quando desejarem remover usuários em massa. É sempre uma prática recomendada verificar os usuários selecionados para remoção. Isso é importante para garantir que apenas o conjunto correto de usuários esteja sendo removido.
+Você pode selecionar os 50 primeiros usuários e removê-los de uma só vez. Isso permite que os administradores selecionem 50 usuários e os removam de uma só vez. Isso ajuda os administradores quando desejarem remover usuários em massa. É sempre uma prática recomendada verificar os usuários selecionados para exclusão. Isso é importante para garantir que apenas o conjunto correto de usuários esteja sendo removido.
 
 ![](assets/bulk-purge-users.png)
 

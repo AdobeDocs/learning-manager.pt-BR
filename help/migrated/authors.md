@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 0%
 
 ## Perguntas frequentes (FAQ) {#frequentlyaskedquestionsfaq}
 
-[Perguntas frequentes para a função Autores.](authors/frequently-asked-questions-for-authors.md)
+[Perguntas Frequentes para a função Autores.](authors/frequently-asked-questions-for-authors.md)
 
 ## Recursos {#features}
 
-* [Começar](authors/feature-summary/getting-started-author.md)
+* [Introdução](authors/feature-summary/getting-started-author.md)
 * [Catálogos](authors/feature-summary/catalogs.md)
 * [Objetos de aprendizado](authors/feature-summary/courses.md)
 * [Adicionar novos idiomas](authors/feature-summary/add-new-language-learning-objects.md)
-* [Fluidic player](authors/feature-summary/fluidic-player.md)
+* [Fluidic Player](authors/feature-summary/fluidic-player.md)
 * [Biblioteca de módulos](authors/feature-summary/module-library.md)
-* [Logon de usuário](authors/feature-summary/user-login.md)
-* [Notificações do usuário](authors/feature-summary/user-notifications.md)
+* [Logon do usuário](authors/feature-summary/user-login.md)
+* [Notificações para o usuário](authors/feature-summary/user-notifications.md)
 * [Configurações](authors/feature-summary/settings.md)
 

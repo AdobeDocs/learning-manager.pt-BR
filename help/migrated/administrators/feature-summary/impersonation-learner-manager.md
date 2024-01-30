@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
@@ -68,10 +68,10 @@ Essas colunas são adicionadas no final do relatório.
 
 Cada logon é contado separadamente no relatório.
 
-## O que não é compatível
+## O que não é suportado
 
-* Representação de componentes AEM.
-* Representação no aplicativo móvel.
+* Representação de componentes AEM
+* Representação no aplicativo para dispositivos móveis.
 * Representação em dispositivos móveis imersivos.
 * Representação de aplicativos imersivos. Aplicável somente a aplicativos ALM.
 

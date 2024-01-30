@@ -1,25 +1,25 @@
 ---
 title: Transição do Gerenciador de FTP do Adobe
-description: O Adobe Learning Manager suporta um novo conector usando o protocolo SFTP da família AWS Transfer. Você pode substituir qualquer cliente de FTP de código aberto pelo Gerenciador de FTP do Adobe.
+description: O Adobe Learning Manager suporta um novo conector usando o protocolo SFTP da família AWS Transfer. Você pode substituir qualquer cliente FTP de código aberto pelo gerenciador de FTP do Adobe.
 source-git-commit: aa8030e7e1d0ad72b76fb48a34e7b15ddf178a0b
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
 
 # Transição do Gerenciador de FTP do Adobe
 
-O Adobe Learning Manager suporta um novo conector usando o protocolo SFTP da família AWS Transfer.
+O Adobe Learning Manager dá suporte a um novo conector usando o protocolo SFTP da família AWS Transfer.
 
-Você pode substituir qualquer cliente de FTP de código aberto pelo Gerenciador de FTP do Adobe.
+Você pode substituir qualquer cliente FTP de código aberto pelo gerenciador de FTP do Adobe.
 
-Alguns clientes FTP recomendados pela AWS estão listados [aqui](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html):
+Alguns clientes FTP recomendados pelo AWS estão listados [aqui](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html):
 
 * FileZilla (Windows, macOS e Linux)
-* OpenSSH (macOS e Linux) - Observação: este cliente só funciona com servidores habilitados para o protocolo SFTP.
-* WinSCP (somente Microsoft para Windows)
+* OpenSSH (macOS e Linux) – Observação: esse cliente só funciona com servidores habilitados para o protocolo de transferência de arquivos (SFTP) do Secure Shell (SSH).
+* WinSCP (somente Microsoft Windows)
 * Cyberduck (Windows, macOS e Linux)
 
 ## Configurar o conector FTP baseado no AWS
@@ -38,9 +38,9 @@ Há três opções de autenticação:
 
 ### Criar autenticação gerando novas chaves SSH
 
-Se quiser gerar a chave SSH no próprio sistema, você pode fazer isso. Clique em Gerar chave SSH.
+Você pode gerar a chave SSH no seu próprio sistema se desejar. Clique em Gerar chave SSH.
 
-A chave privada é baixada para o seu computador e a chave pública é salva em nossos serviços. Depois que você clica em Conectar, o usuário do FTP é criado usando as chaves pública e privada como autenticação.
+A chave privada é baixada no computador e a chave pública é salva em nossos serviços. Depois que você clica em Conectar, o usuário do FTP é criado usando as chaves pública e privada como autenticação.
 
 Você criou uma conexão FTP.
 
@@ -57,19 +57,19 @@ Esse é o mecanismo básico de autenticação. Selecione a primeira opção, **[
 
 Isso cria uma conexão.
 
-## Novidades
+## O que vem a seguir
 
-### Configuração do cliente FTP
+### Configurar o cliente FTP
 
-Configure a conexão em um cliente FTP (recomendado na seção anterior) com as chaves baixadas ou existentes ou a senha.
+Configure a conexão em um cliente FTP (recomendado na seção anterior) com as chaves baixadas ou chaves ou senha existentes.
 
 ### Exportação de teste de amostra
 
-* No cliente de FTP, altere o local do FTP do ExaVault para o novo local de FTP. O novo domínio é `http://almftp.adobelearningmanager.com/`.
+* No cliente FTP, altere o local do FTP do ExaVault para o novo local do FTP. O novo domínio é `http://almftp.adobelearningmanager.com/`.
 * Você também deve incluir na lista de permissões o IP, `18.195.107.67`.
-* Após a autenticação, você deve fazer upload e download de alguns arquivos de amostra para e do novo local FTP usando clientes FTP externos ou scripts de automação.
+* Após a autenticação, você deve carregar e baixar alguns arquivos de amostra para e do novo local do FTP usando clientes FTP externos ou scripts de automação.
 * Você deve transferir dados do local antigo para o novo.
-* A política de retenção de dados do conector permanece a mesma. O ExaVault também suportou algumas políticas de retenção de dados, além da política oficial. Essas políticas de retenção de dados não estarão disponíveis para o novo conector. Verifique se o conector usa qualquer retenção de dados além das políticas oficialmente aceitas.
+* A política de retenção de dados para o conector permanece a mesma. O ExaVault também deu suporte a algumas políticas de retenção de dados além da política oficial. Essas políticas de retenção de dados não estarão disponíveis para o novo conector. Verifique se o conector usa qualquer retenção de dados além das políticas que oficialmente têm suporte.
 
 ### O que acontece com os projetos de migração
 
@@ -79,9 +79,9 @@ Configure a conexão em um cliente FTP (recomendado na seção anterior) com as 
 | Migração em andamento | Criar um sprint: você pode continuar usando o FTP antigo, mas recomendamos usar o novo FTP. Entre em contato com a equipe de Sucesso do cliente para verificar se há algum sprint que não possa ser deslocado. |
 | Migração fechada | Nenhuma ação. |
 
-## Conectar-se ao Adobe Learning Manager usando o cliente FTP Filezilla
+## Conectar-se ao Adobe Learning Manager usando o cliente Filezilla FTP
 
-1. Conectar ao novo Conector FTP do ALM. Clique em Conectar.
+1. Conecte-se ao novo Conector FTP do ALM. Clique em Conectar.
 
    ![conectar imagem](assets/connect-client.png)
    *Conectar ao novo Conector FTP do ALM*
@@ -117,7 +117,7 @@ Configure a conexão em um cliente FTP (recomendado na seção anterior) com as 
    >
    >Execute esta etapa no cliente File Zilla.
 
-1. Digite a senha.
+1. Insira a senha.
 
    (Opcional) Marque a caixa de seleção Lembrar senha para lembrar a senha.
 
@@ -133,7 +133,7 @@ Configure a conexão em um cliente FTP (recomendado na seção anterior) com as 
 
 1. Verifique o status e o progresso da conexão no topo.
 
-   A metade esquerda é o site local, e a metade direita é o site remoto.
+   A metade esquerda é o site local e a metade direita é o site remoto.
 
    Para mover arquivos de local para remoto e vice-versa:
 
@@ -154,19 +154,19 @@ Para gerar novas chaves SSH, clique no botão **[!UICONTROL Gerar chave SSH]** B
 ![gerar chave ssh](assets/ssh-key.png)
 *Gerar chave SSH*
 
-Mapeie os detalhes. Selecione o tipo de logon como Arquivo de chave. Selecione o arquivo de chave privada.
+Mapeie os detalhes. Selecione o tipo de logon como arquivo de chave. Selecione o arquivo de chave privada.
 
 Clique em **[!UICONTROL Conectar]**.
 
 ## O que acontece depois que o ExaVault é descontinuado
 
-Depois que o ExaVault for descontinuado, todos os projetos de migração existentes, que estiverem em andamento, serão migrados para o novo FTP como o local de origem. Em seguida, você deve configurar o novo conector FTP e continuar o processo de migração.
+Depois que o ExaVault for descontinuado, todos os projetos de migração existentes, que estiverem em andamento, passarão para o novo FTP como local de origem. Em seguida, você deve configurar o novo conector FTP e continuar o processo de migração.
 
-## Recommendations para migrar sprints
+## Recomendações para migrar sprints
 
 Ao criar um projeto de migração, a Adobe recomenda que você o crie usando o novo conector SFTP do AWS para evitar a migração do sprint do Exavault para o AWS em um estágio posterior.
 
-Se uma migração estiver em andamento, feche o sprint atual que usa o Exavault como uma fonte de dados. Crie a conexão SFTP do AWS, teste a configuração e entre em contato com a equipe de Sucesso do cliente para mudar para a nova fonte de dados SFTP do AWS. Após alternar, crie um novo sprint no mesmo projeto de migração. As pastas do sprint são criadas no novo local, e você pode carregar os CSVs de migração para continuar a atividade.
+Se uma migração estiver em andamento, feche o sprint atual que usa o Exavault como uma fonte de dados. Crie a conexão SFTP do AWS, teste a configuração e entre em contato com a equipe de Sucesso do Cliente para mudar para a nova fonte de dados SFTP do AWS. Depois de mudar, crie um novo sprint no mesmo projeto de migração. As pastas do sprint são criadas no novo local, e você pode carregar os CSVs de migração para continuar a atividade.
 
 **Casos em que um projeto de migração não pode ser fechado**
 

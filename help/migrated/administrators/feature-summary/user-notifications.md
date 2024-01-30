@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Notificações
 
-O recurso Notificações é aplicável a todos os usuários do Adobe Learning Manager. Mas cada usuário com base em sua função recebe diferentes tipos de notificações em vários cenários. Todos os alertas e notificações aos usuários são exibidos por meio da caixa de diálogo pop-up de notificações.
+O recurso Notificações é aplicável a todos os usuários do Adobe Learning Manager. Mas cada usuário com base em sua função recebe diferentes tipos de notificações em vários cenários. Todos os alertas e notificações dos usuários são exibidos através de caixa de diálogo pop-up de notificações.
 
-## Acessar notificações {#accessnotifications}
+## Notificações de acesso {#accessnotifications}
 
-Os usuários podem ver as notificações clicando no ícone de notificações no canto superior direito da janela. Esta caixa de diálogo suspensa exibe os destaques de todas as notificações junto com a hora da ocorrência e uma barra de rolagem. Para exibir mais informações sobre todas as notificações, clique em Mostrar todas as notificações na parte inferior da caixa de diálogo pop-up. A página Notificações é exibida.
+Os usuários podem ver as notificações clicando no ícone de notificações no canto superior direito da janela. Esta caixa de diálogo suspensa exibe os destaques de todas as notificações junto com a hora da ocorrência e uma barra de rolagem. Para exibir mais informações sobre as notificações, clique em Mostrar todas as notificações na parte inferior da caixa de diálogo suspensa. A página Notificações será exibida.
 
-É possível saber o número de notificações mais recentes com base no número destacado acima do ícone de notificações. Por exemplo, se houver cinco notificações mais recentes após seu logon anterior, você poderá ver o número 5 exibido sobre o ícone de notificações. Esses números desaparecem assim que você lê todas as notificações mais recentes.
+É possível saber o número de notificações mais recentes com base no número destacado acima do ícone de notificações. Por exemplo, se há cinco notificações mais recentes após o logon anterior, é possível ver o número 5 exibido no ícone de notificações. Esses números desaparecem assim que você lê todas as notificações mais recentes.
 
 ## Tipos de notificações para administradores {#typesofnotificationsforadministrators}
 
@@ -40,7 +40,7 @@ Uma janela de notificação de amostra da função de administrador é mostrada 
 
 *Exibir notificações de administrador*
 
-Essa janela pop-up exibe realces de todas as notificações junto com a hora da ocorrência e uma barra de rolagem. Você pode saber o número de notificações mais recentes com base no número destacado acima do ícone de notificações. Por exemplo, se houver cinco notificações mais recentes após seu logon anterior, você poderá ver o número 5 exibido sobre o ícone de notificações. Esses números desaparecem assim que você lê todas as notificações mais recentes.
+Essa janela pop-up exibe realces de todas as notificações junto com a hora da ocorrência e uma barra de rolagem. É possível saber o número de notificações mais recentes com base no número realçado sobre o ícone de notificações. Por exemplo, se há cinco notificações mais recentes após o logon anterior, é possível ver o número 5 exibido no ícone de notificações. Esses números desaparecem assim que você lê todas as notificações mais recentes.
 
 Clique em **[!UICONTROL Mostrar todas as notificações]** na parte inferior da janela pop-up de notificações para exibir todas as notificações em uma página separada.
 
@@ -67,7 +67,7 @@ Os e-mails de escalonamento, quando os alunos não cumprirem os prazos, podem se
 
    *Exibir lembretes de prazo*
 
-1. Defina lembretes selecionando datas anteriores ao prazo. Isso permite configurar lembretes para o aluno sobre o prazo que se aproxima.
+1. Defina lembretes selecionando datas anteriores ao prazo. Isso permite definir lembretes para o aluno sobre o prazo que se aproxima.
 
    ![](assets/deadline-reminder.png)
 

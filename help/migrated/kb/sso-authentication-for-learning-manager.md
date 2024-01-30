@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -18,11 +18,11 @@ Este documento ajuda a configurar a autenticação SSO para fazer logon na sua c
 
 Para configurar a autenticação SSO, execute as seguintes etapas:
 
-1. Abrir **[!UICONTROL Configurações]** > **[!UICONTROL Métodos de Logon.]**
+1. Abra **[!UICONTROL Configurações]** > **[!UICONTROL Métodos de login.]**
 
    ![](assets/login-methods.png)
 
-1. Escolher **[!UICONTROL Usuários internos]** ou **[!UICONTROL Usuários Externos]** dependendo da sua necessidade.
+1. Escolha **[!UICONTROL Usuários internos]** ou **[!UICONTROL Usuários externos,]** dependendo de sua necessidade.
 1. Clique na lista suspensa ao lado de  **[!UICONTROL fazer logon]** e selecione **[!UICONTROL Logon único]**.
 
    ![](assets/single-sign-on.png)
@@ -37,5 +37,5 @@ Para configurar a autenticação SSO, execute as seguintes etapas:
 
    O SSO que você configura no Learning Manager deve ser suportado por SAML 2.0.
 
-   Agora você pode fazer logon no Learning Manager usando sua autenticação SSO.
+   Você agora pode efetuar o login no Learning Manager usando sua autenticação SSO.
 

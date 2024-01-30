@@ -5,7 +5,7 @@ description: A Experience API (xAPI) é uma especificação de software de e-lea
 source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 0%
+ht-degree: 49%
 
 ---
 
@@ -23,13 +23,13 @@ Para obter mais informações sobre a xAPI, consulte:  [https://github.com/adlne
 
 O Learning Manager tem um Armazenamento de Registros de Aprendizagem incorparado. Esse LRS tem a capacidade total de aceitar instruções xAPI do conteúdo hospedado no Learning Manager. Ele até aceita instruções xAPI que terceiros geram. Essas instruções xAPI são armazenadas no Learning Manager e podem ser exportadas para fora do Learning Manager para serem visualizadas em qualquer sistema de data warehouse de terceiros.
 
-## Quando você usa a xAPI? {#whendoyouusexapi}
+## Quando usar a xAPI? {#whendoyouusexapi}
 
 Cada vez mais, é necessário capturar experiências de aprendizado do usuário final que se estendem por vários sistemas.  Também é necessário rastrear o envolvimento exato do aluno com o conteúdo de treinamento. Ele vai além de Início, Em andamento e Conclusão (que são os únicos atributos capturados pelo SCORM).
 
 ## Uso da xAPI no Learning Manager {#usingxapiinprime}
 
-## Configurar o aplicativo {#setupyourapplication}
+## Configure o seu aplicativo {#setupyourapplication}
 
 1. Faça logon como administrador de integração. Selecionar **[!UICONTROL Aplicativos]** > **[!UICONTROL Registrar]**.
 
@@ -41,10 +41,10 @@ Cada vez mais, é necessário capturar experiências de aprendizado do usuário 
 
 1. Defina o escopo do aplicativo.
 
-   * Se **[!UICONTROL Acesso de leitura e gravação xAPI da função de administrador]** estiver ativado, o administrador poderá publicar e obter instruções e documentos da xAPI.
-   * Se **[!UICONTROL Acesso de leitura e gravação xAPI da função do aluno]** estiver ativado, o administrador poderá publicar e obter instruções e documentos da xAPI.
+   * Se **[!UICONTROL Acesso de leitura e gravação xAPI da função de administrador]** estiver ativado, o administrador poderá publicar e obter instruções e documentos xAPI.
+   * Se **[!UICONTROL Acesso de leitura e gravação xAPI da função do aluno]** estiver ativado, o administrador poderá publicar e obter instruções e documentos xAPI.
 
-1. Salvar alterações. Você recebe sua ID de desenvolvedor e seu segredo.
+1. Salve a alterações. Você recebe sua ID de desenvolvedor e seu segredo.
 
 **Pontos finais**:
 
@@ -81,7 +81,7 @@ Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monito
 
    Qualquer instrução xAPI com o IRI mencionado é rastreada no módulo acima e é refletida nos relatórios do Learning Manager.
 
-1. Para copiar o IRI gerado automaticamente, acesse novamente a página Módulo de atividade.
+1. Para copiar o IRI gerado automaticamente, veja novamente a página Módulo de atividade.
 1. Publique o módulo.
 
 **Pontos a observar:**
@@ -111,6 +111,6 @@ Faça logon como Administrador de integração > Abra o conector FTP/Box > Selec
 
 * Para obter a pontuação percentual no Learning Manager, as pontuações dimensionadas são enviadas por meio da xAPI.
 
-## Relatório de amostra {#samplereport}
+## Relatório de exemplo {#samplereport}
 
 [Relatório de xAPI de exemplo.](assets/xapireport8842560559890766717csv.zip)
