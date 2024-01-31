@@ -2,7 +2,7 @@
 description: Saiba como criar conteúdo para que se ajuste aos cursos como conteúdo de aprendizado em ritmo individualizado.
 jcr-language: en_us
 title: Biblioteca de conteúdo
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3113'
 ht-degree: 65%
@@ -147,7 +147,7 @@ A biblioteca de conteúdo também faz controle de versão dos conteúdos carrega
 1. No campo Descrição, insira a descrição do conteúdo. Certifique-se de que a descrição que deseja inserir seja pertinente. O limite de caracteres é de 245 caracteres.
 1. Para adicionar o conteúdo, clique em Adicionar arquivo de conteúdo e carregue o arquivo de recursos. Ao adicionar conteúdo em vários idiomas, não é possível combinar conteúdo interativo e estático em um único grupo. Todo o conteúdo de todos os idiomas devem ser estáticos ou todo o conteúdo deve ser interativo.
 
-* [Tipos de arquivo compatíveis](content-library.md#supported)*
+* [Tipos de arquivo suportados](content-library.md#supported)
 
   O conteúdo interativo pode ser um projeto publicado em SCORM, AICC ou Captivate. O arquivo deve ser compactado em zip.
 
