@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Mapear habilidades com domínios de habilidades
 description: Para que o Mecanismo de curadoria por AI selecione automaticamente uma publicação de usuário para um domínio de habilidade específico, a empresa do usuário precisa ter mapeado suas habilidades personalizadas nos domínios de habilidade presentes no LMS do Learning Manager.
 contentowner: kuppan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 95%
