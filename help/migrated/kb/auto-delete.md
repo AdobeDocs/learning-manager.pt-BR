@@ -3,10 +3,10 @@ jcr-language: en_us
 title: O usuário é excluído automaticamente no Learning Manager
 description: Um usuário é excluído do Learning Manager, no entanto, o administrador nunca executou tal ação.
 contentowner: nluke
-source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
+source-git-commit: 99c4df44388667efdd162f74918bc3daf907a0f3
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 ## Problema
 
-A **usuário** é excluído do Learning Manager, no entanto, o administrador nunca executou tal ação.
+Um usuário é excluído do Learning Manager, no entanto, o administrador nunca executou tal ação.
 
 ## Causa
 
