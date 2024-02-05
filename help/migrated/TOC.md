@@ -1,11 +1,11 @@
 ---
-user-guide-title: Guia do Adobe Learning Manager
+user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
 source-git-commit: 4e36c95d9186e36746ca2aeaf09b9ac0336881f1
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
