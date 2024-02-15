@@ -3,10 +3,10 @@ description: Saiba como adicionar usuários ou grupos de usuários no aplicativo
 jcr-language: en_us
 title: Adicionar usuários e criar grupos de usuários
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
 workflow-type: tm+mt
-source-wordcount: '3913'
-ht-degree: 64%
+source-wordcount: '3984'
+ht-degree: 63%
 
 ---
 
@@ -17,6 +17,39 @@ ht-degree: 64%
 Saiba como adicionar usuários ou grupos de usuários no aplicativo Learning Manager.
 
 <!--![](assets/user-mgmt-new.png)-->
+
+## Gerenciar grupos de usuários
+
+Neste treinamento, você aprenderá como criar um grupo de usuários por nomes, IDs de e-mail e combinar vários grupos de usuários gerados automaticamente.
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<style>
+   button {
+    background-color: #1373E6; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+
+<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
+   <button type="button">Iniciar treinamento</button>
+</a>
+
+<br/>
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ## Visão geral {#overview}
 
@@ -35,11 +68,43 @@ Como administrador, você pode adicionar usuários de três maneiras:
 
 ## Adicionar um único usuário {#addasingleuser}
 
+Adicione alunos internos ao Adobe do Learning Manager usando uma única opção de usuário.
+
+<style>
+   button {
+    background-color: #1373E6; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+
+<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
+   <button type="button">Iniciar treinamento</button>
+</a>
+
+<br/>
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
+
 Para adicionar usuários,
 
 1. Faça o logon no Adobe Learning Manager como administrador.
 1. Na página inicial, clique em **[!UICONTROL Adicionar usuários]**. Nesta página, você pode adicionar um único usuário ou vários usuários por vez usando um arquivo CSV. Também é possível criar um link de autorregistro para funcionários internos ou criar um perfil de aluno externo.
 1. Para adicionar um único usuário, clique em **[!UICONTROL Adicionar]** no canto superior direito e escolha a opção **[!UICONTROL Usuário único]**.
+
+1. Para adicionar um único usuário, clique em **[!UICONTROL Adicionar]** no canto superior direito e escolha a opção **Usuário único**.
+
 
    ![](assets/single-user.png)
    *Adicionar um único usuário interno*
@@ -54,6 +119,7 @@ Para adicionar usuários,
 ## Adicionar usuários em massa {#addusersinbulk}
 
 A maioria das organizações costuma usar Sistemas de Gerenciamento de RH (HRMS) para gerenciar todos os registros de funcionários, como designação, local, data de adesão ou hierarquia de funcionários. Esses dados podem ser exportados no formato CSV. Para importar um CSV, siga as etapas abaixo:
+
 
 1. Clique em **[!UICONTROL Adicionar]** no canto superior direito e escolha a opção **[!UICONTROL Carregar um CSV]**.
 
@@ -153,7 +219,10 @@ Tipos de campos ativos:
 
 Também é possível permitir que funcionários da sua organização se registrem como Alunos na conta do Adobe Learning Manager sem a necessidade de um administrador. O administrador pode criar um link de autorregistro e compartilhar com os funcionários, que podem se registrar no Learning Manager usando suas credenciais de Adobe.
 
+
+
 No canto superior direito da página, clique em **[!UICONTROL Adicionar]** e selecione **[!UICONTROL Autorregistro]**.
+
 
 ![](assets/self-registration.png)
 *Criar um link para se registrar como aluno*
@@ -209,7 +278,9 @@ Para inscrever usuários externos, siga as etapas a seguir:
    *Inscrever usuários externos*
 
 1. No canto superior direito da página, clique em **[!UICONTROL Adicionar]**.
-1. Na caixa de diálogo **[!UICONTROL Adicionar perfil de registro externo]**, preencha os detalhes a seguir:
+
+1. Na caixa de diálogo **Adicionar perfil de registro externo**, preencha os detalhes a seguir:
+
 
    * O nome do perfil da organização parceira.
    * O endereço de email do gerente da organização parceira.
@@ -253,7 +324,7 @@ Para pausar os grupos de usuários externos, selecione um ou mais grupos, clique
 
 ## Continuar um perfil externo {#resumeanexternalprofile}
 
-O estado pausado de um parceiro externo pode ser revogado a qualquer para continuar com os serviços normais. Clique em **[!UICONTROL Ações]**, no canto superior direito da página e selecione **[!UICONTROL Continuar]**.
+O estado pausado de um parceiro externo pode ser revogado a qualquer para continuar com os serviços normais. Clique em **[!UICONTROL Ações]** no canto superior direito da página e selecione **[!UICONTROL Retomar]**.
 
 Os estados a seguir aplicam-se a usuários externos:
 
@@ -306,7 +377,9 @@ Além dos grupos Gerados automaticamente, é possível criar grupos Personalizad
 
 1. Digite o nome e a descrição do grupo.
 1. Para adicionar usuários, digite o nome de usuário ou o perfil no campo de pesquisa ao digitar e selecione na lista suspensa.
-1. Para adicionar mais alunos, clique em **[!UICONTROL Adicionar Mais Usuários].**
+
+1. Para adicionar mais alunos, clique em **[!UICONTROL Adicionar Mais Usuários]**.
+
 1. Para criar o grupo de usuários, clique em **[!UICONTROL Salvar]**.
 
 O Grupo personalizado foi criado e adicionado ao perfil. Os Grupos de usuários criados são dinâmicos por natureza. Caso novos usuários com atributos similares sejam adicionados, eles serão adicionados automaticamente ao Grupo de usuários.
@@ -322,11 +395,13 @@ Por exemplo: se você deseja configurar um Plano de aprendizado para que todos o
 
 ## Configurações avançadas {#advancedsettings}
 
-## Fontes de dados {#datasources}
+### Fontes de dados {#datasources}
 
 Você pode usar esse recurso quando quiser importar/sincronizar os usuários ou os dados de aprendizado do banco de dados da sua organização no aplicativo Learning Manager. Você também pode configurar a frequência dessa sincronização.
 
+
 Clique em **[!UICONTROL Fontes de dados]** no painel esquerdo, em **[!UICONTROL Avançado]** seção.
+
 
 ![](assets/data-sources-add-users.png)
 
@@ -336,11 +411,11 @@ Escolha o tipo de origem de dados na **[!UICONTROL Origem]** , selecione a frequ
 
 É possível adicionar várias origens de dados.
 
-## Campos ativos {#activefields}
+### Campos ativos {#activefields}
 
 Esse recurso permite que os administradores adicionem mais campos ativos além dos fornecidos durante o registro do usuário.
 
-Clique em **Campos ativos** disponível na página usuários. Os alunos só podem escolher entre os valores fornecidos em valores personalizados.
+Clique em **[!UICONTROL Campos ativos]** disponível na página usuários. Os alunos só podem escolher entre os valores fornecidos em valores personalizados.
 
 ![](assets/active-fields.png)
 *Campos ativos*
@@ -429,6 +504,7 @@ Ocorre que, às vezes, um usuário não deseja mapear um campo Ativo para um cam
 
 Adicione qualquer campo de sua escolha como parte das informações do usuário e clique em **[!UICONTROL Salvar]**. Depois de adicionar os campos, você também pode verificar a disponibilidade dos campos na **[!UICONTROL Editar usuários]** diálogo.
 
+
 Depois de adicionar os campos, note que os campos com marca de seleção vieram de uma fonte de dados ou de um CSV, conforme mencionado na captura a seguir. Administradores podem alterar esses campos importados ativando-os ou desativando-os.
 
 **Valores para campos ativos no Learning Manager**
@@ -461,7 +537,7 @@ Caso a caixa de seleção **[!UICONTROL Restringir seleção]** esteja ativada, 
 
 ## Importar registros {#importlogs}
 
-Neste espaço, é possível visualizar o histórico de importação de CSV dos usuários adicionados pelo administrador com o recurso de importação em massa. Você também pode clicar em **Adicionar** no canto superior direito da página para adicionar usuários usando o recurso de upload de CSV.
+Neste espaço, é possível visualizar o histórico de importação de CSV dos usuários adicionados pelo administrador com o recurso de importação em massa. Você também pode clicar em **[!UICONTROL Adicionar]** no canto superior direito da página para adicionar usuários usando o recurso de upload de CSV.
 
 ## Campos ativos de valores múltiplos
 
@@ -548,7 +624,7 @@ Para editar um usuário, siga as etapas abaixo:
 
 ![](assets/edit-user-data.png)
 
-Na caixa de diálogo **[!UICONTROL Editar usuário]**, atualize os campos corretamente. Para salvar as alterações, clique em **[!UICONTROL Salvar]**.
+Na caixa de diálogo **Editar usuário**, atualize os campos corretamente. Para salvar as alterações, clique em **[!UICONTROL Salvar]**.
 
 +++
 
@@ -595,8 +671,6 @@ Se você deseja que os alunos vejam apenas os campos ativos que não estão pree
 Você pode restringir a seleção dos alunos para que eles possam selecionar apenas os valores predefinidos e não digitar valores aleatórios. Siga as etapas abaixo:
 
 1. Clique em **[!UICONTROL Usuários]** > **[!UICONTROL Campos ativos]**.
-1. Na seção **[!UICONTROL Configurar campos]**, clique em **[!UICONTROL Modificar valores]**.
-
 1. Ative a opção **[!UICONTROL Restringir seleção]**.
 1. Clique em **[!UICONTROL Concluído]**.
 
