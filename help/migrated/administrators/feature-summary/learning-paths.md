@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Caminhos de aprendizado
 description: Criação de planos de aprendizado para administradores no Learning Manager.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 43%
+source-wordcount: '1940'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,14 @@ Frequentemente, os administradores estão interessados em elaborar um currículo
 É aqui que o Caminho de aprendizado entra em cena. Um caminho de aprendizado é uma jornada pela qual um aluno deve passar para dominar algum assunto ao longo do tempo. Os alunos controlam sua experiência de treinamento e podem adquirir e manter o conhecimento em ritmo individualizado com maior eficácia.
 
 Por exemplo, quando se admite novos funcionários, uma organização realiza treinamento sobre políticas e procedimentos, cultura, história e assim por diante. Um caminho de aprendizado configura os cursos de acordo com as necessidades dos funcionários, para que eles possam se inscrever nos cursos de acordo com o caminho de aprendizado definido para eles. você escolhe e pode inscrever os usuários nesse caminho para que eles possam progredir de curso para curso.
+
+## Criar e configurar Caminhos de aprendizado
+
+Neste treinamento, você aprenderá a criar um caminho de aprendizado, adicionar um curso a ele, publicar e desativar um caminho de aprendizado e configurar instâncias em um caminho de aprendizado.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ## Vantagens de um caminho de aprendizado
 
