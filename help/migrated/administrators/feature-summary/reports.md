@@ -3,10 +3,10 @@ description: Saiba mais sobre os relatórios associados à função de administr
 jcr-language: en_us
 title: Relatórios
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
 workflow-type: tm+mt
-source-wordcount: '6441'
-ht-degree: 65%
+source-wordcount: '6502'
+ht-degree: 64%
 
 ---
 
@@ -25,6 +25,14 @@ O processo de geração de relatórios é o semelhante para o administrador e pa
 Os relatórios são agregados em um painel. Um relatório deve existir dentro de um painel. A **[!UICONTROL Painel padrão]** existe por padrão na página relatórios. Qualquer relatório adicionado por você é movido para este painel padrão. Para adicionar relatórios a painéis de controle individuais, use a seta suspensa e escolha **[!UICONTROL Adicionar relatório]**. Para obter mais informações sobre como criar painéis, consulte a seção Painéis nesta página.
 
 ## Painéis de resumo do aprendizado {#dashboards}
+
+### Gerar Relatórios do Painel
+
+Neste treinamento, você aprenderá a gerar relatórios do painel a partir do banco de dados.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 Veja um relatório resumido de todas as atividades de aprendizado na plataforma. Nesta página, você pode ver as seguintes informações de resumo para a equipe do usuário raiz selecionado e seus perfis externos. O intervalo de tempo também pode ser selecionado:
 
@@ -502,6 +510,14 @@ Se houver múltiplos Gerentes que se reportam a você, poderá exibir os relató
 >Os valores do gerente que você usa para exibir o relatório são temporários. Essa exibição de relatório não é baixada quando você escolhe a opção de download. Esta exibição é apenas uma exibição temporária.
 
 ## Exibir relatórios do curso {#viewcoursereports}
+
+### Gerar relatórios de curso
+
+Neste treinamento, você aprenderá a exportar relatórios de curso e configurar assinaturas de e-mail para esses relatórios.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 Você pode exibir relatórios específicos para cada curso seguindo as etapas abaixo:
 
