@@ -3,9 +3,9 @@ description: Saiba mais sobre as configurações da conta do Learning Manager qu
 jcr-language: en_us
 title: Configurações
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
 workflow-type: tm+mt
-source-wordcount: '3791'
+source-wordcount: '3815'
 ht-degree: 68%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 68%
 Saiba mais sobre as configurações da conta do Learning Manager que você pode configurar como administrador.
 
 Você pode alterar as configurações do seu perfil de administrador e atualizar as configurações da conta. Veja as informações do seu perfil, adicione/altere a foto do perfil e modifique **[!UICONTROL Sobre mim]** conteúdo. Atualize as informações da empresa, defina os métodos de logon dos usuários e configure a integração da conexão nas configurações da conta.
+
+## Configurar o Adobe Learning Manager
+
+Este treinamento captura as noções básicas das configurações no nível da conta.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ## Configurações da conta {#accountsettings}
 
