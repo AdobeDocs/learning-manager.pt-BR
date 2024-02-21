@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Manual do desenvolvedor de aplicativos
 description: A API V1 do Learning Manager foi descontinuada. As APIs V1 deixarão de funcionar a partir de 28 fevereiro de 2021. Recomendamos usar as APIs V2 para interagir com o Learning Manager.
 contentowner: jayakarr
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '3383'
+source-wordcount: '3385'
 ht-degree: 62%
 
 ---
@@ -33,9 +33,17 @@ A API do Learning Manager é baseada nos princípios de REST e expõe os element
 
 Para obter detalhes sobre os diversos métodos e pontos de extremidade da API, consulte  [Documentação da API do Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## APIs do aluno
+
+Adobe Learning Manager - as APIs do aluno permitem que você crie uma experiência de aprendizado personalizada para seus usuários. O uso dessas APIs precisa de um token de usuário válido e deve ser usado apenas para fins de fluxos de trabalho em que haja um aluno totalmente licenciado/registrado.
+
 >[!IMPORTANT]
 >
->As APIs do aluno do Adobe Learning Manager permitem que você crie uma experiência de aprendizado personalizada para seus usuários. O uso dessas APIs precisa de um token de usuário válido e deve ser usado apenas para fins de fluxos de trabalho em que haja um aluno totalmente licenciado/registrado. Eles não devem ser usados, como estão, para qualquer tipo de recuperação de dados para suportar usuários não conectados/compartilhados ou quaisquer outros casos. Casos de uso não conectados exigem tratamento especial. Entre em contato com a equipe de Arquitetura de solução, caso tenha dúvidas sobre o uso apropriado dessas APIs, e certifique-se de que um arquiteto de solução tenha verificado uma solução antes de implantá-la.
+>Eles não devem ser usados, como estão, para qualquer tipo de recuperação de dados para suportar usuários não conectados/compartilhados ou quaisquer outros casos.
+
+Os casos de uso não conectados exigem tratamento especial.
+
+**Entre em contato com a equipe de Arquitetura de solução, caso você tenha dúvidas sobre o uso apropriado dessas APIs, e certifique-se de que um arquiteto de solução tenha verificado uma solução antes de implantá-la**.
 
 ## Autenticação da API {#apiauthentication}
 
