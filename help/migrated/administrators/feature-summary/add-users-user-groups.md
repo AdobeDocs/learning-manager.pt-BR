@@ -3,10 +3,10 @@ description: Saiba como adicionar usuários ou grupos de usuários no aplicativo
 jcr-language: en_us
 title: Adicionar usuários e criar grupos de usuários
 contentowner: manochan
-source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 63%
+source-wordcount: '4000'
+ht-degree: 62%
 
 ---
 
@@ -155,13 +155,21 @@ Na lista de usuários, clique em um usuário selecionado. Nos detalhes do usuár
 ![](assets/edit-user.png)
 *Caixa de diálogo Editar usuário*
 
-## Fluxos de trabalho para campos ativos e valores de campo ativos preservando a diferenciação de maiúsculas e minúsculas
+## Campos ativos
 
-Nesta versão, o Learning Manager preserva a diferenciação de maiúsculas e minúsculas do atributo do usuário e seu valor. **Por exemplo:**, a diferenciação de maiúsculas e minúsculas de um atributo de usuário é &#39;location&#39; e seu valor como &#39;PARIS&#39; será preservado e exibido da mesma maneira. Em caso de problemas, o administrador agora pode editar o nome e os valores do atributo para corrigir quaisquer erros de diferenciação de maiúsculas e minúsculas.
+### Gerenciar atributos de usuário
+
+Neste treinamento, você aprenderá como adicionar, personalizar e configurar campos ativos.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
+
+O Adobe Learning Manager preserva a diferenciação de maiúsculas e minúsculas do atributo do usuário e seu valor. **Por exemplo:**, a diferenciação de maiúsculas e minúsculas de um atributo de usuário é &#39;location&#39; e seu valor como &#39;PARIS&#39; será preservado e exibido da mesma maneira. Em caso de problemas, o administrador agora pode editar o nome e os valores do atributo para corrigir quaisquer erros de diferenciação de maiúsculas e minúsculas.
 
 O administrador pode fazer isso acessando **[!UICONTROL Aplicativo do administrador]** > **[!UICONTROL Usuários]** > **[!UICONTROL Grupos de usuários]** e clicando no nome do grupo.
 
-O administrador pode adicionar e atualizar valores de atributo permitidos para um aluno por meio da interface do usuário.
+Um administrador pode adicionar e atualizar valores de atributo permitidos para um aluno por meio da interface do usuário.
 
 Tipos de campos ativos:
 

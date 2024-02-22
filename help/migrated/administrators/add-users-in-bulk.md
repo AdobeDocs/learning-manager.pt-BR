@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Adicionar usuários em massa
 description: Saiba como adicionar vários usuários de uma vez.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 31%
+source-wordcount: '316'
+ht-degree: 24%
 
 ---
 
@@ -14,7 +14,15 @@ ht-degree: 31%
 
 # Adicionar usuários em massa
 
-Sim, você pode adicionar vários usuários de uma vez seguindo as etapas abaixo:
+Neste treinamento, você aprenderá como adicionar usuários em massa por meio de um CSV.
+
+[![botão](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
+
+## Como adicionar vários usuários
+
+Você pode adicionar vários usuários de uma vez seguindo as etapas abaixo:
 
 1. Clique em **[!UICONTROL Usuários]** no painel esquerdo de login do administrador e, em seguida, clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Fazer upload de um csv]**. Uma caixa de diálogo pop-up é exibida.
 

@@ -3,10 +3,10 @@ description: Saiba como gerenciar etiquetas no Learning Manager.
 jcr-language: en_us
 title: Tags
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 67%
+source-wordcount: '762'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,14 @@ Agora, os administradores podem gerenciar etiquetas no Learning Manager. Use ban
 A lista de objetos de aprendizado associados à tag pode ser exibida clicando na contagem fornecida ao lado de cada tag. A lista mostra o número de cursos, programas de aprendizado, certificados, ajudas de tarefa e grupos de conteúdo. Clique em qualquer uma dessas opções para exibir a lista.
 
 Você pode classificar as tags com base no uso ou na ordem alfabética usando a opção **[!UICONTROL Classificar por]**.
+
+## Introdução às tags
+
+Este treinamento ensinará como adicionar, editar, substituir, acrescentar e excluir tags. Você também aprenderá como alterar configurações de permissão e usar filtros de tag.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ## Adicionar/ excluir/ editar tags {#adddeleteedittags}
 
