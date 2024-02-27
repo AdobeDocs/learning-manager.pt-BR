@@ -3,54 +3,55 @@ jcr-language: en_us
 title: Descontinuações de API no Adobe Learning Manager
 description: À medida que as APIs no Adobe Learning Manager evoluem, elas são periodicamente reorganizadas ou atualizadas. Quando as APIs evoluem, a API antiga é descontinuada e eventualmente removida. Esta página contém informações que você precisa saber ao migrar de versões de API obsoletas para versões de API mais novas e estáveis.
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 19%
+source-wordcount: '845'
+ht-degree: 21%
 
 ---
 
 
-# Descontinuações de API no Adobe Learning Manager
+# Descontinuações e alterações de API no Adobe Learning Manager
 
 ## Descontinuações de API na versão de março de 2024 do Adobe Learning Manager
 
-### Alterações nos Limites de Taxa
+<!-- ### Changes in Rate Limits
 
-Na próxima versão do Adobe Learning Manager, estamos reestruturando os limites da taxa da API para novas contas. Para contas existentes, somente as APIs do administrador terão taxa limitada. Após 90 dias (cerca de 3 meses), reestruturaremos os limites de taxa para todas as APIs, mas as contas existentes serão incluídas na lista de permissões de acordo com o uso atual. As contas existentes precisam revisar o uso da API do aluno.
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-Para novas contas, se elas quiserem aumentar os limites da taxa, deverão entrar em contato com a equipe de Sucesso do cliente do ALM.
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### Quais APIs terão taxa limitada
+#### Which APIs will be rate limited 
 
-Para novas contas, todas as APIs de administrador, aluno e pesquisa terão limites de taxa e serão ativadas.
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-A taxa de intermitência de API ou o limite de intermitência se refere ao número máximo de solicitações permitidas a serem feitas a uma API em uma intermitência curta dentro de um período limitado.
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-A tabela a seguir lista os limites de taxa e intermitência para as APIs.
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>Número de solicitações-RPM</th>
-        <th>Número de solicitações-Intermitência</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>Administrador</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Aluno</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Pesquisa</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### Alterações nos limites de deslocamento
 
