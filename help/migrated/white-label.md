@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Descontinuações de API no Adobe Learning Manager
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, para que possa renomear a identidade visual do aplicativo e disponibilizá-lo aos usuários com sua própria marca.
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ O seguinte pode ser personalizado:
 
   <td>
 
-  <p>O nome com o qual o sistema operacional identifica o aplicativo. O formato usado geralmente é- com.`<company-name>`.`<product-name>`.</p></td>
+  <p>O nome com o qual o sistema operacional identifica o aplicativo. O formato usado normalmente é: com.company-name.product-name.</p></td>
 
   </tr>
 
@@ -121,7 +121,7 @@ O seguinte pode ser personalizado:
 
   <td>
 
-  <p>O ícone do aplicativo é png. Este ícone é exibido no seu aplicativo. O formato para o nome é `<account-id>`_appIcon.png.</p></td>
+  <p>O ícone do aplicativo é png. Este ícone é exibido no seu aplicativo. O formato para o nome é account-id_appIcon.png.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ O seguinte pode ser personalizado:
 
   <td>
 
-  <p>Para a tela inicial do seu aplicativo, forneça uma imagem (png) que será exibida quando os usuários iniciarem o aplicativo. O formato para o nome é `<account-id>`_splashIcon.png.</p></td>
+  <p>Para a tela inicial do seu aplicativo, forneça uma imagem (png) que será exibida quando os usuários iniciarem o aplicativo. O formato para o nome é account-id_splashIcon.png.</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ O seguinte pode ser personalizado:
 
   <td>
 
-  <p>O administrador de integração da sua conta fornece os detalhes ao registrar o aplicativo. O administrador de integração deve usar o seguinte:<ul><li>“learner:read,learner:write” como função.</li><li>`<internal app name>`://redirecionar como URL de redirecionamento. </li></ul> </p></td>
+  <p>O administrador de integração da sua conta fornece os detalhes ao registrar o aplicativo. O administrador de integração deve usar o seguinte: * learner:read,learner:write as role * internal app name://redirect as redirect URL
+
+  </p></td>
 
   </tr>
 
