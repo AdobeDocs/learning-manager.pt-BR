@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Descontinuações de API no Adobe Learning Manager
 description: À medida que as APIs no Adobe Learning Manager evoluem, elas são periodicamente reorganizadas ou atualizadas. Quando as APIs evoluem, a API antiga é descontinuada e eventualmente removida. Esta página contém informações que você precisa saber ao migrar de versões de API obsoletas para versões de API mais novas e estáveis.
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 21%
 
 ---
@@ -133,7 +133,7 @@ O motivo pelo qual estamos descontinuando o sinalizador para as APIs do aluno é
 
 No futuro, a seguinte API do aluno deixará de funcionar porque tem o sinalizador de substituição.
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&amp;página[limite]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users?page[offset]=0&amp;página[limite]=10&amp;sort=id&amp;override=TRUE_
 
 ### Alterações de API para novas recomendações baseadas em habilidade
 
