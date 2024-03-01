@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Descontinuações de API no Adobe Learning Manager
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, para que possa renomear a identidade visual do aplicativo e disponibilizá-lo aos usuários com sua própria marca.
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,7 @@ Depois de gerar os binários, envie-os para a Play Store ou App Store.
 
 ## Como aplicar as alterações
 
-O cliente envia os ativos e arquivos necessários à equipe de CSM. A equipe do CSM preenche, em seguida, o [formulário](https://forms.office.com/r/bJRRaRBvSh) com as alterações necessárias e anexa os ativos necessários. A equipe então analisará e informará as equipes de engenharia sobre as mudanças. A equipe de engenharia irá gerar uma compilação e compartilhar com a equipe de CSM.
+Envia os ativos e arquivos necessários para a equipe de CSM. A equipe do CSM preenche, em seguida, o [formulário](https://forms.office.com/r/bJRRaRBvSh) com as alterações necessárias e anexa os ativos necessários. A equipe então analisará e informará as equipes de engenharia sobre as mudanças. A equipe de engenharia irá gerar uma compilação e compartilhar com a equipe de CSM.
 
 A equipe do CSM compartilhará a compilação com o cliente.
 
