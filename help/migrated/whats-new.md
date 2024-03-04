@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de m
 jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Exibir [Várias marcas personalizadas](administrators/feature-summary/themes.md#
 
 ### Páginas Administrador - Curso ou Caminho de aprendizado
 
-Se um grande número de alunos estiver inscrito no curso, por exemplo, mais de 50.000, a lista de alunos não será exibida. Você pode pesquisar um aluno na *Pesquisar alunos* barra de pesquisa ou selecione a **Baixar** acima da barra de pesquisa para baixar a lista de alunos.
+Se um grande número de alunos estiver inscrito no curso, por exemplo, mais de 50.000, a lista de alunos não será exibida. Você pode pesquisar um aluno na *Pesquisar alunos* barra de pesquisa ou selecione a **Baixar** na parte superior da barra de pesquisa para baixar a lista de alunos.
 
 ### Administrador - Página Alunos
 
