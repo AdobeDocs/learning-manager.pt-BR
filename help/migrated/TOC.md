@@ -2,9 +2,9 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '592'
 ht-degree: 90%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 90%
    * [Marketplace de conteúdo](administrators/feature-summary/content-marketplace.md)
    * [Relatórios](administrators/feature-summary/reports.md)
    * [Caminhos de aprendizado](administrators/feature-summary/learning-paths.md)
-   * [Programas de aprendizado](administrators/feature-summary/learning-programs.md)
+   * [Planos de aprendizado](administrators/feature-summary/learning-plans.md)
    * [Gerenciar pedidos e faturamento do Learning Manager](administrators/feature-summary/billing-management.md)
    * [Ajudas de tarefa](administrators/feature-summary/job-aids.md)
    * [Certificações](administrators/feature-summary/certifications.md)
@@ -55,6 +55,7 @@ ht-degree: 90%
    * [Contas entre parceiros](administrators/feature-summary/peer-account.md)
    * [Criar e modificar habilidades e níveis](administrators/feature-summary/skills-levels.md)
    * [Recomendação de cursos baseada em IA](ai-based-recommendations.md)
+   * [Importar habilidades](administrators/feature-summary/import-skills-external-sources.md)
    * [Gamificação](administrators/feature-summary/gamification.md)
    * [Personalizar a página inicial do aluno](administrators/feature-summary/customize-learner-homepage.md)
    * [Medalhas](administrators/feature-summary/badges.md)
@@ -81,6 +82,7 @@ ht-degree: 90%
    * [Extensibilidade nativa](administrators/feature-summary/native-extensibility.md)
    * [Inscrição múltipla](administrators/feature-summary/multiple-enrollment.md)
    * [Experiência não conectada para alunos](administrators/feature-summary/non-logged-in-experience-learners.md)
+   * [Programas de aprendizado](administrators/feature-summary/learning-programs.md)
 * Administrador de integração {#integration}
    * [Manual de migração](integration-admin/feature-summary/migration-manual.md)
    * [Conectores do Learning Manager](integration-admin/feature-summary/connectors.md)
