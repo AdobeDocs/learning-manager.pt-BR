@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de m
 jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
-source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
+source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3261'
 ht-degree: 1%
 
 ---
@@ -272,11 +272,13 @@ Como professor, agora você pode filtrar envios de arquivos dos alunos com base 
 
 Exibir [Status do envio](instructors/feature-summary/learners.md#filter-file-submissions) para obter mais informações.
 
-### Aprimoramentos na lista de verificação
+## Aprimoramentos na lista de verificação
+
+### Lista de verificação obrigatória
 
 Nas versões atuais do Adobe Learning Manager, para uma lista de verificação, o progresso de um módulo era permitido mesmo se um revisor tivesse marcado os módulos como Com falha. Nesta versão, um autor pode configurar para impedir o progresso de um aluno de que ele seja reprovado na lista de verificação.
 
-#### Reavaliação da lista de verificação
+### Reavaliação da lista de verificação
 
 No mesmo fluxo de trabalho, você, como autor, pode reavaliar um aluno que não passou em uma lista de verificação. Selecione o **Habilitar** caixa de seleção na seção Reavaliação, ao criar uma lista de verificação.
 
