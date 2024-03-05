@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de m
 jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 2%
 
 ---
@@ -425,6 +425,10 @@ Com esta versão, a API de trabalho manterá o Relatório de acesso de logon por
 ```
 
 Se você tentar baixar o **Acesso de login** que ultrapasse cinco trimestres, será exibida uma mensagem de erro. Uma mensagem de erro semelhante é exibida se você tentar baixar o **Auditoria de usuário** que exceda seis meses.
+
+### APIs obsoletas
+
+Exibir [Descontinuações de API no Adobe Learning Manager](api-deprecations-list.md) para obter uma lista cumulativa de todas as APIs obsoletas no produto.
 
 ## Erros corrigidos nesta atualização {#bug-fixes}
 
