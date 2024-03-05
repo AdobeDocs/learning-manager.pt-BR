@@ -3,10 +3,10 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de m
 jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
-source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
+source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
 workflow-type: tm+mt
-source-wordcount: '3125'
-ht-degree: 2%
+source-wordcount: '3259'
+ht-degree: 1%
 
 ---
 
@@ -276,13 +276,33 @@ Exibir [Status do envio](instructors/feature-summary/learners.md#filter-file-sub
 
 Nas versões atuais do Adobe Learning Manager, para uma lista de verificação, o progresso de um módulo era permitido mesmo se um revisor tivesse marcado os módulos como Com falha. Nesta versão, um autor pode configurar para impedir o progresso de um aluno de que ele seja reprovado na lista de verificação.
 
-Para obter mais informações, consulte [Aprimoramentos na lista de verificação](authors/feature-summary/courses.md#mandatory-checklist) no Adobe Learning Manager.
+#### Reavaliação da lista de verificação
+
+No mesmo fluxo de trabalho, você, como autor, pode reavaliar um aluno que não passou em uma lista de verificação. Selecione o **Habilitar** caixa de seleção na seção Reavaliação, ao criar uma lista de verificação.
+
+Exibir [Criar uma lista de verificação](authors/feature-summary/courses.md#checklist-fail) para obter mais informações.
 
 ## Outras melhorias
 
-### Alterações na lista de verificação
+### Notificações de email relacionadas à sessão
 
-Ao criar uma lista de verificação, você pode selecionar o **Lista de verificação obrigatória** caixa de seleção. Isso impede que o módulo ou curso continue se um aluno não passar na lista de verificação.
+Nas versões anteriores do Adobe Learning Manager, um aluno não tinha e-mails relacionados à sessão, detalhes da sessão atualizados, convite da sessão e lembrete da sessão quando:
+
+* Os alunos concluíram um curso,
+* Novas sessões são adicionadas a um curso ou
+* Há alterações nas sessões existentes.
+
+Na versão de março de 2024 do Adobe Learning Manager, estas são as novas alterações:
+
+* Detalhes da sessão atualizados e convite da sessão (para aluno e professor)
+   * Para sessões futuras, e-mails para **Detalhes da sessão atualizados**, **Convite de sessão** para alunos inscritos e professores atuais serão descontinuados. Para sessões anteriores, e-mails para **Detalhes da sessão atualizados** e **Convite de sessão** para alunos inscritos e professores atuais permanecerão como estão.
+* E-mails de lembrete (para administrador e aluno)
+   * Para sessões futuras, somente **Lembrete de sessão** emails serão enviados.
+
+>[!NOTE]
+>
+>Os e-mails não dependem da sessão e da conclusão do curso.
+
 
 ### Alterações no local de referência AEM
 
