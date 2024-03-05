@@ -2,10 +2,10 @@
 description: Consulte o manual para administradores de integração que desejam migrar um LMS existente para o LMS do Learning Manager
 jcr-language: en_us
 title: Manual de migração
-source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
+source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
 workflow-type: tm+mt
-source-wordcount: '3641'
-ht-degree: 72%
+source-wordcount: '3614'
+ht-degree: 73%
 
 ---
 
@@ -15,19 +15,9 @@ ht-degree: 72%
 
 Consulte o manual para administradores de integração que desejam migrar um LMS existente para o LMS do Learning Manager
 
-## Visão geral {#overview}
+<!-- ## Overview {#overview} -->
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/migration.jpg"></td>
-   <td>
-    <p>O <a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> é uma solução de gerenciamento de aprendizagem de autosserviço centrada no aluno e hospedada na nuvem. O Adobe permite que empresas com os atuais sistemas de gerenciamento de aprendizagem (LMS) migrem os dados de treinamento e o conteúdo do treinamento da sua organização para o aplicativo de LMS do Learning Manager. </p></td>
-  </tr>
- </tbody>
-</table>
-
-### Cenário de uso {#usagescenario}
+## Cenário de uso {#usagescenario}
 
 Em geral, as grandes empresas têm seu LMS interno ou qualquer sistema de gerenciamento de aprendizagem legado fornecido pelo fornecedor. O LMS consiste no conteúdo de treinamento corporativo e nos dados de treinamento. Quando você compra o Learning Manager, pode querer mover o conteúdo e os dados existentes do LMS para o Learning Manager, para que possa aproveitar os benefícios do moderno e intuitivo LMS sem perder os dados herdados da sua organização.
 
@@ -388,7 +378,11 @@ Abaixo encontram-se as especificações CSV padrão que podem ser usadas para ma
 </table>
 
 O Learning Manager oferece suporte a valores de data e hora somente no formato UTF 8 e 32 bits. Você pode obter erros durante a migração se mencionar a data em arquivos CSV com uma data fora do intervalo como 2038-07-17T08:53:21.000Z ou 1980-04-17T08:13:25,322Z
-[sample-csvs.zip](assets/sample-csvs.zip) [csv_specifications.zip](assets/csv-specifications.zip)Você precisa estar ciente das seguintes dependências em arquivos CSV durante a importação:
+
+* [sample-csvs.zip](assets/sample-csvs.zip)
+* [csv_specifications.zip](assets/csv-specifications.zip)
+
+Você deve estar ciente das seguintes dependências dos arquivos CSV durante a importação:
 
 * module_version.csv depende de module.csv
 * course_instance.csv depende de course.csv
@@ -536,6 +530,11 @@ Abaixo encontram-se as especificações CSV padrão que podem ser usadas para ma
 
 4-user_course_grades.xlsx-contém descrições de metadados necessários para o arquivo retrofit_user_course_grades.csv.
 [csv-specifications.zip](assets/csv-specifications.zip)
+
+>[!NOTE]
+>
+>UUID (Universally Unique Id) também é uma coluna no csv de migração.
+
 
 ## Solução de problemas de migração {#troubleshootingmigrationissues}
 
