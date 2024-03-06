@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de m
 jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -351,6 +351,12 @@ Exibir rotulagem de branco em [Aplicativo móvel do Adobe Learning Manager](whit
 ### Classificação do aplicativo
 
 Um aluno pode fornecer seu feedback no aplicativo Adobe Learning Manager para aprimorar ainda mais a experiência no aplicativo. Se o aluno classificar quatro estrelas ou mais, será exibida uma janela pop-up que solicita que o aluno classifique o aplicativo na Play Store ou no App Store.
+
+### A Bluejeans chegou ao fim da sua vida útil em fevereiro de 2024
+
+Gostaríamos de informar que a Bluejeans atingiu seu fim de vida útil em fevereiro de 2024. Após fevereiro de 2024, o Bluejeans não receberá mais atualizações ou suporte. Nossas equipes de suporte e CSAM ajudarão você com quaisquer dúvidas ou preocupações que possa ter durante esse período de transição.
+
+Exibir [Conectores no Adobe Learning Manager](integration-admin/feature-summary/connectors.md) para obter mais informações sobre como configurar conectores.
 
 ## Alterações da API nesta versão
 
