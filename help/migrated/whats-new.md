@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de m
 jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
-source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
+source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3528'
 ht-degree: 1%
 
 ---
@@ -274,13 +274,32 @@ Exibir [Status do envio](instructors/feature-summary/learners.md#filter-file-sub
 
 ## Aprimoramentos na lista de verificação
 
-### Lista de verificação obrigatória
+Na versão de março de 2024 do Adobe Learning Manager, os aprimoramentos feitos ao fluxo de trabalho da lista de verificação são os seguintes:
 
-Nas versões atuais do Adobe Learning Manager, para uma lista de verificação, o progresso de um módulo era permitido mesmo se um revisor tivesse marcado os módulos como Com falha. Nesta versão, um autor pode configurar para impedir o progresso de um aluno de que ele seja reprovado na lista de verificação.
+### Não permitir progresso em caso de falha em uma lista de verificação
 
-### Reavaliação da lista de verificação
+Ao criar uma lista de verificação, um autor pode selecionar **Habilitar** na seção Lista de verificação obrigatória. Isso impede que um aluno continue no módulo se falhar na lista de verificação. Eles só podem continuar se forem aprovados na lista de verificação.
 
-No mesmo fluxo de trabalho, você, como autor, pode reavaliar um aluno que não passou em uma lista de verificação. Selecione o **Habilitar** caixa de seleção na seção Reavaliação, ao criar uma lista de verificação.
+Os revisores da lista de verificação, ou seja, professores ou gerentes, podem verificar o status da lista de verificação. Os revisores também podem revisar a lista de verificação de um aluno fora de ordem.
+
+### Reavaliação de uma lista de verificação
+
+Ao criar uma lista de verificação, um autor pode selecionar **Habilitar** na seção Reavaliação. Isso permite que um gerente ou professor reavalie um aluno até que ele seja aprovado na lista de verificação.
+
+Se o módulo for obrigatório, a caixa de seleção de reavaliação será marcada por padrão.
+
+Um professor ou gerente também pode alterar o status de uma lista de verificação de Reprovado para Aprovado quando a reavaliação estiver ativada.
+
+Na página Lista de verificação, um professor pode ver o número de alunos no estado Pendente. Como professor, você pode avaliar um aluno e aprová-lo ou reprová-lo. Se um aluno estiver em um estado de falha, você só poderá ver a lista de verificação quando a reavaliação não estiver ativada.
+
+Isto significa que a **Habilitar** a caixa de seleção não foi marcada na seção Reavaliação ao criar a lista de verificação. Se esta caixa de seleção estiver selecionada, você poderá ver o botão Exibir/Reavaliar na página Lista de verificação do professor.
+
+Selecionar o botão permite reavaliar um aluno e marcá-lo como aprovado ou reprovado.
+
+>[!NOTE]
+>
+>Esses dois recursos - Reavaliação e Tornando a lista de verificação obrigatória - se aplicam apenas aos módulos recém-criados. Depois que um curso é publicado, eles não podem ser ativados/desativados.
+
 
 Exibir [Criar uma lista de verificação](authors/feature-summary/courses.md#checklist-fail) para obter mais informações.
 
