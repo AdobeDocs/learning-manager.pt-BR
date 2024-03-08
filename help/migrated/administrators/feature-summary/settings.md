@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Configurações
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '3980'
+source-wordcount: '3983'
 ht-degree: 65%
 
 ---
@@ -438,7 +438,7 @@ Habilite ou desabilite as configurações a seguir:
 
 >[!NOTE]
 >
->Depois que a configuração de importação de habilidades estiver ativada, o layout da conta não poderá ser alternado para Clássico. Ou seja, mudar para uma conta clássica é desativado após a ativação da importação de habilidades.
+>Quando a configuração de importação de habilidades estiver ativada, o layout da conta não poderá ser alternado para Clássico, ou seja, a alternância para a conta Clássica será desativada após a **Importação de habilidade** opção está ativada.
 
 
 ## Recomendação baseada em IA
