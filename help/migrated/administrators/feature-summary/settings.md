@@ -3,14 +3,13 @@ description: Saiba mais sobre as configurações da conta do Learning Manager qu
 jcr-language: en_us
 title: Configurações
 contentowner: manochan
-source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
+exl-id: a563d955-f67e-4218-88df-625cde673601
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '3815'
-ht-degree: 68%
+source-wordcount: '3980'
+ht-degree: 65%
 
 ---
-
-
 
 # Configurações
 
@@ -421,10 +420,26 @@ Habilite ou desabilite as configurações a seguir:
    <td>
     <p>Gerenciamento de professores<br></p></td>
    <td>
-    <p>Habilite essa configuração para restringir a lista de professores que podem ser selecionados ao criar sessões de sala de aula ou sala de aula virtual. Todos os usuários com privilégios de professor só podem ser atribuídos como professor para qualquer sessão. Essa restrição não se aplica a fluxos de trabalho de migração.<br></p></td>
+    <p>Habilite essa configuração para restringir a lista de professores que podem ser selecionados ao criar sessões de sala de aula ou sala de aula virtual. Todos os usuários com privilégios de professor só podem ser atribuídos como professor para qualquer sessão. Essa restrição não se aplica a fluxos de trabalho de migração.<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>Importação de habilidades</p>
+    </td>
+    <td>
+      <p>Se ativado, você pode escolher uma origem externa para importar Habilidades. As habilidades dos recursos de aprendizado existentes serão importadas para o repositório de habilidades uma vez durante a execução inicial. Para todas as importações subsequentes de recursos de aprendizado, as habilidades serão importadas para o repositório de habilidades apenas para itens recém-importados.
+      Quando a opção é ativada, a ação é irreversível. Você não pode desativar ou mudar para outra fonte mais tarde.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Depois que a configuração de importação de habilidades estiver ativada, o layout da conta não poderá ser alternado para Clássico. Ou seja, mudar para uma conta clássica é desativado após a ativação da importação de habilidades.
+
 
 ## Recomendação baseada em IA
 
@@ -578,6 +593,13 @@ Você também pode adicionar o local com a ajuda de um CSV. O CSV deve conter os
 * região
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### Configurações {#admin-classroom-settings}
+
+Selecionar **Editar** para alterar o seguinte:
+
+* **Permitir que autores criem locais**: Uma vez ativado, todos os locais criados pelos autores serão listados na guia “Todos os locais”. Os alunos também verão esses locais nos filtros Catálogo e calendário.
+* **Permitir que autores modifiquem e excluam locais**: uma vez ativado, os autores poderão modificar e excluir todos os locais da sala de aula. As modificações feitas pelos autores serão refletidas em toda a plataforma, incluindo relatórios.
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
