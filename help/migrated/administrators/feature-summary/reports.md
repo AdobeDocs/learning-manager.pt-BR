@@ -3,14 +3,13 @@ description: Saiba mais sobre os relatórios associados à função de administr
 jcr-language: en_us
 title: Relatórios
 contentowner: manochan
-source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
+exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '6502'
-ht-degree: 64%
+source-wordcount: '6624'
+ht-degree: 63%
 
 ---
-
-
 
 # Relatórios
 
@@ -580,6 +579,14 @@ Ao criar uma conta entre parceiros, se a opção Compartilhar catálogo não tiv
 
 Você pode obter seus relatórios favoritos por e-mail inscrevendo-se para recebê-los.
 
+### Configurar assinaturas de email
+
+Neste treinamento, você aprenderá como configurar assinaturas de email para relatórios do painel.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
+
 Entrada **[!UICONTROL Relatórios]** clique no botão  **[!UICONTROL Assinatura]** guia. A página de inscrição no relatório é exibida.
 
 Para selecionar o nome do relatório na lista suspensa, comece a digitar o nome do relatório no campo Relatórios. Escolha a frequência de e-mail na lista suspensa. Você pode adicionar o assunto do e-mail e fornecer uma ID de e-mail de backup.
@@ -600,6 +607,7 @@ Estes são os tipos de relatório disponíveis para download.
 * Registro de auditoria do usuário
 * Relatório de logon/acesso
 * Transcrições da gamificação
+* Trilha de Auditoria de Gamificação
 
 ## Transcrições do aluno {#learnertranscripts}
 
@@ -841,6 +849,33 @@ Os administradores podem baixar a transcrição da gamificação no formato CSV.
 
    Quando o administrador redefine a gamificação, todos os pontos do aluno são redefinidos adequadamente.
 
+## Relatório de trilha de auditoria de gamificação {#gamification-audit-trail}
+
+Este relatório contém o histórico e os motivos dos pontos de gamificação dos alunos obtidos para cada regra.
+
+### Baixar o relatório
+
+1. Selecione o URL da trilha de auditoria de gamificação.
+1. Na guia **Trilha de auditoria de gamificação** , selecione o intervalo de datas.
+1. Selecionar **Gerar**.
+
+O relatório é baixado como um arquivo CSV. O arquivo contém as seguintes colunas:
+
+* Nome
+* Email/ UUID,
+* Status
+* Ação
+* Pontos,
+* Pontos de Equilíbrio
+* Regra/Tarefa
+* Subtarefa de Regra/Tarefa,
+* Detalhes de regra/tarefa
+* Tipo,
+* Nome,
+* Data da Nome da Instância Obtida (Fuso Horário UTC)
+* Hora de Início da Regra/ Tarefa
+* Hora de Término da Regra/ Tarefa
+
 ## Relatório de inscrição e cancelamento de inscrição {#enrollmentandunenrollmentreport}
 
 Os administradores e gerentes podem extrair um relatório dos alunos que foram inscritos e cancelados. Como administrador, você pode ver qualquer aluno, administrador ou gerente que se inscreveu ou cancelou a inscrição em uma instância de um curso, de um programa de aprendizado ou de uma certificação, bem como exportar o relatório. Enquanto gerente, você só pode obter um relatório dos membros da sua equipe. Como gerente, você não pode ver os alunos excluídos ou seu próprio nome no aplicativo do gerente como um aluno inscrito ou não inscrito.
@@ -900,7 +935,7 @@ O relatório terá os seguintes campos:
 ![](assets/more-options.png)
 *Opções adicionais*
 
-## Relatório de resumo da sessão
+## Relatório de resumo da sessão {#session-summary-report}
 
 O Relatório de resumo da sessão contém todas as sessões planejadas para um aluno em uma data especificada.
 
@@ -925,17 +960,17 @@ O csv baixado contém os seguintes campos:
 * Número de vagas
 * Localização
 * Nome da instância
-
 * Nome do curso
 * ID do curso
 * Nome do professor
 * E-mail do professor
 * Número de inscrições
-
 * Tipo de sessão
 * Limite de listas de espera
 * Número de listas de espera
 * E-mail do usuário da lista de espera
+* Informações do Local
+* Região do local
 
 ## Relatório de Utilização do Professor
 

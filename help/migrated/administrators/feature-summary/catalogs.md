@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Catálogos
 description: Os catálogos são uma coleção de aprendizado - cursos, programas de aprendizado e certificações. Use os catálogos para proporcionar acesso a um conjunto personalizado de aprendizado aos alunos. Você pode associar o aprendizado a um catálogo durante a criação de um novo catálogo.
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 76%
+source-wordcount: '2429'
+ht-degree: 75%
 
 ---
-
-
 
 # Catálogos
 
@@ -132,6 +131,14 @@ Você também pode excluir vários catálogos.
 Um administrador pode compartilhar os catálogos com os usuários internos de uma empresa ou com todos os usuários externos. No entanto, o compartilhamento é exclusivo. Em outras palavras, um catálogo compartilhado internamente não pode ser compartilhado com grupos externos e vice-versa.
 
 Cursos, programas de aprendizado, ajudas de tarefa e certificações são objetos de aprendizado compatíveis para os catálogos que deseja compartilhar.
+
+### Compartilhar catálogos
+
+Este treinamento ensinará como compartilhar catálogos com grupos de usuários internos e contas externas do Adobe Learning Manager.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ## Compartilhar o catálogo internamente {#int}
 
@@ -340,4 +347,3 @@ Depois de criar as etiquetas de catálogo, você pode aplicá-las a catálogos e
 Desative o catálogo padrão e ative somente o catálogo que foi criado e que você concedeu acesso a usuários externos.
 
 +++
-

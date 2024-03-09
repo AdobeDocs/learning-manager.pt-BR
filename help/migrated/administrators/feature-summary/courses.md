@@ -3,14 +3,13 @@ description: Este documento consiste na ajuda para criar módulos, instâncias e
 jcr-language: en_us
 title: Criar módulos do curso, instâncias e programas de aprendizado
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4544'
-ht-degree: 65%
+source-wordcount: '4604'
+ht-degree: 64%
 
 ---
-
-
 
 # Criar módulos do curso, instâncias e programas de aprendizado
 
@@ -23,6 +22,16 @@ O autor cria cursos. Os alunos podem realizar os cursos e os administradores pod
 O autor cria cursos. Os alunos podem, então, realizar os cursos e os administradores podem acompanhar o desempenho dos alunos com base no aproveitamento do curso. Os administradores podem visualizar os cursos criados pelos autores e executar algumas atividades conforme explicado nesta seção. Como administrador, você pode criar programas de aprendizado únicos com um conjunto predefinido de cursos para os alunos.
 
 ## Criar a instância de um curso {#createinstanceofacourse}
+
+### Gerenciar instâncias
+
+Neste treinamento, você aprenderá como editar detalhes e propriedades da instância.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
+
+### Como criar uma instância
 
 Depois que um autor cria um curso, é possível criar as instâncias do curso. Ao criar as instâncias de um curso, você pode fornecer o mesmo curso a seus alunos em períodos de tempo diferentes. Os alunos podem escolher qualquer instância e se inscrever. É possível configurar cada instância para que tenha seu próprio conjunto de medalhas, feedback e outras configurações.
 
@@ -105,6 +114,14 @@ Para enviar e-mails em nível de instância aos alunos inscritos:
 1. Depois de clicar em **[!UICONTROL Salvar]**, você verá uma mensagem de confirmação pela criação bem-sucedida do comunicado. Para publicar o comunicado, clique em **[!UICONTROL Publicar agora]**.
 
    ![Anúncio criado com sucesso](assets/announcement-successful.png)
+
+### Inscrever alunos nos cursos
+
+Neste treinamento, você aprenderá como se inscrever, cancelar a inscrição e reinscrever alunos.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ### Inscrever alunos em várias instâncias
 
