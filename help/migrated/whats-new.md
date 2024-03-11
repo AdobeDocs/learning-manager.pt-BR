@@ -3,14 +3,13 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de m
 jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
-source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
+exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
+source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3600'
 ht-degree: 1%
 
 ---
-
-
 
 # Resumo dos novos recursos {#new-features-summary}
 
@@ -376,6 +375,14 @@ Um aluno pode fornecer seu feedback no aplicativo Adobe Learning Manager para ap
 Gostaríamos de informar que a Bluejeans atingiu seu fim de vida útil em fevereiro de 2024. Após fevereiro de 2024, o Bluejeans não receberá mais atualizações ou suporte. Nossas equipes de suporte e CSAM ajudarão você com quaisquer dúvidas ou preocupações que possa ter durante esse período de transição.
 
 Exibir [Conectores no Adobe Learning Manager](integration-admin/feature-summary/connectors.md) para obter mais informações sobre como configurar conectores.
+
+### Alterações no relatório Acesso de logon
+
+O relatório Login Access estará disponível apenas para os últimos cinco trimestres. Se algum administrador de integração solicitar o download Por demanda da Exportação unificada com **Acesso de login** marcada, o Adobe Learning Manager exibirá uma mensagem de erro. No entanto, não há impacto em outros relatórios.
+
+### Alterações do ADFS
+
+Os campos Tipo de funcionário e ID do funcionário do AD FS agora estão disponíveis no Adobe Learning Manager, com base nos mapeamentos.
 
 ## Alterações da API nesta versão
 
