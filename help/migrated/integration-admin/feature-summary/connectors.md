@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '15183'
+source-wordcount: '15243'
 ht-degree: 64%
 
 ---
@@ -1946,15 +1946,22 @@ Para obter mais informações, consulte  [**Instalar o conector Microsoft Teams 
 
 ## Acesso a dados de treinamento
 
+
+>[!IMPORTANT]
+>
+>Essa funcionalidade específica estará disponível somente se o Adobe Learning Manager for vendido como um complemento do Adobe Experience Manager. Os dados do curso ficariam obsoletos em 24 horas.
+
+
 >[!NOTE]
 >
->**Essa funcionalidade específica estará disponível somente se o Adobe Learning Manager for vendido como um complemento do Adobe Experience Manager.**
+>A seção destaca como a infraestrutura funciona, mas para construir uma experiência sem periféricos ou baseada em AEM não conectada, entre em contato conosco. Sugerimos a abordagem correta para seu caso de uso. No momento, essa funcionalidade não está disponível como autoatendimento.
+
 
 O conector de acesso a dados de treinamento permite que sua interface de usuário personalizada baseada no AEM Sites recupere e renderize informações de treinamento para os alunos e ajuda na pesquisa fácil e rápida.
 
 O conector exporta metadados de treinamento para uma solução de armazenamento e recuperação de dados. Em seguida, você pode configurar sua interface baseada no AEM Sites para usar esses dois serviços para recuperar dados de treinamento, renderizar páginas da Web e fornecer funcionalidade de pesquisa de treinamento otimizado aos alunos.
 
-Por exemplo, uma interface não conectada no AEM Sites pode usar os metadados exportados para ajudar um aluno a pesquisar, navegar e acessar páginas de treinamento que mostram informações de treinamento
+O artigo destaca como a infraestrutura funciona, mas para construir uma experiência sem periféricos ou baseada em AEM não conectada, entre em contato conosco. Sugerimos a abordagem correta para seu caso de uso. No momento, essa funcionalidade não está disponível como autoatendimento.
 
 Habilite este conector para criar e renderizar suas páginas da Web baseadas no AEM Sites e fornecer experiências personalizadas aos seus alunos a partir do AEM, onde as informações do curso são buscadas usando uma API pública (LMS sem periféricos).
 

@@ -1,10 +1,11 @@
 ---
 title: Experiência não conectada para alunos
 description: O portal nativo do Adobe Learning Manager oferecerá suporte a uma forma não registrada de acessar o site de treinamento. Com esse modo ativado, os alunos podem descobrir e acessar o site de treinamento e verificar vários cursos e conteúdos disponíveis. A experiência não conectada permite que os alunos naveguem nos cursos sem estar conectados a um portal.
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 43%
+source-wordcount: '581'
+ht-degree: 41%
 
 ---
 
@@ -30,7 +31,7 @@ Adobe Learning Manager - as APIs do aluno permitem que você crie uma experiênc
 
 >[!IMPORTANT]
 >
->Eles não devem ser usados, como estão, para qualquer tipo de recuperação de dados para suportar usuários não conectados/compartilhados ou quaisquer outros casos.
+>Eles não devem ser usados, como estão, para qualquer tipo de recuperação de dados para suportar usuários não conectados/compartilhados ou quaisquer outros casos. Para construir uma experiência não conectada sem periféricos ou baseada em AEM, entre em contato conosco. Sugerimos a abordagem certa com base em suas necessidades.
 
 Os casos de uso não conectados exigem tratamento especial.
 
