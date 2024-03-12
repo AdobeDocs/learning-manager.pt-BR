@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 59d5e166747b332833ca68344691008670219366
 workflow-type: tm+mt
-source-wordcount: '15243'
-ht-degree: 64%
+source-wordcount: '15334'
+ht-degree: 63%
 
 ---
 
@@ -745,6 +745,12 @@ A exportação das habilidades do usuário permite que os usuários exportem hab
 >[!NOTE]
 >
 >Não é possível exportar habilidades de várias contas do Learning Manager simultaneamente usando a mesma conta do Workday.
+
+#### Apontar para a observação
+
+* Garantir que a UUID, o endereço de e-mail e o nome do funcionário sejam exclusivos em várias integrações da Workday. Valores incorretos resultarão em uma falha de conexão.
+* O campo UUID preenchido via Workday em não pode ser excluído por nenhum administrador do LMS voltado para o cliente. Se quiser alterar o valor, entre em contato com a equipe de integração ou de suporte do Adobe Learning Manager.
+* A opção Limpeza do Usuário também pode não funcionar, pois a Limpeza do Usuário oferece suporte apenas a 50 usuários a serem removidos por execução. Tenha muito cuidado ao fazer upload dos usuários pelos UUIDs.
 
 ### Agendamento {#Scheduling-1}
 
