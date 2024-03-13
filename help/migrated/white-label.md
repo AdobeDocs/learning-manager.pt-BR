@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
-title: Descontinuações de API no Adobe Learning Manager
+title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivos móveis
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, para que possa renomear a identidade visual do aplicativo e disponibilizá-lo aos usuários com sua própria marca.
 contentowner: saghosh
-source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
+exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
+source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
-
 
 # Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivos móveis
 
