@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
+source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3661'
 ht-degree: 1%
 
 ---
@@ -365,6 +365,23 @@ Nesta versão, o status muda para **Ainda não marcado**.
 O aplicativo móvel Adobe Learning Manager agora é compatível com rótulos brancos, o que significa que agora você pode liberar o aplicativo com sua própria marca.
 
 Exibir rotulagem de branco em [Aplicativo móvel do Adobe Learning Manager](white-label.md) para obter mais informações.
+
+### Nova coluna em CSVs de migração
+
+Nesta versão, há uma nova coluna (opcional), uniqueLoId, nos seguintes CSVs de migração.
+
+* certification.csv
+* course.csv
+* learning_program.csv
+
+A coluna, uniqueLoId, não é aplicável ao CSV de ajuda de tarefa.
+
+>[!IMPORTANT]
+>
+>Os valores da coluna devem ser exclusivos na conta. Não é possível usar o mesmo valor com um curso ou certificação.
+
+Baixe os CSVs no menu [Manual de migração](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+
 
 ### Classificação do aplicativo
 
