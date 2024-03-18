@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Iniciar como Aluno
 description: Use a página de introdução para percorrer os principais caminhos de aprendizado do Adobe Learning Manager.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 77%
 
 ---
-
-
 
 # Iniciar como Aluno
 
@@ -26,7 +25,7 @@ No aplicativo da Web do Learning Manager, após fazer login como aluno, você po
 
 **Meu aprendizado**: você pode exibir e clicar nos objetos de aprendizado por tipo e por prazo. Clique no círculo do widget Meu aprendizado para ir diretamente para o tipo de objeto de aprendizado ou para visualizar os objetos de aprendizado por prazo.
 
-**Minhas habilidades**: você também poderá visualizar mapas de habilidades no canto superior direito da página. Consultar  [mapa de habilidades](skills-levels.md)para obter mais informações.
+**Minhas habilidades**: você também poderá visualizar mapas de habilidades no canto superior direito da página. Consultar  [mapa de habilidades](skills-levels.md) para obter mais informações.
 
 **Widget Objeto de aprendizado**: Aparece direto abaixo do Meu aprendizado e exibe os objetos de aprendizado do usuário. Abaixo de Meu aprendizado, você pode ver todos os  [cursos](courses.md),  [programas de aprendizado](learning-programs.md) e  [certificações](certifications.md) que você inscreveu ou atribuiu a você. Você pode realizar diretamente um objeto de aprendizado ou retomar um objeto de aprendizado desse widget.
 
