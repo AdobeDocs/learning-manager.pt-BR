@@ -4,16 +4,16 @@ jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
+source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3666'
 ht-degree: 1%
 
 ---
 
 # Resumo dos novos recursos {#new-features-summary}
 
-Saiba mais sobre os novos recursos e as melhorias no Adobe Learning Manager
+Saiba mais sobre os novos recursos e aprimoramentos na versão de março de 2024 do Adobe Learning Manager.
 
 ## Novidades desta versão {#whatsnewandchanged}
 
