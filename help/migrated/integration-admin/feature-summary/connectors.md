@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 59d5e166747b332833ca68344691008670219366
+source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
 workflow-type: tm+mt
-source-wordcount: '15334'
+source-wordcount: '15326'
 ht-degree: 63%
 
 ---
@@ -1561,45 +1561,45 @@ Pré-requisitos para configurar uma conexão ADFS:
 
 1. Clique em Azure Active Directory. Clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Registro de aplicativo]**.
 
-   ![](assets/add-app-registration.png)
+   <!--![](assets/add-app-registration.png)-->
    *Adicionar registro de aplicativo*
 
 1. Insira o nome do aplicativo.
 
-   ![](assets/register-app.png)
+   <!--![](assets/register-app.png)-->
    *Insira o nome do aplicativo*
 
    Clique em **[!UICONTROL Registrar]**.
 
 1. No painel direito, selecione **[!UICONTROL Certificados e Segredos]**.
 
-   ![](assets/add-client-secret.png)
+   <!--![](assets/add-client-secret.png)-->
 
    *Selecionar Certificados e Segredos*
 
 1. Adicione um segredo do cliente.
 
-   ![](assets/add-description.png)
+   <!--![](assets/add-description.png)-->
 
    *Adicionar um segredo do cliente*
 
 1. Adicione uma descrição ao segredo e defina seu prazo de validade para 24 meses.
 
-   ![](assets/copy-values.png)
+<!-- ![](assets/copy-values.png)-->
 
-   *Adicionar descrição*
+*Adicionar descrição*
 
 1. Copie o valor e o segredo para, por exemplo, o bloco de notas.
 
-   ![](assets/copy-secret.png)
+<!-- ![](assets/copy-secret.png)-->
 
-   *Copiar valor e chave secreta*
+*Copiar valor e chave secreta*
 
 1. Selecione **Permissões de API**.
 
-   ![](assets/click-api-permission.png)
+   <!--![](assets/click-api-permission.png)-->
 
-   *Painel esquerdo contendo permissões de API*
+<!-- *Left pane containing API Permissions*-->
 
 1. Selecione **Adicionar permissões**. Além disso, habilite a opção **Conceder consentimento do administrador**.
 
@@ -1609,9 +1609,9 @@ Pré-requisitos para configurar uma conexão ADFS:
 
 1. Selecione **Microsoft Graph**.
 
-   ![](assets/ms-graph.png)
+   <!--![](assets/ms-graph.png)-->
 
-   *Selecionar gráfico do Microsoft*
+   <!--*Select Microsoft Graph*-->
 
 1. Selecione **Permissões do aplicativo**.
 
@@ -1639,9 +1639,11 @@ Pré-requisitos para configurar uma conexão ADFS:
 
 1. Selecione **Adicionar permissões**.
 
-   ![](assets/select-add-permission.png)
+   <!--![](assets/select-add-permission.png)-->
 
-   *Selecionar Adicionar Permissões*
+<!-- *Select Add Permissions*-->
+
+### Página Configuração do ADFS
 
 1. Na página de configuração do ADFS no Adobe Learning Manager, insira a ID do cliente e o Segredo do cliente obtidos anteriormente.
 
