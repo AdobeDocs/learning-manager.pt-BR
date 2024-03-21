@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
+source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
 workflow-type: tm+mt
-source-wordcount: '15326'
-ht-degree: 63%
+source-wordcount: '15302'
+ht-degree: 64%
 
 ---
 
@@ -1559,89 +1559,89 @@ Pré-requisitos para configurar uma conexão ADFS:
 
 ## Etapas para registrar seu aplicativo {#stepstoregisteryourapplication}
 
-1. Clique em Azure Active Directory. Clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Registro de aplicativo]**.
+* Clique em Azure Active Directory. Clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Registro de aplicativo]**.
 
-   <!--![](assets/add-app-registration.png)-->
-   *Adicionar registro de aplicativo*
+  <!--![](assets/add-app-registration.png)-->
+  <!-- *Add app registration*-->
 
-1. Insira o nome do aplicativo.
+* Insira o nome do aplicativo.
 
-   <!--![](assets/register-app.png)-->
-   *Insira o nome do aplicativo*
+  <!--![](assets/register-app.png)-->
+  <!--*Enter the name of the application*-->
 
-   Clique em **[!UICONTROL Registrar]**.
+  Clique em **[!UICONTROL Registrar]**.
 
-1. No painel direito, selecione **[!UICONTROL Certificados e Segredos]**.
+* No painel direito, selecione **[!UICONTROL Certificados e Segredos]**.
 
-   <!--![](assets/add-client-secret.png)-->
+  <!--![](assets/add-client-secret.png)-->
 
-   *Selecionar Certificados e Segredos*
+  <!--*Select Certificates and Secrets*-->
 
-1. Adicione um segredo do cliente.
+* Adicione um segredo do cliente.
 
-   <!--![](assets/add-description.png)-->
+  <!--![](assets/add-description.png)-->
 
-   *Adicionar um segredo do cliente*
+  <!--*Add a client secret*-->
 
-1. Adicione uma descrição ao segredo e defina seu prazo de validade para 24 meses.
+* Adicione uma descrição ao segredo e defina seu prazo de validade para 24 meses.
 
-<!-- ![](assets/copy-values.png)-->
+  <!-- ![](assets/copy-values.png)-->
 
-*Adicionar descrição*
+  <!--*Add description*-->
 
-1. Copie o valor e o segredo para, por exemplo, o bloco de notas.
+* Copie o valor e o segredo para, por exemplo, o bloco de notas.
 
-<!-- ![](assets/copy-secret.png)-->
+  <!-- ![](assets/copy-secret.png)-->
 
-*Copiar valor e chave secreta*
+  <!--*Copy value and secret key*-->
 
-1. Selecione **Permissões de API**.
+* Selecione **Permissões de API**.
 
-   <!--![](assets/click-api-permission.png)-->
+  <!--![](assets/click-api-permission.png)-->
 
-<!-- *Left pane containing API Permissions*-->
+  <!-- *Left pane containing API Permissions*-->
 
-1. Selecione **Adicionar permissões**. Além disso, habilite a opção **Conceder consentimento do administrador**.
+* Selecione **Adicionar permissões**. Além disso, habilite a opção **Conceder consentimento do administrador**.
 
-   ![](assets/add-permission.png)
+  ![](assets/add-permission.png)
 
-   *Adicionar permissões*
+  *Adicionar permissões*
 
-1. Selecione **Microsoft Graph**.
+* Selecione **Microsoft Graph**.
 
-   <!--![](assets/ms-graph.png)-->
+  <!--![](assets/ms-graph.png)-->
 
-   <!--*Select Microsoft Graph*-->
+  <!--*Select Microsoft Graph*-->
 
-1. Selecione **Permissões do aplicativo**.
+* Selecione **Permissões do aplicativo**.
 
-   ![](assets/request-api-permission.png)
+  ![](assets/request-api-permission.png)
 
-   *Selecionar permissões do Aplicativo*
+  *Selecionar permissões do Aplicativo*
 
-1. Procure *diretório* e selecione **Ler dados do diretório**.
+* Procure *diretório* e selecione **Ler dados do diretório**.
 
-   ![](assets/read-directory-data.png)
+  ![](assets/read-directory-data.png)
 
-   *Selecionar Ler dados do diretório*
+  *Selecionar Ler dados do diretório*
 
-1. Digite *usuário* como o termo de pesquisa.
+* Digite *usuário* como o termo de pesquisa.
 
-   ![](assets/search-user.png)
+  ![](assets/search-user.png)
 
-   *Insira o termo de pesquisa*
+  *Insira o termo de pesquisa*
 
-1. Selecione **Ler os perfis completos de todos os usuários**.
+* Selecione **Ler os perfis completos de todos os usuários**.
 
-   ![](assets/select-read-all.png)
+  ![](assets/select-read-all.png)
 
-   *Selecionar Ler os perfis completos de todos os usuários*
+  *Selecionar Ler os perfis completos de todos os usuários*
 
-1. Selecione **Adicionar permissões**.
+* Selecione **Adicionar permissões**.
 
-   <!--![](assets/select-add-permission.png)-->
+  <!--![](assets/select-add-permission.png)-->
 
-<!-- *Select Add Permissions*-->
+  <!-- *Select Add Permissions*-->
 
 ### Página Configuração do ADFS
 
