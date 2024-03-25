@@ -4,9 +4,9 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, para que possa renomear a identidade visual do aplicativo e disponibilizá-lo aos usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,10 +201,19 @@ O seguinte pode ser personalizado:
 
 </table>
 
+>[!NOTE]
+>
+>Forneça os dados aos CSAMs para que eles possam adicioná-los ao binário do aplicativo personalizado.
 
-#### Atualizar associação de site
+
+#### Atualizar associação de site para manipular deplinks personalizados
 
 Se estiver usando um domínio personalizado ou o learningmanager\*.adobe.com como host, você não precisa fazer nada. No entanto, se você usar uma solução personalizada ou um nome de host específico para os URLs, adicione os arquivos de associação de site.
+
+>[!CAUTION]
+>
+>Se os arquivos não estiverem presentes, os deplinks não funcionarão. Verifique se os arquivos estão presentes.
+
 
 Consulte os links a seguir para obter mais informações:
 
@@ -212,9 +221,16 @@ Consulte os links a seguir para obter mais informações:
 
 - [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-## Gerar certificado de notificações por push
+## Gerar notificações por push
 
-### Certificado de notificações por push no iOS
+O envio de notificações por push para aplicativos Android e iOS requer dois mecanismos diferentes.
+
+* Para o iOS, gere os certificados de notificação por push.
+* Para Android, forneça uma chave do servidor gerada a partir do projeto Firebase.
+
+Siga as instruções abaixo para configurar os projetos no Firebase:
+
+### Notificações por push no iOS
 
 No desenvolvimento de aplicativos da iOS, um certificado de notificação por push é uma credencial criptográfica emitida pela Apple que permite que um servidor envie notificações por push com segurança para um dispositivo iOS por meio do Serviço de Notificação por Push (APNs) da Apple.
 
@@ -241,19 +257,24 @@ Siga o procedimento:
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
-
 Se você puder se conectar ao servidor, o certificado que você criou será válido. No arquivo myapnappkey.pem, copie os valores do certificado e da chave privada.
 
-1. Entre em contato com a equipe de CSM e obtenha os arquivos adicionados aos serviços SNS no AWS. Os usuários terão que obter a entrada registrada no serviço SNS para a notificação por push, que exigirá que eles compartilhem os certificados gerados acima para validação.
+### Notificações por push no Android
+
+Configure um projeto no Firebase e compartilhe a chave do servidor com o CSAM.
+
+Entre em contato com a equipe de CSM e obtenha os arquivos adicionados aos serviços SNS no AWS. Os usuários terão que obter a entrada registrada no serviço SNS para a notificação por push, que exigirá que eles compartilhem os certificados gerados acima para validação.
 
 >[!NOTE]
 >
 >Para Android, o usuário precisa fornecer a chave do servidor do projeto Firebase criado para Android para adicionar a entrada no serviço SNS.
 
 
-## Adicionar o projeto ao Firebase
+## Criar projeto no Firebase
 
 ### Android
+
+Reutilize o mesmo projeto que você criou nas etapas acima para notificações por push.
 
 [Adicionar o projeto](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) no Firebase e recupere o ***google-services.json*** arquivo.
 
@@ -261,19 +282,24 @@ Se você puder se conectar ao servidor, o certificado que você criou será vál
 
 [Adicionar o projeto](https://firebase.google.com/docs/ios/setup) ao Firebase e recupere o ***GoogleService-Info.plist*** arquivo.
 
+>[!IMPORTANT]
+>
+>Envie os arquivos para a equipe CSAM do Adobe Learning Manager para serem incluídos na compilação do arquivo binário do aplicativo.
+
+
 ## Gerar os binários assinados
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->Você precisará do XCode 14.2 ou superior para criar os binários assinados.
+>Você precisará do XCode 15.2 ou superior para criar os binários assinados.
 
 
 ## Android
