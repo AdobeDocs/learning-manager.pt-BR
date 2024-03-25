@@ -4,7 +4,7 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, para que possa renomear a identidade visual do aplicativo e disponibilizá-lo aos usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
+source-git-commit: b649255ce7b3f3e0676f785003d3af60c50520a0
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -217,9 +217,8 @@ Se estiver usando um domínio personalizado ou o learningmanager\*.adobe.com com
 
 Consulte os links a seguir para obter mais informações:
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Gerar notificações por push
 
@@ -257,6 +256,7 @@ Siga o procedimento:
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
+
 Se você puder se conectar ao servidor, o certificado que você criou será válido. No arquivo myapnappkey.pem, copie os valores do certificado e da chave privada.
 
 ### Notificações por push no Android
@@ -292,7 +292,7 @@ Reutilize o mesmo projeto que você criou nas etapas acima para notificações p
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
@@ -324,5 +324,5 @@ A equipe do CSM compartilhará a compilação com o cliente.
 
 ## O que não pode ser personalizado
 
-- Tela Atualizar senha
-- Tela Criar uma conta
+* Tela Atualizar senha
+* Tela Criar uma conta
