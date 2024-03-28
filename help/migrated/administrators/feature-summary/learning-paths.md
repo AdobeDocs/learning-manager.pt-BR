@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Caminhos de aprendizado
 description: Criação de planos de aprendizado para administradores no Learning Manager.
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1941'
 ht-degree: 42%
 
 ---
-
-
 
 # Caminhos de aprendizado
 
@@ -132,9 +131,9 @@ O **[!UICONTROL Permitir que os alunos escolham instâncias (Caminho de aprendiz
 
 Há três opções:
 
-1. **[!UICONTROL Todos os cursos de níveis e caminhos de aprendizado (selecionados por padrão)]:** O aluno recebe notificações de qualquer curso incompleto, independentemente do nível dentro de um caminho de aprendizado.
+1. **[!UICONTROL Todos os cursos de níveis de habilidade e caminhos de aprendizado (selecionados por padrão)]:** O aluno recebe notificações de qualquer curso incompleto, independentemente do nível dentro de um caminho de aprendizado.
 1. **[!UICONTROL Caminho de aprendizado raiz]:** O aluno recebe notificações de qualquer curso incompleto pertencente a um caminho de aprendizado pai.
-1. **[!UICONTROL Caminho de aprendizado e filho de primeiro nível somente]:** O aluno recebe notificações de qualquer curso incompleto que seja o primeiro filho de um caminho de aprendizado pai.
+1. **[!UICONTROL Caminho de aprendizado + primeiros filhos de nível de habilidade apenas]:** O aluno recebe notificações de qualquer curso incompleto que seja o primeiro filho de um caminho de aprendizado pai.
 
 Os lembretes de notificação são acionados com base na opção. Por padrão, a opção **[!UICONTROL Todos os cursos de níveis e caminhos de aprendizado]** está ativado para uma instância.
 

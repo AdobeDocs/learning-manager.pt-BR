@@ -3,14 +3,13 @@ description: Baixar transcrição do aluno e gerenciar relatórios usando o Lear
 jcr-language: en_us
 title: Transcrições do aluno
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 67%
+source-wordcount: '1912'
+ht-degree: 66%
 
 ---
-
-
 
 # Transcrições do aluno
 
@@ -22,7 +21,7 @@ O Adobe Learning Manager permite que os administradores de uma empresa gerem tra
 
 1. Para gerar transcrições do aluno, clique em **[!UICONTROL Relatórios]** no painel esquerdo de login do administrador.
 
-   O administrador navega até a guia Relatórios do Excel na página **[!UICONTROL Relatórios]**.
+   O administrador navega até a guia **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** dentro da guia **[!UICONTROL Relatórios]** página.
 
 1. Clique no link **[!UICONTROL Transcrições do aluno]**.
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar módulos do curso, instâncias e programas de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 64%
+source-wordcount: '4613'
+ht-degree: 65%
 
 ---
 
@@ -53,6 +53,7 @@ Para criar uma instância,
    * Clique em **[!UICONTROL Mostrar mais opções]** para exibir outras opções de prazo.
    * **[!UICONTROL Prazo de Inscrição]:** Essa é a data até a qual um aluno deve se inscrever em um objeto de aprendizado em caso de autoinscrição.
    * **[!UICONTROL Prazo de Cancelamento de Inscrição]:** Você pode optar por restringir o cancelamento de inscrição pelo próprio aluno, estabelecendo um prazo para o cancelamento da inscrição.
+   * **[!UICONTROL Fuso horário]:** Pesquise e selecione o **[!UICONTROL Fuso horário]** na lista suspensa.
 
    Um administrador pode decidir ter prazos de conclusão para um curso ou programa de aprendizado com base em requisitos. No entanto, é recomendável ter um prazo para os treinamentos com base em sala de aula/sala de aula virtual.
 
@@ -99,13 +100,13 @@ Para restaurar uma instância retirada, execute as seguintes etapas:
 
 Para enviar e-mails em nível de instância aos alunos inscritos:
 
-1. Na página Instâncias, selecione as opções em qualquer instância e clique em **[!UICONTROL Enviar e-mail aos alunos inscritos]**.
+1. Na guia **[!UICONTROL Instâncias]** selecione as opções em qualquer instância e clique em **[!UICONTROL Enviar e-mail aos alunos inscritos]**.
 
 ![e-mails em nível de instância](assets/adhoc-email.png)
 
 *E-mail para alunos inscritos na instância*
 
-1. Na caixa de diálogo Criar comunicado, selecione Digitar como email. Especifique o assunto, digite a mensagem e clique em Salvar. O treinamento é selecionado automaticamente.
+1. Na guia **[!UICONTROL Criar anúncio]** , selecione Tipo como E-mail. Especifique o assunto, digite a mensagem e clique em **[!UICONTROL Salvar]**. O treinamento é selecionado automaticamente.
 
    ![Criar comunicado como email](assets/email-announcement.png)
 
@@ -178,7 +179,7 @@ O arquivo do Excel contém planilhas para cada instância. Uma planilha consiste
 
 >[!NOTE]
 >
->Observação: a ativação da inscrição múltipla resulta na adição de várias linhas ao Relatório de transcrição do aluno de cada curso (uma linha para cada instância).
+>Habilitar o recurso de Várias inscrições resulta na adição de várias linhas ao Relatório de transcrição do aluno para cada curso (uma linha para cada instância).
 >
 >Se você tiver uma configuração de automação de relatórios que prevê apenas uma linha por curso, deverá fazer os ajustes necessários na automação de relatórios antes de ativar o recurso de Várias Inscrições.
 

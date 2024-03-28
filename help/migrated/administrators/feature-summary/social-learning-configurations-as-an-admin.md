@@ -3,14 +3,13 @@ description: Como administrador, você pode ativar, desativar e monitorar as ati
 jcr-language: en_us
 title: Monitoramento e moderação do Aprendizado social como administrador
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 63%
 
 ---
-
-
 
 # Monitoramento e moderação do Aprendizado social como administrador
 
@@ -265,9 +264,9 @@ Você tem algumas outras opções:
 * **[!UICONTROL Replicar]:** Clique nesse botão para replicar o título e o subtítulo em todos os idiomas.
 * **[!UICONTROL Redefinir]:** Clique nesse botão para reverter para o título e o subtítulo originais.
 
-Na página inicial do Aprendizado social, as informações fornecidas pelo administrador são exibidas como o cabeçalho da página.
+  Na página inicial do Aprendizado social, as informações fornecidas pelo administrador são exibidas como o cabeçalho da página.
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## Tendências {#trends}
 

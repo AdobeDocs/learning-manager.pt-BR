@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Adicionar locais de sala de aula
 description: Os administradores agora podem configurar uma biblioteca de locais de sala de aula. Para cada local da sala de aula, os administradores podem definir os metadados que incluem o nome do local, o limite de vagas, bem como informações adicionais, como o URL do local. Os autores e os administradores podem usar esses locais pré-configurados de sala de aula para configurar eventos de treinamento ministrados pelo professor (módulos de sala de aula).
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 78%
+source-wordcount: '1240'
+ht-degree: 77%
 
 ---
-
-
 
 # Sala de aula
 
@@ -26,13 +25,14 @@ Você pode adicionar um local da sala de aula usando a interface do usuário:
 
 1. No aplicativo do administrador (a interface para funções de administrador), clique em **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]**.
 
-1. Clique no botão **[!UICONTROL Adicionar mais]** botão.
+1. Clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Novo local]**.
 
 1. No menu **[!UICONTROL Local da sala de aula]**, insira os seguintes detalhes:
 
-   * Digite o **[!UICONTROL nome do local da sala de aula]**. Use um nome exclusivo. Caso contrário, o Learning Manager exibirá uma mensagem de erro.
+   * Digite o **[!UICONTROL Nome do local]**. Use um nome exclusivo. Caso contrário, o Learning Manager exibirá uma mensagem de erro.
    * Digite a descrição do local no campo **[!UICONTROL Informações do local]**. Este campo é opcional.
    * Digite o **[!UICONTROL URL do local]**. O aluno pode ver essas informações nos detalhes da sala de aula. O URL também pode ser um URL de localização de mapas, se necessário. Este é um campo opcional.
+   * Digite e selecione o **[!UICONTROL Região do Local]**. Este campo é opcional.
    * Digite o número de licenças disponíveis no campo **[!UICONTROL Limite de vagas]**. Isso indica a capacidade da sala de aula. Esse valor pode ser alterado ao criar o evento real de treinamento ministrado pelo professor.
 
    ![](assets/add-classroom-location.png)
@@ -59,6 +59,8 @@ A caixa de diálogo exibe os detalhes de cada sessão, incluindo o nome da sess�
 
 O **[!UICONTROL Sessões futuras]** exibições de campo **zero** quando a sala de aula não é usada para nenhuma sessão ou quando a sala de aula está associada a sessões passadas.
 
+**[!UICONTROL Limite de vagas]** - Exibe a capacidade da sala de aula.
+
 **URL do local** - URL fornecido ao criar o local da sala de aula.
 
 **Informações do local** - As informações de sala de aula que você forneceu ao criar a sala de aula.
@@ -67,7 +69,7 @@ O **[!UICONTROL Sessões futuras]** exibições de campo **zero** quando a sala 
 
 Como alternativa, você pode adicionar um ou mais locais de sala de aula importando um CSV que contenha as informações da sala de aula.
 
-Entrada **[!UICONTROL Aplicativo do administrador]** > **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]**, clique no botão **[!UICONTROL Importar CSV de locais]** botão. Navegue até o local que contém o arquivo CSV e selecione o arquivo.
+Entrada **[!UICONTROL Aplicativo do administrador]** > **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]** > **[!UICONTROL Adicionar]**, clique no botão **[!UICONTROL Locais de importação em massa]** botão. Navegue até o local que contém o arquivo CSV e selecione o arquivo.
 
 O arquivo CSV usa esses campos para armazenar detalhes sobre um ou mais locais de sala de aula:
 

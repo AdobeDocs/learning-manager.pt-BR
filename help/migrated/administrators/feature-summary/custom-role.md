@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2223'
 ht-degree: 63%
 
 ---
-
-
 
 # Funções personalizadas
 
@@ -142,16 +141,16 @@ Os usuários com função personalizada podem:
 * Ver somente o conteúdo dos catálogos aos quais eles têm acesso.
 * Acessar qualquer objeto de aprendizado com base nas permissões do catálogo do qual o objeto de aprendizado faz parte.
 
-Como administrador, você pode:
+  Como administrador, você pode:
 
 * Escolher mais de um catálogo para uma função personalizada.
 * Modificar as permissões de um catálogo a qualquer momento.
 * Remover os catálogos de um escopo para o qual você não deseja mais conceder permissões.
 * Conceder implicitamente a permissão Somente leitura para um catálogo, ao conceder permissões para o catálogo.
 
-A tabela abaixo ilustra como as permissões são concedidas.
+  A tabela abaixo ilustra como as permissões são concedidas.
 
-<table>
+  <table>
     <tbody>
      <tr>
       <td>
@@ -222,17 +221,17 @@ A tabela abaixo ilustra como as permissões são concedidas.
      </tr>
     </tbody>
    </table>
-1. **Usuários:** Use esta opção para determinar a quais usuários esta função foi atribuída. É possível escolher um ou mais usuários usando a caixa de pesquisa.
+1. **Usuários:** Use esta opção para determinar quais usuários recebem esta função. É possível escolher um ou mais usuários usando a caixa de pesquisa.
 
-**Adicionar usuários ao upload de CSV de função personalizada:** Para adicionar usuários por meio do upload de CSV, adicione uma coluna CustomRole ao arquivo .csv que o administrador usou para importar usuários. Insira a função do usuário na coluna CustomRole para os usuários aos quais você deseja atribuir uma função personalizada. Para fazer upload do arquivo CSV, clique em  **[!UICONTROL Adicionar > Fazer upload de um CSV]**.
+   **Adicionar usuários ao upload de CSV de função personalizada:** Para adicionar usuários por meio do upload de CSV, adicione uma coluna CustomRole ao arquivo .csv que o administrador usou para importar usuários. Insira a função do usuário na coluna CustomRole para os usuários aos quais você deseja atribuir uma função personalizada. Para fazer upload do arquivo CSV, clique em  **[!UICONTROL Adicionar > Fazer upload de um CSV]**.
 
-Coluna CustomRoleObservação:
+   Coluna CustomRoleObservação:
 
 * Não é possível pesquisar Grupos de usuários.
 * Não é possível pesquisar usuários que já tenham a função de administrador atribuída a eles.
 * A atribuição de uma nova função personalizada a um usuário substitui a função personalizada anterior do usuário.
 
-<!--![](assets/users.png)-->
+  <!--![](assets/users.png)-->
 
 * Um administrador personalizado com permissão para Configurações poderá configurar o agendamento para sincronizar ou sincronizar usuários da Fonte de dados, mesmo se não tiver permissão para a entidade Usuários.
 * Se um administrador personalizado tiver permissão na entidade Usuários, ele poderá atribuir a si mesmo a função de administrador e se tornar um administrador padrão.

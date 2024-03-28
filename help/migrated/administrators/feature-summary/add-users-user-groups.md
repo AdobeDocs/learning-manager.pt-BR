@@ -3,14 +3,13 @@ description: Saiba como adicionar usuários ou grupos de usuários no aplicativo
 jcr-language: en_us
 title: Adicionar usuários e criar grupos de usuários
 contentowner: manochan
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
 
 ---
-
-
 
 # Adicionar usuários e criar grupos de usuários
 

@@ -3,14 +3,13 @@ description: Crie, atribua e modifique habilidades e níveis.
 jcr-language: en_us
 title: Criar e modificar habilidades e níveis
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 80%
+source-wordcount: '1721'
+ht-degree: 79%
 
 ---
-
-
 
 # Criar e modificar habilidades e níveis
 
@@ -32,7 +31,7 @@ Como administrador, você pode fazer o seguinte:
 
 Para adicionar uma habilidade, siga as etapas abaixo:
 
-1. No painel esquerdo, clique em **[!UICONTROL Habilidades]**. Dê um nome e faça uma descrição da habilidade.
+1. No painel esquerdo, selecione **[!UICONTROL Habilidades]** > **[!UICONTROL Adicionar]** > **[!UICONTROL Adicionar SKills]**. Dê um nome e faça uma descrição da habilidade.
 
    ![](assets/add-skill-name-anddescription.png)
 

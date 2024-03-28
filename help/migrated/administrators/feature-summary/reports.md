@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '6624'
+source-wordcount: '6629'
 ht-degree: 63%
 
 ---
@@ -46,7 +46,7 @@ Se houver gerenciadores de nível raiz internos, eles serão exibidos um após o
 
 Todos os perfis externos serão listados após os perfis internos (usuários internos de nível raiz).
 
-Se um perfil externo tiver um gerente, a hierarquia do gerente será exibida na **[!UICONTROL Mostrando Dados Para]** lista suspensa. - O usuário será listado na hierarquia do gerente em todas as páginas de detalhes (resumo do aprendizado, conformidade e status da habilidade)
+Se um perfil externo tiver um gerente, a hierarquia do gerente será exibida na **[!UICONTROL Mostrando Dados Para]** lista suspensa. O usuário será listado na hierarquia do gerente em todas as páginas de detalhes (resumo do aprendizado, conformidade e status da habilidade)
 
 Caso contrário, todos os detalhes de usuário individuais serão exibidos na lista.
 
@@ -58,9 +58,9 @@ Para ver detalhes mais granulares das inscrições de várias equipes internas, 
 Ao clicar em qualquer inscrição, você pode ver os alunos de cada gerente e a inscrição em quais objetos de aprendizado. Você também pode ver os detalhes de andamento e conclusão de cada aluno.
 
 ![](assets/learners-for-a-manager.png)
-*Alunos Aee atribuídos a um gerente*
+*alunos atribuídos a um gerente*
 
-Clique em qualquer equipe e exporte seu relatório como CSV. Um administrador pode exportar o relatório de qualquer grupo de usuários ou usuário individual selecionando o grupo de usuários ou usuário individual e, em seguida, exportar detalhes na lista suspensa Ação.
+Clique em qualquer equipe e exporte seu relatório como CSV. Um administrador pode exportar o relatório de qualquer grupo de usuários ou usuário individual selecionando o grupo de usuários ou usuário individual e, em seguida, exportar detalhes da **[!UICONTROL Ação]** lista suspensa.
 
 Além disso, você pode ver um gráfico de barras que mostra as habilidades que estão em andamento e foram obtidas. Você pode adicionar/remover habilidades que deseja destacar no gráfico.
 
@@ -69,7 +69,7 @@ Além disso, você pode ver um gráfico de barras que mostra as habilidades que 
 
 Na visualização final, você pode verificar o status da conformidade dos alunos e tomar as medidas apropriadas.
 
-Além disso, um administrador pode visualizar dados de treinamentos individuais no Painel de conformidade.
+Além disso, um administrador pode exibir dados de treinamento individuais na **[!UICONTROL Painel de Conformidade]**.
 
 Por exemplo: o administrador identificou três treinamentos para controlar a conformidade. O Learning Manager fornece a captura de tela da conformidade para todos os três treinamentos de uma só vez.
 
@@ -617,7 +617,7 @@ As transcrições do aluno nos relatórios do Excel exibem as colunas Créditos 
 
 Como administrador, você pode baixar relatórios dos cursos. Siga estas etapas:
 
-1. Abrir **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatórios do curso]**.
+1. Abrir **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatórios do curso]**.
 1. A caixa de diálogo **[!UICONTROL Relatório do curso]** é exibida. Selecione o curso do que deseja obter o relatório e clique em **[!UICONTROL Mostrar]**.
 
    ![](assets/course-reports.png)
@@ -657,13 +657,13 @@ Como administrador, você pode gerar um relatório de todos os comunicados que v
 
 Para baixar um relatório, siga qualquer uma dessas etapas:
 
-1. Abrir **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatório de comunicados]**. O **[!UICONTROL Gerando solicitação de relatório]** é aberta. Clique em Ok.
+1. Abrir **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatório de comunicados]**. O **[!UICONTROL Gerando solicitação de relatório]** é aberta. Clique em Ok.
 1. [!UICONTROL **Comunicados**] > [!UICONTROL **Ações**] > [!UICONTROL **Exportar relatório**].
 
    ![](assets/announcements.png)
    *Relatório de comunicados*
 
-1. Você pode extrair um relatório para um comunicado específico clicando em Exportar relatório no ícone de configurações.
+1. Você pode extrair um relatório para um comunicado específico clicando em **[!UICONTROL Exportar relatório]** no ícone configurações.
 
    ![](assets/announcements-specific-report.png)
    *Relatório de anúncios específicos*
@@ -686,7 +686,7 @@ O relatório extraído inclui informações sobre o seguinte:
 
 Para baixar um relatório, siga um destes procedimentos:
 
-* Abrir  **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatórios de ajuda de tarefa]**. É exibida a caixa de diálogo **[!UICONTROL Gerar solicitação de relatório]**. Clique em **[!UICONTROL Ok]**.
+* Abrir  **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatórios de ajuda de tarefa]**. É exibida a caixa de diálogo **[!UICONTROL Gerar solicitação de relatório]**. Clique em **[!UICONTROL Ok]**.
 * Abrir **[!UICONTROL Ajuda de tarefa]** > **[!UICONTROL Ações]** > **[!UICONTROL Exportar relatório]**.
 
 ![](assets/job-aids.png)

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -261,6 +261,7 @@ Na página Administrador, selecione **Admin** > **Habilidades** > **Habilidade**
 ## Alterações na criação da sala de aula
 
 Com base em [Configurações do administrador](administrators/feature-summary/classroom.md#classroom-settings), você, como Autor, pode [criar, modificar e excluir locais](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >Ao adicionar rótulos de local e catálogo, os autores (na página de criação do curso) e os administradores (na página de instância) verão uma lista preenchida automaticamente de locais e rótulos de catálogo, respectivamente.
