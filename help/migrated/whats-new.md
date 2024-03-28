@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
+source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -245,7 +245,7 @@ Ao mapear os cursos para um nível de habilidade, a lista de habilidades é pesq
 
 ### Grupos de usuários
 
-#### Administrador - Página Alunos
+#### Administrador: página Alunos
 
 Ao procurar qualquer usuário, o **Baixar aluno** e **Exportar** opções baixar o mesmo relatório. Enquanto isso, ao procurar um grupo de usuários, agora você pode baixar usuários filtrados desse grupo de usuários. Ao pesquisar um Grupo de usuários, a caixa de diálogo **Baixar lista de alunos** alterações em **Baixar lista de alunos para grupo de usuários** O **Exportar** opção faz download da lista inteira novamente.
 
