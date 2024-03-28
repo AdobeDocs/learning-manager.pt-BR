@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
+source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3764'
 ht-degree: 1%
 
 ---
@@ -230,11 +230,24 @@ Se o número de usuários em um Grupo de usuários for grande, o **Status** a li
 Nesta versão, aprimoramos a experiência de pesquisa. Os resultados da pesquisa são buscados com base não apenas nos metadados, mas também na pesquisa semântica e no conteúdo para obter resultados com base na precisão, recenticidade e conteúdo relevante.
 
 Essa alteração reflete no seguinte:
+
 * Catálogo e página Meu aprendizado: a ação passar o mouse sobre o curso, o caminho de aprendizado e a certificação foi removida.
 * A aparência da barra de pesquisa.
 * Tags de filtro adicionadas ao aplicativo de aprendizado.
 
 Para ativar os recursos de pesquisa, entre em contato com a equipe CSAM do Adobe Learning Manager.
+
+## Mudanças na interface do usuário {#ui-changes}
+
+### Página de criação do curso
+
+Ao mapear os cursos para um nível de habilidade, a lista de habilidades é pesquisada primeiro. Em outras palavras, pesquise habilidades e veja uma lista de habilidades que correspondem ao termo pesquisado.
+
+### Grupos de usuários
+
+#### Administrador - Página Alunos
+
+Ao procurar qualquer usuário, o **Baixar aluno** e **Exportar** opções baixar o mesmo relatório. Enquanto isso, ao procurar um grupo de usuários, agora você pode baixar usuários filtrados desse grupo de usuários. Ao pesquisar um Grupo de usuários, a caixa de diálogo **Baixar lista de alunos** alterações em **Baixar lista de alunos para grupo de usuários** O **Exportar** opção faz download da lista inteira novamente.
 
 ## Alterações nos relatórios
 
