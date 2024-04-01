@@ -3,14 +3,13 @@ description: Leia esse artigo para saber como visualizar e consumir cursos no Le
 jcr-language: en_us
 title: Cursos
 contentowner: manochan
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2736'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
-
-
 
 # Cursos
 
@@ -170,7 +169,7 @@ Somente depois de se inscrever em um curso, um aluno pode fornecer um feedback d
 
 Um aluno poderá selecionar uma estrela específica (de 5) e enviar a classificação. O aluno também pode editar a seleção clicando em uma estrela diferente. Uma vez enviada, uma mensagem de agradecimento por seu feedback será exibida.
 
-Se o aluno quiser reenviar o feedback, basta clicar na mensagem. O botão **Enviar **é reativado. Um aluno pode fornecer classificação por estrelas várias vezes após se inscrever em um curso. A classificação mais recente será sempre considerada.
+Se o aluno quiser reenviar o feedback, basta clicar na mensagem. O **Enviar** é reativado. Um aluno pode fornecer classificação por estrelas várias vezes após se inscrever em um curso. A classificação mais recente será sempre considerada.
 
 Depois que o aluno fornece uma classificação, a classificação por estrelas média e o número de alunos que forneceram a classificação por estrelas aparecem na **Visão geral do curso** página.
 
@@ -211,7 +210,7 @@ Todos os filtros e outras opções são mostrados no vídeo abaixo.
 
 ### Visualizar conteúdo
 
-Você pode explorar e visualizar o curso e ver se ele atende às suas necessidades de aprendizado. Clique no botão **Visualizar **e veja a visualização do curso. A visualização fica disponível por dois minutos.
+Você pode explorar e visualizar o curso e ver se ele atende às suas necessidades de aprendizado. Clique no botão **Visualizar** e veja a visualização do curso. A visualização fica disponível por dois minutos.
 
 ![](assets/content-marketplace-learner.gif)
 *Visualizar conteúdo no marketplace*
@@ -266,13 +265,13 @@ Se os módulos forem definidos como ordenados pelo autor, você deve concluir o 
 
 Depois de concluir um tutorial com o número necessário de módulos, se desejar finalizar os módulos opcionais, você pode retomar o curso.
 
-## Visualizar e participar de discussões {#viewingandpariticpatingindiscussions}
+## Exibindo e participando de discussões {#viewingandpariticpatingindiscussions}
 
 Como aluno, você poderá interagir com outros alunos e seus professores usando a guia Discussão. É possível exibir as postagens de qualquer curso que você vê ou no qual se inscreve. Se o administrador tiver habilitado as discussões para um curso, você poderá ver a guia Discussão ao lado da guia Notas daquele curso.
 
 Ao clicar na guia Discussões, você pode visualizar as postagens e comentários desse curso. Se você já tiver se inscrito no curso, também poderá começar a digitar postagens ou comentários para que outros usuários vejam. Depois de digitar a mensagem, clique em Publicar. Sua postagem deve conter pelo menos 10 caracteres. 
 
-A postagem é imediatamente visível na guia Discussões. Você pode classificar as postagens como Mais recente primeiro ou Mais antigo primeiro, e excluir as postagens que você escreveu. Mesmo depois de cancelar a inscrição no curso, você ainda poderá ver todas as postagens e excluir as que você escreveu.
+A postagem é imediatamente visível na guia Discussões. Você pode classificar as postagens como Mais recente primeiro ou Mais antigo primeiro e excluir as postagens que escreveu. Mesmo depois de cancelar a inscrição no curso, você ainda poderá ver todas as postagens e excluir as que você escreveu.
 
 ![](assets/learner-discussion.png)
 *Exibir discussões de participantes*

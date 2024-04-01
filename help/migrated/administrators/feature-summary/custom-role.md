@@ -4,7 +4,7 @@ title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 63%
@@ -221,6 +221,7 @@ Os usuários com função personalizada podem:
      </tr>
     </tbody>
    </table>
+
 1. **Usuários:** Use esta opção para determinar quais usuários recebem esta função. É possível escolher um ou mais usuários usando a caixa de pesquisa.
 
    **Adicionar usuários ao upload de CSV de função personalizada:** Para adicionar usuários por meio do upload de CSV, adicione uma coluna CustomRole ao arquivo .csv que o administrador usou para importar usuários. Insira a função do usuário na coluna CustomRole para os usuários aos quais você deseja atribuir uma função personalizada. Para fazer upload do arquivo CSV, clique em  **[!UICONTROL Adicionar > Fazer upload de um CSV]**.

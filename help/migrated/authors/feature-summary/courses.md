@@ -3,14 +3,13 @@ description: Para saber como criar cursos, certificações e programas de aprend
 jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6843'
 ht-degree: 75%
 
 ---
-
-
 
 # Criar, modificar e publicar cursos
 
@@ -70,6 +69,7 @@ Para criar um curso, siga as etapas abaixo:
    OBSERVAÇÃO: isso é ativado somente quando o conector do Adobe Commerce está configurado.
 
 1. Se quiser que o aluno consiga cancelar sua inscrição no curso, habilite a caixa de seleção **Os alunos podem cancelar suas inscrições**.
+
 1. **Configuração da Instância**
 
    Se você ativar essa opção, os alunos que estão no estado Em andamento poderão visitar outras instâncias e se inscrever lá. Um aluno pode manter o progresso da instância anterior.
@@ -898,4 +898,3 @@ Para obter mais informações, consulte a [seção sobre várias tentativas](cou
 Não, o conteúdo carregado no Learning Manager é um arquivo zip publicado e não é o arquivo de origem. Portanto, mesmo que o conteúdo seja baixado, ele não pode ser editado em uma ferramenta de criação. Você precisaria de um arquivo de origem para editar o conteúdo.
 
 +++
-

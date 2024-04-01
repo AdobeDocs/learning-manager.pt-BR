@@ -1,7 +1,8 @@
 ---
 title: Novidades desta versão
 description: Saiba mais sobre os novos recursos e aprimoramentos na versão de novembro de 2023 do Adobe Learning Manager.
-source-git-commit: 1b0a89bf14ed4e48c3da925686d5e2becd94e320
+exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -168,11 +169,48 @@ Se a permissão Usuário ou Todo o grupo de usuários estiver selecionada, e o a
 
 Um administrador personalizado pode acessar os seguintes relatórios de acordo com o escopo definido:
 
-| Relatório | Disponível | Escopo |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Relatório</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Disponível</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Escopo</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Registro de auditoria do conteúdo</p></td>
+   <td>
+    <p>Sim</p></td>
+   <td>
+    <p>Catálogo completo</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Registro de auditoria do usuário</p></td>
+   <td>
+    <p>Sim</p></td>
+   <td>
+    <p>Usuário completo</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Acesso de login</p></td>
+   <td>
+    <p>Sim</p></td>
+   <td>
+    <p>Usuário completo</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Registro de auditoria do conteúdo | Sim | Catálogo completo |
-| Registro de auditoria do usuário | Sim | Usuário completo |
-| Acesso de login | Sim | Usuário completo |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Integração de conexão aprimorada
 

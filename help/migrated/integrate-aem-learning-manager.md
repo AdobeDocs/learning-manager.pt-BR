@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Integrar o Learning Manager ao AEM
 description: O Learning Manager é um Sistema de Gerenciamento de Aprendizado com um Sistema de Gerenciamento de Conteúdo de Aprendizado interno. Os usuários gerenciam o conteúdo de aprendizado fazendo upload para o Learning Manager para que ele execute o controle de versão, a alocação para os cursos, a definição da visibilidade para os alunos, o controle do consumo e a emissão de relatórios para os administradores.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 45%
 
 ---
-
-
 
 # Integrar o Learning Manager ao AEM
 
