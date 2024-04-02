@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
 workflow-type: tm+mt
-source-wordcount: '15302'
-ht-degree: 64%
+source-wordcount: '15572'
+ht-degree: 63%
 
 ---
 
@@ -919,54 +919,54 @@ Para configurar o conector do miniOrange, entre em contato com a equipe de CSM d
 
 1. Você receberá uma notificação após a conclusão da importação. Para ver ou editar o registro de importação, clique em **[!UICONTROL Usuários > Importar registro.]**
 
-#### Excluir uma conexão {#deleteaconnection}
+<!-- #### Delete a connection {#deleteaconnection}
 
-Para excluir uma conexão miniOrange estabelecida, siga estas etapas.
+To delete an established  miniOrange  connection, follow these steps. -->
 
-<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
+## Conector do Zoom {#zoom-connector}
 
-You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
+Você pode integrar o Learning Manager com conectores do Zoom e usá-los para hospedar classes.  O conector permite que você configure reuniões/aulas de videoconferência com os alunos.
 
-To set up and use the connector, follow these steps.
+Para configurar e usar o conector, siga estas etapas.
 
-1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
+1. Na página inicial do Learning Manager, passe o mouse sobre a miniatura do Zoom. Será exibido um menu. Clique em  **[!UICONTROL Conectar]** no menu.
 
-   ![](assets/connectors.png)
+   <!-- ![](assets/connectors.png)
 
-   *Zoom connector tile*
+   *Zoom connector tile* -->
 
-1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
+1. A página do conector do Zoom é aberta. Insira os detalhes da sua conta nos respectivos campos para integrar e sincronizar o feed do usuário. Você pode obter os detalhes com o administrador da sua conta do conector.
 
-   ![](assets/bluejeans-connecotrpage.png)
-   *Connect to BlueJeans/ Zoom*
+   <!-- ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* -->
 
    >[!NOTE]
    >
-   >As a learner, while enabling the connector, use the same email id used for your Learning Manager account to enable user feeds back into Learning Manager.
+   >Como aluno, ao habilitar o conector, use a mesma ID de e-mail usada em sua conta do Learning Manager para ativar feeds do usuário no Learning Manager.
 
-1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
+1. Depois que a conexão for estabelecida, como autor, crie um curso de sala de aula virtual com o Zoom como o sistema de conferência.
 
-   ![](assets/vc.jpg)
+   <!-- ![](assets/vc.jpg)
    
-   *Create a VC course*
+   *Create a VC course* -->
 
-1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
-1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
+1. Administradores, gerentes e alunos podem inscrever alunos no curso criado. Ao ser inscrito, o aluno receberá um e-mail. O aluno pode fazer logon na sua conta do Learning Manager para visualizar os detalhes do programa e realizar o curso.
+1. Quando o curso é concluído, o relatório de conclusão é enviado para o Learning Manager. O administrador pode visualizar o relatório de conclusão para verificar a participação e pontuação dos alunos.
 
    ![](assets/attendence-and-scoringreport.png)
-   *Attendance and scoring report*
+   *Relatório de participação e pontuação*
 
-### Create a zoom server-to-server OAuth app
+### Criar um aplicativo OAuth de zoom servidor para servidor
 
-When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning Manager, you must add scopes required by Adobe Learning Manager while creating the connection.
+Ao criar um aplicativo OAuth de servidor para servidor do Zoom para ser usado no Adobe Learning Manager, você deve adicionar os escopos necessários para o Adobe Learning Manager ao criar a conexão.
 
-Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
+O Adobe Learning Manager requer os escopos abaixo e eles devem ser selecionados no aplicativo OAuth.
 
-* View all user meetings `/meeting:read:admin`
-* View and manage all user meetings `/meeting:write:admin`
-* View report data `/report:read:admin`
-* View all user information `/user:read:admin`
-* View users' information and manage users `/user:write:admin`-->
+* Exibir todas as reuniões de usuários `/meeting:read:admin`
+* Exibir e gerenciar todas as reuniões de usuários `/meeting:write:admin`
+* Exibir dados do relatório `/report:read:admin`
+* Exibir todas as informações do usuário `/user:read:admin`
+* Exibir informações dos usuários e gerenciar usuários `/user:write:admin`
 
 ## Conector do Box {#boxconnector}
 
