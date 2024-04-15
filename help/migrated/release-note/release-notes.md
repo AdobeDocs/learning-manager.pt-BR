@@ -23,7 +23,7 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++Atualização 96: versão de março de 2024 do Adobe Learning Manager
++++Atualização 96: a versão de março de 2024 do Adobe Learning Manager
 
 **Data de lançamento:** 1 de março de 2023
 
@@ -104,7 +104,7 @@ Para obter mais informações, consulte [Novidades do lançamento do Adobe Learn
 
 ### Erros corrigidos nesta atualização
 
-* A descrição do aplicativo móvel Adobe Learning Manager da Play Store diz incorretamente que um aluno pode fazer um curso offline.
+* A descrição do aplicativo para dispositivos móveis Adobe Learning Manager da Play Store diz incorretamente que um aluno pode fazer um curso offline.
 * Ocorreram problemas ao migrar o conteúdo (module_version.csv e course_module.csv) do LinkedIn para o Adobe Learning Manager.
 * Se uma conta estiver em um estado inativo e tiver sido criada há mais de três anos, todos os usuários da conta serão excluídos do GDPR, independentemente do status dos usuários.
 * No Aplicativo do instrutor, quando você define o limite da lista de espera para zero em uma sessão e salva a sessão, a interface do usuário exibe incorretamente &quot;Não aplicável&quot; em vez de zero.
@@ -389,7 +389,7 @@ A versão de novembro de 2022 do Adobe Learning Manager consiste no seguinte:
 
 Para mais informações, consulte [Novidades do lançamento do Learning Manager em novembro de 2022](/help/migrated/whats-new-2022-november.md).
 
-**Observação:** Com a versão de novembro de 2022 do Adobe Learning Manager, o Zoom será descontinuado [Autenticação JWT até junho de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Da mesma forma, o conector do Zoom com JWT continuará funcionando até a data mencionada, mas recomendamos que os usuários criem um aplicativo OAuth de servidor para servidor para substituir a funcionalidade na conta dele. Toda nova conexão terá a autenticação OAuth do Zoom por padrão.
+**Observação:** Com a versão de novembro de 2022 do Adobe Learning Manager, o Zoom descontinuará [Autenticação JWT até junho de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Da mesma forma, o conector do Zoom com JWT continuará funcionando até a data mencionada, mas recomendamos que os usuários criem um aplicativo OAuth de servidor para servidor para substituir a funcionalidade na conta dele. Toda nova conexão terá a autenticação OAuth do Zoom por padrão.
 
 ### Erros corrigidos nesta atualização
 
@@ -472,7 +472,7 @@ Para mais informações, consulte [Novidades do lançamento do Learning Manager
 
 Este é uma atualização sobre uma alteração futura que ajudará você a se preparar para isso.
 
-**O Adobe Learning Manager como um produto será renomeado para Adobe Learning Manager em julho de 2022**. Isso é um esforço estratégico feito para refletir com mais precisão o alinhamento do produto com determinadas prioridades de negócios.
+**O Adobe Learning Manager, como um produto, será renomeada para Adobe Learning Manager em julho de 2022**. Isso é um esforço estratégico feito para refletir com mais precisão o alinhamento do produto com determinadas prioridades de negócios.
 
 A equipe de produto está tomando todas as medidas para garantir que não haja impacto no uso da plataforma. Você pode continuar a utilizar o produto como habitualmente. Os administradores da plataforma podem notar o novo nome da marca em determinadas telas em julho.
 
@@ -779,7 +779,7 @@ Esta atualização apresenta uma nova instância do Azure.
 
 +++Atualização 66 - Versão de agosto de 2021 do Learning Manager
 
-O **Agosto de 2021** **lançamento do Adobe Learning Manager** O foco é melhorar os fluxos de trabalho da Experiência do aluno, Relatórios e Administrações. Alguns dos destaques incluem:
+O **Agosto de 2021** **versão do Adobe Learning Manager** O foco é melhorar os fluxos de trabalho da Experiência do aluno, Relatórios e Administrações. Alguns dos destaques incluem:
 
 * **Marketplace de conteúdo:** O Learning Manager agora oferece mais de 70.000 cursos de campos variados, como Tecnologia, Gerenciamento, Liderança e assim por diante.
 * **Suporte de acessibilidade aprimorado:** O suporte de acessibilidade para a função do aluno fortalece por meio da navegação do teclado aprimorada, capacidade do leitor de tela e conformidade com a taxa de contraste.
