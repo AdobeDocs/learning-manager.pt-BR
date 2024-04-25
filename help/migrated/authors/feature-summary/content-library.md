@@ -3,10 +3,10 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0a096888ab9913bb38391f9dc7b21fad3d90e91d
+source-git-commit: e80f68843d7f6b937d9be8917e7bf9c8a69b23db
 workflow-type: tm+mt
-source-wordcount: '3145'
-ht-degree: 53%
+source-wordcount: '3113'
+ht-degree: 65%
 
 ---
 
@@ -114,26 +114,21 @@ Como mencionado na seção anterior, você pode adicionar conteúdo interativo e
 
 ## Adicionar conteúdo estático {#addstaticcontent}
 
-1. Selecione o **[!UICONTROL Biblioteca de conteúdo]** no painel esquerdo depois de fazer logon como **Autor** e selecione **[!UICONTROL Adicionar]** > **[!UICONTROL Conteúdo]**.
+1. Clique em Biblioteca de conteúdo no painel esquerdo depois de fazer logon como autor e clique em Adicionar.
 
->[!NOTE]
->
->Selecionando **[!UICONTROL Adicionar]** exibirá duas opções. **[!UICONTROL Conteúdo]** e **[!UICONTROL Quiz]**: Consulte [Criar um quiz](content-library.md#createaquiz) para obter mais detalhes.
+   Como alternativa, você pode clicar em Criar o conteúdo na página de introdução.
 
-
-Como alternativa, você pode selecionar **[!UICONTROL Criar conteúdo]** na guia **[!UICONTROL Introdução]** página.
-
-1. No menu **[!UICONTROL Nome]** digite um nome para o conteúdo que deseja carregar.
-1. No menu **[!UICONTROL Descrição]** digite a descrição do conteúdo. Certifique-se de que a descrição que deseja inserir seja pertinente. O limite de caracteres é de 400 caracteres.
-1. Para adicionar o conteúdo, selecione **[!UICONTROL Adicionar arquivo de conteúdo]** e faça upload do arquivo de recursos. Ao adicionar conteúdo em vários idiomas, não é possível combinar conteúdo interativo e estático em um único grupo. Todo o conteúdo de todos os idiomas devem ser estáticos ou todo o conteúdo deve ser interativo.
+1. No campo Nome, especifique um nome para o conteúdo que deseja carregar.
+1. No campo Descrição, insira a descrição do conteúdo. Certifique-se de que a descrição que deseja inserir seja pertinente. O limite de caracteres é de 400 caracteres.
+1. Para adicionar o conteúdo, clique em Adicionar arquivo de conteúdo e carregue o arquivo de recursos. Ao adicionar conteúdo em vários idiomas, não é possível combinar conteúdo interativo e estático em um único grupo. Todo o conteúdo de todos os idiomas devem ser estáticos ou todo o conteúdo deve ser interativo.
 
    Se quiser substituir o conteúdo, você poderá trocar um conteúdo estático por outro conteúdo estático. O mesmo se aplica ao conteúdo interativo.
 
-1. No menu **[!UICONTROL Duração]** você também pode digitar o tempo esperado que um aluno gastaria neste módulo. A duração está em minutos.
+1. No campo Duração, você também poder inserir o tempo esperado que o aluno demoraria nesse módulo. A duração está em minutos.
 
-   O tempo de aprendizado gasto pelo aluno é calculado com base na duração especificada, caso o aluno tenha marcado um curso como concluído. Se o aluno consumir o conteúdo do reprodutor, o tempo gasto no reprodutor será adicionado ao tempo de aprendizado gasto. Se o tempo real do conteúdo for menor que a duração especificada, nada acontece, pois o reprodutor sempre respeita o tempo de exibição do conteúdo.
+   O tempo de aprendizado gasto pelo aluno é calculado com base na duração especificada, caso o aluno tenha marcado um curso como concluído. Se o aluno consumir conteúdo no reprodutor, o tempo gasto no reprodutor é adicionado ao tempo de aprendizado gasto. Se o tempo real do conteúdo for menor que a duração especificada, nada acontece, pois o reprodutor sempre respeita o tempo de exibição do conteúdo.
 
-1. No menu **[!UICONTROL Tags]** insira as tags do conteúdo carregado para que seu conteúdo seja descoberto.
+1. No campo Marcas de conteúdo, insira as marcas do conteúdo enviadas para que seu conteúdo seja encontrado.
 
    Um autor pode usar essas tags para procurar o conteúdo ao adicionar o conteúdo ao curso.
 
@@ -143,25 +138,23 @@ A biblioteca de conteúdo também faz controle de versão dos conteúdos carrega
 
 ## Adicionar conteúdo interativo {#addinteractivecontent}
 
-1. Selecionar **[!UICONTROL Biblioteca de conteúdo]** no painel esquerdo depois de fazer logon como **Autor** e selecione **[!UICONTROL Adicionar]** > **[!UICONTROL Conteúdo]**.
+1. Clique em Biblioteca de conteúdo no painel esquerdo depois de fazer logon como autor e clique em Adicionar.
 
->[!NOTE]
->
->Selecionando **[!UICONTROL Adicionar]** exibirá duas opções. **[!UICONTROL Conteúdo]** e **[!UICONTROL Quiz]**: Consulte [Criar um quiz](content-library.md#createaquiz) para obter mais detalhes.
+   Como alternativa, você pode clicar em Criar o conteúdo na página de introdução.
 
-Como alternativa, você pode selecionar **[!UICONTROL Criar conteúdo]** na guia **[!UICONTROL Introdução]** página.
-
-1. No menu **[!UICONTROL Nome]** digite um nome para o conteúdo que deseja carregar.
-1. No menu **[!UICONTROL Descrição]** digite a descrição do conteúdo. Certifique-se de que a descrição que deseja inserir seja pertinente. O limite de caracteres é de 245 caracteres.
-1. Para adicionar o conteúdo, selecione **[!UICONTROL Adicionar arquivo de conteúdo]** e faça upload do arquivo de recursos. Ao adicionar conteúdo em vários idiomas, não é possível combinar conteúdo interativo e estático em um único grupo. Todo o conteúdo de todos os idiomas devem ser estáticos ou todo o conteúdo deve ser interativo.
+1. No campo Nome, especifique um nome para o conteúdo que deseja carregar.
+1. No campo Descrição, insira a descrição do conteúdo. Certifique-se de que a descrição que deseja inserir seja pertinente. O limite de caracteres é de 245 caracteres.
+1. Para adicionar o conteúdo, clique em Adicionar arquivo de conteúdo e carregue o arquivo de recursos. Ao adicionar conteúdo em vários idiomas, não é possível combinar conteúdo interativo e estático em um único grupo. Todo o conteúdo de todos os idiomas devem ser estáticos ou todo o conteúdo deve ser interativo.
 
 * [Tipos de arquivo suportados](content-library.md#supported)
 
   O conteúdo interativo pode ser um projeto publicado em SCORM, AICC ou Captivate. O arquivo deve ser compactado em zip.
 
-Você também pode adicionar conteúdo HTML gerado a partir do Captivate, Presenter ou Presenter Video Express.
+  Você também pode adicionar conteúdo HTML gerado a partir do Captivate, Presenter ou Presenter Video Express.
 
-1. **Learning Manager** suporta legendas para conteúdo de vídeo carregado no Learning Manager. Agora, os autores podem fazer upload do arquivo que contém legendas, junto com o arquivo de vídeo.
+[Tipos de arquivo suportados](content-library.md#supported)
+
+1. O Learning Manager aceita legendas para conteúdo de vídeo carregado no Learning Manager. Agora, os autores podem fazer upload do arquivo que contém legendas, junto com o arquivo de vídeo.
 
    Em seguida, os alunos podem visualizar as legendas durante a reprodução do módulo de vídeo.
 
@@ -169,11 +162,11 @@ Você também pode adicionar conteúdo HTML gerado a partir do Captivate, Presen
 
    O suporte a legendas está disponível para conteúdo de vídeo carregado na biblioteca de conteúdo do Learning Manager.
 
-   Como autor, quando for carregar um conteúdo de vídeo ou áudio, você também pode carregar o arquivo VTT que contém as legendas.
+   Como autor, quando for carregar um conteúdo de vídeo ou áudio, você também pode carregar o arquivo .vtt que contém as legendas.
 
    As legendas então aparecem no Fluidic Player. As legendas também são compatíveis com [Padrões WCAG2.0](https://www.w3.org/TR/WCAG20/).
 
-   Ao adicionar um conteúdo de vídeo à biblioteca, você também pode adicionar o arquivo VTT, que deve ser um arquivo válido.
+   Ao adicionar um conteúdo de vídeo à biblioteca, você também pode adicionar o arquivo vtt, que **deve** ser um arquivo válido.
 
    ![](assets/webvtt.png)
 
@@ -191,44 +184,44 @@ Você também pode adicionar conteúdo HTML gerado a partir do Captivate, Presen
 
    Depois de adicionar esse conteúdo a um curso e visualizar o curso como aluno, você pode ver as legendas no vídeo.
 
-   No reprodutor, alterne o botão CC no fluidic player para exibir ou ocultar as legendas.
+   No reprodutor, alterne o botão CC no Fluidic Player para exibir ou ocultar as legendas.
 
    A mesma exibição está presente no **aplicativo do aluno**, bem como na **Visualização como aluno**.
 
-   Quando você **adicionar, atualizar ou excluir** VTT, você receberá uma notificação.
+   Quando você **adicionar, atualizar ou excluir** o arquivo vtt, você receberá uma notificação.
 O suporte a WebVTT não está disponível para:
 
    1. Comunicados em vídeo.
-   1. Vídeo reproduzido dentro do conteúdo de e-learning. Isso é impulsionado pelo conteúdo.
+   1. Vídeo reproduzido no conteúdo de e-learning. Isso é impulsionado pelo conteúdo.
    1. Vídeo carregado no Aprendizado social.
    1. Vídeo criado no aplicativo de desktop Learning Manager.
    1. Conteúdo de vídeo criado usando o processo de migração.
    1. Reprodução de vídeo no aplicativo móvel no modo offline.
 
-1. No menu **[!UICONTROL Duração]** você também pode digitar o tempo esperado que um aluno gastaria neste módulo. A duração está em minutos.
-1. No menu **[!UICONTROL Tags]** digite as tags do conteúdo carregado para que o conteúdo seja descoberto.
+1. No campo Duração, você também poder inserir o tempo esperado que o aluno demoraria nesse módulo. A duração está em minutos.
+1. No campo Marcas de conteúdo, insira as marcas do conteúdo enviadas para que seu conteúdo seja encontrado.
 
 ### Suporte para catálogo compartilhado
 
 Se uma conta do vendedor compartilhar um catálogo que contém os cursos e os cursos contiverem os módulos, áudio ou vídeo com as legendas, os cursos deverão se comportar da mesma forma na conta do comprador.
 
-A propagação do módulo deve funcionar corretamente da conta do vendedor para a do comprador. Isso pode incluir - editar/excluir/adicionar o arquivo VTT no módulo.
+A propagação do módulo deve funcionar corretamente da conta do vendedor para a conta do comprador. Isso pode incluir - editar/excluir/adicionar o arquivo vtt no módulo.
 
-Após o upload do conteúdo, você verá uma notificação selecionando a opção **Campainha** no canto superior direito da página. Sempre que modificar um conteúdo e reenviá-lo, você receberá uma notificação. Se as alterações foram feitas por você, somente você receberá a notificação, outros autores não.
+Depois de carregar o conteúdo, você verá uma notificação clicando no ícone de sino no canto superior direito da página. Sempre que modificar um conteúdo e reenviá-lo, você receberá uma notificação. Se as alterações foram feitas por você, somente você receberá a notificação, outros autores não.
 
-## Crie um questionário {#createaquiz}
+## Crie um questionário
 
-Crie avaliações no Adobe Learning Manager com a nova ferramenta de criação de questionários no **[!UICONTROL Biblioteca de conteúdo]** página. As avaliações criadas passam a fazer parte **Biblioteca de conteúdo** e pode ser adicionado a uma pasta “pública” para fins de reutilização do curso.
+Crie avaliações no Adobe Learning Manager com a nova ferramenta de criação de quiz na página Biblioteca de conteúdo. As avaliações criadas se tornam parte da biblioteca de conteúdo e podem ser adicionadas a uma pasta “pública” para fins de reutilização do curso.
 
-1. Selecione **[!UICONTROL Biblioteca de conteúdo]** no painel esquerdo.
+1. Selecione Biblioteca de conteúdo no painel esquerdo.
 1. No canto superior direito da tela, selecione **Adicionar > Quiz**.
-1. No menu **[!UICONTROL Criar quiz]** digite o nome e a descrição do quiz.
-1. No menu **[!UICONTROL Conteúdo do quiz]** , selecione **Adicionar pergunta do quiz**.
-1. No menu **[!UICONTROL Pergunta do quiz]** , selecione o tipo de pergunta. Há três tipos de perguntas:
+1. Na página Criar quiz, digite o nome e a descrição do quiz.
+1. Na seção Conteúdo do quiz, selecione **Adicionar pergunta do quiz**.
+1. Na caixa de diálogo Pergunta do quiz, selecione o tipo de pergunta. Há três tipos de perguntas:
    * Pergunta de múltipla escolha
    * Verdadeiro ou falso
    * Preencher o espaço em branco
-1. Digite a pergunta e selecione a resposta correta.
+1. Insira a pergunta e selecione a resposta correta.
 1. Defina os pontos para o quiz.
 1. Se quiser que a pergunta seja respondida corretamente para passar no quiz, marque a caixa de seleção **É obrigatório responder corretamente para passar no quiz**.
 1. Selecione **Salvar e fechar**.
@@ -248,17 +241,17 @@ O quiz é adicionado à Biblioteca de conteúdo. Como qualquer conteúdo da Bibl
 
 ## Adicionar à pasta {#add-folder}
 
-Depois que um administrador cria as pastas de conteúdo, você, um autor, pode carregar um conteúdo em uma pasta de conteúdo, de modo que o conteúdo só fique visível para você ou para um grupo seleto de autores na conta. Você também pode tornar o conteúdo público e torná-lo visível para todos os autores na conta.
+Depois que um administrador cria as pastas de conteúdo, você, autor, pode fazer upload de um conteúdo em uma pasta de conteúdo, de modo que o conteúdo seja visível somente para você ou para um grupo selecionado de autores na conta. Você também pode tornar o conteúdo público e torná-lo visível para todos os autores na conta.
 
 **Uso de exemplo**
 
 Por exemplo, as agências desejam manter controle total do conteúdo, e alguém que ignore o conteúdo deve ter acesso a todo o conteúdo. Ao mesmo tempo, os criadores de conteúdo nas agências devem ter acesso apenas ao seu próprio conteúdo e, em alguns casos, ao conteúdo de outra pessoa.
 
-A biblioteca de conteúdo com conteúdo existente (isto é, conteúdo carregado antes de configurar as pastas de conteúdo) é definida como **Pasta pública**. Esta pasta não pode ser desativada ou excluída. O conteúdo que faz parte da pasta pública é acessível a todos os tipos de autores. Depois que as pastas de conteúdo são configuradas, os autores padrão e os autores personalizados devem selecionar a pasta em que o conteúdo deve ser colocado ao fazer upload do novo conteúdo.
+A biblioteca de conteúdo com conteúdo existente (isto é, conteúdo carregado antes de configurar as pastas de conteúdo) é definida como **Pasta pública**. Esta pasta não pode ser desativada ou excluída. O conteúdo que faz parte da pasta Pública é acessível a todos os tipos de autores. Depois que as pastas de conteúdo são configuradas, os autores padrão e os autores personalizados devem selecionar a pasta em que o conteúdo deve ser colocado ao fazer upload do novo conteúdo.
 
 >[!NOTE]
 >
->As pastas pública e privada são mutuamente exclusivas. Isto significa que o conteúdo **não é possível** ser associado à pasta pública e à pasta privada ao mesmo tempo. Ele pode ser associado à pasta Pública, **ou** ele pode ser associado a uma ou mais pastas particulares a qualquer momento.
+>As pastas pública e privada são mutuamente exclusivas. Isto significa que o conteúdo **não é possível** ser associado à pasta Pública e à pasta privada ao mesmo tempo. Ele pode ser associado à pasta Pública, **ou** ele pode ser associado a uma ou mais pastas particulares a qualquer momento.
 
 Ao adicionar um conteúdo, você pode escolher a pasta em que o conteúdo residirá.
 
@@ -300,13 +293,13 @@ Para mover o conteúdo de uma pasta pública para qualquer pasta privada,
 
    *Exibir todo o conteúdo carregado*
 
-1. Escolha o conteúdo que deseja mover para uma pasta. Depois, selecione **[!UICONTROL Ações]** > **[!UICONTROL Organizar conteúdo]** > **[!UICONTROL Mover conteúdo para a pasta]**.
+1. Escolha o conteúdo que deseja mover para uma pasta. Depois clique em **[!UICONTROL Ações]** > **[!UICONTROL Organizar conteúdo]** > **[!UICONTROL Mover conteúdo para a pasta]**.
 
    ![](assets/move-content-to-folder.png)
 
    *Mover um conteúdo selecionado para a pasta*
 
-1. Escolha a pasta para a qual deseja mover o conteúdo. Selecionar **[!UICONTROL Mover]**.
+1. Escolha a pasta para a qual deseja mover o conteúdo. Clique em **[!UICONTROL Mover]**.
 
 ## Copiar conteúdo para a pasta {#copycontenttofolder}
 
@@ -332,14 +325,14 @@ O conteúdo pode ser desvinculado de uma pasta especificada **SOMENTE** se ele t
 
 ## Adicionar conteúdo em diferentes idiomas {#addcontentfordifferentlanguages}
 
-1. Para adicionar o conteúdo em idiomas diferentes, selecione o **Adicionar novo idioma** e escolha os idiomas necessários. Usando essa abordagem, você pode adicionar suporte multilíngue ao conteúdo.
+1. Para adicionar o conteúdo em idiomas diferentes, clique no **Adicionar novo idioma** e escolha os idiomas necessários. Usando essa abordagem, você pode adicionar suporte multilíngue ao conteúdo.
 
    ![](assets/add-new-languagetab.png)
 
    *Adicionar novo idioma para um conteúdo*
 
 1. Repita o processo de upload de conteúdo para os novos idiomas.
-1. Se quiser remover um idioma, selecione o **[!UICONTROL Adicionar novo idioma]** e limpe a seleção.
+1. Se quiser remover um idioma, clique na guia Adicionar novo idioma e desmarque sua seleção.
 
    Depois de fazer as alterações, clique em Salvar. Na biblioteca, o novo conteúdo já estará disponível para realização.
 
