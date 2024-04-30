@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Configurações
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
+source-git-commit: b72a838ede9fb299e5735539931fba2b85f59ef1
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3992'
 ht-degree: 65%
 
 ---
@@ -22,6 +22,11 @@ Você pode alterar as configurações do seu perfil de administrador e atualizar
 Este treinamento captura as noções básicas das configurações no nível da conta.
 
 [![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+>[!NOTE]
+>
+>Este é um botão de amostra <br>[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)</br>
+
 
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
