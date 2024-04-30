@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
@@ -320,7 +320,7 @@ Exibir [Criar uma lista de verificação](authors/feature-summary/courses.md#che
 
 ### Notificações de email relacionadas à sessão
 
-Nas versões anteriores do Adobe Learning Manager, um aluno não tinha e-mails relacionados à sessão, detalhes da sessão atualizados, convite da sessão e lembrete da sessão quando:
+Em versões anteriores do Adobe Learning Manager, um aluno não tinha e-mails relacionados à sessão, detalhes da sessão atualizados, convite de sessão e lembrete de sessão quando:
 
 * Os alunos concluíram um curso,
 * Novas sessões são adicionadas a um curso ou
@@ -344,7 +344,7 @@ Em um site de referência AEM, adicionamos suporte para adicionar o token de atu
 
 ### Ocultar envios dos professores
 
-Depois que os alunos fazem upload de seus arquivos usando o fluxo de trabalho de envio de arquivos, se um professor não realizar nenhuma ação (aprovar ou rejeitar) no envio, o URL de envio ficará oculto da exibição após um número de dias predefinido. Entre em contato com as equipes CSAM do Adobe Learning Manager para definir ou alterar o número de dias.
+Depois que os alunos fazem upload de seus arquivos usando o fluxo de trabalho de envio de arquivos, se um professor não realizar nenhuma ação (aprovar ou rejeitar) no envio, o URL de envio ficará oculto da exibição após um número de dias predefinido. Entre em contato com as equipes CSAM da Adobe Learning Manager para definir ou alterar o número de dias.
 
 ### Alterações na terminologia do produto
 
@@ -376,9 +376,9 @@ Nesta versão, o status muda para **Ainda não marcado**.
 
 ### Rotulagem de branco no Adobe Learning Manager
 
-O aplicativo móvel Adobe Learning Manager agora é compatível com rótulos brancos, o que significa que agora você pode liberar o aplicativo com sua própria marca.
+O aplicativo Adobe Learning Manager para dispositivos móveis agora é compatível com a rotulagem branca, o que significa que agora você pode lançá-lo sob sua própria marca.
 
-Exibir rotulagem de branco em [Aplicativo móvel do Adobe Learning Manager](white-label.md) para obter mais informações.
+Exibir rotulagem de branco em [Aplicativo Adobe Learning Manager para dispositivos móveis](white-label.md) para obter mais informações.
 
 ### Nova coluna em CSVs de migração
 
@@ -388,7 +388,21 @@ Nesta versão, há uma nova coluna opcional, uniqueLoId, nos seguintes CSVs de m
 * course.csv
 * learning_program.csv
 
-A coluna, uniqueLoId, não é aplicável ao CSV de ajuda de tarefa.
+>[!NOTE]
+>
+>O **uniqueLoId** é opcional.
+
+
+Se você executar uma migração para atualizar um curso existente ou plano de aprendizado ou certificação, o curso ou plano de aprendizado ou certificação com o **uniqueLOId** s são adicionados ao aplicativo Autor.
+
+Ao migrar, você deve atualizar o **uniqueLOId** nos CSVs do curso ou plano de aprendizado ou certificação, mesmo que seja uma coluna opcional.
+
+Se a opção **uniqueLoId** A coluna não é adicionada antes da execução da migração durante a atualização do curso ou plano de aprendizado ou certificação existente com **uniqueLOId** s, depois da migração, o **uniqueLOId** os valores serão substituídos por valores NULL.
+
+>[!NOTE]
+>
+>A coluna, uniqueLoId, não é aplicável ao CSV de ajuda de tarefa.
+
 
 >[!IMPORTANT]
 >
