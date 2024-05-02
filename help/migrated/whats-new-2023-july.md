@@ -2,9 +2,10 @@
 title: Novidades desta versão (julho de 2023)
 description: Saiba mais sobre os novos recursos e as melhorias no Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2059'
 ht-degree: 67%
 
 ---
@@ -530,7 +531,11 @@ O truncamento é o processo de reduzir uma palavra à sua forma raiz. Isso garan
 
 Nesta versão, adicionamos a raiz para localidades em inglês, que inclui as seguintes variantes: en_US, en_AU, en_GB.
 
-O atributo “stemmed” menciona se o stemming é necessário nos resultados da pesquisa. Por padrão, esta opção está definida como False
+O atributo “stemmed” menciona se o stemming é necessário nos resultados da pesquisa. Por padrão, esta opção está definida como False.
+
+Parâmetros de Consulta de API:
+
+matchType=phrase_and_match stemmed=true
 
 ### Remoção de pontos finais V1
 
