@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Ajudas de tarefa
 description: Ajudas de tarefa é um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 73%
+source-wordcount: '590'
+ht-degree: 66%
 
 ---
-
-
 
 # Ajudas de tarefa
 
@@ -35,6 +34,19 @@ Os autores podem criar ajudas de tarefa para os alunos. Use as ajudas de tarefa 
 1. Clique em **[!UICONTROL Salvar]**.
 
    A ajuda de tarefa foi publicada.
+
+## Adicionar ajuda de tarefa em idiomas diferentes {#addcontentfordifferentlanguages}
+
+1. Para adicionar a ajuda de tarefa em idiomas diferentes, selecione o **Adicionar novo idioma** e escolha os idiomas necessários. Usando essa abordagem, você pode adicionar suporte multilíngue ao conteúdo.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Adicionar novo idioma para um conteúdo*
+
+1. Repita o processo de upload da ajuda de tarefa para os novos idiomas.
+1. Se quiser remover um idioma, selecione a guia Adicionar novo idioma e limpe a seleção.
+
+   Depois de fazer as alterações, selecione Salvar.
 
 ## Tipos de ajudas de tarefa suportadas {#typesofsupportedjobaids}
 
