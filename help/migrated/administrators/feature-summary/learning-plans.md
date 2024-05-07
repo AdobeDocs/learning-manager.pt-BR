@@ -3,13 +3,13 @@ description: Criação de planos de aprendizado para administradores no Learning
 jcr-language: en_us
 title: Planos de aprendizado
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 65%
+source-wordcount: '1621'
+ht-degree: 61%
 
 ---
-
 
 # Planos de aprendizado
 
@@ -36,35 +36,47 @@ Para criar um plano de aprendizado, é preciso fazer logon como administrador.
 
 1. Na lista suspensa **[!UICONTROL Ocorre quando]**, escolha o evento necessário. As opções determinam quando um aluno faz o curso. Depois de selecionar o tipo de evento, selecione o treinamento, os cursos, o programa de aprendizado ou a certificação apropriados.
 
-   **Observação:** Administradores e autores podem criar eventos de inscrição automática.
+>[!NOTE]
+>
+> Os administradores e os autores podem criar eventos de inscrição automática.
 
-   Os eventos são:
 
-   **1 - Novo aluno adicionado:** Quando um novo usuário ou funcionário entra na organização.
+Os eventos são:
 
-   ![](assets/new-learner-is-added.png)
+**1 - Novo aluno adicionado:** Quando um novo usuário ou funcionário entra na organização.
 
-   **2 - O aluno é adicionado a um grupo:** Quando um novo usuário ou funcionário ingressa em um grupo.  Insira e selecione o grupo de usuários na lista suspensa, ao qual este evento é aplicável. É possível escolher vários grupos. Além disso, você pode atribuir esse evento a todos os membros desses grupos selecionando a opção.
+![](assets/new-learner-is-added.png)
 
-   ![](assets/learner-gets-addedtoagroup.png)
+**2 - O aluno é adicionado a um grupo:** Quando um novo usuário ou funcionário ingressa em um grupo.  Insira e selecione o grupo de usuários na lista suspensa, ao qual este evento é aplicável. É possível escolher vários grupos. Além disso, você pode atribuir esse evento a todos os membros desses grupos selecionando a opção.
 
-   Este plano de aprendizado está destinado especificamente para usuários do ***Grupo personalizado***. Digite o nome do grupo no campo e, usando a pesquisa com preenchimento automático, escolha o grupo ou grupos.
+![](assets/learner-gets-addedtoagroup.png)
 
-   **3 - O aluno conclui um objeto de aprendizado:** O evento é acionado quando um aluno conclui qualquer objeto de aprendizado, como curso, programa de aprendizado e assim por diante. Selecione o objeto de aprendizado ao qual se aplica este evento. Selecione o status de conclusão do evento. Como opção, você também pode escolher o grupo de usuários ao qual esse aluno pertence. Insira o número de dias que, depois de concluir o objeto de aprendizado, esse evento será acionado. Selecione a opção se quiser atribuir esse evento a usuários existentes que já concluíram esse objeto de aprendizado.
+Este plano de aprendizado está destinado especificamente para usuários do ***Grupo personalizado***. Digite o nome do grupo no campo e, usando a pesquisa com preenchimento automático, escolha o grupo ou grupos.
 
-   ![](assets/learner-completealearningobject.png)
+**3 - O aluno é removido de um grupo:** O evento é acionado quando um usuário ou aluno é removido de um grupo. Insira e selecione o grupo de usuários na lista suspensa, ao qual este evento é aplicável. É possível escolher vários grupos.
 
-   **4 - O aluno atinge um nível de habilidade:** Insira o nome da habilidade e selecione o nível de habilidade. Você também pode escolher o grupo de usuários ao qual esse aluno pertence. É opcional. Insira o número de dias que, depois de concluir a habilidade, esse evento será acionado. Selecione a opção se deseja atribuir esse evento aos alunos que já obtiveram essa habilidade.
+![](assets/learner-removed-from-group.png)
 
-   ![](assets/learner-achievesaskilllevel.png)
 
-   Além disso, defina o número de dias após o qual o plano de aprendizado deve ser atribuído aos alunos.
+**4 - O aluno conclui um curso/caminho de aprendizado/certificação:** O evento é acionado quando um aluno conclui qualquer objeto de aprendizado, como curso, programa de aprendizado e assim por diante. Selecione o objeto de aprendizado ao qual se aplica este evento. Selecione o status de conclusão do evento. Como opção, você também pode escolher o grupo de usuários ao qual esse aluno pertence. Insira o número de dias que, depois de concluir o objeto de aprendizado, esse evento será acionado. Selecione a opção se quiser atribuir esse evento a usuários existentes que já concluíram esse objeto de aprendizado.
 
-   ![](assets/assign-learning.png)
+![](assets/learner-completealearningobject.png)
 
-   **5 - Em uma data específica:** Quando os eventos devem ocorrer em uma data específica. Selecione a data na qual o evento deve ser atribuído. Selecione os grupos de usuários para os quais o evento precisa ser atribuído automaticamente. Selecione as instâncias que precisam ser atribuídas e opcionalmente insira o número de dias após o qual o evento deve ser acionado.
+**5 - Aluno reprovado em um módulo de um curso:** O evento é acionado quando um aluno falha em qualquer objeto de aprendizado, como curso, programa de aprendizado e assim por diante. Selecione o objeto de aprendizado ao qual se aplica este evento. Você também pode escolher o grupo de usuários ao qual este aluno pertence.
 
-   ![](assets/on-a-specific-date.png)
+![](assets/learner-fails-module.png)
+
+**4 - O aluno atinge um nível de habilidade:** Insira o nome da habilidade e selecione o nível de habilidade. Você também pode escolher o grupo de usuários ao qual esse aluno pertence. É opcional. Insira o número de dias que, depois de concluir a habilidade, esse evento será acionado. Selecione a opção se deseja atribuir esse evento aos alunos que já obtiveram essa habilidade.
+
+![](assets/learner-achievesaskilllevel.png)
+
+Além disso, defina o número de dias após o qual o plano de aprendizado deve ser atribuído aos alunos.
+
+![](assets/assign-learning.png)
+
+**5 - Em uma data específica:** Quando os eventos devem ocorrer em uma data específica. Selecione a data na qual o evento deve ser atribuído. Selecione os grupos de usuários para os quais o evento precisa ser atribuído automaticamente. Selecione as instâncias que precisam ser atribuídas e opcionalmente insira o número de dias após o qual o evento deve ser acionado.
+
+![](assets/on-a-specific-date.png)
 
 1. Em todos os eventos, é possível selecionar a instância na lista suspensa **[!UICONTROL Instância]**. Também é possível selecionar instâncias do aprendizado atribuído em qualquer evento.
 
@@ -83,6 +95,8 @@ Ao adicionar um plano de aprendizado, um administrador pode cancelar a inscriç�
 No aplicativo de administração, clique em **[!UICONTROL Planos de aprendizado]** > **[!UICONTROL Adicionar]**.
 
 As próximas seções representam os acionadores nos quais a opção **[!UICONTROL Cancelar inscrição no treinamento]** foi adicionado.
+
+![](assets/unenroll-courses.png)
 
 ## O aluno é removido de um grupo {#learnergetsremovedfromagroup}
 
@@ -103,6 +117,14 @@ As próximas seções representam os acionadores nos quais a opção **[!UICONTR
    1. A Instância e a Data de Conclusão não serão aplicáveis neste caso.
 
 ![](assets/image040.png)
+
+## O aluno é reprovado em um módulo de um curso
+
+1. Adicione um ou mais grupos de usuários. No caso de vários grupos serem selecionados, o plano é acionado quando um aluno falha no treinamento especificado.
+1. Escolha a ação como **[!UICONTROL Cancelar inscrição no treinamento]**.
+
+   1. O administrador pode escolher os treinamentos dos quais o usuário será cancelado quando adicionado ao grupo de usuários.
+   1. A Instância e a Data de Conclusão não serão aplicáveis neste caso.
 
 ## O aluno é adicionado a um grupo {#learnergetsaddedtoagroup}
 
@@ -134,7 +156,12 @@ As próximas seções representam os acionadores nos quais a opção **[!UICONTR
 
 ## Editar um plano de aprendizado {#editalearningplan}
 
-Após a criação de um plano de aprendizado, o administrador pode editar/atualizar o plano de aprendizado a qualquer momento. Para editar, clique no nome do plano de aprendizado e modifique os valores na caixa de diálogo pop-up **[!UICONTROL Editar plano de aprendizado]** exibida. Clique em **[!UICONTROL Salvar]**.
+Após a criação de um plano de aprendizado, o administrador pode editar/atualizar o plano de aprendizado a qualquer momento. Para editar, selecione o nome do plano de aprendizado e modifique os valores na **[!UICONTROL Editar plano de aprendizado]** caixa de diálogo pop-up que aparece.  Selecione **[!UICONTROL Salvar]**.
+
+>[!NOTE]
+>
+>Você não pode modificar o **[!UICONTROL Ocorre quando]** na caixa de diálogo **[!UICONTROL Editar plano de aprendizado]** pop-up.
+
 
 ## Ativar um plano de aprendizado {#enablealearningplan}
 

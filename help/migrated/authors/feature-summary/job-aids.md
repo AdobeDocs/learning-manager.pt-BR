@@ -3,16 +3,16 @@ jcr-language: en_us
 title: Ajudas de tarefa
 description: Ajudas de tarefa é um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
 # Ajudas de tarefa
 
-Ajudas de tarefa é um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
+**Ajudas de tarefa** é um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
 
 As ajudas de tarefa podem ser usadas de forma independente ou em conjunto com a realização do curso no Learning Manager.
 
@@ -20,9 +20,9 @@ Os autores podem criar ajudas de tarefa para os alunos. Use as ajudas de tarefa 
 
 ## Criar ajuda de tarefa {#createjobaid}
 
-1. No logon do autor, clique em Ajudas de tarefa no painel esquerdo.
-1. Clique em Criar no canto superior direito da página exibida.
-1. Forneça o nome, a descrição e as tags. Escolha as habilidades e os níveis associados. Selecione o conteúdo como privado se você deseja que a ajuda de tarefa não seja acessada por nenhum outro autor para atribuir a seus respectivos cursos.
+1. No logon do autor, selecione **[!UICONTROL Ajudas de tarefa]** no painel esquerdo.
+1. Selecionar **[!UICONTROL Criar]** no canto superior direito da página exibida.
+1. Digite o nome, a descrição e as marcas. Escolha as habilidades e os níveis associados. Selecione o conteúdo como privado se você deseja que a ajuda de tarefa não seja acessada por nenhum outro autor para atribuir a seus respectivos cursos.
 
    Apenas as habilidades existentes podem ser utilizadas para ajudas de tarefa. As habilidades não são obrigatórias.
 
@@ -44,7 +44,7 @@ Os autores podem criar ajudas de tarefa para os alunos. Use as ajudas de tarefa 
    *Adicionar novo idioma para um conteúdo*
 
 1. Repita o processo de upload da ajuda de tarefa para os novos idiomas.
-1. Se quiser remover um idioma, selecione a guia Adicionar novo idioma e limpe a seleção.
+1. Se quiser remover um idioma, selecione o **[!UICONTROL Adicionar novo idioma]** e limpe a seleção.
 
    Depois de fazer as alterações, selecione Salvar.
 

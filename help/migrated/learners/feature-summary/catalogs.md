@@ -3,14 +3,13 @@ description: Saiba como usar os catálogos no Learning Manager para visualizar o
 jcr-language: en_us
 title: Catálogos
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
-
-
 
 # Catálogos
 
@@ -22,7 +21,7 @@ Os alunos podem exibir todos os objetos de aprendizado atribuídos e qualificado
 
 É possível filtrar a lista de objetos de aprendizado usando habilidades e tipo de objetos de aprendizado (ritmo individualizado, misto, sala de aula, sala de aula virtual, atividade). Também é possível filtrar usando as opções no painel esquerdo: por objetos de aprendizado, por habilidades e pelo status de conclusão.
 
-Use a barra de pesquisa na parte superior da página para inserir os nomes dos objetos de aprendizado comuns.
+Use a barra de pesquisa na parte superior da página para inserir os nomes dos objetos de aprendizado comuns. Os alunos podem alternar entre a exibição em grade e em lista selecionando essa opção ![](assets/icon-list.png) ícone.
 
 ![](assets/catalogs.png)
 *Exibir catálogos*
