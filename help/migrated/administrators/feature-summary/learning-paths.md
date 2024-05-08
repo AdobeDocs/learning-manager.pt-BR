@@ -4,9 +4,9 @@ title: Caminhos de aprendizado
 description: Criação de planos de aprendizado para administradores no Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1970'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,10 @@ Você pode adicionar habilidades e atribuir uma medalha ao Caminho de aprendizad
 ![](assets/add-skills.png)
 
 Atribua uma medalha ao Caminho de aprendizado. Escolha uma medalha da lista de medalhas disponíveis.
+
+Selecione o nível de produtos, funções e funções na **[!UICONTROL Recomendar para]** para sugerir esse caminho de aprendizado aos usuários que expressaram interesse nesses produtos e funções.
+
+![](assets/recommend-for.png)
 
 Escolha o tipo de sequenciamento para as seções e treinamentos como Ordenado ou Não ordenado de acordo com a sua preferência.
 
