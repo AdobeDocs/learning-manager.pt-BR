@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Gerenciar funções personalizadas através de arquivos CSV
 description: O administrador de integração pode adicionar várias funções personalizadas em massa à conta através do CSV, além de atribuir as mesmas a vários usuários. Essa abordagem automatiza o processo de criação de funções personalizadas.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 83%
 
 ---
-
-
 
 # Gerenciar funções personalizadas através de arquivos CSV
 
@@ -18,7 +17,7 @@ O administrador de integração pode adicionar várias funções personalizadas 
 
 Você pode configurar funções usando os conectores de FTP e do Box no Learning Manager.
 
-Depois de entrar na sua conta de armazenamento Box ou ExaVault, o administrador de integração pode adicionar os CSVs a seguir na conta:
+Depois de fazer logon na conta de armazenamento do Box, o administrador de integração pode adicionar os seguintes csvs à conta:
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ Depois de entrar na sua conta de armazenamento Box ou ExaVault, o administrador 
 Para começar, baixe os CSVs e altere os valores de acordo com seus requisitos.
 
 **role.csv**
-[Arquivo de exemplo - role.csv](assets/role.csv) [Arquivo de exemplo- user_role.csv](assets/user-role.csv)
+* Arquivo de exemplo: [role.csv](assets/role.csv)
+* Arquivo de exemplo: [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ Os nomes de catálogo ou nomes de grupo de usuários fornecidos no CSV serão su
 * Planos de aprendizado
 * Modelos de e-mail
 
-## Adicionar os CSVs de função na conta {#addtherolecsvsintheaccount}
+## Adicione os CSVs de função na conta {#addtherolecsvsintheaccount}
 
 Na sua conta Box, escolha **Import > user> internal** e carregue os arquivos role.csv e user_role.csv.
 
