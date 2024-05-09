@@ -3,59 +3,15 @@ jcr-language: en_us
 title: Requisitos do sistema
 description: Requisitos de sistema do Adobe Learning Manager
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 65%
 
 ---
 
-
 # Requisitos de sistema do Adobe Learning Manager
-
-## Windows {#windows}
-
-Microsoft Windows 7, 8, 10 (somente versões de 64 bits).
-
-## macOS {#macos}
-
-macOS X 10.12, 10.13, 10.14, 10.15
-
-## RAM
-
-8 GB de RAM.
-
-## Tela
-
-Resolução mínima suportada - 1024 x 720.
-
-## Espaço em disco
-
-Mínimo de 5 GB de espaço em disco disponível.
-
-## Gravação
-
-* Microfone necessário para gravação de áudio.
-* Webcam necessária para gravação de vídeo.
-
-## Diversos
-
-São necessárias uma conexão ativa com a Internet e uma conta de aluno do Adobe Learning Manager para usar o aplicativo.
-
-## Especificações do navegador
-
-A página inicial de layout imersivo não é compatível com navegadores IE 11.
-
-* Versão 43 do Google Chrome e posterior.
-* Versões mais recentes do Edge, Safari (versão 13 e posterior) e Firefox.
-* Internet Explorer versão 11 e posterior
-
-## Tamanho recomendado das imagens {#recommendedsizeofimages}
-
-* Manchete: 1280 x 360 px.
-* Imagem no cartão de catálogo: 280 x 100 px
-* Dimensão do cartão de treinamento: 300 x 240 px
-* Banner social: 1600 x 240 px
 
 ## Desktop
 
@@ -114,6 +70,25 @@ Mínimo de 5 GB de espaço em disco disponível.
 >[!NOTE]
 >
 >O aplicativo móvel do Learning Manager é compatível somente com a função do aluno.
+
+## Diversos
+
+São necessárias uma conexão ativa com a Internet e uma conta de aluno do Adobe Learning Manager para usar o aplicativo.
+
+## Especificações do navegador
+
+A página inicial de layout imersivo não é compatível com navegadores IE 11.
+
+* Versão 43 do Google Chrome e posterior.
+* Versões mais recentes do Edge, Safari (versão 13 e posterior) e Firefox.
+* Internet Explorer versão 11 e posterior
+
+## Tamanho recomendado das imagens {#recommendedsizeofimages}
+
+* Manchete: 1280 x 360 px.
+* Imagem no cartão de catálogo: 280 x 100 px
+* Dimensão do cartão de treinamento: 300 x 240 px
+* Banner social: 1600 x 240 px
 
 ## Tamanho máximo de conteúdo {#maximumcontentsize}
 

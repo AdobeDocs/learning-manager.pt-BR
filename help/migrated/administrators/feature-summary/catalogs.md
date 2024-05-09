@@ -4,9 +4,9 @@ title: Catálogos
 description: Os catálogos são uma coleção de aprendizado - cursos, programas de aprendizado e certificações. Use os catálogos para proporcionar acesso a um conjunto personalizado de aprendizado aos alunos. Você pode associar o aprendizado a um catálogo durante a criação de um novo catálogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2453'
 ht-degree: 75%
 
 ---
@@ -56,7 +56,7 @@ Para criar um catálogo, execute as seguintes etapas:
    *Criar um catálogo*
 
    Você pode adicionar vários cursos ao catálogo.
-
+1. Você pode filtrar os cursos por habilidades, funções e idioma. O curso selecionado será recomendado aos alunos interessados nessas habilidades e funções.
 1. Salve as alterações. Volte para a lista de catálogos e clique no novo catálogo da lista.
 1. Na página do novo catálogo, no painel esquerdo, clique em **[!UICONTROL Conteúdo]**.
 
@@ -134,7 +134,7 @@ Cursos, programas de aprendizado, ajudas de tarefa e certificações são objeto
 
 ### Compartilhar catálogos
 
-Este treinamento ensinará como compartilhar catálogos com grupos de usuários internos e contas externas do Adobe Learning Manager.
+Este treinamento ensinará como compartilhar catálogos com grupos de usuários internos e contas externas da Adobe Learning Manager.
 
 [![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 

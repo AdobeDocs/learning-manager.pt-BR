@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '6629'
-ht-degree: 63%
+source-wordcount: '6931'
+ht-degree: 60%
 
 ---
 
@@ -23,107 +23,17 @@ O processo de geração de relatórios é o semelhante para o administrador e pa
 
 Os relatórios são agregados em um painel. Um relatório deve existir dentro de um painel. A **[!UICONTROL Painel padrão]** existe por padrão na página relatórios. Qualquer relatório adicionado por você é movido para este painel padrão. Para adicionar relatórios a painéis de controle individuais, use a seta suspensa e escolha **[!UICONTROL Adicionar relatório]**. Para obter mais informações sobre como criar painéis, consulte a seção Painéis nesta página.
 
-## Painéis de resumo do aprendizado {#dashboards}
+## Tipos de relatórios {#typesofreports}
 
-### Gerar Relatórios do Painel
+O Adobe Learning Manager é compatível com quatro tipos principais de relatório, por exemplo, conclusão, tempo gasto, habilidades e eficácia. Você pode usar os seguintes tipos de relatório para gerar relatórios de mais de 300 variações:
 
-Neste treinamento, você aprenderá a gerar relatórios do painel a partir do banco de dados.
-
-[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
-
-Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
-
-Veja um relatório resumido de todas as atividades de aprendizado na plataforma. Nesta página, você pode ver as seguintes informações de resumo para a equipe do usuário raiz selecionado e seus perfis externos. O intervalo de tempo também pode ser selecionado:
-
-* Resumo do aprendizado na forma de Inscrições, Exibições e Conclusões
-* Principais habilidades
-* Resumo de conformidade
-
-![](assets/summary-charts.png)
-*Gráficos de resumo*
-
-Se houver gerenciadores de nível raiz internos, eles serão exibidos um após o outro.
-
-Todos os perfis externos serão listados após os perfis internos (usuários internos de nível raiz).
-
-Se um perfil externo tiver um gerente, a hierarquia do gerente será exibida na **[!UICONTROL Mostrando Dados Para]** lista suspensa. O usuário será listado na hierarquia do gerente em todas as páginas de detalhes (resumo do aprendizado, conformidade e status da habilidade)
-
-Caso contrário, todos os detalhes de usuário individuais serão exibidos na lista.
-
-Para ver detalhes mais granulares das inscrições de várias equipes internas, clique em **[!UICONTROL Detalhes do Resumo do Aprendizado]**.
-
-![](assets/learning-sunnarydetails.png)
-*Detalhes do Resumo do aprendizado*
-
-Ao clicar em qualquer inscrição, você pode ver os alunos de cada gerente e a inscrição em quais objetos de aprendizado. Você também pode ver os detalhes de andamento e conclusão de cada aluno.
-
-![](assets/learners-for-a-manager.png)
-*alunos atribuídos a um gerente*
-
-Clique em qualquer equipe e exporte seu relatório como CSV. Um administrador pode exportar o relatório de qualquer grupo de usuários ou usuário individual selecionando o grupo de usuários ou usuário individual e, em seguida, exportar detalhes da **[!UICONTROL Ação]** lista suspensa.
-
-Além disso, você pode ver um gráfico de barras que mostra as habilidades que estão em andamento e foram obtidas. Você pode adicionar/remover habilidades que deseja destacar no gráfico.
-
-![](assets/skill-status-stackedbarchart.png)
-*Gráfico de barras empilhadas do status da habilidade*
-
-Na visualização final, você pode verificar o status da conformidade dos alunos e tomar as medidas apropriadas.
-
-Além disso, um administrador pode exibir dados de treinamento individuais na **[!UICONTROL Painel de Conformidade]**.
-
-Por exemplo: o administrador identificou três treinamentos para controlar a conformidade. O Learning Manager fornece a captura de tela da conformidade para todos os três treinamentos de uma só vez.
-
-Agora um administrador pode clicar em qualquer treinamento e visualizar rapidamente a conformidade do treinamento selecionado.
-
-![](assets/compliance-dashboard.png)
-*Exibir painel de Conformidade*
-
-Você também pode ver o status da conformidade de cada equipe interna.
-
-Clique no link **[!UICONTROL Detalhes do Status de Conformidade]** na parte inferior da visualização.
-
-É possível ver que, para uma equipe, o número de alunos está violando ou respeitando a conformidade com o aprendizado.
-
-![](assets/compliance-statusofateam.png)
-*Status de conformidade de uma equipe*
-
-## Compartilhar treinamento com gerentes
-
-O Learning Manager oferece um painel de conformidade para todos os administradores e gerentes. Os gerentes acham muito útil controlar a conformidade dos membros da equipe para um treinamento específico. Ao mesmo tempo, os administradores gostariam que todos os gerentes adicionassem treinamentos de conformidade ao painel e os monitorassem.
-
-No Learning Manager, o **[!UICONTROL Compartilhar com Gerentes]** O fluxo de trabalho permite que os administradores compartilhem treinamentos com gerentes, para que eles possam ser adicionados ao Painel de conformidade de um gerente. Assim, os gerentes não precisam realizar nenhuma ação e podem começar a monitorar a conformidade imediatamente.
-
-Um administrador pode compartilhar um conjunto de cursos de treinamento com gerentes individualmente ou com um grupo. Esse compartilhamento pode ajudar um gerente a controlar facilmente a conformidade de sua equipe com o treinamento especificado.
-
-O administrador pode “enviar” uma lista padrão de treinamento de conformidade para ser exibida no painel de conformidade do gerente.
-
-### Compartilhar treinamento
-
-1. Entrada **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]**, role para baixo e clique na guia **[!UICONTROL Compartilhar com Gerentes]**.
-
-   ![](assets/share-with-managers.png)
-   *Compartilhar treinamento com gerentes*
-
-1. Para adicionar treinamento ou vários treinamentos, clique em **[!UICONTROL Compartilhar mais]**.
-
-1. No menu **[!UICONTROL Compartilhar com Gerentes]** escolha o(s) treinamento(s) e o(s) gerente(s).
-
-   ![](assets/select-training.png)
-   *Selecionar treinamento para compartilhar com gerentes*
-
-1. Clique em **[!UICONTROL Compartilhar]**.
-
-O treinamento é compartilhado com o gerente especificado.
-
-### Exibir treinamento
-
-Na lista de treinamento compartilhado, clique em **[!UICONTROL Exibir]**. Você pode ver o treinamento atribuído a um gerente ou a alguns gerentes.
-
-### Retirar treinamento
-
-1. Para remover o treinamento de um gerente, clique em **[!UICONTROL Retirar]**.
-
-1. Clique em **[!UICONTROL Continuar]**. Isso retira o treinamento compartilhado anteriormente do painel de conformidade do gerente.
+* Estatísticas de entrega do curso para Alunos
+* Relatório da eficácia dos cursos
+* Relatório baseado na habilidade do aluno
+* Estatísticas de inscrição no programa de aprendizado para Alunos
+* Tempo gasto no aprendizado pelos Alunos
+* Pontuação do aluno
+* Conclusão da certificação
 
 ## Painéis de atividades do usuário {#useractivitydashboards}
 
@@ -137,7 +47,7 @@ O painel de atividades do usuário exibe a atividade dos usuários na conta. Os 
 
 * **Relatório de tempo gasto no aprendizado:** Este relatório fornece informações sobre o Tempo gasto no aprendizado na plataforma diariamente. O relatório mensal também está disponível.
 
-## Usuários registrados {#registeredusers}
+### Usuários registrados {#registeredusers}
 
 O Learning Manager registra o número de usuários registrados no sistema todas as semanas. Os administradores podem visualizar este relatório para entender a contagem de usuários registrados naquele dia da semana. Uma vez armazenada por uma semana, a contagem registrada não se altera. Portanto, a contagem histórica registrada não está relacionada ao conjunto atual de alunos no sistema.
 
@@ -156,7 +66,7 @@ Este relatório mostra a contagem de alunos ativos na plataforma de aprendizado 
 
 A contagem mensal ativa, uma vez contada e armazenada por um mês, não se altera. Portanto, a contagem histórica exibida não está relacionada ao conjunto atual de alunos no sistema.
 
-## Visitas do usuário {#uservisits}
+### Visitas do usuário {#uservisits}
 
 Este relatório mostra o total de alunos acessando o sistema diária ou mensalmente. Navegar na plataforma de aprendizado sem realizar nenhum aprendizado também é considerado como &#39;acessar&#39; a plataforma de aprendizado. Isso ajuda o administrador a entender o conjunto total de usuários acessando o sistema. No primeiro dia do mês, o Learning Manager cria um registro do total de usuários acessando a plataforma no mês anterior. Ele também captura as informações do grupo de usuários para esses usuários.
 
@@ -167,7 +77,7 @@ Este relatório contém usuários que acessam a plataforma usando todos os forma
 ![](assets/user-visit-report.png)
 *Relatório de Visita do Usuário*
 
-## Relatório de tempo gasto no aprendizado {#learningtimespentreport}
+### Relatório de tempo gasto no aprendizado {#learningtimespentreport}
 
 Aqui, você pode ver um gráfico de linhas de eixo duplo que mostra o tempo total gasto no aprendizado para todos os alunos em um período de 12 meses. O segundo eixo representa o tempo mediano gasto no aprendizado para um indivíduo.
 
@@ -194,14 +104,14 @@ A data selecionada e o filtro do grupo de usuários são aplicados a todos os gr
 
 O painel de conteúdo de treinamento oferece informações sobre os treinamentos disponíveis na plataforma. Você pode visualizar treinamentos populares ou acompanhar todos os treinamentos disponíveis.
 
-## Relatórios de treinamento {#trainingsreport}
+### Relatórios de treinamento {#trainingsreport}
 
 Este relatório fornece informações do total de treinamentos disponíveis na plataforma (no estado publicado) mês a mês. Ele fornece uma indicação do número de treinamentos oferecidos ao longo do tempo.
 
 ![](assets/training-report.png)
 *Relatório de treinamento*
 
-## Relatório de treinamentos ativos {#activetrainingsreport}
+### Relatório de treinamentos ativos {#activetrainingsreport}
 
 Este relatório fornece informações sobre os treinamentos ativos no intervalo de tempo selecionado. Treinamentos ativos são treinamentos registrados, visualizados no reprodutor ou concluídos no tempo determinado.
 
@@ -275,17 +185,622 @@ O relatório de treinamento tem duas colunas adicionais:
 >
 >Para ambos os relatórios (Conteúdo de treinamento, Atividade do usuário), você pode configurar no máximo 10 grupos de usuários. Pode levar até 24 horas para o processamento ser concluído e disponibilizar os filtros recém-configurados.
 
-## Relatórios do painel {#dashboardreports}
+## Painéis de resumo do aprendizado {#dashboards}
 
-Um painel é uma coleção de relatórios. Os relatórios podem ser agrupados em um painel de acordo com sua escolha.
+### Gerar Relatórios do Painel
 
-## Relatórios de amostra {#samplereports}
+>[!INFO]
+>
+>Neste treinamento, você aprenderá a gerar relatórios do painel a partir do banco de dados.<br><br>[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)</br></br>
+
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
+
+Veja um relatório resumido de todas as atividades de aprendizado na plataforma. Nesta página, você pode ver as seguintes informações de resumo para a equipe do usuário raiz selecionado e seus perfis externos. O intervalo de tempo também pode ser selecionado:
+
+* Resumo do aprendizado na forma de Inscrições, Exibições e Conclusões
+* Principais habilidades
+* Resumo de conformidade
+
+![](assets/summary-charts.png)
+*Gráficos de resumo*
+
+Se houver gerenciadores de nível raiz internos, eles serão exibidos um após o outro.
+
+Todos os perfis externos serão listados após os perfis internos (usuários internos de nível raiz).
+
+Se um perfil externo tiver um gerente, a hierarquia do gerente será exibida na **[!UICONTROL Mostrando Dados Para]** lista suspensa. O usuário será listado na hierarquia do gerente em todas as páginas de detalhes (resumo do aprendizado, conformidade e status da habilidade)
+
+Caso contrário, todos os detalhes de usuário individuais serão exibidos na lista.
+
+Para ver detalhes mais granulares das inscrições de várias equipes internas, clique em **[!UICONTROL Detalhes do Resumo do Aprendizado]**.
+
+![](assets/learning-sunnarydetails.png)
+*Detalhes do Resumo do aprendizado*
+
+Ao clicar em qualquer inscrição, você pode ver os alunos de cada gerente e a inscrição em quais objetos de aprendizado. Você também pode ver os detalhes de andamento e conclusão de cada aluno.
+
+![](assets/learners-for-a-manager.png)
+*alunos atribuídos a um gerente*
+
+Clique em qualquer equipe e exporte seu relatório como CSV. Um administrador pode exportar o relatório de qualquer grupo de usuários ou usuário individual selecionando o grupo de usuários ou usuário individual e, em seguida, exportar detalhes da **[!UICONTROL Ação]** lista suspensa.
+
+Além disso, você pode ver um gráfico de barras que mostra as habilidades que estão em andamento e foram obtidas. Você pode adicionar/remover habilidades que deseja destacar no gráfico.
+
+![](assets/skill-status-stackedbarchart.png)
+*Gráfico de barras empilhadas do status da habilidade*
+
+Na visualização final, você pode verificar o status da conformidade dos alunos e tomar as medidas apropriadas.
+
+Além disso, um administrador pode exibir dados de treinamento individuais na **[!UICONTROL Painel de Conformidade]**.
+
+Por exemplo: o administrador identificou três treinamentos para controlar a conformidade. O Learning Manager fornece a captura de tela da conformidade para todos os três treinamentos de uma só vez.
+
+Agora um administrador pode clicar em qualquer treinamento e visualizar rapidamente a conformidade do treinamento selecionado.
+
+![](assets/compliance-dashboard.png)
+*Exibir painel de Conformidade*
+
+Você também pode ver o status da conformidade de cada equipe interna.
+
+Clique no link **[!UICONTROL Detalhes do Status de Conformidade]** na parte inferior da visualização.
+
+É possível ver que, para uma equipe, o número de alunos está violando ou respeitando a conformidade com o aprendizado.
+
+![](assets/compliance-statusofateam.png)
+*Status de conformidade de uma equipe*
+
+### Compartilhar treinamento com gerentes
+
+O Learning Manager oferece um painel de conformidade para todos os administradores e gerentes. Os gerentes acham muito útil controlar a conformidade dos membros da equipe para um treinamento específico. Ao mesmo tempo, os administradores gostariam que todos os gerentes adicionassem treinamentos de conformidade ao painel e os monitorassem.
+
+No Learning Manager, o **[!UICONTROL Compartilhar com Gerentes]** O fluxo de trabalho permite que os administradores compartilhem treinamentos com gerentes, para que eles possam ser adicionados ao Painel de conformidade de um gerente. Assim, os gerentes não precisam realizar nenhuma ação e podem começar a monitorar a conformidade imediatamente.
+
+Um administrador pode compartilhar um conjunto de cursos de treinamento com gerentes individualmente ou com um grupo. Esse compartilhamento pode ajudar um gerente a controlar facilmente a conformidade de sua equipe com o treinamento especificado.
+
+O administrador pode “enviar” uma lista padrão de treinamento de conformidade para ser exibida no painel de conformidade do gerente.
+
+### Compartilhar treinamento
+
+1. Entrada **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]**, role para baixo e clique na guia **[!UICONTROL Compartilhar com Gerentes]**.
+
+   ![](assets/share-with-managers.png)
+   *Compartilhar treinamento com gerentes*
+
+1. Para adicionar treinamento ou vários treinamentos, clique em **[!UICONTROL Compartilhar mais]**.
+
+1. No menu **[!UICONTROL Compartilhar com Gerentes]** escolha o(s) treinamento(s) e o(s) gerente(s).
+
+   ![](assets/select-training.png)
+   *Selecionar treinamento para compartilhar com gerentes*
+
+1. Clique em **[!UICONTROL Compartilhar]**.
+
+O treinamento é compartilhado com o gerente especificado.
+
+### Exibir treinamento
+
+Na lista de treinamento compartilhado, clique em **[!UICONTROL Exibir]**. Você pode ver o treinamento atribuído a um gerente ou a alguns gerentes.
+
+### Retirar treinamento
+
+1. Para remover o treinamento de um gerente, clique em **[!UICONTROL Retirar]**.
+
+1. Clique em **[!UICONTROL Continuar]**. Isso retira o treinamento compartilhado anteriormente do painel de conformidade do gerente.
+
+## Relatórios personalizados
+
+Os administradores podem gerar relatórios específicos usando o modelo personalizado disponível no **[!UICONTROL Relatórios]** seção.
+
+### Relatórios de amostra {#samplereports}
 
 A guia **[!UICONTROL Relatórios de amostra]** mostra alguns relatórios indicativos que estão baseados em pontos de dados de amostra. Explore esses relatórios para ter uma ideia dos diferentes tipos de relatórios com recursos avançados que você pode gerar usando os dados da sua conta.
 
-## Relatórios do painel {#DashboardReports-1}
+### Relatórios do painel {#dashboardreports}
 
-Para exibir todos os painéis que você criou, clique nesta guia de painel. Na guia **[!UICONTROL Exibir painel]** , você pode selecionar o painel padrão ou um painel que criou.
+Um painel é uma coleção de relatórios. Os relatórios podem ser agrupados em um painel de acordo com sua escolha. Para exibir todos os painéis que você criou, clique nesta guia de painel. Na guia **[!UICONTROL Exibir painel]** , você pode selecionar o painel padrão ou um painel que criou.
+
+### Relatórios do Excel {#excelreports}
+
+A guia **[!UICONTROL Relatórios do Excel]** permite exportar relatórios no formato de arquivo XLS.
+
+Estes são os tipos de relatório disponíveis para download.
+
+* Relatórios do curso
+* Transcrições do aluno
+* Relatório de comunicados
+* Relatório de ajudas de tarefa
+* Registro de auditoria do conteúdo
+* Registro de auditoria do usuário
+* Relatório de logon/acesso
+* Transcrições da gamificação
+* Trilha de Auditoria de Gamificação
+
+### Transcrições do aluno {#learnertranscripts}
+
+As transcrições do aluno nos relatórios do Excel exibem as colunas Créditos necessários e Créditos obtidos em números decimais.
+
+### Relatórios do curso {#coursereports}
+
+Como administrador, você pode baixar relatórios dos cursos. Siga estas etapas:
+
+1. Abrir **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatórios do curso]**.
+1. A caixa de diálogo **[!UICONTROL Relatório do curso]** é exibida. Selecione o curso do que deseja obter o relatório e clique em **[!UICONTROL Mostrar]**.
+
+   ![](assets/course-reports.png)
+   *Relatórios do curso*
+
+1. Você será redirecionado para a página do curso. Você pode exportar a pontuação do quiz por usuário e por pergunta com base em cada inscrição escolhendo o tipo de inscrição específico.
+1. Selecione **[!UICONTROL Exportar pontuação do questionário]** para exportar o relatório. É exibida a caixa de diálogo **[!UICONTROL Gerar solicitação de relatório]**. Clique em **[!UICONTROL OK]** para confirmar.
+
+   ![](assets/generating-reportrequest.png)
+   *Gerando solicitação de relatório*
+
+   >[!NOTE]
+   >
+   >O relatório exportado da pontuação do questionário conterá os detalhes da pontuação de cada tentativa se a opção de várias tentativas estiver configurada no módulo.
+
+### Transcrições do aluno {#LearnerTranscripts-1}
+
+O Adobe Learning Manager permite que os administradores de uma organização gerem transcrições associadas aos alunos. O relatório de transcrição do aluno contém o seguinte:
+
+1. Transcrição do aluno: Painel da atividade de aprendizado
+1. Habilidade: painel de habilidade
+1. Painel de conformidade
+
+As transcrições do aluno nos relatórios do Excel exibem as colunas Créditos necessários e Créditos obtidos em números decimais.
+
+Para obter informações sobre a geração de relatórios das transcrições dos alunos e mais informações, consulte [Transcrições do aluno](learner-transcripts.md).
+
+### Relatórios de comunicados {#announcementsreports}
+
+Como administrador, você pode gerar um relatório de todos os comunicados que você enviou. O relatório traz detalhes sobre:
+
+* Tipo de comunicado
+* Nome do comunicado
+* Data do comunicado
+* Estado do comunicado
+* Nome do aluno
+
+Para baixar um relatório, siga qualquer uma dessas etapas:
+
+1. Abrir **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatório de comunicados]**. O **[!UICONTROL Gerando solicitação de relatório]** é aberta. Clique em Ok.
+1. [!UICONTROL **Comunicados**] > [!UICONTROL **Ações**] > [!UICONTROL **Exportar relatório**].
+
+   ![](assets/announcements.png)
+   *Relatório de comunicados*
+
+1. Você pode extrair um relatório para um comunicado específico clicando em **[!UICONTROL Exportar relatório]** no ícone configurações.
+
+   ![](assets/announcements-specific-report.png)
+   *Relatório de anúncios específicos*
+
+### Relatório de ajudas de tarefa {#jobaidsreport}
+
+As ajudas de tarefa são um conteúdo de treinamento a que os alunos podem ter acesso sem ter de se inscrever em um objeto de aprendizado específico, como um curso ou programa de aprendizado. Os administradores podem extrair e baixar relatórios das ajudas de tarefa.
+
+O relatório extraído inclui informações sobre o seguinte:
+
+* Nome
+* Tipo de ajuda de tarefa
+* Estado da ajuda de tarefa (publicada ou retirada)
+* Data da inscrição
+* Data de conclusão
+* Data de download
+* Nome do aluno
+* Nome do gerente
+* Criado por
+
+Para baixar um relatório, siga um destes procedimentos:
+
+* Abrir  **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatórios de ajuda de tarefa]**. É exibida a caixa de diálogo **[!UICONTROL Gerar solicitação de relatório]**. Clique em **[!UICONTROL Ok]**.
+* Abrir **[!UICONTROL Ajuda de tarefa]** > **[!UICONTROL Ações]** > **[!UICONTROL Exportar relatório]**.
+
+![](assets/job-aids.png)
+*Relatório de ajudas de tarefa*
+
+* Você também pode extrair um relatório de uma ajuda de tarefa específica clicando em **[!UICONTROL Exportar relatório]** no ícone de configurações.
+
+![](assets/job-aid-specific-download.png)
+*Relatório de ajuda de tarefa específica*
+
+### Relatório de ajudas de tarefa
+
+Depois de selecionar **[!UICONTROL Relatório de ajudas de tarefa]** na lista, você verá duas opções:
+
+![relatório de ajudas de tarefa](assets/job-aids-new.png)
+*Baixar Relatório de Inscrição de Usuários de Ajudas de Tarefa*
+
+**Todas as ajudas de tarefa**: se o número de ajudas de tarefa na conta for inferior a 10 milhões, o relatório gerado conterá informações de inscrição de todas as ajudas de tarefa. Essa será a seleção padrão. Se o número de linhas exceder 10 milhões, será exibido um erro, e você deverá selecionar manualmente as ajudas de tarefa necessárias.
+
+**Ajudas de tarefa selecionadas**: Se você selecionar essa opção, poderá informar as ajudas de tarefa para as quais deseja gerar o relatório. Você pode selecionar no máximo 10 ajudas de tarefa. A Adobe Learning Manager verifica se o número de ajudas de tarefa excede 10 milhões.
+
+![inscrição no relatório de ajudas de tarefa](assets/job-aids-2-new.png)
+*Selecionar uma ajuda de tarefa*
+
+**Relatório de ajudas de tarefa**
+
+Se você selecionar essa opção, os detalhes de todas as ajudas de tarefa presentes no sistema, juntamente com seus metadados e treinamento, serão baixados.
+
+O relatório baixado consiste nos seguintes campos:
+
+* Nome da ajuda de tarefa
+* Idioma(s)
+* ID
+* Tipo
+* Duração (minutos)
+* Estado
+* Data de publicação (Fuso horário central da Europa)
+* Criado por nome
+* Criado por e-mail
+* Criado por ID exclusiva do usuário
+* Catálogo(s)
+* Caminho(s) de aprendizado
+* Curso(s)
+* Marca(s)
+* Habilidade(s)
+
+**Relatório de inscrição do usuário de ajudas de tarefa**
+
+O relatório de inscrição contém detalhes sobre a inscrição do usuário e outras informações.
+
+O relatório baixado consiste nos seguintes campos:
+
+* Nome da ajuda de tarefa
+* Tipo
+* Estado
+* Data de inscrição (fuso horário UTC)
+* Data de conclusão (fuso horário UTC)
+* Data do download (fuso horário UTC)
+* Nome do aluno
+* Email
+* ID exclusiva do usuário
+* Nome do gerente
+* E-mail do gerente
+* ID exclusiva do usuário do gerente
+* Atribuído por nome
+* Atribuído por e-mail
+* Atribuído por ID exclusiva do usuário
+* Criado por nome
+* Criado por e-mail
+* Criado por ID exclusiva do usuário
+* Código da tarefa
+* Novo campo
+* Perfil
+
+### Relatórios de registros de auditoria do conteúdo {#contentaudittrailreports}
+
+Use o **[!UICONTROL Registro de auditoria do conteúdo]** gerador de relatórios para gerar um relatório de todas as alterações e edições feitas em um curso durante sua vida útil no sistema. O relatório gerado tem as seguintes informações.
+
+* ID do objeto
+* Nome do objeto
+* Tipo de objeto
+* Tipo de modificação
+* Descrição
+* ID do objeto referenciado
+* Nome do objeto referenciado
+* Modificado por nome de usuário
+* Modificado por ID de usuário
+* Data da modificação (fuso horário do Horário Universal Coordenado)
+
+As informações que dizem respeito aos metadados não são obtidas no relatório gerado.
+
+Para gerar um relatório de registro de auditoria do curso, siga estas etapas.
+
+1. Selecionar **[!UICONTROL Denunciar]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Trilha de auditoria do curso]**. É exibida a caixa de diálogo **[!UICONTROL Registro de auditoria do conteúdo]**.
+
+   ![](assets/course-audit-trial.png)
+   *Trilha de auditoria do curso*
+
+1. Selecione o curso, o programa de aprendizado e a certificação para os quais deseja baixar o relatório. Se não especificado, todos os relatórios são baixados por padrão.
+1. Selecione um intervalo de datas para o relatório e clique em **[!UICONTROL Gerar]**.
+1. O relatório é gerado e você é notificado de que o relatório de auditoria do conteúdo está pronto. Você pode baixar o relatório.
+
+### Relatórios de registros de auditoria do usuário {#useraudittrailreports}
+
+A trilha de auditoria do usuário captura o ciclo de vida de usuários, grupos de usuários e perfis de autorregistro. Adições, exclusões, alterações de usuários no Gerente, são todas capturadas. A criação e exclusão de perfis de autorregistro também são registradas. Você também pode pausar e continuar o perfil de autorregistro.
+
+Nos perfis externos é possível adicionar, habilitar, desabilitar, pausar ou continuar enquanto que no autorregistro é possível adicionar, excluir, pausar e continuar. Os uploads de CSV também são capturados.
+
+1. Selecionar  **[!UICONTROL Relatório > Relatório do Excel > Trilha do usuário]**. A caixa de diálogo Registro de auditoria do usuário é exibida.
+1. É exibida a caixa de diálogo Registro de auditoria do usuário. Selecione o intervalo de data no menu pop-up. Você pode optar por gerar o relatório da última semana, do último mês ou pode selecionar uma data personalizada.
+
+   ![](assets/user-audit-trail.png)
+   *Trilha de auditoria do usuário*
+
+1. Clique em **[!UICONTROL Gerar]** para gerar o relatório.
+
+Há dois filtros na caixa de diálogo **[!UICONTROL Relatório de registro de auditoria do usuário]**.
+
+**Filtro de classificação por data:** Escolha a faixa de datas para a qual deseja gerar o relatório. Há três opções:
+
+* Última semana
+* Último mês
+* Data personalizada
+
+Selecione o filtro Alunos: pesquise um usuário ou um grupo de usuários.
+
+O relatório exportado conterá dados de usuários que atenderem aos critérios de pesquisa especificados.
+
+![](assets/user-audit-trail.png)
+*Trilha de auditoria do usuário*
+
+>[!NOTE]
+>
+>Quando uma habilidade é atribuída ou removida, ela pode ser rastreada para o Relatório de auditoria do usuário para atribuída ou removida.
+
+### Relatório de configuração de extensão
+
+Este relatório fornece informações sobre os detalhes de configuração de todas as extensões nativas adicionadas, incluindo o estado de ativação. Saiba como baixar o relatório de extensões, consulte [Baixar relatório de extensão](native-extensibility.md#download-extension-report).
+
+### Relatório de atividades da xAPI
+
+Este relatório fornece os dados de todas as instruções xAPI registradas e geradas durante os módulos de atividade da xAPI.
+
+Para baixar esse relatório, siga estas etapas:
+
+1. Selecionar  **[!UICONTROL Relatório > Relatório do Excel > Relatório de atividades da xAPI]**. A caixa de diálogo Relatório de atividades da xAPI é exibida.
+1. Selecione o intervalo de data no menu pop-up. Você pode optar por gerar o relatório da última semana, do último mês ou pode selecionar uma data personalizada.
+1. Selecione os alunos e a atividade no menu suspenso.
+1. Selecionar **[!UICONTROL Gerar]** para gerar o relatório.
+
+### Relatórios de gamificação {#gamification}
+
+Os administradores podem baixar a transcrição da gamificação no formato CSV. Você pode baixar o relatório para usuários individuais ou grupos de usuários. Nome do usuário, email do usuário, UUID do usuário, total de pontos do usuário pontuados, divisão de pontos coletados, nome dos grupos que o usuário joga, nome do gerente e valores de campo ativos são todos obtidos no relatório. Os administradores podem usar esse relatório para avaliar e entender as classificações do usuário no âmbito da empresa ou em um grupo específico.
+
+1. Selecione Relatório > Relatório do Excel > Relatório de gamificação.
+
+   ![](assets/gamification.png)
+   *Relatório de gamificação*
+
+1. É exibida a caixa de diálogo Transcrições da gamificação. Selecione alunos usando seu nome, perfil, grupos de usuários, ID de e-mail ou UUID.
+
+   ![](assets/gamification-transcriptsdialog.png)
+   *Caixa de diálogo Transcrições de gamificação*
+
+1. Clique em  **[!UICONTROL Gerar]** para gerar o relatório.
+
+   Depois de gerar o relatório de um aluno, você deve ser capaz de exportar as informações atuais e de nível alcançado para todos os usuários (internos, externos ou excluídos) na conta. Você também pode verificar as datas dos níveis atingidos por um aluno:
+
+   * Data de obtenção do bronze
+   * Data de obtenção da prata
+   * Data de obtenção do ouro
+   * Data de obtenção da platina
+
+   Essas colunas contêm as datas em que o nível foi atingido pela primeira vez. A coluna **[!UICONTROL Nível atual]** exibe o nível atual do aluno.
+
+   Quando o administrador redefine a gamificação, todos os pontos do aluno são redefinidos adequadamente.
+
+### Relatório de trilha de auditoria de gamificação {#gamification-audit-trail}
+
+Este relatório contém o histórico e os motivos dos pontos de gamificação dos alunos obtidos para cada regra.
+
+### Baixar o relatório
+
+1. Selecione o URL da trilha de auditoria de gamificação.
+1. Na guia **Trilha de auditoria de gamificação** , selecione o intervalo de datas.
+1. Selecionar **Gerar**.
+
+O relatório é baixado como um arquivo CSV. O arquivo contém as seguintes colunas:
+
+* Nome
+* Email/ UUID,
+* Status
+* Ação
+* Pontos,
+* Pontos de Equilíbrio
+* Regra/Tarefa
+* Subtarefa de Regra/Tarefa,
+* Detalhes de regra/tarefa
+* Tipo,
+* Nome,
+* Data da Nome da Instância Obtida (Fuso Horário UTC)
+* Hora de Início da Regra/ Tarefa
+* Hora de Término da Regra/ Tarefa
+
+### Relatório de inscrição e cancelamento de inscrição {#enrollmentandunenrollmentreport}
+
+Os administradores e gerentes podem extrair um relatório dos alunos que foram inscritos e cancelados. Como administrador, você pode ver qualquer aluno, administrador ou gerente que se inscreveu ou cancelou a inscrição em uma instância de um curso, de um programa de aprendizado ou de uma certificação, bem como exportar o relatório. Enquanto gerente, você só pode obter um relatório dos membros da sua equipe. Como gerente, você não pode ver os alunos excluídos ou seu próprio nome no aplicativo do gerente como um aluno inscrito ou não inscrito.
+
+Para baixar um relatório, siga estas etapas: Abrir o  **[!UICONTROL Curso/Programa de aprendizado/Certificação]** > **[!UICONTROL Alunos]** > **[!UICONTROL Ação]** > **[!UICONTROL Exportar relatório]**.
+
+![](assets/unenrollment.png)
+*Relatório de cancelamento de inscrição*
+
+### Relatório de feedback {#feedback-report}
+
+Como administrador, você pode buscar o feedback do aluno (L1) e o feedback do gerente (L3) para treinamentos selecionados por um período especificado.
+
+Você pode exportar os dados da interface do usuário ou por meio do conector PowerBI para uma análise mais detalhada.
+
+Os relatórios de feedback L1 e L3 oferecem uma opção de download de um relatório de feedback consolidado para as respostas L1 e L3 para treinamentos selecionados para um **um ano** ou até 10 treinamentos selecionados para qualquer período.
+
+Faça logon como administrador e clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** e, na lista de relatórios, clique em **[!UICONTROL Relatório de feedback]**.
+
+![](assets/download-feedbackreport.png)
+*Baixar relatório de feedback*
+
+Ao clicar em Baixar após selecionar os filtros, você receberá uma notificação para baixar o relatório no formato CSV.
+
+O relatório baixado terá detalhes como nome e tipo do treinamento, nome da instância, nome do aluno e e-mail, tipo de feedback: L1 ou L3, datas do feedback enviado para novos dados.
+
+Para os dados existentes antes da implementação desse recurso, a data de conclusão do OA será exibida, a data de conclusão do OA, o texto real do Ritmo do próprio comentário da pergunta L1 e o Texto da sala de aula em colunas diferentes, as respectivas respostas do Feedback L1, o nome do gerente e o email, o valor do feedback L3 e a data de envio, os Campos ativos.
+
+Você também pode exportar os dados da interface do usuário ou para o Power BI, que oferece suporte a todos os treinamentos para qualquer período para uma análise mais aprofundada.
+
+### Relatórios de treinamento {#training-report}
+
+O Learning Manager é compatível com o Relatório de treinamento, que permite que os administradores baixem detalhes de treinamento e seus metadados associados, como autor, data de publicação, habilidades, etiquetas do catálogo etc.
+
+No aplicativo de administração, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatório de treinamentos]**.
+
+Você pode baixar relatórios para o seguinte:
+
+* Treinamentos selecionados (10 no limite) - Seleciona um ou vários treinamentos (até 10) de qualquer catálogo.
+* Os treinamentos no catálogo selecionado (5 no limite) - (a seleção do catálogo estará disponível para até cinco catálogos).
+* Todos os treinamentos - (todos os treinamentos na conta).
+
+![](assets/download-trainingreport.png)
+*Baixar relatório de treinamento*
+
+Na seção Opções avançadas, as seguintes opções estão disponíveis:
+
+* Incluir mapeamentos de cursos com programa de aprendizado/certificação
+* Incluir informações de nível do módulo
+
+Depois de selecionar os filtros e clicar em Baixar, você receberá uma notificação para baixar o relatório no formato CSV.
+
+O relatório terá os seguintes campos:
+
+*Nome do catálogo, Tipo de treinamento, ID do treinamento, ID exclusiva de treinamento, Nome do treinamento, Subtreinamentos, Módulos, Duração do módulo ou treinamento, Formato, Status do treinamento, Habilidades, Autor, Última data de publicação, Última data de conclusão, Contagem de inscrição dos professores, Contagem de início, Contagem de conclusão, Pontuação L1 média, Pontuação L2 média, Pontuação L3 média, Respostas L1 recebidas, Respostas L2 recebidas, Respostas L3 recebidas, Etiquetas do catálogo e Tags.*
+
+![](assets/more-options.png)
+*Opções adicionais*
+
+### Relatório de resumo da sessão {#session-summary-report}
+
+O Relatório de resumo da sessão contém todas as sessões planejadas para um aluno em uma data especificada.
+
+Isso permite que o administrador exporte todos os detalhes da sessão de sala de aula e virtual que estão no intervalo de datas especificado. O administrador também pode exportar o relatório de sessão em relação a treinamentos ou professores específicos.
+
+Isso também ajudará o administrador a entender as sessões planejadas mensalmente e identificar a agenda dos professores e as sessões já entregues.
+
+Como administrador, clique em **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatório de resumo da sessão]**.
+
+Na caixa de diálogo a seguir, escolha o intervalo de datas e o treinamento ou o professor para obter um resumo.
+
+![](assets/session-summary-report.png)
+*Relatório de resumo da sessão*
+
+O csv baixado contém os seguintes campos:
+
+* Data e hora de início
+* Data e hora de término
+
+* Nome do módulo
+* Duração da sessão (em minutos)
+* Número de vagas
+* Localização
+* Nome da instância
+* Nome do curso
+* ID do curso
+* Nome do professor
+* E-mail do professor
+* Número de inscrições
+* Tipo de sessão
+* Limite de listas de espera
+* Número de listas de espera
+* E-mail do usuário da lista de espera
+* Informações do Local
+* Região do local
+
+### Relatório de Utilização do Professor
+
+Este relatório captura o tempo (em minutos) gasto diariamente por um professor ensinando sessões atribuídas. O relatório pode ser baixado por um período de três meses a partir da data de início selecionada.
+
+Para baixar o relatório, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatório de Utilização do Professor]**.
+
+Selecione um professor ou vários e o intervalo de datas.
+
+![Baixar Relatório de Utilização de Professor](assets/utilization-report.png)
+*Baixar Relatório de Utilização de Professor*
+
+O relatório baixado contém os seguintes campos:
+
+* Nome do professor
+* ID do professor
+* Nível de competência
+* Datas como colunas. Se o professor for utilizado em uma data, o número de sessões será listado. Se o professor não for utilizado em um dia, o valor exibirá zero.
+
+O relatório contém registros de três meses a partir do mês selecionado.
+
+Para recuperar registros de todos os professores, deixe o campo Professor em branco.
+
+Além disso, um administrador personalizado com permissão para gerar relatórios pode recuperar este relatório.
+
+### Relatório de Trilha de Auditoria do Usuário
+
+Este relatório captura informações sobre os alunos que alternaram instâncias, “de instância” para “para instância”, alternados por hora, data etc.
+
+Selecione os alunos ou um grupo de usuários.
+
+Para baixar o relatório, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatório de registro de auditoria do usuário]**.
+
+![Baixar relatório de registro de auditoria do usuário](assets/user-audit-report.png)
+
+*Baixar relatório de registro de auditoria do usuário*
+
+### Relatório do plano de aprendizado
+
+Este relatório contém detalhes de todos os planos de aprendizado em uma conta, por exemplo, grupos de usuários relacionados, status e informações sobre o acionador.
+
+O relatório contém o seguinte:
+
+* Nome do plano de aprendizado
+* Tipo (ocorre quando)
+* Treinamento (concluído)
+* Habilidade (obtida)
+* Data (na data)
+* Ação
+* Status, criado por
+* Data de criação
+* Data da última modificação
+* Grupo de usuários (aplica-se a)
+* Grupo de usuários (adicionar a)
+* Inscrever-se depois
+* Tipos de elemento de aprendizado
+* Elementos de aprendizado
+* Instâncias do elemento de aprendizado
+* Elemento de aprendizado
+* Data de conclusão
+* Lembrete do elemento de aprendizado
+* Escopo/Catálogo
+* Escopo/Grupo de usuários
+
+## Assinaturas de e-mail {#emailsubscriptions}
+
+Você pode obter seus relatórios favoritos por e-mail inscrevendo-se para recebê-los.
+
+### Configurar assinaturas de email
+
+>[!INFO]
+>
+>Neste treinamento, você aprenderá como configurar assinaturas de email para relatórios do painel.<br><br>[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)</br></br>
+
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
+
+Entrada **[!UICONTROL Relatórios]** clique no botão  **[!UICONTROL Assinatura]** guia. A página de inscrição no relatório é exibida.
+
+Para selecionar o nome do relatório na lista suspensa, comece a digitar o nome do relatório no campo Relatórios. Escolha a frequência de e-mail na lista suspensa. Você pode adicionar o assunto do e-mail e fornecer uma ID de e-mail de backup.
+
+É possível editar e excluir assinaturas.
+
+## Relatórios históricos
+
+Os relatórios históricos no Adobe Learning Manager (ALM) referem-se aos relatórios que capturam os dados históricos e as atividades na plataforma de aprendizado. Esses relatórios fornecem informações sobre atividades passadas do aluno, conteúdo de treinamento, desempenho do grupo de usuários e outros dados relevantes. Os relatórios históricos permitem que os administradores controlem, monitorem e analisem o progresso e a eficácia das iniciativas de aprendizado ao longo do tempo.
+
+### Relatórios de acesso ao curso
+
+Os relatórios de acesso ao curso fornecem informações sobre a revisão de cada curso.
+
+Para baixar esse relatório, siga estas etapas:
+
+1. Ir para **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios de Histórico]**.
+1. Selecionar **[!UICONTROL Relatório de acesso ao curso]**. A caixa de diálogo Gerando solicitação de relatório é aberta.
+1. Selecione o ano e o trimestre no menu suspenso.
+1. Selecionar **[!UICONTROL Gerar]**.
+
+### Relatórios de logon/acesso
+
+Os relatórios de login/acesso fornecem informações sobre logons e acesso de usuários. Você pode gerar um relatório contendo dados de três meses por vez.
+
+Para baixar esse relatório, siga estas etapas:
+
+1. Ir para **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios de Histórico]**.
+1. Selecionar **[!UICONTROL Relatório de logon/acesso]**. A caixa de diálogo Gerando solicitação de relatório é aberta.
+1. Selecione o ano e o trimestre no menu suspenso.
+1. Selecionar **[!UICONTROL Gerar]**.
 
 ## Criar um painel {#createadashboard}
 
@@ -473,18 +988,6 @@ Você também pode criar grupos de usuários personalizados usando o recurso Adi
 
 No eixo x, escolha a opção de atributo do usuário e selecione o atributo na **selecionar** ao lado dele. Para criar um relatório de grupo de usuários personalizado com base nesses atributos, você também deve escolher o grupo de usuários apropriado no filtro.
 
-## Tipos de relatórios {#typesofreports}
-
-O Adobe Learning Manager é compatível com quatro tipos principais de relatório, por exemplo, conclusão, tempo gasto, habilidades e eficácia. Você pode usar os seguintes tipos de relatório para gerar relatórios de mais de 300 variações:
-
-* Estatísticas de entrega do curso para Alunos
-* Relatório da eficácia dos cursos
-* Relatório baseado na habilidade do aluno
-* Estatísticas de inscrição no programa de aprendizado para Alunos
-* Tempo gasto no aprendizado pelos Alunos
-* Pontuação do aluno
-* Conclusão da certificação
-
 ## Exibição de relatórios {#viewingreports}
 
 Na página Relatórios, você pode exibir todos os relatórios. Você pode minimizar cada relatório clicando no ícone de menos (-) no canto superior direito de cada relatório. Clique no ícone de mais (+) para exibir novamente seu relatório.
@@ -512,9 +1015,10 @@ Se houver múltiplos Gerentes que se reportam a você, poderá exibir os relató
 
 ### Gerar relatórios de curso
 
-Neste treinamento, você aprenderá a exportar relatórios de curso e configurar assinaturas de e-mail para esses relatórios.
+>[!INFO]
+>
+>Neste treinamento, você aprenderá a exportar relatórios de curso e configurar assinaturas de e-mail para esses relatórios.<br><br>[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)</br></br>
 
-[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
@@ -574,466 +1078,6 @@ Ao criar uma conta entre parceiros, se a opção Compartilhar catálogo não tiv
    >[!NOTE]
    >
    >Os gerentes não podem visualizar relatórios entre parceiros.
-
-## Assinaturas de e-mail {#emailsubscriptions}
-
-Você pode obter seus relatórios favoritos por e-mail inscrevendo-se para recebê-los.
-
-### Configurar assinaturas de email
-
-Neste treinamento, você aprenderá como configurar assinaturas de email para relatórios do painel.
-
-[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
-
-Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
-
-Entrada **[!UICONTROL Relatórios]** clique no botão  **[!UICONTROL Assinatura]** guia. A página de inscrição no relatório é exibida.
-
-Para selecionar o nome do relatório na lista suspensa, comece a digitar o nome do relatório no campo Relatórios. Escolha a frequência de e-mail na lista suspensa. Você pode adicionar o assunto do e-mail e fornecer uma ID de e-mail de backup.
-
-É possível editar e excluir assinaturas.
-
-## Relatórios do Excel {#excelreports}
-
-A guia **[!UICONTROL Relatórios do Excel]** permite exportar relatórios no formato de arquivo XLS.
-
-Estes são os tipos de relatório disponíveis para download.
-
-* Relatórios do curso
-* Transcrições do aluno
-* Relatório de comunicados
-* Relatório de ajudas de tarefa
-* Registro de auditoria do conteúdo
-* Registro de auditoria do usuário
-* Relatório de logon/acesso
-* Transcrições da gamificação
-* Trilha de Auditoria de Gamificação
-
-## Transcrições do aluno {#learnertranscripts}
-
-As transcrições do aluno nos relatórios do Excel exibem as colunas Créditos necessários e Créditos obtidos em números decimais.
-
-## Relatórios do curso {#coursereports}
-
-Como administrador, você pode baixar relatórios dos cursos. Siga estas etapas:
-
-1. Abrir **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatórios do curso]**.
-1. A caixa de diálogo **[!UICONTROL Relatório do curso]** é exibida. Selecione o curso do que deseja obter o relatório e clique em **[!UICONTROL Mostrar]**.
-
-   ![](assets/course-reports.png)
-   *Relatórios do curso*
-
-1. Você será redirecionado para a página do curso. Você pode exportar a pontuação do quiz por usuário e por pergunta com base em cada inscrição escolhendo o tipo de inscrição específico.
-1. Selecione **[!UICONTROL Exportar pontuação do questionário]** para exportar o relatório. É exibida a caixa de diálogo **[!UICONTROL Gerar solicitação de relatório]**. Clique em **[!UICONTROL OK]** para confirmar.
-
-   ![](assets/generating-reportrequest.png)
-   *Gerando solicitação de relatório*
-
-   >[!NOTE]
-   >
-   >O relatório exportado da pontuação do questionário conterá os detalhes da pontuação de cada tentativa se a opção de várias tentativas estiver configurada no módulo.
-
-## Transcrições do aluno {#LearnerTranscripts-1}
-
-O Adobe Learning Manager permite que os administradores de uma organização gerem transcrições associadas aos alunos. O relatório de transcrição do aluno contém o seguinte:
-
-1. Transcrição do aluno: Painel da atividade de aprendizado
-1. Habilidade: painel de habilidade
-1. Painel de conformidade
-
-As transcrições do aluno nos relatórios do Excel exibem as colunas Créditos necessários e Créditos obtidos em números decimais.
-
-Para obter informações sobre a geração de relatórios das transcrições dos alunos e mais informações, consulte [Transcrições do aluno](learner-transcripts.md).
-
-## Relatórios de comunicados {#announcementsreports}
-
-Como administrador, você pode gerar um relatório de todos os comunicados que você enviou. O relatório traz detalhes sobre:
-
-* Tipo de comunicado
-* Nome do comunicado
-* Data do comunicado
-* Estado do comunicado
-* Nome do aluno
-
-Para baixar um relatório, siga qualquer uma dessas etapas:
-
-1. Abrir **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatório de comunicados]**. O **[!UICONTROL Gerando solicitação de relatório]** é aberta. Clique em Ok.
-1. [!UICONTROL **Comunicados**] > [!UICONTROL **Ações**] > [!UICONTROL **Exportar relatório**].
-
-   ![](assets/announcements.png)
-   *Relatório de comunicados*
-
-1. Você pode extrair um relatório para um comunicado específico clicando em **[!UICONTROL Exportar relatório]** no ícone configurações.
-
-   ![](assets/announcements-specific-report.png)
-   *Relatório de anúncios específicos*
-
-## Relatório de ajudas de tarefa {#jobaidsreport}
-
-As ajudas de tarefa são um conteúdo de treinamento a que os alunos podem ter acesso sem ter de se inscrever em um objeto de aprendizado específico, como um curso ou programa de aprendizado. Os administradores podem extrair e baixar relatórios das ajudas de tarefa.
-
-O relatório extraído inclui informações sobre o seguinte:
-
-* Nome
-* Tipo de ajuda de tarefa
-* Estado da ajuda de tarefa (publicada ou retirada)
-* Data da inscrição
-* Data de conclusão
-* Data de download
-* Nome do aluno
-* Nome do gerente
-* Criado por
-
-Para baixar um relatório, siga um destes procedimentos:
-
-* Abrir  **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatórios de ajuda de tarefa]**. É exibida a caixa de diálogo **[!UICONTROL Gerar solicitação de relatório]**. Clique em **[!UICONTROL Ok]**.
-* Abrir **[!UICONTROL Ajuda de tarefa]** > **[!UICONTROL Ações]** > **[!UICONTROL Exportar relatório]**.
-
-![](assets/job-aids.png)
-*Relatório de ajudas de tarefa*
-
-* Você também pode extrair um relatório de uma ajuda de tarefa específica clicando em **[!UICONTROL Exportar relatório]** no ícone de configurações.
-
-![](assets/job-aid-specific-download.png)
-*Relatório de ajuda de tarefa específica*
-
-### Relatório de ajudas de tarefa
-
-Depois de selecionar **[!UICONTROL Relatório de ajudas de tarefa]** na lista, você verá duas opções:
-
-![relatório de ajudas de tarefa](assets/job-aids-new.png)
-*Baixar Relatório de Inscrição de Usuários de Ajudas de Tarefa*
-
-**Todas as ajudas de tarefa**: se o número de ajudas de tarefa na conta for inferior a 10 milhões, o relatório gerado conterá informações de inscrição de todas as ajudas de tarefa. Essa será a seleção padrão. Se o número de linhas exceder 10 milhões, será exibido um erro, e você deverá selecionar manualmente as ajudas de tarefa necessárias.
-
-**Ajudas de tarefa selecionadas**: Se você selecionar essa opção, poderá informar as ajudas de tarefa para as quais deseja gerar o relatório. Você pode selecionar no máximo 10 ajudas de tarefa. O Adobe Learning Manager verifica se o número de ajudas de tarefa excede 10 milhões.
-
-![inscrição no relatório de ajudas de tarefa](assets/job-aids-2-new.png)
-*Selecionar uma ajuda de tarefa*
-
-**Relatório de ajudas de tarefa**
-
-Se você selecionar essa opção, os detalhes de todas as ajudas de tarefa presentes no sistema, juntamente com seus metadados e treinamento, serão baixados.
-
-O relatório baixado consiste nos seguintes campos:
-
-* Nome da ajuda de tarefa
-* Idioma(s)
-* ID
-* Tipo
-* Duração (minutos)
-* Estado
-* Data de publicação (Fuso horário central da Europa)
-* Criado por nome
-* Criado por e-mail
-* Criado por ID exclusiva do usuário
-* Catálogo(s)
-* Caminho(s) de aprendizado
-* Curso(s)
-* Marca(s)
-* Habilidade(s)
-
-**Relatório de inscrição do usuário de ajudas de tarefa**
-
-O relatório de inscrição contém detalhes sobre a inscrição do usuário e outras informações.
-
-O relatório baixado consiste nos seguintes campos:
-
-* Nome da ajuda de tarefa
-* Tipo
-* Estado
-* Data de inscrição (fuso horário UTC)
-* Data de conclusão (fuso horário UTC)
-* Data do download (fuso horário UTC)
-* Nome do aluno
-* Email
-* ID exclusiva do usuário
-* Nome do gerente
-* E-mail do gerente
-* ID exclusiva do usuário do gerente
-* Atribuído por nome
-* Atribuído por e-mail
-* Atribuído por ID exclusiva do usuário
-* Criado por nome
-* Criado por e-mail
-* Criado por ID exclusiva do usuário
-* Código da tarefa
-* Novo campo
-* Perfil
-
-### Relatórios de registros de auditoria do conteúdo {#contentaudittrailreports}
-
-Use o **[!UICONTROL Registro de auditoria do conteúdo]** gerador de relatórios para gerar um relatório de todas as alterações e edições feitas em um curso durante sua vida útil no sistema. O relatório gerado tem as seguintes informações.
-
-* ID do objeto
-* Nome do objeto
-* Tipo de objeto
-* Tipo de modificação
-* Descrição
-* ID do objeto referenciado
-* Nome do objeto referenciado
-* Modificado por nome de usuário
-* Modificado por ID de usuário
-* Data da modificação (fuso horário do Horário Universal Coordenado)
-
-As informações que dizem respeito aos metadados não são obtidas no relatório gerado.
-
-Para gerar um relatório de registro de auditoria do curso, siga estas etapas.
-
-1. Selecionar **[!UICONTROL Denunciar]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Trilha de auditoria do curso]**. É exibida a caixa de diálogo **[!UICONTROL Registro de auditoria do conteúdo]**.
-
-   ![](assets/course-audit-trial.png)
-   *Trilha de auditoria do curso*
-
-1. Selecione o curso, o programa de aprendizado e a certificação para os quais deseja baixar o relatório. Se não especificado, todos os relatórios são baixados por padrão.
-1. Selecione um intervalo de datas para o relatório e clique em **[!UICONTROL Gerar]**.
-1. O relatório é gerado e você é notificado de que o relatório de auditoria do conteúdo está pronto. Você pode baixar o relatório.
-
-## Relatórios de registros de auditoria do usuário {#useraudittrailreports}
-
-A trilha de auditoria do usuário captura o ciclo de vida de usuários, grupos de usuários e perfis de autorregistro. Adições, exclusões, alterações de usuários no Gerente, são todas capturadas. A criação e exclusão de perfis de autorregistro também são registradas. Você também pode pausar e continuar o perfil de autorregistro.
-
-Nos perfis externos é possível adicionar, habilitar, desabilitar, pausar ou continuar enquanto que no autorregistro é possível adicionar, excluir, pausar e continuar. Os uploads de CSV também são capturados.
-
-1. Selecionar  **[!UICONTROL Relatório > Relatório do Excel > Trilha do usuário]**. A caixa de diálogo Registro de auditoria do usuário é exibida.
-1. É exibida a caixa de diálogo Registro de auditoria do usuário. Selecione o intervalo de data no menu pop-up. Você pode optar por gerar o relatório da última semana, do último mês ou pode selecionar uma data personalizada.
-
-   ![](assets/user-audit-trail.png)
-   *Trilha de auditoria do usuário*
-
-1. Clique em **[!UICONTROL Gerar]** para gerar o relatório.
-
-Há dois filtros na caixa de diálogo **[!UICONTROL Relatório de registro de auditoria do usuário]**.
-
-**Filtro de classificação por data:** Escolha a faixa de datas para a qual deseja gerar o relatório. Há três opções:
-
-* Última semana
-* Último mês
-* Data personalizada
-
-Selecione o filtro Alunos: pesquise um usuário ou um grupo de usuários.
-
-O relatório exportado conterá dados de usuários que atenderem aos critérios de pesquisa especificados.
-
-![](assets/user-audit-trail.png)
-*Trilha de auditoria do usuário*
-
->[!NOTE]
->
->Quando uma habilidade é atribuída ou removida, ela pode ser rastreada para o Relatório de auditoria do usuário para atribuída ou removida.
-
-## Relatórios de gamificação {#gamification}
-
-Os administradores podem baixar a transcrição da gamificação no formato CSV. Você pode baixar o relatório para usuários individuais ou grupos de usuários. Nome do usuário, email do usuário, UUID do usuário, total de pontos do usuário pontuados, divisão de pontos coletados, nome dos grupos que o usuário joga, nome do gerente e valores de campo ativos são todos obtidos no relatório. Os administradores podem usar esse relatório para avaliar e entender as classificações do usuário no âmbito da empresa ou em um grupo específico.
-
-1. Selecione Relatório > Relatório do Excel > Relatório de gamificação.
-
-   ![](assets/gamification.png)
-   *Relatório de gamificação*
-
-1. É exibida a caixa de diálogo Transcrições da gamificação. Selecione alunos usando seu nome, perfil, grupos de usuários, ID de e-mail ou UUID.
-
-   ![](assets/gamification-transcriptsdialog.png)
-   *Caixa de diálogo Transcrições de gamificação*
-
-1. Clique em  **[!UICONTROL Gerar]** para gerar o relatório.
-
-   Depois de gerar o relatório de um aluno, você deve ser capaz de exportar as informações atuais e de nível alcançado para todos os usuários (internos, externos ou excluídos) na conta. Você também pode verificar as datas dos níveis atingidos por um aluno:
-
-   * Data de obtenção do bronze
-   * Data de obtenção da prata
-   * Data de obtenção do ouro
-   * Data de obtenção da platina
-
-   Essas colunas contêm as datas em que o nível foi atingido pela primeira vez. A coluna **[!UICONTROL Nível atual]** exibe o nível atual do aluno.
-
-   Quando o administrador redefine a gamificação, todos os pontos do aluno são redefinidos adequadamente.
-
-## Relatório de trilha de auditoria de gamificação {#gamification-audit-trail}
-
-Este relatório contém o histórico e os motivos dos pontos de gamificação dos alunos obtidos para cada regra.
-
-### Baixar o relatório
-
-1. Selecione o URL da trilha de auditoria de gamificação.
-1. Na guia **Trilha de auditoria de gamificação** , selecione o intervalo de datas.
-1. Selecionar **Gerar**.
-
-O relatório é baixado como um arquivo CSV. O arquivo contém as seguintes colunas:
-
-* Nome
-* Email/ UUID,
-* Status
-* Ação
-* Pontos,
-* Pontos de Equilíbrio
-* Regra/Tarefa
-* Subtarefa de Regra/Tarefa,
-* Detalhes de regra/tarefa
-* Tipo,
-* Nome,
-* Data da Nome da Instância Obtida (Fuso Horário UTC)
-* Hora de Início da Regra/ Tarefa
-* Hora de Término da Regra/ Tarefa
-
-## Relatório de inscrição e cancelamento de inscrição {#enrollmentandunenrollmentreport}
-
-Os administradores e gerentes podem extrair um relatório dos alunos que foram inscritos e cancelados. Como administrador, você pode ver qualquer aluno, administrador ou gerente que se inscreveu ou cancelou a inscrição em uma instância de um curso, de um programa de aprendizado ou de uma certificação, bem como exportar o relatório. Enquanto gerente, você só pode obter um relatório dos membros da sua equipe. Como gerente, você não pode ver os alunos excluídos ou seu próprio nome no aplicativo do gerente como um aluno inscrito ou não inscrito.
-
-Para baixar um relatório, siga estas etapas: Abrir o  **[!UICONTROL Curso/Programa de aprendizado/Certificação]** > **[!UICONTROL Alunos]** > **[!UICONTROL Ação]** > **[!UICONTROL Exportar relatório]**.
-
-![](assets/unenrollment.png)
-*Relatório de cancelamento de inscrição*
-
-## Relatório de feedback {#feedback-report}
-
-Como administrador, você pode buscar o feedback do aluno (L1) e o feedback do gerente (L3) para treinamentos selecionados por um período especificado.
-
-Você pode exportar os dados da interface do usuário ou por meio do conector PowerBI para uma análise mais detalhada.
-
-Os relatórios de feedback L1 e L3 oferecem uma opção de download de um relatório de feedback consolidado para as respostas L1 e L3 para treinamentos selecionados para um **um ano** ou até 10 treinamentos selecionados para qualquer período.
-
-Faça logon como administrador e clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** e, na lista de relatórios, clique em **[!UICONTROL Relatório de feedback]**.
-
-![](assets/download-feedbackreport.png)
-*Baixar relatório de feedback*
-
-Ao clicar em Baixar após selecionar os filtros, você receberá uma notificação para baixar o relatório no formato CSV.
-
-O relatório baixado terá detalhes como nome e tipo do treinamento, nome da instância, nome do aluno e e-mail, tipo de feedback: L1 ou L3, datas do feedback enviado para novos dados.
-
-Para os dados existentes antes da implementação desse recurso, a data de conclusão do OA será exibida, a data de conclusão do OA, o texto real do Ritmo do próprio comentário da pergunta L1 e o Texto da sala de aula em colunas diferentes, as respectivas respostas do Feedback L1, o nome do gerente e o email, o valor do feedback L3 e a data de envio, os Campos ativos.
-
-Você também pode exportar os dados da interface do usuário ou para o Power BI, que oferece suporte a todos os treinamentos para qualquer período para uma análise mais aprofundada.
-
-## Relatórios de treinamento {#training-report}
-
-O Learning Manager é compatível com o Relatório de treinamento, que permite que os administradores baixem detalhes de treinamento e seus metadados associados, como autor, data de publicação, habilidades, etiquetas do catálogo etc.
-
-No aplicativo de administração, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatório de treinamentos]**.
-
-Você pode baixar relatórios para o seguinte:
-
-* Treinamentos selecionados (10 no limite) - Seleciona um ou vários treinamentos (até 10) de qualquer catálogo.
-* Os treinamentos no catálogo selecionado (5 no limite) - (a seleção do catálogo estará disponível para até cinco catálogos).
-* Todos os treinamentos - (todos os treinamentos na conta).
-
-![](assets/download-trainingreport.png)
-*Baixar relatório de treinamento*
-
-Na seção Opções avançadas, as seguintes opções estão disponíveis:
-
-* Incluir mapeamentos de cursos com programa de aprendizado/certificação
-* Incluir informações de nível do módulo
-
-Depois de selecionar os filtros e clicar em Baixar, você receberá uma notificação para baixar o relatório no formato CSV.
-
-O relatório terá os seguintes campos:
-
-*Nome do catálogo, Tipo de treinamento, ID do treinamento, ID exclusiva de treinamento, Nome do treinamento, Subtreinamentos, Módulos, Duração do módulo ou treinamento, Formato, Status do treinamento, Habilidades, Autor, Última data de publicação, Última data de conclusão, Contagem de inscrição dos professores, Contagem de início, Contagem de conclusão, Pontuação L1 média, Pontuação L2 média, Pontuação L3 média, Respostas L1 recebidas, Respostas L2 recebidas, Respostas L3 recebidas, Etiquetas do catálogo e Tags.*
-
-![](assets/more-options.png)
-*Opções adicionais*
-
-## Relatório de resumo da sessão {#session-summary-report}
-
-O Relatório de resumo da sessão contém todas as sessões planejadas para um aluno em uma data especificada.
-
-Isso permite que o administrador exporte todos os detalhes da sessão de sala de aula e virtual que estão no intervalo de datas especificado. O administrador também pode exportar o relatório de sessão em relação a treinamentos ou professores específicos.
-
-Isso também ajudará o administrador a entender as sessões planejadas mensalmente e identificar a agenda dos professores e as sessões já entregues.
-
-Como administrador, clique em **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatório de resumo da sessão]**.
-
-Na caixa de diálogo a seguir, escolha o intervalo de datas e o treinamento ou o professor para obter um resumo.
-
-![](assets/session-summary-report.png)
-*Relatório de resumo da sessão*
-
-O csv baixado contém os seguintes campos:
-
-* Data e hora de início
-* Data e hora de término
-
-* Nome do módulo
-* Duração da sessão (em minutos)
-* Número de vagas
-* Localização
-* Nome da instância
-* Nome do curso
-* ID do curso
-* Nome do professor
-* E-mail do professor
-* Número de inscrições
-* Tipo de sessão
-* Limite de listas de espera
-* Número de listas de espera
-* E-mail do usuário da lista de espera
-* Informações do Local
-* Região do local
-
-## Relatório de Utilização do Professor
-
-Este relatório captura o tempo (em minutos) gasto diariamente por um professor ensinando sessões atribuídas. O relatório pode ser baixado por um período de três meses a partir da data de início selecionada.
-
-Para baixar o relatório, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatório de Utilização do Professor]**.
-
-Selecione um professor ou vários e o intervalo de datas.
-
-![Baixar Relatório de Utilização de Professor](assets/utilization-report.png)
-*Baixar Relatório de Utilização de Professor*
-
-O relatório baixado contém os seguintes campos:
-
-* Nome do professor
-* ID do professor
-* Nível de competência
-* Datas como colunas. Se o professor for utilizado em uma data, o número de sessões será listado. Se o professor não for utilizado em um dia, o valor exibirá zero.
-
-O relatório contém registros de três meses a partir do mês selecionado.
-
-Para recuperar registros de todos os professores, deixe o campo Professor em branco.
-
-Além disso, um administrador personalizado com permissão para gerar relatórios pode recuperar este relatório.
-
-## Relatório de Trilha de Auditoria do Usuário
-
-Este relatório captura informações sobre os alunos que alternaram instâncias, “de instância” para “para instância”, alternados por hora, data etc.
-
-Selecione os alunos ou um grupo de usuários.
-
-Para baixar o relatório, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatório de registro de auditoria do usuário]**.
-
-![Baixar relatório de registro de auditoria do usuário](assets/user-audit-report.png)
-
-*Baixar relatório de registro de auditoria do usuário*
-
-## Relatório do plano de aprendizado
-
-Este relatório contém detalhes de todos os planos de aprendizado em uma conta, por exemplo, grupos de usuários relacionados, status e informações sobre o acionador.
-
-O relatório contém o seguinte:
-
-* Nome do plano de aprendizado
-* Tipo (ocorre quando)
-* Treinamento (concluído)
-* Habilidade (obtida)
-* Data (na data)
-* Ação
-* Status, criado por
-* Data de criação
-* Data da última modificação
-* Grupo de usuários (aplica-se a)
-* Grupo de usuários (adicionar a)
-* Inscrever-se depois
-* Tipos de elemento de aprendizado
-* Elementos de aprendizado
-* Instâncias do elemento de aprendizado
-* Elemento de aprendizado
-* Data de conclusão
-* Lembrete do elemento de aprendizado
-* Escopo/Catálogo
-* Escopo/Grupo de usuários
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
