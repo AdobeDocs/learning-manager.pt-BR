@@ -4,14 +4,13 @@ title: Acessibilidade no Adobe Learning Manager
 description: Este documento descreve o suporte de acessibilidade fornecido pelo Sistema de Gerenciamento de Aprendizado do Learning Manager para alunos com deficiência. Ele também fornece aos usuários opções de navegação e recursos de acessibilidade da plataforma.
 contentowner: saghosh
 preview: true
-source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 71%
 
 ---
-
-
 
 # Acessibilidade no Adobe Learning Manager
 
@@ -151,8 +150,8 @@ A função Aluno do Learning Manager suporta vários outros recursos de acessibi
 
 Para obter mais informações, consulte:
 
-* [Relatório de Conformidade de Acessibilidade para um aluno](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Relatório de Conformidade de Acessibilidade para todas as funções](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Relatório de Conformidade de Acessibilidade para um aluno](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Relatório de Conformidade de Acessibilidade para todas as funções](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Principais fluxos de trabalho do Learning Manager (função do aluno) {#captivateprimetopworkflowslearnerrole}
 
