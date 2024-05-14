@@ -3,13 +3,13 @@ jcr-language: en_us
 title: Descontinuações de API no Adobe Learning Manager
 description: À medida que as APIs no Adobe Learning Manager evoluem, elas são periodicamente reorganizadas ou atualizadas. Quando as APIs evoluem, a API antiga é descontinuada e eventualmente removida. Esta página contém informações que você precisa saber ao migrar de versões de API obsoletas para versões de API mais novas e estáveis.
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 21%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
-
 
 # Descontinuações e alterações de API no Adobe Learning Manager
 
@@ -113,7 +113,7 @@ Na próxima versão do Adobe Learning Manager, no ponto de extremidade de resumo
 
 ### Classificar por nome
 
-Na próxima versão do Adobe Learning Manager, nome e -name são descontinuados no campo de classificação das seguintes APIs:
+Na próxima versão do Adobe Learning Manager, name e -name são descontinuados no campo de classificação das seguintes APIs:
 
 * GET /userGroups/{userGroupId}/users
 * GET /users
@@ -123,7 +123,7 @@ Na próxima versão do Adobe Learning Manager, nome e -name são descontinuados 
 >Para todas as contas novas e existentes, a classificação por nome e -name será descontinuada.
 
 
-## Descontinuações da API na versão de novembro de 2023 do Adobe Learning Manager
+## Descontinuações de API na versão de novembro de 2023 do Adobe Learning Manager
 
 ### Sinalizador de substituição
 
@@ -145,6 +145,11 @@ O grupo de colegas agora se torna uma conta e os alunos verão uma sequência de
 
 ### Alterações No Relatório De Anúncio De Notificações
 
-Nas versões anteriores do Adobe Learning Manager, o relatório de Aviso de Notificação não tinha nenhum filtro. O Adobe Learning Manager baixou todas as notificações na conta.
+Em versões anteriores do Adobe Learning Manager, o relatório de Aviso de Notificação não tinha nenhum filtro. O Adobe Learning Manager baixou todas as notificações na conta.
 
 Na versão de novembro de 2023, adicionamos um filtro de data, com o qual você pode baixar as notificações dentro de um período especificado.  No entanto, você só pode baixar o relatório nos últimos seis meses.
+
+### Descontinuação de valores altos de deslocamento no ponto de extremidade GET /users
+
+Para melhorar o desempenho do sistema e gerenciar a utilização de recursos de maneira mais eficiente, a Adobe reduziu os valores altos de deslocamento no endpoint GET /users para ambos **ADMIN** e **ALUNO** escopos. Recomendamos o uso da **API de trabalhos** para recuperar os registros com um valor de deslocamento.
+
