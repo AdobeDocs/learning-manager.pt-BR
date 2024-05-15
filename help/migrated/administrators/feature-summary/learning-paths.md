@@ -4,10 +4,10 @@ title: Caminhos de aprendizado
 description: Criação de planos de aprendizado para administradores no Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 42%
+source-wordcount: '1329'
+ht-degree: 37%
 
 ---
 
@@ -49,17 +49,27 @@ No menu **[!UICONTROL Caminho de Aprendizado]** , clique em **[!UICONTROL Adicio
 
 *Adicionar um novo caminho de aprendizado*
 
+No menu **Tipo de inscrição** selecione **Autoinscrição** ou **Inscrição do administrador**.
+
+>[!NOTE]
+>
+>Se você selecionar a opção **Inscrição do administrador** os alunos verão apenas os cursos indicados ou aprovados pelo gerente. Os alunos não poderão ver o caminho de aprendizado na seção de recomendação.
+
 Depois de criar um caminho de aprendizado, selecione o caminho de aprendizado recém-criado e adicione os cursos no caminho.
 
 Você pode adicionar habilidades e atribuir uma medalha ao Caminho de aprendizado. Para adicionar uma habilidade, selecione a habilidade ou habilidades necessárias na **[!UICONTROL Escolher uma habilidade]** lista suspensa. Selecione também o nível para a habilidade ou habilidades.
 
 ![](assets/add-skills.png)
 
+*Adicionar uma habilidade*
+
 Atribua uma medalha ao Caminho de aprendizado. Escolha uma medalha da lista de medalhas disponíveis.
 
 Selecione o nível de produtos, funções e funções na **[!UICONTROL Recomendar para]** para sugerir esse caminho de aprendizado aos usuários que expressaram interesse nesses produtos e funções.
 
 ![](assets/recommend-for.png)
+
+*Recomendação*
 
 Escolha o tipo de sequenciamento para as seções e treinamentos como Ordenado ou Não ordenado de acordo com a sua preferência.
 
@@ -141,6 +151,20 @@ Há três opções:
 
 Os lembretes de notificação são acionados com base na opção. Por padrão, a opção **[!UICONTROL Todos os cursos de níveis e caminhos de aprendizado]** está ativado para uma instância.
 
+## Assinaturas
+
+Você pode se inscrever nos caminhos de aprendizado individuais para receber dados abrangentes, incluindo as pontuações do questionário e o status do aluno, diretamente na sua caixa de entrada.
+
+Siga as etapas abaixo:
+
+1. Vá para qualquer Caminho de aprendizado > Assinaturas.
+1. Selecione Adicionar mais.
+1. Selecione os detalhes e digite a ID de e-mail para receber os relatórios.
+
+![](assets/subscriptions.png)
+
+*Assinar o caminho de aprendizado individual*
+
 ## Observação importante
 
 Observe que o recurso existente dos Programas de aprendizado será renomeado para Caminho de aprendizado imediatamente após a versão. Caso queira continuar a chamá-los de Programas de aprendizado, recomendamos que você use o recurso “Terminologias” para aplicar a terminologia desejada. Dessa forma, você pode usar o termo Programa de aprendizado.
@@ -151,76 +175,76 @@ Os alunos podem continuar a usar os Programas de aprendizado (agora chamados de 
 
 O **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** tem uma nova opção para ativar os Caminhos de aprendizado. Se essa opção estiver ativada, você pode adicionar cursos e programas de aprendizado em um caminho de aprendizado. Não é possível alterar a opção depois de ativada.
 
-## Outros detalhes relacionados ao Caminho de aprendizado
+<!-- ## Other Learning Path-related details 
 
-### A opção Caminho de aprendizado está desativada/desmarcada nas Configurações de administrador
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**Contas que usam aplicativos da Web nativos**
+**Accounts using Native Web apps**
 
-**Alunos**
+**Learners**
 
-* Por padrão, os alunos notarão uma alteração na terminologia de “Programa de aprendizado” para Caminho de aprendizado”. Isso foi feito para tornar a interface mais intuitiva. Se você não quiser essa alteração, consulte os pontos abaixo.
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* No entanto, essa alteração não será refletida na interface do usuário se você já tiver usado a função “Terminologia personalizada” para substituir a terminologia “Programas de aprendizado” por algum texto personalizado.
-* Caso ainda não tenha usado a função Terminologia personalizada, mas agora deseja manter “Programas de aprendizado” como terminologia, você pode fazer isso por meio do recurso “Terminologia personalizada” após o lançamento da versão.
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* A aparência cosmética geral dos “Programas de aprendizado” anteriores será atualizada para uma aparência mais visualmente rica.
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**Autores e administradores**
+**Authors and Admins**
 
-* A terminologia nos aplicativos de administrador/autor é a mesma dos alunos.
-* A interface para autores e administradores criarem e atualizarem os objetos anteriores do “Programa de aprendizado” agora será atualizada para a nova interface. Não há perda de funcionalidade, apenas que a interface do usuário executará a operação de uma forma muito mais intuitiva. Essas alterações na interface do usuário refletirão na sua conta, mesmo que você tenha optado por não ativar “Recursos estendidos do Caminho de aprendizado”, sem perda de funcionalidade.
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* Observe que os objetos existentes do Programa de aprendizado não mudarão. Portanto, não haverá impacto nos alunos (além do ponto de terminologia mencionado acima). Os autores/administradores podem notar um agrupamento padrão chamado “Seção” dentro de seus objetos existentes, o que não teria nenhum impacto material no que diz respeito à funcionalidade. Os autores/administradores também verão funcionalidades adicionais, como habilidades, ajudas de tarefa etc. Mas que você ainda não o tenha usado, isso não causará nenhum impacto no lado do aluno até que você realmente comece a usá-lo.
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**Relatórios**
+**Reporting**
 
-* Se você não ativar a opção Caminho de aprendizado, não haverá alterações na estrutura do relatório Transcrição do aluno devido ao Caminho de aprendizado. Mas, conforme comunicado anteriormente (consulte a tabela compartilhada na comunicação anterior), uma nova coluna será adicionada à extrema direita da transcrição do aluno imediatamente após a liberação.
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**Contas que usam LMS sem periféricos**
+**Accounts using Headless LMS**
 
-**Alunos**
+**Learners**
 
-* Não há alterações para os alunos na interface sem periféricos. As APIs também usadas para gerar os relatórios não têm alterações imediatas.
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**Autores e administradores**
+**Authors and Admins**
 
-* As mesmas alterações que as de Autores/Administradores mencionadas acima.
+* Same changes as that of Authors/Admins stated above.
 
-**Relatórios**
+**Reporting**
 
-* Alterações iguais às do Relatório acima mencionado.
+* Same changes as that of Reporting stated above.
 
-### A opção Caminhos de aprendizado está ativada/marcada nas Configurações de administrador
+### Learning Paths option is enabled/checked in Admin Settings
 
-**Contas que usam aplicativos da Web nativos**
+**Accounts using Native Web apps**
 
-**Alunos**
+**Learners**
 
-* As mesmas alterações de Alunos quando a opção está desativada.
-* À medida que você começa a usar a funcionalidade estendida de Caminhos de aprendizado, os alunos se beneficiarão de ver caminhos mais elaborados com caminhos e seções incorporados, habilidades e medalhas sendo obtidas na conclusão do caminho, recursos no nível do caminho e outros benefícios.
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**Autores e administradores**
+**Authors and Admins**
 
-* As mesmas alterações que as de Autores e Administradores quando a opção está desativada.
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* Os usuários terão mais funcionalidades na criação de caminhos elaborados. Você pode definir níveis de habilidade que seriam alcançados automaticamente por um aluno na conclusão do caminho (não precisa se concentrar na aritmética dos créditos para os níveis). Os recursos podem ser adicionados no nível do caminho (Não é possível a partir de hoje). As seções podem ser criadas com cada seção que tenha a capacidade de ter X de Y opções. É possível incorporar um caminho de aprendizado em outro caminho de aprendizado (um nível de hierarquia compatível)
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**Relatórios**
+**Reporting**
 
-* Algumas novas colunas serão adicionadas às estruturas “Transcrição do aluno” e “Relatório de conteúdo” para incorporar o novo recurso de incorporação de caminhos em caminhos. Isso pode afetar o código de integração que você pode ter gravado para exportar esses dados para seu data warehouse/banco de dados personalizado fora do Learning Manager. Estas informações são comunicadas no quadro fornecido nas comunicações anteriores.
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**Contas que usam LMS sem periféricos**
+**Accounts using Headless LMS**
 
-**Alunos**
+**Learners**
 
-* Não há alterações para seus alunos, a menos que você faça alterações na implementação do LMS sem periféricos, pois as APIs nas quais você criou sua interface sem periféricos não serão alteradas.
-* Se você começar a usar os recursos estendidos dos caminhos de aprendizado criando novos caminhos de aprendizado, será necessário fazer alterações na implementação do LMS sem periféricos para refletir os recursos no aplicativo do aluno. As APIs do Learning Manager permitem que você faça isso.
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**Autores e administradores**
+**Authors and Admins**
 
-* As mesmas alterações que as de Autores/Administradores mencionadas acima.
+* Same changes as that of Authors/Admins stated above.
 
-**Relatórios**
+**Reporting**
 
-* Alterações iguais às do Relatório acima mencionado.
+* Same changes as that of Reporting stated above. -->

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar módulos do curso, instâncias e programas de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 65%
+source-wordcount: '4659'
+ht-degree: 64%
 
 ---
 
@@ -49,9 +49,9 @@ Para criar uma instância,
 1. Para criar uma instância, clique em **[!UICONTROL Adicionar nova instância]** no canto superior direito das informações do curso. Uma nova instância do curso é exibida.
 1. Insira as propriedades da instância:
 
-   * No campo Nome ]**da**[!UICONTROL  instância, insira o nome da instância que deseja associar ao curso. Certifique-se de usar um nome exclusivo para a instância.
-   * Especifique o prazo de conclusão da instância. Os alunos devem atingir o status de conclusão do curso até esta data.
-   * Clique **[!UICONTROL em Mostrar mais opções]** para exibir outras opções de prazo.
+   * No menu **[!UICONTROL Nome da Instância]** insira o nome da instância que deseja associar ao curso. Certifique-se de usar um nome exclusivo para a instância.
+   * Especifique o prazo de conclusão para a instância. Os alunos devem atingir o status de conclusão do curso até esta data.
+   * Clique em **[!UICONTROL Mostrar mais opções]** para exibir outras opções de prazo.
    * **[!UICONTROL Prazo de Inscrição]:** Essa é a data até a qual um aluno deve se inscrever em um objeto de aprendizado em caso de autoinscrição.
    * **[!UICONTROL Prazo de Cancelamento de Inscrição]:** Você pode optar por restringir o cancelamento de inscrição pelo próprio aluno, estabelecendo um prazo para o cancelamento da inscrição.
    * **[!UICONTROL Fuso horário]:** Pesquise e selecione o **[!UICONTROL Fuso horário]** na lista suspensa.
@@ -96,6 +96,18 @@ Para restaurar uma instância retirada, execute as seguintes etapas:
    *Restaurar uma instância*
 
 1. A instância agora é redefinida para um modo ativo.
+
+## Deletar uma instância
+
+Os administradores podem excluir a instância usando **Excluir esta instância** imediatamente após a criação. Não é possível excluir instâncias se houver uma sessão vinculada a ela ou se algum aluno estiver inscrito nela.
+
+![](assets/delete-this-instance.png)
+
+*Deletar uma instância*
+
+>[!NOTE]
+>
+>Não é possível excluir a instância padrão.
 
 ## Enviar e-mails em nível de instância
 
@@ -146,7 +158,7 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
    ![continuar](assets/proceed.png)
 
-   *Continuar a inscrever alunos*
+   *Prossiga com a inscrição de alunos*
 
 ### Exibir relatório de inscrição de uma instância
 
@@ -255,9 +267,9 @@ Nas versões anteriores do Learning Manager, um administrador podia ativar o fee
 
 Nesta versão do Learning Manager, o administrador pode enviar feedback L1 para todos os cursos que fazem parte do Programa de Aprendizado. O administrador deve garantir que o feedback L1 esteja ativado para todos os cursos no nível da instância do curso.
 
-1. Para ativar o feedback N1 de cada curso, no aplicativo de Administração, clique **[!UICONTROL em Programas]** de aprendizado > **[!UICONTROL Exibir programa]** de aprendizado.
+1. Para ativar o feedback L1 para cada curso, no aplicativo Admin, clique em **[!UICONTROL Programas de aprendizado]** > **[!UICONTROL Exibir Programa de Aprendizado]**.
 
-1. Clique **[!UICONTROL em Instâncias]** > **[!UICONTROL feedback N1 ativado]**.
+1. Clique em **[!UICONTROL Instâncias]** > **[!UICONTROL Feedback L1 ativado]**.
 
 1. Ativar a opção **[!UICONTROL Ativar para cada curso]**.
 
@@ -279,7 +291,7 @@ Os relatórios do quiz ajudam a avaliar o desempenho de um aluno após a conclus
 
 Atualmente, o Learning Manager facilita o aprendizado em 13 idiomas de interface e 32 idiomas de conteúdo. Embora essa opção seja amigável para o aluno e ofereça conveniência na compatibilidade com nossos alunos globais, é de suma importância que os administradores busquem relatórios tentados em vários locais.
 
-Os relatórios do questionário exibem dados em diferentes idiomas, desde que o curso esteja sendo oferecido em vários idiomas. Até agora, os relatórios gerados pelo administrador exibiam respostas um abaixo do outro, independentemente do idioma em que o questionário foi tentado. **Por exemplo:**, Se um usuário fizer um quiz em holandês, o administrador só poderá exibir os relatórios do quiz tentados por usuários em holandês de cada vez. O administrador que selecionou o inglês como um idioma de interface não pode exibir os relatórios de todos os usuários de uma só vez, independentemente do local tentado.
+Os relatórios do questionário exibem dados em diferentes idiomas, desde que o curso esteja sendo oferecido em vários idiomas. Até agora, os relatórios gerados pelo administrador exibiam as respostas uma abaixo da outra, independentemente do idioma em que o quiz foi tentado. **Por exemplo:**, Se um usuário fizer um quiz em holandês, o administrador só poderá exibir os relatórios do quiz tentados por usuários em holandês de cada vez. O administrador que selecionou o inglês como um idioma de interface não pode exibir os relatórios de todos os usuários de uma só vez, independentemente do local tentado.
 
 Isso foi corrigido e o administrador agora pode exibir todos os relatórios no respectivo idioma que o aluno tentou tudo de uma vez, independentemente do local do conteúdo escolhido. O questionário tentado em idiomas diferentes será adicionado como colunas adicionais no relatório do questionário.
 
@@ -287,11 +299,11 @@ Isso foi corrigido e o administrador agora pode exibir todos os relatórios no r
 
 *Habilitar feedback L1 no nível da conta*
 
-Um administrador poderá ativar o feedback N1 para os cursos e o programa de aprendizado recém-criados ativando essa configuração no nível da conta. No entanto, ativar essa configuração não afeta os cursos e programas de aprendizado existentes
+Um administrador poderá ativar o feedback L1 para cursos recém-criados e programas de aprendizado ativando essa configuração no nível da conta. No entanto, ativar essa configuração não afeta os cursos e programas de aprendizado existentes
 
 Se habilitado, todos os novos treinamentos e novas instâncias terão o feedback habilitado por padrão. Caso um autor/administrador visite a instância, ela é padronizada e desativada manualmente e, em seguida, é respeitada.
 
-Para ativar o feedback N1 no aplicativo de Administração, clique **[!UICONTROL em Configurações]** > **[!UICONTROL feedback]**.
+Para ativar o feedback N1, no aplicativo Admin, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Feedback]**.
 
 ![](assets/l1-feedback-settings.png)
 
@@ -394,11 +406,11 @@ Ao baixar um relatório após selecionar um filtro de status, o relatório de tr
 
 ## Exibição de cursos {#viewingcourses}
 
-Como administrador, você pode exibir uma lista de todos os cursos disponíveis.   Clique **[!UICONTROL em Cursos]** no painel esquerdo para visualizar a lista de cursos com as opções de pesquisa e filtro. Você também pode ver a porcentagem da eficácia de cada um dos cursos nas miniaturas do curso.
+Como administrador, você pode exibir uma lista de todos os cursos disponíveis.   Clique em **[!UICONTROL Cursos]** no painel esquerdo para exibir a lista de cursos com opções de pesquisa e filtro. Você também pode ver a porcentagem da eficácia de cada um dos cursos nas miniaturas do curso.
 
 >[!NOTE]
 >
->Você pode aposentar um curso após ser consumido pelos alunos ou quando quiser realizar qualquer curso específico depois de publicá-lo. Um curso só pode ser retirado quando estiver no estado Publicado. A lista de todos os cursos retirados pode ser visualizada clicando na **[!UICONTROL guia Retirado]** .
+>Você pode retirar um curso depois que os alunos fizerem o curso ou quando quiser reservar um curso em particular depois de publicado. Um curso só pode ser retirado quando estiver no estado Publicado. A lista de todos os cursos retirados pode ser visualizada clicando no **[!UICONTROL Retirado]** guia.
 
 ## Exibir pontuações do questionário {#viewquizscores}
 
@@ -499,7 +511,7 @@ Conforme o gráfico circular mostrado acima, o gerente atribui mais peso ao feed
 
 O Adobe Learning Manager permite encontrar mais facilmente os cursos/programas de aprendizado da sua escolha. Você pode pesquisar pelos cursos de duas formas:
 
-1. Usando o campo Pesquisa. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou as palavras-chave associadas aos seus cursos para localizar cursos/programas de aprendizado. Você também pode pesquisar utilizando marcas predefinidas como Captivate, C, Java e HTML. Os rótulos podem ser pesquisados dentro do campo de pesquisa, o que significa que são exibidos no campo de pesquisa à medida que você digita.
+1. Usando o campo Pesquisa. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou quaisquer palavras-chave associadas aos seus cursos para localizar os cursos/programas de aprendizado. Você também pode pesquisar usando tags predefinidas como Captivate, C, Java e HTML. As tags são pesquisáveis no campo de pesquisa, o que significa que elas são exibidas no campo de pesquisa conforme você digita.
 1. Filtrando a lista de cursos/programas de aprendizado usando os filtros. Você pode filtrar os cursos por status como Todos, Publicado, Rascunho e Retirado. No modo de administrador, o filtro de rascunho não é exibido.
 
 É possível pesquisar com base em competências clicando em Competências e selecionando-as. Como administrador, você pode classificar os cursos de quatro maneiras para localizar melhor o curso necessário. Clique em Classificar por e escolha ordem alfabética crescente, ordem alfabética decrescente, data de atualização do curso ou eficácia dos cursos.
@@ -532,7 +544,7 @@ Os administrador inscrevem alguns alunos nos cursos obrigatórios conforme os re
 
 ## Usuários
 
-++Incluir alunos
++++Incluir alunos
 
 Selecione os grupos de usuários e os alunos individuais (usando a ID de e-mail ou o nome) que deseja incluir. Adicione todos os grupos de usuários em uma interseção com o mesmo conjunto. Para adicionar outro grupo de usuários em uma união, use um novo conjunto de inclusão.
 
@@ -607,11 +619,11 @@ Além disso, usando os resultados da pesquisa, você pode escolher um aluno ou g
 * Marcar conclusão
 * Redefinir módulo
 
-Ao realizar uma pesquisa, a opção Cancelar inscrição > em massa na lista suspensa Ações está desativada no programa de aprendizado/curso.
+Ao realizar uma pesquisa, a opção Cancelar inscrição > Em massa na lista suspensa Ações é desativada para o curso/programa de aprendizado.
 
 ## Compartilhar código QR com os alunos para inscrição, conclusão ou ambos {#shareqrcodewithlearnerstoenrollcompleteorboth}
 
-No Adobe Learning Manager, os administradores podem compartilhar os códigos QR com os alunos para se inscreverem rapidamente no curso. Os três códigos QR diferentes são usados para marcar &quot;inscrição&quot;, &quot;conclusão&quot; ou &quot;inscrição &amp;conclusão&quot; de um curso.
+No Adobe Learning Manager, os administradores podem compartilhar os códigos QR com os alunos para se inscreverem rapidamente no curso. Os três códigos QR diferentes são usados para marcar a &#39;inscrição&#39;, a &#39;conclusão&#39; ou a &#39;inscrição e conclusão&#39; de um curso.
 
 Os alunos podem simplesmente usar o aplicativo Adobe Learning Manager para dispositivos móveis para digitalizar o respectivo código QR.
 
@@ -639,11 +651,11 @@ Um ciclo de vida típico do curso é semelhante ao seguinte:
 
 **Retirado** - Depois de publicar um curso, um autor pode movê-lo para um estado Retirado se não quiser que o curso apareça no catálogo de cursos dos alunos. Você pode republicar ou excluir um curso nesse estado.
 
-**Excluído** - Um curso no estado Excluído é aquele que foi removido completamente do aplicativo Adobe Learning Manager. Os cursos podem ser excluídos pelos autores somente quando estiverem no estado Rascunho. Você também pode excluir cursos do estado retirado.
+**Excluído** - Um curso no estado Excluído é aquele que foi removido completamente do aplicativo Adobe Learning Manager. Os cursos podem ser excluídos pelos autores somente quando estiverem no estado Rascunho. Você também pode excluir cursos do estado desativado.
 
 ![](assets/lifecycle-03.png)
 
-*Fluxo de trabalho de um ciclo de vida do curso*
+*Fluxo de trabalho do ciclo de vida de um curso*
 
 ## Configurações da notificação {#notificationsettings}
 

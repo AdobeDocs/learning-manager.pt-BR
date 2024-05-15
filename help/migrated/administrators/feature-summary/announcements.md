@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Comunicados
 description: Um comunicado é uma mensagem multimídia (imagem de texto ou vídeo) que um administrador transmite para um conjunto definido de usuários.
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 70%
+source-wordcount: '1021'
+ht-degree: 69%
 
 ---
-
-
 
 # Comunicados
 
@@ -29,6 +28,11 @@ Há quatro tipos de anúncios:
 1. Como usuário administrador, clique em Comunicados no painel esquerdo.
 1. Clique em Adicionar no canto superior direito da página.
 1. Na lista suspensa Tipo, selecione a opção **Como notificação**.
+
+![](assets/as-notofocation.png)
+
+*Personalizar a notificação*
+
 1. No campo Mensagem, adicione a mensagem para o comunicado. Você também pode adicionar um URL para comunicados aqui. No entanto, você deve adicionar o URL no formulário HTML.
 
    Por exemplo,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
