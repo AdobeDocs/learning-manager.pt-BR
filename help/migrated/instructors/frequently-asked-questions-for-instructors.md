@@ -3,14 +3,13 @@ description: Leia para conhecer as perguntas frequentes para professores no Lear
 jcr-language: en_us
 title: Perguntas Frequentes para Professores
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 85%
 
 ---
-
-
 
 # Perguntas Frequentes para Professores
 
@@ -49,4 +48,3 @@ Sim, um autor pode atribuir vários professores para um único módulo. Nesse ca
 Como professor, você só pode exibir e editar os detalhes das sessões para as quais foi atribuído. Você não pode modificar a sessão ou a lista de participantes de nenhuma outra sessão.
 
 +++
-
