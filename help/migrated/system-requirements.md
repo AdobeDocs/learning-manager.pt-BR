@@ -4,7 +4,7 @@ title: Requisitos do sistema
 description: Requisitos de sistema do Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 566716404c1cff34108e39014e14416d65088a80
+source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 65%
@@ -340,4 +340,4 @@ Certifique-se de que os seguintes domínios de terceiros estão permitidos se vo
 
 ## Informe oficial de segurança do ALM
 
-[Informe oficial do ALM](assets/alm-security-whitepaper.pdf)
+[Informe oficial do ALM](assets/alm-security-whitepaper-2024.pdf)
