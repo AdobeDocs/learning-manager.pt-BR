@@ -1,13 +1,13 @@
 ---
 title: Transição do Gerenciador de FTP do Adobe
 description: O Adobe Learning Manager suporta um novo conector usando o protocolo SFTP da família AWS Transfer. Você pode substituir qualquer cliente FTP de código aberto pelo gerenciador de FTP do Adobe.
-source-git-commit: aa8030e7e1d0ad72b76fb48a34e7b15ddf178a0b
+exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
+source-git-commit: 566716404c1cff34108e39014e14416d65088a80
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 68%
 
 ---
-
 
 # Transição do Gerenciador de FTP do Adobe
 
