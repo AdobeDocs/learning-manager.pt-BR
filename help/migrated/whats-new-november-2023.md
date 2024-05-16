@@ -2,7 +2,7 @@
 title: Novidades desta versão
 description: Saiba mais sobre os novos recursos e aprimoramentos na versão de novembro de 2023 do Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 2d74bc46e8b4aa5f443e34dc48929a807c1d8924
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## Interface do usuário reformulada
 
-A interface de usuário do Adobe Learning Manager foi submetida a algumas atualizações para oferecer uma experiência mais limpa e mais moderna. As páginas de destino para as funções de administrador e autor foram renovadas e as atualizações de tema da interface do usuário foram feitas para todas as funções. No entanto, não foram feitas alterações no local de menus, botões ou links, e você poderá encontrá-los exatamente onde estavam localizados antes.
+A interface de usuário do Adobe Learning Manager passou por algumas atualizações para oferecer uma experiência mais limpa e moderna. As páginas de destino para as funções de administrador e autor foram renovadas e as atualizações de tema da interface do usuário foram feitas para todas as funções. No entanto, não foram feitas alterações no local de menus, botões ou links, e você poderá encontrá-los exatamente onde estavam localizados antes.
 
 As atualizações do tema serão aplicadas automaticamente a contas que usam o tema padrão. As atualizações do tema da interface do usuário não afetarão as contas que fizeram modificações para usar um tema personalizado. Essas contas precisam voltar para o tema padrão para obter as atualizações do novo tema.
 
@@ -66,7 +66,7 @@ Nesta versão, adicionamos um menu suspenso na caixa de diálogo Relatório de a
 
 ### Alterações no relatório de anúncio de notificações
 
-Nas versões anteriores do Adobe Learning Manager, o relatório de Aviso de Notificação não tinha nenhum filtro. O Adobe Learning Manager baixou todas as notificações na conta.
+Em versões anteriores do Adobe Learning Manager, o relatório de Aviso de Notificação não tinha nenhum filtro. O Adobe Learning Manager baixou todas as notificações na conta.
 
 Nesta versão, adicionamos um filtro de data, com o qual você pode baixar as notificações em um período especificado.  No entanto, você só pode baixar o relatório nos últimos seis meses.
 
@@ -230,7 +230,7 @@ Os administradores só podem pesquisar gerentes em relatórios do Painel.
 
 ## Limitar processamento de relatório do painel legado
 
-Quando um administrador tenta plotar um relatório do painel e o relatório leva muito tempo para plotar (mais de 2,5 min), o Adobe Learning Manager exibe a seguinte mensagem:
+Quando um administrador tenta plotar um relatório do painel de controle e o relatório leva muito tempo para plotar (mais de 2,5 min), o Adobe Learning Manager exibe a seguinte mensagem:
 
 ![imagem de relatório herdada](assets/error-message.png)
 *Mensagem de erro quando o relatório leva muito tempo*
@@ -324,3 +324,5 @@ Para obter informações sobre as versões atuais e anteriores do aplicativo Web
 * [Versão de julho de 2023](whats-new-2023-july.md)
 * [Versão de abril de 2023](whats-new-2023-april.md)
 * [Versão de novembro de 2022](whats-new-2022-november.md)
+
+<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
