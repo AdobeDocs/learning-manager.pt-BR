@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
+source-git-commit: f7333304fe42b0b05ed342bb2f41822f15da909d
 workflow-type: tm+mt
-source-wordcount: '15572'
+source-wordcount: '15590'
 ht-degree: 63%
 
 ---
@@ -34,7 +34,7 @@ Continue lendo para saber como configurar e usar cada um desses conectores no Le
 
 >[!NOTE]
 >
->Com a versão de novembro de 2022 do Adobe Learning Manager, o Zoom foi descontinuado [Autenticação JWT até junho de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Da mesma forma, o conector do Zoom com JWT continuará funcionando até a data mencionada, mas recomendamos que os usuários criem um aplicativo OAuth de servidor para servidor para substituir a funcionalidade na conta dele. Toda nova conexão terá a autenticação OAuth do Zoom por padrão.
+>Com a versão de novembro de 2022 do Adobe Learning Manager, o Zoom descontinuou [Autenticação JWT até junho de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Da mesma forma, o conector do Zoom com JWT continuará funcionando até a data mencionada, mas recomendamos que os usuários criem um aplicativo OAuth de servidor para servidor para substituir a funcionalidade na conta dele. Toda nova conexão terá a autenticação OAuth do Zoom por padrão.
 
 ## Conector do Salesforce {#sfconnector}
 
@@ -151,6 +151,10 @@ Veja como você criará os objetos:
 
 1. Renomeie os nomes dos objetos personalizados no Salesforce.
 1. Selecione os eventos e clique em **[!UICONTROL Salvar]**.
+
+>[!NOTE]
+>
+>Verifique se o acesso do administrador do sistema foi concedido a todos os campos ativos adicionados após a instalação do pacote.
 
 **Vincular eventos com:** Escolha qual seção você deseja exportar - Usuário ou Contato. Se você escolher o objeto Contato, os usuários presentes no Learning Manager, mas não no Salesforce, serão criados no Salesforce.
 
@@ -394,15 +398,15 @@ Uma vez que a conexão é estabelecida com sucesso, você pode mapear as colunas
 
 +++
 
-+++Utilização do conector FTP do Learning Manager
++++Usar o conector FTP do Gerenciador de aprendizado
 
-1. Os arquivos CSV de sistemas externos devem ser colocados no seguinte caminho:
+1. Os arquivos CSV dos sistemas externos devem ser colocados no seguinte caminho:
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
    >[!NOTE]
    >
-   >Na versão de julho de 2016, é permitido importar somente usuários. Portanto, para usar o conector FTP, certifique-se de que os arquivos CSV estejam colocados na seguinte pasta:
+   >Na versão de julho de 2016, é permitido importar somente usuários. Portanto, para usar o conector FTP, certifique-se de que os arquivos CSV sejam colocados na seguinte pasta:
 
    `code Home/import/user/internal/*.csv`
 
@@ -487,11 +491,11 @@ Há duas opções para exportar relatórios de habilidades do usuário.
 **[!UICONTROL Habilidades do usuário - Configurar]**: esta opção permite que você agende a extração do relatório. Selecione a caixa de seleção Habilitar agendamento e especifique a data e hora de início. Também é possível especificar o intervalo no qual deseja que o relatório seja gerado e enviado.
 
 ![](assets/user-skills-configure.png)
-*Configurar exportação do relatório*
+*Configurar a exportação do relatório*
 
 +++
 
-Para abrir a pasta Exportar onde os arquivos exportados são colocados, abra o link para Pasta FTP fornecido na página Habilidades do usuário, conforme mostrado abaixo.
+Para abrir a pasta Exportar onde os arquivos exportados são colocados, abra o link para a pasta FTP fornecido na página Habilidades do usuário conforme mostrado abaixo.
 
 ![](assets/ftp-folder.png)
 *Pasta FTP para visualizar arquivos*
@@ -717,7 +721,7 @@ O conector do Harvard ManageMentor é usado por clientes empresariais do site Ha
 
    Veja os dois seguintes arquivos de amostra a seguir do feed do usuário e do feed do curso deste conector:
 
-   * [Arquivo de metadados do curso para o conector Harvard ManageMentor](assets/hmm12-metadata.xlsx)
+   * [Arquivo de metadados do curso do conector do Harvard ManageMentor](assets/hmm12-metadata.xlsx)
    * [Feed do usuário do conector do Harvard ManageMentor](assets/client-hmm12-20170304.xlsx)
 
 ## Conector do Workday {#workdayconnector}
@@ -746,10 +750,10 @@ A exportação das habilidades do usuário permite que os usuários exportem hab
 >
 >Não é possível exportar habilidades de várias contas do Learning Manager simultaneamente usando a mesma conta do Workday.
 
-#### Apontar para a observação
+#### Observações
 
 * Garantir que a UUID, o endereço de e-mail e o nome do funcionário sejam exclusivos em várias integrações da Workday. Valores incorretos resultarão em uma falha de conexão.
-* O campo UUID preenchido via Workday em não pode ser excluído por nenhum administrador do LMS voltado para o cliente. Se quiser alterar o valor, entre em contato com a equipe de integração ou de suporte do Adobe Learning Manager.
+* O campo UUID preenchido via Workday em não pode ser excluído por nenhum administrador do LMS voltado para o cliente. Se quiser alterar o valor, entre em contato com a equipe de integração ou suporte do Adobe Learning Manager.
 * A opção Limpeza do Usuário também pode não funcionar, pois a Limpeza do Usuário oferece suporte apenas a 50 usuários a serem removidos por execução. Tenha muito cuidado ao fazer upload dos usuários pelos UUIDs.
 
 ### Agendamento {#Scheduling-1}
@@ -819,21 +823,39 @@ Insira as credenciais do Adobe Learning Manager abaixo da coluna Adobe Learning 
 
 Selecione o **Excluir trabalhadores temporários** caixa de seleção para impedir que os trabalhadores temporários disponíveis sob um gerente sejam importados.
 
-O Workday tem quatro níveis de hierarquia, enquanto o Learning Manager tem dois níveis. Os quatro níveis no Workday são categoria de perfil de habilidade, perfil de habilidade, categoria de item de habilidade e item de habilidade. Seu nome de habilidade e o nível do Learning Manager juntos são mapeados no Workday sob o item de habilidade.
+O Workday tem quatro níveis de hierarquia, enquanto o Learning Manager tem dois níveis. Os quatro níveis do Workday são categoria de perfil de habilidade, perfil de habilidade, categoria do item de habilidade e item de habilidade. Seu nome de habilidade e o nível do Learning Manager juntos são mapeados no Workday sob o item de habilidade.
 
 >[!NOTE]
 >
 >Você pode adicionar outros atributos do Workday. Entre em contato com seu CSAM para obter os atributos adicionados.
 
-+++Lista de atributos Workday compatíveis
++++Lista de atributos compatíveis do Workday
 
-wd:User_ID wd:Worker_ID manager wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Name_Detail_Data.wd Nome wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Name_Detail_Data.wd:Last_Name wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0 .@wd:Formatted_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$ wd:Personal_Data.wd:Gender_Reference.wd:ID.1$ wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$ wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd d:Address_Data.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Status_Data.wd:Ative wd:Employment_Data.wd:Worker_Status_Data.wd:Ative_Status_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Retirado wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date:Employment_Data.wd:Worker_Status_Data.wd:Terminado wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Data wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code wd:Organization_Data.wd:Worker_Organization_Organization_Data.0.wd:Organization_Data.wd:Organization_Name wd:Organization_Data wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1.$ wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$ wd:Qualification_Data.wd:Education.0.wd:School_Name wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company wd:Management_Chain_Data.wd:Worker_Supervisors_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID Primary Work_Organization Email Wd:Employee_ID _Type_Reference_Cost_Center_ID wd:Organization_Type_Reference_Cost_Center_Name wd:Organization_Type_Reference_Company wd:Organization_Subtype_Reference_Department wd:Organization_Subtype_Reference_Division wd:Universal_ID wd:Integration_Field_Override_Data.3.wd:Value wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor_Employment wd:Wd:Business_Site_Summary Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
+wd:User_ID wd:Worker_ID manager wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Name_Detail_Data.wd Nome wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Name_Detail_Data.wd:Last_Name wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0 .@wd:Formatted_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$ wd:Personal_Data.wd:Gender_Reference.wd:ID.1$ wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$ wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd d:Address_Data.@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Status_Data.wd:Ative wd:Employment_Data.wd:Worker_Status_Data.wd:Ative_Status_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Retirado wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date:Employment_Data.wd:Worker_Status_Data.wd:Terminado wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Data wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code wd:Organization_Data.wd:Worker_Organization_Organization_Data.0.wd:Organization_Data.wd:Organization_Name wd:Organization_Data wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1.$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$
+wd:Qualification_Data.wd:Education.0.wd:School_Name
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Empresa
+wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
+Email de trabalho principal
+wd:Organization_Type_Reference_Cost_Center_ID
+wd:Organization_Type_Reference_Cost_Center_Name
+wd:Organization_Type_Reference_Company
+wd:Organization_Subtype_Reference_Department
+wd:Organization_Subtype_Reference_Division
+wd:Universal_ID
+wd:Integration_Field_Override_Data.3.wd:Valor
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Município
 
 +++
 
 ### Exportar
 
-Você pode exportar todas as habilidades obtidas por um usuário do Learning Manager para o Workday. Apenas habilidades ativas do usuário são exportadas. O Learning Manager não exporta habilidades retiradas. Também é possível conectar vários Learning Manager\
+Você pode exportar todas as habilidades obtidas por um usuário do Learning Manager para o Workday. Apenas habilidades ativas do usuário são exportadas. O Learning Manager não exporta habilidades retiradas. Você também pode conectar vários Gerentes de aprendizado\
 contas para o mesmo conector do Workday. Caso os nomes de habilidades sejam os mesmos em duas contas do Learning Manager, eles serão mapeados para a mesma habilidade no Workday. Antes de atualizar a habilidade no Workday, se duas contas do Learning Manager estiverem usando a mesma conta do Workday, é recomendável atualizar os nomes das habilidades em todas as contas do Learning Manager.
 
 +++Habilidades de usuário - Configurar
@@ -958,7 +980,7 @@ Para configurar e usar o conector, siga estas etapas.
 
 ### Criar um aplicativo OAuth de zoom servidor para servidor
 
-Ao criar um aplicativo OAuth de servidor para servidor do Zoom para ser usado no Adobe Learning Manager, você deve adicionar os escopos necessários para o Adobe Learning Manager ao criar a conexão.
+Ao criar um aplicativo OAuth de servidor para servidor do Zoom para ser usado no Adobe Learning Manager, você deve adicionar escopos exigidos pelo Adobe Learning Manager ao criar a conexão.
 
 O Adobe Learning Manager requer os escopos abaixo e eles devem ser selecionados no aplicativo OAuth.
 
@@ -1402,7 +1424,7 @@ Os Relatórios de treinamento podem ser exportados para o Power BI como parte do
 
 O Relatório de treinamento tem dois campos adicionais:
 
-* Número de usuários que compartilharam feedback em um curso
+* Contagem de usuários que compartilharam feedback em um curso
 * Classificação de estrelas média para um curso
 
 ### Status do filtro de transcrições do aluno {#lt-status}
@@ -1423,7 +1445,7 @@ Você pode exportar a lista obrigatória e usar o Power BI para analisar o relat
 
 ### Baixar modelos de Power BI {#template}
 
-O Learning Manager também fornece modelos de Power BI prontos. Esses modelos oferecem melhor capacidade de análise aos administradores de conta do Adobe Learning Manager.
+O Learning Manager também fornece modelos de Power BI prontos. Esses modelos oferecem melhor capacidade de análise aos administradores de conta da Adobe Learning Manager.
 
 Você pode baixar os modelos, exportar relatórios relevantes e criar relatórios de plotagem usando esses modelos disponíveis facilmente.
 
@@ -1635,7 +1657,7 @@ Pré-requisitos para configurar uma conexão ADFS:
 
   ![](assets/select-read-all.png)
 
-  *Selecionar Ler os perfis completos de todos os usuários*
+  *Selecione Ler os perfis completos de todos os usuários*
 
 * Selecione **Adicionar permissões**.
 
@@ -1663,13 +1685,13 @@ O processo de importação de usuário permite que o administrador do Learning M
 
 #### Como filtrar usuários
 
-O administrador do Learning Manager pode aplicar filtros aos usuários antes de importá-los. Por exemplo, o administrador do Learning Manager pode importar todos os usuários da hierarquia sob um ou mais gerentes específicos.
+O administrador do gerente de aprendizado pode aplicar filtros aos usuários antes de importá-los. Por exemplo, o administrador do Learning Manager pode importar todos os usuários da hierarquia sob um ou mais gerentes específicos.
 
-Para configurar o conector do ADFS, entre em contato com a equipe de CSM do Learning Manager.
+Para configurar o conector do ADFS, entre em contato com a equipe do Learning Manager CSM.
 
 ## Configurar o conector do ADFS {#configureadfsconnector}
 
-1. Na página inicial do Learning Manager, passe o mouse sobre a miniatura/cartão do ADFS. Será exibido um menu. Clique na opção Conectar no menu.
+1. Na página inicial do Gerenciador de aprendizado, passe o mouse sobre a miniatura do ADFS. Será exibido um menu. Clique na opção Conectar no menu.
 
    ![](assets/adfs1.jpg)
 
@@ -1776,9 +1798,9 @@ Aqui está um breve fluxo de trabalho do processo.
 * O host no Connect cria um curso e carrega conteúdo que contém um questionário interativo.
 * O host cria um treinamento de **sala de aula virtual** e salva-o. O host tem a opção de vincular o curso criado acima ao VC ou pode usar a opção **Compartilhar curso** no aplicativo Connect durante a sessão para compartilhar o curso.
 
-**Learning Manager - Autor**
+**Gerente de aprendizagem - Autor**
 
-* O autor cria um curso no Learning Manager com o tipo de módulo como **Sala de aula virtual.**
+* O autor cria um curso no Gerenciador de aprendizagem com o tipo de módulo como **Sala de aula virtual.**
 * Na lista suspensa **Sistema de Conferência**, escolha Conectar como provedor VC.
 * Escolha o curso Reunião persistente e selecione a sala de aula VC criada pelo host no Connect. Escolha o professor. Salve e publique o curso.
 
@@ -1950,7 +1972,7 @@ Um organizador de reuniões pode permitir que a sala de espera restrinja a entra
 
 O processo de sincronização automática de conclusão do usuário permite que um administrador do Learning Manager busque automaticamente os registros de conclusão e URL de gravação para reuniões do Teams.
 
-Para obter mais informações, consulte  [**Instalar o conector Microsoft Teams no Adobe Learning Manager**](install-microsoft-teams-connector.md).
+Para obter mais informações, consulte  [**Instalar o conector do Microsoft Teams no Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
 ## Acesso a dados de treinamento
 
