@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 1%
 # Resumo dos novos recursos {#new-features-summary}
 
 Saiba mais sobre os novos recursos e aprimoramentos na versão de março de 2024 do Adobe Learning Manager.
+
+Explore alguns dos recursos mais recentes do Adobe Learning Manager, como:
+
+1. Importar habilidades de fontes externas
+1. Suporte a várias marcas
+1. Módulo de atividade de reavaliação da lista de verificação
+1. Aplicativo de aprendizado móvel com rótulo branco
+
+>[!NOTE]
+>
+>Confira isso [webinar](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) para saber mais sobre os novos recursos nesta versão.
+
 
 ## Novidades desta versão {#whatsnewandchanged}
 
@@ -427,7 +439,7 @@ O relatório Login Access estará disponível apenas para os últimos cinco trim
 
 ### Alterações do ADFS
 
-Os campos Tipo de funcionário e ID do funcionário do AD FS agora estão disponíveis no Adobe Learning Manager, com base nos mapeamentos.
+Os campos Tipo de funcionário e ID de funcionário do AD FS agora estão disponíveis no Adobe Learning Manager, com base nos mapeamentos.
 
 ## Alterações da API nesta versão
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar módulos do curso, instâncias e programas de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4659'
-ht-degree: 64%
+source-wordcount: '4746'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,14 @@ Para enviar notificações por e-mail, um administrador deve escolher explicitam
 ![](assets/escalation-notification.png)
 
 *Definir nível de escalonamento*
+
+## Lista de espera
+
+A seção Lista de espera permite que os alunos estejam em lista de espera para cursos em sala de aula quando as vagas são limitadas, com base na ordem de inscrição. Os administradores podem gerenciar isso selecionando alunos na lista de espera e alocando vagas além do limite inicial. Depois que uma vaga é alocada pelo administrador, o aluno é imediatamente inscrito no curso.
+
+## Quadro de discussão
+
+O recurso Quadro de discussão permite que os alunos visualizem as discussões do curso. Como administrador, você pode excluir qualquer comentário, conforme necessário. Os administradores podem ativar essa opção nas configurações do curso.
 
 ## Moderação do curso {#coursemoderation}
 

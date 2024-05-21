@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Personalizar a página inicial do aluno
 description: Um administrador pode personalizar a página inicial do aluno e torná-la mais moderna, orientada por conteúdo e personalizada para um aluno.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 45%
 
 ---
-
-
 
 # Personalizar a página inicial do aluno
 
@@ -85,7 +84,7 @@ Isso será ativado e esmaecido se a experiência imersiva for escolhida. Essa ca
 
 ![](assets/option-immersive.png)
 
-*Seleção para a experiência Clássica*
+*Configurações da página inicial do aluno*
 
 O layout imersivo é o padrão para todas as novas contas. A layout é controlada por widgets que um administrador pode ativar ou desativar. Com base em como os widgets são posicionados, o mesmo é refletido na página inicial do aluno.
 
