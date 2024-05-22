@@ -4,10 +4,10 @@ title: Personalizar a página inicial do aluno
 description: Um administrador pode personalizar a página inicial do aluno e torná-la mais moderna, orientada por conteúdo e personalizada para um aluno.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 45%
+source-wordcount: '1139'
+ht-degree: 46%
 
 ---
 
@@ -137,6 +137,12 @@ Para contas existentes, a opção **Imersivo** será **DESLIGADO**. Está ativad
   </tr>
   <tr>
    <td>
+    <p>Inscrições que mostram prazo</p></td>
+   <td>
+    <p>Exibe as inscrições vencidas, com prazos futuros ou que estão em andamento. </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>Gamificação</p></td>
    <td>
     <p>Exibe o quadro de classificação com base em atividades de aprendizado.</p></td>
@@ -159,24 +165,24 @@ Para contas existentes, a opção **Imersivo** será **DESLIGADO**. Está ativad
       <p>Em segundo lugar, o administrador também pode decidir se as recomendações são iniciadas imediatamente ou em uma data especificada.</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Recomendação baseada em área de interesse</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>Exibe objetos de aprendizado com base na área de interesse escolhida pelo aluno. A recomendação é orientada por um algoritmo de Aprendizado de Máquina.</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>Procurar por catálogo<br></p></td>
    <td>
     <p>Exibe catálogos como blocos na página inicial. </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Recomendação baseada na atividade entre pares<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>Exibe o treinamento com base no que os colegas de um aluno estão fazendo. Isso é novamente orientado por um algoritmo de aprendizado de máquina.</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ Na guia **Geral** você tem as seguintes opções:
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Para a nova conta, as configurações Página inicial do aluno, Tipo de treinamento e Escopo da recomendação não estarão visíveis.
+
