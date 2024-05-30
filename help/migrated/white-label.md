@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivos móveis
-description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, para que possa renomear a identidade visual do aplicativo e disponibilizá-lo aos usuários com sua própria marca.
+description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
 
 # Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivos móveis
 
-O aplicativo móvel Adobe Learning Manager agora é compatível com rótulos brancos, o que significa que agora você pode liberar o aplicativo com sua própria marca.
+O aplicativo Adobe Learning Manager para dispositivos móveis agora é compatível com a rotulagem branca, o que significa que agora você pode lançá-lo sob sua própria marca.
 
 ## Como você deve começar a se preparar para iniciar seu aplicativo com rótulo branco
 
@@ -29,7 +29,7 @@ Para implantar e gerenciar seu próprio aplicativo com rótulo branco, siga as e
 
 ## Visão geral
 
-A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, para que possa renomear a identidade visual do aplicativo e disponibilizá-lo aos usuários com sua própria marca.
+A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 
 ## O que pode ser personalizado
 
@@ -121,7 +121,7 @@ O seguinte pode ser personalizado:
 
   <td>
 
-  <p>O ícone do aplicativo é png. Este ícone é exibido no seu aplicativo. O formato para o nome é account-id_appIcon.png.</p></td>
+  <p>O ícone do aplicativo é png. Este ícone é exibido no seu aplicativo. O formato para o nome é account-id_appIcon.png. As dimensões do ícone do aplicativo são 512 × 512 pixels.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ O seguinte pode ser personalizado:
 
   <td>
 
-  <p>Para a tela inicial do seu aplicativo, forneça uma imagem (png) que será exibida quando os usuários iniciarem o aplicativo. O formato para o nome é account-id_splashIcon.png.</p></td>
+  <p>Para a tela inicial do seu aplicativo, forneça uma imagem (png) que será exibida quando os usuários iniciarem o aplicativo. O formato para o nome é account-id_splashIcon.png. As dimensões das telas de splash quadradas são de 1052 × 1052 pixels e as telas de splash em círculo são de 768 x 768 pixels.</p></td>
 
   </tr>
 
@@ -284,7 +284,7 @@ Reutilize o mesmo projeto que você criou nas etapas acima para notificações p
 
 >[!IMPORTANT]
 >
->Envie os arquivos para a equipe CSAM do Adobe Learning Manager para serem incluídos na compilação do arquivo binário do aplicativo.
+>Envie os arquivos para a equipe Adobe Learning Manager CSAM para serem incluídos na compilação do arquivo binário do aplicativo.
 
 
 ## Gerar os binários assinados
