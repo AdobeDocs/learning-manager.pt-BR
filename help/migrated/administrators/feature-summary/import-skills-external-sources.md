@@ -4,9 +4,9 @@ title: Importar habilidades de fontes externas
 description: Importe habilidades de provedores de conteúdo, como LinkedIn e Go1, usando os respectivos conectores.  As habilidades importadas serão adicionadas às habilidades definidas pelo administrador no Learning Manager e estarão disponíveis para os autores durante o fluxo de trabalho de criação do curso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
+source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,20 @@ Siga as etapas no procedimento para ativar a importação de habilidades na cont
 
 1. No aplicativo de administração, selecione **Configurações** no painel esquerdo.
 1. Selecionar **Geral**.
-1. No menu **Importação de habilidades** , selecione **Habilitar**. Se estiver ativado, você pode escolher uma origem externa para importar **Habilidades**. As habilidades dos recursos de aprendizado existentes serão importadas para o repositório de habilidades uma vez durante a execução inicial. Para todas as importações subsequentes de recursos de aprendizado, as habilidades serão importadas para o repositório de habilidades apenas para itens recém-importados.
+1. No menu **Importação de habilidades** , selecione **Habilitar**. Se ativado, você pode escolher uma origem externa para importar habilidades. Uma vez ativado, para todas as importações subsequentes de recursos de aprendizado, as habilidades serão importadas para o repositório de habilidades para itens recém-importados. As habilidades dos recursos de aprendizado existentes podem ser importadas para o repositório de habilidades uma vez e, para executar esta execução inicial, entre em contato com seu CSM.
 1. Selecione um provedor de conteúdo na lista suspensa.
 
-Como administrador, você só pode importar uma habilidade como origem.
+Como administrador, você só pode importar habilidades de uma origem de habilidade.
 
 ### Nível de habilidade padrão
 
 O nível de habilidade padrão é um e Crédito é 10 após a migração das habilidades. Posteriormente, o administrador pode alterar o crédito.
 
 Não é possível editar o nome da habilidade, a descrição e adicionar níveis a habilidades externas. No entanto, você pode adicionar domínios, medalhas e editar créditos.
+
+### Habilidades e créditos padrão do curso
+
+Depois de importar habilidades, elas são adicionadas aos recursos de aprendizado importados da origem selecionada como origem da habilidade. Por exemplo, se a sua fonte de habilidades foi o LinkedIn Learning, todos os recursos de aprendizado importados do LinkedIn Learning terão as habilidades fornecidas por ele. Quando importado para recursos de aprendizado, cada recurso de aprendizado fornece um padrão de 10 créditos. Se quiser alterar isso, entre em contato com o CSM.
 
 #### Relatórios
 
