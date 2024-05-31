@@ -2,14 +2,13 @@
 description: Leia este artigo para saber como configurar modelos de e-mail para eventos relacionados a todos os objetos de aprendizado.
 jcr-language: en_us
 title: Modelos de e-mail
-source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
+exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 89%
+source-wordcount: '475'
+ht-degree: 72%
 
 ---
-
-
 
 # Modelos de e-mail
 
@@ -21,11 +20,13 @@ Como autor, você pode personalizar os modelos de e-mail adicionando ou alterand
 
 Você também pode optar por não enviar notificações por e-mail para determinados eventos, desativando a opção de modelo de e-mail.
 
-## Configurar notificações por e-mail {#settingemailnotifications}
+## Configurar notificações por email {#settingemailnotifications}
 
-1. No aplicativo Autor, clique no objeto de aprendizado para o qual você deseja configurar o modelo de e-mail. Por exemplo, Cursos.
+1. No aplicativo Autor, selecione o objeto de aprendizado para o qual deseja configurar o modelo de e-mail. Por exemplo, Cursos.
+
 1. Na página Objeto de aprendizado, clique no curso, certificação ou programa de aprendizado para o qual deseja definir as configurações de e-mail.
-1. Na página de detalhes do objeto de aprendizado, clique em Modelos de e-mail.
+
+1. Na página de detalhes do objeto de aprendizado, selecione **Modelos de e-mail** > **Todos os modelos**. Os modelos de e-mail estão disponíveis para **Instância padrão** e **Curso atual**. Você pode alternar entre elas usando a lista suspensa no canto superior direito.
 
    Você pode ver a lista de modelos disponíveis para o objeto de aprendizado escolhido.
 
@@ -68,3 +69,11 @@ Você também pode optar por não enviar notificações por e-mail para determin
 Se o círculo no botão de notificação de cada nome do evento estiver adjacente a Sim (com a cor azul como plano de fundo), a notificação está ativada. Se estiver em cinza e o círculo estiver adjacente a Não, a notificação está desativada.
 
 Sempre que você configurar um modelo de e-mail no nível do curso, ele terá precedência sobre as configurações no nível do administrador nesse curso específico.
+
+## Configurações do modelo de email
+
+O autor pode configurar o seguinte nas configurações do modelo de email:
+
+* **Banner de e-mail**: permite modificar o banner de e-mail.
+
+* **Assinatura de email**: permite adicionar ou editar a assinatura de e-mail.

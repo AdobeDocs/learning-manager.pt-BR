@@ -2,26 +2,30 @@
 description: Este documento contém informações sobre objetos de aprendizado para gerentes.
 jcr-language: en_us
 title: Objetos de aprendizado
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 72%
+source-wordcount: '1725'
+ht-degree: 60%
 
 ---
-
-
 
 # Objetos de aprendizado
 
 Este documento contém informações sobre objetos de aprendizado para gerentes.
 
-Um gerente pode inscrever alunos em seus cursos, programas de aprendizado e certificações. Para obter mais informações e as etapas a seguir para fazer inscrições, consulte [Inscrever alunos.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
+Um gerente pode inscrever os alunos sob ele em cursos, programações de aprendizado e certificações. Para obter mais informações e as etapas a seguir para fazer inscrições, consulte [Inscrever alunos.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
 
 ## Cursos {#courses}
 
 ## Exibir cursos {#viewingcourses}
 
 Como gerente, você pode visualizar uma lista de todos os cursos disponíveis. Clique em **[!UICONTROL Cursos]** no painel esquerdo para exibir a lista de cursos com opções de pesquisa e filtro. Você também pode ver a porcentagem da eficácia de cada um dos cursos nas miniaturas do curso. Observe que você pode inscrever os membros da equipe somente nos cursos que estão visíveis para você no aplicativo do aluno.
+
+![](assets/view-course.png)
+
+*Exibir cursos*
+
 
 >[!NOTE]
 >
@@ -46,6 +50,10 @@ Como gerente, você pode gerenciar a lista de alunos dos membros da sua equipe.
 ![](assets/courses-learners.png)
 
 *Selecionar uma ação do aluno*
+
+>[!NOTE]
+>
+>**Exportar aprovações pendentes** pode ser executada no aplicativo do aluno.
 
 Na página Alunos, você pode executar as seguintes ações:
 
@@ -98,20 +106,30 @@ Nessa imagem de amostra, todos os usuários receberam todos os três feedbacks, 
 
 Conforme o gráfico circular mostrado acima, o gerente atribui mais peso ao feedback N3.
 
-## Pesquisar por cursos, programas de aprendizado e certificações {#searchingcourseslearningprogramsandcertifications}
+## Pesquisar cursos, programações de aprendizado e certificações {#searchingcourseslearningprogramsandcertifications}
 
-O Adobe Learning Manager permite encontrar mais facilmente os cursos/programas de aprendizado da sua escolha. Você pode pesquisar pelos cursos de duas formas:
+O Adobe Learning Manager permite encontrar mais facilmente os cursos/caminhos de aprendizado da sua escolha. Você pode pesquisar pelos cursos de duas formas:
 
-1. Usando o campo Pesquisa. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou quaisquer palavras-chave associadas aos seus cursos para localizar os cursos/programas de aprendizado. Você também pode pesquisar usando tags predefinidas como Captivate, C, Java e HTML. As tags são pesquisáveis no campo de pesquisa, o que significa que elas são exibidas no campo de pesquisa conforme você digita. A pesquisa também pode ser executada usando a ID exclusiva.
-1. Filtrando a lista de cursos/programas de aprendizagem/certificações usando os filtros. Você pode filtrar os cursos por status como Todos, Publicado e Retirado.
+1. Usando o campo Pesquisa. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou qualquer palavra-chave associada aos seus cursos para localizar os cursos/caminhos de aprendizado. Você também pode pesquisar usando tags predefinidas como Captivate, C, Java e HTML. As tags são pesquisáveis no campo de pesquisa, o que significa que elas são exibidas no campo de pesquisa conforme você digita. A pesquisa também pode ser executada usando a ID exclusiva.
+1. Filtrando a lista de cursos/programações de aprendizado/certificações usando os filtros. Você pode filtrar os cursos por status como Todos, Publicado e Retirado.
 
-É possível pesquisar com base em competências clicando em Competências e selecionando-as. Como gerente, você pode classificar os cursos de quatro maneiras, para localizar melhor o curso necessário. Clique em Classificar por e escolha ordem alfabética crescente, ordem alfabética decrescente, data de atualização do curso ou eficácia dos cursos:
+Você pode pesquisar com base em competências selecionando **Competências** e escolhendo-os. Como gerente, você pode classificar os cursos de quatro maneiras, para localizar melhor o curso necessário. Clique em Classificar por e escolha ordem alfabética crescente, ordem alfabética decrescente, data de atualização do curso, data de criação do curso ou eficácia dos cursos:
 
-![](assets/admin-sortby.png)
+* Nome (a-z)
+* Nome (z-a)
+* Data atualizada
+* Data da criação
+* Eficácia do curso
 
-*Pesquisa com base em competências*
+![](assets/filter-courses.png)
 
-É possível ordenar os programas de aprendizado de três formas: ordem alfabética crescente, ordem alfabética decrescente e data de atualização.
+*Filtrar cursos*
+
+Você pode classificar os caminhos de aprendizado de três maneiras: ordem alfabética crescente, ordem alfabética decrescente e data de atualização.
+
+![](assets/filter-learning-paths.png)
+
+*Filtrar caminho de aprendizado*
 
 ## Inscrever alunos nos cursos {#enrollinglearnersintocourses}
 
@@ -128,28 +146,28 @@ Os gerentes inscrevem alguns alunos nos cursos obrigatórios conforme os requisi
 >
 >Você pode inscrever somente os alunos que fazem parte da sua equipe.
 
-## Programas de aprendizado {#learningprograms}
+## Caminhos de aprendizado {#learningprograms}
 
 O gerente pode inscrever, ver as pontuações dos questionários, os feedbacks N1 e N3 e cancelar as inscrições somente dos seus relatores.
 
-## Adicionar alunos a um programa de aprendizado {#addlearnerstoalearningprogram}
+## Adicionar alunos a um caminho de aprendizado {#addlearnerstoalearningprogram}
 
-1. No modo Gerente, clique em Programas de aprendizado no painel esquerdo.
-1. Selecione o programa de aprendizado publicado na lista de quadros, ao qual você deseja adicionar alunos.
+1. No modo de gerente, clique em Caminhos de aprendizado no painel esquerdo.
+1. Selecione o caminho de aprendizado publicado na lista de blocos ao qual deseja adicionar alunos.
 1. Clique em Alunos no painel esquerdo na categoria Relatórios do programa. Observação: O programa de aprendizado deve ser publicado antes da adição de alunos.
 1. Clique no link de inscrição da página.
 1. Comece a digitar os nome ou perfis dos alunos e escolha os alunos na lista suspensa de alunos. Clique em Salvar.
 
 ## Exibir pontuações do questionário {#Viewquizscores-1}
 
-1. Clique em qualquer bloco do programa de aprendizado.
+1. Clique em qualquer bloco do caminho de aprendizado.
 1. Clique em Pontuação do questionário no painel esquerdo.
 
-Você pode ver as pontuações do questionário de qualquer programa de aprendizado específico com base no nome do usuário ou com base em cada pergunta. Escolha as guias Por usuário ou Por pergunta de acordo com a opção desejada. As pontuações do questionário são exibidas de um curso de cada vez. Altere o nome do curso na lista suspensa para exibir as pontuações do questionário de outros cursos. Você também pode exportar as pontuações do questionário de cada curso. Escolha o tipo de instância na lista suspensa para exibir as pontuações com base em cada instância do programa de aprendizado.
+Você pode visualizar as pontuações do quiz de qualquer caminho de aprendizado específico com base no nome do usuário ou em cada pergunta. Escolha as guias Por usuário ou Por pergunta de acordo com a opção desejada. As pontuações do questionário são exibidas de um curso de cada vez. Altere o nome do curso na lista suspensa para exibir as pontuações do questionário de outros cursos. Você também pode exportar as pontuações do questionário de cada curso. Escolha o tipo de instância na lista suspensa para exibir as pontuações com base em cada instância do caminho de aprendizado.
 
 ## Cancelar as inscrições dos alunos {#unenrollmentforlearners}
 
-O gerente pode cancelar a inscrição de um aluno se o aluno ainda não tiver iniciado o programa de aprendizado.
+O gerente pode cancelar a inscrição de um aluno se ele ainda não tiver iniciado o caminho de aprendizado.
 
 ## Marcar conclusão {#markcompletion}
 
