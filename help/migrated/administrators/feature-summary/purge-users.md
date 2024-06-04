@@ -3,14 +3,13 @@ description: Saiba mais sobre como remover dados do usuário no Learning Manager
 jcr-language: en_us
 title: Remover usuários
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 72%
+source-wordcount: '853'
+ht-degree: 75%
 
 ---
-
-
 
 # Remover usuários
 
@@ -28,13 +27,13 @@ A ação de remover um usuário pode ter os seguintes resultados:
 * Remover um usuário no Learning Manager não remove o usuário em nenhum aplicativo externo (sistemas de terceiros ou outros aplicativos criados por você). Entre em contato com proprietários de aplicativos externos para remover os usuários desses aplicativos.
 * Se um usuário removido for referido nas configurações de um conector, o conector será desativado. O conector precisa ser reconfigurado pelo administrador para continuar.
 
-### Gerenciar usuários
+<!---### Manage users
 
-Neste treinamento, você aprenderá como atribuir e remover funções, enviar um email de boas-vindas e excluir e limpar usuários.
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
-[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
+If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 ## Como remover usuários
 

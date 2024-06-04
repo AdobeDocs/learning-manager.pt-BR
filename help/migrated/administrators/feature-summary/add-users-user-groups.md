@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adicionar usuários e criar grupos de usuários
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '4016'
+source-wordcount: '4050'
 ht-degree: 61%
 
 ---
@@ -78,6 +78,14 @@ Para adicionar usuários,
 1. Para adicionar o novo usuário no Learning Manager, clique em **[!UICONTROL Adicionar]**. Depois de adicionado, o usuário recebe um e-mail de verificação. O Aluno ativa a conta e começa a usar o Learning Manager. Este fluxo de trabalho é útil se você precisar adicionar um número limitado de alunos à sua conta do Learning Manager. Caso deseje inscrever todos os funcionários em uma organização grande, é possível adicioná-los de uma só vez. Para obter mais informações, consulte a próxima seção.
 
 ## Adicionar usuários em massa {#addusersinbulk}
+
+### Gerenciar usuários
+
+Neste treinamento, você aprenderá como atribuir e remover funções, enviar um email de boas-vindas e excluir e limpar usuários.
+
+[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 A maioria das organizações costuma usar Sistemas de Gerenciamento de RH (HRMS) para gerenciar todos os registros de funcionários, como designação, local, data de adesão ou hierarquia de funcionários. Esses dados podem ser exportados no formato CSV. Para importar um CSV, siga as etapas abaixo:
 
