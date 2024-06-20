@@ -4,9 +4,9 @@ title: Importar habilidades de fontes externas
 description: Importe habilidades de provedores de conteúdo, como LinkedIn e Go1, usando os respectivos conectores.  As habilidades importadas serão adicionadas às habilidades definidas pelo administrador no Learning Manager e estarão disponíveis para os autores durante o fluxo de trabalho de criação do curso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Não é possível editar o nome da habilidade, a descrição e adicionar níveis
 
 ### Habilidades e créditos padrão do curso
 
-Depois de importar habilidades, elas são adicionadas aos recursos de aprendizado importados da origem selecionada como origem da habilidade. Por exemplo, se a sua fonte de habilidades foi o LinkedIn Learning, todos os recursos de aprendizado importados do LinkedIn Learning terão as habilidades fornecidas por ele. Quando importado para recursos de aprendizado, cada recurso de aprendizado fornece um padrão de 10 créditos. Se quiser alterar isso, entre em contato com o CSM.
+Depois de importar habilidades, elas são adicionadas aos recursos de aprendizado importados da origem selecionada como origem da habilidade. Por exemplo, se a sua fonte de habilidades foi o LinkedIn Learning, todos os recursos de aprendizado importados do LinkedIn Learning terão as habilidades fornecidas por ele. Quando importado para recursos de aprendizado, cada recurso de aprendizado fornece um padrão de 10 créditos.
 
 #### Relatórios
 
