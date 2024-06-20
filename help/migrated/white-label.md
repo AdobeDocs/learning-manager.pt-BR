@@ -4,9 +4,9 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f25edb0883b71ed9807c347e0ae6733e7b55d40c
+source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -307,16 +307,31 @@ Se você puder se conectar ao servidor, o certificado que você criou será vál
 
 ### Notificações por push no Android
 
-Configure um projeto no Firebase e compartilhe a chave do servidor com o CSAM.
+Para Android, o usuário precisa fornecer o arquivo services.json do projeto Firebase para adicionar a entrada no serviço SNS.
 
-Entre em contato com a equipe de CSM e obtenha os arquivos adicionados aos serviços SNS no AWS. Os usuários terão que obter a entrada registrada no serviço SNS para a notificação por push, que exigirá que eles compartilhem os certificados gerados acima para validação.
+Crie um projeto no Firebase e compartilhe o arquivo services.json com a equipe do CSM. Esse arquivo é necessário para a entrada baseada em token no SNS. Observe que a chave do servidor não é mais usada. Consulte [Criar projeto no Firebase](#create-project-in-firebase).
 
->[!NOTE]
->
->Para Android, o usuário precisa fornecer a chave do servidor do projeto Firebase criado para Android para adicionar a entrada no serviço SNS.
+Para baixar o arquivo services.json, siga estas etapas:
 
+1. Faça logon no **Firebase** console.
+1. Ir para **Configurações do projeto** e selecione **Mensagens na nuvem**.
+1. Localizar **API do Firebase Cloud Messaging** e selecione **Gerenciar Contas de Serviço**.
+1. No menu **Contas de serviço** , selecione o **Contas de serviço** no painel esquerdo.
+1. Localize sua entrada do projeto e selecione **Gerenciar detalhes** ações.
 
-## Criar projeto no Firebase
+   >[!NOTE]
+   >
+   >   O formato de entrada do projeto será &lt;-accountname->@appspot.gserviceaccount.com.
+
+1. Acesse o menu **Teclas** e selecione **Adicionar chave**.
+1. Se não houver chave, selecione **Criar nova chave** e selecione **JSON** como o tipo de chave. Isso vai gerar e baixar o arquivo JSON.
+1. Se já houver uma chave, selecione **Carregar chave existente**, cole a chave e faça upload dela. Isso vai gerar e baixar o arquivo JSON.
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+Entre em contato com a equipe de CSM e compartilhe o arquivo JSON para adicionar a entrada aos serviços SNS no AWS. Os usuários terão que obter a entrada registrada no serviço SNS para a notificação por push, que exigirá que eles compartilhem os certificados gerados acima para validação.
+
+## Criar projeto no Firebase {#create-project-in-firebase}
 
 ### Android
 
