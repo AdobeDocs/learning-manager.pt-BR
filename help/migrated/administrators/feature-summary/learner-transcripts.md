@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Transcrições do aluno
 contentowner: jayakarr
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 66%
@@ -19,13 +19,13 @@ O Adobe Learning Manager permite que os administradores de uma empresa gerem tra
 
 ## Gerar transcrições do aluno {#generatelearnertranscripts}
 
-1. Para gerar transcrições do aluno, clique em **[!UICONTROL Relatórios]** no painel esquerdo de login do administrador.
+1. Para gerar transcrições do aluno, clique **[!UICONTROL em Relatórios]** no painel esquerdo no logon do administrador.
 
-   O administrador navega até a guia **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios do Excel]** dentro da guia **[!UICONTROL Relatórios]** página.
+   O administrador navega até a guia Relatórios ]**personalizados >**[!UICONTROL  Relatórios ]**do Excel na**[!UICONTROL  página Relatórios ]**.**[!UICONTROL 
 
 1. Clique no link **[!UICONTROL Transcrições do aluno]**.
 
-   O **[!UICONTROL Transcrição do aluno]** a página de histórico é exibida com a mensagem- **Nenhuma transcrição do aluno foi gerada ainda** ou uma lista de downloads que foram acionados após a implementação da página de histórico de transcrições de aprendizado.
+   A **[!UICONTROL página histórico do transcrição]** do aluno é exibida com a mensagem - **Nenhuma transcrição do aluno foi gerada ainda** ou uma lista de downloads que foram acionados após a implementação da página de histórico de transcrições do aprendizado.
 
    <!--[](assets/learner-transcripts.png)-->
 
@@ -33,20 +33,20 @@ O Adobe Learning Manager permite que os administradores de uma empresa gerem tra
 
    >[!NOTE]
    >
-   >Por padrão, a data inicial é a data de registro do aluno e a data final é sempre a data atual. É possível modificar apenas a data inicial a partir de quando você precisa dos dados.
+   >Por padrão, a partir da data de início é a data de inscrição do aluno e a data &quot;até&quot; é sempre a data atual. É possível modificar apenas a data inicial a partir de quando você precisa dos dados.
 
-1. Escolha os nomes dos alunos na **[!UICONTROL Selecionar alunos]** e clique em **[!UICONTROL Gerar].**
+1. Escolha os nomes dos alunos no **[!UICONTROL campo Selecionar alunos]** e clique **[!UICONTROL em Gerar].**
 1. É possível escolher um único aluno ou grupos de alunos. Para adicionar mais de um aluno, clique em **[!UICONTROL Adicionar novos alunos]**
 
    ![](assets/add-learners-lt.png)
 
    *Adicionar mais alunos*
 
-1. Você pode escolher catálogos específicos ativando a caixa de seleção. Somente a transcrição dos catálogos especificados é baixada. Você pode escolher catálogos específicos selecionando o catálogo na **[!UICONTROL Selecionar catálogos]** lista suspensa.
+1. Você pode escolher catálogos específicos marcando a caixa de seleção. Somente a transcrição dos catálogos especificados é baixada. É possível escolher catálogos específicos selecionando o catálogo na **[!UICONTROL lista suspensa Selecionar catálogos]** .
 
    ![](assets/select-catalogs-lt.png)
 
-1. Ao exportar transcrições do aluno, há uma opção, **[!UICONTROL Status da Inscrição]**. Essa lista suspensa contém as seguintes opções:
+1. Ao exportar transcrições do aluno, há uma opção: **[!UICONTROL Status]** de inscrição. Essa lista suspensa contém as seguintes opções:
 
    * Selecionar tudo
    * Concluído
@@ -56,36 +56,36 @@ O Adobe Learning Manager permite que os administradores de uma empresa gerem tra
 
    ![](assets/add-enrollment-status-lt.png)
 
-   *Selecionar o catálogo*
+   *Selecione o catálogo*
 
-1. Você também pode baixar as transcrições dos alunos que foram excluídos de uma conta.
+1. Você também pode baixar transcrições para alunos que foram excluídos de uma conta.
 
-   Para baixar as transcrições do aluno dos usuários excluídos, clique no botão **[!UICONTROL Opções avançadas]** e ative a caixa de seleção **[!UICONTROL Incluir dados de alunos excluídos]**.
+   Para baixar transcrições do aluno de usuários excluídos, clique na **[!UICONTROL seta Opções]** avançadas e ative a caixa **[!UICONTROL de seleção Incluir dados dos Alunos Excluídos]**.
 
    ![](assets/data-deleted-learners.png)
 
    *Baixar transcrições dos alunos excluídos*
 
-1. Você pode optar por baixar as informações de nível do módulo na transcrição do aluno ativando o &quot;**[!UICONTROL Habilitar informações de nível do módulo]**“. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição, se esta opção estiver ativada.
-1. Você pode optar por baixar dados de habilidades e folhas de resumo ativando a opção &quot;**[!UICONTROL Incluir dados de habilidades e folhas de resumo]**“.
+1. Você pode optar por baixar as informações de nível do módulo na transcrição do aluno ativando a caixa de seleção &quot;**[!UICONTROL Ativar informações]** de nível do módulo&quot;. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição, se esta opção estiver ativada.
+1. Você pode optar por baixar dados de habilidades e planilhas de resumos ativando a opção &quot;**[!UICONTROL Incluir dados de habilidades e planilhas]** de resumo&quot;.
 
-   As transcrições são geradas e baixadas em seu computador como arquivos .csv quando os dados sobre as habilidades não são incluídos. Se a caixa de seleção de dados sobre habilidades estiver marcada, as transcrições são geradas e baixadas em arquivos .xls.
+   As transcrições são geradas e baixadas no seu computador como arquivos .zip quando os dados das habilidades não são incluídos. Se a caixa de seleção de dados sobre habilidades estiver marcada, as transcrições são geradas e baixadas em arquivos .xls.
 
 ## Gerar transcrição do aluno usando copiar e colar
 
 Obter transcrições do aluno se torna um processo tedioso, pois podem ser obtidas apenas para um aluno ou grupo de usuários, um de cada vez. Aqui, com o recurso copiar e colar, você pode copiar a lista de IDs de e-mail do aluno e colá-la de uma só vez.
 
-1. Fazer logon como **[!UICONTROL Administrador]** ou **[!UICONTROL Gerente]**.
-1. Ir para **[!UICONTROL Relatórios]** sob **[!UICONTROL Gerenciar]**, ele carrega o **[!UICONTROL Atividade do usuário]** página.
-1. Clique em **[!UICONTROL Relatórios Personalizados]** no painel esquerdo e selecione **[!UICONTROL Transcrições do aluno]** da lista.
-1. Na guia **[!UICONTROL Transcrições do aluno]** , clique em **[!UICONTROL Gerar novo]** no canto superior esquerdo.
-1. Selecione as datas preferenciais clicando em **[!UICONTROL Selecionar intervalo de datas]** menu suspenso. Clique em **[!UICONTROL IDs de e-mail]** para inserir a lista copiada de ids de email exclusivas.
+1. Faça logon como **[!UICONTROL administrador]** ou **[!UICONTROL gerente]**.
+1. Vá para **[!UICONTROL Relatórios]** em **[!UICONTROL Gerenciar]** e carregue a página Atividades ]**do**[!UICONTROL  usuário.
+1. Clique **[!UICONTROL em Relatórios personalizados]** no painel esquerdo e selecione **[!UICONTROL Transcrições]** do aluno na lista.
+1. Na página Transcrições ]**do**[!UICONTROL  aluno, clique **[!UICONTROL no botão Gerar novo]** no canto superior esquerdo.
+1. Selecione as datas preferidas clicando na lista suspensa Selecionar intervalo ]**de**[!UICONTROL  datas. Clique **[!UICONTROL na guia IDs]** de e-mail para inserir a lista copiada de IDs de e-mail exclusivas.
 
    ![](assets/cp-copy-paste-feature.png)
 
-   *Copiar e colar IDs de e-mail*
+   *Copiar e colar IDs de email*
 
-1. Uso **[!UICONTROL Validar Ids De Email]** para verificar se a id inserida está correta.
+1. Use **[!UICONTROL Validar IDs de email para verificar se a ID inserida]** está correta.
 
    ![](assets/cp-learnertran-gdpr.png)
 
@@ -93,23 +93,23 @@ Obter transcrições do aluno se torna um processo tedioso, pois podem ser obtid
 
    Caso a ID de e-mail inserida esteja incorreta, ela será destacada em vermelho juntamente com uma mensagem de validação como acima.
 
-   **[!UICONTROL Gerar]** O botão não estará disponível a menos que todas as IDs de e-mail inseridas estejam corretas.
+   **[!UICONTROL O botão Gerar]** não estará disponível a menos que todas as IDs de email inseridas estejam corretas.
 
    ![](assets/cp-copy-paste-generate.png)
 
-   *Gerar as transcrições do aluno*
+   *Gerar transcrições do aluno*
 
-1. Clique em **[!UICONTROL Gerar]** para gerar transcrições do aluno para todas as IDs de e-mail mencionadas. Você receberá uma mensagem de confirmação, como abaixo, informando a geração do relatório.
+1. Clique **[!UICONTROL no botão Gerar]** para gerar transcrições do aluno para todas as ids de e-mail mencionadas. Você receberá uma mensagem de confirmação, como abaixo, informando a geração do relatório.
 
    ![](assets/cp-copy-paste-gmessage.png)
 
-   *Mensagem de confirmação do relatório que está sendo gerado*
+   *Mensagem de confirmação de geração do relatório*
 
-   Gerar transcrições do aluno pode ser combinado para IDs de e-mail inseridas em ambos **[!UICONTROL Usuários]** e **[!UICONTROL IDs de e-mail]** guia.
+   Gerar transcrições do aluno pode ser combinado para IDs de email inseridas na **[!UICONTROL guia Usuários]** e IDs ]**de email**[!UICONTROL .
 
 ## Histórico de downloads da transcrição do aluno {#ltdownload}
 
-Na guia **[!UICONTROL Transcrição do aluno]** página de download, para gerar um relatório, ao clicar no botão **[!UICONTROL Gerar novo]** , a caixa de diálogo Transcrições do aluno é exibida.
+Na página de download da transcrição ]**do**[!UICONTROL  aluno, para gerar um relatório, ao clicar no **[!UICONTROL botão Gerar novo]**, é exibida a caixa de diálogo Transcrições do aluno.
 
 ![](assets/history-lt.png)
 
@@ -133,13 +133,13 @@ Como administrador, você pode exibir todas as transcrições geradas por qualqu
 
 A lista de download exibe os seguintes atributos:
 
-* **Alunos:** Os alunos/grupos de alunos cujas transcrições devem ser baixadas.
+* **Alunos:** os alunos/grupos de alunos cujas transcrições devem ser baixadas.
 * **Dados adicionais incluídos:** depende dos dados adicionais que o administrador deseja baixar da opção Avançado na caixa de diálogo modal Adicionar transcrição do aluno
-* **Status:** Baixado, enfileirado ou em andamento.
+* **Status:** baixado, na fila ou em andamento.
 * **De** e **Para**: duração das transcrições a serem baixadas.
 * **Filtros aplicados:** se você aplicou os filtros para Status de inscrição.
-* **Gerado por:** A ID do usuário do Learning Manager que solicitou o download.
-* **Status:** Baixado, enfileirado ou em andamento.
+* **Gerada por:** a ID de usuário do usuário do Gerenciador de aprendizagem que solicitou o download.
+* **Status:** baixado, na fila ou em andamento.
 
 Você pode cancelar o download a qualquer momento. Se um trabalho for cancelado pelo administrador, o Learning Manager enviará uma notificação no aplicativo ao usuário que acionou a transcrição do aluno.
 
@@ -147,23 +147,23 @@ Você pode cancelar o download a qualquer momento. Se um trabalho for cancelado 
 
 *Fila de download da transcrição do aluno*
 
-Você pode **cancelar** o download a qualquer momento. Se uma tarefa for cancelada, o Learning Manager enviará uma notificação no aplicativo ao usuário que cancelou a tarefa.
+Você pode **cancelar** o download a qualquer momento. Se uma tarefa for cancelada, o gerente de aprendizado envia uma notificação no aplicativo para o usuário que cancelou a tarefa.
 
 ## Dados de alunos excluídos {#dataofdeletedlearners}
 
-Você pode incluir os dados dos alunos excluídos na lista Transcrição do aluno. Na caixa de diálogo Transcrições do aluno, ative a opção **[!UICONTROL Incluir dados de alunos excluídos]**.
+Você pode incluir os dados dos alunos excluídos na lista Transcrição do aluno. Na caixa de diálogo Transcrições do aluno, ative a opção **[!UICONTROL Incluir dados dos alunos excluídos]**.
 
 Depois de ativar a opção e clicar em **[!UICONTROL Gerar]**, os dados dos alunos excluídos aparecem na página de download Transcrição do aluno, conforme mostrado abaixo:
 
 ![](assets/deleted-learnersondownloadpage.png)
 
-*Exibir dados de alunos excluídos*
+*Exibir dados de learbers excluídos*
 
 ## Personalizar colunas {#customize-columns-lt}
 
 Um administrador pode personalizar as colunas exportadas em um relatório de transcrição do aluno. Administradores, administradores personalizados e gerentes podem configurar as colunas antes de exportar o relatório.
 
-Na guia **[!UICONTROL Transcrições do aluno]** , clique em **[!UICONTROL Opções avançadas]**. No menu **[!UICONTROL Configurar formato de exportação]** escolha as colunas que deseja exportar.
+Na caixa de diálogo Transcrições do **[!UICONTROL aluno, clique**[!UICONTROL  em Opções ]**avançadas]**. **[!UICONTROL Na seção Configurar formato]** de exportação, escolha as colunas que deseja exportar.
 
 ![](assets/image024.png)
 
@@ -173,11 +173,11 @@ A personalização é permitida somente quando um usuário baixa a transcrição
 
 ## Conteúdo do arquivo de transcrição do aluno {#learnertranscriptfilecontent}
 
-Um arquivo típico de transcrição do aluno consiste em seis planilhas do Excel em um único arquivo. As folhas de transcrição do aluno fornecem uma visão geral dos dados, incluindo o número de alunos envolvidos por curso, suas habilidades, a porcentagem de conclusão com base no curso ou aluno e um painel de conformidade. Estes são os painéis disponíveis nas transcrições do aluno:
+Um arquivo típico de transcrição do aluno consiste em seis planilhas do Excel em um único arquivo. As planilhas de transcrição do aluno oferecem uma ideia geral dos dados, incluindo o número de alunos envolvidos por curso, suas habilidades, a porcentagem de conclusão com base no curso ou no aluno e um painel de conformidade. Estes são os painéis disponíveis nas transcrições do aluno:
 
 **Transcrição do aluno**
 
-Na planilha do Excel de transcrição do aluno, junto com os detalhes do perfil sobre o aluno, são fornecidos detalhes recomendáveis de realização do objeto de aprendizado, como data de inscrição, data inicial, classificação alcançada, pontuação obtida no questionário. Se os cursos fizerem parte de qualquer programa de aprendizado, eles serão listados separadamente, além dos detalhes individuais de consumo do curso.
+Na planilha do Excel de transcrição do aluno, junto com os detalhes do perfil sobre o aluno, são fornecidos detalhes recomendáveis de realização do objeto de aprendizado, como data de inscrição, data inicial, classificação alcançada, pontuação obtida no questionário. Se os cursos fizerem parte de qualquer programa de aprendizado, serão listados separadamente além dos detalhes individuais do consumo do curso.
 
 **1 - Painel da atividade de aprendizado**
 
@@ -197,7 +197,7 @@ Na planilha Habilidades, são fornecidos o nome e o nível de habilidade, os cr�
 
 ![](assets/skills-learner-transcript.png)
 
-*Amostra da planilha de habilidades do Excel*
+*Amostra da planilha do Excel de habilidades*
 
 **1 - Painel de habilidade**
 
@@ -227,11 +227,11 @@ Os valores nas seguintes colunas têm minutos arredondadas até o minuto e segun
 
 ### Colunas de duração do módulo e ID na transcrição {#moduledurationandidcolumnsinthetranscript}
 
-A transcrição do aluno também exibe as colunas- **[!UICONTROL Duração do módulo]** e **[!UICONTROL ID]**.
+A Transcrição do aluno também exibe as colunas Duração **** e **[!UICONTROL ID]** do módulo.
 
 ![](assets/lt-id-duration.png)
 
-*Colunas de duração do módulo e ID na transcrição*
+*Colunas de duração e ID do módulo na transcrição*
 
 ### OUTRAS colunas na transcrição {#ModuledurationandIDcolumnsinthetranscript-1}
 
@@ -245,6 +245,6 @@ A transcrição do aluno também exibe as colunas- **[!UICONTROL Duração do m�
 | Número de habilidades que cada usuário possui | Número de habilidades obtidas pelo aluno |
 | Número de habilidades que precisam de atualização | Número de alunos cuja habilidade precisa ser atualizada |
 | Porcentagem de conformidade | A porcentagem de progresso da habilidade atribuída |
-| Caminho incorporado | Essas linhas mostrarão o nome do programa de aprendizado incorporado. |
-| ID do caminho incorporado | Essas linhas mostrarão as IDs do programa de aprendizado incorporado |
+| Caminho incorporado | Essas linhas mostrarão o nome do Programa de aprendizado incorporado. |
+| ID do caminho incorporado | Essas linhas mostrarão as IDs do Programa de aprendizado incorporado |
 | Idioma do caminho incorporado | Essas linhas exibirão o idioma em que o programa de aprendizado foi criado. |

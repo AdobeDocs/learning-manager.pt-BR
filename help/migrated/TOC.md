@@ -2,34 +2,35 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 5769b88c430cc5c0cfccaa75ceaca4862ee7e52e
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 90%
+source-wordcount: '599'
+ht-degree: 88%
 
 ---
 
 
-# Guia do Learning Manager {#using}
+# Guia do gerente de aprendizado {#using}
 
 * [Guia do Usuário do Learning Manager](user-guide.md)
 * Introdução {#introduction}
    * [Resumo dos novos recursos](whats-new.md)
+   * [Novos recursos, março de 2024](whats-new-march-2024.md)
    * [Novos recursos em novembro de 2023](whats-new-november-2023.md)
    * [Novos recursos em julho de 2023](whats-new-2023-july.md)
    * [Novos recursos em abril de 2023](whats-new-2023-april.md)
    * [Novos recursos em novembro de 2022](whats-new-2022-november.md)
    * [Notas de versão](release-note/release-notes.md)
    * [Requisitos do sistema](system-requirements.md)
-   * [Pacote do site de referência do ALM para o AEM Sites](adobe-learning-manager-integration-aem.md)
+   * [Pacote de site de referência do ALM para sites do AEM](adobe-learning-manager-integration-aem.md)
    * [Aplicativo Adobe Learning Manager para Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Conformidade do Learning Manager com o GDPR](kb/prime-gdpr.md)
    * [Acessibilidade no Learning Manager](accessibility-learning-manager.md)
    * [Suporte para domínio personalizado](custom-domain.md)
    * [Recomendações no Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Transição do Gerenciador de FTP do Adobe](transition-from-ftp-manager.md)
-   * [Descontinuações e alterações de API no Adobe Learning Manager](api-deprecations-list.md)
-   * [Rotulagem no Adobe Learning Manager](white-label.md)
+   * [Reprovações e alterações de API no Adobe Learning Manager](api-deprecations-list.md)
+   * [Rótulo branco no Adobe Learning Manager](white-label.md)
 * Começar {#get-started}
    * [Iniciando como administrador](administrators/feature-summary/getting-started-admin.md)
    * [Iniciando como autor](authors/feature-summary/getting-started-author.md)
@@ -79,12 +80,13 @@ ht-degree: 90%
    * [Ativar controle total do catálogo compartilhado](administrators/feature-summary/shared-catalog-full-control.md)
    * [Mapear habilidades com domínios de habilidades](administrators/feature-summary/curation-skills.md)
    * [Extensibilidade nativa](administrators/feature-summary/native-extensibility.md)
-   * [Inscrição múltipla](administrators/feature-summary/multiple-enrollment.md)
+   * [Várias inscrições](administrators/feature-summary/multiple-enrollment.md)
    * [Experiência não conectada para alunos](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programas de aprendizado](administrators/feature-summary/learning-programs.md)
 * Administrador de integração {#integration}
    * [Manual de migração](integration-admin/feature-summary/migration-manual.md)
    * [Conectores do Learning Manager](integration-admin/feature-summary/connectors.md)
+   * [APIs não registradas](integration-admin/feature-summary/non-logged-in-apis.md)
    * [Integrar o Learning Manager ao AEM](integrate-aem-learning-manager.md)
    * [Instalar pacote do Salesforce no Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Instalar o conector do Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -105,7 +107,7 @@ ht-degree: 90%
    * [Como escolher os módulos do curso?](authors/how-to-choose-modules.md)
    * [Visualizar como aluno](authors/feature-summary/fluidic-player.md)
    * [Configurações](authors/feature-summary/settings.md)
-* Professor {#instructor}
+* Instrutor {#instructor}
    * [Módulos](instructors/feature-summary/modules.md)
    * [Gerenciamento dos alunos da sua sessão](instructors/feature-summary/learners.md)
 * Aluno {#learner}
@@ -117,6 +119,7 @@ ht-degree: 90%
    * [Programas de aprendizado](learners/feature-summary/learning-programs.md)
    * [Certificações](learners/feature-summary/certifications.md)
    * [Ajudas de tarefa](learners/feature-summary/job-aids.md)
+   * [Carrinho de vários itens em ALM](learners/feature-summary/multi-item-cart.md)
    * [Medalhas](learners/feature-summary/badges.md)
    * [Habilidades e níveis](learners/feature-summary/skills-levels.md)
    * [Gamificação](learners/feature-summary/gamification.md)

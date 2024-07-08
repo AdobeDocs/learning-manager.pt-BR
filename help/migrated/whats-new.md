@@ -1,577 +1,340 @@
 ---
-description: Saiba mais sobre os novos recursos e aprimoramentos na versão de março de 2024 do Adobe Learning Manager
+description: Saiba mais sobre os novos recursos e aprimoramentos na versão de julho de 2024 do Adobe Learning Manager
 jcr-language: en_us
-title: Resumo dos novos recursos
-contentowner: jayakarr
-exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+title: Novidades desta versão
+source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
 workflow-type: tm+mt
-source-wordcount: '3903'
-ht-degree: 1%
+source-wordcount: '2170'
+ht-degree: 3%
 
 ---
 
-# Resumo dos novos recursos {#new-features-summary}
 
-Saiba mais sobre os novos recursos e aprimoramentos na versão de março de 2024 do Adobe Learning Manager.
+# Novidades desta versão {#whatsnewandchanged}
 
-Explore alguns dos recursos mais recentes do Adobe Learning Manager, como:
+Saiba mais sobre os novos recursos e aprimoramentos na versão de julho de 2024 do Adobe Learning Manager.
 
-1. Importar habilidades de fontes externas
-1. Suporte a várias marcas
-1. Módulo de atividade de reavaliação da lista de verificação
-1. Aplicativo de aprendizado móvel com rótulo branco
+## Aprimoramento no painel de conformidade
 
->[!NOTE]
->
->Confira isso [webinar](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) para saber mais sobre os novos recursos nesta versão.
+### O que é um painel de conformidade? {#whatiscompliancedashboard}
 
+O **[!UICONTROL painel]** de conformidade do Adobe Learning Manager **permite que os gerentes monitorem e monitorem o progresso dos alunos em** direção aos seus objetivos de aprendizado. Eles podem verificar se os membros da equipe estão cumprindo os prazos e acompanhando o processo de aprendizado, o que ajuda a garantir a conformidade. O administrador pode configurar o painel de conformidade e compartilhá-lo com os gerentes.
 
-## Novidades desta versão {#whatsnewandchanged}
+Para acessar o painel de conformidade no aplicativo do administrador, selecione **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo]** do aprendizado > **[!UICONTROL painel]** de conformidade.
 
-### Importar habilidades de fontes externas
+### O que mudou na versão
 
-Importe habilidades de provedores de conteúdo, como LinkedIn e Go1, usando os respectivos conectores. Esse aprimoramento é uma parte da meta para a capacidade do Learning Manager de se integrar a nuvens de habilidades e sistemas de gerenciamento de talentos externos. As habilidades importadas serão adicionadas às habilidades definidas pelo administrador no Learning Manager e estarão disponíveis para os autores durante o fluxo de trabalho de criação do curso. Também foram feitos aprimoramentos na funcionalidade de pesquisa de habilidades em toda a plataforma para fornecer uma melhor experiência de pesquisa quando a conta tem um grande número de habilidades.
+No painel de conformidade aprimorado, os administradores e gerentes podem ver os cursos, o caminho de aprendizagem ou as certificações relacionadas à sua categoria específica (por exemplo, Vendas, Marketing e Jurídico). Os administradores podem categorizar cursos de conformidade personalizados em categorias específicas. As categorias de conformidade personalizada são oferecidas pelas etiquetas do catálogo.  Os administradores podem criar um painel do curso e compartilhá-lo com os gerentes. Os gerentes podem então exibir o mesmo painel em suas respectivas instâncias. Também foram feitos aprimoramentos na interface do usuário do painel de conformidade e das notificações de conformidade por email.![](assets/compliance-dashboard-admin.png)
 
-Exibir [Importar habilidades](administrators/feature-summary/import-skills-external-sources.md) para saber mais.
+#### Fluxo de trabalho (WRK)
 
-### Marca personalizada
+Veja a seguir as etapas para usar o painel de conformidade aprimorado:
 
-Agora você pode personalizar determinados elementos da interface do usuário: o nome da organização, o logotipo e o tema da interface do usuário com base nos grupos de usuários disponíveis na conta. Por exemplo, uma organização com várias divisões pode configurar um logotipo personalizado e um tema de interface do usuário a ser exibido para cada divisão.
+| Função | Tarefa | Informações adicionais |
+|---|---|---|
+| Administrador | Criar rótulos de conformidade personalizados | Consulte este artigo Para obter mais informações, consulte este artigo [Criar rótulos de conformidade personalizados](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) |
+| Autor | Adicione esses rótulos ao curso | Consulte este artigo [para adicionar rótulos de conformidade ao curso/caminho da aprendizagem/certificação](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) para obter mais informações. |
+| Administrador | Criar o painel com o curso de conformidade e compartilhá-lo com gerentes | Consulte este artigo [para criar e compartilhar um painel](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) de conformidade para obter mais informações. |
+| Gerente | Exibir o painel de conformidade | Consulte o status](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) da conformidade deste artigo [para obter mais informações |
 
->[!NOTE]
->
->Esse recurso de várias marcas não se aplica à exibição do administrador. Eles sempre verão a marca no nível da organização em suas contas. Isso ocorre porque este é um recurso voltado para o aluno e pode não ser desejado pelo administrador em sua conta.
-
-Exibir [Várias marcas personalizadas](administrators/feature-summary/themes.md#multiple-branding) para obter mais informações.
-
-
-## Alterações para contas com grande base de usuários
-
-### Páginas Administrador - Curso ou Caminho de aprendizado
-
-Se um grande número de alunos estiver inscrito no curso, por exemplo, mais de 50.000, a lista de alunos não será exibida. Você pode pesquisar um aluno na *Pesquisar alunos* barra de pesquisa ou selecione a **Baixar** na parte superior da barra de pesquisa para baixar a lista de alunos.
-
-### Administrador - Página Alunos
-
-Ao procurar qualquer usuário, o **Baixar aluno** e **Exportar** opções baixar o mesmo relatório. Enquanto isso, ao procurar um grupo de usuários, agora você pode baixar usuários filtrados desse grupo de usuários. Ao pesquisar um Grupo de usuários, a caixa de diálogo **Baixar lista de alunos** alterações em **Baixar lista de alunos para grupo de usuários** O **Exportar** opção faz download da lista inteira novamente.
-
-### Página Admin- Usuários
-
-#### Usuários internos
-
-Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem para baixar os dados para uma análise mais detalhada posteriormente. A barra de pesquisa agora está proeminente e exibe um usuário no formato *Nome, email | UUID*.
-
->[!NOTE]
->
->A UUID é exibida somente se a UUID estiver ativada para a conta.
-
-#### Usuários externos
-
-Para usuários externos, o mesmo comportamento se aplica. Se o número de usuários for grande, você poderá baixar os usuários e também recuperar os detalhes de um usuário após uma pesquisa no formato *Nome, email | UUID*.
-
-#### Página Limpeza do Usuário
-
-Na página Limpeza do Usuário, para usuários excluídos, removemos o recurso de classificação em **Data de exclusão**. Você só pode classificar pelos UUIDs.
-
-### Páginas Admin- Instância
-
-#### Curso ou caminho de aprendizado
-
-Se o número de inscrições for grande, o Adobe Learning Manager não exibirá o número de alunos. Em vez disso, haverá um ícone, que você pode selecionar, exibir o número de alunos e navegar até a página Alunos.
-
-O número de alunos será exibido como um valor aproximado. Por exemplo, se o número de alunos for mais de 50.000, o valor será exibido como 50K+.
-
-### Admin- páginas L1/L3
-
-Na página Feedback L1, se o número de inscrições no curso for grande, a lista de alunos não será exibida. Em vez disso, você pode exportar a lista de usuários para uma análise mais detalhada posteriormente.
-
-A pesquisa suporta o tipo antecipado e os resultados são restritos à instância selecionada.
-
-#### Página de Participação e Pontuação
-
-Na página, quando você pesquisa um usuário, a pesquisa é executada em todas as instâncias disponíveis. No entanto, o resultado é para a instância selecionada.
-
-Na página Presença, se você pesquisar um Grupo de Usuários e o número de usuários exceder 10.000 no Grupo de Usuários independentemente da inscrição, você só poderá executar ações em massa. Não será possível exibir a lista de usuários.
-
-Se o número de usuários no grupo de usuários for inferior a 10.000, você poderá executar ações individuais no nível do usuário juntamente com ações em massa. Nesse caso, a listagem de usuários não é desativada.
-
-### Página Admin- Certificações
-
-Nas versões atuais do Adobe Learning Manager, se houver um grande número de usuários inscritos em uma certificação, você não poderá exibir os alunos não inscritos desde o **Status** O menu suspenso está desativado.
-
-Nesta versão do Adobe Learning Manager, se o número de usuários inscritos for grande, o **Status** a lista suspensa exibe apenas duas opções- **Inscrito** e **Não inscrito**. A opção **Inscrito** está selecionado por padrão. Se você selecionar **Não inscrito**, a lista de alunos não inscritos é exibida.
-
-#### Alterações no grupo de usuários
-
-No caso de um Grupo de usuários, se o número de usuários no Grupo de usuários for inferior a, por exemplo, 50.000, o **Status** A lista suspensa exibe todas as opções: Certificado, Atribuído e Expirando.
-
-Se o número de usuários em um Grupo de usuários for grande, o **Status** a lista suspensa exibe apenas duas opções- **Inscrito** e **Não inscrito**, de acordo com o novo design.
-
-### Tabela de comparação
-
-<table>
-    <tbody>
-        <tr>
-            <td><b>Página</b></td>
-            <td><b>Antes da alteração do limite</b></td>
-            <td><b>Após a alteração do limite</b></td>
-        </tr>
-        <tr>
-            <td>Admin- Instância do curso</td>
-            <td>As instâncias são exibidas conforme projetado com o seguinte:
-            <ul>
-                <li>Módulos</li>
-                <li>Alunos inscritos</li>
-                <li>Sessões</li>
-                <li>Medalha</li>
-                <li>Feedback L1 habilitado</li>
-                <li>Alertas de notificação</li>
-                <li>Pontos de gamificação</li>
-                <li>Código QR</li>
-                <li>Extensão do Caminho de Aprendizado</li>
-            </ul>
-            <td>
-                <ul>
-                    <li>Se o número de inscrições exceder o limite predefinido, o ALM não exibirá a contagem; ele substituirá a contagem por um ícone, que, quando clicado, exibe o número real de alunos e um link para levá-lo à página Alunos.</li>
-                    <li>O número de inscrições será exibido em um formato aproximado. Por exemplo, se o número for maior que 50.000, a contagem será exibida como mais de 50K no nível do curso.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Administrador - Página Alunos</td>
-            <td>
-                    <ul>
-                        <li>A lista de alunos é exibida para cada instância.</li>
-                        <li>Você pode pesquisar um usuário ou grupo de usuários inscrito em um curso.</li>
-                        <li>O relatório exportado não consiste em nenhum filtro para Grupo de Usuários.</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>A seleção de instância está desativada.</li>
-                    <li>Baixar a lista de alunos também baixa os mesmos dados, exceto para um caso. Se você pesquisar um grupo de usuários e selecionar Baixar lista de alunos, ele baixará os dados desse grupo de usuários.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Página de feedback N1/N3 do administrador</td>
-            <td>
-                <p>Nenhuma alteração no comportamento existente</p>
-            </td>
-            <td>
-                <ul>
-                    <li>A seleção de instância está desativada.</li>
-                    <li>Se a inscrição em um curso estiver acima de 50 mil, o ALM não listará os alunos e exibirá apenas a barra de pesquisa. Se a inscrição for inferior a 50 mil, o ALM exibirá a lista de alunos e a barra de pesquisa.</li>
-                    <li>A listagem está desativada por padrão.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Página Admin- Presença e Pontuação</td>
-            <td>
-                <p>Nenhuma alteração no comportamento existente</p>
-            </td>
-            <td>
-                <ul>
-                    <li>A seleção de instância é desativada ao pesquisar um usuário.</li>
-                    <li>Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem adicional para baixar os dados para uma análise mais detalhada posteriormente. A barra de pesquisa agora está proeminente e exibe um usuário no formato Nome, email | UUID</li>
-                    <li>Se o número de usuários no Grupo de usuários for inferior a 10.000, independentemente da inscrição, você poderá executar ações individuais no nível do usuário juntamente com ações em massa. Nesse caso, a listagem de usuários não é desativada.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Admin- Página de pontuação do quiz L2</td>
-            <td>
-                    <ul>
-                        <li>A pesquisa de usuários também é implementada.</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>A pesquisa de usuários também é implementada. Enquanto o typeahead pesquisa no nível do objeto de aprendizado, a listagem é filtrada para a instância selecionada no momento.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Página Admin- Usuários (Interno, Externo)</td>
-            <td>
-                    <ul>
-                        <li>A ID de e-mail é exibida ao pesquisar um usuário.</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem adicional para baixar os dados para uma análise mais detalhada posteriormente. A barra de pesquisa agora está proeminente e exibe um usuário no formato Nome, email | UUID</li>
-                    <li>Na página Limpeza do Usuário, para usuários excluídos, removemos o recurso de classificação em **Data de exclusão**. Você só pode classificar pelos UUIDs.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Professores - Envio</td>
-            <td>
-                    <ul>
-                        <li>Paginação dos módulos a serem enviados.</li>
-                        <li>Como professor, agora você pode filtrar envios de arquivos dos alunos com base em status, término de Revisão, Envio pendente, Aprovado e Falha. </li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Você só pode pesquisar usuários, não grupos de usuários nessa instância.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Contar na visualização como página do aluno</td>
-            <td>
-                    <ul>
-                        <li>A contagem inclui os dados de inscrição de ordem superior.</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>A contagem exclui dados de inscrições de ordem superior.</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-## Recursos avançados de pesquisa
-
-Nesta versão, aprimoramos a experiência de pesquisa. Os resultados da pesquisa são buscados com base não apenas nos metadados, mas também na pesquisa semântica e no conteúdo para obter resultados com base na precisão, recenticidade e conteúdo relevante.
-
-Essa alteração reflete no seguinte:
-
-* Catálogo e página Meu aprendizado: a ação passar o mouse sobre o curso, o caminho de aprendizado e a certificação foi removida.
-* A aparência da barra de pesquisa.
-* Tags de filtro adicionadas ao aplicativo de aprendizado.
-
-Para ativar os recursos de pesquisa, entre em contato com a equipe CSAM do Adobe Learning Manager.
-
-## Mudanças na interface do usuário {#ui-changes}
-
-### Página de criação do curso
-
-Ao mapear os cursos para um nível de habilidade, a lista de habilidades é pesquisada primeiro. Em outras palavras, pesquise habilidades e veja uma lista de habilidades que correspondem ao termo pesquisado.
-
-### Grupos de usuários
-
-#### Administrador: página Alunos
-
-Ao procurar qualquer usuário, o **Baixar aluno** e **Exportar** opções baixar o mesmo relatório. Enquanto isso, ao procurar um grupo de usuários, agora você pode baixar usuários filtrados desse grupo de usuários. Ao pesquisar um Grupo de usuários, a caixa de diálogo **Baixar lista de alunos** alterações em **Baixar lista de alunos para grupo de usuários** O **Exportar** opção faz download da lista inteira novamente.
-
-## Alterações nos relatórios
-
-* As colunas Etiqueta(s) e Habilidade(s) no Relatório de treinamentos foram alteradas para Etiqueta e habilidades.
-* Adicionado o relatório [Trilha de auditoria de gamificação](administrators/feature-summary/reports.md#gamification-audit-trail).
-* Se uma conta tiver mais de 280.000 alunos atribuídos a uma habilidade, o relatório do aluno de habilidade será baixado como um csv compactado.
-Se a conta tiver menos de 250.000 alunos, o mesmo relatório será baixado como um CSV.
-Na página Administrador, selecione **Admin** > **Habilidades** > **Habilidade** > **Alunos**. O relatório é baixado como CSV.
-* O [Relatório de resumo da sessão](administrators/feature-summary/reports.md#session-summary-report) A tem duas novas colunas- Informações do Local e região do Local.
-
-## Alterações na criação da sala de aula
-
-Com base em [Configurações do administrador](administrators/feature-summary/classroom.md#classroom-settings), você, como Autor, pode [criar, modificar e excluir locais](administrators/feature-summary/classroom.md#add-classroom-location).
-
->[!NOTE]
->
->Ao adicionar rótulos de local e catálogo, os autores (na página de criação do curso) e os administradores (na página de instância) verão uma lista preenchida automaticamente de locais e rótulos de catálogo, respectivamente.
-
-Como administrador, você pode aplicar restrições a um autor para modificar ou excluir um local da sala de aula. Exibir [Configurações de sala de aula](administrators/feature-summary/classroom.md#classroom-settings) para obter mais informações.
-
-## Alterações no Caminho de aprendizado flexível
-
-Todas as contas (antigas e novas) em começarão incluindo Prazo de inscrição, Prazo de cancelamento de inscrição e Limite de vagas no aplicativo do aluno para um Caminho de aprendizado flexível.
-Os alunos agora poderão se inscrever no Caminho de aprendizado flexível sem selecionar nenhuma instância do curso.
-
-## Novo acionador para planos de aprendizado
-
-Um novo acionador foi adicionado à página de configuração do Plano de aprendizado. Os autores e os administradores agora poderão acionar ações quando um aluno reprovar em um módulo de um curso.
-
-Exibir [Planos de aprendizado](administrators/feature-summary/learning-plans.md) para obter mais informações.
-
-## Novo status de envio
-
-Como professor, agora você pode filtrar envios de arquivos dos alunos com base em status, término de Revisão, Envio pendente, Aprovado e Falha.
-
-Exibir [Status do envio](instructors/feature-summary/learners.md#filter-file-submissions) para obter mais informações.
-
-## Aprimoramentos na lista de verificação
-
-Na versão de março de 2024 do Adobe Learning Manager, os aprimoramentos feitos ao fluxo de trabalho da lista de verificação são os seguintes:
-
-### Não permitir progresso em caso de falha em uma lista de verificação
-
-Ao criar uma lista de verificação, um autor pode selecionar **Habilitar** na seção Lista de verificação obrigatória. Isso impede que um aluno continue no módulo se falhar na lista de verificação. Eles só podem continuar se forem aprovados na lista de verificação.
-
-Os revisores da lista de verificação, ou seja, professores ou gerentes, podem verificar o status da lista de verificação. Os revisores também podem revisar a lista de verificação de um aluno fora de ordem.
-
-### Reavaliação de uma lista de verificação
-
-Ao criar uma lista de verificação, um autor pode selecionar **Habilitar** na seção Reavaliação. Isso permite que um gerente ou professor reavalie um aluno até que ele seja aprovado na lista de verificação.
-
-Se o módulo for obrigatório, a caixa de seleção de reavaliação será marcada por padrão.
-
-Um professor ou gerente também pode alterar o status de uma lista de verificação de Reprovado para Aprovado quando a reavaliação estiver ativada.
-
-Na página Lista de verificação, um professor pode ver o número de alunos no estado Pendente. Como professor, você pode avaliar um aluno e aprová-lo ou reprová-lo. Se um aluno estiver em um estado de falha, você só poderá ver a lista de verificação quando a reavaliação não estiver ativada.
-
-Isto significa que a **Habilitar** a caixa de seleção não foi marcada na seção Reavaliação ao criar a lista de verificação. Se esta caixa de seleção estiver selecionada, você poderá ver o botão Exibir/Reavaliar na página Lista de verificação do professor.
-
-Selecionar o botão permite reavaliar um aluno e marcá-lo como aprovado ou reprovado.
-
->[!NOTE]
->
->Esses dois recursos - Reavaliação e Tornando a lista de verificação obrigatória - se aplicam apenas aos módulos recém-criados. Depois que um curso é publicado, eles não podem ser ativados/desativados.
-
-
-Exibir [Criar uma lista de verificação](authors/feature-summary/courses.md#checklist-fail) para obter mais informações.
-
-## Outras melhorias
-
-### Notificações de email relacionadas à sessão
-
-Em versões anteriores do Adobe Learning Manager, um aluno não tinha e-mails relacionados à sessão, detalhes da sessão atualizados, convite de sessão e lembrete de sessão quando:
-
-* Os alunos concluíram um curso,
-* Novas sessões são adicionadas a um curso ou
-* Há alterações nas sessões existentes.
-
-Na versão de março de 2024 do Adobe Learning Manager, estas são as novas alterações:
-
-* Detalhes da sessão atualizados e convite da sessão (para aluno e professor)
-   * Para sessões futuras, e-mails para **Detalhes da sessão atualizados**, **Convite de sessão** para alunos inscritos e professores atuais serão descontinuados. Para sessões anteriores, e-mails para **Detalhes da sessão atualizados** e **Convite de sessão** para alunos inscritos e professores atuais permanecerão como estão.
-* E-mails de lembrete (para administrador e aluno)
-   * Para sessões futuras, somente **Lembrete de sessão** emails serão enviados.
-
->[!NOTE]
->
->Os e-mails não dependem da sessão e da conclusão do curso.
-
-
-### Alterações no local de referência AEM
-
-Em um site de referência AEM, adicionamos suporte para adicionar o token de atualização do administrador ao token de acesso do aluno.
-
-### Ocultar envios dos professores
-
-Depois que os alunos fazem upload de seus arquivos usando o fluxo de trabalho de envio de arquivos, se um professor não realizar nenhuma ação (aprovar ou rejeitar) no envio, o URL de envio ficará oculto da exibição após um número de dias predefinido. Entre em contato com as equipes CSAM da Adobe Learning Manager para definir ou alterar o número de dias.
-
-### Alterações na terminologia do produto
-
-Adicionamos as colunas *Instância* e *Aluno* ao vocabulário de terminologia do produto.
-
-### Alterações no aplicativo móvel
-
-Nesta versão do aplicativo móvel, os alunos podem agendar e gerenciar lembretes de cursos vencidos. Clicar em uma notificação de lembrete atrasada permite que você acesse as seguintes opções:
-
-* Cancelar
-* Ir ao curso
-* Lembrar-me novamente em 3 dias
-* Lembrar-me novamente em uma semana
-
-No Android: clicar na notificação por push o direcionará para a **Visão geral do curso** página.
-No iOS: clicar na notificação por push o direcionará para a página inicial do aplicativo. Essa é uma limitação conhecida no iOS.
-
-### Alterações na lista de verificação no aplicativo do aluno no Salesforce
-
-Se um aluno não passar em uma lista de verificação, ele não poderá prosseguir para o próximo módulo ou curso. Quando a caixa de seleção Lista de verificação obrigatória está marcada, o aluno não pode prosseguir em um curso se não passar na lista de verificação.
-
-Assim como no aplicativo Web, se um aluno falhar em uma lista de verificação no aplicativo Salesforce, ele verá uma mensagem e não avançará.
-
-### Alterações no Connect VC
-
-Nas versões atuais do Adobe Learning Manager, um aluno é marcado como **Não participou** quando eles estão inscritos para uma sessão de aula virtual do Connect, mas não atendiam aos critérios de conclusão.
-
-Nesta versão, o status muda para **Ainda não marcado**.
-
-### Rotulagem de branco no Adobe Learning Manager
-
-O aplicativo Adobe Learning Manager para dispositivos móveis agora é compatível com a rotulagem branca, o que significa que agora você pode lançá-lo sob sua própria marca.
-
-Exibir rotulagem de branco em [Aplicativo Adobe Learning Manager para dispositivos móveis](white-label.md) para obter mais informações.
-
-### Nova coluna em CSVs de migração
-
-Nesta versão, há uma nova coluna opcional, uniqueLoId, nos seguintes CSVs de migração.
-
-* certification.csv
-* course.csv
-* learning_program.csv
-
->[!NOTE]
->
->O **uniqueLoId** é opcional.
-
-
-Se você executar uma migração para atualizar um curso existente ou plano de aprendizado ou certificação, o curso ou plano de aprendizado ou certificação com o **uniqueLOId** s são adicionados ao aplicativo Autor.
-
-Ao migrar, você deve atualizar o **uniqueLOId** nos CSVs do curso ou plano de aprendizado ou certificação, mesmo que seja uma coluna opcional.
-
-Se a opção **uniqueLoId** A coluna não é adicionada antes da execução da migração durante a atualização do curso ou plano de aprendizado ou certificação existente com **uniqueLOId** s, depois da migração, o **uniqueLOId** os valores serão substituídos por valores NULL.
-
->[!NOTE]
->
->A coluna, **uniqueLoId**, não é aplicável ao CSV de ajuda de tarefa.
-
+## Renovação da interface do usuário do aluno
 
 >[!IMPORTANT]
 >
->Os valores da coluna devem ser exclusivos na conta. Não é possível usar o mesmo valor com um curso ou certificação.
+>A nova interface do usuário do aluno será lançada em fases.
 
-Baixe os CSVs no menu [Manual de migração](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+A **interface do** aluno foi atualizada com um design mais elegante e moderno. As **[!UICONTROL páginas inicial,**[!UICONTROL  Meu aprendizado ]**,**[!UICONTROL  Catálogo ]**e**[!UICONTROL  Visão geral ]**do curso estão começando a ter uma aparência nova e]** moderna. Os cartões de curso também possuem um novo design para exibir os detalhes de uma maneira moderna. Passar o mouse sobre um cartão do curso mostra a descrição e a data de publicação do curso.
 
+>[!NOTE]
+>
+>A interface do usuário aprimorada se aplica apenas ao layout imersivo. Essas alterações ainda não são compatíveis com a Web ou o aplicativo para dispositivos móveis e serão atualizadas em uma versão futura.
 
-### Classificação do aplicativo
+![](assets/old-ui.png)
+_Interface de usuário antiga_
 
-Um aluno pode fornecer seu feedback no aplicativo Adobe Learning Manager para aprimorar ainda mais a experiência no aplicativo. Se o aluno classificar quatro estrelas ou mais, será exibida uma janela pop-up que solicita que o aluno classifique o aplicativo na Play Store ou no App Store.
+![](assets/new-ui.png)
+_Nova interface do usuário_
 
-### A Bluejeans chegou ao fim da sua vida útil em fevereiro de 2024
+### O que está alterando nesta versão
 
-Gostaríamos de informar que a Bluejeans atingiu seu fim de vida útil em fevereiro de 2024. Após fevereiro de 2024, o Bluejeans não receberá mais atualizações ou suporte. Nossas equipes de suporte e CSAM ajudarão você com quaisquer dúvidas ou preocupações que possa ter durante esse período de transição.
+**Modernizar aparência**
 
-Exibir [Conectores no Adobe Learning Manager](integration-admin/feature-summary/connectors.md) para obter mais informações sobre como configurar conectores.
+Os novos elementos visuais atualizados se alinham com as tendências de design modernas, tornando o produto intuitivo e atraente. Isso inclui um novo mastro, painel lateral e widgets de aparência moderna.
 
-### Alterações no relatório Acesso de logon
+**Experiência do usuário aprimorada**
 
-O relatório Login Access estará disponível apenas para os últimos cinco trimestres. Se algum administrador de integração solicitar o download Por demanda da Exportação unificada com **Acesso de login** marcada, o Adobe Learning Manager exibirá uma mensagem de erro. No entanto, não há impacto em outros relatórios.
+Agora, os alunos terão uma exibição de cartão semelhante nas seguintes páginas: Página inicial, Catálogo, Meu aprendizado e Visão geral do curso oferecendo uma experiência unificada.
 
-### Alterações do ADFS
+Consulte [a página inicial do aluno](/help/migrated/learners/feature-summary/learner-home-page.md) para obter mais informações.
 
-Os campos Tipo de funcionário e ID de funcionário do AD FS agora estão disponíveis no Adobe Learning Manager, com base nos mapeamentos.
+**Alterações nas datas de publicação do curso**
+
+Com esse aprimoramento, as datas de publicação dos cursos do LinkedIn e do Go1 importados para o Adobe Learning Manager serão as datas de publicação reais no LinkedIn e no Go1. Você pode ver as datas de publicação reais dos cursos do LinkedIn e do Go1 na interface do usuário também. Exiba [os cartões do curso](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) para obter mais informações.
+
+## Atualizações da experiência não registrada
+
+A experiência não registrada permite que você crie uma experiência em tempo real para clientes não conectados. Isso serve como uma página inicial para suas campanhas de marketing, fornecendo informações suficientes para incentivar cadastre-se.
+
+### O que mudou nesta versão
+
+Os clientes podem comprar um plano premium para criar essas experiências não registradas altamente dimensionáveis. Essa experiência não registrada, oferecida pelo [Acesso](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) aos dados de treinamento, fornece dados em tempo real sobre limites de licenças, vagas ocupadas, limites de listas de espera e contagem de listas de espera usando as APIs do Adobe Learning Manager. Os clientes podem usar essas APIs para oferecer recursos de pesquisa e filtros de alunos não conectados, além de um resumo completo do curso.
+
+>[!NOTE]
+>
+>Entre em contato com a equipe de suporte ou a CSAM para comprar o plano premium.
+
+## Suporte para várias unidades de manutenção de estoque (SKUs)
+
+Agora, os alunos podem adicionar vários cursos, caminhos de aprendizagem ou certificações ao carrinho e comprá-los juntos.
+
+### O que mudou na versão
+
+Anteriormente, os alunos só podiam comprar um curso de cada vez. Nesta versão do **Adobe Learning Manager**, eles podem comprar vários cursos, caminhos de aprendizado ou certificações imediatamente usando o carrinho.
+
+Esse recurso está disponível somente nos aplicativos do aluno (interface do aluno existente, interface do aluno nova e aplicativo imersivo móvel).
+
+Exibir [carrinho de vários itens em ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
+
+## Suporte a conteúdo HTML5 no Fluidic Player
+
+**O Adobe Learning Manager** agora suporta o upload de conteúdo HTML5 como um arquivo .zip para a biblioteca de conteúdo. Após o upload, esses arquivos podem ser incluídos como módulos em um curso. Além disso, os autores podem definir os critérios de conclusão dos módulos HTML5 em ritmo personalizado, permitindo a conclusão marcada pelo aluno ou a conclusão automática ao iniciar.
+
+### O que mudou nesta versão
+
+O Adobe Learning Manager agora suporta conteúdo compatível com HTML5 em cursos em ritmo individualizado. Os autores podem adicionar o conteúdo HTML5 como um arquivo .zip ao conteúdo em ritmo personalizado. Os alunos podem exibir o conteúdo HTML5 no Fluidic Player. Com o novo recurso, agora os alunos podem marcar o curso como concluído diretamente no Fluidic Player para cursos em ritmo próprio. Exiba [o tipo de arquivo Adicionar HTML5 na biblioteca](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) de conteúdo para obter mais informações.
+
+Com o novo aprimoramento, o curso com o link externo será marcado automaticamente como concluído quando o URL for visitado, desde que o autor tenha definido os critérios de conclusão para a nova opção **[!UICONTROL ao iniciar o conteúdo]**. A nova opção **[!UICONTROL Critérios]** de conclusão foi adicionada na página Módulo de atividade em que o autor pode definir os critérios de conclusão para os links externos. Para [obter mais informações, consulte o link Adicionar HTML no módulo](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) de atividade.
+
+![](assets/completion-criteria-activity-module.png)
+_Critérios de conclusão - Módulo de atividade_
+
+## Notificações de push com atraso no curso no aplicativo móvel
+
+Os alunos receberão notificações por push sempre que perderem o prazo final do curso. Com esse novo aprimoramento, os alunos agora terão a opção de dormir um lembrete por 24 horas ou ser lembrados na próxima semana por cada lembrete atrasado que recebem. Isso é aplicável somente a notificações com atraso de prazo. Exibir [Agendar a notificação push](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
 ## Alterações da API nesta versão
 
-### APIs do aluno
+### Pesquisar API
 
-Nesta versão, adicionamos suporte de API para que os alunos visualizem o logotipo da marca e os temas personalizados no nível de Grupo de usuários.
+A API de pesquisa inclui as seguintes alterações:
 
-As APIs /account e /user?include=account retornam quatro campos, que são substituídos específicos do campo ativo do usuário que pertence a logoUrl, logoStyling e themeData.
+Os alunos podem pesquisar tags nos filtros do catálogo usando a ```GET /search``` API. Os alunos podem pesquisar as tags selecionando ```tag``` como um valor para ```filter.loTypes``` o parâmetro.
 
-### Novos atributos
+**Amostra de ondulação**
 
-Um novo atributo, isExpiredSubmission, em learningObjectResource, que mostra se o envio no recurso expirou ou não.
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 5a858f23924f4feafa38ae8d6c4d97b6' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+```
 
-* API GET /account: retorna novo atributo **expireSubmissionDuration** X, onde X é o número de dias definido. Se não definido, 0 será retornado
-* API GET /LO com recurso inclui novo atributo **isExpiredSubmission**&quot; Verdadeiro ou Falso.
-   * Verdadeiro, se o envio estiver expirado e “submissionUrl” não for exibido.
-   * Se for False, o envio não expirará e “submissionUrl” será buscado.
+Os novos filtros, licenças disponíveis, lista de espera disponível e filtro de intervalo de tempo foram adicionados às seguintes APIs: ```GET /search``` e `GET /learningObjects`.
 
-### Alterações de API na lista de verificação
+Os novos filtros foram adicionados `filter.session.includeEnrollmentDeadline` à seguinte API ```GET /search```.
 
-Um curso pode consistir em vários módulos dos quais a Lista de verificação é um tipo de módulo. Este módulo de lista de verificação é avaliado pelo professor e pode ser marcado como Reprovado ou Bem-sucedido com base na avaliação.
+### API da conta
 
-Mas, em ambos os casos, o status da lista de verificação é marcado como Concluído e, dessa forma, o curso é marcado como Concluído.
+A nova coluna `custom_injections`e `showComplianceLabel``complianceLabelDefaultID` foi adicionada na API para obter os ```GET /account``` dados da conta do ponto de extremidade do usuário.
 
-Nesta versão, a API do LO inclui o parâmetro *isChecklistMandatory*. Se o valor for True, a lista de verificação será obrigatória.
+### API do objeto de aprendizado
 
-### Suporte a vários locais
+Veja a seguir as alterações feitas na API do objeto de aprendizado nesta atualização:
 
-Um administrador agora pode baixar o relatório de feedback L1 no idioma escolhido. No entanto, você ainda não pode baixar relatórios de feedback L1 para o Power BI. Na solicitação da API, use o parâmetro preferredLocale para especificar o local de sua escolha.
+A nova ID do autor da resposta e outros detalhes adicionados `authorDetails` na `GET /learningObjects` API. Além disso, um novo filtro `filter.authors`foi adicionado para filtrar autores herdados e seus cursos.
 
-### Alterações no resumo de contagem de Instâncias
+O novo atributo chamado `effectivenessIndex` ajudará a obter os dados da eficácia do curso.
 
-Isso é aplicável a contas onde as inscrições para um curso de Sala de aula/Sala de aula virtual são mais de 1.000.
+**Amostra de ondulação**
 
-Se o número for inferior a 1000, as inscrições invalidam o cache e retornam os valores atualizados em uma chamada de API de Resumo do GET, como número de inscrição, conclusão e limite de estação.
+```
+curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
+--header 'Accept: application/vnd.api+json' \
+--header 'Authorization: oauth 598665ab5c8a99bea0e774d9faf7f3ca'
+```
 
-Se a conta estiver habilitada para esse recurso e o número de inscrições for maior que 1000, os valores serão recuperados do cache.
+A nova resposta `whoShouldTake`, que fornece detalhes sobre quem deve realizar este curso, foi adicionada às seguintes APIs: `POST /learningObjects/query`, `GET /learningObjects/{id}`e `GET /learningObjects`.
 
-### Caminhos obsoletos
+**Amostra de ondulação**
 
-No momento, as APIs do Learning Manager seguem uma estrutura de dados de gráfico, que permite buscar dados atravessando o modelo de API por meio de inclusões. Mesmo que você pudesse atravessar uma API de até sete níveis, buscar os dados usando uma única chamada de API é computacionalmente caro.
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 28a83fb8c87579af8ebc4434cc80f0c0' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
+```
 
-Recomendamos que todos os clientes novos e existentes façam chamadas pequenas várias vezes em vez de uma chamada grande. Essa abordagem evitará que dados indesejados sejam carregados na chamada.
+A nova resposta `waitlistLimit`, que fornece detalhes sobre a limitação da `GET /learningObjects` lista de espera, foi adicionada à API.
 
-#### Quais caminhos estão obsoletos
+A nova resposta `count` , que dá a contagem total do objeto de aprendizado, foi adicionada às APIs `GET/ learningObjects` e `POST/ learningObjects/query`.
 
-Os caminhos a seguir estão obsoletos:
+As novas respostas `catalogFieldId` e `fieldValueId` foram adicionadas `catalogLabels` na `GET/ learningObjects` API.
 
-* /learningObjects
-   * Caminhos obsoletos:
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * Caminhos existentes:
-      * enrollment.loInstance
-      * instances.loResources
-* /learningObjects/{id}
-   * Caminho preterido:
-      * enrollment.instances.subLoInstances.learningObject
-   * Caminho existente:
-      * enrollment.instances.subLoInstances
-* /enrollments
-   * Caminho preterido:
-      * loInstance.learningObject.enrollment
-   * Novo caminho:
-      * loInstance.learningObject
-* /learningObjects/{id}
-   * Caminho preterido:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Novo caminho:
-      * instance.subLoInstances
+Os alunos podem obter os valores do rótulo do catálogo na API `GET /preview/learningObjects`.
 
-### Acesso de logon e alterações de arquivamento do relatório de auditoria do usuário para a API de trabalho
+### Nova API para obter a contagem do marketplace
 
-Com esta versão, a API de trabalho manterá o Relatório de acesso de logon por até cinco trimestres e o Relatório de auditoria do usuário por seis meses. Se quiser fazer download dos dados anteriores a esse período, você deve passar o parâmetro de arquivamento, especificando trimestre e ano. Consulte a carga de amostra.
+Nesta versão, uma nova API `GET /search/marketplace/count` foi adicionada. Isso ajuda você a contar com os objetos de aprendizado disponíveis no mercado de conteúdo.
+
+**Amostra de ondulação**
+
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+```
+
+**Resposta de amostra**
 
 ```
 {
-    "data": {
-        "type": "job",
-        "attributes": {
-            "description": "description of your choice",
-            "jobType": "generateLoginAccessReport",
-            "payload": {
-                "fromDate": "2023-04-01T18:30:00.000Z",
-                "toDate": "2023-04-30T18:30:00.000Z",
-                "archive": {
-                    "quarter": "4",
-                    "year": "2021"
-                }
-            }
-        }
-    }
+  "count": 54910
 }
 ```
 
-Se você tentar baixar o **Acesso de login** que ultrapasse cinco trimestres, será exibida uma mensagem de erro. Uma mensagem de erro semelhante é exibida se você tentar baixar o **Auditoria de usuário** que exceda seis meses.
+### API de instância do objeto de aprendizado
+
+Veja a seguir as alterações feitas na API da instância do objeto de aprendizado nesta atualização:
+
+Nesta versão, uma nova chave chamada `gamificationEnabled` foi adicionada à API `GET /learningObjects/{loId}/instances/{loInstanceId}`da instância do objeto de aprendizado.
+
+**Amostra de ondulação**
+
+```
+curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
+```
+
+O novo `gamificationSettings` atributo à API acima obterá os detalhes das configurações de Gamificação. Por exemplo: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
+
+**Amostra de ondulação**
+
+```
+curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
+```
+
+O novo `leaderboard` atributo à API acima obterá os detalhes das configurações de Gamificação. Por exemplo: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+
+**Amostra de ondulação**
+
+```
+curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
+--header 'Accept: application/vnd.api+json' \
+--header 'Authorization: oauth de4b5ee6efdd42375130db27ff503dd4'
+```
+
+### Alterações nos limites de deslocamento
+
+Para melhorar o desempenho do sistema e gerenciar a utilização de recursos de forma mais eficaz, a Adobe descontinuou valores altos de deslocamento no ponto de extremidade GET /users para os escopos do Administrador e do ALUNO. Recomendamos usar a API de tarefas para recuperar os registros com um valor de deslocamento.
 
 ### APIs obsoletas
 
-Exibir [Descontinuações de API no Adobe Learning Manager](api-deprecations-list.md) para obter uma lista cumulativa de todas as APIs obsoletas no produto.
+Exibir [reprovações de API no Adobe Learning Manager](/help/migrated/api-deprecations-list.md) para obter uma lista cumulativa de todas as APIs obsoletas no produto.
 
-## Erros corrigidos nesta atualização {#bug-fixes}
+## Alterações nos relatórios
 
-* Quando um aluno está inscrito em um curso e tenta se inscrever em outro curso, é exibida uma mensagem de aviso.
-* Um Grupo de usuários, mesmo depois de excluído, fica visível na pesquisa.
-* Quando os usuários disparam muitas transcrições do aluno com uma grande quantidade de dados, a fila Transcrições do aluno é bloqueada e impede uma nova solicitação.
-* Se uma conta filha solicitar que sua conta pai compartilhe um relatório, a conta pai não poderá fazer isso.
-* Os URLs de um curso e de um caminho de aprendizado redirecionam para locais incorretos.
-* Um aluno visualiza intermitentemente a instância do curso de um curso diferente clicando no link do curso na página do catálogo.
-* O **Cancelar inscrição** não é exibido como esperado após a primeira inscrição, mas o botão é exibido após uma atualização.
-* Não é possível salvar o Conteúdo ou um Quiz que tenha um espaço em branco no nome.
-* Nos cursos aprovados pelo gerente, você pode reinscrever os alunos em um grupo de usuários.
-* Em alguns casos, se você tentar adicionar outro campo ativo, a mensagem de erro “Não foi possível salvar os campos ativos” será exibida.
-* O texto excede o nome de um curso dentro de um cartão do curso na seção Cursos relacionados.
-* Depois de alternar uma instância e inscrever um aluno na instância, as instâncias antigas ainda existem no calendário do Outlook.
-* Quando um aluno de uma conta entre parceiros tenta selecionar a miniatura de um curso, é exibida uma mensagem de erro.
-* Quando os alunos se inscrevem em um curso, eles recebem várias notificações da inscrição.
-* Se um usuário alterar manualmente o nome dos catálogos criados em um conector, novos catálogos serão criados e os cursos serão publicados nos catálogos incorretos.
-* Os usuários que pertencem a contas inativas ainda recebem emails de assinatura.
+### Painel de conformidade
 
-### Correções de erros relacionados à API
+Nesta versão, o relatório do painel Conformidade tem duas novas colunas:
 
-* Os usuários/GET da API não recuperam os detalhes de um gerente.
-* Em uma conta, os usuários são criados por meio de uma importação de usuários de FTP agendada durante um tempo de inatividade agendado.
-* No aplicativo móvel ou modo imersivo, após excluir ou desativar uma instância do curso e selecionar a próxima instância ativa, o **Registrar interesse** é exibido em vez de **Inscrever-se**.
-* Quando um aluno de uma conta entre parceiros tenta selecionar a miniatura de um curso usando a API do objeto de aprendizado, o erro 403 Proibido é exibido.
+* Status
+* Tipo de conformidade
+
+Isso é uma adição às colunas já existentes:
+
+* Nome do usuário
+* E-mail do usuário
+* LP/Certificação/Curso
+* Tipo
+* Data de inscrição (fuso horário UTC)
+* Prazo de conclusão (Fuso horário central da Europa)
+* Data de conclusão (fuso horário UTC)
+* % de progresso
+
+### Relatório de treinamento
+
+O relatório de treinamento no Administrador > relatórios > Relatórios personalizados e a **API** de tarefas costumavam ter colunas chamadas **Habilidade(s)** e **Tag(s)**. ************ Essas colunas foram renomeada para **Habilidades** e **Tags**.
+
+### Relatório de auditoria do conteúdo
+
+Nesta versão, o relatório da Trilha ]**de auditoria de**[!UICONTROL  conteúdo agora inclui os seguintes novos atributos na coluna do tipo Modificação:
+
+* Adição de grupo de usuários
+* Remover grupo de usuários
+* Adição de rótulo personalizado
+* Remoção personalizada do rótulo
+* Adicionar catálogo compartilhado
+* Remoção do catálogo compartilhado
+* Atualização de catálogo compartilhado
+
+## Erros corrigidos nesta atualização
+
+**Envio de atividades**
+
+* Tentar recarregar um arquivo no módulo de envio da atividade falha com um Erro 500 na chamada de rede.
+
+**API**
+
+* A criação de uma reunião do Connect VC falha se vários professores tiverem o mesmo endereço de email.
+* Depois de se inscrever em um caminho de aprendizado, o MS Teams VC exibe um URL incorreto na página Visão geral.
+* O URL pré-assinado pelo relatório do usuário fornecido como parte da resposta da API de tarefa expira após seis horas.
+* Ao gerar um relatório de inscrição em um curso, a coluna Nome do curso exibe um nome incorreto do curso.
+* O funcionário da migração não envia o lo ID exclusivo ao chamar a API em massa para o curso, mas a ID é removida.
+* Quando um curso é incluído em um catálogo específico que um usuário pode acessar (enquanto o catálogo padrão está desativado), apesar da configuração que impede que os alunos sem inscrição vejam o curso, você ainda pode recuperar os metadados do curso com o ponto de extremidade learningobject/id.
+* O filtro Habilidades não funciona conforme o esperado quando o nome da habilidade tem vírgulas no nome na API GET/learningObject.
+* Há inconsistência nos metadados de carimbo de data e hora do arquivo no funcionário da retenção de dados do SFTP.
+* Se qualquer conector for removido e reconfigurado, o status de migração do projeto parece estar fechado.
+* O Relatório de treinamento tem &quot;Tag(s)&quot; como cabeçalho de coluna em vez de &quot;Tags&quot;.
+* A exportação do conector de Comércio falha se o catálogo estiver desativado e se qualquer um dos cursos exportados fizer parte apenas do catálogo desativado.
+
+**Certificação**
+
+* Às vezes, falhará a inscrição de um usuário em uma certificação recorrente.
+
+**Função personalizada**
+
+* Em alguns casos, quando um administrador personalizado tenta alternar para a função de professor, o Erro 403 é exibido proibido.
+
+**Modelo de e-mail e notificação**
+
+* As notificações por email, após o cancelamento de uma sessão, não são enviadas ao último conjunto de professores quando os professores são removidos da sessão.
+* O organizador não recebe notificações por email para equipes do MS depois de criar um treinamento virtual liderado por professores. Somente depois que o curso é publicado e os modelos de e-mail são ativados, os emails são acionados.
+* Às vezes, um modelo de email consiste em um formato e tradução incorretos de data.
+
+**Aluno**
+
+* Quando um aluno é inscrito em várias instâncias de um curso e você baixa o relatório de participação, o relatório contém informações incorretas.
+* Um usuário pode exibir as postagens privadas de outro usuário se forem adicionadas a uma história pública.
+* Em alguns casos, não é possível cancelar a inscrição dos alunos em uma certificação. Uma mensagem de erro é exibida ao tentar cancelar a inscrição.
+* Uma certificação é marcada como concluída mesmo depois que um administrador a marca na conclusão depois de selecionar apenas um curso.
+* Um administrador não pode marcar um vc como concluído se o tempo de término da sessão for alterado para uma data anterior.
+* O relatório de Presença da sessão aparece como &quot;Não presente&quot; para alunos que estão em uma lista de espera.
+
+**Aplicativo do aluno**
+
+* Depois de baixar as notas do curso como PDF, as notas são exibidas aleatoriamente. Eles não seguem a ordem.
+
+**Caminho de aprendizado**
+
+* Depois de selecionar uma habilidade em um Caminho de aprendizado, a lista suspensa não é exibida como esperado quando você seleciona o campo de texto.
+* Em alguns casos, não é possível remover habilidades de um caminho de aprendizagem.
+
+**Programa de aprendizado**
+
+* Se um programa de aprendizado flexível tiver muitos cursos, o plano de aprendizado não será concluído mesmo depois que um administrador o marcar como concluído.
+* A coluna last_modified_by no relatório Inscrição não é atualizada quando um aluno altera instâncias.
+
+**Denunciar**
+
+* Em alguns casos, um administrador não consegue exportar o relatório de Treinamento.
+* Quando um conteúdo SCORM contém perguntas ou respostas que excedem 32.767 caracteres, não é possível baixar o relatório do questionário do curso no Excel.
+* Depois de selecionar Redefinir gamificação, a data máxima de Nível não é redefinida.
+
+**Pesquisa**
+
+* Atualmente, depois de exportar todos os grupos de usuários, os Grupos de usuários excluídos também são os destaques na saída.
+* Devido a problemas de pesquisa intermitentes, você não consegue pesquisar uma certificação.
+
+## Problema conhecido nesta versão
+
+O player offline móvel não carrega o conteúdo HTML5.
 
 ## Requisitos do sistema
 
-Exibir [Requisitos de sistema do Adobe Learning Manager](system-requirements.md).
+Visualizar [os requisitos](/help/migrated/system-requirements.md) de sistema do Adobe Learning Manager.
 
 ## Versões anteriores do Adobe Learning Manager
 
-* [Versão de novembro de 2023](whats-new-november-2023.md)
-* [Versão de julho de 2023](whats-new-2023-july.md)
+* [Versão de março de 2024](/help/migrated/whats-new-march-2024.md)
+* [Versão de novembro de 2024](/help/migrated/whats-new-november-2023.md)

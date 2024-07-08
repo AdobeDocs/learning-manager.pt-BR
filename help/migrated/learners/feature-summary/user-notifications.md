@@ -3,14 +3,13 @@ description: Notificações de usuário para alunos no Learning Manager.
 jcr-language: en_us
 title: Notificações de usuário
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 81%
+source-wordcount: '464'
+ht-degree: 72%
 
 ---
-
-
 
 # Notificações de usuário
 
@@ -34,9 +33,13 @@ Esta janela pop-up exibe realces de todas as notificações junto com a hora da 
 
 Os alunos podem rejeitar um curso atribuído a eles pelos gerentes clicando em Rejeitar na janela pop-up de notificações.
 
+## Agende a notificação push
+
+Os alunos receberão notificações por push sempre que perderem o prazo final do curso. Os alunos terão a opção de dormir um lembrete por 24 horas ou ser lembrados na próxima semana por cada lembrete atrasado que recebem. Isso é aplicável somente a notificações com atraso de prazo.
+
 ## Mostrar todas as notificações {#showallnotifications}
 
-Clique em **[!UICONTROL Mostrar todas as notificações]** na parte inferior da janela pop-up de notificações para exibir todas as notificações em uma página separada.
+Clique **[!UICONTROL em Mostrar todos os links de notificações]** na parte inferior da janela pop-up de notificações para ver todas as notificações em uma página separada.
 
 ![](assets/notifications-page.png)
 
@@ -58,7 +61,7 @@ Os alunos recebem notificações sempre que ocorrer os seguintes eventos:
 1. O aluno rejeitou a indicação
 1. Nos cursos aprovados pelo gerente, o gerente aprova/rejeita uma solicitação de inscrição no curso
 1. A lista de espera do aluno é cancelada.
-1. O aluno foi inscrito automaticamente em um curso, programa de aprendizado ou certificação
+1. O aluno foi inscrito automaticamente em um curso ou em um programa de aprendizado ou certificação
 1. O aluno termina uma certificação
 1. O gerente aprova/rejeita o comprovante do documento de conclusão da certificação carregado pelo aluno
 1. Quando o prazo de uma fase específica do curso está se aproximando. (O administrador pode definir a data a partir da qual as notificações de lembrete podem aparecer para o aluno).
@@ -73,4 +76,4 @@ Os alunos podem fornecer feedback N1 depois de concluir um curso que tem uma op�
 
 >[!NOTE]
 >
->Os alunos recebem a opção de feedback para os cursos apenas quando um administrador ativa a opção para um curso específico.
+>Os alunos recebem a opção de feedback para os cursos somente quando um administrador a ativa em um curso específico.

@@ -3,24 +3,23 @@ description: Saiba como exibir e rastrear aprendizados no painel do gerente.
 jcr-language: en_us
 title: Painel do gerente
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
+source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 68%
+source-wordcount: '1432'
+ht-degree: 49%
 
 ---
-
-
 
 # Painel do gerente
 
 Saiba como exibir e rastrear aprendizados no painel do gerente.
 
-Os gerentes desempenham um papel importante nas iniciativas de aprendizado de uma equipe. Para guiá-los melhor, a plataforma de aprendizado oferece ao gerente a exibição de um quadro de classificação para acompanhar as aprendizados da sua equipe.
+Os gerentes desempenham um papel importante nas iniciativas de aprendizagem de uma equipe. Para guiá-los melhor, a plataforma de aprendizado oferece ao gerente a exibição de um quadro de classificação para acompanhar as aprendizados da sua equipe.
 
 ![](assets/dashboard-final.png)
 
-*Relatório do painel para um gerente*
+*Relatório do painel para um Gerente*
 
 Para ver os detalhes de um gráfico, clique no gráfico ou clique no hiperlink **[!UICONTROL Detalhes]**.
 
@@ -32,7 +31,7 @@ Um gerente pode ver o resumo das atividades de aprendizado da sua equipe durante
 
 ![](assets/learning-summarydashboard.png)
 
-*Exibir atividades de aprendizado durante um período de tempo*
+*Visualizar atividades de aprendizado ao longo de um tempo perios*
 
 ## Exibição da equipe {#teamview}
 
@@ -40,9 +39,9 @@ A Exibição da equipe mostra as equipes, seus membros e suas respectivas inscri
 
 ![](assets/ls-team-view.png)
 
-*A Exibição de Equipe exibe as equipes, seus membros e suas respectivas inscrições*
+*A Exibição de equipe exibe as equipes, seus membros e suas respectivas inscrições*
 
-Ao clicar nos nomes das equipes, por exemplo, Equipe de Venkatesh, você pode visualizar os membros da equipe de Venkatesh junto com o número total de inscrições, progressões e conclusões para um objeto de aprendizado.
+Ao clicar nos nomes da equipe, por exemplo, na Equipe de Venkatesh, você pode ver os membros na equipe de Venkatesh juntamente com o número total de inscrições, progressões e conclusões para um objeto de aprendizado.
 
 ![](assets/ls-click-team-names.png)
 
@@ -58,13 +57,13 @@ Da mesma forma, você pode exibir os objetos de aprendizado junto com o número 
 
 ![](assets/ls-on-clicking-valuesinteamviewforateam.png)
 
-*Exibir cursos e resumo de aprendizado*
+*Exibir cursos e resumo do aprendizado*
 
-Ao clicar no número de inscrições, progressões ou conclusões de cada estudo, você pode exibir os seguintes detalhes: Pessoas, data de inscrição/conclusão, data de vencimento e andamento feito.
+Ao clicar mais no número de inscrições, progressões ou conclusões para cada aprendizado, é possível visualizar os seguintes detalhes: Pessoas, data de inscrição/conclusão, data de vencimento e progresso realizados.
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
-*Exibir data de inscrição/conclusão, data de vencimento e progresso feito*
+*Veja a data de inscrição/conclusão, a data de vencimento e o progresso feito*
 
 ## Exibição dos aprendizados {#learningsview}
 
@@ -76,81 +75,133 @@ Para ver detalhes como pessoas, datas de inscrição, datas de vencimento e o an
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
-*Exibição Aprendizados*
+*Visualização Aprendizados*
 
 ## Exportar relatório {#exportreport}
 
-Para gerar um relatório do Excel, clique em **[!UICONTROL Ações] > [!UICONTROL Denunciar]**
+Para gerar um relatório do Excel, selecione **[!UICONTROL Ações] > [!UICONTROL Relatório]**
 
 ## Status da conformidade {#compliancestatus}
 
-Os gerentes podem exibir o status geral de conformidade da equipe para aprendizados configurados no painel de conformidade. A lista de aprendizados é configurável, e o gerente pode selecionar os aprendizados para controlar o status da conformidade.
+No painel de conformidade, os gerentes podem ver o status geral da conformidade da equipe para aprendizados configurados em categorias específicas (por exemplo, vendas, marketing e jurídico). Os administradores podem criar um painel com cursos de conformidade, caminhos de aprendizado ou certificação e compartilhar com os gerentes. Os gerentes podem exibir o painel compartilhado pelo administrador em suas instâncias.
 
-Neste painel, os gerentes também podem ver os alunos que estão em conformidade, estão dentro de um prazo seguro, estão próximos do vencimento e não estão em conformidade com o objeto de aprendizado selecionado.
+### Exibir o painel
 
-Os objetos de aprendizado com prazos de conclusão podem ser configurados no painel de conformidade para rastreamento.
+Para exibir o painel, selecione **[!UICONTROL Painel]** de conformidade no aplicativo do gerente.
 
-**Conforme**: exibe o número de alunos que concluíram o objeto de aprendizado dentro do prazo de conclusão.
+![](assets/compliance-dashboard-manager.png)
+_Painel de conformidade - aplicativo Gerenciador de painel_
 
-**Prazo seguro**: exibe o número de alunos que têm mais de 30 dias disponíveis para concluir o objeto de aprendizado.
+O painel de conformidade inclui os seguintes status da conformidade:
 
-**Próximo do vencimento**: exibe o número de alunos que têm menos de 30 dias disponíveis para concluir o objeto de aprendizado.
+* **[!UICONTROL Alunos não compatíveis]**: mostra o número de alunos que ultrapassaram o prazo.
+* **[!UICONTROL Aproximando-se do prazo:]** mostra o número de alunos com prazos menores do que 30 dias.
+* **[!UICONTROL Alunos com prazos seguros]**: mostra a contagem de alunos com prazos maior (mais de 30 dias).
+* **[!UICONTROL Alunos]** totalmente compatíveis: mostra a contagem de alunos totalmente compatíveis.
+* **[!UICONTROL Alunos não inscritos em nenhum lugar]**: mostra a contagem de alunos não inscritos em nenhum curso, caminhos de aprendizado ou certificações.
 
-**Não conforme**: exibe o número de alunos que não concluíram o objeto de aprendizado dentro do prazo de conclusão.
+### Gerentes e alunos de e-mail
+
+**Gerenciamento de várias equipes**
+
+Se você gerenciar várias equipes, poderá notificar seus gerentes sobre o status de aprendizagem dos membros da equipe selecionando a opção **[!UICONTROL Gerentes]** de email disponível na **[!UICONTROL seção Exibição de equipe]** .
+
+![](assets/email-managers.png)
+_Gerentes de e-mail_
+
+Os **[!UICONTROL Gerenciador de email fornecem as seguintes]** opções:
+
+* **[!UICONTROL Gerentes de email de alunos não compatíveis]**: notifique os gerentes cujos membros da equipe ultrapassaram o prazo.
+* **[!UICONTROL Gerentes de e-mail dos alunos que se aproximam do prazo]**: notifique os gerentes cujos membros da equipe têm prazos futuros.
+
+**Gerenciamento de equipe única**
+
+Se você gerenciar uma única equipe, poderá notificar os alunos sobre seu status de aprendizado selecionando a opção **[!UICONTROL Alunos]** de email disponíveis na **[!UICONTROL seção Exibição de equipe]** .
+
+![](assets/email-learners.png)
+_Alunos de e-mail_
+
+A **[!UICONTROL opção Alunos de]** email fornece as seguintes opções:
+
+* **[!UICONTROL Enviar por email alunos]** não compatíveis: notifique os alunos que ultrapassaram o prazo.
+* **[!UICONTROL Aproximando-se do prazo]** de aproximação dos alunos: notifique os alunos que têm futuros prazos.
+
+### Baixar relatório
+
+Para baixar o relatório, siga estas etapas:
+
+1. No aplicativo do gerente, vá para o **[!UICONTROL Painel]** de conformidade > exibição **[!UICONTROL de equipe]**.
+1. Selecione **[!UICONTROL Baixar relatório]** para salvar o painel como um relatório.
+Isso permite que você acompanhe o progresso geral do aprendizado da sua equipe.
+
+![](assets/download-report.png)
+_Baixar relatórios_
+
+<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+
+Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
+
+**Compliant**: Displays the number of learners who have completed the learning object within completion deadline.
+
+**Safe deadline**: Displays the number of learners who have less than 30 days available to complete a learning object.
+
+**Upcoming Deadline**: Displays the number of learners with more than 30 days available to complete a learning object.
+
+**Non-compliant**: Displays the number of learners who did not complete the learning object within the completion deadline.
 
 ![](assets/cs-dashboard.png)
 
-*Exibir painel de conformidade*
+*View compliance dashboard*
 
-## Exibição da equipe {#TeamView-1}
+## Team View {#TeamView-1}
 
-Exibe o status da conformidade das respectivas equipes em relação a um curso. Conforme, Prazo seguro, Próximo do vencimento e Não conforme são colunas da tabela da Exibição da equipe.
+Displays the compliance status of a course for respective teams. Compliant, Safe Deadline, Upcoming Deadline, and Non-Compliant are columns in the Team View table.
 
 ![](assets/cs-team-view.png)
 
-*status de conformidade de um curso para as respectivas equipes*
+*compliance status of a course for respective teams*
 
-Para exibir os nomes dos membros em uma equipe e o número individual de cursos para os quais seu status é Compatível, em Prazo Seguro, atingindo o Prazo Futuro e Não Compatível, clique nos valores correspondentes na tabela.
+To display names of the members in a team and the individual number of courses for which their status is Compliant, in Safe Deadline, reaching Upcoming Deadline, and Non Compliant, click the corresponding values in the table.
 
 ![](assets/cs-team-view-on-clickingthenumber.png)
 
-*Selecionar equipes individuais*
+*Select individual teams*
 
-Ao clicar nos valores das colunas Conforme, Prazo seguro, Próximo do vencimento e Não conforme, são exibidos os detalhes correspondentes do curso: nome do objeto de aprendizado, data de inscrição/conclusão, data de vencimento e andamento em porcentagem.
+On further clicking the values in the compliant, safe deadline, upcoming deadline, and non-compliant column, the corresponding course details are displayed: Learning object name, enrollment/ completion date, due date, and progress in percentage.
 
 ![](assets/cs-team-view-on-furtherclickingvaluesincompliantstatus.png) ![](assets/cs-team-view-on-furtherclickingvaluesinsafedeadlinestatus.png)
 
-*Exibir progresso dos cursos*
+*View progress of courses*
 
-## Exibição dos aprendizados {#LearningsView-1}
+## Learnings View {#LearningsView-1}
 
-No status de conformidade da Exibição dos aprendizados, é exibida a lista de objetos de aprendizado e o número correspondente de membros da equipe que está em conformidade, dentro do prazo seguro, próximo do vencimento ou não está em conformidade.
+In the Compliance Status Learnings View, the list of Learning Objects and the corresponding number of team members that are Compliant, within a Safe Deadline, have an Upcoming Deadline, or are Non Compliant is displayed.
 
 ![](assets/cs-learnings-view.png)
 
-*Exibir prazo e status de conformidade*
+*View deadline and compliance status*
 
-Ao clicar nos valores das colunas Conforme, Prazo seguro, Próximo do vencimento e Não conforme, são exibidos os seguintes dados: Pessoas, Data de inscrição, Data de conclusão e Andamento.
+On further clicking the values in the compliant, safe deadline, upcoming deadline, and non compliant columns, the following data is displayed: People, Enrollment Date, Completion date, and Progress.
 
 ![](assets/cs-learnings-view-onfurtherclickingvalues.png)
 
-*Exibir detalhes de conformidade*
+*View details of compliance*
 
-## Exportar dados e enviar e-mails {#exportdataampsendemails}
+## Export data & send emails {#exportdataampsendemails}
 
-* Para exportar o status de conformidade para a exibição de equipes e aprendizados, clique em **[!UICONTROL Ações]** > **[!UICONTROL Exportar]**.
+* To export the compliance status for team and learnings view, click **[!UICONTROL Actions]** > **[!UICONTROL Export]**.
 
-* Para enviar um email aos membros da equipe, clique em **[!UICONTROL Ações]** > **[!UICONTROL Enviar email]**.
+* To send an email to team members, click **[!UICONTROL Actions]** > **[!UICONTROL Send Email]**.
 
 ![](assets/cs-send-email-andexport.png)
 
-*Exportar e enviar dados por email*
+*Export and email data*-->
 
 ## Habilidades da equipe {#teamskills}
 
-Os gerentes podem ver o gráfico de conclusão da habilidade e configurar uma previsão de conclusão da habilidade em diferentes níveis. São listadas cinco habilidades na lista suspensa de habilidades. O gerente averigua a experiência obtida pelos membros da equipe e identifica o talento marcante em determinadas habilidades.
+Os gerentes podem ver o gráfico de conclusão da habilidade e configurar uma previsão de conclusão da habilidade em diferentes níveis. A lista suspensa de habilidades inclui cinco habilidades. O gerente conhece a experiência adquirida pelos membros da equipe e identifica os fortes talentos em determinadas habilidades.
 
-Os gerentes também podem impulsionar algumas habilidades em uma equipe definindo um objetivo e fornecendo uma previsão sobre o tempo necessário que uma porcentagem específica da equipe demora para obter a habilidade dentro do cronograma.
+Os gerentes também podem dirigir certas habilidades em uma equipe estabelecendo uma meta e prevendo quanto tempo levaria para alcançar uma habilidade para uma porcentagem específica de uma equipe dentro de uma linha do tempo.
 
 A previsão é baseada em cálculos do sistema que fornece uma visão futura do andamento dessa habilidade específica.
 
@@ -158,9 +209,9 @@ A previsão é baseada em cálculos do sistema que fornece uma visão futura do 
 
 *Exibir previsão de habilidades*
 
-Para exibir o status das habilidades de uma equipe, siga as etapas abaixo:
+Para visualizar o status da habilidade de uma equipe, siga as seguintes etapas:
 
-1. Clique em **[!UICONTROL Habilidades da equipe]** no painel esquerdo da seção Exibição Minha equipe.
+1. Clique **[!UICONTROL em Habilidades]** de equipe no painel esquerdo, na seção Minha exibição De equipe.
 1. Para ver as habilidades exibidas, clique no filtro de habilidades e selecione um na lista suspensa.
 1. Para selecionar um nível (Nível 1, Nível 2 ou Nível 3), clique no menu suspenso de níveis.
 1. Com base nas habilidades e níveis selecionados, é exibido um gráfico com o status da habilidade. Ao passar o mouse sobre o gráfico, você pode ver as seguintes porcentagens do status da habilidade: **Em andamento** e **Obtido**.
@@ -179,17 +230,17 @@ Para prever a porcentagem de conclusão da equipe em uma habilidade, siga as eta
 
    *Selecione o hiperlink Configurar*
 
-1. Na caixa de diálogo pop-up, insira um valor de porcentagem para a habilidade que deseja configurar no **% de conclusão de meta** e a data até a qual você deseja atingir a porcentagem de conclusão prevista no **Data de destino** campo.****
+1. Na caixa de diálogo pop-up Configurar, para a habilidade que você deseja configurar, insira um valor de porcentagem no **campo %** de conclusão do destino e a data em que deseja atingir a % de conclusão de destino no campo de **data** de destino.****
 
    ![](assets/configure-tracker.png)
 
-   *Inserir porcentagem de conclusão de meta*
+   *Insira a porcentagem de conclusão de destino*
 
-1. Para ver o resultado da previsão, clique no botão **Estimativa**. O resultado se parece com a captura de tela abaixo.
+1. Para ver o resultado da previsão, clique no botão **Estimativa**. A aparência da saída é a seguinte captura de tela.
 
    ![](assets/skill-tracker-output.png)
 
-   *Exibir saída do rastreador de habilidades*
+   *Exibir a saída do tracxker de habilidade*
 
 ## Previsão da conclusão do nível de habilidade {#skilllevelcompletionforecast}
 
@@ -201,19 +252,19 @@ Na linha sólida, o primeiro ponto exibe a data da primeira inscrição em um n�
 
 ![](assets/1-dotted-line.png)
 
-*Exibir primeira inscrição para um nível de habilidade*
+*Exibir primeira inscrição em um nível de habilidade*
 
 O segundo ponto mostra a data e o nível da porcentagem de conclusão atuais da equipe em relação à habilidade.
 
 ![](assets/2-solid-line.png)
 
-*Exibir a data atual e o nível de % de conclusão da equipe da habilidade*
+*Ver o nível de % da habilidade para a data atual e a conclusão da equipe*
 
 O terceiro ponto da linha mostra a porcentagem de conclusão prevista e a data de conclusão prevista esperadas.
 
 ![](assets/3-solid-line.png)
 
-*Exibir a porcentagem de conclusão prevista e a data de conclusão prevista*
+*Veja o esperado % de conclusão da meta e data de conclusão da meta*
 
 ## Linha da previsão {#forecastline}
 
@@ -223,25 +274,25 @@ O primeiro ponto da linha pontilhada representa a porcentagem de conclusão da e
 
 ![](assets/1-dotted-line.png)
 
-*Exibir a % de conclusão da equipe e a % de conclusão da equipe projetada para uma habilidade*
+*Ver ele concluir a equipe % e a conclusão projetada da equipe % para uma habilidade*
 
 O segundo ponto indica a data em que a porcentagem de conclusão prevista da equipe foi obtida em uma habilidade.
 
 ![](assets/2-dotted-line.png)
 
-*Exibir a data na qual a % de conclusão projetada da equipe foi obtida para uma habilidade*
+*Veja a data em que a conclusão projetada da equipe foi obtida para uma habilidade*
 
 O terceiro ponto da linha de previsão mostra a porcentagem de conclusão da equipe obtida na data estimada fornecida no rastreador de habilidades.
 
 ![](assets/3-dotted-line.png)
 
-*Exibir a % de conclusão da equipe obtida na data de destino fornecida no controlador de habilidades*
+*Veja a conclusão da equipe % que é atingida na data-alvo fornecida no controlador de habilidade*
 
 Abaixo do gráfico, é exibida uma tabela com a visualização da equipe e o número de habilidades inscritas, obtidas e em andamento. Se um aprendizado tem uma data de conclusão, a data de conclusão esperada também será exibida.
 
 ![](assets/ts-details.png)
 
-*Tabela com a exibição da equipe e o número de habilidades que foram inscritas, alcançadas e em andamento*
+*Tabela com a visão da equipe e o número de habilidades que foram inscritos, alcançados e em andamento*
 
 Ao clicar no nome da equipe, são exibidos a lista de membros que se inscreveram nas habilidades, o status das habilidades e a data de conclusão.
 
@@ -249,7 +300,7 @@ Ao clicar no nome da equipe, são exibidos a lista de membros que se inscreveram
 
 *Exibir lista de membros*
 
-Ao clicar na equipe, você pode exibir os membros nela e os detalhes correspondentes da habilidade selecionada, como se estivesse inscrito, o status (em andamento ou obtido) e a data de conclusão, se definida.
+Ao clicar na equipe, é possível ver os membros nela e os detalhes correspondentes da habilidade selecionada, como se estivesse inscrito, o status (se em andamento ou alcançado) e a data de conclusão, se definido.
 
 ![](assets/on-clicking-the-teamnames.png)
 
@@ -261,7 +312,7 @@ Ao selecionar os valores de uma equipe na coluna de inscrição, obtida e em and
 
 ## Exportar relatório {#Exportreport-1}
 
-* Clique em **[!UICONTROL Ações]** > **[!UICONTROL Exportar]** para exportar os dados como um arquivo do excel.
+* Clique **[!UICONTROL em Ações]** > **[!UICONTROL Exportar]** para exportar os dados como um arquivo do Excel.
 
 ![](assets/export-report.png)
 
