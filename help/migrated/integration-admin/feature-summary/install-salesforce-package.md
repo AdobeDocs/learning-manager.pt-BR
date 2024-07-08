@@ -4,9 +4,9 @@ title: Instalar pacote do Salesforce
 description: O Gerenciador de aprendizado oferece um pacote do aplicativo Salesforce. Depois de instalados e configurados no SFDC, os funcionários de vendas podem executar suas atividades de treinamento no portal do SFDC. Este aplicativo permite que os usuários do SFDC explorem novos treinamentos, visualizem recomendações e as consumam diretamente no portal do SFDC. Os usuários também recebem os comunicados enviados pelos administradores na forma de mastros diretamente dentro do aplicativo no portal do SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 47%
 
 ---
@@ -87,7 +87,7 @@ Para adicionar o domínio da Adobe a URLs confiáveis, siga estas etapas:
 1. No console do Salesforce, vá para **[!UICONTROL Configuração]** > **[!UICONTROL Quick Find]**.
 1. Pesquise por **[!UICONTROL URLs confiáveis]** e selecione **[!UICONTROL Novo URL]** confiável.
 1. Digite um nome no campo Nome ]**da**[!UICONTROL  API.
-1. Adicione o URL como `{}.adobe.com{*}`
+1. Digite `*.adobe.com` no campo de URL.
 1. Selecione todas as caixas de seleção nas **Diretivas** de CSP e salve as alterações.
 1. Edite o token de atualização do aplicativo Salesforce e salve-o.
 1. Reinicie o aplicativo Salesforce.
