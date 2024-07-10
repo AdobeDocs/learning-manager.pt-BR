@@ -4,10 +4,10 @@ title: Gerenciar funções personalizadas através de arquivos CSV
 description: O administrador de integração pode adicionar várias funções personalizadas em massa à conta através do CSV, além de atribuir as mesmas a vários usuários. Essa abordagem automatiza o processo de criação de funções personalizadas.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -19,14 +19,16 @@ Você pode configurar funções usando os conectores de FTP e do Box no Learning
 
 Depois de fazer logon na conta de armazenamento do Box, o administrador de integração pode adicionar os seguintes csvs à conta:
 
+* user.csv
 * role.csv
 * user_role.csv
 
 Para começar, baixe os CSVs e altere os valores de acordo com seus requisitos.
 
-**role.csv**
 * Arquivo de exemplo: [role.csv](assets/role.csv)
 * Arquivo de exemplo: [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ Os nomes de catálogo ou nomes de grupo de usuários fornecidos no CSV serão su
 
 Na sua conta Box, escolha **Import > user> internal** e carregue os arquivos role.csv e user_role.csv.
 
-* Os CSVs de função personalizada devem ser copiados na pasta “import->user->internal->user_role”
-* O CSV de Usuários deve ser copiado na pasta “import->user->internal”
+* Os arquivos role.csv e user_role.csv devem ser copiados na pasta **Importar** > **usuário** > **interno** > **user_role**.
+* O arquivo user.csv deve ser copiado na pasta **Importar** > **usuário** > **interno**.
 
-Os dois CSVs devem ser enviados apenas via Box ou FTP. O upload não pode ser feito pela interface do usuário.
+Ambos os CSVs devem ser carregados somente por meio do Box e não podem ser carregados pela interface do usuário.
 
 >[!NOTE]
 >

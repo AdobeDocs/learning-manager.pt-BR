@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar módulos do curso, instâncias e programas de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '4746'
-ht-degree: 63%
+source-wordcount: '4868'
+ht-degree: 61%
 
 ---
 
@@ -62,7 +62,7 @@ Para criar uma instância,
 
    *Definir prazo de conclusão*
 
-## Exibir propriedades de uma instância {#viewpropertiesoftheinstance}
+### Exibir propriedades de uma instância {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
 
@@ -73,7 +73,11 @@ Para criar uma instância,
 1. **Sessões:** número de módulos de sala de aula virtual e de sala de aula no curso.
 1. **Feedback habilitado:** exibe se os comentários L1, L2 e L3 estão habilitados neste curso.
 
-## Retirar uma instância {#retireaninstance}
+>[!NOTE]
+>
+>O administrador cancela as sessões acessando Instâncias > Sessões e selecionando Cancelar sessão.
+
+### Retirar uma instância {#retireaninstance}
 
 Para retirar uma instância, execute as etapas abaixo.
 
@@ -85,7 +89,7 @@ Para retirar uma instância, execute as etapas abaixo.
 
 1. Para procurar todas as instâncias retiradas, clique na guia **[!UICONTROL Retirada]** na página Instâncias.
 
-## Restaurar uma instância {#restoreaninstance}
+### Restaurar uma instância {#restoreaninstance}
 
 Para restaurar uma instância retirada, execute as seguintes etapas:
 
@@ -97,7 +101,7 @@ Para restaurar uma instância retirada, execute as seguintes etapas:
 
 1. A instância agora é redefinida para um modo ativo.
 
-## Deletar uma instância
+### Deletar uma instância
 
 Os administradores podem excluir a instância usando **Excluir esta instância** imediatamente após a criação. Não é possível excluir instâncias se houver uma sessão vinculada a ela ou se algum aluno estiver inscrito nela.
 
@@ -109,7 +113,7 @@ Os administradores podem excluir a instância usando **Excluir esta instância**
 >
 >Não é possível excluir a instância padrão.
 
-## Enviar e-mails em nível de instância
+### Enviar e-mails em nível de instância
 
 Para enviar e-mails em nível de instância aos alunos inscritos:
 
@@ -129,7 +133,7 @@ Para enviar e-mails em nível de instância aos alunos inscritos:
 
    ![Anúncio criado com sucesso](assets/announcement-successful.png)
 
-### Inscrever alunos nos cursos
+## Inscrever alunos nos cursos
 
 Neste treinamento, você aprenderá como se inscrever, cancelar a inscrição e reinscrever alunos.
 
@@ -145,7 +149,7 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
    ![Inscrever alunos](assets/enroll-learners-new.png)
 
-   *Publicar o curso*
+   *Publish o curso*
 
 1. Na caixa de diálogo [!UICONTROL **Inscrever alunos**], é possível:
 
@@ -196,42 +200,57 @@ O arquivo do Excel contém planilhas para cada instância. Uma planilha consiste
 >
 >Se você tiver uma configuração de automação de relatórios que prevê apenas uma linha por curso, deverá fazer os ajustes necessários na automação de relatórios antes de ativar o recurso de Várias Inscrições.
 
-## Definir nível de escalonamento {#escalation}
+### Gerenciar a lista de alunos de um curso {#managelearnerslistforacourse}
 
-Para enviar notificações por e-mail, um administrador deve escolher explicitamente o nível de escalonamento para:
+1. Clique no nome do curso na miniatura do curso.
+1. No painel esquerdo, clique em **[!UICONTROL Alunos]**.
 
-* Gerente
-* Gerente e Ignorar Gerenciador de Nível
+![](assets/courses-learners.png)
 
-![](assets/escalation-notification.png)
+*Selecionar alunos em um curso*
 
-*Definir nível de escalonamento*
+Na página Alunos, você pode executar as seguintes ações:
+
+* Selecione o aluno que deseja remover e clique em [!UICONTROL **Ações**] > [!UICONTROL **Remover**].
+* Selecione o aluno cuja participação você deseja marcar e clique em [!UICONTROL **Ações**] > [!UICONTROL **Marcar como concluído**].
+
+Para permitir que os alunos redefinam um módulo e o consumam novamente, clique em [!UICONTROL **Redefinir**]. Na caixa de diálogo pop-up, clique em Sim para confirmar a redefinição. Os módulos que foram concluídos não podem ser redefinidos. Somente os módulos falhos ou incompletos podem ser redefinidos.
+
+Você também pode exportar a lista de alunos para uma planilha do Excel. Para exportar a lista de alunos, clique em [!UICONTROL **Ações**] > [!UICONTROL **Exportar**].
+
+>[!NOTE]
+>
+>Se houver várias instâncias em um curso, a lista de alunos é fornecida em guias separadas no Excel. A lista de alunos contém o nome do aluno, o status e os critérios de seleção. O status dos alunos pode ser **Não iniciado**, ou **Em andamento**, ou **Concluído**.
+
+### Exportar alunos no estado de aprovação pendente
+
+Um administrador, gerente ou administrador personalizado pode exportar dados de alunos que estão no estado de inscrição de aprovação pendente. Você pode exportar os dados por meio da guia **Curso > Aluno** e clicar na lista suspensa Ação.
+
+A opção estará presente quando nenhum aluno estiver inscrito/com aprovação pendente no curso aprovado pelo gerente e um relatório vazio será gerado. Você também pode exportar quando os alunos estiverem no estado de aprovação pendente, no estado inscrito, no estado pendente e no estado não inscrito.
+
+O relatório contém dados de usuários ativos, excluídos e suspensos se estiverem pendentes de aprovação. Além disso, o relatório contém dados de usuários internos e externos que estão no estado de aprovação pendente.
+
+Se um aluno que estava antes no estado de aprovação pendente cancelar a inscrição, o seu registro não estará presente no relatório. Além disso, se um aluno que estava anteriormente no estado de aprovação pendente estiver inscrito no curso pela inscrição de administrador/gerente/administrador personalizado, o seu registro estará presente no relatório.
 
 ## Lista de espera
 
 A seção Lista de espera permite que os alunos estejam em lista de espera para cursos em sala de aula quando as vagas são limitadas, com base na ordem de inscrição. Os administradores podem gerenciar isso selecionando alunos na lista de espera e alocando vagas além do limite inicial. Depois que uma vaga é alocada pelo administrador, o aluno é imediatamente inscrito no curso.
 
-## Quadro de discussão
+## Exportar participação dos alunos {#attendance}
 
-O recurso Quadro de discussão permite que os alunos visualizem as discussões do curso. Como administrador, você pode excluir qualquer comentário, conforme necessário. Os administradores podem ativar essa opção nas configurações do curso.
+Para qualquer curso de sala de aula e sala de aula virtual, você pode baixar a lista de alunos que participaram de qualquer instância deste curso.
 
-## Moderação do curso {#coursemoderation}
+Na página de detalhes do curso, clique em **[!UICONTROL Participação e Pontuação]** no painel direito.
 
-Sempre que um autor adiciona, atualiza ou exclui módulos e republica um curso, todos os administradores recebem notificações. Como administrador, você pode ver as alterações, comparar o conteúdo antigo e o novo clicando no link, bem como aprovar ou rejeitar as alterações.
+No canto superior direito da página, clique na lista suspensa **[!UICONTROL Ações]**. Em seguida, clique na opção **[!UICONTROL Exportar lista de alunos (PDF)]**.
 
-Para ativar a Moderação do curso, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Geral]**. Marque a caixa de seleção **[!UICONTROL Moderação do curso]** para habilitar esse recurso.
+![](assets/export-list-of-learners.png)
 
-![](assets/2.png)
+*Exportar lista de alunos como PDF*
 
-*Ativar moderação do curso*
+No PDF, é possível visualizar o mesmo grupo de alunos visualizado pelo professor.
 
-Clique na notificação para ver as alterações que o autor fez no curso. Em seguida, aprove ou rejeite as alterações feitas pelo autor. Se você aprovar, o curso é republicado. Se rejeitar as atualizações, a versão anterior do curso continuará a existir. Em qualquer um dos casos, uma notificação é enviada para o autor.
-
-![](assets/1.png)
-
-*Criar solicitações para atualizações de curso*
-
-Se houver vários autores atualizando o mesmo curso, a alteração mais recente será contemplada na notificação do administrador. Em seguida, você pode aprovar ou rejeitar as alterações mais recentes.
+Ao baixar o PDF, é possível ver o fuso horário (em UTC) usado ao criar o curso.
 
 ## Adicionar feedback N1 e N3 {#addl1andl3feedback}
 
@@ -243,7 +262,7 @@ Se houver vários autores atualizando o mesmo curso, a alteração mais recente 
 1. Clique no círculo no botão de alternância ao lado do feedback N1 ou N3 para habilitá-lo.
 1. Adicione pergunta de feedback N3 na área de texto abaixo da pergunta N3.
 
-## Feedback L1 obrigatório {#mandatory-l1-feedback}
+### Feedback L1 obrigatório {#mandatory-l1-feedback}
 
 Você pode tornar todas as perguntas ou a primeira pergunta obrigatórias em um feedback N1.
 
@@ -269,7 +288,7 @@ Na página Padrões de Instância, se você ativar **[!UICONTROL Tornar todas as
 
 *Exibir a página Defaults da Instância*
 
-## Feedback L1 no nível do curso {#l1-feedback-course-level}
+### Feedback L1 no nível do curso {#l1-feedback-course-level}
 
 Nas versões anteriores do Learning Manager, um administrador podia ativar o feedback L1 para o Programa de Aprendizado.
 
@@ -293,7 +312,7 @@ Nesta versão do Learning Manager, o administrador pode enviar feedback L1 para 
 
    Se o feedback L1 estiver ativado para todos os cursos, mas estiver desativado na instância do programa de aprendizado, o feedback L1 não será acionado para os cursos.
 
-## Relatórios de quiz específicos do idioma
+### Relatórios de quiz específicos do idioma
 
 Os relatórios do quiz ajudam a avaliar o desempenho de um aluno após a conclusão de um programa de aprendizado ou curso.
 
@@ -303,7 +322,7 @@ Os relatórios do questionário exibem dados em diferentes idiomas, desde que o 
 
 Isso foi corrigido e o administrador agora pode exibir todos os relatórios no respectivo idioma que o aluno tentou tudo de uma vez, independentemente do local do conteúdo escolhido. O questionário tentado em idiomas diferentes será adicionado como colunas adicionais no relatório do questionário.
 
-## Habilitar feedback L1 no nível da conta {#l1-feedback-account-level}
+### Habilitar feedback L1 no nível da conta {#l1-feedback-account-level}
 
 *Habilitar feedback L1 no nível da conta*
 
@@ -329,7 +348,7 @@ Você também pode desativar o feedback L1 alternando o **[!UICONTROL Habilitar]
 
 *Ativar ou desativar o feedback L1*
 
-## Adicionar perguntas descritivas para feedback N1 e N3 {#descriptive}
+### Adicionar perguntas descritivas para feedback N1 e N3 {#descriptive}
 
 Como parte da versão de novembro do Learning Manager, foi fornecida uma opção para adicionar perguntas descritivas. Os administradores têm a opção de adicionar essas perguntas aos alunos. Essa condição está também no conjunto padrão de perguntas fornecidas pelo Learning Manager. Você também pode torná-los obrigatórios se necessário selecionando a opção abaixo da pergunta.
 
@@ -363,7 +382,7 @@ A pergunta 2 é uma pergunta descritiva do feedback N3. Você pode torná-la obr
 
 *Exibir saída do feedback L3*
 
-## Configurar o questionário de feedback N1 e N3 {#setupl1andl3feedbackquestionnaire}
+### Configurar o questionário de feedback N1 e N3 {#setupl1andl3feedbackquestionnaire}
 
 Você pode configurar o questionário de feedback N1 e N3 e também definir lembretes no nível da conta.
 
@@ -379,6 +398,36 @@ Você pode configurar o questionário de feedback N1 e N3 e também definir lemb
 1. Clique em **[!UICONTROL Salvar]** no canto superior direito da página.
 
 No feedback N1, você pode exibir dois conjuntos de questionário junto com uma pergunta padrão. O primeiro conjunto de questionário se refere a cursos em ritmo individualizado que também pode ser usado para cursos baseados em atividade. O segundo conjunto de questionário pode ser usado para os tipos de cursos em sala de aula e sala de aula virtual.
+
+## Exibir feedback N1 e N3 {#viewl1andl3feedback}
+
+Você pode ver o feedback N1 fornecido a um curso pelos alunos e o feedback N3 fornecido aos alunos pelos gerentes.
+
+1. Clique em qualquer quadro do curso na lista de cursos.
+1. Clique em Feedback N1 ou Feedback N3 no painel esquerdo para ver os comentários recebidos.
+1. Selecione a instância na lista suspensa para ver o feedback dessa instância específica.
+
+## Quadro de discussão
+
+O recurso Quadro de discussão permite que os alunos visualizem as discussões do curso. Como administrador, você pode excluir qualquer comentário, conforme necessário. Os administradores podem ativar essa opção nas configurações do curso.
+
+## Moderação do curso {#coursemoderation}
+
+Sempre que um autor adiciona, atualiza ou exclui módulos e republica um curso, todos os administradores recebem notificações. Como administrador, você pode ver as alterações, comparar o conteúdo antigo e o novo clicando no link, bem como aprovar ou rejeitar as alterações.
+
+Para ativar a Moderação do curso, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Geral]**. Marque a caixa de seleção **[!UICONTROL Moderação do curso]** para habilitar esse recurso.
+
+![](assets/2.png)
+
+*Ativar moderação do curso*
+
+Clique na notificação para ver as alterações que o autor fez no curso. Em seguida, aprove ou rejeite as alterações feitas pelo autor. Se você aprovar, o curso é republicado. Se rejeitar as atualizações, a versão anterior do curso continuará a existir. Em qualquer um dos casos, uma notificação é enviada para o autor.
+
+![](assets/1.png)
+
+*Criar solicitações para atualizações de curso*
+
+Se houver vários autores atualizando o mesmo curso, a alteração mais recente será contemplada na notificação do administrador. Em seguida, você pode aprovar ou rejeitar as alterações mais recentes.
 
 ## Exportar dados da lista de verificação {#export-checklist-data}
 
@@ -429,61 +478,26 @@ Você pode visualizar as pontuações do questionário de qualquer curso especí
 
 Escolha o tipo de instância na lista suspensa para visualizar as pontuações com base em cada instância do curso.
 
-## Gerenciar a lista de alunos de um curso {#managelearnerslistforacourse}
+## Instância padrão
 
-1. Clique no nome do curso na miniatura do curso.
-1. No painel esquerdo, clique em **[!UICONTROL Alunos]**.
+Os administradores podem definir Medalhas, configurações de gamificação e lembretes padrão em **[!UICONTROL Instância padrão]** página. Para modificar as configurações da instância padrão, selecione **[!UICONTROL Instância padrão]** > **[!UICONTROL Editar]**.
 
-![](assets/courses-learners.png)
+* **[!UICONTROL Medalha]**: selecione os emblemas padrão no menu suspenso.
+* **[!UICONTROL Gamificação]**: defina as configurações de gamificação, incluindo pontos para conclusão, conclusão antecipada e conclusão pontual. Os administradores têm a opção de selecionar configurações no nível da conta ou personalizar os pontos de gamificação para essa instância.
+* **[!UICONTROL Feedback de Reação L1]**: ative as perguntas predefinidas para o feedback do aluno na conclusão do curso, com opções para tornar as perguntas obrigatórias.
+***[!UICONTROL Feedback de Alteração de Comportamento N3]**: ative as perguntas de feedback para o gerente do aluno na conclusão do curso.
+***[!UICONTROL Configurações do lembrete]**: defina e gerencie lembretes para prazos finais, com opções para escalonamento.
 
-*Selecionar alunos em um curso*
+### Definir nível de escalonamento {#escalation}
 
-Na página Alunos, você pode executar as seguintes ações:
+Para enviar notificações por e-mail, um administrador deve escolher explicitamente o nível de escalonamento para:
 
-* Selecione o aluno que deseja remover e clique em [!UICONTROL **Ações**] > [!UICONTROL **Remover**].
-* Selecione o aluno cuja participação você deseja marcar e clique em [!UICONTROL **Ações**] > [!UICONTROL **Marcar como concluído**].
+* Gerente
+* Gerente e Ignorar Gerenciador de Nível
 
-Para permitir que os alunos redefinam um módulo e o consumam novamente, clique em [!UICONTROL **Redefinir**]. Na caixa de diálogo pop-up, clique em Sim para confirmar a redefinição. Os módulos que foram concluídos não podem ser redefinidos. Somente os módulos falhos ou incompletos podem ser redefinidos.
+![](assets/escalation-notification.png)
 
-Você também pode exportar a lista de alunos para uma planilha do Excel. Para exportar a lista de alunos, clique em [!UICONTROL **Ações**] > [!UICONTROL **Exportar**].
-
->[!NOTE]
->
->Se houver várias instâncias em um curso, a lista de alunos é fornecida em guias separadas no Excel. A lista de alunos contém o nome do aluno, o status e os critérios de seleção. O status dos alunos pode ser **Não iniciado**, ou **Em andamento**, ou **Concluído**.
-
-## Exportar participação dos alunos {#attendance}
-
-Para qualquer curso de sala de aula e sala de aula virtual, você pode baixar a lista de alunos que participaram de qualquer instância deste curso.
-
-Na página de detalhes do curso, clique em **[!UICONTROL Participação e Pontuação]** no painel direito.
-
-No canto superior direito da página, clique na lista suspensa **[!UICONTROL Ações]**. Em seguida, clique na opção **[!UICONTROL Exportar lista de alunos (PDF)]**.
-
-![](assets/export-list-of-learners.png)
-
-*Exportar lista de alunos como PDF*
-
-No PDF, é possível visualizar o mesmo grupo de alunos visualizado pelo professor.
-
-Ao baixar o PDF, é possível ver o fuso horário (em UTC) usado ao criar o curso.
-
-## Exportar alunos no estado de aprovação pendente
-
-Um administrador, gerente ou administrador personalizado pode exportar dados de alunos que estão no estado de inscrição de aprovação pendente. Você pode exportar os dados por meio da guia **Curso > Aluno** e clicar na lista suspensa Ação.
-
-A opção estará presente quando nenhum aluno estiver inscrito/com aprovação pendente no curso aprovado pelo gerente e um relatório vazio será gerado. Você também pode exportar quando os alunos estiverem no estado de aprovação pendente, no estado inscrito, no estado pendente e no estado não inscrito.
-
-O relatório contém dados de usuários ativos, excluídos e suspensos se estiverem pendentes de aprovação. Além disso, o relatório contém dados de usuários internos e externos que estão no estado de aprovação pendente.
-
-Se um aluno que estava antes no estado de aprovação pendente cancelar a inscrição, o seu registro não estará presente no relatório. Além disso, se um aluno que estava anteriormente no estado de aprovação pendente estiver inscrito no curso pela inscrição de administrador/gerente/administrador personalizado, o seu registro estará presente no relatório.
-
-## Exibir feedback N1 e N3 {#viewl1andl3feedback}
-
-Você pode ver o feedback N1 fornecido a um curso pelos alunos e o feedback N3 fornecido aos alunos pelos gerentes.
-
-1. Clique em qualquer quadro do curso na lista de cursos.
-1. Clique em Feedback N1 ou Feedback N3 no painel esquerdo para ver os comentários recebidos.
-1. Selecione a instância na lista suspensa para ver o feedback dessa instância específica.
+*Definir nível de escalonamento*
 
 ## Visualizar cursos {#previewcourses}
 

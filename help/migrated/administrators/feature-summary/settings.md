@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configurações
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 65%
+source-wordcount: '3836'
+ht-degree: 66%
 
 ---
 
@@ -483,24 +483,6 @@ Mesclado\
 Sala de aula\
 Aula virtual\
 Atividade
-
-Para renomear as terminologias, siga estas etapas.
-
-1. Como administrador, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Terminologia do produto]**. A opção de terminologia do produto é aberta.
-
-   ![](assets/product-terminology.png)
-
-   *Renomear terminologia do produto*
-
-1. As alterações podem ser feitas por meio do upload de um modelo de terminologia do produto modificado por meio do download do arquivo CSV de amostra. Para baixar o arquivo CSV de amostra, clique no botão **[!UICONTROL Baixe aqui]** opção.
-1. O arquivo CSV baixado contém o nome dos objetos na coluna A. Na coluna B, escolha o nome que você deseja atribuir ao respectivo objeto. Observe que é necessário atualizar as formas singular e plural do nome separadas por uma barra vertical (|).
-1. É possível modificar uma ou mais linhas. Você pode manter as linhas inalteradas ou removê-las do arquivo CSV antes de carregá-las.
-1. Faça upload do arquivo CSV modificado e clique em **[!UICONTROL Salvar]**. As atualizações do Learning Manager refletem suas alterações.
-1. Para redefinir as terminologias padrão, clique em **[!UICONTROL Redefinir Terminologia do Produto]**.
-
-   ![](assets/with-reset-option.png)
-
-   *Redefinir as terminologias do produto*
 
 ## Configurações do perfil {#profilesettings}
 
