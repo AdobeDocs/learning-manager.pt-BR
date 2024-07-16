@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Configurações
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
-source-wordcount: '3836'
+source-wordcount: '3595'
 ht-degree: 66%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 66%
 
 Saiba mais sobre as configurações da conta do Learning Manager que você pode configurar como administrador.
 
-Você pode alterar as configurações do seu perfil de administrador e atualizar as configurações da conta. Veja as informações do seu perfil, adicione/altere a foto do perfil e modifique **[!UICONTROL Sobre mim]** conteúdo. Atualize as informações da empresa, defina os métodos de logon dos usuários e configure a integração da conexão nas configurações da conta.
+Você pode alterar as configurações do seu perfil de administrador e atualizar as configurações da conta. Exiba as informações do seu perfil, adicione/altere a foto do perfil e modifique o conteúdo de **[!UICONTROL Sobre mim]**. Atualize as informações da empresa, defina os métodos de logon dos usuários e configure a integração da conexão nas configurações da conta.
+
+![](assets/settings-admin.png)
 
 ## Configurar o Adobe Learning Manager
 
@@ -32,18 +34,18 @@ Para atualizar as configurações da conta da sua organização, clique em **[!U
 
 **Informações básicas (informações da empresa)**
 
-Clique em **[!UICONTROL Alterar]** na página e edite as configurações de país, fuso horário, localidade e exercício financeiro.
+Clique em **[!UICONTROL Alterar]** na página e edite o país, o fuso horário, a localidade e as configurações do exercício.
 
 **Configurar administrador de contato**
 
-Se deseja adicionar ou alterar os endereços de e-mail dos administradores de suporte da empresa, você pode configurar clicando em **[!UICONTROL Geral]** no painel esquerdo. Clique em **[!UICONTROL Alterar]** adjacente a **[!UICONTROL ID do email de suporte]** e adicione as ids de e-mail. O e-mail é enviado a esses administradores quando o aluno clica **[!UICONTROL Contatar administrador]** no rodapé da página
+Se deseja adicionar ou alterar os endereços de e-mail dos administradores de suporte da empresa, você pode configurar clicando em **[!UICONTROL Geral]** no painel esquerdo. Clique em **[!UICONTROL Alterar]** ao lado de **[!UICONTROL ID de Email de Suporte]** e adicione as IDs de email. Um email é enviado a esses administradores quando o aluno clica em **[!UICONTROL Entrar em contato com o administrador]** no rodapé da página.
 
 Adicione mais IDs de e-mail com ponto-e-vírgula como separador.
 
 **Métodos de logon** - Os administradores podem escolher o modo através do qual os usuários internos ou externos podem acessar a conta.
 
-* **Usuários internos:** Para usuários internos, você pode definir a Adobe ID ou logon único (SSO) como modos de logon.
-* **Usuários externos:** Para usuários externos, você pode definir a Adobe ID, o logon único ou a Learning Manager ID.
+* **Usuários internos:** para usuários internos, você pode definir a Adobe ID ou o logon único (SSO) como modos de logon.
+* **Usuários externos:** para usuários externos, você pode definir a Adobe ID, o logon único ou a Learning Manager ID.
 
 Se optar pela Learning Manager ID, os usuários externos podem fazer logon nessa conta depois de criarem seus nomes de usuário e senhas do Learning Manager.
 
@@ -55,21 +57,21 @@ Você pode acessar o aplicativo Learning Manager usando a Adobe ID ou usando o l
 
 **Feedback**
 
-Clique em **[!UICONTROL Feedback]** no painel esquerdo a fim de configurar o questionário para obter feedback dos alunos após a conclusão de um curso. Consulte [conteúdo de ajuda do recurso cursos](courses.md) sobre a criação de feedback N1 e N3.
+Clique em **[!UICONTROL Feedback]** no painel esquerdo a fim de configurar o questionário para obter feedback dos alunos após a conclusão de um curso. Consulte o [conteúdo de ajuda do recurso de cursos](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) sobre como criar feedback N1 e N3.
 
 **Várias tentativas**
 
-Selecionar **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Várias tentativas]**.
+Selecione **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** > **[!UICONTROL Várias Tentativas]**.
 
 Se você ativar a caixa de seleção “Várias tentativas”, os autores poderão definir “Várias tentativas” para cursos ou módulos de e-learning interativos. Ao marcar a segunda caixa de seleção, os administradores podem definir “Tentativas infinitas” por padrão para qualquer curso de e-learning interativo recém-criado.
 
 ![](assets/admin-config.png)
 
-*Marque a caixa de seleção Várias tentativas*
+*Marque a caixa de seleção Várias Tentativas*
 
 **Moderação do curso**
 
-Clique em **[!UICONTROL Geral]** no painel esquerdo, e selecione a opção Moderação do curso para ativar a funcionalidade Moderação do curso. Para saber mais sobre esse recurso, consulte [Moderação do curso](courses.md#main-pars_header_1879001177).
+Clique em **[!UICONTROL Geral]** no painel esquerdo e selecione a opção Moderação do curso para ativar a funcionalidade Moderação do curso. Para saber mais sobre este recurso, consulte [Moderação do curso](courses.md#main-pars_header_1879001177).
 
 **Quadro de discussão**
 
@@ -81,7 +83,7 @@ No painel esquerdo, clique em Painel do aluno. Esta página permite que você se
 
 **Adobe Connect**
 
-Clique em **[!UICONTROL Adobe Connect]** no painel esquerdo para configurar a conta do Adobe Connect para hospedar sessões de sala de aula virtual. Para obter mais informações, consulte  [Adobe Connect](adobeconnect-integration.md) ajuda do recurso.
+Clique em **[!UICONTROL Adobe Connect]** no painel esquerdo para configurar a conta do Adobe Connect para hospedar sessões de sala de aula virtual. Para obter mais informações, consulte a ajuda do recurso [Adobe Connect](adobeconnect-integration.md).
 
 ## Configurações gerais {#general}
 
@@ -204,7 +206,7 @@ Habilite ou desabilite as configurações a seguir:
     </ol>
     <p>Além disso, você pode:</p>
     <ul>
-     <li>Clique no botão <b>Redefinir</b> para redefinir os valores padrão na caixa de diálogo <b>Ajuda</b> e <b>Contatar administrador</b> campos.</li>
+     <li>Clique no ícone <b>Redefinir</b> para redefinir os valores padrão nos campos <b>Ajuda</b> e <b>Contatar administrador</b>.</li>
      <li>Personalize o link no rodapé em todos os idiomas. Clique na lista suspensa <b>Idioma</b>, selecione o idioma e adicione o <b>Nome</b> e o <b>URL</b> nos campos especificados. Depois de salvar as alterações, os links atualizados aparecerão no rodapé.<br></li>
     </ul></td>
   </tr>
@@ -217,7 +219,7 @@ Habilite ou desabilite as configurações a seguir:
      <li>Preferência de fuso horário no nível da conta</li>
     </ul>
     <p>A transcrição do aluno baixada usando a API Trabalhos também baixa os dados no fuso horário selecionado.</p>
-    <p><b>Observação: </b>Não há alterações esperadas na transcrição do aluno por padrão imediatamente após a liberação. Os administradores podem configurar essa configuração em Admin &gt; Configurações &gt; Geral &gt; Fuso horário do relatório.</p></td>
+    <p><b>Observação: </b>não há alterações esperadas na transcrição do aluno por padrão imediatamente após a liberação. Os administradores podem configurar essa configuração em Admin &gt; Configurações &gt; Geral &gt; Fuso horário do relatório.</p></td>
   </tr>
  </tbody>
 </table>
@@ -400,10 +402,10 @@ Habilite ou desabilite as configurações a seguir:
      <li>Se a opção <b>Eficácia do curso</b> estiver habilitada, os alunos poderão ver apenas o valor da eficácia do curso.</li>
      <li>Se a opção <b>Classificação por estrelas</b> estiver ativada, os alunos poderão ver apenas a classificação por estrelas média e o número de alunos que classificaram o curso.<br></li>
     </ul>
-    <p>Este recurso está disponível apenas para cursos. A classificação por estrelas não é compatível com Programas de aprendizado ou Certificados.<br><br><b>Observação: </b>Essa alteração afeta apenas o aplicativo do aluno. </p>
+    <p>Este recurso está disponível apenas para cursos. A classificação por estrelas não é compatível com Programas de aprendizado ou Certificados.<br><br><b>Observação: </b>esta alteração afeta apenas o aplicativo do aluno. </p>
     <p>Em todos os outros aplicativos (administrador, autor, gerente, administrador personalizado, autor personalizado), as alterações nas configurações (classificação por estrelas ou eficácia do curso ou desabilitação da exibição da classificação) não terão nenhum efeito. </p>
-    <p>Para novas contas, o <b>Mostrar classificações</b> terá a opção de <b>Classificação por estrelas</b> ativado por padrão.</p>
-    <p>Para contas existentes, se a conta tinha a opção anteriormente <b>Eficácia do curso</b> ativado, depois o <b>Mostrar classificações</b> será ativada com a opção Eficácia do curso selecionada. Se a opção <b>Eficácia do curso</b>s estiver desativado, a caixa de diálogo <b>Mostrar classificações</b> também será desativada. Quando a <b>Mostrar classificações</b> estiver ativada, a opção <b>Classificação por estrelas</b> será ativada por padrão.</p></td>
+    <p>Para novas contas, a seção <b>Mostrar classificações</b> terá a opção <b>Classificação por estrelas</b> habilitada por padrão.</p>
+    <p>Para contas existentes, se a conta tinha a opção <b>Eficácia do curso</b> ativada anteriormente, a seção <b>Mostrar classificações</b> será ativada com a opção Eficácia do curso selecionada. Se a opção <b>Eficácia do curso</b>s estiver desabilitada, a seção <b>Mostrar Classificações</b> também será desabilitada. Quando a seção <b>Mostrar classificações</b> estiver habilitada, a opção <b>Classificação por estrelas</b> será habilitada por padrão.</p></td>
   </tr>
  </tbody>
 </table>
@@ -438,22 +440,7 @@ Habilite ou desabilite as configurações a seguir:
 
 >[!NOTE]
 >
->Quando a configuração de importação de habilidades estiver ativada, o layout da conta não poderá ser alternado para a exibição Clássica, ou seja, a alternância para a conta Clássica será desativada após a **Importação de habilidade** opção está ativada.
-
-
-## Recomendação baseada em IA
-
-O Learning Manager inclui uma nova página inicial do aluno, que é moderna, orientada por conteúdo e personalizada de acordo com as preferências do aluno. As recomendações de aprendizado baseadas em IA têm como objetivo aprimorar o envolvimento do aluno e identificar e corrigir as lacunas de aprendizado.
-
-O algoritmo de recomendação foi projetado para receber várias fontes de entrada, incluindo dados do setor sobre funções, cargos e descrições que a Adobe tem originado de seus parceiros. Esses dados são então usados para treinar algoritmos de IA de Adobe para que o Learning Manager possa criar um mapa que conecte habilidades alinhadas pela indústria a cargos e/ou designações. Isso se torna uma entrada para o algoritmo de recomendação
-
-O Learning Manager usa algoritmos de modelagem de tópicos para analisar o conteúdo de treinamento em uma conta e mapeá-los para as habilidades.
-
-O Learning Manager usa dados de atividade de mesmo nível como outro sinal para orientar o algoritmo de recomendação de forma personalizada. Atividades como inscrição, conclusão e feedback explícito fornecido pelos alunos são usadas aqui.
-
-Além disso, o Learning Manager usa informações explícitas e implícitas coletadas de alunos individuais para personalizar ainda mais as recomendações. Um aluno poderá indicar as suas áreas de interesse explicitamente por meio de inscrições e o Learning Manager receberá essas informações implicitamente com base em como o aluno realiza os treinamentos.
-
-Finalmente, o administrador também poderá influenciar o algoritmo de recomendação usando os atributos do aluno que o Learning Manager deve observar ao definir grupos de pares e, também, destacando os treinamentos para grupos de usuários específicos.
+>Depois que a configuração de importação de habilidades estiver habilitada, o layout da conta não poderá ser alternado para o modo de exibição Clássico, ou seja, a alternância para a conta Clássica será desabilitada depois que a opção **Importação de habilidades** for habilitada.
 
 ## Renomeação de objetos de aprendizado {#renaminglearningobjects}
 
@@ -486,9 +473,9 @@ Atividade
 
 ## Configurações do perfil {#profilesettings}
 
-1. Clique na seta suspensa no canto superior direito, ao lado de sua foto/conta, e escolha **[!UICONTROL Configurações do perfil]**.
-1. Na caixa de diálogo suspensa, você pode adicionar/alterar uma foto passando o mouse sobre ela e clicando em **[!UICONTROL Editar]** na área de foto do perfil.
-1. Adicionar/modificar **[!UICONTROL Sobre]** conteúdo clicando em **[!UICONTROL Editar]** adjacentes.
+1. Clique na seta suspensa no canto superior direito, próximo à sua foto/conta, e escolha **[!UICONTROL Configurações do perfil]**.
+1. Na caixa de diálogo suspensa, você pode adicionar/alterar uma foto passando o mouse sobre a área da foto do perfil e clicando em **[!UICONTROL Editar]**.
+1. Adicione/modifique o conteúdo de **[!UICONTROL Sobre]** clicando em **[!UICONTROL Editar]** ao lado dele.
 1. Clique em **[!UICONTROL Salvar].**
 
 ## Pasta de conteúdo {#content-folder}
@@ -497,11 +484,11 @@ O Learning Manager oferece suporte a pastas de conteúdo privado. Um administrad
 
 As pastas de conteúdo podem ser configuradas pelos administradores. Uma vez configuradas, as pastas de conteúdo ficam visíveis para os autores, que já poderão colocar o conteúdo em uma ou várias pastas.
 
-Para adicionar uma pasta de conteúdo, no aplicativo do administrador, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Pasta de conteúdo]**.
+Para adicionar uma pasta de conteúdo, no aplicativo do administrador, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Pasta de Conteúdo]**.
 
 ![](assets/manage-content-folders.png)
 
-*Alterar configurações da Pasta de conteúdo*
+*Alterar configurações da Pasta de Conteúdo*
 
 ### Pasta
 
@@ -536,7 +523,7 @@ Para adicionar uma pasta, clique em **[!UICONTROL Adicionar]** no canto superior
 
 **Excluir uma pasta**
 
-Você também pode excluir uma pasta. Selecione a pasta a ser excluída, clique no menu Ações e, em seguida, clique em **[!UICONTROL Excluir pasta]**.
+Você também pode excluir uma pasta. Selecione a pasta a ser excluída, clique no menu Ações e clique em **[!UICONTROL Excluir Pasta]**.
 
 >[!NOTE]
 >
@@ -578,16 +565,17 @@ Você também pode adicionar o local com a ajuda de um CSV. O CSV deve conter os
 
 ### Configurações {#admin-classroom-settings}
 
-Selecionar **Editar** para alterar o seguinte:
+Selecione **Editar** para alterar o seguinte:
 
-* **Permitir que autores criem locais**: Uma vez ativado, todos os locais criados pelos autores serão listados na guia “Todos os locais”. Os alunos também verão esses locais nos filtros Catálogo e calendário.
-* **Permitir que autores modifiquem e excluam locais**: uma vez ativado, os autores poderão modificar e excluir todos os locais da sala de aula. As modificações feitas pelos autores serão refletidas em toda a plataforma, incluindo relatórios.
+* **Permitir que autores criem locais**: depois de habilitado, todos os locais criados por autores serão listados na guia &#39;Todos os Locais&#39;. Os alunos também verão esses locais nos filtros Catálogo e calendário.
+* **Permitir que autores modifiquem e excluam locais**:
+Uma vez ativado, os autores poderão modificar e excluir todos os locais da sala de aula. As modificações feitas pelos autores serão refletidas em toda a plataforma, incluindo relatórios.
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
 +++Como criar pastas diferentes para a biblioteca de conteúdo?
 
-Clique em **[!UICONTROL Configurações]** > **[!UICONTROL Pasta de conteúdo]**. Para adicionar uma pasta, clique em **[!UICONTROL Adicionar]** no canto superior direito, e na caixa de diálogo, insira o nome e a descrição da pasta.
+Clique em **[!UICONTROL Configurações]** > **[!UICONTROL Pasta de Conteúdo]**. Para adicionar uma pasta, clique em **[!UICONTROL Adicionar]** no canto superior direito, e na caixa de diálogo, insira o nome e a descrição da pasta.
 
 As pastas de conteúdo podem ser configuradas pelos administradores. Uma vez configuradas, as pastas de conteúdo ficam visíveis para os autores, que já poderão colocar o conteúdo em uma ou várias pastas.
 
@@ -596,5 +584,5 @@ Para obter mais informações, consulte a seção em [Pasta de conteúdo](settin
 
 +++Como adicionar exercício financeiro para a conta?
 
-Entrada **[!UICONTROL Configurações]** > **[!UICONTROL Informações básicas]**, clique em **[!UICONTROL Alterar]**. Na guia **[!UICONTROL O exercício tem início em]** selecione o mês.
+Em **[!UICONTROL Configurações]** > **[!UICONTROL Informações Básicas]**, clique em **[!UICONTROL Alterar]**. Na lista suspensa **[!UICONTROL O exercício financeiro começa em]**, selecione o mês.
 +++

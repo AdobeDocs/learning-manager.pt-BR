@@ -4,14 +4,14 @@ jcr-language: en_us
 title: Criar módulos do curso, instâncias e programas de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
 source-wordcount: '4868'
 ht-degree: 61%
 
 ---
 
-# Criar módulos do curso, instâncias e programas de aprendizado
+# Criar módulos do curso, instâncias e programações de aprendizado
 
 Este documento consiste na ajuda para criar módulos, instâncias e cursos para a função de administrador.
 
@@ -49,11 +49,11 @@ Para criar uma instância,
 1. Para criar uma instância, clique em **[!UICONTROL Adicionar nova instância]** no canto superior direito das informações do curso. Uma nova instância do curso é exibida.
 1. Insira as propriedades da instância:
 
-   * No menu **[!UICONTROL Nome da Instância]** insira o nome da instância que deseja associar ao curso. Certifique-se de usar um nome exclusivo para a instância.
+   * No campo **[!UICONTROL Nome da instância]**, insira o nome da instância que você deseja associar ao curso. Certifique-se de usar um nome exclusivo para a instância.
    * Especifique o prazo de conclusão para a instância. Os alunos devem atingir o status de conclusão do curso até esta data.
    * Clique em **[!UICONTROL Mostrar mais opções]** para exibir outras opções de prazo.
-   * **[!UICONTROL Prazo de Inscrição]:** Essa é a data até a qual um aluno deve se inscrever em um objeto de aprendizado em caso de autoinscrição.
-   * **[!UICONTROL Prazo de Cancelamento de Inscrição]:** Você pode optar por restringir o cancelamento de inscrição pelo próprio aluno, estabelecendo um prazo para o cancelamento da inscrição.
+   * **[!UICONTROL Prazo de inscrição]:** esta é a data até a qual um aluno deve se inscrever em um objeto de aprendizado em caso de autoinscrição.
+   * **[!UICONTROL Prazo de cancelamento da inscrição]:** Você pode optar por restringir o cancelamento de inscrição pelo próprio aluno, estabelecendo um prazo para o cancelamento da inscrição.
    * **[!UICONTROL Fuso horário]:** Pesquise e selecione o **[!UICONTROL Fuso horário]** na lista suspensa.
 
    Um administrador pode decidir ter prazos de conclusão para um curso ou programa de aprendizado com base em requisitos. No entanto, é recomendável ter um prazo para os treinamentos com base em sala de aula/sala de aula virtual.
@@ -103,11 +103,11 @@ Para restaurar uma instância retirada, execute as seguintes etapas:
 
 ### Deletar uma instância
 
-Os administradores podem excluir a instância usando **Excluir esta instância** imediatamente após a criação. Não é possível excluir instâncias se houver uma sessão vinculada a ela ou se algum aluno estiver inscrito nela.
+Os administradores podem excluir a instância usando a opção **Excluir esta instância** imediatamente após a criação. Não é possível excluir instâncias se houver uma sessão vinculada a ela ou se algum aluno estiver inscrito nela.
 
 ![](assets/delete-this-instance.png)
 
-*Deletar uma instância*
+*Excluir uma instância*
 
 >[!NOTE]
 >
@@ -117,13 +117,13 @@ Os administradores podem excluir a instância usando **Excluir esta instância**
 
 Para enviar e-mails em nível de instância aos alunos inscritos:
 
-1. Na guia **[!UICONTROL Instâncias]** selecione as opções em qualquer instância e clique em **[!UICONTROL Enviar e-mail aos alunos inscritos]**.
+1. Na página **[!UICONTROL Instâncias]**, selecione as opções em qualquer instância e clique em **[!UICONTROL Enviar Email aos Alunos Inscritos]**.
 
-![e-mails em nível de instância](assets/adhoc-email.png)
+![emails em nível de instância](assets/adhoc-email.png)
 
-*E-mail para alunos inscritos na instância*
+*Enviar email aos alunos inscritos na instância*
 
-1. Na guia **[!UICONTROL Criar anúncio]** , selecione Tipo como E-mail. Especifique o assunto, digite a mensagem e clique em **[!UICONTROL Salvar]**. O treinamento é selecionado automaticamente.
+1. Na caixa de diálogo **[!UICONTROL Criar Comunicado]**, selecione Digitar como Email. Especifique o assunto, digite a mensagem e clique em **[!UICONTROL Salvar]**. O treinamento é selecionado automaticamente.
 
    ![Criar comunicado como email](assets/email-announcement.png)
 
@@ -131,7 +131,7 @@ Para enviar e-mails em nível de instância aos alunos inscritos:
 
 1. Depois de clicar em **[!UICONTROL Salvar]**, você verá uma mensagem de confirmação pela criação bem-sucedida do comunicado. Para publicar o comunicado, clique em **[!UICONTROL Publicar agora]**.
 
-   ![Anúncio criado com sucesso](assets/announcement-successful.png)
+   ![Comunicado criado com êxito](assets/announcement-successful.png)
 
 ## Inscrever alunos nos cursos
 
@@ -162,13 +162,13 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
    ![continuar](assets/proceed.png)
 
-   *Prossiga com a inscrição de alunos*
+   *Inscrever alunos*
 
 ### Exibir relatório de inscrição de uma instância
 
 1. Selecione um curso da lista de cursos.
 1. Selecione **[!UICONTROL Alunos]** no painel esquerdo.
-1. Selecionar **[!UICONTROL Ações]** > **[!UICONTROL Exportar]**.
+1. Selecione **[!UICONTROL Ações]** > **[!UICONTROL Exportar]**.
 
 O arquivo do Excel contém planilhas para cada instância. Uma planilha consiste nos campos:
 
@@ -220,7 +220,7 @@ Você também pode exportar a lista de alunos para uma planilha do Excel. Para e
 
 >[!NOTE]
 >
->Se houver várias instâncias em um curso, a lista de alunos é fornecida em guias separadas no Excel. A lista de alunos contém o nome do aluno, o status e os critérios de seleção. O status dos alunos pode ser **Não iniciado**, ou **Em andamento**, ou **Concluído**.
+>Se houver várias instâncias em um curso, a lista de alunos é fornecida em guias separadas no Excel. A lista de alunos contém o nome do aluno, o status e os critérios de seleção. O status dos alunos pode ser **Não iniciado**, **Em andamento** ou **Concluído**.
 
 ### Exportar alunos no estado de aprovação pendente
 
@@ -257,7 +257,7 @@ Ao baixar o PDF, é possível ver o fuso horário (em UTC) usado ao criar o curs
 É possível adicionar opções de feedback N1 e N3 ao criar cursos:
 
 1. Clique em Cursos no painel esquerdo depois de fazer logon como administrador. A lista de todos os cursos é exibida na página do lado direito.
-1. Clique no quadro do curso ao qual você deseja adicionar o feedback N1 ou N3
+1. Clique no quadro do curso ao qual você deseja adicionar o feedback N1 ou N3.
 1. Clique no padrão da instância no painel esquerdo.
 1. Clique no círculo no botão de alternância ao lado do feedback N1 ou N3 para habilitá-lo.
 1. Adicione pergunta de feedback N3 na área de texto abaixo da pergunta N3.
@@ -282,11 +282,11 @@ Se as duas perguntas obrigatórias, por algum motivo, não tiverem texto, as per
 >
 >Não basta ativar essas configurações na instância do Programa de aprendizado. Você também deve ativar essas configurações no nível da Instância do curso para cada curso no Programa de aprendizado.
 
-Na página Padrões de Instância, se você ativar **[!UICONTROL Tornar todas as perguntas obrigatórias]**, todas as novas instâncias criadas posteriormente herdarão essas configurações.
+Na página Padrões de Instância, se você habilitar **[!UICONTROL Tornar Todas as Perguntas Obrigatórias]**, todas as novas instâncias criadas posteriormente herdarão essas configurações.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
-*Exibir a página Defaults da Instância*
+*Exibir a página Padrões de Instância*
 
 ### Feedback L1 no nível do curso {#l1-feedback-course-level}
 
@@ -294,21 +294,21 @@ Nas versões anteriores do Learning Manager, um administrador podia ativar o fee
 
 Nesta versão do Learning Manager, o administrador pode enviar feedback L1 para todos os cursos que fazem parte do Programa de Aprendizado. O administrador deve garantir que o feedback L1 esteja ativado para todos os cursos no nível da instância do curso.
 
-1. Para ativar o feedback L1 para cada curso, no aplicativo Admin, clique em **[!UICONTROL Programas de aprendizado]** > **[!UICONTROL Exibir Programa de Aprendizado]**.
+1. Para habilitar o feedback L1 para cada curso, no aplicativo Admin, clique em **[!UICONTROL Programas de Aprendizado]** > **[!UICONTROL Exibir Programa de Aprendizado]**.
 
-1. Clique em **[!UICONTROL Instâncias]** > **[!UICONTROL Feedback L1 ativado]**.
+1. Clique Em **[!UICONTROL Instâncias]** > **[!UICONTROL Feedback N1 Habilitado]**.
 
-1. Ativar a opção **[!UICONTROL Ativar para cada curso]**.
+1. Habilite a opção **[!UICONTROL Habilitar para Cada Curso]**.
 
    ![](assets/enable-l1-feedbackforcourse.png)
 
-   *Ativar feedback do curso*
+   *Habilitar comentários sobre o curso*
 
    Ativar essa alternância apenas no nível do Programa de aprendizado não acionará o feedback L1 para os cursos dentro deste programa. Para ativar o feedback L1, vá para cada curso no Programa de aprendizado e ative a alternância do feedback L1.
 
    ![](assets/l1-reaction-feedback.png)
 
-   *Ativar feedback L1 para cada curso*
+   *Habilitar feedback L1 para cada curso*
 
    Se o feedback L1 estiver ativado para todos os cursos, mas estiver desativado na instância do programa de aprendizado, o feedback L1 não será acionado para os cursos.
 
@@ -318,7 +318,7 @@ Os relatórios do quiz ajudam a avaliar o desempenho de um aluno após a conclus
 
 Atualmente, o Learning Manager facilita o aprendizado em 13 idiomas de interface e 32 idiomas de conteúdo. Embora essa opção seja amigável para o aluno e ofereça conveniência na compatibilidade com nossos alunos globais, é de suma importância que os administradores busquem relatórios tentados em vários locais.
 
-Os relatórios do questionário exibem dados em diferentes idiomas, desde que o curso esteja sendo oferecido em vários idiomas. Até agora, os relatórios gerados pelo administrador exibiam as respostas uma abaixo da outra, independentemente do idioma em que o quiz foi tentado. **Por exemplo:**, Se um usuário fizer um quiz em holandês, o administrador só poderá exibir os relatórios do quiz tentados por usuários em holandês de cada vez. O administrador que selecionou o inglês como um idioma de interface não pode exibir os relatórios de todos os usuários de uma só vez, independentemente do local tentado.
+Os relatórios do questionário exibem dados em diferentes idiomas, desde que o curso esteja sendo oferecido em vários idiomas. Até agora, os relatórios gerados pelo administrador exibiam as respostas uma abaixo da outra, independentemente do idioma em que o quiz foi tentado. **Por exemplo**, se um usuário fez um quiz em holandês, o administrador só poderá exibir os relatórios do quiz tentados por usuários em holandês de cada vez. O administrador que selecionou o inglês como um idioma de interface não pode exibir os relatórios de todos os usuários de uma só vez, independentemente do local tentado.
 
 Isso foi corrigido e o administrador agora pode exibir todos os relatórios no respectivo idioma que o aluno tentou tudo de uma vez, independentemente do local do conteúdo escolhido. O questionário tentado em idiomas diferentes será adicionado como colunas adicionais no relatório do questionário.
 
@@ -330,23 +330,23 @@ Um administrador poderá ativar o feedback L1 para cursos recém-criados e progr
 
 Se habilitado, todos os novos treinamentos e novas instâncias terão o feedback habilitado por padrão. Caso um autor/administrador visite a instância, ela é padronizada e desativada manualmente e, em seguida, é respeitada.
 
-Para ativar o feedback N1, no aplicativo Admin, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Feedback]**.
+Para habilitar o feedback N1, no aplicativo Admin, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Comentários]**.
 
 ![](assets/l1-feedback-settings.png)
 
-*Exibir a página Configurações de feedback*
+*Exibir a página Configurações de Comentários*
 
-Clique em **[!UICONTROL Editar]** no canto superior direito e ative a opção para ativar o feedback L1.
+Clique em **[!UICONTROL Editar]** no canto superior direito e alterne a opção para habilitar o feedback L1.
 
-Quando um autor cria um curso, na página Instância do aplicativo do administrador, o **[!UICONTROL Feedback L1]** é ativado automaticamente para o novo curso.
+Quando um autor cria um curso, na página Instância do aplicativo do administrador, o **[!UICONTROL feedback N1]** é habilitado automaticamente para o novo curso.
 
 <!--![](assets/l1-feedback-enabled.png)-->
 
-Você também pode desativar o feedback L1 alternando o **[!UICONTROL Habilitar]** como mostrado abaixo:
+Você também pode desabilitar o feedback L1 alternando a opção **[!UICONTROL Habilitar]**, conforme mostrado abaixo:
 
 ![](assets/disable-l1-feedback.png)
 
-*Ativar ou desativar o feedback L1*
+*Habilitar ou desabilitar o feedback L1*
 
 ### Adicionar perguntas descritivas para feedback N1 e N3 {#descriptive}
 
@@ -366,13 +366,13 @@ Se quiser que o questionário seja exibido ao aluno imediatamente após a conclu
 
 ![](assets/l1-output.png)
 
-*Um exemplo de perguntas de feedback do curso*
+*Um exemplo de perguntas de feedback sobre o curso*
 
 Depois de ativar o feedback N3, você pode visualizar as opções conforme mostrado na captura de tela abaixo:
 
 ![](assets/l3-feedback-desc-questions.png)
 
-*Ativar feedback N3*
+*Habilitar feedback N3*
 
 A pergunta 2 é uma pergunta descritiva do feedback N3. Você pode torná-la obrigatória clicando na opção abaixo da pergunta.
 
@@ -380,19 +380,19 @@ A pergunta 2 é uma pergunta descritiva do feedback N3. Você pode torná-la obr
 
 ![](assets/l3-output.png)
 
-*Exibir saída do feedback L3*
+*Exibir saída do feedback N3*
 
 ### Configurar o questionário de feedback N1 e N3 {#setupl1andl3feedbackquestionnaire}
 
 Você pode configurar o questionário de feedback N1 e N3 e também definir lembretes no nível da conta.
 
-1. Clique em **[!UICONTROL Configurações]** e depois **[!UICONTROL Feedback]** no painel esquerdo depois de fazer logon como administrador.\
-   A página de configurações do feedback é exibida com duas guias: **[!UICONTROL Feedback N1]** e **[!UICONTROL Feedback N3]**.\
-   **[!UICONTROL Feedback N1]** consiste em uma lista de padrões **[!UICONTROL Feedback L1]** questionário para cursos em sala de aula e em ritmo individualizado junto com configurações de lembrete. Entrada **[!UICONTROL Feedback N3]** você pode ver a instrução padrão do feedback N3 e as configurações padrão.
+1. Clique em **[!UICONTROL Configurações]** e depois em **[!UICONTROL Comentários]** no painel esquerdo depois de fazer logon como administrador.\
+   A página de configurações do feedback é exibida com duas guias: **[!UICONTROL Comentários N1]** e **[!UICONTROL Comentários N3]**.\
+   A guia **[!UICONTROL Comentários N1]** consiste em uma lista de questionário de **[!UICONTROL comentários N1]** padrão para cursos em sala de aula e em ritmo individualizado juntamente com as configurações do lembrete. Na guia **[!UICONTROL Feedback N3]**, você pode ver a instrução padrão do feedback N3 e as configurações padrão.
 
 1. Clique em Editar no canto superior direito da página para modificar o questionário já existente.\
-   Entrada **[!UICONTROL Feedback N1]** , você pode ativar/desativar cada pergunta clicando no botão de alternância Sim/Não.\
-   Entrada **[!UICONTROL Feedback N3]** você pode modificar a instrução padrão do feedback.\
+   Na guia **[!UICONTROL Feedback N1]**, você pode habilitar/desabilitar cada pergunta clicando no botão de alternância Sim/Não.\
+   Na guia **[!UICONTROL Feedback N3]**, você pode modificar a instrução padrão do feedback.\
    Clique em **[!UICONTROL Adicionar novo lembrete]** na parte inferior da página e escolha quando enviar os lembretes.
 
 1. Clique em **[!UICONTROL Salvar]** no canto superior direito da página.
@@ -415,11 +415,11 @@ O recurso Quadro de discussão permite que os alunos visualizem as discussões d
 
 Sempre que um autor adiciona, atualiza ou exclui módulos e republica um curso, todos os administradores recebem notificações. Como administrador, você pode ver as alterações, comparar o conteúdo antigo e o novo clicando no link, bem como aprovar ou rejeitar as alterações.
 
-Para ativar a Moderação do curso, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Geral]**. Marque a caixa de seleção **[!UICONTROL Moderação do curso]** para habilitar esse recurso.
+Para habilitar a Moderação do Curso, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Geral]**. Marque a caixa de seleção **[!UICONTROL Moderação do curso]** para habilitar esse recurso.
 
 ![](assets/2.png)
 
-*Ativar moderação do curso*
+*Habilitar a moderação do curso*
 
 Clique na notificação para ver as alterações que o autor fez no curso. Em seguida, aprove ou rejeite as alterações feitas pelo autor. Se você aprovar, o curso é republicado. Se rejeitar as atualizações, a versão anterior do curso continuará a existir. Em qualquer um dos casos, uma notificação é enviada para o autor.
 
@@ -442,7 +442,7 @@ Clique na opção e, na página do curso, realize o seguinte procedimento:
 1. Selecione a instância e o módulo.
 1. Clique em **[!UICONTROL Ações]** > **[!UICONTROL Exportar]** e exporte o relatório da lista de verificação do aluno.
 
-Na guia **[!UICONTROL Lista de verificação]** um professor pode exportar o relatório da lista de verificação do **[!UICONTROL Ações]** lista suspensa.
+Na página **[!UICONTROL Lista de verificação]**, um professor pode exportar o relatório da lista de verificação da lista suspensa **[!UICONTROL Ações]**.
 
 O relatório CSV contém os seguintes campos:
 
@@ -467,7 +467,7 @@ Como administrador, você pode exibir uma lista de todos os cursos disponíveis.
 
 >[!NOTE]
 >
->Você pode retirar um curso depois que os alunos fizerem o curso ou quando quiser reservar um curso em particular depois de publicado. Um curso só pode ser retirado quando estiver no estado Publicado. A lista de todos os cursos retirados pode ser visualizada clicando no **[!UICONTROL Retirado]** guia.
+>Você pode retirar um curso depois que os alunos fizerem o curso ou quando quiser reservar um curso em particular depois de publicado. Um curso só pode ser retirado quando estiver no estado Publicado. A lista de todos os cursos retirados pode ser visualizada clicando na guia **[!UICONTROL Retirado]**.
 
 ## Exibir pontuações do questionário {#viewquizscores}
 
@@ -480,13 +480,13 @@ Escolha o tipo de instância na lista suspensa para visualizar as pontuações c
 
 ## Instância padrão
 
-Os administradores podem definir Medalhas, configurações de gamificação e lembretes padrão em **[!UICONTROL Instância padrão]** página. Para modificar as configurações da instância padrão, selecione **[!UICONTROL Instância padrão]** > **[!UICONTROL Editar]**.
+Os administradores podem definir Medalhas, configurações de gamificação e lembretes padrão na página **[!UICONTROL Instância padrão]**. Para modificar as configurações da instância padrão, selecione **[!UICONTROL Instância padrão]** > **[!UICONTROL Editar]**.
 
-* **[!UICONTROL Medalha]**: selecione os emblemas padrão no menu suspenso.
+* **[!UICONTROL Medalha]**: selecione as medalhas padrão no menu suspenso.
 * **[!UICONTROL Gamificação]**: defina as configurações de gamificação, incluindo pontos para conclusão, conclusão antecipada e conclusão pontual. Os administradores têm a opção de selecionar configurações no nível da conta ou personalizar os pontos de gamificação para essa instância.
-* **[!UICONTROL Feedback de Reação L1]**: ative as perguntas predefinidas para o feedback do aluno na conclusão do curso, com opções para tornar as perguntas obrigatórias.
-***[!UICONTROL Feedback de Alteração de Comportamento N3]**: ative as perguntas de feedback para o gerente do aluno na conclusão do curso.
-***[!UICONTROL Configurações do lembrete]**: defina e gerencie lembretes para prazos finais, com opções para escalonamento.
+* **[!UICONTROL Feedback de reação N1]**: habilite perguntas predefinidas para feedback do aluno após a conclusão do curso, com opções para tornar as perguntas obrigatórias.
+***[!UICONTROL Feedback N3 de Alteração de Comportamento]**: habilite as perguntas de feedback para o gerente do aluno na conclusão do curso.
+***[!UICONTROL Configurações de Lembrete]**: defina e gerencie lembretes para prazos finais, com opções para escalonamento.
 
 ### Definir nível de escalonamento {#escalation}
 
@@ -501,7 +501,7 @@ Para enviar notificações por e-mail, um administrador deve escolher explicitam
 
 ## Visualizar cursos {#previewcourses}
 
-O administrador pode visualizar cursos clicando no botão **[!UICONTROL Visualizar como aluno]** opção ao visualizar os módulos do curso.
+O administrador pode visualizar cursos clicando na opção **[!UICONTROL Visualizar como aluno]** ao visualizar os módulos do curso.
 
 1. Clique em **[!UICONTROL Cursos]** no painel esquerdo depois de fazer logon como administrador.
 1. Clique em qualquer quadro do curso na lista de cursos da página.
@@ -519,13 +519,13 @@ O valor da classificação da eficácia do curso é calculado levando-se em cons
 
 ![](assets/course-effectiveness.png)
 
-*Ver a eficácia do curso para feedback N1, N2 e N3*
+*Exibir eficácia do curso para feedback N1, N2 e N3*
 
 Nessa imagem de amostra, todos os usuários receberam todos os três feedbacks, portanto, a pontuação é de 100/100. Nessa tabela, você pode compreender que, se nenhum dos três feedbacks (N1, N2 e N3) forem fornecidos a um curso, haverá um impacto negativo na eficácia total. Clique na seta para baixo no canto inferior direito da janela pop-up para ver como são feitos os cálculos da eficácia do curso.
 
 ![](assets/course-effectiveness-calculations.png)
 
-*Cálculo da eficácia do curso*
+*Cálculo de eficácia do curso*
 
 Conforme o gráfico circular mostrado acima, o gerente atribui mais peso ao feedback N3.
 
@@ -598,11 +598,11 @@ A caixa de diálogo de resumo é exibida com o número de usuários do conjunto 
 
 Como administrador ou gerente, você pode adicionar comentários ao inscrever alunos em um curso. Você pode mencionar informações adicionais sobre o coorte dos usuários que estão sendo inscritos. Esses dados são exportados nos relatórios do curso.
 
-O comentário é **não** exibido ao aluno.
+O comentário **não** é exibido ao aluno.
 
 Quando um administrador gera o relatório do curso do aluno, qualquer comentário, se adicionado, aparece no relatório. A caixa de diálogo de resumo é exibida com o número de usuários do conjunto de inclusão, do conjunto de exclusão e os usuários já inscritos na instância do curso.
 
-No caixa de diálogo **[!UICONTROL Inscrever alunos]**, expanda a opção **[!UICONTROL Opções avançadas]**. No menu **[!UICONTROL Comentário adicional]** , insira o comentário necessário.
+No caixa de diálogo **[!UICONTROL Inscrever alunos]**, expanda a opção **[!UICONTROL Opções avançadas]**. No campo **[!UICONTROL Comentário Adicional]**, insira o comentário necessário.
 
 ![](assets/comment-for-learner.png)
 
@@ -614,7 +614,7 @@ Pesquise por usuários inscritos na seção Aluno do objeto de aprendizado usand
 
 ![](assets/typeahead.gif)
 
-*Passo a passo de pesquisa de usuários inscritos*
+*Passo a passo sobre como pesquisar usuários inscritos*
 
 Esse tipo de pesquisa também é conhecido às vezes como pesquisa de preenchimento automático, pesquisa incremental, pesquisar conforme digita, pesquisa integrada ou pesquisa instantânea.
 
@@ -622,7 +622,7 @@ Esse tipo de pesquisa também é conhecido às vezes como pesquisa de preenchime
 
 O processo permite que você encontre o que está procurando de forma muito mais rápida e menos complicada do que executar várias pesquisas sucessivas.
 
-Os alunos ou grupos de usuários de todas as instâncias são exibidos após uma pesquisa. Para cada aluno, a instância na qual o aluno está inscrito é exibida na **[!UICONTROL Instância]** coluna.
+Os alunos ou grupos de usuários de todas as instâncias são exibidos após uma pesquisa. Para cada aluno, a instância na qual o aluno está inscrito é exibida na coluna **[!UICONTROL Instância]**.
 
 ![](assets/search-result.png)
 
@@ -653,7 +653,7 @@ Os alunos podem simplesmente usar o aplicativo Adobe Learning Manager para dispo
 
 1. Clique em **[!UICONTROL Cursos]** na seção Aprendizado no painel de navegação esquerdo.
 1. Selecione um curso > **[!UICONTROL Exibir curso]**.
-1. Clique em **[!UICONTROL Instâncias]** > **[!UICONTROL Mais]** > **[!UICONTROL QR Code]**.
+1. Clique em **[!UICONTROL Instâncias]** > **[!UICONTROL Mais]** > **[!UICONTROL QR code]**.
 
    <!--![](assets/admin-instance-edit.png)-->
 
@@ -661,7 +661,7 @@ Os alunos podem simplesmente usar o aplicativo Adobe Learning Manager para dispo
 
    ![](assets/qr-code-download-01.png)
 
-   *Compartilhar código QR com os pesquisadores*
+   *Compartilhar código QR com analistas*
 
 ## Ciclo de vida do curso {#courselifecycle}
 
@@ -669,9 +669,9 @@ Um ciclo de vida típico do curso é semelhante ao seguinte:
 
 **Rascunho** - Quando um autor termina de criar um curso e o salva. Nesse estado, o curso ainda não está disponível para os alunos. Você pode excluir um curso nesse estado.
 
-**Publicado** - Quando um autor termina de publicar um curso. Nesse estado, o curso está disponível para os alunos se inscreverem.
+**Publicado** - quando um autor termina de publicar um curso. Nesse estado, o curso está disponível para os alunos se inscreverem.
 
-**Retirado** - Depois de publicar um curso, um autor pode movê-lo para um estado Retirado se não quiser que o curso apareça no catálogo de cursos dos alunos. Você pode republicar ou excluir um curso nesse estado.
+**Retirado** - após ter publicado um curso, o autor pode movê-lo para o estado Retirado se não quiser que o curso apareça no catálogo de cursos dos alunos. Você pode republicar ou excluir um curso nesse estado.
 
 **Excluído** - Um curso no estado Excluído é aquele que foi removido completamente do aplicativo Adobe Learning Manager. Os cursos podem ser excluídos pelos autores somente quando estiverem no estado Rascunho. Você também pode excluir cursos do estado desativado.
 
@@ -687,11 +687,11 @@ Como administrador, você pode ajustar as configurações de notificação. Para
 
 +++Como redefinir o módulo como administrador?
 
-Na página Alunos de um curso, escolha o aluno ou alunos ou um grupo, clique em **[!UICONTROL Ações]** > **[!UICONTROL Redefinir Módulos]**.
+Na página Alunos de um curso, escolha o aluno ou alunos ou um grupo, clique em **[!UICONTROL Ações]** > **[!UICONTROL Redefinir módulos]**.
 
 ![](assets/reset-modules.png)
 
-*Opção Exibir para redefinir módulos*
+*Opção de exibição para redefinir módulos*
 
 Depois de clicar na opção, o status dos módulos de todos os alunos selecionados será redefinido. Os módulos concluídos não serão redefinidos.
 
