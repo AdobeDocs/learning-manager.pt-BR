@@ -1,14 +1,13 @@
 ---
 title: Recomendações no Adobe Learning Manager
 description: O núcleo do mecanismo de recomendação é orientado pelo novo algoritmo de classificação de cursos do Learning Manager. O algoritmo usa 50 milhões de pontos de dados e cinco anos de dados de aprendizado agregados em milhões de usuários para classificar os cursos com base na probabilidade de inscrição. Essa classificação garante que a maioria dos cursos aptos para inscrição seja exibida antecipadamente para os alunos.
-source-git-commit: 40f6732147b7babeb1f11ce52045e6baf6338ce1
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 60%
 
 ---
-
-
 
 # Recomendações no Adobe Learning Manager
 
@@ -29,7 +28,7 @@ Para começar a usar esse recurso, você deve ativá-lo no aplicativo do adminis
 
 ## Algoritmo de classificação de curso
 
-O núcleo do mecanismo de recomendação é orientado pelos novos **[!UICONTROL Algoritmo de classificação do curso]**. O algoritmo usa 50 milhões de pontos de dados e cinco anos de dados de aprendizado agregados em milhões de usuários para classificar os cursos com base na probabilidade de inscrição. Essa classificação garante que a maioria dos cursos aptos para inscrição seja exibida antecipadamente para os alunos.
+O núcleo do mecanismo de recomendação é orientado pelo novo **[!UICONTROL Algoritmo de classificação de curso]** do Learning Manager. O algoritmo usa 50 milhões de pontos de dados e cinco anos de dados de aprendizado agregados em milhões de usuários para classificar os cursos com base na probabilidade de inscrição. Essa classificação garante que a maioria dos cursos aptos para inscrição seja exibida antecipadamente para os alunos.
 
 ## Termos importantes
 
@@ -39,7 +38,7 @@ Os parâmetros são - **Produtos/tópicos**, **Funções** e **Níveis**. Além 
 
 ## Configurar o sistema de recomendações
 
-O novo mecanismo de recomendação do Adobe Learning Manager simplifica o fluxo de trabalho do administrador envolvido na configuração de recomendações personalizadas, pois os dados sobre produtos e funções associados a um cliente/parceiro geralmente estão disponíveis para os administradores (por exemplo, a partir de registros de compra).
+O novo mecanismo de recomendação da Adobe Learning Manager simplifica o fluxo de trabalho do administrador envolvido na configuração de recomendações personalizadas, pois os dados sobre produtos e funções associados a um cliente/parceiro geralmente estão disponíveis para os administradores (por exemplo, a partir de registros de compra).
 
 Há principalmente três fluxos de trabalho envolvidos na configuração do novo mecanismo de recomendação:
 
@@ -51,9 +50,9 @@ Os administradores configuram os valores dos parâmetros Produtos, Funções e N
 
 Os administradores recebem um fluxo de trabalho guiado no Learning Manager para configurar o mecanismo de recomendação e personalizar o mecanismo de acordo com o caso de uso da conta. Além disso, os administradores também têm a opção de configurar recomendações PRL através de um carregamento único de CSV.
 
-1. Selecionar **[!UICONTROL Recommendations]** no aplicativo de administração.
+1. Selecione **[!UICONTROL Recommendations]** no aplicativo do administrador.
 
-   ![Selecionar Recommendations no aplicativo de administração](assets/image831538.png)
+   ![Selecione o Recommendations no aplicativo de administração](assets/image831538.png)
 
    *Selecione a opção Recommendations*
 
@@ -97,7 +96,7 @@ Os administradores recebem um fluxo de trabalho guiado no Learning Manager para 
 
 Os dados de interesse do usuário, Produto, Funções e Níveis devem ser carregados para que as recomendações funcionem corretamente.
 
-**Opções de upload de dados**
+**Opções de carregamento de dados**
 
 O recurso de recomendações é configurável. Portanto, em vez de produtos/funções/níveis, você pode usar tópicos/funções/nível ou escolher qualquer uma destas opções: somente produto/tópicos, somente funções, somente produto/tópicos e funções, somente níveis de funções ou somente níveis de produtos.
 
@@ -151,7 +150,7 @@ Preencha esses CSVs e entre em contato com sua equipe de sucesso do cliente para
 
 Após o upload de ambos os CSVs, clique em Ativar. Isso tornará o novo sistema de recomendações visível aos alunos.
 
-![colocar ao vivo](assets/computerdescription-automatically.png)
+![ativação](assets/computerdescription-automatically.png)
 *Disponibilize as recomendações*
 
 O sistema de recomendações agora está disponível para seus alunos.
@@ -178,7 +177,7 @@ O sistema de recomendações agora está disponível para seus alunos.
 
 Na página de configurações de um curso, as recomendações para produtos e funções são listadas. Esse curso será recomendado aos alunos se tiverem manifestado interesse nesses produtos e funções.
 
-![configuração de imagem](assets/course-settings-image.png)
+![definindo imagem](assets/course-settings-image.png)
 *Página de configurações do curso*
 
 ## Exibição do aluno
@@ -198,12 +197,12 @@ Os alunos podem ver o seguinte:
 
 Depois de selecionar Recomendações no painel esquerdo, o aluno vê um pop-up para configurar as recomendações.
 
-![configurar recomendações](assets/image575540.png)
+![recomendações de instalação](assets/image575540.png)
 *O aluno configura a recomendação*
 
 Clicar em Configurar Recomendações leva o aluno ao pop-up de seleção de produtos.
 
-![pop-up de seleção de produto](assets/product-selection-popup.png)
+![pop-up de seleção de produtos](assets/product-selection-popup.png)
 *Selecionar produtos*
 
 Em seguida, no próximo pop-up, o aluno pode selecionar a função.
@@ -248,11 +247,11 @@ Não há barra de progresso no cartão depois que o aluno inicia o curso. O alun
 
 ### Cartões em faixa super relevante
 
-![cartões de strip super relevantes](assets/super-relevant-cards.png)
+![cartões de strip superrelevantes](assets/super-relevant-cards.png)
 *Cartões relevantes*
 
 Cada cartão tem classificação, imagem do cartão, título, habilidade, data de publicação, autor, duração, barra de progresso e botão Iniciar ou Explorar ou Continuar ou Revisar.
 
 Não há barra de progresso no cartão depois que o aluno inicia o curso.
 
-No menu, há duas opções: **[!UICONTROL Salvar]** e **[!UICONTROL Não recomendar]**. Se o aluno clicar **[!UICONTROL Salvar]**, o curso é salvo na faixa “Salvo por mim”. Se o aluno clicar **[!UICONTROL Não recomendar]**, o treinamento recomendado será removido da lista.
+No menu, há duas opções: **[!UICONTROL Salvar]** e **[!UICONTROL Não recomendar isso]**. Se o aluno clicar em **[!UICONTROL Salvar]**, o curso será salvo na faixa &#39;Salvo por mim&#39;. Se o aluno clicar em **[!UICONTROL Não recomendar]**, o treinamento recomendado será removido da lista.

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Suporte para domínio personalizado
 description: Domínios personalizados não são suportados em uma instância do Azure no Learning Manager.
 contentowner: saghosh
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 67%
 
 ---
-
-
 
 # Suporte para domínio personalizado
 
@@ -46,9 +45,9 @@ Siga as etapas abaixo para configurar um domínio personalizado.
 
 1. O cliente deve **adicionar três registros CNAME** no domínio:
 
-   * **learning.acme.com:** Ponto de extremidade público ALB do Learning Manager compartilhado pelo Adobe
-   * **lrs.learning.acme.com:** Ponto de extremidade público ALB apontado por learning.acme.com
-   * **cdn.learning.acme.com:** Ponto de extremidade CDN compartilhado por Adobe
+   * **learning.acme.com:** ponto de extremidade público ALB do Learning Manager compartilhado pelo Adobe
+   * **lrs.learning.acme.com:** ponto de extremidade público ALB apontado por learning.acme.com
+   * **cdn.learning.acme.com:** ponto de extremidade CDN compartilhado por Adobe
 
 1. O cliente deve fornecer certificados SSL para estes domínios:
 

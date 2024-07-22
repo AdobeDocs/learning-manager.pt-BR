@@ -31,9 +31,9 @@ Se quiser entrar em contato com a Adobe para obter mais informações sobre a as
 
    ![](assets/billing.png)
 
-   *Iniciar Adobe de faturamento do Learning Manager*
+   *Iniciar faturamento do Adobe Learning Manager*
 
-1. Na guia **[!UICONTROL Informações de cobrança]** , adicione o número de usuários na **[!UICONTROL Adicionar usuários]** campo. Ao usar um cartão de crédito para assinaturas pré-pagas, é possível ver o número de usuários que podem ser adicionados na assinatura. O número de usuários que podem ser adicionados não deve exceder o número mencionado na seção Restante.1.
+1. Na página **[!UICONTROL Informações de cobrança]**, adicione o número de usuários no campo **[!UICONTROL Adicionar usuários]**. Ao usar um cartão de crédito para assinaturas pré-pagas, é possível ver o número de usuários que podem ser adicionados na assinatura. O número de usuários que podem ser adicionados não deve exceder o número mencionado na seção Restante.1.
 
    ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
 
@@ -53,7 +53,7 @@ Se quiser entrar em contato com a Adobe para obter mais informações sobre a as
 
    Clique em **[!UICONTROL Continuar]**.
 
-   *Revisar a estimativa*
+   *Revise a estimativa*
 
 1. Na página Detalhes de pagamento, você pode exibir os preços estimados do pedido. A moeda aparece com base na localidade atual.
 
@@ -67,8 +67,8 @@ Se quiser entrar em contato com a Adobe para obter mais informações sobre a as
 
    *Selecione o país de cobrança*
 
-1. Insira as informações de contato, escolha o tipo de cartão de crédito e forneça os detalhes do cartão de crédito. Depois de inserir os detalhes necessários, clique em **[!UICONTROL Ordem Completa]**.
-1. Depois de fazer o pedido, para ver os pacotes pedidos recentemente, clique no botão **[!UICONTROL Histórico de pedidos]** na guia **[!UICONTROL Faturamento]** página.
+1. Insira as informações de contato, escolha o tipo de cartão de crédito e forneça os detalhes do cartão de crédito. Depois de inserir os detalhes necessários, clique em **[!UICONTROL Concluir Pedido]**.
+1. Depois de fazer o pedido, para ver os pacotes encomendados recentemente, clique na guia **[!UICONTROL Histórico de pedidos]** na página **[!UICONTROL Faturamento]**.
 
    ![](assets/order-history.png)
 
@@ -80,7 +80,7 @@ Todos os pedidos podem ter um dos quatro estados:
 
 **Ativo:** há um pedido ativo e os usuários estão registrados com êxito.
 
-**Suspenso:** Um pedido passa para o estado suspenso nos seguintes cenários:
+**Suspenso:** um pedido passa para o estado suspenso nos seguintes cenários:
 
 * Atraso no recebimento do pagamento do cartão de crédito.
 * Expiração do cartão de crédito.
@@ -107,7 +107,7 @@ Todos os pedidos podem ter um dos quatro estados:
 Para cancelar um pedido:
 
 1. No painel esquerdo da página Administrador, clique em Faturamento.
-1. Na página Faturamento, no canto superior direito, selecione **[!UICONTROL Ações]** > **[!UICONTROL Desativar conta]**.
+1. Na página Faturamento, no canto superior direito, escolha **[!UICONTROL Ações]** > **[!UICONTROL Desativar conta]**.
 1. Depois que o administrador desativa a conta, todos os pedidos existentes na conta são cancelados no próximo ciclo de faturamento.
 
 Quando uma conta é desativada pelo cliente, ela entra em um estado de avaliação pelos próximos 30 dias. O proprietário da conta recebe três e-mails de lembrete para reativar a conta. Se o proprietário não reativar a conta, nenhum dos usuários poderá acessar o Learning Manager além do proprietário.
@@ -125,8 +125,8 @@ Você pode escolher o processo de pedido de compra (PO) como forma alternativa d
 
 Depois que uma conta é ativada, ela pode estar em qualquer um dos seguintes estados:
 
-* **Avaliação** - Você pode criar uma conta do Adobe Learning Manager e usá-la gratuitamente por um período de 30 dias. Não há limite no número de alunos registrados durante o período de avaliação.
-* **Ativo** - Nesse estado, a conta tem assinaturas de aluno ativas com pagamento mensal recorrente de acordo com o pedido de assinatura.
+* **Avaliação** - Você pode criar uma conta da Adobe Learning Manager e usá-la gratuitamente por um período de 30 dias. Não há limite no número de alunos registrados durante o período de avaliação.
+* **Ativo** - Neste estado, a conta tem assinaturas de aluno ativas com pagamento mensal recorrente de acordo com o pedido de assinatura.
 * **Inativo** - Uma conta passa para o estado inativo nos seguintes cenários:
 
    * Após o período de avaliação, se não houver pedidos de assinatura ativos na conta.
@@ -139,7 +139,7 @@ seu cartão de crédito se ele tiver expirado. Em um estado inativo, apenas um a
 
 Conta do Learning Manager. Nenhum dos outros usuários pode acessar a conta.
 
-* **Ativação necessária** - Sua conta passa para esse estado quando o administrador do Learning Manager opta por desativar a conta. Todos os pedidos dessa conta são cancelados. A cobrança do pagamento desses pedidos não é realizada no próximo ciclo de faturamento. O status da conta permanece nesse estado até o dia do último ciclo de faturamento. Nesse estado, todos os usuários podem continuar usando o aplicativo sem impacto algum até o final da última data de pagamento periódico.
+* **Ativação necessária** - A conta passa para esse estado quando o administrador do Learning Manager opta por desativar a conta. Todos os pedidos dessa conta são cancelados. A cobrança do pagamento desses pedidos não é realizada no próximo ciclo de faturamento. O status da conta permanece nesse estado até o dia do último ciclo de faturamento. Nesse estado, todos os usuários podem continuar usando o aplicativo sem impacto algum até o final da última data de pagamento periódico.
 
 ## Cancelar uma assinatura {#Cancelasubscription-1}
 
@@ -186,9 +186,9 @@ Qualquer usuário que executar as seguintes ações ou obter as conclusões devi
 
 1. Na página exibida, você pode ver o seguinte:
 
-   * **Uso geral:** Você pode verificar o número total de usuários ativos, usuários que usam o Learning Manager em um mês e o número de usuários que ainda não se inscreveram em nenhum curso.
+   * **Uso geral:** é possível verificar o número total de usuários ativos, usuários que usam o Learning Manager em um mês e o número de usuários que ainda não se inscreveram em nenhum curso.
 
-   * **Uso mensal:** Você pode ver uma tabela de usuários ativos exclusivos por mês.
+   * **Uso mensal:** você pode ver uma tabela de usuários ativos exclusivos por mês.
 
 ## Baixar relatório de uso {#downloadusagereport}
 
@@ -219,7 +219,7 @@ Para remover uma assinatura ativa, entre em contato com a equipe de suporte do L
 
 +++Como alterar um cartão de crédito para assinaturas?
 
-No menu **[!UICONTROL Histórico de pedidos]** , para uma conta ativa, clique em **[!UICONTROL Editar]**. Em seguida, na página Detalhes da assinatura, clique em **[!UICONTROL Editar assinatura]**. Insira os detalhes do novo cartão de crédito e clique em **[!UICONTROL Atualizar método de pagamento]**.
+Na guia **[!UICONTROL Histórico de pedidos]**, para uma conta ativa, clique em **[!UICONTROL Editar]**. Em seguida, na página Detalhes da assinatura, clique em **[!UICONTROL Editar assinatura]**. Insira os detalhes do novo cartão de crédito e clique em **[!UICONTROL Atualizar método de pagamento]**.
 
 ![](assets/credit-card-details.png)
 
@@ -230,14 +230,14 @@ No menu **[!UICONTROL Histórico de pedidos]** , para uma conta ativa, clique em
 
 Para atualizar as informações de faturamento, siga as etapas abaixo:
 
-1. Fazer logon como **Admin** e clique em **[!UICONTROL Faturamento]**.
+1. Faça logon como **Administrador** e clique em **[!UICONTROL Faturamento]**.
 1. Na lista de pedidos, clique em **[!UICONTROL Editar]**.
 1. Na página Detalhes da assinatura, clique em **[!UICONTROL Editar assinatura]**.
 
 Escolha o item que deseja editar:
 
-1. **[!UICONTROL Método de pagamento]:** Use essa opção para atualizar os detalhes de pagamento, como o cartão de crédito.
-1. **[!UICONTROL Endereço]:** Use esta opção para atualizar os detalhes do endereço.
+1. **[!UICONTROL Método de pagamento]:** use esta opção para atualizar os detalhes de pagamento, como o cartão de crédito.
+1. **[!UICONTROL Endereço]:** use esta opção para atualizar os detalhes do endereço.
 +++
 
 +++Posso cancelar parcialmente uma assinatura?
@@ -249,6 +249,6 @@ Não, você não pode cancelar uma assinatura parcialmente. Se precisar reduzir 
 
 Entre em contato com a [FastSpring](https://fastspring.com/) para obter uma nota fiscal dos seus pagamentos atravès de uma das seguintes formas:
 
-* Criar uma solicitação de serviço com a FastSpring usando o link `https://questionacharge.com`.
-* Enviar um e-mail para a FastSpring em `orders@fastspring.com` solicitando a fatura.
+* Crie uma solicitação de serviço com a FastSpring usando o link `https://questionacharge.com`.
+* Envie um email para a FastSpring em `orders@fastspring.com` solicitando a nota fiscal.
 +++

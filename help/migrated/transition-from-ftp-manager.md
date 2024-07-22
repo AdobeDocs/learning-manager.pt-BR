@@ -26,13 +26,13 @@ Alguns clientes FTP recomendados pelo AWS estão listados [aqui](https://docs.aw
 
 Você deve configurar o novo conector FTP baseado no AWS no administrador de integração.
 
-![imagem dos conectores](assets/alm-ftp.png)
-*Selecione a opção FTP*
+![imagem de conectores](assets/alm-ftp.png)
+*Selecione a opção de FTP*
 
 Depois de se conectar, você pode ver a página Detalhes da conexão.
 
 ![página de detalhes da conexão](assets/connection-name.png)
-*Exibir a página Detalhes da conexão*
+*Exibir a página de detalhes da conexão*
 
 Há três opções de autenticação:
 
@@ -46,10 +46,10 @@ Você criou uma conexão FTP.
 
 ### Criar autenticação usando chaves SSH existentes
 
-Se você já tiver uma chave SSH, cole a chave pública na **[!UICONTROL Chave pública FTP]** e clique em Conectar.
+Se você já tiver uma chave SSH, cole a chave pública no campo **[!UICONTROL Chave Pública do FTP]** e clique em Conectar.
 
 ![Chaves SSH](assets/ssh-keys.png)
-*Colar as teclas*
+*Colar as chaves*
 
 ### Criar autenticação básica usando uma senha
 
@@ -66,7 +66,7 @@ Configure a conexão em um cliente FTP (recomendado na seção anterior) com as 
 ### Exportação de teste de amostra
 
 * No cliente FTP, altere o local do FTP do ExaVault para o novo local do FTP. O novo domínio é `http://almftp.adobelearningmanager.com/`.
-* Você também deve incluir na lista de permissões o IP, `18.195.107.67`.
+* Você também deve incluir na lista de permissões o IP `18.195.107.67`.
 * Após a autenticação, você deve carregar e baixar alguns arquivos de amostra para e do novo local do FTP usando clientes FTP externos ou scripts de automação.
 * Você deve transferir dados do local antigo para o novo.
 * A política de retenção de dados para o conector permanece a mesma. O ExaVault também deu suporte a algumas políticas de retenção de dados além da política oficial. Essas políticas de retenção de dados não estarão disponíveis para o novo conector. Verifique se o conector usa qualquer retenção de dados além das políticas que oficialmente têm suporte.
@@ -89,12 +89,12 @@ Configure a conexão em um cliente FTP (recomendado na seção anterior) com as 
 1. Para conectar-se por meio da autenticação básica por senha, insira o nome do domínio, o nome do usuário do FTP e configure uma senha que corresponda aos critérios de validação de senha. Clique em Conectar. A nova conexão FTP será criada e poderá ser acessada por meio de qualquer cliente SFTP.
 
    ![configurações de ftp](assets/connect-settings.png)
-   *por meio da autenticação básica via senha*
+   *via autenticação básica via senha*
 
 1. Instale qualquer cliente SFTP, por exemplo, File Zilla. Inicie o File Zilla e clique em Open Site Manager no canto superior esquerdo.
 
    ![Cliente SFTP](assets/sftp-client-install.png)
-   *Conectar-se por meio do cliente SFTP*
+   *Conectar via cliente SFTP*
 
 1. Clique em **[!UICONTROL Novo site]** para criar um novo site. Renomeie o site conforme necessário.
 
@@ -122,9 +122,9 @@ Configure a conexão em um cliente FTP (recomendado na seção anterior) com as 
    (Opcional) Marque a caixa de seleção Lembrar senha para lembrar a senha.
 
    ![senha](assets/password.png)
-   *Inserir senha*
+   *Insira a senha*
 
-   (Opcional) Selecione a opção **[!UICONTROL Sempre confiar neste host]** caixa de seleção para confiar no host.
+   (Opcional) Marque a caixa de seleção **[!UICONTROL Sempre confiar neste host]** para confiar no host.
 
 1. Clique em OK.
 
@@ -141,7 +141,7 @@ Configure a conexão em um cliente FTP (recomendado na seção anterior) com as 
    * Clique duas vezes no arquivo.
 
    ![status da conexão](assets/connection-status-progress.png)
-   *Verificar o status da conexão*
+   *Verifique o status da conexão*
 
 Você pode alterar e atualizar o tipo de autenticação a qualquer momento.
 
@@ -149,7 +149,7 @@ Outras formas de autenticação são através de chaves SSH:
 
 Cole sua chave pública na caixa de texto para usar as chaves SSH existentes. Clique em Conectar/Salvar.
 
-Para gerar novas chaves SSH, clique no botão **[!UICONTROL Gerar chave SSH]** Botão &#39;. A chave privada será baixada. Clique em **[!UICONTROL Conectar/Salvar]**.
+Para gerar novas chaves SSH, clique no botão &#39;**[!UICONTROL Gerar chave SSH]**&#39;. A chave privada será baixada. Clique em **[!UICONTROL Conectar/Salvar]**.
 
 ![gerar chave ssh](assets/ssh-key.png)
 *Gerar chave SSH*

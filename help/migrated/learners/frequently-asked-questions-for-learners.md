@@ -32,7 +32,7 @@ No entanto, você tem a opção de analisar os cursos listados no catálogo segu
 
 Sim, você pode acessar o conteúdo offline por meio de iPad, guias do Android e smartphones.
 
-Para obter mais informações sobre acesso off-line, consulte  [Usuários de tablet Android e iPad](feature-summary/ipad-android-tablet-users.md) recurso.
+Para obter mais informações sobre acesso offline, consulte o recurso [Usuários de tablet Android e iPad](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -48,7 +48,7 @@ Clique no campo de pesquisa. Você pode fazer a pesquisa conforme digita nesse c
 
 Sim, você pode comparar seus pontos de aprendizado com seus colegas. Passe o mouse sobre o círculo do curso. Você pode ver seus próprios pontos aqui. Para exibir a caixa de diálogo Quadro de classificação, clique em Ir para quadro de classificação. Nesta caixa de diálogo, você pode visualizar a lista de seus colegas similares à sua classifição.
 
-Para obter mais informações, consulte  [Quadro de classificação](feature-summary/gamification.md)recurso.
+Para obter mais informações, consulte o recurso [Quadro de classificação](feature-summary/gamification.md).
 
 +++
 
@@ -68,7 +68,7 @@ Clique na seta para baixo no canto inferior direito da janela pop-up para ver co
 
 +++Qual é a diferença entre Aprendizado e Catálogo?
 
-Na guia Aprendizado, você pode ver todos os  [cursos](feature-summary/courses.md),  [programas de aprendizado](feature-summary/learning-programs.md) e  [certificações](feature-summary/certifications.md) que você inscreveu ou atribuiu a você. Você também pode acessar a guia Aprendizado clicando no link Ir para aprendizado.
+Na guia Aprendizado, você pode exibir todos os [cursos](feature-summary/courses.md), [programas de aprendizado](feature-summary/learning-programs.md) e [certificações](feature-summary/certifications.md) inscritos ou atribuídos a você. Você também pode acessar a guia Aprendizado clicando no link Ir para aprendizado.
 
 Na guia Catálogo, você pode ver todos os cursos, programas de aprendizado e certificações disponíveis para sua função na conta da empresa. Você também pode acessar a guia Catálogo clicando no link Ir para catálogo.
 
@@ -94,7 +94,7 @@ Quando os alunos terminam de realizar alguns cursos, eles podem saber sua classi
 
 Para exibir as habilidades, clique no nome de uma das habilidades na área do mapa de habilidades no canto superior direito da página inicial. Os conhecimentos são exibidos com seus níveis junto aos mesmos.
 
-Para obter mais informações, consulte  [Habilidades e níveis](feature-summary/skills-levels.md) recurso.
+Para obter mais informações, consulte o recurso [Habilidades e níveis](feature-summary/skills-levels.md).
 
 +++
 
@@ -102,7 +102,7 @@ Para obter mais informações, consulte  [Habilidades e níveis](feature-summary
 
 Sim, você pode acessar o Learning Manager em smartphones, iPads ou qualquer outro tablet Android.
 
-Para obter mais informações sobre esse recurso, consulte  [Usuários do aplicativo para iPad e Android](feature-summary/ipad-android-tablet-users.md) recurso.
+Para obter mais informações sobre este recurso, consulte o recurso [Usuários do aplicativo para iPad e Android](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -110,19 +110,19 @@ Para obter mais informações sobre esse recurso, consulte  [Usuários do aplica
 
 Sim, o Learning Manager pode ser acessado usando um iPad. Você pode baixar o aplicativo da App Store ou do Google Play.
 
-Somente os recursos da função Aluno podem ser acessadas usando um iPad ou qualquer tablet Android. Você também pode participar em cursos off-line e sincronizar com o aplicativo quando estiver novamente on-line. Para obter mais informações, consulte  [Usuários do aplicativo para iPad e Android](feature-summary/ipad-android-tablet-users.md) recurso
+Somente os recursos da função Aluno podem ser acessadas usando um iPad ou qualquer tablet Android. Você também pode participar em cursos off-line e sincronizar com o aplicativo quando estiver novamente on-line. Para obter mais informações, consulte o recurso [Usuários do aplicativo para iPad e Android](feature-summary/ipad-android-tablet-users.md)
 
 +++
 
 +++Não é possível fazer logon no Learning Manager. O que fazer?
 
-Se você tiver uma Adobe ID, poderá efetuar o login no Learning Manager. Siga as instruções em  [login do usuário](feature-summary/user-login.md) para obter mais informações sobre como fazer logon no aplicativo. Se o problema persistir, entre em contato com nossa equipe de suporte.
+Se você tiver uma Adobe ID, poderá efetuar o login no Learning Manager. Siga as instruções no recurso [logon de usuário](feature-summary/user-login.md) para obter mais informações sobre como fazer logon no aplicativo. Se o problema persistir, entre em contato com nossa equipe de suporte.
 
 +++
 
 +++Como atingir um nível de habilidade?
 
-Você adquire créditos sempre que adquirir um novo nível de conhecimento. Os créditos são associados aos níveis de conhecimento. Para obter mais informações sobre habilidades e níveis, consulte  [habilidades e níveis](feature-summary/skills-levels.md) recurso.
+Você adquire créditos sempre que adquirir um novo nível de conhecimento. Os créditos são associados aos níveis de conhecimento. Para obter mais informações sobre habilidades e níveis, consulte o recurso [habilidades e níveis](feature-summary/skills-levels.md).
 
 +++
 
@@ -140,9 +140,9 @@ Você pode expressar seu interesse em participar de qualquer curso de sala de au
 
 +++Qual é a diferença entre créditos e pontos de gamificação?
 
-Você adquire créditos sempre que adquirir um novo nível de conhecimento. Os créditos são associados aos níveis de conhecimento. Para obter mais informações sobre créditos, habilidades e níveis, consulte  [habilidades e níveis](feature-summary/skills-levels.md) recurso.
+Você adquire créditos sempre que adquirir um novo nível de conhecimento. Os créditos são associados aos níveis de conhecimento. Para obter mais informações sobre créditos, habilidades e níveis, consulte o recurso [habilidades e níveis](feature-summary/skills-levels.md).
 
-Você obtém pontos de gamificação sempre que conclui uma tarefa. Atualmente, há seis tarefas de gamificação disponíveis no Learning Manager. Ao concluir cada tarefa, você adquire um número específico de pontos associados a essa tarefa. Para obter mais informações, consulte  [gamificação](feature-summary/gamification.md) recurso.
+Você obtém pontos de gamificação sempre que conclui uma tarefa. Atualmente, há seis tarefas de gamificação disponíveis no Learning Manager. Ao concluir cada tarefa, você adquire um número específico de pontos associados a essa tarefa. Para obter mais informações, consulte o recurso de [gamificação](feature-summary/gamification.md).
 
 +++
 
@@ -154,7 +154,7 @@ Uma lista de crachás aparece adquiridos pelo Aluno aparece na parte superior da
 
 Os crachás são atribuídos aos Alunos com base em critérios específicos definidos por sua organização, que geralmente é uma conclusão bem-sucedida de um curso ou de qualquer objeto de aprendizado.
 
-Para obter mais informações, consulte  [medalhas](feature-summary/badges.md) recurso.
+Para obter mais informações, consulte o recurso [medalhas](feature-summary/badges.md).
 
 +++
 
@@ -164,7 +164,7 @@ Os programas de aprendizado são um conjunto de cursos exclusivamente projetados
 
 Para começar a realizar o programa de aprendizado, clique no programa atribuído a você. É possível visualizar as informações detalhadas desse programa em particular.
 
-A **Iniciar programa** é exibido no canto superior direito da página programa de aprendizado. Clique em **[!UICONTROL Iniciar programa]** para começar a fazer o curso.
+Um botão **Iniciar programa** aparece no canto superior direito da página do programa de aprendizado. Clique em **[!UICONTROL Iniciar Programa]** para começar a realizar o curso.
 
 +++
 
@@ -181,7 +181,7 @@ Com base nos pontos que você alcançou ao completar os cursos, será recompensa
 
 Você pode visualizar os pontos de nível atuais em seu perfil e no destino para obter pontos mais altos, se necessário.
 
-Consultar  [Recurso de gamificação](feature-summary/gamification.md) para obter mais informações.
+Consulte o [recurso de gamificação](feature-summary/gamification.md) para obter mais informações.
 
 +++
 
@@ -189,7 +189,7 @@ Consultar  [Recurso de gamificação](feature-summary/gamification.md) para obte
 
 Todos os cursos do Learning Manager são reproduzidos em navegadores. Você pode visualizar os cursos em tela cheia usando o Fluidic Player do Learning Manager.
 
-Consultar  [Recurso Fluidic player](feature-summary/fluidic-player.md) para obter mais informações sobre o Player.
+Consulte o [recurso Fluidic player](feature-summary/fluidic-player.md) para obter mais informações sobre o Player.
 
 [Posso exportar minhas notas pessoais?](frequently-asked-questions-for-learners.md)
 
@@ -220,15 +220,15 @@ Você pode fazer anotações enquanto lê o conteúdo do curso seguindo as etapa
 >
 >O recurso de marcação é suportado para o Captivate 9 e versões posteriores, e somente para o conteúdo de saída do HTML das versões do Presenter 11 e posteriores.
 
-**Baixar/Enviar por e-mail notas do curso**
+**Baixar/Enviar por email notas do curso**
 
 Você tem a opção de baixar ou enviar por e-mail as notas do seu curso seguindo as etapas abaixo:
 
 1. Clique no quadro do curso do qual deseja exibir as notas.
-1. Clique no botão **Observações** guia adjacente a **Módulos** guia.
+1. Clique na guia **Notas** ao lado da guia **Módulos**.
 
-1. Clique em **[!UICONTROL Baixar notas]** para baixar como pdf.
-1. Clique em **[!UICONTROL Enviar Anotações por Email]** para receber as anotações como um email para sua conta de email.
+1. Clique em **[!UICONTROL Baixar Notas]** para baixá-las como pdf.
+1. Clique em **[!UICONTROL Anotações de Email]** para receber as anotações como um email para sua conta de email.
 
 +++
 
@@ -259,7 +259,7 @@ Você receberá uma notificação da conclusão do curso junto com um link para 
 
 Como parte da recompensa e reconhecimento das realizações do aluno, o Learning Manager introduz os crachás on-line para os alunos. As medalhas são concedidas com base em um conjunto de critérios e são exibidas em um perfil do aluno na parte superior da página inicial dos alunos.
 
-Consultar  [Recurso de certificações](feature-summary/certifications.md) para obter mais informações sobre certificações para alunos.
+Consulte o [recurso Certificações](feature-summary/certifications.md) para obter mais informações sobre certificações para alunos.
 
 +++
 
@@ -308,8 +308,8 @@ Com base em sua opção, você pode visualizar a lista filtrada de cursos e faze
 
 +++Como posso acessar meus cursos no Learning Manager?
 
-1. Faça o logon no Adobe Learning Manager como aluno. Se você esqueceu a senha, clique em **[!UICONTROL Esqueci a senha]** link fornecido na página de logon para recuperá-lo para sua id de e-mail.
-1. Depois de fazer logon, você pode ver a guia CURSOS na parte superior. Clique em **[!UICONTROL CURSOS]** para exibir a lista de cursos atribuídos a você.
+1. Faça o logon no Adobe Learning Manager como aluno. Se você esqueceu a senha, clique no link **[!UICONTROL Esqueci a senha]** fornecido na página de logon para recuperá-la para sua ID de email.
+1. Depois de fazer logon, você pode ver a guia CURSOS na parte superior. Clique na guia **[!UICONTROL CURSOS]** para exibir a lista de cursos atribuídos a você.
 
 +++
 

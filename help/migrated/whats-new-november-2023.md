@@ -17,7 +17,7 @@ A interface de usuário do Adobe Learning Manager passou por algumas atualizaç�
 
 As atualizações do tema serão aplicadas automaticamente a contas que usam o tema padrão. As atualizações do tema da interface do usuário não afetarão as contas que fizeram modificações para usar um tema personalizado. Essas contas precisam voltar para o tema padrão para obter as atualizações do novo tema.
 
-![Imagem de UI](assets/refreshed-ui.png)
+![Imagem da interface do usuário](assets/refreshed-ui.png)
 
 ### Sobre esta alteração
 
@@ -54,7 +54,7 @@ Consulte [Extensão nativa](/help/migrated/administrators/feature-summary/native
 
 Agora você pode criar avaliações no Learning Manager com a nova ferramenta de criação de quiz na página Biblioteca de conteúdo. As avaliações criadas se tornam parte da biblioteca de conteúdo e podem ser adicionadas a uma pasta “pública” para fins de reutilização do curso.
 
-Exibir [Criar um quiz](/help/migrated/authors/feature-summary/content-library.md) para saber mais.
+Exiba [Criar um quiz](/help/migrated/authors/feature-summary/content-library.md) para saber mais.
 
 ## Alterações de relatórios nesta versão
 
@@ -74,7 +74,7 @@ Nesta versão, adicionamos um filtro de data, com o qual você pode baixar as no
 
 Nesta versão, você pode baixar as informações de revisão do curso em um relatório de inscrição especificando um horário. O período de download será limitado a seis meses para contas com mais de cinco milhões de inscrições. Para todas as outras contas, o período será de 15 meses.
 
-Você pode baixar o relatório de **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios de Histórico]** > **[!UICONTROL Relatório de acesso ao curso]**.
+Você pode baixar o relatório de **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios personalizados]** > **[!UICONTROL Relatórios de histórico]** > **[!UICONTROL Relatório de acesso ao curso]**.
 
 ### Alterações na transcrição do aluno
 
@@ -157,7 +157,7 @@ Se você selecionar Somente leitura, um administrador personalizado não poderá
 >
 >Os planos de aprendizado serão adicionais somente leitura junto com controle total.
 
-**Modelos de e-mail**
+**Modelos de Email**
 
 Se você selecionar Somente leitura, um administrador personalizado poderá exibir os modelos de e-mail. Eles não podem ativar ou desativar as configurações de modelo de e-mail, mas podem baixar relatórios de acesso a e-mail.
 
@@ -233,7 +233,7 @@ Os administradores só podem pesquisar gerentes em relatórios do Painel.
 Quando um administrador tenta plotar um relatório do painel de controle e o relatório leva muito tempo para plotar (mais de 2,5 min), o Adobe Learning Manager exibe a seguinte mensagem:
 
 ![imagem de relatório herdada](assets/error-message.png)
-*Mensagem de erro quando o relatório leva muito tempo*
+*Mensagem de erro quando o relatório demora muito*
 
 Relatórios dessa magnitude não podem ser exibidos na interface do usuário, mas o administrador pode baixá-los.
 
@@ -255,7 +255,7 @@ Nesta versão, se o relatório de ajuda de tarefa exceder 10 milhões gerados us
 
 Nas versões anteriores do Adobe Learning Manager, se qualquer curso, certificação ou plano de aprendizado fosse excluído e sua notificação estivesse presente, você ainda podia acessar o curso, certificação ou plano de aprendizado visitando sua notificação.
 
-Nesta versão, garantiremos que uma postagem excluída não esteja mais acessível. Se você especificar a ID em /posts/{id} API e a ID da publicação não estiver mais disponível, a API exibirá a mensagem “Publicação não encontrada para o recurso especificado”.
+Nesta versão, garantiremos que uma postagem excluída não esteja mais acessível. Se você especificar a ID na API /posts/{id} e a ID da publicação não estiver mais disponível, a API exibirá a mensagem “Publicação não encontrada para o recurso especificado”.
 
 ### Prazo de conclusão da API do aluno
 
@@ -279,7 +279,7 @@ Além disso, alteraremos o padrão de snippetTypes para courseName. Isso destaca
 
 ### Novo tipo de recurso para o quiz
 
-O `instances.loResources.resources` o ponto de extremidade retornará `ResourceContentType` com o quiz.
+O ponto de extremidade `instances.loResources.resources` retornará `ResourceContentType` com o Quiz.
 
 ## Aviso de descontinuação
 
@@ -288,7 +288,7 @@ O Adobe Learning Manager descontinuará o BlueJeans em fevereiro de 2024. Todas 
 
 ## Notas de versão
 
-Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte a [Notas de versão](release-note/release-notes.md).
+Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão](release-note/release-notes.md).
 
 ## Erros corrigidos nesta versão
 
@@ -305,7 +305,7 @@ Para obter informações sobre as versões atuais e anteriores do aplicativo Web
 * Um aluno não pode reproduzir cursos do LinkedIn no aplicativo MS Teams.
 * A API de inscrição não retorna as inscrições em um plano de aprendizado do Flex ou plano de aprendizado incorporado como esperado.
 * No aplicativo para dispositivos móveis, os nomes de um curso, certificação ou plano de aprendizado aparecem em minúsculas.
-* Nas versões anteriores do Adobe Learning Manager, se qualquer curso, certificação ou plano de aprendizado fosse excluído e sua notificação estivesse presente, você ainda podia acessar o curso, certificação ou plano de aprendizado visitando sua notificação. Nesta versão, garantiremos que uma postagem excluída não esteja mais acessível. Se você especificar a ID em /posts/{id} API e a ID da publicação não estiver mais disponível, a API exibirá a mensagem “Publicação não encontrada para o recurso especificado”.
+* Nas versões anteriores do Adobe Learning Manager, se qualquer curso, certificação ou plano de aprendizado fosse excluído e sua notificação estivesse presente, você ainda podia acessar o curso, certificação ou plano de aprendizado visitando sua notificação. Nesta versão, garantiremos que uma postagem excluída não esteja mais acessível. Se você especificar a ID na API /posts/{id} e a ID da publicação não estiver mais disponível, a API exibirá a mensagem “Publicação não encontrada para o recurso especificado”.
 * Na API do aluno, o campo de prazo de conclusão não é exibido na resposta da API de inscrição.
 * Na API Obter inscrição para alunos, os detalhes da inscrição aparecem mesmo depois que você especifica uma ID de instância incorreta.
 

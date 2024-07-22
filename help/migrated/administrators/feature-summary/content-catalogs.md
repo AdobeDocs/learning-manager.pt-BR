@@ -3,14 +3,13 @@ description: O Learning Manager apresenta o Catálogo de Conteúdo
 jcr-language: en_us
 title: Catálogo de Conteúdo do Learning Manager
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 495f8b76-4496-422e-8b8d-9d3227a8a846
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 32%
 
 ---
-
-
 
 # Catálogo de Conteúdo do Learning Manager
 
@@ -18,8 +17,8 @@ ht-degree: 32%
 
 O Catálogo de Conteúdo não é suportado em uma instância do Azure no Learning Manager.
 
-* **Curso** significa uma consolidação única de trabalho(s) e módulos de eLearning sobre um tópico específico que é criado e fornecido ao cliente com o Adobe Learning Manager.
-* **Colaborador de conteúdo** é o proprietário dos Cursos que autorizou o Adobe a exibir e sublicenciar tais Cursos no Adobe Learning Manager.
+* **Curso** significa uma consolidação única de trabalho(s) e módulos de eLearning sobre um tópico específico que é criado e fornecido ao cliente com a Adobe Learning Manager.
+* O **Colaborador de Conteúdo** é o proprietário dos Cursos que autorizou o Adobe a exibir e sublicenciar esses Cursos no Adobe Learning Manager.
 
 O Learning Manager apresenta o Catálogo de conteúdo, uma base de conteúdo pronta para uso que você pode comprar. Você pode comprar os cursos prontos para uso, como cursos sobre habilidades empresariais, conformidade do local de trabalho, Adobe creative cloud e tecnologia, no nosso marketplace de conteúdo selecionado.
 
@@ -33,8 +32,8 @@ Para ver os detalhes e os cursos do catálogo em cada catálogo, clique em **[!U
 
 Para ver os detalhes do curso, clique em **[!UICONTROL Visitar]**. Use as caixas de seleção para selecionar os cursos nos quais você está interessado.
 
-* Você pode compartilhar os cursos selecionados com seus colegas selecionando  **[!UICONTROL Compartilhar]**.
-* Você pode entrar em contato com o Adobe selecionando  **[!UICONTROL Adobe de contato]**.
+* Você pode compartilhar os cursos selecionados com seus colegas selecionando **[!UICONTROL Compartilhar]**.
+* Você pode entrar em contato com o Adobe selecionando **[!UICONTROL Adobe de contato]**.
 
 <!--![](assets/course-details.png)-->
 

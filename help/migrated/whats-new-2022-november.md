@@ -2,7 +2,8 @@
 title: Novidades desta versão (novembro de 2022)
 description: Saiba mais sobre os novos recursos e as melhorias no Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 77%
@@ -125,7 +126,7 @@ Sempre que o autor ou o administrador tem permissão para adicionar uma nova ins
 
 Por exemplo, se um curso tiver tipos de público diferentes, você poderá alterar o modelo de e-mail de acordo.
 
-![modelos de e-mail](assets/email-template.png)
+![modelos de email](assets/email-template.png)
 
 A prioridade do modelo está listada abaixo:
 
@@ -145,7 +146,7 @@ Os resultados da pesquisa agora são consistentes em todo o aprendizado formal e
 
 A pesquisa é mais focada e direcionada, e você pode ver os resultados da pesquisa em três locais: aprendizado formal, aprendizado social e Marketplace de Conteúdo.
 
-![pesquisa](assets/search-image.png)
+![pesquisar](assets/search-image.png)
 
 #### Pesquisa orientada por frase
 
@@ -228,8 +229,8 @@ Ao criar ou atualizar a reunião de sala de aula virtual, os professores devem E
 
 As seguintes APIs foram adicionadas para marcar um curso na página Visão geral do treinamento:
 
-* Obter todos os marcadores: `primeapi/v2/bookmarks`
-* Crie um marcador: `primeapi/v2/learningObjects/{id}/bookmark`
+* Obter todos os indicadores: `primeapi/v2/bookmarks`
+* Criar um marcador: `primeapi/v2/learningObjects/{id}/bookmark`
 * Excluir um marcador: `primeapi/v2/learningObjects/{id}/bookmark`
 
 ### Suporte a metadados e conteúdo de vários locais por meio da migração
@@ -315,7 +316,7 @@ Nesta versão, tornamos algumas APIs públicas.
 
 ### Aplicativo Salesforce
 
-O **Ignorar OA de ordem superior** deve estar ativada no aplicativo Salesforce para que todos os cursos, programas de aprendizado e certificados possam ser exibidos ao mesmo tempo.
+O **Ignorar OA de ordem superior** deve estar habilitado no aplicativo Salesforce para que todos os cursos, programas de aprendizado e certificados possam ser exibidos ao mesmo tempo.
 
 ### APIs para personalização do reprodutor
 
@@ -339,11 +340,11 @@ A API /primeapi/v2/learningObjects/certification:xxxxx terá o atributo “compl
 
 ### Obter dados de visualização do LO
 
-GET /preview/learningObjects/{id} A API é adicionada para Obter informações de visualização sobre um objeto de aprendizado.
+A API GET /preview/learningObjects/{id} é adicionada para Obter informações de visualização sobre um objeto de aprendizado.
 
 ### Mover usuários externos dentro dos perfis
 
-O `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` ajuda a mover um usuário para outro perfil externo especificando uma nova id externalProfile.
+A chamada `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` ajuda a mover um usuário para outro perfil externo especificando uma nova id externalProfile.
 
 ### Adicionar usuários a perfis externos
 
@@ -351,11 +352,11 @@ O `POST /externalProfiles/{id}/users` adiciona usuários externos ao perfil exte
 
 ## Notas de versão
 
-Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte a [Notas de versão](/help/migrated/release-note/release-notes.md).
+Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão](/help/migrated/release-note/release-notes.md).
 
 ## Correções de erros
 
-Para ver os erros corrigidos nesta atualização, consulte a seção [Lista de erros corrigidos](release-note/release-notes.md#bugs-fixed-in-this-release).
+Para ver os erros corrigidos nesta atualização, consulte a [lista de erros corrigidos](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Requisitos do sistema
 

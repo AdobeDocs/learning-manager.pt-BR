@@ -72,7 +72,7 @@ Para criar um catálogo, execute as seguintes etapas:
 1. Salve as alterações. Volte para a lista de catálogos e clique no novo catálogo da lista.
 1. Na página do novo catálogo, no painel esquerdo, clique em **[!UICONTROL Conteúdo]**.
 
-   O programa de aprendizado que você adicionou aparece na **[!UICONTROL Programas de aprendizado]** guia.
+   O Programa de Aprendizado que você adicionou aparece na guia **[!UICONTROL Programas de Aprendizado]**.
 
 ## Adicionar uma certificação ao catálogo {#cert}
 
@@ -80,7 +80,7 @@ Para criar um catálogo, execute as seguintes etapas:
 1. Salve as alterações. Volte para a lista de catálogos e clique no novo catálogo da lista.
 1. Na página do novo catálogo, no painel esquerdo, clique em **[!UICONTROL Conteúdo]**.
 
-   A certificação que você adicionou aparece na seção **[!UICONTROL Certificações]** guia.
+   A Certificação adicionada aparece na guia **[!UICONTROL Certificações]**.
 
 ## Adicionar uma ajuda de tarefa ao catálogo {#job}
 
@@ -88,7 +88,7 @@ Para criar um catálogo, execute as seguintes etapas:
 1. Salve as alterações. Volte para a lista de catálogos e clique no novo catálogo da lista.
 1. Na página do novo catálogo, no painel esquerdo, clique em **[!UICONTROL Conteúdo]**.
 
-   A ajuda de tarefa que você adicionou aparece na **[!UICONTROL Ajudas de tarefa]** guia.
+   A ajuda de tarefa adicionada aparece na guia **[!UICONTROL Ajudas de tarefa]**.
 
 O conteúdo aparece em cada uma dessas guias, se já estiver disponível na conta. Caso contrário, você precisará criar o conteúdo primeiro. Por exemplo, se ainda não tiver adicionado nenhum dos cursos ou programas de aprendizado no aplicativo Learning Manager, comece criando-os primeiro.
 
@@ -96,11 +96,11 @@ O conteúdo aparece em cada uma dessas guias, se já estiver disponível na cont
 
 Um administrador pode gerar um link profundo para um catálogo que pode levar os alunos para a página de catálogo específica.
 
-Na guia **[!UICONTROL Catálogos]** passe o mouse sobre o catálogo do qual você criou o deep link e clique no ícone destacado.
+Na página **[!UICONTROL Catálogos]**, passe o mouse sobre o catálogo do qual você fornece o deep link e clique no ícone destacado.
 
 ![](assets/catalog-deep-link.png)
 
-*Gerar um link profundo para os alunos*
+*Gerar um deep link para alunos*
 
 ## Ativar o catálogo {#enablethecatalog}
 
@@ -116,9 +116,9 @@ Para ativar o catálogo,
 
 Para desativar um catálogo, desative a opção ao lado do catálogo.
 
-Você também pode marcar a caixa de seleção ao lado do catálogo, clicar em Ações no canto superior direito e clicar em **[!UICONTROL Desativar]**.
+Como alternativa, você pode marcar a caixa de seleção ao lado do catálogo, clicar em Ações no canto superior direito e clicar em **[!UICONTROL Desabilitar]**.
 
-Você também pode desativar vários catálogos na lista. Selecione os catálogos e, no menu Ação, escolha a opção **[!UICONTROL Desativar]**.
+Você também pode desativar vários catálogos na lista. Selecione os catálogos e, no menu Ação, escolha a opção **[!UICONTROL Desabilitar]**.
 
 ## Excluir o catálogo {#deletethecatalog}
 
@@ -164,7 +164,7 @@ Na página Catálogos, clique no catálogo que deseja compartilhar. No painel es
 
 *Compartilhar um catálogo externamente*
 
-Insira o subdomínio associado à sua conta do Learning Manager. Clique em **[!UICONTROL Como obter o subdomínio?]** para saber mais sobre o uso do subdomínio. Você também pode clicar em **[!UICONTROL Marca]** no painel esquerdo da página inicial do administrador para exibir o subdomínio associado à conta da sua organização.
+Insira o subdomínio associado à sua conta do Learning Manager. Clique em **[!UICONTROL Como obter o subdomínio?]** para saber sobre o uso do subdomínio. Você também pode clicar em **[!UICONTROL Marcas]** no painel esquerdo da página inicial do administrador para exibir o subdomínio associado à sua conta de organização.
 
 **Limite de inscrições**
 
@@ -172,9 +172,9 @@ Você pode definir o limite do número de inscrições por curso no catálogo co
 
 **Expiração**
 
-É possível definir a validade do catálogo compartilhado configurando uma data de expiração em **[!UICONTROL Expiração]** campo. Após o prazo de validade do catálogo compartilhado, não são permitidas inscrições nos cursos. Os alunos existentes ainda podem ter acesso ao conteúdo. Os objetos de aprendizado são retirados, mas as medalhas e habilidades estão ativos. Nesse estado, o receptor do catálogo compartilhado não pode reverter os objetos de aprendizado retirados.
+Você pode definir a validade do catálogo compartilhado configurando uma data de expiração no campo **[!UICONTROL Expiração]**. Após o prazo de validade do catálogo compartilhado, não são permitidas inscrições nos cursos. Os alunos existentes ainda podem ter acesso ao conteúdo. Os objetos de aprendizado são retirados, mas as medalhas e habilidades estão ativos. Nesse estado, o receptor do catálogo compartilhado não pode reverter os objetos de aprendizado retirados.
 
-Clique em **[!UICONTROL Salvar]** depois de adicionar todas as informações necessárias. Clique em **[!UICONTROL Ações]** no canto superior direito da página e clique em **[!UICONTROL Compartilhar]** para compartilhar o catálogo com contas externas.
+Clique em **[!UICONTROL Salvar]** depois de adicionar todas as informações necessárias. Clique no menu suspenso **[!UICONTROL Ações]**, no canto superior direito da página, e clique em **[!UICONTROL Compartilhar]** para compartilhar o catálogo com contas externas.
 
 Os catálogos de propriedade do titular da conta de compartilhamento só podem ser compartilhados com contas externas. Você não pode compartilhar os catálogos que já são compartilhados por outras contas com você.
 
@@ -192,7 +192,7 @@ Você pode remover uma conta externa de uma lista compartilhada somente antes de
 
 **Excluir catálogos**
 
-Para excluir um catálogo compartilhado, clique em **[!UICONTROL Ações]** e clique em **[!UICONTROL Excluir]**.
+Para excluir um catálogo compartilhado, clique no menu suspenso **[!UICONTROL Ações]** e clique em **[!UICONTROL Excluir]**.
 
 * Não é possível compartilhar um catálogo padrão com contas externas.
 * Você não pode excluir um catálogo que você compartilhou externamente.
@@ -267,7 +267,7 @@ Quaisquer modificações executadas em objetos de aprendizado no aplicativo prop
 * Os ativos adicionados recentemente ao catálogo compartilhado podem ser vistos automaticamente pelos destinatários.
 * As habilidades associadas aos objetos de aprendizado são copiadas para as contas de destinatários do catálogo compartilhado.
 
-* Se a conta do destinatário do catálogo compartilhado já tiver o mesmo nome de habilidade, então uma nova habilidade será criada adicionando &#42; após o nome.
+* Se a conta do destinatário do catálogo compartilhado já tiver o mesmo nome de habilidade, uma nova habilidade será criada adicionando &#42; após o nome.
 * Os dados (por exemplo, medalhas, N1, N3, notificações) das instâncias padrão dos cursos e dos programas de aprendizado também são copiados na conta do destinatário juntamente com os cursos e programas de aprendizado.
 
 As certificações recorrentes não podem fazer parte de um catálogo compartilhado externamente. O destinatário não pode usar objetos de aprendizado adquiridos em certificações recorrentes se tiverem o limite de inscrição ou a data de validade definida no catálogo.
@@ -330,7 +330,7 @@ Depois de criar as etiquetas de catálogo, você pode aplicá-las a catálogos e
 1. Abra as Etiquetas de catálogo no painel esquerdo.
 1. Clique em **[!UICONTROL Editar]** no canto superior direito. A página mostra a lista de etiquetas de catálogo disponíveis.
 1. Para adicionar uma etiqueta ao catálogo, clique em **[!UICONTROL Adicionar ao catálogo]**.
-1. Para remover etiquetas existentes adicionadas a um catálogo, clique em **[!UICONTROL Remover]**.
+1. Para remover etiquetas existentes adicionadas a um Catálogo, clique em **[!UICONTROL Remover]**.
 
 +++
 

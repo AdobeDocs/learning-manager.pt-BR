@@ -39,7 +39,7 @@ Leia este artigo para saber como definir as configurações do perfil do aluno e
 
 **1. Como baixar uma transcrição do aluno como aluno?**
 
-No canto superior direito, clique no **[!UICONTROL perfil do usuário]** > **[!UICONTROL Configurações do perfil]**. Na caixa de diálogo exibida, clique em **Baixar minha transcrição de aprendizado (XLS)**.
+No canto superior direito, clique em seu **[!UICONTROL perfil de usuário]** > **[!UICONTROL Configurações de Perfil]**. Na caixa de diálogo exibida, clique em **Baixar minha transcrição de aprendizado (XLS)**.
 
 ![](assets/dowload-lt.png)
 *Baixar transcrição do aluno*

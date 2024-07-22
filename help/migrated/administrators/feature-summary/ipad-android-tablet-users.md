@@ -3,24 +3,23 @@ jcr-language: en_us
 title: Usuários de tablet Android e iPad
 description: Configurações para usuários de tablet Android e iPad
 contentowner: manochan
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+exl-id: 19abe9d6-b48e-4027-bb72-95d7c767c1ec
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 57%
 
 ---
 
-
-
 # Usuários de tablet Android e iPad
 
-No aplicativo Learning Manager no iPad ou tablet Google Nexus 9 Android, após fazer logo como aluno, você pode ver o seguinte **Página inicial** na tela:
+No aplicativo Learning Manager no iPad ou Google Nexus 9, após fazer logon como aluno, você pode ver a seguinte tela **Início**:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
 *A tela inicial do aplicativo*
 
-Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** e escolha a opção apropriada.
+Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** suspenso e escolha a opção apropriada.
 
 <!--![](assets/menu-ipad.png)-->
 
@@ -28,7 +27,7 @@ Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** e
 
 Você pode acessar o aplicativo Learning Manager offline no tablet Google Nexus 9 Android e iPad. Baixe e faça cursos no modo off-line e sincronize o conteúdo com o aplicativo on-line ao conectar-se à rede.
 
-1. Toque em **Menu** na parte superior e toque em **Aprendizado** opção. Uma lista de todos os cursos disponíveis é exibida em quadros.
+1. Toque na lista suspensa **Menu** na parte superior e toque na opção **Aprendizado**. Uma lista de todos os cursos disponíveis é exibida em quadros.
 1. Toque no ícone de download na parte inferior de cada quadro do objeto de aprendizado para baixar o conteúdo do aprendizado.
 
    <!--![](assets/download-ipad.png)-->

@@ -26,7 +26,7 @@ Você também pode optar por não enviar notificações por e-mail para determin
 
 1. Na página Objeto de aprendizado, clique no curso, certificação ou programa de aprendizado para o qual deseja definir as configurações de e-mail.
 
-1. Na página de detalhes do objeto de aprendizado, selecione **Modelos de e-mail** > **Todos os modelos**. Os modelos de e-mail estão disponíveis para **Instância padrão** e **Curso atual**. Você pode alternar entre elas usando a lista suspensa no canto superior direito.
+1. Na página de detalhes do objeto de aprendizado, selecione **Modelos de email** > **Todos os modelos**. Modelos de email estão disponíveis para a **Instância padrão** e o **Curso atual**. Você pode alternar entre elas usando a lista suspensa no canto superior direito.
 
    Você pode ver a lista de modelos disponíveis para o objeto de aprendizado escolhido.
 
@@ -64,7 +64,7 @@ Você também pode optar por não enviar notificações por e-mail para determin
 1. Na página Modelos de e-mail, clique no botão circular de alternância Sim/Não para enviar ou desativar a notificação.
 
 ![](assets/email-notification-e1437624109719.png)
-*Ativar ou desativar a notificação por email*
+*Habilitar ou desabilitar a notificação por email*
 
 Se o círculo no botão de notificação de cada nome do evento estiver adjacente a Sim (com a cor azul como plano de fundo), a notificação está ativada. Se estiver em cinza e o círculo estiver adjacente a Não, a notificação está desativada.
 
@@ -74,6 +74,6 @@ Sempre que você configurar um modelo de e-mail no nível do curso, ele terá pr
 
 O autor pode configurar o seguinte nas configurações do modelo de email:
 
-* **Banner de e-mail**: permite modificar o banner de e-mail.
+* **Banner de email**: permite modificar o banner de email.
 
-* **Assinatura de email**: permite adicionar ou editar a assinatura de e-mail.
+* **Assinatura de email**: permite adicionar ou editar a assinatura de email.

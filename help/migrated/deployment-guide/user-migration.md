@@ -26,11 +26,11 @@ Como administrador de sistema no Admin Console, uma das primeiras tarefas é def
 
    ![](assets/configure-sso-step1.png)
 
-1. Dependendo do tipo de usuário, selecione **[!UICONTROL ** Usuários internos **ou** Usuários Externos **.]**
+1. Dependendo do tipo de usuário, selecione **[!UICONTROL ** Usuários internos **ou** Usuários externos **.]**
 
 
 
-1. No menu **[!UICONTROL **Logon**]**campo suspenso, selecione **[!UICONTROL ** Logon único **.]**
+1. No campo suspenso **[!UICONTROL **Logon**]**, selecione **[!UICONTROL ** Logon Único **.]**
 
    ![](assets/configure-sso-step3.png)
 
@@ -44,11 +44,11 @@ Como administrador de sistema no Admin Console, uma das primeiras tarefas é def
 
    ![](assets/configure-sso-step5.png)
 
-1. Clique em **[!UICONTROL **Carregar **]**ao lado do**[!UICONTROL  **Arquivo XML de Metadados do IDP **]******e faça upload do arquivo XML.
+1. Clique em **[!UICONTROL **Carregar **]**ao lado do campo**[!UICONTROL  **Arquivo XML de Metadados IDP **]******e carregue o arquivo XML.
 1. Clique em **[!UICONTROL ** Salvar **.]**
 1. A autenticação de SSO foi configurada com sucesso para sua conta. Você poderá fazer logon na sua conta do Learning Manager usando a autenticação SSO.
 
-   ***O SSO que você configura no Learning Manager deve ser compatível com SAML 2.0.***
+   ***O SSO que você configura no Learning Manager deve oferecer suporte ao SAML 2.0.***
 
 ## Migração de dados do usuário {#migrationofuserdata}
 
@@ -58,7 +58,7 @@ O Learning Manager permite migrar do LMS existente por meio de um assistente pas
 
 Para executar o fluxo de trabalho de migração, você precisa dos privilégios do administrador de integração. Como administrador, você pode assumir a função de administrador de integração ou atribuir essa função a outro usuário.
 
-**Podemos pegar a ajuda do Shaleen para criar um visual.**
+**Podemos usar a ajuda de Shaleen aqui para criar um visual.**
 
 1. Pré-requisito
 1. Avaliação do conteúdo existente e dos dados do usuário
@@ -240,7 +240,7 @@ Certifique-se de que cada arquivo .csv contenha os dados de cada campo no format
  </tbody> 
 </table>
 
-***O Learning Manager oferece suporte a valores de data e hora somente no formato UTF 8 e 32 bits. Você pode obter erros durante a migração se especificar a data em arquivos CSV com uma data fora do intervalo, como 2038-07-17T08:53:21.000Z ou 1980-04-17T08:13:25,322Z***
+***O Learning Manager oferece suporte a valores de data e hora somente no formato UTF 8 e 32 bits. Você pode obter erros durante a migração se especificar a data em arquivos CSV com uma data fora do intervalo, como 2038-07-17T08:53:21.000Z ou 1980-04-17T08:13:25.322Z.***
 
 ### Dependências ao importar dados para arquivos csv {#dependencieswhileimportingdatatocsvfiles}
 
@@ -272,7 +272,7 @@ Antes de planejar e iniciar a migração real de todo o conteúdo, você deve co
 
 ### Configurar uma conta FTP {#setupanftpaccount}
 
-Na página inicial do administrador de integração, clique em **[!UICONTROL ** Solicitação de pasta FTP CSV **.]** Na caixa de diálogo pop-up exibida, insira sua ID de e-mail. Navegue pelo assistente online para criar a conta FTP do Exavault. Assim que criar sua conta, você poderá visualizar seu projeto de migração e as pastas do projeto de sprint no Exavault FTP.
+Na página inicial do administrador de integração, clique em **[!UICONTROL ** Solicitar pasta FTP CSV **.]** Na caixa de diálogo pop-up exibida, insira sua ID de e-mail. Navegue pelo assistente online para criar a conta FTP do Exavault. Assim que criar sua conta, você poderá visualizar seu projeto de migração e as pastas do projeto de sprint no Exavault FTP.
 
 Veja uma captura de tela de amostra dos arquivos de projeto e da pasta do ExaVault conforme mostrado aqui:
 
@@ -313,7 +313,7 @@ Na página inicial do administrador de integração, clique em **[!UICONTROL Mig
 
 Na página inicial de migração, o sistema exibe os projetos de migração já criados em sua organização.
 
-Clique em **[!UICONTROL **Novo**]**no canto superior direito da página, para criar um projeto de migração.
+Clique em **[!UICONTROL **Novo**]**no canto superior direito da página para criar um projeto de migração.
 
 ***Se você ainda não tiver criado uma pasta FTP, será solicitado que você crie uma conta do Exavault para a pasta FTP. Essa etapa é obrigatória antes de começar a criar um projeto de migração. ***
 
@@ -331,17 +331,17 @@ Na página Configuração do sprint, crie um sprint para seu projeto de migraç�
 
 Especifique um nome para o sprint e forneça uma descrição para o sprint.
 
-Selecione o ****[!UICONTROL Os usuários foram adicionados ou modificados desde a última caixa de seleção de execução]****, para sincronizar a lista de usuários com o aplicativo Learning Manager. Se estiver migrando dados e conteúdo para o aplicativo Learning Manager, talvez isso não seja necessário. Mas, se houver um lapso de tempo entre a migração anterior do sprint para a migração mais recente, é recomendado optar por sincronizar a lista de usuários. Essa etapa permite que o banco de dados do Learning Manager esteja em sincronia com os usuários do LMS.
+Selecione a caixa de seleção ****[!UICONTROL Usuários foram adicionados ou modificados desde a última execução]**** para sincronizar a lista de usuários com o aplicativo Learning Manager. Se estiver migrando dados e conteúdo para o aplicativo Learning Manager, talvez isso não seja necessário. Mas, se houver um lapso de tempo entre a migração anterior do sprint para a migração mais recente, é recomendado optar por sincronizar a lista de usuários. Essa etapa permite que o banco de dados do Learning Manager esteja em sincronia com os usuários do LMS.
 
-***A etapa de sincronização é recomendada quando enrollment.csv e user_course_grade.csv são migrados. Essa etapa permite que o banco de dados do Learning Manager esteja em sincronia com o banco de dados de migração e garante que todos os usuários cujos registros a serem migrados no sprint estejam disponíveis no banco de dados de migração.***
+***A etapa de Sincronização é recomendada quando enrollment.csv e user_course_grade.csv são migrados. Essa etapa permite que o banco de dados do Learning Manager esteja em sincronia com o banco de dados de migração e garante que todos os usuários cujos registros a serem migrados no sprint estejam disponíveis no banco de dados de migração.***
 
-Clique em **[!UICONTROL ** Próxima **.]**
+Clique em **[!UICONTROL ** Avançar **.]**
 
-Clique em **[!UICONTROL **Início**]**para iniciar a migração do sprint com os dados e o conteúdo carregados. Clique em ****[!UICONTROL Atualizar]**** antes de iniciar a Execução do sprint para sincronizar as pastas FTP e Conteúdo com o Learning Manager.
+Clique em **[!UICONTROL **Iniciar**]**para iniciar a migração do sprint com os dados e o conteúdo carregados. Clique em ****[!UICONTROL Atualizar]**** antes de iniciar a Execução do sprint para sincronizar as pastas FTP e Conteúdo com o Learning Manager.
 
 ![](assets/migrating-the-content-3.png)
 
-Clique em ****[!UICONTROL Parar]****a qualquer momento durante o processo de migração do sprint para abortar a migração do sprint.
+Você pode clicar em ****[!UICONTROL Parar]****a qualquer momento durante o processo de migração do sprint para anular a migração do sprint.
 
 O sistema exibe o status de migração em relação a cada um dos itens de dados e conteúdo do sprint. Verifique o número de itens falhos e bem-sucedidos como parte da execução do sprint de migração.
 
@@ -351,15 +351,15 @@ Se estiver carregando o conteúdo do módulo, certifique-se de que o caminho da 
 
 ![](assets/migrating-the-content-4.png)
 
-Para exibir a lista de todos os sprints de um projeto de migração, clique em **[!UICONTROL **Sprint**]**no painel de navegação à esquerda. Você pode visualizar uma lista de todos os sprints, o número de execuções de cada sprint, a data de início, a duração e o status de conclusão, conforme mostrado na captura de tela abaixo.
+Para exibir a lista de todos os sprints de um projeto de migração, clique em **[!UICONTROL **Sprint**]**no painel de navegação esquerdo. Você pode visualizar uma lista de todos os sprints, o número de execuções de cada sprint, a data de início, a duração e o status de conclusão, conforme mostrado na captura de tela abaixo.
 
 ![](assets/migrating-the-content-5.png)
 
-Para exibir a lista de todos os sprints de um projeto de migração, clique em **[!UICONTROL **Sprint**]**no painel de navegação à esquerda. Você pode visualizar uma lista de todos os sprints, o número de execuções de cada sprint, a data de início, a duração e o status de conclusão, conforme mostrado na captura de tela abaixo.
+Para exibir a lista de todos os sprints de um projeto de migração, clique em **[!UICONTROL **Sprint**]**no painel de navegação esquerdo. Você pode visualizar uma lista de todos os sprints, o número de execuções de cada sprint, a data de início, a duração e o status de conclusão, conforme mostrado na captura de tela abaixo.
 
-Para exibir a lista de todos os sprints de um projeto de migração, clique em **[!UICONTROL **Sprint**]**no painel de navegação à esquerda. Você pode visualizar uma lista de todos os sprints, o número de execuções de cada sprint, a data de início, a duração e o status de conclusão, conforme mostrado na captura de tela abaixo.
+Para exibir a lista de todos os sprints de um projeto de migração, clique em **[!UICONTROL **Sprint**]**no painel de navegação esquerdo. Você pode visualizar uma lista de todos os sprints, o número de execuções de cada sprint, a data de início, a duração e o status de conclusão, conforme mostrado na captura de tela abaixo.
 
-***Antes de marcar o projeto de migração como concluído, certifique-se de que todos os sprints do projeto estejam concluídos. Depois de marcar o projeto de migração como concluído, não será possível voltar e criar sprints nesse projeto. Não é possível fazer modificações nesse projeto. Você só pode criar outro projeto de migração e adicionar sprints a ele.***
+***Antes de marcar o projeto de migração como concluído, verifique se todos os sprints do projeto estão concluídos. Depois de marcar o projeto de migração como concluído, não será possível voltar e criar sprints nesse projeto. Não é possível fazer modificações nesse projeto. Você só pode criar outro projeto de migração e adicionar sprints a ele.***
 
 Depois de migrar os dados e o conteúdo de aprendizado do LMS herdado da sua organização, verifique se os dados e o conteúdo foram importados corretamente. Você pode verificar fazendo logon como administrador e verificando a disponibilidade de módulos importados e dados e conteúdo de cursos
 

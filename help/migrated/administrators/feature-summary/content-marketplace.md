@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Marketplace de conteúdo
 description: O Learning Manager agora oferece o Marketplace de Conteúdo para que você explore e compre treinamentos. Explore mais de 70.000 cursos que abrangem uma grande variedade de tópicos disponíveis em vários formatos. Escolha entre listas de reprodução selecionadas que atendem a uma grande variedade de funções e às suas necessidades de aprendizado e requalificação.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 69%
 
 ---
-
-
 
 # Marketplace de conteúdo
 
@@ -28,7 +27,7 @@ A página Treinamento corporativo, no aplicativo do administrador, permite que v
 
 Convide usuários para o Marketplace de Conteúdo para explorar conteúdo e expressar interesse. Como administrador, você pode convidar todos os alunos da conta ou convidar os alunos selecionados. Para conceder acesso aos alunos, você deve convidá-los.
 
-Um aluno também pode ser revogado da opção Markeplace de conteúdo. Para revogar o acesso, clique no botão **[!UICONTROL Revogar acesso]** link.  Os usuários não poderão mais ver a página Marketplace de conteúdo no aplicativo do aluno.
+Um aluno também pode ser revogado da opção Markeplace de conteúdo. Para revogar o acesso, clique no link **[!UICONTROL Revogar acesso]**.  Os usuários não poderão mais ver a página Marketplace de conteúdo no aplicativo do aluno.
 
 Essa opção é selecionada por padrão para todas as novas contas. Para contas existentes, o administrador deve convidar os usuários a explorar o marketplace.
 
@@ -48,7 +47,7 @@ Depois que a chave é gerada pela equipe do CSAM, o administrador pode usá-la p
 
 Durante a migração dos cursos, o status é exibido como **[!UICONTROL Importando cursos]**. Quando a migração for concluída, o administrador receberá uma notificação de que ela foi concluída e bem-sucedida.
 
-O **[!UICONTROL Licenças]** exibe todas as licenças adquiridas para a conta.
+A seção **[!UICONTROL Licenças]** exibe todas as licenças adquiridas para a conta.
 
 O administrador pode ver os links dos catálogos comprados na página Visão geral do catálogo.
 
@@ -56,7 +55,7 @@ Depois que os cursos são adicionados ao catálogo, o administrador pode concede
 
 ![](assets/licenses.png)
 
-*Conceder acesso a treinamento a usuários e grupos de usuários*
+*Conceder acesso a treinamento para usuários e grupos de usuários*
 
 ## Relatório de Expressar interesse
 
@@ -70,9 +69,9 @@ Quando um aluno clica em Expressar interesse para Catálogo no aplicativo do alu
 
 Para suportar esse fluxo de trabalho, há três modelos de e-mail que você pode usar:
 
-1. **[!UICONTROL Conteúdo ativado com sucesso]:** Isso é enviado quando a compra de um conteúdo com um nome de chave é bem-sucedida. Todos os treinamentos comprados já estão disponíveis.
-1. **[!UICONTROL Falha ao carregar usuário automatizado]:** Isso é enviado quando a atualização automática do CSV na conta falha por algum motivo.
-1. **[!UICONTROL Convidar usuários a explorar o conteúdo]:** Este é um e-mail de convite enviado aos alunos quando o administrador compra os cursos. O administrador pode ver o relatório de Expressar interesse para entender os requisitos gerais e tomar a decisão de compra.
+1. **[!UICONTROL Ativação de conteúdo bem-sucedida]:** Isso é enviado quando a compra de um conteúdo com um nome de chave é bem-sucedida. Todos os treinamentos comprados já estão disponíveis.
+1. **[!UICONTROL Falha ao carregar usuário automatizado]:** isso é enviado quando a atualização automática do CSV na conta falha por algum motivo.
+1. **[!UICONTROL Convidar usuários para explorar o conteúdo]:** este é um email de convite enviado aos alunos quando o administrador compra os cursos. O administrador pode ver o relatório de Expressar interesse para entender os requisitos gerais e tomar a decisão de compra.
 
 1. Os cursos comprados não podem ser adicionados em certificados recorrentes.
 1. Os cursos comprados não podem ser compartilhados em contas entre parceiros.
@@ -99,10 +98,10 @@ A página do Hub de Conteúdo fica visível para os administradores na função 
 
 O Learning Manager também permite que os administradores baixem uma lista de reprodução e a compartilhem com a equipe de vendas da Adobe. Antes de baixar a lista de atalhos, visite o Hub de Conteúdo e selecione uma lista de reprodução adicionando uma lista de reprodução à sua biblioteca.
 
-Depois, como administrador, clique em **[!UICONTROL Marketplace de Conteúdo]** > **[!UICONTROL Treinamento corporativo]** > **[!UICONTROL Seção Comprar]** > **[!UICONTROL Listas de reprodução selecionadas]**. Clique no botão **[!UICONTROL Comprar]** para baixar o formulário de solicitação de compra que contém os detalhes da lista selecionada.
+Em seguida, como administrador, clique em **[!UICONTROL Marketplace de Conteúdo]** > **[!UICONTROL Treinamento Empresarial]** > **[!UICONTROL Seção de compra]** > **[!UICONTROL Listas de Reprodução Selecionadas]**. Clique no botão **[!UICONTROL Comprar]** para baixar o formulário de solicitação de compra que contém os detalhes da lista selecionada.
 
 ![](assets/download-purchase-request.png)
 
-*Faça o download do formulário de solicitação de compra*
+*Baixar o formulário de solicitação de compra*
 
 Os cursos e a lista de reprodução que você vê no Hub de Conteúdo são os mesmos que você vê no Marketplace de Conteúdo. O Hub de Conteúdo simplesmente fornece uma capacidade para administradores e SMEs limitados selecionarem listas de reprodução com facilidade para compra.

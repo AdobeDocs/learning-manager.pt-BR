@@ -65,7 +65,7 @@ Mínimo de 5 GB de espaço em disco disponível.
 
 >[!NOTE]
 >
->O navegador móvel oferece suporte somente à função do aluno em **layout imersivo**.
+>O navegador móvel oferece suporte somente à função do aluno no **layout imersivo**.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ O tamanho máximo do arquivo que pode ser carregado é de 600 MB.
 >
 >Se o tamanho do arquivo *user.csv* exceder 100 MB, a importação desse arquivo pode fazer com que o navegador se comporte de forma imprevisível. O problema ocorre porque o navegador fica sem memória.
 
-Recomendamos importar tamanho grande *user.csv* arquivos usando o fluxo de trabalho automatizado do Box/Exavault. Para saber mais, consulte [Migração de arquivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Recomendamos importar arquivos *user.csv* de tamanho grande usando o fluxo de trabalho automatizado do Box/Exavault. Para saber mais, consulte [Migrando arquivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Formatos de conteúdo suportados
@@ -309,7 +309,7 @@ Certifique-se de que os seguintes domínios de terceiros estão permitidos se vo
   </tr>
   <tr>
    <td>Conector GetAbstracts</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Conector Box</td>

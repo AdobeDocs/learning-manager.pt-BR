@@ -14,7 +14,7 @@ ht-degree: 44%
 
 # Integração do Learning Manager com o Slack
 
-Nós temos **removido** **Slack** como um conector no Learning Manager. Você não terá mais acesso ao conector Slack.
+Nós **removemos** **Slack** como um conector no Learning Manager. Você não terá mais acesso ao conector Slack.
 
 Os usuários do Slack podem instalar o aplicativo Adobe Learning Manager através do diretório de aplicativos do Slack nas suas equipes do Slack e explorar o conteúdo do Learning Manager no próprio Slack. Você pode interagir com o Primebot para pesquisar novos cursos, visualizar recomendações e obter notificações sobre futuros prazos de conclusão no Learning Manager. Você também pode se inscrever e ir diretamente para o seu aprendizado no Slack.
 
@@ -36,7 +36,7 @@ Como administrador de integração, para aprovar a permissão de um aluno para u
 
    ![](assets/approval.png)
 
-1. Voltar para a página **[!UICONTROL Aplicativos]** página. Uma vez aprovado, o Slack deve aparecer na caixa **[!UICONTROL Aplicativos Externos]** guia.
+1. Volte para a página **[!UICONTROL Aplicativos]**. Uma vez aprovado, o Slack deve aparecer na guia **[!UICONTROL Aplicativos externos]**.
 1. Os alunos agora podem fazer logon na conta do Prime usando o Slack.
 
 ## Funcionalidades do Primebot {#primebotfunctionalities}
@@ -45,11 +45,11 @@ Agora você pode começar a interagir com o Primebot. Estas são as funcionalida
 
 1 - Comando
 
-&#42;/prime&#42; pode ser usado para consultas pontuais relacionadas à sua conta do Adobe Learning Manager.
+&#42;/prime&#42; pode ser usado para consultas pontuais relacionadas à sua conta da Adobe Learning Manager.
 
 Os subcomandos disponíveis são:
 
-/prime find `<query>` - pesquise cursos, certificações etc.
+/prime find `<query>` - procurar cursos, certificações etc.
 
 /prime recommend - mostra recomendações
 
@@ -63,7 +63,7 @@ Os subcomandos disponíveis são:
 
 /prime catalogs - mostra catálogos
 
-/prime invite - [Somente administrador] convide os usuários do Slack na equipe atual para experimentar o primebot
+/prime invite - [Somente administrador] convida os usuários do Slack na equipe atual para experimentar o primebot
 
 /prime porfile - mostra perfil
 
@@ -73,12 +73,12 @@ Os subcomandos disponíveis são:
 
 2 - Recomendação
 
-Você pode tentar uma frase como `show my recommendations` para obter uma lista personalizada de cursos recomendados, certificações e programas de aprendizado da sua conta do Adobe Learning Manager.
+Você pode experimentar uma frase como `show my recommendations` para obter uma lista personalizada de cursos recomendados, certificações e programas de aprendizado da sua conta do Adobe Learning Manager.
 
 3 - Pesquisa
 
-Você pode experimentar frases como `search for machine learning` ou `search for artificial intelligence`. É possível especificar o tipo de objeto de aprendizado usando frases como `search for machine learning certifications`, `search for artificial intelligence courses` ou `search for adobe photoshop job aids`. Você também pode pesquisar em um catálogo usando frases como `search for machine learning in Lynda catalog`.
+Você pode experimentar frases como `search for machine learning` ou `search for artificial intelligence`. Você pode especificar o tipo de objeto de aprendizado usando frases como `search for machine learning certifications`, `search for artificial intelligence courses` ou `search for adobe photoshop job aids`. Você também pode pesquisar em um catálogo usando frases como `search for machine learning in Lynda catalog`.
 
 4 - Prazos
 
-Usar frase como `show my deadlines` para obter uma lista de prazos vencidos e futuros da sua conta do Adobe Learning Manager. Você pode filtrar prazos atrasados ou futuros com frases como `show my overdue deadlines` ou `show my upcoming deadlines`.
+Use frases como `show my deadlines` para obter uma lista de prazos vencidos e futuros da sua conta da Adobe Learning Manager. Você pode filtrar prazos vencidos ou futuros com frases como `show my overdue deadlines` ou `show my upcoming deadlines`.

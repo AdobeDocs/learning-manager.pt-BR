@@ -26,9 +26,9 @@ Como administrador, você pode criar um programa de certificação hospedado int
 
 1. Veja as certificações em vários modos:
 
-   1. Clique em **[!UICONTROL Rascunho]** para ver todas as certificações no estado de rascunho. Você precisa terminar de criá-los.
+   1. Clique na guia **[!UICONTROL Rascunho]** para ver todas as certificações que estão no estado de rascunho. Você precisa terminar de criá-los.
    1. Clique em **[!UICONTROL Publicado]** para ver todas as certificações publicadas por você.
-   1. Clique em **[!UICONTROL Tudo]** para exibir as certificações em todos os estados.
+   1. Clique em **[!UICONTROL Todos]** para exibir as certificações em todos os estados.
    1. Classifique e exiba a lista de certificações em ordem crescente ou decrescente ou com base na data em que foram atualizadas.
 
 1. Clique em **[!UICONTROL Adicionar]**.
@@ -37,7 +37,7 @@ Como administrador, você pode criar um programa de certificação hospedado int
 
 ![](assets/add-new-certification.png)
 
-*Exibir a página para adicionar uma certificação*
+*Exiba a página para adicionar uma certificação*
 
 1. Adicione nome e descrição do certificado.
 
@@ -79,7 +79,7 @@ Como administrador, você pode criar um programa de certificação hospedado int
   <tr>
    <td>Emissor da certificação<br></td>
    <td>
-    <p>Escolher <b>Interno</b> se pertencer à sua organização ou escolha <b>Externo</b> para certificações de fora da organização.</p>
+    <p>Escolha <b>Interno</b> se pertencer à sua organização ou <b>Externo</b> para certificações de fora da organização.</p>
     <p>Ao escolher <b>Certificação externa</b>, você verá mais duas opções:</p>
     <ul>
      <li>Igual à data de aprovação<br></li>
@@ -102,18 +102,18 @@ Como administrador, você pode criar um programa de certificação hospedado int
  </tbody>
 </table>
 
-Selecione o nível de produtos, funções e funções na **[!UICONTROL Recomendar para]** para sugerir esse caminho de aprendizado aos usuários que expressaram interesse nesses produtos e funções.
+Selecione o nível de produtos, funções e funções na seção **[!UICONTROL Recomendar para]** para sugerir este caminho de aprendizado para os usuários que expressaram interesse nesses produtos e funções.
 
 ![](assets/recommend-for.png)
 
 *Recomendação*
 
-Escolha os cursos a serem adicionados à certificação de **[!UICONTROL Cursos]** > **[!UICONTROL Catálogo]** guia.
+Escolha os cursos a serem adicionados à certificação da guia **[!UICONTROL Cursos]** > **[!UICONTROL Catálogo]**.
 
 Passe o mouse sobre cada quadro do curso, clique em + para adicioná-los à certificação. Clique em **[!UICONTROL Visualizar]** para exibir o curso como aluno antes de adicioná-lo.
 
-1. Clique em **[!UICONTROL Currículo]** para exibir/verificar a lista de cursos adicionados.
-1. Clique em **[!UICONTROL Publicar]**.
+1. Clique na guia **[!UICONTROL Currículo]** para exibir/verificar a lista de cursos adicionados.
+1. Clique em **[!UICONTROL Publish]**.
 
 ## Mapeamento de instâncias do curso para certificações {#courseinstancemappingforcertifications}
 
@@ -142,18 +142,18 @@ Ao criar certificações, o administrador tem a opção de selecionar se os alun
 
 ![](assets/unenrollment.png)
 
-*Escolha para cancelar a inscrição dos alunos*
+*Escolha cancelar a inscrição dos alunos*
 
 ## Marcar conclusão {#markcompletion}
 
 Os administradores podem marcar uma certificação como concluída usando a opção disponível para eles. Para marcar a conclusão de uma certificação, siga estas etapas.
 
-1. Abrir **[!UICONTROL Certificação]** > **[!UICONTROL Alunos]**.
+1. Abra A **[!UICONTROL Certificação]** > **[!UICONTROL Alunos]**.
 
    A página Alunos é aberta com a lista de alunos inscritos.
 
 1. Selecione um, vários ou todos os alunos para marcar a conclusão da certificação usando a caixa de seleção disponível para cada aluno.
-1. Clique em  **[!UICONTROL Ação]** > **[!UICONTROL Marcar conclusão.]**
+1. Clique em **[!UICONTROL Ação]** > **[!UICONTROL Marcar conclusão.]**
 
    Observe que, se uma certificação tiver vários cursos, a conclusão será marcada para todos os cursos.
 
@@ -161,7 +161,7 @@ Os administradores podem marcar uma certificação como concluída usando a opç
 
 Nas versões anteriores do Learning Manager, para os alunos em uma certificação externa, não era obrigatória a conclusão do curso para completar um certificado.
 
-Agora, é possível fazer cursos obrigatórios ativando a opção **[!UICONTROL Definir cursos necessários como obrigatórios para a conclusão do certificado]** na guia Currículo ao editar a certificação.
+Agora, é possível fazer com que os cursos sejam obrigatórios durante a edição da certificação ativando a opção **[!UICONTROL Definir cursos necessários como obrigatórios para a conclusão do certificado]** na guia Currículo ao editar a certificação.
 
 ## Edição de uma certificação publicada {#editingapublishedcertification}
 

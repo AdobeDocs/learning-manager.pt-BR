@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Iniciando como autor
 description: Use a página de introdução para analisar os principais recursos de criação do Adobe Learning Manager.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 9f6d4307-91c5-4c80-8e6d-aebfa6d4feaa
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 54%
 
 ---
-
-
 
 # Iniciando como autor
 
@@ -36,4 +35,3 @@ Na página de Introdução, você poderá executar as seguintes atividades:
 Você também pode saber mais sobre o aplicativo Learning Mangera ao escolher assistir aos tutoriais em vídeo, exibir a Ajuda de conteúdo e saber mais sobre as diferentes funções.
 
 <!--![](assets/author-experienceprime.png)-->
-

@@ -2,14 +2,13 @@
 description: Leia este artigo para saber como começar como professor no Learning Manager.
 jcr-language: en_us
 title: Iniciando como professor no Learning Manager
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: d0540886-3e0d-4a88-8f4e-040dd8a6bde0
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 93%
 
 ---
-
-
 
 # Iniciando como professor no Learning Manager
 
@@ -25,7 +24,7 @@ Quando um autor adiciona você como professor de um módulo em um curso, você r
 
    ![](assets/instructor-upcomingsession.png)
 
-   *Exibir a página inicial do aplicativo do professor*
+   *Exibir a Página Inicial do Aplicativo do Professor*
 
 Os administradores também podem adicionar um usuário como autor a um módulo ao adicionar dados de sessão para uma instância do curso.
 

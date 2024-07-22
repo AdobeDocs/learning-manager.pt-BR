@@ -19,15 +19,15 @@ Você pode criar uma função personalizada para fornecer habilidades limitadas 
 
 ## Criar uma função personalizada {#create-role}
 
-1. Faça logon como administrador. Abrir **[!UICONTROL Usuários]** > **[!UICONTROL Função personalizada]**.
-1. Selecionar **[!UICONTROL Criar Função]**. O **[!UICONTROL Criar nova função]** é aberta.
+1. Faça logon como administrador. Abra **[!UICONTROL Usuários]** > **[!UICONTROL Função Personalizada]**.
+1. Selecione **[!UICONTROL Criar Função]**. A guia **[!UICONTROL Criar Nova Função]** é aberta.
 
    ![](assets/create-new-role.png)
 
    *Criar uma função personalizada*
 
-1. Insira o nome no campo **[!UICONTROL Nome da Função]** campo.
-1. **[!UICONTROL Privilégios da conta]**: Esses privilégios concedem aos proprietários da função acesso a aspectos específicos de configuração do sistema e que atuam na conta inteira. Escolha as permissões de acesso. O usuário recebe controle total sobre as permissões atribuídas.
+1. Insira o nome no campo **[!UICONTROL Nome da Função]**.
+1. **[!UICONTROL Privilégios de conta]**: esses privilégios concedem aos proprietários da função acesso a aspectos específicos de configuração do sistema e que atuam na conta inteira. Escolha as permissões de acesso. O usuário recebe controle total sobre as permissões atribuídas.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Você pode criar uma função personalizada para fornecer habilidades limitadas 
 
    *Definir escopo para catálogos, relatórios e marcas*
 
-1. **Privilégios do recurso- Objetos de aprendizado:**  Use esta opção para fornecer acesso aos recursos relacionados aos OAs. Você pode fornecer acesso aos seguintes LOs.
+1. **Privilégios do recurso- Objetos de Aprendizado:** use esta opção para fornecer acesso aos recursos relacionados aos OAs. Você pode fornecer acesso aos seguintes LOs.
 
    * Certificações
    * Cursos 
@@ -66,7 +66,7 @@ Você pode criar uma função personalizada para fornecer habilidades limitadas 
 
    *Conceder permissões específicas*
 
-1. **Escopo para privilégios de recurso:** O escopo dos privilégios de Recurso alocados para esta função pode ser restrito a um Grupo de Usuários específico ou a um ou mais Catálogos.
+1. **Escopo dos privilégios de recurso:** o escopo dos privilégios de Recurso alocados para esta função pode ser restrito a um Grupo de Usuários específico ou a um ou mais Catálogos.
 
    Catálogos: use o botão de opção para fornecer controle sobre **[!UICONTROL Todos os catálogos]** ou use a opção **[!UICONTROL Definir acesso por catálogo]** para fornecer acesso a catálogos específicos. Também é possível selecionar vários catálogos.
 
@@ -222,9 +222,9 @@ Os usuários com função personalizada podem:
     </tbody>
    </table>
 
-1. **Usuários:** Use esta opção para determinar quais usuários recebem esta função. É possível escolher um ou mais usuários usando a caixa de pesquisa.
+1. **Usuários:** use esta opção para determinar quais usuários receberam esta função. É possível escolher um ou mais usuários usando a caixa de pesquisa.
 
-   **Adicionar usuários ao upload de CSV de função personalizada:** Para adicionar usuários por meio do upload de CSV, adicione uma coluna CustomRole ao arquivo .csv que o administrador usou para importar usuários. Insira a função do usuário na coluna CustomRole para os usuários aos quais você deseja atribuir uma função personalizada. Para fazer upload do arquivo CSV, clique em  **[!UICONTROL Adicionar > Fazer upload de um CSV]**.
+   **Adicionar usuários ao carregamento de CSV de função personalizada:** para adicionar usuários por meio do carregamento de CSV, adicione uma coluna CustomRole ao arquivo .csv que o administrador usou para importar usuários. Insira a função do usuário na coluna CustomRole para os usuários aos quais você deseja atribuir uma função personalizada. Para carregar o arquivo CSV, clique em **[!UICONTROL Adicionar > Carregar um CSV]**.
 
    Coluna CustomRoleObservação:
 
@@ -247,25 +247,25 @@ Caso desejem restringir o acesso a esses autores personalizados, os administrado
 
 *Restringir o acesso de pasta para autores personalizados*
 
-Ao criar um autor personalizado, será possível atribuir pastas de conteúdo ao autor. Escolha a opção **Pastas selecionadas**.
+Ao criar um autor personalizado, será possível atribuir pastas de conteúdo ao autor. Escolha a opção **Pastas Selecionadas**.
 
 Depois de clicar na opção, uma nova caixa de diálogo é aberta. Nela, você poderá atribuir as pastas ao autor personalizado.
 
 ![](assets/choose-folder.png)
 
-*Selecionar as pastas do autor personalizado*
+*Selecione as pastas para o autor personalizado*
 
 Escolha as pastas e clique em **[!UICONTROL OK]**.
 
 ## Painel de resumo de aprendizado para Administração personalizada {#custom-admin-dashboard}
 
-Os administradores personalizados podem ver a mesma exibição que um administrador vê. Um administrador personalizado pode ter dados fora deste escopo. Isso só é aplicável se o administrador personalizado tiver escopo completo. Para conceder um escopo completo, ao criar um administrador personalizado, ative a opção **[!UICONTROL Controle total]** no Relatório Resumido da Conta.
+Os administradores personalizados podem ver a mesma exibição que um administrador vê. Um administrador personalizado pode ter dados fora deste escopo. Isso só é aplicável se o administrador personalizado tiver escopo completo. Para conceder um escopo completo, ao criar um administrador personalizado, habilite a opção **[!UICONTROL Controle Total]** no Relatório de Resumo da Conta.
 
 ![](assets/create-custom-role.png)
 
 *Criar uma função personalizada*
 
-Como resultado, as opções, **[!UICONTROL Todos os catálogos]** e **[!UICONTROL Todos os grupos de usuários]** será selecionado e o restante desativado.
+Como resultado, as opções **[!UICONTROL Todos os catálogos]** e **[!UICONTROL Todos os grupos de usuários]** serão selecionadas e o restante desabilitado.
 
 ![](assets/scope-of-featureprivileges.png)
 
@@ -308,7 +308,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
    <td>Criar</td>
    <td>Curso</td>
    <td>Grupo de conteúdo<br>
-     Tag<br>
+     Marca<br>
      Habilidade<br>
      Medalha<br>
      Ajuda de tarefa</td>
@@ -319,7 +319,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
    <td>Programa de aprendizado<br>
      Certificação<br></td>
    <td>Curso<br>
-     Tag<br>
+     Marca<br>
      Habilidade<br>
      Medalha</td>
    <td>Ler</td>
@@ -328,7 +328,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
    <td>Criar</td>
    <td>Plano de aprendizado</td>
    <td>Catálogo<br>
-     Agrupar<br>
+     Grupo<br>
      Habilidade<br>
      Todas as perdas (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
    <td>Ler</td>
@@ -337,7 +337,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
    <td>Criar</td>
    <td>Anúncio</td>
    <td>Usuário<br>
-     Agrupar<br>
+     Grupo<br>
      Todas as perdas (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
    <td>Ler</td>
   </tr>
@@ -356,14 +356,14 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
   <tr>
    <td>*</td>
    <td>Catálogo</td>
-   <td>Agrupar<br>
+   <td>Grupo<br>
      Todas as perdas (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
    <td>Ler</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Configuração</td>
-   <td>Marca<br>
+   <td>Identidade visual<br>
      Usuário</td>
    <td>Ler</td>
   </tr>
@@ -413,13 +413,13 @@ Na seção **Escopo dos privilégios do recurso**, conceda acesso a grupos de us
 
 ![](assets/scope-for-featureprivileges.png)
 
-*Conceder acesso a grupos de usuários e/ou catálogo para a função personalizada*
+*Conceder acesso a Grupos de Usuários e/ou Catálogo para a Função Personalizada*
 
 Atribua um usuário à função personalizada.
 
 ![](assets/assign-users-to-customrole.png)
 
-*Atribuir um usuário a uma função personalizada*
+*Atribuir um usuário a uma Função Personalizada*
 
 O usuário agora faz logon no Learning Manager como administrador personalizado e agora adiciona um plano de aprendizado.
 
@@ -458,7 +458,7 @@ Clicar em **[!UICONTROL Sim]** atualiza o escopo.
 Um administrador pode ativar relatórios de gamificação para um usuário personalizado.
 
 1. Na página **[!UICONTROL Funções personalizadas]**, digite o nome da função personalizada.
-1. No menu **[!UICONTROL Privilégios do recurso: recursos principais]** , ative a opção **[!UICONTROL Controle total]** para a categoria **[!UICONTROL Relatórios]**.
+1. Na seção **[!UICONTROL Privilégios do Recurso: Recursos Principais]**, habilite a opção **[!UICONTROL Controle Total]** para a categoria **[!UICONTROL Relatórios]**.
 
 1. Na seção **[!UICONTROL Usuários]**, selecione o usuário ao qual será atribuída a função personalizada recém-criada.
 1. Clique em **[!UICONTROL Salvar]**.

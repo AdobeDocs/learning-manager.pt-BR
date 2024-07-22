@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Integração do Adobe Connect
 description: Os autores podem criar cursos em sala de aula virtual com o Adobe Connect durante o processo de criação do curso. Para ativar o Adobe Connect na sua conta do Learning Manager, você precisa entrar em contato com o administrador da sua organização.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 94%
 
 ---
-
-
 
 # Integração do Adobe Connect
 
@@ -18,11 +17,11 @@ Os autores podem criar cursos em sala de aula virtual com o Adobe Connect durant
 ## Crie curso de sala de aula virtual (SV) com o Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. Na página Meus cursos, clique em Adicionar módulos e escolha Sala de aula virtual. A caixa de diálogo Criar sala de aula virtual é exibida.
-1. No menu **Sistema de Conferência** escolha Adobe Connect.
+1. Na opção **Sistema de Conferência**, escolha Adobe Connect.
 
    ![](assets/create-vc-author.png)
 
-   *Criar uma sala de aula virtual*
+   *Criar uma Sala de Aula Virtual*
 
 1. Insira o título, a descrição, a data da SV, a hora de início e a hora de término.
 
@@ -33,7 +32,7 @@ Os autores podem criar cursos em sala de aula virtual com o Adobe Connect durant
 
    ![](assets/instructors-list-author.png)
 
-   *Selecione o professor na lista*
+   *Selecionar o professor da lista*
 
 1. Forneça critérios de conclusão para o curso de SV. Critério de conclusão é a porcentagem da duração total do curso que um aluno deve frequentar para ser considerado como concluído. Por exemplo, digamos, a duração do curso é de 1 hora. Se você fornecer 50% como critérios de conclusão, se um aluno frequentar o curso mesmo por 30 minutos, ele será considerado como concluído para o aluno.
 1. Clique em **[!UICONTROL Concluído]**.

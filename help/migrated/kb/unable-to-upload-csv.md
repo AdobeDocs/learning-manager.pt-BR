@@ -3,14 +3,13 @@ description: Ao carregar um CSV, um erro é exibido. Continue lendo para resolve
 jcr-language: en_us
 title: Não é possível carregar CSV
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 10458499-1038-4c62-971f-f950d383e970
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 71%
 
 ---
-
-
 
 # Não é possível carregar CSV
 
@@ -20,7 +19,7 @@ Ao tentar carregar um CSV no Adobe Learning Manager, você verá a seguinte mens
 
 ![](assets/csv-upload-failed.png)
 
-*Mensagem de erro informando que o processamento de CSV falhou*
+*Mensagem de erro de falha no processamento de CSV*
 
 ## Causa
 
@@ -51,7 +50,7 @@ O problema ocorre quando o CSV é salvo como um formato UTF-8 no Excel. Quando v
    1. Abra o CSV no Excel.
    1. Salve o arquivo como um CSV normal.
 
-* **B:** Salvar no Bloco de Notas ou no Notepad++:
+* **B:** salvando pelo Bloco de Notas ou Bloco de Notas++:
 
    * Abra o CSV no Bloco de notas ou no Notepad++.
    * Salve o arquivo no formato UTF-8.
@@ -72,11 +71,11 @@ Esse problema ocorre se houver um usuário que já esteja presente no sistema co
 
 ### Cenário 1
 
-**Contas nas quais a UUID não está ativada.**
+**Contas nas quais a UUID não está habilitada.**
 
 Nesse cenário, há duas razões para esse erro:
 
-1. O usuário que você está tentando adicionar é um gerente de um perfil externo. Para resolver isso, abra o perfil externo do qual o usuário faz parte, selecione o usuário, clique em **[!UICONTROL Ações]** > **[!UICONTROL Atribuir Função]** > **[!UICONTROL Gerente]** e altere o Gerente do perfil.
+1. O usuário que você está tentando adicionar é um gerente de um perfil externo. Para resolver isso, abra o perfil externo do qual o usuário faz parte, selecione o usuário, clique em **[!UICONTROL Ações]** > **[!UICONTROL Atribuir função]** > **[!UICONTROL Gerente]** e altere o Gerente do perfil.
 1. O usuário que você está tentando adicionar foi removido. Nesse cenário, você não poderá adicionar o usuário com o mesmo endereço de e-mail até que o processo de limpeza seja concluído. Como solução alternativa**, adicione ao usuário um endereço de e-mail secundário para fornecer acesso à plataforma. Quando o processo de limpeza estiver concluído, edite o usuário e altere o endereço de e-mail para o endereço de e-mail correto.
 
 ### Cenário 2
@@ -85,11 +84,10 @@ Nesse cenário, há duas razões para esse erro:
 
 Para contas habilitadas para UUID, esse problema pode ocorrer se um usuário recebeu uma UUID que já está sendo usada por outro usuário na conta ou se o usuário tem um endereço de e-mail diferente.
 
-Por exemplo: deve haver dois usuários, A e B, com endereços de e-mail,  <a@xyz.com> e <b@xyz.com> com UUID 1 e 2, respectivamente.
+Por exemplo: deve haver dois usuários, A e B, com endereços de email, <a@xyz.com> e <b@xyz.com> com UUID 1 e 2, respectivamente.
 
 Agora, se você carregar um CSV que tenha a UUID do usuário A como 3 e a UUID do usuário B como 2, você verá um erro.
 
 >[!TIP]
 >
 >Para resolver esse problema, **você deve ter o mesmo endereço de email e UUID para o usuário no CSV e no sistema.**
-

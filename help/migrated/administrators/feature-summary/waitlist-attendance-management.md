@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Gerenciamento de listas de espera e participações
 description: Os administradores podem gerenciar a presença e as listas de espera dos cursos dos alunos.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 76%
 
 ---
-
-
 
 # Gerenciamento de listas de espera e participações
 
@@ -25,10 +24,10 @@ Os alunos são colocados em lista de espera de qualquer curso em sala de aula qu
 
 ![](assets/waitlist-and-attendance-mgmnt.png)
 
-*Selecione a opção Lista de espera*
+*Selecione a opção Lista de Espera*
 
 1. Clique em **[!UICONTROL Lista de espera]** no painel esquerdo da página de detalhes do curso. A lista de alunos na lista de espera é exibida na página.
-1. Selecione os alunos e clique em **[!UICONTROL Alocar licenças]** para inscrever os alunos diretamente nos cursos, substituindo o limite de vagas.
+1. Selecione os alunos e clique em **[!UICONTROL Atribuir vagas]** para inscrever os alunos diretamente nos cursos, substituindo o limite de vagas.
 
 ## Gerenciamento de participação {#attendancemanagement}
 

@@ -30,11 +30,11 @@ Usando a API do Learning Manager, os desenvolvedores podem criar aplicativos ind
 
 A API do Learning Manager é baseada nos princípios de REST e expõe os elementos-chave do Modelo de objeto do Learning Manager aos desenvolvedores de aplicativos por meio de HTTP. Antes de conhecer os detalhes dos pontos de extremidade da API e dos métodos HTTP, os desenvolvedores podem se familiarizar com os vários objetos do Learning Manager, os seus atributos e inter-relacionamentos. Uma vez que os modelos são entendidos, será útil obter um entendimento básico da estrutura de solicitações e respostas da API, e alguns termos comuns de programação que usamos genericamente em toda a API.
 
-Para obter detalhes sobre os diversos métodos e pontos de extremidade da API, consulte  [Documentação da API do Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
+Para obter detalhes sobre os diversos métodos e pontos de extremidade da API, consulte a [documentação da API do Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
 ## APIs do aluno
 
-Adobe Learning Manager - as APIs do aluno permitem que você crie uma experiência de aprendizado personalizada para seus usuários. O uso dessas APIs precisa de um token de usuário válido e deve ser usado apenas para fins de fluxos de trabalho em que haja um aluno totalmente licenciado/registrado.
+Adobe Learning Manager: as APIs do aluno permitem que você crie uma experiência de aprendizado personalizada para seus usuários. O uso dessas APIs precisa de um token de usuário válido e deve ser usado apenas para fins de fluxos de trabalho em que haja um aluno totalmente licenciado/registrado.
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ Adobe Learning Manager - as APIs do aluno permitem que você crie uma experiênc
 
 Os casos de uso não conectados exigem tratamento especial.
 
-**Entre em contato com a equipe de Arquitetura de solução, caso você tenha dúvidas sobre o uso apropriado dessas APIs, e certifique-se de que um arquiteto de solução tenha verificado uma solução antes de implantá-la**.
+**Entre em contato com a equipe de Arquitetura de Solução, caso tenha dúvidas sobre o uso apropriado dessas APIs, e certifique-se de que um Arquiteto de Soluções tenha verificado uma solução antes de implantá-la**.
 
 ## Autenticação da API {#apiauthentication}
 
@@ -52,7 +52,7 @@ As APIs do Learning Manager usam a estrutura OAuth 2.0 para autenticar e autoriz
 
 **Procedimento**
 
-**1. Configurar o aplicativo**
+**1. Configurar seu aplicativo**
 
 Você pode configurar o aplicativo com a ID do cliente e o segredo do cliente para usar os pontos de extremidade apropriados. Depois de registrar o aplicativo, você pode obter a clientId e o clientSecret. Obter URL deve ser usado no navegador, pois ele autentica os usuários do Learning Manager usando as suas contas pré-configuradas, como SSO, Adobe ID e assim por diante.
 
@@ -116,7 +116,7 @@ Alguns dos termos usados com frequência na API do Learning Manager são explica
 
 **Inclui**
 
-Os desenvolvedores podem acessar um único modelo de objeto de API e também vários modelos associados a esse modelo. Para acessar os modelos relacionados subsequentes, você precisa entender a relação de cada modelo com outros modelos. **Inclui** permite que os desenvolvedores acessem os modelos dependentes. É possível usar um separador de vírgulas para acessar vários modelos. Para obter exemplos de uso e mais detalhes sobre **inclui**, consulte a seção modelo de API de amostra nesta página.
+Os desenvolvedores podem acessar um único modelo de objeto de API e também vários modelos associados a esse modelo. Para acessar os modelos relacionados subsequentes, você precisa entender a relação de cada modelo com outros modelos. O parâmetro **Includes** permite que os desenvolvedores acessem os modelos dependentes. É possível usar um separador de vírgulas para acessar vários modelos. Para obter exemplos de uso e mais detalhes sobre **inclusões**, consulte a seção modelo de API de exemplo nesta página.
 
 **Solicitação de API**
 
@@ -124,7 +124,7 @@ As solicitações de API podem ser feitas através de uma solicitação HTTP. De
 
 **Resposta da API**
 
-Quando uma solicitação de API é feita por um cliente, um documento SON é obtido de acordo com a especificação da API JSON. A resposta também contém o código Status HTTP, que o desenvolvedor pode verificar para executar as próximas etapas apropriadas na lógica do aplicativo. A estrutura de uma Resposta de API típica é descrita em  [exemplo de uso do modelo](#main-pars_header_1415780624).
+Quando uma solicitação de API é feita por um cliente, um documento SON é obtido de acordo com a especificação da API JSON. A resposta também contém o código Status HTTP, que o desenvolvedor pode verificar para executar as próximas etapas apropriadas na lógica do aplicativo. A estrutura de uma Resposta de API típica é descrita em [exemplo de uso de modelo](#main-pars_header_1415780624).
 
 **Erros**
 
@@ -132,7 +132,7 @@ Quando uma solicitação de API falha, uma resposta de erro é obtida. O código
 
 **Campos**
 
-Os atributos do objeto de API e suas relações são coletivamente chamados de Campos. Consulte a [API JSON para obter mais informações.](http://jsonapi.org/format/#document-resource-object-fields) Você pode usar Campos como um parâmetro enquanto faz chamadas de API para buscar um ou mais atributos específicos do modelo. Na ausência do parâmetro Campos, a chamada da API busca todos os atributos disponíveis do modelo. Por exemplo, na seguinte chamada de API, os campos[habilidade]=name busca somente o atributo name do modelo de habilidade.
+Os atributos do objeto de API e suas relações são coletivamente chamados de Campos. Consulte a [API JSON para obter mais informações.](http://jsonapi.org/format/#document-resource-object-fields) Você pode usar Campos como um parâmetro enquanto faz chamadas de API para buscar um ou mais atributos específicos do modelo. Na ausência do parâmetro Campos, a chamada da API busca todos os atributos disponíveis do modelo. Por exemplo, na seguinte chamada de API, fields[skill]=name busca o atributo name apenas do modelo de habilidade.
 
 https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
 
@@ -142,7 +142,7 @@ https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?inc
 
 **Classificação**
 
-A classificação é permitida em modelos de API. Com base no modelo, escolha o tipo de classificação a ser aplicado para os resultados. A classificação pode ser aplicada em ordem crescente ou decrescente. Por exemplo, se você especificar `code sort=name`, em seguida, é uma classificação ascendente por nome. Se você especificar `code sort=-name`, é uma classificação descendente por nome. Consulte [Especificação da API JSON para obter mais informações](http://jsonapi.org/format/#fetching-sorting).
+A classificação é permitida em modelos de API. Com base no modelo, escolha o tipo de classificação a ser aplicado para os resultados. A classificação pode ser aplicada em ordem crescente ou decrescente. Por exemplo, se você especificar `code sort=name`, ele será classificado por nome em ordem crescente. Se você especificar `code sort=-name`, ele será classificado por nome em ordem decrescente. Consulte [Especificação da API JSON para obter mais informações](http://jsonapi.org/format/#fetching-sorting).
 
 ## Ilustração de uso da API {#samplemodel}
 
@@ -150,7 +150,7 @@ Vamos considerar um cenário em que um desenvolvedor deseja obter o nome da habi
 
 Um modelo userSkill nas APIs do Learning Manager consiste em id, type, dateAchieve, dateCreated, pointsEarned como atributos padrão. Portanto, quando um desenvolvedor usa o método GET para adquirir detalhes do modelo userSkill, os dados atuais pertencentes aos atributos padrão são mostrados na saída de resposta.
 
-Mas, nesse cenário, o desenvolvedor quer obter o nome da habilidade e os pontos de nível de habilidade para o usuário. A API do Learning Manager permite que você acesse essas informações relacionadas usando os campos de relacionamento e inclua o parâmetro. Os modelos associados para userSkill são obtidos na tag de relacionamentos. Você pode obter os detalhes de cada modelo associado chamando esses modelos junto com o userSkill. Para obter essas informações, use **`code include`** parâmetro com valores separados por ponto (ponto) para cada um dos modelos associados. Você pode usar vírgula como separador para solicitar outro modelo, como user include=skillLevel.skill,course
+Mas, nesse cenário, o desenvolvedor quer obter o nome da habilidade e os pontos de nível de habilidade para o usuário. A API do Learning Manager permite que você acesse essas informações relacionadas usando os campos de relacionamento e inclua o parâmetro. Os modelos associados para userSkill são obtidos na tag de relacionamentos. Você pode obter os detalhes de cada modelo associado chamando esses modelos junto com o userSkill. Para obter essas informações, use o parâmetro **`code include`** com valores separados por ponto (ponto) para cada um dos modelos associados. Você pode usar vírgula como separador para solicitar outro modelo, como user include=skillLevel.skill,course
 
 **Chamada de API**
 
@@ -410,7 +410,7 @@ Veja a seguir os vários elementos do diagrama de classe do Learning Manager na 
      an
     </code> <code>
      loResource
-    </code> são equivalentes em termos do objetivo de aprendizado, mas diferem entre si em termos do tipo de entrega ou do local do conteúdo.<br></td>
+    </code> são equivalentes em termos do objetivo de aprendizado, mas diferem entre si em termos do tipo de entrega ou localidade do conteúdo.<br></td>
   </tr>
   <tr>
    <td>userNotification</td>
@@ -422,9 +422,9 @@ Veja a seguir os vários elementos do diagrama de classe do Learning Manager na 
   </tr>
   <tr>
    <td>userBadge</td>
-   <td>UserBadge relaciona um único emblema <code>
+   <td>UserBadge relaciona uma única medalha <code>
      with
-    </code> um único usuário. Contém pormenores como, por exemplo, quando foi alcançado, <code>
+    </code> a um único usuário. Contém detalhes de quando foi obtida, <code>
      assertionUrl
     </code> e assim por diante. <br></td>
   </tr>
@@ -438,9 +438,9 @@ Veja a seguir os vários elementos do diagrama de classe do Learning Manager na 
   </tr>
   <tr>
    <td>learningObject</td>
-   <td>Um objeto de aprendizado é uma abstração para vários tipos de objetos nos quais os usuários podem se inscrever e aprender. Atualmente, o Learning Manager tem os quatro tipos de objetos de aprendizado: curso, certificação e programa de aprendizado <code>
+   <td>Um objeto de aprendizado é uma abstração para vários tipos de objetos nos quais os usuários podem se inscrever e aprender. Atualmente, o Learning Manager tem os quatro tipos de objetos de aprendizado: curso, certificação e ajuda de trabalho do programa de aprendizado <code>
      and
-    </code> Ajuda de tarefa.<br></td>
+    </code>.<br></td>
   </tr>
   <tr>
    <td>learningObjectInstance<br></td>
@@ -448,25 +448,25 @@ Veja a seguir os vários elementos do diagrama de classe do Learning Manager na 
   </tr>
   <tr>
    <td>learningObjectResource</td>
-   <td>Isto equivale ao conceito de <code>
+   <td>Isso é equivalente ao conceito de <code>
      module
-    </code>. Um curso é composto por um curso <code>
+    </code>. Um curso é composto por mais um <code>
      of
-    </code> mais módulos. No Learning Manager, um módulo pode ser fornecido de várias maneiras equivalentes. Por conseguinte, a <code>
+    </code> módulos. No Learning Manager, um módulo pode ser fornecido de várias maneiras equivalentes. Portanto, o <code>
      loResource
-    </code> essencialmente todos esses recursos equivalentes.<br></td>
+    </code> essencialmente encapsula todos esses recursos equivalentes.<br></td>
   </tr>
   <tr>
    <td>loResourceGrade<br></td>
-   <td>Isso encapsula o resultado do usuário que está consumindo um recurso específico no contexto de um objeto de aprendizado no qual ele está inscrito. Possui informações como a duração gasta pelos <code>
+   <td>Isso encapsula o resultado do usuário que está consumindo um recurso específico no contexto de um objeto de aprendizado no qual ele está inscrito. Ele tem informações como a duração gasta por <code>
      user
-    </code> no recurso, percentual do progresso feito pelo usuário, status de aprovação/reprovação e a pontuação obtida pelo usuário em qualquer quiz associado.<br></td>
+    </code> no recurso, o percentual de progresso feito pelo usuário, o status de aprovação/reprovação e a pontuação obtida pelo usuário em qualquer quiz associado.<br></td>
   </tr>
   <tr>
    <td>calendário<br></td>
-   <td>Um objeto de calendário é uma lista de <code>
+   <td>Um objeto de calendário é uma lista de cursos de sala de aula virtual <code>
      upcoming classroom
-    </code> ou cursos em sala de aula virtual nos quais o usuário pode se inscrever.<br></td>
+    </code> nos quais o usuário pode se inscrever.<br></td>
   </tr>
   <tr>
    <td>l1FeedbackInfo<br></td>
@@ -825,7 +825,7 @@ Como desenvolvedor, você precisa criar uma conta de avaliação no Learning Man
 
 ## Criar ID de cliente e segredo {#createclientidandsecret}
 
-1. Entrada **Administrador de integração** faça login, clique em **[!UICONTROL Aplicativos]** no painel esquerdo.
+1. No logon do **Administrador de Integração**, clique em **[!UICONTROL Aplicativos]** no painel esquerdo.
 
    ![](assets/application-development-menu.png)
 
@@ -843,17 +843,17 @@ Como desenvolvedor, você precisa criar uma conta de avaliação no Learning Man
 
    **URL**: se souber o URL exato onde o aplicativo está hospedado, você poderá mencioná-lo. Se não estiver ciente, você poderá mencionar o URL da sua empresa. O nome de URL válido é obrigatório neste campo.
 
-   **Domínios de redirecionamento**: insira o nome de domínio do aplicativo no qual você deseja que o aplicativo Learning Manager seja redirecionado após a autenticação OAuth. Você pode mencionar vários URLs aqui, mas deve usar os URLs válidos, como `http://google.com`, `http://yahoo.com` e assim por diante.
+   **Domínios de redirecionamento**: insira o nome de domínio do aplicativo no qual você deseja que o aplicativo Learning Manager seja redirecionado após a autenticação OAuth. Você pode mencionar várias URLs aqui, mas é necessário usar as URLs válidas, como `http://google.com`, `http://yahoo.com` e assim por diante.
 
-   **Descrição:** Insira a breve descrição do seu aplicativo.
+   **Descrição:** insira uma breve descrição para o seu aplicativo.
 
-   **Escopos:** Escolha uma das quatro opções disponíveis para definir o escopo do seu aplicativo. Com base na sua escolha mencionada aqui, o ponto de extremidade da API do Learning Manager está acessível para o seu aplicativo. Por exemplo, se você escolher **Acesso de leitura à função do aluno**, todos os pontos de extremidade da API do aluno do Learning Manager são somente leitura acessíveis ao seu aplicativo.
+   **Escopos:** escolha uma das quatro opções disponíveis para definir o escopo do seu aplicativo. Com base na sua escolha mencionada aqui, o ponto de extremidade da API do Learning Manager está acessível para o seu aplicativo. Por exemplo: se você escolheu **acesso de leitura da função do aluno**, todos os pontos de extremidade da API do aluno do Learning Manager são somente leitura acessíveis ao seu aplicativo.
 
    **Apenas para esta conta?**\
    **Sim** - se você escolher Sim, o aplicativo não estará visível para outros administradores de conta.\
-   **Não** - se você escolher Não, outros administradores de conta também poderão acessar este aplicativo, mas precisarão usar a ID do aplicativo para acessar esse aplicativo. A ID do aplicativo é gerada e exibida no modo Edição do aplicativo Learning Manager.
+   **Não** - se você escolher Não, outros administradores de conta também poderão acessar este aplicativo, mas precisarão usar a ID do aplicativo para acessar este aplicativo. A ID do aplicativo é gerada e exibida no modo Edição do aplicativo Learning Manager.
 
-   Se você escolher **Acesso de leitura e gravação da função de administrador** como escopo durante o registro do aplicativo e escolha **Acesso de leitura da função de administrador** ao criar as APIs, você ainda pode ter acesso de gravação ao aplicativo, pois o escopo de registro do aplicativo substitui o fluxo de trabalho de autorização.
+   Se você escolher **Acesso de leitura e gravação da função de administrador** como escopo ao registrar o aplicativo e escolher **Acesso de leitura da função de administrador** ao criar as APIs, ainda poderá ter acesso de gravação para o aplicativo, pois o escopo de registro do aplicativo substitui o fluxo de trabalho de autorização.
 
 1. Clique em **[!UICONTROL Registrar]** no canto superior direito após preencher os detalhes na página de registro.
 
@@ -867,7 +867,7 @@ Recomendamos que o administrador do Learning Manager ou um administrador de inte
 
 ## Aprovação de aplicativo externo {#externalapplicationapproval}
 
-É possível adicionar aplicativos externos clicando em **Aprovar** no canto superior direito da **Aplicativos** página. Forneça a ID do aplicativo externo e clique em **Salvar.**
+Você pode adicionar aplicativos externos clicando em **Aprovar** no canto superior direito da página **Aplicativos**. Forneça a ID do aplicativo externo e clique em **Salvar.**
 
 ![](assets/add-external-application.png)
 

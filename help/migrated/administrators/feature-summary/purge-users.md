@@ -40,24 +40,24 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 Para remover usuários, siga estas etapas:
 
 1. Como administrador, selecione **[!UICONTROL Usuários]** no painel esquerdo. A página **[!UICONTROL Usuários internos]** é aberta.
-1. Exclua os usuários que deseja remover. Para excluir, selecione um ou mais usuários usando a caixa de seleção. Abra o **[!UICONTROL Ação]** e selecione **[!UICONTROL Excluir usuário.]**
+1. Exclua os usuários que deseja remover. Para excluir, selecione um ou mais usuários usando a caixa de seleção. Abra o menu suspenso **[!UICONTROL Ação]** e selecione **[!UICONTROL Excluir Usuário.]**
 1. No painel esquerdo, selecione **[!UICONTROL Limpeza do usuário]**. A página **[!UICONTROL Limpeza do Usuário]** é exibida com a lista de usuários excluídos. Use os botões de opção para selecionar o usuário a ser removido. Você só pode remover um usuário por vez.
 
    ![](assets/purge-1.png)
 
-   *Selecione um usuário para remover*
+   *Selecione um usuário a ser removido*
 
-1. Abra o **[!UICONTROL Ações]** menu suspenso e selecione **[!UICONTROL Remover usuário]**.
+1. Abra o menu suspenso **[!UICONTROL Ações]** e selecione **[!UICONTROL Limpar Usuário]**.
 
    ![](assets/purge-2.png)
 
-   *Selecione a opção Remover usuário*
+   *Selecione a opção Limpar Usuário*
 
 1. Uma caixa de diálogo é exibida para confirmar. Após remover, todos os dados e registros de aprendizado associados ao usuário selecionado serão excluídos permanentemente. Uma vez removido, a ação não pode ser desfeita. Para confirmar, clique em **[!UICONTROL Limpar]**.
 
    ![](assets/purge-3.png)
 
-   *Mensagem de confirmação após remover um usuário*
+   *Mensagem de confirmação após limpar um usuário*
 
 1. Após confirmar e clicar em Remover, a solicitação de remoção será aceita. Você receberá uma notificação assim que a ação for concluída. Uma ID de solicitação de remoção também é fornecida. Você pode fornecer essa ID ao CSM para rastrear a solicitação.
 
@@ -67,7 +67,7 @@ Você pode selecionar os 50 primeiros usuários e removê-los de uma só vez. Is
 
 ![](assets/bulk-purge-users.png)
 
-*Remover usuários em massa*
+*Limpar usuários em massa*
 
 +++Leia sobre os resultados da ação Remover usuário
 
@@ -186,7 +186,7 @@ Você pode selecionar os 50 primeiros usuários e removê-los de uma só vez. Is
 
 +++
 
-O Learning Manager agora está em conformidade com o GDPR. Para obter mais informações sobre a conformidade com o GDPR, consulte  [Conformidade do Learning Manager com o GDPR](../../kb/prime-gdpr.md).
+O Learning Manager agora está em conformidade com o GDPR. Para mais informações sobre a conformidade com o GDPR, consulte [Conformidade do Learning Manager com o GDPR](../../kb/prime-gdpr.md).
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 

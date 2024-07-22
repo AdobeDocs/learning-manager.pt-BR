@@ -31,13 +31,13 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 ## Configurar a página inicial do aluno {#configurethelearnerhomepage}
 
-Na guia **Marca** > **Página inicial do aluno** Um administrador pode personalizar a experiência da página inicial de um aluno para que, quando o aluno fizer logon no aplicativo do aluno, ele veja uma aparência completamente renovada.
+Na página **Marcas** > **Página inicial do aluno**, um administrador pode personalizar a experiência da página inicial de um aluno para que, quando ele entrar no aplicativo do aluno, ele veja uma aparência completamente renovada.
 
-Os administradores podem definir a interface do usuário (aparência e funcionalidade) no aplicativo do administrador (**Marca** > **Página inicial do aluno** ).
+Os administradores podem definir a interface do usuário (aparência e funcionalidade) no aplicativo do administrador (**Marcas** > guia **Página inicial do aluno**).
 
 Os administradores podem alternar para a exibição Widget de interface de usuário imersiva, personalizar os widgets/recursos de acordo e, em seguida, ativar a interface de usuário imersiva.
 
-O **Página inicial do aluno** contém as seguintes seções:
+A tela **Página inicial do aluno** contém estas seções:
 
 ## Opção de layout imersivo {#immersivelayoutoption}
 
@@ -47,15 +47,15 @@ Nas versões anteriores, as opções da Página inicial do aluno estavam em Conf
 
 Estas são as opções que você pode definir:
 
-**Experiência de página inicial:** Ative **Clássico** ou **Imersivo**. Se você escolher Imersivo, as seguintes opções serão exibidas:
+**Experiência de Página Inicial:** habilite o **Clássico** ou o **Imersivo**. Se você escolher Imersivo, as seguintes opções serão exibidas:
 
-* **Tipo de treinamento:** Escolha **Indústria** ou **Personalizado alinhado**. Os treinamentos personalizados são criados internamente. Os treinamentos alinhados ao setor incluem conteúdo disponível de fornecedores terceirizados.
+* **Tipo de Treinamento:** escolha **Setor** ou **Alinhado Personalizado**. Os treinamentos personalizados são criados internamente. Os treinamentos alinhados ao setor incluem conteúdo disponível de fornecedores terceirizados.
 
 ![](assets/select-homepage-experience.png)
 
-*Definir a experiência da página inicial selecionando Setor ou Personalizado alinhado*
+*Defina a experiência da página inicial selecionando Setor ou Personalizado Alinhado*
 
-A opção **Permitir que o aluno explore áreas de interesse** está disponível para as experiências Clássica e Imersiva.
+A opção **Permitir que o aluno explore Áreas de Interesse** está disponível para as experiências Clássica e Imersiva.
 
 <table>
  <tbody>
@@ -78,7 +78,7 @@ Se houver menos de 1.000 alunos, a conta inteira será considerada como um escop
 
 >[!NOTE]
 >
->A caixa de seleção **Explorar habilidades** foi movido para Configurações > Geral.
+>A caixa de seleção **Explorar habilidades** foi movida para Configurações > Geral.
 
 Isso será ativado e esmaecido se a experiência imersiva for escolhida. Essa caixa de seleção será ativada somente para a experiência Clássica.
 
@@ -92,7 +92,7 @@ Aqui estão os widgets que você pode ativar/desativar.
 
 Com isso, você pode visualizar a interface do usuário do aluno antes que ela entre em funcionamento.
 
-Para contas existentes, a opção **Imersivo** será **DESLIGADO**. Está ativada para nova conta com Social e Gamificação ativadas.
+Para contas existentes, a opção **Imersivo** será **DESATIVADA**. Está ativada para nova conta com Social e Gamificação ativadas.
 
 ![](assets/immersive-layout-widgets.png)
 
@@ -160,7 +160,7 @@ Para contas existentes, a opção **Imersivo** será **DESLIGADO**. Está ativad
     <p>Quando ativado, esse widget recomenda treinamentos para grupos de usuários específicos. Cada grupo de usuários pode ser direcionado a um ou mais treinamentos e o plano de destino deve ser baseado em um período. <br></p>
     <ul>
      <li>
-      <p>Em primeiro lugar, o <a href="announcements.md#recommendation">cria um comunicado</a> de tipo <b>Como Recomendação</b> e, em seguida, seleciona o treinamento necessário e usa grupos. Um aluno pertencente a um grupo de usuários verá o treinamento recomendado.</p></li>
+      <p>Primeiro, o administrador <a href="announcements.md#recommendation">cria um comunicado</a> do tipo <b>Como Recomendação</b> e seleciona o treinamento necessário e usa grupos. Um aluno pertencente a um grupo de usuários verá o treinamento recomendado.</p></li>
      <li>
       <p>Em segundo lugar, o administrador também pode decidir se as recomendações são iniciadas imediatamente ou em uma data especificada.</p></li>
     </ul></td>
@@ -203,7 +203,7 @@ Quando o aluno faz logon no aplicativo do aluno por meio de um navegador, ele po
  </tbody>
 </table>
 
-*Exibir layout imersivo para várias seções na página inicial*
+*Exibir layout imersivo para várias seções na home page*
 
 ## Opção de layout clássico {#classiclayoutoption}
 
@@ -215,9 +215,9 @@ O layout da interface do usuário que sempre existiu até agora é chamado de La
 
 ## Definir configurações de recomendação {#configurerecommendationsettings}
 
-Ativado **Marca** > **Geral**, você pode configurar escopos de recomendação para alunos internos e externos e ativar os alunos para escolherem habilidades na página inicial do aluno.
+Em **Marcas** > **Geral**, você pode configurar escopos de recomendação para alunos internos e externos e permitir que os alunos escolham habilidades na página inicial do aluno.
 
-Na guia **Geral** você tem as seguintes opções:
+Na página **Geral**, você tem as seguintes opções:
 
 <table>
  <tbody>
@@ -273,13 +273,13 @@ Na guia **Geral** você tem as seguintes opções:
    <td>
     <p>Permitir que o aluno explore áreas de interesse</p></td>
    <td>
-    <p>Somente para a experiência clássica. Escolher <b>Sim </b>ou <b>Não</b>.<br></p></td>
+    <p>Somente para a experiência clássica. Escolha <b>Sim </b>ou <b>Não</b>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Solicitar aos usuários que selecionem Áreas de Interesse (Habilidades) <br></p></td>
    <td>
-    <p>Somente para experiência imersiva. Escolher <b>Sim</b> ou <b>Não</b>. <br></p></td>
+    <p>Somente para experiência imersiva. Escolha <b>Sim</b> ou <b>Não</b>. <br></p></td>
   </tr>
  </tbody>
 </table>

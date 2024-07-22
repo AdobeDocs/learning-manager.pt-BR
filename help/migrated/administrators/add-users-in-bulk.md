@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Adicionar usuários em massa
 description: Saiba como adicionar vários usuários de uma vez.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 24%
 
 ---
-
-
 
 # Adicionar usuários em massa
 
@@ -24,15 +23,15 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 Você pode adicionar vários usuários de uma vez seguindo as etapas abaixo:
 
-1. Clique em **[!UICONTROL Usuários]** no painel esquerdo de login do administrador e, em seguida, clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Fazer upload de um csv]**. Uma caixa de diálogo pop-up é exibida.
+1. Clique em **[!UICONTROL Usuários]** no painel esquerdo de logon do administrador e em **[!UICONTROL Adicionar]** > **[!UICONTROL Carregar um csv]**. Uma caixa de diálogo pop-up é exibida.
 
 1. Você pode adicionar vários usuários usando um arquivo .CSV. Clique em **[!UICONTROL Importar]** e selecione/abra o arquivo .csv no computador.
 
 1. Após importar o arquivo, mapeie o conteúdo do arquivo .csv com os rótulos do aplicativo ao fazer upload do arquivo .csv pela primeira vez.
 
-   Para todos os uploads subsequentes, as configurações anteriores para rótulos são consideradas. Clique em **[!UICONTROL Salvar]** depois de concluir o mapeamento de dados e clique em **[!UICONTROL Adicionar]** para carregar o arquivo .csv mapeado.
+   Para todos os uploads subsequentes, as configurações anteriores para rótulos são consideradas. Clique em **[!UICONTROL Salvar]** após concluir o mapeamento de dados e clique em **[!UICONTROL Adicionar]** para carregar o arquivo .csv mapeado.
 
-1. Clique em **[!UICONTROL Salvar]** depois de concluir o mapeamento de dados e clique em **[!UICONTROL Adicionar]** para carregar o arquivo .csv mapeado.
+1. Clique em **[!UICONTROL Salvar]** após concluir o mapeamento de dados e clique em **[!UICONTROL Adicionar]** para carregar o arquivo .csv mapeado.
 
 ## Upload de CSV com campos obrigatórios {#csvuploadwithmandatoryfields}
 
@@ -40,10 +39,10 @@ Não é obrigatório adicionar o perfil do usuário e a ID de e-mail do gerente 
 
 Nesse caso, por padrão, o administrador da sua empresa é tratado como o gerente dos usuários. Por padrão, o funcionário é considerado como o perfil do usuário.
 
-**CSV de amostra**
+**CSV de exemplo**
 
 O CSV de amostra do Learning Manager está disponível abaixo com campos obrigatórios.
-[Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
+[Amostra-CSV-nome-email.zip](assets/sample-csv-name-email.zip)
 
 ## Upload de CSV com todos os campos {#csvuploadwithallthefields}
 
@@ -51,13 +50,13 @@ Antes de incluir a ID de e-mail do gerente para qualquer funcionário, verifique
 
 ![](assets/csv-example.png)
 
-*Modelo CSV para upload*
+*Modelo CSV para carregamento*
 
 Além disso, os administradores de uma organização podem adicionar a si mesmos como funcionários e mencionar a ID de e-mail do gerente como raiz.
 
-**CSV de amostra**
+**CSV de exemplo**
 
 O CSV de amostra do Learning Manager está disponível abaixo com todos os campos.
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip).
 
-Consulte  [Usar o upload de CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md) conteúdo de ajuda do recurso para obter mais informações.
+Consulte o conteúdo de ajuda do recurso [Usando carregamento de CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md) para obter mais informações.

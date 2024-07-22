@@ -32,17 +32,17 @@ Depois de ativar e configurar as recomendações, faça upload dos dados no Adob
 
 ## Algoritmo de classificação de curso
 
-O núcleo do mecanismo de recomendação é orientado pelos novos **Algoritmo de classificação do curso**. O algoritmo usa **50 milhões de pontos de dados** e **cinco anos de dados de aprendizado agregados em milhões de usuários** para classificar cursos com base em suas **probabilidades de inscrição**. Essa classificação garante que a maioria dos cursos aptos para inscrição seja exibida antecipadamente para os alunos.
+O núcleo do mecanismo de recomendação é orientado pelo novo **Algoritmo de classificação de curso** do Learning Manager. O algoritmo usa **50 milhões de pontos de dados** e **cinco anos de dados de aprendizado agregados em milhões de usuários** para classificar cursos com base em suas **probabilidades de inscrição**. Essa classificação garante que a maioria dos cursos aptos para inscrição seja exibida antecipadamente para os alunos.
 
 ## Termos importantes
 
-O novo mecanismo de recomendação baseado em IA do Learning Manager fornece aos líderes de aprendizado um **baseado em parâmetro** sistema de recomendação para criar uma experiência personalizada para os alunos.
+O novo mecanismo de recomendação baseado em IA do Learning Manager fornece aos líderes de aprendizado um sistema de recomendação **baseado em parâmetros** configurável para elaborar uma experiência personalizada para os alunos.
 
 Os parâmetros são: **Produtos/Tópicos, Funções e Níveis**. Além disso, esses parâmetros podem ser renomeados para atender às suas necessidades. Portanto, “produtos” podem se tornar “tópicos” ou “funções” podem se tornar “região”.
 
 ## Configurar o sistema de recomendações
 
-O novo mecanismo de recomendação do Adobe Learning Manager simplifica o fluxo de trabalho do administrador envolvido na configuração de recomendações personalizadas, pois os dados sobre produtos e funções associados a um cliente/parceiro geralmente estão disponíveis para os administradores (por exemplo, a partir de registros de compra).
+O novo mecanismo de recomendação da Adobe Learning Manager simplifica o fluxo de trabalho do administrador envolvido na configuração de recomendações personalizadas, pois os dados sobre produtos e funções associados a um cliente/parceiro geralmente estão disponíveis para os administradores (por exemplo, a partir de registros de compra).
 
 Há principalmente três fluxos de trabalho envolvidos na configuração do novo mecanismo de recomendação:
 

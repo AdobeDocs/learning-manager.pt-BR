@@ -67,7 +67,7 @@ O seguinte pode ser personalizado:
 
    <td>
 
-    <p>Adicione várias contas (subdomínios), se desejar. Adicione os subdomínios como separados por vírgula sem espaços. Por exemplo, acc01,acc02,acc03 e assim por diante.<br> <b>Observação:</b> Você precisa adicionar a ID da conta ao especificar os subdomínios.</br> </p>
+    <p>Adicione várias contas (subdomínios), se desejar. Adicione os subdomínios como separados por vírgula sem espaços. Por exemplo, acc01,acc02,acc03 e assim por diante.<br> <b>Observação:</b> é necessário adicionar a ID da conta ao especificar os subdomínios.</br> </p>
 
    </td>
 
@@ -287,7 +287,7 @@ Tanto o Android quanto o iOS usam o Firebase Cloud Messaging (FCM) como o servi�
 
 Siga o procedimento:
 
-1. Gere ou baixe o **Certificado de notificação por push** e a chave privada (.p12). Para obter mais informações, consulte o [Documento do desenvolvedor do Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Gere ou baixe o **Certificado de notificação por push** e a chave privada (.p12). Para obter mais informações, consulte o [documento do desenvolvedor do Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
 1. Instale o arquivo p12 após o download do arquivo. Use a senha para instalar no **Acesso às Chaves**.
 
@@ -313,19 +313,19 @@ Crie um projeto no Firebase e compartilhe o arquivo services.json com a equipe d
 
 Para baixar o arquivo services.json, siga estas etapas:
 
-1. Faça logon no **Firebase** console.
-1. Ir para **Configurações do projeto** e selecione **Mensagens na nuvem**.
-1. Localizar **API do Firebase Cloud Messaging** e selecione **Gerenciar Contas de Serviço**.
-1. No menu **Contas de serviço** , selecione o **Contas de serviço** no painel esquerdo.
-1. Localize sua entrada do projeto e selecione **Gerenciar detalhes** ações.
+1. Faça logon no console **Firebase**.
+1. Vá para **Configurações do projeto** e selecione **Mensagens na nuvem**.
+1. Localize a **API do Firebase Cloud Messaging** e selecione **Gerenciar Contas de Serviço**.
+1. Na página **Contas de serviço**, selecione as **Contas de serviço** no painel esquerdo.
+1. Localize sua entrada do projeto e selecione **Gerenciar detalhes** em Ações.
 
    >[!NOTE]
    >
    >   O formato de entrada do projeto será &lt;-accountname->@appspot.gserviceaccount.com.
 
-1. Acesse o menu **Teclas** e selecione **Adicionar chave**.
-1. Se não houver chave, selecione **Criar nova chave** e selecione **JSON** como o tipo de chave. Isso vai gerar e baixar o arquivo JSON.
-1. Se já houver uma chave, selecione **Carregar chave existente**, cole a chave e faça upload dela. Isso vai gerar e baixar o arquivo JSON.
+1. Vá para a guia **Chaves** e selecione **Adicionar Chave**.
+1. Se não houver uma chave, selecione **Criar nova chave** e selecione **JSON** como o tipo de chave. Isso vai gerar e baixar o arquivo JSON.
+1. Se já houver uma chave, selecione **Carregar chave existente**, cole a chave e carregue-a. Isso vai gerar e baixar o arquivo JSON.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ Entre em contato com a equipe de CSM e compartilhe o arquivo JSON para adicionar
 
 Reutilize o mesmo projeto que você criou nas etapas acima para notificações por push.
 
-[Adicionar o projeto](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) no Firebase e recupere o ***google-services.json*** arquivo.
+[Adicione o projeto](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) no Firebase e recupere o arquivo ***google-services.json***.
 
 ### iOS
 
-[Adicionar o projeto](https://firebase.google.com/docs/ios/setup) ao Firebase e recupere o ***GoogleService-Info.plist*** arquivo.
+[Adicione o projeto](https://firebase.google.com/docs/ios/setup) ao Firebase e recupere o arquivo ***GoogleService-Info.plist***.
 
 >[!IMPORTANT]
 >
@@ -379,7 +379,7 @@ Depois de gerar os binários, envie-os para a Play Store ou App Store.
 
 ## Como aplicar as alterações
 
-Envia os ativos e arquivos necessários para a equipe de CSM. A equipe do CSM preenche, em seguida, o [formulário](https://forms.office.com/r/bJRRaRBvSh) com as alterações necessárias e anexa os ativos necessários. A equipe então analisará e informará as equipes de engenharia sobre as mudanças. A equipe de engenharia irá gerar uma compilação e compartilhar com a equipe de CSM.
+Envia os ativos e arquivos necessários para a equipe de CSM. A equipe do CSM preenche o [formulário](https://forms.office.com/r/bJRRaRBvSh) com as alterações necessárias e anexa os ativos necessários. A equipe então analisará e informará as equipes de engenharia sobre as mudanças. A equipe de engenharia irá gerar uma compilação e compartilhar com a equipe de CSM.
 
 A equipe do CSM compartilhará a compilação com o cliente.
 

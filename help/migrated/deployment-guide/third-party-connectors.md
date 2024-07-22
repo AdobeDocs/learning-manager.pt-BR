@@ -62,7 +62,7 @@ Certifique-se também de possuir as credenciais apropriadas para fazer logon na 
 
    ![](assets/mouserover-salesforce.png)
 
-1. É exibida uma caixa de diálogo solicitando que você insira o URL da organização. Clique em **[!UICONTROL Conectar]** depois de fornecer o URL.
+1. É exibida uma caixa de diálogo solicitando que você insira o URL da organização. Clique em **[!UICONTROL Conectar]** após fornecer a URL.
 1. Após uma conexão bem-sucedida, a página de visão geral é exibida.
 
 ## Mapear atributos {#mapattributes}
@@ -73,7 +73,7 @@ Uma vez que a conexão é estabelecida com sucesso, você pode mapear as colunas
 
    ![](assets/sfdc-map-columns.png)
 
-   Os dados da coluna do Learning Manager mostrados no lado esquerdo são coletados dos campos ativos. O **gerente** o campo deve necessariamente ser mapeado para um campo do tipo endereço de email. Antes de usar o conector, é necessário mapear todas as colunas.
+   Os dados da coluna do Learning Manager mostrados no lado esquerdo são coletados dos campos ativos. O campo **gerente** deve necessariamente ser mapeado para um campo do tipo endereço de email. Antes de usar o conector, é necessário mapear todas as colunas.
 
 1. Clique em **[!UICONTROL Salvar]** após concluir o mapeamento.
 1. O conector está pronto para uso. A conta que foi configurada agora aparece como uma fonte de dados no aplicativo do administrador para que o administrador agende a importação ou sincronização sob demanda.
@@ -114,7 +114,7 @@ Saiba mais sobre o processo de integração do Learning Manager com o conector F
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. É exibida uma caixa de diálogo solicitando que você insira a ID de e-mail. Forneça a ID de e-mail da pessoa responsável por gerenciar a conta FTP do Learning Manager da organização. Clique em **[!UICONTROL Conectar]** depois de fornecer a id de email.
+1. É exibida uma caixa de diálogo solicitando que você insira a ID de e-mail. Forneça a ID de e-mail da pessoa responsável por gerenciar a conta FTP do Learning Manager da organização. Clique em **[!UICONTROL Conectar]** após fornecer a ID de email.
 1. O Learning Manager envia um e-mail solicitando que o usuário redefina a senha antes de acessar o FTP pela primeira vez. O usuário deve redefinir a senha e usá-la para acessar a conta FTP do Learning Manager.
 
    Somente uma conta FTP do Learning Manager pode ser criada para uma determinada conta do Learning Manager.
@@ -139,10 +139,10 @@ A opção importar usuário interno permite que você agende a geração de rela
 
 Depois que uma conexão é estabelecida com êxito, você pode mapear as colunas dos arquivos CSV que serão colocados na pasta do FTP para os atributos correspondentes do Learning Manager. Essa etapa é obrigatória.
 
-1. No lado esquerdo da página Mapear atributos você pode ver as colunas esperadas do Learning Manager e, no lado direito, os nomes das colunas CSV. Inicialmente, no lado direito, você verá uma caixa de seleção em branco. Importe qualquer modelo CSV clicando em **Escolher arquivo**.
+1. No lado esquerdo da página Mapear atributos você pode ver as colunas esperadas do Learning Manager e, no lado direito, os nomes das colunas CSV. Inicialmente, no lado direito, você verá uma caixa de seleção em branco. Importe qualquer modelo CSV clicando em **Escolher Arquivo**.
 1. A etapa acima preenche a lista suspensa de seleção do lado direito com todos os nomes de colunas CSV. Selecione o nome da coluna apropriada que faz mapeamento para o nome da coluna do Learning Manager.
 
-   *O campo Gerente deve necessariamente ser mapeado para um campo do tipo endereço de e-mail. Antes de usar o conector, é necessário mapear todas as colunas.*
+   *O campo Gerente deve necessariamente ser mapeado para um campo do tipo endereço de email. Antes de usar o conector, é necessário mapear todas as colunas.*
 
 1. Clique em **[!UICONTROL Salvar]** após concluir o mapeamento.
 
@@ -158,7 +158,7 @@ Depois que uma conexão é estabelecida com êxito, você pode mapear as colunas
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **Observação:** Na versão de julho de 2016, é permitido importar somente usuários. Portanto, para usar o conector FTP, você deve garantir que os arquivos CSV sejam colocados na seguinte pasta:
+   **Observação:** na versão de julho de 2016, é permitido importar somente usuários. Portanto, para usar o conector FTP, você deve garantir que os arquivos CSV sejam colocados na seguinte pasta:
 
    `code Home/import/user/internal/*.csv`
 
@@ -166,7 +166,7 @@ Depois que uma conexão é estabelecida com êxito, você pode mapear as colunas
 1. Todos os CSVs devem conter as colunas especificadas no mapeamento.
 1. Todos os CSVs necessários devem estar presentes na pasta antes do início do processo.
 
-Ao importar usuários para o Learning Manager, o administrador também precisa saber como os usuários são gerenciados no Learning Manager. Consulte [Ajuda do Gerenciamento de Usuários](../integration-admin/feature-summary/migration-manual.md#usermanagement) para saber mais informações.
+Ao importar usuários para o Learning Manager, o administrador também precisa saber como os usuários são gerenciados no Learning Manager. Consulte a [Ajuda do Gerenciamento de Usuários](../integration-admin/feature-summary/migration-manual.md#usermanagement) para obter mais informações.
 
 +++
 
@@ -176,7 +176,7 @@ Ao importar usuários para o Learning Manager, o administrador também precisa s
 
 Há duas opções para exportar relatórios de habilidades do usuário.
 
-**[!UICONTROL Habilidades do usuário - Sob demanda]**: Você pode especificar a data de início e exportar o relatório usando a opção .O relatório será extraído da data inserida até a presente.
+**[!UICONTROL Habilidades do usuário - Sob demanda]**: você pode especificar a data de início e exportar o relatório usando a opção .O relatório será extraído da data inserida até a presente.
 
 ![](assets/user-skills-on-demand.png)
 
@@ -190,9 +190,9 @@ Para abrir a pasta Exportar em que os arquivos exportados serão colocados no lo
 
 ![](assets/ftp-folder.png)
 
-Os arquivos exportados automaticamente estarão presentes no local **Home/export/&#42;FTP_location&#42;**
+Os arquivos exportados automaticamente estarão presentes no local **Início/exportação/&#42;FTP_location&#42;**
 
-Os arquivos exportados automaticamente estarão disponíveis com o título, **skill_veries_&#42;data de &#42;_até_&#42;data - até&#42;.csv**
+Os arquivos exportados automaticamente estarão disponíveis com o título **skill_conquistas_&#42;data &#42;_a_&#42;data&#42;.csv**
 
 ![](assets/exported-csvs.png)
 
@@ -302,7 +302,7 @@ O conector getAbstract pode ser usado pelos clientes empresariais do site getAbs
    Para que qualquer tipo de sincronização funcione, você deve certificar-se de que o feed do usuário esteja presente na pasta FTP do getAbstract para as datas especificadas na sincronização.
 
    Veja a planilha Excel a seguir, que é um arquivo de feed do usuário de amostra do getAbstract. O nome do arquivo deve seguir o formato:** report_export_yyyy_MM_dd_HHmmss.xlsx** ou **report_export_yyyy_MM_dd.xlsx**.
-   [folha do excel de amostra do feed do usuário getAbstract](assets/report-export-20170401175342.xlsx)
+   [folha do Excel de exemplo de feed de usuário getAbstract](assets/report-export-20170401175342.xlsx)
 
 ## Conector do Harvard ManageMentor {#hmmconnector}
 
@@ -352,7 +352,7 @@ O conector Harvard ManageMentor pode ser usado pelos clientes empresariais do si
    client_hmm12_20150125.xlsx: este o feed do usuário do conector do Harvard ManageMentor. A convenção de nomenclatura do arquivo que você deve seguir é **client_hmm12_yyyyMMdd.xlsx.**
 
    Veja os dois seguintes arquivos de amostra a seguir do feed do usuário e do feed do curso deste conector:
-   [Arquivo de metadados do curso para o conector Harvard ManageMentor](assets/hmm12-metadata.xlsx) [Feed do usuário para o conector do Harvard ManageMentor](assets/client-hmm12-20170304.xlsx)
+   [Arquivo de metadados do curso para o conector Harvard ManageMentor](assets/hmm12-metadata.xlsx) [Feed do usuário para o conector Harvard ManageMentor](assets/client-hmm12-20170304.xlsx)
 
 ## Conector do Workday {#workdayconnector}
 
@@ -385,7 +385,7 @@ O administrador pode configurar tarefas de agendamento conforme os requisitos da
 ## Configurar o conector do Workday {#configureworkdayconnector}
 
 **Pré-requisitos**: solicite ao administrador do Workday da sua organização que crie um usuário do sistema de integração (ISU, na sigla em inglês) com as permissões, conforme definido no documento ISU_Permissions. Baixe uma cópia do link abaixo.
-[Baixe uma cópia da segurança do ISU (Integration System User).](assets/isu-permissions-v1.pdf) Conheça o processo de integração do Learning Manager com o conector do Workday.
+[Baixe uma cópia da segurança do usuário do sistema de integração (ISU).](assets/isu-permissions-v1.pdf) Saiba mais sobre o processo de integração do Learning Manager com o conector do Workday.
 
 1. Na página inicial do Learning Manager, passe o mouse sobre o bloco do Workday. Será exibido um menu. Clique no item **[!UICONTROL Conectar]** no menu.
 
@@ -528,11 +528,11 @@ O processo de importação de usuário permite que o administrador do Learning M
 
 O administrador do Learning Manager pode aplicar filtros aos usuários antes de importá-los. Por exemplo, o administrador do Learning Manager pode importar todos os usuários da hierarquia sob um ou mais gerentes específicos.
 
-Para configurar o conector do miniOrange, entre em contato com a equipe de CSM do Learning Manager.
+Para configurar   miniOrange   entre em contato com a equipe de CSM do Learning Manager.
 
 ## Configurar o conector do miniOrange {#configureminiorangeconnector}
 
-1. Na página inicial do Learning Manager, passe o mouse sobre a miniatura/cartão laranja. Será exibido um menu. Clique em  **[!UICONTROL Conectar]** no menu.
+1. Na página inicial do Learning Manager, passe o mouse sobre a miniatura/cartão laranja. Será exibido um menu. Clique na opção **[!UICONTROL Conectar]** no menu.
 
    ![](assets/miniorange-tile.png)
 
@@ -540,17 +540,17 @@ Para configurar o conector do miniOrange, entre em contato com a equipe de CSM d
 
    ![](assets/establish-connection.png)
 
-1. Se desejar importar o usuário do miniOrange diretamente como um usuário interno do Learning Manager, use o **[!UICONTROL Importar usuários internos]** opção.
+1. Se desejar importar o usuário do miniOrange diretamente como um usuário interno do Learning Manager, use a opção **[!UICONTROL Importar usuários internos]**.
 
    ![](assets/import-users.png)
 
-1. No lado esquerdo da página de mapeamento você pode ver as colunas do Learning Manager e, no lado direito, as colunas do miniOrange. Selecione o nome da coluna apropriada que faz mapeamento para o nome da coluna do Learning Manager.
+1. Na página de mapeamento, à esquerda   lado, você pode ver as colunas do Learning Manager e, à direita,   lado você pode ver as colunas do miniOrange. Selecione o nome da coluna apropriada que faz mapeamento para o nome da coluna do Learning Manager.
 
    ![](assets/map-attributes.png)
 
 1. Para ver e editar a Fonte de dados, como um administrador, clique em **[!UICONTROL Configurações > Fonte de dados]**.
 
-   A fonte estabelecida do miniOrange seria listada. Se for necessário editar o filtro, clique em **[!UICONTROL Editar]**.
+   A fonte estabelecida do miniOrange seria listada. Se você precisar editar o filtro, clique em **[!UICONTROL Editar]**.
 
    ![](assets/data-source.png)
 
@@ -566,7 +566,7 @@ Agora você pode integrar o Learning Manager com o conector do BlueJeans e usar 
 
 Siga estas etapas para configurar e usar o conector.
 
-1. Na página inicial do Learning Manager, passe o mouse sobre a miniatura/cartão BlueJeans. Será exibido um menu. Clique em  **[!UICONTROL Conectar]** no menu.
+1. Na página inicial do Learning Manager, passe o mouse sobre a miniatura/cartão BlueJeans. Será exibido um menu. Clique na opção **[!UICONTROL Conectar]** no menu.
 
    ![](assets/miniorange.png)
 
@@ -639,11 +639,11 @@ A opção importar usuário interno permite que você agende a geração de rela
 
 Depois que uma conexão é estabelecida com sucesso, você pode mapear as colunas dos arquivos CSV que serão colocados na pasta do Box para os atributos correspondentes do Learning Manager. Essa etapa é obrigatória.
 
-1. No lado esquerdo da página Mapear atributos você pode ver as colunas esperadas do Learning Manager e, no lado direito, os nomes das colunas CSV. Inicialmente, no lado direito, você verá uma caixa de seleção em branco. Importe qualquer modelo CSV clicando em Escolher arquivo.
+1. Na página Mapear atributos, à esquerda   lado, você pode ver as colunas esperadas do Learning Manager e, à direita,   Ao lado, você pode ver os nomes das colunas CSV. Inicialmente, no lado direito, você verá uma caixa de seleção em branco. Importe qualquer modelo CSV clicando em Escolher arquivo.
 
 1. A etapa acima preenche a lista suspensa de seleção do lado direito com todos os nomes de colunas CSV. Selecione o nome da coluna apropriada que faz mapeamento para o nome da coluna do Learning Manager.
 
-   *O campo Gerente deve necessariamente ser mapeado para um campo do tipo endereço de e-mail. Antes de usar o conector, é necessário mapear todas as colunas.*
+   *O campo Gerente deve necessariamente ser mapeado para um campo do tipo endereço de email. Antes de usar o conector, é necessário mapear todas as colunas.*
 
 1. Clique em Salvar após concluir o mapeamento.
 
@@ -657,14 +657,14 @@ Depois que uma conexão é estabelecida com sucesso, você pode mapear as coluna
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **Observação:** Na versão de julho de 2016, é permitido importar somente usuários. Portanto, para usar o conector do Box, você deve garantir que os arquivos CSV sejam colocados na seguinte pasta:\
+   **Observação:** na versão de julho de 2016, é permitido importar somente usuários. Portanto, para usar o conector do Box, você deve garantir que os arquivos CSV sejam colocados na seguinte pasta:\
    `code Home/import/user/internal/*.csv`
 
 1. O conector do Box ocupa todas as linhas dos arquivos CSV, por isso é importante que a linha correspondente a um usuário em um CSV não apareça em nenhum outro CSV.
 1. Todos os CSVs devem conter as colunas especificadas no mapeamento.
 1. Todos os CSVs necessários devem estar presentes na pasta antes do início do processo.
 
-Ao importar usuários para o Learning Manager, o administrador também precisa saber como os usuários são gerenciados no Learning Manager. Consulte [Ajuda do Gerenciamento de Usuários](../integration-admin/feature-summary/migration-manual.md#usermanagement) para saber mais informações.
+Ao importar usuários para o Learning Manager, o administrador também precisa saber como os usuários são gerenciados no Learning Manager. Consulte a [Ajuda do Gerenciamento de Usuários](../integration-admin/feature-summary/migration-manual.md#usermanagement) para obter mais informações.
 
 +++
 
@@ -684,7 +684,7 @@ Para abrir a pasta Exportar em que os arquivos exportados serão colocados no lo
 
 Os arquivos exportados automaticamente estarão presentes no local **Home/export/&#42;Box_location&#42;**
 
-Os arquivos exportados automaticamente estarão disponíveis com o título, **skill_veries_&#42;data de &#42;_até_&#42;data - até&#42;.csv**
+Os arquivos exportados automaticamente estarão disponíveis com o título **skill_conquistas_&#42;data &#42;_a_&#42;data&#42;.csv**
 
 As permissões de acesso e o conteúdo na pasta do Box compartilhada pela equipe do Learning Manager devem ser gerenciados pelo cliente.  Observe também que o conteúdo da pasta seria armazenado fisicamente na região de Frankfurt.
 

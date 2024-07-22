@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Perguntas Frequentes para Administradores
 description: Perguntas frequentes para administradores do Adobe Learning Manager
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2398'
 ht-degree: 55%
 
 ---
-
-
 
 # Perguntas Frequentes para Administradores
 
@@ -26,7 +25,7 @@ ht-degree: 55%
 
 +++Posso adicionar usuários em massa? Como?
 
-Sim, você pode adicionar usuários em massa usando o recurso de carregamento de CSV. Clique em  [aqui](/help/migrated/administrators/add-users-in-bulk.md) para obter mais informações.
+Sim, você pode adicionar usuários em massa usando o recurso de carregamento de CSV. Clique [aqui](/help/migrated/administrators/add-users-in-bulk.md) para obter mais informações.
 
 +++
 
@@ -48,7 +47,7 @@ Os usuários devem ser adicionados na página Alunos.
 
 +++Como configurar alertas?
 
-Na versão 1.0 do Adobe Learning Manager, você pode criar notificações. Consultar  [pergunta de notificações](/help/migrated/administrators/feature-summary/user-notifications.md) para obter mais informações.
+Na versão 1.0 do Adobe Learning Manager, você pode criar notificações. Consulte [pergunta de notificações](/help/migrated/administrators/feature-summary/user-notifications.md) para mais informações.
 
 +++
 
@@ -79,7 +78,7 @@ Os alunos são colocados em lista de espera de qualquer curso em sala de aula qu
 1. Clique em Lista de espera no painel esquerdo da página de detalhes do curso. Uma lista de alunos na lista de espera é exibida na página.
 1. Selecione os alunos e clique em Atribuir vagas para inscrever os alunos diretamente nos cursos, substituindo o limite de vagas.
 
-Para obter mais informações, consulte  [lista de espera e presença](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) recurso.
+Para obter mais informações, consulte o recurso de [lista de espera e presença](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md).
 
 +++
 
@@ -93,7 +92,7 @@ Sim, você pode registrar a participação seguindo as etapas abaixo:
 
 Se houver vários módulos em um curso e o aluno tiver concluído apenas um deles, você pode selecionar um único módulo e clicar em Salvar para marcar a conclusão para o aluno. Se o aluno concluir todos os módulos de um curso, você pode clicar na opção Selecionar tudo e clicar em Salvar.
 
-Para obter mais informações, consulte  [lista de espera e presença](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) recurso.
+Para obter mais informações, consulte o recurso de [lista de espera e presença](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md).
 
 +++
 
@@ -116,7 +115,7 @@ Como administrador, você pode solicitar a indicação do gerente para os cursos
 1. Clique em Cursos no painel esquerdo
 1. Passe o mouse sobre qualquer curso indicado pelo gerente e clique em **[!UICONTROL Buscar indicação do gerente]**.
 
-1. Na lista de instâncias, clique em **[!UICONTROL Gerentes indicados]** link seguido por **[!UICONTROL Adicionar Gerentes]** link.
+1. Na lista de instâncias, clique no link **[!UICONTROL Gerentes indicados]** seguido pelo link **[!UICONTROL Adicionar Gerentes]**.
 
 1. Adicione o nome do gerente, o número devagas atribuídas e clique na marca de seleção para salvar as alterações.
 
@@ -130,7 +129,7 @@ Inscreva os alunos nos cursos seguindo as etapas abaixo:
 
 1. Clique em Cursos no painel esquerdo depois de fazer logon como administrador. A lista de todos os cursos é exibida na página do lado direito.
 1. Escolha o curso ao qual deseja adicionar alunos e passe o mouse sobre ele.
-1. Clique em Inscrever alunos e adicione o nome dos alunos. **Observação:** Você pode adicionar um ou vários alunos por vez.
+1. Clique em Inscrever alunos e adicione o nome dos alunos. **Observação:** você pode adicionar um ou vários alunos por vez.
 
 +++
 
@@ -139,7 +138,7 @@ Inscreva os alunos nos cursos seguindo as etapas abaixo:
 Atribua alunos a competências seguindo as etapas abaixo:
 
 1. Clique em **[!UICONTROL Habilidades]** no painel esquerdo depois de fazer logon como administrador.
-1. Selecione uma ou várias habilidades clicando nas caixas de seleção em relação a cada competência e clique em **[!UICONTROL Ações]** no canto superior direito da página.
+1. Selecione uma ou várias habilidades clicando nas caixas de seleção em relação a cada competência e clique na lista suspensa **[!UICONTROL Ações]** no canto superior direito da página.
 1. Clique em Atribuir aos usuários.
 1. Comece a digitar o nome do usuário, escolha na lista suspensa e clique em **[!UICONTROL Salvar]**.
 
@@ -165,7 +164,7 @@ Para criar um programa de aprendizado, siga as etapas abaixo:
 
 1. Clique em Instâncias no painel esquerdo e clique em **[!UICONTROL Adicionar novas instâncias]** no canto direito da página para incluir detalhes da instância.
 
-Para obter mais informações sobre programas de aprendizado, consulte  [Recurso Programas de aprendizado.](/help/migrated/administrators/feature-summary/learning-programs.md)
+Para obter mais informações sobre programas de aprendizado, consulte o [recurso Programas de aprendizado.](/help/migrated/administrators/feature-summary/learning-programs.md)
 
 +++
 
@@ -177,7 +176,7 @@ Clique na seta suspensa no canto superior direito de cada relatório para editar
 
 +++Como modificar cursos, programas de aprendizado e perfil da empresa?
 
-Você pode editar cursos ou programas de aprendizado mesmo depois de publicá-los. Para obter mais informações, consulte  [Cursos](/help/migrated/administrators/feature-summary/courses.md) e  [programas de aprendizado](/help/migrated/administrators/feature-summary/learning-programs.md) Conteúdo de ajuda.
+Você pode editar cursos ou programas de aprendizado mesmo depois de publicá-los. Para mais informações, consulte o conteúdo da Ajuda dos [Cursos](/help/migrated/administrators/feature-summary/courses.md) e dos [programas de aprendizado](/help/migrated/administrators/feature-summary/learning-programs.md).
 
 Para modificar o perfil da empresa, clique em **[!UICONTROL Configurações]** no painel esquerdo e clique em **[!UICONTROL Alterar]** no canto superior direito da página.
 
@@ -202,9 +201,9 @@ Com base na sua escolha, você pode exibir a lista filtrada de cursos e fazer a 
 
 Sim, você pode alterar os temas e a marca do aplicativo Learning Manager de acordo com os requisitos da sua organização. Um conjunto de cinco imagens representativas é fornecido para visualizar as alterações do tema de cores antes de aplicá-las ao aplicativo. Navegue por essas imagens clicando nos símbolos &lt; e > no lado esquerdo e direito das imagens, respectivamente, para visualizar.
 
-Clique em **[!UICONTROL Marca]** no painel esquerdo para atualizar o nome da sua organização, altere o subdomínio, os estilos de registro e os temas. Clique em **[!UICONTROL Editar]** adjacentes a cada um desses tópicos para modificar o conteúdo.
+Clique em **[!UICONTROL Marcas]** no painel esquerdo para atualizar o nome da sua organização, alterar o subdomínio, os estilos de log e os temas. Clique em **[!UICONTROL Editar]** ao lado de cada um desses tópicos para modificar o conteúdo.
 
-Consulte  [Ajuda sobre temas de cores e marcas](/help/migrated/administrators/feature-summary/themes.md) para obter mais informações.
+Consulte a [Ajuda sobre temas de cores e marcas](/help/migrated/administrators/feature-summary/themes.md) para mais informações.
 
 +++
 
@@ -224,7 +223,7 @@ Você pode configurar pontos de gamificação para os alunos seguindo as etapas 
 1. Clique em Gamificação depois de fazer logon como administrador. Uma página é exibida com uma lista de níveis de bronze, prata, ouro e platina e os pontos necessários para atingir o correspondente para cada nível. Uma lista de tarefas e pontos correspondentes estão disponíveis.
 1. Clique no ícone Editar ao lado de cada tarefa para configurar/modificar os pontos.
 
-Consultar  [Recurso de gamificação](/help/migrated/administrators/feature-summary/gamification.md) para obter mais informações.
+Consulte o [recurso de gamificação](/help/migrated/administrators/feature-summary/gamification.md) para obter mais informações.
 
 +++
 
@@ -235,11 +234,11 @@ Você pode criar relatórios seguindo as etapas abaixo:
 1. Clique em Relatórios no painel esquerdo. A página de resumo de relatório será exibida.
 1. Na página Relatórios, clique em **[!UICONTROL Adicionar]** no canto superior direito.
 
-   **[!UICONTROL Adicionar relatório]** é exibida.
+   A caixa de diálogo **[!UICONTROL Adicionar relatório]** é exibida.
 
 1. Preencha todos os campos obrigatórios e clique em Salvar.
 
-Somente administradores e gerentes podem criar ou exibir relatórios. Consulte [recurso de relatórios](/help/migrated/administrators/feature-summary/reports.md) para obter mais informações.
+Somente administradores e gerentes podem criar ou exibir relatórios. Consulte o [recurso de relatórios](/help/migrated/administrators/feature-summary/reports.md) para obter mais informações.
 
 +++
 
@@ -310,14 +309,14 @@ Depois que a competência é salva, não é possível remover níveis da compet�
 
    As informações de cobrança são exibidas na página.
 
-1. Clique no botão [!UICONTROL **Assinar**] guia.
+1. Clique na guia [!UICONTROL **Assinar**].
 1. Digite o número de pacotes que deseja solicitar no campo Pacotes do aluno e clique em Fazer pedido no canto superior direito da página.
 
-   Escolha o número de pacotes com base no número de alunos da sua organização e faça o seu pedido. Para um processo orientado por ordem de compra, escreva-nos em  [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
+   Escolha o número de pacotes com base no número de alunos da sua organização e faça o seu pedido. Para um processo orientado por ordem de compra, escreva-nos em [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
 
 1. Insira suas informações de contato, escolha o tipo de cartão de crédito, forneça os detalhes do cartão de crédito e clique em Concluir pedido.
 
-Consultar [Gerenciamento de faturamento](/help/migrated/administrators/feature-summary/billing-management.md) para obter mais informações.
+Consulte o recurso [Gerenciamento de faturamento](/help/migrated/administrators/feature-summary/billing-management.md) para obter mais informações.
 
 +++
 
@@ -329,7 +328,7 @@ No Adobe Learning Manager, você pode reconhecer os alunos emitindo medalhas. Co
 
 +++Como configurar o perfil da minha empresa?
 
-1. Depois de fazer logon como administrador, clique em **[!UICONTROL Informações da empresa]** no painel esquerdo.
+1. Depois de fazer logon como administrador, clique em **[!UICONTROL Informações da Empresa]** no painel esquerdo.
 1. Adicione o perfil da empresa, subdomínio e logotipo clicando em cada uma dessas opções na página.
 
 +++
@@ -338,7 +337,7 @@ No Adobe Learning Manager, você pode reconhecer os alunos emitindo medalhas. Co
 
 Para adicionar cursos, você precisa mudar sua função como autor. Você só pode exibir a lista de cursos disponíveis com base em seu estado como **[!UICONTROL Concluído]**, **[!UICONTROL Publicado]** e **[!UICONTROL Retirado]**.
 
-Para exibir os cursos, clique em **[!UICONTROL Cursos]** no painel esquerdo. Consultar  [Criação de cursos](/help/migrated/administrators/feature-summary/courses.md)para obter mais informações
+Para exibir os cursos, clique em **[!UICONTROL Cursos]** no painel esquerdo. Consulte [Criando cursos](/help/migrated/administrators/feature-summary/courses.md)para mais informações
 
 +++
 
@@ -349,9 +348,9 @@ Para adicionar novos usuários, siga as etapas abaixo:
 1. Clique em Usuários no painel esquerdo depois de fazer logon como administrador. Você também pode adicionar usuários clicando em Introdução no painel esquerdo da janela e clicando em Adicionar usuários.
 1. Para dicionar novos usuários, clique em Adicionar no canto superior direito da página.
 
-Por padrão, todos os novos usuários são atribuídos com uma função de aluno. Você pode atribuir funções de administrador ou autor aos alunos clicando em **[!UICONTROL Ações]** no canto superior direito da página e escolhendo **[!UICONTROL Atribuir Função]** > **[!UICONTROL Criar autor]** ou **[!UICONTROL Criar administrador]**.
+Por padrão, todos os novos usuários são atribuídos com uma função de aluno. Você pode atribuir funções de administrador ou autor aos alunos clicando em **[!UICONTROL Ações]** no canto superior direito da página e escolhendo **[!UICONTROL Atribuir função]** > **[!UICONTROL Criar autor]** ou **[!UICONTROL Criar administrador]**.
 
-Consultar  [Adicionar novos usuários](/help/migrated/administrators/feature-summary/add-users-user-groups.md) para obter informações detalhadas sobre como adicionar alunos, autores e administradores.
+Consulte o recurso [Adicionar novos usuários](/help/migrated/administrators/feature-summary/add-users-user-groups.md) para obter informações detalhadas sobre como adicionar alunos, autores e administradores.
 
 +++
 

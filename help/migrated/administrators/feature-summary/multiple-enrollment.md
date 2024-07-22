@@ -1,7 +1,8 @@
 ---
 title: Inscrição múltipla no Adobe Learning Manager
 description: Como administrador da conta, uma das suas principais tarefas é criar instâncias diferentes de sessões VILT em fusos horários diferentes e, possivelmente, criar sessões para grupos de usuários específicos.
-source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
+exl-id: c430545d-b48e-432d-a278-658c9281818f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 68%
@@ -21,7 +22,7 @@ O recurso de inscrição múltipla do Adobe Learning Manager ajuda um administra
 A inscrição múltipla inscreve um aluno várias vezes em um curso por meio de várias instâncias disponíveis.  Um aluno pode se inscrever em várias instâncias do curso independentemente do estado em que está inscrito, concluído ou ainda não iniciado. Quando o autor ativa a opção [!UICONTROL Inscrição múltipla], um aluno pode se inscrever em várias instâncias do curso.
 
 ![imagem de várias inscrições](assets/multi-enrollment-author.png)
-*Iniciar Inscrição Múltipla nas Configurações*
+*Iniciar Vários Registros a partir de Configurações*
 
 O progresso de cada instância pode ser acompanhado individualmente, e um relatório pode ser exportado para acompanhar o progresso de cada instância.
 
@@ -33,9 +34,9 @@ O progresso de cada instância pode ser acompanhado individualmente, e um relat�
 
 ## Como ativar a Inscrição Múltipla
 
-1. Faça logon na sua conta do Adobe Learning Manager como autor.
+1. Faça logon na sua conta da Adobe Learning Manager como autor.
 1. Selecione o curso no qual deseja que os alunos se inscrevam várias vezes.
-1. No painel esquerdo, selecione **[!UICONTROL Configurações]** > **[!UICONTROL Editar]** > **[!UICONTROL Configuração da instância]** > **[!UICONTROL Habilitar Inscrição Múltipla]**.
+1. No painel esquerdo, selecione **[!UICONTROL Configurações]** > **[!UICONTROL Editar]** > **[!UICONTROL Configuração de instância]** > **[!UICONTROL Habilitar várias inscrições]**.
 
 ![imagem de várias inscrições](assets/multi-enrollment-author.png)
 *Habilitar Vários Registros*
@@ -50,7 +51,7 @@ Várias inscrições são úteis quando um aluno deseja se inscrever em um curso
 
 Para os alunos que não se inscreveram, ao selecionar um curso, eles visualizarão a tela do curso com várias instâncias. Depois, podem selecionar cada instância e se inscrever.
 
-![imagem da visualização do aluno](assets/learner-view.png)
+![imagem de exibição do aluno](assets/learner-view.png)
 *Exibir as instâncias*
 
 Depois de se inscreverem em uma instância, eles podem se inscrever em outras instâncias selecionando a opção Exibir Todas as Instâncias no painel direito.
@@ -65,13 +66,13 @@ O progresso em cada instância pode ser acompanhado da seguinte maneira:
 
 ## Alterações de Inscrição Múltipla no administrador
 
-**Inscrição:**
+**Registro:**
 
 Ao inscrever os alunos, você pode ativar as seguintes caixas de seleção:
 
-*“Os alunos selecionados já podem estar inscritos em outras instâncias deste curso. Permita que esses alunos também sejam inscritos na instância ...”*
+*”Os alunos selecionados podem já estar inscritos em outras instâncias deste curso. Permita que esses alunos também sejam inscritos na instância ...”*
 
-![alterações do administrador](assets/admin-changes.png)
+![alterações de administrador](assets/admin-changes.png)
 *Opção de registro para administradores*
 
 Se o aluno já estiver inscrito em uma instância e você, como administrador, estiver tentando inscrevê-lo em uma instância diferente do curso, selecione Sim.

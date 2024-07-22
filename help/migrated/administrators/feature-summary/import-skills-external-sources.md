@@ -20,8 +20,8 @@ Importe habilidades de provedores de conteúdo, como LinkedIn e Go1, usando os r
 Siga as etapas no procedimento para ativar a importação de habilidades na conta.
 
 1. No aplicativo de administração, selecione **Configurações** no painel esquerdo.
-1. Selecionar **Geral**.
-1. No menu **Importação de habilidades** , selecione **Habilitar**. Se ativado, você pode escolher uma origem externa para importar habilidades. Uma vez ativado, para todas as importações subsequentes de recursos de aprendizado, as habilidades serão importadas para o repositório de habilidades para itens recém-importados. As habilidades dos recursos de aprendizado existentes podem ser importadas para o repositório de habilidades uma vez e, para executar esta execução inicial, entre em contato com seu CSM.
+1. Selecione **Geral**.
+1. Na seção **Importação de habilidades**, selecione **Habilitar**. Se ativado, você pode escolher uma origem externa para importar habilidades. Uma vez ativado, para todas as importações subsequentes de recursos de aprendizado, as habilidades serão importadas para o repositório de habilidades para itens recém-importados. As habilidades dos recursos de aprendizado existentes podem ser importadas para o repositório de habilidades uma vez e, para executar esta execução inicial, entre em contato com seu CSM.
 1. Selecione um provedor de conteúdo na lista suspensa.
 
 Como administrador, você só pode importar habilidades de uma origem de habilidade.
@@ -42,7 +42,7 @@ A coluna **Origem** com valores - Interno, LinkedIn Learning, Go1, que indica a 
 
 As habilidades recém-adicionadas estarão no topo.
 
-Na página de configuração Curso, a coluna **Atribuído por** contendo valores, Interno e Provedor de Conteúdo.
+Na página de configuração Curso, a coluna **Atribuído por** contém valores, Interno e Provedor de conteúdo.
 
 
 ## Fluxo de trabalho do administrador de integração
@@ -53,9 +53,9 @@ O administrador de integração carrega os CSVs (habilidade, nível de habilidad
 
 Como administrador,
 
-1. Selecionar **Habilidades** no painel esquerdo.
+1. Selecione **Habilidades** no painel esquerdo.
 1. Selecione a origem de qualquer habilidade. Você pode ver os cursos, as ajudas de tarefa, os alunos inscritos e os professores do curso.
 
 ### Editar uma habilidade
 
-Selecione uma habilidade. No menu **Editar uma habilidade** , não é possível editar o nome e a descrição da habilidade. No entanto, você pode adicionar domínios de habilidade e uma medalha para a habilidade.
+Selecione uma habilidade. No pop-up **Editar uma habilidade**, não é possível editar o nome e a descrição da habilidade. No entanto, você pode adicionar domínios de habilidade e uma medalha para a habilidade.

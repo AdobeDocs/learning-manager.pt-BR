@@ -12,7 +12,7 @@ ht-degree: 65%
 
 # Ajudas de tarefa
 
-**Ajudas de tarefa** é um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
+**Ajudas de tarefa** é um repositório de conteúdo de treinamento acessível aos alunos sem qualquer inscrição ou critério de conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
 
 As ajudas de tarefa podem ser usadas de forma independente ou em conjunto com a realização do curso no Learning Manager.
 
@@ -21,7 +21,7 @@ Os autores podem criar ajudas de tarefa para os alunos. Use as ajudas de tarefa 
 ## Criar ajuda de tarefa {#createjobaid}
 
 1. No logon do autor, selecione **[!UICONTROL Ajudas de tarefa]** no painel esquerdo.
-1. Selecionar **[!UICONTROL Criar]** no canto superior direito da página exibida.
+1. Selecione **[!UICONTROL Criar]** no canto superior direito da página exibida.
 1. Digite o nome, a descrição e as marcas. Escolha as habilidades e os níveis associados. Selecione o conteúdo como privado se você deseja que a ajuda de tarefa não seja acessada por nenhum outro autor para atribuir a seus respectivos cursos.
 
    Apenas as habilidades existentes podem ser utilizadas para ajudas de tarefa. As habilidades não são obrigatórias.
@@ -37,14 +37,14 @@ Os autores podem criar ajudas de tarefa para os alunos. Use as ajudas de tarefa 
 
 ## Adicionar ajuda de tarefa em idiomas diferentes {#addcontentfordifferentlanguages}
 
-1. Para adicionar a ajuda de tarefa em idiomas diferentes, selecione o **Adicionar novo idioma** e escolha os idiomas necessários. Usando essa abordagem, você pode adicionar suporte multilíngue ao conteúdo.
+1. Para adicionar a ajuda de tarefa em diferentes idiomas, selecione a guia **Adicionar Novo Idioma** e escolha os idiomas necessários. Usando essa abordagem, você pode adicionar suporte multilíngue ao conteúdo.
 
    ![](assets/add-new-languagetab.png)
 
    *Adicionar novo idioma para um conteúdo*
 
 1. Repita o processo de upload da ajuda de tarefa para os novos idiomas.
-1. Se quiser remover um idioma, selecione o **[!UICONTROL Adicionar novo idioma]** e limpe a seleção.
+1. Se quiser remover um idioma, selecione a guia **[!UICONTROL Adicionar Novo Idioma]** e limpe a seleção.
 
    Depois de fazer as alterações, selecione Salvar.
 
@@ -71,9 +71,9 @@ Você pode retirar a ajuda de tarefa publicada clicando no ícone de configuraç
 
 ![](assets/job-aid-withdraw.png)
 
-*Editar, retirar ou visualizar uma ajuda de tarefa publicada*
+*Edite, retire ou visualize uma ajuda de tarefa publicada*
 
-Visualize ajudas de tarefa retiradas clicando na guia Retirado. Você pode republicar as tarefas retiradas clicando no ícone de configurações e escolhendo Publicar.
+Visualize ajudas de tarefa retiradas clicando na guia Retirado. Você pode republicar as tarefas retiradas clicando no ícone de configurações e escolhendo Publish.
 
 ## Suporte para pacotes HTML em ajudas de tarefa
 

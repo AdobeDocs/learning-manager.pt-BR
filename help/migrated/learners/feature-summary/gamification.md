@@ -3,14 +3,13 @@ description: Envolva os usuários usando as técnicas de gamificação no Learni
 jcr-language: en_us
 title: Gamificação
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
 
 ---
-
-
 
 # Gamificação
 
@@ -34,7 +33,7 @@ Alguns dos recursos do quadro de classificação dos alunos:
 
 * Os alunos inscritos em uma instância do Programa de aprendizado podem ver os pontos um do outro se a gamificação estiver ativada para essa instância.
 * Clique em **[!UICONTROL Adicionar colegas]** para incluir o membro da equipe com o qual deseja fazer a comparação. A imagem de perfil do membro da sua equipe é adicionada à escala da linha do tempo na parte superior da página do quadro de classificação. Esta escala do cronograma mostra os pontos no início e move sua posição para a direita quando você obtém mais pontos do que os membros da sua equipe. Só é possível fazer comparações com outros membros do mesmo grupo.
-* **Grupos de usuários:** A qualquer momento, você pode escolher os perfis dos membros da equipe com os quais deseja comparar sua classificação, usando o **[!UICONTROL Classificar-me com]** opção. No campo Selecionar grupos de usuários, digite e escolha o grupo. A lista de todos os membros da equipe, juntamente com seus últimos pontos, está listada abaixo. Os usuários internos e externos podem exibir a lista, mas somente os usuários internos estão habilitados para pesquisar outros alunos internos.
+* **Grupos de usuários:** a qualquer momento, você pode escolher os perfis dos membros da equipe com os quais deseja comparar sua classificação, usando a opção **[!UICONTROL Classificar-me com]**. No campo Selecionar grupos de usuários, digite e escolha o grupo. A lista de todos os membros da equipe, juntamente com seus últimos pontos, está listada abaixo. Os usuários internos e externos podem exibir a lista, mas somente os usuários internos estão habilitados para pesquisar outros alunos internos.
 
 * Além disso, a caixa de diálogo Pessoas quase na sua posição exibe os nomes dos membros da equipe que estão acima, abaixo ou no mesmo nível que você.
 * Quando um usuário externo se torna um usuário interno, o cronograma será automaticamente atualizado.
@@ -61,7 +60,7 @@ O Adobe Learning Manager agora permite que um administrador ative um critério d
 
 ![](assets/feedback-rating.png)
 
-*Exibir avaliação de feedback*
+*Exibir classificação de feedback*
 
 Esse recurso incentiva os usuários a fornecer feedback ativamente, o que beneficia os alunos e os administradores, que agora entendem melhor o ponto de vista do aluno e podem avaliar melhor a eficiência de um curso.
 

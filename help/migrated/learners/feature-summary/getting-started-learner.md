@@ -25,17 +25,17 @@ No aplicativo da Web do Learning Manager, após fazer login como aluno, você po
 
 **Meu aprendizado**: você pode exibir e clicar nos objetos de aprendizado por tipo e por prazo. Clique no círculo do widget Meu aprendizado para ir diretamente para o tipo de objeto de aprendizado ou para visualizar os objetos de aprendizado por prazo.
 
-**Minhas habilidades**: você também poderá visualizar mapas de habilidades no canto superior direito da página. Consultar  [mapa de habilidades](skills-levels.md) para obter mais informações.
+**Minhas habilidades**: você também poderá visualizar mapas de habilidades no canto superior direito da página. Consulte o recurso [mapa de habilidades](skills-levels.md) para obter mais informações.
 
-**Widget Objeto de aprendizado**: Aparece direto abaixo do Meu aprendizado e exibe os objetos de aprendizado do usuário. Abaixo de Meu aprendizado, você pode ver todos os  [cursos](courses.md),  [programas de aprendizado](learning-programs.md) e  [certificações](certifications.md) que você inscreveu ou atribuiu a você. Você pode realizar diretamente um objeto de aprendizado ou retomar um objeto de aprendizado desse widget.
+**Widget Objeto de aprendizado**: Aparece direto abaixo do Meu aprendizado e exibe os objetos de aprendizado do usuário. Abaixo de Meu Aprendizado, você pode exibir todos os [cursos](courses.md), [programas de aprendizado](learning-programs.md) e [certificações](certifications.md) inscritos ou atribuídos a você. Você pode realizar diretamente um objeto de aprendizado ou retomar um objeto de aprendizado desse widget.
 
 **Calendário do aprendizado**: Esse widget exibe a lista de aprendizados futuros e planejados da sua empresa para todos os trimestres. O status da inscrição é Inscrito, se você já tiver se inscrito em um curso específico.
 
 **Aprendizado recomendado**: Nesse widget você pode ver todos os cursos recomendados para o seu perfil pelo administrador/gerente da empresa. Clique nestes links para ir para as páginas do curso.
 
-**Minhas conquistas**: Você obtém medalhas depois de concluir cursos. Essas medalhas são exibidas junto ao seu perfil na parte superior da página. Clique em Medalhas para obter informações específicas. Para obter mais informações sobre medalhas, consulte  [medalhas](badges.md) recurso.
+**Minhas conquistas**: Você obtém medalhas depois de concluir cursos. Essas medalhas são exibidas junto ao seu perfil na parte superior da página. Clique em Medalhas para obter informações específicas. Para obter mais informações sobre medalhas, consulte o recurso [medalhas](badges.md).
 
-Esse widget também exibe os pontos de Gamificação do aluno. Clique no link Gamificação para visualizar os pontos detalhados e outros recursos em Gamificação. Para obter mais informações sobre pontos de gamificação e quadro principal, consulte  [Gamificação](gamification.md) recurso.
+Esse widget também exibe os pontos de Gamificação do aluno. Clique no link Gamificação para visualizar os pontos detalhados e outros recursos em Gamificação. Para obter mais informações sobre pontos de gamificação e quadro de classificação, consulte o recurso [Gamificação](gamification.md).
 
 Se for acessar o Learning Manager através de um iPad ou tablet Android, consulte a seção do tópico Aplicativo para iPad e tablets Android nessa página.
 
@@ -55,7 +55,7 @@ No aplicativo Learning Manager no iPad ou tablet Android, após fazer logo como 
 
 *Guia Início no aplicativo*
 
-Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** e escolha a opção apropriada.
+Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** suspenso e escolha a opção apropriada.
 
 ![](assets/menu-ipad.png)
 

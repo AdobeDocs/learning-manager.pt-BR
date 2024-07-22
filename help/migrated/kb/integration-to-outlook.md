@@ -25,7 +25,7 @@ Se um aluno responder ao mesmo convite mais de uma vez, a resposta mais recente 
 
 ## Ativação do recurso de rastreamento da resposta de convite {#enablingtheinvitereplytrackingfeature}
 
-* Entre em contato com o Suporte do Adobe Learning Manager para ativar o recurso de rastreamento da resposta de convite.
+* Entre em contato com o suporte da Adobe Learning Manager para ativar o recurso de rastreamento da resposta de convite.
 * Depois que o recurso é ativado na conta, todas as futuras sessões de sala de aula virtual/sala de aula criadas por um autor podem registrar a resposta do aluno ao convite do calendário.
 
 Se os alunos estiverem inscritos em uma sessão de sala de aula virtual/sala de aula criada antes da ativação do recurso de rastreamento da resposta de convite, as respostas do aluno ao convite de calendário não serão registradas.
@@ -34,16 +34,16 @@ Se os alunos estiverem inscritos em uma sessão de sala de aula virtual/sala de 
 
 Se uma sessão de sala de aula virtual/sala de aula tiver o recurso de rastreamento da resposta de convite ativado, o administrador poderá visualizar as respostas do aluno ao convite junto com outras permissões da seguinte maneira:
 
-1. Clique em **[!UICONTROL Curso]** no painel de navegação à esquerda e visualize o curso que foi criado após a ativação do recurso de rastreamento da resposta de convite.
-1. Clique em **[!UICONTROL Participação e pontuação]** no painel de navegação esquerdo.
-1. Para exibir uma tabela abaixo com os nomes dos alunos e suas respostas ao convite do calendário, selecione o **Instância** e **[!UICONTROL Módulo]** na página Presença e pontuação.
-1. Use o **[!UICONTROL Convidar]** filtro para exibir os alunos com base nas seguintes opções: todas as respostas, aceito, recusado, tentativo e enviado
+1. Clique em **[!UICONTROL Curso]** no painel de navegação esquerdo e visualize o curso que foi criado após a habilitação do recurso de rastreamento da resposta de convite.
+1. Clique em **[!UICONTROL Presença e pontuação]** no painel de navegação esquerdo.
+1. Para exibir uma tabela abaixo com os nomes dos alunos e suas respostas ao convite do calendário, selecione a **Instância** e o **[!UICONTROL Módulo]** na página Presença e Pontuação.
+1. Use o filtro **[!UICONTROL Convidar]** para exibir alunos com base nas seguintes opções: todas as respostas, aceitas, recusadas, provisórias e enviadas
 
    ![](assets/invite-filter.png)
 
-1. Para enviar e-mails apenas para os alunos selecionados, clique em **[!UICONTROL Ações]** > **[!UICONTROL Enviar email para os selecionados]** no canto superior direito da página Presença e pontuação.
+1. Para enviar e-mails apenas para os alunos selecionados, clique em **[!UICONTROL Ações]** > **[!UICONTROL Enviar e-mail aos selecionados]** no canto superior direito da página Presença e pontuação.
 
-   Para enviar e-mails para todos os alunos exibidos na página Presença e pontuação, clique em **[!UICONTROL Ações]** > **[!UICONTROL Enviar email para todos].**
+   Para enviar e-mails para todos os alunos exibidos na página Presença e pontuação, clique em **[!UICONTROL Ações]** > **[!UICONTROL Enviar e-mail a todos].**
 
 1. Para baixar o relatório csv dos detalhes da sessão do aluno exibido na página Presença e pontuação, clique em **[!UICONTROL Ações]** > **[!UICONTROL Exportar].**
 
@@ -51,17 +51,17 @@ Se uma sessão de sala de aula virtual/sala de aula tiver o recurso de rastreame
 
 Se o recurso de rastreamento da resposta de convite estiver ativado para a conta, siga o procedimento abaixo para exibir as respostas do aluno ao convite do calendário:
 
-1. Clique em **[!UICONTROL Sessões futuras]** no painel de navegação esquerdo e selecione um curso.
-1. Clique em **[!UICONTROL Alunos]** no painel de navegação à esquerda para obter uma visualização detalhada dos alunos que responderam ao convite do calendário.
-1. Use o **[!UICONTROL Convidar]** filtro para filtrar os nomes dos alunos de acordo com as seguintes opções: Aceito, Recusado, Provisório e Enviado
+1. Clique em **[!UICONTROL Próximas sessões]** no painel de navegação esquerdo e selecione um curso.
+1. Clique em **[!UICONTROL Alunos]** no painel de navegação esquerdo para obter uma exibição detalhada dos alunos que responderam ao convite do calendário.
+1. Use o filtro **[!UICONTROL Convidar]** para filtrar os nomes dos alunos de acordo com as seguintes opções: Aceito, Recusado, Provisório e Enviado
 
    ![](assets/invite-filter.png)
 
 1. Com base nas informações exibidas do aluno, você pode enviar e-mails para os alunos.
 
-   Para enviar e-mails apenas para os alunos selecionados, clique em **[!UICONTROL Ações]** > **[!UICONTROL Email para Selecionados]**.
+   Para enviar e-mails apenas para os alunos selecionados, clique em **[!UICONTROL Ações]** > **[!UICONTROL E-mail aos selecionados]**.
 
-   Para enviar e-mails para todos os alunos na tabela exibida, clique em **[!UICONTROL Ações]** > **[!UICONTROL Enviar Email para Todos]**.
+   Para enviar e-mails para todos os alunos na tabela exibida, clique em **[!UICONTROL Ações]** > **[!UICONTROL E-mail a todos]**.
 
    ![](assets/instructor-actions1.png)
 

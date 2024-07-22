@@ -3,22 +3,21 @@ jcr-language: en_us
 title: Usuários de tablet Android e iPad
 description: Usuários de tablet Android e iPad
 contentowner: manochan
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 72%
 
 ---
 
-
-
 # Usuários de tablet Android e iPad
 
-No aplicativo Learning Manager no iPad ou tablet Android, após fazer logo como aluno, você pode ver o seguinte **Página inicial** na tela:
+No aplicativo Learning Manager no iPad ou tablet Android, após fazer logon como aluno, você pode ver a seguinte tela **Inicial**:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** e escolha a opção apropriada.
+Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** suspenso e escolha a opção apropriada.
 
 ![](assets/menu-ipad.png)
 
@@ -37,7 +36,7 @@ Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPa
 
 É possível monitorar periodicamente o armazenamento do dispositivo.
 
-Toque no ícone do perfil no canto superior direito do aplicativo e toque em **Armazenamento do dispositivo** opção do menu.
+Toque no ícone do perfil no canto superior direito do aplicativo e toque na opção de menu **Armazenamento do dispositivo**.
 
 ![](assets/app-device-storage.png)
 

@@ -23,11 +23,11 @@ Como corporação, agora você pode fornecer uma experiência personalizada para
 
 O Fluidic Player reproduz praticamente qualquer tipo de conteúdo de e-learning da mesma maneira consistente e intuitiva, sem exigir plug-ins ou downloads. O aluno pode iniciar o conteúdo e, independentemente do tipo de arquivo de conteúdo, ele começa a ser reproduzido.
 
-**Anotações e marcadores**
+**Anotações e Marcadores**
 
 Você pode fazer anotações e marcar qualquer conteúdo independentemente do tipo de arquivo. Se quiser fazer uma determinada seleção de um arquivo ou vídeo longo, você pode marcar os próprios pontos onde encontrou as informações relevantes para suas necessidades. As anotações e os marcadores podem ser pesquisados ou enviados por email. Clicar neles coloca você no fluidic player exatamente nesse ponto do vídeo ou página do documento.
 
-Para obter mais informações sobre o fluidic player, consulte [Fluidic player](../../learners/feature-summary/fluidic-player.md).
+Para obter mais informações sobre o Fluidic Player, consulte [Fluidic Player](../../learners/feature-summary/fluidic-player.md).
 
 Aqui estão alguns exemplos de onde você pode usar o fluidic player incorporável.
 
@@ -45,20 +45,20 @@ A criação de um aplicativo personalizado para incorporar o fluidic player em s
 
 ### 1. Criar um aplicativo no administrador de integração {#1createanapplicationinintegrationadmin}
 
-Esta etapa é necessária para criar uma ID de aplicativo/cliente e um segredo de aplicativo/cliente que é usado para recuperar o token de atualização e o token de acesso. Para obter mais informações sobre a criação de um aplicativo, consulte  [Processo de desenvolvimento de aplicativos.](developer-manual.md#main-pars_header_994876235)
+Esta etapa é necessária para criar uma ID de aplicativo/cliente e um segredo de aplicativo/cliente que é usado para recuperar o token de atualização e o token de acesso. Para obter mais informações sobre a criação de um aplicativo, consulte [Processo de desenvolvimento de aplicativo.](developer-manual.md#main-pars_header_994876235)
 
 1. Vá para o aplicativo **[!UICONTROL IntegrationAdmin]** e abra **[!UICONTROL Aplicativos]**.
 
 1. Selecione **[!UICONTROL Registrar]** no canto superior direito da página.
 1. A janela **[!UICONTROL Registrar um novo aplicativo]** é aberta. Preencha os campos obrigatórios.
-1. Se o aplicativo personalizado precisar ser compartilhado em várias contas, selecione **[!UICONTROL Não]** no campo de opção  **[!UICONTROL Apenas para esta conta?]**
+1. Se o aplicativo personalizado precisar ser compartilhado entre várias contas, selecione **[!UICONTROL Não]** no campo de opção **[!UICONTROL Somente para esta conta?]**
 1. Para salvar o aplicativo e gerar a ID e o segredo do aplicativo, clique em **[!UICONTROL Salvar]**.
 
 ### 2. Recuperar token de acesso {#2retrievingaccesstoken}
 
 Como o Learning Manager usa o OAUTH2.0., o token de acesso é necessário para recuperar recursos usando a API pública. O token de acesso pode ser obtido usando o token de atualização, a ID do cliente ou o segredo do cliente.
 
-**2.1 Token de atualização**
+**Token de atualização 2.1**
 
 * Recuperar código OAuth
 
@@ -75,13 +75,13 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-Aqui, **[!UICONTROL id do cliente]** é a id do aplicativo obtida na etapa 1.
+Aqui, **[!UICONTROL id do cliente]** é a ID do aplicativo obtida na etapa 1.
 **[!UICONTROL redirect_url]** é o redirect_url definido na etapa 1.
-**[!UICONTROL estado]** há qualquer dado fictício com base no qual precisamos filtrar o URL de redirecionamento para obter o código OAuth. Escopo é o escopo do aluno definido na Etapa 1.
+**[!UICONTROL estado]** é qualquer dado fictício com base no qual precisamos filtrar a URL de redirecionamento para obter o código OAuth. Escopo é o escopo do aluno definido na Etapa 1.
 **[!UICONTROL response_typ]**e é sempre “CODE”.\
 **[!UICONTROL conta]**é um campo opcional\
 **[!UICONTROL email]** é um campo opcional\
-&#42; Se a ID da conta e o email forem fornecidos, o URL acima permitirá que o usuário faça logon na mesma conta. Este exemplo de ponto de extremidade é descrito no arquivo “index.html” no aplicativo de amostra.
+&#42; Se a ID da conta e o email forem fornecidos, a URL acima permitirá que o usuário faça logon na mesma conta. Este exemplo de ponto de extremidade é descrito no arquivo “index.html” no aplicativo de amostra.
 
 * Recuperar token de atualização
 
@@ -98,7 +98,7 @@ iv) expires_in\
 v. user_role\
 vi) account_id
 
-**2.2 Recuperar token de acesso do token de atualização**
+**2.2 Recuperando token de acesso do token de atualização**
 
 Para recuperar seu token de acesso, envie outra solicitação com seu refresh_token, client_id e client_secret como um corpo de postagem para o URL abaixo:
 
@@ -155,7 +155,7 @@ code window.addEventListener("message", function closePlayer(){
 ## Tutorial de amostra do aplicativo {#sampleapplicationtutorial}
 
 O documento PDF anexado contém um tutorial de amostra do aplicativo.
-[Tutorial de amostra e fonte do tutorial para incorporar o Fluidic Player.](assets/sample-applicationtutorial.zip) Conteúdos alternativos
+[Tutorial de amostra e fonte do tutorial para incorporar o Fluidic Player.](assets/sample-applicationtutorial.zip) Conteúdo alternativo
 
 Se você for um administrador, poderá configurar o material do curso de uma maneira que possa oferecer conteúdo alternativo aos alunos no fluidic player. Por exemplo, se você tiver alunos em vários locais geográficos que talvez queiram usar vários idiomas, poderá criar o mesmo conteúdo em vários idiomas. O Fluidic Player oferecerá ao aluno o idioma para o qual ele pode estar configurado, mas o aluno também tem a opção de mudar para o idioma alternativo diretamente do reprodutor.
 
@@ -167,7 +167,7 @@ Esse é um esforço que precisa ser realizado por alguém de sua equipe de TI ou
 
 1. Modifique o URL do reprodutor incorporado do Learning Manager com parâmetros que apontem para o objeto de aprendizado exato que precisa ser tomado.
 
-   URL:  [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   URL: [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
 1. Use qualquer um destes parâmetros para iniciar um curso:
 
@@ -179,7 +179,7 @@ Esse é um esforço que precisa ser realizado por alguém de sua equipe de TI ou
 
 1. Use o token de acesso como um parâmetro obrigatório.
 
-   * access_token : Este é o parâmetro de segurança, use o token de acesso oauth da API pública
+   * access_token : Este é o parâmetro de segurança, use o oauth da API pública   token de acesso
 
    Você pode obter seu token configurando seu fluidic player incorporável no administrador de integração. Você pode obter seu token de autenticação, que pode ser usado como seu token de acesso.
 
@@ -213,7 +213,7 @@ Esse é um esforço que precisa ser realizado por alguém de sua equipe de TI ou
 
 Modifique o URL do reprodutor incorporado do Learning Manager com parâmetros que apontem para o objeto de aprendizado exato que precisa ser tomado.
 
-URL:  [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
+URL: [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
 
 Qualquer um desses parâmetros pode ser usado para iniciar um curso:
 
@@ -224,7 +224,7 @@ Qualquer um desses parâmetros pode ser usado para iniciar um curso:
 
 Parâmetro obrigatório:
 
-* access_token : Este é o parâmetro de segurança, use o token de acesso oauth da API pública
+* access_token : Este é o parâmetro de segurança, use o oauth da API pública   token de acesso
 
 Faça chamadas à API do Learning Manager para recuperar os parâmetros mencionados acima. Essas chamadas de API devem ser feitas pelo aplicativo que sua equipe de TI/consultor gravaria e hospedaria no seu site.
 
@@ -234,6 +234,6 @@ API V1 do Learning Manager - [https://learningmanager.adobe.com/docs/primeapi/v1
 
 
 
-API V2 do Learning Manager -  [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
+API V2 do Learning Manager - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
 
 

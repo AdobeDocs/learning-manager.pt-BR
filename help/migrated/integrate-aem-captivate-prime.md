@@ -24,7 +24,7 @@ As várias faixas presentes no aplicativo do aluno podem ser incorporadas nos si
 
 ## Baixar o pacote de conteúdo {#downloadthecontentpackage}
 
-O instalador é enviado como um pacote de conteúdo do AEM. [***Baixar o pacote***](https://github.com/adobe/captivate-prime-aem-components/releases).
+O instalador é enviado como um pacote de conteúdo do AEM. [***Baixe o pacote***](https://github.com/adobe/captivate-prime-aem-components/releases).
 
 O pacote de conteúdo está disponível com arquivo zip e é compatível com AEM 6.4 e AEM 6.5.
 
@@ -34,13 +34,13 @@ Instale o pacote de conteúdo do Learning Manager usando o Gerenciador de pacote
 
 >[!NOTE]
 >
->Para obter informações sobre a instalação de pacotes, consulte  [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>Para obter informações sobre a instalação de pacotes, consulte [***Como Trabalhar com Pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Como autor do AEM, abra o Gerenciador de pacotes do AEM.
 
 1. Clique no botão **Carregar pacote**.
 
-1. Clique em **[!UICONTROL Procurar]** e faça upload do pacote de conteúdo.
+1. Clique em **[!UICONTROL Procurar]** e carregue o pacote de conteúdo.
 1. Clique em **[!UICONTROL Carregar]**.
 1. Após ser carregado, instale o pacote de conteúdo selecionando-o e clicando em **[!UICONTROL Instalar]**.
 
@@ -60,7 +60,7 @@ O administrador do AEM requer um token de atualização da conta do Learning Man
 
    Copiar a ID do aplicativo e a descrição.
 
-1. Clique em **[!UICONTROL Recursos do desenvolvedor]** > **[!UICONTROL Tokens de acesso]**.
+1. Clique Em **[!UICONTROL Recursos Do Desenvolvedor]** > **[!UICONTROL Tokens De Acesso]**.
 
    ![](assets/click-tokens.jpg)
 
@@ -78,7 +78,7 @@ Para a configuração do widget, o autor do AEM requer apenas o token de atualiz
 
 Você também pode definir várias configurações de conta em várias páginas.
 
-1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuração do widget do Captivate Learning Manager]**.
+1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuração do Widget do Captivate Learning Manager]**.
 1. Clique em **[!UICONTROL Criar]**.
 1. Digite o token de atualização aqui. Configure as outras configurações.
 1. O nome do host deve ser alterado para “learningmanagereu” para as regiões da UE.
@@ -91,7 +91,7 @@ O autor do AEM deve primeiro adicionar o componente no modelo do AEM
 
 O autor do AEM poderá arrastar e soltar o componente Adobe Learning Manager e configurar adequadamente.
 
-O componente do Learning Manager requer que a configuração criada na etapa acima seja mapeada para a página.  O autor pode mapear a configuração editando as propriedades da página em **[!UICONTROL Avançado]** > **[!UICONTROL Configuração]** > **[!UICONTROL Configuração da nuvem]** e forneça o caminho de configuração. Dessa forma, o autor pode criar configurações para várias contas do Learning Manager e mapear cada uma para páginas de sites diferentes. Se uma configuração não for mapeada para a página, o componente lerá a configuração da página pai recursivamente até encontrar uma.
+O componente do Learning Manager requer que a configuração criada na etapa acima seja mapeada para a página.  O autor pode mapear a configuração editando as propriedades da página em **[!UICONTROL Avançado]** > **[!UICONTROL Configuração]** > **[!UICONTROL Configuração na nuvem]** e fornecer o caminho da configuração. Dessa forma, o autor pode criar configurações para várias contas do Learning Manager e mapear cada uma para páginas de sites diferentes. Se uma configuração não for mapeada para a página, o componente lerá a configuração da página pai recursivamente até encontrar uma.
 
 ## Aluno {#learner}
 
@@ -122,7 +122,7 @@ Skyline é a versão em nuvem do AEM. Você deve primeiro instalar o Skyline a p
 
 ## Implantar o Skyline
 
-As etapas para configurar o Skyline estão descritas na seção  [Repositório GitHub](https://github.com/adobe/captivate-prime-aem-components).
+As etapas para configurar o Skyline estão descritas no [repositório do GitHub](https://github.com/adobe/captivate-prime-aem-components).
 
 ## Widget Catálogo
 
@@ -132,15 +132,15 @@ O widget Catálogo exibe o treinamento de um catálogo específico ou de um conj
 
 O widget Catálogo contém as seguintes opções:
 
-* **[!UICONTROL IDs do catálogo]:** IDs de catálogo separados por vírgula para os quais o treinamento precisa ser exibido.
-* **[!UICONTROL Classificar]:** Ordem de classificação para o treinamento. As opções são: nome, data, data de criação, data de inscrição e assim por diante.
-* **[!UICONTROL Estado do aluno]:** Retorna todos os treinamentos que usam os seguintes filtros: inscrito, iniciado, concluído e não inscrito. Os resultados da pesquisa não serão exibidos se a opção de classificação for data de inscrição, data de conclusão ou data de inscrição.
+* **[!UICONTROL IDs de catálogo]:** IDs de catálogo separadas por vírgula para as quais o treinamento precisa ser exibido.
+* **[!UICONTROL Classificação]:** Ordem de classificação para o treinamento. As opções são: nome, data, data de criação, data de inscrição e assim por diante.
+* **[!UICONTROL Estado do Aluno]:** retorna todos os treinamentos que usam os seguintes filtros: inscrito, iniciado, concluído e não inscrito. Os resultados da pesquisa não serão exibidos se a opção de classificação for data de inscrição, data de conclusão ou data de inscrição.
 * **[!UICONTROL Nome da habilidade]:** A habilidade usada para filtrar o treinamento exato.
-* **[!UICONTROL Nome da etiqueta]:** A marca usada para filtrar os resultados exatos.
+* **[!UICONTROL Nome da marca]:** A marca usada para filtrar resultados exatos.
 
 Veja aqui alguns componentes adicionais que você pode personalizar:
 
-**[!UICONTROL Tipos de objetos de aprendizado]:** Filtre de acordo com o tipo do Objeto de aprendizado. Os tipos suportados são: curso, certificação, ajuda de tarefa e programa de aprendizado.
+**[!UICONTROL Tipos de Objetos de Aprendizado]:** Filtre de acordo com o tipo do Objeto de Aprendizado. Os tipos suportados são: curso, certificação, ajuda de tarefa e programa de aprendizado.
 
 No AEM, o título de um cartão em uma tira estará vazio inicialmente. Em Propriedades, digite o nome do título em widgets.html.
 
@@ -148,7 +148,7 @@ No AEM, o título de um cartão em uma tira estará vazio inicialmente. Em Propr
 
 Você pode personalizar a aparência do layout usando widgets.html. Você pode alterar a aparência dos cartões que aparecem e personalizar o tema.
 
-No menu **[!UICONTROL Configurações gerais]** você pode escolher as cores primárias e secundárias para os cartões e especificar as propriedades para personalizar o tema.
+Na seção **[!UICONTROL Configurações Gerais]**, você pode escolher as cores primárias e secundárias para os cartões e especificar as propriedades para personalizar o tema.
 
 ```
 \{ 
@@ -173,7 +173,7 @@ No menu **[!UICONTROL Configurações gerais]** você pode escolher as cores pri
 
 ### Ignorar inscrição do OA de ordem superior
 
-Se a opção **[!UICONTROL Ignorar inscrição do OA de ordem superior]** A caixa de seleção está ativada e um usuário está inscrito diretamente em um programa de aprendizado ou certificação. Os cursos para essa certificação ou programa de aprendizado aparecerão para o usuário nos widgets.
+Se a caixa de seleção **[!UICONTROL Ignorar inscrição do OA de ordem superior]** estiver habilitada e um usuário estiver inscrito diretamente em um programa de aprendizado ou certificação, os cursos para essa certificação ou programa de aprendizado aparecerão para o usuário nos widgets.
 
 Se a caixa de seleção estiver desativada, os cursos presentes no Programa de aprendizado ou na Certificação, nos quais o usuário não se inscreveu diretamente, não aparecerão.
 

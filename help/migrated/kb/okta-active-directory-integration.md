@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Integração do Okta Active Directory com o Adobe Learning Manager
 description: Integração do Okta Active Directory com o Adobe Learning Manager
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 57%
 
 ---
-
-
 
 # Integração do Okta Active Directory com o Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
@@ -29,21 +28,21 @@ O Adobe Learning Manager oferece suporte ao provedor de identidade (IdP) e ao pr
 
    ![](assets/cp-application-store.png)
 
-   *Exibir loja de aplicativos na Okta*
+   *Exibir repositório de aplicativos no Okta*
 
-1. Clique em **[!UICONTROL Criar integração de aplicativos]**.
+1. Clique em **[!UICONTROL Criar Integração de Aplicativos]**.
 
    ![](assets/cp-app-integrations.png)
 
-   *Selecione Criar integração de aplicativos*
+   *Selecione Criar Integração de Aplicativos*
 
-1. Selecionar **[!UICONTROL SAML 2.0]** na janela de integração do novo aplicativo.
+1. Selecione **[!UICONTROL SAML 2.0]** na janela de integração do novo aplicativo.
 
    ![](assets/cp-saml2.0.png)
 
    *Selecione a opção SAML2.0*
 
-1. Selecionar **[!UICONTROL Criar integração SAML]** > **[!UICONTROL Página Configurações gerais]**. Insira um Nome de Aplicativo.
+1. Selecione **[!UICONTROL Criar integração SAML]** > **[!UICONTROL Página de configurações gerais]**. Insira um Nome de Aplicativo.
 
    Observe que esse pode ser qualquer nome para identificar exclusivamente o seu aplicativo. Uma vez concluído, clique em **[!UICONTROL Próximo]**.
 
@@ -55,9 +54,9 @@ O Adobe Learning Manager oferece suporte ao provedor de identidade (IdP) e ao pr
 
    **Para configuração de IDP:**
 
-   1. No campo do URL de logon único, digite o URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. No campo do URL do público-alvo, digite o URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. No menu **Formato de ID de Nome** , selecione **Endereço de e-mail**.
+   1. No campo da URL de Logon Único, digite a URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. No campo da URL da Audiência, digite a URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. Na caixa suspensa **Formato de ID de Nome**, selecione **Endereço de Email**.
    1. Na lista suspensa **Nome de usuário do aplicativo**, selecione o nome de usuário do Okta.
    1. Caso queira passar atributos adicionais, você pode adicionar os atributos na **Instrução de atributos** (Opcional)
 
@@ -67,8 +66,8 @@ O Adobe Learning Manager oferece suporte ao provedor de identidade (IdP) e ao pr
 
    **Para configuração de SP:**
 
-   1. No campo do URL de logon único, digite o URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. No campo do URL do público-alvo, digite o URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. No campo da URL de Logon Único, digite a URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. No campo da URL da Audiência, digite a URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. Na caixa suspensa Name ID Format, selecione **Email Address**.
    1. Na lista suspensa Nome de usuário no aplicativo, selecione o nome de usuário do Okta.
    1. Clique em **Mostrar Configurações avançadas**.
@@ -85,18 +84,18 @@ O Adobe Learning Manager oferece suporte ao provedor de identidade (IdP) e ao pr
 
    Uma vez concluído, clique em **[!UICONTROL Próximo]**.
 
-1. O **Feedback**  é opcional. Depois de selecionar as opções e receber seu feedback, clique em **[!UICONTROL Concluir]**.
+1. A guia **Comentários** é opcional. Depois de selecionar as opções e receber seu feedback, clique em **[!UICONTROL Concluir]**.
 
    ![](assets/cp-saml-integration-step3.png)
 
-   *Concluir configuração do SAML*
+   *Concluir a configuração do SAML*
 
 ## Extrair URL iniciado pelo IDP e arquivos de metadados
 
 Para exibir o URL iniciado pelo IdP/SP e o arquivo de metadados, execute as seguintes etapas:
 
 1. Abra o aplicativo que você criou.
-1. Sob a **Logon único** clique em **[!UICONTROL Exibir instruções]**.
+1. Na guia **Logon Único**, clique em **[!UICONTROL Exibir Instruções]**.
 
    ![](assets/cp-prime-sso.png)
 
@@ -105,7 +104,7 @@ Para exibir o URL iniciado pelo IdP/SP e o arquivo de metadados, execute as segu
    **Para IDP:**
 
    1. O URL de logon único do provedor de identidade é o URL iniciado pelo IdP.
-   1. Copie todo o texto que está presente na **Opcional** campo.
+   1. Copie todo o texto presente no campo **Opcional**.
    1. Abra um novo documento do bloco de notas e cole o texto copiado.
    1. Clique em **[!UICONTROL Arquivo]** > **[!UICONTROL Salvar como]** > “filename.xml”. Esse será o arquivo de metadados.
 
@@ -113,13 +112,13 @@ Para exibir o URL iniciado pelo IdP/SP e o arquivo de metadados, execute as segu
 
    1. O URL de logon único do provedor de identidade é o URL iniciado pelo IdP.
    1. O emissor do provedor de identidade é a ID da entidade.
-   1. Copie todo o texto que está presente na **Opcional** campo.
+   1. Copie todo o texto presente no campo **Opcional**.
    1. Abra um novo documento do bloco de notas e cole o texto copiado.
-   1. Clique em **[!UICONTROL Arquivo]** > **[!UICONTROL Salvar como]** > **[!UICONTROL filename.xml]**. Esse será o arquivo de metadados.
+   1. Clique em **[!UICONTROL Arquivo]** > **[!UICONTROL Salvar como]** > **[!UICONTROL arquivo.xml]**. Esse será o arquivo de metadados.
 
    ![](assets/cp-saml-integration-step4.png)
 
-   *Salvar arquivo XML da controladora de armazenamento*
+   *Salvar arquivo XML do SP*
 
    É necessário salvar esse arquivo em um formato XML.
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Não é possível pesquisar um curso no Learning Manager
 description: Um aluno está impossibilitado de pesquisar um curso no Learning Manager.
 contentowner: nluke
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 55%
 
 ---
-
-
 
 # Não é possível pesquisar um curso no Learning Manager
 
@@ -50,7 +49,7 @@ Esse problema ocorre se:
 1. Faça logon como administrador.
 
 1. Clique em **[!UICONTROL Catálogo]** e navegue até o catálogo que contém o curso.
-1. Clique em **[!UICONTROL Compartilhar internamente]** ou **[!UICONTROL Conteúdo]** (dependendo do cenário mencionado acima).
+1. Clique em **[!UICONTROL Compartilhar Internamente]** ou **[!UICONTROL Conteúdo]** (dependendo do cenário mencionado acima).
 
    ![](assets/cp-share-internally.png)
 
@@ -68,7 +67,7 @@ Esse problema ocorre se:
 
    * O curso não faz parte do catálogo
 
-     Na seção Conteúdo, clique em **[!UICONTROL Adicionar conteúdo]** e selecione o curso que você precisa adicionar ao catálogo.
+     Na seção Conteúdo, clique em **[!UICONTROL Adicionar Conteúdo]** e selecione o curso que você precisa adicionar ao catálogo.
 
      ![](assets/cp-add-content.png)
 

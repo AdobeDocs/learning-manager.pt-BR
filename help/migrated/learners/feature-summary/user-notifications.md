@@ -33,13 +33,13 @@ Esta janela pop-up exibe realces de todas as notificações junto com a hora da 
 
 Os alunos podem rejeitar um curso atribuído a eles pelos gerentes clicando em Rejeitar na janela pop-up de notificações.
 
-## Agende a notificação push
+## Programar a notificação por push
 
-Os alunos receberão notificações por push sempre que perderem o prazo final do curso. Os alunos terão a opção de dormir um lembrete por 24 horas ou ser lembrados na próxima semana por cada lembrete atrasado que recebem. Isso é aplicável somente a notificações com atraso de prazo.
+Os alunos receberão notificações por push sempre que perderem um prazo do curso. Os alunos terão a opção de adiar um lembrete por 24 horas ou serem lembrados na próxima semana de cada lembrete vencido que receberem. Isso é aplicável apenas a notificações de prazos vencidos.
 
 ## Mostrar todas as notificações {#showallnotifications}
 
-Clique **[!UICONTROL em Mostrar todos os links de notificações]** na parte inferior da janela pop-up de notificações para ver todas as notificações em uma página separada.
+Clique no link **[!UICONTROL Mostrar todas as notificações]** na parte inferior da janela pop-up de notificações para exibir todas as notificações em uma página separada.
 
 ![](assets/notifications-page.png)
 
@@ -61,7 +61,7 @@ Os alunos recebem notificações sempre que ocorrer os seguintes eventos:
 1. O aluno rejeitou a indicação
 1. Nos cursos aprovados pelo gerente, o gerente aprova/rejeita uma solicitação de inscrição no curso
 1. A lista de espera do aluno é cancelada.
-1. O aluno foi inscrito automaticamente em um curso ou em um programa de aprendizado ou certificação
+1. O aluno foi inscrito automaticamente em um curso, programa de aprendizado ou certificação
 1. O aluno termina uma certificação
 1. O gerente aprova/rejeita o comprovante do documento de conclusão da certificação carregado pelo aluno
 1. Quando o prazo de uma fase específica do curso está se aproximando. (O administrador pode definir a data a partir da qual as notificações de lembrete podem aparecer para o aluno).
@@ -72,8 +72,8 @@ Os alunos podem fornecer feedback N1 depois de concluir um curso que tem uma op�
 
 ![](assets/feedback.png)
 
-*Fornecer feedback do curso*
+*Fornecer comentários sobre o curso*
 
 >[!NOTE]
 >
->Os alunos recebem a opção de feedback para os cursos somente quando um administrador a ativa em um curso específico.
+>Os alunos recebem a opção de feedback para os cursos apenas quando um administrador ativa a opção para um curso específico.

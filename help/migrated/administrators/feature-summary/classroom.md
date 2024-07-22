@@ -25,21 +25,21 @@ Você pode adicionar um local da sala de aula usando a interface do usuário:
 
 1. No aplicativo do administrador (a interface para funções de administrador), clique em **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]**.
 
-1. Clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Novo local]**.
+1. Clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Novo Local]**.
 
 1. No menu **[!UICONTROL Local da sala de aula]**, insira os seguintes detalhes:
 
    * Digite o **[!UICONTROL Nome do local]**. Use um nome exclusivo. Caso contrário, o Learning Manager exibirá uma mensagem de erro.
    * Digite a descrição do local no campo **[!UICONTROL Informações do local]**. Este campo é opcional.
    * Digite o **[!UICONTROL URL do local]**. O aluno pode ver essas informações nos detalhes da sala de aula. O URL também pode ser um URL de localização de mapas, se necessário. Este é um campo opcional.
-   * Digite e selecione o **[!UICONTROL Região do Local]**. Este campo é opcional.
+   * Digite e selecione a **[!UICONTROL Região do Local]**. Este campo é opcional.
    * Digite o número de licenças disponíveis no campo **[!UICONTROL Limite de vagas]**. Isso indica a capacidade da sala de aula. Esse valor pode ser alterado ao criar o evento real de treinamento ministrado pelo professor.
 
    ![](assets/add-classroom-location.png)
 
    *Adicionar um local de sala de aula*
 
-Depois de adicionar o local, o **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]** A página lista as salas de reunião:
+Depois de adicionar o local, a página **[!UICONTROL Configurações]** > **[!UICONTROL Locais de Sala de Aula]** lista as salas de reunião:
 
 ![](assets/list-meeting-rooms.png)
 
@@ -49,7 +49,7 @@ A lista tem os seguintes campos:
 
 **[!UICONTROL Nome do local]** - Nome do local da sala de aula.
 
-**[!UICONTROL Sessões futuras]** - Número de eventos que ocorrerão no local correspondente. Clique no número para exibir os detalhes em uma caixa de diálogo.
+**[!UICONTROL Sessões Futuras]** - Número de eventos que ocorrerão no local correspondente. Clique no número para exibir os detalhes em uma caixa de diálogo.
 
 ![](assets/sessions-list.png)
 
@@ -57,13 +57,13 @@ A lista tem os seguintes campos:
 
 A caixa de diálogo exibe os detalhes de cada sessão, incluindo o nome da sessão, o nome do treinamento que inclui a sessão e o horário da sessão. A hora exibida se alinha com o fuso horário do sistema do aluno.
 
-O **[!UICONTROL Sessões futuras]** exibições de campo **zero** quando a sala de aula não é usada para nenhuma sessão ou quando a sala de aula está associada a sessões passadas.
+O campo **[!UICONTROL Sessões futuras]** exibe **zero** quando a sala de aula não é usada para nenhuma sessão ou quando a sala de aula está associada a sessões passadas.
 
 **[!UICONTROL Limite de vagas]** - Exibe a capacidade da sala de aula.
 
-**URL do local** - URL fornecido ao criar o local da sala de aula.
+**URL do local** - URL que você forneceu ao criar o local da sala de aula.
 
-**Informações do local** - As informações de sala de aula que você forneceu ao criar a sala de aula.
+**Informações do local** - As informações da sala de aula que você forneceu ao criar a sala de aula.
 
 ### Editar os locais da sala de aula
 
@@ -73,15 +73,15 @@ Para editar os locais de sala de aula, siga as etapas abaixo:
 
 1. Passe o mouse sobre o local da sala de aula desejado que deseja editar.
 
-1. Selecionar **[!UICONTROL Editar local da sala de aula]** ícone.
+1. Selecione o ícone **[!UICONTROL Editar local da sala de aula]**.
 
-1. Modificar o local da sala de aula e selecionar **[!UICONTROL Salvar]**.
+1. Modifique o local da sala de aula e selecione **[!UICONTROL Salvar]**.
 
 ## Adicionar sala de aula usando CSV
 
 Como alternativa, você pode adicionar um ou mais locais de sala de aula importando um CSV que contenha as informações da sala de aula.
 
-Entrada **[!UICONTROL Aplicativo do administrador]** > **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]** > **[!UICONTROL Adicionar]**, clique no botão **[!UICONTROL Locais de importação em massa]** botão. Navegue até o local que contém o arquivo CSV e selecione o arquivo.
+No **[!UICONTROL Aplicativo de administrador]** > **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]** > **[!UICONTROL Adicionar]**, clique no botão **[!UICONTROL Locais de importação em massa]**. Navegue até o local que contém o arquivo CSV e selecione o arquivo.
 
 O arquivo CSV usa esses campos para armazenar detalhes sobre um ou mais locais de sala de aula:
 
@@ -99,7 +99,7 @@ Depois que o sistema importa o arquivo CSV, os locais são adicionados à biblio
 
 ## Pesquisar salas de aula
 
-Para pesquisar salas de aula, selecione o curso de sala de aula virtual e, em seguida, vá para **[!UICONTROL Instâncias]** > **[!UICONTROL Sessões]**. Um autor ou administrador pode começar a digitar o nome do local para ver os resultados relevantes que começam a aparecer. Eles podem, então, selecionar um local entre os resultados exibidos. Se nenhum local for exibido nos resultados do tipo adiantado, o usuário ainda poderá adicionar o novo nome do local da sala de aula. Observe que esse nome de local criado usando o fluxo de trabalho de criação da sessão não é adicionado à biblioteca de locais criada pelo administrador.
+Para pesquisar salas de aula, selecione o curso de sala de aula virtual e vá para **[!UICONTROL Instâncias]** > **[!UICONTROL Sessões]**. Um autor ou administrador pode começar a digitar o nome do local para ver os resultados relevantes que começam a aparecer. Eles podem, então, selecionar um local entre os resultados exibidos. Se nenhum local for exibido nos resultados do tipo adiantado, o usuário ainda poderá adicionar o novo nome do local da sala de aula. Observe que esse nome de local criado usando o fluxo de trabalho de criação da sessão não é adicionado à biblioteca de locais criada pelo administrador.
 
 Quando uma sala de aula é adicionada, a plataforma de aprendizado também indica se a sala de aula já está reservada no período mencionado. Ela até fornece horários alternativos como sugestões. Portanto, isso permite que o autor ajuste o horário da reunião se decidir usar o mesmo local da sala de aula.
 
@@ -113,24 +113,24 @@ Como administrador, você pode gerenciar os professores e as instâncias do curs
 
 ### Configurando professores:
 
-No aplicativo de administração, em **[!UICONTROL Configurações]** > **[!UICONTROL Geral]**, os administradores podem encontrar o **[!UICONTROL Gerenciamento de professores]** opção. Esse recurso garante que apenas usuários pré-aprovados atribuídos como professores possam ser adicionados para conduzir sessões.
+No aplicativo de administração, em **[!UICONTROL Configurações]** > **[!UICONTROL Geral]**, os administradores podem encontrar a opção **[!UICONTROL Gerenciamento de professores]**. Esse recurso garante que apenas usuários pré-aprovados atribuídos como professores possam ser adicionados para conduzir sessões.
 
 Para atribuir um professor, siga estas etapas:
 
-1. Acesse o menu **[!UICONTROL Introdução]** e selecione **[!UICONTROL Usuários]** no painel esquerdo.
+1. Vá para a página **[!UICONTROL Introdução]** e selecione **[!UICONTROL Usuários]** no painel esquerdo.
 
 1. Selecione o usuário desejado.
 
-1. Atribua ao usuário a função de professor selecionando **[!UICONTROL Ações]** > **[!UICONTROL Atribuir Função]**.
+1. Atribua ao usuário a função de professor selecionando **[!UICONTROL Ações]** > **[!UICONTROL Atribuir função]**.
 
 ### Cancelando sessões:
 
-Na guia **[!UICONTROL Instância do curso]** administradores podem cancelar uma ou mais sessões. Quando as sessões são canceladas, o sistema remove todos os detalhes da sessão, mas mantém o limite de vagas.
+Na página **[!UICONTROL Instância do curso]**, os administradores podem cancelar uma ou mais sessões. Quando as sessões são canceladas, o sistema remove todos os detalhes da sessão, mas mantém o limite de vagas.
 
 Além disso, os administradores podem:
 
-* **[!UICONTROL Exibir inscrição]**: obtenha informações sobre alunos inscritos e na lista de espera para cada sessão.
-* **[!UICONTROL Cancelar inscrição dos alunos]**: remova os alunos de um curso com sessões canceladas sem alterar seu status de inscrição.
+* **[!UICONTROL Exibir inscrição]**: obtenha informações sobre alunos inscritos e em lista de espera para cada sessão.
+* **[!UICONTROL Cancelar inscrição dos alunos]**: remova os alunos de um curso com sessões canceladas sem alterar o status de inscrição.
 * **[!UICONTROL Gerenciamento de Participação]**: marque a participação nas sessões, mesmo que elas sejam canceladas.
 * **[!UICONTROL Conclusão do curso]**: os administradores podem marcar um curso como concluído mesmo se as sessões tiverem sido canceladas.
 * **[!UICONTROL Reagendamento]**: agende sessões canceladas para datas posteriores e adicione um professor durante o reagendamento.
@@ -139,22 +139,22 @@ Observe que, após o cancelamento, os alunos permanecem inscritos na instância 
 
 ## Autor
 
-Se o administrador selecionar a opção **[!UICONTROL Gerenciamento de professores]** , um autor só pode pesquisar e adicionar os usuários com a função de professor para as sessões de sala de aula, sessões de sala de aula virtual, listas de verificação e módulos de envio de arquivos.
+Se o administrador selecionar a opção **[!UICONTROL Gerenciamento de professores]**, um autor só poderá pesquisar e adicionar os usuários com a função de professor para as sessões de sala de aula, sessões de sala de aula virtual, listas de verificação e módulos de envio de arquivos.
 
 Além disso, o autor pode:
 
 * Adicionar e remover professores das sessões existentes.
 * Adicionar professores às sessões existentes que já têm um ou mais professores.
 
-Portanto, depois que um administrador habilita o **[!UICONTROL Gerenciamento de professores]** , somente os usuários com a função de professor podem ser adicionados como professor.
+Portanto, depois que um administrador habilita a opção **[!UICONTROL Gerenciamento de Professores]**, somente os usuários com a função de professor podem ser adicionados como professor.
 
 >[!NOTE]
 >
 >Isso não é aplicável ao migrar sessões usando o arquivo CSV de sessões. Nesse caso, um usuário que não tem a função de professor pode ser adicionado como professor.
 
-Na guia **[!UICONTROL Instância do curso]** um autor pode cancelar uma ou mais sessões. Quando as sessões são canceladas, o sistema remove todos os detalhes da sessão, mas mantém o limite de vagas.
+Na página **[!UICONTROL Instância do curso]**, o autor pode cancelar uma ou mais sessões. Quando as sessões são canceladas, o sistema remove todos os detalhes da sessão, mas mantém o limite de vagas.
 
-Portanto, um autor pode usar o **[!UICONTROL Cancelar sessão]** links para cancelar uma ou mais sessões de sala de aula ou sessões de sala de aula virtual disponíveis na mesma instância ou em instâncias diferentes do curso.
+Portanto, um autor pode usar os links de **[!UICONTROL Cancelar sessão]** para cancelar uma ou mais sessões de sala de aula ou sessões de sala de aula virtual disponíveis na mesma instância ou em instâncias diferentes do curso.
 
 ## Restringir a lista predeterminada de professores
 

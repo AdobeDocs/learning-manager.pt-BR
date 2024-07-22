@@ -3,13 +3,13 @@ jcr-language: en_us
 title: Pacote do site de referência do Adobe Learning Manager (site de referência ALM) para o AEM Sites
 description: O Adobe Learning Manager (ALM) integra-se aos sites do Adobe Experience Manager (AEM). Isso permite que você crie seu próprio site e interfaces móveis responsivas para o Adobe Learning Manager com o mínimo esforço de codificação. Com essa integração, você pode criar experiências de aprendizado personalizadas para seus usuários.
 contentowner: saghosh
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 67%
 
 ---
-
 
 # Pacote do site de referência do Adobe Learning Manager (site de referência ALM) para o AEM Sites
 
@@ -31,11 +31,11 @@ Instalar pacote do site de referência ALM
 
 Depois de proteger seu ambiente do AEM Sites, você deve instalar o pacote do site de referência ALM. Esse pacote inclui páginas da Web e componentes de sites do AEM que ajudam a construir a plataforma de aprendizado.
 
-O pacote do site de referência é hospedado no [**Repositório GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+O pacote do site de referência está hospedado no [**Repositório GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
 Para mais informações, consulte o README:
 
-## Criar um aplicativo no [!DNL Adobe Learning Manager]
+## Criar um aplicativo em [!DNL Adobe Learning Manager]
 
 Depois de instalar o pacote do site do AEM, você deve configurar um aplicativo ALM para conectar seu portal de aprendizado ao site do AEM.
 
@@ -65,11 +65,11 @@ Para aprovar o aplicativo, clique em **[!UICONTROL Aprovar]**.
 
 ## Obter os tokens
 
-1. Na guia Recursos do desenvolvedor, clique em **[!UICONTROL Tokens de acesso para teste e desenvolvimento]**.
+1. Na guia Recursos do Desenvolvedor, clique em **[!UICONTROL Tokens de Acesso para Teste e Desenvolvimento]**.
 
    ![](assets/access-tokens.png)
 
-   *Selecione Tokens de acesso para teste e desenvolvimento*
+   *Selecionar Tokens de Acesso para Teste e Desenvolvimento*
 
 1. Insira os seguintes detalhes:
 
@@ -104,11 +104,11 @@ Para aprovar o aplicativo, clique em **[!UICONTROL Aprovar]**.
    ![](assets/account-congiguration.png)
    *Criar pasta de configuração*
 
-   1. Adobe Modo de Learning Manager: escolha como deseja a experiência de aprendizado para alunos conectados e não conectados.
+   1. Modo Adobe Learning Manager: escolha como deseja a experiência de aprendizado para alunos conectados e não conectados.
    1. URL do Adobe Learning Manager: insira o URL da instância do ALM onde os serviços de aprendizado estão hospedados.
    1. ID da conta: a ID da conta do ALM.
    1. ID do cliente, Segredo do cliente e Token de atualização do autor: insira as credenciais que você obteve ao criar o aplicativo no ALM.
-   1. Personalização do widget: para mais informações, consulte [Integrar ao AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. Personalização do Widget: para obter mais informações, consulte [Integrar com AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Salve e feche a configuração.
 
@@ -118,11 +118,11 @@ O Adobe Learning Manager agora permite que você mostre seu produto e treinament
 
 Usando esse fluxo de trabalho, um aluno pode visualizar um treinamento, acessar informações de treinamento ou procurar por treinamento sem fazer logon no Adobe Learning Manager. Esse fluxo de trabalho não é aplicável à interface nativa do Learning Manager (aplicável SOMENTE para o AEM Sites e outras interfaces sem periféricos).
 
-**Configurar e ativar o conector da plataforma de aprendizado**
+**Configurar e habilitar o conector da plataforma de aprendizado**
 
 Esta seção sublinha as etapas necessárias para configurar e ativar o seguinte conector:
 
-**Acesso a dados de treinamento**
+**Acesso a Dados de Treinamento**
 
 Esse conector permite que sua interface de usuário baseada no AEM Sites ou uma outra interface de usuário sem periféricos personalizada recupere e renderize informações de treinamento para os alunos e realize uma pesquisa de informações de treinamento contínua antes ou depois de um aluno fazer logon.
 
@@ -156,7 +156,7 @@ Personalize suas páginas da Web usando o site de referências AEM e os widgets 
 
 1. Inicie sua instância do AEM.
 1. Clique em Sites e abra a página de configuração.
-1. Clique em **[!UICONTROL Site de aprendizado]** > **[!UICONTROL Mestres de Idiomas]** > **[!UICONTROL Inglês]**. Todas as páginas da Web do projeto são incluídas na pasta.
+1. Clique em **[!UICONTROL Site de Aprendizado]** > **[!UICONTROL Mestres de Idiomas]** > **[!UICONTROL Inglês]**. Todas as páginas da Web do projeto são incluídas na pasta.
 
    ![](assets/list-webpages.png)
    *Exibir todas as páginas da Web*
@@ -166,7 +166,7 @@ Personalize suas páginas da Web usando o site de referências AEM e os widgets 
 1. Na página, clique no botão de configurações do componente e altere as propriedades do componente.
 
    ![](assets/settings-button.png)
-   *Botão Selecionar configurações*
+   *Botão Selecionar Configurações*
 
 1. Visualize suas alterações ou publique a página.
 
@@ -187,7 +187,7 @@ Além dos modelos que você pode usar que são fornecidos pelo pacote do site de
 
 1. Selecione a nova página e clique em **[!UICONTROL Editar]**.
 
-1. Insira um componente na página, por exemplo, **Aprendizado - Conteúdo**.
+1. Insira um componente na página, por exemplo, **Aprendizado- Conteúdo**.
 
    ![](assets/learning-content.png)
    *Filtrar por site*
@@ -206,14 +206,14 @@ O pacote do site de referência do ALM fornece um “Plano do site de aprendizad
 
    ![](assets/learning-site-blueprint.png)
 
-   *Criar site a partir do blueprint*
+   *Criar site a partir do esquema*
 
 1. Clique em Avançar.
 
 1. Na página de propriedades, insira os metadados da página. Clique em Criar.
 
    ![](assets/blueprint-properties.png)
-   *Selecionar Blueprint do site de aprendizado*
+   *Selecionar Blueprint do Site de Aprendizado*
 
 1. Clique no hiperlink Início para navegar até a página inicial do site que você criou. Nesta página, você pode personalizar os widgets e os componentes do catálogo.
 
@@ -248,7 +248,7 @@ No entanto, se quiser usar esses componentes recém-adicionados do Learning Mana
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   O código anterior adiciona a configuração mapeada na marca meta da página, que é necessária para que os componentes de aprendizado sejam renderizados. Para obter mais detalhes, consulte [sitr de referência do Adobe Learning Manager](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   O código anterior adiciona a configuração mapeada na marca meta da página, que é necessária para que os componentes de aprendizado sejam renderizados. Para obter mais detalhes, consulte [sitr de referência da Adobe Learning Manager](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Certifique-se de ter mapeado a configuração com o projeto da Web.
 1. Abra o modelo do AEM Sites onde deseja importar os componentes do Learning Manager.

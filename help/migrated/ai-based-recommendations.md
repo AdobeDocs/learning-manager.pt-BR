@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Recomendação baseada em IA
 description: O Learning Manager inclui uma nova página inicial do aluno, que é moderna, orientada por conteúdo e personalizada de acordo com as preferências do aluno. As recomendações de aprendizado baseadas em IA têm como objetivo aprimorar o envolvimento do aluno e identificar e corrigir as lacunas de aprendizado.
 contentowner: saghosh
-source-git-commit: fbba54fd99b5757f70011ec0b240abcb25042ec1
+exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 75%
 
 ---
-
-
 
 # Recomendação baseada em IA
 

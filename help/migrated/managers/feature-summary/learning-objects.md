@@ -29,7 +29,7 @@ Como gerente, você pode visualizar uma lista de todos os cursos disponíveis. C
 
 >[!NOTE]
 >
->A lista de todos os cursos retirados pode ser visualizada clicando no **Retirado** guia.
+>A lista de todos os cursos retirados pode ser visualizada clicando na guia **Retirado**.
 
 ## Exibir pontuações do questionário {#viewquizscores}
 
@@ -49,11 +49,11 @@ Como gerente, você pode gerenciar a lista de alunos dos membros da sua equipe.
 
 ![](assets/courses-learners.png)
 
-*Selecionar uma ação do aluno*
+*Selecionar uma ação de aluno*
 
 >[!NOTE]
 >
->**Exportar aprovações pendentes** pode ser executada no aplicativo do aluno.
+>A opção **Exportar aprovações pendentes** pode ser executada no aplicativo do aluno.
 
 Na página Alunos, você pode executar as seguintes ações:
 
@@ -66,7 +66,7 @@ Você também pode exportar a lista de alunos para uma planilha do Excel. Para e
 
 >[!NOTE]
 >
->Se houver várias instâncias em um curso, a lista de alunos é fornecida em guias separadas no Excel. A lista de alunos contém o nome do aluno, o status e os critérios de seleção. O status dos alunos pode ser **Não iniciado**, ou **Em andamento**, ou **Concluído**.
+>Se houver várias instâncias em um curso, a lista de alunos é fornecida em guias separadas no Excel. A lista de alunos contém o nome do aluno, o status e os critérios de seleção. O status dos alunos pode ser **Não iniciado**, **Em andamento** ou **Concluído**.
 
 ## Exibir feedback N1 e N3 {#viewl1andl3feedback}
 
@@ -78,7 +78,7 @@ Você pode ver o feedback N1 fornecido a um curso pelos alunos e o feedback N3 f
 
 ## Visualizar cursos {#previewcourses}
 
-O gerente pode visualizar cursos clicando no botão **Visualizar como aluno** opção ao visualizar os módulos do curso.
+O gerente pode visualizar cursos clicando na opção **Visualizar como aluno** ao visualizar os módulos do curso.
 
 1. Clique em **[!UICONTROL Cursos]** no painel esquerdo depois de fazer logon.
 1. Clique em qualquer quadro do curso na lista de cursos da página.
@@ -113,7 +113,7 @@ O Adobe Learning Manager permite encontrar mais facilmente os cursos/caminhos de
 1. Usando o campo Pesquisa. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou qualquer palavra-chave associada aos seus cursos para localizar os cursos/caminhos de aprendizado. Você também pode pesquisar usando tags predefinidas como Captivate, C, Java e HTML. As tags são pesquisáveis no campo de pesquisa, o que significa que elas são exibidas no campo de pesquisa conforme você digita. A pesquisa também pode ser executada usando a ID exclusiva.
 1. Filtrando a lista de cursos/programações de aprendizado/certificações usando os filtros. Você pode filtrar os cursos por status como Todos, Publicado e Retirado.
 
-Você pode pesquisar com base em competências selecionando **Competências** e escolhendo-os. Como gerente, você pode classificar os cursos de quatro maneiras, para localizar melhor o curso necessário. Clique em Classificar por e escolha ordem alfabética crescente, ordem alfabética decrescente, data de atualização do curso, data de criação do curso ou eficácia dos cursos:
+Você pode pesquisar com base em competências selecionando **Competências** e escolhendo-as. Como gerente, você pode classificar os cursos de quatro maneiras, para localizar melhor o curso necessário. Clique em Classificar por e escolha ordem alfabética crescente, ordem alfabética decrescente, data de atualização do curso, data de criação do curso ou eficácia dos cursos:
 
 * Nome (a-z)
 * Nome (z-a)
@@ -192,7 +192,7 @@ Um gerente pode marcar a conclusão da certificação. Para obter mais informaç
 
 ## Notificações do gerente para aprovação do curso do aluno {#manager-notifications-course-approval}
 
-Ao tentar aceitar ou rejeitar a inscrição de um aluno, um gerente pode exibir os detalhes da sessão (**Videoconferência** ou **Sala de aula**) na janela suspensa.
+Ao tentar aceitar ou rejeitar a inscrição de um aluno, um gerente pode exibir os detalhes da sessão de (**Videoconferência** ou **Sala de aula**) na janela pop-up.
 
 ![](assets/approve-a-learner.png)
 
@@ -209,7 +209,7 @@ Este é o fluxo de trabalho:
 
 1. O gerente recebe uma notificação quando um aluno solicita a aprovação de um curso.
 
-1. O gerente clica **Detalhes da sessão**.
+1. O gerente clica em **Detalhes da Sessão**.
 
    ![](assets/pending-tasks.png)
 

@@ -1,18 +1,17 @@
 ---
 jcr-language: en_us
 title: Requisitos do sistema | Aplicativo de desktop do Adobe Learning Manager
-description: Requisitos do sistema para o aplicativo de desktop Adobe Learning Manager
+description: Requisitos de sistema do aplicativo de desktop da Adobe Learning Manager
 contentowner: kuppan
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: 31455c7e-f642-451b-968a-8a6f75131fda
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 70%
 
 ---
 
-
-
-# Requisitos do sistema para o aplicativo de desktop Adobe Learning Manager
+# Requisitos de sistema do aplicativo de desktop da Adobe Learning Manager
 
 ## Windows {#windows}
 

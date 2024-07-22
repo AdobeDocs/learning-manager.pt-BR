@@ -59,8 +59,8 @@ Use as configurações de logotipo e banner para exibir o logotipo da sua empres
 * Na página de Marcas, você pode configurar as seguintes opções clicando em **Editar** em relação à opção que deseja modificar:
 
    * **Nome da Organização** : o valor especificado aqui determinará o nome que aparece no banner em cada página do site.
-   * **Subdomínio**: esse valor determina a URL do site.
-   * **Estilo do logotipo**: a imagem nesse campo aparece como o logotipo no canto superior direito de cada página. Aqui, você pode optar por exibir apenas o logotipo, o nome da sua organização ou o logotipo e o nome da organização.
+   * **Subdomínio**: este valor determina a URL do seu site.
+   * **Estilo do logotipo**: a imagem neste campo aparece como o logotipo no canto superior direito de cada página. Aqui, você pode optar por exibir apenas o logotipo, o nome da sua organização ou o logotipo e o nome da organização.
 
 ![](assets/setting-the-themesforyoursite.png)
 
@@ -87,7 +87,7 @@ Você pode escolher um dos esquemas de cores para alinhar à sua marca corporati
 
    ![](assets/setting-the-themesforyoursite.png)
 
-1. Além disso, é possível editar o **Cor da Barra Superior**, **Cor de destaque** e o **Brilho da barra lateral**.  Você pode usar suas próprias cores de marca para esses elementos essencias da interface.
+1. Além disso, você pode editar a **Cor da barra superior**, a **Cor de destaque** e o **Brilho da barra lateral**.  Você pode usar suas próprias cores de marca para esses elementos essencias da interface.
 1. Para redefinir os valores para o esquema de cores padrão do tema, clique em **[!UICONTROL Redefinir tema]**. As cores dos elementos essencias da interface do usuário são definidas como as opções padrão para o tema escolhido.
 1. Depois de escolher o tema, clique em **[!UICONTROL Mostrar dicas]** para exibir os rótulos ou dicas na visualização.
 
@@ -112,16 +112,16 @@ Como administrador, sua próxima etapa seria configurar modelos de e-mail para v
 
 Você pode ativar e configurar qualquer uma dessas notificações por e-mail no painel Administrador. Para saber como definir modelos de e-mail, realize as seguintes etapas:
 
-1. No painel de navegação esquerdo, clique em **[!UICONTROL ** Modelos de e-mail **.]**
-1. Clique em uma das seguintes guias:**[!UICONTROL ** Geral **/** Atividade de aprendizado **/** Lembretes e atualizações **.]** Como exemplo, vamos supor que você clique em **[!UICONTROL ** Atividade de aprendizado **.]**
+1. No painel de navegação esquerdo, clique em **[!UICONTROL ** Modelos de Email **.]**
+1. Clique em uma das seguintes guias:**[!UICONTROL ** Geral **/** Atividade de Aprendizado **/** Lembretes e Atualizações **.]** Como exemplo, vamos supor que você clique em **[!UICONTROL ** Atividade de Aprendizado **.]**
 1. Clique no botão de alternância para qualquer atividade que você deseja acionar um e-mail. Neste exemplo, vamos supor que você clique em **[!UICONTROL ** Programa de Aprendizado - Inscrito por Administrador/Gerente **.]**
 
    ![](assets/configure-email-templates-step3.png)
 
    O sistema exibe a mensagem pop-up “Ativado com sucesso”. Agora, sempre que um gerente ou um administrador se inscreve em um curso, o aluno recebe um e-mail dessa conta do Learning Manager.
 
-1. Você pode modificar o modelo de e-mail padrão. Para fazer isso, clique no evento. Neste exemplo, clique em **[!UICONTROL Programa de aprendizado - Inscrito por Administrador/Gerente.]**
-1. No menu **[!UICONTROL Visualização do modelo]** pop-up, observe que há duas guias: [!UICONTROL Aluno] e [!UICONTROL Gerente].
+1. Você pode modificar o modelo de e-mail padrão. Para fazer isso, clique no evento. Neste exemplo, clique em **[!UICONTROL Programa de Aprendizado - Inscrito por Administrador/Gerente.]**
+1. Na caixa de diálogo pop-up **[!UICONTROL Visualização do modelo]**, observe que há duas guias: [!UICONTROL Aluno] e [!UICONTROL Gerente].
 
    ![](assets/configure-email-templates-step5.png)
 
@@ -129,21 +129,21 @@ Você pode ativar e configurar qualquer uma dessas notificações por e-mail no 
 
    Agora, sempre que um aluno é inscrito em um curso pelo gerente ou pelo administrador, o aluno e seu gerente recebem uma notificação por e-mail.
 
-   ***Observação: as modificações são aplicáveis somente ao modelo de e-mail associado ao evento selecionado.***
+   ***Observação: as modificações são aplicáveis somente ao modelo de email associado ao evento selecionado.***
 
 1. Observe que não foi possível modificar o URL da conta ou a assinatura no modelo de e-mail. Para modificar o **[!UICONTROL URL da conta]** ou **[!UICONTROL Assinatura]**, clique na guia **[!UICONTROL Configurações]**. Nessa guia, você pode modificar o banner de e-mail, a assinatura de e-mail e o URL da conta.
 
-   O link do URL da conta é mostrado em todos os e-mails, pouco antes da assinatura. Insira o URL de sua preferência e clique em **[!UICONTROL Salvar]**. Esse URL é visível somente para os usuários internos.
+   O link do URL da conta é mostrado em todos os e-mails, pouco antes da assinatura. Insira sua URL preferida e clique em **[!UICONTROL Salvar]**. Esse URL é visível somente para os usuários internos.
 
-   Para o banner de email, você pode alterar a cor do banner selecionando  **[!UICONTROL ** Plano de fundo do banner **.]** Você também pode usar uma imagem personalizada como banner selecionando o **[!UICONTROL Imagem personalizada]** opção. Clique em  **[!UICONTROL Salvar]** depois de fazer as alterações.
+   Para o banner de email, você pode alterar a cor do banner selecionando **[!UICONTROL ** Plano de fundo do banner **.]** Também é possível usar uma imagem personalizada como banner selecionando a opção **[!UICONTROL Imagem personalizada]**. Clique em **[!UICONTROL Salvar]** depois de fazer as alterações.
 
-   ***Observação: o tamanho da imagem personalizada para o banner de e-mail deve ser de 1240x200px. As imagens maiores que o tamanho recomendado são cortadas.***
+   ***Observação: o tamanho da imagem personalizada para o banner de email deve ser de 1240x200px. As imagens maiores que o tamanho recomendado são cortadas.***
 
-   ***O Learning Manager só é compatível com os tipos de arquivo .jpg, .jpeg e .png para banners de e-mail.***
+   ***O Learning Manager só oferece suporte aos tipos de arquivo .jpg, .jpeg e .png para banners de e-mail.***
 
    ![](assets/configure-email-templates-step6.png)
 
-1. Você também pode ativar os e-mails opcionais do gerente. Se você selecionar a opção **[!UICONTROL Habilitar]** caixa de seleção, sempre que um relatório direto recebe um e-mail desta conta do Prime, o gerente também é incluído na lista de distribuição.
+1. Você também pode ativar os e-mails opcionais do gerente. Se você marcar a caixa de seleção **[!UICONTROL Habilitar]** sempre que um relatório direto recebe um email desta conta do Prime, o gerente também será incluído na lista de endereçamento.
 
    ***Observação: as configurações nesta guia são aplicáveis a todos os modelos globalmente.***
 
@@ -156,13 +156,13 @@ Essa opção também está disponível para autores, quando eles configuram um o
 Para configurar modelos de e-mail para um objeto de aprendizado:
 
 1. Clique no curso, programa de aprendizado ou certificação para o qual você deseja configurar o modelo de e-mail.
-1. No painel esquerdo, clique em **[!UICONTROL ** Modelos de e-mail **.]** O sistema exibe uma caixa de diálogo pop-up ****[!UICONTROL Visualização do modelo]****.
-1. Modifique o assunto ou o corpo do modelo de e-mail e clique em **[!UICONTROL **Salvar**]**para aplicar as alterações.
-1. Para cancelar as alterações, clique em **[!UICONTROL ** Reverter para original **.]**
+1. No painel esquerdo, clique em **[!UICONTROL ** Modelos de email **.]** O sistema exibe uma caixa de diálogo pop-up ****[!UICONTROL Visualização do modelo]****.
+1. Modifique o assunto ou o corpo do modelo de email e clique em **[!UICONTROL **Salvar**]**para aplicar as alterações.
+1. Para cancelar as alterações, clique em **[!UICONTROL ** Reverter para Original **.]**
 
 ### Restringir usuários de receber e-mails {#restrictusersfromreceivingemails}
 
-Como administrador, você pode selecionar quem receberá ou não e-mails do Learning Manager. Você pode fazer isso usando a guia ****[!UICONTROL Usuário restrito]**** na caixa de diálogo ****[!UICONTROL Configurações]** **guia. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva. Os usuários listados nessa opção ficarão restritos ao recebimento de qualquer comunicação por e-mail do Learning Manager.
+Como administrador, você pode selecionar quem receberá ou não e-mails do Learning Manager. Você pode fazer isso usando a opção ****[!UICONTROL Usuário Restrito]**** na guia ****[!UICONTROL Configurações]** **. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva. Os usuários listados nessa opção ficarão restritos ao recebimento de qualquer comunicação por e-mail do Learning Manager.
 
 ## Configurações da sua conta {#configureyouraccountsettings}
 
@@ -193,7 +193,7 @@ Como administrador, você pode definir as configurações de feedback globalment
 
 1. Na página inicial do Learning Manager, clique em **[!UICONTROL Configurações]**.
 1. No painel esquerdo, clique em **[!UICONTROL Geral]**.
-1. Para configurar o feedback N1, clique no botão **[!UICONTROL Feedback N1]** guia. Você verá as opções para configurar uma pergunta obrigatória e várias perguntas opcionais. Estas são as perguntas que um aluno visualiza enquanto fornece feedback após concluir um curso. As perguntas são formuladas como instruções para que os alunos possam selecionar sua resposta em uma escala de 1 a 5.
+1. Para configurar o feedback N1, clique na guia **[!UICONTROL Comentários N1]**. Você verá as opções para configurar uma pergunta obrigatória e várias perguntas opcionais. Estas são as perguntas que um aluno visualiza enquanto fornece feedback após concluir um curso. As perguntas são formuladas como instruções para que os alunos possam selecionar sua resposta em uma escala de 1 a 5.
 
    A primeira parte do feedback N1 é uma pergunta obrigatória sobre como um aluno recomenda este curso a um amigo ou colega.
 
@@ -239,19 +239,19 @@ O procedimento anterior descrevia as etapas para definir as configurações de f
 Para definir as configurações de feedback em um nível de instância:
 
 1. Na página inicial do Learning Manager, clique em **[!UICONTROL Cursos]**.
-1. Passe o mouse sobre o curso onde deseja definir as configurações de feedback. Clique em [!UICONTROL **Exibir curso**.]
+1. Passe o mouse sobre o curso onde deseja definir as configurações de feedback. Clique Em [!UICONTROL **Exibir Curso**.]
 
    ![](assets/configure-feedbackataninstancelevel.png)
 
-1. Na página de detalhes do curso, clique em **[!UICONTROL Padrões de Instância]** na seção Configurar.
-1. No menu [!UICONTROL **Idioma**] , selecione o idioma no qual deseja que o questionário de feedback seja exibido.
+1. Na página de detalhes do curso, clique em **[!UICONTROL Padrões de instância]** na seção Configurar.
+1. Na lista suspensa [!UICONTROL **Idioma**], selecione o idioma no qual deseja que o questionário de comentários seja exibido.
 1. Ative o Feedback de reação N1 se quiser solicitar feedback dos alunos. Você pode adicionar até duas perguntas nesta seção. Os alunos podem fornecer respostas descritivas a essas perguntas.
 1. Marque a caixa de seleção **[!UICONTROL Tornar obrigatório]** se quiser tornar uma ou ambas as perguntas obrigatórias.
 1. Selecione **[!UICONTROL Mostrar questionário imediatamente após a conclusão do curso]** se quiser que os alunos visualizem o questionário de feedback imediatamente após a conclusão do curso.
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. Para configurar o feedback de Alteração de comportamento N3 em um nível de instância, ****[!UICONTROL Habilitar]**** o Feedback N3. O aplicativo exibe uma pergunta predefinida e obrigatória e uma pergunta em branco na qual você pode inserir uma pergunta de sua escolha.
+1. Para configurar o feedback de Alteração de Comportamento N3 em um nível de instância, ****[!UICONTROL Habilite]**** o Feedback N3. O aplicativo exibe uma pergunta predefinida e obrigatória e uma pergunta em branco na qual você pode inserir uma pergunta de sua escolha.
 1. Para a pergunta predefinida sobre a melhoria do aluno após realizar o curso, a resposta está no formato Escala Likert. Isto é, os gestores têm de escolher uma opção numa escala de Concordo totalmente para Descordo totalmente.
 1. Especifique a segunda pergunta para o gerente. Os gerentes podem fornecer uma resposta descritiva para esta pergunta.
 1. Marque a caixa de seleção ****[!UICONTROL Tornar obrigatório]**** se quiser tornar a segunda pergunta obrigatória.
@@ -261,7 +261,7 @@ Para definir as configurações de feedback em um nível de instância:
 1. Opcionalmente, defina as configurações do lembrete no nível da instância. Se você não definir as configurações do lembrete aqui, as configurações globais de lembrete serão atribuídas automaticamente.
 1. Depois de finalizar as perguntas de feedback e as configurações de lembrete, clique em **[!UICONTROL **Salvar**]**para aplicar suas configurações.
 
-   ***Nota: as configurações de feedback não são aplicáveis às certificações.***
+   ***Observação: as configurações de feedback não são aplicáveis às certificações.***
 
 ## Definir configurações gerais {#configuregeneralsettings}
 
@@ -297,7 +297,7 @@ O painel do aluno no Learning Manager permite que os alunos vejam seus cursos ob
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 
-1. Para aplicar as configurações padrão, clique em **[!UICONTROL Restaurar para padrão.]** Nesse caso, todos os widgets, exceto **[!UICONTROL Bem-vindo e Comunicados pop-up]**, estão visíveis.
+1. Para aplicar as configurações padrão, clique em **[!UICONTROL Restaurar para Padrão.]** Nesse caso, todos os widgets, exceto **[!UICONTROL Bem-vindo e Comunicados pop-up]**, estão visíveis.
 
-   ***Mesmo depois de ativar as configurações do Painel do aluno, os alunos podem modificar e mover os widgets em seus respectivos painéis.***
+   ***Mesmo depois de habilitar as configurações do Painel do Aluno, os alunos podem modificar e mover os widgets em seus respectivos painéis.***
 

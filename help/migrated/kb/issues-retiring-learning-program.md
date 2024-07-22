@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Problemas em desativar um programa de aprendizado
 description: Problemas em desativar um programa de aprendizado no Adobe Learning Manager
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 55%
 
 ---
-
-
 
 # Problemas em desativar um programa de aprendizado
 
@@ -50,4 +49,4 @@ Para verificar o curso que contém uma instância desativada, siga as etapas aba
 
    *Reabrir a instância de um curso*
 
-1. Visite o Programa de aprendizado relevante. Clique em **[!UICONTROL Instâncias]** e execute a etapa anterior para reabrir a instância do Programa de aprendizado.
+1. Visite o Programa de aprendizado relevante. Clique em **[!UICONTROL Instâncias]** e execute a etapa anterior para reabrir a instância do Programa de Aprendizado.

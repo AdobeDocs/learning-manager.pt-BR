@@ -55,9 +55,9 @@ The following table lists the rate and burst limits for the APIs.
 
 ### Alterações nos limites de deslocamento
 
-Devido ao alto número de registros recuperados pelo valor de deslocamento e à redução do desempenho geral, estamos aplicando um limite de **500** registros. Na próxima versão, para Administrador e Aluno, o **Usuários do GET** A API retornará um máximo de **500** registros.
+Devido ao alto número de registros recuperados pelo valor de deslocamento e à redução do desempenho geral, estamos aplicando um limite de **500** registros. Na próxima versão, para o administrador e o aluno, a API de **Usuários do GET** retornará um máximo de **500** registros.
 
-Se precisar buscar mais registros, use o **GET** API.
+Se você precisar buscar mais registros, use a API de **Trabalhos do GET**.
 
 <!--### Exclude paths 
 
@@ -131,7 +131,7 @@ O motivo pelo qual estamos descontinuando o sinalizador para as APIs do aluno é
 
 No futuro, a seguinte API do aluno deixará de funcionar porque tem o sinalizador de substituição.
 
-_/primeapi/v2/users?page[offset]=0&amp;página[limite]=10&amp;sort=id&amp;override=TRUE_
+_/primeapi/v2/users?page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE_
 
 ### Alterações de API para novas recomendações baseadas em habilidade
 
@@ -149,5 +149,5 @@ Na versão de novembro de 2023, adicionamos um filtro de data, com o qual você 
 
 ### Descontinuação de valores altos de deslocamento no ponto de extremidade GET /users
 
-Para melhorar o desempenho do sistema e gerenciar a utilização de recursos de maneira mais eficiente, a Adobe reduziu os valores altos de deslocamento no endpoint GET /users para ambos **ADMIN** e **ALUNO** escopos. Recomendamos o uso da **API de trabalhos** para recuperar os registros com um valor de deslocamento.
+Para melhorar o desempenho do sistema e gerenciar a utilização de recursos de maneira mais eficaz, o Adobe preteriu valores de deslocamento altos no ponto de extremidade GET /users para os escopos **ADMIN** e **LEARNER**. Recomendamos usar a **API de trabalhos** para recuperar os registros com um valor de deslocamento.
 

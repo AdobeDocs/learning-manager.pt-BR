@@ -2,14 +2,13 @@
 description: Saiba como baixar a transcrição do aluno baseada nos usuários, nos objetos de aprendizado ou nas habilidades no Learning Manager.
 jcr-language: en_us
 title: Transcrições do aluno
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 85%
 
 ---
-
-
 
 # Transcrições do aluno
 
@@ -19,9 +18,9 @@ O Adobe Learning Manager permite que os gerentes de uma empresa gerem transcriç
 
 ## Gerar transcrições do aluno {#generatelearnertranscripts}
 
-1. Para gerar transcrições do aluno, clique em **[!UICONTROL Relatórios]** no painel esquerdo de login do Gerente.
-1. Clique em **[!UICONTROL Meus Relatórios]** na página.
-1. Clique em **[!UICONTROL Transcrições do aluno]** link.
+1. Para gerar transcrições do aluno, clique em **[!UICONTROL Relatórios]** no painel esquerdo de login do gerente.
+1. Clique na guia **[!UICONTROL Meus Relatórios]** na página.
+1. Clique no link **[!UICONTROL Transcrições do aluno]**.
 
    ![](assets/learner-transcripts.png)
 

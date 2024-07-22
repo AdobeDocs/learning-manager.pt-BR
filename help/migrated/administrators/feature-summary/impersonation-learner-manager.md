@@ -3,14 +3,13 @@ description: Os administradores podem iniciar uma sessão representada na qual p
 jcr-language: en_us
 title: Representação do aluno e do gerente
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 71%
 
 ---
-
-
 
 # Representação do aluno e do gerente {#impersonation-of-learner-and-manager}
 
@@ -51,7 +50,7 @@ Para representar um usuário, siga as etapas abaixo:
 
    Uma mensagem de confirmação, “Modo de representação: Você está conectado como “username (user email)”. Logout” aparece no cabeçalho da página.
 
-**Uma sessão de representação dura 60 minutos.**
+**Uma sessão representada dura 60 minutos.**
 
 Ao alterar para a função de aluno ou gerente, é exibida uma mensagem indicando que o administrador/administrador personalizado está no modo de representação do usuário.
 

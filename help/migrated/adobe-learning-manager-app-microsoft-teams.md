@@ -19,7 +19,7 @@ A configuração do ALM no MS Teams envolve três etapas e precisa da ajuda do a
 
 **Administrador do ALM - A função de administrador de integração aprova o aplicativo do Teams**
 
-Depois que o administrador de integração aprovar o aplicativo do MS Teams, o aplicativo Adobe Learning Manager estará disponível na loja de aplicativos do MS Teams e seus alunos poderão acessá-lo. No entanto, o aplicativo não terá notificações, logon silencioso e não será fixado para os alunos no MS Teams.
+Depois que o administrador de integração aprovar o aplicativo do MS Teams, o aplicativo da Adobe Learning Manager estará disponível na loja de aplicativos do MS Teams e seus alunos poderão acessá-lo. No entanto, o aplicativo não terá notificações, logon silencioso e não será fixado para os alunos no MS Teams.
 
 **O administrador do Microsoft Azure aprova a permissão para o aplicativo ALM no painel do Azure**
 
@@ -33,7 +33,7 @@ O administrador do MS Teams, no Centro de Administração, deve fixar o aplicati
 
 Siga as etapas abaixo:
 
-1. No aplicativo do administrador de integração, selecione **[!UICONTROL Aplicativos]** > **[!UICONTROL Aplicativos em destaque]** e selecione **[!UICONTROL Aplicativo ALM para equipes]**.
+1. No aplicativo do administrador de integração, selecione **[!UICONTROL Aplicativos]** > **[!UICONTROL Aplicativos em destaque]** e selecione o **[!UICONTROL aplicativo ALM Teams]**.
 
    ![](assets/featuredapps.jpg)
    *Selecionar o aplicativo ALM para equipes*
@@ -43,7 +43,7 @@ Siga as etapas abaixo:
    ![](assets/integration_admin_approval_form.jpg)
    *Selecione Aprovar na página de configurações do aplicativo*
 
-1. Selecionar **[!UICONTROL OK]** na caixa de diálogo exibida.
+1. Selecione **[!UICONTROL OK]** na caixa de diálogo exibida.
 
    ![](assets/integration_admin_approved_dialog_box.jpg)
    *Selecionar OK após a aprovação*
@@ -51,7 +51,7 @@ Siga as etapas abaixo:
 1. Depois de aprovado, você poderá ver “Aplicativo do ALM Teams” na seção Aplicativos externos.
 
    ![](assets/integration_admin_external_apps.jpg)
-   *O aplicativo ALM para equipes aparece na página Aplicativos*
+   *O aplicativo para equipes do ALM aparece na página Aplicativos*
 
 Agora, os usuários podem acessar o aplicativo ALM no MS Teams.
 
@@ -62,15 +62,15 @@ Siga as etapas abaixo:
 1. Como administrador do Azure, navegue até a seção Gerenciar o Azure Ative Diretory no painel do Azure.
 
    ![](assets/microsoft_azure.jpg)
-   *Iniciar painel do Azure*
+   *Iniciar o painel do Azure*
 
 1. Cole o seguinte link em uma janela separada do navegador:
 
    `https://login.microsoftonline.com/<tenantIdTobeReplaced>/oauth2/authorize?client_id=8d349d9f-bf59-4ece-8022-a41e87d81903&response_type=code&redirect_uri=https://learningmanager.adobe.com`
 
-1. No link acima, substitua `<tenantIdTobeReplaced>` com a id do locatário disponível na página Visão geral abaixo. Insira o novo URL.
+1. No link acima, substitua `<tenantIdTobeReplaced>` pela ID do locatário disponível na página Visão Geral abaixo. Insira o novo URL.
 
-1. Adicione o aplicativo Adobe Learning Manager aos seus aplicativos do Azure.
+1. Adicione o aplicativo Adobe Learning Manager aos aplicativos do Azure.
 
    ![](assets/microsoft_azure_dashboard.jpg)
    *Adicionar ao Azure*
@@ -90,7 +90,7 @@ Siga as etapas abaixo:
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permissions.jpg)
    *Selecionar Permissões*
 
-1. Selecionar **[!UICONTROL Aceitar]**.
+1. Selecione **[!UICONTROL Aceitar]**.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request.jpg)
    *Selecionar Aceitar*
@@ -109,16 +109,16 @@ Siga as etapas abaixo:
    ![](assets/microsoft_teams_admin_center.png)
    *Criar uma política*
 
-1. Navegue até a seção Configurar políticas. Crie uma política global e selecione **[!UICONTROL Adicionar aplicativos]** na subseção Aplicativos Fixos.
+1. Navegue até a seção Configurar políticas. Crie uma política Global e selecione **[!UICONTROL Adicionar aplicativos]** na subseção Aplicativos Fixos.
 
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
    *Adicionar a política*
 
-1. Na caixa de diálogo a seguir, pesquise por **[!UICONTROL Adobe Learning Manager]** e adicione o aplicativo. Isso adiciona o Adobe do Learning Manager na seção Aplicativos instalados.
+1. Na caixa de diálogo a seguir, pesquise por **[!UICONTROL Adobe Learning Manager]** e adicione o aplicativo. Isso adiciona o Adobe Learning Manager na seção Aplicativos instalados.
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
    *Instalar o aplicativo*
 
 1. Salve esta política. Isso disponibiliza o aplicativo para todos na organização.
 
-Como alternativa, os administradores podem criar uma política personalizada em vez de uma política global. Adicione o Adobe Learning Manager a essa política personalizada e, em seguida, aplique a política personalizada somente aos conjuntos de usuários que precisam acessar o Adobe Learning Manager.
+Como alternativa, os administradores podem criar uma política personalizada em vez de uma política global. Adicione o Adobe Learning Manager a essa política personalizada e aplique a política personalizada somente aos grupos de usuários que precisam acessar o Adobe Learning Manager.

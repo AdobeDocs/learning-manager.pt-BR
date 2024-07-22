@@ -3,14 +3,13 @@ description: Efetue logon como aluno no Learning Manager.
 jcr-language: en_us
 title: Logon
 contentowner: manochan
-source-git-commit: b6ee04d062bf6df477a1e8782cfec8fa3700d744
+exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 58%
 
 ---
-
-
 
 # Logon
 
@@ -26,7 +25,7 @@ Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua cont
 
    ![](assets/adobeid-signin.png)
 
-   *Fazer logon com nome de usuário e senha*
+   *Entrar com nome de usuário e senha*
 
 1. Insira a ID Adobe e a senha, e clique em Entrar.
 

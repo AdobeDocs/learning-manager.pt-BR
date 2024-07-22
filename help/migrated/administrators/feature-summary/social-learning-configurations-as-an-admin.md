@@ -22,31 +22,31 @@ O aprendizado social permite que os alunos estudem em qualquer lugar e compartil
 Para ativar e configurar o recurso Aprendizado social, faça o seguinte:
 
 1. Clique em **[!UICONTROL Aprendizado social]** no painel de navegação esquerdo. Você é redirecionado para a página de atividade.
-1. Habilitar **[!UICONTROL Aprendizado social]** recurso usando o **[!UICONTROL Habilitar]** na página Atividade, se estiver ativando-o pela primeira vez. Caso contrário, ele poderá ser ativado na **[!UICONTROL Configurações]** página.
+1. Habilite o recurso **[!UICONTROL Aprendizado Social]** usando o botão **[!UICONTROL Habilitar]** na página Atividade se estiver ativando pela primeira vez. Caso contrário, ela poderá ser habilitada na página **[!UICONTROL Configurações]**.
 
    É exibida uma caixa de diálogo pop-up como a captura de tela abaixo.
 
    ![](assets/artboard-20-2x.png) ![](assets/enable-social-learningforthefirsttime.png)
 
-   *Habilitar aprendizado social*
+   *Habilitar o aprendizado social*
 
 <!-- ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)-->
 
-O administrador pode definir as configurações de Aprendizado social. As configurações incluem tipos de curações de conteúdo, como **[!UICONTROL Curadoria apenas manual]** e **[!UICONTROL Sem curadoria]**. As configurações de escopo podem ser definidas com escopo diferente, como o tipo de usuário (interno/externo) ou qualquer outro campo ativo presente na conta. O administrador pode definir o caminho do URL onde os alunos podem baixar o aplicativo de desktop Adobe Learning Manager.
+O administrador pode definir as configurações de Aprendizado social. As configurações incluem tipos de Curadoria de Conteúdo, como **[!UICONTROL Curadoria Manual Somente]** e **[!UICONTROL Sem Curadoria]**. As configurações de escopo podem ser definidas com escopo diferente, como o tipo de usuário (interno/externo) ou qualquer outro campo ativo presente na conta. O administrador pode definir o caminho do URL onde os alunos podem baixar o aplicativo de desktop Adobe Learning Manager.
 
 ### Curadoria de conteúdo {#contentcuration}
 
 Visto que o aprendizado social é um aprendizado informal, sua funcionalidade é semelhante a outras plataformas de mídia social. Muitas vezes, as pessoas acham que as mídias sociais distraem porque frequentemente consomem conteúdo irrelevante que afeta sua produtividade. A moderação e a curadoria de conteúdo podem acabar com essa ideia.
 
-**[!UICONTROL Curadoria apenas manual]** e **[!UICONTROL Sem curadoria]** Há duas opções de curadoria que podem ser selecionadas pelo administrador.
+**[!UICONTROL Curadoria manual]** e **[!UICONTROL Sem curadoria]** são duas opções de curadoria que podem ser selecionadas pelo administrador.
 
-**[!UICONTROL Curadoria manual assistida automaticamente]:** O Learning Manager tem um mecanismo de curadoria automática baseado em inteligência artificial que pode descobrir de forma inteligente a essência do conteúdo de qualquer formato que possa ser fornecido posteriormente aos alunos desejados. Ele também pode aprovar ou rejeitar que um conteúdo seja publicado com base na pontuação de confiança fornecida.
+**[!UICONTROL Curadoria manual assistida automaticamente]:** o Learning Manager tem um mecanismo de curadoria automática baseado em inteligência artificial que pode descobrir de forma inteligente a essência do conteúdo de qualquer formato que possa ser fornecido posteriormente aos alunos desejados. Ele também pode aprovar ou rejeitar que um conteúdo seja publicado com base na pontuação de confiança fornecida.
 
 Por exemplo, Adarsh é um aluno e achou um blog interessante, então ele o publicou na plataforma de aprendizado social do Adobe Learning Manager. A publicação é então enviada ao Mecanismo de curadoria de conteúdo viabilizado por IA, que prevê as habilidades presentes no conteúdo e as compara com as habilidades associadas ao conselho. Se alguma das habilidades corresponder, o conteúdo será publicado; caso contrário, será enviado para curadoria manual.
 
 A pontuação mínima de confiança necessária para o lançamento é de 50%.
 
-**[!UICONTROL Curadoria apenas manual]:** Para verificar a autenticidade do conteúdo antes que ele entre no ar, o administrador pode ativar a configuração de curadoria apenas manual. Depois que a configuração Curadoria manual somente é ativada, ela vai para os principais SMEs (máximo 3) para a curadoria. Com base na resposta média, a publicação é aprovada/rejeitada adequadamente. Se a resposta for maior ou igual a 50%, a publicação é publicada, e não é rejeitada. Para obter mais informações sobre SMEs, [clique aqui](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+**[!UICONTROL Curadoria Manual]:** Para verificar a autenticidade do conteúdo antes que ele entre no ar, o administrador pode habilitar a configuração de Curadoria Manual Apenas. Depois que a configuração Curadoria manual somente é ativada, ela vai para os principais SMEs (máximo 3) para a curadoria. Com base na resposta média, a publicação é aprovada/rejeitada adequadamente. Se a resposta for maior ou igual a 50%, a publicação é publicada, e não é rejeitada. Para obter mais informações sobre SMEs, [clique aqui](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
 
 No novo escopo, ele/ela obtém pontos para as atividades nos painéis.
@@ -55,13 +55,13 @@ Nas seções de quadro de classificação social, um usuário pode ver todos os 
 
 Se você recebeu privilégios de usuário especial, você pode ver todos os usuários da conta no seu quadro de classificação, independentemente dos escopos dos usuários.
 
-Se os utilizadores especiais se tornarem PME através da obtenção de pontos suficientes, **[!UICONTROL Principais especialistas no assunto]** no quadro de classificação social.
+Se os usuários especiais se tornarem SMEs obtendo pontos suficientes, eles aparecerão na lista **[!UICONTROL Principais especialistas no assunto]** no quadro de líderes sociais.
 
 Aguarde 60 minutos para que as alterações tenham efeito.
 
 ### Configurações do escopo {#scopesettings}
 
-Em Aprendizado social, o Escopo define os painéis visíveis, controlando assim a visibilidade do conteúdo. Se um usuário tiver um escopo, por exemplo, ***Fornecedor_A***, ele só pode ver painéis de discussão e postagens associadas que foram criadas por outras pessoas que pertencem ao mesmo escopo ***Fornecedor_A***.
+Em Aprendizado social, o Escopo define os painéis visíveis, controlando assim a visibilidade do conteúdo. Se um usuário tiver um escopo, por exemplo, ***Fornecedor_A***, ele só poderá ver painéis e postagens associadas que foram criados por outras pessoas pertencentes ao mesmo escopo ***Fornecedor_A***.
 
 Assim, os Administradores podem tratar um conjunto de usuários — como fornecedores, parceiros ou departamentos — como uma organização distinta.
 
@@ -71,15 +71,15 @@ Existem seções distintas para ativar usuários internos e externos.
 
 **Ativar para Alunos internos**
 
-Nesta seção, você pode escolher a característica do usuário para definir o escopo do aprendizado social para usuários internos. Usuários com as mesmas características **valor** compartilhe o mesmo espaço de aprendizado social.
+Nesta seção, você pode escolher a característica do usuário para definir o escopo do aprendizado social para usuários internos. Usuários com as mesmas características **valor** compartilham o mesmo espaço de Aprendizado Social.
 
-Na guia **Característica do usuário** , escolha a opção desejada.
+Na lista suspensa **Característica do usuário**, escolha a opção necessária.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *Selecione as características do usuário para definir o escopo*
 
-Por padrão, a opção **[!UICONTROL Todos os usuários internos]** na lista suspensa Característica do usuário, a opção está sempre selecionada.
+Por padrão, a opção **[!UICONTROL Todos os usuários internos]** da lista suspensa Característica do usuário está sempre selecionada.
 
 Você pode definir o escopo de usuários internos com base em seus campos ativos.
 
@@ -89,7 +89,7 @@ Para definir o escopo de aprendizado dos usuários externos, use um perfil exter
 
 ![](assets/choose-an-externalprofile.png)
 
-*Ativar escopo para alunos externos*
+*Habilitar escopo para alunos externos*
 
 O escopo dos usuários externos é definido com base em seus perfis externos.
 
@@ -101,7 +101,7 @@ Por exemplo, o administrador pode definir o escopo como **[!UICONTROL Tipo de us
 
 Depois que o administrador seleciona uma Característica do usuário, ele pode limitar o recurso Aprendizado social a alunos e grupo de alunos marcando a caixa de seleção abaixo do campo Característica do usuário. Clique no campo de valor para selecionar o aluno ou grupos de aluno para os quais você deseja ativar o recurso Aprendizado social.
 
-Por padrão, o escopo é definido pelo **[!UICONTROL Tipo de usuário]** que são alunos internos ou externos.
+Por padrão, o escopo é definido pelo **[!UICONTROL Tipo de Usuário]**, que são Alunos Internos ou externos.
 
 Se o campo ativo não contém nenhum valor, a lista suspensa do campo **[!UICONTROL Valor]** não será visível para o administrador.
 
@@ -117,7 +117,7 @@ Para servidores corporativos, o administrador pode alterar o local de onde os al
 
 ![](assets/enterprise-servers.png)
 
-*Alterar o local de download*
+*Alterar o local do download*
 
 O URL do servidor corporativo deve estar hospedado publicamente.
 
@@ -131,7 +131,7 @@ Para restringir a criação de painéis por todos os alunos e moderar os painéi
 
 A opção **[!UICONTROL Todos os alunos]** está ativada por padrão.
 
-**[!UICONTROL Todos os alunos]:** Se você escolher essa opção, todos os usuários internos e externos poderão criar painéis.
+**[!UICONTROL Todos os alunos]:** se você escolher essa opção, todos os usuários internos e externos poderão criar painéis.
 
 **Um grupo de alunos:** se essa opção for selecionada, apenas usuários com permissão para criar painéis verão o link **[!UICONTROL Criar um novo painel]** no Aprendizado social. Escolha o grupo de usuários que deve receber permissão para criar um painel. Você também pode adicionar grupos de usuários gerados automaticamente e personalizados.
 
@@ -165,7 +165,7 @@ Nas seções de quadro de classificação social, um usuário pode ver todos os 
 
 Se você recebeu privilégios de usuário especial, você pode ver todos os usuários da conta no seu quadro de classificação, independentemente dos escopos dos usuários.
 
-Se os utilizadores especiais se tornarem PME através da obtenção de pontos suficientes, **[!UICONTROL Principais especialistas no assunto]** no quadro de classificação social.
+Se os usuários especiais se tornarem SMEs obtendo pontos suficientes, eles aparecerão na lista **[!UICONTROL Principais especialistas no assunto]** no quadro de líderes sociais.
 
 Aguarde 60 minutos para que as alterações tenham efeito.
 
@@ -176,7 +176,7 @@ O administrador pode personalizar o título e o subtítulo exibidos na imagem do
 1. No aplicativo de administração, clique em **[!UICONTROL Aprendizado social]** > **[!UICONTROL Configurações]**.
 1. Clique em **[!UICONTROL Personalizar]**.
 1. Alterar a imagem do banner. As dimensões da imagem devem ser de pelo menos **1600 px X 240 px**.
-1. Alterne a opção para ocultar ou exibir o **[!UICONTROL Saiba mais]** no banner.
+1. Alterne a opção para ocultar ou exibir o link **[!UICONTROL Saiba mais]** no banner.
 1. Insira o título e o subtítulo nos campos especificados abaixo:
 
    ![](assets/image012.png)
@@ -185,9 +185,9 @@ O administrador pode personalizar o título e o subtítulo exibidos na imagem do
 
 Você tem algumas outras opções:
 
-* **[!UICONTROL Idioma]:** Na lista suspensa, escolha o idioma para traduzir o título e o subtítulo. Você também pode adicionar texto personalizado para idiomas diferentes.
-* **[!UICONTROL Replicar]:** Clique nesse botão para replicar o título e o subtítulo em todos os idiomas.
-* **[!UICONTROL Redefinir]:** Clique nesse botão para reverter para o título e o subtítulo originais.
+* **[!UICONTROL Idioma]:** na lista suspensa, escolha o idioma para traduzir o título e o subtítulo. Você também pode adicionar texto personalizado para idiomas diferentes.
+* **[!UICONTROL Replicar]:** clique neste botão para replicar o título e o subtítulo em todos os idiomas.
+* **[!UICONTROL Redefinir]:** clique neste botão para reverter para o título e o subtítulo originais.
 
   Na página inicial do Aprendizado social, as informações fornecidas pelo administrador são exibidas como o cabeçalho da página.
 
@@ -221,7 +221,7 @@ Um administrador pode ativar a opção de organizar conteúdo automaticamente no
 
    ![](assets/auto-curation.png)
 
-   *Selecione a opção Curadoria manual assistida automaticamente*
+   *Selecione a opção de Curadoria manual com assistência automática*
 
 Assim que um usuário carregar um conteúdo em um painel, um algoritmo baseado em IA varre o texto do conteúdo e o envia para o mecanismo de curadoria. O mecanismo de curadoria tenta localizar as habilidades presentes no conteúdo.
 
@@ -233,9 +233,9 @@ Sempre que um conteúdo passa por curadoria automática, o usuário recebe uma n
 
 *Fluxograma de configurações de curadoria*
 
-É recomendável que o administrador adicione SMEs para habilidades se a Curadoria manual somente estiver ativada. O administrador pode adicionar SMEs fornecendo anteriormente pontos de SME aos usuários com experiência em uma habilidade. Para saber mais sobre como fornecer pontos para as PME,  [clique aqui](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+É recomendável que o administrador adicione SMEs para habilidades se a Curadoria manual somente estiver ativada. O administrador pode adicionar SMEs fornecendo anteriormente pontos de SME aos usuários com experiência em uma habilidade. Para saber mais sobre como fornecer pontos para SMEs, [clique aqui](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
-**Sem curadoria:** Todas as publicações do aluno são publicadas automaticamente sem qualquer moderação de conteúdo.
+**Sem curadoria:** todas as publicações do aluno são publicadas automaticamente sem qualquer moderação de conteúdo.
 
 <!--![](assets/artboard-6-2x.png)-->
 
@@ -288,7 +288,7 @@ As SMEs são adicionadas/atribuídas com base na habilidade, e não no nível da
 
 **Moderadores:** Proprietários secundários do fórum. Eles são adicionados pelos criadores durante a criação do fórum para que eles possam controlar o fórum na ausência do criador. Por padrão, o criador do fórum é o moderador.
 
-**PME:** Especialistas no assunto são especialistas em habilidades específicas. O administrador pode atribuir SMEs a uma determinada habilidade para fazer curadoria do conteúdo dessa habilidade. As SMEs recebem os pedidos de curadoria dos fórum ligados às suas habilidades. Os alunos também podem se tornar SMEs ganhando pontos de SME.
+**SME:** os especialistas no assunto são especialistas em habilidades específicas. O administrador pode atribuir SMEs a uma determinada habilidade para fazer curadoria do conteúdo dessa habilidade. As SMEs recebem os pedidos de curadoria dos fórum ligados às suas habilidades. Os alunos também podem se tornar SMEs ganhando pontos de SME.
 
 +++
 
@@ -314,13 +314,13 @@ A primeira vista fornece ao administrador as seguintes informações do período
 
 1. **[!UICONTROL Novas publicações:]** exibe o número de publicações novas criadas dentro do período de data. Também é exibido o número total de publicações durante todo o período.
 1. **[!UICONTROL Porcentagem de usuários ativos]**: exibe a porcentagem total de usuários ativos no aprendizado social em comparação ao número total de usuários disponível na conta.
-1. **[!UICONTROL Novos painéis]**: exibe o número de novos painéis criados. Também é exibido o número total de painéis para o período inteiro.
+1. **[!UICONTROL Novos painéis]**: exibe o número de novos painéis que foram criados. Também é exibido o número total de painéis para o período inteiro.
 
 A segunda vista é um gráfico de linha que exibe a tendência do número de painéis ou publicações criados com base no período selecionado no filtro de datas. Clique no filtro para exibir as diferentes opções de tempo como últimos sete dias, último mês, últimos três meses e sempre.
 
 ![](assets/trends.png)
 
-*Gráfico de linhas exibindo a tendência*
+*Gráfico de linha exibindo a tendência*
 
 ## Habilidades {#skills}
 
@@ -429,7 +429,7 @@ Com base nas habilidades mais usadas pelos usuários finais do Learning Manager,
 
 ## Especialistas no assunto (SMEs) {#subjectmatterexpertssmes}
 
-**Especialistas no assunto** são pessoas que têm um conhecimento e experiência consideráveis em uma habilidade. Um **PME** desempenha uma função importante no aprendizado social quando o administrador define as configurações de curadoria como manuais ou quando o método de curadoria automática falha em selecionar o conteúdo. Apenas os três principais SMEs são exibidos na coluna SMEs.
+**Especialistas no assunto** são pessoas que têm um conhecimento e uma experiência consideráveis em uma habilidade. Um **SME** desempenha uma função importante no aprendizado social quando o administrador define as configurações de curadoria como manuais ou quando o método de curadoria automática falha em selecionar o conteúdo. Apenas os três principais SMEs são exibidos na coluna SMEs.
 
 ## Requisitos para ser um SME {#requirementstobeansme}
 
@@ -445,13 +445,13 @@ Para adicionar SMEs a uma habilidade, siga as etapas fornecidas:
 
    *Adicionar ou modificar SME*
 
-1. Clique em **[!UICONTROL Opções avançadas]** na caixa de diálogo pop-up.
+1. Clique em **[!UICONTROL Opções Avançadas]** na caixa de diálogo pop-up.
 
    ![](assets/advanced-optionssmes.png)
 
-   *Exibir caixa de diálogo Opções avançadas*
+   *Exibir caixa de diálogo de Opções Avançadas*
 
-1. Pesquise pelo usuário com experiência na habilidade. Depois que o usuário for encontrado, digite o número de pontos que deseja dar a ele na caixa **Adicionar pontos** caixa de entrada.
+1. Pesquise pelo usuário com experiência na habilidade. Depois que o usuário for encontrado, digite o número de pontos que deseja dar a ele na caixa de entrada **Adicionar pontos**.
 
    Se o usuário já tiver pontos, os novos pontos dados ao usuário serão adicionados ao número atual de pontos.
 
@@ -463,9 +463,9 @@ Para adicionar SMEs a uma habilidade, siga as etapas fornecidas:
 
 1. Ao marcar a caixa de seleção **[!UICONTROL Ativar pontos mínimos de SME]**, você pode definir um limite para o número mínimo de pontos que um usuário deve ter para ser exibido como SME na lista de principais SMEs. Depois que o limite mínimo é definido, os SMEs com pontos iguais ou inferiores ao valor mínimo necessário não são exibidos na lista de SMEs.
 
-   Se a opção **[!UICONTROL Habilitar Mínimo de SME Points]** não for marcada, os três principais usuários com os pontos mais altos serão considerados as SMEs para essa habilidade em particular.
+   Se a caixa de seleção **[!UICONTROL Habilitar Mínimo de SMEs]** não estiver marcada, os três principais usuários com os pontos mais altos serão considerados SMEs para essa habilidade em particular.
 
-1. Clique em **[!UICONTROL Salvar]** para exibir as alterações que foram feitas.
+1. Clique no botão **[!UICONTROL Salvar]** para exibir as alterações feitas.
 
 ## Sistema de pontos do SME {#smepointsystem}
 
@@ -484,15 +484,15 @@ Para adicionar SMEs a uma habilidade, siga as etapas fornecidas:
 
 ## Plano de faturamento das atividades sociais para usuários ativos mensalmente {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Toda vez que um usuário cria um novo conselho social, publicação social ou comentário social, ele contaria como atividade válida a ser contada no **Usuário de Ativação Mensal**(MAU) se a conta seguir o modelo de faturamento MAU. Para obter mais informações, consulte o [gerenciamento de faturamento](billing-management.md).
+Toda vez que um usuário cria um novo quadro social, publicação para redes sociais ou comentário para redes sociais, ele contaria como atividade válida a ser contada no plano MAU (**Usuário de Ativação Mensal**) se a conta seguisse o modelo de faturamento MAU. Para obter mais informações, consulte o [gerenciamento de faturamento](billing-management.md).
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
 +++Como ativar o aprendizado social para alunos externos?
 
-Entrada **[!UICONTROL Aprendizado social]** > **[!UICONTROL Configurações]**, na seção Configurações do escopo, ative a opção **[!UICONTROL Ativar para alunos externos]**. Na lista suspensa, escolha um perfil externo e defina o escopo do aprendizado para esse perfil.
+No **[!UICONTROL Aprendizado social]** > **[!UICONTROL Configurações]**, na seção Configurações do escopo, habilite a opção **[!UICONTROL Habilitar para alunos externos]**. Na lista suspensa, escolha um perfil externo e defina o escopo do aprendizado para esse perfil.
 
 ![](assets/social-scope-external-users.png)
 
-*Selecione a opção Ativar para alunos externos*
+*Selecione a opção Habilitar para Alunos Externos*
 +++

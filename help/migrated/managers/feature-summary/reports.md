@@ -3,14 +3,13 @@ description: Criar e gerenciar relatórios para Gerentes.
 jcr-language: en_us
 title: Relatórios
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1840'
 ht-degree: 63%
 
 ---
-
-
 
 # Relatórios
 
@@ -22,7 +21,7 @@ O Adobe Learning Manager lhe permite criar relatórios variados para acompanhar,
 
 O processo de geração de relatórios é o mesmo para o Administrador e Gerente. Os Gerentes podem ver os relatórios que correspondem aos seus subordinados enquanto que o Administrador pode vir todos os relatórios no âmbito da organização.
 
-Os relatórios são agregados em um painel. Um relatório deve existir dentro de um painel. A **Painel padrão** existe por padrão na página relatórios. Qualquer relatório adicionado por você é movido para este painel padrão. Para adicionar relatórios a painéis de controle individuais, use a seta suspensa e escolha Adicionar relatório. Para obter mais informações sobre como criar painéis, consulte a seção Painéis nesta página.
+Os relatórios são agregados em um painel. Um relatório deve existir dentro de um painel. Um **Painel Padrão** existe por padrão na página de relatórios. Qualquer relatório adicionado por você é movido para este painel padrão. Para adicionar relatórios a painéis de controle individuais, use a seta suspensa e escolha Adicionar relatório. Para obter mais informações sobre como criar painéis, consulte a seção Painéis nesta página.
 
 ## Painéis do gerente {#manager-dashboards}
 
@@ -34,7 +33,7 @@ O gerente pode filtrar o relatório de acordo com intervalos como, trimestre, es
 
 ![](assets/manager-learningsummary.png)
 
-*Exibir resumo de aprendizado*
+*Exibir resumo do aprendizado*
 
 ![](assets/manager-dashboard.jpg)
 
@@ -77,7 +76,7 @@ Por padrão, pelo menos três relatórios de amostra aparecem na página de resu
 
 ![](assets/add-report.png)
 
-*Caixa de diálogo Adicionar relatório*
+*Caixa de diálogo Adicionar Relatório*
 
 Em Tipo de relatório, você pode escolher um conjunto predefinido de relatórios ou escolher personalizado. Você pode exibir os seguintes relatórios como parte do conjunto predefinido de relatórios:
 
@@ -94,15 +93,15 @@ Nome do Relatório Digite um título para o relatório.
 
 **Eixo Y principal** Escolha o primeiro critério/critério principal para o relatório nas opções suspensas. Para alguns dos critérios selecionados, você tem a opção de escolher um ou vários estados na caixa suspensa Estados adjacentes. Por exemplo, para um critério principal das estatísticas de inscrição do curso, os estados podem ser concluídos, incompletos, inscritos e assim por diante. Os dados da faixa principal são representados na forma de gráficos de barra no relatório.
 
-**Eixo Y secundário** Escolha o critério/intervalo do eixo Y secundário para o relatório nas opções suspensas. Por exemplo, na opção de inscrição no programa de aprendizado, escolha um ou vários estados na lista suspensa Estados adjacentes. Os dados da faixa secundária são representados na forma de gráficos de linha no relatório.
+**Eixo Y secundário** Escolha o intervalo/critérios do eixo Y secundário para o relatório nas opções suspensas. Por exemplo, na opção de inscrição no programa de aprendizado, escolha um ou vários estados na lista suspensa Estados adjacentes. Os dados da faixa secundária são representados na forma de gráficos de linha no relatório.
 
 **Eixo X** Escolha os critérios apropriados do eixo x para o relatório nas opções suspensas. Se o eixo X for selecionado como uma data, então uma opção para agrupar seu critério do eixo X por dia, mês, trimestre e ano está disponível.
 
-**Data** Escolha a opção apropriada na lista suspensa. Opções: último um mês, trimestre, ano, trimestre até a data (últimos 90 dias), ano até a data (últimos 365 dias) e a faixa de datas. Se você escolher faixa de datas, forneça a data De e Para como se segue:
+**Data** Escolha a opção apropriada no menu suspenso. Opções: último um mês, trimestre, ano, trimestre até a data (últimos 90 dias), ano até a data (últimos 365 dias) e a faixa de datas. Se você escolher faixa de datas, forneça a data De e Para como se segue:
 
-**De** Escolha a data inicial a partir da qual você gostaria de ver o relatório.
+**De** Escolha a data inicial a partir da qual você deseja ver o relatório.
 
-**Para** Escolha a data final para o relatório.
+**Para** Escolha a data de término para o relatório.
 
 ## Filtros {#filters}
 
@@ -132,11 +131,11 @@ Acompanhe o desempenho de grupos, tal coo departamento, parceiros externos e fun
 
 ### Grupos de usuários {#usergroups}
 
-Para gerar relatórios com base em grupos de usuários, escolha **Grupo de usuários** no eixo X na lista de opções suspensas, conforme mostrado na captura de tela abaixo.
+Para gerar relatórios com base em grupos de usuários, escolha **Grupo de Usuários** no eixo X na lista de opções suspensas, conforme mostrado na tela abaixo.
 
 ![](assets/x-axis-reporting.png)
 
-*Gerar relatórios de Grupo de Usuários*
+*Gerar relatórios de grupo de usuários*
 
 Outra lista suspensa **Selecionar** aparece adjacente ao eixo X com uma lista de grupos de usuários disponíveis para a sua conta. Nesta lista suspensa, você pode selecionar um ou vários grupos de usuários.
 
@@ -148,7 +147,7 @@ Este relatório do grupo de usuários permite comparar o desempenho de um depart
 
 Você também pode criar grupos de usuários personalizados usando o recurso Adicionar usuários/grupos de usuários no Learning Manager. Após criar grupos de usuários, você pode gerar relatórios para esses grupos de usuários personalizados com a ajuda de uma lista de atributos, tal como local, filial, e assim por diante.
 
-No eixo X, escolha a opção de atributo do usuário e selecione o atributo de **selecionar** ao lado dele. Para criar um relatório personalizado de grupo de usuários com base nesses atributos, você também precisa escolher o grupo de usuários apropriado no filtro.
+No eixo X, escolha a opção de atributo de usuário e selecione o atributo no menu suspenso **selecionar** ao lado dele. Para criar um relatório personalizado de grupo de usuários com base nesses atributos, você também precisa escolher o grupo de usuários apropriado no filtro.
 
 Os Gerentes podem criar relatórios do grupo de usuários somente para seus próprios membros da equipe como Alunos.
 
@@ -199,7 +198,7 @@ Os relatórios compartilhados são uma coleção de relatórios que foram compar
 
 Você pode se inscrever para relatórios favoritos fornecendo sua ID de e-mail aqui. Seus relatórios inscritos lhe serão enviados por e-mail.
 
-Clique no botão **Editar** no canto direito do seu nome de relatório na lista relatórios para modificar sua assinatura a qualquer momento.
+Clique no ícone **Editar** no canto direito do nome do relatório na lista de relatórios para modificar sua assinatura a qualquer momento.
 
 ## Exibir relatórios {#viewingreports}
 
@@ -214,7 +213,7 @@ Você pode alterar a faixa/valor da data para todos os relatórios e exibir rapi
 **Exibição rápida com diferentes Gerentes** 
 
 Se houver múltiplos Gerentes que se reportam a você, poderá exibir os relatórios rapidamente para cada Gerente. Escolha o nome do gerente na lista suspensa para exibir um relatório exclusivo para cada gerente.
-**Editar/Mover para o painel/Criar uma cópia/Excluir/Redimensionar relatórios** Clique na seta suspensa no canto superior direito de cada relatório para exibir as opções suspensas como Editar/Mover para Painel/Criar uma cópia/Excluir/Redimensionar.
+**Editar/Mover para o painel/Criar uma cópia/Excluir/Redimensionar relatórios** Clique na seta suspensa no canto superior direito de cada relatório para exibir as opções suspensas como Editar/Mover para o painel/Criar uma cópia/Excluir/Redimensionar.
 
 <!--![](assets/edit-options-dashboard-300x126.png)-->
 
@@ -222,11 +221,11 @@ Se houver múltiplos Gerentes que se reportam a você, poderá exibir os relató
 
 **Mover para o Painel** Você pode mover o relatório atual para outro painel, que é escolhido na lista de painéis.
 
-**Criar uma cópia** Você pode copiar o relatório para o mesmo painel ou para outro painel, que é escolhido na lista de painéis.
+**Criar uma Cópia** Você pode copiar o relatório para o mesmo painel ou para outro painel, que é escolhido na lista de painéis.
 
 **Excluir** Clique em Excluir para remover o relatório. Uma mensagem de advertência/confirmação aparece antes que você possa excluir o relatório.
 
-**Redimensionar** Você pode redimensionar seus relatórios em tamanhos 1 × 1 (médio) e 2 × 2 (grande).
+**Redimensionar** Você pode redimensionar seus relatórios nos tamanhos 1×1(médio) e 2×2(grande).
 
 ## Inscrições de e-mail {#emailsubscriptions}
 

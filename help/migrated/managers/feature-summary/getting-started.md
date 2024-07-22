@@ -23,7 +23,7 @@ Assim que você efetuar o login como um Gerente, poderá ver a janela suspensa c
 
 Navegue através dos tutoriais em vídeo de amostra para compreender os principais recursos de sua função como um Gerente. Se você não deseja que essa janela suspensa apareça durante o login, poderá desativá-la clicando na opção Não mostrar no login no canto inferior direito da janela suspensa.
 
-Clique em **[!UICONTROL Fechar janela]** para fechar o pop-up.
+Clique em **[!UICONTROL Fechar Janela]** para fechar a janela pop-up.
 
 ![](assets/welcome-videos.png)
 

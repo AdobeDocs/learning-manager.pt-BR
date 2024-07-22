@@ -34,7 +34,7 @@ Isso geralmente acontece quando os modelos de e-mail são personalizados incorre
 Para evitar erros relacionados a links quebrados, que podem aparecer devido à personalização, siga as etapas abaixo:
 
 1. Faça logon como administrador.
-1. No painel esquerdo, clique em **[!UICONTROL Modelos de e-mail]**.
+1. No painel esquerdo, clique em **[!UICONTROL Modelos de Email]**.
 
 1. Navegue até o modelo necessário e clique para modificá-lo.
 
@@ -46,8 +46,8 @@ Para evitar erros relacionados a links quebrados, que podem aparecer devido à p
 
    * Recomendamos que você modifique um modelo de e-mail na interface do Learning Manager.
    * Copie e cole o modelo modificado em um arquivo do Bloco de Notas/Word para armazenar uma cópia das alterações feitas.
-   * Evite substituir qualquer texto dinâmico no modelo destacado em azul. Por exemplo, &quot;**OrganizationName**“, &quot;**Aluno**“, &quot;**clique aqui**“, &quot;**CertificateName**&quot; e assim por diante.
+   * Evite substituir qualquer texto dinâmico no modelo destacado em azul. Por exemplo, “**OrganizationName**”, “**Learner**”, “**clique aqui**”, “**CertificateName**” e assim por diante.
 
 1. Clique em **[!UICONTROL Salvar]** para confirmar as alterações aplicadas ao modelo.
 1. Acione o e-mail para verificar se os links funcionam conforme o esperado.
-1. Reverta as configurações para o original clicando na opção **Reverter para original** para o modelo modificado.
+1. Reverta as configurações para o original clicando na opção **Reverter para o original** do modelo modificado.

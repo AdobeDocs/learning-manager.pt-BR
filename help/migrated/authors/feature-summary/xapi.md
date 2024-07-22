@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: xAPI no Learning Manager
 description: A Experience API (xAPI) é uma especificação de software de e-learning que permite que o conteúdo de aprendizado e os sistemas de aprendizado se comuniquem entre si de maneira que registrem e rastreiem todos os tipos de experiências de aprendizado.
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 49%
 
 ---
-
-
 
 # xAPI no Learning Manager
 
@@ -17,7 +16,7 @@ ht-degree: 49%
 
 A Experience API (xAPI) é uma especificação de software de e-learning que permite que o conteúdo de aprendizado e os sistemas de aprendizado se comuniquem entre si de maneira que registrem e rastreiem todos os tipos de experiências de aprendizado. As experiências de aprendizado são gravadas em um LRS (Armazenamento de Registros de Aprendizagem). Os LRSs podem existir em sistemas tradicionais de gerenciamento de aprendizagem (LMSs) ou por conta própria.
 
-Para obter mais informações sobre a xAPI, consulte:  [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
+Para obter mais informações sobre a xAPI, consulte: [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
 
 ## Como o Learning Manager oferece suporte à xAPI? {#howdoescaptivateprimesupportxapi}
 
@@ -31,7 +30,7 @@ Cada vez mais, é necessário capturar experiências de aprendizado do usuário 
 
 ## Configure o seu aplicativo {#setupyourapplication}
 
-1. Faça logon como administrador de integração. Selecionar **[!UICONTROL Aplicativos]** > **[!UICONTROL Registrar]**.
+1. Faça logon como administrador de integração. Selecione **[!UICONTROL Aplicativos]** > **[!UICONTROL Registrar]**.
 
    ![](assets/appregistration.png)
 
@@ -46,7 +45,7 @@ Cada vez mais, é necessário capturar experiências de aprendizado do usuário 
 
 1. Salve a alterações. Você recebe sua ID de desenvolvedor e seu segredo.
 
-**Pontos finais**:
+**Pontos de extremidade**:
 
 Clique no link abaixo para exibir o documento swagger xAPI:
 
@@ -66,7 +65,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monitorar a experiência do usuário fora do Learning Manager. Por exemplo, você pode usar esse recurso para avaliar as atividades dos usuários em uma plataforma de terceiros usada para a realização do curso.
 
-1. Ao criar um **[!UICONTROL Módulo de atividade]**, na caixa de diálogo **[!UICONTROL Tipo]**opção, use o menu pop-up para selecionar  **[!UICONTROL Módulo baseado em xAPI.]**
+1. Ao criar um **[!UICONTROL Módulo de Atividade]**, na opção **[!UICONTROL Tipo]**use o menu pop-up para selecionar o **[!UICONTROL Módulo baseado em xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 

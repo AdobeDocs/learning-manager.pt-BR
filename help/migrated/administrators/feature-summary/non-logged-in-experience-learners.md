@@ -1,6 +1,6 @@
 ---
 title: Experiência não conectada para alunos
-description: O portal nativo do Adobe Learning Manager oferecerá suporte a uma forma não registrada de acessar o site de treinamento. Com esse modo ativado, os alunos podem descobrir e acessar o site de treinamento e verificar vários cursos e conteúdos disponíveis. A experiência não conectada permite que os alunos naveguem nos cursos sem estar conectados a um portal.
+description: O portal nativo do Adobe Learning Manager oferecerá suporte a uma maneira não conectada de acessar o site de treinamento. Com esse modo ativado, os alunos podem descobrir e acessar o site de treinamento e verificar vários cursos e conteúdos disponíveis. A experiência não conectada permite que os alunos naveguem nos cursos sem estar conectados a um portal.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
 source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 41%
 
 # Experiência não conectada para alunos
 
-O portal nativo do Adobe Learning Manager oferecerá suporte a uma forma não registrada de acessar o site de treinamento. Com esse modo ativado, os alunos podem descobrir e acessar o site de treinamento e verificar vários cursos e conteúdos disponíveis.
+O portal nativo do Adobe Learning Manager oferecerá suporte a uma maneira não conectada de acessar o site de treinamento. Com esse modo ativado, os alunos podem descobrir e acessar o site de treinamento e verificar vários cursos e conteúdos disponíveis.
 
 A experiência não conectada permite que os alunos naveguem nos cursos sem estar conectados a um portal.
 
@@ -27,7 +27,7 @@ O administrador pode modificar e configurar a página inicial, que se destina a 
 
 ## APIs do aluno
 
-Adobe Learning Manager - as APIs do aluno permitem que você crie uma experiência de aprendizado personalizada para seus usuários. O uso dessas APIs precisa de um token de usuário válido e deve ser usado apenas para fins de fluxos de trabalho em que haja um aluno totalmente licenciado/registrado.
+Adobe Learning Manager: as APIs do aluno permitem que você crie uma experiência de aprendizado personalizada para seus usuários. O uso dessas APIs precisa de um token de usuário válido e deve ser usado apenas para fins de fluxos de trabalho em que haja um aluno totalmente licenciado/registrado.
 
 >[!IMPORTANT]
 >
@@ -35,19 +35,19 @@ Adobe Learning Manager - as APIs do aluno permitem que você crie uma experiênc
 
 Os casos de uso não conectados exigem tratamento especial.
 
-**Entre em contato com a equipe de Arquitetura de solução, caso você tenha dúvidas sobre o uso apropriado dessas APIs, e certifique-se de que um arquiteto de solução tenha verificado uma solução antes de implantá-la**.
+**Entre em contato com a equipe de Arquitetura de Solução, caso tenha dúvidas sobre o uso apropriado dessas APIs, e certifique-se de que um Arquiteto de Soluções tenha verificado uma solução antes de implantá-la**.
 
 ## Executar as opções da página inicial
 
-Na página inicial do Adobe Learning Manager, selecione **Marca**. Em seguida, no painel esquerdo, selecione Não conectado na página inicial.
+Na página inicial do Adobe Learning Manager, selecione **Marcas**. Em seguida, no painel esquerdo, selecione Não conectado na página inicial.
 
-![opções da página inicial](assets/non-logged-in-homepage.png)
+![opções de home page](assets/non-logged-in-homepage.png)
 
-*Selecione a opção Não conectado na página inicial*
+*Selecione a opção Não conectado na Página Inicial*
 
 ## Adicionar um banner
 
-Adicione um banner a qualquer anúncio de marketing ou destaque os tópicos em alta do dia. Selecionar **Adicionar banner**.
+Adicione um banner a qualquer anúncio de marketing ou destaque os tópicos em alta do dia. Selecione **Adicionar banner**.
 
 ![banner](assets/add-banner-image.png)
 
@@ -59,7 +59,7 @@ Navegue até o local da imagem a ser usada como banner. Em seguida, forneça um 
 
 Este componente pode ser usado para filtrar o catálogo por marcas, habilidades e catálogo. Esta seção contém um cabeçalho e uma descrição para cada categoria. Ao clicar, o usuário é redirecionado para a página do catálogo com os filtros aplicados.
 
-Selecionar **[!UICONTROL Adicionar categoria]**. Em seguida, insira os detalhes da categoria.
+Selecione **[!UICONTROL Adicionar categoria]**. Em seguida, insira os detalhes da categoria.
 
 ![adicionar categoria](assets/add-category.png)
 

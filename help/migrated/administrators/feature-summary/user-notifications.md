@@ -41,11 +41,11 @@ Uma janela de notificação de amostra da função de administrador é mostrada 
 
 Essa janela pop-up exibe realces de todas as notificações junto com a hora da ocorrência e uma barra de rolagem. É possível saber o número de notificações mais recentes com base no número realçado sobre o ícone de notificações. Por exemplo, se há cinco notificações mais recentes após o logon anterior, é possível ver o número 5 exibido no ícone de notificações. Esses números desaparecem assim que você lê todas as notificações mais recentes.
 
-Clique em **[!UICONTROL Mostrar todas as notificações]** na parte inferior da janela pop-up de notificações para exibir todas as notificações em uma página separada. Na página de notificações, você pode ver o seguinte:
+Clique no link **[!UICONTROL Mostrar todas as notificações]** na parte inferior da janela pop-up de notificações para exibir todas as notificações em uma página separada. Na página de notificações, você pode ver o seguinte:
 
-* **Todas as notificações**: Exibir todas as notificações aqui
-* **Pendente**: Exibir notificações pendentes aqui
-* **Discussão**: procure cursos para ver as discussões em andamento.
+* **Todas as notificações**: exibir todas as notificações aqui
+* **Pendente**: exiba notificações pendentes aqui
+* **Discussão**: pesquise cursos para ver as discussões em andamento.
 
 ## Configurar notificações de escalonamento de vários níveis {#setupmultilevelescalationnotifications}
 
@@ -56,13 +56,13 @@ Os e-mails de escalonamento, quando os alunos não cumprirem os prazos, podem se
 
    ![](assets/view-courses.png)
 
-   *Selecione a opção Exibir curso*
+   *Selecione a opção Exibir Curso*
 
 1. Clique em **[!UICONTROL Instâncias]** > **[!UICONTROL Alertas de Notificação]**.
 
    ![](assets/notification-alert.png)
 
-   *Selecione a opção Alertas de notificação*
+   *Selecione a opção Alertas de Notificação*
 
 1. Um calendário é aberto indicando o prazo definido para o curso destacado em vermelho. Clique na data destacada para ver os lembretes definidos para o aluno.
 
@@ -82,7 +82,7 @@ Os e-mails de escalonamento, quando os alunos não cumprirem os prazos, podem se
 
    *Definir lembretes e datas de escalonamento*
 
-1. Se o aluno ainda não conseguir concluir o curso mesmo após o escalonamento para o gerente, as configurações permitem que você transfira para o gerente ignorado do aluno. Clique em uma data após o prazo estendido, selecione a recorrência de lembretes, o número de dias para o agendamento e selecione **Gerente e Ignorar Gerente de Nível** na caixa **Escalonamento** menu suspenso. Clique na marca de seleção azul para salvar as configurações de notificação.
+1. Se o aluno ainda não conseguir concluir o curso mesmo após o escalonamento para o gerente, as configurações permitem que você transfira para o gerente ignorado do aluno. Clique em uma data após o prazo estendido, selecione a recorrência de lembretes, o número de dias para o agendamento e selecione **Gerente e Ignorar Gerente de Nível** no menu suspenso **Escalonamento**. Clique na marca de seleção azul para salvar as configurações de notificação.
 
    ![](assets/reminder-to-managerandskipmanager.png)
 

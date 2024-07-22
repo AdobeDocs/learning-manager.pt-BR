@@ -3,14 +3,13 @@ description: Temas de cores e marcas no Learning Manager
 jcr-language: en_us
 title: Temas de cores
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 44%
 
 ---
-
-
 
 # Temas de cores
 
@@ -28,11 +27,11 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 ## Marca {#branding}
 
-Clique em **[!UICONTROL Marca]** no painel esquerdo para atualizar o nome da sua organização, altere o subdomínio, os estilos de registro e os temas. Clique em **[!UICONTROL Editar]** adjacentes a cada um desses tópicos para modificar o conteúdo.
+Clique em **[!UICONTROL Marcas]** no painel esquerdo para atualizar o nome da sua organização, alterar o subdomínio, os estilos de log e os temas. Clique em **[!UICONTROL Editar]** ao lado de cada um desses tópicos para modificar o conteúdo.
 
 ## Estilo de logotipo {#logostyling}
 
-Clique em **[!UICONTROL Editar]** para definir a aparência do logotipo e nome da empresa no aplicativo Learning Manager.
+Clique em **[!UICONTROL Editar]** para definir a aparência do logotipo e do nome da empresa no aplicativo Learning Manager.
 
 Clique em **[!UICONTROL Carregar novo logotipo]** e escolha o logotipo no computador para carregar. Você pode visualizar a aparência do logotipo e o nome da sua empresa abaixo. Escolha o estilo de cabeçalho de sua escolha e clique em **[!UICONTROL Salvar]**.
 
@@ -42,7 +41,7 @@ Um conjunto de cinco imagens representativas é fornecido para visualizar as alt
 
 **Selecionar um tema**
 
-Clique no botão **[!UICONTROL Mostrar dicas]** abaixo desta seção para exibir as dicas na imagem, conforme mostrado abaixo.
+Clique em **[!UICONTROL Mostrar dicas]** abaixo desta seção para exibir as dicas na imagem, conforme mostrado abaixo.
 
 ![](assets/themes-preview-images.png)
 
@@ -68,7 +67,7 @@ O aplicativo Learning Manager fornece cinco opções de temas de cores aos seus 
 
 Você pode personalizar a cor da barra superior, a cor do destaque (por exemplo, a cor dos ícones no painel esquerdo), a cor primária e o brilho da barra lateral dos temas, exceto do tema padrão do Prime.
 
-No menu **[!UICONTROL Cor primária]** , você pode escolher a cor usada para a interface do usuário imersiva.
+No seletor **[!UICONTROL Cor primária]**, você pode escolher a cor usada para a interface do usuário imersiva.
 
 Para personalizar, escolha o tipo de tema no painel esquerdo e clique nos quadrados adjacentes às cores dos ícones da marca e da barra lateral. Clique na barra lateral de brilho e arraste para frente ou para trás para ajustar o brilho. Observe a visualização nas imagens acima conforme você modifica essas opções.
 
@@ -80,9 +79,9 @@ Clique em **[!UICONTROL Visualização ao vivo]** no canto inferior esquerdo da 
 
 ![](assets/live-theme-preview.png)
 
-*O pop-up Visualização ao vivo*
+*Pop-up Visualização ao Vivo*
 
-Escolha o tema de sua preferência na lista suspensa, ajuste as configurações e clique em **[!UICONTROL Visualizar]** para exibir as alterações em tempo real no aplicativo. Agora, você pode analisar todos os recursos do aplicativo e testemunhar as alterações. Você também pode alterar as funções ao passar pela visualização ao vivo. Quando estiver satisfeito com as alterações, volte para o recurso pop-up Visualização dinâmica do tema e clique em **[!UICONTROL Aplicar Tema]**.
+Escolha o tema de sua preferência na lista suspensa, ajuste as configurações e clique em **[!UICONTROL Visualizar]** para exibir as alterações em tempo real no aplicativo. Agora, você pode analisar todos os recursos do aplicativo e testemunhar as alterações. Você também pode alterar as funções ao passar pela visualização ao vivo. Quando estiver satisfeito com as alterações, volte para o recurso pop-up Visualização dinâmica do tema e clique em **[!UICONTROL Aplicar tema]**.
 
 Ao visualizar as alterações em tempo real, a janela pop-up de visualização dinâmica do tema ainda aparece na parte inferior da tela. Você pode optar por minimizar a janela pop-up.
 
@@ -90,8 +89,8 @@ Ao visualizar as alterações em tempo real, a janela pop-up de visualização d
 
 Veja como implementar várias marcas:
 
-1. No aplicativo de administração, selecione **Marca** no painel esquerdo.
-1. Selecionar **Editar** na seção Várias Marcas.
+1. No aplicativo de administração, selecione **Marcas** no painel esquerdo.
+1. Selecione **Editar** na seção de Marcas Múltiplas.
 1. Selecione o botão de alternância e ative-o.
 
 ### Usuários internos
@@ -123,7 +122,7 @@ Veja como implementar várias marcas:
 
 O Adobe Learning Manager permite que você personalize sua conta para fornecer uma experiência de usuário aprimorada.
 
-A lista abaixo exibe os componentes que podem ser personalizados. Para personalizar a conta, entre em contato com o Learning Manager  [suporte](mailto:captivateprimesupport@adobe.com).
+A lista abaixo exibe os componentes que podem ser personalizados. Para personalizar a conta, contate o [suporte](mailto:captivateprimesupport@adobe.com) do Learning Manager.
 
 <table>
  <tbody>
@@ -189,9 +188,9 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
 
 ## Definir configurações de recomendação {#configurerecommendationsettings}
 
-Ativado **Marca** > **Geral**, você pode configurar escopos de recomendação para alunos internos e externos e ativar os alunos para escolherem habilidades na página inicial do aluno.
+Em **Marcas** > **Geral**, você pode configurar escopos de recomendação para alunos internos e externos e permitir que os alunos escolham habilidades na página inicial do aluno.
 
-Na guia **Geral** você tem as seguintes opções:
+Na página **Geral**, você tem as seguintes opções:
 
 <table>
  <tbody>
@@ -217,13 +216,13 @@ Na guia **Geral** você tem as seguintes opções:
    <td>
     <p>Permitir que o aluno explore áreas de interesse</p></td>
    <td>
-    <p>Somente para a experiência clássica. Escolher <strong>Sim </strong>ou <strong>Não</strong>.<br></p></td>
+    <p>Somente para a experiência clássica. Escolha <strong>Sim </strong>ou <strong>Não</strong>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Solicitar aos usuários que selecionem Áreas de Interesse (Habilidades) <br></p></td>
    <td>
-    <p>Somente para experiência imersiva. Escolher <strong>Sim</strong> ou <strong>Não</strong>. </p></td>
+    <p>Somente para experiência imersiva. Escolha <strong>Sim</strong> ou <strong>Não</strong>. </p></td>
   </tr>
  </tbody>
 </table>

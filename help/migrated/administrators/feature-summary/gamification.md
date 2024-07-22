@@ -130,11 +130,12 @@ Cenários possíveis para melhoria dos níveis em uma determinada competência:
 >
 >O período de tempo não se aplica a esta tarefa. Se os alunos atingem o nível mais alto e, depois, atingem o nível mais baixo de uma competência, eles ganham pontos somente para o nível mais alto.
 
-**Para referência**
+**Para Referência**
 
 Essa tarefa se aplica aos alunos que voltam ao curso concluído em N dias após a conclusão.
 
-Cenário possível: Quando um aluno se refere ao curso concluído dentro de 30 dias da conclusão, ele recebe 50 pontos.
+Cenário possível:
+Quando um aluno se refere ao curso concluído em até 30 dias após a conclusão, ele recebe 50 pontos.
 
 **Pontos por concluir primeiro**
 
@@ -182,7 +183,7 @@ Cenários possíveis:
 
 ## Ações do administrador {#administratoractions}
 
-O administrador pode criar uma lista de usuários confidenciais, redefinir pontos de gamificação e desativar/ativar o recurso de gamificação para alunos. Selecione o **[!UICONTROL Configurações]** na página de gamificação para exibir as ações conforme mostrado na captura de tela abaixo.
+O administrador pode criar uma lista de usuários confidenciais, redefinir pontos de gamificação e desativar/ativar o recurso de gamificação para alunos. Selecione as **[!UICONTROL Configurações]** na página de gamificação para exibir as ações conforme mostrado no instantâneo abaixo.
 
 ![](assets/gamification-actions.png)
 
@@ -194,7 +195,7 @@ Se necessário, você pode tornar alguns usuários de gerenciamento superiores u
 
 As configurações de confidencialidade podem ser aplicadas para usuários internos e externos.
 
-1. Clique em **[!UICONTROL Gamificação]** > **[!UICONTROL Configurações]** > **[!UICONTROL Configurações de confidencialidade]**.
+1. Clique Em **[!UICONTROL Gamificação]** > **[!UICONTROL Configurações]** > **[!UICONTROL Configurações De Confidencialidade]**.
 
 ![](assets/confidentiality-settings.png)
 
@@ -223,11 +224,11 @@ Para redefinir a pontuação e a configuração do aluno, clique em Redefinir ga
 
 ## Desativar gamificação {#disablegamification}
 
-Clique em [!UICONTROL **Gamificação**] > **[!UICONTROL Configurações]** > [!UICONTROL **Recurso de gamificação**]. Isso permite ativar o recurso de gamificação e o quadro de classificação separadamente para os alunos. Selecione entre Ativar para alunos internos e Ativar para alunos externos de acordo com o requisito e clique em OK. Todos os pontos são mantidos quando você ativa a gamificação novamente.
+Clique Em [!UICONTROL **Gamificação**] > **[!UICONTROL Configurações]** > [!UICONTROL **Recurso De Gamificação**]. Isso permite ativar o recurso de gamificação e o quadro de classificação separadamente para os alunos. Selecione entre Ativar para alunos internos e Ativar para alunos externos de acordo com o requisito e clique em OK. Todos os pontos são mantidos quando você ativa a gamificação novamente.
 
 ![](assets/gamification-feature.png)
 
-*Desativar gamificação*
+*Desabilitar gamificação*
 
 Você pode desativar a gamificação para usuários internos e externos.
 
@@ -236,13 +237,13 @@ Você pode desativar a gamificação para usuários internos e externos.
 Os administradores podem definir o escopo da gamificação alterando as configurações do escopo. É possível ativar de forma seletiva a gamificação entre usuários, grupos ou locais de perfil semelhantes.
 
 1. No logon do administrador, clique em **[!UICONTROL Gamificação]** no painel esquerdo.
-1. Abrir **[!UICONTROL Gamificações]** > **[!UICONTROL Configurações]** > **[!UICONTROL Configurações do escopo]**. O [!UICONTROL Configurações do escopo de gamificação] é exibida.
+1. Abra **[!UICONTROL Gamificações]** > **[!UICONTROL Configurações]** > **[!UICONTROL Configurações Do Escopo]**. A caixa de diálogo [!UICONTROL Configurações do Escopo de Gamificação] é exibida.
 
    ![](assets/scope-settings.png)
 
-   *Exibir a caixa de diálogo Configurações do escopo de gamificação*
+   *Exibir a caixa de diálogo Configurações do Escopo de Gamificação*
 
-1. Clique na opção **[!UICONTROL Habilitar Configurações de Escopo]**.
+1. Clique na opção **[!UICONTROL Habilitar Configurações do Escopo]**.
 
 1. Selecione a Característica do usuário na lista suspensa.
 

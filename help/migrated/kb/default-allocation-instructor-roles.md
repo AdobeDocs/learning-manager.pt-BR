@@ -31,8 +31,8 @@ Como as funções não podem ser ramificadas durante a atribuição em massa de 
 
 Crie grupos de usuários personalizados para filtrar as funções de usuário atribuídas a uma sessão. Para remover as funções de professor atribuídas em um grupo de usuários, execute as seguintes etapas:
 
-1. Faça logon como administrador. No painel esquerdo, clique em **[!UICONTROL Modelos de e-mail]**.
-1. Para evitar acionadores de e-mail para as alterações a serem feitas, clique em **[!UICONTROL Desativar tudo]**.
+1. Faça logon como administrador. No painel esquerdo, clique em **[!UICONTROL Modelos de Email]**.
+1. Para evitar acionadores de email para as alterações a serem feitas, clique em **[!UICONTROL Desabilitar Tudo]**.
 
    ![](assets/instructor-disable-all.png)
 
@@ -42,16 +42,16 @@ Crie grupos de usuários personalizados para filtrar as funções de usuário at
 
 1. Crie um grupo de usuários personalizado na janela Adicionar grupo de usuários da seguinte maneira:
 
-   * Insira um nome para o grupo personalizado na caixa **[!UICONTROL Nome]** campo.
-   * Em **[!UICONTROL Incluir alunos]** adicione o grupo de usuários para o qual deseja filtrar os professores.
-   * Em **[!UICONTROL Excluir alunos]** adicione os usuários para os quais deseja manter a função de professor.
+   * Insira um nome para o grupo personalizado no campo **[!UICONTROL Nome]**.
+   * Abaixo do campo **[!UICONTROL Incluir alunos]**, adicione o grupo de usuários para o qual deseja filtrar os professores.
+   * Abaixo do campo **[!UICONTROL Excluir alunos]**, adicione os usuários para os quais deseja manter a função de professor.
 
    ![](assets/instructor-add-ug.png)
 
    As etapas acima criam uma lista de usuários a serem adicionados ao conjunto de inclusão e removem usuários específicos (professores) mencionados no conjunto de exclusão.
 
 1. Clique em **[!UICONTROL Salvar]** as alterações feitas.
-1. Procure o grupo de usuários personalizado criado acessando **[!UICONTROL Usuários]** > **[!UICONTROL Interno]**.
+1. Procure o grupo de usuários personalizado criado acessando **[!UICONTROL Usuários]** > **[!UICONTROL Internos]**.
 
    ![](assets/instructor-custom-ug.png)
 
@@ -59,6 +59,6 @@ Crie grupos de usuários personalizados para filtrar as funções de usuário at
 
    ![](assets/instructor-bulk-ug.png)
 
-1. Clique em **[!UICONTROL Ações]** > **[!UICONTROL Remover Função]** > **[!UICONTROL Remover professor]**.
+1. Clique em **[!UICONTROL Ações]** > **[!UICONTROL Remover Função]** > **[!UICONTROL Remover Professor]**.
 
 Certifique-se de que todos os acionadores de e-mail que foram desativados na etapa 2 sejam reativados depois de concluído.

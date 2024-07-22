@@ -3,14 +3,13 @@ description: Saiba como usar a Web de aprendizado social como um aluno
 jcr-language: en_us
 title: Aprendizado social no Learning Manager
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3038'
 ht-degree: 78%
 
 ---
-
-
 
 # Aprendizado social no Learning Manager
 
@@ -22,9 +21,9 @@ A simples participação em um treinamento, não garante que os usuários conseg
 
 Da mesma forma, o recurso Aprendizado social do Learning Manager permite que os usuários sejam capazes de interagir entre si compartilhando e aprendendo com o conteúdo.
 
-Nesta plataforma, os tipos de conteúdo que podem ser compartilhados são vídeo, áudio, capturas de tela, texto, perguntas e enquetes. Os usuários também podem compartilhar aprendizados on-line com seus colegas usando o **Compartilhar no bookmarklet social**. Para obter mais informações, consulte  [Compartilhar no Aprendizado social](share-to-social.md).
+Nesta plataforma, os tipos de conteúdo que podem ser compartilhados são vídeo, áudio, capturas de tela, texto, perguntas e enquetes. Os usuários também podem compartilhar aprendizados online com colegas usando o **bookmarklet Compartilhar no Social**. Para obter mais informações, consulte [Compartilhar no Aprendizado Social](share-to-social.md).
 
-O conteúdo também pode ser publicado em um painel com a ajuda do **aplicativo de desktop Adobe Learning Manager**. Para obter mais informações, consulte  [Aplicativo de desktop Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
+O conteúdo também pode ser publicado em um painel com a ajuda do **aplicativo de desktop da Adobe Learning Manager**. Para obter mais informações, consulte [aplicativo de desktop da Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
 O recurso fica visível a um aluno somente se o administrador ativar o recurso Aprendizado social.
 
@@ -131,38 +130,38 @@ O recurso fica visível a um aluno somente se o administrador ativar o recurso A
 
 O conteúdo é criado como uma publicação em um painel. Para criar uma publicação, siga as etapas abaixo:
 
-1. Clique em **[!UICONTROL Nova publicação].**
+1. Clique em **[!UICONTROL Nova Postagem].**
 
    ![](assets/new-post-01.png)
-   *Selecionar Nova Publicação*
+   *Selecionar Nova Postagem*
 
 1. Selecione qualquer um dos seguintes tipos de conteúdo para ser publicado: texto, pergunta, vídeo, áudio, enquete e captura de tela. O conteúdo existente pode ser carregado do sistema dos usuários ou da galeria do aplicativo de desktop Adobe Learning Manager.
 
-   Use o aplicativo de desktop Adobe Learning Manager para gravar um vídeo ou uma tela, áudio e fazer uma captura de tela. Para obter mais informações, consulte [aplicativo de desktop Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
+   Use o aplicativo de desktop Adobe Learning Manager para gravar um vídeo ou uma tela, áudio e fazer uma captura de tela. Para obter mais informações, consulte o [aplicativo de desktop da Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
-1. Procure um painel ou habilidade que esteja relacionado à publicação. Se o painel não existir, clique em **[!UICONTROL Criar um novo painel]**.
+1. Procure um painel ou habilidade que esteja relacionado à publicação. Se o painel não existir, clique em **[!UICONTROL Criar um Novo Painel]**.
 
    ![](assets/create-a-new-board-04.png)
 
    *Criar um painel*
 
-   Usuários externos ou internos, com acesso concedido pelo Administrador, poderão criar painéis. Se você não tiver as permissões para criar um painel, o link **Criar um novo painel** não é exibido.
+   Usuários externos ou internos, com acesso concedido pelo Administrador, poderão criar painéis. Se você não tiver as permissões para criar um painel, o link **Criar um Novo Painel** não será exibido.
 
 1. Na caixa de diálogo pop-up, preencha os detalhes, selecione o seguinte tipo de painel:
 
    * **Público** - A participação e a visibilidade das publicações estão disponíveis para todos os usuários.
-   * **Privado** - A publicação só é visível para o criador do painel, moderadores e usuários adicionados ao painel.
-   * **Restrito** - Somente o proprietário do painel, o administrador e os moderadores do painel podem criar uma publicação. Outros usuários podem participar comentando/respondendo, aumentando/reduzindo o voto e assim por diante.
+   * **Particular** - A publicação só é visível para o criador do painel, moderadores e usuários adicionados ao painel.
+   * **Restrito** - Somente o proprietário do painel, o administrador e os moderadores do painel podem criar uma postagem. Outros usuários podem participar comentando/respondendo, aumentando/reduzindo o voto e assim por diante.
 
    <!--![](assets/new-board-05.png)-->
 
    >[!NOTE]
    >
-   >No aplicativo Social Learner, somente um **Admin** tem a capacidade de criar um quadro privado com grupos de usuários (interno/externo).
+   >No aplicativo Social Learner, somente um **Administrador** pode criar um quadro privado com grupos de usuários (interno/externo).
    >
-   >Qualquer outro usuário, exceto o administrador, autor, aluno, gerente, instrutor etc. **não é possível** criar quadros privados com grupos de usuários. Eles não podem ver a seção de **grupos de usuários** durante a criação do conselho privado.
+   >Qualquer outro usuário, exceto o administrador, autor, aluno, gerente, instrutor etc. **não é possível** criar quadros privados com grupos de usuários. Eles não podem ver a seção de **grupos de usuários** durante a criação do quadro privado.
 
    Somente administrador- Ao escolher **Privado**, você vê duas opções- **Usuários** e **Grupos de usuários** Escolha a opção **Grupos de usuários** e adicione os grupos de usuários com quem você deseja compartilhar o quadro privado.
 
@@ -170,7 +169,7 @@ O conteúdo é criado como uma publicação em um painel. Para criar uma publica
 
 1. Para compartilhar conteúdo, clique em **[!UICONTROL Publicar]**. Ao clicar em Publicar, o usuário recebe uma notificação.
 
-   O conteúdo é publicado com base na configuração de curadoria definida pelo administrador para conteúdo de Aprendizado social que pode ser selecionado por  [Moderadores do painel/Especialistas no assunto](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
+   O conteúdo é publicado com base na configuração de curadoria definida pelo administrador para conteúdo de Aprendizado Social, que pode ser selecionado por [Moderadores do painel/Especialistas no assunto](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
 
    <!--![](assets/pop-up-dialog-before-sending-for-curation.png)-->
 
@@ -224,7 +223,7 @@ Um aluno pode ver todas as placas em uma exibição de lista. Entre no aplicativ
 
 *Exibição do quadro no social*
 
-Ao exibir as publicações em um formato de quadro, você pode ordenar as publicações de acordo com **Publicar** e **Colaborador**.
+Ao exibir as publicações em um formato de quadro, você pode ordenar as publicações de acordo com a **Publicação** e o **Colaborador**.
 
 ![](assets/image004.png)
 
@@ -386,11 +385,11 @@ A história social permite que os usuários adicionem ou criem histórias com as
 
 Para adicionar uma publicação à uma história, siga as etapas abaixo:
 
-1. Clique no ícone de menu recolhido no canto superior direito de uma publicação e clique em **[!UICONTROL Adicionar à minha história]**.
+1. Clique no ícone do menu recolhido no canto superior direito de uma publicação e clique em **[!UICONTROL Adicionar à minha história]**.
 
    ![](assets/add-to-my-story-05.png)
 
-   *Adicionar a uma matéria*
+   *Adicionar a uma história*
 
 1. Na caixa de diálogo **Selecionar história**, selecione uma história relevante para ser adicionada à publicação. Se houver histórias relevantes, crie uma clicando em **Nova história**.
 
@@ -402,7 +401,7 @@ Para adicionar uma publicação à uma história, siga as etapas abaixo:
 
    ![](assets/new-story-1-2x.png)
 
-   *Adicionar nome e descrição da matéria*
+   *Adicionar nome e descrição da história*
 
    Para exibir as matérias criadas pelos usuários, clique no nome do usuário nas opções do menu do perfil.
 
@@ -491,7 +490,7 @@ Os painéis são um conjunto de publicações. Cada painel do Aprendizado social
 
 Na página Todos os painéis, são visíveis as publicação ou painéis criados por todos os usuários no contexto de uma atividade. Mas na página Meus painéis, são visíveis apenas os painéis que o usuário criou, segue e dos quais participa.
 
-Na página Meus painéis, os painéis visíveis podem ser filtrados de acordo com o seguinte: **Tudo**, **Criado por mim**, **Comentou por mim**, **Seguido por mim**.
+Na Página Meus Painéis, os painéis visíveis podem ser filtrados de acordo com o seguinte: **Todos**, **Criados por mim**, **Comentados por mim**, **Seguidos por mim**.
 
 ![](assets/board-filter-07.png)
 
@@ -588,7 +587,7 @@ O administrador da organização também tem o privilégio de adicionar mais pon
 
    <!--![](assets/curation-awaitingnotification.png)-->
 
-1. Para moderar a publicação, clique no botão **Clique para revisar** link. Esta ação leva o SME para a página de moderação de conteúdo que se parece à captura de tela abaixo.
+1. Para moderar a publicação, clique no link **Clique para revisar**. Esta ação leva o SME para a página de moderação de conteúdo que se parece à captura de tela abaixo.
 
    <!--![](assets/sme-moderation-page.png)-->
 
@@ -603,7 +602,7 @@ Cada página do Aprendizado social tem o campo de pesquisa que permite que os us
 
 <!--![](assets/search-16.png)-->
 
-As seguintes páginas no aprendizado informal têm um campo de pesquisa: **Meus painéis**, **Todos os painéis**, **Página Painéis**, do usuário **Página de perfil** e **página de perfil de outro aluno**.
+As seguintes páginas do aprendizado informal têm um campo de pesquisa: **Meus painéis**, **Todos os painéis**, **Páginas de painéis**, **Página de perfil** do usuário e **Página de perfil de outro aluno**.
 
 Quando um usuário pesquisa um conteúdo no aprendizado informal, é exibido o número total de resultados da pesquisa do conteúdo no aprendizado informal e formal do Learning Manager.
 
@@ -611,7 +610,7 @@ Da mesma forma, o número de resultados de pesquisa encontrado no aprendizado in
 
 ![](assets/formal-learning-search-20.png)
 
-*Resultados de pesquisa para aprendizado*
+*Pesquisar resultados de aprendizado*
 
 Na página do painel de aprendizado informal, é possível fazer pesquisas somente relacionadas ao painel. Não é exibida nenhuma pesquisa que tenha relação com o painel.
 
@@ -627,7 +626,7 @@ Na página de perfil, os alunos podem ver o número total de pontos obtidos, o n
 
 Os alunos também podem ver as habilidades para as quais estão designados como especialistas no assunto.
 
-A página do aluno também exibe o nome **matérias selecionadas**, **atividades recentes** realizadas e a **pessoas seguidas** por eles.
+A página do aluno também exibe as **histórias selecionadas** do aluno, as **atividades recentes** realizadas e as **pessoas seguidas** por elas.
 
 ## Notificações {#notifications}
 

@@ -3,14 +3,13 @@ description: Leia este artigo para saber como gerenciar módulos como professor 
 jcr-language: en_us
 title: Módulos
 contentowner: shhivkum
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 63%
 
 ---
-
-
 
 # Módulos
 
@@ -24,7 +23,7 @@ Leia este artigo para saber como gerenciar módulos como professor no Learning M
    O aplicativo exibe a visão geral da sessão com detalhes, tais como nome da sessão, local, dias e horários, limite de inscrições, limite da lista de espera, e assim por diante.
 
    ![](assets/upcomingsessions.png)
-   *Exibir sessões futuras*
+   *Exibir as próximas sessões*
 
 ## Configurar detalhes da sessão {#configuresessiondetails}
 
@@ -70,7 +69,7 @@ Como professor, você pode carregar arquivos de recurso, como arquivos de atribu
 
 ## Envio de arquivo nos módulos de atividade {#filesubmissionforactivitymodules}
 
-O módulo de atividade suporta o fluxo de trabalho de envio de arquivo. Como autor, crie um módulo de atividade e selecione o  **[!UICONTROL Envio de arquivo]** opção. Isso permite que os alunos enviem arquivos.
+O módulo de atividade suporta o fluxo de trabalho de envio de arquivo. Como Autor, crie um módulo de atividade e selecione a opção **[!UICONTROL Envio de arquivo]**. Isso permite que os alunos enviem arquivos.
 
 Esses arquivos podem ser aprovados/rejeitados pelos professores do módulo. O módulo é concluído somente depois que o professor aprovar o envio.
 
@@ -79,14 +78,14 @@ Esses arquivos podem ser aprovados/rejeitados pelos professores do módulo. O m�
 
 ## Avaliar módulo de lista de verificação {#evaluate-checklist-module}
 
-Depois que o aluno faz o curso, o professor vê o módulo da lista de verificação na página Envios/Listas de verificação na **Módulos** seção. Esta página contém todos os módulos de lista de verificação de atividades junto com os módulos de envio de atividades para os quais as revisões devem ser feitas. Para cada módulo, o número de alunos é exibido para quem a avaliação deve ser realizada.
+Depois que o aluno faz o curso, o professor vê o módulo da lista de verificação na página Envios/Listas de verificação na seção **Módulos**. Esta página contém todos os módulos de lista de verificação de atividades junto com os módulos de envio de atividades para os quais as revisões devem ser feitas. Para cada módulo, o número de alunos é exibido para quem a avaliação deve ser realizada.
 
-Na página abaixo, você pode exibir módulos do tipo **Envio** e **Lista de verificação**. Neste exemplo, usaremos o módulo Lista de verificação.
+Na página abaixo, você pode exibir módulos do tipo **Envio** e **Lista de Verificação**. Neste exemplo, usaremos o módulo Lista de verificação.
 
 ![](assets/modules-list.png)
 *Exibir lista de módulos*
 
-Clique no módulo Lista de verificação. Na guia **Lista de verificação** , você verá o seguinte:
+Clique no módulo Lista de verificação. Na página **Lista de Verificação**, você verá o seguinte:
 
 * O nome do módulo
 * O nome do curso
@@ -97,7 +96,7 @@ Clique no módulo Lista de verificação. Na guia **Lista de verificação** , v
 ![](assets/checklist-page.png)
 *Exibir a página da lista de verificação*
 
-Para avaliar um aluno, clique em **[!UICONTROL Avaliar]** na caixa **[!UICONTROL Lista de verificação]** coluna. Você também pode ver que o status da revisão está **Pendente**.
+Para avaliar um aluno, clique em **[!UICONTROL Avaliar]** na coluna **[!UICONTROL Lista de verificação]**. Você também pode ver que o status da revisão está **Pendente**.
 
 Avalie o aluno e clique em **[!UICONTROL Enviar]**. Como professor, você deve responder a todas as questões da avaliação.
 
@@ -112,7 +111,7 @@ Um professor também pode ver as respostas enviadas por outros professores do m�
 
 Você pode exportar os alunos como um csv com base no filtro de pesquisa aplicado.
 
-Depois que o professor avalia o curso usando a Lista de verificação, o aluno vê o status do módulo como **Passagem** e o status do curso como **Concluído**, ou o status do módulo como **Falha** e o status do curso como **Concluído**.
+Depois que o professor avalia o curso usando a Lista de verificação, o aluno vê o status do módulo como **Aprovado** e o status do curso como **Concluído** ou o status do módulo como **Reprovado** e o status do curso como **Concluído**.
 
 ## Comentários do professor para rejeição de uma atividade {#rejection-comments}
 
@@ -130,9 +129,9 @@ Este é o fluxo de trabalho:
 1. O professor seleciona o módulo de atividade que está atribuído a ele. Na página Envios do módulo, o professor clica em **Editar**. Em seguida, ele pode inserir os comentários para rejeição e ativar a opção Mostrar comentário, para que o aluno possa visualizar o comentário na notificação.
 
    ![](assets/enter-comments.png)
-   *Inserir comentários de conclusão*
+   *Insira comentários sobre a conclusão*
 
-1. O professor pode clicar em **Rejeitar**. O status do envio muda para **Marcado para rejeição**.
+1. O professor pode clicar em **Rejeitar**. O status do envio muda para **Marcado para Rejeição**.
 
    ![](assets/marked-for-rejection.png)
    *Rejeitar um envio*
@@ -147,7 +146,7 @@ Este é o fluxo de trabalho:
    ![](assets/notification-of-rejection.png)
    *Receber notificação de rejeição*
 
-Para acomodar as alterações, o Adobe atualizou o modelo de e-mail para **Envio rejeitado**.
+Para acomodar as alterações, o Adobe atualizou o modelo de email para **Envio rejeitado**.
 
 ## Adicionar pontuações e comentários nos módulos de atividade {#addscoresandcommentsforactivitymodules}
 
@@ -156,7 +155,7 @@ Para adicionar pontuações e comentários nos módulos de atividade que foram e
 1. No painel esquerdo, clique em **[!UICONTROL Aluno]**.
 
    ![](assets/learners.png)
-   *Selecionar um aluno*
+   *Selecione um aluno*
 
 1. Na página Alunos, clique em **[!UICONTROL Ações]** > **[!UICONTROL Editar pontuações e comentários]**.
 

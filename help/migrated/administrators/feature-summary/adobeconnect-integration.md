@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Integração do Adobe Connect
 description: Os autores podem criar cursos em sala de aula virtual com o Adobe Connect durante o processo de criação do curso. Para ativar o Adobe Connect na sua conta do Learning Manager, você precisa entrar em contato com o administrador da sua organização.
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 70%
 
 ---
-
-
 
 # Integração do Adobe Connect
 
@@ -22,9 +21,9 @@ Os administradores de uma empresa podem definir as configurações da conta do L
 
    ![](assets/left-pane.png)
 
-   *Selecione Adobe Connect no painel esquerdo*
+   *Selecione o Adobe Connect no painel esquerdo*
 
-1. Clique em **[!UICONTROL Configurar Agora]** link em **[!UICONTROL Configuração do Adobe Connect]** seção.
+1. Clique no link **[!UICONTROL Configurar Agora]** na seção **[!UICONTROL Configuração do Adobe Connect]**.
 
    <!--![](assets/configure-now-connect.png)-->
 
@@ -51,7 +50,7 @@ Os administradores de uma empresa podem definir as configurações da conta do L
 
 Se o autor de um curso em sala de aula virtual não tiver fornecido as informações da sessão, o administrador poderá incluir os detalhes da sessão.
 
-No logon do administrador, clique no nome do curso de sala de aula virtual. Clique em **[!UICONTROL Instâncias]** no painel esquerdo e clique em **[!UICONTROL Detalhes da sessão]**.  Clique no ícone Editar no canto direito da página Detalhes da sessão para adicionar as informações da sessão.
+No logon do administrador, clique no nome do curso de sala de aula virtual. Clique em **[!UICONTROL Instâncias]** no painel esquerdo e clique em **[!UICONTROL Detalhes da Sessão]**.  Clique no ícone Editar no canto direito da página Detalhes da sessão para adicionar as informações da sessão.
 
 ![](assets/session-creation-admin.png)
 

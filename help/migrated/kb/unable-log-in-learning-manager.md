@@ -3,14 +3,13 @@ description: O que fazer quando não for possível fazer logon no Learning Manag
 jcr-language: en_us
 title: Não é possível fazer logon no Learning Manager
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 72%
 
 ---
-
-
 
 # Não é possível fazer logon no Learning Manager
 
@@ -48,7 +47,7 @@ Se ainda não conseguir fazer logon, entre em contato com o administrador da con
 
 Se você fizer parte da conta e ainda não conseguir fazer logon, o administrador deve verificar se sua Adobe ID é o mesmo com o qual você está tentando fazer logon.
 
-Às vezes, o Adobe ID é diferente da ID do Adobe Learning Manager na conta.
+Às vezes, a Adobe ID é diferente da ID da Adobe Learning Manager na conta.
 
 ## O que vem a seguir
 

@@ -19,7 +19,7 @@ ht-degree: 48%
 
 A Experience API (xAPI) é uma especificação de software de e-learning que permite que o conteúdo de aprendizado e os sistemas de aprendizado se comuniquem entre si de maneira que registrem e rastreiem todos os tipos de experiências de aprendizado. As experiências de aprendizado são gravadas em um LRS (Armazenamento de Registros de Aprendizagem). Os LRSs podem existir em sistemas tradicionais de gerenciamento de aprendizagem (LMSs) ou por conta própria.
 
-Para obter mais informações sobre a xAPI, consulte [Especificações da xAPIc](https://github.com/adlnet/xAPI-Spec).
+Para obter mais informações sobre xAPI, consulte [Especificações da xAPIc](https://github.com/adlnet/xAPI-Spec).
 
 ## Como o Learning Manager oferece suporte à xAPI? {#howdoeslearningmanagersupportxapi}
 
@@ -52,7 +52,7 @@ Cada vez mais, é necessário capturar experiências de aprendizado do usuário 
 
 1. Salve a alterações. Você recebe sua ID de desenvolvedor e seu segredo.
 
-**Pontos finais**:
+**Pontos de extremidade**:
 
 Clique no link abaixo para exibir o documento swagger xAPI:
 
@@ -75,7 +75,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monitorar a experiência do usuário fora do Learning Manager. Por exemplo, você pode usar esse recurso para avaliar as atividades dos usuários em uma plataforma de terceiros usada para a realização do curso.
 
-1. Ao criar um **[!UICONTROL Módulo de atividade]**, na caixa de diálogo **[!UICONTROL Tipo]**opção, use o menu pop-up para selecionar  **[!UICONTROL Módulo baseado em xAPI.]**
+1. Ao criar um **[!UICONTROL Módulo de Atividade]**, na opção **[!UICONTROL Tipo]**use o menu pop-up para selecionar o **[!UICONTROL Módulo baseado em xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +97,7 @@ Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monito
 
 **Pontos a observar:**
 
-* No momento, o Learning Manager oferece suporte somente ao mbox como um identificador. Outros identificadores, incluindo mboz_sha1, openid , account, não são compatíveis.
+* No momento, o Learning Manager oferece suporte apenas   mbox como um identificador. Outros identificadores, incluindo mboz_sha1, openid , account, não são compatíveis.
 
 * A stateId e a profileId são UUID quando usadas com o Learning Manager.
 * A solicitação de PUT não substitui o documento para agentes/perfil xAPIs, atividade/perfil e atividade/estado
@@ -114,7 +114,7 @@ O relatório baixado busca todas as informações publicadas pelo aluno e admini
 
 Os mesmos relatórios podem ser gerados/agendados usando conectores FTP e Box para qualquer integração de terceiros. Siga estas etapas:
 
-Fazer logon como **Administrador de integração > Abrir conector FTP/Box > Selecionar relatório de atividades da xAPI** no painel esquerdo. Escolha agendar/gerar um relatório.
+Faça logon como **Administrador de integração > Abra o conector FTP/Box > Selecione o relatório de atividades da xAPI** no painel esquerdo. Escolha agendar/gerar um relatório.
 
 ![](assets/xapischedule.png)
 

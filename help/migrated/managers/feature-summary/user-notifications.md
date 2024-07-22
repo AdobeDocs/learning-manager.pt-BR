@@ -3,14 +3,13 @@ description: Configurar as notificações para o usuário para Gerentes.
 jcr-language: en_us
 title: Notificações para o usuário
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 80%
 
 ---
-
-
 
 # Notificações de usuário
 
@@ -30,7 +29,7 @@ Captura de tela de notificações de amostra para o Gerente
 
 Esta janela suspensa exibe os destaques de todas as notificações junto com a hora da ocorrência e uma barra de rolagem. Para exibir mais informações sobre todas as notificações, clique em Mostrar todas as notificações na parte inferior da janela pop-up. A página Notificações será exibida.
 
-Um Gerente pode exibir as tarefas pendentes e todas as notificações em um formulário tabulado na página Notificações. As notificações de tarefas pendentes são categorizadas com base em aprovações, indicações e assim por diante. Para exibir todas as notificações, clique em **[!UICONTROL Todas as notificações]** guia. Na guia Todas as notificações, as notificações são ordenadas com base na on data e time e listadas.
+Um Gerente pode exibir as tarefas pendentes e todas as notificações em um formulário tabulado na página Notificações. As notificações de tarefas pendentes são categorizadas com base em aprovações, indicações e assim por diante. Para exibir todas as notificações, clique na guia **[!UICONTROL Todas as notificações]**. Na guia Todas as notificações, as notificações são ordenadas com base na on data e time e listadas.
 
 ![](assets/manager-notifications-page.png)
 

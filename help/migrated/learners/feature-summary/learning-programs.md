@@ -3,14 +3,13 @@ description: Saiba como exibir e consumir programas de aprendizado usando o apli
 jcr-language: en_us
 title: Programas de aprendizado
 contentowner: manochan
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 84%
 
 ---
-
-
 
 # Programas de aprendizado
 
@@ -36,7 +35,7 @@ O autor e o administrador podem criar programas de aprendizado.
 
 Como aluno, você pode exibir uma lista de todos os programas de aprendizado disponíveis. O widget Objeto de aprendizado mostra todos os programas de aprendizado inscritos e atribuídos a um aluno. No painel esquerdo, clique no Catálogo e filtre os Programas de aprendizado para ver todos os programas de aprendizado disponíveis.
 
-Na guia **Meu aprendizado** você pode filtrar o treinamento em que está inscrito de acordo com **duração** da formação e do **formato** da formação.
+Na página **Meu aprendizado**, você pode filtrar o treinamento em que está inscrito de acordo com a **duração** do treinamento e o **formato** dele.
 
 Você pode ver a porcentagem de eficácia de cada curso na página Catálogo. Pode haver várias fases/sessões de um curso/programa de aprendizado. Clique no curso ou no programa de aprendizado para exibir os detalhes. Você também poderá ver a data do prazo de conclusão de cada instância do curso/programa de aprendizado.
 

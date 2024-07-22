@@ -3,14 +3,13 @@ description: Saiba como visualizar e baixar medalhas usando o aplicativo Learnin
 jcr-language: en_us
 title: Medalhas
 contentowner: manochan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 51%
 
 ---
-
-
 
 # Medalhas
 
@@ -18,7 +17,7 @@ Saiba como visualizar e baixar medalhas usando o aplicativo Learning Manager par
 
 ## Medalhas {#Badges-1}
 
-As medalhas são um medidor de desempenho que o funcionário pode ganhar ao concluir um curso. O Adobe Learning Manager introduz um dos mais recentes conceitos de e-learning denominado Medalhas. Profissionais no mundo inteiro usam essas medalhas como representação de uma habilidade em particular ou do resultado do aprendizado.
+As medalhas são um medidor de desempenho que o funcionário pode ganhar ao concluir um curso. O Adobe Learning Manager apresenta um dos mais recentes conceitos de e-learning denominado Medalhas. Profissionais no mundo inteiro usam essas medalhas como representação de uma habilidade em particular ou do resultado do aprendizado.
 
 As medalhas ajudam os alunos a melhor delimitar a si mesmos e a apresentar seu conjunto granulado de habilidades, além de dar credibilidade e boa visibilidade aos alunos.
 
@@ -30,13 +29,13 @@ Recentemente, as medalhas obtidas são exibidas na parte esquerda da lista, segu
 
 Clique em qualquer medalha para obter uma lista de todas as medalhas que você obteve. Você também pode ver todas as medalhas disponíveis alinhadas aos seus respectivos cursos. Nas medalhas ainda a serem obtidas, clique no nome do curso para ver o curso que está alinhado à medalha. A imagem de amostra é mostrada abaixo como referência.
 
-Clique em **[!UICONTROL Baixar todas as medalhas]** link para baixar todas as suas medalhas adquiridas no formato zip. Você também pode baixar uma medalha individualmente clicando no ícone do cubo ao lado do nome de cada medalha.
+Clique no link **[!UICONTROL Baixar Todas as Medalhas]** para baixar todas as suas medalhas adquiridas no formato zip. Você também pode baixar uma medalha individualmente clicando no ícone do cubo ao lado do nome de cada medalha.
 
 **Baixar medalha como PDF**
 
 Você também pode baixar um conjunto de medalhas ou uma única medalha no formato PDF.
 
-* Clique em **[!UICONTROL Baixar Todos Os Registros De Medalha]** para baixar as medalhas adquiridas por você como PDF.
+* Clique em **[!UICONTROL Baixar todos os registros de medalha]** para baixar as medalhas adquiridas por você como PDF.
 * Para baixar medalhas individuais, selecione a medalha e clique no ícone do PDF ao lado do nome da medalha.
 
 ![](assets/badges.png)
@@ -57,7 +56,7 @@ Os alunos podem integrar as suas contas da plataforma de aprendizado com as suas
 
 Medalhas abertas são medalhas que têm alguns metadados incorporados à imagem da medalha. Estes metadados fornecem informações sobre o emissor, o destinatário, a tarefa realizada, a validade da medalha etc. A mochila do Badgr será acessível diretamente do Learning Manager por fornecer um local central para armazenar todas as medalhas e compartilhá-las. Os alunos podem fazer logon na conta do Badgr e estabelecer a integração. A partir daí, as medalhas obtidas no Learning Manager são carregadas automaticamente na conta do Badgr.
 
-Depois que o administrador ativar a opção **Integração do Badgr**, um aluno pode então se integrar ao Badgr e configurar a medalha. Para integrar, o aluno precisa fazer logon na conta Badgr no Learning Manager.
+Depois que o administrador ativa a opção **Integração do Badgr**, um aluno pode então se integrar ao Badgr e configurar a medalha. Para integrar, o aluno precisa fazer logon na conta Badgr no Learning Manager.
 
 >[!NOTE]
 >

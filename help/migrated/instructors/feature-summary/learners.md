@@ -3,14 +3,13 @@ description: Leia esse artigo para saber como gerenciar os participantes e envia
 jcr-language: en_us
 title: Gerenciamento dos alunos da sua sessão
 contentowner: shhivkum
-source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
+exl-id: 2f4f8589-2350-4683-a141-809084d6309a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 91%
 
 ---
-
-
 
 # Gerenciamento dos alunos da sua sessão
 
@@ -41,7 +40,7 @@ Na página Sessões/Módulos, você pode ver uma coluna **Revisões pendentes** 
 Os professores têm a capacidade de cancelar a inscrição dos alunos nas sessões. Isso também cancela a inscrição dos alunos dos aprendizados correspondentes. Selecione a guia **[!UICONTROL Lista de espera]**. Selecione os alunos para cancelar a inscrição usando a caixa de seleção. Para cancelar a inscrição, selecione **[!UICONTROL Ações]** > **[!UICONTROL Cancelar inscrição dos alunos]**.
 
 ![](assets/unenroll-learners.png)
-*Cancelar a inscrição dos alunos*
+*Cancelar inscrição dos alunos*
 
 ## Marcar a presença na sua sessão {#markattendanceforyoursession}
 

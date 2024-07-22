@@ -35,7 +35,7 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 Você como administrador pode facilmente ativar, desativar ou modificar esses modelos de e-mail.
 
-1. Para acessar os modelos, clique em **[!UICONTROL Modelos de e-mail]** no painel esquerdo. Nesta página, você pode ver três categorias diferentes de modelos: **[!UICONTROL Geral]**, **[!UICONTROL Atividade de aprendizado]** e **[!UICONTROL Lembretes e atualizações]**. Há uma quarta guia, **[!UICONTROL Configurações]**, onde você pode configurar os modelos.
+1. Para acessar os modelos, clique em **[!UICONTROL Modelos de Email]** no painel esquerdo. Nesta página você pode ver três categorias diferentes de modelos: **[!UICONTROL Geral]**, **[!UICONTROL Atividade de Aprendizado]** e **[!UICONTROL Lembretes e Atualizações]**. Há uma quarta guia, **[!UICONTROL Configurações]**, onde você pode configurar os modelos.
 
    ![](assets/categories-of-emailtemplates.png)
 
@@ -72,11 +72,11 @@ Você como administrador pode facilmente ativar, desativar ou modificar esses mo
 1. Para abrir a página de configurações, clique em **[!UICONTROL Configurações]**. Agora você pode personalizar seus modelos de e-mail.
 1. Para personalizar o nome e a ID de e-mail a partir dos quais os alunos recebem e-mails, edite o **[!UICONTROL Nome e Endereço do Remetente].**
 
-   Contato [***Suporte para Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar ou alterar esses detalhes.
+   Contate o [***Suporte do Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar ou alterar esses detalhes.
 
-1. Personalize seu banner de email na **[!UICONTROL Banner de e-mail]** opção. Alterar a cor do banner selecionando **[!UICONTROL Plano de fundo do banner]**.
+1. Personalize seu banner de email com a opção **[!UICONTROL Banner de email]**. Altere a cor do banner selecionando **[!UICONTROL Fundo do banner]**.
 
-   Você pode usar uma imagem personalizada como banner selecionando o **[!UICONTROL Imagem personalizada]** opção. Clique em **[!UICONTROL Salvar]** depois de fazer as alterações.
+   Você pode usar uma imagem personalizada como banner selecionando a opção **[!UICONTROL Imagem personalizada]**. Clique em **[!UICONTROL Salvar]** depois de fazer as alterações.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
@@ -90,33 +90,33 @@ Você como administrador pode facilmente ativar, desativar ou modificar esses mo
 
    *Personalizar sua assinatura de email*
 
-1. Edite o URL da sua conta clicando em Editar na opção **[!UICONTROL URL da conta]**.
+1. Edite a URL da conta clicando em Editar na opção **[!UICONTROL URL da conta]**.
 
    O link do URL da conta é mostrado em todos os e-mails, pouco antes da assinatura. Insira o URL necessário e clique em **[!UICONTROL Salvar]**. Observe que este URL é visível apenas para usuários internos.
 
    ![](assets/customize-accounturl.png)
 
-   *Personalizar o URL da conta*
+   *Personalizar a URL da conta*
 
-1. Configure se os gerentes também devem receber emails enviados para seus subordinados diretos usando a caixa de seleção em **[!UICONTROL E-mail opcional do gerente]** opção.
+1. Configure se os gerentes também devem receber emails enviados para seus subordinados diretos usando a caixa de seleção na opção **[!UICONTROL Email do Gerente Opcional]**.
 
 ## Definir a frequência de e-mails de resumo {#setfrequencyofdigestemails}
 
-Na guia **[!UICONTROL Modelos de e-mail]** > **[!UICONTROL Configurações]** , o administrador pode alterar a frequência de e-mails de resumo a serem enviados aos alunos.
+Na página **[!UICONTROL Modelos de email]** > **[!UICONTROL Configurações]**, o administrador pode alterar a frequência de e-mails de resumo a serem enviados aos alunos.
 
 Na seção **[!UICONTROL Configurações de e-mail de resumo]**, clique em **[!UICONTROL Editar]**.
 
-Na lista suspensa, selecione **[!UICONTROL Quinzenal]** ou **[!UICONTROL Mensal]**.
+Na lista suspensa, escolha **[!UICONTROL Quinzenal]** ou **[!UICONTROL Mensal]**.
 
-* **[!UICONTROL Quinzenal]:** Se você definir a frequência como **[!UICONTROL Quinzenal]**, os alunos recebem o e-mail uma vez a cada duas semanas.
+* **[!UICONTROL Quinzenal]:** Se você definir a frequência como **[!UICONTROL Quinzenal]**, os alunos receberão o email uma vez a cada duas semanas.
 
-* **[!UICONTROL Mensal]:** Se você definir a frequência como **[!UICONTROL Mensal]**, os alunos recebem o e-mail uma vez por mês.
+* **[!UICONTROL Mensal]:** se você definir a frequência como **[!UICONTROL Mensal]**, os alunos receberão o e-mail uma vez por mês.
 
 ![](assets/digest-email-settings.png)
 
 *Definir a frequência de e-mails de resumo*
 
-Quando você habilita essa opção, a frequência é definida como **[!UICONTROL Quinzenal]** para contas ativas novas/existentes por padrão.
+Quando você habilita essa opção, a frequência é definida como **[!UICONTROL Quinzenal]** para contas ativas existentes/novas por padrão.
 
 ### Lista de alunos DND
 
@@ -128,7 +128,7 @@ As amostras a seguir representam o e-mail que um aluno recebe.
 
 ![](assets/email-1.png)
 
-*Email de amostra*
+*Email de exemplo*
 
 ### Atividade de treinamento
 
@@ -152,15 +152,15 @@ As amostras a seguir representam o e-mail que um aluno recebe.
 
 ![](assets/email5.png)
 
-*Email das publicações mais recentes*
+*Email de postagens mais recentes*
 
 ### Baixar relatório de acesso por e-mail
 
-Você pode baixar o relatório de acesso ao email clicando no **[!UICONTROL Baixar]** botão. Este relatório contém o número de usuários que receberam o email e o número de usuários que abriram e clicaram nos links.
+Você pode baixar o relatório de acesso ao email clicando no botão **[!UICONTROL Baixar]**. Este relatório contém o número de usuários que receberam o email e o número de usuários que abriram e clicaram nos links.
 
 ## Personalizar domínio do e-mail {#customizeemaildomain}
 
-Para personalizar o domínio e a ID de e-mail a partir dos quais os alunos recebem notificações, entre em contato com o [***Suporte do Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) e forneça os detalhes do domínio que você gostaria de adicionar e a nova id de e-mail.
+Para personalizar o domínio e a ID de e-mail a partir dos quais os alunos recebem notificações, entre em contato com o [***Suporte do Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) e forneça os detalhes do domínio que você deseja adicionar e a nova ID de e-mail.
 
 Sua solicitação será processada e um e-mail com o link de confirmação será enviado a você no novo endereço de e-mail especificado. Clique no link de verificação fornecido no e-mail para confirmar e concluir o processo de verificação.
 
@@ -168,7 +168,7 @@ Sua solicitação será processada e um e-mail com o link de confirmação será
 
 Como administrador, você pode selecionar os usuários que podem e não podem receber e-mails do Learning Manager.
 
-Você pode fazer isso usando a guia **[!UICONTROL Não incomodar]** opção sob a **[!UICONTROL Configurações]** guia. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva.
+Você pode fazer isso usando a opção **[!UICONTROL Não Incomodar]** na guia **[!UICONTROL Configurações]**. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva.
 
 Procure um usuário para adicioná-lo à lista.
 
@@ -176,13 +176,13 @@ Procure um usuário para adicioná-lo à lista.
 
 ## E-mails bloqueados {#blockedemails}
 
-Na guia **E-mails bloqueados** lista suspensa para cada usuário para selecionar os tipos de e-mail a serem bloqueados para eles.
+Na lista suspensa **Emails bloqueados** de cada usuário, selecione os tipos de email a serem bloqueados para eles.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
 A seguir estão as opções disponíveis:
 
-* **E-mail direto para o aluno:** Essa opção restringe ou permite e-mails enviados ao aluno.
+* **Email direto para o aluno:** esta opção restringe ou permite emails enviados para o aluno.
 * **E-mails de escalonamento ao gerente do aluno:** esta opção restringe ou permite os e-mails enviados ao gerente do aluno.
 * **Sobre os relatórios diretos:** esta opção restringe ou permite os e-mails de escalonamento recebidos enviados aos usuários sobre seus relatórios diretos.
 * **Sobre os relatórios de nível superior:** esta opção restringe ou permite os e-mails de escalonamento recebidos enviados aos usuários sobre seus relatórios de segundo nível.
@@ -206,11 +206,11 @@ Os principais aprimoramentos para personalizar modelos de e-mail incluem o segui
 
 ### Personalizar a saudação por e-mail no nível da conta
 
-Selecionar **[!UICONTROL Modelos de e-mail]** > **[!UICONTROL Configurações]**. Selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Saudação por e-mail]**.
+Selecione **[!UICONTROL Modelos de Email]** > **[!UICONTROL Configurações]**. Selecione **[!UICONTROL Editar]** na seção **[!UICONTROL Saudação por e-mail]**.
 
 ![personalizar email](assets/email-salutation.png)
 
-*Personalizar saudação por email*
+*Personalizar saudação de email*
 
 Você também pode personalizar o seguinte:
 
@@ -265,6 +265,6 @@ Para desativar o modelo de e-mail, selecione o modelo que precisa ser desativado
 
 +++Como alterar o nome e o endereço do remetente no modelo?
 
-Para alterar o nome e o endereço de email do remetente, entre em contato com [Suporte ao Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
+Para alterar o nome e o endereço de email do remetente, contate o [suporte da Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

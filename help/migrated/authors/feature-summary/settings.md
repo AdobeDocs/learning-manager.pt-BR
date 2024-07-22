@@ -15,17 +15,17 @@ ht-degree: 4%
 
 ## Configurações {#Settings-1}
 
-Veja as informações do seu perfil, adicione/altere a foto do perfil e modifique **Sobre mim** conteúdo.
+Exiba as informações do seu perfil, adicione/altere a foto do perfil e modifique o conteúdo de **Sobre mim**.
 
 ## Configurações da conta {#accountsettings}
 
-1. Selecione a seta suspensa no canto superior direito, ao lado de sua foto/conta, e escolha **Configurações do perfil**.
-1. Na caixa de diálogo suspensa, você pode adicionar/alterar uma foto passando o mouse sobre ela e selecionando **Editar** na área de foto do perfil.
-1. Adicionar/modificar **Sobre mim** clicando na área de texto abaixo dela.
+1. Selecione a seta suspensa no canto superior direito, próximo à sua foto/conta, e escolha **Configurações do perfil**.
+1. Na caixa de diálogo suspensa, você pode adicionar/alterar uma foto passando o mouse sobre a área da foto do perfil e selecionando **Editar**.
+1. Adicione/modifique o conteúdo de **Sobre mim** clicando na área de texto abaixo dele.
 1. Modifique as seguintes configurações:
-   * **Idioma da interface**: Você pode selecionar o idioma da interface do ALM no menu suspenso.
-   * **Idioma do conteúdo**: Você pode selecionar o idioma padrão no qual o conteúdo será mostrado no reprodutor. Você pode ver os idiomas disponíveis no reprodutor.
-   * **Fuso horário**: Selecione seu fuso horário
+   * **Idioma da Interface**: você pode selecionar o idioma da interface ALM no menu suspenso.
+   * **Idioma do Conteúdo**: você pode selecionar o idioma padrão no qual o conteúdo será mostrado no reprodutor. Você pode ver os idiomas disponíveis no reprodutor.
+   * **Fuso horário**: selecione seu fuso horário
    * **[!UICONTROL Preferências]**: clicar no módulo inscreve e inicia o treinamento.
    * **Transcrição**: você pode baixar suas transcrições de aprendizado.
 1. Clique em **[!UICONTROL Salvar]**.

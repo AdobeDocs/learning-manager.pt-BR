@@ -3,14 +3,13 @@ description: Saiba como usar o aplicativo de desktop do Adobe Learning Manager p
 jcr-language: en_us
 title: Aplicativo de desktop do Adobe Learning Manager
 contentowner: kuppan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 76%
 
 ---
-
-
 
 # Aplicativo de desktop do Adobe Learning Manager
 
@@ -49,11 +48,11 @@ Faça o seguinte para criar uma gravação de vídeo e publicá-la na plataforma
 1. Para criar uma publicação, você pode escolher uma das três opções fornecidas na página inicial. Para abrir a janela de gravação, clique no ícone Gravar vídeo.
 1. Conforme o requisito, você pode escolher webcam, tela ou ambos.
 
-   **Webcam** A webcam captura o narrador que está demonstrando ou apresentando um projeto ou aplicativo, incluindo áudio. Selecione o ícone da webcam nas opções acima para que a janela dinâmica seja exibida.
+   **Webcam**: a webcam captura o narrador que está demonstrando ou apresentando um projeto ou aplicativo, incluindo áudio. Selecione o ícone da webcam nas opções acima para que a janela dinâmica seja exibida.
 
-   **Tela** Gravar ações executadas na tela do monitor. Ao selecionar ícone da tela, a tela é realçada com uma caixa de diálogo de gravação no centro da tela.
+   **Tela** Grava ações executadas na tela do monitor. Ao selecionar ícone da tela, a tela é realçada com uma caixa de diálogo de gravação no centro da tela.
 
-   **Ambas** Grava as ações do narrador e da tela. Ao selecionar o último ícone, a tela é realçada e o usuário obtém uma janela ativa junto com ela.
+   **Ambos** registra as ações do narrador e da tela. Ao selecionar o último ícone, a tela é realçada e o usuário obtém uma janela ativa junto com ela.
 
 1. Defina as preferências de gravação.
 
@@ -82,7 +81,7 @@ Para gravar áudio, faça o seguinte:
 1. Clique no botão de gravação para iniciar a gravação.
 1. Depois que os usuários terminarem de gravar o áudio, clique no botão Pausar para interromper a gravação.
 1. Para ouvir previamente a gravação, clique no botão Reproduzir.
-1. Caso os usuários desejem gravar áudio adicional no mesmo arquivo, clique em **[!UICONTROL Continuar]**. Quando a gravação desejada for concluída, clique em **[!UICONTROL Próxima]** para salvar o arquivo em um local desejado. A gravação é salva na galeria do aplicativo de desktop do Adobe Learning Manager, na qual os usuários podem ver suas gravações e capturas de tela.
+1. Caso os usuários desejem gravar áudio adicional no mesmo arquivo, clique em **[!UICONTROL Continuar]**. Quando a gravação desejada for concluída, clique em **[!UICONTROL Avançar]** para salvar o arquivo em um local desejado. A gravação é salva na galeria do aplicativo de desktop do Adobe Learning Manager, na qual os usuários podem ver suas gravações e capturas de tela.
 1. Para editar a gravação, consulte [Edição de uma gravação](adobe-learning-manager-app-for-desktop.md#Editing) e para publicar, consulte [Publicação de uma gravação](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Criação de uma captura de tela {#creatingascreenshot}
@@ -96,7 +95,7 @@ Para fazer uma captura de tela, faça o seguinte:
    *Capture a screenshot*-->
 
 1. Para ajudar outros alunos a compreender e reter melhor a apresentação ou o conteúdo estático, adicione anotações ao conteúdo.
-1. Para editar a captura de tela, [clique aqui](adobe-learning-manager-app-for-desktop.md#Editing)e para publicar uma captura de tela [clique aqui](adobe-learning-manager-app-for-desktop.md#Publishing).
+1. Para editar a captura de tela, [clique aqui](adobe-learning-manager-app-for-desktop.md#Editing), e para publicá-la, [clique aqui](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Edição vídeos, áudios e capturas de tela {#editing}
 
@@ -123,19 +122,19 @@ As anotações podem ser usadas em gravações de vídeo e capturas de tela para
 
 Para cortar ou remover partes de um vídeo ou áudio que não sejam necessárias, use a ferramenta de corte.
 
-Para aparar, clique em **[!UICONTROL Iniciar corte]** ou clique no ícone de mais na linha do tempo para começar a aparar. Clique no botão de pausa no reprodutor para interromper o corte. Clique no botão **[!UICONTROL Confirmar]** para concluir o corte.
+Para aparar, clique no botão **[!UICONTROL Iniciar aparo]** ou clique no ícone de adição na linha do tempo para começar a aparar. Clique no botão de pausa no reprodutor para interromper o corte. Clique no botão **[!UICONTROL Confirmar]** para concluir o corte.
 
-As gravações podem ser cortadas inserindo a hora no campo **[!UICONTROL Hora de início]** e **[!UICONTROL Hora de término]** campos de entrada após ativar **[!UICONTROL Alterar duração]**.
+As gravações podem ser cortadas inserindo a hora nos campos de entrada **[!UICONTROL Hora de início]** e **[!UICONTROL Hora de término]** após a habilitação de **[!UICONTROL Alterar Duração]**.
 
 ![](assets/start-trim-05.png)
 *Iniciar corte*
 
 ![](assets/confirm-trim-06.png)
-*Confirmar aparo*
+*Confirmar corte*
 
 ## Panorâmica e zoom (qualquer gravação de vídeo) {#panampzoomanyvideorecording}
 
-A ação de panorâmica e zoom só pode ser realizada em **Ambas** (webcam e tela) gravações de vídeo. Por padrão, a webcam ou a tela inteira está selecionada. Selecione a alça do canto e arraste-a para selecionar a parte da tela que deve ser exibida ou focalizada. Clique duas vezes na janela para abrir a tela inteira.
+A ação de Panorâmica e Zoom só pode ser executada em gravações de vídeo **Ambas** (webcam e tela). Por padrão, a webcam ou a tela inteira está selecionada. Selecione a alça do canto e arraste-a para selecionar a parte da tela que deve ser exibida ou focalizada. Clique duas vezes na janela para abrir a tela inteira.
 
 ![](assets/pan-zoom-artboard10.png)
 *Panorâmica e zoom*
@@ -147,7 +146,7 @@ Para criar um nome exclusivo de um vídeo, juntamente com um tema consistente, s
 Para adicionar uma marca ou um tema a um vídeo, faça o seguinte:
 
 1. Clique no ícone de marca no painel de navegação esquerdo da janela de edição.
-1. Selecione um **Tema** opções fornecidas ou os usuários podem personalizar seu próprio tema adicionando um **iniciar**, **fundo,** e **fim** vídeo de seu sistema.
+1. Selecione um **Tema** entre as opções fornecidas ou os usuários podem personalizar seu próprio tema adicionando um vídeo **início**, **fundo** e **fim** de seu sistema.
 
    >[!NOTE]
    >
@@ -160,12 +159,12 @@ Para adicionar uma marca ou um tema a um vídeo, faça o seguinte:
    >O texto do título pode ser adicionado apenas como parte de um vídeo de marca. Um tema é necessário antes de dar um título ao vídeo de marca.
 
 1. Adicione o nome e a função de um apresentador ao vídeo, se necessário. Digite um número dentro do intervalo de tempo do vídeo no campo Exibir no indicador de reprodução para que o nome e a função do apresentador sejam exibidos ao reproduzir o vídeo.
-1. Adicione um ícone de marca à esquerda ou à direita da tela de vídeo, se necessário. Para selecionar um ícone de marca, clique em **[!UICONTROL Selecionar]** > **[!UICONTROL Procurar no sistema]**.
+1. Adicione um ícone de marca à esquerda ou à direita da tela de vídeo, se necessário. Para selecionar um ícone de identidade visual, clique em **[!UICONTROL Selecionar]** > **[!UICONTROL Procurar do sistema]**.
 1. Para visualizar o vídeo, clique no botão de reprodução na tela de visualização.
 
    ![](assets/branding-options.png)
 
-   *Marca*
+   *Marcas*
 
 ## Cortar (todos os tipos de gravações de vídeo e áudio) {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
 
@@ -175,18 +174,18 @@ Para iniciar uma nova gravação, clique no ícone de gravação de clipe adicio
 
 ## Publicar gravações de vídeo, gravações de áudio e capturas de tela {#publishing}
 
-Depois que todas as alterações e edições forem feitas, clique em **[!UICONTROL Compartilhar]** > digite ou procure um **habilidade ou quadro** que melhor se relaciona com a publicação > **Publicar**.
+Depois que todas as alterações e edições forem feitas, clique em **[!UICONTROL Compartilhar]** > digitar ou procurar uma **habilidade ou quadro** que melhor se relacione com a publicação > **Publicação**.
 
 <!--![](assets/share-after-editing-07.png)-->
-*Publicar na Web*
+*Publicando na Web*
 
 ## Navegação na galeria da área de trabalho do Learning Manager {#browsingcaptivateprimedesktopgallery}
 
-Todas as gravações e capturas de tela são salvas no aplicativo de desktop do Adobe Learning Manager. Para procurar esses arquivos, clique em **[!UICONTROL Galeria]** no painel de navegação esquerdo na página inicial.
+Todas as gravações e capturas de tela são salvas no aplicativo de desktop do Adobe Learning Manager. Para procurar estes arquivos, clique em **[!UICONTROL Galeria]** no painel de navegação esquerdo na página inicial.
 
 >[!NOTE]
 >
->A galeria também pode ser iniciada no Aprendizado social clicando no **Galeria do Learning Manager** ícone ao criar uma publicação.
+>A galeria também pode ser iniciada no Aprendizado social clicando no ícone da **Galeria do Learning Manager** durante a criação de uma publicação.
 
 Na janela da galeria, digite o nome do arquivo que está procurando no campo de pesquisa.
 
@@ -198,7 +197,7 @@ Para editar ou excluir um arquivo da galeria, clique nos três pontos na parte i
 
 As notificações no Learning Manager são exibidas janela de notificações independentemente se o aluno está ou não conectado no aplicativo da Web Learning Manager. As notificações incluem publicações ou painéis que os usuários criaram ou estão seguindo, ou dos quais participam. Clicar na notificação navegará o usuário para a web do aprendizado social do Learning Manager.
 
-Para silenciar as notificações, clique em **[!UICONTROL Menu Perfil*]* > **[!UICONTROL Configurações] > **[!UICONTROL Silenciar notificações]**.
+Para silenciar as notificações, clique no **[!UICONTROL Menu Perfil*]* > **[!UICONTROL Configurações] > **[!UICONTROL Silenciar notificações]**.
 
 ## Configurações no aplicativo de desktop do Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
 

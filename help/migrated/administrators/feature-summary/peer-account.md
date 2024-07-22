@@ -3,14 +3,13 @@ description: Leia este artigo para saber como criar e gerenciar contas entre par
 jcr-language: en_us
 title: Contas entre parceiros
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 62%
 
 ---
-
-
 
 # Contas entre parceiros
 
@@ -20,14 +19,14 @@ O Learning Manager oferece a capacidade de compartilhar licenças compradas usan
 
 ## Adicionar uma conta entre parceiros {#addapeeraccount}
 
-1. No painel Administrador, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Contas entre Parceiros]**.
+1. No painel Administrador, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Contas entre parceiros]**.
 1. No canto superior direito, clique em **[!UICONTROL Adicionar]**.
 
    ![](assets/peeraccount.png)
 
    *Adicionar conta entre parceiros*
 
-1. No menu **[!UICONTROL Subdomínio da conta]** especifique o subdomínio com o qual deseja estabelecer uma conta entre parceiros.
+1. No campo **[!UICONTROL Subdomínio da conta]**, especifique o subdomínio com o qual você deseja estabelecer uma conta entre parceiros.
 
    ![](assets/addpeer.png)
 
@@ -69,7 +68,7 @@ Se você não deseja mais compartilhar licenças ou compras com uma conta, é po
 O administrador pode exibir o relatório de usuário da conta entre parceiros. O administrador da conta principal pode solicitar acesso ao relatório e, depois que o administrador da conta entre parceiros aceitar isso, o administrador pai poderá exibir o número de usuários registrados na conta entre parceiros e poderá baixar o relatório de usuário para a conta entre parceiros.
 
 1. Na página Contas entre Parceiros, clique em **[!UICONTROL Adicionar]**.
-1. Ative a opção, **[!UICONTROL Solicitar permissão para baixar relatórios de usuário para a conta inteira]**.
+1. Habilite a opção **[!UICONTROL Solicitar permissão para baixar relatórios de usuário para a conta inteira]**.
 
 ![](assets/image034.png)
 

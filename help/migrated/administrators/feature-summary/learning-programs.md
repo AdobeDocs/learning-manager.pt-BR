@@ -4,14 +4,13 @@ jcr-language: en_us
 title: Programas de aprendizado
 contentowner: manochan
 preview: true
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 77%
 
 ---
-
-
 
 # Programas de aprendizado
 
@@ -41,7 +40,7 @@ Os administradores podem criar programas de aprendizado. Para criar um programa 
 
    Todos os tipos de cursos podem ser adicionados a um Programa de aprendizado. Isso inclui cursos em sala de aula e sala de aula virtual, atividade, ritmo individualizado e cursos mistos. Os cursos indicados e aprovados pelo gerente não aparecem durante a seleção do curso nos programas de aprendizado.
 
-1. É necessário adicionar cursos ao programa de aprendizado antes de publicá-lo. Clique em **[!UICONTROL Catálogo]** para associar cursos ao programa de aprendizado. Uma lista de todos os cursos disponíveis é exibida.
+1. É necessário adicionar cursos ao programa de aprendizado antes de publicá-lo. Clique na guia **[!UICONTROL Catálogo]** para associar cursos ao programa de aprendizado. Uma lista de todos os cursos disponíveis é exibida.
 
 1. Escolha os cursos que deseja adicionar ao programa de aprendizado passando o ponteiro do mouse sobre o cartão de qualquer curso e clicando nela. Se o curso não foi adicionado ao programa de aprendizado, você pode ver um símbolo + no meio do cartão do curso.
 
@@ -49,18 +48,18 @@ Os administradores podem criar programas de aprendizado. Para criar um programa 
 
    **Observação**
 
-   Exiba a lista de todos os cursos adicionados do seu programa de aprendizado em **[!UICONTROL Currículo]** guia. É possível ver o rótulo adicionado dos cursos adicionados na parte inferior do cartão do curso na guia **[!UICONTROL Catálogo]**.
+   Exiba a lista de todos os cursos adicionados do seu programa de aprendizado na guia **[!UICONTROL Currículo]**. É possível ver o rótulo adicionado dos cursos adicionados na parte inferior do cartão do curso na guia **[!UICONTROL Catálogo]**.
 
-1. Clique em **[!UICONTROL Voltar aos programas]** na parte superior do painel esquerdo, para exibir uma lista de todos os programas de aprendizado. Você pode ver programa de aprendizado que acabou de adicionar listado ali.
+1. Clique em **[!UICONTROL Voltar aos programas]** no painel superior esquerdo para exibir uma lista de todos os programas de aprendizado. Você pode ver programa de aprendizado que acabou de adicionar listado ali.
 1. Você pode publicar o programa de aprendizado clicando em Visão geral no painel esquerdo e escolhendo Ações > Publicar. Você também pode publicar o programa de aprendizado na exibição Cursos e Instâncias clicando em Publicar no canto superior direito da página.
 
 ## Adicionar alunos a um programa de aprendizado {#addlearnerstoalearningprogram}
 
-Para obter mais informações sobre como inscrever alunos e as etapas a seguir, consulte  [Inscrição de alunos.](courses.md#main-pars_header_1058138132)
+Para obter mais informações sobre como inscrever alunos e as etapas a seguir, consulte [Inscrição de alunos](courses.md#main-pars_header_1058138132).
 
 ## Ativar o controle completo do catálogo dos programas de aprendizado {#catalog}
 
-Como conceder acesso total [controle do catálogo de aprendizados ou módulos](shared-catalog-full-control.md), você também pode ativar o controle total do catálogo dos programas de aprendizado.
+Assim como concede [controle completo do catálogo de aprendizados ou módulos](shared-catalog-full-control.md), você também pode habilitar o controle completo do catálogo dos programas de aprendizado.
 
 ## Redefinir curso
 
@@ -70,11 +69,11 @@ Em um programa de aprendizado, o administrador pode redefinir o progresso do cur
 
 Para redefinir um curso, o administrador deve selecionar um curso na lista suspensa Cursos.
 
-Em seguida, no menu **[!UICONTROL Ações]** , clique em **[!UICONTROL Redefinir curso]**.
+Em seguida, na lista suspensa **[!UICONTROL Ações]**, clique em **[!UICONTROL Redefinir curso]**.
 
 Os alunos agora podem iniciar os módulos dos cursos selecionados desde o início.
 
-**Nota: somente os módulos com falha e incompletos do curso serão redefinidos.**
+**Observação: somente os módulos com falha e incompletos do curso serão redefinidos.**
 
 ## Criar várias instâncias de programas de aprendizado {#createmultipleinstancesoflearningprograms}
 

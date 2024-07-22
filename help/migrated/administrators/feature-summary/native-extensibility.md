@@ -1,7 +1,8 @@
 ---
 title: Extensibilidade nativa
 description: Configure experiências personalizadas na versão nativa do Adobe Learning Manager, permitindo que você não use headless para casos menos complicados.
-source-git-commit: 86c80607e2f50e6abf6d64fd7a916ef5b024b837
+exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 48%
@@ -18,19 +19,19 @@ O Adobe Learning Manager oferece suporte a 15 pontos de chamada no aplicativo do
 
 1. Como administrador, no painel esquerdo, selecione **[!UICONTROL Extensões nativas]**.
 1. Selecione Adicionar uma extensão.
-1. Digite o nome da extensão no campo **[!UICONTROL Nome]** campo.
-1. Digite a descrição da extensão na caixa **[!UICONTROL Descrição]** campo.
+1. Digite o nome da extensão no campo **[!UICONTROL Nome]**.
+1. Digite a descrição da extensão no campo **[!UICONTROL Descrição]**.
 1. Selecione um ponto de chamada. Um ponto de chamada é qualquer local no Adobe Learning Manager em que um link ou botão pode ser inserido em um aplicativo personalizado. Os seguintes pontos de chamada estão disponíveis:
 
-   Para este exemplo, selecione **[!UICONTROL Admin]**, **[!UICONTROL Autor: Curso]**, **[!UICONTROL Caminho de Aprendizado]** - **[!UICONTROL Instâncias]** - **[!UICONTROL Linha de instância]**.
+   Para este exemplo, selecione **[!UICONTROL Administrador]**, **[!UICONTROL Autor: Curso]**, **[!UICONTROL Caminho de Aprendizado]** - **[!UICONTROL Instâncias]** - **[!UICONTROL Linha de instância]**.
 
    ![imagem de extensão](assets/list-native-extensions.png)
    *Selecionar ponto de invocação*
 
-1. Digite o rótulo da extensão que aparecerá na interface do usuário no **[!UICONTROL Rótulo de Extensão]** campo.
+1. Digite o rótulo da extensão que aparecerá na interface do usuário no campo **[!UICONTROL Rótulo da extensão]**.
 1. Digite a URL onde deseja hospedar a extensão no campo **[!UICONTROL URL]**.
 1. No menu suspenso Abrir em, selecione se deseja iniciar a extensão em uma janela modal ou em uma nova guia.
-1. Selecione o tamanho do modal. As opções estarão disponíveis se você selecionou *No aplicativo* modal na etapa anterior.
+1. Selecione o tamanho do modal. As opções estão disponíveis se você selecionou o modal *no aplicativo* na etapa anterior.
 
    Para manter a acessibilidade dentro do pop-up, o aplicativo de extensão deve ser enviado ao evento assim que estiver no último elemento focalizável em seu site e, em seguida, o usuário seleciona a tecla TAB. Isso é necessário para manter o foco dentro do pop-up para oferecer suporte à acessibilidade.
 
@@ -44,8 +45,8 @@ O Adobe Learning Manager oferece suporte a 15 pontos de chamada no aplicativo do
 
 1. Defina o escopo da extensão. Estão disponíveis os seguintes escopos:
 
-   * **[!UICONTROL Todos os cursos, caminhos de aprendizado e certificações]**: esta extensão é ativada para todos os cursos, caminhos de aprendizado e certificações. Junto com os administradores, os autores podem desativá-la para alguns cursos, caminhos de aprendizado e certificações.
-   * **[!UICONTROL Cursos selecionados, caminhos de aprendizado e certificações]**: esta extensão é desativada para todos os cursos, caminhos de aprendizado e certificações. Junto com os administradores, os autores podem ativá-la para alguns cursos, caminhos de aprendizado e certificações.
+   * **[!UICONTROL Todos os cursos, caminhos de aprendizado e certificações]**: esta extensão está habilitada para todos os cursos, caminhos de aprendizado e certificações. Junto com os administradores, os autores podem desativá-la para alguns cursos, caminhos de aprendizado e certificações.
+   * **[!UICONTROL Cursos selecionados, caminhos de aprendizado e certificações]**: esta extensão está desabilitada para todos os cursos, caminhos de aprendizado e certificações. Junto com os administradores, os autores podem ativá-la para alguns cursos, caminhos de aprendizado e certificações.
 
 1. Selecione a opção **[!UICONTROL Ativar]** para tornar a extensão ativa. Uma vez ativa, a extensão aparece no ponto de chamada especificado de acordo com o escopo.
 1. Selecione **[!UICONTROL Salvar]** no canto superior direito da página para criar a extensão.
@@ -70,7 +71,7 @@ O Adobe Learning Manager oferece suporte a 15 pontos de chamada no aplicativo do
 1. Selecione **[!UICONTROL Mais]** na seção Instâncias. A extensão aparece na seção Instâncias.
 
    ![imagem de instâncias](assets/instances-extension.png)
-   *Acessar a extensão como autor*
+   *Acessar extensão como autor*
 
    Quando você seleciona a extensão, a extensão aparece na janela modal.
 
@@ -116,7 +117,7 @@ Há duas maneiras de baixar este relatório.
 
 1. Selecione OK.
 
-   ![geração de imagem de relatório](assets/generating-report.png)
+   ![gerando imagem de relatório](assets/generating-report.png)
    *Gerando o relatório*
 
    O relatório contém os seguintes campos:
@@ -134,9 +135,9 @@ Há duas maneiras de baixar este relatório.
 
 **Página Relatórios**
 
-1. Entrada **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]**, selecione **[!UICONTROL Relatório de configuração de extensão]**.
+1. Em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]**, selecione **[!UICONTROL Relatório de Configuração de Extensão]**.
 
    ![imagem da página de relatórios](assets/extension-report-page.png)
    *Baixar o relatório da página Relatórios*
 
-O estado deve estar no intervalo **0 a 4294967295**, ao configurar o estado de inscrição.
+O estado deve estar no intervalo **0 - 4294967295**, ao configurar o estado de inscrição.

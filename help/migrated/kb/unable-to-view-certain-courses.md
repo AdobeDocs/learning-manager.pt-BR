@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Não é possível exibir certos cursos no catálogo ao criar uma certificação
 description: Ao procurar um curso específico para adicioná-lo a uma certificação, você não pode visualizar o curso no catálogo.
 contentowner: saghosh
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 84%
 
 ---
-
-
 
 # Não é possível exibir certos cursos no catálogo ao criar uma certificação
 
@@ -42,7 +41,7 @@ Esses cursos só podem ser indicados por gerentes. Um aluno não poderá se insc
 
 Em uma Certificação, você só pode adicionar cursos com auto-inscrição, e não cursos indicados ou aprovados pelo por gerentes.
 
-* **Certificações permanentes:**  Você pode adicionar cursos de sessão CR ou VC em uma certificação.
+* **Certificações perpétuas:** você pode adicionar cursos de sessão CR ou VC em uma certificação.
 * **Certificações recorrentes:** não é possível adicionar cursos de sessão CR ou VC em uma certificação.
 
 Esse é um comportamento padrão no Learning Manager.

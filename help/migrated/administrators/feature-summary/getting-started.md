@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Iniciando como Administrador
-description: Use a página de introdução para analisar os principais recursos administrativos do Adobe Learning Manager.
+description: Use a página de introdução para analisar os principais recursos de administração do Adobe Learning Manager.
 contentowner: manochan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+exl-id: c1779a24-2236-41f4-99b0-a3529751a5c2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 66%
 
 ---
-
-
 
 # Iniciando como Administrador
 
@@ -20,9 +19,9 @@ Assim que você efetuar o login como um Adminstrador, poderá ver a janela suspe
 
 ## Assistir vídeos de amostra {#viewsamplevideos}
 
-Navegue através dos tutoriais em vídeo de amostra para compreender os principais recursos de sua função como um administrador. Se você não deseja que essa janela suspensa apareça durante o login, poderá desativá-la clicando em **[!UICONTROL Não mostrar no logon]** no canto inferior direito da janela pop-up.
+Navegue através dos tutoriais em vídeo de amostra para compreender os principais recursos de sua função como um administrador. Se você não deseja que essa janela suspensa apareça durante o logon, poderá desativá-la clicando na opção **[!UICONTROL Não mostrar no logon]** no canto inferior direito da janela suspensa.
 
-Clique em **[!UICONTROL Fechar janela]** para fechar o pop-up.
+Clique em **[!UICONTROL Fechar Janela]** para fechar a janela pop-up.
 
 ![](assets/welcome-videos-e1439961904106.png)
 
@@ -38,4 +37,3 @@ Na página de Introdução, você poderá executar as seguintes atividades:
 Você também pode saber mais sobre o aplicativo Learning Mangera ao escolher assistir aos tutoriais em vídeo, exibir a Ajuda de conteúdo e saber mais sobre as diferentes funções.
 
 ![](assets/admin-landing-page-300x204.png)
-

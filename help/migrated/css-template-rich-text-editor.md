@@ -31,7 +31,7 @@ O estilo padrão pode não atender às necessidades de todos. As personalizaçõ
 * **tamanho**: ql-size-small, ql-size-large, ql-size-huge
 * **alinhamento**: ql-align-center, ql-align-reasons, ql-align-right
 * **cor**: ql-color-$color. $color = branco, vermelho, laranja, amarelo, verde, azul, roxo
-* **fundo**: ql-bg-$color. $color = preto, vermelho, laranja, amarelo, verde, azul, roxo
-* **tags html**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
+* **plano de fundo**: ql-bg-$color. $color = preto, vermelho, laranja, amarelo, verde, azul, roxo
+* **marcas html**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
 [Arquivo CSS a ser usado para personalização.](assets/ql-headless.css)

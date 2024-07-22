@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Mapear habilidades com domínios de habilidades
 description: Para que o Mecanismo de curadoria por AI selecione automaticamente uma publicação de usuário para um domínio de habilidade específico, a empresa do usuário precisa ter mapeado suas habilidades personalizadas nos domínios de habilidade presentes no LMS do Learning Manager.
 contentowner: kuppan
-source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
+exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 90%
 
 ---
-
-
 
 # Mapear habilidades com domínios de habilidades
 
@@ -58,7 +57,7 @@ Siga as etapas abaixo para adicionar um domínio de habilidades:
 
    ![](assets/skill-domain-mapping.png)
 
-   *Adicione os domínios de habilidade na seção Domínio de habilidade*
+   *Adicionar os domínios de habilidade na seção Domínio de Habilidade*
 
 1. Para salvar as alterações, clique em **[!UICONTROL Salvar]**.
 
@@ -71,4 +70,3 @@ Se o conteúdo carregado tiver uma pontuação de confiança acima de 50%, ele s
 ![](assets/curation-notification.png)
 
 *Exibir notificações dependendo da pontuação de confiança*
-

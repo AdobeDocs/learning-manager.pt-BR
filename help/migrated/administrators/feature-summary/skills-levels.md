@@ -102,7 +102,7 @@ Depois de criar e salvar as habilidades, elas serão listadas na página de habi
 
    ![](assets/turn-off-auto-enrollment.png)
 
-   *Desabilitar inscrição automática*
+   *Desabilitar registro automático*
 
    Alunos individuais podem se inscrever automaticamente ou podem ser inscritos pelo administrador em um programa de aprendizado.
 
@@ -152,7 +152,7 @@ Você pode pesquisar por habilidades nas seções **[!UICONTROL Ativo]** e **[!U
 
 ## Editar uma habilidade {#editaskill}
 
-Na página **[!UICONTROL Habilidade]**, clique na habilidade que deseja modificar. No menu **[!UICONTROL Editar habilidade]** faça as alterações necessárias, por exemplo,
+Na página **[!UICONTROL Habilidade]**, clique na habilidade que deseja modificar. Na caixa de diálogo **[!UICONTROL Editar Habilidade]**, faça as alterações necessárias, por exemplo:
 
 * Adicionando ou excluindo um domínio de habilidade.
 * Editando o nome e a descrição da habilidade.
@@ -202,7 +202,7 @@ Adicione um arquivo CSV que consiste nas habilidades dos professores. Essas habi
 
    Clique em Salvar.
 
-   ![Adicionar CSV de habilidades do professor](assets/instructor-skills.png)
+   ![Adicionar CSV de habilidades de professor](assets/instructor-skills.png)
 
    *Adicionar habilidades de professor de um CSV*
 
@@ -218,9 +218,9 @@ Adicione um arquivo CSV que consiste nas habilidades dos professores. Essas habi
 
 Na página Habilidades, há uma coluna chamada Professores, que indica o número de professores atribuídos a uma habilidade. Se você clicar no número de professores, verá uma janela pop-up, que exibe os professores atribuídos à habilidade.
 
-![Habilidades atribuídas a professores](assets/instructor-skill-assigned.png)
+![Habilidades atribuídas aos professores](assets/instructor-skill-assigned.png)
 
-*Página Habilidades*
+*Página de habilidades*
 
 ### Baixar o CSV de atribuição de habilidades
 
@@ -283,4 +283,4 @@ Em outras palavras, para obter a medalha, **é preciso completar o objeto de apr
 
 ### Mais itens similares
 
-* [Habilidades e Adobe do Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [Habilidades e Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)

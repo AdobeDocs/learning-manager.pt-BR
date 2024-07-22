@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Página inicial do aluno
-description: Depois que o administrador habilita o layout imersivo, o aluno, depois de fazer logon no aplicativo, é recebido com uma interface de usuário completamente aprimorada.
+description: Depois que o administrador ativa o layout imersivo, o aluno, após fazer logon no aplicativo, é recebido com uma interface de usuário completamente reformulada.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
@@ -15,29 +15,29 @@ ht-degree: 40%
 
 ## Visão geral {#overview}
 
-Depois que o administrador habilita o layout imersivo, o aluno é recebido com uma interface de usuário completamente aprimorada ao fazer logon no aplicativo.
+Depois que o administrador ativa o layout imersivo, o aluno é recebido com uma interface de usuário completamente reformulada ao fazer logon no aplicativo.
 
 >[!NOTE]
 >
->O navegador IE11 não oferece suporte ao layout imersivo.
+>O navegador IE11 não é compatível com o layout Imersivo.
 
-## Nova interface do usuário para layout imersivo
+## Nova interface do usuário do aluno para layout imersivo
 
 >[!IMPORTANT]
 >
 >Lançaremos a nova interface do usuário do aluno em fases.
 
-Atualizamos a interface do aluno com um design mais elegante e atualizado. A nova interface do usuário visa fornecer uma experiência do usuário consistente na **[!UICONTROL página]** inicial do aluno, **[!UICONTROL Meu aprendizado]**, **[!UICONTROL Catálogo]** e **[!UICONTROL Visão geral]** do curso. Os novos elementos visuais seguem os estilos de design atuais, tornando o produto mais fácil de usar e atraente. Esta atualização inclui um novo mastro, painel lateral e widgets contemporâneos.
+Atualizamos a interface do aluno com um design mais elegante e atualizado. A nova interface tem como objetivo fornecer uma experiência de usuário consistente nas páginas de aterrissagem da **[!UICONTROL Página inicial do aluno]**, do **[!UICONTROL Meu aprendizado]**, do **[!UICONTROL Catálogo]** e da **[!UICONTROL Visão geral do curso]**. Os novos elementos visuais seguem os estilos de design atuais, tornando o produto mais fácil de usar e atraente. Esta atualização inclui uma nova manchete, um painel lateral e widgets contemporâneos.
 
 >[!NOTE]
 >
->A interface do usuário aprimorada se aplica apenas ao layout imersivo. A Web/aplicativo para dispositivos móveis ainda não oferece suporte a essas alterações e as atualizará em uma versão futura.
+>A nova interface de usuário aplica-se somente ao layout Imersivo. O aplicativo/Web para dispositivos móveis ainda não é compatível com essas alterações e as atualizará em uma versão futura.
 
 ![](assets/old-ui.png)
-_Interface de usuário antiga_
+_Interface de Usuário Antiga_
 
 ![](assets/home-page-new.jpg)
-_Nova interface do usuário_
+_Nova Interface De Usuário_
 
 ### Página inicial
 
@@ -48,62 +48,62 @@ _Nova página inicial_
 
 ### Página Catálogo
 
-As páginas catálogo apresentam uma nova aparência com filtros organizados e cartões de curso aprimorados para proporcionar uma melhor experiência ao usuário.
+As páginas do catálogo têm uma nova aparência com filtros organizados e cartões de curso aprimorados para fornecer uma experiência melhor ao usuário.
 
 ![](assets/catalog.jpg)
-_Página Catálogo_
+_Página do catálogo_
 
 ### Página Visão geral do curso
 
-A página de visão geral do curso apresenta um novo visual com mais detalhes sobre o curso. Esta página ajuda os alunos a obter todas as informações necessárias.
+A página de visão geral do curso tem uma nova aparência com mais detalhes sobre o curso. Esta página ajuda os alunos a obter todas as informações de que precisam.
 
 ![](assets/course-overview.jpg)
 _Página de visão geral do curso_
 
-### Cartões de curso
+### Cartões do curso
 
-Os cartões de curso também apresentam um layout reformulado para exibir os detalhes com mais eficiência. Cartões de curso renovados destacam os metadados relevantes necessários para a inscrição. Esses metadados incluem datas, avaliações e descrições publicadas ou de vencimento corretas juntamente com seus autores ou provedores.
+Os cartões de curso também apresentam um layout reformulado para exibir detalhes com mais eficiência. Cartões de curso renovados destacam os metadados relevantes necessários para a inscrição. Esses metadados incluem datas de publicação ou vencimento, classificações e descrições corretas junto com seus autores ou provedores.
 
 ![](assets/old-course-cards.png)
-_Cartão do curso antigo_
+_Cartão de curso antigo_
 
 ![](assets/new-course-card.jpg)
 _Novo cartão do curso_
 
-Para cursos importados do **LinkedIn** e da **plataforma Go1** , os cartões do curso exibirão as datas originais da publicação do **LinkedIn** e **go1**. Você também pode ver essas datas de publicação específicas na Interface do usuário.
+Para os cursos importados do **LinkedIn** e da plataforma **Go1**, os cartões de curso exibirão as datas de publicação originais do **LinkedIn** e do **Go1**. Você também pode exibir essas datas de publicação específicas na interface do usuário.
 
 ### Barra lateral e barra de pesquisa
 
-A barra lateral é atualizada com novos elementos da interface do usuário para uma aparência mais limpa. A nova barra de pesquisa não tem nenhum botão pesquisar, dando a ela uma aparência mais limpa. Os alunos podem digitar uma palavra-chave e pressionar Enter para iniciar a pesquisa ou selecionar resultados abaixo da barra de pesquisa.
+A barra lateral é atualizada com novos elementos de interface para obter uma aparência mais limpa. A nova barra de pesquisa não tem nenhum botão de pesquisa, dando uma aparência mais limpa. Os alunos podem digitar uma palavra-chave e pressionar enter para iniciar a pesquisa ou selecionar resultados abaixo da barra de pesquisa.
 
 ![](assets/side-bar.png)
 _Barra lateral e barra de pesquisa_
 
 ### Manchete {#masthead}
 
-Apresenta um carrossel de vídeo ou imagem com um URL incorporado. O [administrador pode carregar qualquer ativo de imagem ou vídeo](../../administrators/feature-summary/announcements.md#masthead) como um mastro e definir sua visibilidade para um grupo de alunos.
+Apresenta um carrossel de imagens ou vídeo com um URL incorporado. O [administrador pode carregar qualquer ativo de imagem ou vídeo](../../administrators/feature-summary/announcements.md#masthead) como um manchete e definir sua visibilidade para um grupo de alunos.
 
 ![](assets/learner-masthead.png)
 
-*Exibir mastro*
+*Exibir manchete*
 
 ### Lista do meu aprendizado {#mylearninglist}
 
-Exibe o treinamento que o aluno tinha feito. Esses treinamentos são exibidos como cartas alinhadas horizontalmente. Você pode clicar no botão direito ou esquerdo para navegar pelos cursos.
+Exibe o treinamento que o aluno fez. Esses treinamentos são exibidos como cartões alinhados horizontalmente. Você pode clicar no botão direito ou esquerdo para navegar pelos cursos.
 
 ![](assets/learner-my-learning-list.png)
 
-*Visualizar minha lista de aprendizado*
+*Exibir minha lista de aprendizado*
 
-Você também pode deslizar o dedo para a esquerda e para a direita para navegar pela lista.
+Você também pode deslizar para a esquerda e para a direita para navegar pela lista.
 
-Para retomar um curso, clique **[!UICONTROL em Continuar]** em um cartão e o reprodutor será iniciado.
+Para retomar um curso, clique em **[!UICONTROL Continuar]** em um cartão e o reprodutor iniciará.
 
-A aparência de ícones em cada cartão de treinamento é ativada/desabilitada pelo administrador por meio do aplicativo de Administração (**configurações** > **Geral** > **Ativar ícones** do cartão de treinamento).
+A aparência dos ícones em cada cartão de treinamento é habilitada/desabilitada pelo administrador por meio do aplicativo Admin (**Configurações** > **Geral** > **Habilitar ícones do cartão de treinamento**).
 
 **Adicionar à Minha lista de aprendizado**
 
-Se você passar o mouse em qualquer cartão do curso em **Recomendado com base em suas áreas de interesse** e **Recomendado com base em listas de atividades entre pares**, você verá uma opção para adicionar o curso à **Minha lista de aprendizado**. Clique **[!UICONTROL em +]** no cartão do curso e o curso será adicionado à **Minha lista** de aprendizados.
+Se você passar o mouse em qualquer cartão do curso em **Recomendado com base em suas áreas de interesse** e **Recomendado com base em listas de atividades entre pares**, você verá uma opção para adicionar o curso à **Minha lista de aprendizado**. Clique em **[!UICONTROL +]** no cartão do curso e o curso será adicionado à **Minha lista de aprendizado**.
 
 ![](assets/add-my-learning.png)
 
@@ -123,16 +123,16 @@ Escolha uma opção e você poderá ver o catálogo do curso de acordo com a sel
 
 *Selecionar níveis de habilidade*
 
-## Widget do painel de conformidade
+## Widget de painel de conformidade
 
-O widget do painel de conformidade permite que os alunos filtrem cursos/caminhos de aprendizado/certificações que possuem futuros prazos usando o rótulo conformidade. Este recurso está disponível em todos os aplicativos do aluno, incluindo o aplicativo alm teams, a AEM, o aplicativo móvel, imersivo e o aplicativo SF.
+O widget do painel de conformidade permite que os alunos filtrem cursos/caminhos de aprendizado/certificações que têm prazos de conclusão futuros usando o rótulo Conformidade. Este recurso está disponível em todos os aplicativos do aluno, incluindo o aplicativo ALM Teams, AEM, o aplicativo para dispositivos móveis, o aplicativo imersivo e o aplicativo SF.
 
 ![](assets/compliance-status-learner.png)
-_Widget do painel de conformidade_
+_Widget de painel de conformidade_
 
 ## Calendário {#calendar}
 
-Mostra as suas sessões agendadas e treinamento. Navegue pelo calendário para ver o treinamento para os meses subsequentes.
+Mostra as suas sessões agendadas e treinamento. Navegue no calendário para ver o treinamento para os meses subsequentes.
 
 ![](assets/learner-calendar.png)
 
@@ -149,7 +149,7 @@ O widget Calendário tem os seguintes recursos. Você pode exibir:
 
 ![](assets/social-feed.png)
 
-*Visualizar feed social*
+*Exibir feed social*
 
 Veja o que outros usuários estão falando.
 
@@ -165,17 +165,17 @@ As habilidades de perfil são usadas para as recomendações do curso. Se o admi
 ![](assets/profile-skills.png)
 *Exibir habilidades de perfil*
 
-Se um aluno se inscrever em um curso, somente as habilidades externas que são baseadas em uma pontuação são adicionadas às habilidades de perfil. Além disso, o aluno pode pesquisar, selecionar e adicionar habilidades externas ao seu perfil. Se um aluno fez logon no aplicativo do aluno pela primeira vez e, se as habilidades do aluno já estiverem presentes, as habilidades serão exibidas em Meu perfil.
+Se um aluno se inscrever em um curso, somente as habilidades externas que são baseadas em uma pontuação são adicionadas às habilidades de perfil. Além disso, um aluno pode pesquisar, selecionar e adicionar habilidades externas ao seu perfil.Se um aluno fez logon no aplicativo do aluno pela primeira vez e se as habilidades do aluno já estiverem presentes, as habilidades serão exibidas em Meu perfil.
 
 ## Recomendação baseada na sua área de interesse {#recommendationbasedonyourareaofinterest}
 
-Exibe treinamento com base na área de interesse escolhida. A recomendação é orientada por um algoritmo de aprendizado de máquina.
+Exibe treinamento com base na área de interesse escolhida. A recomendação é orientada por um algoritmo de Aprendizado de Máquina.
 
 ![](assets/learner-recommendation.png)
 
 *Exibir cursos recomendados*
 
-Para recomendações mais direcionadas, você pode atualizar suas habilidades clicando em **Exibir/Atualizar**.
+Para obter mais recomendações direcionadas, você pode atualizar suas habilidades clicando em **Exibir/Atualizar**.
 
 Depois de adicionar uma habilidade, as recomendações futuras se tornarão mais direcionadas e focadas de acordo com as suas preferências.
 
@@ -197,7 +197,7 @@ Na visualização do Mapa de habilidades, você pode procurar uma habilidade ou 
 
 *Visualização do mapa de habilidades*
 
-Ative a opção **Mostrar habilidades para as quais os treinamentos estão presentes na minha conta**, se você quiser exibir todas as habilidades que estão na sua conta.
+Habilite a opção **Mostrar habilidades para as quais os treinamentos estão presentes na minha conta**, se você deseja exibir todas as habilidades que estão na sua conta.
 
 Depois de adicionar uma habilidade, você pode ver o gráfico de força direcionada com a habilidade selecionada como o vértice principal e as habilidades associadas como vértices menores.
 
@@ -211,4 +211,4 @@ Para adicionar as habilidades, clique em **[!UICONTROL Adicionar]**.
 
 ## Recomendação baseada na atividade entre pares {#recommendationbasedonpeeractivity}
 
-Exibe treinamento baseado no que seus colegas estão realizando. Isso é controlado novamente por um algoritmo de aprendizado de máquina. As recomendações são baseadas no treinamento para alunos alinhados ao setor e personalizados.
+Exibe treinamento com base no que seus colegas estão fazendo. Isso é controlado novamente por um algoritmo de aprendizado de máquina. As recomendações são baseadas em treinamento para alunos personalizados e alinhados ao setor.

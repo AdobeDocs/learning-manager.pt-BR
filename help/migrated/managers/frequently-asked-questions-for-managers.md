@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Perguntas Frequentes para Gerentes
-description: Perguntas Frequentes para Gerentes do Adobe Learning Manager
+description: Perguntas frequentes para gerentes da Adobe Learning Manager
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 57%
 
 ---
-
-
 
 # Perguntas Frequentes para Gerentes
 
@@ -71,7 +70,7 @@ Você pode clicar no ícone suspenso para alterar a faixa de datas, salvar e exi
 
 É possível criar relatórios para os membros da sua equipe a fim de exibir a lista de habilidades atribuídas e obtidas por cada um deles. Clique em Relatórios no painel esquerdo e clique na guia Relatórios de amostra para exibir um relatório de amostra de Habilidades versus Gerentes.
 
-Para obter mais informações, consulte [Relatórios](feature-summary/reports.md) na Ajuda do Learning Manager.
+Para obter mais informações, consulte o recurso [Relatórios](feature-summary/reports.md) na Ajuda do Learning Manager.
 
 +++
 
@@ -95,7 +94,7 @@ Para cancelar as alterações, clique em Redefinir.
 
 Para redimensionar o relatório, clique em Redimensionar e escolha uma das duas opções: 1 × 1 é pequeno e 1 × 2 é grande.
 
-Para obter mais informações, consulte  [Recurso Relatórios.](feature-summary/reports.md)
+Para obter mais informações, consulte o [recurso Relatórios.](feature-summary/reports.md)
 
 +++
 
@@ -117,7 +116,7 @@ Você pode visualizar todos esses relatórios dentro de uma faixa de datas.
 
 +++Posso exibir todos os cursos disponíveis? Como?
 
-Você pode mudar para a função Aluno para ver todos os cursos disponíveis? Consulte  [Cursos](../learners/feature-summary/courses.md) recurso para obter mais informações
+Você pode mudar para a função Aluno para ver todos os cursos disponíveis? Consulte o recurso [Cursos](../learners/feature-summary/courses.md) para mais informações
 
 +++
 

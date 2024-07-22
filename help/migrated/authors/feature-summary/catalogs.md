@@ -3,14 +3,13 @@ description: Os catálogos no Learning Manager consistem em cursos, programas de
 jcr-language: en_us
 title: Catálogos
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 78%
 
 ---
-
-
 
 # Catálogos
 
@@ -24,7 +23,7 @@ Para visualizar apenas os cursos, criados por um autor, navegue até a seção *
 
 Como autor, você pode exibir o catálogo de cursos, que é uma coleção de todos os cursos na conta.
 
-Depois de fazer logon como autor, clique em **Catálogo de cursos** no painel esquerdo para exibir a lista de todos os cursos disponíveis no Learning Manager para sua organização.
+Depois de fazer logon como autor, clique em **Catálogo do curso** no painel esquerdo para exibir a lista de todos os cursos disponíveis no Learning Manager para sua organização.
 
 Use as opções de filtro conforme mostrado na captura de tela abaixo para localizar os cursos no catálogo.
 
@@ -46,7 +45,7 @@ Use as opções de filtro conforme mostrado na captura de tela abaixo para local
 
    ![](assets/choose-instructor.png)
 
-   *Selecione o professor na lista*
+   *Selecionar o professor da lista*
 
 1. Forneça critérios de conclusão para o curso de SV. Critério de conclusão é a porcentagem da duração total do curso que um aluno deve frequentar para ser considerado como concluído. Por exemplo, digamos, a duração do curso é de 1 hora. Se você fornecer 50% como critérios de conclusão, se um aluno frequentar o curso mesmo por 30 minutos, ele será considerado como concluído para o aluno.
 

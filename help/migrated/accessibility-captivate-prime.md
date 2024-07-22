@@ -207,21 +207,21 @@ Para obter mais informações, consulte:
 
 Vamos ver como os recursos de acessibilidade ajudam você a navegar por alguns dos principais recursos dos alunos no Learning Manager.
 
-Use o `kbd Tab`para navegar pelos elementos da página. Use o `kbd Shift + Tab` para inverter a direção da navegação. O foco do teclado é indicado por um contorno azul exibido ao redor de um elemento. Um leitor de tela deve ler o texto do elemento em foco.
+Use a tecla `kbd Tab` para navegar pelos elementos da página. Use a tecla `kbd Shift + Tab` para inverter a direção da navegação. O foco do teclado é indicado por um contorno azul exibido ao redor de um elemento. Um leitor de tela deve ler o texto do elemento em foco.
 
 ## Pesquisar um treinamento no Learning Manager {#searchforatrainingincaptivateprime}
 
 1. Use essas dicas para navegar e acessar a caixa Pesquisar no canto superior direito da página inicial.
 1. Digite o texto usando o teclado. Os resultados da pesquisa serão exibidos.
-1. Usar o teclado `kbd Up/Down` setas para navegar pelos resultados ou pressionar `kbd ENTER`para ver todos os resultados.
+1. Use as setas do teclado `kbd Up/Down` para navegar pelos resultados ou pressione `kbd ENTER` para ver todos os resultados.
 
-1. Depois que o treinamento for identificado, pressione `kbd ENTER`para navegar até a página de treinamento.
+1. Depois que o treinamento for identificado, pressione `kbd ENTER` para navegar até a página de treinamento.
 
 ## Realizar um treinamento no Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. Depois que um treinamento for identificado, use `kbd Tab`ou `kbd Shift + Tab` para navegar até o botão Inscrever/Iniciar. O status do botão depende do seu status de inscrição para esse treinamento.
+1. Depois que um treinamento for identificado, use `kbd Tab` ou `kbd Shift + Tab` para navegar até o botão Inscrever-se/Iniciar. O status do botão depende do seu status de inscrição para esse treinamento.
 
-1. Acerto `kbd ENTER`para iniciar o treinamento.
+1. Pressione `kbd ENTER` para iniciar o treinamento.
 1. Veja a seguir os controles que aparecem independentemente do tipo de conteúdo:
 
    * Tabela de conteúdos
@@ -238,9 +238,9 @@ Use o `kbd Tab`para navegar pelos elementos da página. Use o `kbd Shift + Tab` 
    * Conteúdo do DOCUMENTO - Número da página, Página acima, Página abaixo, Mais zoom, Menos zoom.
    * eLEARNING - Botão Legenda oculta.
 
-1. Pressione os controles do teclado `kbd Tab`ou `kbd Shift + Tab` para navegar pelos controles e pressionar `kbd ENTER`para ativar/desativar qualquer controle.
+1. Pressione os controles do teclado `kbd Tab` ou `kbd Shift + Tab` para navegar pelos controles e pressione `kbd ENTER` para habilitar/desabilitar qualquer controle.
 
-1. Para o tipo DOCUMENTO, use controles de seta como `kbd UP/DOWN` para percorrer o documento.
+1. Para o tipo DOCUMENTO, use controles de seta como `kbd UP/DOWN` para rolar pelo documento.
 
 ## Suporte à acessibilidade para necessidades específicas
 
@@ -250,7 +250,7 @@ Vamos analisar os recursos de acessibilidade que os alunos podem utilizar com ba
 
 * Use legendas ocultas disponíveis no conteúdo criado usando a ferramenta de criação do Adobe Captivate.
 * Para vídeos, os autores podem codificar os vídeos com texto de legenda. Esses vídeos têm legendas incorporadas e podem ser consumidas pelos alunos.
-* O Learning Manager oferece suporte à capacidade de carregar arquivos WebVTT de legenda para conteúdo de vídeo. Para obter mais informações, consulte  [*Carregar arquivo WebVTT para legendas*](authors/feature-summary/content-library.md#webvtt).
+* O Learning Manager oferece suporte à capacidade de carregar arquivos WebVTT de legenda para conteúdo de vídeo. Para obter mais informações, consulte [*Carregar arquivo WebVTT para legendas*](authors/feature-summary/content-library.md#webvtt).
 
 ### Usuários cegos ou com pouca visão
 

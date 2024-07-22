@@ -19,7 +19,7 @@ No aplicativo Learning Manager no iPad ou tablet Android, após fazer logo como 
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** e escolha a opção apropriada.
+Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** suspenso e escolha a opção apropriada.
 
 ![](assets/menu-ipad.png)
 
@@ -36,7 +36,7 @@ Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPa
 
 É possível monitorar periodicamente o armazenamento do dispositivo.
 
-Toque no ícone do perfil no canto superior direito do aplicativo e toque em **Armazenamento do dispositivo** opção do menu.
+Toque no ícone do perfil no canto superior direito do aplicativo e toque na opção de menu **Armazenamento do dispositivo**.
 
 ![](assets/app-device-storage.png)
 

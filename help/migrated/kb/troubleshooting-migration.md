@@ -3,14 +3,13 @@ description: Este documento contém dicas básicas de solução de problemas par
 jcr-language: en_us
 title: Solução de problemas de migração
 contentowner: jayakarr
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b9f17644-f237-4701-86e9-8496db941920
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 71%
 
 ---
-
-
 
 # Solução de problemas de migração
 
@@ -66,19 +65,19 @@ Verifique se o sprint atual está marcado como concluído antes de marcar a conc
 
 ### A migração do arquivo module_version.csv está falhando e o conteúdo ainda não foi migrado {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Verifique se o conteúdo está disponível na pasta Conteúdo (conta do Box no projeto de migração especificado, caminho do sprint). Verifique também se você selecionou a opção **Sim** para **Você migrará o conteúdo deste sprint?** pergunta na página de criação do sprint.
+Verifique se o conteúdo está disponível na pasta Conteúdo (conta do Box no projeto de migração especificado, caminho do sprint). Além disso, certifique-se de ter selecionado a opção **Sim** para **Você migrará o conteúdo deste sprint?** pergunta na página de criação do sprint.
 
-Caso se esqueça de selecionar **Sim** e continuar neste sprint, aguarde até concluir o sprint. Crie outro sprint e clique nele **[!UICONTROL Sim]**.
+Caso se esqueça de selecionar **Sim** e continuar neste sprint, aguarde até concluir o sprint. Crie outro sprint e clique em **[!UICONTROL Sim]**.
 
 ### Os registros enrollment.csv ou user_course_grade.csv falham com uma mensagem de erro &#39;Não é uma ID válida do Learning Manager&#39; {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
 Verifique se a ID de e-mail fornecida como parte dos campos userId e assignedByUserID pertence a usuários válidos do Learning Manager. Caso contrário, adicione o usuário, crie um novo sprint com a opção **Sincronizar usuários** selecionada. Caso o usuário não faça parte da organização, adicione-o como um usuário excluído no Learning Manager usando Adicionar especificação do CSV dos usuários. Um exemplo de especificação de CSV para adicionar usuários excluídos é fornecido abaixo como referência.
 
-[Users.csv](assets/users.zip) Consulte **Especificações do CSV e CSVs de amostra** seção em [Manual de migração](../integration-admin/feature-summary/migration-manual.md) para baixar um conjunto completo de especificações do CSV e arquivos CSV de amostra.
+[Users.csv](assets/users.zip) Consulte a seção **Especificações do CSV e CSVs de amostra** no [Manual de migração](../integration-admin/feature-summary/migration-manual.md) para baixar um conjunto completo de especificações do CSV e arquivos CSV de amostra.
 
 ### Os cursos aparecem em branco ou módulos incorretos são reproduzidos em um curso migrado {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Assegurar que o **moduleOrderInCourse** o valor principal de um curso começa com **0** e está em ordem contínua. A ordem em termos de courseModuleType deve ser PRETEST, TESTOUT, CONTENT
+Verifique se o valor da chave **moduleOrderInCourse** de um curso começa com **0** e está em ordem contínua. A ordem em termos de courseModuleType deve ser PRETEST, TESTOUT, CONTENT
 
 Além disso, verifique se duas versões de Atividade, Sala de aula e Sala de aula virtual não estão vinculadas ao curso existente.
 

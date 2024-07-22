@@ -35,7 +35,7 @@ Há quatro tipos de anúncios:
 
 1. No campo Mensagem, adicione a mensagem para o comunicado. Você também pode adicionar um URL para comunicados aqui. No entanto, você deve adicionar o URL no formulário HTML.
 
-   Por exemplo,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
+   Por exemplo, `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
 
    Quando você especifica o alvo como em branco, quando um usuário clica no URL do comunicado, o link é aberto em uma nova guia. Se você não especificar o alvo, o link será aberto no mesmo navegador.
 
@@ -49,7 +49,7 @@ Há quatro tipos de anúncios:
    * Fixe este comunicado selecionando a caixa de seleção Ativar comunicado fixo.
    * Selecione o tempo de entrega do comunicado.
 
-1. Selecionar **[!UICONTROL Em uma data]** se quiser agendar o comunicado para uma data posterior e clicar na área de texto adjacente. Uma janela pop-up do calendário é exibida, na qual você pode escolher a data de início. Escolha a data de término seguindo as mesmas etapas.
+1. Selecione **[!UICONTROL Em uma data]** se desejar agendar o comunicado para uma data posterior e clicar na área de texto adjacente a ela. Uma janela pop-up do calendário é exibida, na qual você pode escolher a data de início. Escolha a data de término seguindo as mesmas etapas.
 1. Clique em **[!UICONTROL Salvar]**.
 1. Na guia Rascunhos, clique no ícone de configurações ao lado de um comunicado e clique em Enviar.
 
@@ -70,11 +70,11 @@ Quando você escolhe essa opção, qualquer arquivo de mídia que você escolhe 
 
    Comece a digitar o nome do grupo de usuários na caixa de texto e escolha na lista suspensa. Da mesma forma, escolha o treinamento digitando o nome do objeto na caixa de texto.
 
-1. No menu **[!UICONTROL Configurações avançadas]** você tem as seguintes opções:
+1. Na seção **[!UICONTROL Configurações Avançadas]**, você tem as seguintes opções:
 
-   * Clique em **[!UICONTROL Imediatamente]** se você quiser que o anúncio seja publicado imediatamente.
-   * Clique em **[!UICONTROL Nunca]** se você não deseja que seu comunicado expire.
-   * Selecione o **[!UICONTROL Início]** e **[!UICONTROL Fim]** datas do anúncio.
+   * Clique em **[!UICONTROL Imediatamente]** se quiser que o comunicado seja publicado imediatamente.
+   * Clique em **[!UICONTROL Nunca]** se não quiser que seu comunicado expire.
+   * Selecione as datas de **[!UICONTROL Início]** e **[!UICONTROL Término]** para o comunicado.
 
    ![](assets/advanced-settings.png)
 
@@ -102,9 +102,9 @@ Quando você escolhe essa opção, qualquer treinamento escolhido é recomendado
 
 1. Na seção Configurações avançadas, você tem as seguintes opções:
 
-   * Clique em **[!UICONTROL Imediatamente]** se você quiser que o anúncio seja publicado imediatamente.
-   * Clique em **[!UICONTROL Nunca]** se você não deseja que seu comunicado expire.
-   * Selecione o **[!UICONTROL Início]** e **[!UICONTROL Fim]** datas do anúncio.
+   * Clique em **[!UICONTROL Imediatamente]** se quiser que o comunicado seja publicado imediatamente.
+   * Clique em **[!UICONTROL Nunca]** se não quiser que seu comunicado expire.
+   * Selecione as datas de **[!UICONTROL Início]** e **[!UICONTROL Término]** para o comunicado.
 
    <!--![](assets/advanced-settings.png)-->
 
@@ -139,11 +139,11 @@ Use essa opção para enviar e-mails ad-hoc direcionados aos alunos de um grupo 
 
 ![O administrador cria um comunicado por email](assets/email-announcement-admin.png)
 
-*Enviar e-mails ad-hoc direcionados aos alunos*
+*Enviar emails ad-hoc direcionados aos alunos*
 
 *O administrador cria um comunicado por email*
 
-1. Selecionar **[!UICONTROL Digitar como Email]**.
+1. Selecione **[!UICONTROL Digitar como email]**.
 1. Insira o assunto e o corpo da mensagem.
 1. Na seção Destino, você pode:
 

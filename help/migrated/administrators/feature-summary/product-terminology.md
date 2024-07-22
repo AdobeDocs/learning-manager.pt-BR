@@ -27,12 +27,12 @@ Usando o recurso Terminologia do produto, você pode renomear essas terminologia
 Para alterar as terminologias, siga as etapas abaixo:
 
 1. Como administrador, selecione **[!UICONTROL Configurações]** > **[!UICONTROL Geral]**.
-1. No menu **[!UICONTROL Terminologia do produto]**, selecione **[!UICONTROL Editar]**.
+1. Na **[!UICONTROL Terminologia do Produto]**, selecione **[!UICONTROL Editar]**.
 
    ![](assets/product-terminology-settings.png)
-   _Terminologia do produto_
+   _Terminologia do Produto_
 
-1. Selecionar **[!UICONTROL Baixe aqui]** e faça o download do modelo das terminologias.
+1. Selecione **[!UICONTROL Baixar Aqui]** e baixe o modelo das terminologias.
 
    ![](assets/download-here-pt.png)
    _Baixar o modelo_
@@ -48,10 +48,10 @@ Para alterar as terminologias, siga as etapas abaixo:
 
 ## Carregar o CSV atualizado
 
-1. No menu **[!UICONTROL Terminologia do produto]** selecione o link para fazer upload do CSV.
+1. Na seção **[!UICONTROL Terminologia do Produto]**, selecione o link para carregar o CSV.
 
    ![](assets/update-the-csv.png)
-   _Fazer upload do csv_
+   _Carregar o csv_
 
 1. Carregue o CSV atualizado.
 1. Selecione **[!UICONTROL Salvar]**.
@@ -79,6 +79,6 @@ As terminologias são revertidas para seus nomes originais.
 
 As alterações de terminologia não se aplicam a:
 
-* Modelos de email (**[!UICONTROL Admin]** > **[!UICONTROL Modelos de e-mail]**)
-* Relatórios (**[!UICONTROL Admin]** > **[!UICONTROL Relatórios]**)
+* Modelos de email (**[!UICONTROL Administrador]** > **[!UICONTROL Modelos de Email]**)
+* Relatórios (**[!UICONTROL Administrador]** > **[!UICONTROL Relatórios]**)
 

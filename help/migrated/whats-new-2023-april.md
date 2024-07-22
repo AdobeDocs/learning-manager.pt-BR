@@ -2,7 +2,8 @@
 title: Novidades desta versão (abril de 2023)
 description: Saiba mais sobre os novos recursos e as melhorias no Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 62%
@@ -15,7 +16,7 @@ ht-degree: 62%
 
 O novo aplicativo Adobe Learning Manager no Microsoft Teams foi desenvolvido para promover o aprendizado no fluxo de trabalho e impulsionar o aprendizado social. Os alunos poderão acessar o conteúdo de aprendizado na plataforma Microsoft Teams sem a necessidade de mudar para um navegador. Entre em contato com seu CSAM para obter a versão beta do aplicativo Adobe Learning Manager no MS Teams.
 
-Para obter mais informações, consulte [Aplicativo Adobe Learning Manager para Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+Para obter mais informações, consulte [Aplicativo da Adobe Learning Manager para Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
 ## Aprimoramentos na experiência do ILT (Treinamento Ministrado por Instrutor)
 
@@ -64,7 +65,7 @@ O novo aplicativo móvel é compatível com os seguintes principais recursos nes
 * Suporte para medalhas.
 * Suporte para logon de usuário externo.
 
-**O que não é compatível nesta versão**
+**O que não tem suporte nesta versão**
 
 * Suporte a várias tentativas para um módulo de questionário em um curso quando o curso é realizado de dentro do aplicativo móvel.
 * Opções de pesquisa que permitem especificar parâmetros de pesquisa, como metadados do curso, tags e habilidades para especificar o escopo da pesquisa.
@@ -109,7 +110,7 @@ O administrador cria um comunicado adicionando o curso para qualquer grupo de us
 
 O que um aluno vê é uma faixa com cursos recomendados na página inicial e um link para o curso no bloco.
 
-![aluno de faixa de recomendação](assets/recommendation-strip-learner.png)
+![aluno da faixa de recomendação](assets/recommendation-strip-learner.png)
 
 Quando o aluno clica no link ou no botão Ir para catálogo, ele é redirecionado para a página do catálogo do curso. O aluno visualiza a lista de grupos de usuários a serem filtrados com base nos grupos de usuários no catálogo e na página Meu aprendizado.
 
@@ -221,13 +222,13 @@ Um administrador pode alternar as instâncias dos alunos.
 
 ![alternar instâncias](assets/switch-instances.png)
 
-![alternar instâncias selecionar](assets/switch-instances-select.png)
+![selecionar instâncias de comutação](assets/switch-instances-select.png)
 
 Não é possível alternar instâncias até que qualquer instância do curso seja concluída no aplicativo do aluno ou do administrador.
 
 Os autores, ao criar um curso, podem alternar entre ativar ou desativar a “Opção de instância”. A Alternância de instância está disponível apenas para cursos gratuitos.
 
-Para obter mais informações, consulte [Configuração da instância](/help/migrated/authors/feature-summary/courses.md).
+Para obter mais informações, consulte [Configuração de instância](/help/migrated/authors/feature-summary/courses.md).
 
 **Alunos**
 
@@ -245,7 +246,7 @@ Depois de se inscrever no Caminho de Aprendizado ou na certificação, na págin
 
 O relatório Trilha de auditoria do usuário capturará informações sobre os alunos que alternaram instâncias, “da instância” para “para instância”, alternados por hora, data etc.
 
-![Exibir relatório de registro de auditoria do usuário](assets/user-audit-trail.png)
+![Exibir Relatório De Registro De Auditoria Do Usuário](assets/user-audit-trail.png)
 
 Para mais informações, consulte [Relatório de Auditoria do Usuário](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports)
 
@@ -253,15 +254,15 @@ Para mais informações, consulte [Relatório de Auditoria do Usuário](/help/mi
 
 Este relatório captura o tempo (em minutos) gasto diariamente por um professor ensinando sessões atribuídas. O relatório pode ser baixado por um período de três meses a partir da data de início selecionada.
 
-Para obter mais informações, consulte [Relatório de Utilização do Professor](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Para obter mais informações, consulte o [Relatório de Utilização do Professor](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
-![relatório de utilização do professor](assets/instructor-utilization.png)
+![relatório de utilização de professor](assets/instructor-utilization.png)
 
 ### Relatório de ajudas de tarefa
 
 Um novo relatório para acompanhar as ajudas de tarefa presentes na conta e várias informações sobre as ajudas de tarefa, como idioma, tipo, duração, autor, marcas e assim por diante.
 
-Para obter mais informações, consulte [Relatório de inscrição de ajudas de tarefa](/help/migrated/administrators/feature-summary/reports.md).
+Para obter mais informações, consulte [Relatório de inscrição em ajudas de tarefa](/help/migrated/administrators/feature-summary/reports.md).
 
 ### E-mails ad hoc direcionados aos alunos inscritos em uma instância específica do curso
 
@@ -303,9 +304,9 @@ As opções são ativadas por padrão.
 Adicionamos um novo atributo, jobType, à API de trabalhos. O atributo aceita os seguintes valores:
 
 * **generateInstructorUtilisationReport**: retorna o relatório de utilização de um professor.
-* **generateJobAidMetadataReport**: retorna os metadados de um relatório de ajuda de tarefa.
+* **generateJobAidMetadataReport**: retorna os metadados de um relatório de ajuda de trabalho.
 
-**Ponto de Extremidade**: POST /primeapi/v2/jobs
+**Ponto de extremidade**: POST /primeapi/v2/jobs
 
 Solicitação generateJobAidMetadataReport:
 
@@ -406,7 +407,7 @@ Adicionamos um novo parâmetro de consulta, enrollmentID, cujas informações es
 
 A resposta contém um novo atributo, currencyCode.
 
-**Ponto de Extremidade**: GET /primeapi/v2/account
+**Ponto de extremidade**: GET /primeapi/v2/account
 
 ### Associação de habilidade e nível de habilidade para professores
 
@@ -417,17 +418,17 @@ Estão adicionados os seguintes atributos:
 * instructorSkills
 * instructorSkillLevel
 
-**Ponto de Extremidade**: GET /primeapi/v2/account /&lt;account_id>/professor/habilidade/pesquisa
+**Ponto de extremidade**: GET /primeapi/v2/account /&lt;account_id>/instrutorskill/search
 
 ### Alterações do ILT
 
 | Descrição | Novo parâmetro/resposta | Ponto de extremidade |
 |--- |--- |--- |
 | Listar todas as cidades | filter.cityName=true/false | GET /primeapi/v2/data |
-| Pesquisar e filtrar cidades | filter.cityName=city_name<br>Também suporta uma lista separada por vírgulas das cidades |
+| Pesquisar e filtrar cidades | filter.cityName=city_name<br>Também oferece suporte a uma lista de cidades separada por vírgulas |
 | GET /primeapi/v2/search |
 | Detalhes da sala de devolução | include=sala | GET /primeapi/v2/users/`<id>`/calendar |
-| Objeto de aprendizado para filtrar cidades | filter.cityName=city_name <br> Também suporta uma lista separada por vírgulas das cidades. | GET /primeapi/v2/learningObjects |
+| Objeto de aprendizado para filtrar cidades | filter.cityName=city_name <br> Também oferece suporte a uma lista de cidades separada por vírgulas. | GET /primeapi/v2/learningObjects |
 | Adicionar painel de cidade | A resposta contém um novo atributo, filterPanelSetting=true/false. | GET /primeapi/v2/account |
 
 ### Sessões do aluno com conflito
@@ -439,7 +440,7 @@ Adicionamos estes campos:
 * loID
 * loInstanceID
 
-**Ponto de Extremidade**: `GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
+**Ponto de extremidade**: `GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
 
 ### Sala de aula em sala de aula virtual
 
@@ -447,17 +448,17 @@ Execute a pesquisa baseada em local para cursos de sala de aula virtual. Um novo
 
 Fizemos as seguintes alterações:
 
-**LO**
+**OA**
 
 Um novo parâmetro de consulta, filter.loFormat=Virtual Classroom, para a API learningObjects.
 
-**Ponto de Extremidade**: GET /primeapi/v2/learningObjects
+**Ponto de extremidade**: GET /primeapi/v2/learningObjects
 
 **Calendário**
 
 Um novo parâmetro de consulta, filter.allSessions=false, para a API calendar. O valor padrão do parâmetro é false. Se true, a API retornará todas as sessões do calendário de um aluno.
 
-**Ponto de Extremidade**: `GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
+**Ponto de extremidade**: `GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
 
 ### Histórico de pesquisa do aluno
 
@@ -465,16 +466,16 @@ Um novo parâmetro de consulta, filter.allSessions=false, para a API calendar. O
 
 Um novo parâmetro de consulta: persistSearchHistory. O valor padrão é true, que persiste na consulta para as sugestões de pesquisa.
 
-**Ponto de Extremidade**: GET /primeapi/v2/search?persistSearchHistory=true
+**Ponto de extremidade**: GET /primeapi/v2/search?persistSearchHistory=true
 
-**Sugestão**
+**Sugestões**
 
 Um novo parâmetro de consulta: tipsType. Os valores aceitos são:
 
 * learnerHistory (padrão)
 * accountHistory
 
-**Ponto de Extremidade**: GET /primeapi/v2/search/suggestions/?proposalType=learnerHistory
+**Ponto de extremidade**: GET /primeapi/v2/search/tips/?proposalType=learnerHistory
 
 ### Filtragem de grupo de usuários
 
@@ -520,7 +521,7 @@ DELETE /userGroups/{id}/users
 
 ### Filtragem de grupo de usuários de anúncio para perdas no aplicativo do aluno
 
-* GET /users/{userId}A API /userGroups tem um novo parâmetro, filter.announcesetsOnly, que leva um valor booliano (true/false). Isso filtra apenas os grupos de usuários que o administrador comunica. O valor padrão do parâmetro é false.
+* A API GET /users/{userId}/userGroups tem um novo parâmetro, filter.announcementsGroupsOnly, que leva um valor booliano (true/false). Isso filtra apenas os grupos de usuários que o administrador comunica. O valor padrão do parâmetro é false.
 * A API GET /learningObjects tem um novo parâmetro, filter.announcgroups, que aceita IDs de grupos de anúncios para filtrar resultados.
 * A API GET /search tem um novo parâmetro, filter.announcgroups, que aceita IDs de grupos de anúncios para filtrar resultados.
 
@@ -631,11 +632,11 @@ Amostra de resposta abaixo:
 
 ## Notas de versão
 
-Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte a [Notas de versão](/help/migrated/release-note/release-notes.md).
+Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão](/help/migrated/release-note/release-notes.md).
 
 ## Correções de erros
 
-Para ver os erros corrigidos nesta atualização, consulte a seção [Lista de erros corrigidos](release-note/release-notes.md#bugs-fixed-in-this-release).
+Para ver os erros corrigidos nesta atualização, consulte a [lista de erros corrigidos](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Requisitos do sistema
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: O usuário é excluído automaticamente no Learning Manager
 description: Um usuário é excluído do Learning Manager, no entanto, o administrador nunca executou tal ação.
 contentowner: nluke
-source-git-commit: 99c4df44388667efdd162f74918bc3daf907a0f3
+exl-id: 9e293da3-bcbf-4798-b391-aef53ef8d946
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 61%
 
 ---
-
-
 
 # O usuário é excluído automaticamente no Learning Manager {#user-gets-auto-deleted-in-learning-manager}
 
@@ -29,7 +28,7 @@ No Adobe Learning Manager, há uma opção que permite excluir um usuário se el
 1. Faça logon como **Administrador**.
 1. Em **Configurar**, clique em **Configurações** > **Geral**.
 1. Na página Configurações gerais, consulte a opção **Excluir automaticamente usuários internos**.
-1. Clique em **[!UICONTROL Editar]** para inserir o número de dias no campo, para excluir automaticamente um aluno caso ele não tenha acessado o sistema.
+1. Clique em **[!UICONTROL Editar]** para inserir o número de dias no campo e excluir automaticamente um aluno caso ele não tenha acessado o sistema.
 
    ![](assets/cp-autodelete-internal.png)
 
@@ -45,16 +44,16 @@ No Adobe Learning Manager, há uma opção que permite excluir um usuário se el
 ### Para alunos externos:
 
 1. Faça logon como **Administrador**.
-1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Externo]**.
+1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Externos]**.
 1. Clique no nome de um usuário externo para o qual a configuração precisa ser aplicada.
 
    Isso abre a janela **Editar perfil de registro externo**.
 
-1. Clique em **[!UICONTROL Configurações avançadas]** no canto inferior esquerdo.
+1. Clique em **[!UICONTROL Configurações Avançadas]** no canto inferior esquerdo.
 
    ![](assets/cp-autodelete-external.png)
 
-   *Selecione a opção Configurações avançadas*
+   *Selecione a opção Configurações Avançadas*
 
-1. No menu **Requisito de logon** insira o número de dias para excluir automaticamente um aluno caso ele não tenha acessado o sistema.
+1. No campo **Requisito de logon**, insira o número de dias para excluir automaticamente um aluno caso ele não tenha acessado o sistema.
 1. Clique em **[!UICONTROL Salvar]** para manter as configurações feitas.

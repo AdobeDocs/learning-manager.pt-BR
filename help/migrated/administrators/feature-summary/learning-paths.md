@@ -43,21 +43,21 @@ Os caminhos de aprendizado tornam o fornecimento de um programa de treinamento p
 
 No Learning Manager, no aplicativo de administração, clique em **[!UICONTROL Caminho de Aprendizado]** no painel esquerdo.
 
-No menu **[!UICONTROL Caminho de Aprendizado]** , clique em **[!UICONTROL Adicionar]**. Insira os detalhes.
+Na página **[!UICONTROL Caminho de aprendizado]**, clique em **[!UICONTROL Adicionar]**. Insira os detalhes.
 
 ![](assets/add-learning-path.png)
 
-*Adicionar um novo caminho de aprendizado*
+*Adicionar um novo Caminho de Aprendizado*
 
-No menu **Tipo de inscrição** selecione **Autoinscrição** ou **Inscrição do administrador**.
+Na opção **Tipo de Inscrição**, selecione **Autoinscrição** ou **Inscrição do Administrador**.
 
 >[!NOTE]
 >
->Se você selecionar a opção **Inscrição do administrador** os alunos verão apenas os cursos indicados ou aprovados pelo gerente. Os alunos não poderão ver o caminho de aprendizado na seção de recomendação.
+>Se você selecionar a opção **Inscrição do administrador**, os alunos verão apenas os cursos indicados ou aprovados pelo gerente. Os alunos não poderão ver o caminho de aprendizado na seção de recomendação.
 
 Depois de criar um caminho de aprendizado, selecione o caminho de aprendizado recém-criado e adicione os cursos no caminho.
 
-Você pode adicionar habilidades e atribuir uma medalha ao Caminho de aprendizado. Para adicionar uma habilidade, selecione a habilidade ou habilidades necessárias na **[!UICONTROL Escolher uma habilidade]** lista suspensa. Selecione também o nível para a habilidade ou habilidades.
+Você pode adicionar habilidades e atribuir uma medalha ao Caminho de aprendizado. Para adicionar uma habilidade, selecione a habilidade ou habilidades necessárias na lista suspensa **[!UICONTROL Escolher uma habilidade]**. Selecione também o nível para a habilidade ou habilidades.
 
 ![](assets/add-skills.png)
 
@@ -65,7 +65,7 @@ Você pode adicionar habilidades e atribuir uma medalha ao Caminho de aprendizad
 
 Atribua uma medalha ao Caminho de aprendizado. Escolha uma medalha da lista de medalhas disponíveis.
 
-Selecione o nível de produtos, funções e funções na **[!UICONTROL Recomendar para]** para sugerir esse caminho de aprendizado aos usuários que expressaram interesse nesses produtos e funções.
+Selecione o nível de produtos, funções e funções na seção **[!UICONTROL Recomendar para]** para sugerir este caminho de aprendizado para os usuários que expressaram interesse nesses produtos e funções.
 
 ![](assets/recommend-for.png)
 
@@ -75,7 +75,7 @@ Escolha o tipo de sequenciamento para as seções e treinamentos como Ordenado o
 
 Se optar por Ordenado, os cursos serão exibidos na mesma sequência em que foram criados. Se optar por Não ordenado, os cursos não são organizados em sequência. Os alunos podem finalizar os cursos em qualquer ordem.
 
-Para adicionar um curso no Caminho de aprendizado, clique em **[!UICONTROL Adicionar cursos ou caminhos de aprendizado]**.
+Para adicionar um curso no Caminho de Aprendizado, clique em **[!UICONTROL Adicionar Cursos ou Caminhos de Aprendizado]**.
 
 Na caixa de diálogo exibida, escolha o treinamento que deseja adicionar ao Caminho de aprendizado.
 
@@ -85,31 +85,31 @@ Na caixa de diálogo exibida, escolha o treinamento que deseja adicionar ao Cami
 
 Você pode classificar os cursos de acordo com as habilidades atribuídas, a data modificada e a eficácia do curso.
 
-Depois de selecionar os cursos ou o Caminho de aprendizado, clique em **[!UICONTROL Salvar]**.
+Depois de selecionar os cursos ou o Caminho de Aprendizado, clique em **[!UICONTROL Salvar]**.
 
 No Caminho de aprendizado, você pode executar o seguinte:
 
-**Crie e configure uma Seção:** Uma seção é criada para agrupar vários cursos de treinamento, o que completa uma área ou um componente substancial do treinamento. Cada seção pode ter um título. Cada seção também pode ser marcada como Obrigatória com requisitos específicos de conclusão.
+**Criar e configurar uma Seção:** Uma Seção é criada para agrupar vários cursos de treinamento, o que completa uma área ou um componente substancial do treinamento. Cada seção pode ter um título. Cada seção também pode ser marcada como Obrigatória com requisitos específicos de conclusão.
 
-**Torne os cursos obrigatórios em cada seção:** Ative ou desative a caixa de seleção Obrigatório se você deseja/não deseja tornar os treinamentos obrigatórios dentro do Caminho de aprendizado. Se você ativar a caixa de seleção, poderá tornar todos os treinamentos obrigatórios ou alguns dos treinamentos obrigatórios.
+**Torne os cursos obrigatórios em cada seção:** habilite ou desabilite a caixa de seleção Obrigatório se você deseja/não deseja tornar os treinamentos obrigatórios dentro do Caminho de Aprendizado. Se você ativar a caixa de seleção, poderá tornar todos os treinamentos obrigatórios ou alguns dos treinamentos obrigatórios.
 
 ![](assets/choose-mandatory.png)
 
 *Tornar os cursos obrigatórios em cada seção*
 
-**Reorganize a ordem:** Você pode mover os cursos para cima ou para baixo e alterar sua ordem.
+**Reorganize a ordem:** você pode mover os cursos para cima ou para baixo e alterar sua ordem.
 
 ![](assets/rearrange.png)
 
 *Reorganizar a ordem do treinamento*
 
-**Remover um curso:** No cartão do curso, clique em X e remova o curso do Caminho de aprendizado.
+**Remover um curso:** no cartão do curso, clique em X e remova o curso do Caminho de Aprendizado.
 
 ![](assets/remove-course.png)
 
-*Remover um curso do Caminho de aprendizado*
+*Remover um curso do Caminho de Aprendizado*
 
-Depois de fazer as alterações, para publicar o Caminho de aprendizado, clique em Publicar.
+Depois de fazer as alterações, para publicar o Caminho de aprendizado, clique em Publish.
 
 ## Caminho de aprendizado aninhado
 
@@ -119,7 +119,7 @@ Insira o Caminho de aprendizado como se insere um curso.
 
 ![](assets/nested-learning-path.png)
 
-*Adicionar um caminho de aprendizado em um caminho de aprendizado*
+*Adicionar um Caminho de Aprendizado em um Caminho de Aprendizado*
 
 ## Configurações do Caminho de aprendizado
 
@@ -127,29 +127,29 @@ Na seção Configurações, você pode adicionar os pré-requisitos e as ajudas 
 
 ![](assets/learing-path-settings.png)
 
-*Alterar configurações de um Caminho de aprendizado*
+*Alterar configurações de um Caminho de Aprendizado*
 
 ## Instâncias
 
 As instâncias do Caminho de aprendizado exibem um bloco adicional: **[!UICONTROL Caminhos de aprendizado]**. O mosaico exibe o número. de programas de aprendizado adicionados a um Caminho de aprendizado.
 
-No menu **Cursos** lado a lado, você pode ver as instâncias do curso que estão visíveis para os alunos inscritos nesta instância.
+No bloco **Cursos**, você pode ver as instâncias do curso que estão visíveis para os alunos inscritos nesta instância.
 
-O **[!UICONTROL Permitir que os alunos escolham instâncias (Caminho de aprendizado flexível)]** a caixa de seleção só se aplica aos cursos. Todos os Caminhos de aprendizado filho terão a opção de mapear uma instância do Programa de aprendizado com o Caminho de aprendizado. Por padrão, o mapeamento é definido como Instância padrão.
+A caixa de seleção **[!UICONTROL Permitir que os alunos escolham instâncias (Caminho de Aprendizado Flexível)]** só se aplica aos cursos. Todos os Caminhos de aprendizado filho terão a opção de mapear uma instância do Programa de aprendizado com o Caminho de aprendizado. Por padrão, o mapeamento é definido como Instância padrão.
 
 ![](assets/default-instance.png)
 
-*Instâncias do Caminho de aprendizado*
+*Instâncias do Caminho de Aprendizado*
 
 ## Notificações
 
 Há três opções:
 
-1. **[!UICONTROL Todos os cursos de níveis de habilidade e caminhos de aprendizado (selecionados por padrão)]:** O aluno recebe notificações de qualquer curso incompleto, independentemente do nível dentro de um caminho de aprendizado.
-1. **[!UICONTROL Caminho de aprendizado raiz]:** O aluno recebe notificações de qualquer curso incompleto pertencente a um caminho de aprendizado pai.
-1. **[!UICONTROL Caminho de aprendizado + primeiros filhos de nível de habilidade apenas]:** O aluno recebe notificações de qualquer curso incompleto que seja o primeiro filho de um caminho de aprendizado pai.
+1. **[!UICONTROL Todos os cursos de níveis de habilidade e caminhos de aprendizado (selecionados por padrão)]:** o aluno recebe notificações de qualquer curso incompleto, independentemente do nível dentro de um caminho de aprendizado.
+1. **[!UICONTROL Caminho de Aprendizado Raiz]:** o aluno recebe notificações de qualquer curso incompleto pertencente a um caminho de aprendizado pai.
+1. **[!UICONTROL Caminho de Aprendizado + primeiros filhos no Nível de Habilidade somente]:** o aluno recebe notificações de qualquer curso incompleto que seja o primeiro filho de um Caminho de Aprendizado pai.
 
-Os lembretes de notificação são acionados com base na opção. Por padrão, a opção **[!UICONTROL Todos os cursos de níveis e caminhos de aprendizado]** está ativado para uma instância.
+Os lembretes de notificação são acionados com base na opção. Por padrão, a opção **[!UICONTROL Todos os cursos de níveis e caminhos de aprendizado]** está habilitada para uma instância.
 
 ## Assinaturas
 
@@ -163,7 +163,7 @@ Siga as etapas abaixo:
 
 ![](assets/subscriptions.png)
 
-*Assinar o caminho de aprendizado individual*
+*Assine o caminho de aprendizado individual*
 
 ## Observação importante
 
@@ -173,7 +173,7 @@ Os Caminhos de aprendizado trazem para você uma variedade de funcionalidades. A
 
 Os alunos podem continuar a usar os Programas de aprendizado (agora chamados de Caminhos de aprendizado) e os autores/administradores também podem continuar a criá-los. Para aproveitar as funcionalidades estendidas do Caminho de aprendizado mencionadas acima, o administrador deve ativar a configuração conforme mencionado abaixo. Uma vez ativado, todos os novos recursos estendidos do Caminho de aprendizado estarão disponíveis.
 
-O **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** tem uma nova opção para ativar os Caminhos de aprendizado. Se essa opção estiver ativada, você pode adicionar cursos e programas de aprendizado em um caminho de aprendizado. Não é possível alterar a opção depois de ativada.
+A página **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** tem uma nova opção para habilitar os Caminhos de Aprendizado. Se essa opção estiver ativada, você pode adicionar cursos e programas de aprendizado em um caminho de aprendizado. Não é possível alterar a opção depois de ativada.
 
 <!-- ## Other Learning Path-related details 
 

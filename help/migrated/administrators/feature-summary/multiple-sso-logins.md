@@ -2,13 +2,13 @@
 description: O Adobe Learning Manager oferece suporte a vários métodos de logon por meio de configurações de SSO múltiplo para usuários internos e externos.
 title: Logons de SSO Múltiplo
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
 
 ---
-
 
 # Logons de SSO Múltiplo {#multiple-sso-logins}
 
@@ -24,7 +24,7 @@ Até 20 configurações de SSO podem ser adicionadas a uma conta. Elas podem ser
 
 ## Ativar SSO múltiplo
 
-Para ativar SSO múltiplo, selecione **Configurações** > **Métodos de logon**.
+Para habilitar SSO múltiplo, selecione **Configurações** > **Métodos de Logon**.
 
 Na página de configuração, marque a caixa de seleção &#39;Ativar logon único múltiplo (SSO)&#39; para usuários internos ou externos.
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Não é possível registrar-se como Usuário externo
 description: Os alunos externos não podem se registrar em um perfil no Adobe Learning Manager.
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 50%
 
 ---
-
-
 
 # Não é possível registrar-se como Usuário externo
 
@@ -40,17 +39,17 @@ Esse problema ocorre em um dos seguintes cenários:
 
 ## Solução:
 
-**Cenário 1:** O usuário já está registrado em outro perfil externo.
+**Cenário 1:** o usuário já está registrado em outro Perfil Externo.
 
 1. Faça logon como administrador.
-1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Externo]**.
+1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Externos]**.
 1. Abra o Perfil do qual o usuário já faz parte clicando em Vagas utilizadas
 
    ![](assets/cp-seats-used.png)
 
    *Abrir perfil do usuário*
 
-1. Selecione o usuário, clique em **[!UICONTROL Ações]** > **[!UICONTROL Alterar perfil]**.
+1. Selecione o usuário, clique em **[!UICONTROL Ações]** > **[!UICONTROL Alterar Perfil]**.
 
    ![](assets/cp-change-profile.png)
 
@@ -64,32 +63,32 @@ Esse problema ocorre em um dos seguintes cenários:
 
 1. Depois de selecionado, clique em **[!UICONTROL Alterar]**.
 
-**Cenário 2:** O usuário está presente como aluno interno.
+**Cenário 2:** o usuário está presente como aluno interno.
 
 1. Faça logon como administrador.
-1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Interno]**.
+1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Internos]**.
 1. Clique para abrir um perfil do aluno e clique no ícone Editar.
 
    ![](assets/cp-internal-learner.png)
 
    *Abrir um perfil interno do aluno*
 
-1. Altere o endereço de e-mail do aluno ou adicione *_old* para o endereço de email existente. Isso liberará o endereço de email.
+1. Altere o endereço de e-mail do aluno ou adicione *_old* ao endereço de e-mail existente. Isso liberará o endereço de email.
 
-   Por exemplo, se o endereço de e-mail do aluno for *<abc@adobe.com>,* altere-o para *<abc_old@adobe.com>*
+   Por exemplo: se o endereço de email do aluno for *<abc@adobe.com>,* altere-o para *<abc_old@adobe.com>*
 
 1. Clique em **Salvar** para manter as alterações feitas.
 
 **Cenário 3**: o usuário está em um estado excluído.
 
 1. Faça logon como administrador.
-1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Limpeza do Usuário]**.
+1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Limpeza de Usuário]**.
 1. Selecione o aluno e clique no ícone Editar.
 
    ![](assets/cp-deleted-learner.png)
 
    *Editar endereço de email do usuário*
 
-1. Altere o endereço de e-mail do aluno ou adicione *_old* para o endereço de email existente. Isso liberará o endereço de email.
+1. Altere o endereço de e-mail do aluno ou adicione *_old* ao endereço de e-mail existente. Isso liberará o endereço de email.
 
    Por exemplo, se o endereço de e-mail do aluno for **<abc@adobe.com>**, altere-o para **<abc_old@adobe.com>**.

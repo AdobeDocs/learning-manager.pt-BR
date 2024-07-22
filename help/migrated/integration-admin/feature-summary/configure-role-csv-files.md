@@ -98,8 +98,8 @@ Você pode especificar escopos para grupos de usuários de vários tipos de grup
 * Atributo de folha e valor (por exemplo, Departament=RecursosHumanos)
 * Grupos de perfis de autorregistro (self_registration=nomedeperfil)
 * Grupos de perfis de registro externos (ext_registration=nomedeperfil)
-* Uma equipe de subordinados diretos do gerente (manager_direct=`<emailid>`)
-* Organização completa de um gerente (manager_org=`<emailid>`)
+* Uma equipe de subordinados diretos de um gerente (manager_direct=`<emailid>`)
+* Uma organização completa de gerente (manager_org=`<emailid>`)
 
 **user_role.csv**
 
@@ -149,8 +149,8 @@ Os nomes de catálogo ou nomes de grupo de usuários fornecidos no CSV serão su
 
 Na sua conta Box, escolha **Import > user> internal** e carregue os arquivos role.csv e user_role.csv.
 
-* Os arquivos role.csv e user_role.csv devem ser copiados na pasta **Importar** > **usuário** > **interno** > **user_role**.
-* O arquivo user.csv deve ser copiado na pasta **Importar** > **usuário** > **interno**.
+* Os arquivos role.csv e user_role.csv devem ser copiados na pasta **Importar** > **usuário** > **interna** > **user_role**.
+* O user.csv deve ser copiado na pasta **Importar** > **usuário** > **interna**.
 
 Ambos os CSVs devem ser carregados somente por meio do Box e não podem ser carregados pela interface do usuário.
 
@@ -170,13 +170,13 @@ Para atribuir e revogar uma função personalizada, atualize os arquivos CSV.
 
 Depois que o administrador de integração fizer upload dos CSVs de função no armazenamento do Connector, ele pode habilitar a sincronização dos CSVs. Sempre que uma função personalizada for atualizada, adicionada ou excluída dos CSVs, o administrador pode sincronizar as informações nos arquivos para atualizar a lista de funções.
 
-Na página Introdução do painel Administrador, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Fontes de dados]**.
+Na página Introdução do painel Administrador, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Fontes de Dados]**.
 
 Na seção Configurações de sincronização, ative a opção **[!UICONTROL Ativar sincronização automática]**.
 
 ![](assets/sync-settings.png)
 
-*Selecione a opção Ativar sincronização automática*
+*Selecione a opção Habilitar Sincronização Automática*
 
 Ao escolher essa opção, você pode programar o horário exato da sincronização no campo Horário da sincronização. Se você especificar como horário de sincronização 12:00 AM, as funções personalizadas serão atualizadas exatamente nesse horário todos os dias.
 

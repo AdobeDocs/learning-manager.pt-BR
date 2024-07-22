@@ -36,7 +36,7 @@ Os alunos não podem se inscrever em várias instâncias a partir de um aplicati
 
 ### Formato de medalhas em uma instância com vários inscritos
 
-Para oferecer suporte a medalhas em uma instância com várias inscrições, o formato da medalha é alterado para `userId_badgeId_COURSE_courseId_courseInstanceId`.
+Para oferecer suporte a medalhas em uma instância com vários registros, o formato da medalha é alterado para `userId_badgeId_COURSE_courseId_courseInstanceId`.
 
 ### Iniciar o reprodutor em várias inscrições usando um modo sem periféricos
 
@@ -56,7 +56,7 @@ argument_object=
 
 Esta versão do Adobe Learning Manager incluirá um novo conector, que usará o protocolo SFTP da família AWS Transfer.
 
-Esta alteração também substituirá o conector ExaVault, que não estará mais disponível para novos usuários. Você pode usar qualquer cliente FTP de código aberto como substituto do ExaVault. Para obter mais informações, consulte [Transição do Gerenciador de FTP do Adobe](transition-from-ftp-manager.md).
+Esta alteração também substituirá o conector ExaVault, que não estará mais disponível para novos usuários. Você pode usar qualquer cliente FTP de código aberto como substituto do ExaVault. Para obter mais informações, consulte [Transição do Adobe FTP Manager](transition-from-ftp-manager.md).
 
 ## Lembretes no Outlook para sessões de sala de aula e virtuais
 
@@ -106,7 +106,7 @@ Os autores agora podem fornecer uma data de **Retirada automática** data de um 
 
 Os administradores também podem decidir, no nível da conta, a natureza do acesso aos objetos de aprendizado “retirados”.
 
-O Relatório de treinamento inclui uma nova coluna, **Data da Baixa Automática**, para exibir a data de aposentadoria de cada objeto de aprendizado (se definido).
+O Relatório de treinamento inclui uma nova coluna, **Data da retirada automática**, para exibir a data de retirada de cada objeto de aprendizado (se definida).
 
 ## Valores de etiqueta de catálogo por autores
 
@@ -134,7 +134,7 @@ Foram feitas melhorias na API de inscrição para a compatibilidade e otimizaç�
 
 Os alunos podem baixar e consumir conteúdo no modo offline. Os Caminhos de Aprendizado aninhados e flexíveis não são compatíveis com a exibição offline.
 
-*Nesta versão, a exibição de conteúdo offline é compatível apenas com conteúdo em inglês.*
+*Nesta versão, a exibição de conteúdo offline é suportada apenas para conteúdo em inglês.*
 
 ## Acessibilidade
 
@@ -179,7 +179,7 @@ Para obter mais informações sobre as alterações de API, consulte a [Referên
 
 Retorna se prlRecommendation estiver habilitada.
 
-**Solicitar**
+**Solicitação**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/account`
 
@@ -187,7 +187,7 @@ Retorna se prlRecommendation estiver habilitada.
 
 Retorna a lista de produtos ou tópicos. Os resultados dependem das configurações da conta que confirmam se todos os produtos estarão visíveis para o aluno ou catálogo visível para produtos ou tópicos.
 
-**Solicitar**
+**Solicitação**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=product&filter.showAllRecommenda`
 
@@ -195,7 +195,7 @@ Retorna a lista de produtos ou tópicos. Os resultados dependem das configuraç�
 
 Retorna a lista de Funções recomendadas.
 
-**Solicitar**
+**Solicitação**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=role&filter.showAllRecommendationCriteria=false`
 
@@ -203,15 +203,15 @@ Retorna a lista de Funções recomendadas.
 
 Retorna a lista de Funções recomendadas.
 
-**Solicitar**
+**Solicitação**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=level&filter.showAllRecommendationCriteria=false`
 
-**POST /search/query**
+**POST /pesquisa/consulta**
 
 A pesquisa também inclui produtos e parâmetros de função na consulta. Não há alterações no corpo e na consulta. Adicionaremos novas opções de classificação
 
-**Solicitar**
+**Solicitação**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/search/query?...`
 
@@ -219,7 +219,7 @@ A pesquisa também inclui produtos e parâmetros de função na consulta. Não h
 
 O modelo do Objeto de aprendizado retorna recomendações marcadas como autor se a recomendação PRL estiver ativa.
 
-**URL da Solicitação**
+**Solicitar URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects?sort=recommendationScore&filter.recommendationProducts=...&filter.recommendationRoles=...&filter.excludeIgnoredRecommendations=true`
 
@@ -305,7 +305,7 @@ Os seguintes atributos são suportados no corpo da chamada de consulta:
 
 Recupera o produto PRL por ID de recommendationProduct.
 
-**URL da Solicitação**
+**Solicitar URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationProducts`
 
@@ -313,7 +313,7 @@ GET /recommendationRoles
 
 Recupera o produto PRL por ID de recommendationProduct. Somente as funções visíveis de (Objetos de aprendizado) serão retornadas.
 
-**URL da Solicitação**
+**Solicitar URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/prlRecommendations/roles`
 
@@ -369,7 +369,7 @@ Cria ou recria (substitui) as preferências de recomendação PRL. Carga útil d
 
 **`GET /users/{id}/recommendationPreferences`**
 
-**URL da Solicitação**
+**Solicitar URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2//users/123/recommendationPreferences`
 
@@ -377,7 +377,7 @@ Cria ou recria (substitui) as preferências de recomendação PRL. Carga útil d
 
 Exclui as preferências de usuário de recomendação PRL para um produto ou função.
 
-**URL da Solicitação**
+**Solicitar URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/users/123/recommendationPreferences?ids=recommendationRole:123,recommendationRole:234`
 
@@ -424,7 +424,7 @@ Adição ou atualização parcial. Carga útil de amostra:
 
 Adicione o OA às recomendações bloqueadas.
 
-**URL da Solicitação**
+**Solicitar URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
 
@@ -432,7 +432,7 @@ Adicione o OA às recomendações bloqueadas.
 
 Exclui o OA das recomendações bloqueadas.
 
-**URL da Solicitação**
+**Solicitar URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
 
@@ -473,11 +473,11 @@ Recupere a inscrição de cursos com várias inscrições.
 
 Cancela a inscrição em uma instância específica do objeto de aprendizado.
 
-**POST /enrollments**
+**POST /inscrições**
 
 É compatível com inscrições em instâncias diferentes.
 
-**GET /enrollments**
+**GET/inscrições**
 
 Obtém inscrições somente para inscrições primárias do Objeto de aprendizado.
 
@@ -565,15 +565,15 @@ Por exemplo,
 * Sinalizador de substituição para APIs do aluno.
 * Vamos alterar o padrão para highlightResults=false. Além disso, alteraremos o padrão de snippetType=courseName.
 * Descontinuaremos matchType=bool no ponto de extremidade de pesquisa.
-* autoCompleteMode tem o [Descontinuado] e para fornecer a mesma funcionalidade de autoCompleteMode =false, temos um matchType adicionado chamado Match.
+* autoCompleteMode tem a marca [Deprecated] e para fornecer a mesma funcionalidade de autoCompleteMode =false, temos um matchType adicionado chamado Match.
 
 ### Formato de ID de medalha com várias inscrições
 
-Para suportar medalhas de instância com várias inscrições, estamos alterando o formato das medalhas do curso de `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` para identificar exclusivamente as medalhas.
+Para oferecer suporte a medalhas de instância com várias inscrições, estamos alterando o formato das medalhas do curso de `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` para identificar exclusivamente medalhas.
 
 ## Notas de versão
 
-Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte a [Notas de versão](/help/migrated/release-note/release-notes.md).
+Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão](/help/migrated/release-note/release-notes.md).
 
 ## Problemas conhecidos ou limitações nesta versão
 
