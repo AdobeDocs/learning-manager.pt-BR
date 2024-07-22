@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
+source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 88%
+source-wordcount: '600'
+ht-degree: 87%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 88%
    * [Login do usuário](administrators/feature-summary/user-login.md)
    * [Adicione usuários e crie grupos de usuários](administrators/feature-summary/add-users-user-groups.md)
    * [Adicionar locais de sala de aula](administrators/feature-summary/classroom.md)
-   * [Criar módulos do curso, instâncias e programas de aprendizado](administrators/feature-summary/courses.md)
+   * [Criar instâncias do curso e caminhos de aprendizado](administrators/feature-summary/courses.md)
    * [Marketplace de conteúdo](administrators/feature-summary/content-marketplace.md)
    * [Relatórios](administrators/feature-summary/reports.md)
    * [Caminhos de aprendizado](administrators/feature-summary/learning-paths.md)
@@ -84,7 +84,7 @@ ht-degree: 88%
    * [Experiência não conectada para alunos](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programas de aprendizado](administrators/feature-summary/learning-programs.md)
    * [Terminologia do produto](administrators/feature-summary/product-terminology.md)
-* Administrador de integração {#integration}
+* Administrador de Integração {#integration}
    * [Manual de migração](integration-admin/feature-summary/migration-manual.md)
    * [Conectores do Learning Manager](integration-admin/feature-summary/connectors.md)
    * [APIs não conectadas](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -144,12 +144,12 @@ ht-degree: 88%
    * [Transcrições do aluno](managers/feature-summary/learner-transcripts.md)
    * [Configurações](managers/feature-summary/settings.md)
    * [Usuários de tablet Android e iPad](managers/feature-summary/ipad-android-tablet-users.md)
-* Perguntas frequentes {#faq}
+* Perguntas Frequentes {#faq}
    * [Perguntas Frequentes para Administradores](administrators/frequently-asked-questions-for-administrators.md)
    * [Perguntas Frequentes para Autores](authors/frequently-asked-questions-for-authors.md)
    * [Perguntas Frequentes para Professores](instructors/frequently-asked-questions-for-instructors.md)
    * [Perguntas Frequentes para Gerentes](managers/frequently-asked-questions-for-managers.md)
-* Base de conhecimento {#knowledge-base}
+* Base de Dados de Conhecimento {#knowledge-base}
    * [Não é possível fazer logon no Learning Manager](kb/unable-log-in-learning-manager.md)
    * [O Resumo do aprendizado não exibe os dados atuais](kb/learning-summary-not-display-data.md)
    * [Não é possível carregar um CSV](kb/unable-to-upload-csv.md)

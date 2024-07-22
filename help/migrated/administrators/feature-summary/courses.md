@@ -1,17 +1,17 @@
 ---
 description: Este documento consiste na ajuda para criar módulos, instâncias e cursos para a função de administrador.
 jcr-language: en_us
-title: Criar módulos do curso, instâncias e programas de aprendizado
+title: Criar instâncias do curso e caminhos de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
 workflow-type: tm+mt
-source-wordcount: '4868'
+source-wordcount: '4866'
 ht-degree: 61%
 
 ---
 
-# Criar módulos do curso, instâncias e programações de aprendizado
+# Criar instâncias do curso e caminhos de aprendizado
 
 Este documento consiste na ajuda para criar módulos, instâncias e cursos para a função de administrador.
 
