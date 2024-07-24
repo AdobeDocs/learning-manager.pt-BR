@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5525aa6f5b4c795e4ffbd008e9fe865abfbe4980
+source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
 workflow-type: tm+mt
-source-wordcount: '26223'
+source-wordcount: '26251'
 ht-degree: 72%
 
 ---
@@ -23,13 +23,22 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
++++Atualização 97: a versão de julho de 2024 do Adobe Learning Manager
+
+**Data de lançamento:** 13 de julho de 2024
+
+## Novidades desta versão
+
+Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new.md) para obter mais informações.
++++
+
 +++Atualização 96: a versão de março de 2024 do Adobe Learning Manager
 
 **Data de lançamento:** 1 de março de 2023
 
 ## Novidades desta versão
 
-Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new.md) para obter mais informações.
+Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-march-2024.md) para obter mais informações.
 +++
 
 +++Atualização 95: versão de novembro de 2023 do Adobe Learning Manager
