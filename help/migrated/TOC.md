@@ -2,7 +2,7 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 87%
@@ -41,7 +41,7 @@ ht-degree: 87%
    * [Login do usuário](administrators/feature-summary/user-login.md)
    * [Adicione usuários e crie grupos de usuários](administrators/feature-summary/add-users-user-groups.md)
    * [Adicionar locais de sala de aula](administrators/feature-summary/classroom.md)
-   * [Criar instâncias do curso e caminhos de aprendizado](administrators/feature-summary/courses.md)
+   * [Criar instâncias do curso e programações de aprendizado](administrators/feature-summary/courses.md)
    * [Marketplace de conteúdo](administrators/feature-summary/content-marketplace.md)
    * [Relatórios](administrators/feature-summary/reports.md)
    * [Caminhos de aprendizado](administrators/feature-summary/learning-paths.md)
