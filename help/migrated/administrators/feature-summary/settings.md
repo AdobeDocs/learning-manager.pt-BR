@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configurações
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '3595'
-ht-degree: 66%
+source-wordcount: '3651'
+ht-degree: 65%
 
 ---
 
@@ -406,6 +406,10 @@ Habilite ou desabilite as configurações a seguir:
     <p>Em todos os outros aplicativos (administrador, autor, gerente, administrador personalizado, autor personalizado), as alterações nas configurações (classificação por estrelas ou eficácia do curso ou desabilitação da exibição da classificação) não terão nenhum efeito. </p>
     <p>Para novas contas, a seção <b>Mostrar classificações</b> terá a opção <b>Classificação por estrelas</b> habilitada por padrão.</p>
     <p>Para contas existentes, se a conta tinha a opção <b>Eficácia do curso</b> ativada anteriormente, a seção <b>Mostrar classificações</b> será ativada com a opção Eficácia do curso selecionada. Se a opção <b>Eficácia do curso</b>s estiver desabilitada, a seção <b>Mostrar Classificações</b> também será desabilitada. Quando a seção <b>Mostrar classificações</b> estiver habilitada, a opção <b>Classificação por estrelas</b> será habilitada por padrão.</p></td>
+  </tr>
+  <tr>
+   <td height="19">Retirar</td>
+   <td>Selecione qualquer uma das opções de desativação a partir do seguinte:<li>Uma vez retirados, os alunos inscritos poderão exibir e executar ações, mas os alunos ainda não inscritos perderão o acesso.</li><li>Uma vez retirados, os alunos inscritos e ainda não inscritos perderão o acesso.</li><div><b>Observação:</b> você pode desativar cursos, programações de aprendizado ou certificações de suas páginas de visão geral.</div> </td>
   </tr>
  </tbody>
 </table>

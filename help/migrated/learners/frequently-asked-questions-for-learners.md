@@ -4,10 +4,10 @@ title: Perguntas frequentes dos alunos
 description: Perguntas frequentes para alunos do Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 56%
+source-wordcount: '2374'
+ht-degree: 55%
 
 ---
 
@@ -351,6 +351,18 @@ Sim, você pode exportar as notas de conteúdo como PDF seguindo as etapas abaix
 1. Clique na guia Notas.
 1. Para enviar notas para sua ID de e-mail registrado, clique em Opção de notas por e-mail.
 1. Para baixar notas em pdf, clique em Download notas.
+
++++
+
++++Onde posso baixar a versão de desktop do aplicativo?
+
+Siga as etapas abaixo para baixar a versão para desktop:
+
+1. Faça logon como aluno.
+2. Clique em **[!UICONTROL Aprendizado Social]**.
+3. Clique em **[!UICONTROL Nova publicação]** e clique em qualquer um dos ícones conforme mostrado abaixo na captura de tela.
+
+Isso iniciará o download do aplicativo.
 
 +++
 

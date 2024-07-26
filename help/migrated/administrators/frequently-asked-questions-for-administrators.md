@@ -4,10 +4,10 @@ title: Perguntas Frequentes para Administradores
 description: Perguntas frequentes para administradores do Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 55%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -365,5 +365,26 @@ Entre em contato com a equipe de suporte do Learning Manager.
 Você pode obter a ID da conta no navegador onde o Learning Manager está aberto.
 
 */app/admin?i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++Há um relatório que eu possa puxar, ou um que alguém possa puxar para mim, que me mostrará uma lista de todos os cursos no LMS?
+
+Sim, você pode obter um **[!UICONTROL Relatório de treinamento]** que contém todos os cursos, programas de aprendizado e certificações no LMS. Para baixar o relatório, siga as etapas abaixo:
+
+1. Faça logon como administrador.
+2. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatório de treinamentos]**.
+3. Selecione **[!UICONTROL Todos os treinamentos]** na lista suspensa.
+4. Clique em **[!UICONTROL Baixar]**.
+
++++
+
++++Onde posso baixar a versão de desktop do aplicativo?
+
+Siga as etapas abaixo para baixar a versão para desktop:
+
+1. Faça logon como administrador.
+2. Clique em **[!UICONTROL Aprendizado Social]** > **[!UICONTROL Configurações]**.
+3. Em **[!UICONTROL Baixar Configuração]**, clique no hiperlink dependendo do seu Sistema Operacional.
 
 +++

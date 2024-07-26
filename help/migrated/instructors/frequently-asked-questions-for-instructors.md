@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Perguntas Frequentes para Professores
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -46,5 +46,12 @@ Sim, um autor pode atribuir vários professores para um único módulo. Nesse ca
 +++Um professor pode modificar qualquer sessão?
 
 Como professor, você só pode exibir e editar os detalhes das sessões para as quais foi atribuído. Você não pode modificar a sessão ou a lista de participantes de nenhuma outra sessão.
+
++++
+
++++Como atribuir a função de professor a usuários externos?
+
+* Por padrão, na seção **[!UICONTROL Atribuir]** para **[!UICONTROL Usuário Externo]**, ela mostra apenas **[!UICONTROL Criar Gerente]** ou **[!UICONTROL Criar Autor]**.
+* Se você quiser atribuir a função **Professor** a qualquer usuário no LMS, poderá adicioná-lo como **Professor** a qualquer módulo **[!UICONTROL Sala de aula]** ou **[!UICONTROL Sala de aula virtual]** e a função **Professor** serão fornecidos automaticamente ao usuário no LMS.
 
 +++

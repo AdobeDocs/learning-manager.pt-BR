@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gamificação
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
@@ -26,6 +26,8 @@ Os alunos podem também visualizar o nível de conquistas com base nos pontos qu
 ## Quadro de classificação {#leaderboard}
 
 O quadro de classificação é um recurso de gamificação que age como um placar para apresentar as pontuações de classificação dos principais competidores. Os alunos podem ver seus pontos de gamificação no Quadro de classificação.
+
+![](assets/leaderboard.png)
 
 Na página inicial do aluno, clique em **[!UICONTROL Gamificação]** no painel esquerdo. Para exibir o quadro de classificação, clique no link Quadro de classificação. Esse recurso permite que os alunos saibam como estão seus resultados em relação a um membro da equipe em particular. Também mostra sua posição de classificação em relação a outros membros da equipe.
 

@@ -2,10 +2,10 @@
 title: Recomendações no Adobe Learning Manager
 description: O núcleo do mecanismo de recomendação é orientado pelo novo algoritmo de classificação de cursos do Learning Manager. O algoritmo usa 50 milhões de pontos de dados e cinco anos de dados de aprendizado agregados em milhões de usuários para classificar os cursos com base na probabilidade de inscrição. Essa classificação garante que a maioria dos cursos aptos para inscrição seja exibida antecipadamente para os alunos.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 60%
+source-wordcount: '1470'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,8 @@ Os administradores recebem um fluxo de trabalho guiado no Learning Manager para 
 
 1. Clique em **[!UICONTROL Continuar]** para atualizar para o novo sistema de recomendações.
 
-   ![Prosseguir para o novo sistema](assets/image521152.png)
-   *Selecione o botão Continuar*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. Crie os parâmetros de recomendações para produtos e funções.
 
@@ -168,7 +168,7 @@ O sistema de recomendações agora está disponível para seus alunos.
 
 ## Excluir um parâmetro
 
-1. Na lista de parâmetros, selecione o ícone de três pontos e, em seguida, selecione **[!UICONTROL Excluir parâmetro]**.
+Os administradores podem excluir um parâmetro clicando no ícone de três pontos e selecionando **[!UICONTROL Excluir Parâmetro]**. Os administradores podem excluir um parâmetro se ele não estiver vinculado a objetos de aprendizado. Se estiver vinculado, eles só poderão ocultar o parâmetro. No entanto, eles não podem ocultar os dois últimos parâmetros porque são necessários pelo menos dois parâmetros para que as recomendações funcionem.
 
 ![excluir parâmetro](assets/delete-parameter.png)
 *Excluir o parâmetro*

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '15924'
-ht-degree: 60%
+source-wordcount: '15848'
+ht-degree: 59%
 
 ---
 
@@ -330,15 +330,16 @@ O processo de importação de usuário permite que o administrador do Learning M
 
 **Mapear atributos**
 
-O administrador de integração pode escolher colunas de CSV e mapeá-las para os atributos agrupáveis do Learning Manager. Este mapeamento é uma tarefa única. Uma vez que o mapeamento está feito, este mesmo mapeamento é usado em importações subsequentes do usuário. O mapeamento poderá ser reconfigurado se o administrador quiser um mapeamento diferente para importar usuários.
+O administrador de integração pode escolher colunas de CSV e mapeá-las para os atributos agrupáveis do Learning Manager. Esse mapeamento é um esforço de tempo. Uma vez que o mapeamento está feito, este mesmo mapeamento é usado em importações subsequentes do usuário. O mapeamento poderá ser reconfigurado se o administrador quiser um mapeamento diferente para importar usuários.
+
 
 #### Exportar dados {#exportdata}
 
 A exportação de dados permite que os usuários exportem habilidades de usuário e transcrições de alunos para um local FTP para serem integrados com um sistema de terceiros.
 
-#### Agendamento {#scheduling}
+#### Agendamento
 
-O administrador pode configurar tarefas de agendamento conforme os requisitos da organização, enquanto os usuários no aplicativo Learning Manager são atualizados conforme a agenda. Da mesma forma, o administrador de integração pode programar a exportação de habilidades em tempo hábil para integração com um sistema externo. A sincronização pode ser realizada diariamente no aplicativo Learning Manager.
+Os administradores podem configurar tarefas de agendamento de acordo com os requisitos da organização, e os usuários no aplicativo Learning Manager são atualizados de acordo com o agendamento. Da mesma forma, o administrador de integração pode agendar a exportação de habilidades em tempo hábil para integração com um sistema externo. A sincronização pode ser realizada diariamente no aplicativo Learning Manager.
 
 ### Configurar o conector FTP do Learning Manager {#configurecaptivateprimeftpconnector}
 
@@ -346,30 +347,80 @@ Veja o processo para integrar o conector FTP com o Learning Manager.
 
 #### Criar uma conexão {#Createaconnection-1}
 
-1. Na página inicial do Learning Manager, passe o mouse sobre a miniatura/cartão do FTP. Será exibido um menu. Clique no item **[!UICONTROL Conectar]** no menu.
+1. Na página inicial do Learning Manager, passe o mouse sobre a miniatura/cartão do FTP. Será exibido um menu. Selecione o item Conectar no menu.
 
    ![](assets/mouseover-ftpconnector.png)
 
    *Opção Conectar*
 
-1. É exibida uma caixa de diálogo solicitando que você insira a ID de e-mail. Forneça a ID de e-mail da pessoa responsável por gerenciar a conta FTP do Learning Manager da organização. Clique em **[!UICONTROL Conectar]** após fornecer a ID de email.
-1. O Learning Manager envia um e-mail solicitando que o usuário redefina a senha antes de acessar o FTP pela primeira vez. O usuário deve redefinir a senha e usá-la para acessar a conta FTP do Learning Manager.
+Para conectar-se a qualquer servidor FTP usando o cliente FTP, você precisará das seguintes informações:
+
+* **Domínio FTP**: este é o endereço do servidor FTP ao qual você deseja se conectar. Por exemplo, ftp.example.com
+* **Porta**: a porta FTP padrão é 21, mas alguns servidores podem usar portas diferentes por motivos de segurança. Para Adobe Learning Manager - Porta 22
+* **Nome de Usuário do FTP**: o nome de usuário necessário para acessar o servidor FTP.
+* **Senha de FTP**: a senha associada ao nome de usuário.
+
+**FileZilla (Windows, macOS e Linux)**
+
+**Etapa 1: baixar e instalar o FileZilla**
+
+Se você ainda não instalou o FileZilla, baixe-o do site oficial: [Baixe](https://filezilla-project.org/) e instale-o em seu computador.
+
+**Etapa 2: Abrir FileZilla**
+
+Após a instalação, inicie o FileZilla no computador.
+
+**Etapa 3: Coletar informações do servidor FTP**
+
+**Etapa 4: inserir informações do servidor FTP no FileZilla**
+
+No menu superior, selecione **[!UICONTROL Arquivo]** e selecione **[!UICONTROL Gerenciador de Sites]** (ou use o atalho Ctrl+S).
+
+**Etapa 5: adicionar novo site FTP**
+
+No Gerenciador de Sites, selecione **Novo Site** e digite um nome (por exemplo, Meu Servidor FTP).
+
+**Etapa 6: inserir detalhes do FTP**
+
+Digite as seguintes informações:
+
+* **Host**: digite o endereço do servidor FTP.
+* **Porta**: se o servidor usar uma porta maior que 21, insira o número de porta correto.
+* **Protocolo**: escolha **[!UICONTROL SFTP - Protocolo de Transferência de Arquivo SSH]**.
+* **Tipo De Logon**: Selecione **[!UICONTROL Normal]**.
+* **Usuário**: digite seu nome de usuário do FTP.
+* **Senha**: digite a senha do FTP.
+
+**Etapa 7: conectar-se ao servidor FTP**
+
+Selecione o botão **[!UICONTROL Conectar]** no Gerenciador de Sites. O FileZilla se conectará ao servidor FTP se todas as informações estiverem corretas.
+
+**Etapa 8: navegar e transferir arquivos**
+
+Depois de conectado, você verá os arquivos remotos no lado direito e os arquivos locais no lado esquerdo. É possível navegar nos diretórios e transferir arquivos arrastando-os e soltando-os entre os painéis.
+
+>[!CAUTION]
+>
+>Ao transferir arquivos, evite alterar arquivos importantes no servidor.
+
+<!--1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
+1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use it for accessing the Learning Manager FTP account.
 
    >[!NOTE]
    >
-   >Somente uma conta FTP do Learning Manager pode ser criada para uma determinada conta do Learning Manager.
+   >Only one Learning Manager FTP account can be created for a given Learning Manager account.
 
-   Na página de visão geral, você pode especificar o Nome da conexão para sua integração. Escolha a ação que deseja executar a partir das seguintes opções:
+   In the overview page, you can specify the Connection Name for your integration. Choose what action you want to take  from  the following options:
 
-   * Importar usuários internos
-   * Importar xAPI
-   * Exportar habilidades de usuário - Configurar um agendamento
-   * Exportar habilidades de usuário - Sob demanda
-   * Exportar transcrições do aluno - Configurar um agendamento
-   * Exportar transcrições do aluno - OnDemand
+   * Import Internal Users  
+   * Import xAPI
+   * Export User Skills - Configure a Schedule  
+   * Export User Skills - OnDemand  
+   * Export Learner Transcripts - Configure a Schedule
+   * Export Learner Transcripts - OnDemand
 
    ![](assets/ftp-connector-dashboard.png)
-   *Opções de exportação*
+   *Export options*-->
 
 ### Importar
 
@@ -393,8 +444,6 @@ Uma vez que a conexão é estabelecida com sucesso, você pode mapear as colunas
 1. Clique em **[!UICONTROL Salvar]** após concluir o mapeamento.
 
    O conector está pronto para uso. A conta configurada aparece como uma fonte de dados no aplicativo do administrador para que o administrador agende a importação ou sincronização sob demanda.
-
-
 
 +++
 
@@ -477,53 +526,51 @@ As opções de importação da xAPI permitem agendar a importação das instruç
 
 +++
 
-### Exportar
+<!--### Export
 
-+++Habilidades
++++Skills
 
-Há duas opções para exportar relatórios de habilidades do usuário.
+There are two options to export User skill reports.
 
-**[!UICONTROL Habilidades do usuário - Sob demanda]**: você pode especificar a data de início e exportar o relatório usando a opção. O relatório é extraído da data inserida até o presente.
+**[!UICONTROL User Skills - On Demand]**: You can specify the  start date and export the report using the option. The report is extracted from the date entered until present.
 
 ![](assets/export-on-demand2x.png)
-*Opção de exportação sob demanda*
+*On demand export option*
 
-**[!UICONTROL Habilidades do usuário - Configurar]**: esta opção permite que você agende a extração do relatório. Selecione a caixa de seleção Habilitar agendamento e especifique a data e hora de início. Também é possível especificar o intervalo no qual deseja que o relatório seja gerado e enviado.
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/user-skills-configure.png)
-*Configurar exportação de relatório*
+*Configure export of report*
 
 +++
 
-Para abrir a pasta Exportar onde os arquivos exportados são colocados, abra o link para Pasta FTP fornecido na página Habilidades do usuário, conforme mostrado abaixo.
+To open the Export folder where the exported files are placed, open the link to FTP Folder provided in the User Skills page as shown below.
 
 ![](assets/ftp-folder.png)
-*Pasta FTP para exibir arquivos*
+*FTP folder to view files*
 
-Os arquivos exportados automaticamente estão presentes no local **Home/export/&#42;FTP_location&#42;**
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-Os arquivos exportados automaticamente estão disponíveis com o título **skill_conquistas_&#42;data de &#42;_a_&#42;data para&#42;.csv**
+The auto-exported files are available with the title, **skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
 
 ![](assets/exported-csvs.png)
-*Arquivo .csv exportado*
+*Exported .csv file*
 
-+++Transcrição do aluno
++++Learner Transcript
 
 ![](assets/on-demand-report.png)
 
-**Configurar**: esta opção permite agendar a extração do relatório. Selecione a caixa de seleção Habilitar agendamento e especifique a data e hora de início. Também é possível especificar o intervalo no qual deseja que o relatório seja gerado e enviado.
+**Configure**: This option  let's  you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/configure-report.png)
 
 +++
 
-Para abrir a pasta Exportar na qual os arquivos exportados são colocados em seu local FTP, abra o link para a Pasta FTP fornecida na página Transcrição do aluno, conforme mostrado abaixo
+To open the Export folder where the exported files are placed in your FTP location, open the link to FTP Folder provided on the Learner Transcript page as shown below
 
-Os arquivos exportados automaticamente estão presentes no local **Home/export/&#42;FTP_location&#42;**
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-Os arquivos exportados automaticamente estão disponíveis com o título **learner_transcript_&#42;data &#42;_a_&#42;data&#42;.csv**
-
-![](assets/exported-file.png)
+The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
 ### Compatibilidade com campos CSV manuais {#supportformanualcsvfields}
 
