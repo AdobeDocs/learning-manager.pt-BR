@@ -3,7 +3,7 @@ description: O Adobe Learning Manager oferece suporte a vários métodos de logo
 title: Logons de SSO Múltiplo
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
@@ -54,7 +54,7 @@ Siga as etapas abaixo:
 
 1. Importe o CSV que contém os campos ativos e seus valores.
 1. Clique em Configurações > Métodos de logon.
-1. Ative a caixa de seleção Ativar Logon Único Múltiplo (SSO) para logon.
+1. Marque a caixa de seleção **[!UICONTROL Habilitar Logon Único Múltiplo (SSO)]** para logon.
 1. Mapeie as configurações de SSO para os valores do campo ativo.
 1. Salve as configurações. Importe o CSV novamente.
 
@@ -63,7 +63,7 @@ Siga as etapas abaixo:
 Siga as etapas abaixo:
 
 1. Clique em Configurações > Métodos de logon.
-1. Ative a caixa de seleção Ativar Logon Único Múltiplo (SSO) para logon.
+1. Marque a caixa de seleção **[!UICONTROL Habilitar Logon Único Múltiplo (SSO)]** para logon.
 1. Selecione um campo ativo para um SSO.
 1. Vincule as configurações de SSO aos valores do campo.
 1. Salve as configurações. Adicione um único usuário e atribua um valor para o campo ativo.
@@ -73,7 +73,7 @@ Siga as etapas abaixo:
 Siga as etapas abaixo:
 
 1. Clique em Configurações > Métodos de logon.
-1. Ative a caixa de seleção Ativar Logon Único Múltiplo (SSO) para logon.
+1. Marque a caixa de seleção **[!UICONTROL Habilitar Logon Único Múltiplo (SSO)]** para logon.
 1. Vincule as configurações de SSO aos valores do campo.
 1. Salve as configurações. Adicione um único usuário e atribua um valor para o campo ativo.
 1. Adicione um perfil de autorregistro.
@@ -87,7 +87,7 @@ Siga as etapas abaixo:
 
 1. Crie um perfil externo.
 1. Clique em Configurações > Métodos de logon.
-1. Ative a caixa de seleção Ativar Logon Único Múltiplo (SSO) para logon.
+1. Marque a caixa de seleção **[!UICONTROL Habilitar Logon Único Múltiplo (SSO)]** para logon.
 1. Vincule a configuração de SSO ao perfil externo criado.
 1. Salve as configurações.
 
