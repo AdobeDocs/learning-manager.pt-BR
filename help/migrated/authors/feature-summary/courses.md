@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7125'
+source-wordcount: '7145'
 ht-degree: 72%
 
 ---
@@ -120,6 +120,10 @@ Para adicionar os rótulos de conformidade aos cursos, siga estas etapas:
    >[!IMPORTANT]
    >
    >Certifique-se de definir um prazo para o curso quando estiver adicionando a Conformidade personalizada.
+
+   >[!NOTE]
+   >
+   >Um máximo de 50 cursos, programações de aprendizado ou certificações podem ter o mesmo valor para um rótulo de tipo de conformidade personalizado.
 
 1. Salve e publique o curso/caminho de aprendizado/certificação.
 Agora o curso/caminho de aprendizado/certificação é considerado como um tipo de conformidade. Os administradores podem adicionar este curso ao painel de conformidade e compartilhá-lo com os gerentes para monitorar o progresso

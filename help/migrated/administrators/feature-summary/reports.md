@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7132'
+source-wordcount: '7133'
 ht-degree: 57%
 
 ---
@@ -276,7 +276,7 @@ Para criar e compartilhar um painel de conformidade, siga estas etapas:
 
 1. Vá para **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]**.
 1. Na seção **[!UICONTROL Painel de Conformidade]**, selecione **[!UICONTROL Compartilhado com Gerentes]**.
-1. Selecione **[!UICONTROL Compartilhar painel]** e selecione os rótulos criados no menu suspenso **[!UICONTROL Conformidade personalizada]**.
+1. Selecione **[!UICONTROL Compartilhar painel]** e selecione os rótulos criados no menu suspenso **[!UICONTROL Selecionar Rótulo de Conformidade]**.
 
 
    ![](assets/compliance-type.png)
