@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
 workflow-type: tm+mt
 source-wordcount: '7133'
 ht-degree: 57%
@@ -256,7 +256,7 @@ Para criar um rótulo de conformidade personalizado, siga estas etapas:
 
    >[!NOTE]
    >
-   >Esse novo rótulo de catálogo foi introduzido para categorizar os cursos, programações de aprendizado e certificações como um tipo de conformidade. Para habilitar a opção **[!UICONTROL de Conformidade Personalizada]**, primeiro você deve habilitar a opção **[!UICONTROL Mostrar Etiqueta de Catálogo]** na mesma página.
+   >Esse novo rótulo de catálogo foi introduzido para categorizar os cursos, programações de aprendizado e certificações como um tipo de conformidade. Para habilitar a opção **[!UICONTROL Conformidade Personalizada]**, primeiro você deve habilitar a opção **[!UICONTROL Mostrar Etiqueta de Catálogo]** na mesma página.
 
 1. Vá para **[!UICONTROL Configurações]** > **[!UICONTROL Etiqueta de catálogo]** e selecione o **[!UICONTROL Tipo de conformidade]**.
 1. Digite os valores (por exemplo, Legal, Vendas) na caixa de texto **[!UICONTROL Valor]** e selecione **[!UICONTROL Adicionar Valor]**.
