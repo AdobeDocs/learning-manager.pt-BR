@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -441,7 +441,7 @@ Uma vez que a conexão é estabelecida com sucesso, você pode mapear as colunas
    >
    >O campo Gerente deve ser mapeado para um campo do tipo endereço de e-mail. Antes de usar o conector, é necessário mapear todas as colunas.
 
-1. Clique em **[!UICONTROL Salvar]** após concluir o mapeamento.
+1. Selecione **[!UICONTROL Salvar]** após concluir o mapeamento.
 
    O conector está pronto para uso. A conta configurada aparece como uma fonte de dados no aplicativo do administrador para que o administrador agende a importação ou sincronização sob demanda.
 
@@ -2073,32 +2073,7 @@ O processo de sincronização automática de conclusão do usuário permite que 
 
 Para mais informações, consulte [**Instalar o conector Microsoft Teams no Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-## Experiência não conectada
-
-A experiência não conectada permite criar uma experiência em tempo real para usuários não conectados. Por exemplo, uma experiência não conectada serve como uma página de aterrissagem para campanhas de marketing para incentivar inscrições.
-
-A experiência não conectada no Adobe Learning Manager pode ser configurada usando o conector **[!UICONTROL Acesso a dados de treinamento]**. O conector fornece as seguintes ofertas:
-
-* Oferta padrão
-* Oferta premium
-
-**Oferta padrão**
-
-A oferta padrão é criar a versão nativa do Adobe Learning Manager. Os usuários podem criar uma experiência sem periféricos apenas para demonstração e não conectada. A experiência de demonstração sem periféricos é indimensionável e não deve ser usada em um ambiente de produção.
-
-**Oferta premium**
-
-A oferta premium ajuda os usuários a criar uma interface sem periféricos, que é configurada pelo conector **[!UICONTROL Acesso a Dados de Treinamento]**. Isso permite que os usuários obtenham dados em tempo real sobre o curso e os detalhes do caminho de aprendizado, como nome, descrição, autor, habilidades, duração etc. Para cenários de aprendizagem combinada, você também obtém limites de vagas em tempo real, vagas ocupadas, limites de listas de espera e contagens de listas de espera. Os clientes podem usar essas APIs para criar recursos de pesquisa e filtro e um resumo completo do curso para alunos não conectados.
-
-Os clientes podem adquirir um plano premium para criar essa experiência não conectada altamente dimensionável.
-
->[!NOTE]
->
->Entre em contato com a equipe de suporte ou o CSM para adquirir o plano premium.
-
-Depois que um usuário comprar um plano, a equipe de CSM ativará o plano premium para ele. Com o conector Acesso a dados de treinamento, os usuários podem configurar uma experiência não conectada com os recursos mencionados anteriormente.
-
-### Conector de acesso a dados de treinamento
+## Conector de acesso a dados de treinamento {#training-data-access-connector}
 
 >[!IMPORTANT]
 >
@@ -2110,7 +2085,7 @@ Depois que um usuário comprar um plano, a equipe de CSM ativará o plano premiu
 
 O conector de **[!UICONTROL Acesso a Dados de Treinamento]** permite criar uma experiência sem periféricos. Essa experiência pode ser independente ou uma interface de usuário personalizada com base no AEM Sites. Isso ajuda a recuperar e exibir informações de treinamento para os alunos e permite pesquisar e filtrar. Quando o conector de dados estiver ativado, um conjunto de APIs públicas estará disponível para criar a interface, onde as informações do curso/caminho de aprendizado serão exibidas para os alunos.
 
-#### Configurar o conector
+### Configurar o conector
 
 Use o conector **[!UICONTROL Acesso a Dados de Treinamento]** para integrar sua conta da Adobe Learning Manager com sistemas de armazenamento e pesquisa de dados. Isso ajuda a interface baseada no AEM Sites a obter dados de treinamento, exibir páginas da Web e oferecer melhores opções de pesquisa para os alunos.
 
@@ -2164,6 +2139,31 @@ Para obter mais informações, consulte este [**documento**](../../adobe-learnin
 O site publicado exibe uma lista de todos os cursos, certificados e planos de aprendizado migrados que são recuperados do serviço de pesquisa para alunos não conectados.
 
 Quando um aluno clica em Curso, Certificado ou Caminho de Aprendizado, a página Visão geral é aberta. Na página, quando o aluno se inscreve, ele deve fazer logon primeiro e, em seguida, fazer o curso.
+
+### Experiência não conectada
+
+A experiência não conectada permite criar uma experiência em tempo real para usuários não conectados. Por exemplo, uma experiência não conectada serve como uma página de aterrissagem para campanhas de marketing para incentivar inscrições.
+
+A experiência não conectada no Adobe Learning Manager pode ser configurada usando o conector **[!UICONTROL Acesso a dados de treinamento]**. O conector fornece as seguintes ofertas:
+
+* Oferta padrão
+* Oferta premium
+
+**Oferta padrão**
+
+A oferta padrão é criar a versão nativa do Adobe Learning Manager. Os usuários podem criar uma experiência sem periféricos apenas para demonstração e não conectada. A experiência de demonstração sem periféricos é indimensionável e não deve ser usada em um ambiente de produção.
+
+**Oferta premium**
+
+A oferta premium ajuda os usuários a criar uma interface sem periféricos, que é configurada pelo conector **[!UICONTROL Acesso a Dados de Treinamento]**. Isso permite que os usuários obtenham dados em tempo real sobre o curso e os detalhes do caminho de aprendizado, como nome, descrição, autor, habilidades, duração etc. Para cenários de aprendizagem combinada, você também obtém limites de vagas em tempo real, vagas ocupadas, limites de listas de espera e contagens de listas de espera. Os clientes podem usar essas APIs para criar recursos de pesquisa e filtro e um resumo completo do curso para alunos não conectados.
+
+Os clientes podem adquirir um plano premium para criar essa experiência não conectada altamente dimensionável.
+
+>[!NOTE]
+>
+>Entre em contato com a equipe de suporte ou o CSM para adquirir o plano premium.
+
+Depois que um usuário comprar um plano, a equipe de CSM ativará o plano premium para ele. Com o conector Acesso a dados de treinamento, os usuários podem configurar uma experiência não conectada com os recursos mencionados anteriormente.
 
 ## Conector do Adobe Commerce
 
