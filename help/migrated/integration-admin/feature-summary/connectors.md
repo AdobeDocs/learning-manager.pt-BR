@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: e7a88bac3bbe7814368a98d40f548b38806e7f1a
+source-git-commit: fb887cdc26580cb0e56a80318276284724e4743a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -386,10 +386,10 @@ Digite as seguintes informações:
 
 * **Host**: digite o endereço do servidor FTP.
 * **Porta**: se o servidor usar uma porta maior que 21, insira o número de porta correto.
-* **Protocolo**: escolha **[!UICONTROL SFTP – Protocolo]** de transferência de arquivos SSH.
-* **Tipo** de logon: selecione **[!UICONTROL Normal]**.
-* **Usuário**: digite seu nome de usuário FTP.
-* **Senha**: digite sua senha FTP.
+* **Protocolo**: escolha **[!UICONTROL SFTP - Protocolo de Transferência de Arquivo SSH]**.
+* **Tipo De Logon**: Selecione **[!UICONTROL Normal]**.
+* **Usuário**: digite seu nome de usuário do FTP.
+* **Senha**: digite a senha do FTP.
 
 **Etapa 7: conectar-se ao servidor FTP**
 
@@ -397,7 +397,7 @@ Selecione o botão **[!UICONTROL Conectar]** no Gerenciador de Sites. O FileZill
 
 **Etapa 8: navegar e transferir arquivos**
 
-Após conectado, você verá os arquivos remotos no lado direito e os arquivos locais no lado esquerdo. É possível navegar pelos diretórios e transferir arquivos arrastando-os e soltando-os entre os painéis.
+Depois de conectado, você verá os arquivos remotos no lado direito e os arquivos locais no lado esquerdo. É possível navegar nos diretórios e transferir arquivos arrastando-os e soltando-os entre os painéis.
 
 >[!CAUTION]
 >
@@ -517,12 +517,12 @@ As opções de importação da xAPI permitem agendar a importação das instruç
 1. No painel esquerdo, clique em **[!UICONTROL Execução sob Demanda]**.
 
    ![](assets/on-demand.png)
-   *Importar instruções xAPI - Sob demanda*
+   *Importar instruções xAPI- Sob demanda*
 
 1. No painel esquerdo, clique em **[!UICONTROL Status da execução]** para visualizar o resumo de todas as execuções deste conector, em ordem cronológica. É possível ver a data de início e o tempo que leva a importação da xAPI, o tipo de importação (se for sob demanda ou agendada) e o status da importação (se a importação da xAPI está em andamento, foi concluída ou falhou).
 
    ![](assets/execution-status2x.png)
-   *Importar instruções xAPI - Status da execução*
+   *Importar instruções xAPI - Status de execução*
 
 +++
 
@@ -915,15 +915,15 @@ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Endereço_Formatado
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Status_Data.wd:Ativo
-wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Ative
+wd:Employment_Data.wd:Worker_Status_Data.wd:Ative_Status_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Aposentado
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retirado
 wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Encerrado
+wd:Employment_Data.wd:Worker_Status_Data.wd:Terminado
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code
@@ -932,19 +932,19 @@ wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organ
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$
 wd:Qualification_Data.wd:Education.0.wd:School_Name
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
-wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Empresa
-wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
-Email de trabalho principal
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
+wd:Management_Chain_Data.wd:Worker_Supervisors_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
+Email de Trabalho Principal
 wd:Organization_Type_Reference_Cost_Center_ID
 wd:Organization_Type_Reference_Cost_Center_Name
 wd:Organization_Type_Reference_Company
 wd:Organization_Subtype_Reference_Department
 wd:Organization_Subtype_Reference_Division
 wd:Universal_ID
-wd:Integration_Field_Override_Data.3.wd:Valor
+wd:Integration_Field_Override_Data.3.wd:Value
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Município
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 
 +++
 
@@ -1523,7 +1523,7 @@ Os Relatórios de treinamento podem ser exportados para o Power BI como parte do
 
 O Relatório de treinamento tem dois campos adicionais:
 
-* Contagem de usuários que compartilharam feedback em um curso
+* Número de usuários que compartilharam feedback em um curso
 * Classificação de estrelas média para um curso
 
 ### Status do filtro de transcrições do aluno {#lt-status}
@@ -1628,7 +1628,7 @@ Na coluna Tipo, Programa de aprendizado será renomeado como Caminho de aprendiz
 >
 >Para configurar seu FTP personalizado, entre em contato com seu CSM. O CSM fornecerá os detalhes necessários para a configuração do FTP.
 >
->A configuração do FTP envolve um tempo de lead e requer suporte de TI para permitir a lista de IPs e portas, além de criar determinadas pastas com permissões específicas no servidor FTP.
+>Configurar o FTP envolve um tempo de execução e requer suporte de TI para permitir a lista de IPs e portas, além de criar determinadas pastas com permissões específicas no servidor FTP.
 
 O Learning Manager fornece a capacidade de se conectar ao seu local de FTP personalizado.
 
@@ -1776,11 +1776,11 @@ Pré-requisitos para configurar uma conexão ADFS:
 
 #### Mapear atributos {#map-attributes-6}
 
-O administrador de integração pode escolher atributos do ADFS e mapeá-los para os atributos agrupáveis correspondentes do Gerenciador de aprendizagem. Uma vez que o mapeamento é concluído, este mesmo mapeamento é usado em importações subsequentes do usuário. Ele poderá ser reconfigurado se o administrador quiser um mapeamento diferente para importar usuários.
+O administrador de integração pode escolher atributos do ADFS e mapeá-los para os atributos agrupáveis correspondentes do Learning Manager. Uma vez que o mapeamento é concluído, este mesmo mapeamento é usado em importações subsequentes do usuário. Ele pode ser reconfigurado se o administrador quiser ter um mapeamento diferente para importar usuários.
 
 #### Importação automatizada de usuário {#automated-user-import-4}
 
-O processo de importação do usuário permite que o administrador do Gerenciador de aprendizado busque detalhes dos funcionários do ADFS e importe-os para o Gerenciador de aprendizagem automaticamente.
+O processo de importação de usuário permite que o administrador do Learning Manager busque detalhes dos funcionários no ADFS e importe-os automaticamente para o Learning Manager.
 
 #### Como filtrar usuários {#filtering-users-4}
 
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Conector do Microsoft Teams {#microsoft-teams-connector}
+## Conector do Microsoft Teams {#teams-connector}
 
 O Microsoft® Teams® é uma plataforma de colaboração baseada em bate-papo persistente que oferece compatibilidade com o compartilhamento de documentos, reuniões on-line e outros recursos para comunicações de negócios.
 
