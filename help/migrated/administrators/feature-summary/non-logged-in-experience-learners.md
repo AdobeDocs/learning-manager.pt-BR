@@ -2,10 +2,10 @@
 title: Experiência não conectada para alunos
 description: O portal nativo do Adobe Learning Manager oferecerá suporte a uma maneira não conectada de acessar o site de treinamento. Com esse modo ativado, os alunos podem descobrir e acessar o site de treinamento e verificar vários cursos e conteúdos disponíveis. A experiência não conectada permite que os alunos naveguem nos cursos sem estar conectados a um portal.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 664b9c867fc767e11d4d91e3be9ae172e7e85035
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 40%
+source-wordcount: '619'
+ht-degree: 39%
 
 ---
 
@@ -88,4 +88,4 @@ Todo o treinamento exportado estará presente.
 * Exibição do aplicativo do aluno exibida em todo o catálogo.
 * Páginas de visão geral de treinamento: clicar no cartão redireciona para Inscrever-se, após o qual um usuário é redirecionado para a página de visão geral de treinamento/página de instância.
 * Todos os catálogos habilitados estarão presentes. Qualquer aluno que não tenha acesso a um catálogo não poderá ver o catálogo e o treinamento nele após fazer logon.
-* Para a opção nativa, as alterações em um curso ou caminho de aprendizado serão refletidas após 24 horas, não em tempo real.
+* Para a opção nativa, as alterações em um curso ou caminho de aprendizado serão refletidas apenas após 24 horas em vez de em tempo real. Para a oferta premium, elas serão refletidas após um mínimo de 3 horas.
