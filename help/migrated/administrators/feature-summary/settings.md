@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configurações
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3651'
-ht-degree: 65%
+source-wordcount: '3669'
+ht-degree: 64%
 
 ---
 
@@ -165,7 +165,7 @@ Habilite ou desabilite as configurações a seguir:
   </tr>
   <tr>
    <td>Mostrar rótulos de catálogo</td>
-   <td>Se habilitada, Administradores e Autores podem definir rótulos de catálogo e seus valores, e vinculá-los a Objetos de aprendizado.</td>
+   <td>Se ativadas, administradores e autores podem definir rótulos de catálogo e seus valores, e vinculá-los a objetos de aprendizado. Selecionar essa opção também permite que os autores adicionem cursos, caminhos de aprendizado, certificações ou ajudas de tarefa aos catálogos.</td>
   </tr>
   <tr>
    <td>Alunos podem visualizar suas pontuações</td>
