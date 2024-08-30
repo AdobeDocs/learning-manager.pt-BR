@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Meus aprendizados
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 64%
+source-wordcount: '2789'
+ht-degree: 63%
 
 ---
 
@@ -163,6 +163,10 @@ Você pode ver todos os módulos do curso na janela do navegador.
 **Fechar o curso** – Clique no ícone de fechamento (x) no canto superior direito do reprodutor para sair o curso.
 
 *Depois de sair do curso, você pode rever o curso clicando no botão Rever na página de descrição do curso.*
+
+## Várias instâncias de inscrição
+
+Se um curso tiver várias instâncias, os alunos terão a opção de escolher e se inscrever em uma instância específica. Eles também podem alternar entre instâncias, se necessário.
 
 ## Classificação por estrelas
 
