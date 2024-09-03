@@ -4,9 +4,9 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,50 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >Você precisará das ferramentas de compilação do sdk do Android para criar os binários assinados.
+
+A Play Store requer binários Android no formato aab para publicação. Portanto, forneceremos o arquivo .aab não assinado.
+
+>[!NOTE]
+>
+>Ao criar um arquivo keystore, você precisa gerar uma senha keystore, um alias de chave de assinatura e uma senha de alias de chave de assinatura.
+
+Siga as etapas abaixo para assinar o arquivo .aab:
+
+Execute o seguinte comando:
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>O **[!UICONTROL jarsigner]** está incluído no Java. Certifique-se de estar usando o Java 21.
+
+Quando solicitado, insira as seguintes senhas:
+
+* Senha do armazenamento de chaves
+* senha para alias da chave de assinatura
+
+Você pode usar o apk fornecido. No entanto, se você precisa gerar um apk a partir de um arquivo aab, por favor, siga estes passos:
+
+>[!NOTE]
+>
+>Você precisará instalar o **[!UICONTROL bundletool]** para gerar APKs.
+
+
+Execute o seguinte comando para criar o arquivo apk:
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+Para descompactar o arquivo, execute o seguinte comando:
+
+```
+unzip my_app.apks -d output_dir
+```
+
+Você obterá o arquivo apk da pasta **[!UICONTROL output_dir]**.
 
 **Novidades**
 
