@@ -4,9 +4,9 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ Reutilize o mesmo projeto que você criou nas etapas acima para notificações p
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+A pasta raiz contém o arquivo **Runner.xcarchive.zip**. Execute os comandos abaixo para gerar o binário assinado:
+
+1. Execute o seguinte comando para descompactar o arquivo:
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. Navegue até o diretório do aplicativo:
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. Copie o arquivo de provisionamento móvel:
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. Retorne ao diretório raiz (onde Runner.xcarchive.zip está localizado):
+
+   ```
+   cd <root>
+   ```
+
+5. Exporte o arquivo usando o xcodebuild:
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. Localize o arquivo .ipa na pasta ipa_path.
+7. Carregue o arquivo .ipa no site do Diawi.
+8. Após o upload completo, selecione o botão **[!UICONTROL Enviar]**.
+9. Após a conclusão, você receberá um código QR e um link.
+10. Abra o código QR ou link diretamente no Safari.
+
+Se o dispositivo estiver incluído no perfil de provisionamento, a instalação deverá continuar no dispositivo.
 
 >[!NOTE]
 >
 >Você precisará do XCode 15.2 ou superior para criar os binários assinados.
 
 
-## Android
+### Android
+
+**Para arquivo apk**
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+**Para arquivo aab**
 
 >[!NOTE]
 >
