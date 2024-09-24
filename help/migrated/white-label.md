@@ -4,9 +4,9 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ A pasta `<root>` contém o arquivo **Runner.xcarchive.zip**. Execute os comandos
    ```
 
 6. Localize o arquivo .ipa na pasta ipa_path.
-7. Carregue o arquivo .ipa no site do Diawi.
+7. Carregar o arquivo .ipa no site `Diawi`.
 8. Após o upload completo, selecione o botão **[!UICONTROL Enviar]**.
 9. Após a conclusão, você receberá um código QR e um link.
 10. Abra o código QR ou link diretamente no Safari.
