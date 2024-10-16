@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de j
 jcr-language: en_us
 title: Resumo dos novos recursos
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2325'
 ht-degree: 3%
 
 ---
@@ -231,6 +231,12 @@ As APIs que oferecem suporte à classificação por data e -data mostrarão os r
 ### Alterações nos limites de deslocamento
 
 Para melhorar o desempenho do sistema e gerenciar a utilização de recursos com mais eficiência, a Adobe reduziu os valores de deslocamento altos no ponto de extremidade GET /users para os escopos ADMIN e LEARNER. Recomendamos usar a API Trabalhos para recuperar os registros com um valor de deslocamento.
+
+### Alterações na limitação de RPM e intermitência
+
+Nesta versão, os limites de RPM (Solicitações por minuto) e intermitência foram adicionados para todas as APIs. Você pode verificar o RPM máximo para cada API na página Swagger.
+
+RPM é o número de solicitações que você pode enviar ao servidor da API em um minuto. O limite de intermitência permite um número maior de solicitações por um curto período, indo além do limite de taxa normal.
 
 ### APIs obsoletas
 
