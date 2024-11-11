@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Comunicados
 description: Um comunicado é uma mensagem multimídia (imagem de texto ou vídeo) que um administrador transmite para um conjunto definido de usuários.
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 69%
+source-wordcount: '1061'
+ht-degree: 57%
 
 ---
 
@@ -59,26 +59,32 @@ Se o anexo de multimídia for grande, pode levar tempo para fazer o upload. Apó
 
 Quando você escolhe essa opção, qualquer arquivo de mídia que você escolhe é apresentado como uma manchete na página inicial do aluno. A manchete atua como uma chamada de ação para os alunos aos quais se destina.
 
-![](assets/masthead-announcement.png)
+Os administradores podem adicionar texto alternativo para todas as manchetes a fim de melhorar a acessibilidade para os alunos. Isso permite que alunos com necessidades especiais usem leitores de tela para ler o texto alternativo e entender a imagem. Você pode selecionar vários idiomas e fornecer texto alternativo para cada idioma. Certifique-se de adicionar o texto alternativo nos respectivos idiomas.
 
-*Personalizar a manchete*
+Para adicionar a manchete, siga estas etapas:
 
-1. Procure e escolha uma imagem que represente a manchete. O tamanho recomendado é de 1280 x 360 pixels.
-1. Escolha o local ao qual deseja adicionar uma manchete. Para cada idioma, você deve escolher um ativo de manchete.
-1. No campo **[!UICONTROL Botão de ação]**, adicione um url para que, quando os alunos clicarem no botão na manchete, eles sejam redirecionados para o url. Este é um campo opcional.
-1. Escolha os grupos de usuários-alvo ou os objetos de aprendizado-alvo. Você pode escolher apenas um deles para um comunicado.
+1. Faça logon como **[!UICONTROL Administrador]**.
+2. Selecione **[!UICONTROL Comunicados]** > **[!UICONTROL Adicionar]**.
+3. Selecione **[!UICONTROL Como Manchete]** no menu suspenso Tipo.
 
-   Comece a digitar o nome do grupo de usuários na caixa de texto e escolha na lista suspensa. Da mesma forma, escolha o treinamento digitando o nome do objeto na caixa de texto.
+   ![](assets/announcement.png)
+   _Criar um comunicado_
 
-1. Na seção **[!UICONTROL Configurações Avançadas]**, você tem as seguintes opções:
+4. Selecione o idioma e faça upload da imagem.
 
-   * Clique em **[!UICONTROL Imediatamente]** se quiser que o comunicado seja publicado imediatamente.
-   * Clique em **[!UICONTROL Nunca]** se não quiser que seu comunicado expire.
+   >[!NOTE]
+   >
+   >Você pode selecionar vários idiomas e fornecer texto alternativo para cada idioma. Certifique-se de adicionar o texto alternativo nos respectivos idiomas.
+
+5. Insira o texto adequado no campo **[!UICONTROL Texto alternativo]**.
+6. No campo **[!UICONTROL Botão de Ação]**, adicione uma URL para redirecionar os alunos quando eles clicarem no botão na manchete.
+7. Selecione os grupos de usuários de destino ou os objetos de aprendizado de destino. Você pode escolher apenas um deles para um comunicado.
+8. Na seção **[!UICONTROL Configurações Avançadas]**, você tem as seguintes opções:
+
+   * Selecione **[!UICONTROL Imediatamente]** se quiser que o comunicado seja publicado imediatamente.
+   * Selecione **[!UICONTROL Nunca]** se não quiser que seu comunicado expire.
    * Selecione as datas de **[!UICONTROL Início]** e **[!UICONTROL Término]** para o comunicado.
-
-   ![](assets/advanced-settings.png)
-
-   *Definir tempo para exibição de uma manchete*
+9. Clique em Salvar e publique o comunicado.
 
 **Há um limite para o número de comunicados de manchete ao vivo?**
 

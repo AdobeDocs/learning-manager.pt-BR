@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '7133'
-ht-degree: 57%
+source-wordcount: '7828'
+ht-degree: 52%
 
 ---
 
@@ -289,63 +289,107 @@ Para criar e compartilhar um painel de conformidade, siga estas etapas:
 >
 >Compartilhar o novo painel substituirá o painel existente no aplicativo do gerente selecionado. Os gerentes poderão exibir o painel recém-compartilhado pelos administradores.
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### Compartilhar o painel de conformidade com administradores e administradores personalizados
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+Os administradores podem compartilhar o painel com outros administradores e administradores personalizados, dando a eles acesso instantâneo a todos os painéis de conformidade.
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+Siga estas etapas para compartilhar o painel com administradores e administradores personalizados:
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. Faça logon como **[!UICONTROL Administrador]**.
+2. Navegue até **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]**.
+3. Selecione **[!UICONTROL Exibição do Administrador]** na seção **[!UICONTROL Painel de Conformidade]**.
+4. Selecione o botão **[!UICONTROL Compartilhar Painel]**.
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _Compartilhar painel - Administrador_
 
-You can also see the compliance status for each internal team.
+5. Selecione os rótulos de conformidade no menu suspenso **[!UICONTROL Selecionar conformidade personalizada]**. Essa opção selecionará todos os cursos com os rótulos de conformidade selecionados.
+6. Selecione os cursos adicionais, programações de aprendizado ou certificações que deseja compartilhar com administradores.
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _Compartilhar painel de conformidade_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. Selecione os usuários ou grupos de usuários que deseja compartilhar o painel e selecione **[!UICONTROL Compartilhar]**.
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### Exibir o painel de conformidade - Administradores personalizados e outros administradores
 
-### Share training with managers
+Todos os administradores personalizados e outros administradores do grupo de usuários selecionado podem ver o painel de conformidade em seu aplicativo.
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+Siga estas etapas para exibir o painel de conformidade:
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. Navegue até o **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]** > **[!UICONTROL Painel de conformidade]**.
+2. Selecione **[!UICONTROL Sua Exibição]** na seção **[!UICONTROL Painel de Conformidade]**.
+3. Selecione a opção **[!UICONTROL Ir para o Painel de Conformidade]** e você poderá ver o novo painel de conformidade compartilhado pelo administrador.
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _Exibir o painel de conformidade - Administrador personalizado_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### Compartilhar com gerentes de loja
 
-### Share training
+Os administradores podem compartilhar o painel de conformidade com os gerentes de loja, o que permite que eles monitorem o progresso de conformidade do aluno.
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+Siga estas etapas para compartilhar o painel com gerentes de loja:
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. Faça logon como **[!UICONTROL Administrador]**.
+2. Navegue até o **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]** > **[!UICONTROL Painel de conformidade]**.
+3. Selecione **[!UICONTROL Exibição do Gerente]** na seção **[!UICONTROL Painel de Conformidade]**.
+4. Selecione o botão **[!UICONTROL Compartilhar Painel]**.
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _Compartilhar o painel de conformidade com Gerentes_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. Selecione os rótulos de conformidade no menu suspenso **[!UICONTROL Selecionar conformidade personalizada]**.
+Essa opção selecionará todos os cursos com os rótulos de conformidade selecionados.
+6. Selecione os cursos adicionais, programações de aprendizado ou certificações que deseja compartilhar com administradores.
+7. Selecione os usuários ou grupos de usuários que deseja compartilhar o painel e selecione **[!UICONTROL Compartilhar]**.
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### Exibir o painel de conformidade - Gerente
 
-1. Click **[!UICONTROL Share]**.
+Consulte este artigo [Exibir o painel de conformidade](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) para obter mais informações.
 
-The training is now shared with the specified manager.
+#### Editar o painel
 
-### View training
+Siga estas etapas para editar o painel de conformidade:
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. Faça logon como **[!UICONTROL Administrador]**.
+2. Navegue até o **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]** > **[!UICONTROL Painel de conformidade]**.
+3. Selecione **[!UICONTROL Exibição do Administrador]** ou **[!UICONTROL Exibição do Gerente]** na seção **[!UICONTROL Painel de Conformidade]**. Você pode ver os painéis de conformidade nesta seção.
+4. Selecione **[!UICONTROL Editar]** no painel de conformidade que você deseja editar.
 
-### Withdraw training
+   ![](assets/edit.png)
+   _Editar o painel de conformidade_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. Altere os detalhes necessários e selecione **[!UICONTROL Compartilhar]**.
+6. O painel de conformidade será compartilhado com os gerentes selecionados.
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### Retirar o painel - Administrador
+
+Siga estas etapas para retirar o painel de conformidade:
+
+1. Faça logon como **[!UICONTROL Administrador]**.
+2. Navegue até o **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]** > **[!UICONTROL Painel de conformidade]**.
+3. Selecione **[!UICONTROL Exibição do Administrador]** ou **[!UICONTROL Exibição do Gerente]** na seção **[!UICONTROL Painel de Conformidade]**. Você pode ver os painéis de conformidade nesta seção.
+4. Selecione **[!UICONTROL Retirar]** no painel de conformidade que deseja remover e selecione **[!UICONTROL Continuar]**.
+5. Esta ação removerá o painel de conformidade compartilhado do aplicativo do gerente.
+
+   ![](assets/manager-edit.png)
+   _Retirar o painel de conformidade_
+
+#### Definir widget de conformidade padrão para alunos
+
+Siga estas etapas para definir o widget de conformidade padrão dos alunos:
+
+1. Faça logon como **[!UICONTROL Administrador]**.
+2. Navegue até o **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]** > **[!UICONTROL Painel de conformidade]**.
+3. Selecione **[!UICONTROL Exibição do Aluno]** na seção **[!UICONTROL Painel de Conformidade]**.
+4. Selecione **[!UICONTROL Alterar]** na seção **[!UICONTROL Exibição do aluno]**.
+
+   ![](assets/learner-widget.png)
+   _Definir widget de conformidade padrão para alunos_
+5. Selecione os rótulos de conformidade na lista suspensa **[!UICONTROL Conformidade personalizada]**. Essa opção selecionará todos os cursos com os rótulos de conformidade selecionados.
+6. Selecione **[!UICONTROL Continuar]** para definir o widget de conformidade padrão.
+
+Os alunos podem ver os cursos selecionados ou caminhos de aprendizado no widget de conformidade em sua página inicial. Consulte [Widget de painel de conformidade](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) para obter mais informações.
 
 ## Relatórios personalizados
 
@@ -846,6 +890,34 @@ O relatório contém o seguinte:
 * Lembrete do elemento de aprendizado
 * Escopo/Catálogo
 * Escopo/Grupo de usuários
+
+### Trilha de auditoria para funções personalizadas
+
+Os administradores podem baixar o relatório de auditoria da função personalizada para acompanhar todas as alterações feitas nas funções personalizadas, incluindo criar, modificar e excluir funções personalizadas e seu acesso a recursos associado.
+
+Para baixar o relatório, siga estas etapas:
+
+1. Faça logon como administrador.
+2. Selecione Relatórios > Relatórios personalizados.
+3. Selecionar trilha de auditoria da função personalizada e escolher o intervalo de datas
+4. Selecione Gerar para baixar o relatório.
+
+O relatório Trilha de auditoria da função personalizada contém os seguintes campos:
+
+* ID da função
+* Nome da função
+* Tipo de atividade
+* Tipo de modificação
+* Descrição
+* Tipo de objeto referenciado
+* ID do objeto referenciado
+* Nome do objeto referenciado
+* E-mail do objeto referenciado
+* Modificado por nome de usuário
+* Modificado pelo UUID do usuário
+* Modificado por e-mail de usuário
+* Data de modificação (Fuso horário UTC)
+* Origem
 
 ## Assinaturas de e-mail {#emailsubscriptions}
 

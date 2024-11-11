@@ -4,10 +4,10 @@ title: Catálogos
 description: Os catálogos são uma coleção de aprendizado - cursos, programas de aprendizado e certificações. Use os catálogos para proporcionar acesso a um conjunto personalizado de aprendizado aos alunos. Você pode associar o aprendizado a um catálogo durante a criação de um novo catálogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 73%
+source-wordcount: '2552'
+ht-degree: 72%
 
 ---
 
@@ -96,6 +96,10 @@ Para criar um catálogo, execute as seguintes etapas:
    A ajuda de tarefa adicionada aparece na guia **[!UICONTROL Ajudas de tarefa]**.
 
 O conteúdo aparece em cada uma dessas guias, se já estiver disponível na conta. Caso contrário, você precisará criar o conteúdo primeiro. Por exemplo, se ainda não tiver adicionado nenhum dos cursos ou programas de aprendizado no aplicativo Learning Manager, comece criando-os primeiro.
+
+## Remoção em massa de cursos, programações de aprendizado ou ajudas de tarefa
+
+Os administradores ou administradores personalizados podem remover cursos, programações de aprendizado ou ajudas de tarefa em massa. Vá para **[!UICONTROL Catálogos]** e selecione um catálogo. Na página **[!UICONTROL Conteúdo]**, selecione **[!UICONTROL Editar Conteúdo]**. Em seguida, selecione a opção **[!UICONTROL Remover]** ao lado dos cursos, caminhos de aprendizado ou ajudas de tarefa e selecione **[!UICONTROL Salvar]**.
 
 ## Link profundo para o catálogo dos alunos {#deep-link}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4866'
-ht-degree: 60%
+source-wordcount: '5111'
+ht-degree: 58%
 
 ---
 
@@ -235,6 +235,35 @@ Se um aluno que estava antes no estado de aprovação pendente cancelar a inscri
 ## Lista de espera
 
 A seção Lista de espera permite que os alunos estejam em lista de espera para cursos em sala de aula quando as vagas são limitadas, com base na ordem de inscrição. Os administradores podem gerenciar isso selecionando alunos na lista de espera e alocando vagas além do limite inicial. Depois que uma vaga é alocada pelo administrador, o aluno é imediatamente inscrito no curso.
+
+### Relatório de lista de espera
+
+O Adobe Learning Manager permite que os administradores baixem a lista de alunos na lista de espera de todas as instâncias de um curso. Os administradores podem acessar este relatório na seção Lista de espera na página **[!UICONTROL Visão geral do curso]**.
+
+Seguindo as colunas disponíveis no relatório Lista de espera:
+
+* Nome do curso
+* Nome da instância
+* ID da instância
+* Status da instância
+* Nome do usuário
+* Email
+* ID exclusiva do usuário
+* Data da inscrição (fuso horário central da Europa)
+* Status
+* Número na lista de espera
+* Limite de listas de espera
+* Limite de vaga
+
+Para baixar o relatório da seção Administrador:
+
+1. Faça logon como **[!UICONTROL Administrador]**.
+2. Vá para a seção **[!UICONTROL Curso]** e selecione o curso necessário.
+3. Selecione a opção **[!UICONTROL Lista de espera]** na página **[!UICONTROL Visão geral do curso]**.
+4. Selecione **[!UICONTROL Ações]** > **[!UICONTROL Exportar relatório]** para baixar o relatório de **[!UICONTROL Lista de espera]**.
+
+   ![](assets/export-report-waitlist.png)
+   _Exportar relatório_
 
 ## Exportar participação dos alunos {#attendance}
 
@@ -498,6 +527,31 @@ Para enviar notificações por e-mail, um administrador deve escolher explicitam
 ![](assets/escalation-notification.png)
 
 *Definir nível de escalonamento*
+
+## Comentários de conclusão
+
+Os administradores podem deixar comentários ao marcar qualquer aluno como concluído para cursos, programações de aprendizado ou certificações. Esses comentários ajudam na conformidade e na auditoria. Os administradores podem adicionar comentários de um ou vários alunos de uma só vez com facilidade.
+
+### Adicionar comentários de conclusão
+
+Siga estas etapas para adicionar comentários de conclusão:
+
+1. Faça logon como **[!UICONTROL Administrador]**.
+2. Vá para a página **[!UICONTROL Cursos]** e selecione um curso.
+3. Selecione **[!UICONTROL Alunos]** na página do curso.
+4. Escolha o aluno individual ou vários alunos.
+5. Selecione **[!UICONTROL Ações]** e selecione**[!UICONTROL  Marcar Conclusão]**.
+6. Insira o comentário de conclusão na caixa de diálogo.
+
+   ![](assets/comments.png)
+   _Comentário de conclusão_
+
+Esse processo é o mesmo para caminhos de aprendizado e certificações. Para caminhos de aprendizado, você pode filtrar para selecionar todos os cursos ou apenas cursos individuais para marcar como concluídos.
+
+![](assets/learning-path.png)
+_Selecione vários cursos para conclusão_
+
+Os comentários estarão visíveis no relatório [Transcrições do aluno](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
 
 ## Visualizar cursos {#previewcourses}
 

@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 8c4d00ed9213c21463a046f74d1db17b331da85f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 87%
+source-wordcount: '618'
+ht-degree: 85%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 87%
 * [Guia do Usuário do Learning Manager](user-guide.md)
 * Introdução {#introduction}
    * [Resumo dos novos recursos](whats-new.md)
+   * [Resumo dos novos recursos julho de 2024](whats-new-july-2024.md)
    * [Novos recursos em março de 2024](whats-new-march-2024.md)
    * [Novos recursos em novembro de 2023](whats-new-november-2023.md)
    * [Novos recursos em julho de 2023](whats-new-2023-july.md)
    * [Novos recursos em abril de 2023](whats-new-2023-april.md)
-   * [Novos recursos em novembro de 2022](whats-new-2022-november.md)
    * [Notas de versão](release-note/release-notes.md)
    * [Requisitos do sistema](system-requirements.md)
    * [Pacote do site de referência do ALM para o AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -67,7 +67,7 @@ ht-degree: 87%
    * [Comunicados](administrators/feature-summary/announcements.md)
    * [Modelos de e-mail](administrators/feature-summary/email-templates.md)
    * [Integração do Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
-   * [Configurações](administrators/feature-summary/settings.md)
+   * [Configurações ](administrators/feature-summary/settings.md)
    * [Notificações](administrators/feature-summary/user-notifications.md)
    * [Usuários de tablet Android e iPad](administrators/feature-summary/ipad-android-tablet-users.md)
    * [Remover usuários](administrators/feature-summary/purge-users.md)
@@ -88,12 +88,15 @@ ht-degree: 87%
    * [Manual de migração](integration-admin/feature-summary/migration-manual.md)
    * [Conectores do Learning Manager](integration-admin/feature-summary/connectors.md)
    * [APIs não conectadas](integration-admin/feature-summary/non-logged-in-apis.md)
+   * [Webhooks](integration-admin/feature-summary/webhooks.md)
+   * [Credly](integration-admin/feature-summary/credly-integration.md)
+   * [Interoperabilidade do Learning Tools](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [Integrar o Learning Manager ao AEM](integrate-aem-learning-manager.md)
    * [Instalar pacote do Salesforce no Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Instalar o conector do Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Manual do desenvolvedor de aplicativos](integration-admin/feature-summary/developer-manual.md)
    * [Aplicativo Learning Manager para Salesforce](integration-admin/feature-summary/sfdc-app.md)
-   * [Configurações](integration-admin/feature-summary/settings.md)
+   * [Configurações ](integration-admin/feature-summary/settings.md)
    * [Gerenciar funções personalizadas através de arquivos CSV](integration-admin/feature-summary/configure-role-csv-files.md)
 * Autores {#authors}
    * [Logon do usuário](authors/feature-summary/user-login.md)
@@ -107,7 +110,7 @@ ht-degree: 87%
    * [Modelos de e-mail](authors/feature-summary/email-templates-author.md)
    * [Como escolher os módulos do curso?](authors/how-to-choose-modules.md)
    * [Visualizar como aluno](authors/feature-summary/fluidic-player.md)
-   * [Configurações](authors/feature-summary/settings.md)
+   * [Configurações ](authors/feature-summary/settings.md)
 * Professor {#instructor}
    * [Módulos](instructors/feature-summary/modules.md)
    * [Gerenciamento dos alunos da sua sessão](instructors/feature-summary/learners.md)
@@ -127,6 +130,7 @@ ht-degree: 87%
    * [Notificações para o usuário](learners/feature-summary/user-notifications.md)
    * [Comunicados](learners/feature-summary/announcements.md)
    * [Gerenciamento de listas de espera e participações](learners/feature-summary/waitlist-attendance-management.md)
+   * [Pesquisa viabilizada por IA no Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Aplicativo Learning Manager para Salesforce](learners/feature-summary/sfdc-app.md)
    * [Integração do Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
    * [Aplicativo do aluno para dispositivos móveis e tablets](learners/feature-summary/ipad-android-tablet-users.md)
@@ -142,7 +146,7 @@ ht-degree: 87%
    * [Objetos de aprendizado](managers/feature-summary/learning-objects.md)
    * [Notificações para o usuário](managers/feature-summary/user-notifications.md)
    * [Transcrições do aluno](managers/feature-summary/learner-transcripts.md)
-   * [Configurações](managers/feature-summary/settings.md)
+   * [Configurações ](managers/feature-summary/settings.md)
    * [Usuários de tablet Android e iPad](managers/feature-summary/ipad-android-tablet-users.md)
 * Perguntas Frequentes {#faq}
    * [Perguntas Frequentes para Administradores](administrators/frequently-asked-questions-for-administrators.md)

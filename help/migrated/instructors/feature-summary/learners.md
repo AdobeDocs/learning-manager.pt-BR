@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gerenciamento dos alunos da sua sessão
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 84%
 
 ---
 
@@ -41,6 +41,32 @@ Os professores têm a capacidade de cancelar a inscrição dos alunos nas sessõ
 
 ![](assets/unenroll-learners.png)
 *Cancelar inscrição dos alunos*
+
+### Relatório de lista de espera
+
+O novo **[!UICONTROL Relatório de lista de espera]** do Adobe Learning Manager permite que os professores baixem a lista de alunos na lista de espera de todas as instâncias de um curso. Os professores podem acessar este relatório na seção **[!UICONTROL Lista de espera]** da página **[!UICONTROL Visão geral da sessão]**.
+
+Seguindo as colunas disponíveis no relatório Lista de espera:
+
+* Nome do curso
+* Nome da instância
+* ID da instância
+* Status da instância
+* Nome do usuário
+* Email
+* ID exclusiva do usuário
+* Data da inscrição (fuso horário central da Europa)
+* Status
+* Número na lista de espera
+* Limite de listas de espera
+* Limite de vaga
+
+Para baixar o relatório da seção Professor:
+
+1. Faça logon como **[!UICONTROL professor]**.
+2. Selecione qualquer sessão na página inicial.
+3. Selecione a opção **[!UICONTROL Lista de espera]** na página **[!UICONTROL Visão geral da sessão]**.
+4. Selecione **[!UICONTROL Ações]** > **[!UICONTROL Exportar relatório]** para baixar o relatório de **[!UICONTROL Lista de espera]**.
 
 ## Marcar a presença na sua sessão {#markattendanceforyoursession}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '26251'
+source-wordcount: '26237'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## Novidades desta versão
 
-Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new.md) para obter mais informações.
+Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-july-2024.md) para obter mais informações.
 +++
 
 +++Atualização 96: a versão de março de 2024 do Adobe Learning Manager
@@ -47,7 +47,7 @@ Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-march-20
 
 ## Novidades desta versão
 
-Consulte [Novidades do Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) para obter mais informações.
+Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-november-2023.md) para obter mais informações.
 +++
 
 +++Atualização 94
@@ -395,8 +395,6 @@ A versão de novembro de 2022 do Adobe Learning Manager consiste no seguinte:
 * Melhorias na página de visão geral do treinamento
 * Personalização do reprodutor
 * Representação do aluno e do gerente
-
-Para mais informações, consulte [Novidades do lançamento do Learning Manager em novembro de 2022](/help/migrated/whats-new-2022-november.md).
 
 **Observação:** com a versão de novembro de 2022 do Adobe Learning Manager, o Zoom descontinuará a autenticação [JWT até junho de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Da mesma forma, o conector do Zoom com JWT continuará funcionando até a data mencionada, mas recomendamos que os usuários criem um aplicativo OAuth de servidor para servidor para substituir a funcionalidade na conta dele. Toda nova conexão terá a autenticação OAuth do Zoom por padrão.
 
@@ -3037,7 +3035,7 @@ No logon do administrador, a paginação não funcionava na página Comunicados.
 
 **Criar habilidades**
 
-No logon dos alunos, a dica de ferramenta de nome de habilidade no **Mapa de habilidades **não estava exibindo o****nome completo.** Esse problema foi corrigido.
+No logon dos alunos, a dica de ferramenta de nome de habilidade em **Mapa de habilidades **não exibia ****o nome completo****. Esse problema foi corrigido.
 
 **Adicionar parceiros externos**
 
