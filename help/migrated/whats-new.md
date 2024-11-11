@@ -2,9 +2,9 @@
 description: Saiba mais sobre os novos recursos e aprimoramentos na versão de novembro de 2024 do Adobe Learning Manager
 jcr-language: en_us
 title: Resumo dos novos recursos
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3133'
 ht-degree: 2%
 
 ---
@@ -494,17 +494,19 @@ Os administradores podem localizar essas alterações de relatório na seção *
 
 O relatório **[!UICONTROL Transcrições de Aprendizado]** conterá duas novas colunas:
 
-* ID do módulo
-* ID da instância do curso
+* **[!UICONTROL ID do módulo]**: exibe o identificador exclusivo de cada módulo. Esta nova coluna foi adicionada após a coluna **[!UICONTROL Módulo]** existente.
+* **[!UICONTROL ID da instância do curso]**: exibe o identificador exclusivo de cada instância do curso. Esta nova coluna foi adicionada após a coluna **[!UICONTROL Instância]** existente.
+* **[!UICONTROL Comentário de conclusão]**: esta coluna captura os comentários inseridos pelo administrador ao marcar a conclusão do usuário. Esta nova coluna foi adicionada ao final do relatório.
+
 
 ### Relatório de resumo da sessão
 
 O relatório **[!UICONTROL Resumo da Sessão]** conterá três novas colunas:
 
-* ID do módulo
-* ID da sessão
-* ID da instância do curso
-* Contagem de conclusão
+* A coluna **[!UICONTROL ID do Módulo]** foi adicionada antes da coluna **[!UICONTROL Nome da Sessão]**.
+* A coluna **[!UICONTROL ID da Sessão]** foi adicionada antes da coluna **[!UICONTROL Nome da Sessão]**.
+* A coluna **[!UICONTROL ID da instância do curso]** foi adicionada após a coluna **[!UICONTROL Nome da instância]**.
+* A coluna **[!UICONTROL Contagem de conclusão]** foi adicionada após a coluna **[!UICONTROL Contagem de Inscrições]**.
 
 ## Erros corrigidos nesta atualização
 
