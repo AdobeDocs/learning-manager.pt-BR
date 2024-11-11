@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Pesquisa viabilizada por IA no Adobe Learning Manager
 description: Saiba mais sobre a pesquisa viabilizada por IA no Adobe Learning Manager
-source-git-commit: c23a8f958910b130a1e8591c97d323523f864f1b
+source-git-commit: 9005b77444135c2709ca3fc68b9bdd725f521290
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -21,7 +21,7 @@ _Resultados da pesquisa contextual com base em IA_
 
 Na captura de tela acima, quando pesquisamos por **introdução ao Photoshop**, a pesquisa viabilizada por IA mostra os resultados mais precisos para essa palavra-chave.
 
-Esse recurso pesquisa seu conteúdo e títulos de cursos de terceiros, descrições, tags, notas personalizadas e outros metadados. O algoritmo transcreve e pesquisa automaticamente os tipos de conteúdo diretamente na transcrição, como vídeo, PDF e até mesmo gravações de sessões do Adobe Connect.
+Esse recurso pesquisa seu conteúdo e títulos de cursos de terceiros, descrições, tags, notas personalizadas e outros metadados. O algoritmo transcreve e pesquisa automaticamente tipos de conteúdo, como vídeo, PDF e até mesmo gravações de sessões do **Adobe Connect**, diretamente na transcrição.
 
 O algoritmo usa IA sofisticada e NLP (Processamento de linguagem natural) para entender a consulta de pesquisa, marcar as palavras-chave essenciais e expandir logicamente as outras frases da consulta pesquisada. Essa expansão de consulta aumenta os termos relevantes e o contexto relacionado semanticamente para recuperar cursos, certificados ou programações de aprendizado de forma mais inteligente. No momento, a pesquisa semântica é compatível apenas com conteúdo em inglês.
 
