@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de n
 jcr-language: en_us
 title: Resumo dos novos recursos
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3149'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Seguindo as colunas disponíveis no relatório Lista de espera:
 * Limite de listas de espera
 * Limite de vaga
 
-Consulte este artigo [Relatório de lista de espera](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) e [Relatório de lista de espera](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) para baixar o relatório da seção Administrador e Professor.
+Consulte estes artigos [Relatório de lista de espera (Admin)](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) e [Relatório de lista de espera (Professores)](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) para baixar o relatório da seção Administrador e Professor.
 
 ## Acessibilidade na página inicial do aluno
 
@@ -149,6 +149,10 @@ Consulte este artigo [Anúncio](/help/migrated/administrators/feature-summary/an
 ## Suporte para hindi
 
 O Adobe Learning Manager agora apresenta o hindi como uma das linguagens de interface da plataforma e suporta o crescimento da plataforma na Índia. O suporte para falantes nativos de híndi garante que todos os recursos, relatórios e a experiência geral do usuário estejam totalmente acessíveis aos usuários.
+
+>[!NOTE]
+>
+>Os certificados de emblema gerados pelo sistema no formato PDF não suportarão híndi.
 
 Para alterar o idioma da interface, siga estas etapas:
 
