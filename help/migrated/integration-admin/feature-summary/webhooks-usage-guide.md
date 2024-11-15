@@ -4,9 +4,9 @@ title: Guia de uso de webhooks
 description: Saiba mais sobre o uso de webhooks, práticas recomendadas e limitações
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
+source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3369'
 ht-degree: 1%
 
 ---
@@ -291,6 +291,8 @@ Para evitar essas falhas, os assinantes devem monitorar ativamente os eventos do
 * As alterações de sessão seriam capturadas como parte do evento de atualização da instância. Isso se aplica apenas aos cursos. Não haverá propagação ascendente de entidades de nível inferior para instâncias do caminho de aprendizado ou instâncias de certificação.
 * Se um caminho de aprendizado contiver um curso e um aluno concluir o curso por meio do caminho de aprendizado, dois eventos **LearnerProgress** serão gerados: um para o curso e outro para o caminho de aprendizado.
 * Determinados fluxos de trabalho calculam atributos de objetos de aprendizado, como duração e tipo de entrega, de forma assíncrona. Portanto, os eventos para esses objetos de aprendizado serão gerados assim que o trabalho cron terminar o processamento.
+* Se um curso for inscrito por meio de um programa de aprendizado ou certificação pai, os eventos de inscrição, cancelamento de inscrição e conclusão serão acionados apenas para o programa de aprendizado ou certificação pai. Esses eventos não serão acionados para o curso secundário, pois a inscrição ocorreu indiretamente.
+* Os webhooks só têm suporte para contas com status **[!UICONTROL ATIVO]**. Eles não estão disponíveis para contas **[!UICONTROL DE AVALIAÇÃO]** ou **[!UICONTROL INATIVAS]**.
 
 ## Cargas de exemplo para os eventos
 
