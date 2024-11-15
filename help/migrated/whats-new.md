@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de n
 jcr-language: en_us
 title: Resumo dos novos recursos
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3158'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ Saiba mais sobre os novos recursos e aprimoramentos na versão de novembro de 20
 ## Pesquisa viabilizada por IA no Adobe Learning Manager
 
 O Adobe Learning Manager está aprimorando a forma como os alunos pesquisam cursos ou treinamento. Ele introduz um recurso de pesquisa viabilizado por IA que combina pesquisa lexical e semântica. A busca agora é mais inteligente, pois busca termos específicos e entende o contexto e a intenção por trás deles. A pesquisa avançada entende o significado da consulta e fornece resultados relevantes. Ele identifica o foco principal da pesquisa para fornecer o conjunto mais completo de resultados.
+
+>[!NOTE]
+>
+>A pesquisa viabilizada por IA só está disponível para os alunos.
 
 Consulte este artigo [Pesquisa Avançada](/help/migrated/learners/feature-summary/advanced-search.md) para obter mais informações.
 

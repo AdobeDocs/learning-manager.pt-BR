@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Pesquisa viabilizada por IA no Adobe Learning Manager
 description: Saiba mais sobre a pesquisa viabilizada por IA no Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 O recurso de pesquisa no ALM aprimora a experiência do usuário, permitindo que ele encontre conteúdo relevante de maneira eficiente e ajudando-o a consumir o conteúdo certo.
 
 O Adobe Learning Manager apresenta um recurso de pesquisa viabilizado por IA que combina pesquisa lexical e semântica. A busca é mais inteligente, pois busca termos específicos e entende o contexto e a intenção por trás deles. A pesquisa avançada viabilizada por IA entende o significado da consulta e fornece resultados relevantes.
+
+>[!NOTE]
+>
+>A pesquisa viabilizada por IA só está disponível para os alunos.
 
 ## Por que a pesquisa é importante?
 
