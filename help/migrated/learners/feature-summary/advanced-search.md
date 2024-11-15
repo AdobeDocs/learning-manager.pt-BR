@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Pesquisa viabilizada por IA no Adobe Learning Manager
 description: Saiba mais sobre a pesquisa viabilizada por IA no Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: ee78b7e0b81faa7003438a8a3dc9e46af3e10c17
+source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -25,7 +25,8 @@ A funcionalidade de pesquisa é importante por vários motivos:
 * **Acessibilidade**: recursos de pesquisa eficazes tornam as informações mais acessíveis, garantindo que os usuários possam se envolver com conteúdo relevante para suas necessidades.
 * **Personalização**: sistemas de pesquisa avançados podem personalizar os resultados com base nas preferências do usuário, melhorando a relevância das informações apresentadas.
 
-Evolução dos comportamentos de pesquisa na Web
+## Evolução dos comportamentos de pesquisa na Web
+
 À medida que as pessoas pesquisam on-line, a maneira como pesquisam está mudando, e os mecanismos de pesquisa estão se ajustando para acompanhar. A seguir estão algumas das principais maneiras pelas quais as pessoas buscam informações atualmente:
 
 * **Intenção**: em vez de digitar palavras-chave exatas, os usuários agora expressam suas necessidades com frases como eu quero ou preciso. Motores de busca modernos entendem o propósito por trás dessas frases e dão resultados mais relevantes.
