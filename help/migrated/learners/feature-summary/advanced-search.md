@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Pesquisa viabilizada por IA no Adobe Learning Manager
 description: Saiba mais sobre a pesquisa viabilizada por IA no Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ No geral, a pesquisa viabilizada por IA do ALM é feita para ser completa, preci
 >
 >1. Os clientes que usam uma implementação sem periféricos precisam seguir a documentação da API para ativar a Pesquisa avançada
 >2. No momento, a pesquisa avançada não está disponível para o aplicativo Salesforce.
+>3. Os dados do cliente, incluindo conteúdo e transcrições, não são compartilhados com nenhum serviço externo para pesquisa viabilizada por IA. Todo o conteúdo permanece armazenado com segurança no sistema de armazenamento existente.
