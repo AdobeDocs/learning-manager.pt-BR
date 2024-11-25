@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: a0dfb899a2afad002662f2f8708925a812e73e96
+source-git-commit: eb7dfd6c170830d96ca9581ca023d543d7391c95
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 85%
+source-wordcount: '628'
+ht-degree: 84%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 85%
    * [Suporte para domínio personalizado](custom-domain.md)
    * [Recomendações no Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Transição do Gerenciador de FTP do Adobe](transition-from-ftp-manager.md)
+   * [Idiomas com suporte no Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [Descontinuações e alterações de API no Adobe Learning Manager](api-deprecations-list.md)
    * [Rotulagem de permissões no Adobe Learning Manager](white-label.md)
 * Começar {#get-started}
