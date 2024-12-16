@@ -4,10 +4,10 @@ title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 56%
+source-wordcount: '2662'
+ht-degree: 53%
 
 ---
 
@@ -16,6 +16,37 @@ ht-degree: 56%
 Esse recurso ajuda a definir funções personalizadas e atribuir responsabilidades específicas a um conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 
 Você pode criar uma função personalizada para fornecer habilidades limitadas de criação de um catálogo específico. Também pode criar uma função dedicada ao gerenciamento de relatórios. Tais funções podem, então, ser atribuídas a indivíduos que deveriam assumir essas responsabilidades específicas.
+
+Os administradores podem criar funções personalizadas de administrador e autor com permissões personalizadas para cada função. Veja abaixo uma visão geral das permissões associadas a cada função:
+
+**Permissões de Função de Autor Personalizadas**
+
+Autores personalizados podem realizar as seguintes tarefas:
+
+* Acesse a biblioteca de conteúdo para adicionar, editar ou excluir conteúdo principal.
+* Criar, editar e excluir:
+   * Cursos
+   * Ajudas de tarefa
+   * Certificações
+   * Caminhos de aprendizado
+   * Planos de aprendizado
+
+Administradores e autores, incluindo administradores e autores personalizados, terão a capacidade de compartilhar objetos de aprendizado (LOs) em catálogos compartilhados externamente. Os administradores e autores devem poder pesquisar catálogos compartilhados externamente ao criar objetos de aprendizado (LOs).
+
+**Permissões de Função de Administrador Personalizadas**
+
+A função de administrador personalizada replica um conjunto de responsabilidades de administrador, incluindo o acesso a privilégios em nível de conta. Os administradores personalizados recebem permissões para gerenciar os principais recursos relacionados às atividades de aprendizado, como:
+
+* Planos de aprendizado
+* Catálogos
+* Relatórios
+* Tags
+
+Além disso, os administradores personalizados podem:
+
+* Gerenciar cursos e ajudas de tarefa, incluindo a inscrição e a exclusão de usuários.
+* Criar, editar e excluir certificações, programações de aprendizado e planos de aprendizado.
+* Acessar os recursos de relatório e inscrição para todos os objetos de aprendizado (LOs).
 
 Os administradores agora podem exibir as permissões criadas por CSV no Adobe Learning Manager. A opção Filtrar por filtra as funções personalizadas pelo administrador criadas e importadas por meio de um CSV. Depois de selecionar uma função personalizada, você pode ver suas permissões.
 
@@ -32,7 +63,9 @@ _Filtrar funções personalizadas_
    *Criar uma função personalizada*
 
 3. Insira o nome no campo **[!UICONTROL Nome da Função]**.
-4. **[!UICONTROL Privilégios de conta]**: esses privilégios concedem aos proprietários da função acesso a aspectos específicos de configuração do sistema e que atuam na conta inteira. Escolha as permissões de acesso. O usuário obtém controle total sobre as permissões atribuídas. Os administradores podem conceder permissões detalhadas para a seção Usuário, que tem Usuários internos/externos, Grupos de usuários e Usuários avançados.
+4. **[!UICONTROL Privilégios de conta]**: esses privilégios concedem aos proprietários da função acesso a aspectos específicos de configuração do sistema e que atuam na conta inteira. Escolha as permissões de acesso. O usuário recebe controle total sobre as permissões atribuídas.
+
+   Os administradores podem conceder permissões detalhadas para a seção Usuário, que tem Usuários internos/externos, Grupos de usuários e Usuários avançados.
 
    >[!NOTE]
    >
@@ -43,7 +76,9 @@ _Filtrar funções personalizadas_
 
    *Definir o escopo*
 
-5. **Privilégios do recurso - recursos principais**: usado para conceder acesso a recursos específicos para gerenciar atividades de aprendizado. As permissões para os seguintes recursos podem ser fornecidas usando essa opção. Os administradores podem fornecer permissões detalhadas, como somente leitura, criar, editar e excluir permissões para os catálogos.
+5. **Privilégios do recurso - recursos principais**: usado para conceder acesso a recursos específicos para gerenciar atividades de aprendizado. Através dessa opção é possível conceder permissões aos recursos a seguir.
+
+   Os administradores podem fornecer permissões detalhadas, como somente leitura, criar, editar e excluir permissões para os catálogos.
 
    * Catálogos
    * Relatórios
@@ -60,7 +95,7 @@ _Filtrar funções personalizadas_
    * Ajudas de tarefa
    * Programas de aprendizado
 
-   Você também pode conceder controle de operação específico para os OAs. A permissão pode ser uma das seguintes opções:
+   Você também pode conceder um controle de operação específico para os objetos de aprendizado. A permissão pode ser uma das seguintes opções:
 
    * Somente leitura
    * Criar 
