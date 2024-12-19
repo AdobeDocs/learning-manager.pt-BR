@@ -4,9 +4,9 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
+source-git-commit: eb93f8c5fd3d64366756840789b984ca986dbf0b
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -413,8 +413,17 @@ Se o dispositivo estiver incluído no perfil de provisionamento, a instalação 
 
 **Para arquivo apk**
 
+>[!IMPORTANT]
+>
+>Antes de executar o comando `apksigner`, execute os seguintes comandos para exportar a senha do armazenamento de chaves e a senha do alias da chave como variáveis de ambiente:
+>
+>```
+>export KS_PASS=your_keystore_password
+>export KEY_PASS=your_key_password
+>```
+
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile. --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
 
 >[!NOTE]
