@@ -4,9 +4,9 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ A pasta `<root>` contém o arquivo **Runner.xcarchive.zip**. Execute os comandos
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Retorne à pasta `<root>` (onde Runner.xcarchive.zip está localizado):
+4. Execute o seguinte comando para atualizar suas informações de assinatura para a biblioteca de estrutura:
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. Retorne à pasta `<root>` (onde Runner.xcarchive.zip está localizado):
 
    ```
    cd <root>
    ```
 
-5. Exporte o arquivo usando o xcodebuild:
+6. Exporte o arquivo usando o xcodebuild:
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. Localize o arquivo .ipa na pasta ipa_path.
-7. Carregar o arquivo .ipa no site `Diawi`.
-8. Após o upload completo, selecione o botão **[!UICONTROL Enviar]**.
-9. Após a conclusão, você receberá um código QR e um link.
-10. Abra o código QR ou link diretamente no Safari.
+7. Localize o arquivo .ipa na pasta ipa_path.
+8. Carregar o arquivo .ipa no site `Diawi`.
+9. Após o upload completo, selecione o botão **[!UICONTROL Enviar]**.
+10. Após a conclusão, você receberá um código QR e um link.
+11. Abra o código QR ou link diretamente no Safari.
 
 Se o dispositivo estiver incluído no perfil de provisionamento, a instalação deverá continuar no dispositivo.
 
@@ -408,8 +414,12 @@ Se o dispositivo estiver incluído no perfil de provisionamento, a instalação 
 **Para arquivo apk**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>O caminho para a ferramenta `apksigner` geralmente é semelhante a: ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
 
 **Para arquivo aab**
 
@@ -464,6 +474,36 @@ Você obterá o arquivo apk da pasta **[!UICONTROL output_dir]**.
 **Novidades**
 
 Depois de gerar os binários, envie-os para a Play Store ou App Store.
+
+### Enviar os aplicativos para a loja para revisão
+
+Depois de obter os binários finais, você pode carregá-los nas respectivas lojas de aplicativos (iOS ou Android) para revisão. Siga estas etapas para carregar os binários nas lojas de aplicativos.
+
+**iOS**
+
+1. Faça logon no aplicativo Transporter com suas credenciais do App Store.
+2. Selecione o botão **+** no canto superior esquerdo e carregue o certificado de produção (arquivo .ipa).
+3. Se o arquivo .ipa estiver correto, você será solicitado a fazer upload do aplicativo no App Store.
+4. Após a entrega do aplicativo, faça logon no App Store. Dentro de algumas horas, o binário aparecerá na seção TestFlight. Você pode ativá-lo para o teste de sanidade final no TestFlight antes da revisão do aplicativo e usar este IPA como binário ao enviar o aplicativo para uma nova versão.
+
+**Android**
+
+1. Abra o Console da Google Play Store.
+2. Vá para **[!UICONTROL Painel]** > **[!UICONTROL Exibir Versões de Aplicativos]** > **[!UICONTROL Painel de Versões]** e selecione **[!UICONTROL Criar Nova Versão]**.
+3. Faça upload do arquivo .aab gerado como o pacote de aplicativos e digite os detalhes da versão, como o número da versão e as informações de Novidades.
+4. Salve suas alterações e envie o aplicativo para revisão.
+5. Defina a distribuição do aplicativo como 100% (por padrão, o Google define-a como 20%).
+
+#### Links úteis para publicação de aplicativos
+
+**Android**
+
+[Criar e configurar seu aplicativo](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[Prepare seu aplicativo para revisão](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[Enviar para revisão](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## Como aplicar as alterações
 
