@@ -4,7 +4,7 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b7050db4b7129028ada51b15e2d76fce2bb62f64
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
 source-wordcount: '1987'
 ht-degree: 0%
@@ -17,9 +17,9 @@ O aplicativo Adobe Learning Manager para dispositivos móveis agora é compatív
 
 O ALM disponibilizará arquivos binários rotulados em branco atualizados de acordo com as seguintes linhas do tempo:
 
-1. Para versões principais do aplicativo móvel, os arquivos serão disponibilizados com duas semanas de antecedência
-2. Para todas as atualizações planejadas de correções urgentes, os arquivos serão disponibilizados com uma semana de antecedência
-3. Para correções não planejadas, urgentes e imediatas, os arquivos serão disponibilizados na base do melhor esforço possível
+1. Para versões principais do aplicativo para dispositivos móveis, os arquivos serão disponibilizados com duas semanas de antecedência.
+2. Para todas as atualizações planejadas de correções urgentes, os arquivos serão disponibilizados com uma semana de antecedência.
+3. Para correções não planejadas, urgentes e imediatas, os arquivos serão disponibilizados na base do melhor esforço possível.
 
 Os binários serão disponibilizados nas pastas designadas do cliente. Entre em contato com seus CSMs para acessar os arquivos. O cliente é responsável pela publicação oportuna e pelos processos relacionados.
 
