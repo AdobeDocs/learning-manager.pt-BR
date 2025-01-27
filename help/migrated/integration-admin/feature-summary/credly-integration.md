@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Credly
 description: Saiba mais sobre a integração de credenciais com o ALM para gerenciar e compartilhar medalhas externas da plataforma em vários canais de redes sociais
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ Siga estas etapas para adicionar o conector de crédito ao Adobe Learning Manage
 
 O arquivo badge.csv no Adobe Learning Manager permite migrar medalhas do LMS existente ou de sistemas externos. O arquivo badge.csv foi atualizado com duas novas colunas:
 
-* ID da medalha externa
-* Provedor de medalha externo.
+* externalBadgeId
+* externalBadgeProvider
 
 A ID da medalha externa se refere à ID do modelo de medalha na plataforma Credly, e o provedor de medalha externa é Credly. Adicione esses valores em badge.csv e siga as etapas mencionadas no [Manual de migração](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar o csv.
 
@@ -55,4 +56,3 @@ Depois que a medalha for importada para o Adobe Learning Manager, o administrado
 O autor/administrador pode atribuir essas medalhas ALM importadas por crédito a um curso, caminho de aprendizado ou certificação (não apenas habilidades) e, no consumo desses objetos de aprendizado, a medalha será obtida e pode ser exibida no aplicativo Credly e ALM.
 
 Os alunos podem fazer logon na Credly e ver as medalhas na plataforma Credly. Com a Credly, eles podem compartilhar as medalhas em plataformas externas, como o LinkedIn e outras mídias sociais.
-
