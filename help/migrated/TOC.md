@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: eb7dfd6c170830d96ca9581ca023d543d7391c95
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 84%
+source-wordcount: '634'
+ht-degree: 83%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 84%
    * [Adicionar usuários em massa](administrators/add-users-in-bulk.md)
    * [Representar um aluno e gerente](administrators/feature-summary/impersonation-learner-manager.md)
    * [Logons de SSO múltiplo](administrators/feature-summary/multiple-sso-logins.md)
+   * [Configurar o idioma da interface por meio do SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [Contas entre parceiros](administrators/feature-summary/peer-account.md)
    * [Criar e modificar habilidades e níveis](administrators/feature-summary/skills-levels.md)
    * [Recomendação de cursos baseada em IA](ai-based-recommendations.md)
@@ -68,7 +69,7 @@ ht-degree: 84%
    * [Comunicados](administrators/feature-summary/announcements.md)
    * [Modelos de e-mail](administrators/feature-summary/email-templates.md)
    * [Integração do Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
-   * [Configurações ](administrators/feature-summary/settings.md)
+   * [Configurações](administrators/feature-summary/settings.md)
    * [Notificações](administrators/feature-summary/user-notifications.md)
    * [Usuários de tablet Android e iPad](administrators/feature-summary/ipad-android-tablet-users.md)
    * [Remover usuários](administrators/feature-summary/purge-users.md)
@@ -99,7 +100,7 @@ ht-degree: 84%
    * [Instalar o conector do Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Manual do desenvolvedor de aplicativos](integration-admin/feature-summary/developer-manual.md)
    * [Aplicativo Learning Manager para Salesforce](integration-admin/feature-summary/sfdc-app.md)
-   * [Configurações ](integration-admin/feature-summary/settings.md)
+   * [Configurações](integration-admin/feature-summary/settings.md)
    * [Gerenciar funções personalizadas através de arquivos CSV](integration-admin/feature-summary/configure-role-csv-files.md)
 * Autores {#authors}
    * [Logon do usuário](authors/feature-summary/user-login.md)
@@ -113,7 +114,7 @@ ht-degree: 84%
    * [Modelos de e-mail](authors/feature-summary/email-templates-author.md)
    * [Como escolher os módulos do curso?](authors/how-to-choose-modules.md)
    * [Visualizar como aluno](authors/feature-summary/fluidic-player.md)
-   * [Configurações ](authors/feature-summary/settings.md)
+   * [Configurações](authors/feature-summary/settings.md)
 * Professor {#instructor}
    * [Módulos](instructors/feature-summary/modules.md)
    * [Gerenciamento dos alunos da sua sessão](instructors/feature-summary/learners.md)
@@ -149,7 +150,7 @@ ht-degree: 84%
    * [Objetos de aprendizado](managers/feature-summary/learning-objects.md)
    * [Notificações para o usuário](managers/feature-summary/user-notifications.md)
    * [Transcrições do aluno](managers/feature-summary/learner-transcripts.md)
-   * [Configurações ](managers/feature-summary/settings.md)
+   * [Configurações](managers/feature-summary/settings.md)
    * [Usuários de tablet Android e iPad](managers/feature-summary/ipad-android-tablet-users.md)
 * Perguntas Frequentes {#faq}
    * [Perguntas Frequentes para Administradores](administrators/frequently-asked-questions-for-administrators.md)

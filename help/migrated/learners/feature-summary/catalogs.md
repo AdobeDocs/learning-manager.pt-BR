@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Catálogos
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 6%
 
 ---
 
@@ -41,3 +41,30 @@ Você também pode filtrar de acordo com a duração de um treinamento. O filtro
 Os filtros **Duração** e **Formato** do treinamento são identificados com base no conteúdo de treinamento disponível para a instância padrão e para a localidade preferida da conta.
 
 Depois que um treinamento é publicado, ele pode levar até uma hora para que os dados fiquem disponíveis como filtro.
+
+## Classificação da funcionalidade no aplicativo do aluno
+
+O recurso de classificação no aplicativo do aluno fornece recomendações personalizadas do curso com base no conteúdo e no idioma da interface. &#x200B; Esse aprimoramento simplifica o processo para que os alunos encontrem cursos em seu idioma de preferência e utilizem opções de classificação mais inteligentes.
+
+>[!NOTE]
+>
+>Este recurso está disponível na Web e no aplicativo para dispositivos móveis.
+
+Você pode classificar os cursos em ordem alfabética:
+
+1. **[!UICONTROL Nome (A-Z)]**: exibe os cursos em ordem alfabética.
+2. **[!UICONTROL Nome (Z-A)]**: exibe os cursos em ordem alfabética inversa.
+
+Os cursos são exibidos na seguinte ordem de prioridade com base nas preferências de idioma:
+
+1. **[!UICONTROL Idioma do Conteúdo]**: os cursos no idioma do conteúdo selecionado aparecem primeiro.
+2. **[!UICONTROL Idioma da interface]**: os cursos no idioma da interface são listados a seguir.
+3. **[!UICONTROL Outros idiomas]**: os cursos em idiomas aleatórios são exibidos por último.
+
+Se nenhum idioma de conteúdo ou de interface estiver configurado na conta, o sistema seguirá esta sequência:
+
+1. **[!UICONTROL Idioma do navegador]**: o aplicativo prioriza cursos com base nas configurações de idioma do navegador.
+2. **[!UICONTROL Idioma da conta]**: se o idioma do navegador não estiver disponível, o idioma da conta do ALM será considerado.
+3. **[!UICONTROL Usar inglês como padrão]**: se o navegador ou o idioma da conta não estiver disponível, os cursos serão exibidos em inglês.
+
+Selecione a página **[!UICONTROL Catálogos]** no aplicativo do aluno e selecione sua opção de classificação preferida: **[!UICONTROL Nome (A-Z)]** ou **[!UICONTROL Nome (Z-A)]**. Os cursos serão exibidos de acordo com a sua preferência de classificação selecionada, com a priorização baseada no idioma aplicada.
