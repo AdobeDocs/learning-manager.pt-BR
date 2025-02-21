@@ -4,9 +4,9 @@ title: Importar habilidades de fontes externas
 description: Importe habilidades de provedores de conteúdo, como LinkedIn e Go1, usando os respectivos conectores.  As habilidades importadas serão adicionadas às habilidades definidas pelo administrador no Learning Manager e estarão disponíveis para os autores durante o fluxo de trabalho de criação do curso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
+source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Como administrador, você só pode importar habilidades de uma origem de habilid
 
 ### Nível de habilidade padrão
 
-O nível de habilidade padrão é um e Crédito é 10 após a migração das habilidades. Posteriormente, o administrador pode alterar o crédito.
+O nível de habilidade padrão é um e Crédito é 10 após a migração das habilidades.
 
 Não é possível editar o nome da habilidade, a descrição e adicionar níveis a habilidades externas. No entanto, você pode adicionar domínios, medalhas e editar créditos.
 
