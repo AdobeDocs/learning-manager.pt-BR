@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de n
 jcr-language: en_us
 title: Resumo dos novos recursos
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
 workflow-type: tm+mt
-source-wordcount: '3184'
+source-wordcount: '3255'
 ht-degree: 2%
 
 ---
@@ -188,6 +188,26 @@ Os professores removidos de uma sessão agora receberão apenas um email de canc
 Atualmente, os alunos são marcados como frequentados, mesmo se ingressarem em uma sessão de VILT (Virtual Instructor-Led Training, treinamento virtual ministrado por instrutor) por apenas alguns segundos. Com esta versão, introduzimos critérios de conclusão para módulos de equipes para garantir uma participação mais precisa. Os autores agora podem definir um tempo mínimo que os alunos devem passar em uma sessão VILT para que sua participação seja contada.
 
 Esse é um recurso de back-end que está desativado por padrão. Entre em contato com o CSM para ativá-lo.
+
+## Atualizando novos endereços IP para entrega de email
+
+Para aprimorar a confiabilidade de entrega de e-mails, estamos adicionando novos endereços IP ao nosso pool existente. Para garantir uma comunicação de email ininterrupta, atualize as configurações de email da sua organização conforme necessário.
+
+Atualmente, usamos os seguintes endereços IP para a entrega de email:
+
+* 149.72.162.66
+* 167.89.5.155
+
+Os seguintes endereços IP serão adicionados ao nosso pool de entrega de email:
+
+* 159.183.228.93
+* 159.183.225.26
+* 159.183.218.22
+* 168.245.57.144
+
+>[!NOTE]
+>
+>Se necessário, sugerimos colaborar com sua equipe de TI para incluir na lista de permissões os novos endereços IP.
 
 ## Alterações na migração
 
