@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Pesquisa viabilizada por IA no Adobe Learning Manager
 description: Saiba mais sobre a pesquisa viabilizada por IA no Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _Pesquisa semântica_
 
 ### Pesquisa no conteúdo
 
-A funcionalidade de pesquisa do Adobe Learning Manager foi aprimorada para pesquisar conteúdo real. Ele transcreve automaticamente vídeos, arquivos de áudio e PDF, incorporando essas transcrições nos resultados de pesquisa. Além disso, ele utiliza gravações de reuniões do Adobe Connect para fornecer resultados mais abrangentes e relevantes. Esse aprimoramento garante que os cursos com conteúdo avançado, como vídeos e notas de reunião, sejam incluídos, melhorando significativamente a precisão e a eficácia da pesquisa.
+A funcionalidade de pesquisa do Adobe Learning Manager foi aprimorada para pesquisar conteúdo real. Ele transcreve automaticamente vídeos, arquivos de áudio, PDF, documentos, ppt e xls, incorporando essas transcrições nos resultados de pesquisa. Além disso, ele utiliza gravações de reuniões do Adobe Connect para fornecer resultados mais abrangentes e relevantes. Esse aprimoramento garante que os cursos com conteúdo avançado, como vídeos e notas de reunião, sejam incluídos, melhorando significativamente a precisão e a eficácia da pesquisa. A correspondência de conteúdo ajuda a melhorar a classificação dos resultados de pesquisa, dando um impulso aos resultados encontrados por meio da correspondência de frase tradicional e correspondência semântica.
 
 >[!NOTE]
 >
