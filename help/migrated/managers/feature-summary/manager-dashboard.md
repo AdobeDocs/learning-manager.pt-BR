@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Painel do gerente
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 49%
+source-wordcount: '1486'
+ht-degree: 47%
 
 ---
 
@@ -84,6 +84,10 @@ Para gerar um relatório do Excel, selecione **[!UICONTROL Ações] > [!UICONTRO
 ## Status da conformidade {#compliancestatus}
 
 No painel de conformidade, os gerentes podem exibir o status de conformidade geral da equipe para aprendizados configurados em categorias específicas (por exemplo, vendas, marketing e jurídico). Os administradores podem criar um painel com cursos de conformidade, programações de aprendizado ou certificação e compartilhar com os gerentes. Os gerentes podem exibir o painel compartilhado pelo administrador em suas instâncias.
+
+O Usuário A é o gerente do Usuário B, Usuário C, Usuário D e Usuário E. O Usuário B e o Usuário C são gerentes de suas respectivas equipes.
+
+O Usuário A pode exibir relatórios de seus subordinados diretos (Usuário B, Usuário C, Usuário D e Usuário E) e das equipes gerenciadas pelo Usuário B e pelo Usuário C.
 
 ### Exibir o painel
 

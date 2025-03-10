@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Medalhas
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 51%
@@ -70,7 +70,7 @@ No aplicativo do aluno, na página Medalhas, há uma opção chamada Configurar 
 
 ## Atualização de medalha
 
-Um aluno pode atualizar a sua medalha para a medalha mais recente selecionando a medalha e clicando em **Atualizar **na seção superior direita da página. Uma atualização de medalha ocorre em caso de alterações na imagem da medalha ou medelha do objeto de aprendizado feitas por um administrador/autor.
+Um aluno pode atualizar a sua medalha para a medalha mais recente selecionando a medalha e clicando em **Atualizar** na seção superior direita da página. Uma atualização de medalha ocorre em caso de alterações na imagem da medalha ou medelha do objeto de aprendizado feitas por um administrador/autor.
 
 Esse processo de atualização da página é chamado de Recozimento manual. Nesse caso, a medalha é recarregada na mochila do Badgr após a conclusão da cozimento, mesmo que tenha a mesma imagem/nome da medalha. Após atualizar a medalha, o aluno recebe uma notificação de que a atualização foi concluída.
 
