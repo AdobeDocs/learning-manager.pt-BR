@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Painel do gerente
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 47%
+source-wordcount: '1499'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,8 @@ Os gerentes desempenham um papel importante nas iniciativas de aprendizado de um
 *Relatório do painel para um gerente*
 
 Para ver os detalhes de um gráfico, clique no gráfico ou clique no hiperlink **[!UICONTROL Detalhes]**.
+
+Os gerentes também podem exibir o painel da equipe de nível superior. Por exemplo, o Usuário A é o gerente do Usuário B, o Usuário C, o Usuário D e o Usuário E. O Usuário B e o Usuário C são gerentes de suas respectivas equipes. O Usuário A pode exibir relatórios de seus subordinados diretos (Usuário B, Usuário C, Usuário D e Usuário E) e das equipes gerenciadas pelo Usuário B e pelo Usuário C.
 
 ## Resumo do aprendizado {#learningsummary}
 
@@ -84,10 +86,6 @@ Para gerar um relatório do Excel, selecione **[!UICONTROL Ações] > [!UICONTRO
 ## Status da conformidade {#compliancestatus}
 
 No painel de conformidade, os gerentes podem exibir o status de conformidade geral da equipe para aprendizados configurados em categorias específicas (por exemplo, vendas, marketing e jurídico). Os administradores podem criar um painel com cursos de conformidade, programações de aprendizado ou certificação e compartilhar com os gerentes. Os gerentes podem exibir o painel compartilhado pelo administrador em suas instâncias.
-
-O Usuário A é o gerente do Usuário B, Usuário C, Usuário D e Usuário E. O Usuário B e o Usuário C são gerentes de suas respectivas equipes.
-
-O Usuário A pode exibir relatórios de seus subordinados diretos (Usuário B, Usuário C, Usuário D e Usuário E) e das equipes gerenciadas pelo Usuário B e pelo Usuário C.
 
 ### Exibir o painel
 
