@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adicionar usuários e criar grupos de usuários
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '4150'
-ht-degree: 59%
+source-wordcount: '4231'
+ht-degree: 58%
 
 ---
 
@@ -359,6 +359,16 @@ Além dos grupos Gerados automaticamente, é possível criar grupos Personalizad
 
 O Grupo personalizado foi criado e adicionado ao perfil. Os Grupos de usuários criados são dinâmicos por natureza. Caso novos usuários com atributos similares sejam adicionados, eles serão adicionados automaticamente ao Grupo de usuários.
 
+Para exibir a lista de grupos aos quais um usuário pertence, navegue até **[!UICONTROL Usuário]** > **[!UICONTROL Grupos de Usuários]**, procure o nome do usuário e selecione-o. Isso exibirá todos os grupos dos quais o usuário faz parte.
+
+![](assets/list-of-group.png)
+
+### Baixar a lista de usuários em um grupo de usuários
+
+Para baixar a lista de usuários em um grupo de usuários específico, navegue até **[!UICONTROL Usuário]** > **[!UICONTROL Grupos de Usuários]**, selecione o **[!UICONTROL ícone de download]** ao lado do grupo. Isso vai gerar um arquivo CSV contendo a lista de usuários nesse grupo.
+
+![](assets/download-list-of-user.png)
+
 ## Exclusão de grupos de usuários
 
 Às vezes, você deseja excluir um pequeno conjunto de usuários de um grande grupo de usuários. Isso é necessário para inscrever esse conjunto específico de usuários no treinamento por meio de Planos de aprendizado ou para configurar a visibilidade correta dos catálogos. Nesta versão do Learning Manager, você pode excluir alunos ou grupos de usuários ao criar um grupo de usuários personalizado. Na caixa de diálogo Adicionar grupo de usuários, a seção Excluir alunos permite isso.
@@ -425,7 +435,7 @@ Adicione valores personalizados semelhantes aos usados para usuários internos.
 ![](assets/modify-values-forexternalusers.png)
 *Modificar valores para usuários externos*
 
-### Configurações  {#settings}
+### Configurações {#settings}
 
 **Exibição do usuário**
 

@@ -3,10 +3,10 @@ title: Novidades desta versão (abril de 2023)
 description: Saiba mais sobre os novos recursos e as melhorias no Adobe Learning Manager
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3205'
+ht-degree: 61%
 
 ---
 
@@ -216,13 +216,20 @@ Se a opção Alternância de Instância estiver ativada, os alunos poderão alte
 
 Quando o aluno seleciona **Exibir todas as instâncias**, o aluno pode ver todas as instâncias do curso.
 
-![exibir todas as instâncias](assets/view-all-instances-new.png)
+![texto alternativo](assets/view-all-instance.png)
 
-Um administrador pode alternar as instâncias dos alunos.
+_Exibir toda a página de instância do console do aluno_
 
-![alternar instâncias](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_Alternar instância da página do aluno_
+
+Um administrador pode alternar instâncias para os alunos. Selecione um curso no Admin Console, vá para a seção **[!UICONTROL Alunos]**, escolha um usuário e clique no botão **[!UICONTROL Ação]**. Em seguida, selecione **[!UICONTROL Alternar Instância]** e escolha a instância desejada.
+
+![texto alternativo](assets/switch-instance-admin.png)
+_Alternar instância do Admin Console_
 
 ![selecionar instâncias de comutação](assets/switch-instances-select.png)
+_Prompt de alternar instância_
 
 Não é possível alternar instâncias até que qualquer instância do curso seja concluída no aplicativo do aluno ou do administrador.
 

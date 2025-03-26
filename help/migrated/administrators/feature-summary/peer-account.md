@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Contas entre parceiros
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 62%
+source-wordcount: '638'
+ht-degree: 57%
 
 ---
 
@@ -31,6 +31,18 @@ O Learning Manager oferece a capacidade de compartilhar licenças compradas usan
    ![](assets/addpeer.png)
 
    *Adicionar um subdomínio*
+
+>[!NOTE]
+>
+>Para localizar o subdomínio de outra conta, verifique o URL da conta. O subdomínio aparece antes do domínio principal e ajuda a identificar a conta específica.
+>
+>Por exemplo:
+>
+>Na URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname), o subdomínio é **accountname**.
+>
+>Na URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com), o subdomínio também é **accountname**.
+>
+>O subdomínio é exclusivo para cada conta e é usado para acessar a respectiva instância do Learning Manager.
 
 1. Insira a ID de e-mail do administrador que aceita ou rejeita a solicitação da conta entre parceiros.
 1. Especifique o número de licenças que deseja compartilhar com o seu parceiro. Quando você compartilha licenças com a conta entre parceiros, a conta entra no estado Ativo com as licenças recebidas ou com as próprias licenças compradas pelo parceiro.

@@ -4,10 +4,10 @@ title: Requisitos do sistema
 description: Requisitos de sistema do Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 65%
+source-wordcount: '590'
+ht-degree: 62%
 
 ---
 
@@ -39,7 +39,7 @@ Mínimo de 5 GB de espaço em disco disponível.
 
 É necessário um microfone para gravação de áudio; uma webcam é necessária para gravação de vídeo.
 
-## Aplicativo para dispositivos móveis
+## Aplicativo móvel
 
 ### Dispositivos
 
@@ -85,7 +85,10 @@ A página inicial de layout imersivo não é compatível com navegadores IE 11.
 
 ## Tamanho recomendado das imagens {#recommendedsizeofimages}
 
-* Manchete: 1280 x 360 px.
+* Manchete:
+   * Para configurações tão grandes: 1280 x 360 PX
+   * Para configurações como médias: 1280 x 273 PX
+   * Para configurações tão pequenas: 1280 x 187 PX
 * Imagem no cartão de catálogo: 280 x 100 px
 * Dimensão do cartão de treinamento: 300 x 240 px
 * Banner social: 1600 x 240 px

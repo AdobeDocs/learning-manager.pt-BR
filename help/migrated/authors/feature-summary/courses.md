@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '7145'
-ht-degree: 72%
+source-wordcount: '7163'
+ht-degree: 71%
 
 ---
 
@@ -699,7 +699,7 @@ No cartão do curso, passe o mouse sobre as opções e clique em **[!UICONTROL E
 
 ## Retirar um curso {#retireacourse}
 
-Se retirar um curso, você não pode inscrever alunos novos no curso. Os alunos que já estão inscritos podem realizar o curso.
+Retirar um curso o ocultará dos alunos, mesmo que eles estejam inscritos ou já o tenham concluído. Se retirar um curso, você não pode inscrever alunos novos no curso. Os alunos que já estão inscritos podem realizar o curso.
 
 Para retirar um curso, no cartão do curso, passe o mouse sobre as opções e clique em Retirar curso.
 

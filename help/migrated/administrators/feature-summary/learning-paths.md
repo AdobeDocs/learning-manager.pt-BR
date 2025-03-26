@@ -4,10 +4,10 @@ title: Caminhos de aprendizado
 description: Criação de planos de aprendizado para administradores no Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 37%
+source-wordcount: '1334'
+ht-degree: 35%
 
 ---
 
@@ -111,15 +111,13 @@ No Caminho de aprendizado, você pode executar o seguinte:
 
 Depois de fazer as alterações, para publicar o Caminho de aprendizado, clique em Publish.
 
-## Caminho de aprendizado aninhado
+## Caminho de aprendizado aninhado ou aprimorado
 
-Você pode incluir um caminho de aprendizado em um caminho de aprendizado, mas pode aninhar no máximo um caminho de aprendizado.
-
-Insira o Caminho de aprendizado como se insere um curso.
+Um caminho de aprendizado aninhado ou aprimorado é um caminho de aprendizado que contém vários caminhos de aprendizado dentro dele. Para inserir um caminho de aprendizado, siga o mesmo processo que adicionar um curso em um caminho de aprendizado.
 
 ![](assets/nested-learning-path.png)
 
-*Adicionar um Caminho de Aprendizado em um Caminho de Aprendizado*
+*Caminho de Aprendizado aninhado ou aprimorado*
 
 ## Configurações do Caminho de aprendizado
 

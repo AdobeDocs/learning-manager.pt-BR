@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Logon
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 58%
+source-wordcount: '196'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 58%
 
 Efetue logon como aluno no Learning Manager.
 
-Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua conta seguindo as etapas abaixo:
+Ao usar o Adobe Learning Manager pela primeira vez, os alunos precisam criar uma conta. Você pode fazer isso de duas maneiras:
+
+* Autorregistro: use o URL fornecido no email de boas-vindas para criar sua conta.
+* Conta criada pelo administrador: um administrador pode criar uma conta em seu nome.
+
+## Criar uma conta usando o URL do e-mail de boas-vindas
+
+Siga estas etapas para criar sua conta usando o URL do email de boas-vindas:
 
 1. Inicie o Adobe Learning Manager usando o link seguro que recebeu no e-mail de boas-vindas do seu administrador.
 

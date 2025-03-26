@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Meus aprendizados
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '3080'
 ht-degree: 63%
 
 ---
@@ -99,6 +99,37 @@ Você pode se registrar para indicar interesse em qualquer curso de sala de aula
 >[!NOTE]
 >
 >Os alunos devem ver uma mensagem de conflito se se inscreverem em duas sessões diferentes ao mesmo tempo ou em horários de sobreposição.
+
+## Alternar instâncias
+
+Um aluno inscrito em uma instância específica de um curso pode visualizar uma lista de todas as instâncias disponíveis do curso e alternar para outra instância que funcione melhor para ele. A razão para alternar pode ser o aluno não ter participado da instância anterior, o tempo de sessão da nova instância é mais adequado ou pode ser algo diferente.
+
+Qualquer progresso feito pelo aluno como parte do curso, pontuações do questionário do aluno etc., é transferido para a nova instância. Esse recurso destina-se principalmente a cursos em sala de aula e combinados, mas ofereceremos suporte a todos os tipos de cursos, incluindo cursos individualizados.
+
+A opção Exibir todas as instâncias é exibida independentemente das configurações de Alternância de Instância. Os alunos agora verão uma opção para exibir todas as instâncias se houver mais de uma instância de um curso.
+
+Se a opção Alternância de Instância estiver ativada, os alunos poderão alternar para várias instâncias até concluírem o curso. Se a opção estiver desativada, os alunos poderão ver as instâncias, mas não poderão se inscrever no curso.
+
+Quando o aluno seleciona **Exibir todas as instâncias**, o aluno pode ver todas as instâncias do curso.
+
+![texto alternativo](assets/view-all-instance.png)
+
+_Exibir toda a página de instância do console do aluno_
+
+![](assets/switch-instance-learner.png)
+_Alternar instância da página do aluno_
+
+Um administrador pode alternar instâncias para os alunos. Selecione um curso no Admin Console, vá para a seção **[!UICONTROL Alunos]**, escolha um usuário e clique no botão **[!UICONTROL Ação]**. Em seguida, selecione **[!UICONTROL Alternar Instância]** e escolha a instância desejada.
+
+![texto alternativo](assets/switch-instance-admin.png)
+_Alternar instância do Admin Console_
+
+![selecionar instâncias de comutação](assets/switch-instances-select.png)
+_Prompt de alternar instância_
+
+Não é possível alternar instâncias até que qualquer instância do curso seja concluída no aplicativo do aluno ou do administrador.
+
+Os autores, ao criar um curso, podem alternar entre ativar ou desativar a “Opção de instância”. A Alternância de instância está disponível apenas para cursos gratuitos.
 
 ## Fluxo de trabalho como aluno
 

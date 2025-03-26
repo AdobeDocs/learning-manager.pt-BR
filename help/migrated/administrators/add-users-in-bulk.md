@@ -4,10 +4,10 @@ title: Adicionar usuários em massa
 description: Saiba como adicionar vários usuários de uma vez.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 24%
+source-wordcount: '341'
+ht-degree: 22%
 
 ---
 
@@ -38,6 +38,10 @@ Você pode adicionar vários usuários de uma vez seguindo as etapas abaixo:
 Não é obrigatório adicionar o perfil do usuário e a ID de e-mail do gerente no CSV. O nome de usuário e a ID de e-mail do usuário são os únicos campos obrigatórios.
 
 Nesse caso, por padrão, o administrador da sua empresa é tratado como o gerente dos usuários. Por padrão, o funcionário é considerado como o perfil do usuário.
+
+>[!NOTE]
+>
+>Para adicionar novos usuários, crie um novo arquivo CSV com seus detalhes e faça upload. Não é possível atualizar e reenviar um arquivo CSV existente.
 
 **CSV de exemplo**
 

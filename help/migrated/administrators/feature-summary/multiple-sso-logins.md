@@ -3,10 +3,10 @@ description: O Adobe Learning Manager oferece suporte a vários métodos de logo
 title: Logons de SSO Múltiplo
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 39%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
@@ -26,14 +26,19 @@ Até 20 configurações de SSO podem ser adicionadas a uma conta. Elas podem ser
 
 Para habilitar SSO múltiplo, selecione **Configurações** > **Métodos de Logon**.
 
-Na página de configuração, marque a caixa de seleção &#39;Ativar logon único múltiplo (SSO)&#39; para usuários internos ou externos.
+Na página de configuração, marque a caixa de seleção &#39;**[!UICONTROL Habilitar Logon Único Múltiplo (SSO)]**&#39; para usuários internos ou externos.
 
 Quando o SSO Múltiplo está ativado, o método de logon selecionado para &#39;Método de logon padrão&#39; se torna o tipo de logon padrão para grupos de usuários/perfis que não estão vinculados a nenhuma configuração de SSO. O logon padrão pode ser Adobe ID, SSO ou ALM ID (usuários externos).
+
+>[!NOTE]
+>
+>Administradores e administradores personalizados com as permissões necessárias podem executar essas etapas.
 
 Para configurar um SSO, siga as etapas abaixo:
 
 1. Clique em Configuração de logon único (SSO).
-1. Clique em Adicionar nova configuração de SSO.
+1. Clique em Adicionar nova configuração de SSO.\
+   ![](assets/sso.png)
 1. Na caixa de diálogo Configuração de SSO, adicione o seguinte:
 
    * Insira o nome do SSO.
