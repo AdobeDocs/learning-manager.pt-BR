@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Representação do aluno e do gerente
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 59%
 
 ---
 
@@ -55,7 +55,7 @@ Para representar um usuário, siga as etapas abaixo:
 
 **Uma sessão representada dura 60 minutos.**
 
-Ao alterar para a função de aluno ou gerente, é exibida uma mensagem indicando que o administrador/administrador personalizado está no modo de representação do usuário.
+Ao alterar para a função de aluno ou gerente, é exibida uma mensagem indicando que o administrador está no modo de representação do usuário.
 
 ## Relatório de logon e acesso
 
