@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Representação do aluno e do gerente
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
+source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 70%
+source-wordcount: '534'
+ht-degree: 64%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 70%
 
 Em grandes organizações, a equipe de suporte ao cliente precisa de capacidade de representação para depurar problemas enfrentados pelos alunos.
 
-Com essa capacidade de representar outros usuários, os administradores e os administradores personalizados podem identificar e executar todas as atividades feitas pelos alunos e gerentes de suas organizações.
+Com essa capacidade de representar outros usuários, os administradores podem identificar e executar todas as atividades feitas pelos alunos e gerentes de suas organizações.
+
+>[!NOTE]
+>
+>Os administradores personalizados não têm a capacidade de representar usuários; somente os administradores podem realizar a representação do usuário.
 
 ## Como funciona
 
-Os administradores (e/ou os administradores personalizados) podem pesquisar um usuário (interno ou externo) e, em seguida, representar um usuário. O administrador é redirecionado para a página do usuário (aplicativo do gerente, se aplicável, ou aplicativo do aluno) e faz o logon do administrador fora da sessão. O administrador é redirecionado para a página Concluir seu perfil, caso ela esteja configurada para o usuário que foi representado pelo administrador.
-
-Se um administrador personalizado tiver permissão para acessar a página de um usuário, ele poderá pesquisar usuários que deseja representar.
+Os administradores podem pesquisar um usuário (interno ou externo) e, em seguida, representar um usuário. O administrador é redirecionado para a página do usuário (aplicativo do gerente, se aplicável, ou aplicativo do aluno) e faz o logon do administrador fora da sessão. O administrador é redirecionado para a página Concluir seu perfil, caso ela esteja configurada para o usuário que foi representado pelo administrador.
 
 Aqui está o que você deve ter em mente ao representar um usuário:
 
