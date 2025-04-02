@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Representação do aluno e do gerente
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
+source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 59%
+source-wordcount: '517'
+ht-degree: 56%
 
 ---
 
@@ -30,8 +30,7 @@ Aqui está o que você deve ter em mente ao representar um usuário:
 * Todos os administradores veem esse recurso por padrão.
 * Somente usuários ativos na conta podem ser representados.
 * Um administrador não pode se representar.
-* Um administrador personalizado que tenha acesso à página Usuários pode representar usuários.
-* Um administrador/administrador personalizado só pode representar por 60 minutos.
+* Um administrador só pode representar por 60 minutos.
 * Um administrador personalizado com acesso somente leitura não pode representar usuários.
 
 ## Representar um usuário
