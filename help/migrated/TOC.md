@@ -2,7 +2,7 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 1985b1db6e4ec5fdbe3cfa939ce404e9cf3a6ee9
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 83%
@@ -27,7 +27,6 @@ ht-degree: 83%
    * [Conformidade do Learning Manager com o GDPR](kb/prime-gdpr.md)
    * [Acessibilidade no Learning Manager](accessibility-learning-manager.md)
    * [Suporte para domínio personalizado](custom-domain.md)
-   * [Recomendações no Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Transição do Gerenciador de FTP do Adobe](transition-from-ftp-manager.md)
    * [Idiomas com suporte no Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [Descontinuações e alterações de API no Adobe Learning Manager](api-deprecations-list.md)
@@ -58,6 +57,7 @@ ht-degree: 83%
    * [Configurar o idioma da interface por meio do SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [Contas entre parceiros](administrators/feature-summary/peer-account.md)
    * [Criar e modificar habilidades e níveis](administrators/feature-summary/skills-levels.md)
+   * [Recomendações no Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Recomendação de cursos baseada em IA](ai-based-recommendations.md)
    * [Importar habilidades](administrators/feature-summary/import-skills-external-sources.md)
    * [Gamificação](administrators/feature-summary/gamification.md)

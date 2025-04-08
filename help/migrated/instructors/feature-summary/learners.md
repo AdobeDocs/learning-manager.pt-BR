@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gerenciamento dos alunos da sua sessão
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 84%
+source-wordcount: '1056'
+ht-degree: 82%
 
 ---
 
@@ -92,6 +92,12 @@ Para enviar e-mails aos alunos, na página Alunos do aplicativo do professor, si
 
 * Para enviar e-mails a participantes específicos, selecione o participante e clique em Ações > Enviar e-mail aos selecionados.
 * Para enviar um e-mail a todos os participantes a fim de enviar material do curso ou uma atribuição, clique em Ações > Enviar e-mail a todos.
+
+## Capturar respostas ao convite
+
+Você pode ver as respostas dos convites na seção Alunos. Vá para qualquer sessão, selecione **[!UICONTROL Alunos]** e selecione a resposta ao convite no menu suspenso.
+
+![](assets/invitation-status.png)
 
 ## Exportar lista de alunos {#exportinglearnerslist}
 

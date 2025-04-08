@@ -4,9 +4,9 @@ title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2685'
 ht-degree: 53%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 53%
 Esse recurso ajuda a definir funções personalizadas e atribuir responsabilidades específicas a um conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 
 Você pode criar uma função personalizada para fornecer habilidades limitadas de criação de um catálogo específico. Também pode criar uma função dedicada ao gerenciamento de relatórios. Tais funções podem, então, ser atribuídas a indivíduos que deveriam assumir essas responsabilidades específicas.
+
+>[!NOTE]
+>
+>Adicionar uma nova função personalizada não afetará grupos de usuários personalizados existentes ou quaisquer grupos baseados em funções, como Todos os administradores, Todos os autores etc.
 
 Os administradores podem criar funções personalizadas de administrador e autor com permissões personalizadas para cada função. Veja abaixo uma visão geral das permissões associadas a cada função:
 

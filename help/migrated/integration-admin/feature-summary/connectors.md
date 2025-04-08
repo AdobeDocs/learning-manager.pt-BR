@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '15848'
+source-wordcount: '15865'
 ht-degree: 59%
 
 ---
@@ -1084,6 +1084,10 @@ O Adobe Learning Manager requer os escopos abaixo e eles devem ser selecionados 
 * Exibir dados do relatório `/report:read:admin`
 * Exibir todas as informações do usuário `/user:read:admin`
 * Exibir informações dos usuários e gerenciar usuários `/user:write:admin`
+* Adicionar um inscrito de reunião `/meeting:write:registrant:admin`
+* Listar todos os inscritos na reunião `/meeting:read:list_registrants:admin`
+* Exibir e gerenciar reuniões de usuário da subconta `/meeting:write:meeting:master`
+* Exibir dados do relatório `/report:read:list_meeting_participants:admin`
 
 ## Conector do Box {#box_connector}
 
