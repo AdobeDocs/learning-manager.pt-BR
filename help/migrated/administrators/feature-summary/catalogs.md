@@ -4,7 +4,7 @@ title: Catálogos
 description: Os catálogos são uma coleção de aprendizado - cursos, programas de aprendizado e certificações. Use os catálogos para proporcionar acesso a um conjunto personalizado de aprendizado aos alunos. Você pode associar o aprendizado a um catálogo durante a criação de um novo catálogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 72%
@@ -21,7 +21,7 @@ Como administrador, você pode criar catálogos personalizados se desejar dispon
 
 Neste treinamento, você aprenderá como criar e gerenciar catálogos.
 
-[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
@@ -145,7 +145,7 @@ Cursos, programas de aprendizado, ajudas de tarefa e certificações são objeto
 
 Este treinamento ensinará como compartilhar catálogos com grupos de usuários internos e contas externas da Adobe Learning Manager.
 
-[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 

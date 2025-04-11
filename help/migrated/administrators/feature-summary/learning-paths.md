@@ -4,7 +4,7 @@ title: Caminhos de aprendizado
 description: Criação de planos de aprendizado para administradores no Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 35%
@@ -25,7 +25,7 @@ Por exemplo, quando se admite novos funcionários, uma organização realiza tre
 
 Neste treinamento, você aprenderá a criar um caminho de aprendizado, adicionar um curso a ele, publicar e desativar um caminho de aprendizado e configurar instâncias em um caminho de aprendizado.
 
-[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318919)
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 

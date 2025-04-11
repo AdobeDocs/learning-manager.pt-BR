@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adicionar usuários e criar grupos de usuários
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '4290'
 ht-degree: 57%
@@ -22,7 +22,7 @@ Saiba como adicionar usuários ou grupos de usuários no aplicativo Learning Man
 
 >[!INFO]
 >
->Neste treinamento, você aprenderá como criar um grupo de usuários por nomes, IDs de e-mail e combinar vários grupos de usuários gerados automaticamente.<br><br>[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)</br></br>
+>Neste treinamento, você aprenderá como criar um grupo de usuários por nomes, IDs de e-mail e combinar vários grupos de usuários gerados automaticamente.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
 
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
@@ -53,7 +53,7 @@ Adicione alunos internos ao Adobe Learning Manager usando uma opção de usuári
 
 >[!INFO]
 >
->Neste treinamento, você aprenderá como adicionar alunos internos ao Adobe Learning Manager.<br><br>[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)</br></br>
+>Neste treinamento, você aprenderá como adicionar alunos internos ao Adobe Learning Manager.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
 
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
@@ -83,7 +83,7 @@ Para adicionar usuários,
 
 Neste treinamento, você aprenderá como atribuir e remover funções, enviar um email de boas-vindas e excluir e limpar usuários.
 
-[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
@@ -178,7 +178,7 @@ Os campos ativos no Adobe Learning Manager são campos personalizáveis de metad
 
 >[!INFO]
 >
->Neste treinamento, você aprenderá como adicionar, personalizar e configurar campos ativos.<br><br>[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)</br></br>
+>Neste treinamento, você aprenderá como adicionar, personalizar e configurar campos ativos.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 

@@ -4,7 +4,7 @@ title: Personalizar a página inicial do aluno
 description: Um administrador pode personalizar a página inicial do aluno e torná-la mais moderna, orientada por conteúdo e personalizada para um aluno.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 46%
@@ -25,7 +25,7 @@ A experiência é orientada por recomendações de treinamento personalizadas de
 
 Neste treinamento, você explorará maneiras de personalizar a página inicial do aluno.
 
-[![botão](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318825)
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
