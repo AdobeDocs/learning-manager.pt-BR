@@ -31,9 +31,9 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 ## Configurar a página inicial do aluno {#configurethelearnerhomepage}
 
-Na página **Marcas** > **Página inicial do aluno**, um administrador pode personalizar a experiência da página inicial de um aluno para que, quando ele entrar no aplicativo do aluno, ele veja uma aparência completamente renovada.
+On the **Branding** > **Learner Homepage** page, an Administrator can customize the homepage experience of a learner, so that when the learner signs into the learner app, he/she sees a completely revamped look and feel.
 
-Os administradores podem definir a interface do usuário (aparência e funcionalidade) no aplicativo do administrador (**Marcas** > guia **Página inicial do aluno**).
+Admins can set the UI (look and feel) from the Admin app (**Branding** > **Learner Home Page** tab).
 
 Os administradores podem alternar para a exibição Widget de interface de usuário imersiva, personalizar os widgets/recursos de acordo e, em seguida, ativar a interface de usuário imersiva.
 
@@ -78,25 +78,25 @@ Se houver menos de 1.000 alunos, a conta inteira será considerada como um escop
 
 >[!NOTE]
 >
->A caixa de seleção **Explorar habilidades** foi movida para Configurações > Geral.
+>The check-box **Explore skills** has been moved to Settings > General.
 
-Isso será ativado e esmaecido se a experiência imersiva for escolhida. Essa caixa de seleção será ativada somente para a experiência Clássica.
+This will be enabled and grayed out if Immersive experience is chosen. Essa caixa de seleção será ativada somente para a experiência Clássica.
 
 ![](assets/option-immersive.png)
 
-*Configurações da página inicial do aluno*
+*Learner homepage settings*
 
-O layout imersivo é o padrão para todas as novas contas. A layout é controlada por widgets que um administrador pode ativar ou desativar. Com base em como os widgets são posicionados, o mesmo é refletido na página inicial do aluno.
+The immersive layout is the default for all new accounts. A layout é controlada por widgets que um administrador pode ativar ou desativar. Com base em como os widgets são posicionados, o mesmo é refletido na página inicial do aluno.
 
-Aqui estão os widgets que você pode ativar/desativar.
+Here are the widgets that you can enable/disable.
 
 Com isso, você pode visualizar a interface do usuário do aluno antes que ela entre em funcionamento.
 
-Para contas existentes, a opção **Imersivo** será **DESATIVADA**. Está ativada para nova conta com Social e Gamificação ativadas.
+For existing accounts, the option **Immersive** will be **OFF**. It is enabled for new account with Social and Gamification ON.
 
 ![](assets/immersive-layout-widgets.png)
 
-*Visualizar a interface do usuário do aluno*
+*Preview the learner UI*
 
 <table>
  <tbody>
@@ -111,10 +111,10 @@ Para contas existentes, a opção **Imersivo** será **DESATIVADA**. Está ativa
     <p>Manchete</p></td>
    <td>
     <p><b>O que é um Manchete e como personalizar a Manchete dos Alunos? </b><br></p>
-    <p>É um banner de boas-vindas para os alunos. O banner pode ser uma imagem ou um vídeo. Você pode direcionar o manchete para grupos de usuários específicos e um aluno visualiza o Manchete assim que ele chega na página inicial. Um grupo de usuários pode ver vários heros images ou vídeos de acordo com o plano de destino definido pelo administrador. </p>
+    <p>É um banner de boas-vindas para os alunos. O banner pode ser uma imagem ou um vídeo. Você pode direcionar o manchete para grupos de usuários específicos e um aluno visualiza o Manchete assim que ele chega na página inicial. A User Group may see multiple hero images or videos according to the target plan set by the Admin. </p>
     <p>Veja como um administrador carrega um banner:</p>
     <ol>
-     <li>No painel esquerdo, clique em <b>Comunicados</b>.<br></li>
+     <li>On the left panel, click <b>Announcements</b>.<br></li>
      <li>No canto superior direito da página, clique em <b>Adicionar</b>.</li>
      <li>Na lista suspensa <b>Tipo </b>, escolha <b>Como Manchete</b>.</li>
      <li>Escreva uma mensagem que aparecerá na manchete.</li>
@@ -157,10 +157,10 @@ Para contas existentes, a opção **Imersivo** será **DESATIVADA**. Está ativa
    <td>
     <p>Recomendado pela organização</p></td>
    <td>
-    <p>Quando ativado, esse widget recomenda treinamentos para grupos de usuários específicos. Cada grupo de usuários pode ser direcionado a um ou mais treinamentos e o plano de destino deve ser baseado em um período. <br></p>
+    <p>Quando ativado, esse widget recomenda treinamentos para grupos de usuários específicos. Each User group can be targeted one or more trainings and the target plan would be based on a time frame. <br></p>
     <ul>
      <li>
-      <p>Primeiro, o administrador <a href="announcements.md#recommendation">cria um comunicado</a> do tipo <b>Como Recomendação</b> e seleciona o treinamento necessário e usa grupos. Um aluno pertencente a um grupo de usuários verá o treinamento recomendado.</p></li>
+      <p>Firstly, the Admin <a href="announcements.md#recommendation">creates an announcement</a> of type <b>As Recommendation</b> and then selects the requisite training and uses groups. A learner belonging to a user group will get to see the recommended training.</p></li>
      <li>
       <p>Em segundo lugar, o administrador também pode decidir se as recomendações são iniciadas imediatamente ou em uma data especificada.</p></li>
     </ul></td>
@@ -173,7 +173,7 @@ Para contas existentes, a opção **Imersivo** será **DESATIVADA**. Está ativa
   </tr>-->
   <tr>
    <td>
-    <p>Procurar por catálogo<br></p></td>
+    <p>Browse by catalog<br></p></td>
    <td>
     <p>Exibe catálogos como blocos na página inicial. </p></td>
   </tr>
@@ -188,7 +188,7 @@ Para contas existentes, a opção **Imersivo** será **DESATIVADA**. Está ativa
 
 Depois de salvar as alterações, a página inicial do aluno reflete todas as alterações.
 
-Quando o aluno faz logon no aplicativo do aluno por meio de um navegador, ele pode ver o seguinte layout imersivo:
+When the learner signs in to the learner app via a browser, they can see the following immersive layout:
 
 <table>
  <tbody>
@@ -203,7 +203,7 @@ Quando o aluno faz logon no aplicativo do aluno por meio de um navegador, ele po
  </tbody>
 </table>
 
-*Exibir layout imersivo para várias seções na home page*
+*View Immersive layout for various sections on the home page*
 
 ## Opção de layout clássico {#classiclayoutoption}
 
@@ -237,7 +237,7 @@ Na página **Geral**, você tem as seguintes opções:
    <td>
     <p>Estilo do logotipo</p></td>
    <td>
-    <p>É assim que o logotipo e nome da empresa serão exibidos no Learning Manager.<br></p></td>
+    <p>This is how your logo and company name will appear on Learning Manager.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -249,7 +249,7 @@ Na página **Geral**, você tem as seguintes opções:
    <td>
     <p>Personalizar</p></td>
    <td>
-    <p>O Adobe Learning Manager permite que você personalize sua conta para proporcionar uma experiência mais completa aos seus usuários.<br></p></td>
+    <p>Adobe Learning Manager allows you to customize your account to provide a richer experience to your users.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -286,5 +286,5 @@ Na página **Geral**, você tem as seguintes opções:
 
 >[!NOTE]
 >
->Para a nova conta, as configurações Página inicial do aluno, Tipo de treinamento e Escopo da recomendação não estarão visíveis.
+>For the new account, the Learner Homepage, Training Type, and Recommendation Scope settings will not be visible.
 
