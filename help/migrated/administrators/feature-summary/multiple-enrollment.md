@@ -2,10 +2,10 @@
 title: Inscrição múltipla no Adobe Learning Manager
 description: Como administrador da conta, uma das suas principais tarefas é criar instâncias diferentes de sessões VILT em fusos horários diferentes e, possivelmente, criar sessões para grupos de usuários específicos.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 68%
+source-wordcount: '586'
+ht-degree: 65%
 
 ---
 
@@ -16,6 +16,14 @@ No Adobe Learning Manager, cada curso pode ter instâncias diferentes. Como admi
 Antes da versão de julho de 2023, quando um administrador inscrevia um aluno, ele podia se inscrever em apenas uma instância. Se um aluno quisesse fazer um curso em instâncias diferentes, o administrador criava muitos cursos, um para cada instância.
 
 O recurso de inscrição múltipla do Adobe Learning Manager ajuda um administrador a evitar esses cenários.
+
+## Gerenciar instâncias
+
+>[!INFO]
+>
+>Neste treinamento, você aprenderá como editar detalhes e propriedades da instância.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ## O que é inscrição múltipla
 

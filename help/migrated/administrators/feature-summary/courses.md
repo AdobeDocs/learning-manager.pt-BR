@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '5111'
+source-wordcount: '5153'
 ht-degree: 58%
 
 ---
@@ -23,12 +23,11 @@ O autor cria cursos. Os alunos podem, então, realizar os cursos e os administra
 
 ## Criar a instância de um curso {#createinstanceofacourse}
 
-### Gerenciar instâncias
+### Configurar instâncias
 
->[!INFO]
->
->Neste treinamento, você aprenderá como editar detalhes e propriedades da instância.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+Neste treinamento, você aprenderá como configurar padrões de instância, adicionar uma nova instância, desativar e reabrir uma instância e configurar modelos de e-mail para uma instância.
 
+[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
@@ -76,6 +75,14 @@ Para criar uma instância,
 >[!NOTE]
 >
 >O administrador cancela as sessões acessando Instâncias > Sessões e selecionando Cancelar sessão.
+
+### Gerenciar instâncias
+
+>[!INFO]
+>
+>Neste treinamento, você aprenderá como editar detalhes e propriedades da instância.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ### Retirar uma instância {#retireaninstance}
 

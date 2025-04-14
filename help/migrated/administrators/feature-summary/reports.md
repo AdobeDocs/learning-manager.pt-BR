@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
 source-wordcount: '7828'
 ht-degree: 52%
@@ -70,7 +70,7 @@ A contagem mensal ativa, uma vez contada e armazenada por um mês, não se alter
 
 Este relatório mostra o total de alunos acessando o sistema diária ou mensalmente. Navegar na plataforma de aprendizado sem realizar nenhum aprendizado também é considerado como &#39;acessar&#39; a plataforma de aprendizado. Isso ajuda o administrador a entender o conjunto total de usuários acessando o sistema. No primeiro dia do mês, o Learning Manager cria um registro do total de usuários acessando a plataforma no mês anterior. Ele também captura as informações do grupo de usuários para esses usuários.
 
-Somente os grupos de usuários configurados pelo administrador são gravados. Isso permite que os administradores apliquem filtros a grupos de usuários para dados mensais históricos. Observe que a configuração de grupos de usuários incase foi modificada e o Gerenciador de aprendizado não registrou dados para esse grupo de usuários nos últimos meses, então o Gerente de aprendizado não pode exibir os dados dos grupos de usuários recém-configurados nos meses anteriores.
+Somente os grupos de usuários configurados pelo administrador são registrados. Isso permite que os administradores apliquem filtros em grupos de usuários para dados históricos mensais também. Observe que a configuração do caso de grupos de usuários é modificada e o Learning Manager não registrou dados para esse grupo de usuários nos meses anteriores; então, o Learning Manager não pode exibir os dados para esses grupos de usuários recém-configurados nos meses anteriores.
 
 Este relatório contém usuários que acessam a plataforma usando todos os formatos, como a Web, aplicativos para dispositivos móveis, soluções personalizadas sem cabeçalho e assim por diante. O gráfico de uso do aplicativo de dispositivo menciona especificamente apenas os usuários que acessam a plataforma usando o aplicativo do dispositivo do Learning Manager. Isso ajuda os administradores a identificar o uso do aplicativo móvel em suas contas
 
@@ -84,7 +84,7 @@ Aqui, você pode ver um gráfico de linhas de eixo duplo que mostra o tempo tota
 O tempo gasto para diferentes objetos de aprendizado, como programas e certificações de aprendizado, é calculado para o seguinte:
 
 * Curso em um ritmo individualizado com conteúdo estático e interativo
-* Cursos de atividades com URL.
+* Cursos de atividade com URL.
 * Sessões de fim de semana com o sinalizador de fim de semana habilitado.
 * Sessão de conexão da VC na qual a presença é marcada automaticamente.
 * O tempo gasto em diferentes objetos de aprendizado, como programas e certificações de aprendizado
@@ -200,7 +200,7 @@ Veja um relatório resumido de todas as atividades de aprendizado na plataforma.
 
 * Resumo do aprendizado na forma de Inscrições, Exibições e Conclusões
 * Principais habilidades
-* Resumo da conformidade
+* Resumo de conformidade
 
 ![](assets/summary-charts.png)
 *Gráficos de resumo*
@@ -209,14 +209,14 @@ Se houver gerenciadores de nível raiz internos, eles serão exibidos um após o
 
 Todos os perfis externos serão listados após os perfis internos (usuários internos de nível raiz).
 
-Se um perfil externo tiver um gerente, a hierarquia do gerente será exibida na lista suspensa **[!UICONTROL Mostrando Dados para]**. O usuário será listado na hierarquia do Gerente em todas as páginas de detalhes (resumo do aprendizado, conformidade e status da habilidade)
+Se um perfil externo tiver um gerente, a hierarquia do gerente será exibida na lista suspensa **[!UICONTROL Mostrando Dados para]**. O usuário será listado na hierarquia do gerente em todas as páginas de detalhes (resumo do aprendizado, conformidade e status da habilidade)
 
-Caso contrário, todos os detalhes de usuários individuais serão exibidos na lista.
+Caso contrário, todos os detalhes de usuário individuais serão exibidos na lista.
 
-Para ver mais detalhes granulares das inscrições de várias equipes internas, clique **[!UICONTROL em Detalhes]** do resumo da aprendizagem.
+Para ver detalhes mais granulares das inscrições de várias equipes internas, clique em **[!UICONTROL Detalhes do Resumo do Aprendizado]**.
 
 ![](assets/learning-sunnarydetails.png)
-*Detalhes do resumo do aprendizado*
+*Detalhes do Resumo do Aprendizado*
 
 Ao clicar em qualquer inscrição, você pode ver os alunos de cada gerente e a inscrição em quais objetos de aprendizado. Você também pode ver os detalhes de andamento e conclusão de cada aluno.
 
@@ -313,7 +313,7 @@ Siga estas etapas para compartilhar o painel com administradores e administrador
 
 ##### Exibir o painel de conformidade - Administradores personalizados e outros administradores
 
-Todos os administradores e outros administradores personalizados do grupo de usuários selecionado podem ver o painel de conformidade no aplicativo.
+Todos os administradores personalizados e outros administradores do grupo de usuários selecionado podem ver o painel de conformidade em seu aplicativo.
 
 Siga estas etapas para exibir o painel de conformidade:
 
@@ -328,9 +328,9 @@ Siga estas etapas para exibir o painel de conformidade:
 
 Os administradores podem compartilhar o painel de conformidade com os gerentes de loja, o que permite que eles monitorem o progresso de conformidade do aluno.
 
-Siga estas etapas para compartilhar o painel com os gerentes de lojas:
+Siga estas etapas para compartilhar o painel com gerentes de loja:
 
-1. Faça logon como um **[!UICONTROL administrador]**.
+1. Faça logon como **[!UICONTROL Administrador]**.
 2. Navegue até o **[!UICONTROL Relatórios]** > **[!UICONTROL Resumo do aprendizado]** > **[!UICONTROL Painel de conformidade]**.
 3. Selecione **[!UICONTROL Exibição do Gerente]** na seção **[!UICONTROL Painel de Conformidade]**.
 4. Selecione o botão **[!UICONTROL Compartilhar Painel]**.
@@ -437,18 +437,27 @@ Como administrador, você pode baixar relatórios dos cursos. Siga estas etapas:
 1. Selecione **[!UICONTROL Exportar pontuação do questionário]** para exportar o relatório. É exibida a caixa de diálogo **[!UICONTROL Gerar solicitação de relatório]**. Clique em **[!UICONTROL OK]** para confirmar.
 
    ![](assets/generating-reportrequest.png)
-   *Gerar solicitação de relatório*
+   *Gerando Solicitação de Relatório*
 
    >[!NOTE]
    >
    >O relatório exportado da pontuação do questionário conterá os detalhes da pontuação de cada tentativa se a opção de várias tentativas estiver configurada no módulo.
+
+### Gerar relatórios de curso
+
+>[!INFO]
+>
+>Neste treinamento, você aprenderá a exportar relatórios de curso e configurar assinaturas de e-mail para esses relatórios.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ### Transcrições do aluno {#LearnerTranscripts-1}
 
 O Adobe Learning Manager permite que os administradores de uma organização gerem transcrições associadas aos alunos. O relatório de transcrição do aluno contém o seguinte:
 
 1. Transcrição do aluno: Painel da atividade de aprendizado
-1. Habilidade: Painel de habilidade
+1. Habilidade: painel de habilidade
 1. Painel de conformidade
 
 As transcrições do aluno nos relatórios do Excel exibem as colunas Créditos necessários e Créditos obtidos em números decimais.
@@ -500,12 +509,12 @@ Para baixar um relatório, siga um destes procedimentos:
 * Abrir **[!UICONTROL Ajuda de Trabalho]** > **[!UICONTROL Ações]** > **[!UICONTROL Exportar Relatório]**.
 
 ![](assets/job-aids.png)
-*Relatório das ajudas de tarefa*
+*Relatório de ajudas de tarefa*
 
 * Você também pode extrair um relatório de uma ajuda de tarefa específica clicando em **[!UICONTROL Exportar relatório]** no ícone de configurações.
 
 ![](assets/job-aid-specific-download.png)
-*Relatório da ajuda de tarefa específica*
+*Relatório de ajuda de tarefa específica*
 
 ### Relatório de ajudas de tarefa
 
@@ -514,7 +523,7 @@ Depois de selecionar **[!UICONTROL Relatório de ajudas de tarefa]** na lista, v
 ![relatório de ajudas de tarefa](assets/job-aids-new.png)
 *Baixar Relatório de Inscrição do Usuário de Ajudas de Trabalho*
 
-**Todas as ajudas de tarefa**: se o número de ajudas de tarefa na conta for inferior a 10 milhões, o relatório gerado conterá informações de inscrição de todas as ajudas de tarefa. Essa será a seleção padrão. Se o número de linhas exceder 10 milhões, será exibido um erro e você deverá selecionar manualmente as ajudas de tarefa necessárias.
+**Todas as ajudas de tarefa**: se o número de ajudas de tarefa na conta for inferior a 10 milhões, o relatório gerado conterá informações de inscrição de todas as ajudas de tarefa. Essa será a seleção padrão. Se o número de linhas exceder 10 milhões, será exibido um erro, e você deverá selecionar manualmente as ajudas de tarefa necessárias.
 
 **Ajudas de tarefa selecionadas**: se você selecionar esta opção, poderá inserir as ajudas de tarefa para as quais deseja gerar o relatório. Você pode selecionar no máximo 10 ajudas de tarefa. A Adobe Learning Manager verifica se o número de ajudas de tarefa excede 10 milhões.
 
@@ -592,14 +601,14 @@ Na coluna **Tipo de modificação**, você obterá os seguintes detalhes:
 | --- | --- |
 | Criar  | Curso criado |
 | Adicionar Certificação | Certificação adicionada ao catálogo |
-| Remoção da certificação | Certificação removida do catálogo |
+| Remoção de certificação | Certificação removida do catálogo |
 | Adição de conteúdo | Conteúdo adicionado ao módulo |
 | Adicionar curso | Curso adicionado ao Caminho de Aprendizado |
-| Remoção do curso | Curso removido do caminho de aprendizado |
-| Adição de rótulo personalizado | Rótulo personalizado adicionado ao catálogo |
-| Remoção de rótulo personalizado | Rótulo personalizado removido do catálogo |
+| Remoção do curso | Curso removido do Caminho de aprendizado |
+| Adicionar rótulo personalizado | Etiqueta personalizada adicionada ao catálogo |
+| Remoção de rótulo personalizado | Etiqueta personalizada removida do catálogo |
 | Excluir | Catálogo excluído |
-| Adição da ajuda de tarefa | Ajuda de tarefa adicionada ao catálogo |
+| Adição de ajuda de tarefa | Ajuda de tarefa adicionada ao catálogo |
 | Remover ajuda de tarefa | Ajuda de tarefa removida do catálogo |
 | Adicionar Caminho de Aprendizado | Caminho de Aprendizado adicionado ao catálogo |
 | Remoção do Caminho de Aprendizado | Caminho de Aprendizado removido do catálogo |
@@ -646,18 +655,18 @@ Nos perfis externos é possível adicionar, habilitar, desabilitar, pausar ou co
 
 Há dois filtros na caixa de diálogo **[!UICONTROL Relatório de registro de auditoria do usuário]**.
 
-**Filtro de raiva de datas:** escolha a faixa de datas para as quais você deseja gerar o relatório. Há três opções:
+**Filtro de classificação por data:** escolha o intervalo de datas para o qual você deseja gerar o relatório. Há três opções:
 
 * Última semana
 * Último mês
 * Data personalizada
 
-Selecionar o filtro Alunos: pesquise por um usuário ou um grupo de usuários.
+Selecione o filtro Alunos: pesquise um usuário ou um grupo de usuários.
 
 O relatório exportado conterá dados de usuários que atenderem aos critérios de pesquisa especificados.
 
 ![](assets/user-audit-trail.png)
-*Registro de auditoria do usuário*
+*Trilha de auditoria do usuário*
 
 >[!NOTE]
 >
@@ -734,9 +743,9 @@ O relatório é baixado como um arquivo CSV. O arquivo contém as seguintes colu
 
 ### Relatório de inscrição e cancelamento de inscrição {#enrollmentandunenrollmentreport}
 
-Os administradores e os gerentes podem extrair um relatório dos alunos que se inscreveram e cancelaram a inscrição. Como administrador, você pode ver qualquer aluno, administrador ou gerente que se inscreveu ou cancelou a inscrição em uma instância de um curso, de um programa de aprendizado ou de uma certificação, bem como exportar o relatório. Enquanto, como gerente, você só pode obter um relatório dos membros da sua equipe. Como um manjedoura, você não pode ver os alunos excluídos ou seu próprio nome no aplicativo do gerente como um aluno inscrito ou não inscrito.
+Os administradores e gerentes podem extrair um relatório dos alunos que foram inscritos e cancelados. Como administrador, você pode ver qualquer aluno, administrador ou gerente que se inscreveu ou cancelou a inscrição em uma instância de um curso, de um programa de aprendizado ou de uma certificação, bem como exportar o relatório. Enquanto gerente, você só pode obter um relatório dos membros da sua equipe. Como gerente, você não pode ver os alunos excluídos ou seu próprio nome no aplicativo do gerente como um aluno inscrito ou não inscrito.
 
-Para baixar um relatório, siga estas etapas: Abra o  **[!UICONTROL curso/programa de aprendizado/certificação]** > **[!UICONTROL alunos]** > **[!UICONTROL ação]** > **[!UICONTROL relatório]** Exportar.
+Para baixar um relatório, siga estas etapas: Abra o **[!UICONTROL Programa de aprendizado/Certificação]** > **[!UICONTROL Alunos]** > **[!UICONTROL Ação]** > **[!UICONTROL Exportar relatório]**.
 
 ![](assets/unenrollment.png)
 *Relatório de cancelamento de inscrição*
@@ -745,11 +754,11 @@ Para baixar um relatório, siga estas etapas: Abra o  **[!UICONTROL curso/progra
 
 Como administrador, você pode buscar o feedback do aluno (L1) e o feedback do gerente (L3) para treinamentos selecionados por um período especificado.
 
-Você pode exportar os dados da interface do usuário ou por meio do conector PowerBI para análise detalhada.
+Você pode exportar os dados da interface do usuário ou por meio do conector PowerBI para uma análise mais detalhada.
 
-Os relatórios de feedback N1 e N3 fornecem uma opção para baixar um relatório de feedback consolidado para as respostas N1 e N3 para treinamentos selecionados para um intervalo de um **ano** ou para até 10 treinamentos selecionados para qualquer intervalo de datas.
+Os relatórios de feedback L1 e L3 oferecem uma opção de download de um relatório de feedback consolidado para as respostas L1 e L3 para treinamentos selecionados para um intervalo de **um ano** ou para até 10 treinamentos selecionados para qualquer período.
 
-Faça logon como administrador, clique **[!UICONTROL em Relatórios]** > **[!UICONTROL Relatórios personalizados]** e, na lista de relatórios, clique **[!UICONTROL em Relatório]** de feedback.
+Faça logon como administrador, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios personalizados]** e, na lista de relatórios, clique em **[!UICONTROL Relatório de comentários]**.
 
 ![](assets/download-feedbackreport.png)
 *Baixar relatório de comentários*
@@ -1175,23 +1184,14 @@ Se houver múltiplos Gerentes que se reportam a você, poderá exibir os relató
 
 ## Exibir relatórios do curso {#viewcoursereports}
 
-### Gerar relatórios de curso
-
->[!INFO]
->
->Neste treinamento, você aprenderá a exportar relatórios de curso e configurar assinaturas de e-mail para esses relatórios.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
-
-
-Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
-
 Você pode exibir relatórios específicos para cada curso seguindo as etapas abaixo:
 
 1. Clique no link **[!UICONTROL Exibir relatórios de curso]** na guia Meus painéis na página Relatórios.\
-   Uma caixa de diálogo suspensa será exibida. Um campo de entrada de texto é exibido onde você pode inserir o curso obrigatório e sugerir que os nomes dos cursos sejam exibidos na lista suspensa. Escolha o curso na lista exibida.
+   Uma caixa de diálogo suspensa será exibida. Um campo de entrada de texto aparece onde você pode inserir o curso obrigatório e os nomes dos cursos sugeridos aparecem na lista suspensa. Escolha o curso na lista exibida.
 
    ![](assets/view-course-report-300x117.png)
 
-   *Exibir relatórios do curso*
+   *Exibir relatórios de curso*
 
 1. Selecione o curso da sua escolha na lista suspensa e clique em Mostrar.
 1. Você será redirecionado para a página de resultados da pontuação do questionário do curso selecionado para visualizar o relatório específico do curso.
@@ -1204,11 +1204,11 @@ Para ver as opções da lista suspensa, tal como Editar/Mover para o painel/Cria
 
 *Editar/Mover para o painel/Criar uma cópia/Excluir/Redimensionar relatórios*
 
-**[!UICONTROL Editar]** para voltar aos valores iniciais ao modificar os dados, clique em Redefinir. Clique em Salvar após modificar os valores.
+**[!UICONTROL Editar]** Para voltar aos valores iniciais ao modificar dados, clique em Redefinir. Clique em Salvar após modificar os valores.
 
-**[!UICONTROL Mover para o painel]** Você pode mover o relatório atual para outro painel, que é selecionado na lista de painéis.
+**[!UICONTROL Mover para o Painel]** Você pode mover o relatório atual para outro painel, que é escolhido na lista de painéis.
 
-**[!UICONTROL Crie uma cópia]** . Você pode copiar o relatório para o mesmo ou para outro painel, que é selecionado na lista de painéis.
+**[!UICONTROL Criar uma Cópia]** Você pode copiar o relatório para o mesmo painel ou para outro painel, que é escolhido na lista de painéis.
 
 **[!UICONTROL Excluir]** Clique em Excluir para remover o relatório. Uma mensagem de advertência/confirmação aparece antes que você possa excluir o relatório.
 
@@ -1231,9 +1231,9 @@ Ao criar uma conta entre parceiros, se a opção Compartilhar catálogo não tiv
 1. Clique em [!UICONTROL **Salvar**].
 
    ![](assets/acc2.png)
-   *Selecionar catálogo compartilhado para a conta entre parceiros*
+   *Selecionar Catálogo Compartilhado para conta entre parceiros*
 
-1. Depois de clicar **[!UICONTROL em Salvar]**, é possível visualizar a representação gráfica dos relatórios no painel padrão. Nesse painel, você pode filtrar o relatório por gerente para obter a conta específica do colega.
+1. Depois de clicar em **[!UICONTROL Salvar]**, você poderá exibir a representação gráfica de seus relatórios no painel padrão. Nesse painel, você pode filtrar o relatório por gerente para obter a conta específica do colega.
 1. Se houver alguma alteração no catálogo pro sua parte, as alterações são refletidas imediatamente nos relatórios e no painel gerados pelo colega. No entanto, quando o colega modificar o catálogo, as alterações não serão exibidas no seu painel automaticamente.
 1. Se desejar que o seu painel seja atualizado automaticamente, o colega deve enviar uma nova solicitação a você.
 

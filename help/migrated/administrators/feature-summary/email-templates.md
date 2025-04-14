@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Modelos de e-mail
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 58%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -218,14 +218,6 @@ Você também pode personalizar o seguinte:
 * Edite o rodapé do email. A área do rodapé contém variáveis predefinidas para o URL da conta, a Assinatura e qualquer texto de forma livre que o usuário adicionar.
 
 Os modelos também oferecem suporte a recursos avançados de edição, como a formatação, que é mantida quando o conteúdo é copiado e colado do Microsoft Word e para ele.
-
-### Configurar instâncias
-
-Neste treinamento, você aprenderá como configurar padrões de instância, adicionar uma nova instância, desativar e reabrir uma instância e configurar modelos de e-mail para uma instância.
-
-[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
-
-Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ## Convites embutidos {#inlineinvitations}
 

@@ -4,10 +4,10 @@ title: Perguntas Frequentes para Administradores
 description: Perguntas frequentes para administradores do Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 2548370c5b943964e200b6c1d5a4d0d9ca386ba6
+source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
 workflow-type: tm+mt
-source-wordcount: '2612'
-ht-degree: 50%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 50%
   </tr>
  </tbody>
 </table>
-
-+++Novo anúncio de Experience League
-
-Temos o prazer de anunciar que, em nossa jornada para nos conectarmos melhor à família de soluções Adobe, a Adobe Learning Manager adicionará mais um canal ao processo de inclusão de suporte. A partir de 12 de maio de 2025, você poderá criar ocorrências diretamente do Adobe Experience League. Atualmente, o Experience League abriga a documentação de autoajuda da Adobe Learning Manager, guias do usuário e práticas recomendadas, e se tornará seu principal recurso para todas as necessidades de suporte, desde o autoatendimento até a comunicação orientada por agente. Agradecemos sua compreensão e apoio à medida que fazemos essa importante transição.
-
-+++
 
 +++Posso adicionar usuários em massa? Como?
 
@@ -98,7 +92,7 @@ Sim, você pode registrar a participação seguindo as etapas abaixo:
 
 Se houver vários módulos em um curso e o aluno tiver concluído apenas um deles, você pode selecionar um único módulo e clicar em Salvar para marcar a conclusão para o aluno. Se o aluno concluir todos os módulos de um curso, você pode clicar na opção Selecionar tudo e clicar em Salvar.
 
-Para obter mais informações, consulte o  [recurso de lista de espera e participação](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) .
+Para obter mais informações, consulte o recurso de [lista de espera e presença](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md).
 
 +++
 
@@ -119,9 +113,9 @@ Você pode adicionar o feedback N3 enquanto inscreve os alunos nos cursos. Adici
 Como administrador, você pode solicitar a indicação do gerente para os cursos seguindo as etapas abaixo:
 
 1. Clique em Cursos no painel esquerdo
-1. Passe o mouse sobre qualquer curso nomeado pelo Gerente e clique **[!UICONTROL em Procurar indicação]** do Gerente.
+1. Passe o mouse sobre qualquer curso indicado pelo gerente e clique em **[!UICONTROL Buscar indicação do gerente]**.
 
-1. Na lista de instâncias, clique **[!UICONTROL no link Gerentes nomeados]** seguido do **[!UICONTROL link Adicionar gerentes]** .
+1. Na lista de instâncias, clique no link **[!UICONTROL Gerentes indicados]** seguido pelo link **[!UICONTROL Adicionar Gerentes]**.
 
 1. Adicione o nome do gerente, o número devagas atribuídas e clique na marca de seleção para salvar as alterações.
 
@@ -129,7 +123,7 @@ Ao criar os cursos, o autor escolhe o tipo de curso como Indicado pelo gerente.
 
 +++
 
-++Como inscrevo o aluno em um curso específico?
++++Como inscrever o aluno em um curso específico?
 
 Inscreva os alunos nos cursos seguindo as etapas abaixo:
 
@@ -150,7 +144,7 @@ Atribua alunos a competências seguindo as etapas abaixo:
 
    >[!NOTE]
    >
-   >Você pode inscrever vários alunos em habilidades clicando em Adicionar mais usuários e repetindo a 4ª etapa.
+   >Você pode inscrever vários alunos para obter habilidades clicando em Adicionar mais usuários e repetindo a 4ª etapa.
 
 +++
 
@@ -238,9 +232,9 @@ Consulte o [recurso de gamificação](/help/migrated/administrators/feature-summ
 Você pode criar relatórios seguindo as etapas abaixo:
 
 1. Clique em Relatórios no painel esquerdo. A página de resumo de relatório será exibida.
-1. Na página Relatórios, clique **[!UICONTROL em Adicionar]** no canto superior direito.
+1. Na página Relatórios, clique em **[!UICONTROL Adicionar]** no canto superior direito.
 
-   **[!UICONTROL A caixa de diálogo Adicionar relatório]** é exibida.
+   A caixa de diálogo **[!UICONTROL Adicionar relatório]** é exibida.
 
 1. Preencha todos os campos obrigatórios e clique em Salvar.
 
@@ -267,11 +261,11 @@ Gerentes, autores e alunos podem ver notificações com base nas atividades do c
 
 +++
 
-+++Como posso permitir a inscrição externa nos cursos?
++++Como permitir a inscrição externa para os cursos?
 
 O Adobe Learning Manager fornece a você a facilidade de inscrever membros de departamentos externos ou funcionários externos de sua organização no aplicativo.
 
-1. Clique **[!UICONTROL em Usuários]** no painel esquerdo.
+1. Clique em **[!UICONTROL Usuários]** no painel esquerdo.
 1. Clique em **[!UICONTROL Externo]** no painel esquerdo.
 1. Clique em **[!UICONTROL Adicionar]** no canto superior direito da página.
 
@@ -297,7 +291,7 @@ Você pode adicionar um conjunto de questionários e optar por não exibi-los se
 
 +++Como configurar as habilidades e os níveis?
 
-1. Clique em Competências no painel esquerdo da janela Do administrador.
+1. Clique em Competências no painel esquerdo da janela Administrador.
 1. Clique em Adicionar para adicionar novas competências.
 1. Adicione o nome da competência, a descrição e os créditos correspondentes de acordo com cada nível.
 
@@ -343,11 +337,11 @@ No Adobe Learning Manager, você pode reconhecer os alunos emitindo medalhas. Co
 
 Para adicionar cursos, você precisa mudar sua função como autor. Você só pode exibir a lista de cursos disponíveis com base em seu estado como **[!UICONTROL Concluído]**, **[!UICONTROL Publicado]** e **[!UICONTROL Retirado]**.
 
-Para exibir os cursos, clique em **[!UICONTROL Cursos]** no painel esquerdo. Consulte  [Criação de cursos](/help/migrated/administrators/feature-summary/courses.md)para obter mais informações
+Para exibir os cursos, clique em **[!UICONTROL Cursos]** no painel esquerdo. Consulte [Criando cursos](/help/migrated/administrators/feature-summary/courses.md)para mais informações
 
 +++
 
-+++Como adiciono diferentes funções ao aplicativo?
++++Como adicionar funções diferentes ao aplicativo?
 
 Para adicionar novos usuários, siga as etapas abaixo:
 
@@ -366,7 +360,7 @@ Entre em contato com a equipe de suporte do Learning Manager.
 
 +++
 
-+++Onde encontro a ID da minha conta do Gerente de aprendizado?
++++Onde encontrar a ID da minha conta do Learning Manager?
 
 Você pode obter a ID da conta no navegador onde o Learning Manager está aberto.
 
@@ -379,18 +373,18 @@ Você pode obter a ID da conta no navegador onde o Learning Manager está aberto
 Sim, você pode obter um **[!UICONTROL Relatório de treinamento]** que contém todos os cursos, programas de aprendizado e certificações no LMS. Para baixar o relatório, siga as etapas abaixo:
 
 1. Faça logon como administrador.
-2. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL relatórios]** personalizados > **[!UICONTROL relatórios]** do Excel > **[!UICONTROL relatório]** de treinamentos.
+2. Clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatório de treinamentos]**.
 3. Selecione **[!UICONTROL Todos os treinamentos]** na lista suspensa.
 4. Clique em **[!UICONTROL Baixar]**.
 
 +++
 
-+++Onde posso baixar a versão para desktop do aplicativo?
++++Onde posso baixar a versão de desktop do aplicativo?
 
-Siga as etapas abaixo para baixar a versão de desktop:
+Siga as etapas abaixo para baixar a versão para desktop:
 
 1. Faça logon como administrador.
-2. Clique em Configurações ]**de >**[!UICONTROL  em **[!UICONTROL Rede social]**.
+2. Clique em **[!UICONTROL Aprendizado Social]** > **[!UICONTROL Configurações]**.
 3. Em **[!UICONTROL Baixar Configuração]**, clique no hiperlink dependendo do seu Sistema Operacional.
 
 +++
