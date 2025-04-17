@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 83%
    * [Descontinuações e alterações de API no Adobe Learning Manager](api-deprecations-list.md)
    * [Rotulagem de permissões no Adobe Learning Manager](white-label.md)
    * [Documentação da API de interação do reprodutor incorporado](/help/migrated/embedded-player-interaction.md)
-* Começar {#get-started}
+* Iniciar {#get-started}
    * [Iniciando como administrador](administrators/feature-summary/getting-started-admin.md)
    * [Iniciando como autor](authors/feature-summary/getting-started-author.md)
    * [Iniciar como um Aluno](learners/feature-summary/getting-started-learner.md)
@@ -87,7 +87,7 @@ ht-degree: 83%
    * [Experiência não conectada para alunos](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programas de aprendizado](administrators/feature-summary/learning-programs.md)
    * [Terminologia do produto](administrators/feature-summary/product-terminology.md)
-* Administrador de Integração {#integration}
+* Administrador de integração {#integration}
    * [Manual de migração](integration-admin/feature-summary/migration-manual.md)
    * [Conectores do Learning Manager](integration-admin/feature-summary/connectors.md)
    * [APIs não conectadas](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -116,7 +116,7 @@ ht-degree: 83%
    * [Como escolher os módulos do curso?](authors/how-to-choose-modules.md)
    * [Visualizar como aluno](authors/feature-summary/fluidic-player.md)
    * [Configurações](authors/feature-summary/settings.md)
-* Professor {#instructor}
+* O professor {#instructor}
    * [Módulos](instructors/feature-summary/modules.md)
    * [Gerenciamento dos alunos da sua sessão](instructors/feature-summary/learners.md)
 * Aluno {#learner}
@@ -153,14 +153,14 @@ ht-degree: 83%
    * [Transcrições do aluno](managers/feature-summary/learner-transcripts.md)
    * [Configurações](managers/feature-summary/settings.md)
    * [Usuários de tablet Android e iPad](managers/feature-summary/ipad-android-tablet-users.md)
-* Perguntas Frequentes {#faq}
+* Perguntas frequentes {#faq}
    * [Perguntas Frequentes para Administradores](administrators/frequently-asked-questions-for-administrators.md)
    * [Perguntas Frequentes para Autores](authors/frequently-asked-questions-for-authors.md)
    * [Perguntas Frequentes para Professores](instructors/frequently-asked-questions-for-instructors.md)
    * [Perguntas Frequentes para Gerentes](managers/frequently-asked-questions-for-managers.md)
    * [Perguntas frequentes dos alunos](learners/frequently-asked-questions-for-learners.md)
    * [Anúncios da nova liga de experiência](/help/migrated/new-experience-league-announcement.md)
-* Base de Dados de Conhecimento {#knowledge-base}
+* Base de conhecimento {#knowledge-base}
    * [Não é possível fazer logon no Learning Manager](kb/unable-log-in-learning-manager.md)
    * [O Resumo do aprendizado não exibe os dados atuais](kb/learning-summary-not-display-data.md)
    * [Não é possível carregar um CSV](kb/unable-to-upload-csv.md)
