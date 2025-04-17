@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adicionar usuários e criar grupos de usuários
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
+source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4305'
 ht-degree: 57%
 
 ---
@@ -110,7 +110,11 @@ A maioria das organizações costuma usar Sistemas de Gerenciamento de RH (HRMS)
 >
 >Para obter mais informações, consulte as perguntas frequentes, [Adicionar usuários em massa](../add-users-in-bulk.md).
 
-Depois de selecionar os usuários, você pode:
+>[!INFO]
+>
+>Neste treinamento, você aprenderá como adicionar usuários em massa por meio de um CSV.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ## Registrar um usuário {#registerauser}
 
