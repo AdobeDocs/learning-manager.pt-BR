@@ -4,7 +4,7 @@ title: Adicionar usuários em massa
 description: Saiba como adicionar vários usuários de uma vez.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 22%
@@ -13,9 +13,9 @@ ht-degree: 22%
 
 # Adicionar usuários em massa
 
-Neste treinamento, você aprenderá como adicionar usuários em massa por meio de um CSV.
-
-[![botão](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>Neste treinamento, você aprenderá como adicionar usuários em massa por meio de um CSV.<br><br>[![botão](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
@@ -56,7 +56,7 @@ Antes de incluir a ID de e-mail do gerente para qualquer funcionário, verifique
 
 *Modelo CSV para carregamento*
 
-Além disso, os administradores de uma organização podem adicionar a si mesmos como funcionários e mencionar a ID de e-mail do gerente como raiz.
+Além disso, os administradores de uma organização podem adicionar **eles mesmos** como funcionários e mencionar a ID de email do gerente como raiz.
 
 **CSV de exemplo**
 
