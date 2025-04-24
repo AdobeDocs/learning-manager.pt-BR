@@ -2,16 +2,16 @@
 title: Recomendações no Adobe Learning Manager
 description: O núcleo do mecanismo de recomendação é orientado pelo novo algoritmo de classificação de cursos do Learning Manager. O algoritmo usa 50 milhões de pontos de dados e cinco anos de dados de aprendizado agregados em milhões de usuários para classificar os cursos com base na probabilidade de inscrição. Essa classificação garante que a maioria dos cursos aptos para inscrição seja exibida antecipadamente para os alunos.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 58%
+source-wordcount: '1483'
+ht-degree: 57%
 
 ---
 
 # Recomendações no Adobe Learning Manager
 
-O Adobe Learning Manager introduziu um sistema de recomendação novo e aprimorado para os cursos. Esse recurso de recomendações usa algoritmos de IA e interesses de usuários, como produtos, funções e níveis, para fornecer recomendações de conteúdo personalizadas.
+O Adobe Learning Manager introduziu um sistema de recomendação novo e aprimorado para os cursos. Esse recurso de recomendações usa algoritmos de IA e interesses de usuários, como produtos, funções e níveis, para fornecer recomendações de conteúdo personalizadas. Os administradores podem configurar suas contas com base nos Produtos, Funções e Níveis.
 
 O novo sistema de recomendações permite criar parâmetros personalizados que os alunos podem selecionar para receber recomendações personalizadas. Essas recomendações serão exibidas como Cursos, Caminhos de Aprendizado e Certificações para os alunos no feed da página inicial.
 
@@ -114,14 +114,14 @@ Como parte do exercício de preparação de dados, estamos fornecendo dois model
 
 **RecUser.csv**
 
-* ID do usuário
+* ID de usuário
 * Produtos
 * Funções
 * Níveis (Iniciante, Intermediário ou Avançado)
 
 Veja a seguir um exemplo de registros no csv:
 
-| ID do usuário | Produtos | Funções | Níveis |
+| ID de usuário | Produtos | Funções | Níveis |
 |--- |--- |--- |--- |
 | 123 | Ciência de Dados | Analista | Analista: Intermediário |
 | 456 | Engenheiro Aeroespacial | Técnico | Técnico: Avançado |

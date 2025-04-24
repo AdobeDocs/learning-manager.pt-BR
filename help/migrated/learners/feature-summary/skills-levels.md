@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Habilidades e níveis
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 90%
+source-wordcount: '326'
+ht-degree: 86%
 
 ---
 
@@ -38,6 +38,10 @@ Nessa página, você pode clicar em cada uma de suas habilidades para ver os dad
 *Exibir cada habilidade*
 
 Somente os administradores podem criar e atribuir habilidades aos alunos. As habilidades são automaticamente atribuídas aos alunos de acordo com os cursos/programas de aprendizado nos quais estão inscritos.
+
+>[!NOTE]
+>
+>Os alunos podem visualizar suas habilidades no nível de colegas apenas em um aplicativo de aluno clássico.
 
 ## Adquirir habilidades {#achieveskill}
 

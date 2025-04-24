@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Remover usuários
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '883'
+ht-degree: 72%
 
 ---
 
@@ -60,6 +60,10 @@ Para remover usuários, siga estas etapas:
    *Mensagem de confirmação após limpar um usuário*
 
 1. Após confirmar e clicar em Remover, a solicitação de remoção será aceita. Você receberá uma notificação assim que a ação for concluída. Uma ID de solicitação de remoção também é fornecida. Você pode fornecer essa ID ao CSM para rastrear a solicitação.
+
+>[!NOTE]
+>
+>Depois que o usuário excluído é adicionado de volta ao sistema, as funções anteriores (por exemplo, administrador, gerente, autor, professor etc.) não serão mantidas. Elas serão adicionadas com a função de aluno.
 
 ## Remoção em massa de usuários
 
