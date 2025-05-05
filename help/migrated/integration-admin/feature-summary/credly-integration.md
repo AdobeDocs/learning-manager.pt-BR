@@ -45,11 +45,11 @@ O arquivo badge.csv no Adobe Learning Manager permite migrar medalhas do LMS exi
 * externalBadgeId
 * externalBadgeProvider
 
-A ID da medalha externa se refere à ID do modelo de medalha na plataforma Credly, e o provedor de medalha externa é Credly. Adicione esses valores em badge.csv e siga as etapas mencionadas no [Manual de migração](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar o csv.
+A ID da medalha externa se refere à ID do modelo de medalha na plataforma Credly, e o provedor de medalha externa é Credly. Adicione esses valores em badge.csv e siga as etapas mencionadas no [Manual de migração](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar o csv.
 
 ## Criar uma habilidade - Administrador
 
-Depois que a medalha for importada para o Adobe Learning Manager, o administrador pode criá-la como uma habilidade. Para saber como criar uma habilidade, consulte [Criar e modificar habilidades](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels).
+Depois que a medalha for importada para o Adobe Learning Manager, o administrador pode criá-la como uma habilidade. Para saber como criar uma habilidade, consulte [Criar e modificar habilidades](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/skills-levels).
 
 ### Atribuir a habilidade/medalha ao objeto de aprendizado - Autor
 

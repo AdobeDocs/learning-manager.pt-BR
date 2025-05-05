@@ -15,13 +15,13 @@ Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-co
 
 ## Sobre suas contribuições para o conteúdo do Adobe
 
-Consulte a [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consulte a [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR).
 
 A forma como você contribui depende de quem você é e do tipo de alterações para as quais você deseja contribuir:
 
 ### Pequenas alterações
 
-Se você está contribuindo com pequenas atualizações da bondade de seu coração, visite o artigo e clique no **Editar** no artigo que vai para a fonte GitHub do artigo. Depois, basta usar a interface do GitHub para fazer suas atualizações. Consulte as [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) para obter mais informações.
+Se você está contribuindo com pequenas atualizações da bondade de seu coração, visite o artigo e clique no **Editar** no artigo que vai para a fonte GitHub do artigo. Depois, basta usar a interface do GitHub para fazer suas atualizações. Consulte as [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR) para obter mais informações.
 
 Pequenas correções ou esclarecimentos que você envia para documentação e exemplos de código neste repositório são cobertos pelos termos de uso do Adobe.
 
@@ -43,7 +43,7 @@ Se você for um redator técnico, gerente de programa ou desenvolvedor da equipe
 
 Os colaboradores da comunidade podem usar a interface do GitHub para edição básica ou bifurcar o repositório para fazer grandes contribuições.
 
-Consulte a [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) para obter detalhes.
+Consulte a [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR) para obter detalhes.
 
 ## Como usar o markdown para formatar o tópico
 

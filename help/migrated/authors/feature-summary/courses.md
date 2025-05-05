@@ -805,7 +805,7 @@ Você também pode publicar módulos de curso no Learning Manager a partir do so
 1. Faça logon com as credenciais da Adobe. Se não tiver uma Adobe ID, clique em **[!UICONTROL Criar conta]**. Após a autorização, você será direcionado para a página de publicação do módulo.
 1. Forneça quaisquer informações básicas sobre o módulo e clique em Publicar.
 
-Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)
+Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/br/captivate/classic/publish-project-to-captivate-prime.html)
 
 ## Eficácia do curso {#courseeffectiveness}
 

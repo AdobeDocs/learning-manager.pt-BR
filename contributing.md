@@ -18,7 +18,7 @@ Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao part
 
 ## Documentação do Guia do Colaborador
 
-Consulte a [Guia do Colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consulte a [Guia do Colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR).
 
 ## Tem Alguma Dúvida?
 
@@ -44,4 +44,4 @@ Adoramos as contribuições da nossa comunidade! Se quiser ir além do colaborad
 
 ## Problemas de segurança
 
-Os problemas de segurança não devem ser relatados neste controlador de problemas. Em vez disso, [envie um problema para nossos especialistas em segurança](https://helpx.adobe.com/security/alertus.html)
+Os problemas de segurança não devem ser relatados neste controlador de problemas. Em vez disso, [envie um problema para nossos especialistas em segurança](https://helpx.adobe.com/br/security/alertus.html)
