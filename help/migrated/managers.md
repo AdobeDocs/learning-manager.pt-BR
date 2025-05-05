@@ -35,5 +35,5 @@ ht-degree: 91%
 * [Relatórios](managers/feature-summary/reports.md)
 * [Configurações](managers/feature-summary/settings.md)
 * [Logon do usuário](managers/feature-summary/user-login.md)
-* [Notificações de usuário](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
+* [Notificações de usuário](managers/feature-summary/user-notifications.md) [&#128279;](managers/feature-summary/settings.md)
 * [Objetos de aprendizado](managers/feature-summary/learning-objects.md)

@@ -119,7 +119,7 @@ O Aprendizado social agora é compatível com experiências online imersivas em 
 
 Existem alguns recursos que não são compatíveis com o aplicativo móvel imersivo. São eles:
 
-| Área **1}** | **Sem suporte** |
+| Área **1&rbrace;** | **Sem suporte** |
 |---|---|
 | Fórum | Criação de painel, Edição de painel, Copiar URL, Excluir, Relatório, Classificar, Filtro |
 | Publicar | Tipo de pesquisa Criação da publicação, Editar, Vários anexos à publicação, Copiar URL, Fixar na parte superior |
@@ -538,7 +538,7 @@ O usuário pode voltar para o modo online clicando no botão **exibir conteúdo 
 
 ## Suporte a carrinho de vários itens em dispositivos móveis imersivos
 
-Os alunos agora podem adicionar vários cursos, programações de aprendizado ou certificações ao carrinho e comprá-los juntos. Exibir carrinho de vários itens no ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)[
+Os alunos agora podem adicionar vários cursos, programações de aprendizado ou certificações ao carrinho e comprá-los juntos. Exibir carrinho de vários itens no ALM[&#128279;](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
 <!--## Track device storage {#trackdevicestorage}
 

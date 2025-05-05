@@ -160,7 +160,7 @@ Para obter mais informações, consulte o recurso [medalhas](feature-summary/bad
 
 +++O que é um programa de aprendizado?
 
-Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Somente os administradores podem criar programas de aprendizado para os alunos. Quando um administrador atribui uma instância do programa de aprendizado aos alunos, eles veem esse **programa **na guia Programas. Os alunos também podem visualizar e se inscrever em todos programas de aprendizado do tipo “autoinscrição”.
+Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Somente os administradores podem criar programas de aprendizado para os alunos. Quando um administrador atribui uma instância do programa de aprendizado aos alunos, eles veem esse **programa &#x200B;** na guia Programas. Os alunos também podem visualizar e se inscrever em todos programas de aprendizado do tipo “autoinscrição”.
 
 Para começar a realizar o programa de aprendizado, clique no programa atribuído a você. É possível visualizar as informações detalhadas desse programa em particular.
 

@@ -100,7 +100,7 @@ Você pode escolher um dos esquemas de cores para alinhar à sua marca corporati
    ![](assets/setting-the-themesforyoursite-step6.png)
 
 1. As opções escolhidas são aplicadas temporariamente ao seu site. Se você deseja salvar o tema e as configurações de cor selecionadas, clique em **[!UICONTROL Aplicar]**.
-1. Depois de selecionar e aplicar um tema, clique em ****[!UICONTROL Salvar]**** para salvar sua escolha.
+1. Depois de selecionar e aplicar um tema, clique em **&#x200B;**&#x200B;[!UICONTROL Salvar]&#x200B;**&#x200B;** para salvar sua escolha.
 
 ## Configurar modelos de e-mail {#configureemailtemplates}
 
@@ -112,9 +112,9 @@ Como administrador, sua próxima etapa seria configurar modelos de e-mail para v
 
 Você pode ativar e configurar qualquer uma dessas notificações por e-mail no painel Administrador. Para saber como definir modelos de e-mail, realize as seguintes etapas:
 
-1. No painel de navegação esquerdo, clique em **[!UICONTROL ** Modelos de Email **.]**
-1. Clique em uma das seguintes guias:**[!UICONTROL ** Geral **/** Atividade de Aprendizado **/** Lembretes e Atualizações **.]** Como exemplo, vamos supor que você clique em **[!UICONTROL ** Atividade de Aprendizado **.]**
-1. Clique no botão de alternância para qualquer atividade que você deseja acionar um e-mail. Neste exemplo, vamos supor que você clique em **[!UICONTROL ** Programa de Aprendizado - Inscrito por Administrador/Gerente **.]**
+1. No painel de navegação esquerdo, clique em **[!UICONTROL **&#x200B; Modelos de Email &#x200B;**.]**
+1. Clique em uma das seguintes guias:**[!UICONTROL ** Geral **/** Atividade de Aprendizado **/** Lembretes e Atualizações **.]** Como exemplo, vamos supor que você clique em **[!UICONTROL **&#x200B; Atividade de Aprendizado &#x200B;**.]**
+1. Clique no botão de alternância para qualquer atividade que você deseja acionar um e-mail. Neste exemplo, vamos supor que você clique em **[!UICONTROL **&#x200B; Programa de Aprendizado - Inscrito por Administrador/Gerente &#x200B;**.]**
 
    ![](assets/configure-email-templates-step3.png)
 
@@ -135,7 +135,7 @@ Você pode ativar e configurar qualquer uma dessas notificações por e-mail no 
 
    O link do URL da conta é mostrado em todos os e-mails, pouco antes da assinatura. Insira sua URL preferida e clique em **[!UICONTROL Salvar]**. Esse URL é visível somente para os usuários internos.
 
-   Para o banner de email, você pode alterar a cor do banner selecionando **[!UICONTROL ** Plano de fundo do banner **.]** Também é possível usar uma imagem personalizada como banner selecionando a opção **[!UICONTROL Imagem personalizada]**. Clique em **[!UICONTROL Salvar]** depois de fazer as alterações.
+   Para o banner de email, você pode alterar a cor do banner selecionando **[!UICONTROL **&#x200B; Plano de fundo do banner &#x200B;**.] **&#x200B; Também é possível usar uma imagem personalizada como banner selecionando a opção &#x200B;** [!UICONTROL Imagem personalizada]&#x200B;**. Clique em &#x200B;** [!UICONTROL Salvar]** depois de fazer as alterações.
 
    ***Observação: o tamanho da imagem personalizada para o banner de email deve ser de 1240x200px. As imagens maiores que o tamanho recomendado são cortadas.***
 
@@ -156,13 +156,13 @@ Essa opção também está disponível para autores, quando eles configuram um o
 Para configurar modelos de e-mail para um objeto de aprendizado:
 
 1. Clique no curso, programa de aprendizado ou certificação para o qual você deseja configurar o modelo de e-mail.
-1. No painel esquerdo, clique em **[!UICONTROL ** Modelos de email **.]** O sistema exibe uma caixa de diálogo pop-up ****[!UICONTROL Visualização do modelo]****.
-1. Modifique o assunto ou o corpo do modelo de email e clique em **[!UICONTROL **Salvar**]**para aplicar as alterações.
-1. Para cancelar as alterações, clique em **[!UICONTROL ** Reverter para Original **.]**
+1. No painel esquerdo, clique em **[!UICONTROL **&#x200B; Modelos de email &#x200B;**.] **&#x200B; O sistema exibe uma caixa de diálogo pop-up &#x200B;**&#x200B;**[!UICONTROL Visualização do modelo]**&#x200B;**.
+1. Modifique o assunto ou o corpo do modelo de email e clique em **[!UICONTROL **Salvar**]**&#x200B;para aplicar as alterações.
+1. Para cancelar as alterações, clique em **[!UICONTROL **&#x200B; Reverter para Original &#x200B;**.]**
 
 ### Restringir usuários de receber e-mails {#restrictusersfromreceivingemails}
 
-Como administrador, você pode selecionar quem receberá ou não e-mails do Learning Manager. Você pode fazer isso usando a opção ****[!UICONTROL Usuário Restrito]**** na guia ****[!UICONTROL Configurações]** **. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva. Os usuários listados nessa opção ficarão restritos ao recebimento de qualquer comunicação por e-mail do Learning Manager.
+Como administrador, você pode selecionar quem receberá ou não e-mails do Learning Manager. Você pode fazer isso usando a opção **&#x200B;**&#x200B;[!UICONTROL Usuário Restrito]&#x200B;**&#x200B;** na guia **&#x200B;**&#x200B;[!UICONTROL Configurações] **&#x200B; **. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva. Os usuários listados nessa opção ficarão restritos ao recebimento de qualquer comunicação por e-mail do Learning Manager.
 
 ## Configurações da sua conta {#configureyouraccountsettings}
 
@@ -170,8 +170,8 @@ O Learning Manager permite que você defina algumas configurações de conta, co
 
 ### Definir configurações básicas {#configurebasicsettings}
 
-1. Na página inicial do Learning Manager, clique em ****[!UICONTROL Configurações]****. Por padrão, o sistema exibe a página Informações básicas, com os campos de idioma e local padrão.
-1. Clique em ****[!UICONTROL Alterar]**** no canto superior direito da página para editar as Informações básicas.
+1. Na página inicial do Learning Manager, clique em **&#x200B;**&#x200B;[!UICONTROL Configurações]&#x200B;**&#x200B;**. Por padrão, o sistema exibe a página Informações básicas, com os campos de idioma e local padrão.
+1. Clique em **&#x200B;**&#x200B;[!UICONTROL Alterar]&#x200B;**&#x200B;** no canto superior direito da página para editar as Informações básicas.
 1. Configure as seguintes opções:
 
    * **País**: selecione o país neste campo suspenso.
@@ -201,7 +201,7 @@ Como administrador, você pode definir as configurações de feedback globalment
 
    ![](assets/configure-feedbacksettings-step3.png)
 
-1. Para configurar as outras perguntas para o seu questionário de feedback, clique nas perguntas dos ****[!UICONTROL Cursos de ritmo individualizado]**** ou ****[!UICONTROL Cursos de sala de aula]****. Quando você clica em uma pergunta, o sistema permite editar as perguntas padrão.
+1. Para configurar as outras perguntas para o seu questionário de feedback, clique nas perguntas dos **&#x200B;**&#x200B;[!UICONTROL Cursos de ritmo individualizado]&#x200B;**&#x200B;** ou **&#x200B;**&#x200B;[!UICONTROL Cursos de sala de aula]&#x200B;**&#x200B;**. Quando você clica em uma pergunta, o sistema permite editar as perguntas padrão.
 
 
 
@@ -215,22 +215,22 @@ Como administrador, você pode definir as configurações de feedback globalment
 1. Defina as configurações de lembrete preenchendo as seguintes opções:
 
    * **Quando enviar**: especifique se deseja enviar a solicitação de feedback na conclusão do curso ou após a conclusão do curso.
-   * **Dias após a conclusão**: especifique o número de dias após os quais você deseja enviar a solicitação de feedback. Este campo é visível somente se selecionado ****[!UICONTROL Após a conclusão do curso]****.
+   * **Dias após a conclusão**: especifique o número de dias após os quais você deseja enviar a solicitação de feedback. Este campo é visível somente se selecionado **&#x200B;**&#x200B;[!UICONTROL Após a conclusão do curso]&#x200B;**&#x200B;**.
 
    * **Recorrência**: especifique se deseja enviar o lembrete de feedback todos os dias, todas as semanas ou todos os meses. Você também pode especificar quantas semanas deseja enviar o lembrete.
 
 1. Clique na marca de verificação para salvar as configurações do lembrete.
-1. Depois de finalizar todas as configurações de feedback, clique em **[!UICONTROL **Salvar**]**no canto superior direito da página.
+1. Depois de finalizar todas as configurações de feedback, clique em **[!UICONTROL **Salvar**]**&#x200B;no canto superior direito da página.
 
 ## Configurar feedback N3: {#configurel3feedback}
 
-O Feedback N3 contém as perguntas que são enviadas ao gerente do aluno após o aluno concluir um curso. O Feedback N3 permite que um administrador rastreie as alterações no comportamento ou na habilidade de um aluno ao longo do tempo. Para configurar esse feedback, na página Comentários, clique na guia ****[!UICONTROL Feedback N3]****. Você vê uma pergunta padrão. O gerente deve responder a essa pergunta usando uma escala de classificação de cinco pontos.
+O Feedback N3 contém as perguntas que são enviadas ao gerente do aluno após o aluno concluir um curso. O Feedback N3 permite que um administrador rastreie as alterações no comportamento ou na habilidade de um aluno ao longo do tempo. Para configurar esse feedback, na página Comentários, clique na guia **&#x200B;**&#x200B;[!UICONTROL Feedback N3]&#x200B;**&#x200B;**. Você vê uma pergunta padrão. O gerente deve responder a essa pergunta usando uma escala de classificação de cinco pontos.
 
 ![](assets/configure-l3-feedback.png)
 
 Semelhante ao Feedback N1, você pode configurar os lembretes para feedback N3. Você pode modificar o lembrete existente ou adicionar um novo lembrete de feedback.
 
-Depois de finalizar a pergunta de feedback e as configurações do lembrete, clique em ****[!UICONTROL Salvar]**** para aplicar as configurações.
+Depois de finalizar a pergunta de feedback e as configurações do lembrete, clique em **&#x200B;**&#x200B;[!UICONTROL Salvar]&#x200B;**&#x200B;** para aplicar as configurações.
 
 ## Configurar feedback em um nível de instância {#configurefeedbackataninstancelevel}
 
@@ -251,15 +251,15 @@ Para definir as configurações de feedback em um nível de instância:
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. Para configurar o feedback de Alteração de Comportamento N3 em um nível de instância, ****[!UICONTROL Habilite]**** o Feedback N3. O aplicativo exibe uma pergunta predefinida e obrigatória e uma pergunta em branco na qual você pode inserir uma pergunta de sua escolha.
+1. Para configurar o feedback de Alteração de Comportamento N3 em um nível de instância, **&#x200B;**&#x200B;[!UICONTROL Habilite]&#x200B;**&#x200B;** o Feedback N3. O aplicativo exibe uma pergunta predefinida e obrigatória e uma pergunta em branco na qual você pode inserir uma pergunta de sua escolha.
 1. Para a pergunta predefinida sobre a melhoria do aluno após realizar o curso, a resposta está no formato Escala Likert. Isto é, os gestores têm de escolher uma opção numa escala de Concordo totalmente para Descordo totalmente.
 1. Especifique a segunda pergunta para o gerente. Os gerentes podem fornecer uma resposta descritiva para esta pergunta.
-1. Marque a caixa de seleção ****[!UICONTROL Tornar obrigatório]**** se quiser tornar a segunda pergunta obrigatória.
+1. Marque a caixa de seleção **&#x200B;**&#x200B;[!UICONTROL Tornar obrigatório]&#x200B;**&#x200B;** se quiser tornar a segunda pergunta obrigatória.
 
    ![](assets/configure-feedbackataninstancelevel-step11.png)
 
 1. Opcionalmente, defina as configurações do lembrete no nível da instância. Se você não definir as configurações do lembrete aqui, as configurações globais de lembrete serão atribuídas automaticamente.
-1. Depois de finalizar as perguntas de feedback e as configurações de lembrete, clique em **[!UICONTROL **Salvar**]**para aplicar suas configurações.
+1. Depois de finalizar as perguntas de feedback e as configurações de lembrete, clique em **[!UICONTROL **Salvar**]**&#x200B;para aplicar suas configurações.
 
    ***Observação: as configurações de feedback não são aplicáveis às certificações.***
 
@@ -267,8 +267,8 @@ Para definir as configurações de feedback em um nível de instância:
 
 As configurações gerais no Learning Manager permitem que os administradores definam configurações genéricas que afetam outros recursos no aplicativo. Por exemplo, você pode usar configurações gerais para especificar se a eficácia do curso pode ficar visível para os alunos. Para definir as configurações gerais:
 
-1. Na página inicial do Learning Manager, clique em ****[!UICONTROL Configurações]****.
-1. No painel esquerdo, clique em ****[!UICONTROL Geral]****.
+1. Na página inicial do Learning Manager, clique em **&#x200B;**&#x200B;[!UICONTROL Configurações]&#x200B;**&#x200B;**.
+1. No painel esquerdo, clique em **&#x200B;**&#x200B;[!UICONTROL Geral]&#x200B;**&#x200B;**.
 1. Na página Configurações gerais, você pode definir as seguintes opções:
 
    Para todas essas opções, o recurso que cada opção afeta é variado. Podemos fornecer links cruzados para cada um dos recursos detalhados, se necessário.
@@ -291,9 +291,9 @@ As configurações gerais no Learning Manager permitem que os administradores de
 O painel do aluno no Learning Manager permite que os alunos vejam seus cursos obrigatórios e recomendados, além de suas realizações, habilidades e comunicados. Os administradores podem decidir como esse painel do aluno deve ser exibido, definindo as configurações do painel do aluno. Essas configurações permitem que os administradores definam os widgets na página do aluno. Essas configurações também especificam como e onde os widgets são colocados no painel do aluno. Como administrador, você pode visualizar o layout do painel do aluno antes de aplicar as configurações.
 
 1. Na página inicial do Learning Manager, clique em **[!UICONTROL Configurações]**.
-1. No painel de navegação esquerdo, clique em **[!UICONTROL ** Painel do aluno **.]**
+1. No painel de navegação esquerdo, clique em **[!UICONTROL **&#x200B; Painel do aluno &#x200B;**.]**
 1. Selecione os widgets que deseja ativar. Se você desmarcar um widget, ele será removido imediatamente da visualização. Os alunos não podem ver este widget em seu painel.
-1. Clique em ****[!UICONTROL Salvar]**** para aplicar as configurações.
+1. Clique em **&#x200B;**&#x200B;[!UICONTROL Salvar]&#x200B;**&#x200B;** para aplicar as configurações.
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 

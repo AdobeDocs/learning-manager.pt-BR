@@ -257,7 +257,7 @@ Você pode alternar o logon da sua conta para outras funções, como aluno, gere
 Gerentes, autores e alunos podem ver notificações com base nas atividades do curso. O administrador pode ativar/desativar as notificações para todos os usuários seguindo as etapas abaixo:
 
 1. Clique em Modelos de e-mail no painel esquerdo e escolha as guias Geral, Inscrições do usuário, Conclusões e Feedback.
-1. Nos eventos listados abaixo, clique nos botões de alternância Não/Sim ao lado de **cada **evento e escolha Sim para ativar a notificação. Clique em Não para desativar o envio de notificações para um evento específico.
+1. Nos eventos listados abaixo, clique nos botões de alternância Não/Sim ao lado de **cada &#x200B;** evento e escolha Sim para ativar a notificação. Clique em Não para desativar o envio de notificações para um evento específico.
 
 +++
 
