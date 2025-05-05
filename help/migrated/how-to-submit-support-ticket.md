@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Como enviar um tíquete de suporte no Experience League
 description: Saiba como enviar uma solicitação de suporte no Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: b69859161476a5ba56baa5b4447aec759c1a7736
+source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 0%
@@ -16,7 +16,7 @@ O processo de envio de tíquetes de suporte da Adobe Learning Manager agora est�
 
 Observe que o envio de um tíquete de suporte só está disponível para contatos de suporte autorizados. Para suas dúvidas de suporte, continue enviando seus tíquetes de suporte para a Adobe Learning Manager por email até 11 de maio de 2025. Após essa data, você pode enviar seus tíquetes de suporte por meio do portal de suporte Experience League, conforme descrito abaixo, além do canal de e-mail existente.
 
-1. Para acessar o portal de suporte, visite o site **[!UICONTROL Experience League]** e selecione a guia **[!UICONTROL Suporte]** localizada na parte superior da página. Você também pode visitar o [link direto](https://experienceleague.adobe.com/home?lang=pt-BR#support).
+1. Para acessar o portal de suporte, visite o site **[!UICONTROL Experience League]** e selecione a guia **[!UICONTROL Suporte]** localizada na parte superior da página. Você também pode visitar o [link direto](https://experienceleague.adobe.com/home#support).
 
    ![](assets/support.png)
    _Página inicial de suporte_
@@ -59,3 +59,4 @@ Para que nossa equipe de liderança de suporte resolva seus encaminhamentos da m
 Se você tiver mais dúvidas sobre como usar o portal de **[!UICONTROL Suporte do Experience League]**, informe-nos na seção de comentários abaixo ou entre em contato com nossa equipe de Suporte diretamente neste endereço de email [almdynsupp@adobe.com](mailto:almdynsupp@adobe.com).
 
 Para adicionar um contato autorizado que possa abrir tíquetes de suporte via Experience League (EXL), visite [http://licensing.adobe.com](http://licensing.adobe.com).
+
