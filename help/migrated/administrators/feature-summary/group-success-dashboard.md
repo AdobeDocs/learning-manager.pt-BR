@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Painel de Sucesso do Grupo
 description: Saiba mais sobre o Painel de sucesso do grupo no Adobe Learning Manager
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
+source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Um administrador pode ativar e criar os painéis dando um nome, selecionando gru
 O administrador deve ativar o Painel de sucesso do grupo para a conta. Para ativar o Painel de Controle de Êxito do Grupo, siga estas etapas:
 
 1. Faça logon como administrador.
-2. Selecione **[!UICONTROL Configurações]**&#x200B;e depois **[!UICONTROL Relatórios]**.
+2. Selecione **[!UICONTROL Configurações]**e depois **[!UICONTROL Relatórios]**.
 3. Selecione a alternância **[!UICONTROL Visibilidade do painel]**.
 4. Digite o nome do painel (por exemplo, **[!UICONTROL Painel do Gerenciador de Armazenamento]**).
    ![](assets/enable-gsd.png)
@@ -149,6 +150,8 @@ Quando você seleciona mais de um grupo de usuários, o Adobe Learning Manager u
 
 * **Grupos de usuários com o mesmo campo Ativo**: se os grupos de usuários usarem o mesmo campo (por exemplo, Local), o sistema incluirá todos os alunos de ambos os grupos. Ele combina os valores. Por exemplo: **Local = Bangalore** e **Local = Chennai**. Inclui alunos de ambos os locais.
 * **Grupos de usuários com campos ativos diferentes**: se os grupos de usuários usarem campos diferentes (por exemplo, Local e Função), o sistema incluirá apenas os alunos que atenderem a todas as condições. Por exemplo: **Local = Bangalore ou Chennai** e **Função = Gerente**. Inclui somente alunos com a função Gerente e localizados em Bangalore ou Chennai.
+
+**Resumo:**
 
 * Mesmo campo ativo: os alunos são combinados (lógica OR)
 * Campos Ativos diferentes: os alunos devem corresponder a todos os critérios (lógica AND)
