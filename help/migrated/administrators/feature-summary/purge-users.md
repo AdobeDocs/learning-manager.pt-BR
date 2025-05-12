@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Remover usuários
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 72%
+source-wordcount: '1135'
+ht-degree: 52%
 
 ---
 
@@ -72,6 +72,49 @@ Você pode selecionar os 50 primeiros usuários e removê-los de uma só vez. Is
 ![](assets/bulk-purge-users.png)
 
 *Limpar usuários em massa*
+
+## Filtrar usuários excluídos antes de limpar
+
+O Adobe Learning Manager permite que os administradores removam permanentemente usuários que já foram excluídos da plataforma. Esse processo, chamado de remoção, ajuda as empresas a manter um banco de dados limpo do aluno, cumprir as políticas de retenção de dados e impedir qualquer acesso não autorizado aos dados do usuário.
+Isso é particularmente útil para manter a higiene dos dados e garantir que dados antigos e não utilizados do usuário sejam removidos do sistema.
+Remover usuários é essencial para cumprir as diretrizes de privacidade de dados ou manter um armazenamento de dados limpo, removendo registros redundantes.
+
+### Filtrar usuários excluídos por mês
+
+Você pode filtrar usuários excluídos selecionando um mês específico e, em seguida, excluí-los permanentemente.
+
+Para filtrar os usuários excluídos usando o mês de exclusão:
+
+1. Selecione **[!UICONTROL Usuários]** na home page do administrador e selecione **[!UICONTROL Limpeza do Usuário]**.
+2. Selecione o seletor de data **[!UICONTROL Selecionar Mês de Exclusão]** e selecione a data.
+
+   ![](assets/deletion-date.png)
+   _Selecione o mês em que os usuários foram excluídos_
+
+   A lista de usuários excluídos no mês selecionado é exibida.
+
+   ![](assets/list-of-user-deleted.png)
+   _Lista de usuários excluídos exibidos para o mês selecionado_
+
+### Classificar usuários excluídos por mês
+
+Você pode classificar os usuários filtrados por **[!UICONTROL ID de Usuário Exclusiva]** e **[!UICONTROL Data de exclusão]**.
+
+1. Na lista de usuários excluídos, classifique os usuários de acordo com suas IDs de usuário ou data de exclusão.
+
+   ![](assets/sort-by-date.png)
+   _Lista de usuários filtrada por ID de Usuário Exclusivo_
+
+2. Selecione um ou vários usuários.
+3. Selecione **[!UICONTROL Ações]** e selecione **[!UICONTROL Limpar Usuário]**.
+4. Selecione Limpar na mensagem de confirmação para excluir permanentemente os registros de usuário do Adobe Learning Manager.
+
+   ![](assets/select-purge.png)
+   _Confirmação final antes de remover permanentemente os usuários_
+
+>[!NOTE]
+>
+>Remover usuários remove permanentemente seus dados. Verifique a seleção antes de continuar.
 
 +++Leia sobre os resultados da ação Remover usuário
 
@@ -190,8 +233,6 @@ Você pode selecionar os 50 primeiros usuários e removê-los de uma só vez. Is
 
 +++
 
-O Learning Manager agora está em conformidade com o GDPR. Para mais informações sobre a conformidade com o GDPR, consulte [Conformidade do Learning Manager com o GDPR](../../kb/prime-gdpr.md).
-
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
 +++Quantos dias leva uma solicitação de remoção para ser concluída?
@@ -199,7 +240,13 @@ O Learning Manager agora está em conformidade com o GDPR. Para mais informaçõ
 Uma solicitação para remover usuários leva no máximo 30 dias para ser concluída.
 +++
 
-+++É possível executar uma remoção em massa no Learning Manager?
++++É possível executar uma remoção em massa no Adobe Learning Manager?
 
 Sim, você pode executar uma remoção em massa. No entanto, você só pode executar uma remoção em massa de 50 usuários.
++++
+
++++Posso restaurar um usuário removido?
+
+Não. Após remover, todos os dados do usuário são excluídos permanentemente e não podem ser recuperados.
+
 +++

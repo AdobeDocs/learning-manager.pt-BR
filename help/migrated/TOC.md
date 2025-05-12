@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
+source-git-commit: 7c06bc9f7b5c7c36dda06985b4327898ea776597
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 84%
+source-wordcount: '664'
+ht-degree: 82%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 84%
 * [Guia do Usuário do Learning Manager](user-guide.md)
 * Introdução {#introduction}
    * [Resumo dos novos recursos](/help/migrated/whats-new.md)
+   * [Resumo dos novos recursos novembro de 2024](/help/migrated/whats-new-nov-24.md)
    * [Resumo dos novos recursos julho de 2024](whats-new-july-2024.md)
    * [Novos recursos em março de 2024](whats-new-march-2024.md)
    * [Novos recursos em novembro de 2023](whats-new-november-2023.md)
    * [Novos recursos em julho de 2023](whats-new-2023-july.md)
-   * [Novos recursos em abril de 2023](whats-new-2023-april.md)
    * [Notas de versão](release-note/release-notes.md)
    * [Requisitos do sistema](system-requirements.md)
    * [Pacote do site de referência do ALM para o AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -39,12 +39,14 @@ ht-degree: 84%
    * [Introdução para Gerentes](managers/feature-summary/getting-started-manager.md)
    * [Iniciando como professor no Learning Manager](instructors/feature-summary/getting-started.md)
 * Administrador {#admin}
+   * [Assistente Admin AI (Beta) no Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Login do usuário](administrators/feature-summary/user-login.md)
    * [Adicione usuários e crie grupos de usuários](administrators/feature-summary/add-users-user-groups.md)
    * [Adicionar locais de sala de aula](administrators/feature-summary/classroom.md)
    * [Criar instâncias do curso e programações de aprendizado](administrators/feature-summary/courses.md)
    * [Marketplace de conteúdo](administrators/feature-summary/content-marketplace.md)
    * [Relatórios](administrators/feature-summary/reports.md)
+   * [Painel de Sucesso do Grupo](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Caminhos de aprendizado](administrators/feature-summary/learning-paths.md)
    * [Planos de aprendizado](administrators/feature-summary/learning-plans.md)
    * [Gerenciar pedidos e faturamento do Learning Manager](administrators/feature-summary/billing-management.md)

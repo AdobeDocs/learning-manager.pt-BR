@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '5153'
-ht-degree: 58%
+source-wordcount: '5674'
+ht-degree: 52%
 
 ---
 
@@ -239,6 +239,72 @@ O relatório contém dados de usuários ativos, excluídos e suspensos se estive
 
 Se um aluno que estava antes no estado de aprovação pendente cancelar a inscrição, o seu registro não estará presente no relatório. Além disso, se um aluno que estava anteriormente no estado de aprovação pendente estiver inscrito no curso pela inscrição de administrador/gerente/administrador personalizado, o seu registro estará presente no relatório.
 
+## Gerenciar inscrição, participação e conclusão do aluno em massa {#bulk-enrollment}
+
+Usando o recurso de inscrição em massa do Adobe Learning Manager, os administradores podem inscrever eficientemente grandes grupos de alunos em cursos, certificações ou programas de aprendizado fazendo upload de um arquivo CSV. Esse processo economiza tempo, garante a consistência e dá suporte à escalabilidade organizacional. Além disso, os administradores e os professores podem atualizar as informações, a participação e as conclusões do aluno em massa por meio de uploads de CSV, minimizando o trabalho manual e garantindo a precisão dos dados.
+
+Você pode usar o mesmo formato de arquivo CSV para inscrição, participação e conclusão. Basta inserir as IDs de e-mail do aluno na coluna “E-mail” e salvar o arquivo com um nome baseado na ação, por exemplo, bulk_enrollment.csv, bulk_attenance.csv ou bulk_completion.csv. Somente o formato CSV é suportado. Não há suporte para o formato UTF-8. Baixe o csv de exemplo [aqui](assets/Sample-Bulk-Action-CSV.csv).
+
+### Inscrever alunos em massa usando um csv
+
+Em vez de adicionar alunos, um de cada vez, os administradores podem inscrever até 100 mil usuários simultaneamente carregando um arquivo CSV. O arquivo deve incluir uma coluna rotulada **userEmail** com os endereços de email dos alunos a serem inscritos.
+
+Para inscrever alunos em massa usando CSV:
+
+1. Faça logon como administrador.
+2. Selecione um curso na seção **[!UICONTROL Cursos]**.
+3. Selecione **[!UICONTROL Alunos]** na página **[!UICONTROL Visão geral do curso]**.
+4. Selecione **[!UICONTROL Inscrever]** e selecione **[!UICONTROL Carregar um CSV]**.\
+   ![](assets/upload-a-csv-learners.png)
+   _Inscrevendo aluno usando o carregamento de CSV_
+5. Carregue um CSV e selecione **[!UICONTROL Continuar]**.
+
+O arquivo CSV inclui uma coluna chamada “E-mail do usuário”. Insira os endereços de email dos usuários nesta coluna.
+
+### Marcar conclusão do curso em massa
+
+Os administradores podem marcar rapidamente a conclusão do curso para muitos alunos de uma só vez carregando um arquivo CSV com seus endereços de e-mail. Isso poupa tempo em comparação com a atualização individual de cada aluno. A coluna userEmail do CSV mostra quais alunos devem ser atualizados. Você pode marcar até 10 mil alunos como concluídos em um upload.
+
+Para marcar a conclusão em massa:
+
+1. Selecione um curso na seção **[!UICONTROL Cursos]**.
+2. Selecione **[!UICONTROL Alunos]** na página **[!UICONTROL Visão geral do curso]**.
+3. Selecione **[!UICONTROL Ações]** e depois **[!UICONTROL Marcar Conclusão]**.
+4. Selecione **[!UICONTROL Em massa]**.
+5. Carregue um arquivo CSV com uma coluna userEmail listando os alunos que concluíram o curso.
+
+   ![](assets/bulk-completion.png)
+   _Marcando conclusão em massa usando CSV_
+
+### Marcar participação em massa
+
+Os administradores podem marcar a participação de muitos alunos de uma só vez usando um recurso de participação em massa. Em vez de atualizar a participação de cada aluno individualmente, os administradores podem carregar um arquivo CSV contendo os endereços de e-mail dos alunos. A coluna userEmail no CSV identifica qual participação dos alunos deve ser registrada. Esse processo pode manipular até 10 mil alunos em um único upload, tornando a marcação de participação mais rápida e eficiente.
+
+Para marcar a participação em massa:
+
+1. Selecione um curso na seção **[!UICONTROL Cursos]**.
+2. Selecione **[!UICONTROL Presença e pontuação]** na página **[!UICONTROL Visão geral do curso]**.
+3. Selecione **[!UICONTROL Ações]** e selecione **[!UICONTROL Marcar participação em massa]**.
+4. Carregue um arquivo CSV que inclua uma coluna userEmail com os endereços de e-mail dos alunos cuja participação você deseja atualizar.
+
+   ![](assets/mark-bulk-attendance.png)
+   _Marcando participação em massa usando CSV_
+
+>[!NOTE]
+>
+>Você pode marcar a presença de até 10.000 usuários em massa usando CSV.
+
+### Erros comuns de upload de CSV
+
+* O e-mail do aluno no CSV não existe no diretório de usuário do Adobe Learning Manager.
+* O formato do arquivo está incorreto.
+* O arquivo contém colunas extras ou dados inválidos.
+
+![](assets/error-bulk.png)
+_Notificação de erro_
+
+Você pode baixar e exibir o arquivo CSV listando os erros de usuários com falha no nível de linha para facilitar a identificação.
+
 ## Lista de espera
 
 A seção Lista de espera permite que os alunos estejam em lista de espera para cursos em sala de aula quando as vagas são limitadas, com base na ordem de inscrição. Os administradores podem gerenciar isso selecionando alunos na lista de espera e alocando vagas além do limite inicial. Depois que uma vaga é alocada pelo administrador, o aluno é imediatamente inscrito no curso.
@@ -352,7 +418,7 @@ Nesta versão do Learning Manager, o administrador pode enviar feedback L1 para 
 
 Os relatórios do quiz ajudam a avaliar o desempenho de um aluno após a conclusão de um programa de aprendizado ou curso.
 
-Atualmente, o Learning Manager facilita o aprendizado em 13 idiomas de interface e 32 idiomas de conteúdo. Embora essa opção seja amigável para o aluno e ofereça conveniência na compatibilidade com nossos alunos globais, é de suma importância que os administradores busquem relatórios tentados em vários locais.
+Atualmente, o Learning Manager facilita o aprendizado em 13 idiomas de interface e 32 idiomas de conteúdo. Embora essa opção seja amigável para o aluno e ofereça conveniência no suporte a nossos alunos globais, é de suma importância os administradores buscarem relatórios tentados em vários locais.
 
 Os relatórios do questionário exibem dados em diferentes idiomas, desde que o curso esteja sendo oferecido em vários idiomas. Até agora, os relatórios gerados pelo administrador exibiam as respostas uma abaixo da outra, independentemente do idioma em que o quiz foi tentado. **Por exemplo**, se um usuário fez um quiz em holandês, o administrador só poderá exibir os relatórios do quiz tentados por usuários em holandês de cada vez. O administrador que selecionou o inglês como um idioma de interface não pode exibir os relatórios de todos os usuários de uma só vez, independentemente do local tentado.
 
@@ -516,10 +582,10 @@ Escolha o tipo de instância na lista suspensa para visualizar as pontuações c
 
 ## Instância padrão
 
-Os administradores podem definir Medalhas, configurações de gamificação e lembretes padrão na página **[!UICONTROL Instância padrão]**. Para modificar as configurações da instância padrão, selecione **[!UICONTROL Instância padrão]** > **[!UICONTROL Editar]**.
+Os administradores podem definir Medalhas padrão, configurações de gamificação e lembretes na página **[!UICONTROL Instância padrão]**. Para modificar as configurações da instância padrão, selecione **[!UICONTROL Instância padrão]** > **[!UICONTROL Editar]**.
 
 * **[!UICONTROL Medalha]**: selecione as medalhas padrão no menu suspenso.
-* **[!UICONTROL Gamificação]**: defina as configurações de gamificação, incluindo pontos para conclusão, conclusão antecipada e conclusão pontual. Os administradores têm a opção de selecionar configurações no nível da conta ou personalizar os pontos de gamificação para essa instância.
+* **[!UICONTROL Gamificação]**: defina as configurações de gamificação, incluindo pontos para conclusão, conclusão antecipada e conclusão pontual. Os administradores têm a opção de selecionar configurações no nível da conta ou personalizar os pontos de gamificação para esta instância.
 * **[!UICONTROL Feedback de reação N1]**: habilite perguntas predefinidas para feedback do aluno após a conclusão do curso, com opções para tornar as perguntas obrigatórias.
 ***[!UICONTROL Feedback N3 de Alteração de Comportamento]**: habilite as perguntas de feedback para o gerente do aluno na conclusão do curso.
 ***[!UICONTROL Configurações de Lembrete]**: defina e gerencie lembretes para prazos finais, com opções para escalonamento.
@@ -547,7 +613,7 @@ Siga estas etapas para adicionar comentários de conclusão:
 2. Vá para a página **[!UICONTROL Cursos]** e selecione um curso.
 3. Selecione **[!UICONTROL Alunos]** na página do curso.
 4. Escolha o aluno individual ou vários alunos.
-5. Selecione **[!UICONTROL Ações]** e selecione&#x200B;**[!UICONTROL &#x200B; Marcar Conclusão]**.
+5. Selecione **[!UICONTROL Ações]** e selecione**[!UICONTROL  Marcar Conclusão]**.
 6. Insira o comentário de conclusão na caixa de diálogo.
 
    ![](assets/comments.png)

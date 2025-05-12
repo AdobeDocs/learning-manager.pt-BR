@@ -4,10 +4,10 @@ title: Integração do Adobe Connect
 description: Os autores podem criar cursos em sala de aula virtual com o Adobe Connect durante o processo de criação do curso. Para ativar o Adobe Connect na sua conta do Learning Manager, você precisa entrar em contato com o administrador da sua organização.
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 70%
+source-wordcount: '595'
+ht-degree: 49%
 
 ---
 
@@ -65,3 +65,29 @@ Você deve adquirir o Adobe Connect separadamente, além do Adobe Learning Manag
 Se o host do curso de sala de aula virtual não comparecer à sessão, a participação não será registrada automaticamente para os alunos que participaram da sessão. Nesses cenários, o administrador pode registrar a participação manualmente.
 
 Clique no curso de sala de aula virtual, clique em Participação no painel esquerdo da página seguinte e registre a participação.
+
+## Suporte a seminários do Adobe Connect com grandes públicos
+
+O Adobe Learning Manager oferece suporte à seleção de salas de seminário no Adobe Connect ao configurar uma sessão de sala de aula virtual no Connect. Anteriormente, o administrador só podia selecionar o tipo de sala de Reunião. Esse recurso permite que o administrador com uma licença de seminário válida agende e gerencie eventos únicos ou de grande escala (até 1.500 participantes) no ALM.
+
+Consulte este [artigo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obter mais informações sobre a sala de seminários.
+
+### Suporte para acesso à análise de sessão
+
+Os professores podem acessar o Session Analytics em suas sessões concluídas do Adobe Connect por meio de um novo link fornecido no painel da sessão.
+
+![](assets/adobe-connect-session-url.png)
+_Selecionar URL da sessão_
+
+Este link abre o painel de análise da sessão no Connect, que fornece informações detalhadas sobre o engajamento da sessão.
+Esse recurso está disponível apenas para sessões realizadas por meio do Adobe Connect. As análises de sessão incluem:
+
+* **[!UICONTROL Compromisso]**: visão geral do desempenho geral da sessão ao vivo
+* **[!UICONTROL Interações]**: detalhamento da atividade do participante em diferentes pods
+* **[!UICONTROL Atividade do Participante]**: resumo do envolvimento do participante
+* **[!UICONTROL Baixar Relatórios]**: opção de baixar relatórios para dados de compromisso específicos do pod
+
+![](assets/session-dashboard.png)
+_Painel da sessão_
+
+Consulte este [artigo](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) para obter mais informações sobre o Session Analytics.

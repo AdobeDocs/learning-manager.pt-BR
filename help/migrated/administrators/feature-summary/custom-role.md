@@ -4,10 +4,10 @@ title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '2685'
-ht-degree: 53%
+source-wordcount: '3466'
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode criar uma função personalizada para fornecer habilidades limitadas 
 >
 >Adicionar uma nova função personalizada não afetará grupos de usuários personalizados existentes ou quaisquer grupos baseados em funções, como Todos os administradores, Todos os autores etc.
 
-Os administradores podem criar funções personalizadas de administrador e autor com permissões personalizadas para cada função. Veja abaixo uma visão geral das permissões associadas a cada função:
+O administrador tem a capacidade de criar funções personalizadas de administrador e autor com permissões personalizadas para cada função. Veja abaixo uma visão geral das permissões associadas a cada função:
 
 **Permissões de Função de Autor Personalizadas**
 
@@ -35,9 +35,9 @@ Autores personalizados podem realizar as seguintes tarefas:
    * Caminhos de aprendizado
    * Planos de aprendizado
 
-Administradores e autores, incluindo administradores e autores personalizados, terão a capacidade de compartilhar objetos de aprendizado (LOs) em catálogos compartilhados externamente. Os administradores e autores devem poder pesquisar catálogos compartilhados externamente ao criar objetos de aprendizado (LOs).
+Os administradores e autores, incluindo administradores personalizados e autores personalizados, terão a capacidade de compartilhar objetos de aprendizado (LOs) em catálogos compartilhados externamente. Os administradores e autores devem poder pesquisar catálogos compartilhados externamente ao criar objetos de aprendizado (LOs).
 
-**Permissões de Função de Administrador Personalizadas**
+**Permissões de função de administrador personalizada**
 
 A função de administrador personalizada replica um conjunto de responsabilidades de administrador, incluindo o acesso a privilégios em nível de conta. Os administradores personalizados recebem permissões para gerenciar os principais recursos relacionados às atividades de aprendizado, como:
 
@@ -275,7 +275,7 @@ Os usuários com função personalizada podem:
    **Adicionar usuários ao carregamento de CSV de função personalizada:** para adicionar usuários por meio do carregamento de CSV, adicione uma coluna CustomRole ao arquivo .csv que o administrador usou para importar usuários. Insira a função do usuário na coluna CustomRole para os usuários aos quais você deseja atribuir uma função personalizada. Para carregar o arquivo CSV, clique em **[!UICONTROL Adicionar > Carregar um CSV]**.
 
    * Não é possível pesquisar Grupos de usuários.
-   * Não é possível pesquisar usuários que já tenham a função de administrador atribuída a eles.
+   * Não é possível pesquisar usuários que já tenham uma função de administrador atribuída a eles.
    * A atribuição de uma nova função personalizada a um usuário substitui a função personalizada anterior do usuário.
 
    <!--![](assets/users.png)-->
@@ -283,9 +283,117 @@ Os usuários com função personalizada podem:
    * Um administrador personalizado com permissão para Configurações poderá configurar o agendamento para sincronizar ou sincronizar usuários da Fonte de dados, mesmo se não tiver permissão para a entidade Usuários.
    * Se um administrador personalizado tiver permissão na entidade Usuários, ele poderá atribuir a si mesmo a função de administrador e se tornar um administrador padrão.
 
-## Relatório de função personalizada
+## Atribuir várias funções personalizadas a um usuário
 
-Os administradores podem baixar um relatório CSV de todas as funções personalizadas e suas permissões. O relatório mostra como cada função foi criada, por um administrador ou por meio de um arquivo CSV, e descreve os destaques do acesso concedido a cada função.
+É possível atribuir várias funções personalizadas a usuários usando as seguintes maneiras:
+
+* Usar a interface: é possível atribuir mais de uma função personalizada a um usuário diretamente da interface do Adobe Learning Manager.
+* Usar upload de CSV: você pode fazer upload de um arquivo CSV para atribuir várias funções personalizadas a vários usuários ao mesmo tempo.
+
+Isso facilita o gerenciamento do acesso do usuário e o controle de permissões no sistema.
+
+### Atribuir várias funções personalizadas por meio da interface de usuário
+
+Atribuir várias funções personalizadas por meio do Admin Console no Adobe Learning Manager é uma opção rápida e intuitiva ideal para integração, ajustes de permissão ou atualizações menores. As funções podem ser atribuídas visualmente, sem a necessidade de uploads de CSV, o que reduz o risco de erros e fornece visibilidade em tempo real. Esse método oferece suporte a atualizações rápidas à medida que as responsabilidades mudam e permite a alternância e a delegação de funções conforme necessário.
+
+Para atribuir várias funções personalizadas a um usuário, siga estas etapas:
+
+1. Faça logon como administrador e selecione **[!UICONTROL Usuários]**.
+2. Selecione **[!UICONTROL Funções personalizadas]** no painel esquerdo.
+3. Crie uma nova função personalizada e adicione privilégios de conta, catálogos, objetos de aprendizado ou escopos. Consulte as etapas mencionadas [aqui](#create-a-custom-role).
+4. Adicionar usuários à função personalizada.
+
+   ![](assets/add-users-in-custom-roles.png)
+   _Atribuir usuários a uma função personalizada_
+
+5. Selecione **[!UICONTROL Salvar]**.
+
+Selecione várias funções personalizadas para um usuário conforme necessário. Cada usuário pode ter até 50 atribuições de função personalizadas. O número de funções disponíveis diminui com cada atribuição.
+
+Depois de atribuir usuários a uma função personalizada adicional, você pode ver quantas atribuições de função permanecem disponíveis para cada usuário.
+
+>[!NOTE]
+>
+>Você pode atribuir até 50 funções a cada usuário e adicionar até 500 usuários a cada função.
+
+### Atribuir várias funções personalizadas usando CSV
+
+Fazer upload de um arquivo CSV no Adobe Learning Manager permite a atribuição em massa eficiente de funções personalizadas. Esse processo é benéfico principalmente para a integração de um grande número de funcionários, a reorganização de equipes ou a atualização do acesso a novos treinamentos. As importações de CSV poupam o esforço manual, garantem atribuições consistentes e reduzem erros. Esse método é especialmente útil durante fusões, atualizações em todo o departamento ou implementações de treinamento global. Esse método ajuda os administradores a economizar tempo, padronizar funções e manter a governança.
+
+Agora você pode atribuir várias funções a um usuário por meio da importação de CSV enviando dois arquivos para o Box:
+
+* role.csv
+* user_role.csv.
+
+O arquivo user_role.csv inclui os campos Função personalizada e IDs de usuário.
+
+O arquivo role.csv inclui os campos, a função Personalizada, a Origem da criação e informações detalhadas para Catálogos, Usuários, Cursos, Caminhos de aprendizado e muito mais.
+
+Se o arquivo CSV tiver dados incorretos ou ultrapassar os limites (50 funções por usuário e 500 usuários por função), uma mensagem será exibida mostrando os erros.
+
+![](assets/error-custom-role.png)
+_Notificação de erro para funções personalizadas_
+Os usuários recebem notificações por email quando as funções são atribuídas, incluindo o nome da função.
+
+### Gerenciar funções personalizadas
+
+Os administradores podem atualizar, adicionar ou remover funções personalizadas para usuários no Adobe Learning Manager à medida que as responsabilidades mudam. Isso garante que o acesso se alinhe às funções atuais sem afetar o histórico de aprendizado ou os dados de inscrição. Na página **[!UICONTROL Usuários]**, o administrador pode pesquisar usuários, exibir suas funções e ajustá-las usando a opção Gerenciar Funções Personalizadas. Essa interface guiada permite fácil adição ou remoção de funções, mantendo a governança e a segurança.
+
+>[!NOTE]
+>
+>Os administradores personalizados não podem gerenciar funções personalizadas (adicionar ou remover função personalizada) ou promover a si mesmos para a função de administrador.
+
+Depois de atribuir funções personalizadas aos usuários, você pode adicionar ou remover funções personalizadas da página **[!UICONTROL Usuários]**.
+
+1. Pesquise um usuário na página **[!UICONTROL Usuários]**.
+
+   ![](assets/search-user-role.png)
+   _Pesquisar um usuário na página Usuários_
+
+2. Selecione a seta suspensa no final da linha em que o nome de usuário é exibido e selecione **[!UICONTROL Gerenciar funções personalizadas]**.
+
+   ![](assets/select-manage-custom-roles.png)
+   _Selecione Gerenciar funções personalizadas na página do usuário_
+
+3. É exibida uma caixa de diálogo com a lista de funções personalizadas atribuídas ao usuário. Selecione **[!UICONTROL Adicionar/remover funções]** para adicionar ou remover funções personalizadas atribuídas ao usuário.
+
+   ![](assets/add-remove-roles.png)
+   _Selecione Adicionar/Remover funções no prompt Gerenciar Funções Personalizadas_
+
+4. Pesquise outras funções personalizadas a serem atribuídas ao usuário. Depois de localizar um, selecione a função personalizada.
+
+   ![](assets/add-new-custom-role.png)
+   _Selecione a função personalizada_
+
+5. Selecione **[!UICONTROL Salvar]**. Uma caixa de diálogo de confirmação da alteração na função personalizada é exibida. Selecione **[!UICONTROL Sim]**.
+
+   ![](assets/confirmation-prompt.png)
+   _Selecione Sim no prompt de confirmação_
+
+Uma terceira função personalizada é atribuída ao usuário.
+
+Para remover as funções personalizadas, siga estas etapas:
+
+1. Pesquise um usuário na página **[!UICONTROL Usuários]**.
+2. Selecione a lista suspensa ao lado do usuário e selecione **[!UICONTROL Gerenciar funções personalizadas]**.
+3. Selecione **[!UICONTROL Adicionar/remover funções]** para adicionar ou remover funções personalizadas.
+4. Selecione o **[!UICONTROL ícone de remoção]** para excluir a função personalizada.
+
+   ![](assets/remove-custom-roles.png)
+   _Remover funções personalizadas_
+
+### Alternar funções personalizadas
+
+Para exibir e selecionar quaisquer funções personalizadas atribuídas a você, use a opção **[!UICONTROL Alternar função personalizada]**.
+
+![](assets/switch-roles.png)
+_Selecionar funções personalizadas_
+
+Os usuários recebem notificações por email quando as funções personalizadas são atribuídas a eles. Os e-mails agora incluem nomes de funções para maior clareza.
+
+## Baixar o relatório de função personalizada
+
+Os administradores podem baixar um relatório CSV listando todas as funções personalizadas e suas permissões associadas. O relatório indica se cada função foi criada manualmente ou por meio de upload de CSV e fornece um resumo do acesso e dos privilégios atribuídos a cada função.
 
 Para baixar o relatório, siga estas etapas:
 
@@ -306,7 +414,7 @@ O arquivo user_role.csv inclui os campos, a função Personalizada, a Origem da 
 
 ## Trilha de auditoria para funções personalizadas
 
-Os administradores podem baixar o relatório de auditoria da função personalizada para acompanhar todas as alterações feitas nas funções personalizadas, incluindo criar, modificar e excluir funções personalizadas e seu acesso ao recurso associado.
+Os administradores podem baixar o relatório de auditoria da função personalizada para rastrear todas as alterações feitas nas funções personalizadas, incluindo a criação, modificação e exclusão de funções personalizadas e o acesso a seus recursos associados.
 
 Consulte este artigo [Trilha de auditoria para funções personalizadas](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles) para obter mais informações.
 
@@ -330,7 +438,7 @@ Depois de clicar na opção, uma nova caixa de diálogo é aberta. Nela, você p
 
 Escolha as pastas e clique em **[!UICONTROL OK]**.
 
-## Painel de resumo de aprendizado para Administração personalizada {#custom-admin-dashboard}
+## Painel Resumo do aprendizado para administrador personalizado {#custom-admin-dashboard}
 
 Os administradores personalizados podem ver a mesma exibição que um administrador vê. Um administrador personalizado pode ter dados fora deste escopo. Isso só é aplicável se o administrador personalizado tiver escopo completo. Para conceder um escopo completo, ao criar um administrador personalizado, habilite a opção **[!UICONTROL Controle Total]** no Relatório de Resumo da Conta.
 
@@ -470,17 +578,17 @@ Em versões anteriores do Learning Manager, qualquer função personalizada com 
 
 A configuração do escopo costumava ser desativada quando o acesso ao plano de aprendizado era concedido, o que dava ao usuário acesso a Todos os catálogos e Todos os grupos de usuários por padrão.
 
-Todos os planos de aprendizado criados por um administrador, por padrão, são aplicáveis a todos os usuários. Os usuários também podem ser atribuídos a qualquer objeto de aprendizado. Por outro lado, os usuários com funções personalizadas têm acesso a escopos completos, por exemplo, todos os catálogos, objetos de aprendizado ou grupos de usuários. Isso significava que os administradores não conseguiam criar funções personalizadas conforme o esperado, o que permitia o acesso a planos de aprendizado aos usuários com escopo limitado.
+Todos os planos de aprendizado criados por um administrador, por padrão, são aplicáveis a todos os usuários. Os usuários também podem ser atribuídos a qualquer objeto de aprendizado. Por outro lado, os usuários com funções personalizadas têm acesso a escopos completos, por exemplo, todos os catálogos, objetos de aprendizado ou grupos de usuários. Isso significava que os administradores não conseguiam criar funções personalizadas conforme o esperado, o que permitia o acesso aos planos de aprendizado para usuários com escopo limitado.
 
 Nesta atualização do Learning Manager, você pode criar funções personalizadas para os planos de aprendizado que permitem criar o escopo de usuários e objetos de aprendizado. Em outras palavras, os Planos de aprendizado podem ser criados com um escopo limitado, derivado do escopo da função de um administrador personalizado.
 
-Agora, um Administrador pode definir ou restringir o escopo enquanto concede acesso ao gerenciamento do plano de aprendizado.
+Agora, um administrador pode definir ou restringir o escopo ao conceder acesso ao gerenciamento do plano de aprendizado.
 
-Os administradores personalizados podem criar planos de aprendizado com um escopo limitado, determinado pelo escopo da função configurável do administrador personalizado. Esses planos de aprendizado estão acessíveis somente a administradores personalizados com a mesma função, além de estarem acessíveis a administradores normais. Além disso, os administradores personalizados não podem ver outros planos de aprendizado na conta.
+Os administradores personalizados podem criar planos de aprendizado com um escopo limitado, determinado pelo escopo da função configurável do administrador personalizado. Esses planos de aprendizado só são acessíveis a administradores personalizados com a mesma função, além de serem acessíveis a administradores regulares. Além disso, os administradores personalizados não podem ver nenhum outro plano de aprendizado na conta.
 
-Os administradores personalizados existentes, que têm acesso aos planos de aprendizado, sempre terão escopo completo (por definição). Eles terão acesso a todos os planos de aprendizado na conta como fazem os administradores normais. Novas funções personalizadas criadas com escopo completo e novos administradores personalizados adicionados a essas funções continuarão a ter acesso a todos os planos de aprendizado.
+Os administradores personalizados existentes, que têm acesso aos planos de aprendizado, sempre terão escopo completo (por definição). Eles terão acesso a todos os planos de aprendizado na conta, assim como os administradores regulares têm. Novas funções personalizadas criadas com escopo completo e novos administradores personalizados adicionados a essas funções continuarão a ter acesso a todos os planos de aprendizado.
 
-Os planos de aprendizado criados por administradores e administradores personalizados de escopo completo serão criados como de costume e não serão limitados pelo escopo.
+Os planos de aprendizado criados pelo administrador e pelos administradores personalizados de escopo completo serão criados normalmente e não serão limitados pelo escopo.
 
 Na seção **Escopo dos privilégios do recurso**, conceda acesso a grupos de usuários e/ou catálogo para a função personalizada.
 
@@ -494,7 +602,7 @@ Atribua um usuário à função personalizada.
 
 *Atribuir um usuário a uma Função Personalizada*
 
-O usuário agora faz logon no Learning Manager como administrador personalizado e agora adiciona um plano de aprendizado.
+O usuário agora faz logon no Learning Manager como administrador personalizado e adiciona um plano de aprendizado.
 
 Quando um novo aluno é adicionado, o administrador personalizado pode selecionar um treinamento somente nos catálogos com escopo da função configurável.
 
@@ -510,13 +618,13 @@ Quando um usuário é adicionado ao grupo especificado, somente os usuários que
 
 ## Alteração no escopo {#changeinscope}
 
-Quando o administrador altera o escopo da função personalizada, a alteração também ocorre em cadeia no administrador personalizado. Quando o administrador personalizado escolhe um plano de aprendizado que já foi definido por uma função personalizada anterior, uma mensagem é exibida, conforme mostrado abaixo:
+Quando o administrador altera o escopo da função personalizada, a alteração também é transmitida em cascata para o administrador personalizado. Quando o administrador personalizado escolhe um plano de aprendizado que já estava no escopo de uma função personalizada anterior, uma mensagem é exibida, conforme mostrado abaixo:
 
 ![](assets/change-scope.png)
 
 *Mensagem após alterações de escopo*
 
-O administrador personalizado agora deve atualizar o escopo anterior para o novo escopo.
+O administrador personalizado agora deve atualizar ou atualizar o escopo anterior para o novo escopo.
 
 Clicar em **[!UICONTROL Atualizar escopo]** atualiza o escopo. É exibida uma mensagem de aviso.
 
@@ -536,7 +644,7 @@ Um administrador pode ativar relatórios de gamificação para um usuário perso
 1. Na seção **[!UICONTROL Usuários]**, selecione o usuário ao qual será atribuída a função personalizada recém-criada.
 1. Clique em **[!UICONTROL Salvar]**.
 
-Quando um usuário faz logon como administrador personalizado e clica em **[!UICONTROL Relatórios]** no painel esquerdo, são exibidas as transcrições, conforme mostrado abaixo:
+Quando um usuário faz logon como administrador personalizado e clica em **[!UICONTROL Relatórios]** no painel esquerdo, as transcrições são exibidas, conforme mostrado abaixo:
 
 ![](assets/download-gamificationtranscripts.png)
 

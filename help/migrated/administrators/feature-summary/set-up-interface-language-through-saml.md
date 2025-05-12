@@ -3,13 +3,13 @@ description: Saiba como configurar o idioma da interface com SAML
 jcr-language: en_us
 title: Configurar o idioma da interface por meio do SAML
 contentowner: chandrum
-source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
+exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
-
 
 # Configurar o idioma da interface por meio do SAML
 
@@ -96,4 +96,18 @@ Se um usuário for excluído por software do ALM, as configurações de idioma s
 
 Os administradores podem verificar os relatórios de Atividade do usuário, Resumo do aprendizado e Painel de conformidade para obter detalhes específicos do idioma.
 
+## Atualização da preferência de idioma do usuário ao fazer logon por SAML
 
+O Adobe Learning Manager é uma plataforma multilíngue que oferece suporte às preferências de idioma dos alunos de várias maneiras, por meio da interface, do conteúdo e dos módulos do curso, todos disponíveis em vários idiomas.
+
+Com esse aprimoramento, o Adobe Learning Manager aprimora o provisionamento de usuários just-in-time para usuários de plataforma nativa. Quando novos usuários criam contas e fazem logon pela primeira vez, suas preferências de idioma são capturadas com precisão e aplicadas automaticamente.
+
+### Principais benefícios
+
+* Atualiza automaticamente as preferências de idioma dos usuários durante o logon.
+* Fornece uma experiência personalizada ao exibir a interface e o conteúdo no idioma preferido do usuário.
+* Integra-se perfeitamente ao processo de autenticação SAML.
+
+Quando os usuários fazem logon por SAML, sua preferência de idioma (idioma da interface e do conteúdo) é verificada e atualizada com base nas informações fornecidas durante o processo de logon.
+
+O recurso se integra ao processo de logon por SAML para capturar e atualizar a preferência de idioma do usuário sem problemas.

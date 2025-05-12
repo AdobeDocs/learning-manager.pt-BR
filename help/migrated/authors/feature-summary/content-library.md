@@ -3,10 +3,10 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '3572'
-ht-degree: 49%
+source-wordcount: '4319'
+ht-degree: 39%
 
 ---
 
@@ -190,19 +190,19 @@ A biblioteca de conteúdo também faz controle de versão dos conteúdos carrega
 
 1. Para adicionar o conteúdo, selecione **[!UICONTROL Adicionar Arquivo de Conteúdo]** e carregue o arquivo de recurso. Ao adicionar conteúdo em vários idiomas, não é possível combinar conteúdo interativo e estático em um único grupo. Todo o conteúdo de todos os idiomas devem ser estáticos ou todo o conteúdo deve ser interativo.
 
-* [Tipos de arquivo suportados](content-library.md#supported)
+* [Tipos de arquivo compatíveis](content-library.md#supported)
 
   O conteúdo interativo pode ser um projeto publicado em SCORM, AICC ou Captivate. O arquivo deve ser compactado em zip.
 
   Você também pode adicionar conteúdo HTML gerado a partir do Captivate, Presenter ou Presenter Video Express.
 
-1. O Learning Manager aceita legendas para conteúdo de vídeo carregado no Learning Manager. Agora, os autores podem fazer upload do arquivo que contém legendas, junto com o arquivo de vídeo.
+1. O Adobe Learning Manager é compatível com legendas para conteúdo de vídeo carregado no Adobe Learning Manager. Agora, os autores podem fazer upload do arquivo que contém legendas, junto com o arquivo de vídeo.
 
    Em seguida, os alunos podem visualizar as legendas durante a reprodução do módulo de vídeo.
 
    O formato com suporte é [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
-   O suporte a legendas está disponível para conteúdo de vídeo carregado na biblioteca de conteúdo do Learning Manager.
+   O suporte a legendas está disponível para conteúdo de vídeo carregado na biblioteca de conteúdo do Adobe Learning Manager.
 
    Como autor, quando for carregar um conteúdo de vídeo ou áudio, você também pode carregar o arquivo VTT que contém as legendas.
 
@@ -222,7 +222,7 @@ A biblioteca de conteúdo também faz controle de versão dos conteúdos carrega
    >
    >   Um arquivo VTT suporta um idioma. Para suportar vários idiomas, carregue vários arquivos de vídeo para cada idioma de conteúdo e carregue o respectivo arquivo VTT para cada arquivo de vídeo.
 
-   Como autor, sempre que você alterar o conteúdo, o vídeo ou o áudio, o Learning Manager solicitará um novo arquivo .vtt.
+   Como autor, sempre que você alterar o conteúdo, o vídeo ou o áudio, o Adobe Learning Manager solicitará um novo arquivo .vtt.
 
    Depois de adicionar esse conteúdo a um curso e visualizar o curso como aluno, você pode ver as legendas no vídeo.
 
@@ -236,7 +236,7 @@ O suporte a WebVTT não está disponível para:
    1. Comunicados em vídeo.
    1. Vídeo reproduzido dentro do conteúdo de e-learning. Isso é impulsionado pelo conteúdo.
    1. Vídeo carregado no Aprendizado social.
-   1. Vídeo criado no aplicativo de desktop Learning Manager.
+   1. Vídeo criado no aplicativo de desktop da Adobe Learning Manager.
    1. Conteúdo de vídeo criado usando o processo de migração.
    1. Reprodução de vídeo no aplicativo móvel no modo offline.
 
@@ -422,9 +422,9 @@ O conteúdo pode ser desvinculado de uma pasta especificada **SOMENTE** se tamb�
 
 Depois de adicionar o conteúdo, você pode modificar os critérios de conclusão do conteúdo.
 
-No Learning Manager, as medalhas e as habilidades são concedidas com base no sucesso e na conclusão. Se o aluno concluiu um curso sem êxito, ele não receberá a medalha e habilidade correspondentes ao objeto de aprendizado.
+No Adobe Learning Manager, as medalhas e habilidades são concedidas com base no sucesso e na conclusão. Se o aluno concluiu um curso sem êxito, ele não receberá a medalha e habilidade correspondentes ao objeto de aprendizado.
 
-Por exemplo, se você usou o Adobe Captivate para criar o curso e definiu parâmetros de aprendizado na caixa de diálogo Preferências, essas configurações migrarão para o Learning Manager nas opções de Critérios de conclusão.
+Por exemplo, se você usou o Adobe Captivate para criar o curso e definiu parâmetros de aprendizado na caixa de diálogo Preferências, essas configurações migrarão para o Adobe Learning Manager nas opções de Critérios de conclusão.
 
 Na seção Critérios de conclusão, você pode definir as opções a seguir:
 
@@ -469,6 +469,110 @@ Organize o conteúdo de acordo com o conteúdo que está sendo usado em qualquer
 
 *Classificar conteúdo por uso*
 
+## Adicionar ID exclusiva de conteúdo e data de expiração
+
+### O que é ID exclusiva de conteúdo
+
+A ID exclusiva de conteúdo é um código exclusivo fornecido a cada item de conteúdo no Adobe Learning Manager. Ajuda os administradores e autores a encontrar e gerenciar conteúdo facilmente, especialmente ao atualizá-lo ou movê-lo entre sistemas. Essa ID exclusiva de conteúdo também é útil para integrar conteúdo a outras ferramentas, como RH ou sistemas de conformidade. A mesma ID exclusiva de conteúdo é usada em todas as versões de idioma, para que tudo permaneça consistente para os alunos.
+
+* As IDs exclusivas de conteúdo devem ser exclusivas em todo o conteúdo.
+* A ID exclusiva do conteúdo não pode incluir espaços ou caracteres especiais.
+* Se uma ID exclusiva de Conteúdo duplicada for inserida, um erro aparecerá durante a criação.
+
+### O que é a data de expiração
+
+A Data de expiração marca o conteúdo que pode estar desatualizado ou não ser mais necessário. Mesmo após a data de expiração, o conteúdo permanece disponível, mas lembra aos autores e administradores que verifiquem e atualizem-no, se necessário. Com base nas configurações, o conteúdo expirado pode ser removido de novas inscrições ou arquivado. Como a ID exclusiva do conteúdo, a data de expiração funciona da mesma maneira para todas as versões de idioma, ajudando a manter o conteúdo limpo e atualizado para todos.
+
+* O conteúdo permanece disponível mesmo após a expiração.
+* Um aviso será exibido se uma data anterior for selecionada.
+* O campo de expiração aceita qualquer data entre 1990 e 2037.
+
+Isso ajuda as organizações a manter a relevância do conteúdo sem remover acidentalmente os itens publicados.
+
+A ID exclusiva do conteúdo e a data de expiração se aplicam a todas as versões de idioma de um grupo de conteúdo, garantindo uma experiência consistente para todos os usuários, independentemente do idioma. Os autores podem usar a ID exclusiva de conteúdo para pesquisar e localizar rapidamente conteúdo específico, facilitando o gerenciamento e a atualização de materiais de treinamento.
+
+O **[!UICONTROL Relatório de treinamento]** agora inclui duas novas colunas: **[!UICONTROL Data de Expiração do Conteúdo (Fuso Horário UTC)]** e **[!UICONTROL ID Exclusiva do Conteúdo]**, para rastrear a ID exclusiva do Conteúdo e a Data de Expiração. Esses campos podem ser adicionados por meio da interface do usuário ou da migração e o administrador pode rastreá-los centralmente por meio de relatórios de treinamento.
+
+### Adicionar ID exclusiva de conteúdo e data de expiração
+
+Os autores podem adicionar uma ID exclusiva de conteúdo e definir uma data de expiração ao criar o conteúdo.
+
+Para adicionar uma ID exclusiva de conteúdo e uma data de expiração:
+
+1. Faça logon como autor.
+2. Selecione **[!UICONTROL Criar Conteúdo]** ou selecione **[!UICONTROL Biblioteca de Conteúdo]** no painel esquerdo.
+
+   ![](assets/create-content.png)
+   _Selecione Criar Conteúdo na home page_
+
+3. Selecione **[!UICONTROL Adicionar]** e selecione **[!UICONTROL Conteúdo]** na home page do autor.
+
+   ![](assets/add-content.PNG)
+   _Selecione Adicionar conteúdo na Biblioteca de Conteúdo_
+
+4. Digite o **[!UICONTROL Nome]** e a **[!UICONTROL Descrição]**
+
+5. Selecione o conteúdo da opção **[!UICONTROL Adicionar Arquivo de Conteúdo]**
+6. Selecione a pasta na opção **[!UICONTROL Adicionar à Pasta]** para adicionar o conteúdo à pasta.
+
+   ![](assets/add-a-new-content.png)
+   _Adicionar novo conteúdo_
+
+7. Digite a ID do conteúdo carregado no campo **[!UICONTROL ID exclusiva de conteúdo]**. A ID deve ser exclusiva e seguir as diretrizes de nomenclatura corretas. A ID não deve conter caracteres nem espaços não ASCII. Se você inserir um ID duplicado, uma mensagem de erro será exibida.
+
+   ![](assets/content-unique-id.png)
+   _Campo para inserir uma ID de conteúdo alfanumérica exclusiva_
+
+8. Selecione a Data de expiração do conteúdo. Essa data não afeta a disponibilidade do conteúdo ou o acesso do aluno. Você pode escolher qualquer data entre 1990 e 2037. Se uma data anterior for selecionada, um aviso será exibido, mas o conteúdo ainda poderá ser publicado.
+9. Selecione **[!UICONTROL Salvar]**.
+O conteúdo carregado agora aparece na **[!UICONTROL Biblioteca de Conteúdo]**.
+
+### Definir a ID exclusiva do conteúdo e a data de expiração para idiomas
+
+A ID exclusiva do conteúdo e a data de expiração são definidas no nível do grupo de conteúdo, o que significa que são definidas uma vez e aplicadas automaticamente a todas as versões de idioma do conteúdo.
+
+1. Selecione o conteúdo na **[!UICONTROL Biblioteca de Conteúdo]**.
+2. Selecione **[!UICONTROL Editar]**.
+3. Selecione **[!UICONTROL Adicionar Novo Idioma]**.
+4. Selecione qualquer idioma na lista.
+5. Selecione **[!UICONTROL Salvar]**.
+A ID exclusiva do conteúdo e a data de expiração agora são exibidas na versão do conteúdo específica do idioma, como em alemão neste exemplo.
+
+### Pesquisar usando a ID exclusiva do conteúdo
+
+Você pode usar a ID exclusiva de conteúdo para pesquisar conteúdo em todas as versões de idioma, facilitando a localização e o gerenciamento de itens específicos. Além disso, a ID exclusiva do conteúdo e a data de expiração estão incluídas nos relatórios de treinamento para acompanhamento e relatório consistentes.
+
+1. Inicie a **[!UICONTROL Biblioteca de Conteúdo]**.
+2. Digite a **[!UICONTROL ID exclusiva de conteúdo]** na barra de pesquisa.
+
+   ![](assets/search-unique-id.png)
+   _Pesquisando conteúdo usando a ID exclusiva de Conteúdo_
+3. Selecione o conteúdo para exibi-lo ou editá-lo.
+
+### Suporte à migração de conteúdo
+
+Ao migrar conteúdo, você pode incluir a **expiryDate** e a **uniqueContentId** no arquivo module_version.csv. Isso garante a continuidade dos metadados ao mover conteúdo entre sistemas.
+
+### Alterações de relatórios
+
+Duas novas colunas, ID exclusiva de conteúdo e Data de expiração do conteúdo, agora estão disponíveis no Relatório de treinamento. Esses campos ajudam os administradores a monitorar com mais eficiência as datas de expiração do conteúdo.
+
+## Retirar conteúdo {#retirecontent}
+
+Uma vez que um conteúdo é publicado, ele não pode ser excluído. Você precisa retirar o conteúdo primeiro. Ao marcar um conteúdo como Retirado, o conteúdo não é mais visível aos alunos. O conteúdo também é movido para a seção **[!UICONTROL Retirado]**.
+
+Para retirar conteúdo, siga estas etapas:
+
+* Em **[!UICONTROL Biblioteca de conteúdo]**, selecione o conteúdo que deseja desativar.
+* Selecione **[!UICONTROL Ação]** e depois **[!UICONTROL Desativar]**.
+
+O conteúdo que está sendo usado nos objetos de aprendizado não é afetado. Os alunos podem continuar acessando o conteúdo.
+
+>[!NOTE]
+>
+>Você também pode adicionar conteúdo da seção **[!UICONTROL Desativado]**, navegar até a **[!UICONTROL Biblioteca de Conteúdo]** e selecionar **[!UICONTROL Desativado]**. Selecione **[!UICONTROL Adicionar Conteúdo]**. Para obter mais detalhes, consulte [Adicionar conteúdo estático](content-library.md#addstaticcontent).
+
+
 ## Pesquisar conteúdo {#searchforcontent}
 
 Na Biblioteca de conteúdo, você pode pesquisar um conteúdo escolhendo o nome do conteúdo ou as marcas associadas ao conteúdo.
@@ -476,22 +580,6 @@ Na Biblioteca de conteúdo, você pode pesquisar um conteúdo escolhendo o nome 
 Na Barra de pesquisa, insira o nome de um curso ou uma marca e você poderá ver as recomendações.
 
 <!--![](assets/search-bar.png)-->
-
-## Retirar conteúdo {#retirecontent}
-
-Uma vez que um conteúdo é publicado, ele não pode ser excluído. Você precisa retirar o conteúdo primeiro. Ao marcar um conteúdo como Retirado, o conteúdo não é mais visível aos alunos. O conteúdo também é movido para a seção Retirado. Você pode mover o conteúdo para o estado publicado depois.
-
-Para retirar conteúdo, siga estas etapas:
-
-* Na Biblioteca de conteúdo, selecione o conteúdo que deseja retirar.
-* Selecione Ação > Retirar.
-
-O conteúdo que está sendo usado nos objetos de aprendizado não é afetado. Os alunos podem continuar acessando o conteúdo.
-
->[!NOTE]
->
->Você também pode adicionar conteúdo da seção **[!UICONTROL Desativado]**, navegar até **[!UICONTROL Biblioteca de Conteúdo]** > **[!UICONTROL Desativado]** e selecionar **[!UICONTROL Adicionar Conteúdo]**. Para obter mais detalhes, consulte [Adicionar conteúdo estático](content-library.md#addstaticcontent).
-
 
 ## Republicar conteúdo retirado {#republishretiredcontent}
 
@@ -521,12 +609,12 @@ Observe que os cursos existentes que usarem o conteúdo excluído da biblioteca 
 
 +++ Como carregar um conteúdo SCORM no Adobe Learning Manager?
 
-Crie um curso de e-learning compatível com SCORM em qualquer ferramenta, como o Adobe Captivate, e publique o conteúdo como um arquivo zip. A seguir, no Learning Manager, carregue o arquivo zip no catálogo e defina os critérios de conclusão e sucesso.
+Crie um curso de e-learning compatível com SCORM em qualquer ferramenta, como o Adobe Captivate, e publique o conteúdo como um arquivo zip. Depois, no Adobe Learning Manager, carregue o arquivo zip no catálogo e defina os critérios de conclusão e sucesso.
 +++
 
-+++Como carrego uma nova versão do mesmo conteúdo no Learning Manager?
++++Como carrego uma nova versão do mesmo conteúdo no Adobe Learning Manager?
 
-No Learning Manager, a biblioteca de conteúdo também mantém versões do seu conteúdo carregado. Se você fizer qualquer alteração no conteúdo, por exemplo, uma apresentação no PowerPoint, e reenviar a apresentação na biblioteca, o número da versão será incrementado em um. Isso ajuda a acompanhar as alterações no conteúdo. Uma nova versão do conteúdo pode ser aplicada a todos os objetos de aprendizado simultaneamente ou você pode aplicar atualizações individuais a cada curso.
+No Adobe Learning Manager, a biblioteca de conteúdo também mantém versões do seu conteúdo carregado. Se você fizer qualquer alteração no conteúdo, por exemplo, uma apresentação no PowerPoint, e reenviar a apresentação na biblioteca, o número da versão será incrementado em um. Isso ajuda a acompanhar as alterações no conteúdo. Uma nova versão do conteúdo pode ser aplicada a todos os objetos de aprendizado simultaneamente ou você pode aplicar atualizações individuais a cada curso.
 +++
 
 +++Como editar os detalhes de um curso em um idioma diferente?
