@@ -613,7 +613,7 @@ Siga estas etapas para adicionar comentários de conclusão:
 2. Vá para a página **[!UICONTROL Cursos]** e selecione um curso.
 3. Selecione **[!UICONTROL Alunos]** na página do curso.
 4. Escolha o aluno individual ou vários alunos.
-5. Selecione **[!UICONTROL Ações]** e selecione**[!UICONTROL  Marcar Conclusão]**.
+5. Selecione **[!UICONTROL Ações]** e selecione&#x200B;**[!UICONTROL &#x200B; Marcar Conclusão]**.
 6. Insira o comentário de conclusão na caixa de diálogo.
 
    ![](assets/comments.png)
