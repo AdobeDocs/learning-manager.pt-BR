@@ -2,13 +2,13 @@
 description: Saiba mais sobre os novos recursos e aprimoramentos na versão de maio de 2025 do Adobe Learning Manager
 jcr-language: en_us
 title: Resumo dos novos recursos
-source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
+exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
+source-git-commit: 168e521d3922ec75c7ca06dd9a15ae67f929c069
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
-
 
 # Resumo dos novos recursos em maio de 2025
 
@@ -109,7 +109,7 @@ Consulte este [artigo](/help/migrated/administrators/feature-summary/purge-users
 
 O Adobe Learning Manager agora também permite selecionar salas de seminários do Adobe Connect ao configurar uma sessão de sala de aula virtual no Connect. Anteriormente, o administrador só podia selecionar o tipo de sala de Reunião. Esse aprimoramento permite que o administrador com uma licença de seminário válida agende e gerencie eventos únicos ou de grande escala (até 1.500 participantes) no Adobe Learning Manager.
 
-Exiba este [artigo](https://helpx.adobe.com/br/adobe-connect/using/creating-seminars.html) para obter mais informações sobre a sala de seminários.
+Exiba este [artigo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obter mais informações sobre a sala de seminários.
 
 ### Suporte para acesso à análise de sessão
 
@@ -155,7 +155,7 @@ Alterações no webhook.
 
 ### Adicionar ID exclusiva de conteúdo e data de expiração do conteúdo usando a migração
 
-A ID exclusiva do conteúdo e a Data de expiração agora são compatíveis durante a migração. Duas colunas adicionais: expiryDate e uniqueContentId foram adicionadas ao arquivo module_version.csv para habilitar essa funcionalidade.
+A ID exclusiva do conteúdo e a Data de expiração agora são compatíveis durante a migração. Duas colunas adicionais: expiryDate e uniqueContentId foram adicionadas ao arquivo module_version.csv para habilitar essa funcionalidade. Consulte este [CSV de amostra](assets/module_version_content.csv) e o [arquivo de especificação de CSV](assets/4-module_version_content.xlsx) para obter mais informações.
 
 Exiba este [artigo](/help/migrated/integration-admin/feature-summary/migration-manual.md) para obter mais informações sobre o processo de migração.
 
