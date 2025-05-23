@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Pesquisa viabilizada por IA no Adobe Learning Manager
 description: Saiba mais sobre a pesquisa viabilizada por IA no Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
+source-git-commit: 3c8bee8994ab13aacf8f4e1f4c9371f5808e17ce
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 0%
@@ -12,9 +12,15 @@ ht-degree: 0%
 
 # Pesquisa avançada de IA no Adobe Learning Manager
 
-O recurso de pesquisa no ALM aprimora a experiência do usuário, permitindo que ele encontre conteúdo relevante de maneira eficiente e ajudando-o a consumir o conteúdo certo.
+O recurso de pesquisa no Adobe Learning Manager aprimora a experiência do usuário, permitindo que ele encontre conteúdo relevante de maneira eficiente e ajudando-o a consumir o conteúdo certo.
 
-O Adobe Learning Manager apresenta um recurso de pesquisa viabilizado por IA que combina pesquisa lexical e semântica. A busca é mais inteligente, pois busca termos específicos e entende o contexto e a intenção por trás deles. A pesquisa avançada viabilizada por IA entende o significado da consulta e fornece resultados relevantes.
+O Adobe Learning Manager apresenta um recurso de pesquisa viabilizado por IA que combina pesquisa lexical e semântica. Essa funcionalidade aprimorada permite que os alunos encontrem conteúdo relevante de maneira eficiente. A pesquisa avançada viabilizada por IA entende o significado da consulta e fornece resultados relevantes.
+
+## Principais benefícios
+
+* **Pesquisa mais inteligente**: entende o contexto e a intenção por trás dos termos de pesquisa
+* **Relevância aprimorada**: fornece resultados com base no significado da sua consulta
+* **Experiência do usuário aprimorada**: ajuda os alunos a consumir o conteúdo certo
 
 >[!NOTE]
 >
@@ -24,14 +30,14 @@ O Adobe Learning Manager apresenta um recurso de pesquisa viabilizado por IA que
 
 A funcionalidade de pesquisa é importante por vários motivos:
 
-* **Experiência do usuário**: um recurso de pesquisa bem implementado aumenta a satisfação do usuário, permitindo que os usuários encontrem rapidamente as informações de que precisam.
-* **Eficiência**: economiza tempo reduzindo o esforço necessário para localizar conteúdo específico, especialmente em grandes bancos de dados ou sistemas de gerenciamento de aprendizagem.
+* **Experiência do Usuário**: aumenta a satisfação do usuário ao habilitar a recuperação rápida de informações
+* **Eficiência**: economiza tempo reduzindo o esforço para localizar conteúdo específico.
 * **Acessibilidade**: recursos de pesquisa eficazes tornam as informações mais acessíveis, garantindo que os usuários possam se envolver com conteúdo relevante para suas necessidades.
 * **Personalização**: sistemas de pesquisa avançados podem personalizar os resultados com base nas preferências do usuário, melhorando a relevância das informações apresentadas.
 
 ## Evolução dos comportamentos de pesquisa na Web
 
-À medida que as pessoas pesquisam on-line, a maneira como pesquisam está mudando, e os mecanismos de pesquisa estão se ajustando para acompanhar. A seguir estão algumas das principais maneiras pelas quais as pessoas buscam informações atualmente:
+À medida que as pessoas pesquisam on-line, a maneira como pesquisam está mudando, e os mecanismos de pesquisa estão se ajustando para acompanhar. Veja a seguir algumas das principais maneiras pelas quais as pessoas pesquisam informações nos últimos tempos:
 
 * **Intenção**: em vez de digitar palavras-chave exatas, os usuários agora expressam suas necessidades com frases como eu quero ou preciso. Motores de busca modernos entendem o propósito por trás dessas frases e dão resultados mais relevantes.
 * **Resultados Classificados**: os resultados da pesquisa são organizados com base no que outros usuários acharam útil. Isso significa que o conteúdo mais útil aparece na parte superior, facilitando a localização de informações de qualidade.
@@ -40,7 +46,7 @@ A funcionalidade de pesquisa é importante por vários motivos:
 
 ## Por que a pesquisa da Adobe Learning Manager é melhor
 
-O Adobe Learning Manager oferece uma experiência de pesquisa mais inteligente e avançada que não apenas combina com as palavras-chave, mas também entende contextualmente o significado da consulta do usuário para encontrar os resultados mais relevantes para ele.
+O Adobe Learning Manager oferece uma experiência de pesquisa mais inteligente e avançada. Ele não só combina palavras-chave, mas também entende contextualmente o significado das consultas do usuário para encontrar os resultados mais relevantes.
 
 * **Com IA**: o Adobe Learning Manager usa técnicas avançadas de IA para entender o significado por trás da intenção de pesquisa e não apenas as palavras. Isso ajuda a mostrar resultados que realmente correspondem ao que o usuário deseja, tornando as pesquisas mais precisas.
 * **Orientado por colegas**: o Adobe Learning Manager usa uma série de parâmetros de qualidade de curso para classificar os resultados mais úteis. Esse algoritmo de classificação é treinado em 50 milhões de pontos de dados que pontuam periodicamente todo o conteúdo no repositório
@@ -71,6 +77,14 @@ _Expandindo a consulta_
 A pesquisa de metadados do Adobe Learning Manager abrange metadados de cursos nativos e importados (por exemplo, do LinkedIn Learning ou Go1). Esse recurso pesquisa os títulos do curso, descrições, tags, notas personalizadas e outros metadados. Isso ajuda a tornar os resultados melhores e mais precisos usando muitos metadados diferentes para encontrar resultados.
 Observação: os dados do cliente, incluindo conteúdo e transcrições, não são compartilhados com nenhum serviço externo para pesquisa viabilizada por IA. Todo o conteúdo é armazenado no sistema de armazenamento atual.
 
+#### Pesquisa no conteúdo
+
+O Adobe Learning Manager apresenta recursos de pesquisa aprimorados que permitem aos usuários pesquisar no conteúdo real de vários tipos de arquivos, incluindo vídeos, arquivos de áudio, PDF, documentos, apresentações e planilhas. O sistema transcreve automaticamente esse conteúdo para fornecer resultados de pesquisa mais abrangentes e precisos. Além disso, gravações de reuniões do Adobe Connect são incorporadas à pesquisa, garantindo que informações valiosas não sejam perdidas. Se uma correspondência for encontrada no conteúdo, o modelo de pesquisa aumentará a classificação desse conteúdo nos resultados finais. A classificação final é determinada por vários fatores, conforme descrito na seção [Pesquisa e reclassificação acionadas por IA](/help/migrated/learners/feature-summary/advanced-search.md#ai-powered-search-and-re-ranking).
+
+>[!NOTE]
+>
+>Conteúdo recém-adicionado, como vídeos ou PDF, estará disponível para pesquisa de conteúdo após um período de processamento de 24 horas.
+
 ### Pesquisa semântica
 
 O Adobe Learning Manager agora incorpora a pesquisa semântica ao lado da pesquisa lexical tradicional, aprimorando a precisão dos resultados da pesquisa. Ao gerar incorporações de vetores a partir de títulos e descrições do curso, ele cria um banco de dados vetorial abrangente. Quando um aluno envia uma consulta, o sistema vetoriza a consulta e executa a correspondência de similaridade para identificar os resultados mais relevantes. Por exemplo, se um aluno pesquisa por tutorial para iniciantes no Photoshop, o sistema entende a solicitação e encontra cursos especialmente úteis para iniciantes no Photoshop.
@@ -82,20 +96,11 @@ _Pesquisa semântica_
 >
 >No momento, a pesquisa semântica oferece suporte apenas ao conteúdo em inglês.
 
-### Pesquisa no conteúdo
-
-A funcionalidade de pesquisa do Adobe Learning Manager foi aprimorada para pesquisar conteúdo real. Ele transcreve automaticamente vídeos, arquivos de áudio, PDF, documentos, ppt e xls, incorporando essas transcrições nos resultados de pesquisa. Além disso, ele utiliza gravações de reuniões do Adobe Connect para fornecer resultados mais abrangentes e relevantes. Esse aprimoramento garante que os cursos com conteúdo avançado, como vídeos e notas de reunião, sejam incluídos, melhorando significativamente a precisão e a eficácia da pesquisa. A correspondência de conteúdo ajuda a melhorar a classificação dos resultados de pesquisa, dando um impulso aos resultados encontrados por meio da correspondência de frase tradicional e correspondência semântica.
-
->[!NOTE]
->
->Conteúdo recém-adicionado, como vídeos ou PDF, estará disponível para pesquisa de conteúdo após um período de processamento de 24 horas.
-
 ### Pesquisa e reclassificação viabilizadas por IA
 
-A pesquisa da Adobe Learning Manager é líder no setor, usando uma combinação exclusiva de tecnologias avançadas para fornecer resultados de alta qualidade. Ele combina métodos de pesquisa tradicionais (como correspondência de frases), pesquisa semântica sofisticada e pesquisa de conteúdo para produzir resultados abrangentes. Esses resultados são classificados de acordo com os principais fatores de qualidade do curso, como inscrições, datas de publicação, classificações, popularidade e muito mais, garantindo que as correspondências de mais alta qualidade de todos os índices sejam orientadas pelo nosso sistema de classificação de qualidade do curso.
+A busca da Adobe Learning Manager lidera o setor, combinando tecnologias tradicionais e avançadas. Ele combina métodos de pesquisa tradicionais, como correspondência de frases e pesquisa semântica sofisticada, para produzir resultados abrangentes. O sistema classifica esses resultados com base em fatores importantes, como números de inscrição, datas de publicação, classificações e popularidade. Isso garante correspondências de alta qualidade de todos os índices, guiadas pelo nosso sistema de classificação de qualidade de curso.
 
-No geral, a pesquisa viabilizada por IA do ALM é feita para ser completa, precisa e fácil de usar, ajudando os alunos a encontrar rapidamente exatamente o que precisam para apoiar sua jornada de aprendizado.
-
+Em geral, a pesquisa viabilizada por IA foi projetada para ser completa, precisa e de fácil utilização, ajudando os alunos a encontrar rapidamente os recursos de que precisam para apoiar sua jornada de aprendizado.
 
 >[!NOTE]
 >

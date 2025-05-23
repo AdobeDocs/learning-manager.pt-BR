@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
-source-wordcount: '26470'
+source-wordcount: '26471'
 ht-degree: 72%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++Atualização 100: versão de novembro de 2024 do Adobe Learning Manager
+
+**Data de lançamento**: 10 de maio de 2025
+
+## Novidades desta versão
+
+Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new.md) para obter mais informações.
++++
 
 +++Atualização 99: versão de fevereiro de 2025 do Adobe Learning Manager
 
@@ -49,7 +58,7 @@ Consulte este [artigo](/help/migrated/learners/feature-summary/catalogs.md#sorti
 
 ## Novidades desta versão
 
-Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new.md) para obter mais informações.
+Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-nov-24.md) para obter mais informações.
 +++
 
 +++Atualização 97: a versão de julho de 2024 do Adobe Learning Manager
@@ -1489,7 +1498,7 @@ Nesta atualização, o aluno pode carregar ativos como comprovante de conclusão
 
 O aluno pode abrir um certificado externo e carregar ativos, tais como pdf, texto ou arquivos de imagem.
 
-Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas corrigidos nesta versão {#issuesfixedinthisrelease}
 
@@ -1591,11 +1600,6 @@ Atualmente, apenas os administradores podem adicionar usuários a uma lista Não
 * E-mails de escalonamento para gerentes de alunos
 * Relatórios diretos do Sobre
 * Sobre relatórios de nível superior
-
-Para obter mais informações sobre as APIs do Learning Manager, consulte o site a seguir:
-
-* [***Referência de API***] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
-* [***guia do desenvolvedor da API***] (<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### Problemas corrigidos nesta versão {#Issuesfixedinthisrelease-1}
 
@@ -1872,7 +1876,7 @@ Data de lançamento: 20 de junho de 2019
 
 **Curadoria automática de conteúdo**
 
-O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[**&#x200B; Curadoria assistida automaticamente &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[** Curadoria assistida automaticamente **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mapear habilidades com domínios de habilidades**
 
@@ -1952,9 +1956,9 @@ Data de lançamento: 26 de abril de 2019
 
 * **Digitalizar código QR para registrar:** os recursos de código QR foram aprimorados. Além do suporte à marcação de presença pelo código QR, esse recurso agora também oferece suporte à inscrição em cursos e à marcação da conclusão de um curso com o código QR.
 
-  Para se inscrever e concluir um curso, você pode digitalizar um código QR fornecido pelo administrador. Para obter mais informações sobre a digitalização de códigos QR na versão Web do Learning Manager, consulte [***Digitalizar código QR***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompletecourse).
+Para se inscrever e concluir um curso, você pode digitalizar um código QR fornecido pelo administrador. Para obter mais informações sobre a digitalização de códigos QR na versão Web do Learning Manager, consulte [***Digitalizar código QR***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompletecourse).
 
-* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Várias tentativas).
+* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
 
 +++
 
@@ -2456,7 +2460,7 @@ São gerados relatórios incorretos de transcrição do aluno no Learning Manage
 
 #### Camada da API {#apilayer}
 
-Ocorria um erro sempre que você tentava obter as informações de versão do módulo usando AP/cursos/{coursesid}. Isso agora foi corrigido.
+Você encontra um erro sempre que tenta obter as informações de versão do módulo usando AP/courses/{coursesid}. Isso agora foi corrigido.
 
 +++
 
@@ -2496,7 +2500,7 @@ Data de lançamento: 06 de dezembro de 2016.
 
 ### Aprimoramento {#enhancement}
 
-Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar&#x200B;**&#x200B;**&#x200B;este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
+Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar****este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
 
 * Nome
 * Email
@@ -3006,7 +3010,7 @@ A exportação de dados de inscrição costumava falhar se um dos alunos inscrit
 
 **Modelos de e-mail**
 
-* A palavra **parceiros,** que foi usada para representar grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
+* A palavra **parceiros,** que foi usada para representar grupos externos,**** foi **** removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
   **Observação:** este modelo atualizado não será exibido se o modelo padrão já estiver modificado. Para exibir o modelo atualizado, clique em **Reverter para Original** na caixa de diálogo **Visualização do Modelo**.
 
 * A URL não pode ser clicada no email recebido pelos Administradores sempre que os modelos de email **Perfil Criado(Autorregistro)** e **Perfil Criado(Externo/Parceiros)** forem editados. Esse problema foi corrigido.
@@ -3064,7 +3068,7 @@ No logon do administrador, a paginação não funcionava na página Comunicados.
 
 **Criar habilidades**
 
-No logon dos alunos, a dica de ferramenta de nome de habilidade em **Mapa de habilidades &#x200B;** não exibia **&#x200B;**&#x200B;o nome completo&#x200B;**&#x200B;**. Esse problema foi corrigido.
+No logon dos alunos, a dica de ferramenta de nome de habilidade no **Mapa de habilidades** não estava exibindo o nome completo. Esse problema foi corrigido.
 
 **Adicionar parceiros externos**
 

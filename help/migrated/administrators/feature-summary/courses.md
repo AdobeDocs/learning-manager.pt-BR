@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 52%
@@ -613,7 +613,7 @@ Siga estas etapas para adicionar comentários de conclusão:
 2. Vá para a página **[!UICONTROL Cursos]** e selecione um curso.
 3. Selecione **[!UICONTROL Alunos]** na página do curso.
 4. Escolha o aluno individual ou vários alunos.
-5. Selecione **[!UICONTROL Ações]** e selecione&#x200B;**[!UICONTROL &#x200B; Marcar Conclusão]**.
+5. Selecione **[!UICONTROL Ações]** e selecione **[!UICONTROL Marcar conclusão]**.
 6. Insira o comentário de conclusão na caixa de diálogo.
 
    ![](assets/comments.png)
