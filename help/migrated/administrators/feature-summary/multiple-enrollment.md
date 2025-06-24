@@ -2,10 +2,10 @@
 title: Inscrição múltipla no Adobe Learning Manager
 description: Como administrador da conta, uma das suas principais tarefas é criar instâncias diferentes de sessões VILT em fusos horários diferentes e, possivelmente, criar sessões para grupos de usuários específicos.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 65%
+source-wordcount: '604'
+ht-degree: 63%
 
 ---
 
@@ -39,6 +39,7 @@ O progresso de cada instância pode ser acompanhado individualmente, e um relat�
 * A inscrição múltipla é aplicável somente quando um curso tem várias instâncias.
 * Quando a opção inscrição múltipla estiver ativada e os usuários estiverem inscritos em várias instâncias, novas linhas são criadas para cada curso no relatório de transcrição do aluno (uma linha para cada instância e cada aluno)
 * Caso a automação de relatórios estiver configurada para antecipar apenas uma linha por curso, você deve fazer os ajustes necessários na automação de relatórios antes de habilitar o recurso Inscrição Múltipla.
+* As APIs do administrador não oferecem suporte a cenários de várias inscrições. Entre em contato com seu CSM se tiver algum requisito.
 
 ## Como ativar a Inscrição Múltipla
 
