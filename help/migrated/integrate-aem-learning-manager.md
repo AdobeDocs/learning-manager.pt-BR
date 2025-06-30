@@ -4,9 +4,9 @@ title: Integrar o Learning Manager ao AEM
 description: O Learning Manager é um Sistema de Gerenciamento de Aprendizado com um Sistema de Gerenciamento de Conteúdo de Aprendizado interno. Os usuários gerenciam o conteúdo de aprendizado fazendo upload para o Learning Manager para que ele execute o controle de versão, a alocação para os cursos, a definição da visibilidade para os alunos, o controle do consumo e a emissão de relatórios para os administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1082'
 ht-degree: 45%
 
 ---
@@ -31,7 +31,7 @@ Instale o pacote de conteúdo do Learning Manager usando o Gerenciador de pacote
 
 >[!NOTE]
 >
->Para obter informações sobre a instalação de pacotes, consulte [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=pt-BR#how-to-work-with-packages).
+>Para obter informações sobre a instalação de pacotes, consulte [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Como autor do AEM, abra o Gerenciador de pacotes do AEM.
 1. Clique no botão **[!UICONTROL Carregar pacote]**.
@@ -125,13 +125,15 @@ Skyline é a versão em nuvem do AEM. Você deve primeiro instalar o Skyline a p
 
 As etapas para configurar o Skyline estão descritas no [repositório do GitHub](https://github.com/adobe/captivate-prime-aem-components).
 
-## Widget Catálogo
+## Widget Meu aprendizado
 
-O widget Catálogo exibe o treinamento de um catálogo específico ou de um conjunto de catálogos para um usuário. Na seção Propriedades nas propriedades da página, selecione Catálogo nas opções listadas.
+O widget **[!UICONTROL Meu Aprendizado]** permite exibir o treinamento de um catálogo específico ou de um conjunto de catálogos para um usuário.
+
+Na seção **[!UICONTROL Propriedades]** das propriedades da página, selecione **[!UICONTROL Catálogo]** nas opções listadas.
 
 <!--![](assets/catalog-widget.png)-->
 
-O widget Catálogo contém as seguintes opções:
+As opções do Catálogo contêm as seguintes opções:
 
 * **[!UICONTROL IDs de catálogo]:** IDs de catálogo separadas por vírgula para as quais o treinamento precisa ser exibido.
 * **[!UICONTROL Classificação]:** Ordem de classificação para o treinamento. As opções são: nome, data, data de criação, data de inscrição e assim por diante.
