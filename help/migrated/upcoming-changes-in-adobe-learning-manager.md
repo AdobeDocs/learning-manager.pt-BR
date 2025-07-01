@@ -1,13 +1,13 @@
 ---
 title: Alterações futuras no Adobe Learning Manager
 description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes a serem feitas em breve no Adobe Learning Manager. Mantenha-se informado sobre as mudanças para que você possa planejar com antecedência e aproveitar ao máximo os aprimoramentos mais recentes.
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
+source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
-
 
 # Alterações futuras no Adobe Learning Manager
 
@@ -15,7 +15,7 @@ Estamos animados em compartilhar várias atualizações importantes futuras para
 
 Essas alterações foram projetadas para reduzir o esforço manual, oferecer suporte à automação e melhorar o controle em todas as operações de treinamento.
 
-## Capturar conclusões marcadas como professor na transcrição do aluno (M44)
+## Capturar conclusões marcadas como professor na transcrição do aluno
 
 ### Público-alvo
 
@@ -45,7 +45,7 @@ Estados de participação como “Presente com aprovação/reprovação” apare
 * Se estiver usando nomes de colunas, nenhuma alteração será necessária.
 * As conclusões com ajuste retroativo (importações manuais) não estão incluídas.
 
-## Baixar links no relatório de ajudas de tarefa (M44)
+## Baixar links no relatório de ajudas de tarefa
 
 ### Público-alvo
 
@@ -69,7 +69,7 @@ Usuários com acesso (administradores/autores e funções personalizadas) podem 
 * Se o script for baseado na posição da coluna, atualize os scripts de acordo.
 * Nenhuma ação é necessária se forem usados nomes de coluna.
 
-## Colunas ID de Usuário Interno e Email do Gerente adicionadas ao Relatório do Usuário (M44)
+## Colunas ID de Usuário Interno e Email do Gerente adicionadas ao Relatório do Usuário
 
 ### Público-alvo
 
@@ -88,7 +88,7 @@ O relatório Usuário inclui uma ID de usuário interna do usuário e o endereç
 * Se estiver usando esse relatório em fluxos automatizados, essa coluna recém-adicionada deverá ser tratada na automação.
 * Nenhuma alteração é necessária se os fluxos de trabalho não forem afetados.
 
-## Permissões de comunicado no escopo para administradores personalizados (M44)
+## Permissões de comunicado no escopo para administradores personalizados
 
 ### Público-alvo
 
