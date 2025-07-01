@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b704d69970b0e1de6bb3b2ff682c286c1940a354
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '26471'
-ht-degree: 72%
+source-wordcount: '27011'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,83 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++Atualização 101: a versão de junho de 2025 do Adobe Learning Manager
+
+## Modelos de email baseados em função
+
+### Público-alvo
+
+Administradores e autores gerenciando modelos de email
+
+### Visão geral
+
+Você (administrador ou autor) pode ativar ou desativar modelos de e-mail com base na função do destinatário, aluno, gerente ou professor. Ele oferece mais controle sobre o tipo e a frequência de comunicação com os alunos.
+
+### Caso de uso
+
+* Os administradores e autores precisam enviar e-mail aos alunos sem notificar os gerentes (por exemplo, inscrições do aluno).
+* A opção de ativar ou desativar e-mails em massa para uma função específica (por exemplo, desativar todos os e-mails para gerentes).
+
+### Fluxo de trabalho existente
+
+Se a intenção for enviar e-mails aos alunos, mas não aos gerentes (por exemplo, inscrição no curso), o modelo atual envia e-mails para todas as funções.
+
+### Novidades
+
+* Ativa/desativa a interface de modelos de email com base em funções.
+* Ativar/desativar em massa para uma função específica.
+* Visibilidade em funções por modelo.
+
+Consulte este [artigo](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level) para obter mais informações.
+
+## Controle de versão de conteúdo aprimorado para alunos que concluíram um curso
+
+### Visão geral
+
+Quando o módulo de conteúdo de um curso concluído foi atualizado para uma versão mais recente, os alunos encontraram uma tela em branco. Esse problema ocorria mesmo quando o autor optava por aplicar o novo conteúdo apenas aos alunos que ainda não tinham iniciado o curso. O problema afetou a experiência do usuário e levou à confusão entre os alunos anteriores que tentaram revisitar o curso, pois enfrentaram problemas de reprodução.
+
+### Comportamento existente
+
+Quando os autores atualizaram o conteúdo do curso para uma nova versão (V2) e o aplicaram apenas aos alunos “ainda não iniciados”, o Adobe Learning Manager atualizou a versão do módulo para alunos concluídos em segundo plano e esses alunos experimentaram uma tela em branco ao tentar acessar o conteúdo novamente, uma vez que o módulo atualizado não era mais válido para eles.
+
+### Exemplos:
+
+* Um aluno concluído tentou revisitar a pós-atualização do curso e viu uma tela em branco.
+* Um aluno em andamento concluiu o curso, mas depois encontrou uma tela em branco após a versão do conteúdo ter sido atualizada silenciosamente.
+
+### O que mudou
+
+O Adobe Learning Manager apresenta opções mais claras de controle de versão para autores ao atualizar conteúdo. Os autores agora verão três opções bem definidas durante uma atualização da versão do conteúdo:
+
+| Estado do aluno | Atualizar agora | Atualizar Eventualmente | Atualização Não Iniciada |
+|---|---|---|---|
+| Não inscrito | V2 | V2 | V2 |
+| Ainda não iniciado | V2 | V2 | V2 |
+| Em andamento | V2 * | V1 → V2 * | V1 |
+| Concluído | V2 * | V2 * | V1 (preservado) |
+
+(*) Indica que o módulo será redefinido na atualização da versão.
+
+Em **[!UICONTROL Atualização Não Iniciada]**, o aluno concluído continuará a ver a versão de conteúdo existente (V1), resolvendo o problema de telas brancas inesperadas.
+
+* **[!UICONTROL Atualizar Agora]**: aplicar a atualização de conteúdo a todos os alunos (Alunos não iniciados, em andamento e Concluídos serão movidos para a nova versão de conteúdo agora)
+* **[!UICONTROL Atualizar no fim]**: aplicar a atualização de conteúdo a todos os alunos no fim (Se não iniciado, os alunos concluídos serão movidos para a nova versão de conteúdo agora; os alunos em andamento serão movidos após a conclusão)
+* **[!UICONTROL Atualização não iniciada]**: aplicar atualização de conteúdo somente a alunos não iniciados (alunos em andamento e concluídos permaneceriam na versão de conteúdo existente)
+
+### Mudanças na interface do usuário
+
+| Rótulo antigo | Nova opção |
+|---|---|
+| Aplicar a atualização de conteúdo a todos os alunos | Atualizar todos os alunos agora:Aplicar atualização de conteúdo a todos os alunos |
+| Aplicar atualização aos alunos ainda não iniciados | Atualizar apenas alunos não iniciados: aplicar atualização de conteúdo apenas para alunos não iniciados |
+| Os alunos em andamento recebem atualizações após a conclusão | Atualizar todos os alunos no final: aplicar a atualização de conteúdo a todos os alunos no final |
+
+![](assets/version-control-options.png)
+
+Consulte este [artigo](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) para obter mais informações sobre a biblioteca de conteúdo.
+
++++
 
 +++Atualização 100: versão de maio de 2025 do Adobe Learning Manager
 
@@ -1498,7 +1575,7 @@ Nesta atualização, o aluno pode carregar ativos como comprovante de conclusão
 
 O aluno pode abrir um certificado externo e carregar ativos, tais como pdf, texto ou arquivos de imagem.
 
-Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas corrigidos nesta versão {#issuesfixedinthisrelease}
 
@@ -1876,7 +1953,7 @@ Data de lançamento: 20 de junho de 2019
 
 **Curadoria automática de conteúdo**
 
-O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[**&#x200B; Curadoria assistida automaticamente &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[** Curadoria assistida automaticamente **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mapear habilidades com domínios de habilidades**
 
@@ -1958,7 +2035,7 @@ Data de lançamento: 26 de abril de 2019
 
 Para se inscrever e concluir um curso, você pode digitalizar um código QR fornecido pelo administrador. Para obter mais informações sobre a digitalização de códigos QR na versão Web do Learning Manager, consulte [***Digitalizar código QR***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompletecourse).
 
-* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***] (<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
+* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
 
 +++
 
@@ -2500,7 +2577,7 @@ Data de lançamento: 06 de dezembro de 2016.
 
 ### Aprimoramento {#enhancement}
 
-Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar&#x200B;**&#x200B;**&#x200B;este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
+Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar****este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
 
 * Nome
 * Email
@@ -3010,7 +3087,7 @@ A exportação de dados de inscrição costumava falhar se um dos alunos inscrit
 
 **Modelos de e-mail**
 
-* A palavra **parceiros,** que foi usada para representar grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
+* A palavra **parceiros,** que foi usada para representar grupos externos,**** foi **** removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
   **Observação:** este modelo atualizado não será exibido se o modelo padrão já estiver modificado. Para exibir o modelo atualizado, clique em **Reverter para Original** na caixa de diálogo **Visualização do Modelo**.
 
 * A URL não pode ser clicada no email recebido pelos Administradores sempre que os modelos de email **Perfil Criado(Autorregistro)** e **Perfil Criado(Externo/Parceiros)** forem editados. Esse problema foi corrigido.

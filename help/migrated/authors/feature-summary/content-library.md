@@ -3,10 +3,10 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '4319'
-ht-degree: 39%
+source-wordcount: '4546'
+ht-degree: 37%
 
 ---
 
@@ -595,6 +595,36 @@ O conteúdo agora aparece na lista Publicado.
 ## Atualizar o conteúdo
 
 Os autores podem atualizar o conteúdo do curso publicado. Isso ajudará os alunos a obter a versão mais recente do conteúdo. Confira este [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) para obter mais informações.
+
+### Controle de versão de conteúdo para alunos que concluíram um curso
+
+O Adobe Learning Manager oferece opções mais claras de controle de versão para autores ao atualizar conteúdo. Os autores agora verão três opções bem definidas durante uma atualização da versão do conteúdo:
+
+| Estado do aluno | Atualizar agora | Atualizar Eventualmente | Atualização Não Iniciada |
+|---|---|---|---|
+| Não inscrito | V2 | V2 | V2 |
+| Ainda não iniciado | V2 | V2 | V2 |
+| Em andamento | V2 * | V1 → V2 * | V1 |
+| Concluído | V2 * | V2 * | V1 (preservado) |
+
+(*) Indica que o módulo será redefinido na atualização da versão.
+
+Em **[!UICONTROL Atualização Não Iniciada]**, o aluno concluído continuará a ver a versão de conteúdo existente (V1), resolvendo o problema de telas brancas inesperadas.
+
+* **[!UICONTROL Atualizar Agora]**: aplicar a atualização de conteúdo a todos os alunos (Alunos não iniciados, em andamento e Concluídos serão movidos para a nova versão de conteúdo agora)
+* **[!UICONTROL Atualizar no fim]**: aplicar a atualização de conteúdo a todos os alunos no fim (Se não iniciado, os alunos concluídos serão movidos para a nova versão de conteúdo agora; os alunos em andamento serão movidos após a conclusão)
+* **[!UICONTROL Atualização não iniciada]**: aplicar atualização de conteúdo somente a alunos não iniciados (alunos em andamento e concluídos permaneceriam na versão de conteúdo existente)
+
+#### Mudanças na interface do usuário
+
+| Rótulo antigo | Nova opção |
+|---|---|
+| Aplicar a atualização de conteúdo a todos os alunos | Atualizar todos os alunos agora:Aplicar atualização de conteúdo a todos os alunos |
+| Aplicar atualização aos alunos ainda não iniciados | Atualizar apenas alunos não iniciados: aplicar atualização de conteúdo apenas para alunos não iniciados |
+| Os alunos em andamento recebem atualizações após a conclusão | Atualizar todos os alunos no final: aplicar a atualização de conteúdo a todos os alunos no final |
+
+![](assets/version-control-options.png)
+
 
 ## Excluir conteúdo {#deletecontent}
 

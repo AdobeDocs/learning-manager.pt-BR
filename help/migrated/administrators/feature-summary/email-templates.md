@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Modelos de e-mail
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1610'
+ht-degree: 55%
 
 ---
 
@@ -72,7 +72,7 @@ Você como administrador pode facilmente ativar, desativar ou modificar esses mo
 1. Para abrir a página de configurações, clique em **[!UICONTROL Configurações]**. Agora você pode personalizar seus modelos de e-mail.
 1. Para personalizar o nome e a ID de e-mail a partir dos quais os alunos recebem e-mails, edite o **[!UICONTROL Nome e Endereço do Remetente].**
 
-   Contate o [***Suporte do Adobe***](https://helpx.adobe.com/br/contact/enterprise-support.other.html#learning-manager) para configurar ou alterar esses detalhes.
+   Contate o [***Suporte do Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar ou alterar esses detalhes.
 
 1. Personalize seu banner de email com a opção **[!UICONTROL Banner de email]**. Altere a cor do banner selecionando **[!UICONTROL Fundo do banner]**.
 
@@ -99,6 +99,24 @@ Você como administrador pode facilmente ativar, desativar ou modificar esses mo
    *Personalizar a URL da conta*
 
 1. Configure se os gerentes também devem receber emails enviados para seus subordinados diretos usando a caixa de seleção na opção **[!UICONTROL Email do Gerente Opcional]**.
+
+## Habilitar ou desabilitar email em um nível de função
+
+O administrador pode ativar ou desativar modelos de e-mail com base na função do destinatário, como aluno, gerente ou professor. Isso dá aos administradores mais controle sobre quais notificações são enviadas e ajuda a gerenciar o tipo e a frequência da comunicação.
+
+Para ativar ou desativar modelos de e-mail:
+
+1. Faça logon no Adobe Learning Manager como administrador.
+2. Selecione **[!UICONTROL Modelos de Email]** no painel esquerdo.
+3. Para habilitar ou desabilitar modelos de email em massa para uma função específica, selecione as reticências (...) no cabeçalho da coluna e habilite todas as funções aplicáveis em **[!UICONTROL Destinatários de Email]**.
+
+   ![](assets/email-template-role.png)
+   _Enviar todos os modelos de email no nível de função_
+
+4. Para habilitar ou desabilitar um modelo de email específico para uma função, selecione as reticências (...) para esse modelo e marque ou desmarque uma função.
+
+   ![](assets/email-template-role-1.png)
+   _Enviar um Modelo de Email em um nível de função_
 
 ## Definir a frequência de e-mails de resumo {#setfrequencyofdigestemails}
 
@@ -160,7 +178,7 @@ Você pode baixar o relatório de acesso ao email clicando no botão **[!UICONTR
 
 ## Personalizar domínio do e-mail {#customizeemaildomain}
 
-Para personalizar o domínio e a ID de e-mail a partir dos quais os alunos recebem notificações, entre em contato com o [***Suporte do Learning Manager***](https://helpx.adobe.com/br/contact/enterprise-support.other.html#learning-manager) e forneça os detalhes do domínio que você deseja adicionar e a nova ID de e-mail.
+Para personalizar o domínio e a ID de e-mail a partir dos quais os alunos recebem notificações, entre em contato com o [***Suporte do Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) e forneça os detalhes do domínio que você deseja adicionar e a nova ID de e-mail.
 
 Sua solicitação será processada e um e-mail com o link de confirmação será enviado a você no novo endereço de e-mail especificado. Clique no link de verificação fornecido no e-mail para confirmar e concluir o processo de verificação.
 
@@ -257,6 +275,6 @@ Para desativar o modelo de e-mail, selecione o modelo que precisa ser desativado
 
 +++Como alterar o nome e o endereço do remetente no modelo?
 
-Para alterar o nome e o endereço de email do remetente, contate o [suporte da Adobe Learning Manager](https://helpx.adobe.com/br/contact/enterprise-support.other.html#learning-manager).
+Para alterar o nome e o endereço de email do remetente, contate o [suporte da Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 80%
+source-wordcount: '682'
+ht-degree: 79%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 80%
 * [Guia do Usuário do Learning Manager](user-guide.md)
 * Introdução {#introduction}
    * [Resumo dos novos recursos em maio de 2025](/help/migrated/whats-new.md)
+   * [Alterações futuras no Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Resumo dos novos recursos novembro de 2024](/help/migrated/whats-new-nov-24.md)
    * [Resumo dos novos recursos julho de 2024](whats-new-july-2024.md)
    * [Novos recursos em março de 2024](whats-new-march-2024.md)
@@ -92,7 +93,8 @@ ht-degree: 80%
    * [Experiência não conectada para alunos](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programas de aprendizado](administrators/feature-summary/learning-programs.md)
    * [Terminologia do produto](administrators/feature-summary/product-terminology.md)
-* Administrador de integração {#integration}
+* Administrador de Integração {#integration}
+   * [Manual do desenvolvedor de aplicativos](integration-admin/feature-summary/developer-manual.md)
    * [Manual de migração](integration-admin/feature-summary/migration-manual.md)
    * [Conectores do Learning Manager](integration-admin/feature-summary/connectors.md)
    * [APIs não conectadas](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -104,7 +106,6 @@ ht-degree: 80%
    * [Integrar o Learning Manager ao AEM](integrate-aem-learning-manager.md)
    * [Instalar pacote do Salesforce no Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Instalar o conector do Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [Manual do desenvolvedor de aplicativos](integration-admin/feature-summary/developer-manual.md)
    * [Aplicativo Learning Manager para Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Configurações](integration-admin/feature-summary/settings.md)
    * [Gerenciar funções personalizadas através de arquivos CSV](integration-admin/feature-summary/configure-role-csv-files.md)
