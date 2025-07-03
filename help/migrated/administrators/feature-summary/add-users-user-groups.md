@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adicionar usuários no Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Adicionar usuários no Adobe Learning Manager
 
-No Adobe Learning Manager, os usuários são pessoas que usam a plataforma para aprendizado ou treinamento. Há dois tipos de usuários: usuários internos e usuários externos.
+No Adobe Learning Manager, os usuários são alunos que usam a plataforma para aprendizado ou treinamento. Há dois tipos de usuários: usuários internos e usuários externos.
 
 Usuários internos são funcionários ou membros da equipe de sua organização.
 
-Usuários externos são pessoas de fora da empresa, como clientes, parceiros, fornecedores ou clientes, que podem acessar o conteúdo de aprendizado.
+Usuários externos são alunos fora da sua empresa, como clientes, parceiros, fornecedores ou clientes, que podem acessar o conteúdo de aprendizado.
 
 O Adobe Learning Manager (ALM) permite que os administradores integrem e gerenciem usuários internos e externos usando vários métodos, incluindo entrada manual, upload de CSV, autorregistro e integrações de sistema.
 
@@ -248,7 +248,7 @@ Existem algumas diferenças entre registros internos e externos:
 | Usuários internos | Usuários externos |
 |---|---|
 | É possível fazer logon usando as credenciais do Adobe ID ou SSO. | É possível fazer logon usando qualquer ID de email. |
-| A gamificação está disponível. | Gamificação disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/gamification). |
+| A gamificação está disponível. | Gamificação disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 
