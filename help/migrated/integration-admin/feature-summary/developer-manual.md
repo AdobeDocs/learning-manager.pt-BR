@@ -4,9 +4,9 @@ title: Manual do desenvolvedor de aplicativos
 description: Saiba como integrar e personalizar aplicativos usando APIs RESTful, que abrangem tópicos essenciais, como autenticação OAuth 2.0, cenários de uso de API e modelos de dados. Aprimore os aplicativos corporativos com recursos como criação do curso, rastreamento do progresso do aluno, mapeamento de habilidades, certificação, gamificação e muito mais. Este guia fornece instruções passo a passo e exemplos reais para ajudar os desenvolvedores a criar fluxos de trabalho contínuos e eficientes. Ideal para desenvolvedores que desejam aproveitar os recursos do Adobe Learning Manager para criar aplicativos centrados no aluno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
 workflow-type: tm+mt
-source-wordcount: '4375'
+source-wordcount: '4396'
 ht-degree: 6%
 
 ---
@@ -22,8 +22,8 @@ Este manual abrange o seguinte:
 
 * Autenticação OAuth2.0
 * Modelos de objeto da API
-* Mostra como usar inclusão, campos e outros parâmetros
-* Fornece pontos de extremidade para casos de uso reais
+* Incluir campos e outros parâmetros
+* Casos de uso reais
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Para acessar as APIs do Adobe Learning Manager com segurança, você deve se aut
 
 ### Registrar um aplicativo
 
-Integre o Adobe Learning Manager a aplicativos externos para aumentar a versatilidade. As etapas envolvem acessar a interface do administrador de integração, registrar o aplicativo e obter a ID de cliente e o segredo. Gere tokens de autenticação (OAuth, Atualizar e Tokens de acesso) do ALM, enfatizando o uso da estrutura do OAuth 2.0 para autenticação e autorização. O token de acesso tem validade de sete dias.
+Integre o Adobe Learning Manager a aplicativos externos para aumentar a versatilidade. As etapas envolvem acessar a interface do administrador de integração, registrar o aplicativo e obter a ID de cliente e o segredo. Gerar tokens de autenticação OAuth 2.0, incluindo tokens de autorização, atualização e acesso, do Adobe Learning Manager. Use o fluxo do OAuth 2.0 para autenticar e autorizar com segurança seu aplicativo. O token de acesso tem validade de sete dias.
 
 1. Faça logon no Adobe Learning Manager como administrador de integração.
 2. Selecione **[!UICONTROL Aplicativos]** no painel esquerdo.
@@ -174,7 +174,7 @@ Como antes, o token de acesso para teste expira em sete dias.
 
 ### Usar uma ferramenta de API para testar os pontos de extremidade
 
-Embora você possa usar qualquer ferramenta de teste de API de terceiros, usaremos o Postman para testar os endpoints. Os exemplos neste documento usam o Postman para teste de ponto de extremidade.
+Embora você possa usar qualquer ferramenta de teste de API de terceiros, usaremos o Postman para testar os endpoints. Os exemplos neste documento usam o Postman para testar os endpoints.
 
 1. Abra o Postman e crie uma nova solicitação.
 2. Selecione a guia Autorização.
@@ -283,7 +283,7 @@ Anexe o parâmetro include ao URL da API e especifique as entidades relacionadas
 
 **Exemplo 1**
 
-Recuperar os detalhes de um usuário usando o parâmetro userID no ponto de extremidade
+Recupere os detalhes de um usuário usando o parâmetro userID no ponto de extremidade.
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -841,8 +841,11 @@ Isso significa que o usuário externo foi adicionado com êxito ao Adobe Learnin
 
 ### Extrair relatório de usuário com detalhes da ID de usuário e do gerente
 
-Um relatório de usuário pode ser baixado diretamente da interface de usuário (**[!UICONTROL Administrador]** > **[!UICONTROL Usuários]** > **[!UICONTROL Internos]**). No entanto, o relatório não retorna a ID do usuário e os detalhes do gerente associado.
-Usando a API Trabalhos para um administrador, você pode recuperar os detalhes.
+Um relatório de usuário pode ser baixado diretamente da Interface de Usuário do administrador (**[!UICONTROL Administrador]** > **[!UICONTROL Usuários]** > **[!UICONTROL Internos]**). No entanto, o relatório não retorna a ID do usuário e os detalhes do gerente associado.
+
+Use a API Trabalhos para baixar o relatório. A API Trabalhos ajuda na geração de relatórios, operações em massa (inscrições ou atribuições de medalha), conclusões de certificação ou geração de medalha.
+
+Veja como você pode baixar o relatório:
 
 1. Adicione a seguinte carga à API de trabalhos.
 
