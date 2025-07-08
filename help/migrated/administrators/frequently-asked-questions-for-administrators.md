@@ -4,9 +4,9 @@ title: Perguntas Frequentes para Administradores
 description: Perguntas frequentes para administradores do Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 52%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++Posso adicionar usuários em massa? Como?
 
-Sim, você pode adicionar usuários em massa usando o recurso de carregamento de CSV. Clique [aqui](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) para obter mais informações.
+Sim, você pode adicionar usuários em massa usando o recurso de carregamento de CSV. Consulte este [artigo](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) para obter mais informações.
 
 +++
 
@@ -257,7 +257,7 @@ Você pode alternar o logon da sua conta para outras funções, como aluno, gere
 Gerentes, autores e alunos podem ver notificações com base nas atividades do curso. O administrador pode ativar/desativar as notificações para todos os usuários seguindo as etapas abaixo:
 
 1. Clique em Modelos de e-mail no painel esquerdo e escolha as guias Geral, Inscrições do usuário, Conclusões e Feedback.
-1. Nos eventos listados abaixo, clique nos botões de alternância Não/Sim ao lado de **cada &#x200B;** evento e escolha Sim para ativar a notificação. Clique em Não para desativar o envio de notificações para um evento específico.
+1. Nos eventos listados abaixo, clique nos botões de alternância Não/Sim ao lado de cada evento e escolha Sim para ativar a notificação. Clique em Não para desativar o envio de notificações para um evento específico.
 
 +++
 

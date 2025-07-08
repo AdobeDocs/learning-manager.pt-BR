@@ -3,9 +3,9 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3619'
 ht-degree: 72%
 
 ---
@@ -546,7 +546,7 @@ Abaixo encontram-se as especificações CSV padrão que podem ser usadas para ma
 
 ## Solução de problemas de migração {#troubleshootingmigrationissues}
 
-[Clique aqui](../../kb/troubleshooting-migration.md) para saber mais sobre a solução dos problemas enfrentados pelos administradores de integração ao migrar dados e conteúdo do LMS existente para o Learning Manager.
+Consulte este [artigo](../../kb/troubleshooting-migration.md) para saber mais sobre a solução dos problemas enfrentados pelos administradores de integração ao migrar dados e conteúdo do LMS existente para o Learning Manager.
 
 ## Dicas para gerenciamento de usuários {#usermanagement}
 

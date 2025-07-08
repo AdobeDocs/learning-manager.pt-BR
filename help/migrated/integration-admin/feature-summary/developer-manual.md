@@ -4,7 +4,7 @@ title: Manual do desenvolvedor de aplicativos
 description: Saiba como integrar e personalizar aplicativos usando APIs RESTful, que abrangem tópicos essenciais, como autenticação OAuth 2.0, cenários de uso de API e modelos de dados. Aprimore os aplicativos corporativos com recursos como criação do curso, rastreamento do progresso do aluno, mapeamento de habilidades, certificação, gamificação e muito mais. Este guia fornece instruções passo a passo e exemplos reais para ajudar os desenvolvedores a criar fluxos de trabalho contínuos e eficientes. Ideal para desenvolvedores que desejam aproveitar os recursos do Adobe Learning Manager para criar aplicativos centrados no aluno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 01b5f339fb17db9c1af4e3e1121f9034c84fb974
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '4375'
 ht-degree: 6%
@@ -392,7 +392,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
 **Outros filtros de inclusão**
 
 <table>
- <tbody>
+  <tbody>
   <tr>
    <td>
     <p style="text-align: left;"><b>Programas de aprendizado</b></p></td>
@@ -406,6 +406,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <br>instâncias.inscrição.loResourceGrades</br><br>inscrição.loInstance.loResources.recursos</br>pré-requisitosLOs</br><br>autores</br><br>instâncias.loResources.recursos</br><br>suplementaresLOs.instâncias.loResources.recursos</br><br>suplementaresResources</br><br>instâncias.medalha</br><br>habilidades.skillLevel.badge</br><br>habilidades.skillLevel.skill</br><br>instâncias.loResources.recursos.sala</br><br>pré-requisitosLOs.inscrição</br><br>registro.lo ResourceGrades</br>
   </td>
   </tr>
+  </table>
 
 #### campos
 
@@ -520,7 +521,7 @@ As APIs do Adobe Learning Manager permitem que os desenvolvedores acessem objeto
 | userBadge | UserBadge relaciona uma única medalha com um único usuário. Contém detalhes de quando foi obtida, assertionUrl e assim por diante. |
 | habilidade | O modelo de habilidades consiste em níveis e créditos. As habilidades podem ser adquiridas pelos alunos após a conclusão relevante do curso. |
 | skillLevel | Um nível de habilidade compreende um ou vários cursos a serem consumidos para adquirir um nível junto com seus créditos associados. |
-| learningObject | Um objeto de aprendizado é uma abstração para vários tipos de objetos nos quais os usuários podem se inscrever e aprender. Atualmente, o Learning Manager tem os quatro tipos de objetos de aprendizado: curso, certificação, programa de aprendizado e ajuda de tarefa. |
+| learningObject | Um objeto de aprendizado é uma abstração para vários tipos de objetos nos quais os usuários podem se inscrever e aprender. Atualmente, o Learning Manager tem os quatro tipos de objetos de aprendizado, curso, certificação, programa de aprendizado e ajuda de tarefa. |
 | learningObjectInstance | Uma instância específica de um objeto de aprendizado. |
 | learningObjectResource | Isso é equivalente ao conceito de módulo . Um curso é composto por um ou mais módulos. No Learning Manager, um módulo pode ser fornecido de várias maneiras equivalentes. Portanto, o loResource essencialmente encapsula todos esses recursos equivalentes. |
 | loResourceGrade | Isso encapsula o resultado do usuário que está consumindo um recurso específico no contexto de um objeto de aprendizado no qual ele está inscrito. Ele tem informações como a duração gasta pelo usuário no recurso, o percentual de progresso feito pelo usuário, o status de aprovação/reprovação e a pontuação obtida pelo usuário em qualquer questionário associado. |

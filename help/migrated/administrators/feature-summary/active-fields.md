@@ -2,13 +2,13 @@
 description: Saiba como usar campos ativos no Adobe Learning Manager para capturar, organizar e gerenciar informações personalizadas do usuário. Aprimore os relatórios, a filtragem e a segmentação de usuários com configurações flexíveis de campo.
 jcr-language: en_us
 title: Configurar campos ativos no Adobe Learning Manager
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
 
 ---
-
 
 # Campos ativos
 
@@ -122,6 +122,4 @@ Em alguns casos, os administradores preferem que os alunos preencham manualmente
 
 Se um arquivo CSV não incluir todos os campos ativos, o administrador deverá inserir manualmente os valores ausentes após a importação.
 
-Por padrão, cada campo ativo deve ser mapeado para um campo correspondente no CSV de origem. No entanto, se não quiser mapear um campo ativo específico para qualquer coluna no CSV, você pode selecionar o valor **DontImportFromSource** na lista suspensa durante os processos de importação do Box e do FTP. Essa opção está disponível ao importar usuários por meio de conectores FTP ou Box. Consulte este [artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/connectors) para obter mais informações sobre os conectores.
-
-
+Por padrão, cada campo ativo deve ser mapeado para um campo correspondente no CSV de origem. No entanto, se não quiser mapear um campo ativo específico para qualquer coluna no CSV, você pode selecionar o valor **DontImportFromSource** na lista suspensa durante os processos de importação do Box e do FTP. Essa opção está disponível ao importar usuários por meio de conectores FTP ou Box. Consulte este [artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) para obter mais informações sobre os conectores.
