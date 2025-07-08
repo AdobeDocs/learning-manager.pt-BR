@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adicionar usuários no Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 6997eed011b0d133842473028826113b98322e87
+source-git-commit: 60c171374e4a6b15d92907ae441fc63ba6ee4743
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 1%
@@ -239,7 +239,7 @@ Existem algumas diferenças entre registros internos e externos:
 | Usuários internos | Usuários externos |
 |---|---|
 | É possível fazer logon usando as credenciais do Adobe ID ou SSO. | É possível fazer logon usando qualquer ID de email. |
-| A gamificação está disponível. | Gamificação disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/gamification). |
+| A gamificação está disponível. | Gamificação disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 
@@ -341,3 +341,4 @@ Para remover funções de usuários:
    _Opção para remover funções atribuídas de um usuário no menu Ações_
 
 4. Selecione **Sim** na caixa de diálogo de confirmação.
+
