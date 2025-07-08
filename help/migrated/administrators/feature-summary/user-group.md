@@ -3,7 +3,7 @@ description: Saiba como criar e gerenciar grupos de usuários no Adobe Learning 
 jcr-language: en_us
 title: Gerenciar grupos de usuários no Adobe Learning Manager | Organizar e atribuir alunos
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -215,3 +215,4 @@ Quando você usa a lógica OR, o Adobe Learning Manager adiciona usuários que e
 
 ![](assets/or-logic.png)
 _Exemplo que mostra vários grupos combinados usando a lógica OR_
+
