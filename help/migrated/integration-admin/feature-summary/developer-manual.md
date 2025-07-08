@@ -4,9 +4,9 @@ title: Manual do desenvolvedor de aplicativos
 description: Saiba como integrar e personalizar aplicativos usando APIs RESTful, que abrangem tópicos essenciais, como autenticação OAuth 2.0, cenários de uso de API e modelos de dados. Aprimore os aplicativos corporativos com recursos como criação do curso, rastreamento do progresso do aluno, mapeamento de habilidades, certificação, gamificação e muito mais. Este guia fornece instruções passo a passo e exemplos reais para ajudar os desenvolvedores a criar fluxos de trabalho contínuos e eficientes. Ideal para desenvolvedores que desejam aproveitar os recursos do Adobe Learning Manager para criar aplicativos centrados no aluno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
+source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4520'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Integre o Adobe Learning Manager a aplicativos externos para aumentar a versatil
 
 ## Obter um token de acesso
 
-### Obter código de autorização de redirecionamento
+### Obter o código de autorização
 
 Depois de obter a ID do cliente e o Segredo do cliente, use-os para solicitar um token de acesso, que é usado para autenticar chamadas de API.
 
@@ -287,7 +287,7 @@ Anexe o parâmetro include ao URL da API e especifique as entidades relacionadas
 | skills.skillLevel.badge | Busca níveis de habilidade e suas medalhas associadas |
 | prerequisiteLOs | Inclui objetos de aprendizado de pré-requisito |
 | subLOs | Busca objetos de subaprendizado (usados em LPs ou certificações) |
-| subLOs.enrollment | Inscrição para objetos de subaprendizado |
+| subLOs.enrollment | Inscrição para Objetos de Subaprendizado |
 | instances.badge | Medalha atribuída para a conclusão de uma instância do curso |
 | subLOs.subLOs.instances.loResources.resources | Recursos profundamente aninhados dentro de uma instância de sub-LO |
 
@@ -1535,7 +1535,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>user</p></td>
    <td>
-    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
+    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
    <td>
@@ -1543,7 +1543,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>course</p></td>
    <td>
-    <p>Course is one of the learning objects supported in Learning Manager, that consists of one or more modules. </p></td>
+    <p>Course is one of the Learning Objects supported in Learning Manager, that consists of one or more modules. </p></td>
   </tr>
   <tr>
    <td>
@@ -1551,7 +1551,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>module</p></td>
    <td>
-    <p>Module is a building block to create learning objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
+    <p>Module is a building block to create Learning Objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
    <td>
@@ -1718,13 +1718,13 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td><code>
      catalog
     </code></td>
-   <td>Catalog is a collection of learning objects.</td>
+   <td>Catalog is a collection of Learning Objects.</td>
   </tr>
   <tr>
    <td><code>
      user
     </code></td>
-   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
+   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>
