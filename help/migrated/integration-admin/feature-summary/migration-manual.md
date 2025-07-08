@@ -3,7 +3,7 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '3617'
 ht-degree: 72%
@@ -582,5 +582,5 @@ Em um contexto no qual X é o gerente dos usuários, por exemplo, A, B e C, se X
 
 Para obter mais informações sobre este tópico, consulte o seguinte conteúdo de Ajuda:
 
-* [Perguntas frequentes sobre carregamento de CSVs](/help/migrated/administrators/add-users-in-bulk.md)
+* [Perguntas frequentes sobre carregamento de CSVs](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Ajuda do recurso sobre adição de usuários](/help/migrated/administrators/feature-summary/add-users-user-groups.md)

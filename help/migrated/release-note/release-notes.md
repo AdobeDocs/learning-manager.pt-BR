@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '27129'
 ht-degree: 70%
@@ -1583,7 +1583,7 @@ Nesta atualização, o aluno pode carregar ativos como comprovante de conclusão
 
 O aluno pode abrir um certificado externo e carregar ativos, tais como pdf, texto ou arquivos de imagem.
 
-Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas corrigidos nesta versão {#issuesfixedinthisrelease}
 
@@ -1961,7 +1961,7 @@ Data de lançamento: 20 de junho de 2019
 
 **Curadoria automática de conteúdo**
 
-O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[**&#x200B; Curadoria assistida automaticamente &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[** Curadoria assistida automaticamente **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mapear habilidades com domínios de habilidades**
 
@@ -2043,7 +2043,7 @@ Data de lançamento: 26 de abril de 2019
 
 Para se inscrever e concluir um curso, você pode digitalizar um código QR fornecido pelo administrador. Para obter mais informações sobre a digitalização de códigos QR na versão Web do Learning Manager, consulte [***Digitalizar código QR***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompletecourse).
 
-* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***] (<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
+* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
 
 +++
 
@@ -2585,7 +2585,7 @@ Data de lançamento: 06 de dezembro de 2016.
 
 ### Aprimoramento {#enhancement}
 
-Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar&#x200B;**&#x200B;**&#x200B;este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
+Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar****este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
 
 * Nome
 * Email
@@ -3095,7 +3095,7 @@ A exportação de dados de inscrição costumava falhar se um dos alunos inscrit
 
 **Modelos de e-mail**
 
-* A palavra **parceiros,** que foi usada para representar grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
+* A palavra **parceiros,** que foi usada para representar grupos externos,**** foi **** removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
   **Observação:** este modelo atualizado não será exibido se o modelo padrão já estiver modificado. Para exibir o modelo atualizado, clique em **Reverter para Original** na caixa de diálogo **Visualização do Modelo**.
 
 * A URL não pode ser clicada no email recebido pelos Administradores sempre que os modelos de email **Perfil Criado(Autorregistro)** e **Perfil Criado(Externo/Parceiros)** forem editados. Esse problema foi corrigido.
@@ -3261,7 +3261,7 @@ Há aprimoramentos significativos nos recursos existentes do Learning Manager. A
 
 ### Importar CSV
 
-Se você excluir usuários, não poderá adicionar os mesmos usuários de volta ao aplicativo usando a adição do único usuário. No entanto, você pode adicionar o usuário excluído novamente usando o processo de carregamento de CSV. Há alterações significativas na restrição dos campos obrigatórios no recurso de carregamento de CSV. Consulte [Perguntas frequentes sobre CSV](../administrators/add-users-in-bulk.md) para obter mais informações.
+Se você excluir usuários, não poderá adicionar os mesmos usuários de volta ao aplicativo usando a adição do único usuário. No entanto, você pode adicionar o usuário excluído novamente usando o processo de carregamento de CSV. Há alterações significativas na restrição dos campos obrigatórios no recurso de carregamento de CSV. Consulte [Perguntas frequentes sobre CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) para obter mais informações.
 
 ### Exibição da lista de cursos
 
