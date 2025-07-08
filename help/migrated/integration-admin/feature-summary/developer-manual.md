@@ -4,9 +4,9 @@ title: Manual do desenvolvedor de aplicativos
 description: Saiba como integrar e personalizar aplicativos usando APIs RESTful, que abrangem tópicos essenciais, como autenticação OAuth 2.0, cenários de uso de API e modelos de dados. Aprimore os aplicativos corporativos com recursos como criação do curso, rastreamento do progresso do aluno, mapeamento de habilidades, certificação, gamificação e muito mais. Este guia fornece instruções passo a passo e exemplos reais para ajudar os desenvolvedores a criar fluxos de trabalho contínuos e eficientes. Ideal para desenvolvedores que desejam aproveitar os recursos do Adobe Learning Manager para criar aplicativos centrados no aluno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
+source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
 workflow-type: tm+mt
-source-wordcount: '4504'
+source-wordcount: '4521'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Os desenvolvedores podem usar as APIs do Learning Manager para aprimorar ou inte
 
 ## Autenticação usando OAuth 2.0
 
-Para acessar as APIs do Adobe Learning Manager com segurança, você deve se autenticar usando o mecanismo OAuth 2.0 do ALM. Esse processo inclui o registro do aplicativo, a geração de um código de autorização, a troca dele por um token de atualização e, por fim, o uso do token de atualização para obter um token de acesso.
+Para acessar as APIs do Adobe Learning Manager com segurança, você deve se autenticar usando o mecanismo OAuth 2.0 do Adobe Learning Manager. Esse processo inclui o registro do aplicativo, a geração de um código de autorização, a troca dele por um token de atualização e, por fim, o uso do token de atualização para obter um token de acesso.
 
 ### Registrar um aplicativo
 
@@ -50,7 +50,7 @@ Integre o Adobe Learning Manager a aplicativos externos para aumentar a versatil
 
    * **[!UICONTROL Nome do Aplicativo]**: digite o nome do seu aplicativo (máximo de 50 caracteres).
    * **[!UICONTROL URL]**: a URL oficial da sua empresa ou aplicativo. Usado para identificação e referência.
-   * **[!UICONTROL Domínios de redirecionamento]**: especifique os domínios (por exemplo, [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) para os quais o ALM pode redirecionar após a autorização.  Você pode mencionar vários URLs, mas os URLs devem ser válidos.
+   * **[!UICONTROL Domínios de redirecionamento]**: especifique os domínios (por exemplo, [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) para os quais o Adobe Learning Manager pode redirecionar após a autorização.  É possível especificar vários URLs válidos.
    * **[!UICONTROL Descrição]**: breve descrição do que o aplicativo faz.
    * **[!UICONTROL Escopos]**: selecione uma das seis opções disponíveis para definir o escopo do seu aplicativo. Com base na sua escolha mencionada aqui, os endpoints da API do Learning Manager estão acessíveis para o seu aplicativo. Por exemplo, se você escolheu o acesso de leitura da função do aluno, todos os pontos de extremidade da API do aluno do Learning Manager são somente leitura acessíveis ao seu aplicativo.
 
@@ -68,7 +68,7 @@ Integre o Adobe Learning Manager a aplicativos externos para aumentar a versatil
 4. Selecione **[!UICONTROL Salvar]** para registrar o aplicativo.
 
    * Depois de registrar o aplicativo, ele fica disponível na lista de aplicativos criados na conta. Selecione o aplicativo e você verá o seguinte, além dos campos inseridos anteriormente:
-   * ID do aplicativo: é a ID do cliente. Essa ID informa ao ALM o aplicativo que está solicitando acesso. Está incluído em solicitações de API para identificar o aplicativo.
+   * ID do aplicativo: é a ID do cliente. Essa ID informa ao Adobe Learning Manager o aplicativo que está solicitando acesso. Está incluído em solicitações de API para identificar o aplicativo.
    * Segredo do aplicativo: é usado para autenticar seu aplicativo e verificar sua identidade durante as etapas de troca de tokens (por exemplo, ao solicitar um token de atualização ou um token de acesso).
 
    ![](assets/application-id-and-secret.png)
@@ -134,7 +134,7 @@ Um token de acesso é válido por sete dias. Após sete dias, você precisa gera
 
 ### Obter tokens de acesso para teste e desenvolvimento
 
-Ao trabalhar com APIs do Adobe Learning Manager (ALM), os desenvolvedores precisam de um token de acesso OAuth 2.0 válido para autenticar solicitações de API. A geração desse token por meio do fluxo OAuth padrão pode ser complexa e demorada, especialmente para testes rápidos, aprendizado ou desenvolvimento. O Adobe Learning Manager fornece uma ferramenta de geração de token para simplificar esse processo.
+Ao trabalhar com APIs do Adobe Learning Manager, os desenvolvedores precisam de um token de acesso OAuth 2.0 válido para autenticar solicitações de API. A geração desse token por meio do fluxo OAuth padrão pode ser complexa e demorada, especialmente para testes rápidos, aprendizado ou desenvolvimento. O Adobe Learning Manager fornece uma ferramenta de geração de token para simplificar esse processo.
 
 Essa ferramenta é ideal durante:
 
@@ -144,7 +144,7 @@ Essa ferramenta é ideal durante:
 
 * Solução de problemas de integração da API
 
-Esses tokens são destinados exclusivamente para uso pessoal durante as fases de desenvolvimento e depuração. Lembre-se de que os tokens de teste concedem acesso aos dados do ALM, por isso é essencial manipulá-los com segurança. Nunca compartilhe seus tokens de teste com outras pessoas, use-os em aplicativos de produção ou inclua-os em repositórios de código públicos. Trate-os como senhas para garantir a segurança da sua conta e dos seus dados.
+Esses tokens são destinados exclusivamente para uso pessoal durante as fases de desenvolvimento e depuração. Lembre-se de que os tokens de teste concedem acesso aos seus dados do Adobe Learning Manager, por isso é essencial manipulá-los com segurança. Nunca compartilhe seus tokens de teste com outras pessoas, use-os em aplicativos de produção ou inclua-os em repositórios de código públicos. Trate-os como senhas para garantir a segurança da sua conta e dos seus dados.
 
 1. Faça logon no Adobe Learning Manager como administrador de integração.
 2. Selecione **[!UICONTROL Recursos do Desenvolvedor]** e depois **[!UICONTROL selecione Tokens de Acesso para Teste e Desenvolvimento]**.
@@ -167,7 +167,7 @@ Esses tokens são destinados exclusivamente para uso pessoal durante as fases de
 
    ![](assets/type-access-token.png)
 
-Ao selecionar **[!UICONTROL Enviar]**, o token de acesso é verificado e a seguinte resposta é exibida:
+Ao selecionar **[!UICONTROL Enviar]**, o token de acesso será verificado, e você receberá o seguinte objeto JSON:
 
 ```
 { 
@@ -263,7 +263,7 @@ Aqui está uma breve explicação de cada um:
 
 ### incluir
 
-As APIs do ALM podem ser usadas para recuperar informações úteis ao criar um aplicativo personalizado ou um LMS sem periféricos. Os endpoints da API podem ser incluídos com parâmetros &#39;include&#39; adicionais para recuperar as informações adicionais que estão em relação aos dados recebidos por padrão. Esses relacionamentos são relações de modelo de dados; por exemplo, ao fazer uma chamada para obter detalhes do usuário, você receberá as informações do usuário e o relacionamento da ID do gerente e da ID da conta do ALM. Com o parâmetro include, você pode extrair detalhes adicionais junto com os detalhes do usuário, como os detalhes do gerente e os detalhes da conta do ALM de uma forma detalhada.
+As APIs do Adobe Learning Manager podem ser usadas para recuperar informações úteis ao criar um aplicativo personalizado ou um LMS sem periféricos. Os endpoints da API podem ser incluídos com parâmetros &#39;include&#39; adicionais para recuperar as informações adicionais que estão em relação aos dados recebidos por padrão. Esses relacionamentos são relações de modelo de dados. Por exemplo, ao fazer uma chamada para obter detalhes do usuário, você receberá as informações do usuário e o relacionamento do ID de gerente e do ID da conta da Adobe Learning Manager. Com o parâmetro include, você pode extrair detalhes adicionais junto com os detalhes do usuário, como os detalhes do gerente e os detalhes da conta da Adobe Learning Manager, de maneira detalhada.
 Resumindo, o parâmetro **include** é usado em chamadas de API para buscar recursos relacionados (vinculados) junto com o recurso principal em uma única resposta. É útil quando você deseja acessar dados aninhados ou dependentes, como módulos de um curso ou as habilidades mapeadas para um aluno, sem fazer chamadas de API separadas.
 
 Principais benefícios:
@@ -434,9 +434,9 @@ A paginação de API é uma técnica usada em APIs para dividir grandes conjunto
 
 A paginação reduz a carga do cliente e do servidor, limita o tamanho da resposta para evitar gargalos no servidor ou é útil para exibir dados em tabelas ou listas, uma página por vez.
 
-**Como funciona a paginação em APIs do ALM**
+**Como funciona a paginação em APIs do Adobe Learning Manager**
 
-As APIs do ALM oferecem suporte à paginação por meio de parâmetros como:
+As APIs do Adobe Learning Manager oferecem suporte à paginação por meio de parâmetros como:
 
 * página[limite]: número de registros por página.
 * página[deslocamento]: número de registros a ignorar.
@@ -525,7 +525,7 @@ As APIs do Adobe Learning Manager permitem que os desenvolvedores acessem objeto
 | medalha | Uma medalha é um sinal de conquista que os alunos obtêm quando atingem etapas específicas enquanto avançam em um curso. |
 | catálogo | O catálogo é uma coleção de objetos de aprendizado. |
 | usuário | O usuário é o modelo principal no Learning Manager. Geralmente, os usuários são os alunos internos ou externos de uma organização que consomem objetos de aprendizado. No entanto, eles podem desempenhar algumas outras funções, como autor e gerente, juntamente com a função do aluno. ID do usuário, tipo, e-mail são alguns dos atributos embutidos. |
-| recurso | Isso é usado para modelar cada recurso de conteúdo que um módulo procura encapsular. Todos os recursos encapsulados em um “loResource” são equivalentes em termos do objetivo de aprendizado, mas diferem entre si em termos do tipo de entrega ou local do conteúdo. |
+| recurso | Isso representa cada recurso de conteúdo em um módulo. Todos os recursos encapsulados em um “loResource” são equivalentes em termos do objetivo de aprendizado, mas diferem entre si em termos do tipo de entrega ou local do conteúdo. |
 | userNotification | Este modelo contém informações de notificação relativas a um aluno. |
 | userSkill | UserSkill indica o quanto de um único nível de habilidade é alcançado por um único usuário. |
 | userBadge | UserBadge relaciona uma única medalha com um único usuário. Contém detalhes de quando foi obtida, assertionUrl e assim por diante. |
@@ -660,7 +660,7 @@ Há três atributos obrigatórios:
 * nome: o nome do usuário.
 * userType: no momento, somente usuários internos podem ser adicionados com este ponto de extremidade. O userType deve ser “INTERNAL”.
 
-A seguinte resposta é exibida:
+Você receberá o seguinte objeto JSON:
 
 ```
 {
@@ -1257,7 +1257,7 @@ Você receberá informações sobre o progresso do módulo na resposta.
 
 Ao implementar um LMS sem periféricos com o Adobe Learning Manager como back-end, as organizações podem exigir que a equipe de suporte personifique os alunos para solução de problemas ou assistência. O método de representação orientado por API garante o acesso seguro, mantendo a confidencialidade das credenciais do aluno, e oferece suporte a transições perfeitas nos estados de sessão.
 
-O Adobe Learning Manager (ALM) facilita a representação do aluno em ambientes LMS sem periféricos por meio de uma API dedicada. Esse recurso permite que a equipe de suporte assuma temporariamente a identidade de um aluno, permitindo diagnosticar problemas, testar funcionalidades ou fornecer assistência prática simulando a experiência do aluno. A representação é ativada usando um token de acesso de administrador armazenado em cache, que é usado para gerar programaticamente um token de acesso do aluno. Esse processo permite que o sistema opere como se estivesse conectado como o aluno.
+O Adobe Learning Manager facilita a representação do aluno em ambientes LMS sem periféricos por meio de uma API dedicada. Esse recurso permite que a equipe de suporte assuma temporariamente a identidade de um aluno, permitindo diagnosticar problemas, testar funcionalidades ou fornecer assistência prática simulando a experiência do aluno. A representação é ativada usando um token de acesso de administrador armazenado em cache, que é usado para gerar programaticamente um token de acesso do aluno. Esse processo permite que o sistema opere como se estivesse conectado como o aluno.
 
 >[!IMPORTANT]
 >
@@ -1318,7 +1318,7 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 
 ### Códigos de erro
 
-Ao trabalhar com APIs do Adobe Learning Manager (ALM), os desenvolvedores podem encontrar vários códigos de erro HTTP durante as solicitações. Esses erros fornecem feedback importante sobre o que deu errado e como corrigi-lo. A compreensão desses códigos ajuda os desenvolvedores a solucionar problemas rapidamente, melhorar a confiabilidade da API e garantir integrações mais suaves. A tabela a seguir é um guia para os códigos de erro HTTP comuns retornados pelas APIs do ALM, juntamente com explicações e cenários típicos nos quais eles ocorrem. Esta seção é essencial para qualquer pessoa que esteja criando, testando ou depurando aplicativos que se conectem ao ALM.
+Ao trabalhar com APIs do Adobe Learning Manager (Adobe Learning Manager), os desenvolvedores podem encontrar vários códigos de erro HTTP durante as solicitações. Esses erros fornecem feedback importante sobre o que deu errado e como corrigi-lo. A compreensão desses códigos ajuda os desenvolvedores a solucionar problemas rapidamente, melhorar a confiabilidade da API e garantir integrações mais suaves. A tabela a seguir é um guia para os códigos de erro HTTP comuns retornados pelas APIs do Adobe Learning Manager, juntamente com explicações e cenários típicos nos quais eles ocorrem. Esta seção é essencial para qualquer pessoa que esteja criando, testando ou depurando aplicativos que se conectem ao Adobe Learning Manager.
 
 | Status do HTTP | Significado | Solução de problemas |
 |---|---|---|
