@@ -248,7 +248,7 @@ Existem algumas diferenças entre registros internos e externos:
 | Usuários internos | Usuários externos |
 |---|---|
 | É possível fazer logon usando as credenciais do Adobe ID ou SSO. | É possível fazer logon usando qualquer ID de email. |
-| A gamificação está disponível. | Gamificação disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
+| A gamificação está disponível. | Gamificação disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 
