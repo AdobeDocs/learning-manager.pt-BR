@@ -4,16 +4,16 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
 
 # Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivos móveis
 
-O aplicativo Adobe Learning Manager para dispositivos móveis agora é compatível com a rotulagem branca, o que significa que agora você pode lançá-lo sob sua própria marca.
+O aplicativo Adobe Learning Manager para dispositivos móveis agora é compatível com a rotulagem branca, o que significa que agora você pode lançá-lo usando sua própria marca.
 
 O ALM disponibilizará arquivos binários rotulados em branco atualizados de acordo com as seguintes linhas do tempo:
 
@@ -46,109 +46,213 @@ O seguinte pode ser personalizado:
 ### Campos
 
 <table>
+
  <tbody>
+
   <tr>
+
    <td>
+
     <p>ID da conta</p>
+
    </td>
+
    <td>
+
     <p>A ID da sua conta. Observe que o aplicativo com rótulo branco não estará acessível aos alunos que pertencem a qualquer outra conta.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>IDs de conta adicionais</p>
+
    </td>
+
    <td>
+
     <p>Adicione várias contas (subdomínios), se desejar. Adicione os subdomínios como separados por vírgula sem espaços. Por exemplo, acc01,acc02,acc03 e assim por diante.<br> <b>Observação:</b> é necessário adicionar a ID da conta ao especificar os subdomínios.</br> </p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome do aplicativo</p></td>
+
    <td>
+
     <p>O nome que você deseja usar para o aplicativo.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome curto do aplicativo</p>
+
    </td>
+
    <td>
+
     <p>Nos casos em que o nome do aplicativo for longo, dê ao aplicativo um nome curto que apareça no dispositivo.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome do aplicativo interno</p></td>
+
    <td>
+
     <p>O nome com o qual o sistema operacional identifica o aplicativo. O formato usado normalmente é: com.company-name.product-name.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome do aplicativo interno - iOS</p>
+
    </td>
+
    <td>
+
     <p>Nomeie o aplicativo de maneira diferente se os usuários estiverem no iOS. Recomendamos usar o mesmo nome para o iOS e o Android.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Ícone de aplicativo</p>
+
    </td>
+
    <td>
+
     <p>O ícone do aplicativo é png. Este ícone é exibido no seu aplicativo. O formato para o nome é account-id_appIcon.png. As dimensões do ícone do aplicativo são 512 × 512 pixels.<div>Observe que o Apple não permite o canal Alpha em ícones de aplicativos. Portanto, remova o canal de Alpha do ativo antes de enviá-lo.</div></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Tela inicial do aplicativo</p></td>
+
    <td>
+
     <p>Para a tela inicial do seu aplicativo, forneça uma imagem (png) que será exibida quando os usuários iniciarem o aplicativo. O formato para o nome é account-id_splashIcon.png. As dimensões das telas de splash quadradas são de 1052 × 1052 pixels e as telas de splash em círculo são de 768 x 768 pixels.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>ID do cliente e segredo do cliente</p>
+
    </td>
+
    <td>
+
     <p>O administrador de integração da sua conta fornece os detalhes ao registrar o aplicativo. O administrador de integração deve usar o seguinte:<ul><li>aluno:ler,aluno:gravar como função</li><li>aplicativo interno name://redirect como URL de redirecionamento</li></ul></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Logotipo da conta</p>
+
    </td>
+
    <td>
+
     <p>O URL que hospeda o logotipo da sua organização. Forneça um link cpcontents como o logotipo da conta. O URL precisa ser codificado na Web.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>ID da loja de aplicativos do aplicativo (iOS)</p>
+
    </td>
+
    <td>
+
     <p>A ID necessária para implementar a atualização forçada. O aplicativo precisa saber que o aluno deve ser redirecionado para a loja de aplicativos para atualizar o aplicativo.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>ID da Google Play Store para o aplicativo (Android)</p>
+
    </td>
+
    <td>
+
     <p>A ID necessária para implementar a atualização forçada.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome do host para deep linking</p>
+
    </td>
+
    <td>
+
     <p>Para hospedar os links profundos, use o learningmanager. Se quiser usar outro URL de nome de host como um deep link, forneça o URL do host. Por exemplo, learningmanager.adobe.com.</p>
+
    </td>
+
   </tr>
+
  </tbody>
+
 </table>
 
 >[!NOTE]
@@ -156,19 +260,42 @@ O seguinte pode ser personalizado:
 >Forneça os dados aos CSAMs para que eles possam adicioná-los ao binário do aplicativo personalizado.
 
 
-#### Atualizar associação de site para manipular deplinks personalizados
+#### Atualizar associação de site para manipular links profundos personalizados
 
 Se estiver usando um domínio personalizado ou o learningmanager\*.adobe.com como host, você não precisa fazer nada. No entanto, se você usar uma solução personalizada ou um nome de host específico para os URLs, adicione os arquivos de associação de site.
 
 >[!CAUTION]
 >
->Se os arquivos não estiverem presentes, os deplinks não funcionarão. Verifique se os arquivos estão presentes.
+>Se os arquivos não estiverem presentes, os vínculos profundos não funcionarão. Verifique se os arquivos estão presentes.
 
 
 Consulte os links a seguir para obter mais informações:
 
 * [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## Obter a ID da equipe para o App Store
+
+Para obter a ID da equipe:
+
+1. Faça logon em sua conta do **[!UICONTROL Apple Developer]**.
+2. Selecione **[!UICONTROL Detalhes da associação]** na parte superior da página e copie sua ID de equipe.
+
+Essa ID é necessária para adicionar a entrada branca do aplicativo rotulada nos arquivos de metadados para permitir a deep linking.
+
+## Obtenha a impressão digital SHA-256 para Android
+
+A impressão digital SHA-256 do certificado de assinatura do Android é necessária ao adicionar a entrada branca do aplicativo.
+
+Para gerar a impressão digital SHA-256:
+
+1. Execute o seguinte comando:
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+Na saída, localize as impressões digitais do certificado e copie o valor SHA-256. Compartilhe essa impressão digital conforme necessário para a configuração de deep linking.
 
 ## Gerar notificações por push
 
