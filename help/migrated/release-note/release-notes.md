@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 6e26d7c8757eeebe9c34d60aa4cfeafbffb84da9
 workflow-type: tm+mt
-source-wordcount: '27129'
-ht-degree: 70%
+source-wordcount: '27298'
+ht-degree: 69%
 
 ---
 
@@ -101,6 +101,22 @@ Quando um administrador clica em **[!UICONTROL Atualizar]**, ele pode escolher e
 _Content update options_-->
 
 Consulte este [artigo](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) para obter mais informações sobre a biblioteca de conteúdo.
+
+## Aprimoramentos no Fluidic Player
+
+Esta versão traz um Fluidic Player atualizado para o Adobe Learning Manager com uma aparência moderna e uma experiência de aprendizado mais intuitiva. O player atualizado inclui uma interface mais limpa, controles de navegação aprimorados e um design consistente no desktop e em dispositivos móveis. Os alunos podem acessar e interagir facilmente com o conteúdo em qualquer modo de tela, incluindo retrato, paisagem, tela cheia ou exibição padrão.
+
+* **Capa atualizada do Fluidic Player**: uma aparência modernizada com elementos de interface do usuário atualizados.
+* **Controles de navegação aprimorados**: navegação mais suave e intuitiva para uma melhor experiência do aluno.
+* **Design otimizado**: a aparência e a usabilidade aprimoradas em dispositivos móveis e no desktop oferecem suporte aos modos retrato, paisagem, tela cheia e tela padrão.
+
+Todos os alunos que acessam conteúdo por meio do Adobe Learning Manager, usando a experiência nativa ou sem periféricos, verão automaticamente essas novas melhorias na interface do usuário e na navegação. Os alunos podem notar uma pequena mudança em como interagem com o reprodutor devido ao layout e aos controles atualizados.
+
+>[!NOTE]
+>
+>Esse aprimoramento está disponível somente para conteúdo estático.
+
+Consulte este [artigo](/help/migrated/learners/feature-summary/fluidic-player.md) para obter mais informações sobre o fluidic player.
 
 ## Erro corrigido nesta versão
 
@@ -1583,7 +1599,7 @@ Nesta atualização, o aluno pode carregar ativos como comprovante de conclusão
 
 O aluno pode abrir um certificado externo e carregar ativos, tais como pdf, texto ou arquivos de imagem.
 
-Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas corrigidos nesta versão {#issuesfixedinthisrelease}
 
@@ -1961,7 +1977,7 @@ Data de lançamento: 20 de junho de 2019
 
 **Curadoria automática de conteúdo**
 
-O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[**&#x200B; Curadoria assistida automaticamente &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[** Curadoria assistida automaticamente **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mapear habilidades com domínios de habilidades**
 
@@ -2043,7 +2059,7 @@ Data de lançamento: 26 de abril de 2019
 
 Para se inscrever e concluir um curso, você pode digitalizar um código QR fornecido pelo administrador. Para obter mais informações sobre a digitalização de códigos QR na versão Web do Learning Manager, consulte [***Digitalizar código QR***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompletecourse).
 
-* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***] (<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
+* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
 
 +++
 
@@ -2585,7 +2601,7 @@ Data de lançamento: 06 de dezembro de 2016.
 
 ### Aprimoramento {#enhancement}
 
-Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar&#x200B;**&#x200B;**&#x200B;este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
+Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar****este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
 
 * Nome
 * Email
@@ -3095,7 +3111,7 @@ A exportação de dados de inscrição costumava falhar se um dos alunos inscrit
 
 **Modelos de e-mail**
 
-* A palavra **parceiros,** que foi usada para representar grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
+* A palavra **parceiros,** que foi usada para representar grupos externos,**** foi **** removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
   **Observação:** este modelo atualizado não será exibido se o modelo padrão já estiver modificado. Para exibir o modelo atualizado, clique em **Reverter para Original** na caixa de diálogo **Visualização do Modelo**.
 
 * A URL não pode ser clicada no email recebido pelos Administradores sempre que os modelos de email **Perfil Criado(Autorregistro)** e **Perfil Criado(Externo/Parceiros)** forem editados. Esse problema foi corrigido.
