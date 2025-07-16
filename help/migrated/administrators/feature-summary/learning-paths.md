@@ -4,10 +4,10 @@ title: Caminhos de aprendizado
 description: Criação de planos de aprendizado para administradores no Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 35%
+source-wordcount: '1430'
+ht-degree: 32%
 
 ---
 
@@ -19,7 +19,7 @@ Frequentemente, os administradores estão interessados em elaborar um currículo
 
 É aqui que o Caminho de aprendizado entra em cena. Um caminho de aprendizado é uma jornada pela qual um aluno deve passar para dominar algum assunto ao longo do tempo. Os alunos controlam sua experiência de treinamento e podem adquirir e manter o conhecimento em ritmo individualizado com maior eficácia.
 
-Por exemplo, quando se admite novos funcionários, uma organização realiza treinamento sobre políticas e procedimentos, cultura, história e assim por diante. Um caminho de aprendizado configura os cursos de acordo com as necessidades dos funcionários, para que eles possam se inscrever nos cursos de acordo com o caminho de aprendizado definido para eles. você escolhe e pode inscrever usuários nesse caminho para que eles possam progredir de um curso para o outros.
+Por exemplo, quando se admite novos funcionários, uma organização realiza treinamento sobre políticas e procedimentos, cultura, história e assim por diante. Um caminho de aprendizado configura os cursos de acordo com as necessidades dos funcionários, para que eles possam se inscrever nos cursos de acordo com o caminho de aprendizado definido para eles. você escolhe e pode inscrever os usuários nesse caminho para que eles possam progredir de curso para curso.
 
 ## Criar e configurar Caminhos de aprendizado
 
@@ -33,15 +33,15 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 Os caminhos de aprendizado tornam o fornecimento de um programa de treinamento prático e sem complicações. Estes são alguns dos principais benefícios de um caminho de aprendizado:
 
-1. Atribua uma habilidade e um nível de habilidade a um caminho de aprendizado diretamente. Não há necessidade de corresponder aos créditos de habilidade. Depois que o aluno finaliza um caminho de aprendizado, ele atinge o nível de habilidade mencionado.
-1. Capacidade de incorporar um caminho de aprendizado existente em um novo caminho de aprendizado. O recurso de incorporação só está disponível para o 1 nível de incorporação. Assim, um Caminho de aprendizagem que já contém um Demarcador incorporado não pode ser incorporado em um novo Demarcador.
+1. Atribua uma habilidade e um nível de habilidade a um caminho de aprendizado diretamente. Não há necessidade de combinar créditos de habilidade. Depois que o aluno conclui um caminho de aprendizado, ele atinge o nível de habilidade mencionado.
+1. Capacidade de incorporar um caminho de aprendizado existente em um novo caminho de aprendizado. O recurso de incorporação está disponível somente para um nível de incorporação. Assim, um caminho de aprendizado que já contém um caminho incorporado não pode ser incorporado em um novo caminho.
 1. Capacidade de adicionar pré-requisitos, ajudas de tarefa e recursos em um nível de caminho de aprendizado.
 1. Capacidade de criar seções. Cada seção pode ter um título.
 1. Capacidade de tornar seções obrigatórias e de configurar critérios de conclusão.
 
-## Adicionar um caminho de aprendizagem no Gerenciador de aprendizagem
+## Adicionar um caminho de aprendizado no Learning Manager
 
-No Gerenciador de aprendizagem, no aplicativo do administrador, clique **[!UICONTROL em Caminho]** do aprendizado no painel esquerdo.
+No Learning Manager, no aplicativo de administração, clique em **[!UICONTROL Caminho de Aprendizado]** no painel esquerdo.
 
 Na página **[!UICONTROL Caminho de aprendizado]**, clique em **[!UICONTROL Adicionar]**. Insira os detalhes.
 
@@ -65,17 +65,17 @@ Você pode adicionar habilidades e atribuir uma medalha ao Caminho de aprendizad
 
 Atribua uma medalha ao Caminho de aprendizado. Escolha uma medalha da lista de medalhas disponíveis.
 
-Selecione o nível de produtos, funções e funções na **[!UICONTROL seção Recomendar para]** sugerir esse caminho de aprendizado para os usuários que manifestaram interesse por esses produtos e funções.
+Selecione o nível de produtos, funções e funções na seção **[!UICONTROL Recomendar para]** para sugerir este caminho de aprendizado para os usuários que expressaram interesse nesses produtos e funções.
 
 ![](assets/recommend-for.png)
 
 *Recomendação*
 
-Escolha o tipo de sequência para as seções e o treinamento como Ordenado ou Não solicitado com base em sua preferência.
+Escolha o tipo de sequenciamento para as seções e treinamentos como Ordenado ou Não ordenado de acordo com a sua preferência.
 
 Se optar por Ordenado, os cursos serão exibidos na mesma sequência em que foram criados. Se optar por Não ordenado, os cursos não são organizados em sequência. Os alunos podem finalizar os cursos em qualquer ordem.
 
-Para adicionar um curso no caminho do aprendizado, clique **[!UICONTROL em Adicionar cursos ou caminhos]** de aprendizado.
+Para adicionar um curso no Caminho de Aprendizado, clique em **[!UICONTROL Adicionar Cursos ou Caminhos de Aprendizado]**.
 
 Na caixa de diálogo exibida, escolha o treinamento que deseja adicionar ao Caminho de aprendizado.
 
@@ -85,7 +85,7 @@ Na caixa de diálogo exibida, escolha o treinamento que deseja adicionar ao Cami
 
 Você pode classificar os cursos de acordo com as habilidades atribuídas, a data modificada e a eficácia do curso.
 
-Depois de selecionar os cursos ou o Caminho do aprendizado, clique **[!UICONTROL em Salvar]**.
+Depois de selecionar os cursos ou o Caminho de Aprendizado, clique em **[!UICONTROL Salvar]**.
 
 No Caminho de aprendizado, você pode executar o seguinte:
 
@@ -103,17 +103,17 @@ No Caminho de aprendizado, você pode executar o seguinte:
 
 *Reorganizar a ordem do treinamento*
 
-**Remover um curso:** no cartão do curso, clique em X e remova o curso do caminho do aprendizado.
+**Remover um curso:** no cartão do curso, clique em X e remova o curso do Caminho de Aprendizado.
 
 ![](assets/remove-course.png)
 
-*Remover um curso do caminho de aprendizagem*
+*Remover um curso do Caminho de Aprendizado*
 
-Após fazer as alterações, para publicar o Caminho do aprendizado, clique em Publicar.
+Depois de fazer as alterações, para publicar o Caminho de aprendizado, clique em Publish.
 
-## Caminho de aprendizagem aninhado ou aprimorado
+## Caminho de aprendizado aninhado ou aprimorado
 
-Um caminho de aprendizagem aninhado ou aprimorado é um caminho de aprendizagem que contém diversos caminhos de aprendizagem. Para inserir um caminho de aprendizado, siga o mesmo processo que adicionar um curso em um caminho de aprendizado.
+Um caminho de aprendizado aninhado ou aprimorado é um caminho de aprendizado que contém vários caminhos de aprendizado dentro dele. Para inserir um caminho de aprendizado, siga o mesmo processo que adicionar um curso em um caminho de aprendizado.
 
 ![](assets/nested-learning-path.png)
 
@@ -125,7 +125,7 @@ Na seção Configurações, você pode adicionar os pré-requisitos e as ajudas 
 
 ![](assets/learing-path-settings.png)
 
-*Alterar configurações de um caminho de aprendizagem*
+*Alterar configurações de um Caminho de Aprendizado*
 
 ## Instâncias
 
@@ -137,7 +137,11 @@ A caixa de seleção **[!UICONTROL Permitir que os alunos escolham instâncias (
 
 ![](assets/default-instance.png)
 
-*Instâncias do caminho de aprendizado*
+*Instâncias do Caminho de Aprendizado*
+
+Os alunos podem ser inscritos em um curso por meio de um plano de aprendizado ou por um administrador, mesmo se o curso for flexível e exigir que o aluno selecione uma sessão. Nesses casos, o sistema permite que os alunos se inscrevam mesmo que o limite de vagas seja atingido, mas eles não podem iniciar o curso até que uma vaga fique disponível.
+
+O recurso de lista de espera se aplica somente quando os alunos se inscrevem por conta própria. Quando uma sessão atinge seu limite de vagas, o professor pode ver a lista de alunos na lista de espera. Se as vagas se tornarem disponíveis, o professor poderá adicionar alunos na lista de espera até que a sessão atinja a capacidade novamente.
 
 ## Notificações
 
@@ -145,13 +149,13 @@ Há três opções:
 
 1. **[!UICONTROL Todos os cursos de níveis de habilidade e caminhos de aprendizado (selecionados por padrão)]:** o aluno recebe notificações de qualquer curso incompleto, independentemente do nível dentro de um caminho de aprendizado.
 1. **[!UICONTROL Caminho de Aprendizado Raiz]:** o aluno recebe notificações de qualquer curso incompleto pertencente a um caminho de aprendizado pai.
-1. **[!UICONTROL Caminho de aprendizado + somente] primeiras crianças do nível de habilidade:** o aluno recebe notificações de qualquer curso incompleto que seja filho de um caminho de aprendizagem pai.
+1. **[!UICONTROL Caminho de Aprendizado + primeiros filhos no Nível de Habilidade somente]:** o aluno recebe notificações de qualquer curso incompleto que seja o primeiro filho de um Caminho de Aprendizado pai.
 
-Os lembretes de notificação são acionados com base na opção. Por padrão, a opção **[!UICONTROL Todos os cursos e Caminhos]** de aprendizado em Todos os Níveis está ativada em uma instância.
+Os lembretes de notificação são acionados com base na opção. Por padrão, a opção **[!UICONTROL Todos os cursos de níveis e caminhos de aprendizado]** está habilitada para uma instância.
 
 ## Assinaturas
 
-Você pode se inscrever nos caminhos de aprendizado individuais para receber dados abrangentes, incluindo pontuações dos questionários e o status do aluno diretamente na sua caixa de entrada.
+Você pode se inscrever nos caminhos de aprendizado individuais para receber dados abrangentes, incluindo as pontuações do questionário e o status do aluno, diretamente na sua caixa de entrada.
 
 Siga as etapas abaixo:
 
@@ -165,7 +169,7 @@ Siga as etapas abaixo:
 
 ## Observação importante
 
-Observe que o recurso existente dos Programas de aprendizado será renomeado para Caminho do aprendizado imediatamente após a versão. Caso queira continuar a chamá-los de Programas de aprendizado, recomendamos que você use o recurso “Terminologias” para aplicar a terminologia desejada. Dessa forma, você pode usar o termo Programa de aprendizado.
+Observe que o recurso existente dos Programas de aprendizado será renomeado para Caminho de aprendizado imediatamente após a versão. Caso queira continuar a chamá-los de Programas de aprendizado, recomendamos que você use o recurso “Terminologias” para aplicar a terminologia desejada. Dessa forma, você pode usar o termo Programa de aprendizado.
 
 Os Caminhos de aprendizado trazem para você uma variedade de funcionalidades. Algumas delas ficam disponíveis imediatamente após o lançamento da versão. Administradores/autores podem começar a usá-los. Recursos estendidos, como “Seções”, “adição do Caminho de aprendizado em outro caminho” etc. estão desativadas e podem ser ativadas marcando a caixa de seleção mencionada abaixo.
 
