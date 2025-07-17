@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 648cd1e17aa0e5b95b8454d136accc4b7a054d97
+source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 79%
+source-wordcount: '688'
+ht-degree: 78%
 
 ---
 
@@ -167,6 +167,7 @@ ht-degree: 79%
    * [Perguntas frequentes dos alunos](learners/frequently-asked-questions-for-learners.md)
    * [Anúncios da nova liga de experiência](/help/migrated/new-experience-league-announcement.md)
    * [Como enviar um tíquete de suporte no Experience League](/help/migrated/how-to-submit-support-ticket.md)
+   * [Criar uma conta de avaliação no Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * Base de conhecimento {#knowledge-base}
    * [Não é possível fazer logon no Learning Manager](kb/unable-log-in-learning-manager.md)
    * [O Resumo do aprendizado não exibe os dados atuais](kb/learning-summary-not-display-data.md)
