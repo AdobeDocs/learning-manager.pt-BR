@@ -110,4 +110,4 @@ Os administradores personalizados podem criar comunicados apenas para os grupos 
 * O formato do relatório permanecerá inalterado. Se os administradores personalizados o baixarem da interface de usuário, o conteúdo do relatório estará sujeito ao seu escopo.
 * Nenhuma modificação é necessária se esse relatório não for utilizado em nenhum fluxo de trabalho automatizado ou downstream.
 
-Consulte o artigo [Notas de versão](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) para obter uma lista cumulativa de novos recursos e alterações no Adobe Learning Manager.
+Consulte o artigo [Notas de versão](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/release-notes) para obter uma lista cumulativa de novos recursos e alterações no Adobe Learning Manager.
