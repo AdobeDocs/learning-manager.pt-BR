@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5673'
 ht-degree: 52%
 
 ---
@@ -243,7 +243,7 @@ Se um aluno que estava antes no estado de aprovação pendente cancelar a inscri
 
 Usando o recurso de inscrição em massa do Adobe Learning Manager, os administradores podem inscrever eficientemente grandes grupos de alunos em cursos, certificações ou programas de aprendizado fazendo upload de um arquivo CSV. Esse processo economiza tempo, garante a consistência e dá suporte à escalabilidade organizacional. Além disso, os administradores e os professores podem atualizar as informações, a participação e as conclusões do aluno em massa por meio de uploads de CSV, minimizando o trabalho manual e garantindo a precisão dos dados.
 
-Você pode usar o mesmo formato de arquivo CSV para inscrição, participação e conclusão. Basta inserir as IDs de e-mail do aluno na coluna “E-mail” e salvar o arquivo com um nome baseado na ação, por exemplo, bulk_enrollment.csv, bulk_attenance.csv ou bulk_completion.csv. Somente o formato CSV é suportado. Não há suporte para o formato UTF-8. Baixe o csv de exemplo [aqui](assets/Sample-Bulk-Action-CSV.csv).
+Você pode usar o mesmo formato de arquivo CSV para inscrição, participação e conclusão. Basta inserir as IDs de e-mail do aluno na coluna “E-mail” e salvar o arquivo com um nome baseado na ação, por exemplo, bulk_enrollment.csv, bulk_attenance.csv ou bulk_completion.csv. Somente o formato CSV é suportado. Não há suporte para o formato UTF-8. Baixe o [csv de amostra](assets/Sample-Bulk-Action-CSV.csv).
 
 ### Inscrever alunos em massa usando um csv
 

@@ -4,10 +4,10 @@ title: Suporte para domínio personalizado
 description: Domínios personalizados não são suportados em uma instância do Azure no Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 67%
+source-wordcount: '459'
+ht-degree: 65%
 
 ---
 
@@ -32,6 +32,7 @@ O recurso de domínio personalizado está disponível por um custo adicional. En
 
 * Para a função de aluno, o domínio começará com `https://cdn.<customer_custom_domain>/` Por exemplo, `https://cdn.elearningstage1.cpdomaintest.in/`
 * Para todas as outras funções, o domínio começará com `https://<customer_custom_domain>/`. Por exemplo, `https://elearningstage1.cpdomaintest.in/`
+* A URL de logon real será `https://<customer_custom_domain>/acapindex` ou `https://<customer_custom_domain>/login`. Substitua `<customer_custom_domain>` pelo domínio real da sua organização.
 
 `<customer_custom_domain>` é a parte personalizável.
 
