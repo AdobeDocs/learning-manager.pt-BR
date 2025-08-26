@@ -957,7 +957,7 @@ Para criar um caminho de aprendizado:
    ![](assets/select-add-to-lp.png)
    _Adicione os cursos do Go1 à sua lista de reprodução de Desenvolvimento de Habilidades dos Engenheiros de Vendas para expandir as opções de aprendizado com conteúdo selecionado de terceiros_
 
-6. Na **[!UICONTROL Biblioteca]**, procure e selecione a lista de reprodução na tela Selecionar **[!UICONTROL Cursos de {Go1]**.
+6. Na **[!UICONTROL Biblioteca]**, procure e selecione a lista de reprodução na tela Selecionar **[!UICONTROL Cursos de &lbrace;Go1]**.
 
    >[!NOTE]
    >
