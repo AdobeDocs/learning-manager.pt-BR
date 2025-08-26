@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7163'
+source-wordcount: '7321'
 ht-degree: 71%
 
 ---
@@ -600,6 +600,26 @@ Nessa página, insira os seguintes detalhes:
 
 1. Para republicar o curso com as atualizações, clique em **[!UICONTROL Republicar]**.
 
+### Permitir que professores marquem como bem-sucedido
+
+O Adobe Learning Manager permite que os professores marquem o status de sucesso dos alunos em um módulo de sala de aula ou sala de aula virtual. Os autores podem conceder aos professores permissão para marcar o status de sucesso dos alunos ao criar módulos de Sala de aula ou Sala de aula virtual. Os professores podem marcar o sucesso marcando um aluno como Aprovado ou Reprovado, garantindo que o progresso seja atualizado adequadamente.
+
+Para permitir que os professores marquem o sucesso do aluno:
+
+1. Faça logon no Adobe Learning Manager como autor.
+2. Selecione **[!UICONTROL Criar cursos]** na página inicial.
+3. Selecione **[!UICONTROL Adicionar]**.
+4. Digite os detalhes necessários e selecione **[!UICONTROL Adicionar Módulos]**.
+5. Selecione **[!UICONTROL Módulo de Sala de Aula Virtual]** ou **[!UICONTROL Módulo de Sala de Aula]**.
+6. Digite os detalhes necessários e selecione as datas.
+7. Selecione a opção **[!UICONTROL Permitir que o professor marque o êxito]**.
+
+   ![A mensagem “Permitir que o professor marque como bem-sucedido?” a caixa de seleção está realçada, permitindo que os autores registrem o status de sucesso do aluno para um módulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   _Tela Detalhes da sessão com a opção Permitir que o professor marque como bem-sucedido destacada para os módulos Sala de aula ou Sala de aula virtual_
+
+8. Selecione **[!UICONTROL Concluído]**.
+
+
 ## Lista de verificação da observação
 
 Um módulo de lista de verificação agora pode ser revisado por gerentes, além de professores. Os gerentes de pessoas, bem como os gerentes não hierárquicos, como gerentes de loja ou gerentes de local, podem revisar e concluir a lista de verificação.
@@ -805,7 +825,7 @@ Você também pode publicar módulos de curso no Learning Manager a partir do so
 1. Faça logon com as credenciais da Adobe. Se não tiver uma Adobe ID, clique em **[!UICONTROL Criar conta]**. Após a autorização, você será direcionado para a página de publicação do módulo.
 1. Forneça quaisquer informações básicas sobre o módulo e clique em Publicar.
 
-Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/br/captivate/classic/publish-project-to-captivate-prime.html)
+Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)
 
 ## Eficácia do curso {#courseeffectiveness}
 
@@ -850,7 +870,7 @@ Quando os cursos são definidos como obrigatórios:
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
-+++Como remover “procurar indicação do gerente” para um curso?
++++Como remover &quot;procurar indicação do gerente&quot; para um curso?
 
 Execute as seguintes etapas:
 
@@ -909,7 +929,7 @@ A conclusão de um curso não pode ser revertida. Um aluno **não pode se reinsc
 
 +++
 
-+++Como os alunos podem visualizar um curso mesmo depois de concluí-lo?
++++Como os alunos podem ver um curso mesmo depois de concluí-lo?
 
 Um aluno pode ver um curso depois de concluí-lo clicando no botão Revisar do curso.
 
@@ -921,7 +941,7 @@ Siga as etapas abaixo:
 
 +++
 
-+++Como adicionar um arquivo de recurso no curso?
++++Como adicionar um arquivo de recursos no curso?
 
 Ao criar um curso, você pode adicionar arquivos de vídeo, áudio, pdf ou texto ao curso que sejam relevantes para o curso para que o aluno possa acessar material de treinamento adicional.
 

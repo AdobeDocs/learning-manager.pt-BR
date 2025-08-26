@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gerenciamento dos alunos da sua sessão
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 82%
+source-wordcount: '1223'
+ht-degree: 71%
 
 ---
 
@@ -83,6 +83,26 @@ Para baixar o relatório da seção Professor:
 
    ![](assets/markattendance.png)
    *Marcar participação do aluno*
+
+## Marcar sucesso para alunos
+
+Os professores podem marcar o status de sucesso de cada aluno como Aprovado ou Reprovado diretamente na página Alunos. Esse recurso permite que os professores registrem com precisão o resultado das sessões de sala de aula ou sala de aula virtual com base no desempenho do aluno.
+
+Para marcar o sucesso dos alunos:
+
+1. Faça logon no Adobe Learning Manager como professor.
+2. Selecione **[!UICONTROL Próximas sessões]** no painel de navegação à esquerda.
+3. Selecione **[!UICONTROL Alunos]**.
+4. Selecione os alunos e selecione **[!UICONTROL Ações]**.
+5. Selecione qualquer uma das opções a seguir para marcar o sucesso dos alunos selecionados:
+
+   * **[!UICONTROL Marcar Participou e Aprovado]**: alunos marcados como Aprovado concluíram o módulo com êxito.
+   * **[!UICONTROL Marcar Participou e reprovado]**: alunos marcados como reprovados concluíram o módulo, mas não foram aprovados.
+
+   ![O menu suspenso Ações que destaca as opções “Marcar participação e aprovado” e “Marcar participação e reprovado” para que os professores definam o status de sucesso de cada aluno](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _Página de alunos mostrando o menu Ações com as opções Marcar participação e Aprovar e Marcar participação e Reprovar destacadas para gravar os resultados do aluno_
+
+6. Selecione **[!UICONTROL Sim]** no prompt de confirmação.
 
 ## Enviar e-mails aos alunos {#sendemailstolearners}
 
