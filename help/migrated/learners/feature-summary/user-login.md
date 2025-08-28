@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Logon
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 33%
+source-wordcount: '221'
+ht-degree: 24%
 
 ---
 
@@ -28,19 +28,24 @@ Siga estas etapas para criar sua conta usando o URL do email de boas-vindas:
 
    A tela de logon é exibida.
 
-1. Clique em Login.
+1. Selecione Fazer logon.
 
-   ![](assets/adobeid-signin.png)
+   ![](assets/login-page.png)
 
    *Entrar com nome de usuário e senha*
 
-1. Insira a ID Adobe e a senha, e clique em Entrar.
+1. Digite a Adobe ID e a senha e clique em Fazer logon.
 
    Se você esqueceu a senha, clique em Esqueceu a senha? e forneça a ID de e-mail que você usou ao criar o Adobe ID.
 
-<!--
+   <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
--->
+   -->
+
+1. Digite suas informações nos campos Ativos para concluir seu perfil.
+
+   ![](assets/complete-the-profile.png)
+   _Digite suas informações nos Campos Ativos para concluir a configuração do perfil_
 
 1. Como alternativa, você pode usar o Enterprise ID clicando em Fazer logon com um link de Enterprise ID.
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Temas de cores
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 44%
+source-wordcount: '1217'
+ht-degree: 43%
 
 ---
 
@@ -27,13 +27,13 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 ## Marca {#branding}
 
-Clique **[!UICONTROL em Marca]** no painel esquerdo para atualizar o nome da sua organização, alterar o subdomínio, os estilos de log e os temas. Clique **[!UICONTROL em Editar]** junto a cada um desses tópicos para modificar o conteúdo.
+Clique em **[!UICONTROL Marcas]** no painel esquerdo para atualizar o nome da sua organização, alterar o subdomínio, os estilos de log e os temas. Clique em **[!UICONTROL Editar]** ao lado de cada um desses tópicos para modificar o conteúdo.
 
 ## Estilo de logotipo {#logostyling}
 
 Clique em **[!UICONTROL Editar]** para definir a aparência do logotipo e do nome da empresa no aplicativo Learning Manager.
 
-Clique em **[!UICONTROL Carregar novo logotipo]** e escolha o logotipo no computador para carregar. Você pode visualizar a aparência do logotipo e o nome da sua empresa abaixo. Escolha o estilo de cabeçalho de sua preferência e clique **[!UICONTROL em Salvar]**.
+Clique em **[!UICONTROL Carregar novo logotipo]** e escolha o logotipo no computador para carregar. Você pode visualizar a aparência do logotipo e o nome da sua empresa abaixo. Escolha o estilo de cabeçalho de sua escolha e clique em **[!UICONTROL Salvar]**.
 
 ## Temas {#themes}
 
@@ -67,7 +67,7 @@ O aplicativo Learning Manager fornece cinco opções de temas de cores aos seus 
 
 Você pode personalizar a cor da barra superior, a cor do destaque (por exemplo, a cor dos ícones no painel esquerdo), a cor primária e o brilho da barra lateral dos temas, exceto do tema padrão do Prime.
 
-**[!UICONTROL No seletor de cores]** Principal, você pode escolher a cor usada para a interface do usuário imersiva.
+No seletor **[!UICONTROL Cor primária]**, você pode escolher a cor usada para a interface do usuário imersiva.
 
 Para personalizar, escolha o tipo de tema no painel esquerdo e clique nos quadrados adjacentes às cores dos ícones da marca e da barra lateral. Clique na barra lateral de brilho e arraste para frente ou para trás para ajustar o brilho. Observe a visualização nas imagens acima conforme você modifica essas opções.
 
@@ -79,7 +79,7 @@ Clique em **[!UICONTROL Visualização ao vivo]** no canto inferior esquerdo da 
 
 ![](assets/live-theme-preview.png)
 
-*Pop-up Visualização ao vivo*
+*Pop-up Visualização ao Vivo*
 
 Escolha o tema de sua preferência na lista suspensa, ajuste as configurações e clique em **[!UICONTROL Visualizar]** para exibir as alterações em tempo real no aplicativo. Agora, você pode analisar todos os recursos do aplicativo e testemunhar as alterações. Você também pode alterar as funções ao passar pela visualização ao vivo. Quando estiver satisfeito com as alterações, volte para o recurso pop-up Visualização dinâmica do tema e clique em **[!UICONTROL Aplicar tema]**.
 
@@ -89,7 +89,7 @@ Ao visualizar as alterações em tempo real, a janela pop-up de visualização d
 
 Veja como implementar várias marcas:
 
-1. No aplicativo do administrador, selecione **Marca** no painel esquerdo.
+1. No aplicativo de administração, selecione **Marcas** no painel esquerdo.
 1. Selecione **Editar** na seção de Marcas Múltiplas.
 1. Selecione o botão de alternância e ative-o.
 
@@ -105,14 +105,14 @@ Veja como implementar várias marcas:
 
 >[!NOTE]
 >
->Os usuários internos podem ter campos ativos como usuários externos (por exemplo, o administrador deve adicionar várias marcas para usuários internos e externos separadamente, selecionando os valores do campo ativo separadamente.)
+>Os usuários internos podem ter campos ativos como Usuários externos (por exemplo, o administrador deve adicionar a multimarca para os usuários internos e usuários externos separadamente selecionando valores de campo ativos separadamente).
 
 >[!INFO]
 >
 >Confira este [blog](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) para obter mais informações.
 
 
-#### Observações
+#### Apontar para a observação
 
 * Um administrador pode adicionar a marca de vários níveis para este valor de campo ativo e o usuário externo pode fazer logon com diferentes mecanismos (SSO único (Okta, Mini laranja), logon social) e verificar se a marca de vários níveis é aplicável.
 * Um usuário externo tem um campo ativo e um valor de campo ativo, como o usuário interno: mesmo que seja compartilhado, ele deve ser especificado separadamente na identidade visual múltipla pelo administrador. Depois de aplicado, o usuário externo pode fazer logon com mecanismos diferentes (SSO único (Okta, Mini laranja), logon social) e verificar se a marca múltipla é aplicável.
@@ -144,7 +144,7 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
     <p> </p>
     <ul>
      <li>Somente até 12 cores personalizadas. </li>
-     <li>As cores são aplicadas a todos os objetos de aprendizado. As cores serão aplicadas sequencialmente a todos os objetos de aprendizado (treinamentos) e o código de cores hexadecivelmente é o formato necessário para todas as cores, por exemplo, #ffffff.</li>
+     <li>As cores são aplicadas a todos os objetos de aprendizado. As cores serão aplicadas sequencialmente a todos os objetos de aprendizado (treinamentos) e o código de cores hexadecimais é o formato necessário para todas as cores, por exemplo, #ffffff.</li>
      <li>Se apenas uma cor for fornecida, essa cor será aplicada a todos os objetos de aprendizado.</li>
     </ul>
     <p> </p></td>
@@ -155,15 +155,15 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
    <td>
     <p>A imagem personalizada é exibida quando um usuário passa o mouse sobre qualquer objeto de aprendizado. </p>
     <ul>
-     <li>A imagem personalizada aplicada será exibida depois que um usuário passar o mouse na página da Web do Gerenciador de aprendizado.<br></li>
+     <li>A imagem personalizada aplicada será exibida quando o usuário passar o mouse na página da Web do Learning Manager.<br></li>
      <li>Tamanho recomendado - 16x16 ou 24x24 px</li>
-     <li>Formato de imagem recomendado - PNG, JPG</li>
+     <li>Formato de imagem recomendado: PNG, JPG</li>
     </ul></td>
   </tr>
   <tr>
    <td>
     <p>Imagem do ícone de progresso</p></td>
-   <td>Exibido ao navegar entre páginas. Presente em locais onde você vê o gif de progresso '4 quadrados'. 
+   <td>Exibido ao navegar entre páginas. Presente em lugares onde você vê o gif de progresso de “4 quadrados”. 
     <ul>
      <li>Tamanho recomendado - menor ou igual a 32x32 px</li>
      <li>Formato de imagem recomendado: GIF, PNG, JPG</li>
@@ -174,7 +174,7 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
    <td>
     <p>Fontes</p></td>
    <td>
-    <p>Para aplicar as fontes, é necessário um CDN. Além disso, você deve compartilhar a família de fontes a ser aplicada.</p>
+    <p>Os administradores podem entrar em contato com a equipe de suporte da Adobe Learning Manager em <a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a> para alterar fontes. Para aplicar as fontes, é necessário um CDN. Além disso, você deve compartilhar a família de fontes a ser aplicada.</p>
     <p><b>Observação:</b> a família da fonte deve ser compatível com todos os navegadores.</p></td>
   </tr>
   <tr>
@@ -193,9 +193,9 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
 
 ## Definir configurações de recomendação {#configurerecommendationsettings}
 
-**No**> **Geral** de marcas, você pode configurar os escopos de recomendação para alunos internos e externos e permitir que os alunos escolham habilidades na página inicial do aluno.
+Em **Marcas** > **Geral**, você pode configurar escopos de recomendação para alunos internos e externos e permitir que os alunos escolham habilidades na página inicial do aluno.
 
-**Na página Geral**, há as seguintes opções:
+Na página **Geral**, você tem as seguintes opções:
 
 <table>
  <tbody>
