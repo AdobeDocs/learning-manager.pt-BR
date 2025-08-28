@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
 workflow-type: tm+mt
 source-wordcount: '7433'
 ht-degree: 70%
@@ -507,12 +507,6 @@ Os autores podem adicionar links de HTML no módulo de atividade e definir os cr
 
 1. Selecione **[!UICONTROL Adicionar]** e publique o curso.
 
-## Lista de verificação {#create-checklist}
-
-A avaliação é um aspecto importante de qualquer LMS. Avaliações on-line são uma das principais maneiras de avaliar a compreensão de um aluno de um tópico. Mas muitas vezes, é necessário avaliar a compreensão de uma pessoa enquanto ela está no trabalho, observando-a realizar as tarefas necessárias.
-
-Considere os funcionários das lojas ou dos armazéns em avaliação das tarefas que devem desempenhar diariamente. Podem ser as etapas realizadas para consertar uma máquina de café ou as etapas envolvidas na embalagem de um produto. Os professores podem avaliar funcionários para tais tarefas com base em uma lista de verificação e avaliá-los como Aprovado ou Reprovado na atividade de avaliação.
-
 ### Substituir os módulos nos cursos publicados
 
 O Adobe Learning Manager fornece aos autores ferramentas para criar, editar e gerenciar cursos compostos por vários módulos de conteúdo. Quando o conteúdo do curso precisa ser atualizado ou aprimorado, os autores podem substituir os módulos existentes sem interromper o progresso do aluno.
@@ -530,6 +524,12 @@ Para substituir os módulos:
 8. Selecione **[!UICONTROL Republicar]**.
 
 Os alunos manterão o progresso em outros módulos, mas precisarão concluir o novo módulo para concluir o curso.
+
+## Lista de verificação {#create-checklist}
+
+A avaliação é um aspecto importante de qualquer LMS. Avaliações on-line são uma das principais maneiras de avaliar a compreensão de um aluno de um tópico. Mas muitas vezes, é necessário avaliar a compreensão de uma pessoa enquanto ela está no trabalho, observando-a realizar as tarefas necessárias.
+
+Considere os funcionários das lojas ou dos armazéns em avaliação das tarefas que devem desempenhar diariamente. Podem ser as etapas realizadas para consertar uma máquina de café ou as etapas envolvidas na embalagem de um produto. Os professores podem avaliar funcionários para tais tarefas com base em uma lista de verificação e avaliá-los como Aprovado ou Reprovado na atividade de avaliação.
 
 ### Criar uma lista de verificação {#createachecklist}
 
@@ -843,7 +843,7 @@ Você também pode publicar módulos de curso no Learning Manager a partir do so
 1. Faça logon com as credenciais da Adobe. Se não tiver uma Adobe ID, clique em **[!UICONTROL Criar conta]**. Após a autorização, você será direcionado para a página de publicação do módulo.
 1. Forneça quaisquer informações básicas sobre o módulo e clique em Publicar.
 
-Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/br/captivate/classic/publish-project-to-captivate-prime.html)
+Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)
 
 ## Eficácia do curso {#courseeffectiveness}
 

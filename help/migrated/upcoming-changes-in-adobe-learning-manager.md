@@ -2,9 +2,9 @@
 title: Novidades na versão de outubro do Adobe Learning Manager
 description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes na versão de outubro de 2025 do Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7012876539448af3433273f369011e3e0bd07407
+source-git-commit: c16f18e5ab5df120ab5fb40bbf77af2b3f6f43bb
 workflow-type: tm+mt
-source-wordcount: '8104'
+source-wordcount: '8390'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,50 @@ d. **[!UICONTROL Como Email]**
 8. Selecione **[!UICONTROL Salvar]**.
 
 Somente os alunos no escopo do administrador personalizado poderão exibir o comunicado. Veja este [artigo](/help/migrated/administrators/feature-summary/announcements.md) para saber como criar vários tipos de comunicados.
+
+### Redefinir o escopo por Administradores personalizados
+
+Os administradores personalizados podem redefinir o escopo de seus comunicados publicados se um administrador tiver alterado o escopo deles. Depois que o escopo for redefinido, o escopo atualizado será aplicado ao comunicado e somente os alunos do novo escopo poderão ver o comunicado.
+
+Para redefinir o escopo:
+
+1. Faça logon no Adobe Learning Manager como um administrador personalizado.
+2. Selecione **[!UICONTROL Comunicado]** no painel de navegação esquerdo.
+3. Selecione a guia **[!UICONTROL Publicado]**.
+4. Selecione qualquer comunicado e, em seguida, selecione o ícone de configuração.
+5. Selecione **[!UICONTROL Editar]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Tela de anúncio mostrando os anúncios publicados com opções de edição, publicação e outras opções_
+
+6. Selecione **Redefinir**.
+
+   ![](assets/reset-the-scope.png)
+   _Anúncio que mostra uma notificação de alteração de escopo, com uma opção para que os administradores personalizados redefinam e atualizem a seleção de escopo para refletir novas permissões de acesso_
+
+O escopo será atualizado e somente os usuários dentro do escopo atualizado poderão ver o comunicado.
+
+### Editar o comunicado por meio da interface do administrador
+
+Os administradores podem exibir comunicados criados por administradores personalizados por meio de suas interfaces. Eles podem editar esses comunicados apenas modificando ou removendo o escopo atribuído. Se as alterações de escopo não forem feitas, os administradores não poderão fazer mais edições no comunicado.
+
+Para editar o comunicado por meio da interface do administrador:
+
+1. Faça logon no Adobe Learning Manager como administrador.
+2. Selecione **[!UICONTROL Comunicado]** no painel de navegação esquerdo.
+3. Selecione a guia **[!UICONTROL Publicado]**.
+4. Selecione qualquer comunicado e, em seguida, selecione o ícone de configuração.
+5. Selecione **[!UICONTROL Editar]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Tela de anúncio mostrando os anúncios publicados com opções de edição, publicação e outras opções_
+
+6. Selecione **[!UICONTROL Remover]**.
+
+   ![](assets/remove-the-scope.png)
+   _Tela de anúncio indicando que o escopo deve ser removido para permitir que os administradores editem comunicados criados para grupos de usuários com escopo_
+
+O administrador pode editar o comunicado após remover o escopo.
 
 ## Marcar usuários em painéis sociais
 
@@ -834,15 +878,13 @@ A API cria ou atualiza o estado do Objeto de aprendizado para o local especifica
 
 **Visão geral**
 
-A integração Go1 foi aprimorada para oferecer suporte ao gerenciamento de listas de reprodução, à criação do Caminho de Aprendizado e a fluxos de trabalho de certificação recorrentes, enquanto fazia a transição para um modelo de conteúdo de visualização e compra.
+A integração Go1 foi aprimorada para permitir a curadoria direta dos cursos Go1 para criação de Programas de aprendizado (LP) no Adobe Learning Manager. Esta atualização oferece suporte à inclusão de cursos do Go1 em certificações recorrentes e introduz uma nova versão da experiência do hub de conteúdo do Go1, permitindo uma curadoria mais eficiente do curso.
 
 **Novidades**
 
 * Crie e gerencie listas de reprodução diretamente no Go1 usando a assistência por bate-papo por IA ou a seleção manual.
-* Converta facilmente as listas de reprodução Go1 em caminhos de aprendizado da Adobe Learning Manager.
 * Inclua cursos do Go1 em ciclos de certificação recorrentes com redefinição automática do progresso.
 * Interface de descoberta de conteúdo atualizada para navegação e curadoria de conteúdo aprimoradas.
-* Transição de conteúdo gratuito para modelo de custo transparente.
 
 **Principais benefícios**
 
@@ -863,29 +905,32 @@ A integração Go1 foi aprimorada para oferecer suporte ao gerenciamento de list
 * Programas de treinamento focados em conformidade que precisam de atualizações regulares de conteúdo e ciclos de fornecimento.
 * As equipes de aprendizado estão procurando reduzir a sobrecarga de curadoria de conteúdo por meio da assistência de IA.
 
-### Criar uma lista de reprodução Go1
+### Adicionar a lista de reprodução Go1 a um caminho de aprendizado
 
-Os administradores podem criar listas de reprodução com cursos Go1 personalizados para diferentes grupos de alunos com base no local, função, produto e outros critérios. As listas de reprodução podem ser criadas manualmente ou geradas usando IA.
+Os administradores podem criar um caminho de aprendizado que inclua uma lista de reprodução Go1, para que os alunos possam acessar cursos selecionados de terceiros como parte de seu treinamento.
 
-Para criar uma lista de reprodução:
+Para criar um caminho de aprendizado:
 
 1. Faça logon no Adobe Learning Manager como administrador.
-2. Selecione **[!UICONTROL Marketplace de Conteúdo]** no painel de navegação esquerdo.
+2. Selecione **[!UICONTROL Caminhos de Aprendizado]** no painel de navegação esquerdo.
+3. Selecione **[!UICONTROL Adicionar]**.
 
-   ![](assets/select-content-marketplace.png)
-   _Explore e adicione os principais cursos do Go1 às suas listas de reprodução selecionando o Marketplace de Conteúdo no Adobe Learning Manager_
+   ![](assets/select-add-to-lp.png)
+   _Selecione Adicionar na seção Caminhos de Aprendizado para criar e organizar novos programas de treinamento estruturado para seus alunos_
 
-3. Selecione **[!UICONTROL Hub de Conteúdo]** e depois **[!UICONTROL Biblioteca]**.
-4. Selecione **[!UICONTROL Criar lista de reprodução]** e escolha uma destas opções:
+4. Digite os detalhes necessários e selecione **[!UICONTROL Salvar]**. Consulte este [artigo](/help/migrated/administrators/feature-summary/learning-paths.md) para obter mais informações.
+5. Selecione **[!UICONTROL Adicionar Cursos Go1]**.
+
+   ![texto alternativo](assets/select-go1-courses.png)
+   _Adicione os cursos do Go1 à sua lista de reprodução de Desenvolvimento de Habilidades dos Engenheiros de Vendas para expandir as opções de aprendizado com conteúdo selecionado de terceiros_
+
+6. Na **[!UICONTROL Biblioteca]**, procure e selecione **[!UICONTROL Criar lista de reprodução]** e escolha uma destas opções:
 a. **[!UICONTROL com IA]**: crie uma lista de reprodução com a ajuda da IA.
 b. **[!UICONTROL sozinho]**: crie uma lista de reprodução adicionando cursos manualmente a ela.
 
-   ![](assets/select-create-playlist.png)
-   _Crie uma nova lista de reprodução no Adobe Learning Manager selecionando Criar lista de reprodução para organizar e entregar cursos direcionados para seus alunos_
-
 **Criar uma lista de reprodução com IA**
 
-Os administradores podem digitar a descrição da lista de reprodução no prompt do AI. A IA selecionará os cursos relacionados e criará uma lista de reprodução com base nos requisitos.
+Os administradores podem digitar a descrição da lista de reprodução no prompt do AI. A IA selecionará os cursos relacionados e criará uma lista de reprodução com base nos requisitos. A IA gera listas de reprodução interpretando a meta ou o prompt de aprendizado fornecidos pelo usuário. Ao criar uma lista de reprodução, os administradores podem optar por selecionar conteúdo “com IA”, que permite que o sistema use grandes modelos de linguagem para entender os objetivos de aprendizado e as preferências de conteúdo especificados, como duração e tipo. Em seguida, a IA pesquisa a biblioteca de conteúdo em busca de objetos de aprendizado relevantes que correspondam a esses critérios.
 
 Para criar uma lista de reprodução com IA:
 
@@ -900,17 +945,25 @@ Para criar uma lista de reprodução com IA:
    ![](assets/type-a-prompt.png)
    _Digite seu objetivo de aprendizado para criar uma lista de reprodução personalizada, ajudando a Adobe Learning Manager a recomendar cursos direcionados personalizados para as necessidades dos alunos_
 
-4. Escolha as habilidades na lista e selecione a duração do curso e o tipo para sua lista de reprodução.
-5. Selecione **[!UICONTROL Gerar lista de reprodução]**.
+4. Escolha as habilidades na lista.
 
-   ![](assets/select-generate-playlist.png)
-   _Personalize sua lista de reprodução no Adobe Learning Manager selecionando habilidades relevantes e a duração do curso_
+   ![](assets/select-skills.png)
+   _Escolha as habilidades da lista para organizar os cursos para o Engenheiro de Vendas_
+5. Selecione a duração do curso e o tipo para a sua lista de reprodução.
+6. Selecione **[!UICONTROL Gerar lista de reprodução]**. A lista de reprodução é criada com 10 cursos, e os administradores podem usá-la para criar um caminho de aprendizado.
 
+   ![](assets/created-playlist.png)
+   _Revise sua lista de reprodução de aprimoramento de habilidades com curadoria de engenheiro de vendas no Adobe Learning Manager_
+7. Selecione **[!UICONTROL Adicionar à biblioteca]**.
+8. Selecione **Sim** no prompt de confirmação.
+9. Selecione a lista de reprodução no prompt **[!UICONTROL Selecionar lista de reprodução para importar]**.
 
-A lista de reprodução é criada com 10 cursos, e os administradores podem usá-la para criar um caminho de aprendizado.
+   ![](assets/add-playlist-to-lp.png)
+   _Selecione e importe a Lista de Reprodução de Aprimoramento de Habilidades do Engenheiro de Vendas da Biblioteca Go1 no Adobe Learning Manager_
 
-![](assets/created-playlist.png)
-_Revise sua lista de reprodução de aprimoramento de habilidades com o engenheiro de vendas selecionado no Adobe Learning Manager_
+10. Selecione **[!UICONTROL Adicionar listas de reprodução ao Caminho de Aprendizado]** e depois **[!UICONTROL Publish]**.
+
+Os cursos na lista de reprodução serão adicionados ao Caminho de aprendizado. Os administradores podem inscrever os alunos, que podem começar a fazer os cursos imediatamente.
 
 **Criar uma lista de reprodução manualmente**
 
@@ -937,43 +990,6 @@ Para criar uma lista de reprodução manualmente:
 5. Pesquise e selecione os cursos necessários.
 
 A lista de reprodução foi criada com cursos relacionados e os administradores podem usá-la para criar um caminho de aprendizado.
-
-### Adicionar a lista de reprodução Go1 a um caminho de aprendizado
-
-Os administradores podem criar um caminho de aprendizado que inclua uma lista de reprodução Go1, para que os alunos possam acessar cursos selecionados de terceiros como parte de seu treinamento.
-
-Para criar um caminho de aprendizado:
-
-1. Faça logon no Adobe Learning Manager como administrador.
-2. Selecione **[!UICONTROL Caminhos de Aprendizado]** no painel de navegação esquerdo.
-3. Selecione **[!UICONTROL Adicionar]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Selecione Adicionar na seção Caminhos de Aprendizado para criar e organizar novos programas de treinamento estruturado para seus alunos_
-
-4. Digite os detalhes necessários e selecione **[!UICONTROL Salvar]**. Consulte este [artigo](/help/migrated/administrators/feature-summary/learning-paths.md) para obter mais informações.
-5. Selecione **[!UICONTROL Adicionar Cursos Go1]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Adicione os cursos do Go1 à sua lista de reprodução de Desenvolvimento de Habilidades dos Engenheiros de Vendas para expandir as opções de aprendizado com conteúdo selecionado de terceiros_
-
-6. Na **[!UICONTROL Biblioteca]**, procure e selecione a lista de reprodução na tela Selecionar **[!UICONTROL Cursos de &lbrace;Go1]**.
-
-   >[!NOTE]
-   >
-   >Defina o filtro Criado por mim para encontrar sua lista de reprodução com facilidade.
-
-   ![](assets/select-save-to-add-playlist.png)
-   _Selecione uma lista de reprodução de Engenheiro de Vendas na Biblioteca de Cursos Go1 no Adobe Learning Manager_
-
-7. Selecione **[!UICONTROL Adicionar à biblioteca]** e depois **[!UICONTROL Salvar]**.
-
-   ![](assets/add-playlist-to-lp.png)
-   _Selecione e importe a Lista de Reprodução de Aprimoramento de Habilidades do Engenheiro de Vendas da Biblioteca Go1 no Adobe Learning Manager_
-
-8. Selecione **[!UICONTROL Adicionar]** e depois **[!UICONTROL Publish]**.
-
-Os cursos na lista de reprodução serão adicionados ao Caminho de aprendizado. Os administradores podem inscrever os alunos, que podem começar a fazer os cursos imediatamente.
 
 ## Salvar progresso do estado do reprodutor para idiomas
 
@@ -1044,6 +1060,18 @@ Anteriormente, os arquivos role.csv e user_role.csv podiam ser carregados apenas
 
 * As empresas globais gerenciam equipes regionais enviando vários arquivos incrementais de usuários para cada região (UE, América, Ásia), permitindo que os administradores atualizem usuários e atribuam novas funções para cada região em um único fluxo de trabalho.
 * As grandes empresas automatizam a integração e as permissões assimilando regularmente atualizações incrementais de usuários de sistemas de RH. Isso permite atualizações perfeitas nos perfis de usuário e atribuições de função granulares sem intervenção manual.
+
+### Novas colunas adicionadas aos arquivos CSV
+
+Três novas colunas foram introduzidas para aprimorar os dados capturados nas exportações/importações de CSV de usuário, função e função de usuário:
+
+* **Estado de Registro do Usuário (user.csv)**: indica o status de registro atual do usuário.
+* **Estado da Função (role.csv)**: indica o status atual das funções no sistema.
+* **Estado da Função de Usuário (user_role.csv)**: indica o status da associação de função de usuário.
+
+Baixe os [CSVs de amostra](assets/sample-csv-Incremnetal.zip) aqui.
+
+
 
 ## Redefinir recomendações no aplicativo Salesforce
 
@@ -1704,4 +1732,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
