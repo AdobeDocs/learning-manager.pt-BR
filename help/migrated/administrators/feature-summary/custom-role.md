@@ -4,7 +4,7 @@ title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 31%
@@ -300,7 +300,7 @@ Para atribuir várias funções personalizadas a um usuário, siga estas etapas:
 
 1. Faça logon como administrador e selecione **[!UICONTROL Usuários]**.
 2. Selecione **[!UICONTROL Funções personalizadas]** no painel esquerdo.
-3. Crie uma nova função personalizada e adicione privilégios de conta, catálogos, objetos de aprendizado ou escopos. Consulte as etapas mencionadas [aqui](#create-a-custom-role).
+3. Crie uma nova função personalizada e adicione privilégios de conta, catálogos, objetos de aprendizado ou escopos. Consulte as [etapas mencionadas aqui](#create-a-custom-role).
 4. Adicionar usuários à função personalizada.
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ Fazer upload de um arquivo CSV no Adobe Learning Manager permite a atribuição 
 
 Agora você pode atribuir várias funções a um usuário por meio da importação de CSV enviando dois arquivos para o Box:
 
-* role.csv
-* user_role.csv.
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 O arquivo user_role.csv inclui os campos Função personalizada e IDs de usuário.
 
