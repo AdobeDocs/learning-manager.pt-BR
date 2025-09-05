@@ -126,6 +126,6 @@ Em alguns casos, os administradores preferem que os alunos preencham manualmente
 
 Se um arquivo CSV não incluir todos os campos ativos, o administrador deverá inserir manualmente os valores ausentes após a importação.
 
-Por padrão, cada campo ativo deve ser mapeado para um campo correspondente no CSV de origem. No entanto, se não quiser mapear um campo ativo específico para qualquer coluna no CSV, você pode selecionar o valor **DontImportFromSource** na lista suspensa durante os processos de importação do Box e do FTP. Essa opção está disponível ao importar usuários por meio de conectores FTP ou Box. Consulte este [artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) para obter mais informações sobre os conectores.
+Por padrão, cada campo ativo deve ser mapeado para um campo correspondente no CSV de origem. No entanto, se não quiser mapear um campo ativo específico para qualquer coluna no CSV, você pode selecionar o valor **DontImportFromSource** na lista suspensa durante os processos de importação do Box e do FTP. Essa opção está disponível ao importar usuários por meio de conectores FTP ou Box. Consulte este [artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/connectors) para obter mais informações sobre os conectores.
 
 

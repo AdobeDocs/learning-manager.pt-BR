@@ -144,9 +144,9 @@ As colunas a seguir capturam atividade, progresso ou tentativas.
 | Highest_Quiz_score_max | As pontuações máximas mais altas do questionário possíveis para o módulo. Ela pode ficar vazia se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário nele. |
 | Tentativas realizadas | O número total de tentativas realizadas pelo aluno até agora para este módulo. |
 | Máximo de tentativas permitidas | O número máximo de tentativas permitidas para o aluno consumir o módulo. |
-| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um objeto de aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor estão incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
+| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um objeto de aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor estão incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
 | Origem da Conclusão | <b>Observação:</b> para fluxos de trabalho de participação no conector VC, quando um aluno é marcado como participado automaticamente, a origem exibirá “SELF, (learner_email)”. |
-| Comentário de conclusão | Os comentários feitos pelo administrador ao marcar um aluno como concluído após concluir um curso, certificação ou caminho de aprendizado. O administrador pode adicionar os comentários de conclusão de um ou vários alunos. Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses#completion-comments">Comentários de conclusão</a> para obter mais informações. |
+| Comentário de conclusão | Os comentários feitos pelo administrador ao marcar um aluno como concluído após concluir um curso, certificação ou caminho de aprendizado. O administrador pode adicionar os comentários de conclusão de um ou vários alunos. Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/courses#completion-comments">Comentários de conclusão</a> para obter mais informações. |
 
 **Informações relacionadas aos Objetos de Aprendizado**
 
@@ -278,7 +278,7 @@ Acompanhe os alunos com datas de vencimento iminentes dos principais cursos, cam
 
 | Coluna | Descrição |
 |---|---|
-| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">níveis de habilidade</a> para obter mais informações. |
+| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/skills-levels">níveis de habilidade</a> para obter mais informações. |
 | Nome | Nome completo do aluno ao qual a habilidade está atribuída. |
 | Nome do gerente | Nome do gerente de relatórios do aluno. |
 | Rótulos de linha | O nome da habilidade específica atribuída aos alunos que aparecem nesta linha. Usado como um cabeçalho de agrupamento para resumir os dados de habilidade do aluno em cada categoria de habilidade. |
