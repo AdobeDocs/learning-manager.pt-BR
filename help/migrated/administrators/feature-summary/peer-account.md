@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Contas entre parceiros
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 57%
+source-wordcount: '696'
+ht-degree: 52%
 
 ---
 
@@ -53,6 +53,18 @@ O Learning Manager oferece a capacidade de compartilhar licenças compradas usan
 1. Clique em Adicionar para adicionar à conta entre parceiros.
 
    Se um administrador compartilha licenças com um parceiro, ele não pode compartilhá-las com mais ninguém. No entanto, o parceiro pode comprar algumas licenças separadamente e compartilhá-las.
+
+## Exibir as licenças compartilhadas por contas entre parceiros
+
+Os administradores podem exibir o número de licenças compartilhadas pelas contas entre parceiros na interface do administrador.
+
+Para exibir as licenças compartilhadas pela conta entre parceiros:
+
+1. Faça logon no Adobe Learning Manager como administrador.
+2. Selecione **[!UICONTROL Usuários]** e selecione **[!UICONTROL Internos]**.
+
+![](assets/peer-account-seats.png)
+_Seção Usuários mostrando o número de licenças compartilhadas pela conta entre parceiros_
 
 ## Exibir relatórios associados a contas entre parceiros {#viewreportsassociatedwithpeeraccounts}
 

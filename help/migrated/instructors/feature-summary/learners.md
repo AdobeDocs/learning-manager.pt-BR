@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gerenciamento dos alunos da sua sessão
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 71%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -115,7 +115,9 @@ Para enviar e-mails aos alunos, na página Alunos do aplicativo do professor, si
 
 ## Capturar respostas ao convite
 
-Você pode ver as respostas dos convites na seção Alunos. Vá para qualquer sessão, selecione **[!UICONTROL Alunos]** e selecione a resposta ao convite no menu suspenso.
+Os professores podem capturar as respostas de convite dos alunos apenas quando a opção **[!UICONTROL Convidar resposta]** estiver habilitada pelo administrador do ACAP. Para habilitar este recurso, os administradores precisam entrar em contato com a equipe de suporte em [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+
+Depois de concluído, você pode exibir as respostas aos convites na seção **[!UICONTROL Alunos]**. Vá para qualquer sessão, selecione **[!UICONTROL Alunos]** e selecione a resposta ao convite no menu suspenso.
 
 ![](assets/invitation-status.png)
 
