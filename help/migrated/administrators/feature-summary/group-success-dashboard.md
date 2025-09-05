@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Painel de Sucesso do Grupo
 description: Saiba mais sobre o Painel de sucesso do grupo no Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,19 @@ Um administrador pode ativar e criar os painéis dando um nome, selecionando gru
 O administrador deve ativar o Painel de sucesso do grupo para a conta. Para ativar o Painel de Controle de Êxito do Grupo, siga estas etapas:
 
 1. Faça logon como administrador.
-2. Selecione **[!UICONTROL Configurações]**&#x200B;e depois **[!UICONTROL Relatórios]**.
+2. Selecione **[!UICONTROL Configurações]**e depois **[!UICONTROL Relatórios]**.
 3. Selecione a alternância **[!UICONTROL Visibilidade do painel]**.
 4. Digite o nome do painel (por exemplo, **[!UICONTROL Painel do Gerenciador de Armazenamento]**).
    ![](assets/enable-gsd.png)
    _Campos para nome do painel, grupo de usuários e seleção do caminho de aprendizado_
 5. Selecione **[!UICONTROL Visibilidade de visão geral]** para habilitar a seção de visão geral no painel. Esta seção permite ver o progresso de até 50 alunos.
+
+   >[!NOTE]
+   >
+   >Se houver mais de 50 alunos na equipe ou mais de 50 objetos de aprendizado, vá para a guia **[!UICONTROL Transcrição do aluno]** em vez da guia **[!UICONTROL Visão geral]**.
+
 6. Na seção **[!UICONTROL Transcrição do aluno]**, selecione as colunas necessárias que deseja exibir.
+
 
    * Aluno
    * Caminhos e cursos

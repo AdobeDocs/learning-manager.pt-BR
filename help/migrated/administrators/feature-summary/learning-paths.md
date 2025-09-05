@@ -4,9 +4,9 @@ title: Caminhos de aprendizado
 description: Criação de planos de aprendizado para administradores no Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1442'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ As instâncias do Caminho de aprendizado exibem um bloco adicional: **[!UICONTRO
 
 No bloco **Cursos**, você pode ver as instâncias do curso que estão visíveis para os alunos inscritos nesta instância.
 
-A caixa de seleção **[!UICONTROL Permitir que os alunos escolham instâncias (Caminho de Aprendizado Flexível)]** só se aplica aos cursos. Todos os Caminhos de aprendizado filho terão a opção de mapear uma instância do Programa de aprendizado com o Caminho de aprendizado. Por padrão, o mapeamento é definido como Instância padrão.
+A caixa de seleção **[!UICONTROL Permitir que os alunos escolham instâncias (Caminho de Aprendizado Flexível)]** só se aplica aos cursos. Essa opção permite que os alunos alternem suas instâncias no caminho de aprendizado. Todos os Caminhos de aprendizado filho terão a opção de mapear uma instância do Programa de aprendizado com o Caminho de aprendizado. Por padrão, o mapeamento é definido como Instância padrão.
 
 ![](assets/default-instance.png)
 

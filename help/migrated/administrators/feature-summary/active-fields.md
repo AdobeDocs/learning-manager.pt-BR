@@ -3,9 +3,9 @@ description: Saiba como usar campos ativos no Adobe Learning Manager para captur
 jcr-language: en_us
 title: Configurar campos ativos no Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ Para definir configurações de campos ativos:
 
 3. Selecione **Salvar** para aplicar suas alterações.
 
+>[!NOTE]
+>
+>A atribuição de uma nova função não afetará os grupos de usuários personalizados. No entanto, isso afetará grupos de usuários gerados automaticamente, como Todos os administradores, Todos os autores e grupos semelhantes baseados em funções.
+
 ## Campos ativos de valores múltiplos
 
 Os campos ativos de valores múltiplos permitem atribuir vários valores a um único atributo de usuário, como locais, cargos ou equipes de projetos. Isso ajuda a capturar informações mais detalhadas e flexíveis do usuário.
@@ -118,8 +122,10 @@ _Caixa de seleção para habilitar a restrição de valor durante o carregamento
 
 ## Gerenciar campos ativos ausentes na importação de CSV do usuário
 
-Em alguns casos, os administradores preferem que os alunos preencham manualmente determinados campos ativos quando fazem logon no Adobe Learning Manager. Isso é compatível com usuários importados por meio de um arquivo CSV. Consulte este [artigo](/help/migrated/administrators/feature-summary/add-users-user-groups.md) para saber como adicionar usuários em massa.
+Em alguns casos, os administradores preferem que os alunos preencham manualmente determinados campos ativos quando fazem logon no Adobe Learning Manager. Isso é compatível com usuários importados por meio de um arquivo CSV. Consulte este [artigo](/help/migrated/administrators/feature-summary/add-users-user-groups.md) para saber como adicionar usuários em massa. Os usuários são adicionados automaticamente a campos ativos ou grupos baseados em função com base nos valores de campo do Box FTP. Eles não podem ser adicionados aos Grupos personalizados.
 
 Se um arquivo CSV não incluir todos os campos ativos, o administrador deverá inserir manualmente os valores ausentes após a importação.
 
-Por padrão, cada campo ativo deve ser mapeado para um campo correspondente no CSV de origem. No entanto, se não quiser mapear um campo ativo específico para qualquer coluna no CSV, você pode selecionar o valor **DontImportFromSource** na lista suspensa durante os processos de importação do Box e do FTP. Essa opção está disponível ao importar usuários por meio de conectores FTP ou Box. Consulte este [artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/connectors) para obter mais informações sobre os conectores.
+Por padrão, cada campo ativo deve ser mapeado para um campo correspondente no CSV de origem. No entanto, se não quiser mapear um campo ativo específico para qualquer coluna no CSV, você pode selecionar o valor **DontImportFromSource** na lista suspensa durante os processos de importação do Box e do FTP. Essa opção está disponível ao importar usuários por meio de conectores FTP ou Box. Consulte este [artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) para obter mais informações sobre os conectores.
+
+

@@ -4,9 +4,9 @@ title: Conformidade do Learning Manager com o GDPR
 description: Conformidade do Adobe Learning Manager com o GDPR
 contentowner: dvenkate
 exl-id: 8ea31464-b4ce-49e8-b471-5630f0216aa4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '678'
 ht-degree: 39%
 
 ---
@@ -17,19 +17,23 @@ ht-degree: 39%
 >
 >O conteúdo deste documento não é um conselho legal e não tem a intenção de ser um substituto para o conselho legal. Consulte o departamento jurídico de sua empresa para obter o conselho relativo ao GDPR.
 
-+++O que é o GDPR?
+A Adobe Learning Manager está comprometida com a conformidade com o GDPR, garantindo que os dados do usuário sejam gerenciados de forma segura e transparente. Ele fornece recursos essenciais do GDPR, como a capacidade de remover usuários (excluir permanentemente todos os dados pessoais) e permite que os administradores gerem transcrições do aluno para compartilhar informações com os usuários mediante solicitação.
+
+Todos os dados do usuário são protegidos com criptografia forte durante a transferência e o armazenamento, usando padrões como SHA-256. Para algumas integrações, os alunos devem se autenticar, garantindo que o consentimento seja obtido antes de compartilhar quaisquer dados. Esses controles de privacidade e segurança ajudam as organizações que usam o Adobe Learning Manager a manter a conformidade com o GDPR e a proteger as informações do aluno.
+
++++O quê é o GDPR?
 
 O GDPR é um novo regulamento da União Europeia que entra em vigor em 25 de maio de 2018. Ele fornece o rígido controle para a privacidade dos dados e permite que os usuários se encarreguem de seus próprios dados pessoais.
 
 +++
 
-+++Como e por que ele se aplica à você como um cliente do Adobe Learning Manager?
++++Como e porque ele se aplica à você como um cliente do Learning Manager?
 
 Embora o GDPR seja um regulamento da UE, ele é aplicável a entidades comerciais em todo o mundo, que coleta informações pessoais de qualquer usuário que possa ser residente da UE.  Como um cliente do Learning Manager, avalie se o GDPR é aplicável à sua organização.
 
 +++
 
-+++Qual o papel do Adobe nisso como um fornecedor do Learning Manager?
++++Qual o papel da Adobe nisso como um fornecedor do Learning Manager?
 
 De acordo com o GDPR, se a sua empresa fornece um produto ou serviço para residentes da UE, e se determina como e porque coleta, rastreia e monitora seus dados, você é considerado um [controlador de dados](https://gdpr-info.eu/art-24-gdpr/). Como um cliente do Adobe Learning Manager, se você executa uma destas atividades, é considerado como um controlador de dados.
 
