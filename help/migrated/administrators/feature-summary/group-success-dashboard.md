@@ -37,7 +37,7 @@ Um administrador pode ativar e criar os painéis dando um nome, selecionando gru
 O administrador deve ativar o Painel de sucesso do grupo para a conta. Para ativar o Painel de Controle de Êxito do Grupo, siga estas etapas:
 
 1. Faça logon como administrador.
-2. Selecione **[!UICONTROL Configurações]**e depois **[!UICONTROL Relatórios]**.
+2. Selecione **[!UICONTROL Configurações]**&#x200B;e depois **[!UICONTROL Relatórios]**.
 3. Selecione a alternância **[!UICONTROL Visibilidade do painel]**.
 4. Digite o nome do painel (por exemplo, **[!UICONTROL Painel do Gerenciador de Armazenamento]**).
    ![](assets/enable-gsd.png)

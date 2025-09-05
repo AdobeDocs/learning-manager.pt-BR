@@ -60,7 +60,7 @@ As transcrições do aluno no Adobe Learning Manager controlam o treinamento, a 
 3. Selecione **[!UICONTROL Relatórios Personalizados]** em Relatórios e selecione **[!UICONTROL Relatórios do Excel]**.
 4. Selecione **[!UICONTROL Transcrições Do Aluno]**.
 
-   ![]()
+   ![] ()
 
 5. Selecione **[!UICONTROL Gerar Novo]**.
 6. Selecione o intervalo de datas para o qual você precisa da transcrição gerada. Por padrão, a data **[!UICONTROL De]** é a data de registro do aluno e a data **[!UICONTROL Até]** é sempre a data atual. É possível modificar apenas a data inicial a partir de quando você precisa dos dados.
@@ -74,12 +74,12 @@ b. Selecione catálogos específicos na lista suspensa **[!UICONTROL Selecionar 
        * Em Andamento
        * Não Iniciado
        * Não Inscrito
-   8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
+   &#x200B;8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
 
    a. Baixe as transcrições dos alunos que foram excluídos de uma conta marcando a caixa de seleção **[!UICONTROL Incluir alunos excluídos]**.
 b. Baixe as informações de nível do módulo na transcrição do aluno ativando a caixa de seleção **[!UICONTROL Habilitar informações de nível do módulo]**. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição se essa opção estiver ativada.
 c. Baixe dados de habilidades e folhas de resumo ativando a opção **[!UICONTROL Incluir dados de habilidades e folhas de resumo]**. Consulte a seção Relatórios do Excel para obter mais informações.
-9. Você também pode selecionar os valores de coluna a serem preenchidos no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
+&#x200B;9. Você também pode selecionar os valores de coluna a serem preenchidos no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
 
    
 
