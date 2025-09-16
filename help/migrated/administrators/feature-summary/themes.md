@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Temas de cores
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 43%
+source-wordcount: '1295'
+ht-degree: 42%
 
 ---
 
@@ -86,6 +86,8 @@ Escolha o tema de sua preferência na lista suspensa, ajuste as configurações 
 Ao visualizar as alterações em tempo real, a janela pop-up de visualização dinâmica do tema ainda aparece na parte inferior da tela. Você pode optar por minimizar a janela pop-up.
 
 ## Várias marcas {#multiple-branding}
+
+Os administradores podem aplicar vários estilos de marca na organização. A marca pode ser personalizada com base nos Campos ativos, permitindo que diferentes grupos de usuários experimentem marcas personalizadas de acordo com seus perfis ou funções.
 
 Veja como implementar várias marcas:
 

@@ -4,10 +4,10 @@ title: Integrar o Adobe Learning Manager ao AEM
 description: O Learning Manager é um Sistema de Gerenciamento de Aprendizado com um Sistema de Gerenciamento de Conteúdo de Aprendizado interno. Os usuários gerenciam o conteúdo de aprendizado fazendo upload para o Learning Manager para que ele execute o controle de versão, a alocação para os cursos, a definição da visibilidade para os alunos, o controle do consumo e a emissão de relatórios para os administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 55%
+source-wordcount: '3138'
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,7 @@ Depois de instalar o pacote do site de referência ALM, você pode começar a cr
 
 Depois de proteger seu ambiente do AEM Sites, você deve instalar o pacote do site de referência ALM. Esse pacote inclui páginas da Web e componentes de sites do AEM que ajudam a construir a plataforma de aprendizado.
 
-O pacote do site de referência está hospedado no [**Repositório GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+O pacote do site de referência está hospedado no [**Repositório GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases).
 
 Para mais informações, consulte o README:
 
@@ -52,7 +52,7 @@ Instale o pacote de conteúdo do Learning Manager usando o Gerenciador de pacote
 
 >[!NOTE]
 >
->Para obter informações sobre a instalação de pacotes, consulte [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=pt-BR#how-to-work-with-packages).
+>Para obter informações sobre a instalação de pacotes, consulte [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Como autor do AEM, abra o Gerenciador de pacotes do AEM.
 1. Clique no botão **[!UICONTROL Carregar pacote]**.
@@ -413,6 +413,7 @@ Para configurar o widget Meus cursos salvos em sites AEM:
 
 O widget exibirá os cursos salvos para os alunos.
 
+Quando você aplica outro filtro no catálogo, somente os resultados correspondentes a esse filtro são exibidos. Os itens marcados não são incluídos automaticamente.
 
 ### Ignorar inscrição do OA de ordem superior
 
