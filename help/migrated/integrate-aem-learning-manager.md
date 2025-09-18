@@ -4,9 +4,9 @@ title: Integrar o Adobe Learning Manager ao AEM
 description: O Learning Manager é um Sistema de Gerenciamento de Aprendizado com um Sistema de Gerenciamento de Conteúdo de Aprendizado interno. Os usuários gerenciam o conteúdo de aprendizado fazendo upload para o Learning Manager para que ele execute o controle de versão, a alocação para os cursos, a definição da visibilidade para os alunos, o controle do consumo e a emissão de relatórios para os administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '3138'
+source-wordcount: '3163'
 ht-degree: 54%
 
 ---
@@ -52,7 +52,7 @@ Instale o pacote de conteúdo do Learning Manager usando o Gerenciador de pacote
 
 >[!NOTE]
 >
->Para obter informações sobre a instalação de pacotes, consulte [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=pt-BR#how-to-work-with-packages).
+>Para obter informações sobre a instalação de pacotes, consulte [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Como autor do AEM, abra o Gerenciador de pacotes do AEM.
 1. Clique no botão **[!UICONTROL Carregar pacote]**.
@@ -411,7 +411,7 @@ Para configurar o widget Meus cursos salvos em sites AEM:
 5. Selecione **[!UICONTROL Meus cursos salvos]** no menu suspenso em **[!UICONTROL Propriedades]**.
 6. Selecione **[!UICONTROL Concluído]** e atualize a página no modo **[!UICONTROL Visualizar]** ou **[!UICONTROL Publish]**.
 
-O widget exibirá os cursos salvos para os alunos.
+Os alunos podem exibir os cursos salvos na faixa **[!UICONTROL Salvos por mim]** na página inicial do aluno.A faixa **[!UICONTROL Salvos por mim]** leva os alunos à página do catálogo e exibe o número exato de cursos marcados.
 
 Quando você aplica outro filtro no catálogo, somente os resultados correspondentes a esse filtro são exibidos. Os itens marcados não são incluídos automaticamente.
 

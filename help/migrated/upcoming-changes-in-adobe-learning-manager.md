@@ -2,9 +2,9 @@
 title: Novidades na versão de outubro do Adobe Learning Manager
 description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes na versão de outubro de 2025 do Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7217001ed6d4f19f43e0bed83813a956e85bd9c2
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '8348'
+source-wordcount: '8361'
 ht-degree: 0%
 
 ---
@@ -1063,9 +1063,11 @@ Três novas colunas foram introduzidas para aprimorar os dados capturados nas ex
 * **Estado da Função (role.csv)**: indica o status atual das funções no sistema.
 * **Estado da Função de Usuário (user_role.csv)**: indica o status da associação de função de usuário.
 
+>[!NOTE]
+>
+>As alterações de CSV acima se aplicam apenas às contas que usam usuários incrementais.
+
 Baixe os [CSVs de amostra](assets/sample-csv-Incremnetal.zip) aqui.
-
-
 
 ## Redefinir recomendações no aplicativo Salesforce
 
@@ -1726,4 +1728,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
