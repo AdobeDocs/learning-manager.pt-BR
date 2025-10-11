@@ -52,7 +52,7 @@ Instale o pacote de conteúdo do Learning Manager usando o Gerenciador de pacote
 
 >[!NOTE]
 >
->Para obter informações sobre a instalação de pacotes, consulte [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>Para obter informações sobre a instalação de pacotes, consulte [***Como trabalhar com pacotes***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=pt-BR#how-to-work-with-packages).
 
 1. Como autor do AEM, abra o Gerenciador de pacotes do AEM.
 1. Clique no botão **[!UICONTROL Carregar pacote]**.
