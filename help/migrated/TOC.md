@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 78%
+source-wordcount: '760'
+ht-degree: 71%
 
 ---
 
@@ -14,13 +14,14 @@ ht-degree: 78%
 
 * [Guia do Usuário do Learning Manager](user-guide.md)
 * Introdução {#introduction}
-   * [Novidades na versão de outubro de 2025 do Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [Resumo dos novos recursos em maio de 2025](/help/migrated/whats-new.md)
+   * [Resumo dos novos recursos outubro de 2025](/help/migrated/whats-new.md)
+   * [Resumo dos novos recursos em maio de 2025](/help/migrated/whats-new-may-2025.md)
    * [Resumo dos novos recursos novembro de 2024](/help/migrated/whats-new-nov-24.md)
    * [Resumo dos novos recursos julho de 2024](whats-new-july-2024.md)
    * [Novos recursos em março de 2024](whats-new-march-2024.md)
    * [Novos recursos em novembro de 2023](whats-new-november-2023.md)
    * [Novos recursos em julho de 2023](whats-new-2023-july.md)
+   * [Alterações futuras no Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Notas de versão](release-note/release-notes.md)
    * [Requisitos do sistema](system-requirements.md)
    * [Aplicativo Adobe Learning Manager para Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
@@ -48,7 +49,25 @@ ht-degree: 78%
       * [Campos ativos](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Adicionar locais de sala de aula](administrators/feature-summary/classroom.md)
    * [Criar instâncias do curso e programações de aprendizado](administrators/feature-summary/courses.md)
-   * [Marketplace de conteúdo](administrators/feature-summary/content-marketplace.md)
+   * Experience Builder no Adobe Learning Manager {#experience-builder}
+      * [Visão geral](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Componentes principais do Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * Páginas no Experience Builder {#pages-in-experience-builder}
+         * [Visão geral](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Criar uma página personalizada no Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Widgets no Experience Builder {#widgets-in-experience-builder}
+         * [Visão geral](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [Adicionar e configurar widgets](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Menu no Experience Builder {#menu-in-experience-builder}
+         * [Visão geral](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [Criar um menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Personalização no Experience Builder {#customization-in-experience-builder}
+         * [Visão geral](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Personalizar o Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Diretrizes e limitações do Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+   * Marketplace de conteúdo {#content-marketplace}
+      * [Marketplace de conteúdo](administrators/feature-summary/content-marketplace.md)
+      * [Cursos Go1 curados para o Caminho de aprendizado](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [Relatórios](administrators/feature-summary/reports.md)
    * [Painel de Sucesso do Grupo](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Caminhos de aprendizado](administrators/feature-summary/learning-paths.md)
@@ -81,6 +100,7 @@ ht-degree: 78%
    * [Tags](administrators/feature-summary/tags.md)
    * [Catálogo de Conteúdo do Learning Manager](administrators/feature-summary/content-catalogs.md)
    * [Funções personalizadas](administrators/feature-summary/custom-role.md)
+   * [Função personalizada para permissão de comunicado](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
    * [Etiquetas de catálogo](administrators/feature-summary/catalog-labels.md)
    * [xAPI no Learning Manager](authors/feature-summary/xapi.md)
    * [Monitoramento e moderação do Aprendizado social como administrador](administrators/feature-summary/social-learning-configurations-as-an-admin.md)

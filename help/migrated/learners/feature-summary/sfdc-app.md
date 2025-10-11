@@ -4,10 +4,10 @@ title: Aplicativo Learning Manager para Salesforce
 description: O Salesforce&trade; é a solução de CRM mais popular entre as equipes de vendas e marketing. Ao usar o aplicativo Adobe Learning Manager no Salesforce, os Alunos podem acessar todo o seu conteúdo de aprendizado a partir da interface do Salesforce. Os Alunos podem acessar seu conteúdo de aprendizagem atribuído, tal como cursos, programas de aprendizado e materiais para trabalho de dentro do Salesforce. Os usuários também podem receber notificações sobre suas inscrições e comunicados do administrador.
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 75%
+source-wordcount: '500'
+ht-degree: 62%
 
 ---
 
@@ -48,3 +48,14 @@ Uma captura de tela representativa da exibição do Aluno do aplicativo Adobe Le
 Você pode clicar no link Desconectar na parte inferior da página de alunos, como marcado na captura de tela acima, para **Desconectar** do aplicativo Adobe Learning Manager. Após desconectar, você será redirecionado para a página de boas-vindas do aplicativo Adobe Learning Manager.
 
 Você pode conectar ou desconectar do aplicativo qualquer número de vezes.
+
+## Redefinir recomendações no aplicativo Salesforce
+
+Os alunos podem redefinir suas funções e preferências de aprendizado sem precisar sair do Salesforce ou fazer logon no aplicativo nativo da Adobe Learning Manager. O aplicativo Adobe Learning Manager Salesforce agora inclui o botão **[!UICONTROL Redefinir interesses]**.
+
+Para redefinir os interesses e as recomendações do aplicativo Salesforce:
+
+1. Faça logon no aplicativo Adobe Learning Manager para Salesforce como aluno.
+2. Selecione a opção **[!UICONTROL Redefinir interesses]** na parte inferior.
+
+A recomendação ou o interesse do aluno será redefinido no aplicativo Adobe Learning Manager Salesforce.

@@ -2,18 +2,18 @@
 title: Novidades na versão de outubro do Adobe Learning Manager
 description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes na versão de outubro de 2025 do Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '8349'
+source-wordcount: '8348'
 ht-degree: 0%
 
 ---
 
-# Novidades na versão de outubro de 2025 do Adobe Learning Manager
+# Alterações futuras no Adobe Learning Manager
 
 >[!IMPORTANT]
 >
->Observe que os recursos descritos são provisórios e estão sujeitos a alterações. Para obter informações detalhadas e confirmação, entre em contato com o Gerente de sucesso do cliente designado. Se você encontrar problemas, entre em contato com nossa equipe de Suporte ao Cliente em [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+>A versão de outubro de 2025 do Adobe Learning Manager agora está disponível. Exiba [Novidades](/help/migrated/whats-new.md) para obter mais informações sobre os recursos e aprimoramentos mais recentes. Esta página será atualizada com os novos recursos e aprimoramentos na próxima versão. Fique atento para mais atualizações.
 
 ## Visão geral da versão
 
@@ -1726,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

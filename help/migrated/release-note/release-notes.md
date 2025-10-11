@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '27312'
-ht-degree: 69%
+source-wordcount: '27340'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,16 @@ ht-degree: 69%
  </tbody>
 </table>-->
 
-+++Atualização 101: a versão de julho de 2025 do Adobe Learning Manager
++++Atualização 102: versão de outubro de 2025 do Adobe Learning Manager
+
+**Data de lançamento**: 12 de outubro de 2025
+
+## Novidades desta versão
+
+Veja as [Novidades da versão de outubro de 2025 do Adobe Learning Manager](/help/migrated/whats-new.md) para saber mais.
++++
+
++++Atualização 101: versão de julho de 2025 do Adobe Learning Manager
 
 ## Modelos de email baseados em função
 
@@ -93,7 +102,7 @@ Quando um administrador clica em **[!UICONTROL Atualizar]**, ele pode escolher e
 
 | Rótulo antigo | Nova opção |
 |---|---|
-| Aplicar a atualização de conteúdo a todos os alunos | Atualizar todos os alunos agora:Aplicar atualização de conteúdo a todos os alunos |
+| Aplicar a atualização de conteúdo a todos os alunos | Atualizar todos os alunos agora:Apply atualização de conteúdo para todos os alunos |
 | Aplicar atualização aos alunos ainda não iniciados | Atualizar apenas alunos não iniciados: aplicar atualização de conteúdo apenas para alunos não iniciados |
 | Os alunos em andamento recebem atualizações após a conclusão | Atualizar todos os alunos no final: aplicar a atualização de conteúdo a todos os alunos no final |
 
@@ -122,7 +131,7 @@ Consulte este [artigo](/help/migrated/learners/feature-summary/fluidic-player.md
 
 * Correção de um problema em que os alunos que tinham concluído um curso viam uma tela em branco ao revisitá-lo após o módulo de conteúdo ter sido atualizado para uma nova versão.
 
-Além disso, para obter detalhes sobre as próximas alterações no Adobe Learning Manager, consulte este [artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Além disso, para obter detalhes sobre as próximas alterações no Adobe Learning Manager, consulte este [artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -132,7 +141,7 @@ Além disso, para obter detalhes sobre as próximas alterações no Adobe Learni
 
 ## Novidades desta versão
 
-Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new.md) para obter mais informações.
+Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-may-2025.md) para obter mais informações.
 +++
 
 +++Atualização 99: versão de fevereiro de 2025 do Adobe Learning Manager
@@ -155,7 +164,7 @@ Consulte este [artigo](/help/migrated/learners/feature-summary/catalogs.md#sorti
 
 +++
 
-+++Atualização 98: a versão de novembro de 2024 do Adobe Learning Manager
++++Atualização 98: versão de novembro de 2024 do Adobe Learning Manager
 
 **Data de lançamento**: 16 de novembro de 2024
 
@@ -164,7 +173,7 @@ Consulte este [artigo](/help/migrated/learners/feature-summary/catalogs.md#sorti
 Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-nov-24.md) para obter mais informações.
 +++
 
-+++Atualização 97: a versão de julho de 2024 do Adobe Learning Manager
++++Atualização 97: versão de julho de 2024 do Adobe Learning Manager
 
 **Data de lançamento:** 13 de julho de 2024
 
@@ -173,7 +182,7 @@ Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-nov-24.m
 Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-july-2024.md) para obter mais informações.
 +++
 
-+++Atualização 96: a versão de março de 2024 do Adobe Learning Manager
++++Atualização 96: A versão de março de 2024 do Adobe Learning Manager
 
 **Data de lançamento:** 1 de março de 2023
 
@@ -201,7 +210,7 @@ Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-november
 * Altere a qualidade e a velocidade de um vídeo nas redes sociais.
 +++
 
-+++Atualização 93: a versão de julho de 2023 do Adobe Learning Manager
++++Atualização 93: versão de julho de 2023 do Adobe Learning Manager
 
 **Data de lançamento:** 10 de julho de 2023
 
@@ -271,7 +280,7 @@ Para obter mais informações, consulte [Novidades do lançamento do Adobe Learn
 O logon no SAML falhará se o URL de logon com SSO contiver entity_id.
 +++
 
-+++Atualização 89: a versão de março de 2023 do Adobe Learning Manager
++++Atualização 89: A versão de março de 2023 do Adobe Learning Manager
 
 **Data de lançamento:** 04 de abril de 2023
 
@@ -1601,7 +1610,7 @@ Nesta atualização, o aluno pode carregar ativos como comprovante de conclusão
 
 O aluno pode abrir um certificado externo e carregar ativos, tais como pdf, texto ou arquivos de imagem.
 
-Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas corrigidos nesta versão {#issuesfixedinthisrelease}
 
@@ -1979,7 +1988,7 @@ Data de lançamento: 20 de junho de 2019
 
 **Curadoria automática de conteúdo**
 
-O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[**&#x200B; Curadoria assistida automaticamente &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[** Curadoria assistida automaticamente **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mapear habilidades com domínios de habilidades**
 
@@ -2061,7 +2070,7 @@ Data de lançamento: 26 de abril de 2019
 
 Para se inscrever e concluir um curso, você pode digitalizar um código QR fornecido pelo administrador. Para obter mais informações sobre a digitalização de códigos QR na versão Web do Learning Manager, consulte [***Digitalizar código QR***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompletecourse).
 
-* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***] (<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
+* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
 
 +++
 
@@ -2603,7 +2612,7 @@ Data de lançamento: 06 de dezembro de 2016.
 
 ### Aprimoramento {#enhancement}
 
-Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar&#x200B;**&#x200B;**&#x200B;este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
+Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar****este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
 
 * Nome
 * Email
@@ -3113,7 +3122,7 @@ A exportação de dados de inscrição costumava falhar se um dos alunos inscrit
 
 **Modelos de e-mail**
 
-* A palavra **parceiros,** que foi usada para representar grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
+* A palavra **parceiros,** que foi usada para representar grupos externos,**** foi **** removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
   **Observação:** este modelo atualizado não será exibido se o modelo padrão já estiver modificado. Para exibir o modelo atualizado, clique em **Reverter para Original** na caixa de diálogo **Visualização do Modelo**.
 
 * A URL não pode ser clicada no email recebido pelos Administradores sempre que os modelos de email **Perfil Criado(Autorregistro)** e **Perfil Criado(Externo/Parceiros)** forem editados. Esse problema foi corrigido.

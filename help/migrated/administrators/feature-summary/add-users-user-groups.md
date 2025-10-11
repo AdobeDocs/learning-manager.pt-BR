@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adicionar usuários no Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 1%
+source-wordcount: '2451'
+ht-degree: 2%
 
 ---
 
@@ -172,6 +172,37 @@ Para registrar os usuários:
 
 Um email de verificação é enviado ao usuário. O usuário deve selecionar o link no email para ativar sua conta e começar a usar o Adobe Learning Manager.
 
+### Baixar o relatório de usuário
+
+Os administradores podem exportar e baixar dados do usuário como um relatório abrangente. Ao exportar esses dados, os administradores podem rastrear a atividade do aluno, monitorar o ciclo de vida da conta, identificar usuários inativos e manter registros precisos para fins de conformidade, auditoria e emissão de relatórios.
+
+Para baixar o relatório de usuário:
+
+1. Faça logon no Adobe Learning Manager como administrador.
+2. Selecione **Usuários** e escolha **Internos**.
+3. Selecione **Exportar Dados do Usuário**. Você será notificado quando o relatório estiver pronto.
+
+   ![](assets/select-export-user-data.png)
+   _As seções Usuário interno mostram a opção de exportar e baixar o relatório de usuário._
+4. Selecione a notificação e baixe o relatório do usuário.
+
+O relatório inclui as seguintes informações:
+
+* Nome
+* Email
+* Status
+* Data de adição (fuso horário central da Europa)
+* Data de exclusão (fuso horário central da Europa)
+* Data do último login (fuso horário central da Europa)
+* Adobe ID
+* userState
+* perfil
+* Idioma da Interface
+* Idioma do Conteúdo
+* Fuso Horário
+* ID do usuário interno
+* E-mail do gerente
+
 ## Usuários externos
 
 O Adobe Learning Manager permite adicionar usuários fora da empresa, como clientes, parceiros, fornecedores ou clientes, para acessar o conteúdo de aprendizado. Depois de adicionados, você pode agrupá-los, atribuir cursos e acompanhar seu progresso na aprendizagem.
@@ -239,7 +270,7 @@ Existem algumas diferenças entre registros internos e externos:
 | Usuários internos | Usuários externos |
 |---|---|
 | É possível fazer logon usando as credenciais do Adobe ID ou SSO. | É possível fazer logon usando qualquer ID de email. |
-| A gamificação está disponível. | Gamificação disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/gamification). |
+| A gamificação está disponível. | Gamificação disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 
@@ -266,6 +297,32 @@ Para retomar um usuário externo:
 
 ![](assets/resume-an-external-user.png)
 _Opção para retomar um perfil de registro externo pausado anteriormente_
+
+### Alterar o perfil externo
+
+Os administradores podem reatribuir alunos de um perfil externo a um perfil diferente.
+
+Para alterar o perfil externo:
+
+1. Faça logon no Adobe Learning Manager como administrador.
+2. Selecione **[!UICONTROL Usuários]** e selecione **[!UICONTROL Externos]**.
+3. Selecione **[!UICONTROL Vagas usadas]** na lista de perfis externos.
+
+   ![](assets/select-learners-external-profile.png)
+   _Seção de perfil externo que mostra o número de licenças usadas_
+
+4. Selecione o aluno e selecione **[!UICONTROL Ações]**.
+
+   ![](assets/select-change-profile-external-learner.png)
+   _Página de perfil externo destacando a opção Alterar Perfil para mover os alunos para um perfil diferente_
+
+5. Selecione **[!UICONTROL Alterar Perfil]**.
+6. Pesquise e selecione o perfil externo diferente.
+
+   ![](assets/search-and-select-profile.png)
+   _O prompt Alterar Perfil exibe as opções para pesquisar o perfil externo_
+
+O aluno selecionado será movido para o perfil externo selecionado.
 
 ### Monitorar o uso de estações externas
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '15862'
+source-wordcount: '15810'
 ht-degree: 59%
 
 ---
@@ -145,9 +145,9 @@ Veja como você criará os objetos:
 
 1. Baixe e instale os pacotes para criar os objetos personalizados.
 
-   * [Pacote 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
-   * [Pacote 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
-   * [Pacote 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
+   * [Pacote 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
+   * [Pacote 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
+   * [Pacote 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
 
 1. Renomeie os nomes dos objetos personalizados no Salesforce.
 1. Selecione os eventos e clique em **[!UICONTROL Salvar]**.
@@ -447,7 +447,7 @@ Uma vez que a conexão é estabelecida com sucesso, você pode mapear as colunas
 
 +++
 
-+++Utilização do conector FTP do Learning Manager
++++Usar o conector FTP do Learning Manager
 
 1. Os arquivos CSV de sistemas externos devem ser colocados no seguinte caminho:
 
@@ -475,7 +475,7 @@ As opções de importação da xAPI permitem agendar a importação das instruç
 
 +++
 
-+++Configurações necessárias para importar xAPI
++++Configurações necessárias para importar a xAPI
 
 1. Na página de configuração, selecione uma configuração existente que esteja disponível na lista de configurações para importar instruções xAPI do CSV. Clique em Editar ou **adicione um novo link Configuração** para navegar até a página Configurar Import-Sources.
 
@@ -876,29 +876,29 @@ O Workday tem quatro níveis de hierarquia, enquanto o Learning Manager tem dois
 >
 >Você pode adicionar outros atributos do Workday. Entre em contato com seu CSAM para obter os atributos adicionados.
 
-+++Lista de atributos Workday compatíveis
++++Lista de atributos compatíveis do Workday
 
 wd:User_ID
 wd:Worker_ID
 gerente
-wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Nome_Formatado
-wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Nome_Formatado
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name
 wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name
 wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name
 wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Name
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:Endereço_Formatado
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:Formatted_Address
 wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code
 wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address
 wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
-wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Telefone_Formatado
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number
 wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$
-wd:Personal_Data.wd:Gender_Reference.wd:ID.1$
+wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$
 wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID
 wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID
 wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$
@@ -906,7 +906,7 @@ wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Ro
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Endereço_Formatado
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$
@@ -915,15 +915,15 @@ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Endereço_Formatado
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Status_Data.wd:Ative
-wd:Employment_Data.wd:Worker_Status_Data.wd:Ative_Status_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Active
+wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Retirado
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retired
 wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Terminado
+wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code
@@ -933,7 +933,7 @@ wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organ
 wd:Qualification_Data.wd:Education.0.wd:School_Name
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
-wd:Management_Chain_Data.wd:Worker_Supervisors_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
+wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
 Email de Trabalho Principal
 wd:Organization_Type_Reference_Cost_Center_ID
 wd:Organization_Type_Reference_Cost_Center_Name
@@ -970,7 +970,7 @@ Você pode especificar a data de início e exportar o relatório usando a opçã
 
 +++
 
-+++Habilidades do usuário - Status da execução
++++Habilidades dos usuários - Status da execução
 
 Aqui, você pode ver o resumo de todas as tarefas e obter o relatório de status delas. É possível baixar relatórios de erro clicando no link do relatório de erro.
 
@@ -1165,7 +1165,7 @@ A opção Relatório de atividades da xAPI permite gerar a importação das inst
 
 +++
 
-+++Configurações necessárias para importar xAPI
++++Configurações necessárias para importar a xAPI
 
 1. Na página de configuração, selecione uma configuração existente que esteja disponível na lista de configurações para importar instruções xAPI do CSV. Clique em Editar ou no link A **Adicionar uma nova Configuração** para navegar até a página Importar Arquivo de Origem de Configuração de Instruções da xAPI.
 
@@ -1219,7 +1219,7 @@ A opção Relatório de atividades da xAPI permite gerar a importação das inst
 
 +++
 
-+++Utilização do conector do Box do Learning Manager
++++Usar o conector do Box do Learning Manager
 
 1. Os arquivos CSV de sistemas externos devem ser colocados no seguinte caminho:
 
@@ -2235,7 +2235,7 @@ Depois que um autor tiver definido os preços em vários cursos, caminhos de apr
 
 >[!NOTE]
 >
->Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=pt-BR).
+>Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Clique em **[!UICONTROL Exportar metadados de treinamento]** > **[!UICONTROL Sob demanda]**.

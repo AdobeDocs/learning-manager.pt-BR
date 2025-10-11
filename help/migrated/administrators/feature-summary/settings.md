@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configurações
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 64%
+source-wordcount: '3697'
+ht-degree: 63%
 
 ---
 
@@ -411,6 +411,10 @@ Habilite ou desabilite as configurações a seguir:
    <td height="19">Retirar</td>
    <td>Selecione qualquer uma das opções de desativação a partir do seguinte:<li>Uma vez retirados, os alunos inscritos poderão exibir e executar ações, mas os alunos ainda não inscritos perderão o acesso.</li><li>Uma vez retirados, os alunos inscritos e ainda não inscritos perderão o acesso.</li><div><b>Observação:</b> você pode desativar cursos, programações de aprendizado ou certificações de suas páginas de visão geral.</div> </td>
   </tr>
+  <tr>
+   <td height="19">Mostrar todos os cursos inscritos nos resultados da pesquisa</td>
+   <td>Se ativado, o aluno pode ver o curso nos resultados da pesquisa, mesmo se fizer parte do caminho de aprendizado ou certificação inscrito.</td>
+  </tr>
  </tbody>
 </table>
 
@@ -420,11 +424,11 @@ Habilite ou desabilite as configurações a seguir:
    <td>
     <p>Caminhos de aprendizado</p></td>
    <td>
-    <p>Se a opção <b>Ativar recursos estendidos do Caminho de aprendizado</b> estiver ativada, os administradores poderão incluir os Caminhos de aprendizado nos Caminhos de aprendizado e combinar esses Caminhos de aprendizado com Cursos. A opção é irreversível.<br></p></td>
+    <p>Se a opção <b>Habilitar recursos estendidos do Caminho de Aprendizado</b> estiver selecionada, os administradores poderão incluir os Caminhos de Aprendizado nos Caminhos de Aprendizado e combinar esses Caminhos de Aprendizado com Cursos. A opção é irreversível.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Gerenciamento de professores<br></p></td>
+    <p>Gestão de instrutores<br></p></td>
    <td>
     <p>Habilite essa configuração para restringir a lista de professores que podem ser selecionados ao criar sessões de sala de aula ou sala de aula virtual. Todos os usuários com privilégios de professor só podem ser atribuídos como professor para qualquer sessão. Essa restrição não se aplica a fluxos de trabalho de migração.<br></p>
   </td>

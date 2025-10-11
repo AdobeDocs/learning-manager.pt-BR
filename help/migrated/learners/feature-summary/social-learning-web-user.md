@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aprendizado social no Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3038'
-ht-degree: 78%
+source-wordcount: '3443'
+ht-degree: 68%
 
 ---
 
@@ -229,6 +229,64 @@ Ao exibir as publicações em um formato de quadro, você pode ordenar as public
 
 * Se você escolher **Publicações**, os painéis serão classificados de acordo com o número de publicações feitas no painel.
 * Se você escolher **Colaboradores**, os painéis serão classificadas de acordo com o número de usuários que comentaram ou responderam nos tópicos.
+
+## Marcar usuários em painéis sociais
+
+Os alunos com acesso ao Conselho social podem marcar outros usuários em publicações e comentários de aprendizado social usando o formato @username. A marcação funciona por meio de aplicativos ou APIs. Somente usuários com acesso ao painel podem ser marcados, mantendo as interações relevantes e privadas.
+
+* Usuários marcados recebem notificações no aplicativo e por email
+* As notificações incluem links diretos para o conteúdo
+* Usuários fora do painel não podem ser marcados
+* Os usuários excluídos aparecem como “Anônimos”
+
+>[!NOTE]
+>
+>Os alunos não podem marcar grupos de usuários nem usar menções @all para evitar spams.
+
+### Marcar usuários em publicações no Conselho social
+
+É possível marcar membros específicos do painel em publicações ou comentários usando @username. A marcação é limitada aos membros com acesso a esse painel.
+Para marcar usuários em um painel social:
+
+1. Faça logon no Adobe Learning Manager como aluno.
+2. Selecione **[!UICONTROL Aprendizado Social]** no painel de navegação esquerdo.
+
+   ![](/help/migrated/assets/select-social-learning-admin.png)
+   _Habilite o aprendizado colaborativo selecionando Aprendizado Social para acessar quadros de discussão, compartilhar insights e marcar usuários para engajamento interativo_
+
+3. Selecione **[!UICONTROL Nova Postagem]**.
+
+   ![](assets/select-new-post.png)
+   _Inicie uma nova discussão selecionando Nova Publicação no Aprendizado Social para compartilhar conhecimento com os usuários marcados_
+
+4. Antes de marcar usuários, selecione o painel de **[!UICONTROL Postar em um Quadro de Discussão]**.
+
+   ![](assets/select-boards-in-social-board.png)
+   _Selecione um quadro de discussão para postar e marcar usuários, habilitando conversas colaborativas direcionadas no Aprendizado Social_
+
+5. Digite os detalhes da publicação e marque um usuário digitando @ seguido do nome (por exemplo, @andrew). Quando você digita @ seguido das três primeiras letras do nome do usuário, uma lista de usuários correspondentes é exibida.
+
+   ![](assets/type-a-user-tag.png)
+   _Marque os usuários na sua postagem de discussão digitando @ seguido do nome de usuário para habilitar a colaboração direcionada nos painéis de Aprendizado Social_
+
+6. Selecione o usuário desejado na lista.
+7. Selecione **[!UICONTROL Publicação]**.
+
+Os usuários marcados recebem notificações no aplicativo e por email com um link direto para a publicação. Isso torna as discussões mais direcionadas e colaborativas.
+
+### Marcar usuários com base no escopo do painel
+
+A marcação com escopo restrito permite marcar apenas os alunos que têm permissão para acessar um painel específico. Isso mantém a privacidade, impedindo a marcação de usuários fora do escopo.
+
+Se você tentar marcar os alunos que estão fora do escopo do painel, nenhuma sugestão será exibida e você não poderá marcá-los.
+
+### Marcar usuários excluídos
+
+Se um usuário que foi excluído for marcado em uma publicação de aprendizado social, o nome dele é exibido como “Anônimo” na publicação. O comentário e a tag permanecem visíveis para contexto, mas os links ou detalhes do perfil não são exibidos.
+
+![](assets/deleted-users-tagged.png)
+_Publicação do Aprendizado Social que destaca como um usuário excluído aparece como Anônimo quando marcado_
+
 
 ### Filtro de habilidade {#skillfilter}
 

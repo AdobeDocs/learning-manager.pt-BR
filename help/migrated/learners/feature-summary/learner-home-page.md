@@ -4,10 +4,10 @@ title: Página inicial do aluno
 description: Depois que o administrador ativa o layout imersivo, o aluno, após fazer logon no aplicativo, é recebido com uma interface de usuário completamente reformulada.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 40%
+source-wordcount: '1203'
+ht-degree: 39%
 
 ---
 
@@ -143,7 +143,11 @@ O widget Calendário tem os seguintes recursos. Você pode exibir:
 * Treinamento por mês. Role para a esquerda ou direita.
 * Próxima sala de aula ou sala de aula virtual disponível para você se inscrever.
 * Próxima sala de aula ou treinamento em sala de aula virtual em que você se inscreveu.
+* Suas sessões de sala de aula virtual ou sala de aula concluída
 * Treinamento em sala de aula virtual ou sala de aula aprovada pelo gerente.
+
+Você pode aplicar o filtro **[!UICONTROL Exibir somente sessões inscritas]** para exibir somente as sessões inscritas no calendário.
+
 
 ## Feed social {#socialfeed}
 

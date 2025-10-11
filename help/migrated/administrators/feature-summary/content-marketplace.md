@@ -4,10 +4,10 @@ title: Marketplace de conteúdo
 description: O Learning Manager agora oferece o Marketplace de Conteúdo para que você explore e compre treinamentos. Explore mais de 70.000 cursos que abrangem uma grande variedade de tópicos disponíveis em vários formatos. Escolha entre listas de reprodução selecionadas que atendem a uma grande variedade de funções e às suas necessidades de aprendizado e requalificação.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 10%
 
 ---
 
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Hub de Conteúdo
 
-O Hub de Conteúdo permite que os administradores selecionem listas de reprodução necessárias no aplicativo do aluno. A página Hub de Conteúdo fica visível para os administradores na função de aluno o tempo todo, pois permite que eles selecionem listas de reprodução com facilidade. Para ajudá-lo na lista de reprodução certa, os administradores podem tornar esta página acessível aos especialistas de domínio em suas contas.
+Os administradores podem acessar a plataforma Go1 diretamente no Adobe Learning Manager. Vá para **[!UICONTROL Marketplace de Conteúdo]** e selecione **[!UICONTROL Hub de Conteúdo]**.
 
-O Adobe Learning Manager sincroniza regularmente com o Hub de Conteúdo, garantindo que novas adições e atualizações sejam refletidas automaticamente na plataforma.
-
-Todo o conteúdo é mapeado para os idiomas compatíveis, permitindo que os administradores filtrem e gerenciem o conteúdo de maneira mais eficaz com base nas preferências de idioma.
+O Hub de Conteúdo replica a plataforma Go1, permitindo que os administradores naveguem nos cursos, criem várias listas de reprodução e explorem conteúdo, fornecendo uma experiência Go1 perfeita no Adobe Learning Manager.
 
 ## Modelos de e-mail
 

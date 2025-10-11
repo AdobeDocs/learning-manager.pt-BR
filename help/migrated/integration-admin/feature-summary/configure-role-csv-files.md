@@ -4,10 +4,10 @@ title: Gerenciar funções personalizadas através de arquivos CSV
 description: O administrador de integração pode adicionar várias funções personalizadas em massa à conta através do CSV, além de atribuir as mesmas a vários usuários. Essa abordagem automatiza o processo de criação de funções personalizadas.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 81%
+source-wordcount: '992'
+ht-degree: 72%
 
 ---
 
@@ -178,7 +178,7 @@ Na seção Configurações de sincronização, ative a opção **[!UICONTROL Ati
 
 *Selecione a opção Habilitar Sincronização Automática*
 
-Ao escolher essa opção, você pode programar o horário exato da sincronização no campo Horário da sincronização. Se você especificar como horário de sincronização 12:00 AM, as funções personalizadas serão atualizadas exatamente nesse horário todos os dias.
+Ao escolher essa opção, você pode programar o horário exato da sincronização no campo Horário da sincronização. Se você especificar o horário de sincronização como 12:00 AM, as funções personalizadas serão atualizadas exatamente no horário especificado todos os dias.
 
 Se quiser sincronizar os dados sob demanda, clique em **[!UICONTROL Sincronizar agora]**.
 
@@ -189,3 +189,34 @@ Em qualquer conta, o nome de uma Função deve ser exclusivo. Portanto, uma fun�
 No mesmo sentido, na interface do administrador, não é possível atribuir a um usuário uma função configurável criada por CSV, pois essas funções não estarão disponíveis.
 
 No entanto, o CSV de atribuição de usuário pode ser usado para atribuir funções criadas pela interface.
+
+## Suporte incremental e multiincremental para funções personalizadas
+
+Os administradores podem atribuir funções personalizadas para usuários incrementais com mais eficiência. Eles podem fazer upload de dados de usuário, função e função de usuário sem precisar fazer upload de todo o conjunto de dados a cada vez.
+
+Para cada arquivo de importação de usuário carregado, crie pastas separadas no FTP usando a seguinte estrutura:
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**Detalhes do arquivo**
+
+* Arquivo de importação de usuário: user1.csv
+* Arquivo de função: user1_role.csv
+* Arquivo de mapeamento de função de usuário: user1_user_role.csv
+
+Baixe os [CSVs de amostra](/help/migrated/assets/sample-csv-Incremnetal.zip) aqui.
+
+Cada arquivo de importação de usuário é diretamente vinculado a seus arquivos de mapeamento de função e função de usuário correspondentes, garantindo o processamento incremental adequado.

@@ -2,9 +2,9 @@
 description: As transcrições do aluno no Adobe Learning Manager (ALM) permitem que os administradores monitorem o progresso do aluno em cursos, módulos, programações de aprendizado e certificações. Ele oferece suporte a avaliações de desempenho, monitoramento de conformidade, auditorias e emissão de relatórios externos. O relatório oferece um resumo completo do envolvimento e do desempenho de um aluno.
 jcr-language: en_us
 title: Transcrições do aluno no Adobe Learning Manager
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 85799b32f3a24fc0e6beb34ae39a502ff8e7a7b4
 workflow-type: tm+mt
-source-wordcount: '4221'
+source-wordcount: '4354'
 ht-degree: 8%
 
 ---
@@ -59,9 +59,6 @@ As transcrições do aluno no Adobe Learning Manager controlam o treinamento, a 
 2. Selecione **[!UICONTROL Relatórios]** no menu de navegação à esquerda.
 3. Selecione **[!UICONTROL Relatórios Personalizados]** em Relatórios e selecione **[!UICONTROL Relatórios do Excel]**.
 4. Selecione **[!UICONTROL Transcrições Do Aluno]**.
-
-   ![] ()
-
 5. Selecione **[!UICONTROL Gerar Novo]**.
 6. Selecione o intervalo de datas para o qual você precisa da transcrição gerada. Por padrão, a data **[!UICONTROL De]** é a data de registro do aluno e a data **[!UICONTROL Até]** é sempre a data atual. É possível modificar apenas a data inicial a partir de quando você precisa dos dados.
 7. Selecione o seguinte:
@@ -74,15 +71,12 @@ b. Selecione catálogos específicos na lista suspensa **[!UICONTROL Selecionar 
        * Em Andamento
        * Não Iniciado
        * Não Inscrito
-   &#x200B;8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
+   8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
 
    a. Baixe as transcrições dos alunos que foram excluídos de uma conta marcando a caixa de seleção **[!UICONTROL Incluir alunos excluídos]**.
 b. Baixe as informações de nível do módulo na transcrição do aluno ativando a caixa de seleção **[!UICONTROL Habilitar informações de nível do módulo]**. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição se essa opção estiver ativada.
 c. Baixe dados de habilidades e folhas de resumo ativando a opção **[!UICONTROL Incluir dados de habilidades e folhas de resumo]**. Consulte a seção Relatórios do Excel para obter mais informações.
-&#x200B;9. Você também pode selecionar os valores de coluna a serem preenchidos no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
-
-   
-
+9. Você também pode selecionar os valores de coluna a serem preenchidos no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
 As transcrições são geradas e baixadas no computador como arquivos .zip quando os dados da habilidade não estão incluídos. Se a caixa de seleção Dados de habilidades estiver ativada, as transcrições serão geradas e baixadas como . arquivos xlsx.
 
 ### Gerar transcrição do aluno usando copiar e colar
@@ -90,9 +84,6 @@ As transcrições são geradas e baixadas no computador como arquivos .zip quand
 Obter transcrições do aluno se torna um processo tedioso, pois podem ser obtidas apenas para um aluno ou grupo de usuários, um de cada vez. Aqui, com o recurso copiar e colar, você pode copiar a lista de IDs de e-mail do aluno e colá-la de uma só vez.
 
 1. Selecione a guia **[!UICONTROL IDs de email]** para inserir a lista copiada de IDs de email exclusivas.
-
-   
-
 2. Cole IDs de e-mail exclusivas dos alunos que você deseja adicionar, separadas por vírgula, ponto-e-vírgula ou quebra de linha.
 3. Selecione **[!UICONTROL Validar Ids de Email]** para verificar se a ID de email inserida é válida. Caso a ID de e-mail inserida esteja incorreta, ela será destacada em vermelho juntamente com uma mensagem de validação.
 
@@ -138,15 +129,15 @@ As colunas a seguir capturam atividade, progresso ou tentativas.
 | % de progresso | % do progresso atual do aluno em relação ao curso, certificação ou caminho de aprendizado. |
 | Tempo gasto (minutos) | O tempo de aprendizado gasto pelo aluno no OA, as linhas no nível do módulo exibem o tempo gasto de aprendizado no módulo individual. As linhas do curso/caminho de aprendizado/nível de certificado exibem o tempo de aprendizado gasto agregado. |
 | Nota | Indica o sucesso do aluno. &#39;Aprovado&#39;, se o usuário atendeu aos critérios de sucesso para isso, caso contrário, &#39;Reprovado&#39;. |
-| Pontuação_no_questionário | A pontuação mais recente do questionário obtida pelo aluno. Pode estar vazio, se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário ou se o administrador/professor não tiver atribuído nenhuma pontuação. |
-| Quiz_score_max | As pontuações máximas mais recentes do questionário possíveis para o módulo. Ela pode ficar vazia se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário nele. |
-| Highest_Quiz_score | A maior pontuação do questionário obtida pelo aluno em várias tentativas. Pode estar vazio, se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário ou se o administrador ou o professor não tiver atribuído nenhuma pontuação. |
-| Highest_Quiz_score_max | As pontuações máximas mais altas do questionário possíveis para o módulo. Ela pode ficar vazia se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário nele. |
+| Pontuação_no_questionário | A coluna é usada para gravar a pontuação da tentativa mais recente de um quiz. Por exemplo, se um usuário fizer várias tentativas (por exemplo, pontuações 10, 50 e 30 em três tentativas), a coluna Quiz_score exibirá a pontuação da última tentativa, que é 30. Suponha que um quiz tenha uma pontuação máxima de 100 e um usuário faça três tentativas, pontuando 30, 60 e 90. A coluna Quiz_score mostrará 90 (a pontuação mais recente), enquanto a Highest_Quiz_score mostrará 90 (a melhor pontuação em todas as tentativas) e Quiz_score_max permanecerá 100 (a pontuação máxima possível). |
+| Quiz_score_max | A coluna Quiz_score_max representa a pontuação máxima possível que pode ser obtida para um quiz ou módulo específico. Como Quiz_score_max permanece constante, é útil em relatórios para mostrar a pontuação total atingível para um quiz ou módulo, independentemente do desempenho do usuário. |
+| Highest_Quiz_score | A coluna Highest_Quiz_score representa a maior pontuação obtida por um usuário em todas as tentativas de um quiz específico. Por exemplo, se um usuário fizer três tentativas, pontuando 10, 20 e 15, a Highest_Quiz_score exibirá 20, pois é a maior pontuação obtida. |
+| Highest_Quiz_score_max | A pontuação máxima possível associada à maior tentativa de questionário feita por um aluno em várias tentativas. Não é a pontuação mais alta que o aluno obteve. Em vez disso, ele captura a pontuação máxima possível na tentativa em que o aluno obteve a pontuação mais alta. |
 | Tentativas realizadas | O número total de tentativas realizadas pelo aluno até agora para este módulo. |
 | Máximo de tentativas permitidas | O número máximo de tentativas permitidas para o aluno consumir o módulo. |
-| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um objeto de aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor estão incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
-| Origem da Conclusão | <b>Observação:</b> para fluxos de trabalho de participação no conector VC, quando um aluno é marcado como participado automaticamente, a origem exibirá “SELF, (learner_email)”. |
-| Comentário de conclusão | Os comentários feitos pelo administrador ao marcar um aluno como concluído após concluir um curso, certificação ou caminho de aprendizado. O administrador pode adicionar os comentários de conclusão de um ou vários alunos. Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/courses#completion-comments">Comentários de conclusão</a> para obter mais informações. |
+| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um objeto de aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor estão incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
+| Origem da Conclusão | Refere-se à origem ou ao método pelo qual é registrada a conclusão de um curso, programa de aprendizado ou certificação de um aluno. Isso ajuda os administradores a entender como a conclusão foi alcançada ou registrada no sistema. A coluna identifica se a conclusão foi relatada automaticamente, registrada automaticamente ou facilitada por uma função ou configuração específica. <b>Observação:</b> para fluxos de trabalho de participação no conector VC, quando um aluno é marcado como participado automaticamente, a origem exibirá “SELF, (learner_email)”. |
+| Comentário de conclusão | Os comentários feitos pelo administrador ao marcar um aluno como concluído após concluir um curso, certificação ou caminho de aprendizado. O administrador pode adicionar os comentários de conclusão de um ou vários alunos. |
 
 **Informações relacionadas aos Objetos de Aprendizado**
 
@@ -204,8 +195,6 @@ A caixa de diálogo Transcrições do aluno também permite que você baixe dado
 * Resumo de habilidade I
 * Resumo de Habilidades II
 
-
-
 ### O que a planilha Resumo do aprendizado I contém
 
 Acompanhe os caminhos de aprendizado, cursos ou certificações utilizados ativamente. Acompanhe as atividades em andamento, bem como as datas de vencimento iminentes do treinamento.
@@ -219,9 +208,6 @@ Acompanhe os caminhos de aprendizado, cursos ou certificações utilizados ativa
 ### Como interpretar os dados
 
 Este relatório do Resumo de aprendizado I rastreia dois caminhos de aprendizado atribuídos ao aluno.
-A partir do exemplo,
-
-
 
 * O usuário está inscrito em dois Caminhos de aprendizado e iniciou ambos.
 * Nenhum dos caminhos de aprendizado foi concluído ainda.
@@ -239,10 +225,6 @@ Controle a atividade de aprendizado por aluno. Rastreie inscrições, atividades
 * Número de objetos de aprendizado com data de vencimento em N dias: identifica os OAs que vencem no próximo número definido de dias (nesse caso, 7 dias), ajudando a rastrear os prazos que se aproximam.
 
 ### Como interpretar os dados
-
-A partir do exemplo,
-
-
 
 * O aluno está inscrito em dois objetos de aprendizado e iniciou ambos.
 * Nenhum objeto de aprendizado foi concluído.
@@ -278,7 +260,7 @@ Acompanhe os alunos com datas de vencimento iminentes dos principais cursos, cam
 
 | Coluna | Descrição |
 |---|---|
-| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/skills-levels">níveis de habilidade</a> para obter mais informações. |
+| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">níveis de habilidade</a> para obter mais informações. |
 | Nome | Nome completo do aluno ao qual a habilidade está atribuída. |
 | Nome do gerente | Nome do gerente de relatórios do aluno. |
 | Rótulos de linha | O nome da habilidade específica atribuída aos alunos que aparecem nesta linha. Usado como um cabeçalho de agrupamento para resumir os dados de habilidade do aluno em cada categoria de habilidade. |
@@ -307,8 +289,6 @@ O histórico de downloads de transcrição do aluno permite que os administrador
 
 Após baixar uma transcrição do aluno, a página Transcrições do aluno lista todas as transcrições geradas por qualquer pessoa na plataforma.
 
-
-
 A lista exibe os seguintes atributos:
 
 * De e Para: duração das transcrições a serem baixadas.
@@ -332,8 +312,6 @@ Todos os cursos que fazem parte de um caminho de aprendizado (LP) aparecerão na
 Se um aluno foi excluído da plataforma, a transcrição não mostrará seus registros em nenhum relatório gerado para o grupo de usuários do qual ele fazia parte. Isso significa que os registros de alunos excluídos serão excluídos de quaisquer relatórios filtrados criados usando os filtros de grupo de usuários.
 
 Mas você ainda pode baixar os dados dos alunos excluídos. Se você selecionou a opção **[!UICONTROL Incluir alunos excluídos]** ao definir os filtros para gerar o relatório, poderá baixar o relatório dos alunos excluídos.
-
-
 
 **Comportamento dos administradores personalizados**
 

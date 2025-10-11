@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Meus aprendizados
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3080'
-ht-degree: 63%
+source-wordcount: '3307'
+ht-degree: 59%
 
 ---
 
@@ -291,6 +291,19 @@ Para alterar a instância do curso, siga estas etapas:
 
    A instância recém-selecionada está inscrita. Se um aluno estiver inscrito em uma instância do curso que faz parte de outro OA e atualizar a instância do curso que faz parte do Programa de aprendizado flexível, ele será automaticamente cancelado da inscrição nos outros Objetos de aprendizado após um aviso.
 
+## Gerenciamento de progresso com base na linguagem
+
+O progresso do aluno pode ser acompanhado separadamente para cada local, garantindo que a alternância entre os idiomas no reprodutor não afete o progresso alcançado anteriormente. O progresso de cada módulo é mantido independentemente nos níveis de usuário e módulo, evitando que o progresso seja substituído quando os alunos exploram conteúdo em locais diferentes.
+
+Por exemplo, se um aluno alcançar 75% de progresso em inglês e, em seguida, mudar para espanhol, retornar para inglês retomará de 75% em vez de redefinir para 0%. Cada local armazena seu próprio estado de progresso, permitindo que os alunos naveguem e concluam conteúdo em vários idiomas sem perder o progresso individual.
+
+Os seguintes tipos de conteúdo não são compatíveis com o progresso do aluno baseado no idioma:
+
+* Conteúdo de vídeo e áudio não é suportado.
+* Não há suporte para conteúdo de terceiros, incluindo Go1, LinkedIn Learning, getAbstract e Harvard ManageMentor.
+* O conteúdo que não envia dados ao LRS (Armazenamento de Registros de Aprendizado) não terá o progresso rastreado ou salvo.
+* Os usuários do aplicativo móvel não podem acompanhar o progresso desse recurso no modo offline.
+
 ## Completar um curso {#completingacourse}
 
 Como aluno, você pode concluir o número exigido de módulos de um curso para concluí-lo. Os critérios de conclusão do curso dependem de quantos módulos foram definidos como obrigatórios pelo autor. Ao se inscrever em um curso com critérios mínimos de conclusão, você poderá ver os critérios de conclusão no painel direito da página Curso.
@@ -319,6 +332,19 @@ A guia Discussão não está ativada para usuários externos.
 
 ![](assets/learning-program200s.jpg)
 *Guia Discussão*
+
+## Registrar interesse nos cursos
+
+Os alunos podem registrar seu interesse nos cursos que não têm instância ativa.
+
+Para registrar juros:
+
+1. Faça logon no Adobe Learning Manager como aluno.
+2. Vá para o **[!UICONTROL Catálogo]** e selecione o curso que não tem instância ativa.
+3. Selecione **[!UICONTROL Registrar interesse]** na página de visão geral do curso.
+
+   ![](assets/register-interest.png)
+   _Seção de visão geral do curso na interface do aluno, destacando a opção Registrar interesse_
 
 ## Ciclo de vida do curso {#courselifecycle}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '5673'
-ht-degree: 52%
+source-wordcount: '5803'
+ht-degree: 51%
 
 ---
 
@@ -788,7 +788,36 @@ Os alunos podem simplesmente usar o aplicativo Adobe Learning Manager para dispo
 
    ![](assets/qr-code-download-01.png)
 
-   *Compartilhar código QR com analistas*
+   *Compartilhar código QR com os alunos*
+
+## Baixar o relatório do aluno interessado
+
+Exiba [Registrar interesse nos cursos](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) para saber como os alunos podem registrar seus interesses.
+
+Os administradores podem exibir o interesse dos alunos e baixar o relatório Aluno interessado da página de visão geral do curso.
+
+Para baixar o relatório de aluno interessado:
+
+1. Faça logon no Adobe Learning Manager como administrador.
+2. Vá para **[!UICONTROL Cursos]** e selecione o curso.
+3. Selecione **[!UICONTROL Alunos interessados]**.
+
+   ![](assets/select-interested-learner.png)
+   _A página de visão geral do curso da interface do administrador mostra a seção Aluno interessado para exibir e baixar o relatório_
+4. Selecione Ações e, em seguida, Exportar relatório.
+O relatório com a lista de alunos interessados será baixado. O relatório inclui as seguintes colunas:
+
+   * ID do curso
+   * Nome do aluno
+   * Email
+   * Tipo
+   * Estado
+   * Data e Hora do Registro (UTC)
+   * Status ativo
+
+>[!NOTE]
+>
+>O relatório incluirá a UUID do aluno se estiver ativada para a conta.
 
 ## Ciclo de vida do curso {#courselifecycle}
 
