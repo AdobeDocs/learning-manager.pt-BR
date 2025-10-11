@@ -85,8 +85,8 @@ Para configurar o widget Categorias:
 9. Digite um **[!UICONTROL Título do widget]** e uma **[!UICONTROL Descrição do widget]**.
 10. Pesquise e escolha um catálogo da **[!UICONTROL Origem da categoria]**.
 
-   ![](assets/configure-calendar-widget.png)
-   _Configure as opções do widget Categorias para definir o título e a descrição do widget e selecione a origem da categoria_
+    ![](assets/configure-calendar-widget.png)
+    _Configure as opções do widget Categorias para definir o título e a descrição do widget e selecione a origem da categoria_
 
 11. Selecione **[!UICONTROL Adicionar Widget]**.
 
@@ -153,7 +153,7 @@ Para configurar o widget Cursos e caminhos:
 
 ![](assets/configure-course-paths.png)
 _Widget Cursos e caminhos onde os administradores definem o título, a descrição e selecionam Cursos ou Caminhos de aprendizado para serem exibidos como cartões interativos_
-11. Selecione **[!UICONTROL Adicionar widget]**.
+&#x200B;11. Selecione **[!UICONTROL Adicionar widget]**.
 
 O widget Cursos e caminhos será adicionado à página. Os administradores podem adicionar outros widgets e publicar a página.
 
@@ -182,14 +182,14 @@ Para configurar o widget Caixa de conteúdo:
 9. Digite o texto no **[!UICONTROL rótulo do botão Ação]** e forneça um link.
 10. Selecione qualquer uma das opções para Preenchimento do plano de fundo:
 
-   * **[!UICONTROL Cor]**: selecione a cor no seletor de cores ou digite o código de cor no campo de texto.
-   * **[!UICONTROL Imagem]**: procure e carregue uma imagem.
+    * **[!UICONTROL Cor]**: selecione a cor no seletor de cores ou digite o código de cor no campo de texto.
+    * **[!UICONTROL Imagem]**: procure e carregue uma imagem.
 
 11. Ajuste a altura da caixa usando a opção **[!UICONTROL Altura da caixa de conteúdo]**.
 12. Selecione as opções de formatação de texto.
 
-   ![](assets/configure-content-box.png)
-   _Tela de personalização do widget da Caixa de Conteúdo, na qual os administradores podem inserir um título, uma descrição, um rótulo de botão de ação e um link_
+    ![](assets/configure-content-box.png)
+    _Tela de personalização do widget da Caixa de Conteúdo, na qual os administradores podem inserir um título, uma descrição, um rótulo de botão de ação e um link_
 
 13. Selecione **[!UICONTROL Adicionar widgets]**.
 

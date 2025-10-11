@@ -139,8 +139,8 @@ Os administradores podem digitar a descrição da lista de reprodução no promp
 12. Selecione **Sim** no prompt de confirmação.
 13. Selecione a Lista de Reprodução no prompt **[!UICONTROL Selecionar lista de reprodução para importar]**.
 
-   ![](assets/add-playlist-to-lp.png)
-   _Selecione e importe a Lista de Reprodução de Aprimoramento de Habilidades do Engenheiro de Vendas da Biblioteca Go1 no Adobe Learning Manager_
+    ![](assets/add-playlist-to-lp.png)
+    _Selecione e importe a Lista de Reprodução de Aprimoramento de Habilidades do Engenheiro de Vendas da Biblioteca Go1 no Adobe Learning Manager_
 
 14. Selecione **[!UICONTROL Adicionar listas de reprodução ao Caminho de Aprendizado]** e depois **[!UICONTROL Publish]**.
 
