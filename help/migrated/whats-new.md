@@ -2,7 +2,7 @@
 description: Saiba mais sobre os novos recursos e aprimoramentos na versão de outubro de 2025 do Adobe Learning Manager
 jcr-language: en_us
 title: Novidades na versão de outubro de 2025 do Adobe Learning Manager
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 2df852f933fb0fb7b010dec5426a886b9e7b8ad5
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -815,7 +815,7 @@ Exiba o [Relatório de ajudas de tarefa](/help/migrated/administrators/feature-s
 * No aplicativo do aluno, pressionar TAB no Fluidic Player estava travando no botão “Enter Fullscreen”. A navegação pelo teclado agora se move corretamente em todos os elementos da tela.
 * Passar o mouse sobre os nomes dos cursos longos no Painel de conformidade do aplicativo do gerente agora exibe o nome completo dos cursos inscritos ou em conformidade.
 * Somente Compartilhado ou OCULTO são aceitos para a coluna de visibilidade do módulo em module.csv. Qualquer outro valor acionará um erro durante a migração, evitando falhas no back-end.
-* Criar um novo administrador com um email misto não gera mais entradas de usuário duplicadas quando a UUID está desativada. O sistema agora lida consistentemente com o uso de maiúsculas e minúsculas em emails para evitar duplicatas.
+* Criar um novo administrador com um e-mail de capitalização mista não gera mais entradas de usuário duplicadas quando a UUID está desativada. O sistema agora lida consistentemente com o uso de maiúsculas e minúsculas em emails para evitar duplicatas.
 * As notas PDF agora são exibidas corretamente para cursos em idiomas como árabe, grego, hebraico, hindi, tailandês e ucraniano. Anteriormente, os personagens pareciam distorcidos no PDF baixado, mesmo que fossem exibidos corretamente no reprodutor.
 
 ## Requisitos do sistema
