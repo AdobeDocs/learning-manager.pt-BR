@@ -33,7 +33,7 @@ Saiba mais sobre os novos recursos e aprimoramentos na versão de novembro de 20
 
 >[!NOTE]
 >
->Confira este [webinar](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) para saber mais sobre os novos recursos nesta versão.
+>Confira este [webinar](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course) para saber mais sobre os novos recursos nesta versão.
 
 ## Pesquisa viabilizada por IA no Adobe Learning Manager
 

@@ -36,7 +36,7 @@ ht-degree: 88%
 * [Medalhas](learners/feature-summary/badges.md)
 * [Catálogos](learners/feature-summary/catalogs.md)
 * [Certificações](learners/feature-summary/certifications.md)
-* [Cursos ](learners/feature-summary/courses.md)
+* [Cursos &#x200B;](learners/feature-summary/courses.md)
 * [Fluidic Player](learners/feature-summary/fluidic-player.md)
 * [Usuários de dispositivos móveis e tablets](learners/feature-summary/ipad-android-tablet-users.md)
 * [Programas de aprendizado](learners/feature-summary/learning-programs.md)

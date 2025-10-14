@@ -31,7 +31,7 @@ O cache do navegador e os cookies podem impedir o acesso à plataforma Adobe Lea
 
 Os links abaixo são guias específicas do navegador para limpar o cache:
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=pt)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=pt)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ Os links abaixo são guias específicas do navegador para limpar o cache:
 
 ## Usar o modo anônimo
 
-Use o modo anônimo em seu navegador e faça logon no Adobe Learning Manager. Consulte as [instruções](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=pt&amp;oco=0).
+Use o modo anônimo em seu navegador e faça logon no Adobe Learning Manager. Consulte as [instruções](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=pt&oco=0).
 
 ## Contatar administrador
 

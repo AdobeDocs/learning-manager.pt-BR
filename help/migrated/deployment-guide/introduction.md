@@ -162,7 +162,7 @@ Para configurar modelos de e-mail para um objeto de aprendizado:
 
 ### Restringir usuários de receber e-mails {#restrictusersfromreceivingemails}
 
-Como administrador, você pode selecionar quem receberá ou não e-mails do Learning Manager. Você pode fazer isso usando a opção **&#x200B;**&#x200B;[!UICONTROL Usuário Restrito]&#x200B;**&#x200B;** na guia **&#x200B;**&#x200B;[!UICONTROL Configurações] **&#x200B; **. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva. Os usuários listados nessa opção ficarão restritos ao recebimento de qualquer comunicação por e-mail do Learning Manager.
+Como administrador, você pode selecionar quem receberá ou não e-mails do Learning Manager. Você pode fazer isso usando a opção **&#x200B;**&#x200B;[!UICONTROL Usuário Restrito]&#x200B;**&#x200B;** na guia **&#x200B;**&#x200B;[!UICONTROL Configurações] **&#x200B; &#x200B;**. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva. Os usuários listados nessa opção ficarão restritos ao recebimento de qualquer comunicação por e-mail do Learning Manager.
 
 ## Configurações da sua conta {#configureyouraccountsettings}
 
