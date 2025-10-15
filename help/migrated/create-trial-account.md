@@ -16,7 +16,7 @@ Você pode configurar facilmente uma conta de avaliação gratuita de 30 dias no
 
 Para criar uma conta de avaliação:
 
-1. Vá para o [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html).
+1. Vá para o [Adobe Learning Manager](https://business.adobe.com/br/products/learning-manager/adobe-learning-manager.html).
 2. Selecione a **[!UICONTROL Avaliação gratuita de 30 dias]**.
 
    ![](assets/free-trial.png)
