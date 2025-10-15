@@ -2,9 +2,9 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 3120756396fa20170f9a5b96861cbdaa4d4bb8c8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 71%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 71%
    * Marketplace de conteúdo {#content-marketplace}
       * [Marketplace de conteúdo](administrators/feature-summary/content-marketplace.md)
       * [Cursos Go1 curados para o Caminho de aprendizado](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
+   * [Formulário de feedback L1](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
    * [Relatórios](administrators/feature-summary/reports.md)
    * [Painel de Sucesso do Grupo](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Caminhos de aprendizado](administrators/feature-summary/learning-paths.md)
