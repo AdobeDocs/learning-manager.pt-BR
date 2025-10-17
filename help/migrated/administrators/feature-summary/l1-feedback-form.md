@@ -2,7 +2,7 @@
 description: Saiba mais sobre a criação de formulários de feedback L1 para os alunos
 jcr-language: en_us
 title: Formulário de feedback L1
-source-git-commit: 70baa9d9871fb05e988973b61ce0af105459afb3
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Crie traduções para as perguntas no formulário de feedback em vários idiomas
 
 ## Definir um formulário de feedback como padrão
 
-Os administradores podem estabelecer formulários de feedback padrão para cursos em ritmo individualizado, sala de aula, sala de aula virtual e cursos mistos. Uma vez configurado, esse formulário padrão será automaticamente apresentado aos alunos após a conclusão de qualquer curso. Esse formulário padrão será aplicado a todos os cursos, a menos que o administrador opte por atribuir um formulário de feedback diferente para cursos específicos.
+Os administradores podem estabelecer formulários de feedback padrão para cursos em ritmo individualizado, sala de aula, sala de aula virtual e cursos mistos. Depois que um formulário padrão é definido, ele é aplicado automaticamente a todos os cursos recém-criados. Os alunos verão este formulário após concluírem qualquer curso. Os administradores podem atribuir um formulário de feedback diferente para cursos específicos, se necessário.
 
 ![](assets/set-as-default.png)
 _Tela de formulários de feedback exibindo a opção de definir o formulário de feedback padrão_
