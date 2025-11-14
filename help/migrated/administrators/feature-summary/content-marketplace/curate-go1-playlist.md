@@ -2,9 +2,9 @@
 description: Saiba como criar e adicionar uma lista de reprodução Go1 a um caminho de aprendizado no Adobe Learning Manager. Este guia aborda instruções passo a passo e práticas recomendadas para a integração da lista de reprodução.
 jcr-language: en_us
 title: Curadoria da lista de reprodução Go1 para o Caminho de aprendizado do Adobe Learning Manager
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -139,8 +139,8 @@ Os administradores podem digitar a descrição da lista de reprodução no promp
 12. Selecione **Sim** no prompt de confirmação.
 13. Selecione a Lista de Reprodução no prompt **[!UICONTROL Selecionar lista de reprodução para importar]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Selecione e importe a Lista de Reprodução de Aprimoramento de Habilidades do Engenheiro de Vendas da Biblioteca Go1 no Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Selecione e importe a Lista de Reprodução de Aprimoramento de Habilidades do Engenheiro de Vendas da Biblioteca Go1 no Adobe Learning Manager_
 
 14. Selecione **[!UICONTROL Adicionar listas de reprodução ao Caminho de Aprendizado]** e depois **[!UICONTROL Publish]**.
 
@@ -216,6 +216,10 @@ Para excluir a lista de reprodução:
    _Tela de gerenciamento de playlist, realçando a opção Excluir Playlist_
 
 A Lista de reprodução selecionada será excluída da biblioteca Go1.
+
+### Compartilhar a lista de reprodução
+
+A opção Compartilhar lista de reprodução não é compatível na integração do Go1 com o Adobe Learning Manager. Essa opção será removida da interface na próxima versão.
 
 ## Limite de cursos excedido
 
