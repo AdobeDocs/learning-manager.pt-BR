@@ -2,7 +2,7 @@
 description: Saiba como criar e adicionar uma lista de reprodução Go1 a um caminho de aprendizado no Adobe Learning Manager. Este guia aborda instruções passo a passo e práticas recomendadas para a integração da lista de reprodução.
 jcr-language: en_us
 title: Curadoria da lista de reprodução Go1 para o Caminho de aprendizado do Adobe Learning Manager
-source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
+source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -53,7 +53,7 @@ O Adobe Learning Manager oferece assistência viabilizada por IA para facilitar 
 
 Para criar uma lista de reprodução com IA:
 
-1. Selecione a opção **[!UICONTROL Conversar com IA]** no Hub de Conteúdo Go1.
+1. Selecione a opção **[!UICONTROL Conversar com IA]** no **Hub de Conteúdo Go1**.
 
    ![](assets/select-chat-with-ai.png)
    _Tela do Hub de Conteúdo exibindo a opção Bate-papo com IA, na qual os administradores podem interagir com o Assistente de IA para fazer perguntas_
@@ -139,8 +139,8 @@ Os administradores podem digitar a descrição da lista de reprodução no promp
 12. Selecione **Sim** no prompt de confirmação.
 13. Selecione a Lista de Reprodução no prompt **[!UICONTROL Selecionar lista de reprodução para importar]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Selecione e importe a Lista de Reprodução de Aprimoramento de Habilidades do Engenheiro de Vendas da Biblioteca Go1 no Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Selecione e importe a Lista de Reprodução de Aprimoramento de Habilidades do Engenheiro de Vendas da Biblioteca Go1 no Adobe Learning Manager_
 
 14. Selecione **[!UICONTROL Adicionar listas de reprodução ao Caminho de Aprendizado]** e depois **[!UICONTROL Publish]**.
 
