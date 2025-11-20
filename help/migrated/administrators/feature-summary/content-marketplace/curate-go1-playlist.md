@@ -2,7 +2,7 @@
 description: Saiba como criar e adicionar uma lista de reprodução Go1 a um caminho de aprendizado no Adobe Learning Manager. Este guia aborda instruções passo a passo e práticas recomendadas para a integração da lista de reprodução.
 jcr-language: en_us
 title: Curadoria da lista de reprodução Go1 para o Caminho de aprendizado do Adobe Learning Manager
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Adicione cursos Go1 diretamente a caminhos de aprendizado e certificações. Cri
 
 Para criar um Caminho de aprendizado com cursos Go1:
 
-1. Faça logon no Adobe Learning Manager como administrador.
+1. Faça logon no **Adobe Learning Manager** como administrador.
 2. Selecione **[!UICONTROL Caminhos de Aprendizado]** no painel de navegação esquerdo.
 3. Selecione **[!UICONTROL Adicionar]**.
 
