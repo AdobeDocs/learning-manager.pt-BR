@@ -72,12 +72,12 @@ c. Selecione o **[!UICONTROL Status de inscrição]**. Essa lista suspensa cont�
        * Em Andamento
        * Não Iniciado
        * Não Inscrito
-   8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
+   &#x200B;8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
 
    a. Baixe as transcrições dos alunos que foram excluídos de uma conta marcando a caixa de seleção **[!UICONTROL Incluir alunos excluídos]**.
 b. Baixe as informações de nível do módulo na transcrição do aluno ativando a caixa de seleção **[!UICONTROL Habilitar informações de nível do módulo]**. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição se essa opção estiver ativada.
 c. Baixe dados de habilidades e folhas de resumo ativando a opção **[!UICONTROL Incluir dados de habilidades e folhas de resumo]**. Consulte a seção Relatórios do Excel para obter mais informações.
-9. Você também pode selecionar as colunas a serem preenchidas no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
+&#x200B;9. Você também pode selecionar as colunas a serem preenchidas no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
 As transcrições são geradas e baixadas no computador como arquivos .zip quando os dados da habilidade não estão incluídos. Se a caixa de seleção Dados de habilidades estiver ativada, as transcrições serão geradas e baixadas como . arquivos xlsx.
 
 ### Gerar transcrição do aluno usando copiar e colar
