@@ -4,7 +4,7 @@ title: Interpretar o CSV de transcrição do aluno
 description: Interpretar o CSV de transcrição do aluno
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 88%
@@ -29,9 +29,9 @@ Essas informações podem ser úteis para qualquer desenvolvedor que deseje inte
 
 ## Obter transcrição do aluno na interface do usuário {#fetchlearnertranscriptfromtheuserinterface}
 
-Nas Configurações do perfil, um aluno pode baixar a transcrição. Para obter mais informações, consulte *** [Baixar transcrição do aluno](../../administrators/feature-summary/learner-transcripts.md)***.
+Nas Configurações do perfil, um aluno pode baixar a transcrição. Para obter mais informações, consulte ***[Baixar transcrição do aluno](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***.
 
-Os administradores podem gerar transcrições do aluno para toda a organização; um conjunto específico de usuários ou um conjunto específico de objetos de aprendizado ou um conjunto específico de usuários e objetos de aprendizado. Eles também podem obter todos os registros de aprendizado para uma duração de intervalo de tempo e indicar se as informações de nível de módulo são necessárias (por padrão, as informações de nível de módulo são omitidas). Para obter mais detalhes, consulte [***Baixar transcrições do aluno***](../../administrators/feature-summary/learner-transcripts.md).
+Os administradores podem gerar transcrições do aluno para toda a organização; um conjunto específico de usuários ou um conjunto específico de objetos de aprendizado ou um conjunto específico de usuários e objetos de aprendizado. Eles também podem obter todos os registros de aprendizado para uma duração de intervalo de tempo e indicar se as informações de nível de módulo são necessárias (por padrão, as informações de nível de módulo são omitidas). Para obter mais detalhes, consulte [***Baixar transcrições do aluno***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 <!--Update above link?-->
 

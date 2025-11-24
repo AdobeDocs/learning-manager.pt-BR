@@ -2,10 +2,10 @@
 description: As transcrições do aluno no Adobe Learning Manager (ALM) permitem que os administradores monitorem o progresso do aluno em cursos, módulos, programações de aprendizado e certificações. Ele oferece suporte a avaliações de desempenho, monitoramento de conformidade, auditorias e emissão de relatórios externos. O relatório oferece um resumo completo do envolvimento e do desempenho de um aluno.
 jcr-language: en_us
 title: Transcrições do aluno no Adobe Learning Manager
-source-git-commit: 85799b32f3a24fc0e6beb34ae39a502ff8e7a7b4
+source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
 workflow-type: tm+mt
-source-wordcount: '4354'
-ht-degree: 8%
+source-wordcount: '4823'
+ht-degree: 7%
 
 ---
 
@@ -14,11 +14,13 @@ ht-degree: 8%
 
 ## Visão geral
 
-As transcrições do aluno no Adobe Learning Manager (ALM) permitem que os administradores controlem o progresso do aluno em um nível granular em cursos, módulos, programações de aprendizado e certificações. Os dados de transcrição ajudam nas revisões de desempenho, no controle de conformidade, nas auditorias e nas necessidades de emissão de relatórios externos.
+A transcrição do aluno no Adobe Learning Manager (ALM) permite que os administradores controlem o progresso do aluno em um nível granular em cursos, módulos, programações de aprendizado e certificações. Os dados de transcrição ajudam nas revisões de desempenho, no controle de conformidade, nas auditorias e nas necessidades de emissão de relatórios externos.
 
 >[!NOTE]
 >
 >As transcrições do aluno estão disponíveis para download por administradores, administradores personalizados, gerentes ou alunos.
+
+A experiência de download da transcrição do aluno e o arquivo resultante diferem com base na função de usuário. Os administradores e os administradores personalizados podem gerar transcrições para vários alunos e ter acesso a conjuntos de dados mais amplos, enquanto os alunos só podem baixar sua própria transcrição por meio de suas configurações de perfil. A interface para download também varia: os administradores usam a seção Relatórios, enquanto os alunos acessam as transcrições de seus perfis. Os arquivos baixados podem conter diferentes colunas e níveis de detalhes, dependendo da função e das permissões.
 
 No caso dos alunos, eles devem iniciar as configurações do perfil e baixar as transcrições de aprendizado como um arquivo do Excel. Essa transcrição, gerada para um aluno individual, detalha sua jornada de aprendizado pessoal. Inclui os nomes dos caminhos de aprendizado, cursos, instâncias e módulos, juntamente com as principais datas, como inscrição, conclusão e prazos finais. Ele também acompanha o progresso dos alunos por meio de status, notas, pontuações no quiz (incluindo as pontuações mais altas e máximas) e tentativas realizadas. Além disso, ele mostra IDs de treinamento, durações, datas de cancelamento da inscrição, preços e comentários de envio. Este relatório fornece uma visão geral abrangente do envolvimento e do desempenho de um único aluno.
 
@@ -33,7 +35,7 @@ As organizações podem usar as transcrições do aluno para adicionar os dados 
 
 ## Casos de uso de transcrições do aluno
 
-As transcrições do aluno no Adobe Learning Manager controlam o treinamento, a conformidade e o desenvolvimento de habilidades, permitindo que os departamentos verifiquem a conclusão e avaliem a eficácia do programa em toda a organização.  Veja alguns casos de uso que as transcrições do aluno abordam:
+As transcrições do aluno no Adobe Learning Manager controlam o treinamento, a conformidade e o desenvolvimento de habilidades, permitindo que os departamentos verifiquem a conclusão e avaliem a eficácia do programa em toda a organização.  Os seguintes casos de uso ilustram como as transcrições do aluno atendem às necessidades organizacionais para fins de conformidade, controle de habilidades e eficácia do programa.
 
 * Uma organização de serviços financeiros deve fornecer evidências de que todos os funcionários voltados para o cliente concluíram o treinamento obrigatório de conformidade antes do prazo regulamentar.
 * O departamento de TI precisa avaliar os recursos atuais de programação Java em relação aos requisitos futuros do projeto.
@@ -44,9 +46,8 @@ As transcrições do aluno no Adobe Learning Manager controlam o treinamento, a 
 
 **Administradores**
 
-* Pode gerar transcrições para todos os alunos em todos os catálogos.
-* Pode acessar todas as funções de relatório, mas pode ter restrições de catálogo ou grupo de usuários.
-* Administradores personalizados: acesso limitado por escopo e permissões atribuídos.
+* Os administradores podem gerar transcrições para todos os alunos em todos os catálogos.
+* Os administradores personalizados podem exibir apenas transcrições para alunos nos grupos de usuários e catálogos atribuídos a eles.
 
 **Restrições baseadas em escopo**
 
@@ -60,23 +61,23 @@ As transcrições do aluno no Adobe Learning Manager controlam o treinamento, a 
 3. Selecione **[!UICONTROL Relatórios Personalizados]** em Relatórios e selecione **[!UICONTROL Relatórios do Excel]**.
 4. Selecione **[!UICONTROL Transcrições Do Aluno]**.
 5. Selecione **[!UICONTROL Gerar Novo]**.
-6. Selecione o intervalo de datas para o qual você precisa da transcrição gerada. Por padrão, a data **[!UICONTROL De]** é a data de registro do aluno e a data **[!UICONTROL Até]** é sempre a data atual. É possível modificar apenas a data inicial a partir de quando você precisa dos dados.
+6. Selecione o intervalo de datas para o qual você precisa da transcrição gerada. Você pode modificar as datas de início e término usando a opção **[!UICONTROL Escolher datas]** no menu suspenso de intervalo de datas.
 7. Selecione o seguinte:
-a. Selecione os nomes dos alunos na seção **[!UICONTROL Selecionar alunos]**. Você pode selecionar usuários ou grupos de usuários ou copiar e colar os endereços de e-mail dos alunos para os quais deseja gerar transcrições. Consulte a seção [Gerar transcrição do aluno](#generate-learner-transcript-using-copy-paste) usando copiar e colar para obter mais informações.
-b. Selecione catálogos específicos na lista suspensa **[!UICONTROL Selecionar catálogos]**. A transcrição só é baixada para os catálogos especificados.\
-   c. Selecione o **[!UICONTROL Status de inscrição]**. Essa lista suspensa contém as seguintes opções:
+a. Selecione os nomes dos alunos na seção **[!UICONTROL Selecionar alunos]**. Você pode selecionar usuários ou grupos de usuários ou copiar e colar os endereços de e-mail dos alunos para os quais deseja gerar transcrições. Consulte a seção [Gerar transcrição do aluno](#generate-learner-transcript-using-copy-paste) usando copiar e colar para obter mais informações. Caso nenhuma seleção seja feita, o padrão é Todos os valores.
+b. Selecione catálogos específicos na lista suspensa **[!UICONTROL Selecionar catálogos]**. A transcrição só é baixada para os catálogos especificados. Caso nenhuma seleção seja feita, o padrão é Todos os valores.
+c. Selecione o **[!UICONTROL Status de inscrição]**. Essa lista suspensa contém as seguintes opções:
 
        * Selecionar Tudo
        * Concluído
        * Em Andamento
        * Não Iniciado
        * Não Inscrito
-   &#x200B;8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
+   8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
 
    a. Baixe as transcrições dos alunos que foram excluídos de uma conta marcando a caixa de seleção **[!UICONTROL Incluir alunos excluídos]**.
 b. Baixe as informações de nível do módulo na transcrição do aluno ativando a caixa de seleção **[!UICONTROL Habilitar informações de nível do módulo]**. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição se essa opção estiver ativada.
 c. Baixe dados de habilidades e folhas de resumo ativando a opção **[!UICONTROL Incluir dados de habilidades e folhas de resumo]**. Consulte a seção Relatórios do Excel para obter mais informações.
-&#x200B;9. Você também pode selecionar os valores de coluna a serem preenchidos no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
+9. Você também pode selecionar as colunas a serem preenchidas no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
 As transcrições são geradas e baixadas no computador como arquivos .zip quando os dados da habilidade não estão incluídos. Se a caixa de seleção Dados de habilidades estiver ativada, as transcrições serão geradas e baixadas como . arquivos xlsx.
 
 ### Gerar transcrição do aluno usando copiar e colar
@@ -111,7 +112,7 @@ As colunas a seguir identificam o aluno.
 | Nome | Nome do aluno. |
 | Email | Endereço de e-mail do aluno |
 | Adobe ID | Este campo é preenchido somente quando os usuários fazem logon usando sua Adobe ID. Se eles acessarem o Adobe Learning Manager por meio de um [Logon Único (SSO)](/help/migrated/administrators/feature-summary/multiple-sso-logins.md) definido pela organização, o campo do Adobe ID permanecerá em branco. |
-| ID exclusiva do usuário | A ID exclusiva do usuário é uma ID externa gerada pelas contas caso elas não tenham IDs de email de todos os usuários ou IDs de email exclusivas de todos os usuários. <br>O campo ID exclusiva do usuário é um campo opcional que pode ser habilitado para uma conta. O objetivo principal desse campo é permitir que as contas marquem cada usuário com uma ID exclusiva para rastreá-los, atualizar registros de usuário por meio de APIs, auditar ou sincronizar dados em fluxos de trabalho automatizados. A marcação de cada usuário acontece por meio da importação de CSV dos usuários.</br><br>Se uma conta tiver optado por uma ID de usuário exclusiva, os relatórios, como transcrições do aluno, a Adobe Learning Manager fornecerão a coluna nos relatórios.</br> |
+| ID exclusiva do usuário | A ID exclusiva do usuário é uma ID externa gerada pelas contas caso elas não tenham IDs de email de todos os usuários ou IDs de email exclusivas de todos os usuários.  <br>O campo ID exclusiva do usuário é um campo opcional que pode ser habilitado para uma conta. O objetivo principal desse campo é permitir que as contas marquem cada usuário com uma ID exclusiva para rastreá-los, atualizar registros de usuário por meio de APIs, auditar ou sincronizar dados em fluxos de trabalho automatizados. A marcação de cada usuário acontece por meio da importação de CSV dos usuários.</br><br>Se uma conta tiver optado por uma ID de usuário exclusiva, os relatórios, como transcrições do aluno, a Adobe Learning Manager fornecerão a coluna nos relatórios.</br> |
 
 **Informações relacionadas à inscrição**
 
@@ -123,20 +124,21 @@ As colunas a seguir capturam atividade, progresso ou tentativas.
 | Marcar data de conclusão (fuso horário UTC) | Carimbo de data e hora de quando um professor marca uma sessão ou módulo como concluído. Observe que se uma sessão não tiver ocorrido, a coluna aparecerá em branco no relatório. Além disso, se uma sessão tiver ocorrido e o professor não tiver marcado a sessão como concluída, a coluna aparecerá em branco no relatório. |
 | Data de início (fuso horário UTC) | Data e hora em que o aluno iniciou o Objeto de aprendizado. Vazio significa que o aluno ainda não iniciou isso. |
 | Data de conclusão (fuso horário UTC) | Data e hora em que o aluno concluiu isso. Vazio significa que o aluno ainda não concluiu isso. |
+| Marcar data de conclusão (fuso horário UTC) | Captura a data e a hora exatas em que um professor marca uma sessão ou módulo como concluído. |
 | Prazo de conclusão (Fuso horário central da Europa) | Data e hora em que o aluno deve concluir este Objeto de aprendizado. Vazio significa que não há prazo para isso. |
 | Em atraso | Status de atraso atual do aluno inscrito no Objeto de aprendizado. Sim/Não |
 | Status | Indica o status do aluno ao realizar o curso, certificação ou caminho de aprendizado.  Os status disponíveis são Não iniciado, Não inscrito, Em andamento ou Concluído. |
 | % de progresso | % do progresso atual do aluno em relação ao curso, certificação ou caminho de aprendizado. |
 | Tempo gasto (minutos) | O tempo de aprendizado gasto pelo aluno no OA, as linhas no nível do módulo exibem o tempo gasto de aprendizado no módulo individual. As linhas do curso/caminho de aprendizado/nível de certificado exibem o tempo de aprendizado gasto agregado. |
 | Nota | Indica o sucesso do aluno. &#39;Aprovado&#39;, se o usuário atendeu aos critérios de sucesso para isso, caso contrário, &#39;Reprovado&#39;. |
-| Pontuação_no_questionário | A coluna é usada para gravar a pontuação da tentativa mais recente de um quiz. Por exemplo, se um usuário fizer várias tentativas (por exemplo, pontuações 10, 50 e 30 em três tentativas), a coluna Quiz_score exibirá a pontuação da última tentativa, que é 30. Suponha que um quiz tenha uma pontuação máxima de 100 e um usuário faça três tentativas, pontuando 30, 60 e 90. A coluna Quiz_score mostrará 90 (a pontuação mais recente), enquanto a Highest_Quiz_score mostrará 90 (a melhor pontuação em todas as tentativas) e Quiz_score_max permanecerá 100 (a pontuação máxima possível). |
-| Quiz_score_max | A coluna Quiz_score_max representa a pontuação máxima possível que pode ser obtida para um quiz ou módulo específico. Como Quiz_score_max permanece constante, é útil em relatórios para mostrar a pontuação total atingível para um quiz ou módulo, independentemente do desempenho do usuário. |
+| Pontuação_no_questionário | A pontuação mais recente do questionário obtida pelo aluno. Pode estar vazio, se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário ou se o administrador/professor não tiver atribuído nenhuma pontuação. A coluna é usada para gravar a pontuação da tentativa mais recente de um quiz. Por exemplo, se um usuário fizer várias tentativas (por exemplo, pontuações 10, 50 e 30 em três tentativas), a coluna Quiz_score exibirá a pontuação da última tentativa, que é 30. Suponha que um quiz tenha uma pontuação máxima de 100 e um usuário faça três tentativas, pontuando 30, 60 e 90. A coluna Quiz_score mostrará 90 (a pontuação mais recente), enquanto a Highest_Quiz_score mostrará 90 (a melhor pontuação em todas as tentativas) e Quiz_score_max permanecerá 100 (a pontuação máxima possível). |
+| Quiz_score_max | As pontuações máximas mais recentes do questionário possíveis para o módulo. Ela pode ficar vazia se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário nele. A coluna Quiz_score_max representa a pontuação máxima possível que pode ser obtida para um quiz ou módulo específico. Como Quiz_score_max permanece constante, é útil em relatórios para mostrar a pontuação total atingível para um quiz ou módulo, independentemente do desempenho do usuário. |
 | Highest_Quiz_score | A coluna Highest_Quiz_score representa a maior pontuação obtida por um usuário em todas as tentativas de um quiz específico. Por exemplo, se um usuário fizer três tentativas, pontuando 10, 20 e 15, a Highest_Quiz_score exibirá 20, pois é a maior pontuação obtida. |
-| Highest_Quiz_score_max | A pontuação máxima possível associada à maior tentativa de questionário feita por um aluno em várias tentativas. Não é a pontuação mais alta que o aluno obteve. Em vez disso, ele captura a pontuação máxima possível na tentativa em que o aluno obteve a pontuação mais alta. |
+| Highest_Quiz_score_max | As pontuações máximas mais altas do questionário possíveis para o módulo. Ela pode ficar vazia se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário nele. A pontuação máxima possível associada à maior tentativa de pontuação do questionário feita por um aluno em várias tentativas. Não é a pontuação mais alta que o aluno obteve. Em vez disso, ele captura a pontuação máxima possível na tentativa em que o aluno obteve a pontuação mais alta. |
 | Tentativas realizadas | O número total de tentativas realizadas pelo aluno até agora para este módulo. |
 | Máximo de tentativas permitidas | O número máximo de tentativas permitidas para o aluno consumir o módulo. |
-| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um objeto de aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor estão incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
-| Origem da Conclusão | Refere-se à origem ou ao método pelo qual é registrada a conclusão de um curso, programa de aprendizado ou certificação de um aluno. Isso ajuda os administradores a entender como a conclusão foi alcançada ou registrada no sistema. A coluna identifica se a conclusão foi relatada automaticamente, registrada automaticamente ou facilitada por uma função ou configuração específica. <b>Observação:</b> para fluxos de trabalho de participação no conector VC, quando um aluno é marcado como participado automaticamente, a origem exibirá “SELF, (learner_email)”. |
+| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um objeto de aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor estão incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
+| Origem da Conclusão | Refere-se à origem ou ao método pelo qual a conclusão de um curso, caminho de aprendizado ou certificação de um aluno é registrada. Isso ajuda os administradores a entender como a conclusão foi alcançada ou registrada no sistema. A coluna identifica se a conclusão foi relatada automaticamente ou facilitada por uma função ou configuração específica. Nota: para fluxos de trabalho de participação no conector VC, quando um aluno é marcado como participado automaticamente, a origem exibirá “SELF, &lt;learner_email>”. |
 | Comentário de conclusão | Os comentários feitos pelo administrador ao marcar um aluno como concluído após concluir um curso, certificação ou caminho de aprendizado. O administrador pode adicionar os comentários de conclusão de um ou vários alunos. |
 
 **Informações relacionadas aos Objetos de Aprendizado**
@@ -148,17 +150,17 @@ Eles se referem a cursos, módulos, caminhos de aprendizado, certificações e a
 | Nome do plano de aprendizado | Título do Plano de Aprendizado. |
 | LP/Certificação/Curso | O título do Objeto de aprendizado. |
 | Tipo | O tipo de Objeto de aprendizado no qual o usuário foi inscrito. Por exemplo,<ul><li>Caminho do aprendizado</li><li>Certificação</li><li>Curso</li></ul> |
-| Caminho incorporado | Um caminho incorporado é um tipo de caminho de aprendizado incluído como parte de outro curso     ou um Caminho de aprendizado. O campo indica que um aluno está concluindo esse caminho de aprendizado como parte de outro caminho de aprendizado, em vez de uma atribuição individual. |
-| Curso | Nome do curso no qual o usuário está inscrito. Quando estiver vazia, a linha representa um Caminho de Certificação ou de Aprendizado. <br><b>Observação:</b> embora Caminhos de Aprendizado e Certificações    sejam compostos por cursos individuais ou caminhos de aprendizado aninhados, cada componente mantém seu próprio registro independente. Isso garante que os dados de progresso, conclusão e relatório sejam rastreados separadamente para os elementos pai e filho.</br> |
-| ID exclusiva do OA | A ID exclusiva do objeto de aprendizado. Será necessário se o cliente tiver o LO em um sistema externo que tenha sua própria ID. Isso é útil se você deseja mapear o LO Id do sistema externo e o LO do Adobe Learning Manager.<br>Um administrador pode habilitar a opção Ids exclusivas do objeto de aprendizado na página Configurações. Quando ativada, o Adobe Learning Manager atribui uma ID exclusiva a um objeto de aprendizado sempre que um autor cria um curso, certificação ou caminho de aprendizado. </br> |
+| Caminho incorporado | Um caminho incorporado é um tipo de caminho de aprendizado incluído como parte de outro curso ou caminho de aprendizado. O campo indica que um aluno está concluindo esse caminho de aprendizado como parte de outro caminho de aprendizado, em vez de uma atribuição individual. |
+| Curso | Nome do curso no qual o usuário está inscrito. Quando estiver vazia, a linha representa um Caminho de Certificação ou de Aprendizado. <br><b>Observação:</b> embora os Caminhos de Aprendizado sejam compostos por cursos individuais ou Caminhos de Aprendizado aninhados, cada componente mantém seu próprio registro independente. Isso garante que os dados de progresso, conclusão e relatório sejam rastreados separadamente para os elementos pai e filho.</br> |
+| ID exclusiva do OA | Esse é um identificador opcional atribuído pelo administrador para um Objeto de aprendizado (curso, certificação ou caminho de aprendizado) no Adobe Learning Manager. Ele é usado principalmente por organizações que mantêm suas próprias IDs de sistema externas para conteúdo de aprendizado e desejam mapear essas IDs para objetos de aprendizado do ALM para fins de integração ou relatório. A ID exclusiva do LO só estará presente se a conta tiver ativado esse recurso e o autor tiver atribuído uma ID durante a criação do LO. Nota: a ID do treinamento está sempre presente e identifica exclusivamente cada Objeto de aprendizado no ALM. A ID exclusiva do LO é para mapeamento entre sistemas e não é necessária para operações padrão do ALM. |
 | Instância | O nome da instância do usuário do Objeto de aprendizado está inscrito. |
-| Critérios de seleção | Base da inscrição (como este aluno se inscreveu neste Objeto de Aprendizado).<br>No Adobe Learning Manager, os alunos podem se inscrever em objetos de aprendizado por meio de vários métodos: Inscrição Indicada pelo Gerente: os gerentes indicam os alunos para cursos específicos. Os alunos não podem se inscrever nesses cursos.</br><ul><li>Inscrição aprovada pelo gerente: os alunos se inscrevem nos cursos, mas a inscrição exige a aprovação do gerente.</li><li>Autoinscrição: os alunos se inscrevem diretamente nos cursos sem precisar de aprovação.</li><li>Inscrição do administrador: os administradores inscrevem manualmente os alunos nos cursos.</li></ul> |
+| Critérios de seleção | Essa coluna indica como o aluno foi inscrito no Objeto de aprendizado (curso, certificação ou caminho de aprendizado). O valor é determinado da seguinte forma:<ul><li>Inscrição de administrador/gerente: exibe diretamente quando um aluno é inscrito diretamente por um administrador ou gerente. </li><li>Inscrição no plano de aprendizado: exibe a inscrição automática quando um aluno é inscrito por meio de um plano de aprendizado ou acionador de inscrição automatizado.</li><li>O administrador inscreve o grupo de usuários: exibe os nomes dos grupos de usuários se o aluno estava inscrito como parte de um grupo de usuários. </li><li>Caminhos de aprendizado aninhados: se o Caminho de aprendizado 1 contiver o Caminho de aprendizado 2, que contém o Curso A: para LP2 e o Curso A, o valor será pai. Para LP1, o valor é direto. </li><li>Autoinscrição: exibe a si mesmo quando o aluno se inscreve. </li></ul>O valor nesta coluna reflete o método de inscrição real e a hierarquia do OA, conforme detalhado acima.<ul><li>Inscrição no plano de aprendizado Aluno: Valor: Inscrição automática O aluno é inscrito automaticamente por meio de um plano de aprendizado ou acionador de inscrição automatizado. </li><li>Autoinscrição do aluno: Valor: Próprio O aluno se inscreve diretamente no curso, certificação ou caminho de aprendizado. </li>Inscrição do administrador no aluno diretamente (usando o email/nome do aluno): Valor: direto. O administrador ou gerente inscreve manualmente o aluno especificando seu e-mail ou nome. <li>Inscrição por meio de um grupo de usuários: Valor: Nome do grupo de usuários O aluno está inscrito como parte de um grupo de usuários. Se um aluno pertencer a vários grupos de usuários, o relatório exibirá os grupos de usuários relevantes por meio dos quais a inscrição ocorreu.  </li><li>Objeto de aprendizado inscrito devido à inscrição em um caminho de aprendizado: Valor: Caminho. O aluno está inscrito em um curso ou módulo porque ele faz parte de um caminho de aprendizado maior ao qual está atribuído.</li></ul> |
 | Módulo | Nome do módulo nos cursos. Apenas os módulos com status Concluído ou Em andamento são exibidos no relatório. Se o status for Não Iniciado ou Cancelar Inscrição, a coluna Módulo permanecerá vazia.<br>Baixe informações de nível de módulo na transcrição do aluno marcando a caixa de seleção <b>Habilitar informações de nível de módulo</b>. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição se esta opção estiver habilitada.</br> |
-| ID do módulo | A ID exclusiva do módulo.<br><b>Observação:</b> a coluna ID do módulo aparece no relatório somente se você selecionou a caixa de seleção Incluir informações do módulo ao gerar a transcrição.</br> |
+| ID do módulo | Nome do módulo nos cursos.  Apenas os módulos com status Concluído ou Em andamento são exibidos no relatório. Se um módulo não for iniciado pelo aluno, a linha desse módulo não aparecerá na transcrição do aluno. Apenas os módulos com status Concluído ou Em andamento são incluídos. Baixe as informações de nível de módulo na transcrição do aluno marcando a caixa de seleção Ativar informações de nível de módulo. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição se essa opção estiver ativada. |
+| ID do módulo | A ID exclusiva do módulo. Observação: a coluna ID do módulo aparece no relatório somente se você selecionou a caixa de seleção Incluir informações do módulo ao gerar a transcrição. |
 | Versão | A versão do módulo se refere à versão específica de um módulo com o qual um aluno interagiu. Isso é particularmente útil quando um módulo passou por atualizações ou alterações, pois permite que os administradores controlem qual versão do módulo foi acessada pelo aluno.<br>Quando um autor carrega uma nova versão de um módulo, o Adobe Learning Manager o trata como uma nova versão do módulo existente. Isso permite que o conteúdo seja atualizado sem interromper todos os alunos.</br><br>A Versão aparecerá se a caixa de seleção <b>Habilitar informações de nível de módulo</b> tiver sido selecionada ao gerar o relatório.</br><br>Consulte <a href="https://elearning.adobe.com/2023/03/updating-the-module-in-adobe-learning-manager-how-to-replace-a-content-module-in-a-course-without-disturbing-the-users-progress" />Atualizando um módulo no Adobe Learning Manager</a> para obter mais informações.</br> |
 | Tipo de entrega | Indica como o módulo é fornecido: misto, sala de aula ou sala de aula virtual. |
 | Idioma | Idioma em que o módulo é consumido pelo aluno. Esta coluna mostra o valor somente para módulos de e-learning. |
-| Em atraso | Status de atraso atual do aluno inscrito no Objeto de aprendizado. Sim/Não |
 | Nota | Indica o sucesso do aluno. &#39;Aprovado&#39;, se o usuário atendeu aos critérios de sucesso para isso, caso contrário, &#39;Reprovado&#39;. |
 
 >[!INFO]
@@ -177,12 +179,12 @@ Eles se referem a cursos, módulos, caminhos de aprendizado, certificações e a
 
 | Campos | Descrição |
 |---|---|
-| ID do treinamento | Um identificador exclusivo gerado pelo sistema atribuído à inscrição de cada aluno em um curso, certificado ou caminho de aprendizado específico. Se um aluno se inscrever novamente no mesmo curso, uma nova ID de treinamento será gerada. Um aluno pode ter várias IDs de treinamento para o mesmo curso. |
-| Duração do treinamento ou módulo (em minutos) | Esta coluna mostra a duração esperada (em minutos) de um curso, módulo ou atividade de treinamento conforme definido ao criar o curso. Não é o tempo real que um aluno gasta, mas a duração configurada/atribuída que representa quanto tempo o treinamento deve levar. <br>Esta coluna mostra a duração total (em minutos) do item de aprendizado atribuído, que pode ser um caminho de aprendizado ou um curso individual.</br><br><b>Duração do caminho de aprendizado:<b> se o item de treinamento for um caminho de aprendizado, sua duração será calculada como a soma das durações de todos os cursos dentro do caminho de aprendizado.</br><br>Exemplo: se Curso 1 = 50 minutos e Curso 2 = 60 minutos, a Duração do Caminho de Aprendizado = 110 minutos.</br><br><b>Duração individual do curso:</b>Se o item de treinamento for um curso individual (não parte de um caminho de aprendizado), a duração refletirá o tempo necessário apenas para esse curso.</br> |
-| Embedded_Course_ID | A ID do curso que faz parte de um caminho de aprendizado ou de qualquer outro curso.<br>A coluna é preenchida quando a linha representa um Caminho de Aprendizado ou a própria certificação. Ela mostra as IDs dos cursos individuais incorporados no Caminho de Aprendizado ou na certificação. Não é populado quando a própria linha é um curso apenas, pois não há itens inseridos.</br> |
-| ID do caminho incorporado | A ID do caminho no qual o curso incorporado existe.<br>A coluna identifica a ID exclusiva de Caminhos de Aprendizado inseridos. Ajuda a rastrear cursos nos Caminhos de Aprendizado e fornece visibilidade da estrutura hierárquica dos Caminhos de Aprendizado.</br> |
+| ID do treinamento | Um identificador exclusivo gerado pelo sistema atribuído a cada Objeto de aprendizado (curso, certificação ou caminho de aprendizado). A ID do treinamento permanece a mesma para todos os alunos e todas as inscrições desse objeto de aprendizado. É usado para identificar o conteúdo em si, não as inscrições individuais do aluno. |
+| Duração do treinamento ou módulo (em minutos) | Esta coluna mostra a duração esperada (em minutos) de um curso, módulo ou atividade de treinamento conforme definido ao criar o curso. Não é o tempo real que um aluno gasta, mas a duração configurada/atribuída que representa quanto tempo o treinamento deve levar.  Essa coluna mostra a duração total (em minutos) do item de aprendizado atribuído, que pode ser um caminho de aprendizado ou um curso individual. <br><b>Duração do caminho de aprendizado:</b> se o item de treinamento for um caminho de aprendizado, sua duração será calculada como a soma das durações de todos os cursos dentro do caminho de aprendizado.</br><br>Exemplo: se Curso 1 = 50 minutos e Curso 2 = 60 minutos, a Duração do Caminho de Aprendizado = 110 minutos.</br><br><b>Duração individual do curso:</b>Se o item de treinamento for um curso individual (não parte de um caminho de aprendizado), a duração refletirá o tempo necessário apenas para esse curso.</br> |
+| Embedded_Course_ID | A coluna é preenchida quando a linha representa um caminho de aprendizado ou a própria certificação. Ela mostra as IDs dos cursos individuais incorporados no Caminho de Aprendizado ou na certificação. Não é preenchido quando a própria linha é apenas um curso, já que não há itens incorporados. |
+| ID do caminho incorporado | A coluna identifica a ID exclusiva de caminhos de aprendizado incorporados. Ele ajuda a rastrear cursos nos Caminhos de aprendizado e fornece visibilidade da estrutura hierárquica dos Caminhos de aprendizado. |
 | Data de cancelamento da inscrição (fuso horário central da Europa) | Data do cancelamento da inscrição pelo aluno no tipo de Objeto de aprendizado. |
-| Preço ($) | O preço do Objeto de aprendizado pelo qual ele é comprado no catálogo do curso. Para que esta coluna apareça na transcrição do aluno, o administrador deve ativar a caixa de seleção Ativar preços para cursos/caminhos de aprendizado/certificações nas configurações da conta. |
+| Preço ($) | O preço do Objeto de aprendizado pelo qual ele é comprado no catálogo do curso. Para que esta coluna apareça na transcrição do aluno, o administrador deve ativar a caixa de seleção Ativar preços para cursos > Caminhos de aprendizado > Certificações nas configurações da conta. |
 
 ## Relatórios do Excel
 
@@ -218,7 +220,7 @@ Este relatório do Resumo de aprendizado I rastreia dois caminhos de aprendizado
 
 Controle a atividade de aprendizado por aluno. Rastreie inscrições, atividades em andamento e datas de vencimento dos alunos.
 
-* Número de objetos de aprendizado inscritos: contagem total de objetos de aprendizado (LOs) em que o aluno está inscrito em cada curso, certificação ou caminho de aprendizado. conta separadamente.
+* Número de objetos de aprendizado inscritos: contagem total de objetos de aprendizado (LOs) em que o aluno está inscrito em cada curso, certificação ou caminho de aprendizado.
 * Número de objetos de aprendizado iniciados: indica quantos dos objetos de aprendizado inscritos o aluno iniciou ou começou.
 * Número de objetos de aprendizado concluídos: mostra quantos OAs iniciados o aluno concluiu totalmente.
 * Número de objetos de aprendizado que progrediram ≥ N%: reflete o número de OAs nos quais o aluno alcançou pelo menos o limite de progresso especificado (neste caso, 70%).
@@ -260,7 +262,7 @@ Acompanhe os alunos com datas de vencimento iminentes dos principais cursos, cam
 
 | Coluna | Descrição |
 |---|---|
-| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/skills-levels">níveis de habilidade</a> para obter mais informações. |
+| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> níveis de habilidade</a> para obter mais informações. |
 | Nome | Nome completo do aluno ao qual a habilidade está atribuída. |
 | Nome do gerente | Nome do gerente de relatórios do aluno. |
 | Rótulos de linha | O nome da habilidade específica atribuída aos alunos que aparecem nesta linha. Usado como um cabeçalho de agrupamento para resumir os dados de habilidade do aluno em cada categoria de habilidade. |

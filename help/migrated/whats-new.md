@@ -2,7 +2,7 @@
 description: Saiba mais sobre os novos recursos e aprimoramentos na versão de outubro de 2025 do Adobe Learning Manager
 jcr-language: en_us
 title: Novidades na versão de outubro de 2025 do Adobe Learning Manager
-source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -731,7 +731,7 @@ Essas alterações garantem que as conclusões marcadas após a data da sessão 
 ![Relatórios de transcrição do aluno mostrando datas marcadas como concluídas (realçadas em amarelo) para acompanhamento da conclusão do curso no Adobe Learning](/help/migrated/assets/mark-completion-column.png)
 _O relatório de transcrição do aluno exibe uma nova coluna em amarelo destacando as datas de conclusão individuais de cada usuário_
 
-Exiba a [Transcrição do aluno](/help/migrated/administrators/feature-summary/learner-transcripts.md) para obter mais informações sobre o relatório de Transcrição do aluno.
+Exiba a [Transcrição do aluno](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)para obter mais informações sobre o relatório de transcrição do aluno.
 
 ### Relatório de usuário aprimorado com campos de dados estendidos
 
@@ -774,7 +774,7 @@ Agora, as organizações podem incluir usuários suspensos (aqueles com perfis e
 >
 >Este sinalizador está desabilitado por padrão para contas existentes e deve ser solicitado explicitamente para novas contas.
 
-Veja mais informações no artigo [Transcrição do aluno](/help/migrated/administrators/feature-summary/learner-transcripts.md).
+Veja mais informações no artigo [Transcrição do aluno](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Relatório de ajudas de tarefa com links de acesso direto
 

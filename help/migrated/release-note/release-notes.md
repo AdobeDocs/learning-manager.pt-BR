@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '27340'
 ht-degree: 70%
@@ -18,7 +18,7 @@ ht-degree: 70%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/br/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
@@ -131,7 +131,7 @@ Consulte este [artigo](/help/migrated/learners/feature-summary/fluidic-player.md
 
 * Correção de um problema em que os alunos que tinham concluído um curso viam uma tela em branco ao revisitá-lo após o módulo de conteúdo ter sido atualizado para uma nova versão.
 
-Além disso, para obter detalhes sobre as próximas alterações no Adobe Learning Manager, consulte este [artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Além disso, para obter detalhes sobre as próximas alterações no Adobe Learning Manager, consulte este [artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1610,7 +1610,7 @@ Nesta atualização, o aluno pode carregar ativos como comprovante de conclusão
 
 O aluno pode abrir um certificado externo e carregar ativos, tais como pdf, texto ou arquivos de imagem.
 
-Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas corrigidos nesta versão {#issuesfixedinthisrelease}
 
@@ -1892,7 +1892,7 @@ Um administrador pode conceder privilégios especiais a um grupo de usuários, d
 
 **Alterações nos valores das colunas Tempo**
 
-Nas transcrições do aluno, nas colunas de tempo, os minutos são arredondados até o minuto mais próximo e o valor do segundo é 00. Para obter mais informações, consulte [***Colunas de tempo***](../administrators/feature-summary/learner-transcripts.md#datetime).
+Nas transcrições do aluno, nas colunas de tempo, os minutos são arredondados até o minuto mais próximo e o valor do segundo é 00. Para obter mais informações, consulte [***Colunas de tempo***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Problemas corrigidos nesta versão {#Issuesfixedinthisrelease-3}
 
@@ -1988,7 +1988,7 @@ Data de lançamento: 20 de junho de 2019
 
 **Curadoria automática de conteúdo**
 
-O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[**&#x200B; Curadoria assistida automaticamente &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. Com base na pontuação de confiança, o conteúdo é publicado ao vivo ou enviado para curadoria manual. Para obter mais informações, consulte *[** Curadoria assistida automaticamente **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mapear habilidades com domínios de habilidades**
 
@@ -2035,7 +2035,7 @@ Data de lançamento: 30 de maio de 2019
 * As habilidades agora oferecem suporte à concessão de valores de crédito no formato decimal. Isso permite que os autores concedam um valor de crédito de nível decimal a um determinado curso. Para obter mais informações, consulte [***Suporte a decimais***](../administrators/feature-summary/skills-levels.md#decimal).
 * Automatize a criação de funções personalizadas. Para obter mais informações, consulte [***Configurar funções através de arquivos .csv***](../integration-admin/feature-summary/configure-role-csv-files.md).
 * Os envios necessários para certificações externas e módulos de atividade agora são opcionais. Isso permite que gerentes e professores avaliem sem um envio. Para obter mais informações, consulte [***Envio opcional***](../managers/feature-summary/learning-objects.md#optional).
-* Baixe as transcrições de aluno dos usuários excluídos. Para obter mais informações, consulte [***Transcrições do aluno***](../administrators/feature-summary/learner-transcripts.md).
+* Baixe as transcrições de aluno dos usuários excluídos. Para obter mais informações, consulte [***Transcrições do aluno***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 * Suporte para os seguintes idiomas:
 
    * Coreano
@@ -2070,7 +2070,7 @@ Data de lançamento: 26 de abril de 2019
 
 Para se inscrever e concluir um curso, você pode digitalizar um código QR fornecido pelo administrador. Para obter mais informações sobre a digitalização de códigos QR na versão Web do Learning Manager, consulte [***Digitalizar código QR***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompletecourse).
 
-* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***] (<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
+* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. Para obter mais informações sobre como configurar várias tentativas, consulte [***Várias tentativas***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Várias tentativas).
 
 +++
 
@@ -2612,7 +2612,7 @@ Data de lançamento: 06 de dezembro de 2016.
 
 ### Aprimoramento {#enhancement}
 
-Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar&#x200B;**&#x200B;**&#x200B;este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
+Como parte desta atualização, o Learning Manager fornece um ponto de extremidade [PATCH/usuários/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) para atualizar usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar****este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
 
 * Nome
 * Email
@@ -2969,7 +2969,7 @@ Alguns dos recursos de aprimoramento estão listados abaixo para sua referência
 
 **Transcrição do aluno**
 
-O Learning Manager fornece um recurso para gerar transcrições para os alunos do Learning Manager da sua organização. Para obter mais informações, consulte o [conteúdo de ajuda do recurso Transcrições do aluno](../administrators/feature-summary/learner-transcripts.md).
+O Learning Manager fornece um recurso para gerar transcrições para os alunos do Learning Manager da sua organização. Para obter mais informações, consulte o [conteúdo de ajuda do recurso Transcrições do aluno](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 **Exportar medalha como PDF**
 
@@ -3122,7 +3122,7 @@ A exportação de dados de inscrição costumava falhar se um dos alunos inscrit
 
 **Modelos de e-mail**
 
-* A palavra **parceiros,** que foi usada para representar grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
+* A palavra **parceiros,** que foi usada para representar grupos externos,**** foi **** removida do corpo e do título dos modelos de email. Os grupos externos não são chamados necessariamente de parceiros.\
   **Observação:** este modelo atualizado não será exibido se o modelo padrão já estiver modificado. Para exibir o modelo atualizado, clique em **Reverter para Original** na caixa de diálogo **Visualização do Modelo**.
 
 * A URL não pode ser clicada no email recebido pelos Administradores sempre que os modelos de email **Perfil Criado(Autorregistro)** e **Perfil Criado(Externo/Parceiros)** forem editados. Esse problema foi corrigido.

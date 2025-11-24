@@ -2,9 +2,9 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 3120756396fa20170f9a5b96861cbdaa4d4bb8c8
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 71%
 
 ---
@@ -88,7 +88,8 @@ ht-degree: 71%
    * [Personalizar a página inicial do aluno](administrators/feature-summary/customize-learner-homepage.md)
    * [Medalhas](administrators/feature-summary/badges.md)
    * [Temas de cores](administrators/feature-summary/themes.md)
-   * [Transcrições do aluno](administrators/feature-summary/learner-transcripts.md)
+   * [Transcrições do aluno](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+   * [Relatório de feedback](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
    * [Gerenciamento de listas de espera e participações](administrators/feature-summary/waitlist-attendance-management.md)
    * [Fluidic Player](administrators/feature-summary/fluidic-player.md)
    * [Comunicados](administrators/feature-summary/announcements.md)

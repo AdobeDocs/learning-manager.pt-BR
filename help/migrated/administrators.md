@@ -4,7 +4,7 @@ title: Administradores
 description: Leia para conhecer os recursos e as Perguntas Frequentes do Learning Manager associados à função de Admistrador.
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * [Temas de cores e marcas](administrators/feature-summary/themes.md)
 * [Integração do Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
-* [Transcrições do aluno](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [Transcrições do aluno](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
 * [Gamificação](administrators/feature-summary/gamification.md)
 * [Adicionar usuários/grupos de usuários](administrators/feature-summary/add-users-user-groups.md)
 * [Medalhas](administrators/feature-summary/badges.md)

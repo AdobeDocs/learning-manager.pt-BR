@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '7809'
-ht-degree: 52%
+source-wordcount: '7576'
+ht-degree: 53%
 
 ---
 
@@ -450,15 +450,9 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 ### Transcrições do aluno {#LearnerTranscripts-1}
 
-O Adobe Learning Manager permite que os administradores de uma organização gerem transcrições associadas aos alunos. O relatório de transcrição do aluno contém o seguinte:
+O Adobe Learning Manager permite que os administradores de uma empresa gerem transcrições associadas aos alunos.
 
-1. Transcrição do aluno: Painel da atividade de aprendizado
-1. Habilidade: painel de habilidade
-1. Painel de conformidade
-
-As transcrições do aluno nos relatórios do Excel exibem as colunas Créditos necessários e Créditos obtidos em números decimais.
-
-Para obter informações sobre a geração de relatórios das transcrições dos alunos e mais informações, consulte [Transcrições do aluno](learner-transcripts.md).
+Consulte a [Transcrição do aluno](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) para obter mais informações.
 
 ### Relatórios de comunicados {#announcementsreports}
 
@@ -614,7 +608,7 @@ Na coluna **Tipo de modificação**, você obterá os seguintes detalhes:
 | Republicado | Curso republicado |
 | Adição de recurso | Recurso adicionado ao curso |
 | Remoção de recurso | Recurso removido do curso |
-| Aposentado | Curso desativado |
+| Retirado | Curso desativado |
 | Adicionar Catálogo Compartilhado | Catálogo compartilhado para Catálogo |
 | Remoção do catálogo compartilhado | Compartilhamento de catálogo removido do catálogo |
 | Atualização do catálogo compartilhado | Estado de compartilhamento de catálogo: ativo |
@@ -668,7 +662,7 @@ O relatório exportado conterá dados de usuários que atenderem aos critérios 
 >
 >Quando uma habilidade é atribuída ou removida, ela pode ser rastreada para o Relatório de auditoria do usuário para atribuída ou removida.
 
-### Relatório de configuração de extensão
+### Relatório de configuração da extensão
 
 Este relatório fornece informações sobre os detalhes de configuração de todas as extensões nativas adicionadas, incluindo o estado de ativação. Saiba como baixar o relatório de extensões. Consulte [Baixar relatório de extensões](native-extensibility.md#download-extension-report).
 
@@ -750,22 +744,7 @@ Para baixar um relatório, siga estas etapas: Abra o **[!UICONTROL Programa de a
 
 Como administrador, você pode buscar o feedback do aluno (L1) e o feedback do gerente (L3) para treinamentos selecionados por um período especificado.
 
-Você pode exportar os dados da interface do usuário ou por meio do conector PowerBI para uma análise mais detalhada.
-
-Os relatórios de feedback L1 e L3 oferecem uma opção de download de um relatório de feedback consolidado para as respostas L1 e L3 para treinamentos selecionados para um intervalo de **um ano** ou para até 10 treinamentos selecionados para qualquer período.
-
-Faça logon como administrador, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios personalizados]** e, na lista de relatórios, clique em **[!UICONTROL Relatório de comentários]**.
-
-![](assets/download-feedbackreport.png)
-*Baixar relatório de comentários*
-
-Ao clicar em Baixar após selecionar os filtros, você receberá uma notificação para baixar o relatório no formato CSV.
-
-O relatório baixado terá detalhes como nome e tipo do treinamento, nome da instância, nome do aluno e e-mail, tipo de feedback: L1 ou L3, datas do feedback enviado para novos dados.
-
-Para os dados existentes antes da implementação desse recurso, a data de conclusão do OA será exibida, a data de conclusão do OA, o texto real do Ritmo do próprio comentário da pergunta L1 e o Texto da sala de aula em colunas diferentes, as respectivas respostas do Feedback L1, o nome do gerente e o email, o valor do feedback L3 e a data de envio, os Campos ativos.
-
-Você também pode exportar os dados da interface do usuário ou para o Power BI, que oferece suporte a todos os treinamentos para qualquer período para uma análise mais aprofundada.
+Consulte [Relatório de comentários](/help/migrated/administrators/feature-summary/reports/feedback-report.md) para obter mais informações.
 
 ### Relatórios de treinamento {#training-report}
 
