@@ -2,9 +2,9 @@
 description: As transcrições do aluno no Adobe Learning Manager (ALM) permitem que os administradores monitorem o progresso do aluno em cursos, módulos, programações de aprendizado e certificações. Ele oferece suporte a avaliações de desempenho, monitoramento de conformidade, auditorias e emissão de relatórios externos. O relatório oferece um resumo completo do envolvimento e do desempenho de um aluno.
 jcr-language: en_us
 title: Transcrições do aluno no Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
 workflow-type: tm+mt
-source-wordcount: '4823'
+source-wordcount: '4818'
 ht-degree: 7%
 
 ---
@@ -63,21 +63,23 @@ As transcrições do aluno no Adobe Learning Manager controlam o treinamento, a 
 5. Selecione **[!UICONTROL Gerar Novo]**.
 6. Selecione o intervalo de datas para o qual você precisa da transcrição gerada. Você pode modificar as datas de início e término usando a opção **[!UICONTROL Escolher datas]** no menu suspenso de intervalo de datas.
 7. Selecione o seguinte:
-a. Selecione os nomes dos alunos na seção **[!UICONTROL Selecionar alunos]**. Você pode selecionar usuários ou grupos de usuários ou copiar e colar os endereços de e-mail dos alunos para os quais deseja gerar transcrições. Consulte a seção [Gerar transcrição do aluno](#generate-learner-transcript-using-copy-paste) usando copiar e colar para obter mais informações. Caso nenhuma seleção seja feita, o padrão é Todos os valores.
-b. Selecione catálogos específicos na lista suspensa **[!UICONTROL Selecionar catálogos]**. A transcrição só é baixada para os catálogos especificados. Caso nenhuma seleção seja feita, o padrão é Todos os valores.
-c. Selecione o **[!UICONTROL Status de inscrição]**. Essa lista suspensa contém as seguintes opções:
+   1. Selecione os nomes dos alunos na seção **[!UICONTROL Selecionar alunos]**. Você pode selecionar usuários ou grupos de usuários ou copiar e colar os endereços de e-mail dos alunos para os quais deseja gerar transcrições. Consulte a seção [Gerar transcrição do aluno](#generate-learner-transcript-using-copy-paste) usando copiar e colar para obter mais informações. Caso nenhuma seleção seja feita, o padrão é Todos os valores.
+   1. Selecione catálogos específicos na lista suspensa **[!UICONTROL Selecionar catálogos]**. A transcrição só é baixada para os catálogos especificados. Caso nenhuma seleção seja feita, o padrão é Todos os valores.
+   1. Selecione o **[!UICONTROL Status do Registro]**. Essa lista suspensa contém as seguintes opções:
 
-       * Selecionar Tudo
-       * Concluído
-       * Em Andamento
-       * Não Iniciado
-       * Não Inscrito
-   &#x200B;8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
+      * Selecionar tudo
+      * Concluído
+      * Em andamento
+      * Não iniciado
+      * Não inscrito
 
-   a. Baixe as transcrições dos alunos que foram excluídos de uma conta marcando a caixa de seleção **[!UICONTROL Incluir alunos excluídos]**.
-b. Baixe as informações de nível do módulo na transcrição do aluno ativando a caixa de seleção **[!UICONTROL Habilitar informações de nível do módulo]**. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição se essa opção estiver ativada.
-c. Baixe dados de habilidades e folhas de resumo ativando a opção **[!UICONTROL Incluir dados de habilidades e folhas de resumo]**. Consulte a seção Relatórios do Excel para obter mais informações.
-&#x200B;9. Você também pode selecionar as colunas a serem preenchidas no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
+8. Opções avançadas: selecione **[!UICONTROL Opções avançadas]** para baixar as transcrições para incluir o seguinte:
+
+   1. Baixe as transcrições dos alunos que foram excluídos de uma conta marcando a caixa de seleção **[!UICONTROL Incluir alunos excluídos]**.
+   1. Baixe as informações de nível do módulo na transcrição do aluno ativando a caixa de seleção **[!UICONTROL Habilitar informações de nível do módulo]**. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição se essa opção estiver ativada.
+   1. Baixe dados de habilidades e folhas de resumo habilitando a opção **[!UICONTROL Incluir dados de habilidades e folhas de resumo]**. Consulte a seção Relatórios do Excel para obter mais informações.
+
+9. Você também pode selecionar as colunas a serem preenchidas no relatório. Isso fornece flexibilidade para baixar relatórios com valores de coluna específicos, conforme necessário. Selecione as colunas no menu suspenso.
 As transcrições são geradas e baixadas no computador como arquivos .zip quando os dados da habilidade não estão incluídos. Se a caixa de seleção Dados de habilidades estiver ativada, as transcrições serão geradas e baixadas como . arquivos xlsx.
 
 ### Gerar transcrição do aluno usando copiar e colar
@@ -137,7 +139,7 @@ As colunas a seguir capturam atividade, progresso ou tentativas.
 | Highest_Quiz_score_max | As pontuações máximas mais altas do questionário possíveis para o módulo. Ela pode ficar vazia se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário nele. A pontuação máxima possível associada à maior tentativa de pontuação do questionário feita por um aluno em várias tentativas. Não é a pontuação mais alta que o aluno obteve. Em vez disso, ele captura a pontuação máxima possível na tentativa em que o aluno obteve a pontuação mais alta. |
 | Tentativas realizadas | O número total de tentativas realizadas pelo aluno até agora para este módulo. |
 | Máximo de tentativas permitidas | O número máximo de tentativas permitidas para o aluno consumir o módulo. |
-| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um objeto de aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor estão incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
+| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um objeto de aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor estão incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
 | Origem da Conclusão | Refere-se à origem ou ao método pelo qual a conclusão de um curso, caminho de aprendizado ou certificação de um aluno é registrada. Isso ajuda os administradores a entender como a conclusão foi alcançada ou registrada no sistema. A coluna identifica se a conclusão foi relatada automaticamente ou facilitada por uma função ou configuração específica. Nota: para fluxos de trabalho de participação no conector VC, quando um aluno é marcado como participado automaticamente, a origem exibirá “SELF, &lt;learner_email>”. |
 | Comentário de conclusão | Os comentários feitos pelo administrador ao marcar um aluno como concluído após concluir um curso, certificação ou caminho de aprendizado. O administrador pode adicionar os comentários de conclusão de um ou vários alunos. |
 
@@ -262,7 +264,7 @@ Acompanhe os alunos com datas de vencimento iminentes dos principais cursos, cam
 
 | Coluna | Descrição |
 |---|---|
-| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/skills-levels"> níveis de habilidade</a> para obter mais informações. |
+| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> níveis de habilidade</a> para obter mais informações. |
 | Nome | Nome completo do aluno ao qual a habilidade está atribuída. |
 | Nome do gerente | Nome do gerente de relatórios do aluno. |
 | Rótulos de linha | O nome da habilidade específica atribuída aos alunos que aparecem nesta linha. Usado como um cabeçalho de agrupamento para resumir os dados de habilidade do aluno em cada categoria de habilidade. |
