@@ -2,9 +2,9 @@
 description: Saiba como acessar, baixar e interpretar o Relatório de feedback no Adobe Learning Manager. Entenda as colunas do relatório, os tipos de pergunta, as respostas do gerente e do aluno e como os insights de feedback apoiam a avaliação e o aprimoramento contínuo do treinamento.
 jcr-language: en_us
 title: Relatório de feedback no Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '856'
 ht-degree: 8%
 
 ---
@@ -102,4 +102,6 @@ As seguintes colunas são exibidas no relatório de nível do Objeto de aprendiz
 | Versão do feedback | Número de versão do formulário de feedback |
 | Idioma do aluno | Idioma selecionado pelo aluno |
 
-
+>[!NOTE]
+>
+>O relatório em nível de Objeto de aprendizado também inclui as perguntas adicionadas ao formulário de feedback. Cada pergunta aparece como um cabeçalho de coluna e as respostas do aluno a essas perguntas são exibidas nas linhas correspondentes abaixo.
