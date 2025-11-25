@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5832'
 ht-degree: 51%
 
 ---
@@ -355,6 +355,11 @@ No PDF, é possível visualizar o mesmo grupo de alunos visualizado pelo profess
 Ao baixar o PDF, é possível ver o fuso horário (em UTC) usado ao criar o curso.
 
 ## Adicionar feedback N1 e N3 {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>Se esta opção de feedback não estiver visível em sua conta, ela já foi atualizada para o novo formulário Feedback N1. Exiba o [formulário de feedback N1](/help/migrated/administrators/feature-summary/l1-feedback-form.md) para obter mais informações.
+
 
 É possível adicionar opções de feedback N1 e N3 ao criar cursos:
 

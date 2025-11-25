@@ -2,10 +2,10 @@
 description: Saiba como acessar, baixar e interpretar o Relatório de feedback no Adobe Learning Manager. Entenda as colunas do relatório, os tipos de pergunta, as respostas do gerente e do aluno e como os insights de feedback apoiam a avaliação e o aprimoramento contínuo do treinamento.
 jcr-language: en_us
 title: Relatório de feedback no Adobe Learning Manager
-source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 8%
+source-wordcount: '902'
+ht-degree: 7%
 
 ---
 
@@ -92,6 +92,16 @@ As seguintes colunas são exibidas no relatório no nível de conta com base nos
 >[!NOTE]
 >
 >O relatório no nível da conta também inclui todos os campos ativos configurados para alunos.
+
+## Baixar relatório de nível de objeto de aprendizado
+
+Para baixar o relatório de nível do objeto de aprendizado:
+
+1. Faça logon no Adobe Learning Manager como administrador.
+2. Selecione **[!UICONTROL Cursos]** no menu de navegação à esquerda.
+3. Selecione qualquer curso e selecione **[!UICONTROL Exibir curso]**.
+4. Selecione **[!UICONTROL Comentários N1]**.
+5. Selecione **[!UICONTROL Exportar Relatório]** e selecione **[!UICONTROL OK]**.
 
 As seguintes colunas são exibidas no relatório de nível do Objeto de aprendizado:
 
