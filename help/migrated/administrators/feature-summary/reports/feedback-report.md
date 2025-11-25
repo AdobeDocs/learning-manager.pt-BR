@@ -2,7 +2,7 @@
 description: Saiba como acessar, baixar e interpretar o Relatório de feedback no Adobe Learning Manager. Entenda as colunas do relatório, os tipos de pergunta, as respostas do gerente e do aluno e como os insights de feedback apoiam a avaliação e o aprimoramento contínuo do treinamento.
 jcr-language: en_us
 title: Relatório de feedback no Adobe Learning Manager
-source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
+source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 8%
@@ -69,6 +69,10 @@ Estas são as colunas padrão no relatório no nível de conta:
 | Data de conclusão | A data em que o aluno concluiu o treinamento |
 | Data do feedback | A data em que o aluno enviou o feedback |
 | Idioma Original Do Feedback L1 | O idioma em que o aluno enviou originalmente o feedback L1 |
+| Pergunta 1 da Escala Likert L3 | Mede o desempenho do pós-treinamento do aluno usando uma escala de classificação |
+| Resposta 1 da Escala Likert L3 | Resposta do gerente a esta pergunta da escala Likert |
+| Pergunta 1 do Texto Livre do L3 | Pergunta de texto livre adicionada ao formulário de feedback N3 para gerentes. Pode ser configurada como opcional ou obrigatória. |
+| Resposta 1 do Texto Livre L3 | A resposta do gerente a essa pergunta de texto livre |
 
 As seguintes colunas são exibidas no relatório no nível de conta com base nos quatro tipos de perguntas adicionados ao formulário de feedback:
 
@@ -83,10 +87,7 @@ As seguintes colunas são exibidas no relatório no nível de conta com base nos
 | Resposta Likert 1 | Resposta à Pergunta Likert 1 |
 | Pergunta de Texto 1 | Primeira pergunta aberta/texto no formulário |
 | Resposta de texto 1 | Resposta do aluno à Pergunta de Texto 1 |
-| Pergunta 1 da Escala Likert L3 | Mede o desempenho do pós-treinamento do aluno usando uma escala de classificação |
-| Resposta 1 da Escala Likert L3 | Resposta do gerente a esta pergunta da escala Likert |
-| Pergunta 1 do Texto Livre do L3 | Pergunta de texto livre adicionada ao formulário de feedback N3 para gerentes. Pode ser configurada como opcional ou obrigatória. |
-| Resposta 1 do Texto Livre L3 | A resposta do gerente a essa pergunta de texto livre |
+
 
 >[!NOTE]
 >
