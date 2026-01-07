@@ -3,10 +3,10 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
 workflow-type: tm+mt
-source-wordcount: '3850'
-ht-degree: 67%
+source-wordcount: '4438'
+ht-degree: 59%
 
 ---
 
@@ -524,9 +524,117 @@ Analise os pré-requisitos do processo de migração antes de começar a migraç
 
 Depois de migrar os dados e o conteúdo de aprendizado do LMS legado da sua empresa, você pode verificar os dados e o conteúdo importados usando vários recursos do objeto de aprendizado. Por exemplo, você pode fazer login no aplicativo Learning Manager como administrador e verificar a disponibilidade dos dados e do conteúdo dos módulos e cursos importados.
 
+## Migração usando APIs
+
+O Adobe Learning Manager (ALM) fornece um recurso de migração para assimilar dados ou conteúdo de sistemas externos, usado principalmente para migrar de plataformas LMS legadas.
+
+No entanto, algumas organizações podem exigir que esse processo seja executado regularmente (por exemplo, durante a noite ou semanalmente), em vez de como uma importação única.
+
+Como exemplo, você verá como um cliente fictício (NovaFX) se integra a um provedor externo fictício (SquareCorp) e automatiza migrações agendadas. A integração permite:
+
+* Os cursos da SquareCorp aparecem como objetos de aprendizado no ALM para alunos da NovaFX.
+* O NovaFX acompanha o progresso do aluno nos cursos hospedados pela SquareCorp diretamente no ALM.
+
+### Requisitos de integração
+
+A SquareCorp deve fornecer:
+
+* Informações de metadados do curso: uma API para compartilhar metadados do curso à qual a NovaFX tem acesso.
+* Informações de dados de progresso: uma API para compartilhar informações periódicas sobre o progresso e a conclusão do aluno.
+
+### Definições de chave
+
+* **Projeto ativo:** um projeto estará ativo se estiver “Em andamento” ou “Inicializado”.
+* **Sprint ativo:** um sprint estará ativo se estiver “Em andamento” ou “Inicializado”.
+
+### Automatizar a execução do sprint
+
+Crie um aplicativo ou script que execute o seguinte em um cronograma:
+
+1. Buscar metadados do curso, inscrições do usuário e notas do aluno na SquareCorp.
+2. Gere os arquivos CSV.
+3. Carregue os arquivos no Box ou FTP.
+4. Acione o sprint usando as APIs de migração.
+
+### Detalhes da API
+
+#### Iniciar uma execução de migração
+
+**Ponto de extremidade:** POST /primeapi/v2/bulkimport/startrun
+
+Parâmetros:
+
+* **lockaccount (booleano):** o parâmetro determina se a conta deve ser bloqueada no início da execução. Por padrão, é definido como falso. Recomenda-se que os usuários evitem usar esse parâmetro, a menos que haja um motivo válido para bloquear a conta.
+* **catalogid (Inteiro):** Esse parâmetro permite selecionar o catálogo de destino durante a migração. Normalmente, é definido ao criar o projeto de migração, mas pode ser ajustado para execuções individuais. Quando a identificação do catálogo é alterada, os objetos de aprendizado adicionados em execuções futuras serão colocados no catálogo escolhido mais recentemente. Se for necessário voltar ao catálogo selecionado durante a criação do projeto de migração, isso também deverá ser especificado explicitamente.
+* **migrationProjectId (Inteiro):** O parâmetro é necessário para disparar um projeto de migração específico quando várias execuções habilitadas por API estiverem habilitadas na conta.
+
+#### Verificar se a sincronização pode começar
+
+Verifique se o conteúdo pode ser sincronizado com a pasta do sprint. Não copie conteúdo ou arquivos de metadados para a pasta FTP, a menos que essa API retorne um objeto de resposta bem-sucedido.
+
+**Ponto de extremidade:** GET /primeapi/v2/bulkimport/cansync
+
+Parâmetros:
+
+* **migrationProjectId (Inteiro)** O parâmetro é necessário para disparar um projeto de migração específico quando várias execuções habilitadas por API estiverem habilitadas na conta.
+
+<b>Êxito na resposta</b>
+
+```
+{  
+    "status": "OK",  
+    "title": "BULKIMPORT_CAN_SYNC_NOW",  
+    "source": {  
+        "info": "Yes"  
+    }  
+} 
+```
+
+<b>Êxito na resposta</b>
+
+```
+{ 
+    "status": "BAD_REQUEST", 
+    "title": "BULKIMPORT_ERROR_CANNOT_SYNC", 
+    "source": { 
+        "info": "Error, No active projects" 
+    } 
+} 
+```
+
+<b>Possíveis respostas de API</b>
+
+| Ação | Tipo | Mensagem |
+| ------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BULKIMPORT_RUN_INITIATED_SUCCESSFULLY | Êxito | Execução iniciada com êxito |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Erro | Uma execução está em andamento |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Erro | Há mais de um projeto ativo |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Erro | Há mais de um sprints |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Erro | Nenhum projeto ativo |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Erro | Nenhum sprints ativo |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Erro | O catálogo fornecido não é uma ID válida ou não pertence à conta principal |
+| BULKIMPORT_CAN_SYNC_NOW | Informações | Sincronizar agora |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Erro | Uma execução está em andamento |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Erro | Há mais de um projeto ativo |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Erro | Há mais de um sprints |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Erro | Nenhum projeto ativo |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Erro | Nenhum sprints ativo |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Erro | Nenhum arquivo válido presente na pasta |
+
+### Exemplo de fluxo de integração
+
+1. Verifique a API cansync.
+2. Gere e faça upload de arquivos CSV.
+3. Acione o sprint usando a API startrun.
+4. Monitore a resposta e manipule erros.
+
+### Limitações
+
+As APIs de migração não oferecem funcionalidade para verificar erros relacionados à migração diretamente no arquivo CSV de saída após a execução do sprint. No entanto, esses erros podem ser revisados como linhas no arquivo CSV ao acessar a interface do usuário do administrador de integração após uma execução de sprint.
+
 ### Verificação de migração por meio de APIs
 
-Uma nova API de migração, `runStatus`, permite que os administradores de integração controlem o progresso das execuções de migração acionadas por meio da API.
+A API de migração, `runStatus`, permite que os administradores de integração controlem o progresso das execuções de migração acionadas por meio da API.
 
 A API `runStatus` também fornece um link direto para baixar logs de erros no formato CSV para execuções concluídas. O link de download permanece ativo por sete dias e os logs são mantidos por um mês.
 
