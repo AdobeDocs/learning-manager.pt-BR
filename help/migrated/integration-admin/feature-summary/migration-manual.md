@@ -3,10 +3,10 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
+source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
 workflow-type: tm+mt
-source-wordcount: '4438'
-ht-degree: 59%
+source-wordcount: '4483'
+ht-degree: 58%
 
 ---
 
@@ -27,6 +27,10 @@ A partir de hoje, o recurso de migração do Learning Manager pode ser acessado 
 ## Processo de migração {#apidescription}
 
 Os pré-requisitos para migração, as principais etapas envolvidas no processo de migração, os sprints de migração, as especificações, os dados e as etapas de migração de conteúdo são explicados nesta seção da seguinte forma:
+
+### Aviso importante sobre migração
+
+Você deve estar ciente de que os cronogramas de migração dependem muito da qualidade e do tamanho dos dados. Se precisar migrar durante a integração, planeje essa atividade com bastante antecedência e trabalhe em conjunto com a equipe de integração do Adobe Learning Manager para evitar atrasos.
 
 ### Pré-requisitos {#prerequisites}
 
