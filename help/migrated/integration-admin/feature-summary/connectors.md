@@ -2235,7 +2235,7 @@ Depois que um autor tiver definido os preços em vários cursos, caminhos de apr
 
 >[!NOTE]
 >
->Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+>Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=pt-BR).
 
 
 1. Clique em **[!UICONTROL Exportar metadados de treinamento]** > **[!UICONTROL Sob demanda]**.
