@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
+source-git-commit: 795f465a0a2a96a8f1b5bc8b120736c25b412303
 workflow-type: tm+mt
 source-wordcount: '15789'
 ht-degree: 59%
@@ -2145,7 +2145,7 @@ Quando um aluno clica em Curso, Certificado ou Caminho de Aprendizado, a página
 
 ### Experiência não conectada {#non-logged-in-experience}
 
-A experiência não conectada permite criar uma experiência em tempo real para usuários não conectados. Por exemplo, uma experiência não conectada serve como uma página de aterrissagem para campanhas de marketing para incentivar inscrições.
+A experiência não conectada permite criar experiências de aprendizado para usuários não conectados. Por exemplo, uma experiência não conectada serve como uma página de aterrissagem para campanhas de marketing para incentivar inscrições.
 
 A experiência não conectada no Adobe Learning Manager pode ser configurada usando o conector **[!UICONTROL Acesso a dados de treinamento]**. O conector fornece as seguintes ofertas:
 
@@ -2235,7 +2235,7 @@ Depois que um autor tiver definido os preços em vários cursos, caminhos de apr
 
 >[!NOTE]
 >
->Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=pt-BR).
+>Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Clique em **[!UICONTROL Exportar metadados de treinamento]** > **[!UICONTROL Sob demanda]**.
