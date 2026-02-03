@@ -3,10 +3,10 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
+source-git-commit: a620f70fbdfc01eb089c70586a548288c8b8290b
 workflow-type: tm+mt
-source-wordcount: '4483'
-ht-degree: 58%
+source-wordcount: '4600'
+ht-degree: 57%
 
 ---
 
@@ -412,6 +412,14 @@ Você deve estar ciente das seguintes dependências dos arquivos CSV durante a i
 * certification_course.csv depende de certification.csv e course.csv
 * certification_commit.csv depende de certification.csv e certification_course.csv
 * certification_enrollment.csv depende de certification.csv, certification_course.csv e certification_enrollment.csv
+
+### Ordem de cursos do Programa de aprendizado em CSVs de migração
+
+Nas versões anteriores das especificações de migração, o arquivo learning_program_course.csv incluía uma coluna de ordem, sugerindo que você poderia controlar a sequência de cursos em um programa de aprendizado durante a migração.
+
+O Adobe Learning Manager não usa mais esta coluna. A ordem dos cursos em um programa de aprendizado não pode ser controlada por CSVs de migração, e o sistema ignora todos os valores fornecidos na coluna de ordem, mesmo que você defina **orderEnforced** como true.
+
+Para evitar confusão, a coluna de ordem foi removida das especificações oficiais do CSV. Se você tiver scripts ou ferramentas existentes que ainda geram essa coluna, poderá soltá-la com segurança; não há impacto em como os Programas de aprendizado são criados ou exibidos.
 
 ## Procedimento de migração {#migrationprocedure}
 
