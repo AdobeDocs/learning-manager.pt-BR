@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: dd62feee5ad32588fd815c8b86f01935720860ce
+source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 70%
+source-wordcount: '777'
+ht-degree: 71%
 
 ---
 
@@ -163,6 +163,7 @@ ht-degree: 70%
    * [Notificações para o usuário](learners/feature-summary/user-notifications.md)
    * [Comunicados](learners/feature-summary/announcements.md)
    * [Gerenciamento de listas de espera e participações](learners/feature-summary/waitlist-attendance-management.md)
+   * [Assistente de IA para aluno](learners/feature-summary/ai-buddy.md)
    * [Pesquisa viabilizada por IA no Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Aplicativo Learning Manager para Salesforce](learners/feature-summary/sfdc-app.md)
    * [Integração do Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
