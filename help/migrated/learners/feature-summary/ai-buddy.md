@@ -2,17 +2,22 @@
 description: O Assistente de IA do aluno (Beta) é um complemento de bate-papo viabilizado por GenAI no Adobe Learning Manager que ajuda os alunos a obter respostas rápidas e precisas com base em seu conteúdo de aprendizado atribuído. Usando consultas de linguagem natural, os alunos podem recuperar instantaneamente respostas focadas com citações claras, facilitando a localização das informações certas, a verificação das fontes e o aprendizado de forma eficiente sem pesquisar em cursos inteiros.
 jcr-language: en_us
 title: Assistente de IA do aluno (Beta) no Adobe Learning Manager
-source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
+exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
+source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
 
-
 # Introdução
 
 O Assistente de IA (beta) para alunos os ajuda a encontrar rapidamente respostas a partir do conteúdo de aprendizado atribuído sem navegar pelos cursos inteiros. Você pode fazer perguntas em linguagem simples e receber respostas precisas e focadas com links de origem para o conteúdo relevante do curso.
+
+>[!IMPORTANT]
+>
+>O Assistente de IA do aluno está atualmente na versão beta e está sendo lançado por meio de uma implementação em fases. O acesso pode variar de acordo com o usuário.
+
 
 ## O que é o Assistente de IA?
 
@@ -173,15 +178,13 @@ O Assistente de IA do aluno responde a perguntas usando somente o conteúdo de a
 
 * O assistente usa o conteúdo dos catálogos internos que o administrador ativa para o assistente do Aluno AI.
 
-* Se você não tiver acesso a um curso, ajuda de tarefa ou objeto de aprendizado, o assistente não o usará para gerar respostas.
-
 * O assistente respeita sua função, associação a grupo e permissões de catálogo ao recuperar informações.
 
 ### Qual conteúdo o Assistente do AI não usa
 
 O Assistente de IA do aluno limita as respostas ao escopo de aprendizado atribuído.
 
-* Ele não usa conteúdo de catálogos Compartilhados, Adquiridos, Externos ou outros catálogos não Internos.
+* Ele não usa conteúdo dos catálogos Padrão, Compartilhado, Adquirido, Externo ou outros catálogos não Internos.
 
 * Ele não recupera informações de bibliotecas de conteúdo de terceiros, como o LinkedIn Learning ou o Go1.
 
