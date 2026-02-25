@@ -3,25 +3,25 @@ description: O Assistente de IA do aluno (Beta) é um complemento de bate-papo v
 jcr-language: en_us
 title: Assistente de IA do aluno (Beta) no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
+source-git-commit: e009abe66258700cf28d3cf212a2d086689e179c
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
 
-# Introdução
+# Assistente de aluno
 
-O Assistente de IA (beta) para alunos os ajuda a encontrar rapidamente respostas a partir do conteúdo de aprendizado atribuído sem navegar pelos cursos inteiros. Você pode fazer perguntas em linguagem simples e receber respostas precisas e focadas com links de origem para o conteúdo relevante do curso.
+O Assistente de IA do aluno (beta) para alunos os ajuda a encontrar rapidamente respostas a partir do conteúdo de aprendizado atribuído sem navegar pelos cursos inteiros. Você pode fazer perguntas em linguagem simples e receber respostas precisas e focadas com links de origem para o conteúdo relevante do curso.
 
 >[!IMPORTANT]
 >
 >O Assistente de IA do aluno está atualmente na versão beta e está sendo lançado por meio de uma implementação em fases. O acesso pode variar de acordo com o usuário.
 
 
-## O que é o Assistente de IA?
+## O que é o Assistente de IA do aluno?
 
-O Assistente de IA é um companheiro de bate-papo viabilizado por GenAI no Adobe Learning Manager que fornece respostas rápidas e precisas às perguntas do aluno usando o conteúdo de aprendizado confiável disponível para ele no Adobe Learning Manager. Também inclui citações para que os alunos sempre saibam a fonte das informações.
+O Assistente de IA do aluno é um companheiro de bate-papo acionado por GenAI no Adobe Learning Manager que fornece respostas rápidas e precisas às perguntas do aluno usando o conteúdo de aprendizado confiável disponível para ele no Adobe Learning Manager. Também inclui citações para que os alunos sempre saibam a fonte das informações.
 
 ## Por que usá-lo?
 
