@@ -1,296 +1,198 @@
 ---
-description: O Assistente de IA do aluno (Beta) é um complemento de bate-papo viabilizado por GenAI no Adobe Learning Manager que ajuda os alunos a obter respostas rápidas e precisas com base em seu conteúdo de aprendizado atribuído. Usando consultas de linguagem natural, os alunos podem recuperar instantaneamente respostas focadas com citações claras, facilitando a localização das informações certas, a verificação das fontes e o aprendizado de forma eficiente sem pesquisar em cursos inteiros.
+description: O Assistente de IA (beta) para alunos é um complemento de bate-papo viabilizado por GenAI no Adobe Learning Manager que ajuda os alunos a obter respostas rápidas e precisas de seu conteúdo de aprendizado atribuído. Usando consultas de linguagem natural, os alunos podem recuperar instantaneamente respostas focadas com citações claras, facilitando a localização das informações certas, a verificação das fontes e a aprendizagem eficiente sem pesquisar em cursos inteiros.
 jcr-language: en_us
-title: Assistente de IA do aluno (Beta) no Adobe Learning Manager
+title: Assistente do AI (beta) para alunos no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: e009abe66258700cf28d3cf212a2d086689e179c
+source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
 workflow-type: tm+mt
-source-wordcount: '2150'
+source-wordcount: '1990'
 ht-degree: 0%
 
 ---
 
-# Assistente de aluno
+# Assistente de IA para alunos
 
-O Assistente de IA do aluno (beta) para alunos os ajuda a encontrar rapidamente respostas a partir do conteúdo de aprendizado atribuído sem navegar pelos cursos inteiros. Você pode fazer perguntas em linguagem simples e receber respostas precisas e focadas com links de origem para o conteúdo relevante do curso.
+O Assistente de IA (beta) para alunos os ajuda a encontrar rapidamente respostas a partir do conteúdo de aprendizado atribuído sem navegar pelos cursos inteiros. Você pode fazer perguntas em linguagem simples e receber respostas precisas e focadas com links de origem para o conteúdo relevante do curso.
 
 >[!IMPORTANT]
 >
->O Assistente de IA do aluno está atualmente na versão beta e está sendo lançado por meio de uma implementação em fases. O acesso pode variar de acordo com o usuário.
+>O Assistente de IA para alunos está disponível no momento como um recurso beta. Os recursos, cenários compatíveis e limitações podem mudar à medida que o recurso evolui.
 
 
-## O que é o Assistente de IA do aluno?
+## O que é o assistente de IA para alunos
 
-O Assistente de IA do aluno é um companheiro de bate-papo acionado por GenAI no Adobe Learning Manager que fornece respostas rápidas e precisas às perguntas do aluno usando o conteúdo de aprendizado confiável disponível para ele no Adobe Learning Manager. Também inclui citações para que os alunos sempre saibam a fonte das informações.
+O Assistente de IA é um companheiro de bate-papo alimentado pela GenAI no Adobe Learning Manager que fornece respostas rápidas e precisas às perguntas do aluno usando o conteúdo de aprendizado confiável disponível para ele no Adobe Learning Manager. Também inclui citações para que os alunos sempre saibam a fonte da informação.
 
-## Por que usá-lo?
+### Principais recursos do Assistente de IA
 
-* Os alunos enfrentam a sobrecarga de conteúdo e muitas vezes não sabem por onde começar nem qual recurso usar.
+1. Resposta inteligente de perguntas
+   * Conversações em turnos simples e turnos múltiplos
+   * Compreensão da linguagem natural em inglês
+   * Respostas derivadas de cursos, certificações, caminhos de aprendizado e ajudas de tarefa
+   * Questões de esclarecimento inteligente quando as consultas são ambíguas
+   * Com a tecnologia Azure open AI LLM para gerar respostas
+2. Fontes de conteúdo e citações
+   * Recupera respostas de recursos disponíveis presentes em catálogos compatíveis.
+   * Fornece citações com links diretos para materiais de origem
+   * Suporta todos os formatos de conteúdo ALM estáticos e interativos: PDF, DOCX, PPTX, XLSX, Áudio (mp3, wav, m4a), Vídeo (mp4, mov, wmv), HTML, SCORM 2004, SCORM 1.2
+3. Experiência do usuário
+   * Interface do painel lateral acessível em todas as páginas do aluno
+   * Design responsivo que se adapta à área de conteúdo
+   * Histórico de bate-papo mantido na sessão do navegador
+   * Atualização clara de novos logons ou páginas
+   * Tom de professor ou tutor: amigável, claro e pedagogicamente sólido
+4. Controles do administrador
+   * Ativar ou desativar o recurso no nível da conta
+   * Controlar o acesso por grupos de usuários
+   * Selecione quais catálogos são incluídos para respostas de IA
+   * Requisito de aceitação dos Termos de uso para seguir as diretrizes de IA da Adobe
 
-* As regras de acesso e catálogo dificultam a descoberta de qual conteúdo está disponível para eles.
+## A quais tipos de conteúdo o Assistente do AI oferece suporte
 
-* As jornadas de aprendizado são fragmentadas em vários formatos e tipos de treinamento, como cursos, salas de aula virtuais, ajudas de tarefa e avaliações.
-
-* Não há uma maneira fácil e unificada de recuperar informações específicas de diversos formatos, como SCORM, PDF, documentos, vídeos ou transcrições.
-
-* Diferentes funções e setores do aluno (por exemplo, vendas, marketing, suporte, operações) têm necessidades de informações exclusivas que exigem respostas rápidas e contextuais.
-
-## Que tipos de conteúdo o Assistente do AI pode transcrever
-
-O Assistente de IA pode localizar informações de todos os tipos de conteúdo de aprendizado atribuídos a você, incluindo:
+O Assistente de IA recupera informações do conteúdo de aprendizado atribuído a você, incluindo:
 
 * **Documentos:** PDF, Word, PowerPoint, Excel, HTML
-
 * **Mídia:** áudio (mp3, wav, m4a), vídeo (mp4, mov, wmv)
+* **Conteúdo interativo:** SCORM 1.2, SCORM 2004
+* **Tipos de objetos de aprendizado:** cursos, programações de aprendizado, certificações, ajudas de tarefa
 
-* **Conteúdo Interativo:** SCORM 1.2, SCORM 2004,
+O Adobe transcreve com segurança o conteúdo de aprendizado usando serviços de processamento de terceiros confiáveis hospedados em um ambiente VPC privado Adobe.
 
-* **Tipo de Objeto de Aprendizado:** Cursos, programações de aprendizado, certificações, ajudas de tarefa
+### Limitações do catálogo e da fonte de conteúdo
 
-O Adobe transcreve com segurança seu conteúdo de aprendizado usando serviços de processamento de terceiros confiáveis hospedados no ambiente VPC privado do Adobe.
+O Assistente de IA do aluno usa somente conteúdo de **catálogos internos** explicitamente configurados por administradores.
 
-**IMPORTANTE**
+As seguintes fontes de conteúdo **não têm suporte** na versão atual:
 
-O Assistente do AI consome somente conteúdo que é:
+* Catálogos compartilhados
+* Catálogos adquiridos
+* Catálogos externos
+* Catálogos padrão
+* Bibliotecas de conteúdo de terceiros (por exemplo, LinkedIn Learning ou Go1)
 
-* Disponível nos catálogos configurados para o Assistente do aluno por administradores e
-
-* Parte de catálogos internos no Adobe Learning Manager.
-
-Catálogos compartilhados, adquiridos, externos ou outros não internos não são compatíveis como fontes de conteúdo para o Assistente do AI na versão atual.
-
-Se você não tiver acesso a um curso, os links de citação relacionados não estarão acessíveis para você. Bibliotecas de terceiros (como LinkedIn Learning ou Go1) não estão incluídas para recuperação de respostas.
-
-## Recursos de conversação
-
-O Assistente de IA oferece suporte a perguntas individuais e a conversas com vários turnos. Ele lembra suas consultas anteriores na mesma sessão.
-
-**Exemplo de conversa:**
-
-Você: “Qual é a política de reembolso?”
-Assistente: fornece resumo
-Você: “E quanto aos reembolsos após 30 dias?”
-Assistente: retorna informações mais específicas
+Se um aluno não tiver acesso a um curso ou ajuda de tarefa, o Assistente de IA não exibirá informações desse conteúdo e os links de citação não estarão acessíveis.
 
 ## Casos de uso do Assistente do AI
 
-### Suporte a aprendizado Just-in-Time (todos os alunos)
+### Aluno técnico
 
-Os alunos geralmente precisam de respostas rápidas enquanto trabalham, não de repetições completas do curso. O assistente de IA permite a recuperação instantânea de informações precisas do conteúdo de aprendizado atribuído.
+Sarah é engenheira de vendas e está aprendendo sobre placas gráficas. Ela precisa entender rapidamente as especificações técnicas e os benefícios para responder às perguntas dos clientes com segurança.
 
-**O que ajuda:**
+O Assistente de IA ajuda Sarah com:
 
-* Obtenha respostas diretas a perguntas específicas de cursos, ajudas de tarefa e documentos
+* Explicação técnica clara de uma arquitetura de GPU complexa
+* Aprofunde a compreensão sobre várias placas gráficas e suas diferenças
+* Explicação de exemplos para que Sarah possa relacionar recursos a casos de uso reais
 
-* Ir para seções referenciadas exatas usando citações
+### Suporte ao cliente
 
-* Reduza o tempo gasto pesquisando em vários objetos de aprendizado
+Marcus é especialista em suporte em uma empresa parceira. Ele precisa de respostas rápidas sobre os recursos do produto para ajudar os clientes sem precisar transferir para equipes de engenharia.
 
-![Suporte a aprendizado just-in-time usando o Assistente de aluno](assets/just-in-time.png)
+O Assistente de IA ajuda Marcus com:
 
-### Viabilização de vendas e conversas com clientes
+* Encontrar conteúdo de suporte relevante para consultas frequentes de clientes
+* Fazer perguntas claras quando a resposta inicial não é específica o suficiente
+* Encontrar recomendações para cursos relacionados de solução de problemas para melhorar suas habilidades
 
-As equipes de vendas precisam de informações rápidas e precisas sobre produtos e processos durante as interações ao vivo com os clientes. O assistente de IA atua como um complemento de conhecimento sob demanda.
+### Integração de novo funcionário
 
-**O que ajuda:**
+Jennifer acabou de entrar na empresa e está sobrecarregada com a quantidade de material de treinamento. Ela precisa de uma maneira de encontrar informações específicas sem revisar cursos inteiros.
 
-* Recuperar recursos e posicionamento atualizados do produto
+O Assistente de IA ajuda Jennifer com:
 
-* Gerar scripts de vendas rápidas ou pontos de discussão a partir do conteúdo de treinamento
+* Como obter uma orientação passo a passo sobre como enviar relatórios de despesas
+* Descobrindo cursos sobre políticas da empresa sem navegar em todo o catálogo
+* Guiando-a para a seção apropriada de um curso sem fazê-la assistir horas de vídeo
 
-* Comparar versões ou ofertas de produtos usando o material de aprendizado atribuído
+## Como o Assistente de IA usa o conteúdo
 
-* Reforce o conhecimento de vendas sem refazer cursos inteiros
+O Assistente de IA ajuda você a encontrar respostas precisas rapidamente enquanto aprende. Para usá-lo de maneira eficaz, você deve entender qual conteúdo o assistente usa, o que não usa e como ele gera respostas.
 
-![Habilitação de vendas usando o Assistente do aluno](assets/sales-enablement.png)
+### Qual conteúdo o Assistente de IA usa
 
-**Exemplo 2**
+O Assistente de IA responde a perguntas usando somente o conteúdo de aprendizado ativado pelo administrador da conta. O conteúdo do catálogo é indexado.
 
-**Objetivo:** mostre que o Assistente de IA pode ajudar os representantes de vendas a responder instantaneamente a perguntas de comparação de clientes.
-
-**Aviso recomendado:** compare o Adobe Learning Manager e um LMS tradicional para treinamento corporativo. Mostrar a comparação em formato tabular.
-
-![Saída tabular no Assistente do aluno](assets/tabular-format.png)
-
-### Prontidão para marketing e campanha
-
-As equipes de marketing geralmente precisam de atualizações rápidas antes de revisões, lançamentos ou discussões com as partes interessadas. O assistente de IA resume o conteúdo de aprendizado complexo em insights acionáveis.
-
-**O que ajuda:**
-
-* Resuma cursos longos ou vídeos nos principais pontos
-
-* Atualizar conhecimento do processo ou do produto antes das reuniões
-
-* Descubra conteúdo de aprendizado relacionado para aprofundar o conhecimento
-
-![prontidão para marketing e campanha usando o Assistente de Aluno](assets/marketing-readiness.png)
-
-### Esclarecimento operacional e de processo
-
-Equipes internas, de operações e de suporte contam com documentação precisa do processo. O Assistente de IA ajuda a esclarecer instantaneamente políticas e fluxos de trabalho.
-
-**O que ajuda:**
-
-* Encontre respostas sobre processos internos, SOPs e diretrizes de conformidade
-
-* Esclareça detalhes no nível de etapa sem navegar por documentos longos
-
-* Reduzir a dependência de SMEs para perguntas repetitivas
-
-![Documentação operacional e de processo usando o Assistente de Aluno](assets/operational-process.png)
-
-### Integração e transições de função mais rápidas
-
-Novas contratações e funcionários que passam a ter novas funções geralmente têm dificuldade em navegar por grandes catálogos de aprendizado. O assistente de IA acelera o aumento dos níveis ao orientá-los para respostas relevantes.
-
-**O que ajuda:**
-
-* Responder a perguntas comuns de integração a partir do conteúdo atribuído
-
-* Fornecer explicações rápidas de conceitos específicos de função
-
-* Suporte ao aprendizado autodirecionado sem sobrecarga de informações
-
-![Integração de funcionários](assets/onboarding.png)
-
-### Atualização de conhecimento e aprendizado contínuo
-
-Os alunos experientes precisam de atualizações rápidas em vez de reciclagem completa. O Assistente do AI oferece suporte ao aprendizado contínuo no fluxo de trabalho.
-
-**O que ajuda:**
-
-* Atualize o conhecimento sob demanda sem ter de assistir novamente aos cursos
-
-* Reforçar os resultados da aprendizagem após a conclusão do treino
-
-* Incentive o engajamento frequente e de baixo esforço com conteúdo de aprendizado
-
-![Resposta de atualização de conhecimento no Assistente de Aluno](assets/knowledge-refresh.png)
-
-## Como o assistente de IA do aluno usa o conteúdo
-
-O assistente de IA do aluno ajuda você a encontrar respostas precisas rapidamente enquanto aprende. Para usá-lo de forma eficaz, você deve entender qual conteúdo o assistente usa, o que ele não usa e como ele gera respostas.
-
-### Qual conteúdo é usado pelo Assistente do AI
-
-O Assistente de IA do aluno responde a perguntas usando somente o conteúdo de aprendizado atribuído a você no Adobe Learning Manager.
-
-* O assistente usa o conteúdo dos catálogos internos que o administrador ativa para o assistente do Aluno AI.
-
-* O assistente respeita sua função, associação a grupo e permissões de catálogo ao recuperar informações.
-
-### Qual conteúdo o Assistente do AI não usa
-
-O Assistente de IA do aluno limita as respostas ao escopo de aprendizado atribuído.
-
-* Ele não usa conteúdo dos catálogos Padrão, Compartilhado, Adquirido, Externo ou outros catálogos não Internos.
-
-* Ele não recupera informações de bibliotecas de conteúdo de terceiros, como o LinkedIn Learning ou o Go1.
-
-* Ele não navega na internet nem acessa sites externos para gerar respostas.
-
-### Como o Assistente de IA gera respostas
-
-O Assistente de IA do aluno analisa o conteúdo de aprendizado atribuído para gerar respostas focadas e contextuais.
+O Assistente de IA analisa o conteúdo de aprendizado atribuído para gerar respostas focadas e contextuais.
 
 * Cada resposta inclui citações que fazem referência ao conteúdo original.
-
 * Você pode selecionar uma citação para navegar diretamente para o curso, módulo ou documento relevante.
-
 * As citações ajudam a verificar as informações e explorar o contexto adicional quando necessário.
 
-### Usar o Assistente do AI com responsabilidade
+### Transmissão de respostas
 
-Use o Assistente de IA do aluno como uma ajuda de aprendizado para explorar, atualizar e reforçar o conhecimento.
+Uma resposta de streaming significa que o Assistente de IA fornece a resposta progressivamente conforme ela é gerada, para que os usuários possam começar a ler a resposta imediatamente, sem esperar que toda a resposta termine de carregar.
 
-* Trate as respostas como orientação com base no conteúdo de aprendizado disponível.
+### Citações e transparência da origem
 
-* Consulte o material de origem citado para obter informações completas e oficiais.
+Cada resposta do Assistente de IA inclui citações vinculadas diretamente ao curso, módulo ou objeto de aprendizado original. As citações permitem:
 
-### Como os administradores controlam o acesso
+* Selecione um número de citação embutido para ir para a seção referenciada exata
+* Abrir a lista completa de fontes selecionando Mostrar fontes na parte inferior da resposta
+* Verifique as informações e explore o contexto adicional da fonte oficial
 
-Os administradores gerenciam o acesso ao Assistente de IA do aluno e controlam o conteúdo usado.
+>[!IMPORTANT]
+>
+>O Assistente do AI fornece respostas com base no conteúdo ativado pelo administrador, mas se um usuário não tiver acesso a um item referenciado, ele verá uma mensagem de “não compatível” ao abri-lo.
 
-* Os administradores atribuem o assistente a grupos de usuários específicos.
 
-* Os administradores selecionam quais catálogos internos o assistente pode usar como fontes de conteúdo.
+## Prompts internos
 
-* Esses controles garantem que o assistente mostre apenas conteúdo de aprendizado aprovado e relevante.
+O Assistente de IA inclui prompts incorporados para ajudar os alunos a começar rapidamente com perguntas e cenários comuns. Esses prompts orientam os alunos sobre como interagir com o assistente e demonstram os tipos de perguntas que podem ser feitas.
 
-## Sobre prompts internos
+![Prompts internos fornecidos pelo Assistente de Aluno](assets/built-in-prompt-new.png)
 
-O Assistente de IA do aluno inclui um conjunto de prompts incorporados para ajudar os alunos a começar rapidamente com perguntas e cenários comuns. Esses prompts orientam os alunos sobre como interagir com o assistente e demonstram os tipos de perguntas que podem ser feitas.
+Os prompts internos são personalizáveis por conta. As organizações podem personalizá-los para refletir seus objetivos de aprendizado, funções do aluno, terminologia ou casos de uso específicos. Os administradores podem trabalhar com o Gerente de sucesso do cliente (CSM) para configurar ou atualizar prompts incorporados.
 
-![Prompts internos fornecidos pelo Assistente de Aluno](assets/built-in-prompts.png)
+A personalização do prompt é gerenciada no nível da conta e não é configurável diretamente na interface de usuário do Adobe Learning Manager na versão atual.
 
-Os prompts internos são personalizáveis por conta. As organizações podem personalizar esses prompts para refletir seus objetivos de aprendizado, funções do aluno, terminologia ou casos de uso específicos.
+## Configuração do administrador - Ativar o assistente do AI para alunos
 
-Os administradores podem trabalhar com o Gerente de sucesso do cliente (CSM) para configurar, modificar ou atualizar os prompts incorporados para a conta. A personalização do prompt é gerenciada no nível da conta e não é configurável diretamente na interface de usuário do Adobe Learning Manager na versão atual.
+![Assistente de aluno habilitado por IA](assets/learner-ai-assistant-new.png)
 
-Os prompts exibidos para os alunos podem variar por conta, com base na configuração definida com o Adobe.
+Os administradores selecionam quais grupos de usuários e catálogos internos podem acessar o recurso Assistente do AI. Eles devem garantir que os catálogos atribuídos incluam apenas o conteúdo de aprendizado apropriado para ser revelado em respostas e citações de IA e que esses catálogos sejam Padrão, Interno, não Compartilhado, Adquirido ou Externo.
 
-## Ativar o Assistente de IA do aluno
+Antes de configurar o Assistente do AI, confirme se você tem credenciais de administrador e identificou quais grupos de usuários e catálogos devem ter acesso ao recurso.
 
-![Assistente de aluno habilitado por IA](assets/learner-ai-assistant.png)
-
-O Assistente de IA (beta) fornece suporte viabilizado por IA para ajudar os alunos a descobrir e se envolver com conteúdo de maneira mais eficaz. Os administradores controlam o acesso atribuindo o recurso a grupos de usuários e catálogos específicos. Somente catálogos internos devem ser usados ao configurar o Assistente do AI. O conteúdo de catálogos Compartilhados, Adquiridos, Externos ou outros não Internos não é compatível com a exibição de respostas e citações do Assistente do AI.
-
-Os administradores selecionam quais grupos de usuários e catálogos internos podem acessar o recurso Assistente do AI. Eles devem garantir que os catálogos atribuídos incluam apenas o conteúdo de aprendizado apropriado para ser revelado em respostas e citações de IA e que esses catálogos sejam internos, não compartilhados, adquiridos ou externos.
-
-Antes de configurar o Assistente do AI (beta), confirme se você tem credenciais de administrador e identificou quais grupos de usuários e catálogos devem ter acesso ao recurso.
-
-### Configurar acesso ao Assistente do aluno
+### Configurar acesso ao Assistente do AI
 
 Para ativar o Assistente de IA do aluno:
 
-&#x200B;1. Faça logon no Adobe Learning Manager como administrador.
+1. Faça logon no Adobe Learning Manager como administrador.
 
-2.Selecione **Configurações** na home page.
+2. Selecione **Configurações** na home page.
+   ![Console do administrador com a opção Configurações no painel esquerdo](assets/settings-menu.png)
 
-![Console do administrador com a opção Configurações no painel esquerdo](assets/settings-menu.png)
+3. Selecione **Assistente de IA do aluno (Beta)** no menu **Configurações**.
+   ![O console do administrador exibe a opção Assistente de IA do aluno no painel esquerdo](assets/learner-assistant-ai-beta.png)
 
-3.Selecione **Assistente de IA do aluno (Beta)** no menu **Configurações**.
+4. Selecione a opção de alternância para habilitar o **Assistente de IA do aluno (Beta)**.
+   ![O console de administradores exibe a alternância habilitada para o Assistente de IA do aluno](assets/learner-assistant-toggle.png)
 
-![O console do administrador exibe a opção Assistente de IA do aluno no painel esquerdo](assets/learner-assistant-ai-beta.png)
+5. Selecione um ou mais grupos de usuários da opção **Grupos de usuários qualificados**.
 
-4.Selecione a opção de alternância para habilitar o **Assistente de IA do aluno (Beta)**.
+6. Selecione **Salvar** para aplicar as configurações do grupo de usuários.
 
-![O console de administradores exibe a alternância habilitada para o Assistente de IA do aluno](assets/learner-assistant-toggle.png)
+7. Selecione um ou mais catálogos da opção **Catálogos qualificados**.
 
-5.Selecione um ou mais grupos de usuários na opção **Grupos de usuários qualificados**.
-
-6.Selecione **Salvar** para aplicar as configurações do grupo de usuários.
-
-7.Selecione um ou mais catálogos da opção **Catálogos qualificados**.
-
-8.Selecione **Salvar** para aplicar as configurações do catálogo.
+8. Selecione **Salvar** para aplicar as configurações do catálogo.
 
 >[!IMPORTANT]
 >
 >O Assistente do AI oferece suporte somente a catálogos internos. Se um catálogo compartilhado, adquirido, externo ou outro não interno for selecionado, seu conteúdo não será revelado pelo Assistente do AI, mesmo se o catálogo for exibido na lista Catálogos qualificados.
 
-## Acessar o Assistente de IA do aluno no Adobe Learning Manager
-
-O Assistente de IA do aluno (Beta) do Adobe Learning Manager ajuda você a encontrar respostas rapidamente enquanto aprende. Essa ferramenta inteligente responde diretamente às suas perguntas sobre cursos, conteúdo e recursos da plataforma, tudo da conta do aluno.
-
-O Assistente do AI só pode usar o conteúdo de catálogos internos que o administrador ativou para o Assistente do aluno. O conteúdo armazenado somente nos catálogos Compartilhados, Adquiridos ou Externos não será incluído.
-
-O Assistente de IA do aluno (Beta) está disponível somente para os alunos selecionados.
+## Guia do aluno - Iniciar o assistente de IA
 
 ### Iniciar o Assistente do AI
 
-Para iniciar o Assistente de IA do aluno:
+Para iniciar o Assistente do AI:
 
-&#x200B;1. Faça logon no Adobe Learning Manager como aluno.
+1. Faça logon no Adobe Learning Manager como aluno.
 
-2.Selecione **Perguntar ao assistente de IA** na página inicial.
+2. Selecione **Perguntar ao assistente de IA** na página inicial.
+   ![A página inicial do aluno exibe Perguntar ao assistente de IA para selecionar e abrir o painel Assistente de IA do aluno](assets/ask-ai-assistant.png)
 
-![A página inicial do aluno exibe Perguntar ao assistente de IA para selecionar e abrir o painel Assistente de IA do aluno](assets/ask-ai-assistant.png)
-
-3.Quando a tela **Assistente de IA do aluno (Beta)** for exibida, selecione **Começar**.
-
-![Selecione Começar para iniciar o Assistente de Aluno](assets/get-started-learner-assistant.png)
+3. Quando a tela **Assistente de IA do aluno** for exibida, selecione **Introdução**.
+   ![Selecione Começar para iniciar o Assistente de Aluno](assets/get-started-learner-assistant.png)
 
 >[!NOTE]
 >
@@ -298,50 +200,100 @@ Para iniciar o Assistente de IA do aluno:
 
 &#x200B;4. Digite seu prompt no campo de texto.
 
-![Digite o prompt no Assistente do aluno](assets/type-prompt.png)
+![Digite o prompt no Assistente do aluno](assets/type-prompt-new.png)
 
 5.Pressione **Enter** para receber uma resposta. Revise suas respostas, fontes e recomendações.
 
-O Adobe permite a personalização imediata no nível da conta. Para configurar ou atualizar prompts integrados, entre em contato com o Gerente de Sucesso do Cliente (CSM) da Adobe.
-
-As respostas do Assistente de IA incluem citações a cada resposta para que os alunos possam verificar facilmente de onde as informações vêm. Cada referência citada é vinculada ao módulo do curso original, à ajuda de tarefa ou a outro conteúdo de aprendizado.
-
-Os alunos podem:
+Você pode:
 
 * Selecionar o número de citação embutido para saltar para a seção referenciada exata
+* Abra a lista completa de fontes selecionando **Mostrar fontes** na parte inferior da resposta
 
-* Abrir a lista completa de fontes selecionando **Mostrar fontes** na parte inferior da resposta
+![Exibir fontes na resposta](assets/show-sources-latest.png)
 
-![Exibir fontes na resposta](assets/show-sources.png)
+O Assistente de IA inclui citações em todas as respostas para mostrar de onde vêm as informações. Cada citação está vinculada diretamente ao curso, módulo ou objeto de aprendizado original usado para gerar a resposta.
 
-O Assistente do aluno inclui citações com cada resposta para mostrar de onde as informações vêm. Cada citação é vinculada diretamente ao curso, módulo ou objeto de aprendizado original usado para gerar a resposta.
+Você pode selecionar qualquer citação para abrir a página do curso real no Adobe Learning Manager e revisar o conteúdo completo no contexto. As citações ajudam a verificar as informações, explorar detalhes adicionais e continuar aprendendo com a fonte confiável.
 
-Você pode selecionar qualquer citação para abrir a página real do curso no Adobe Learning Manager e revisar o conteúdo completo no contexto. As citações ajudam a verificar as informações, explorar detalhes adicionais e continuar aprendendo com a fonte confiável.
+## Acessar o Assistente do AI por meio de pesquisa
 
-## Acessar o Assistente do AI usando a pesquisa
+Você também pode iniciar o Assistente do AI diretamente da barra de pesquisa. Digite sua pergunta no campo de pesquisa e selecione **Perguntar ao assistente de IA** nas opções que parecem obter respostas do conteúdo de aprendizado atribuído. O conteúdo de aprendizado atribuído.
 
-Os administradores também podem iniciar o Assistente do AI diretamente da barra de pesquisa. Basta digitar sua pergunta e selecionar **Perguntar ao Assistente de IA** nas opções que aparecem abaixo para obter respostas do conteúdo de aprendizado atribuído.
+![Acessar o Assistente de Aluno na barra de pesquisa](assets/learner-assistant-search-new.png)
 
-![Acessar o Assistente de Aluno na barra de pesquisa](assets/learner-assistant-search.png)
 
-## Fornecer feedback sobre as respostas do Assistente de IA do aluno (Beta)
+## Fornecer feedback sobre as respostas do Assistente de IA do aluno
 
-Seu feedback sobre as respostas geradas pelo Assistente de IA do aluno (Beta) ajuda a melhorar a precisão, a relevância e o desempenho geral.
+Seus comentários sobre as respostas geradas pelo Assistente de IA do aluno (Beta) ajudam a melhorar a precisão, a relevância e o desempenho geral.
 
 ### Curtir ou não curtir uma resposta
 
 * Selecione **Miniaturas**, escolha o que achou útil na resposta, opcionalmente adicione comentários e selecione **Enviar**.
 
-![Selecione Miniaturas para votar em uma resposta](assets/thumbs-up.png)
+![Selecione Miniaturas para votar em uma resposta](assets/la-feedback.png)
 
 * Selecione **Miniaturas**, escolha o motivo pelo qual a resposta não foi útil, adicione comentários e selecione **Enviar**.
 
-![Selecione Miniaturas para votar uma resposta](assets/thumbs-down.png)
+## Iniciar um novo bate-papo no Assistente do AI
 
-## Iniciar novo bate-papo no Assistente do AI
+Iniciar um novo bate-papo permite que o usuário inicie uma nova conversa, limpando o contexto anterior para que o assistente possa se concentrar no novo tópico sem fazer referência a interações anteriores. Isso é importante ao alternar tópicos ou procurar respostas não relacionadas a perguntas anteriores.
 
-Os alunos podem limpar a conversa atual e iniciar um novo bate-papo a qualquer momento.
+Limpar a conversa atual e iniciar um novo chat a qualquer momento.
 
-* Selecione **Novo bate-papo** na tela do Assistente de IA e selecione **Sim**.
+Selecione **Novo bate-papo** na tela do Assistente de IA e selecione **Sim**.
 
 ![Iniciar um novo chat no Assistente do Aluno](assets/start-new-chat.png)
+
+O Assistente de IA fornece aos alunos respostas rápidas e contextuais, é compatível com vários tipos de conteúdo e oferece citações embutidas para transparência. Os administradores podem controlar o acesso, garantindo que o Assistente de IA esteja adaptado às necessidades organizacionais e aprimore a experiência de aprendizado.
+
+
+## Solução de problemas
+
+>[!NOTE]
+>
+>Após configurar um novo catálogo, aguarde de 4 a 5 horas para que o conteúdo seja indexado e fique disponível para respostas do Assistente do AI.
+
+### Cenário 1: Sem acesso ao conteúdo
+
+Problema: o aluno tem acesso ao Assistente de aluno, mas recebe respostas do tipo &quot;Não tenho uma resposta para esta pergunta&quot;.
+
+**Causas possíveis**
+
+* Os catálogos do aluno não são incluídos ao configurar o AI Assistant
+* O conteúdo relacionado à pergunta não está nos catálogos selecionados ou os catálogos estão em branco
+* O aluno não tem visibilidade do conteúdo relevante
+
+**Solução**
+
+* Verificar o acesso ao catálogo do aluno
+* Verificar quais catálogos estão ativados nas configurações do Assistente do aluno
+* Verifique se o conteúdo relevante existe nesses catálogos
+* aguarde algumas horas após adicionar novo conteúdo para que ele seja indexado
+
+### Cenário 2: respostas irrelevantes ou de baixa qualidade
+
+**Problema**: o Assistente de IA fornece respostas que não correspondem à pergunta ou são de baixa qualidade.
+
+**Causas possíveis**
+
+* A pergunta é muito ampla ou ambígua
+* O conteúdo relevante tem metadados inadequados (descrições, tags)
+* A estrutura do conteúdo dificulta a extração de informações
+
+**Solução**
+
+* Incentivar os alunos a fazer perguntas mais específicas
+* Revisar e melhorar as descrições e os metadados do curso
+* Garantir que o conteúdo tenha cabeçalhos e estrutura claros
+* Revisar o relatório detalhado de uso para identificar padrões
+* Considere criar ajudas de tarefa para perguntas frequentes
+
+### Cenário 3: perguntas fora do escopo
+
+**Problema**: o aluno faz perguntas não relacionadas ao conteúdo do treinamento.
+
+**Exemplos**:
+
+* Perguntas de conhecimento geral (&#39;Quem é o presidente?&#39;)
+* Opiniões pessoais (&#39;O que você pensa sobre X?&#39;)
+* Conteúdo inadequado

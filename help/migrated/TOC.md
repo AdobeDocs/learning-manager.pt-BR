@@ -2,9 +2,9 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
+source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '778'
 ht-degree: 71%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 71%
    * [Acessibilidade no Learning Manager](accessibility-learning-manager.md)
    * [Suporte para domínio personalizado](custom-domain.md)
    * [Transição do Gerenciador de FTP do Adobe](transition-from-ftp-manager.md)
-   * [Idiomas com suporte no Adobe Learning Manager](/help/migrated/languages-supported.md)
+   * [Idiomas compatíveis com o Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [Descontinuações e alterações de API no Adobe Learning Manager](api-deprecations-list.md)
    * [Recomendações no Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Rotulagem de permissões no Adobe Learning Manager](white-label.md)
@@ -48,7 +48,7 @@ ht-degree: 71%
       * [Grupo de usuários no Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
       * [Campos ativos](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Adicionar locais de sala de aula](administrators/feature-summary/classroom.md)
-   * [Criar instâncias do curso e programações de aprendizado](administrators/feature-summary/courses.md)
+   * [Criar instâncias e caminhos de aprendizado do curso](administrators/feature-summary/courses.md)
    * Experience Builder no Adobe Learning Manager {#experience-builder}
       * [Visão geral](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Componentes principais do Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -68,9 +68,9 @@ ht-degree: 71%
    * Marketplace de conteúdo {#content-marketplace}
       * [Marketplace de conteúdo](administrators/feature-summary/content-marketplace.md)
       * [Cursos Go1 curados para o Caminho de aprendizado](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
-   * [Formulário de feedback L1](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
+   * [Formulário de feedback N1](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
    * [Relatórios](administrators/feature-summary/reports.md)
-   * [Painel de Sucesso do Grupo](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
+   * [Painel de sucesso do grupo](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Caminhos de aprendizado](administrators/feature-summary/learning-paths.md)
    * [Planos de aprendizado](administrators/feature-summary/learning-plans.md)
    * [Gerenciar pedidos e faturamento do Learning Manager](administrators/feature-summary/billing-management.md)
@@ -109,7 +109,7 @@ ht-degree: 71%
    * [Ativar controle total do catálogo compartilhado](administrators/feature-summary/shared-catalog-full-control.md)
    * [Mapear habilidades com domínios de habilidades](administrators/feature-summary/curation-skills.md)
    * [Extensibilidade nativa](administrators/feature-summary/native-extensibility.md)
-   * [Inscrição múltipla](administrators/feature-summary/multiple-enrollment.md)
+   * [Várias inscrições](administrators/feature-summary/multiple-enrollment.md)
    * [Experiência não conectada para alunos](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programas de aprendizado](administrators/feature-summary/learning-programs.md)
    * [Terminologia do produto](administrators/feature-summary/product-terminology.md)
@@ -124,7 +124,7 @@ ht-degree: 71%
    * [Credly](integration-admin/feature-summary/credly-integration.md)
    * [Interoperabilidade do Learning Tools](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * AEM Sites {#aem-sites}
-      * [Pacote do site de referência do ALM para o AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
+      * [Pacote do site de referência do ALM para AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [Integrar o Learning Manager ao AEM](integrate-aem-learning-manager.md)
    * [Instalar pacote do Salesforce no Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Instalar o conector do Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -163,8 +163,8 @@ ht-degree: 71%
    * [Notificações para o usuário](learners/feature-summary/user-notifications.md)
    * [Comunicados](learners/feature-summary/announcements.md)
    * [Gerenciamento de listas de espera e participações](learners/feature-summary/waitlist-attendance-management.md)
-   * [Assistente de IA para aluno](learners/feature-summary/ai-buddy.md)
-   * [Pesquisa viabilizada por IA no Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
+   * [Assistente de IA para alunos](learners/feature-summary/ai-buddy.md)
+   * [Pesquisa habilitada por IA no Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Aplicativo Learning Manager para Salesforce](learners/feature-summary/sfdc-app.md)
    * [Integração do Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
    * [Aplicativo do aluno para dispositivos móveis e tablets](learners/feature-summary/ipad-android-tablet-users.md)
