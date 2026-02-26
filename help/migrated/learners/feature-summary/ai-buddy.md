@@ -1,11 +1,11 @@
 ---
-description: O Assistente de IA (beta) para alunos é um complemento de bate-papo viabilizado por GenAI no Adobe Learning Manager que ajuda os alunos a obter respostas rápidas e precisas de seu conteúdo de aprendizado atribuído. Usando consultas de linguagem natural, os alunos podem recuperar instantaneamente respostas focadas com citações claras, facilitando a localização das informações certas, a verificação das fontes e a aprendizagem eficiente sem pesquisar em cursos inteiros.
+description: O Assistente de IA (beta) para alunos é um complemento de bate-papo viabilizado por GenAI no Adobe Learning Manager que ajuda os alunos a obter respostas rápidas e precisas de seu conteúdo de aprendizado atribuído. Usando consultas de linguagem natural, os alunos podem recuperar instantaneamente respostas focadas com citações claras, facilitando a localização das informações certas, a verificação das fontes e o aprendizado de forma eficiente sem pesquisar em cursos inteiros.
 jcr-language: en_us
-title: Assistente do AI (beta) para alunos no Adobe Learning Manager
+title: Assistente do AI para alunos no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 64765bdd9f364267f7c7f5d23a03cc576b875be3
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,21 @@ O Assistente de IA (beta) para alunos os ajuda a encontrar rapidamente respostas
 
 >[!IMPORTANT]
 >
->O Assistente de IA para alunos está disponível no momento como um recurso beta. Os recursos, cenários compatíveis e limitações podem mudar à medida que o recurso evolui.
+>O Assistente de IA para alunos está disponível como um recurso beta. Os recursos, os cenários compatíveis e as limitações podem mudar conforme o recurso evolui.
 
 
-## O que é o assistente de IA para alunos
+## O que é o Assistente do AI para alunos
 
-O Assistente de IA é um companheiro de bate-papo alimentado pela GenAI no Adobe Learning Manager que fornece respostas rápidas e precisas às perguntas do aluno usando o conteúdo de aprendizado confiável disponível para ele no Adobe Learning Manager. Também inclui citações para que os alunos sempre saibam a fonte da informação.
+O Assistente de IA é um companheiro de bate-papo viabilizado por GenAI no Adobe Learning Manager que fornece respostas rápidas e precisas às perguntas do aluno usando o conteúdo de aprendizado confiável disponível para ele no Adobe Learning Manager. Também inclui citações para que os alunos sempre saibam a fonte das informações.
 
-### Principais recursos do Assistente de IA
+### Principais recursos do assistente do AI
 
 1. Resposta inteligente de perguntas
    * Conversações em turnos simples e turnos múltiplos
    * Compreensão da linguagem natural em inglês
-   * Respostas derivadas de cursos, certificações, caminhos de aprendizado e ajudas de tarefa
-   * Questões de esclarecimento inteligente quando as consultas são ambíguas
-   * Com a tecnologia Azure open AI LLM para gerar respostas
+   * Respostas derivadas de curso, certificações, programações de aprendizado e ajudas de tarefa
+   * Esclarecimento inteligente de perguntas quando as consultas são ambíguas
+   * Habilitado por recursos Open AI LLM do Azure para gerar respostas
 2. Fontes de conteúdo e citações
    * Recupera respostas de recursos disponíveis presentes em catálogos compatíveis.
    * Fornece citações com links diretos para materiais de origem
@@ -92,7 +92,7 @@ O Assistente de IA ajuda Marcus com:
 
 * Encontrar conteúdo de suporte relevante para consultas frequentes de clientes
 * Fazer perguntas claras quando a resposta inicial não é específica o suficiente
-* Encontrar recomendações para cursos relacionados de solução de problemas para melhorar suas habilidades
+* Localizar recomendações para cursos de solução de problemas relacionados para melhorar suas habilidades
 
 ### Integração de novo funcionário
 
@@ -101,14 +101,14 @@ Jennifer acabou de entrar na empresa e está sobrecarregada com a quantidade de 
 O Assistente de IA ajuda Jennifer com:
 
 * Como obter uma orientação passo a passo sobre como enviar relatórios de despesas
-* Descobrindo cursos sobre políticas da empresa sem navegar em todo o catálogo
-* Guiando-a para a seção apropriada de um curso sem fazê-la assistir horas de vídeo
+* Descobrindo cursos sobre as políticas da empresa sem navegar pelo catálogo inteiro
+* Direcionando-a para a seção apropriada de um curso sem fazê-la assistir horas de vídeo
 
 ## Como o Assistente de IA usa o conteúdo
 
-O Assistente de IA ajuda você a encontrar respostas precisas rapidamente enquanto aprende. Para usá-lo de maneira eficaz, você deve entender qual conteúdo o assistente usa, o que não usa e como ele gera respostas.
+O Assistente de IA ajuda você a encontrar respostas precisas rapidamente enquanto aprende. Para usá-lo de forma eficaz, você deve entender qual conteúdo o assistente usa, o que ele não usa e como ele gera respostas.
 
-### Qual conteúdo o Assistente de IA usa
+### Qual conteúdo é usado pelo Assistente do AI
 
 O Assistente de IA responde a perguntas usando somente o conteúdo de aprendizado ativado pelo administrador da conta. O conteúdo do catálogo é indexado.
 
@@ -207,13 +207,13 @@ Para iniciar o Assistente do AI:
 Você pode:
 
 * Selecionar o número de citação embutido para saltar para a seção referenciada exata
-* Abra a lista completa de fontes selecionando **Mostrar fontes** na parte inferior da resposta
+* Abrir a lista completa de fontes selecionando **Mostrar fontes** na parte inferior da resposta
 
 ![Exibir fontes na resposta](assets/show-sources-latest.png)
 
-O Assistente de IA inclui citações em todas as respostas para mostrar de onde vêm as informações. Cada citação está vinculada diretamente ao curso, módulo ou objeto de aprendizado original usado para gerar a resposta.
+O Assistente de IA inclui citações com cada resposta para mostrar de onde vêm as informações. Cada citação é vinculada diretamente ao curso, módulo ou objeto de aprendizado original usado para gerar a resposta.
 
-Você pode selecionar qualquer citação para abrir a página do curso real no Adobe Learning Manager e revisar o conteúdo completo no contexto. As citações ajudam a verificar as informações, explorar detalhes adicionais e continuar aprendendo com a fonte confiável.
+Você pode selecionar qualquer citação para abrir a página real do curso no Adobe Learning Manager e revisar o conteúdo completo no contexto. As citações ajudam a verificar as informações, explorar detalhes adicionais e continuar aprendendo com a fonte confiável.
 
 ## Acessar o Assistente do AI por meio de pesquisa
 
@@ -224,7 +224,7 @@ Você também pode iniciar o Assistente do AI diretamente da barra de pesquisa. 
 
 ## Fornecer feedback sobre as respostas do Assistente de IA do aluno
 
-Seus comentários sobre as respostas geradas pelo Assistente de IA do aluno (Beta) ajudam a melhorar a precisão, a relevância e o desempenho geral.
+Seu feedback sobre as respostas geradas pelo Assistente de IA do aluno (Beta) ajuda a melhorar a precisão, a relevância e o desempenho geral.
 
 ### Curtir ou não curtir uma resposta
 
@@ -255,11 +255,11 @@ O Assistente de IA fornece aos alunos respostas rápidas e contextuais, é compa
 
 ### Cenário 1: Sem acesso ao conteúdo
 
-Problema: o aluno tem acesso ao Assistente de aluno, mas recebe respostas do tipo &quot;Não tenho uma resposta para esta pergunta&quot;.
+Problema: o aluno tem acesso ao Assistente do aluno, mas recebe as respostas “Não tenho uma resposta para esta pergunta”.
 
 **Causas possíveis**
 
-* Os catálogos do aluno não são incluídos ao configurar o AI Assistant
+* Os catálogos do aluno não são incluídos ao configurar o Assistente do AI
 * O conteúdo relacionado à pergunta não está nos catálogos selecionados ou os catálogos estão em branco
 * O aluno não tem visibilidade do conteúdo relevante
 
