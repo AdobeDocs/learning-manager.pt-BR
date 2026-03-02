@@ -2,10 +2,10 @@
 title: Novidades na versão de abril de 2026 do Adobe Learning Manager
 description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes na versão de abril de 2026 do Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: bff4227db5cb1d419d66c59688989de1406b0458
+source-git-commit: 4f97f09df89e2fc38f013ce817f6d0fee38773d0
 workflow-type: tm+mt
-source-wordcount: '7458'
-ht-degree: 1%
+source-wordcount: '8124'
+ht-degree: 0%
 
 ---
 
@@ -181,7 +181,7 @@ Vinculando reuniões a contas individuais do Zoom do professor:
 
 * Cada professor pode operar dentro de seus próprios limites de licença do Zoom.
 
-* As organizações podem usar o modelo de provisionamento existente do Zoom (uma conta por treinador, por unidade de negócios etc.) enquanto ainda se integram totalmente ao Adobe Learning Manager.
+* As organizações podem usar o modelo de provisionamento existente do Zoom (uma conta por treinador, por unidade de negócios etc.) ao mesmo tempo em que se integra totalmente ao Adobe Learning Manager.
 
 * Isso evita o gargalo de ponto único de usar um usuário compartilhado do Zoom superadministrador para todas as sessões.
 
@@ -1012,9 +1012,66 @@ Isso é esperado onde o tempo ocioso teve resultados anteriormente inflados. Ano
 
 Nenhuma; a alteração é automática.
 
+## Atualização dos relatórios de transcrição de aprendizado para administradores
 
+Estamos atualizando os relatórios de Transcrição de aprendizado (LT) para que os administradores ofereçam melhor suporte às avaliações baseadas em lista de verificação e ao feedback do revisor.
 
+## O que está mudando?
 
+### &#x200B;1. Renomear coluna na transcrição do aprendizado do administrador
+
+A coluna **Envio de comentário** existente no Aprendizado do Administrador
+A transcrição será:
+
+1. **Renomeado para:** `Reviewer's remarks`
+
+### Dados mostrados nesta coluna:
+
+* **Para módulos de envio:**
+A coluna continuará a exibir o comentário de envio (sem alteração de comportamento).
+
+* **Para módulos de lista de verificação:**
+A coluna agora exibirá o comentário de avaliação (as observações do revisor da lista de verificação).
+
+Essa alteração se aplica a todas as origens de LT de administrador:
+
+* LT baixado da interface do administrador
+* LT obtido por meio da API de trabalho
+* LT gerado através de conectores
+
+Após essa alteração, a mesma coluna terá: - Comentários de envio para módulos de envio
+
+* Comentários de avaliação para módulos de lista de verificação
+
+Sob o novo nome de cabeçalho **Comentários do revisor**.
+
+### &#x200B;2. Nova coluna nas exportações de transcrição de aprendizado baseado em conector
+
+Para transcrições de aprendizado exportadas pelo conector:
+
+* Uma nova coluna chamada **Comentários do revisor** será adicionada ao final do relatório.
+* Essa coluna conterá os comentários do revisor, alinhados com o comportamento descrito acima:
+   * Comentários de envio para módulos de envio
+   * Comentários de avaliação para módulos de lista de verificação
+
+## Impacto nas integrações e automações existentes
+
+Se você estiver usando relatórios de transcrição de aprendizado em integrações personalizadas, automações ou ferramentas de relatórios externos, analise os seguintes cenários:
+
+| Cenário | Impacto | Ação necessária |
+|----------|--------|----------------|
+| É possível identificar campos no LT do administrador pelo nome da coluna (por exemplo, “Comentário de envio”) | O cabeçalho da coluna mudará para Comentários do revisor. | Sim Atualize qualquer mapeamento ou lógica que faça referência ao comentário de Envio para usar as observações do Revisor. |
+| Os campos no LT de administração são identificados apenas pela posição da coluna (com base no índice) | A posição desta coluna permanece a mesma no Admin LT. | Normalmente, nenhuma ação. Se a sua lógica não depender do texto do cabeçalho, nenhuma alteração será necessária para o LT do administrador, basta alterar o nome da coluna se atualmente a coluna “Comentários de envio” for usada. |
+| Use o LT exportado pelo conector e use uma contagem de colunas fixa ou uma posição específica na última coluna | Uma nova coluna é anexada ao final do relatório. | Sim Ajuste a lógica de análise ou validação para considerar uma coluna extra no final do arquivo. |
+| Use o LT exportado pelo conector e mapeie por nome de coluna | Uma nova coluna Comentários do revisor se tornará disponível. | Opcional. Nenhuma alteração é necessária, a menos que você queira consumir os novos dados de comentários do revisor/lista de verificação. |
+
+**O que você deve fazer**
+
+* Revise todos os scripts, trabalhos de ETL, painéis ou integrações que consomem relatórios de Transcrição de aprendizado do administrador.
+* Se você fizer referência ao antigo nome da coluna _Comentário de envio_, atualize sua configuração ou código para usar os comentários do Revisor sobre o novo nome da coluna.
+* Se você usar exportações de LT baseadas em conector e assumir um número fixo de colunas ou uma última coluna fixa, atualize sua lógica para manipular uma coluna adicional no final da exportação.
+
+Se a sua implementação atual depende exclusivamente das posições da coluna no Admin LT e não valida ou depende do texto do cabeçalho da coluna, nenhuma alteração é necessária para o próprio Admin LT. Somente exportações de conectores precisam de atenção quando você depende de um layout fixo.
 
 
 
@@ -2710,4 +2767,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
