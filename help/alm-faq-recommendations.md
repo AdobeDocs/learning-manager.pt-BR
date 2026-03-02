@@ -94,7 +94,7 @@ O Adobe Learning Manager oferece suporte à exportação de dados de configuraç
 
 * A API de trabalhos do ALM oferece suporte à geração sob demanda de relatórios de usuário (incluindo atribuições de função) no formato CSV. Eles podem ser programados e consumidos por ferramentas externas de conformidade ou SIEM.
 
-Consulte [Adobe Learning Manager- Manual do desenvolvedor de aplicativos](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) para obter mais informações.
+Consulte [Adobe Learning Manager- Manual do desenvolvedor de aplicativos](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual) para obter mais informações.
 
 ## O Adobe Learning Manager fornece uma API por meio da qual as configurações relevantes de segurança podem ser visualizadas e ajustadas de forma programática?
 
