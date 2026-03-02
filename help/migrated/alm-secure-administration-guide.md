@@ -51,7 +51,7 @@ O administrador controla o método de autenticação usado para todos os usuári
 >
 >Se o método de logon for definido como Adobe ID para usuários internos, a organização perderá a capacidade de aplicar a autenticação de vários fatores, controlar a complexidade da senha ou revogar imediatamente o acesso quando um usuário sair. Isso aumenta significativamente o risco de acesso não autorizado.
 
-Consulte [Funções personalizadas](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role) para obter mais informações.
+Consulte [Funções personalizadas](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/custom-role) para obter mais informações.
 
 ### Autenticação multifator (MFA)
 
@@ -168,7 +168,7 @@ As configurações administrativas no Adobe Learning Manager são configuráveis
 
 Informações adicionais sobre as práticas de segurança da Adobe Learning Manager estão disponíveis em:
 
-**Referência:** [Visão Geral da Segurança da Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+**Referência:** [Visão Geral da Segurança da Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=pt-BR)
 
 ## Manutenção do documento
 
