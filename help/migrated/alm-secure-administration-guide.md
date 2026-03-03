@@ -1,14 +1,14 @@
 ---
-title: Adobe Learning Manager - Guia de administração segura
+title: Adobe Learning Manager - guia seguro de administração
 description: Este guia descreve as configurações de segurança, funções e práticas recomendadas para gerenciar a segurança administrativa e o controle de acesso no Adobe Learning Manager para garantir a conformidade e a segurança.
 jcr-language: en-us
-source-git-commit: 76a231b5d178a43a2e217d442481e6fd77f12390
+exl-id: 67dd9334-9718-4b2a-841e-5d8bd5c42714
+source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
 
 ---
-
 
 # Configurações administrativas de segurança e implicações de segurança
 
@@ -51,7 +51,7 @@ O administrador controla o método de autenticação usado para todos os usuári
 >
 >Se o método de logon for definido como Adobe ID para usuários internos, a organização perderá a capacidade de aplicar a autenticação de vários fatores, controlar a complexidade da senha ou revogar imediatamente o acesso quando um usuário sair. Isso aumenta significativamente o risco de acesso não autorizado.
 
-Consulte [Funções personalizadas](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/custom-role) para obter mais informações.
+Consulte [Funções personalizadas](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role) para obter mais informações.
 
 ### Autenticação multifator (MFA)
 
@@ -168,9 +168,8 @@ As configurações administrativas no Adobe Learning Manager são configuráveis
 
 Informações adicionais sobre as práticas de segurança da Adobe Learning Manager estão disponíveis em:
 
-**Referência:** [Visão Geral da Segurança da Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=pt-BR)
+**Referência:** [Visão Geral da Segurança da Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## Manutenção do documento
 
 Este documento pode ser atualizado periodicamente para refletir alterações na funcionalidade da Adobe Learning Manager ou nas orientações de segurança. A versão e a data da última atualização são mantidas nos metadados do documento e no pacote de autorização do FedRAMP. Os clientes devem consultar a versão disponível publicamente no Adobe Experience League para garantir que estejam usando as diretrizes mais recentes.
-
