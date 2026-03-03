@@ -3,14 +3,14 @@ title: Adobe Learning Manager - gerenciamento de configurações e definições 
 description: Este documento descreve os tipos de conta administrativa do Adobe Learning Manager, as configurações relacionadas à segurança, os padrões seguros recomendados, os recursos da API, a funcionalidade de exportação, os métodos de comparação de configuração, as práticas de publicação e o histórico de versões. Ele fornece orientações detalhadas sobre como as contas privilegiadas operam, suas implicações de segurança e como o gerenciamento de configuração é suportado em toda a plataforma.
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 84d74761c95ac670a93d65a844caebd42e4e4d41
+source-git-commit: 8b4ac7a99a9bf0cbeaa4ed07fd979deb7130302d
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
 
-# Introdução
+# Configurações de segurança e gerenciamento de configuração
 
 Este guia fornece respostas detalhadas às recomendações de FedRAMP (FRR-RSC-03 a FRR-RSC-08) para Adobe Learning Manager (ALM). Ele descreve as práticas recomendadas de segurança, padrões seguros recomendados e ferramentas para auditoria, exportação e gerenciamento de configurações de contas privilegiadas. O documento foi desenvolvido para administradores e equipes de conformidade para garantir a configuração e o gerenciamento seguros de contas do ALM.
 
@@ -35,10 +35,10 @@ Dois tipos de conta privilegiada da Adobe Learning Manager: administrador person
 
 **Referências**:
 
-* [Funções personalizadas | Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/custom-role)
-* [Gerenciar funções personalizadas via CSV | Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/configure-role-csv-files)
-* [Manual do desenvolvedor de aplicativos | Adobe Learning Manager][https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual]
-* [Conectores do Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/connectors)
+* [Funções personalizadas | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [Gerenciar funções personalizadas via CSV | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/configure-role-csv-files)
+* [Manual do desenvolvedor de aplicativos | Adobe Learning Manager][https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual]
+* [Conectores do Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)
 
 +++
 
@@ -69,9 +69,9 @@ O Adobe Learning Manager documenta padrões seguros específicos recomendados pa
 
 **Referências**:
 
-* [Configurações | Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/custom-role)
-* [Autenticação e senhas de usuário seguras | Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/authentication-settings.html)
-* [Funções personalizadas | Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/custom-role)
+* [Configurações | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [Autenticação e senhas de usuário seguras | Adobe Admin Console](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
+* [Funções personalizadas | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +95,7 @@ O Adobe Learning Manager não tem um painel de comparação dedicado que mostre 
 
 **Referência**
 
-* [Manual do desenvolvedor de aplicativos | Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual)
+* [Manual do desenvolvedor de aplicativos | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +122,7 @@ O Adobe Learning Manager oferece suporte à exportação de dados de configuraç
 
 **Referência**
 
-* [Manual do desenvolvedor de aplicativos | Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual)
+* [Manual do desenvolvedor de aplicativos | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -156,7 +156,7 @@ No momento, a Adobe Learning Manager não publica o Guia de configuração segur
 
 Não há nenhuma definição de componente OSCAL, linha de base YAML ou arquivo de política JSON publicamente disponível que codifique os padrões seguros recomendados para o Adobe Learning Manager.
 
-Os clientes que precisam de comparação automatizada das configurações atuais em relação às linhas de base recomendadas devem usar a [API REST ALM](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual) para recuperar os dados de configuração atuais no formato JSON.
+Os clientes que precisam de comparação automatizada das configurações atuais em relação às linhas de base recomendadas devem usar a [API REST ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) para recuperar os dados de configuração atuais no formato JSON.
 
 +++
 
@@ -189,8 +189,8 @@ A Adobe Learning Manager mantém um histórico de versões detalhado e disponív
 
 **Referências**:
 
-* [Notas de versão do Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/release-notes)
-* [Novidades no Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/whats-new-july-2024)
-* [Descontinuações de API no Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/api-deprecations-list)
+* [Notas de versão do Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)
+* [Novidades no Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-july-2024)
+* [Descontinuações de API no Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/api-deprecations-list)
 
 +++
