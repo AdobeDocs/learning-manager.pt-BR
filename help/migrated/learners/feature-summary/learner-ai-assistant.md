@@ -1,11 +1,11 @@
 ---
-description: O Assistente de IA (beta) para alunos é um complemento de bate-papo viabilizado por GenAI no Adobe Learning Manager que ajuda os alunos a obter respostas rápidas e precisas de seu conteúdo de aprendizado atribuído. Usando consultas de linguagem natural, os alunos podem recuperar instantaneamente respostas focadas com citações claras, facilitando a localização das informações certas, a verificação das fontes e o aprendizado de forma eficiente sem pesquisar em cursos inteiros.
+description: Obtenha respostas rápidas e precisas do seu conteúdo de aprendizado com o Assistente de IA do Adobe Learning Manager.
 jcr-language: en_us
 title: Assistente do AI para alunos no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 583074cf56b7c468d0027ea6bb4ed500f57e5421
+source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
