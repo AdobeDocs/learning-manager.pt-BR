@@ -4,10 +4,10 @@ title: Instalar pacote do Salesforce
 description: O Learning Manager oferece um pacote do aplicativo Salesforce. Depois de instalados e configurados no SFDC, os funcionários de vendas podem executar suas atividades de treinamento no portal do SFDC. Este aplicativo permite que os usuários do SFDC explorem novos treinamentos, visualizem recomendações e as consumam diretamente no portal do SFDC. Os usuários também recebem os comunicados enviados pelos administradores na forma de cabeçalhos diretamente no aplicativo no portal do SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: d998e8f55c64a47de3d6171c0e2a82070021c98f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 47%
+source-wordcount: '1065'
+ht-degree: 64%
 
 ---
 
@@ -47,10 +47,10 @@ Se quiser instalar o pacote, primeiro exclua o pacote existente no Salesforce. A
 >
 >O aplicativo Adobe Learning Manager só é compatível com a exibição Lightning do Salesforce.
 
-1. Inicie a [url do pacote do Learning Manager](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
+1. Inicie a [url do pacote do Learning Manager](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS).
 1. Na página **Logon**, clique em **[!UICONTROL Usar domínio personalizado]**.
-1. Insira a URL do pacote e clique em **[!UICONTROL Continuar]**. A página de instalação deve ter a opção Instalar somente para administradores selecionada. Não altere essa opção.
-1. Clique em **[!UICONTROL Instalar]**. Após a instalação do pacote, clique em **[!UICONTROL Concluído]**. Você é guiado até a página Pacotes instalados e poderá ver o pacote instalado do Adobe Learning Manager.
+1. Insira o URL do pacote e clique em **[!UICONTROL Continuar]**. A página de instalação deve ter a opção Instalar somente para administradores selecionada. Não altere essa opção.
+1. Clique em **[!UICONTROL Instalar]**. Depois que o pacote for instalado, clique em **[!UICONTROL Concluído]**. Você é guiado até a página Pacotes instalados e poderá ver o pacote instalado do Adobe Learning Manager.
 
 1. Acesse o Inicializador de aplicativos (ao lado de Configuração) e procure o Adobe Learning Manager.
 1. Para configurar o aplicativo, clique em **[!UICONTROL Configurar]**.
@@ -71,7 +71,7 @@ Se quiser instalar o pacote, primeiro exclua o pacote existente no Salesforce. A
 
 1. No canto superior direito da página, clique em **[!UICONTROL Instalação]**.
 1. Em **Localização Rápida**, procure Configurações de Site Remoto.
-1. Clique em **[!UICONTROL Novo Site Remoto]**.
+1. Clique em **[!UICONTROL Novo site remoto]**.
 1. Insira os detalhes:
 
    1. **Nome do site remoto:** insira um nome de sua escolha.
@@ -93,7 +93,7 @@ Para adicionar o domínio Adobe a URLs confiáveis, siga estas etapas:
 
 ### Ativar notificações para o aplicativo Learning Manager
 
-1. No canto superior direito, clique em **Instalação**.
+1. No canto superior direito, clique em **Configuração**.
 1. Procure Notificações personalizadas.
 1. Clique em **[!UICONTROL Novo]**.
 1. Insira os seguintes detalhes:
@@ -113,7 +113,7 @@ Para adicionar o domínio Adobe a URLs confiáveis, siga estas etapas:
 
 ### Desinstalar o Learning Manager do Salesforce
 
-1. No aplicativo Salesforce, acesse Pacotes instalados.
+1. No aplicativo Salesforce, vá para Pacotes instalados.
 1. Clique em **[!UICONTROL Desinstalar]**.
 
 ## Configurar o Learning Manager para usuários do Salesforce
