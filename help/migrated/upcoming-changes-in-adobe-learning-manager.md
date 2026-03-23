@@ -2,10 +2,10 @@
 title: Novidades na versão de abril de 2026 do Adobe Learning Manager
 description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes na versão de abril de 2026 do Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
+source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
 workflow-type: tm+mt
-source-wordcount: '20211'
-ht-degree: 0%
+source-wordcount: '20175'
+ht-degree: 2%
 
 ---
 
@@ -24,49 +24,49 @@ Este documento resume os novos recursos, melhorias e atualizações na versão d
 
 **Para professores:** gere códigos QR para registro de instância e presença de sessão. Adicione comentários ou feedback durante a avaliação da lista de verificação.
 
-**Relatórios e análises:** o conteúdo do SCORM agora pode relatar várias tentativas de questionário nos relatórios L2. O tempo de aprendizado gasto no cálculo foi aprimorado nas transcrições do aluno. Os relatórios de transcrição de aprendizado dos administradores são atualizados. Os aprimoramentos de pesquisa avançada estão disponíveis.
+**Relatórios e análises:** o conteúdo do SCORM agora pode relatar várias tentativas de questionário nos relatórios L2. O tempo de aprendizado gasto no cálculo foi aprimorado nas transcrições do aluno. Os relatórios de transcrição de aprendizado dos administradores são atualizados. Aprimoramentos de pesquisa avançada estão disponíveis.
 
-## Navegação do Fluidic Player: mostrar o nome do próximo módulo
+## Navegação no Fluidic Player: mostra o nome do próximo módulo
 
 ### Visão geral
 
-Esse aprimoramento já foi incluído na versão de novembro de 2025 do Adobe Learning Manager.
+Esse aprimoramento já estava incluído na versão de novembro de 2025 do Adobe Learning Manager.
 
-A ação &quot;Próximo&quot; no reprodutor indica o que acontecerá quando clicado ao exibir o nome do próximo módulo ou curso e sinalizar explicitamente quando o aluno estiver prestes a sair do reprodutor.
+A ação “Próximo” no reprodutor indica o que acontecerá quando clicado exibindo o nome do próximo módulo ou curso e sinalizando explicitamente quando o aluno estiver prestes a sair do reprodutor.
 
 ### Novidades
 
-**&quot;Próximo Módulo: {ModuleName}&quot; rótulo no reprodutor**
+**Rótulo “Próximo Módulo: {ModuleName}” no reprodutor**
 
 O ícone Próximo no Fluidic Player agora mostra o nome do próximo módulo no curso. Por exemplo, Próximo módulo: Lição 2 - Introdução.
 
-Isso se aplica onde quer que o aluno esteja mudando de um módulo para o próximo no mesmo curso.
+Isso se aplica onde quer que o aluno esteja mudando de um módulo para o outro no mesmo curso.
 
 **Limpar ação de saída no último módulo**
 
-Quando o aluno estiver no último módulo de um curso, um novo botão de ação Sair será exibido, indicando que clicar nele fechará o reprodutor e o retornará ao contexto do curso.
+Quando o aluno está no último módulo de um curso, um novo botão de ação Sair é exibido, indicando que ao clicar nele, o reprodutor será fechado e ele retornará ao contexto do curso.
 
 **Comportamento responsivo para conteúdo móvel e PDF**
 
-Em janelas de visualização menores (por exemplo, ~largura de 320 px), o rótulo Próximo pode ser encurtado ou oculto, mostrando somente o ícone, para evitar sobreposições com controles PDF.
+Em viewports menores (por exemplo, largura de ~320 px), o rótulo Próximo pode ser encurtado ou oculto, mostrando apenas o ícone, para evitar a sobreposição com controles de PDF.
 
-Para módulos do PDF, o reprodutor ajusta os controles para uma linha separada, de modo que os rótulos de navegação e os controles do PDF não interfiram entre si.
+Para módulos de PDF, o reprodutor ajusta os controles para uma linha separada, de modo que os rótulos de navegação e os controles de PDF não interfiram uns nos outros.
 
-**Atualização de Administrador > Marcas > Visualização do player**
+**Atualização do administrador > Marca > Visualização do player**
 
-A visualização do reprodutor em Admin > Marca agora reflete o novo rótulo, por exemplo, Próximo módulo: Lição 2. Isso permite que os administradores vejam o comportamento de navegação atualizado.
+A visualização do reprodutor em Administrador > Marca agora reflete o novo rótulo, por exemplo, Próximo módulo: Lição 2. Isso permite que os administradores vejam o comportamento de navegação atualizado.
 
 ### Principais benefícios
 
-**Navegação mais clara para alunos**
+**Navegação mais clara para os alunos**
 
-Os alunos não precisam mais adivinhar o que acontecerá quando selecionarem &quot;Próximo&quot;. O rótulo especifica claramente o que vem a seguir, seja um módulo ou um curso. Essa redução na ambiguidade ajuda a aliviar a hesitação e a confusão, especialmente em públicos-alvo de grande porte do setor de educação do cliente, onde muitos alunos podem não estar familiarizados com as interfaces LMS.
+Os alunos não precisam mais adivinhar o que acontecerá quando selecionarem “Próximo”. O rótulo especifica claramente o que vem a seguir, seja um módulo ou um curso. Essa redução na ambiguidade ajuda a aliviar a hesitação e a confusão, especialmente em grandes públicos de treinamento de clientes, onde muitos alunos podem não estar familiarizados com as interfaces LMS.
 
-**Taxas mais altas de conclusão do curso**
+**Taxas mais altas de conclusão de curso**
 
-Indicar claramente a próxima etapa (Próximo Módulo: {ModuleName}) e adicionar uma ação Sair distinta para o módulo final reduz a probabilidade de os alunos abandonarem o curso ou ignorarem a última etapa de conclusão.
+Indicar claramente a próxima etapa (Próximo Módulo: {ModuleName}) e adicionar uma ação Sair distinta para o módulo final reduz a probabilidade de os alunos abandonarem o curso ou negligenciarem a última etapa de conclusão.
 
-**Experiência do usuário mais previsível em todos os dispositivos**
+**Mais experiência previsível do usuário entre dispositivos**
 
 Os rótulos atualizados se alinham com o comportamento Próximo ou Anterior e os ícones no desktop, tablet e dispositivo móvel. As restrições de layout são respeitadas em todos os dispositivos e fluxos de PDF para que os controles permaneçam utilizáveis e acessíveis.
 
@@ -264,49 +264,49 @@ A empresa usa o ALM com:
 
 * Uma conta principal que possui os cursos canônicos, e
 
-* Contas de mesmo nível que adquirem conteúdo por meio de catálogos compartilhados.
+* Contas entre parceiros que adquirem conteúdo via catálogos compartilhados.
 
-Os alunos em contas entre parceiros precisam saber qual equipe corporativa criou um curso para direcionar as perguntas ou sugestões de melhoria corretamente.
+Os alunos em contas entre parceiros precisam saber qual equipe corporativa criou um curso para encaminhar perguntas ou sugestões de melhorias corretamente.
 
-Com esse aprimoramento:
+Com este aprimoramento:
 
 * Os cursos compartilhados agora exibem o nome correto do autor corporativo em contas entre parceiros.
 
 * A carga de suporte interno da empresa é reduzida porque os alunos e os administradores locais sabem com quem entrar em contato.
 
-#### Compartilhamento interno de várias unidades de negócios
+#### Compartilhamento de várias unidades de negócios internas
 
 Onde uma unidade de negócios organiza o aprendizado para outras:
 
-* A unidade de negócios proprietária pode ser identificada no campo do autor em todas as contas de consumo.
+* A unidade de negócios proprietária pode ser identificada no campo autor em todas as contas de consumo.
 
-* Os administradores locais de L&amp;D podem ver rapidamente se um curso é mantido localmente ou por outra unidade de negócios e colaborar de acordo.
+* Os administradores locais de L&amp;D podem ver rapidamente se um curso é mantido localmente ou por outra unidade de negócios e colaborar adequadamente.
 
-## Expor a data de expiração (desativação automática) do objeto de aprendizado nas APIs do aluno
+## Expor a data de expiração do objeto de aprendizado (desativação automática) nas APIs do aluno
 
 ### Visão geral
 
-Esse aprimoramento disponibiliza a data de desativação automática de um objeto de aprendizado (LO) diretamente pelas APIs do aluno da Adobe Learning Manager. Quando um curso, caminho de aprendizado ou certificação é configurado com uma data de expiração ou de aposentadoria automática, essas informações agora fazem parte dos dados do aprendizado retornados pelos principais pontos de acesso do aluno.
+Esse aprimoramento torna a data de desativação automática de um objeto de aprendizado (LO) disponível diretamente por meio das APIs do Adobe Learning Manager voltadas para o aluno. Quando um curso, caminho de aprendizado ou certificação é configurado com uma data de expiração ou de retirada automática, essas informações agora fazem parte dos dados do OA retornados pelos principais endpoints de aluno.
 
 ### Novidades
 
-#### Novo campo de expiração/desativação automática nas APIs do objeto de aprendizado do aluno
+#### Novo campo de expiração/desativação automática nas APIs do OA do aluno
 
-* As APIs do objeto de aprendizado do aluno (por exemplo, os endpoints que retornam objetos de aprendizado à experiência do aluno e às plataformas externas) agora incluem a data de expiração do objeto de aprendizado (a data de desativação automática configurada para esse objeto de aprendizado).
+* As APIs do OA do aluno (por exemplo, os pontos de extremidade que retornam os objetos de aprendizado à experiência do aluno e às plataformas externas) agora incluem a data de expiração do OA (a data de desativação automática configurada para esse objeto de aprendizado).
 
-* Esse campo é retornado como parte da entidade de LO em respostas como:
+* Este campo é retornado como parte da entidade de OA em respostas como:
 
-   * Obter objeto de aprendizado (detalhes do LO).
+   * Obter objeto de aprendizado (detalhes do OA).
 
-   * Dados de LO usados para preencher a página inicial, o catálogo e os resultados da pesquisa do aluno.
+   * Dados do OA usados para preencher a página inicial do aluno, o catálogo e os resultados de pesquisa.
 
-* O campo complementa o completionDeadline existente que já existe no nível da instância; o novo campo é especificamente a data de baixa automática de nível baixo.
+* O campo complementa o completionDeadline existente que já existe no nível de instância; o novo campo é especificamente a data de desativação automática no nível de OA.
 
-#### Disponibilidade em experiências de aluno com suporte de pesquisa
+#### Disponibilidade em experiências do aluno apoiadas por pesquisa
 
-Como a data de expiração é exposta como parte da representação do objeto de aprendizado com suporte de pesquisa, ela agora está disponível em qualquer lugar que o ALM ou uma plataforma externa use:
+Como a data de expiração é exposta como parte da representação do LO suportada pela pesquisa, ela agora está disponível em qualquer lugar que o ALM ou uma plataforma externa use:
 
-* APIs de pesquisa ou
+* pesquisar APIs ou
 
 * catálogos orientados por pesquisa e sugestões para criar visualizações do aluno.
 
@@ -316,43 +316,43 @@ O aprimoramento se aplica somente às APIs do aluno.
 
 ### Principais benefícios
 
-#### Experiência do aluno com reconhecimento de expiração em LXPs personalizados
+#### Experiência do aluno sensível à expiração em LXPs personalizados
 
-Para grandes e médias empresas, seu LXP personalizado agora pode obter informações de expiração do LO diretamente do ALM, permitindo:
+Para grandes e médias empresas, seu LXP personalizado agora pode obter informações de expiração do LO diretamente do ALM, permitindo que elas:
 
-* Mostre os rótulos &quot;Expirando em {date}&quot; ou &quot;Expirando em breve&quot; nos cartões de curso e nas páginas de detalhes.
+* Mostrar rótulos “Expirando em {date}” ou “Expirando em breve” nos cartões do curso e nas páginas de detalhes.
 
-* Comunique-se com urgência com mais clareza, para que os alunos priorizem o treinamento que está prestes a se aposentar.
+* Comunique-se com a urgência com mais clareza, para que os alunos priorizem o treinamento que está prestes a se aposentar.
 
-Isso é particularmente importante para conformidade ou treinamento de produto com limite de tempo, em que os objetos de aprendizado são atualizados regularmente e as versões mais antigas são removidas.
+Isso é particularmente importante para o treinamento de conformidade ou produtos com limite de tempo, em que os objetos de aprendizado são atualizados regularmente e as versões mais antigas são desativadas.
 
-#### Melhores orientações para os alunos sobre os treinamentos a serem realizados agora
+#### Melhor orientação para os alunos sobre quais treinamentos fazer agora
 
-Ao expor a expiração do objeto de aprendizado, a experiência do aluno pode:
+Ao expor a expiração do OA, a experiência do aluno pode:
 
-* Destaque os cursos que ainda são válidos, mas que estão prestes a serem retirados.
+* Destaque os cursos que ainda são válidos em comparação com os que serão desativados.
 
-* Ajude os alunos a evitar se inscrever em treinamentos que não estarão mais disponíveis ou serão válidos em um futuro próximo.
+* Ajude os alunos a evitarem se inscrever em treinamentos que não estarão mais disponíveis ou serão válidos em um futuro próximo.
 
-#### Coerência com os dados existentes do prazo de conclusão
+#### Coerência com os dados existentes relativos ao prazo de conclusão
 
-Anteriormente, as APIs de aluno já apresentavam o prazo de conclusão no nível da instância, mas não a data de baixa automática no nível de aprendizado. Com esta alteração:
+Anteriormente, as APIs do aluno já apresentavam o prazo de conclusão no nível da instância, mas não a data de desativação automática no nível do OA. Com esta alteração:
 
 Os seguintes aspectos de um treinamento estão disponíveis:
 
-* &quot;Quando devo concluir essa instância?&quot; (prazo de conclusão).
+* “Quando devo terminar esta instância?” (prazo de conclusão).
 
-* &quot;Até quando esse treinamento é oferecido?&quot; (desativação automática/data de expiração).
+* “Até quando esse treinamento é oferecido?” (desativação automática/data de expiração).
 
 ### Casos de uso
 
 #### Uma empresa global com gerenciamento rigoroso do ciclo de vida do curso
 
-As empresas que regularmente removem e substituem cursos (por exemplo, atualizações de normas, produtos ou metodologias) podem:
+Empresas que regularmente aposentam e substituem cursos (por exemplo, atualizações normativas, de produtos ou de metodologia) podem:
 
-* Evite a confusão do aluno sobre a descontinuação de um treinamento.
+* Evite confusão do aluno sobre se um treinamento está sendo descontinuado.
 
-* Direcione os alunos para as ofertas mais atuais e duradouras.
+* Orientar os alunos para as ofertas mais atuais e duradouras.
 
 Seus portais personalizados e ferramentas internas agora podem ler a data de expiração diretamente do ALM por meio das APIs do aluno.
 
@@ -1251,7 +1251,7 @@ GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,
 Onde:
 
 * loId é a ID do objeto de aprendizado (por exemplo, curso:12345).
-* enforcedFields[learningObject] instrui a API a incluir explicitamente produtos e funções para esse LO.
+* enforcedFields[learningObject] instructs the API to explicitly include products and roles for that LO.
 
 Isso é feito garantindo que as associações de produto e função do OA estejam presentes na resposta quando solicitadas por meio de enforcedFields. A resposta contém, em atributos, os metadados de produto e função necessários para calcular ou expor os produtos (rec\_products) e funções (rec\_roles) recomendados para o Experience Builder e outros consumidores.
 
@@ -1270,7 +1270,7 @@ O JSON do LO retornado tem a mesma estrutura básica de antes, mas agora você p
 
 **Finalidade**
 
-O conector TDA (Acesso a dados de treinamento) e as implementações sem periféricos geralmente precisam executar uma sincronização incremental, com base na **data de modificação efetiva** dos objetos de aprendizado. Até esta versão, as ajudas de tarefa (do tipo OA, ajuda de tarefa) não eram tratadas corretamente quando combinadas com os filtros effectiveModifiedDate. Esta versão corrige isso para que as ajudas de tarefa possam ser sincronizadas incrementalmente, como cursos e programações de aprendizado.
+The Training Data Access (TDA) connector and headless implementations often need to perform incremental synchronization, based on the **effective modification date** of learning objects. Até esta versão, as ajudas de tarefa (do tipo OA, ajuda de tarefa) não eram tratadas corretamente quando combinadas com os filtros effectiveModifiedDate. Esta versão corrige isso para que as ajudas de tarefa possam ser sincronizadas incrementalmente, como cursos e programações de aprendizado.
 
 **Ponto de extremidade e comportamento**
 
@@ -1530,7 +1530,7 @@ Como os visitantes não conectados ainda não têm um perfil ALM, é útil criar
 1. Use uma **página inicial não conectada** que explique brevemente para quem é a sua academia e mostre um pequeno número de pontos de entrada de segmento (por exemplo, “Desenvolvedores”, “Profissionais de marketing”, “Parceiros”, “Novos funcionários”). Isso pode ser feito com um widget Categorias ou uma caixa de Conteúdo ou seção HTML simples com botões.
 2. Para cada segmento, crie uma **página dedicada não conectada** no Experience Builder. Nessa página, use um ou mais widgets Cursos e caminhos configurados com filtros que representem o que é “recomendado” para esse grupo. Por exemplo, para “Desenvolvedores” você pode filtrar em:
    1. Catalog = “Treinamento público”
-   2. Produto = &quot;Adobe Experience Manager&quot;
+   2. Produto = “Adobe Experience Manager”
    3. Tags = “Fundamentos do desenvolvedor”
 3. Use essas páginas de segmento como destino de suas campanhas de marketing e como destino dos blocos na home page não conectada.
 
@@ -1730,6 +1730,7 @@ O suporte a Faixas de texto de vídeo (VTT) multilíngues no Adobe Learning Mana
 
 ### Principais recursos
 
+* **Geração automática de VTT:** carregue um arquivo de vídeo ou áudio e gere automaticamente legendas VTT no idioma original.
 * **Tradução em vários idiomas:** traduza legendas para qualquer um dos 39 idiomas diferentes do inglês com suporte.
 * **Revisão e edição no aplicativo:** revise, edite e baixe arquivos VTT antes de publicar.
 * **Notificações:** receba notificações no aplicativo quando a geração e tradução de VTT estiverem concluídas.
@@ -1737,9 +1738,9 @@ O suporte a Faixas de texto de vídeo (VTT) multilíngues no Adobe Learning Mana
 
 ### Fazer upload de conteúdo e gerar VTT
 
-1. Vá para a Biblioteca de Conteúdo e selecione **Adicionar > Conteúdo**.
+1. Vá para a Biblioteca de Conteúdo e selecione **Adicionar Conteúdo**.
 2. Carregue o arquivo MP3 ou MP4.
-3. Na caixa de diálogo de carregamento, selecione a opção para **Gerar Traduções**.
+3. Na caixa de diálogo de carregamento, selecione a opção para **Gerar Conversão**.
 4. Selecione o idioma do conteúdo original (o padrão é o idioma do arquivo).
 5. Selecione idiomas de destino adicionais para tradução (até 39 compatíveis).
 6. Selecione **Salvar**. O sistema começa a gerar e traduzir arquivos VTT.
@@ -1954,10 +1955,7 @@ Esse recurso permite que os revisores adicionem comentários ou feedback durante
 
 ## Aprimoramentos de pesquisa avançada
 
-Os resultados da pesquisa em Pesquisa avançada agora são mais precisos e relevantes. As correspondências de palavras-chave exatas são classificadas mais alto na pesquisa de conteúdo e nos metadados, facilitando para os alunos encontrar exatamente o que estão procurando.
-
-Os alunos agora também podem ver os objetos de aprendizado inscritos nos resultados de pesquisa, mesmo que não façam parte de um catálogo acessível, garantindo que nenhum conteúdo relevante seja perdido. Além disso, a classificação da ajuda de tarefa foi aprimorada tanto na pesquisa avançada quanto na pesquisa de conteúdo, trazendo à tona os recursos mais relevantes mais rapidamente.
-
+Esta versão inclui melhoria na pesquisa de conteúdo ao mostrar os cursos com correspondência de conteúdo com consulta mais alta em classificação. Além disso, as ajudas de tarefa agora estão incluídas no ranking de pesquisa avançada.
 
 ## Equivalentes e suplentes
 
@@ -2458,4 +2456,3 @@ O sistema distingue entre conclusão real e conclusão alternativa de modo que:
 * Se o relacionamento entre a origem e o destino for removido ou alterado, o ALM poderá remover ou ajustar as conclusões alternativas sem tocar nas conclusões originais, desde que as conclusões retroativas estejam habilitadas para a conta.
 
 As conclusões alternativas são projetadas para não interferir na atividade real do aluno no treinamento de destino. Eles atuam como uma sobreposição que pode ser revisada se os relacionamentos mudarem.
-
