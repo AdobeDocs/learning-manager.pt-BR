@@ -1388,11 +1388,11 @@ Antes de incluir na lista de permissões um domínio personalizado para usuário
 
 1. O domínio personalizado é configurado para sua conta ALM (por exemplo, DNS para academy.yourcompany.com aponta para Adobe / Akamai e certificados são provisionados).
 2. O **conector TDA (Acesso a Dados de Treinamento)** está habilitado para a conta.
-3. O recurso **Experience Builder** não conectado está habilitado (lado Adobe).
+3. O recurso do **Experience Builder** não conectado está habilitado (lado Adobe).
 
 Essas etapas garantem que:
 
-* Sua conta tem um JSON **de conta não conectado (geralmente referenciado como accountConfig / experienceBuilderConfig), que inclui campos como cpDomain, almDomain, almCdnBaseUrl, esBaseUrl e domínios com permissão listada.**
+* Sua conta tem uma **conta JSON** não conectada (geralmente referenciada como accountConfig / experienceBuilderConfig), que inclui campos como cpDomain, almDomain, almCdnBaseUrl, esBaseUrl e domínios com permissão listada.
 * A pilha não conectada sabe onde fornecer dados e de que domínios deve aceitar solicitações.
 
 #### Como funciona a listagem de permissões
@@ -1401,7 +1401,7 @@ A lista de permissões é armazenada na configuração que o TDA exporta e a pil
 
 * Os domínios do ALM (cpDomain, almDomain).
 * A **URL base da CDN** para conteúdo não conectado (almCdnBaseUrl).
-* A **URL de base de pesquisa pública** (esBaseUrl).
+* A **URL base de pesquisa pública** (esBaseUrl).
 * A lista de domínios que podem fazer chamadas públicas não conectadas para essa conta.
 
 Para que o Experience Builder não conectado funcione em um domínio personalizado:
@@ -1409,7 +1409,7 @@ Para que o Experience Builder não conectado funcione em um domínio personaliza
 * O navegador deve carregar o HTML não conectado desse domínio personalizado (ou do domínio CDN não conectado ao ALM, dependendo da sua configuração).
 * Chamadas desse domínio para os endpoints públicos ES e CDN devem ser aceitas. Isso só acontece se o domínio estiver presente na lista de permissões.
 
-Esta versão adiciona um novo domínio CDN não conectado, cpcontents.adobe.com, e especifica que ele deve ser colocado nos **domínios listados de permissão** no conector TDA. Para usuários nativos não conectados, isso requer uma atualização.
+Esta versão adiciona um novo domínio CDN não conectado, cpcontents.adobe.com, e especifica que ele deve ser colocado nos **domínios listados por permissão** no conector TDA. Para usuários nativos não conectados, isso requer uma atualização.
 
 #### Permitir listagem de um domínio personalizado
 
