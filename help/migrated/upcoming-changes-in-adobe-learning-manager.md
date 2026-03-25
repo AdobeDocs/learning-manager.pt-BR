@@ -2,9 +2,9 @@
 title: Novidades na versão de abril de 2026 do Adobe Learning Manager
 description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes na versão de abril de 2026 do Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
+source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
 workflow-type: tm+mt
-source-wordcount: '20175'
+source-wordcount: '20997'
 ht-degree: 2%
 
 ---
@@ -1388,11 +1388,11 @@ Antes de incluir na lista de permissões um domínio personalizado para usuário
 
 1. O domínio personalizado é configurado para sua conta ALM (por exemplo, DNS para academy.yourcompany.com aponta para Adobe / Akamai e certificados são provisionados).
 2. O **conector TDA (Acesso a Dados de Treinamento)** está habilitado para a conta.
-3. O recurso do **Experience Builder** não conectado está habilitado (lado Adobe).
+3. O recurso **Experience Builder** não conectado está habilitado (lado Adobe).
 
 Essas etapas garantem que:
 
-* Sua conta tem uma **conta JSON** não conectada (geralmente referenciada como accountConfig / experienceBuilderConfig), que inclui campos como cpDomain, almDomain, almCdnBaseUrl, esBaseUrl e domínios com permissão listada.
+* Sua conta tem um JSON **de conta não conectado (geralmente referenciado como accountConfig / experienceBuilderConfig), que inclui campos como cpDomain, almDomain, almCdnBaseUrl, esBaseUrl e domínios com permissão listada.**
 * A pilha não conectada sabe onde fornecer dados e de que domínios deve aceitar solicitações.
 
 #### Como funciona a listagem de permissões
@@ -1401,7 +1401,7 @@ A lista de permissões é armazenada na configuração que o TDA exporta e a pil
 
 * Os domínios do ALM (cpDomain, almDomain).
 * A **URL base da CDN** para conteúdo não conectado (almCdnBaseUrl).
-* A **URL base de pesquisa pública** (esBaseUrl).
+* A **URL de base de pesquisa pública** (esBaseUrl).
 * A lista de domínios que podem fazer chamadas públicas não conectadas para essa conta.
 
 Para que o Experience Builder não conectado funcione em um domínio personalizado:
@@ -1409,7 +1409,7 @@ Para que o Experience Builder não conectado funcione em um domínio personaliza
 * O navegador deve carregar o HTML não conectado desse domínio personalizado (ou do domínio CDN não conectado ao ALM, dependendo da sua configuração).
 * Chamadas desse domínio para os endpoints públicos ES e CDN devem ser aceitas. Isso só acontece se o domínio estiver presente na lista de permissões.
 
-Esta versão adiciona um novo domínio CDN não conectado, cpcontents.adobe.com, e especifica que ele deve ser colocado nos **domínios listados por permissão** no conector TDA. Para usuários nativos não conectados, isso requer uma atualização.
+Esta versão adiciona um novo domínio CDN não conectado, cpcontents.adobe.com, e especifica que ele deve ser colocado nos **domínios listados de permissão** no conector TDA. Para usuários nativos não conectados, isso requer uma atualização.
 
 #### Permitir listagem de um domínio personalizado
 
@@ -2456,3 +2456,91 @@ O sistema distingue entre conclusão real e conclusão alternativa de modo que:
 * Se o relacionamento entre a origem e o destino for removido ou alterado, o ALM poderá remover ou ajustar as conclusões alternativas sem tocar nas conclusões originais, desde que as conclusões retroativas estejam habilitadas para a conta.
 
 As conclusões alternativas são projetadas para não interferir na atividade real do aluno no treinamento de destino. Eles atuam como uma sobreposição que pode ser revisada se os relacionamentos mudarem.
+
+## Alterações no relatório de transcrições de aprendizado nesta versão
+
+### Coluna Método de Conclusão
+
+A coluna Método de conclusão indica como cada registro na transcrição do aluno do administrador foi concluído.
+
+Valores:
+
+* Direto (para términos diretos)
+* Alternativa (para conclusões obtidas por meio de relacionamentos alternativos)
+* Alternativa Revogada (quando todas as conclusões alternativas são revogadas devido à inconclusão retroativa e remoção de relacionamento)
+
+>[!NOTE]
+>
+>Essa coluna não é visível no LT do aluno; ela só está disponível no LT do administrador para fins de relatório e rastreamento.
+
+#### Impacto
+
+Permite trilhas de auditoria, controle de conformidade e transparência claras para administradores em relação à forma como um curso foi concluído.
+
+### Controle de conclusão alternativo em transcrições do aluno
+
+As conclusões alternativas permitem que os alunos recebam crédito de conclusão para um curso de destino ou caminho de aprendizado quando tiverem concluído um curso ou caminho de origem equivalente, com base em relacionamentos estabelecidos.
+
+Na transcrição do aluno (LT), as conclusões alternativas afetam três colunas existentes: status, data de conclusão e origem da conclusão:
+
+* **Status**: o status pode ser Concluído mesmo se o aluno não tiver concluído diretamente o curso/caminho de destino, devido à conclusão alternativa. Outros status (Não Iniciado, Em Andamento, Não Inscrito) não são afetados pelas alternativas. Somente Concluído é afetado pelas alternativas.
+* **Data de conclusão**: a data de conclusão de uma conclusão alternativa é herdada do curso/caminho de origem que acionou a conclusão alternativa. Se o aluno concluir o destino diretamente posteriormente, a data será atualizada para refletir a conclusão direta.
+* **Origem da Conclusão**: esta coluna captura as IDs de treinamento do(s) curso(s) de origem ou caminho(s) que forneceram a conclusão alternativa. Se várias origens estiverem ativas, todas as IDs relevantes serão listadas; se as origens forem revogadas (com inconclusão retroativa ativada), somente as origens ativas permanecerão. A coluna Origem da Conclusão lista todas as IDs de treinamento de origem ativas (separadas por vírgulas) e, se houver várias origens, a data de conclusão mais antiga será usada.
+
+#### Impacto
+
+As conclusões alternativas reduzem a reconciliação manual, automatizam o rastreamento do progresso em programações de aprendizado e certificações e oferecem suporte aos requisitos de conformidade.
+
+>[!NOTE]
+>
+>As transcrições do aluno não exibem a coluna Método de conclusão; isso só está disponível no LT do administrador.
+
+### Lógica de data de conclusão para alternativas
+
+A coluna Data de conclusão na transcrição do aluno (LT) é um campo existente usado para registrar quando um aluno obtém a conclusão de um curso ou caminho de aprendizado, seja por meios diretos ou alternativos. Para conclusões alternativas, a data de conclusão é herdada do curso ou caminho de origem que acionou a conclusão alternativa. Isso significa que a data reflete quando o aluno concluiu a origem, não o destino.
+
+Se um aluno concluir posteriormente o curso ou o caminho de destino diretamente, a data de conclusão será atualizada para a data de conclusão direta, substituindo a data de conclusão alternativa anterior.
+
+Não há nenhuma nova coluna adicionada para datas de conclusão alternativas; a coluna Data de Conclusão existente é usada para conclusões diretas e alternativas. Nos casos em que várias origens podem fornecer uma conclusão alternativa para um destino, a primeira data de conclusão alternativa ativa entre as origens é usada. Se uma origem for revogada (com inconclusão retroativa ativada), a data de conclusão será atualizada para a próxima origem ativa mais antiga ou será limpa se nenhuma origem ativa permanecer.
+
+#### Impacto
+
+A lógica da data de conclusão garante o rastreamento histórico preciso e a consistência nos relatórios, especialmente quando conclusões alternativas são revogadas ou atualizadas.
+
+### Conclusões alternativas revogadas
+
+As conclusões alternativas revogadas ocorrem quando a conclusão alternativa de um aluno para um curso ou caminho de aprendizado de destino é removida devido à revogação de todos os relacionamentos de origem, desde que a inconclusão retroativa esteja ativada na conta.
+
+#### Condições de acionamento
+
+* A inconclusão retroativa deve ser ativada para a conta; caso contrário, a remoção dos relacionamentos de origem não revogará conclusões alternativas.
+* A revogação ocorre somente quando todos os relacionamentos de origem ativos de um destino são removidos. Se pelo menos uma origem permanecer, o preenchimento alternativo persiste e a coluna de origem do preenchimento é atualizada para refletir apenas as origens ativas restantes.
+
+#### Impacto
+
+* Status: Se todas as conclusões alternativas forem revogadas e não houver conclusão direta, o status será atualizado (por exemplo, de Concluído para Não Iniciado ou Em Andamento, conforme apropriado).
+* Data de conclusão: A data de conclusão será limpa se nenhuma origem ativa permanecer e o aluno não tiver concluído o destino diretamente.
+* Origem da Conclusão: A coluna origem da conclusão é atualizada para remover as origens revogadas; se todas forem revogadas, ela é apagada.
+
+Se o aluno tiver uma conclusão direta, revogar as alternativas não afetará seu status concluído ou data de conclusão.
+
+**Observação**:
+
+1. Se várias fontes fornecerem conclusão alternativa e apenas algumas forem revogadas, o LT refletirá as fontes ativas restantes e sua data de conclusão mais antiga.
+2. Se todas as origens forem revogadas e não houver conclusão direta, o aluno perderá o status de conclusão do destino.
+
+### Relatórios aprimorados para comentários do revisor da lista de verificação
+
+Os comentários do revisor nos módulos de lista de verificação agora estão incluídos no relatório LT em uma coluna renomeada Comentários do revisor.
+
+#### Impacto
+
+Os alunos e os administradores podem ver um feedback consolidado, melhorando a transparência e apoiando a avaliação do desempenho.
+
+### Cálculo de tempo de aprendizado aprimorado
+
+O relatório LT agora usa uma lógica refinada para distinguir entre o tempo ativo e ocioso gasto em módulos de aprendizado, com base na atividade do usuário e no foco da guia.
+
+#### Impacto
+
+Fornece uma medição mais precisa do envolvimento de aprendizado, suportando a conformidade e a análise.
