@@ -2,9 +2,9 @@
 title: Novidades na versão de abril de 2026 do Adobe Learning Manager
 description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes na versão de abril de 2026 do Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
+source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
 workflow-type: tm+mt
-source-wordcount: '20997'
+source-wordcount: '20223'
 ht-degree: 2%
 
 ---
@@ -366,78 +366,6 @@ Ter datas de expiração na API do LO permite que os criadores de experiência:
 
 * Crie campanhas da “Última chance de concluir”.
 
-## Suporte a vários idiomas para ajudas de tarefa
-
-### Visão geral
-
-O aprimoramento estende o modelo de localização do Adobe Learning Manager às ajudas de tarefa, permitindo que os autores anexem diferentes arquivos de conteúdo por idioma a uma única ajuda de tarefa. Em vez de criar ajudas de tarefa separadas para cada idioma, os autores agora podem gerenciar todas as versões localizadas como uma ajuda de tarefa lógica.
-
-### Novidades
-
-#### Upload de conteúdo específico do idioma para ajudas de tarefa
-
-Os autores podem anexar arquivos diferentes por idioma suportado a uma única ajuda de tarefa, como cursos e outros OAs.
-
-A experiência de criação/edição de ajuda de tarefa agora oferece suporte a:
-
-* Selecionando um idioma.
-
-* Fazer upload do arquivo específico de idioma para esse idioma na mesma entidade de ajuda de tarefa.
-
-#### Manuseio consistente de idioma na interface do usuário do reprodutor e do aluno
-
-O Fluidic Player foi atualizado para que, quando um aluno abrir uma ajuda de tarefa, a variante de conteúdo correspondente ao idioma do aluno seja exibida (quando disponível).
-
-Administradores e autores podem visualizar ajudas de tarefa como objetos únicos com variantes de idioma, em vez de itens separados por idioma.
-
-### Principais benefícios
-
-#### Ajuda de tarefa única para todos os idiomas
-
-Os autores podem evitar a criação de ajudas de tarefa separadas por idioma.
-
-Todas as variantes de idioma da mesma ajuda de tarefa (por exemplo, um procedimento, SOP, PDF de lista de verificação ou guia de referência) podem ser gerenciadas em um só lugar.
-
-#### Melhor experiência para alunos globais
-
-Os alunos veem automaticamente a ajuda de tarefa em seu idioma preferido, o que significa que há:
-
-* Menos confusão sobre qual versão abrir.
-
-* Menos risco de acessar cópias fora do local ou desatualizadas.
-
-Isso é particularmente útil em organizações multilíngues, onde o mesmo processo ou documentação do produto deve estar disponível em vários idiomas.
-
-### Casos de uso
-
-#### Implantação global do conteúdo de referência
-
-Uma empresa precisa fornecer ajudas de tarefa em vários idiomas aos alunos em todo o mundo, como:
-
-* Fichas de referência do produto.
-
-* Listas de verificação do processo.
-
-* Livros de reprodução de suporte
-
-Em vez de criar ajudas de tarefa separadas, como “Início rápido do produto - EN”, “Início rápido do produto - DE”, “Início rápido do produto - JP”, etc., eles podem criar uma ajuda de tarefa, anexar arquivos localizados para cada idioma e permitir que o ALM forneça a versão correta para cada aluno com base nas configurações de idioma.
-
-#### Documentação voltada para o cliente ou parceiro em vários mercados
-
-Para academias de clientes e parceiros, as ajudas de tarefa podem incluir:
-
-* Folhas de produto
-
-* Guias de integração
-
-* Suporte a fluxos de trabalho
-
-Com ajudas de tarefa em vários idiomas:
-
-* Cada parceiro vê a versão localizada sem ser forçado a escolher entre as entradas específicas do idioma.
-
-* As equipes de marketing e capacitação podem gerenciar uma ajuda de tarefa por tópico em todos os locais.
-
 ## Definir restrição na hora de início do módulo
 
 ### Visão geral
@@ -560,60 +488,6 @@ Isso permite a análise do desempenho geral e do desempenho específico de pergu
 * **Observações de segurança e conformidade**: no setor de saúde, manufatura ou serviço de campo, as etapas críticas de segurança podem receber pontuações máximas mais altas, garantindo que a ausência de uma ação crítica de segurança tenha um impacto maior na pontuação total do que a ausência de uma etapa processual menor.
 
 * **Treinamento e calibração**: com o máximo de pontuações alcançadas por pergunta no relatório, os gerentes podem ver exatamente onde os alunos têm um desempenho inferior e calibrar os professores sobre como pontuar de forma consistente.
-
-## Suporte a vários idiomas para perguntas da lista de verificação
-
-### Visão geral
-
-O aprimoramento introduz suporte multilíngue para perguntas de listas de verificação, permitindo que os revisores avaliem e pontuem listas de verificação em seu idioma preferido. Esse recurso é particularmente útil em regiões multilíngues e implantações globais, pois permite que os autores criem perguntas de listas de verificação localizadas para cada idioma de conteúdo compatível, mantendo um único módulo de lista de verificação e um processo de avaliação consistente.
-
-No Adobe Learning Manager hoje:
-
-* Todos os módulos voltados para o aluno (SCORM, PDF, HTML etc.) podem ser fornecidos em vários idiomas de conteúdo, permitindo que os alunos escolham o idioma de sua preferência.
-
-* Em um módulo de lista de verificação, os revisores (professores/gerentes) avaliam os alunos com base nas perguntas definidas nessa lista de verificação.
-
-### Novidades
-
-**Criação**
-
-* Os autores agora podem adicionar perguntas da lista de verificação em todos os idiomas selecionados no nível do curso.
-
-* Para cada lista de verificação:
-
-   * Espera-se que o autor forneça um texto de pergunta equivalente em cada idioma de conteúdo no qual o curso existe.
-
-   * Os autores são responsáveis por garantir que o significado de cada pergunta seja consistente em todos os idiomas.
-
-**Experiência de revisão**
-
-* Os revisores verão as perguntas da lista de verificação e a interface de avaliação em seu idioma de conteúdo selecionado.
-
-* Quando uma pergunta é avaliada em um idioma:
-
-   * A avaliação (pontuação, Sim/Não, status) é logicamente a mesma em todos os idiomas. É uma lista de verificação única com várias visualizações de idioma, não listas de verificação separadas por idioma.
-
-**Relatórios**
-
-O relatório Lista de verificação exibirá o texto da pergunta no idioma do conteúdo do usuário:
-
-* Um administrador ou revisor que executa o relatório em cada idioma vê os nomes das perguntas localizadas para esse idioma.
-
-* As respostas e pontuações subjacentes permanecem as mesmas; apenas os rótulos de pergunta são traduzidos.
-
-### Principais benefícios
-
-* **Melhor experiência do revisor**: os revisores podem trabalhar inteiramente em seu próprio idioma, lendo perguntas e gravando avaliações sem barreiras linguísticas.
-
-* **Alinhamento regulamentar e de políticas**: em regiões com requisitos de igualdade de idioma (por exemplo, holandês/francês na Bélgica), as listas de verificação agora podem atender aos mesmos padrões de outros materiais de aprendizado, reduzindo o risco de conformidade.
-
-* **Lógica de avaliação consistente**: enquanto o texto está localizado, a avaliação e a pontuação são compartilhadas em todos os idiomas, garantindo que os resultados sejam comparáveis e gerenciados centralmente.
-
-### Casos de uso
-
-* As franquias de vários países que operam em vários idiomas podem implantar um único curso e uma lista de verificação, fornecendo ao mesmo tempo experiências de revisor localizadas em cada território.
-
-* Qualquer empresa global com professores locais (por exemplo, EMEA, LATAM, APAC) pode fazer com que os revisores trabalhem no idioma local enquanto compartilham o mesmo design e a mesma emissão de relatórios de lista de verificação global.
 
 ## Lista de verificação com recurso de comentários para revisor
 
