@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Documentação da API de interação do reprodutor incorporado
-description: Saiba mais sobre as várias APIs para ouvir eventos e acionar ações no reprodutor incorporado
+description: Saiba mais sobre as várias APIs para ouvir eventos e acionar ações no reprodutor incorporado do Adobe Learning Manager
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 3d183dc40e4d1962d25160b74d8cf6cfa26e3171
+source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 69%
+source-wordcount: '849'
+ht-degree: 70%
 
 ---
 
@@ -282,7 +282,7 @@ A biblioteca cpPlayerLib consiste nas seguintes funções:
 </tr>
 <tr>
 <td>Código de exemplo</td>
-<td>playerObj.changeLanguage("es")</td>
+<td>playerObj.changeLanguage(”es”)</td>
 </tr>
 </tbody>
 </table>
