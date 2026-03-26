@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Guia de práticas recomendadas para configurar o Learning Manager
 contentowner: jayakarr
 preview: true
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: d9ebd4dc2e20028dd795a26e790d1afe4c8dadf7
 workflow-type: tm+mt
-source-wordcount: '3387'
-ht-degree: 71%
+source-wordcount: '3402'
+ht-degree: 85%
 
 ---
 
@@ -31,19 +31,19 @@ Nesta etapa, presumimos que sua organização já recebeu a chave de licença e 
 
 ## Fase 1 - Configuração técnica (administrador de TI) {#phase1technicalsetupitadministrator}
 
-Na faixa 1, o administrador de TI da sua empresa pode mudar para a função de administrador de integração no aplicativo Learning Manager e executar algumas ativações e integrações da seguinte maneira:
+Na faixa 1, o administrador de TI da sua organização pode mudar para a função de administrador de integração no aplicativo Learning Manager e executar algumas ativações e integrações da seguinte maneira:
 
 ### Ativar/adicionar campos ativos (administrador do Learning Manager) {#enableaddactivefieldscaptivateprimeadministrator}
 
-Além dos campos ativos fornecidos pelos usuários durante o registro, o administrador pode adicionar mais campos ativos. O administrador também pode ativar/desativar os campos do usuário. Os valores desses campos ativos são gerados a partir dos metadados de várias fontes de dados associadas às contas de usuário. Consulte [Ajuda de Campos Ativos](feature-summary/add-users-user-groups.md#active-fields) para mais informações.
+Além dos campos ativos fornecidos pelos usuários durante o registro, o administrador pode adicionar mais campos ativos. O administrador também pode ativar/desativar os campos do usuário. Os valores desses campos ativos são gerados a partir dos metadados de várias fontes de dados associadas às contas de usuário. Consulte [Ajuda de campos ativos](feature-summary/add-users-user-groups.md#active-fields) para mais informações.
 
 ### Logon único (SSO) {#singlesignonsso}
 
-Você pode acessar o aplicativo Learning Manager usando a Adobe ID ou usando o logon único. O logon único é um mecanismo que permite que um usuário se autentique uma vez e obtenha acesso a vários aplicativos várias vezes. Esta configuração não é obrigatória para a empresa. Se sua empresa tiver um provedor de SSO com base no SAML 2.0, você pode usá-lo para configurar o aplicativo Learning Manager. A configuração é necessária na âmbito da empresa e no aplicativo Learning Manager. Se você optar por usar o SSO, entre em contato com o suporte de Adobe para receber as instruções de configuração. Consulte [Ajuda de Configurações](feature-summary/settings.md) para mais informações.
+Você pode acessar o aplicativo Learning Manager usando a Adobe ID ou usando o logon único. O logon único é um mecanismo que permite que um usuário se autentique uma vez e obtenha acesso a vários aplicativos várias vezes. Esta configuração não é obrigatória para a empresa. Se sua empresa tiver um provedor de SSO com base no SAML 2.0, você pode usá-lo para configurar o aplicativo Learning Manager. A configuração é necessária na âmbito da empresa e no aplicativo Learning Manager. Se você optar por usar o SSO, entre em contato com o suporte de Adobe para receber as instruções de configuração. Consulte [Ajuda de configurações](feature-summary/settings.md) para mais informações.
 
 ### Importação em massa de usuários {#bulkimportofusers}
 
-Quando você tem um grande volume de usuários em sua organização, pode importar todos os usuários em massa para o aplicativo Learning Manager usando um arquivo .CSV. Antes de realizar essa tarefa, sugerimos que você exporte a lista de usuários do aplicativo de RH da sua organização em um formato CSV. Mesmo que você não importe os usuários em massa nesse estágio, você pode se familiarizar com o formato CSV. Para começar com o processo de importação no Learning Manager, carregue o arquivo .CSV e mapeie os campos de dados do aplicativo com as colunas CSV da sua organização. Consulte [Ajuda de importação em massa](add-users-in-bulk.md) para obter mais informações.
+Quando você tem um grande volume de usuários em sua organização, pode importar todos os usuários em massa para o aplicativo Learning Manager usando um arquivo .CSV. Antes de realizar essa tarefa, sugerimos que você exporte a lista de usuários do aplicativo de RH da sua organização em um formato CSV. Mesmo que você não importe os usuários em massa nesse estágio, você pode se familiarizar com o formato CSV. Para começar com o processo de importação no Learning Manager, carregue o arquivo .CSV e mapeie os campos de dados do aplicativo com as colunas CSV da sua organização. Consulte [Ajuda de importação em massa](add-users-in-bulk.md) para mais informações.
 
 ### Integração do conector FTP {#ftpconnectorintegration}
 
@@ -67,17 +67,17 @@ O administrador do aplicativo Learning Manager em sua organização precisa inst
 
 ### Marca {#branding}
 
-Uma organização pode desejar exibir o logotipo da empresa no aplicativo Learning Manager, ter seu próprio domínio no URL, exibir o nome da organização e exibir esquemas de cores que correspondam à marca de uma organização. O Learning Manager permite que as organizações usem todos esses recursos. Se quiser personalizar as configurações e usar sua própria marca, clique na seção Marcas no painel esquerdo. Clique em Editar ao lado de todas essas opções e personalize de acordo com suas necessidades. Consulte a [Ajuda de temas e marcas](feature-summary/themes.md) para mais informações.
+Uma organização pode desejar exibir o logotipo da empresa no aplicativo Learning Manager, ter seu próprio domínio no URL, exibir o nome da organização e exibir esquemas de cores que correspondam à marca de uma organização. O Learning Manager permite que as organizações usem todos esses recursos. Se quiser personalizar as configurações e usar sua própria marca, clique na seção Marcas no painel esquerdo. Clique em Editar ao lado de todas essas opções e personalize de acordo com suas necessidades. Consulte [Ajuda de temas e marcas](feature-summary/themes.md) para mais informações.
 
 ### Adicionar usuários/grupos de usuários {#addusersusergroups}
 
-Como os alunos são os principais usuários do conteúdo de aprendizado, a adição de usuários no sistema de gerenciamento de aprendizado é a etapa principal. Adicione usuários ao aplicativo Learning Manager e atribua funções a eles. É possível adicionar usuários das seguintes maneiras:
+Como os alunos são os principais usuários do conteúdo de aprendizado, a adição de usuários no sistema de gerenciamento de aprendizado é a etapa principal. Adicione usuários ao aplicativo Learning Manager e atribua funções a eles. Você pode adicionar usuários das seguintes maneiras:
 
 #### Adicionar usuários (internos) {#addusersinternal}
 
 * **Como usuário único** - adicionar usuários únicos ao aplicativo Learning Manager permite que você experimente com alguns dos usuários antes de adicioná-los em massa. Além disso, essa opção é útil quando você deseja adicionar mais usuários únicos com base na necessidade, após a importação em massa de usuários.
-* **Autorregistro** - Esta opção permite que os administradores registrem seus funcionários no Learning Manager.
-* **Importação em massa** (usando carregamento de CSV) - usando essa opção, você pode importar usuários em massa para o aplicativo Learning Manager. Como pré-requisito, você deve manter a lista de usuários pronta no formato CSV antes de usar esse recurso.
+* **Autorregistro** - essa opção permite que os administradores registrem seus funcionários no Learning Manager.
+* **Importação em massa** (usando carregamento de CSV) - usando essa opção, você pode importar usuários em massa para o aplicativo Learning Manager. Como pré-requisito, você precisa manter a lista de usuários pronta no formato CSV antes de usar esse recurso.
 
 #### Adicionar usuários (perfis externos) {#addusersexternalprofiles}
 
@@ -89,7 +89,7 @@ O aplicativo Learning Manager gera grupos de usuários padrão com base em atrib
 
 ### Atribuir funções {#assignroles}
 
-Depois que os usuários são adicionados ao Learning Manager, o administrador pode começar a atribuir funções de autor, administrador ou administrador de integração aos usuários de acordo com os requisitos da organização. Para atribuir funções a usuários, no logon do Administrador, você pode clicar em **[!UICONTROL Usuários]** no painel esquerdo, marcar a caixa de seleção em cada nome de usuário e clicar no menu suspenso **[!UICONTROL Ações]** para escolher a função que deseja atribuir. As funções de gerente são atribuídas aos usuários pela Adobe Learning Manager com base nas funções/privilégios mencionados pela sua organização no arquivo CSV. Você também pode alterar as funções dos usuários como Gerentes usando o fluxo de trabalho Editar usuários. Consulte [Adicionar ajuda de usuários](feature-summary/add-users-user-groups.md) para mais informações.
+Depois que os usuários são adicionados ao Learning Manager, o administrador pode começar a atribuir funções de autor, administrador ou administrador de integração aos usuários de acordo com os requisitos da organização. Para atribuir funções a usuários, no logon do Administrador, você pode clicar em **[!UICONTROL Usuários]** no painel esquerdo, marcar a caixa de seleção em cada nome de usuário e clicar no menu suspenso **[!UICONTROL Ações]** para escolher a função que deseja atribuir. As funções de gerente são atribuídas aos usuários pelo Adobe Learning Manager com base nas funções/privilégios mencionados pela sua organização no arquivo CSV. Você também pode alterar as funções dos usuários como Gerentes usando o fluxo de trabalho Editar usuários. Consulte [Adicionar ajuda de usuários](feature-summary/add-users-user-groups.md) para mais informações.
 
 ### Modelos de notificação {#notificationtemplates}
 
@@ -128,11 +128,11 @@ A certificação é uma prova da conclusão de um conteúdo de aprendizado ou um
 
 #### Criar ajudas de tarefa {#createjobaids}
 
-As ajudas de tarefa são um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma organização. Embora não seja obrigatório usar ajudas de tarefa como parte da criação do curso, a equipe do Learning Manager recomenda que você crie ajudas de tarefa como uma prática recomendada para sua organização. Consulte a [Ajuda de tarefa](../authors/feature-summary/job-aids.md) para obter informações sobre como criar ajudas de tarefa.
+As ajudas de tarefa correspondem a um repositório de conteúdo de treinamento acessível aos alunos sem nenhum tipo de inscrição nem critérios de conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma organização. Embora não seja obrigatório usar ajudas de tarefa como parte da criação do curso, a equipe do Learning Manager recomenda que você crie ajudas de tarefa como uma prática recomendada para sua organização. Consulte a [Ajuda de tarefa](../authors/feature-summary/job-aids.md) para obter informações sobre como criar ajudas de tarefa.
 
 #### Criar programas de aprendizado {#createlearningprograms}
 
-Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Antes de criar programas de aprendizado, verifique se você já criou alguns cursos ou se há cursos disponíveis na sua conta.  Embora seja opcional para uma organização usar esse recurso, a equipe do Learning Manager recomenda que você o use para incluir aprendizado direcionado para seus funcionários. Para começar a usar os programas de aprendizado, clique em Programas de aprendizado no painel esquerdo, escolha um conjunto de cursos no catálogo e publique. Consulte a [Ajuda de programas de aprendizado](feature-summary/learning-programs.md) para obter instruções específicas.
+Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Antes de criar programas de aprendizado, verifique se você já criou alguns cursos ou se há cursos disponíveis na sua conta.  Embora seja opcional para uma organização usar esse recurso, a equipe do Learning Manager recomenda que você o use para incluir aprendizado direcionado para seus funcionários. Para começar a usar os programas de aprendizado, clique em Programas de aprendizado no painel esquerdo, escolha um conjunto de cursos no catálogo e publique. Consulte [Ajuda de programas de aprendizado](feature-summary/learning-programs.md) para obter instruções específicas.
 
 ### Criar catálogos {#createcatalogs}
 
@@ -144,7 +144,7 @@ Nesta etapa, você pode ativar as notificações por e-mail para os usuários de
 
 ## Fase 3 - Criação de cursos (autor) {#phase3authoringcoursesauthor}
 
-Os desenvolvedores de conteúdo ou autores em sua organização podem começar a criar o conteúdo de aprendizado. É obrigatório criar módulos e cursos à medida que eles formam a base de todo o seu conteúdo de aprendizado no aplicativo Learning Manager.
+Os desenvolvedores de conteúdo ou autores em sua organização podem começar a criar o conteúdo de aprendizado. É obrigatório que você crie módulos e cursos à medida que eles formam a base de todo o seu conteúdo de aprendizado no aplicativo Learning Manager.
 
 ### Criar módulos {#createmodules}
 
@@ -166,11 +166,11 @@ A certificação é uma prova da conclusão de um conteúdo de aprendizado ou um
 
 #### Criar ajudas de tarefa {#CreateJobaids-1}
 
-As ajudas de tarefa são um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma organização. Embora não seja obrigatório usar ajudas de tarefa como parte da criação do curso, a equipe do Learning Manager recomenda que você crie ajudas de tarefa como uma prática recomendada para sua organização. Consulte a [Ajuda de tarefa](../authors/feature-summary/job-aids.md) para obter informações sobre como criar ajudas de tarefa.
+As ajudas de tarefa correspondem a um repositório de conteúdo de treinamento acessível aos alunos sem nenhum tipo de inscrição nem critérios de conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma organização. Embora não seja obrigatório usar ajudas de tarefa como parte da criação do curso, a equipe do Learning Manager recomenda que você crie ajudas de tarefa como uma prática recomendada para sua organização. Consulte a [Ajuda de tarefa](../authors/feature-summary/job-aids.md) para obter informações sobre como criar ajudas de tarefa.
 
 #### Criar programas de aprendizado {#Createlearningprograms-1}
 
-Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Antes de criar programas de aprendizado, verifique se você já criou alguns cursos ou se há cursos disponíveis na sua conta.  Embora seja opcional para uma organização usar esse recurso, a equipe do Learning Manager recomenda que você o use para incluir aprendizado direcionado para seus funcionários. Para começar a usar os programas de aprendizado, clique em Programas de aprendizado no painel esquerdo, escolha um conjunto de cursos no catálogo e publique. Consulte a [Ajuda de programas de aprendizado](feature-summary/learning-programs.md) para obter instruções específicas.
+Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Antes de criar programas de aprendizado, verifique se você já criou alguns cursos ou se há cursos disponíveis na sua conta.  Embora seja opcional para uma organização usar esse recurso, a equipe do Learning Manager recomenda que você o use para incluir aprendizado direcionado para seus funcionários. Para começar a usar os programas de aprendizado, clique em Programas de aprendizado no painel esquerdo, escolha um conjunto de cursos no catálogo e publique. Consulte [Ajuda de programas de aprendizado](feature-summary/learning-programs.md) para obter instruções específicas.
 
 ## Fase 4 - Gerenciamento do LMS (administrador do Learning Manager) {#phase4managingyourlmscaptivateprimeadministrator}
 
@@ -199,7 +199,7 @@ Automatize a inscrição dos alunos em objetos de aprendizado usando planos de a
 
 #### Planos de aprendizado (com base em acionadores) {#learningplansbasedontriggers}
 
-Você pode usar planos de aprendizado para atribuir automaticamente cursos, programas de aprendizado ou certificações aos alunos, com base na ocorrência de determinados eventos. Por exemplo,
+Você pode usar planos de aprendizado para atribuir automaticamente cursos, programas de aprendizado ou certificações aos alunos, com base na ocorrência de determinados eventos. Por exemplo:
 
 * Novo usuário é adicionado
 * O usuário altera o grupo de usuários
@@ -216,8 +216,8 @@ O Adobe Learning Manager lhe permite criar vários relatórios para acompanhar, 
 
 * **Painel de relatórios** - crie relatórios de somatório para obter insights acionáveis sobre o consumo de conteúdo de aprendizado dos alunos, com base em várias categorias, como grupos de usuários, eficácia, tempo dos alunos nos cursos e assim por diante.
 * **Transcrições do aluno** - crie relatórios centrados no aluno com o histórico completo dos alunos desde o dia de registro até a data.
-* **Relatórios do curso** - crie estatísticas de consumo do curso dos alunos de cursos individuais. Você também pode criar relatórios do quiz no nível do curso.
+* **Relatórios do curso** - crie estatísticas de consumo do curso dos alunos de cursos individuais. Você também pode criar relatórios de questionário no nível do curso.
 
 Consulte [Ajuda de Relatórios](feature-summary/reports.md) para obter mais informações sobre o processo de geração de relatórios.
 
-Para obter outras informações relacionadas ao uso dos recursos do aplicativo Learning Manager, consulte a [Ajuda do Learning Manager](../topics.md) com base em cada função.
+Para obter outras informações relacionadas ao uso dos recursos do aplicativo Learning Manager, consulte [Ajuda do Learning Manager](../topics.md) com base em cada função.
