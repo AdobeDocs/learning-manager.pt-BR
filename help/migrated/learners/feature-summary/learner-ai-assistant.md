@@ -3,9 +3,9 @@ description: Obtenha respostas rápidas e precisas do seu conteúdo de aprendiza
 jcr-language: en_us
 title: Assistente do AI para alunos no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
+source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ O Assistente de IA é um complemento de bate-papo gerado por IA no Adobe Learnin
 
 - **Controles de administrador**
    - Ativar ou desativar o recurso no nível da conta
-   - Controlar o acesso por grupos de usuários
    - Selecione quais catálogos são incluídos para respostas de IA
    - Requisito de aceitação dos Termos de uso de acordo com as diretrizes de IA da Adobe
 
@@ -148,32 +147,30 @@ As organizações podem personalizar prompts incorporados para refletir seus obj
 
 ![Assistente de aluno habilitado por IA](assets/learner-ai-assistant-new.png)
 
-Os administradores selecionam quais grupos de usuários e catálogos **internos** podem acessar o recurso Assistente do AI. Verifique se os catálogos atribuídos incluem apenas o conteúdo de aprendizado apropriado para respostas e citações de IA e se esses catálogos são **Internos** (não **Compartilhados**, **Adquiridos** ou **Externos**).
+Os administradores selecionam quais catálogos **internos** podem acessar o recurso Assistente do AI. Verifique se os catálogos atribuídos incluem apenas o conteúdo de aprendizado apropriado para respostas e citações de IA e se esses catálogos são **Internos** (não **Compartilhados**, **Adquiridos** ou **Externos**).
 
-Antes de configurar o Assistente do AI, confirme se você tem credenciais de administrador e se identificou quais grupos de usuários e catálogos devem ter acesso.
+Antes de configurar o Assistente do AI, confirme se você tem credenciais de administrador e se os catálogos identificados devem ter acesso.
 
 ### Configurar acesso ao Assistente do AI
 
 Para ativar o Assistente de IA do aluno:
 
-1. Faça logon no Adobe Learning Manager como administrador.
+&#x200B;1. Faça logon no Adobe Learning Manager como administrador.
 
-2. Selecione **Configurações** na home page.
-   ![Console do administrador com a opção Configurações no painel esquerdo](assets/settings-menu.png)
+2.Selecione **Configurações** na home page.
+![Console do administrador com a opção Configurações no painel esquerdo](assets/settings-menu.png)
 
-3. Selecione **Assistente de IA do aluno (Beta)** no menu **Configurações**.
-   ![O console do administrador exibe a opção Assistente de IA do aluno no painel esquerdo](assets/learner-assistant-ai-beta.png)
+3.Selecione **Assistente de IA do aluno (Beta)** no menu **Configurações**.
+![O console do administrador exibe a opção Assistente de IA do aluno no painel esquerdo](assets/learner-assistant-ai-beta.png)
 
-4. Selecione a opção de alternância para habilitar o **Assistente de IA do aluno (Beta)**.
-   ![O console de administradores exibe a alternância habilitada para o Assistente de IA do aluno](assets/learner-assistant-toggle.png)
+4.Selecione a opção de alternância para habilitar o **Assistente de IA do aluno (Beta)**.
+<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+<!--5. Select one or more user groups from the **Eligible user groups** option.-->
+<!--5. Select **Save** to apply the user group settings.-->
 
-5. Selecione um ou mais grupos de usuários da opção **Grupos de usuários qualificados**.
+5.Selecione um ou mais catálogos da opção **Catálogos qualificados**.
 
-6. Selecione **Salvar** para aplicar as configurações do grupo de usuários.
-
-7. Selecione um ou mais catálogos da opção **Catálogos qualificados**.
-
-8. Selecione **Salvar** para aplicar as configurações do catálogo.
+6.Selecione **Salvar** para aplicar as configurações do catálogo.
 
 >[!IMPORTANT]
 >
