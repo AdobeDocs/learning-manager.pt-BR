@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Fluidic player incorporável
 contentowner: dvenkate
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 24%
+source-wordcount: '1675'
+ht-degree: 31%
 
 ---
 
@@ -19,7 +19,7 @@ Leia este artigo para saber como incorporar o fluidic player em um aplicativo pe
 
 Como corporação, agora você pode fornecer uma experiência personalizada para seus alunos, mesmo fora do Learning Manager. Usando a API pública, você pode obter todas as informações relacionadas aos objetos de aprendizado, às inscrições dos alunos e ao progresso do aprendizado e exibi-las no seu site. Mais importante ainda: você pode até mesmo incorporar o fluidic player do Learning Manager em seu site, para que o aluno possa consumir o conteúdo diretamente em seu site. O Fluidic Player lhe dá o poder de reproduzir qualquer conteúdo compatível com o Learning Manager. Quando incorporado em seu próprio site, ele tem exatamente os mesmos recursos que quando usado no Learning Manager.
 
-**Reproduzir qualquer conteúdo de e-learning[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Reproduzir qualquer conteúdo de e-learning[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 O Fluidic Player reproduz praticamente qualquer tipo de conteúdo de e-learning da mesma maneira consistente e intuitiva, sem exigir plug-ins ou downloads. O aluno pode iniciar o conteúdo e, independentemente do tipo de arquivo de conteúdo, ele começa a ser reproduzido.
 
@@ -43,7 +43,7 @@ A criação de um aplicativo personalizado para incorporar o fluidic player em s
 1. Recuperar token de acesso.
 1. Usar o token de acesso para recuperar recursos do Learning Manager usando a API pública.
 
-### 1. Criar um aplicativo no administrador de integração {#1createanapplicationinintegrationadmin}
+### &#x200B;1. Criar um aplicativo no administrador de integração {#createanapplicationinintegrationadmin}
 
 Esta etapa é necessária para criar uma ID de aplicativo/cliente e um segredo de aplicativo/cliente que é usado para recuperar o token de atualização e o token de acesso. Para obter mais informações sobre a criação de um aplicativo, consulte [Processo de desenvolvimento de aplicativo.](developer-manual.md#main-pars_header_994876235)
 
@@ -54,7 +54,7 @@ Esta etapa é necessária para criar uma ID de aplicativo/cliente e um segredo d
 1. Se o aplicativo personalizado precisar ser compartilhado entre várias contas, selecione **[!UICONTROL Não]** no campo de opção **[!UICONTROL Somente para esta conta?]**
 1. Para salvar o aplicativo e gerar a ID e o segredo do aplicativo, clique em **[!UICONTROL Salvar]**.
 
-### 2. Recuperar token de acesso {#2retrievingaccesstoken}
+### &#x200B;2. Recuperando token de acesso {#retrievingaccesstoken}
 
 Como o Learning Manager usa o OAUTH2.0., o token de acesso é necessário para recuperar recursos usando a API pública. O token de acesso pode ser obtido usando o token de atualização, a ID do cliente ou o segredo do cliente.
 
@@ -77,25 +77,25 @@ client_id= <application_id>
 
 Aqui, **[!UICONTROL id do cliente]** é a ID do aplicativo obtida na etapa 1.
 **[!UICONTROL redirect_url]** é o redirect_url definido na etapa 1.
-**[!UICONTROL estado]** é qualquer dado fictício com base no qual precisamos filtrar a URL de redirecionamento para obter o código OAuth. Escopo é o escopo do aluno definido na Etapa 1.
-**[!UICONTROL response_typ]**&#x200B;e é sempre “CODE”.\
-**[!UICONTROL conta]**&#x200B;é um campo opcional\
+**[!UICONTROL estado]** é qualquer dado fictício com base no qual precisamos filtrar a URL de redirecionamento para obter o código OAuth. Escopo é o escopo do aluno definido na etapa 1.
+**[!UICONTROL response_typ]**e é sempre “CODE”.\
+**[!UICONTROL conta]**é um campo opcional\
 **[!UICONTROL email]** é um campo opcional\
 &#42; Se a ID da conta e o email forem fornecidos, a URL acima permitirá que o usuário faça logon na mesma conta. Este exemplo de ponto de extremidade é descrito no arquivo “index.html” no aplicativo de amostra.
 
 * Recuperar token de atualização
 
-Depois que o código OAuth é recebido, o token de atualização pode ser recuperado usando o código OAuth, a ID do cliente e o segredo do cliente recebidos do ponto de extremidade abaixo:
+Uma vez que o código OAuth é recebido, o token de atualização pode ser recuperado usando o código OAuth, a ID do cliente e o segredo do cliente recebidos do ponto de extremidade abaixo:
 
 **https://learningmanager.adobe.com/oauth/token**
 
 Como resposta à sua solicitação de postagem, você receberá o seguinte:
 
-i. refresh_token\
-ii) access_token\
-iii) user_id\
+i) refresh_token\
+ii. access_token\
+iii. user_id\
 iv) expires_in\
-v. user_role\
+v) usuário_função\
 vi) account_id
 
 **2.2 Recuperando token de acesso do token de atualização**
@@ -105,14 +105,14 @@ Para recuperar seu token de acesso, envie outra solicitação com seu refresh_to
 **https://learningmanager.adobe.com/oauth/token/refresh**
 
 Como resposta à sua solicitação de postagem, você receberá o seguinte:\
-i. refresh_token\
-ii) access_token\
-iii) user_id\
+i) refresh_token\
+ii. access_token\
+iii. user_id\
 iv) expires_in\
-v. user_role\
+v) usuário_função\
 vi) account_id
 
-### 3. Recuperar recursos usando a API pública {#3retrieveresourcesusingpublicapi}
+### &#x200B;3. Recuperar recursos usando a API pública {#retrieveresourcesusingpublicapi}
 
 Como terceira etapa, você precisa usar o token de acesso para recuperar recursos do Learning Manager usando a api pública.  O token de acesso é necessário para fazer qualquer chamada de API pública e deve ser adicionado ao cabeçalho, conforme exemplificado no aplicativo de amostra.
 
@@ -155,7 +155,7 @@ code window.addEventListener("message", function closePlayer(){
 ## Tutorial de amostra do aplicativo {#sampleapplicationtutorial}
 
 O documento PDF anexado contém um tutorial de amostra do aplicativo.
-[Tutorial de amostra e fonte do tutorial para incorporar o Fluidic Player.](assets/sample-applicationtutorial.zip) Conteúdo alternativo
+[Tutorial de amostra e fonte do tutorial para incorporar o Fluidic Player.](assets/sample-applicationtutorial.zip) Conteúdos alternativos
 
 Se você for um administrador, poderá configurar o material do curso de uma maneira que possa oferecer conteúdo alternativo aos alunos no fluidic player. Por exemplo, se você tiver alunos em vários locais geográficos que talvez queiram usar vários idiomas, poderá criar o mesmo conteúdo em vários idiomas. O Fluidic Player oferecerá ao aluno o idioma para o qual ele pode estar configurado, mas o aluno também tem a opção de mudar para o idioma alternativo diretamente do reprodutor.
 
@@ -183,11 +183,11 @@ Esse é um esforço que precisa ser realizado por alguém de sua equipe de TI ou
 
    Você pode obter seu token configurando seu fluidic player incorporável no administrador de integração. Você pode obter seu token de autenticação, que pode ser usado como seu token de acesso.
 
-   Exemplo de URL criado: https://learningmanager.adobe.com/app/player?lo_id=“+lo_id+”&amp;access_token=”+accToken
+   Exemplo de URL criada; `https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken`
 
    Aqui, lo_id será a ID do curso, do programa de aprendizado, da certificação e da ajuda de tarefa.
 
-   Exemplos de lo_id - course:21324, learningProgram:2143, certificação:23432, jobAid:237
+   Exemplos de lo_id - curso:21324, learningProgram:2143, certificação:23432, jobAid:237
 
 1. Faça chamadas à API do Learning Manager para recuperar os parâmetros mencionados acima.
 

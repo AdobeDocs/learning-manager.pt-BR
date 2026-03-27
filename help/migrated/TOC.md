@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
+source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 68%
+source-wordcount: '850'
+ht-degree: 65%
 
 ---
 
@@ -130,17 +130,24 @@ ht-degree: 68%
       * [Pacote do site de referência do ALM para o AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [Integrar o Learning Manager ao AEM](integrate-aem-learning-manager.md)
    * [Instalar pacote do Salesforce no Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
+   * [Guia de implantação](#deployment-guide)
+      * [Introdução](/help/migrated/deployment-guide/introduction.md)
+      * [Conectores de terceiros](/help/migrated/deployment-guide/third-party-connectors.md)
+      * [Migração de usuários](/help/migrated/deployment-guide/user-migration.md)
+      * [Configuração do usuário](/help/migrated/deployment-guide/user-setup.md)
    * [Instalar o conector do Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Aplicativo Learning Manager para Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Configurações](integration-admin/feature-summary/settings.md)
    * [Gerenciar funções personalizadas através de arquivos CSV](integration-admin/feature-summary/configure-role-csv-files.md)
    * [Documentação da API de interação do reprodutor incorporado](/help/migrated/embedded-player-interaction.md)
+   * [Fluidic Player](/help/migrated/integration-admin/feature-summary/fluidic-player.md)
 * Autores {#authors}
    * [Logon do usuário](authors/feature-summary/user-login.md)
    * [Biblioteca de conteúdo](authors/feature-summary/content-library.md)
    * [Criar, modificar e publicar cursos](authors/feature-summary/courses.md)
    * [Catálogos](authors/feature-summary/catalogs.md)
    * [Ajudas de tarefa](authors/feature-summary/job-aids.md)
+   * [Usuários de tablet Android e iPad](authors/feature-summary/ipad-android-tablet-users.md)
    * [Integração do Adobe Connect](authors/feature-summary/adobeconnect-integration.md)
    * [Adicionar objetos de aprendizado em locais diferentes](authors/feature-summary/add-new-language-learning-objects.md)
    * [Notificações para o usuário](authors/feature-summary/user-notifications.md)
@@ -201,7 +208,12 @@ ht-degree: 68%
    * [Não é possível carregar um CSV](kb/unable-to-upload-csv.md)
    * [Gerar um arquivo HAR](kb/generate-har-file.md)
    * [O pop-up automático de feedback L1 não é exibido](kb/l1-feedback-auto-popup-does-not-appear.md)
+   * [Integração com o Outlook](kb/integration-to-outlook.md)
    * [Não é possível exibir certos cursos no catálogo ao criar uma certificação](kb/unable-to-view-certain-courses.md)
+   * [Autenticação SSO no Adobe Learning Manager](kb/sso-authentication-for-learning-manager.md)
+   * [Erro de link do modelo modificado](kb/modified-template-link-error.md)
+   * [Alocação padrão de funções de professor](kb/default-allocation-instructor-roles.md)
+   * [Personalizar tema no AEM usando o Adobe Learning Manager](kb/customize-theme-aem.md)
    * [Não é possível exibir determinado curso no catálogo ao criar um Programa de aprendizado](kb/unable-view-course-catalog.md)
    * [Solução de problemas de integração do Salesforce (SFDC) com o Adobe Learning Manager](kb/troubleshoot-sfdc-integration-issues.md)
    * [Problemas em desativar um programa de aprendizado](kb/issues-retiring-learning-program.md)
