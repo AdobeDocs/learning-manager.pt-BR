@@ -2,13 +2,13 @@
 description: Saiba mais sobre os novos recursos e aprimoramentos na versão de outubro de 2025 do Adobe Learning Manager
 jcr-language: en_us
 title: Novidades na versão de outubro de 2025 do Adobe Learning Manager
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
+source-git-commit: 95b65499b5becfb34abbceb5dc3d98dfa51b0e31
 workflow-type: tm+mt
-source-wordcount: '5573'
+source-wordcount: '5648'
 ht-degree: 0%
 
 ---
-
 
 # Novidades na versão de outubro de 2025 do Adobe Learning Manager
 
@@ -180,9 +180,9 @@ Exiba o [Calendário](/help/migrated/learners/feature-summary/learner-home-page.
 
 Os painéis sociais agora oferecem suporte à funcionalidade de marcação de usuário, permitindo discussões mais direcionadas e colaboração aprimorada nas comunidades de aprendizado. Os alunos podem ser marcados em publicações e comentários de aprendizado social por meio do aplicativo do aluno, APIs e site de referência do Adobe Learning Manager.
 
-Os usuários fora do escopo do painel não podem ser marcados, evitando notificações indesejadas. Se um usuário marcado for excluído do sistema, a menção será exibida como “anônimo”. Marcar grupos de usuários ou &quot;@all&quot; não é permitido para evitar spams de notificação.
+Os usuários fora do escopo do painel não podem ser marcados, evitando notificações indesejadas. Se um usuário marcado for excluído do sistema, a menção será exibida como “anônimo”. Marcar grupos de usuários ou “@all” não é permitido para evitar spams de notificação.
 
-* **marcação @username**: os usuários podem marcar outros membros do painel usando o formato &quot;@username“.
+* **marcação @username**: os usuários podem marcar outros membros do painel usando o formato “@username”.
 * **Marcação com escopo restrito**: somente usuários com acesso ao painel específico podem ser marcados, garantindo a privacidade e a relevância.
 * **Notificações multicanal**: os usuários marcados recebem notificações no aplicativo e por email com links diretos para postagens ou comentários relevantes.
 
@@ -273,7 +273,8 @@ A resposta da API `startRun` foi atualizada para incluir a ID do projeto de migr
 
 Recupera o status de uma execução de migração existente.
 
-**Objetivo final**
+**Ponto de extremidade**
+Um novo ponto de extremidade está disponível:
 
 ```
 GET /bulkimport/runStatus
@@ -822,5 +823,3 @@ Confira as [notas de versão](/help/migrated/release-note/release-notes.md) para
 
 * [Versão de maio de 2025 do Adobe Learning Manager](/help/migrated/whats-new-may-2025.md)
 * [Versão de novembro de 2025 do Adobe Learning Manager](/help/migrated/whats-new-nov-24.md)
-
-
