@@ -1449,7 +1449,7 @@ Quando um visitante clica em uma ajuda de tarefa de qualquer widget ou do catál
 
 No **lado da API**, as ajudas de tarefa são suportadas por:
 
-1. O conector de Acesso a Dados de Treinamento e a pesquisa pública do ****
+1. O conector de Acesso a Dados de Treinamento e a pesquisa pública do **&#x200B;**
 O TDA exporta metadados de ajuda de tarefa junto com outros tipos de objeto de aprendizado para o índice de pesquisa pública que atende a consultas de pesquisa e catálogo não conectadas. É nisso que o Experience Builder e as frontends sem periféricos dependem.
 2. A listagem de **Objetos de Aprendizado com effectiveModifiedDate**
 Nesta versão, o ponto de extremidade da lista de OAs foi corrigido para que as ajudas de tarefa funcionem corretamente com o filtro effectiveModifiedDate. Agora você pode ligar para:
