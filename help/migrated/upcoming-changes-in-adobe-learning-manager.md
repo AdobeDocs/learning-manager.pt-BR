@@ -2,9 +2,9 @@
 title: Novidades na versão de abril de 2026 do Adobe Learning Manager
 description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes na versão de abril de 2026 do Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
+source-git-commit: 33f503b69b979bfa962387388b453492a44cac5d
 workflow-type: tm+mt
-source-wordcount: '20223'
+source-wordcount: '20354'
 ht-degree: 2%
 
 ---
@@ -1430,7 +1430,7 @@ Em outras palavras, as recomendações conectadas os ajudam a decidir o que faze
 
 Na **Interface de Usuário**, as ajudas de tarefa participam de experiências não conectadas principalmente por meio de widgets que podem mostrar objetos de aprendizado:
 
-1. **Widget de cursos e caminhos**
+1. **Widget Cursos e caminhos**
 Este widget pode mostrar vários tipos de objeto de aprendizado, incluindo ajudas de tarefa. Em páginas não conectadas, você pode configurá-las para:
    1. Incluir ou excluir ajudas de tarefa explicitamente.
    2. Filtre ajudas de tarefa por catálogo, produto, função, rótulos, marcas e outros metadados.
@@ -1449,7 +1449,7 @@ Quando um visitante clica em uma ajuda de tarefa de qualquer widget ou do catál
 
 No **lado da API**, as ajudas de tarefa são suportadas por:
 
-1. O **Conector de Acesso a Dados de Treinamento e a pesquisa pública**
+1. O conector de Acesso a Dados de Treinamento e a pesquisa pública do ****
 O TDA exporta metadados de ajuda de tarefa junto com outros tipos de objeto de aprendizado para o índice de pesquisa pública que atende a consultas de pesquisa e catálogo não conectadas. É nisso que o Experience Builder e as frontends sem periféricos dependem.
 2. A listagem de **Objetos de Aprendizado com effectiveModifiedDate**
 Nesta versão, o ponto de extremidade da lista de OAs foi corrigido para que as ajudas de tarefa funcionem corretamente com o filtro effectiveModifiedDate. Agora você pode ligar para:
@@ -2405,11 +2405,27 @@ Se o aluno tiver uma conclusão direta, revogar as alternativas não afetará se
 
 ### Relatórios aprimorados para comentários do revisor da lista de verificação
 
-Os comentários do revisor nos módulos de lista de verificação agora estão incluídos no relatório LT em uma coluna renomeada Comentários do revisor.
+Os comentários do revisor nos módulos de lista de verificação agora estão incluídos nas transcrições do aluno (LT) em uma coluna renomeada: **Comentários do revisor** (comentário de envio anterior).
 
 #### Impacto
 
-Os alunos e os administradores podem ver um feedback consolidado, melhorando a transparência e apoiando a avaliação do desempenho.
+Os alunos e os administradores podem visualizar o feedback consolidado e claramente identificado do revisor nas exportações de LT (interface, API de trabalho e conectores), melhorando a transparência, a auditabilidade e oferecendo suporte a avaliações e treinamentos mais precisos de desempenho.
+
+#### O que mudou
+
+**Colunas renomeadas**
+
+| Área | Nome da coluna antiga | Novo nome de coluna | Notas |
+| --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
+| Transcrições do aluno (administrador) | Comentário de envio | Observações do revisor | Aplica-se a todas as origens de LT de administrador: interface, API de trabalho, conectores, onde aplicável. |
+
+Essa alteração se aplica uniformemente a todas as origens de Admin LT (exportações de interface do usuário, relatórios de API de trabalho e exportações baseadas em conector, onde aplicável). O LT exportado para conector mostrará os comentários do revisor como uma coluna dedicada no final (para conectores que não expuseram anteriormente o comentário de envio), garantindo que as integrações downstream possam distinguir o feedback do revisor de outros comentários.
+
+>[!NOTE]
+>
+>Para as transcrições do aluno para alunos, a coluna anteriormente rotulada “Comentário de envio” agora foi renomeada para “Comentários do revisor” e preenchida com o comentário do revisor da lista de verificação quando ativada.
+
+
 
 ### Cálculo de tempo de aprendizado aprimorado
 
