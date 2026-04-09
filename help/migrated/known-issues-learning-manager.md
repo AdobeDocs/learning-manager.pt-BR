@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Problemas conhecidos no Learning Manager
+description: Veja a seguir uma compilação de problemas conhecidos para cada atualização do Learning Manager. A lista é cumulativa e contém problemas conhecidos de atualizações anteriores.
 contentowner: saghosh
 preview: true
-source-git-commit: 6f9bac5e4a434c4073409d2f7e78645deabc6685
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 60%
+source-wordcount: '253'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +20,7 @@ Veja a seguir uma compilação de problemas conhecidos para cada atualização d
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Atualização</b></p></td> 
+   <td><p><b>Atualizar</b></p></td> 
    <td><p><b>Problema conhecido</b></p></td> 
   </tr> 
   <tr> 
@@ -46,7 +47,7 @@ Veja a seguir uma compilação de problemas conhecidos para cada atualização d
   </tr> 
   <tr> 
    <td><p>39</p></td> 
-   <td><p>O hiperlink para o número de cursos e certificações dentro do modal de tags inclui cursos paralelos e certificações recorrentes. Ao clicar no hiperlink, estes cursos e certificações podem não ser listados, causando uma falta de correspondência nos números.</p></td> 
+   <td><p>O hiperlink para o número dos cursos e certificações dentro da janela modal de etiquetas inclui cursos fantasmas e certificações repetidas. Ao clicar no hiperlink, estes cursos e certificações podem não ser listados, causando uma falta de correspondência nos números.</p></td> 
   </tr> 
   <tr> 
    <td><p>37</p></td> 

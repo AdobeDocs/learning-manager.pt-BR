@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de j
 jcr-language: en_us
 title: Resumo dos novos recursos
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 685220000be6be524c0829fe400abec911cf067e
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2392'
 ht-degree: 2%
 
 ---
@@ -223,7 +223,7 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 
 As APIs que oferecem suporte à classificação por data e -data mostrarão os resultados com base na data de publicação de todos os objetos de aprendizado, exceto o Caminho de aprendizado. O Caminho de Aprendizado ainda será listado com base na data de **effectiveModified**. Essa alteração será vista nas seguintes APIs:
 
-* GET /learningObjects
+* OBTER /learningObjects
 * OBTER /search
 * POST /learningObjects/query
 * POST /Search/query

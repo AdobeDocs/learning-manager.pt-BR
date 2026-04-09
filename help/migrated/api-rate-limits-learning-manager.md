@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Limites de taxa da API no Learning Manager
+description: O Adobe Learning Manager expõe um conjunto avançado de APIs REST que ajuda os clientes a criar aplicativos que se integram ao Learning Manager ou até mesmo experiências de usuário personalizadas e extensões para fluxos de trabalho que ajudam seus negócios.
 contentowner: saghosh
 preview: true
-source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 51%
+source-wordcount: '1801'
+ht-degree: 80%
 
 ---
 
@@ -110,7 +111,7 @@ Você pode testar isso facilmente atingindo esse ponto final com taxas abaixo de
 
 Para facilitar, você pode verificar este código JavaScript de amostra que ilustra isso. Clique aqui [violino](https://jsfiddle.net/ACAPJS/9yv8zcmL/) e veja o código em ação.
 
-Este aplicativo exige que você forneça um token de aplicativo da função de aluno para sua conta. Consulte o [Manual do Desenvolvedor de Aplicativos](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) para obter informações sobre tokens de API e você pode usar o Assistente de Token na seção de recursos do desenvolvedor do aplicativo Learning Manager Integration Admin para gerar os tokens.
+Este aplicativo exige que você forneça um token de aplicativo da função de aluno para sua conta. Consulte o [Manual do Desenvolvedor de Aplicativos]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) para obter informações sobre tokens de API e você pode usar o Assistente de Token na seção de recursos do desenvolvedor do aplicativo Learning Manager Integration Admin para gerar os tokens.
 
 Este aplicativo está fazendo 10 chamadas para a API fictícia em um loop, de uma só vez. Como o limite de taxa é (5, 2) para a API fictícia, o limite de taxa será violado depois que as primeiras chamadas 5+2 recebidas pelo Learning Manager forem bem-sucedidas e você verá uma resposta de sucesso para elas.
 

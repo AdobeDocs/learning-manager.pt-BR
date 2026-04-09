@@ -3,10 +3,10 @@ title: Novidades desta versão (abril de 2023)
 description: Saiba mais sobre os novos recursos e as melhorias no Adobe Learning Manager
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '3205'
-ht-degree: 61%
+source-wordcount: '3234'
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 O novo aplicativo Adobe Learning Manager no Microsoft Teams foi desenvolvido para promover o aprendizado no fluxo de trabalho e impulsionar o aprendizado social. Os alunos poderão acessar o conteúdo de aprendizado na plataforma Microsoft Teams sem a necessidade de mudar para um navegador. Entre em contato com seu CSAM para obter a versão beta do aplicativo Adobe Learning Manager no MS Teams.
 
-Para obter mais informações, consulte [Aplicativo da Adobe Learning Manager para Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+Para mais informações, consulte [Aplicativo Adobe Learning Manager para Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
 ## Aprimoramentos na experiência do ILT (Treinamento Ministrado por Instrutor)
 
@@ -25,7 +25,7 @@ Vários aprimoramentos foram feitos na experiência do ILT (Treinamento Ministra
 ### O que mudou
 
 * A página Habilidades do aplicativo do administrador tem a opção de carregar o mapeamento de professor qualificado.
-* Na página Habilidades, há uma nova coluna, Professores. A coluna mostra o número de professores em relação à habilidade. Se você clicar no número na coluna Professores, será redirecionado para uma janela pop-up, que mostra o número de professores atribuídos a uma habilidade.
+* Na página Habilidades, há uma nova coluna, Professores. A coluna mostra o número de professores de acordo com a habilidade. Se você clicar no número na coluna Professores, será redirecionado para uma janela pop-up, que mostra o número de professores atribuídos a uma habilidade.
 
 Para mais informações, consulte [Atribuir habilidades a professores](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
@@ -33,7 +33,7 @@ Para mais informações, consulte [Atribuir habilidades a professores](/help/mig
 
 ### Assistente de agendamento
 
-Gerencie conflitos no agendamento de professores e salas de aula ou salas de aula virtuais. Se quiser saber em que hora e data qualquer professor está disponível antes de atribuí-lo ao curso, use o Assistente de programação.
+Gerencie conflitos no agendamento de professores e salas de aula ou salas de aula virtuais. Se quiser saber em que hora e data um professor estará disponível antes de atribuí-lo ao curso, use o Assistente de Agendamento.
 
 Os autores, administradores e administradores/autores personalizados podem usar o Assistente de Agendamento.
 
@@ -45,7 +45,7 @@ Um novo aplicativo móvel do Adobe Learning Manager para Android e iOS que forne
 
 ![Nova imagem de interface de mapa móvel](assets/mobile-app.png)
 
-Baixe o conteúdo para dispositivos móveis na Google Play Store e na Apple App Store. Os usuários da versão mais antiga do aplicativo serão solicitados a baixar e instalar o novo aplicativo.
+Baixe o aplicativo móvel na Google Play Store e na Apple App Store. Os usuários da versão mais antiga do aplicativo serão solicitados a baixar e instalar o novo aplicativo.
 
 Nesta versão, o aplicativo é compatível com os seguintes recursos:
 
@@ -68,7 +68,7 @@ O novo aplicativo móvel é compatível com os seguintes principais recursos nes
 **O que não tem suporte nesta versão**
 
 * Suporte a várias tentativas para um módulo de questionário em um curso quando o curso é realizado de dentro do aplicativo móvel.
-* Opções de pesquisa que permitem especificar parâmetros de pesquisa, como metadados do curso, tags e habilidades para especificar o escopo da pesquisa.
+* Opções de pesquisa que permitem especificar parâmetros de pesquisa, como metadados do curso, tags e habilidades para especificar o escopo de pesquisa.
 * Comunicados personalizados habilitados para administrador que são mostrados como um pop-up para o usuário no aplicativo móvel.
 * Não é possível adicionar habilidades na página de habilidades no aplicativo.
 * Fazer cursos offline.
@@ -188,7 +188,7 @@ A funcionalidade de pesquisa também foi aprimorada para os alunos. Os alunos ag
 
 ### Pop-up conflitante para objetos de aprendizado
 
-A página Visão geral exibe uma janela pop-up na inscrição quando um aluno tem sessões conflitantes. Se a inscrição na página do catálogo ou na página de visão geral e um aluno já tiver sessões conflitantes, isso acionará um pop-up conflitante com detalhes de sessão conflitantes. Mesmo se um aluno tiver uma sessão conflitante, ele pode se inscrever na nova sessão.
+A página Visão geral exibe um pop-up na inscrição quando um aluno tem sessões conflitantes. Se realizar a inscrição na página do catálogo ou na página de visão geral e um aluno já tiver sessões conflitantes, ela acionará um pop-up conflitante com detalhes de sessão conflitantes. Mesmo se um aluno tiver uma sessão conflitante, ele pode se inscrever na nova sessão.
 
 ![aviso](assets/learner-pop-up.png)
 
@@ -228,10 +228,10 @@ Um administrador pode alternar instâncias para os alunos. Selecione um curso no
 ![texto alternativo](assets/switch-instance-admin.png)
 _Alternar instância do Admin Console_
 
-![selecionar instâncias de comutação](assets/switch-instances-select.png)
+![alternar instâncias para selecionar](assets/switch-instances-select.png)
 _Prompt de alternar instância_
 
-Não é possível alternar instâncias até que qualquer instância do curso seja concluída no aplicativo do aluno ou do administrador.
+Não é possível alternar instâncias até que qualquer instância do curso seja concluída do aplicativo do aluno ou do administrador.
 
 Os autores, ao criar um curso, podem alternar entre ativar ou desativar a “Opção de instância”. A Alternância de instância está disponível apenas para cursos gratuitos.
 
@@ -261,7 +261,7 @@ Para mais informações, consulte [Relatório de Auditoria do Usuário](/help/mi
 
 Este relatório captura o tempo (em minutos) gasto diariamente por um professor ensinando sessões atribuídas. O relatório pode ser baixado por um período de três meses a partir da data de início selecionada.
 
-Para obter mais informações, consulte o [Relatório de Utilização do Professor](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Para mais informações, consulte [Relatório de Utilização do Professor](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
 ![relatório de utilização de professor](assets/instructor-utilization.png)
 
@@ -289,14 +289,14 @@ Para administradores, um novo tipo de comunicado - &quot;Como e-mail&quot; foi a
 
 Administradores e autores personalizados também podem exibir essa opção no nível da instância, se tiverem o acesso necessário.
 
-Para obter mais informações, consulte [Comunicados](/help/migrated/administrators/feature-summary/announcements.md#as-email).
+Para mais informações, consulte [Comunicados](/help/migrated/administrators/feature-summary/announcements.md#as-email).
 
 ### Novos modelos de e-mail
 
 Nesta versão, adicionamos modelos de e-mail para gerentes de nível superior. Esses modelos são para quando os gerentes recebem e-mails relativos a seus relatórios de segundo nível sem nenhum curso, caminho de aprendizado ou prazo de certificação. Além disso, eles receberão e-mails quando seus relatórios de segundo nível se aproximarem dos prazos de conclusão desses cursos, programações de aprendizado ou certificações.
 
 * Ignorar escalonamento de nível para conclusão do curso – antes do prazo
-* Ignorar escalonamento de nível para prazo perdido do curso
+* Ignorar escalonamento de nível para prazo final perdido do curso
 * Ignorar escalonamento de nível para conclusão do plano de aprendizado – antes do prazo
 * Ignorar escalonamento de nível para prazo final perdido do plano de aprendizado
 * Ignorar escalonamento de nível para conclusão da certificação – antes do prazo
@@ -432,8 +432,7 @@ Estão adicionados os seguintes atributos:
 | Descrição | Novo parâmetro/resposta | Ponto de extremidade |
 |--- |--- |--- |
 | Listar todas as cidades | filter.cityName=true/false | GET /primeapi/v2/data |
-| Pesquisar e filtrar cidades | filter.cityName=city_name<br>Também oferece suporte a uma lista de cidades separada por vírgulas |
-| GET /primeapi/v2/search |
+| Pesquisar e filtrar cidades | filter.cityName=city_name<br>Também oferece suporte a uma lista de cidades separada por vírgulas | GET /primeapi/v2/search |
 | Detalhes da sala de devolução | include=sala | GET /primeapi/v2/users/`<id>`/calendar |
 | Objeto de aprendizado para filtrar cidades | filter.cityName=city_name <br> Também oferece suporte a uma lista de cidades separada por vírgulas. | GET /primeapi/v2/learningObjects |
 | Adicionar painel de cidade | A resposta contém um novo atributo, filterPanelSetting=true/false. | GET /primeapi/v2/account |
@@ -639,7 +638,7 @@ Amostra de resposta abaixo:
 
 ## Notas de versão
 
-Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão](/help/migrated/release-note/release-notes.md).
+Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão de](/help/migrated/release-note/release-notes.md).
 
 ## Correções de erros
 

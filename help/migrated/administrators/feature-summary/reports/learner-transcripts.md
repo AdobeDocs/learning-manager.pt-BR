@@ -2,13 +2,13 @@
 description: As transcrições do aluno no Adobe Learning Manager (ALM) permitem que os administradores monitorem o progresso do aluno em cursos, módulos, programações de aprendizado e certificações. Ele oferece suporte a avaliações de desempenho, monitoramento de conformidade, auditorias e emissão de relatórios externos. O relatório oferece um resumo completo do envolvimento e do desempenho de um aluno.
 jcr-language: en_us
 title: Transcrições do aluno no Adobe Learning Manager
-source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4883'
 ht-degree: 7%
 
 ---
-
 
 # Transcrições do aluno no Adobe Learning Manager
 
@@ -112,7 +112,7 @@ As colunas a seguir identificam o aluno.
 | Campo | Descrição |
 |---|---|
 | Nome | Nome do aluno. |
-| Email | Endereço de e-mail do aluno |
+| E-mail | Endereço de e-mail do aluno |
 | Adobe ID | Este campo é preenchido somente quando os usuários fazem logon usando sua Adobe ID. Se eles acessarem o Adobe Learning Manager por meio de um [Logon Único (SSO)](/help/migrated/administrators/feature-summary/multiple-sso-logins.md) definido pela organização, o campo do Adobe ID permanecerá em branco. |
 | ID exclusiva do usuário | A ID exclusiva do usuário é uma ID externa gerada pelas contas caso elas não tenham IDs de email de todos os usuários ou IDs de email exclusivas de todos os usuários.  <br>O campo ID exclusiva do usuário é um campo opcional que pode ser habilitado para uma conta. O objetivo principal desse campo é permitir que as contas marquem cada usuário com uma ID exclusiva para rastreá-los, atualizar registros de usuário por meio de APIs, auditar ou sincronizar dados em fluxos de trabalho automatizados. A marcação de cada usuário acontece por meio da importação de CSV dos usuários.</br><br>Se uma conta tiver optado por uma ID de usuário exclusiva, os relatórios, como transcrições do aluno, a Adobe Learning Manager fornecerão a coluna nos relatórios.</br> |
 
@@ -139,7 +139,7 @@ As colunas a seguir capturam atividade, progresso ou tentativas.
 | Highest_Quiz_score_max | As pontuações máximas mais altas do questionário possíveis para o módulo. Ela pode ficar vazia se o aluno não tiver tentado fazer o questionário ou se o conteúdo não tiver nenhum questionário nele. A pontuação máxima possível associada à maior tentativa de pontuação do questionário feita por um aluno em várias tentativas. Não é a pontuação mais alta que o aluno obteve. Em vez disso, ele captura a pontuação máxima possível na tentativa em que o aluno obteve a pontuação mais alta. |
 | Tentativas realizadas | O número total de tentativas realizadas pelo aluno até agora para este módulo. |
 | Máximo de tentativas permitidas | O número máximo de tentativas permitidas para o aluno consumir o módulo. |
-| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um objeto de aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor estão incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
+| Comentários da inscrição | Comentários do gerente de um aluno após concluírem um Objeto de Aprendizado.<br>Os dados de comentários de envio fornecidos pelo professor são incluídos no módulo de envio de arquivos. Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager para obter mais informações.</a></br> |
 | Origem da Conclusão | Refere-se à origem ou ao método pelo qual a conclusão de um curso, caminho de aprendizado ou certificação de um aluno é registrada. Isso ajuda os administradores a entender como a conclusão foi alcançada ou registrada no sistema. A coluna identifica se a conclusão foi relatada automaticamente ou facilitada por uma função ou configuração específica. Nota: para fluxos de trabalho de participação no conector VC, quando um aluno é marcado como participado automaticamente, a origem exibirá “SELF, &lt;learner_email>”. |
 | Comentário de conclusão | Os comentários feitos pelo administrador ao marcar um aluno como concluído após concluir um curso, certificação ou caminho de aprendizado. O administrador pode adicionar os comentários de conclusão de um ou vários alunos. |
 
@@ -151,7 +151,7 @@ Eles se referem a cursos, módulos, caminhos de aprendizado, certificações e a
 |---|---|
 | Nome do plano de aprendizado | Título do Plano de Aprendizado. |
 | LP/Certificação/Curso | O título do Objeto de aprendizado. |
-| Tipo | O tipo de Objeto de aprendizado no qual o usuário foi inscrito. Por exemplo,<ul><li>Caminho do aprendizado</li><li>Certificação</li><li>Curso</li></ul> |
+| Tipo | O tipo de Objeto de aprendizado no qual o usuário foi inscrito. Por exemplo:<ul><li>Caminho de Aprendizado</li><li>Certificação</li><li>Curso</li></ul> |
 | Caminho incorporado | Um caminho incorporado é um tipo de caminho de aprendizado incluído como parte de outro curso ou caminho de aprendizado. O campo indica que um aluno está concluindo esse caminho de aprendizado como parte de outro caminho de aprendizado, em vez de uma atribuição individual. |
 | Curso | Nome do curso no qual o usuário está inscrito. Quando estiver vazia, a linha representa um Caminho de Certificação ou de Aprendizado. <br><b>Observação:</b> embora os Caminhos de Aprendizado sejam compostos por cursos individuais ou Caminhos de Aprendizado aninhados, cada componente mantém seu próprio registro independente. Isso garante que os dados de progresso, conclusão e relatório sejam rastreados separadamente para os elementos pai e filho.</br> |
 | ID exclusiva do OA | Esse é um identificador opcional atribuído pelo administrador para um Objeto de aprendizado (curso, certificação ou caminho de aprendizado) no Adobe Learning Manager. Ele é usado principalmente por organizações que mantêm suas próprias IDs de sistema externas para conteúdo de aprendizado e desejam mapear essas IDs para objetos de aprendizado do ALM para fins de integração ou relatório. A ID exclusiva do LO só estará presente se a conta tiver ativado esse recurso e o autor tiver atribuído uma ID durante a criação do LO. Nota: a ID do treinamento está sempre presente e identifica exclusivamente cada Objeto de aprendizado no ALM. A ID exclusiva do LO é para mapeamento entre sistemas e não é necessária para operações padrão do ALM. |
@@ -182,7 +182,7 @@ Eles se referem a cursos, módulos, caminhos de aprendizado, certificações e a
 | Campos | Descrição |
 |---|---|
 | ID do treinamento | Um identificador exclusivo gerado pelo sistema atribuído a cada Objeto de aprendizado (curso, certificação ou caminho de aprendizado). A ID do treinamento permanece a mesma para todos os alunos e todas as inscrições desse objeto de aprendizado. É usado para identificar o conteúdo em si, não as inscrições individuais do aluno. |
-| Duração do treinamento ou módulo (em minutos) | Esta coluna mostra a duração esperada (em minutos) de um curso, módulo ou atividade de treinamento conforme definido ao criar o curso. Não é o tempo real que um aluno gasta, mas a duração configurada/atribuída que representa quanto tempo o treinamento deve levar.  Essa coluna mostra a duração total (em minutos) do item de aprendizado atribuído, que pode ser um caminho de aprendizado ou um curso individual. <br><b>Duração do caminho de aprendizado:</b> se o item de treinamento for um caminho de aprendizado, sua duração será calculada como a soma das durações de todos os cursos dentro do caminho de aprendizado.</br><br>Exemplo: se Curso 1 = 50 minutos e Curso 2 = 60 minutos, a Duração do Caminho de Aprendizado = 110 minutos.</br><br><b>Duração individual do curso:</b>Se o item de treinamento for um curso individual (não parte de um caminho de aprendizado), a duração refletirá o tempo necessário apenas para esse curso.</br> |
+| Duração do treinamento ou módulo (em minutos) | Esta coluna mostra a duração esperada (em minutos) de um curso, módulo ou atividade de treinamento conforme definido ao criar o curso. Não é o tempo real que um aluno gasta, mas a duração configurada/atribuída que representa quanto tempo o treinamento deve levar.  Essa coluna mostra a duração total (em minutos) do item de aprendizado atribuído, que pode ser um caminho de aprendizado ou um curso individual. <br><b>Duração do Caminho de Aprendizado:</b> se o item de treinamento for um caminho de aprendizado, sua duração será calculada como a soma das durações de todos os cursos dentro do caminho de aprendizado.</br><br>Exemplo: se Curso 1 = 50 minutos e Curso 2 = 60 minutos, a Duração do Caminho de Aprendizado = 110 minutos.</br><br><b>Duração individual do curso:</b>Se o item de treinamento for um curso individual (não parte de um caminho de aprendizado), a duração refletirá o tempo necessário apenas para esse curso.</br> |
 | Embedded_Course_ID | A coluna é preenchida quando a linha representa um caminho de aprendizado ou a própria certificação. Ela mostra as IDs dos cursos individuais incorporados no Caminho de Aprendizado ou na certificação. Não é preenchido quando a própria linha é apenas um curso, já que não há itens incorporados. |
 | ID do caminho incorporado | A coluna identifica a ID exclusiva de caminhos de aprendizado incorporados. Ele ajuda a rastrear cursos nos Caminhos de aprendizado e fornece visibilidade da estrutura hierárquica dos Caminhos de aprendizado. |
 | Data de cancelamento da inscrição (fuso horário central da Europa) | Data do cancelamento da inscrição pelo aluno no tipo de Objeto de aprendizado. |
@@ -249,7 +249,7 @@ Acompanhe os alunos com datas de vencimento iminentes dos principais cursos, cam
 | Coluna | Descrição |
 |---|---|
 | Nome | Nome completo do aluno associado à transcrição da habilidade. |
-| Email | Endereço de e-mail do aluno. |
+| E-mail | Endereço de e-mail do aluno. |
 | ID exclusiva do usuário | Identificador exclusivo definido pela organização para o aluno. |
 | Habilidade | O nome da habilidade atribuída ao aluno (por exemplo, Programação Java, Liderança). |
 | Nível da habilidade | O nível de experiência na habilidade que o aluno deve atingir (por exemplo, Iniciante, Intermediário, Avançado). |
@@ -264,7 +264,7 @@ Acompanhe os alunos com datas de vencimento iminentes dos principais cursos, cam
 
 | Coluna | Descrição |
 |---|---|
-| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/skills-levels"> níveis de habilidade</a> para obter mais informações. |
+| Depois | Representa o número de alunos que obtiveram uma habilidade antes de um período definido (em dias), além do qual a habilidade é considerada desatualizada ou requer atualização. Útil para identificar alunos com habilidades que se aproximam ou expiraram.<br>Consulte <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> níveis de habilidade</a> para obter mais informações. |
 | Nome | Nome completo do aluno ao qual a habilidade está atribuída. |
 | Nome do gerente | Nome do gerente de relatórios do aluno. |
 | Rótulos de linha | O nome da habilidade específica atribuída aos alunos que aparecem nesta linha. Usado como um cabeçalho de agrupamento para resumir os dados de habilidade do aluno em cada categoria de habilidade. |
@@ -332,9 +332,3 @@ Isso garante que os administradores personalizados com escopo exibam apenas os d
 O relatório de transcrição do aluno pode ser acessado pela interface do usuário do administrador, [FTP, Box, API de trabalho ou Power BI](/help/migrated/integration-admin/feature-summary/connectors.md). Não está incluído nos relatórios unificados do Salesforce, Power BI e Marketo Engage.
 
 Os relatórios unificados baixados do Salesforce, Marketo Engage e Power BI contêm menos colunas do que as transcrições do aluno.
-
-
-
-
-
-

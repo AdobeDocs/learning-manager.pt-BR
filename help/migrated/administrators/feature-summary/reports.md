@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '7576'
-ht-degree: 53%
+source-wordcount: '7660'
+ht-degree: 63%
 
 ---
 
@@ -21,11 +21,11 @@ O Adobe Learning Manager lhe permite criar relatórios variados para acompanhar,
 
 O processo de geração de relatórios é o semelhante para o administrador e para o gerente. Os Gerentes podem ver os relatórios que correspondem aos seus subordinados enquanto que o Administrador pode vir todos os relatórios no âmbito da organização.
 
-Os relatórios são agregados em um painel. Um relatório deve existir dentro de um painel. Um **[!UICONTROL Painel Padrão]** existe por padrão na página de relatórios. Qualquer relatório adicionado por você é movido para este painel padrão. Para adicionar relatórios a painéis individuais, use a seta suspensa e escolha **[!UICONTROL Adicionar Relatório]**. Para obter mais informações sobre como criar painéis, consulte a seção Painéis nesta página.
+Os relatórios são agregados em um painel. Um relatório deve existir dentro de um painel. Um **[!UICONTROL Painel padrão]** existe por padrão na página Relatórios. Qualquer relatório adicionado por você é movido para este painel padrão. Para adicionar relatórios em painéis individuais, use a seta suspensa e escolha **[!UICONTROL Adicionar relatório]**. Para obter mais informações sobre como criar painéis, consulte a seção Painéis nesta página.
 
 ## Tipos de relatórios {#typesofreports}
 
-O Adobe Learning Manager é compatível com quatro tipos principais de relatório, por exemplo, conclusão, tempo gasto, habilidades e eficácia. Você pode usar os seguintes tipos de relatório para gerar relatórios de mais de 300 variações:
+O Adobe Learning Manager é compatível com quatro tipos principais de relatório, por exemplo, conclusão, tempo gasto, habilidades e eficácia. Você pode usar os seguintes tipos de relatórios para gerar mais de 300 variações de relatórios:
 
 * Estatísticas de entrega do curso para Alunos
 * Relatório da eficácia dos cursos
@@ -196,36 +196,36 @@ O relatório de treinamento tem duas colunas adicionais:
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
-Veja um relatório resumido de todas as atividades de aprendizado na plataforma. Nesta página, você pode ver as seguintes informações de resumo para a equipe do usuário raiz selecionado e seus perfis externos. O intervalo de tempo também pode ser selecionado:
+Ver um relatório de resumo de todas as atividades de aprendizado na plataforma. Nesta página, você pode ver as seguintes informações de resumo para a equipe do usuário raiz selecionado e seus perfis externos. O intervalo de tempo também pode ser selecionado:
 
 * Resumo do aprendizado na forma de Inscrições, Exibições e Conclusões
 * Principais habilidades
-* Resumo de conformidade
+* Resumo da conformidade
 
 ![](assets/summary-charts.png)
 *Gráficos de resumo*
 
-Se houver gerenciadores de nível raiz internos, eles serão exibidos um após o outro.
+Se houver gerentes internos de nível raiz, eles serão exibidos um após o outro.
 
 Todos os perfis externos serão listados após os perfis internos (usuários internos de nível raiz).
 
-Se um perfil externo tiver um gerente, a hierarquia do gerente será exibida na lista suspensa **[!UICONTROL Mostrando Dados para]**. O usuário será listado na hierarquia do gerente em todas as páginas de detalhes (resumo do aprendizado, conformidade e status da habilidade)
+Se um perfil externo tiver um gerente, a hierarquia do gerente será exibida na lista suspensa **[!UICONTROL Mostrando dados para]**. O usuário será listado na hierarquia do gerente em todas as páginas de detalhes (resumo do aprendizado, conformidade e status da habilidade)
 
-Caso contrário, todos os detalhes de usuário individuais serão exibidos na lista.
+Caso contrário, todos os detalhes individuais do usuário serão exibidos na lista.
 
-Para ver detalhes mais granulares das inscrições de várias equipes internas, clique em **[!UICONTROL Detalhes do Resumo do Aprendizado]**.
+Para ver mais detalhes das inscrições de várias equipes internas, clique em **[!UICONTROL Detalhes do resumo do aprendizado]**.
 
 ![](assets/learning-sunnarydetails.png)
 *Detalhes do Resumo do Aprendizado*
 
-Ao clicar em qualquer inscrição, você pode ver os alunos de cada gerente e a inscrição em quais objetos de aprendizado. Você também pode ver os detalhes de andamento e conclusão de cada aluno.
+Ao clicar em uma inscrição, você pode ver os alunos de cada gerente e em quais objetos de aprendizado eles estão inscritos. Você também pode ver os detalhes de andamento e conclusão de cada aluno.
 
 ![](assets/learners-for-a-manager.png)
 *alunos atribuídos a um gerente*
 
 Clique em qualquer equipe e exporte seu relatório como CSV. Um administrador pode exportar o relatório de qualquer grupo de usuários ou usuário individual selecionando o grupo de usuários ou usuário individual e, em seguida, exportar detalhes da lista suspensa **[!UICONTROL Ação]**.
 
-Além disso, você pode ver um gráfico de barras que mostra as habilidades que estão em andamento e foram obtidas. Você pode adicionar/remover habilidades que deseja destacar no gráfico.
+Além disso, você pode ver uma exibição do gráfico de barras das habilidades que estão em andamento e foram alcançadas. Você pode adicionar/remover habilidades que deseja destacar no gráfico.
 
 ![](assets/skill-status-stackedbarchart.png)
 *Gráfico de barras empilhadas do status da habilidade*
@@ -401,7 +401,7 @@ A guia **[!UICONTROL Relatórios de amostra]** mostra alguns relatórios indicat
 
 ### Relatórios do painel {#dashboardreports}
 
-Um painel é uma coleção de relatórios. Os relatórios podem ser agrupados em um painel de acordo com sua escolha. Para exibir todos os painéis que você criou, clique nesta guia de painel. Na lista suspensa **[!UICONTROL Exibir Painel]**, você pode selecionar o painel padrão ou um painel que você criou.
+Um painel é uma coleção de relatórios. Os relatórios podem ser agrupados em um painel de acordo com a sua escolha. Para exibir todos os painéis que você criou, clique nesta guia do painel. Na lista suspensa **[!UICONTROL Exibir painel]**, você pode selecionar o painel padrão ou um painel criado por você.
 
 ### Relatórios do Excel {#excelreports}
 
@@ -443,14 +443,14 @@ Como administrador, você pode baixar relatórios dos cursos. Siga estas etapas:
 
 >[!INFO]
 >
->Neste treinamento, você aprenderá a exportar relatórios de curso e configurar assinaturas de e-mail para esses relatórios.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+>Neste treinamento, você aprenderá a exportar relatórios de curso e configurar assinaturas de email para esses relatórios.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
 
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
 ### Transcrições do aluno {#LearnerTranscripts-1}
 
-O Adobe Learning Manager permite que os administradores de uma empresa gerem transcrições associadas aos alunos.
+O Adobe Learning Manager permite que os administradores de uma organização gerem transcrições associadas aos alunos.
 
 Consulte a [Transcrição do aluno](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) para obter mais informações.
 
@@ -466,7 +466,7 @@ Como administrador, você pode gerar um relatório de todos os comunicados que v
 
 Para baixar um relatório, siga qualquer uma dessas etapas:
 
-1. Abra **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios Do Excel]** > **[!UICONTROL Relatório De Comunicados]**. A caixa de diálogo **[!UICONTROL Gerando Solicitação de Relatório]** é aberta. Clique em Ok.
+1. Abra **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]** > **[!UICONTROL Relatórios Do Excel]** > **[!UICONTROL Relatório De Comunicados]**. É exibida a caixa de diálogo **[!UICONTROL Gerar solicitação de relatório]**. Clique em OK.
 1. [!UICONTROL **Comunicados**] > [!UICONTROL **Ações**] > [!UICONTROL **Exportar Relatório**].
 
    ![](assets/announcements.png)
@@ -555,7 +555,7 @@ O relatório baixado consiste nos seguintes campos:
 * Data de conclusão (fuso horário UTC)
 * Data do download (fuso horário UTC)
 * Nome do aluno
-* Email
+* E-mail
 * ID exclusiva do usuário
 * Nome do gerente
 * E-mail do gerente
@@ -572,7 +572,7 @@ O relatório baixado consiste nos seguintes campos:
 
 ### Relatórios de registros de auditoria do conteúdo {#contentaudittrailreports}
 
-Use o gerador de relatórios da **[!UICONTROL Trilha de auditoria de conteúdo]** para gerar um relatório de todas as alterações e edições feitas em um curso durante sua vida útil no sistema. O relatório gerado tem as seguintes informações.
+Use o gerador de relatórios **[!UICONTROL Registro de auditoria do conteúdo]** para gerar relatórios de todas as alterações e edições feitas em um curso durante sua existência no sistema. O relatório gerado tem as seguintes informações.
 
 * ID do objeto
 * Nome do objeto
@@ -589,7 +589,7 @@ Na coluna **Tipo de modificação**, você obterá os seguintes detalhes:
 
 | Tipo de modificação | Descrição |
 | --- | --- |
-| Criar  | Curso criado |
+| Criar | Curso criado |
 | Adicionar Certificação | Certificação adicionada ao catálogo |
 | Remoção de certificação | Certificação removida do catálogo |
 | Adição de conteúdo | Conteúdo adicionado ao módulo |
@@ -631,11 +631,11 @@ Para gerar um relatório de registro de auditoria do curso, siga estas etapas.
 
 ### Relatórios de registros de auditoria do usuário {#useraudittrailreports}
 
-A trilha de auditoria do usuário captura o ciclo de vida de usuários, grupos de usuários e perfis de autorregistro. Adições, exclusões, alterações de usuários no Gerente, são todas capturadas. A criação e exclusão de perfis de autorregistro também são registradas. Você também pode pausar e continuar o perfil de autorregistro.
+O registro de auditoria do usuário captura o ciclo de vida dos usuários, dos grupos de usuários e dos perfis de autorregistro. Adições, exclusões, alterações de usuários no Gerente, são todas capturadas. A criação e exclusão de perfis de autorregistro também são registradas. Você também pode pausar e continuar o perfil de autorregistro.
 
 Nos perfis externos é possível adicionar, habilitar, desabilitar, pausar ou continuar enquanto que no autorregistro é possível adicionar, excluir, pausar e continuar. Os uploads de CSV também são capturados.
 
-1. Selecione **[!UICONTROL Relatório > Relatório do Excel > Trilha do usuário]**. A caixa de diálogo Registro de auditoria do usuário é exibida.
+1. Selecione **[!UICONTROL Relatório > Relatório do Excel > Trilha do usuário]**. É exibida a caixa de diálogo Registro de auditoria do usuário.
 1. É exibida a caixa de diálogo Registro de auditoria do usuário. Selecione o intervalo de data no menu pop-up. Você pode optar por gerar o relatório da última semana, do último mês ou pode selecionar uma data personalizada.
 
    ![](assets/user-audit-trail.png)
@@ -693,14 +693,14 @@ Os administradores podem baixar a transcrição da gamificação no formato CSV.
 
 1. Clique em **[!UICONTROL Gerar]** para gerar o relatório.
 
-   Depois de gerar o relatório de um aluno, você deve ser capaz de exportar as informações atuais e de nível alcançado para todos os usuários (internos, externos ou excluídos) na conta. Você também pode verificar as datas dos níveis atingidos por um aluno:
+   Depois de gerar o relatório de um aluno, você deve poder exportar as informações atuais e do nível atingido de todos os usuários (internos, externos ou excluídos) na conta. Você também pode verificar as datas dos níveis atingidos por um aluno:
 
    * Data de obtenção do bronze
    * Data de obtenção da prata
    * Data de obtenção do ouro
    * Data de obtenção da platina
 
-   Essas colunas contêm as datas em que o nível foi atingido pela primeira vez. A coluna **[!UICONTROL Nível Atual]** exibe o nível atual do aluno.
+   Essas colunas contêm as datas em que o nível foi atingido pela primeira vez. A coluna **[!UICONTROL Nível atual]** exibe o nível atual do aluno.
 
    Quando o administrador redefine a gamificação, todos os pontos do aluno são redefinidos adequadamente.
 
@@ -733,7 +733,7 @@ O relatório é baixado como um arquivo CSV. O arquivo contém as seguintes colu
 
 ### Relatório de inscrição e cancelamento de inscrição {#enrollmentandunenrollmentreport}
 
-Os administradores e gerentes podem extrair um relatório dos alunos que foram inscritos e cancelados. Como administrador, você pode ver qualquer aluno, administrador ou gerente que se inscreveu ou cancelou a inscrição em uma instância de um curso, de um programa de aprendizado ou de uma certificação, bem como exportar o relatório. Enquanto gerente, você só pode obter um relatório dos membros da sua equipe. Como gerente, você não pode ver os alunos excluídos ou seu próprio nome no aplicativo do gerente como um aluno inscrito ou não inscrito.
+Os administradores e os gerentes também podem extrair um relatório dos alunos que se inscreveram e cancelaram a inscrição. Como administrador, você pode ver qualquer aluno, administrador ou gerente que se inscreveu ou cancelou a inscrição em uma instância de um curso, de um programa de aprendizado ou de uma certificação, bem como exportar o relatório. Enquanto que, como gerente, você pode obter relatórios somente dos membros da sua equipe. Como gerente, você não poderá ver os alunos excluídos ou seu próprio nome no aplicativo de gerenciamento como aluno inscrito ou que cancelou a inscrição.
 
 Para baixar um relatório, siga estas etapas: Abra o **[!UICONTROL Programa de aprendizado/Certificação]** > **[!UICONTROL Alunos]** > **[!UICONTROL Ação]** > **[!UICONTROL Exportar relatório]**.
 
@@ -748,7 +748,7 @@ Consulte [Relatório de comentários](/help/migrated/administrators/feature-summ
 
 ### Relatórios de treinamento {#training-report}
 
-O Learning Manager é compatível com o Relatório de treinamento, que permite que os administradores baixem detalhes de treinamento e seus metadados associados, como autor, data de publicação, habilidades, etiquetas do catálogo etc.
+O Learning Manager é compatível com o Relatório de treinamento, que permite que os administradores baixem detalhes de treinamento e seus metadados associados, como autor, data de publicação, habilidades, rótulos do catálogo etc.
 
 No aplicativo de administração, clique em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios personalizados]** > **[!UICONTROL Relatórios do Excel]** > **[!UICONTROL Relatório de treinamentos]**.
 
@@ -911,7 +911,7 @@ Você pode obter seus relatórios favoritos por e-mail inscrevendo-se para receb
 
 >[!INFO]
 >
->Neste treinamento, você aprenderá como configurar assinaturas de email para relatórios do painel.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
+>Neste treinamento, você aprenderá a configurar assinaturas de email para relatórios do painel.<br><br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
@@ -956,7 +956,7 @@ Para baixar esse relatório, siga estas etapas:
    *Adicionar painéis*
 
 1. Forneça o nome e a descrição do painel.
-1. Se você deseja compartilhar o painel com qualquer Gerente, escolha-os no campo **[!UICONTROL Compartilhar com]**. Você pode usar todos os critérios de seleção normal nesta operação.
+1. Se quiser compartilhar o painel com qualquer gerente, escolha-o no campo **[!UICONTROL Compartilhar com]**. Você pode usar todos os critérios de seleção normal nesta operação.
 1. Clique em **[!UICONTROL Salvar].**
 
 Você pode visualizar o painel criado recentemente na guia **[!UICONTROL Relatórios de painel]**.
@@ -965,15 +965,15 @@ Para adicionar relatórios ao seu painel, clique na lista suspensa no canto supe
 
 >[!NOTE]
 >
->Os relatórios que você cria ao clicar em Adicionar no canto superior direito da página Relatórios, são adicionados ao painel padrão.
+>Os relatórios que você cria ao clicar em Adicionar no canto superior direito da página Relatórios são adicionados ao painel padrão.
 
 ## Painéis compartilhados {#shareddashboards}
 
 Os relatórios compartilhados são uma conjunto de relatórios que foram compartilhados com você por outros usuários da sua empresa. Todos os relatórios que você adiciona a um painel compartilhado são compartilhados automaticamente com outros usuários que têm acesso a esse painel.
 
-É possível compartilhar o painel das seguintes maneiras:
+Você pode compartilhar o painel de duas formas:
 
-* Inserindo usuários no campo **[!UICONTROL Compartilhar com]** com quem o painel é compartilhado.
+* Inserindo usuários no campo **[!UICONTROL Compartilhar com]**, com quem o painel será compartilhado.
 * Escolha Editar painel na lista suspensa e insira detalhes do usuário para compartilhar o painel.
 
 >[!NOTE]
@@ -1092,7 +1092,7 @@ Você pode redimensionar seus relatórios para os tamanhos 1 × 1 (médio) e 1 �
 
 ## Filtros {#filters}
 
-Os filtros são exibidos na caixa de diálogo **[!UICONTROL Adicionar]** na parte inferior com base nos tipos de relatórios que você escolheu. Alguns filtros importantes são mencionados abaixo.
+Os filtros são exibidos na caixa de diálogo **[!UICONTROL Adicionar]** na parte inferior com base nos tipos de relatórios que você escolheu. Alguns filtros proeminentes são mencionados abaixo.
 
 **Gerente** Você pode escolher qualquer um dos gerentes com base na hierarquia. Para alguns gerentes, pode haver gerentes subordinados e vários funcionários se comunicando com cada gerente subordinado.
 
@@ -1132,7 +1132,7 @@ Este relatório do grupo de usuários permite comparar o desempenho de um depart
 
 Você também pode criar grupos de usuários personalizados usando o recurso Adicionar usuários/grupos de usuários no Learning Manager. Após criar os grupos de usuários, você pode gerar relatórios para esses grupos de usuários personalizados com a ajuda de uma lista de atributos, tal como local, filial.
 
-No eixo x, escolha a opção de atributo de usuário e selecione o atributo no menu suspenso **selecionar** ao lado dele. Para criar um relatório de grupo de usuários personalizado com base nesses atributos, você também deve escolher o grupo de usuários apropriado no filtro.
+No eixo x, escolha a opção de atributo de usuário e selecione o atributo no menu suspenso **selecionar** ao lado dele. Para criar um relatório do grupo de usuários personalizado com base nesses atributos, você também precisa escolher o grupo de usuários apropriado no filtro.
 
 ## Exibição de relatórios {#viewingreports}
 
@@ -1161,7 +1161,7 @@ Se houver múltiplos Gerentes que se reportam a você, poderá exibir os relató
 
 Você pode exibir relatórios específicos para cada curso seguindo as etapas abaixo:
 
-1. Clique no link **[!UICONTROL Exibir relatórios de curso]** na guia Meus painéis na página Relatórios.\
+1. Clique no link **[!UICONTROL Exibir relatórios do curso]** na guia Meus painéis na página Relatórios.\
    Uma caixa de diálogo suspensa será exibida. Um campo de entrada de texto aparece onde você pode inserir o curso obrigatório e os nomes dos cursos sugeridos aparecem na lista suspensa. Escolha o curso na lista exibida.
 
    ![](assets/view-course-report-300x117.png)
@@ -1181,13 +1181,13 @@ Para ver as opções da lista suspensa, tal como Editar/Mover para o painel/Cria
 
 **[!UICONTROL Editar]** Para voltar aos valores iniciais ao modificar dados, clique em Redefinir. Clique em Salvar após modificar os valores.
 
-**[!UICONTROL Mover para o Painel]** Você pode mover o relatório atual para outro painel, que é escolhido na lista de painéis.
+**[!UICONTROL Mover para o painel]** Você pode mover o relatório atual para outro painel, que é selecionado na lista de painéis.
 
-**[!UICONTROL Criar uma Cópia]** Você pode copiar o relatório para o mesmo painel ou para outro painel, que é escolhido na lista de painéis.
+**[!UICONTROL Criar uma cópia]** Você pode copiar o relatório para o mesmo ou outro painel, que é selecionado na lista de painéis.
 
 **[!UICONTROL Excluir]** Clique em Excluir para remover o relatório. Uma mensagem de advertência/confirmação aparece antes que você possa excluir o relatório.
 
-**[!UICONTROL Redimensionar]** Você pode redimensionar seus relatórios em tamanhos 1×1(médio) e 2×2(grande).
+**[!UICONTROL Redimensionar]** Você pode redimensionar seus relatórios para os tamanhos 1 × 1 (médio) e 2 × 2 (grande).
 
 ## Gerar e exibir relatórios de contas entre parceiros {#generateandviewreportsforpeeraccount}
 
