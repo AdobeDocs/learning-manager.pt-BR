@@ -4,10 +4,10 @@ title: Caminhos de aprendizado
 description: Criação de planos de aprendizado para administradores no Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 32%
+source-wordcount: '1461'
+ht-degree: 61%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 ## O que é um caminho de aprendizado?
 
-Frequentemente, os administradores estão interessados em elaborar um currículo detalhado que ofereça conhecimentos aprofundados de um tópico específico ou de uma área de especialização. Também pode ser uma sequência de cursos de treinamento que os funcionários ou clientes devem concluir. Isso requer o agrupamento de um conjunto de cursos e programas para criar um pacote de treinamento completo.
+Frequentemente, os administradores estão interessados em elaborar um currículo detalhado que ofereça conhecimentos aprofundados de um tópico específico ou de uma área de especialização. Pode também ser uma sequência de cursos de treinamento que os funcionários ou clientes devem concluir. Isso requer o agrupamento de um conjunto de cursos e programas para criar um pacote de treinamento completo.
 
 É aqui que o Caminho de aprendizado entra em cena. Um caminho de aprendizado é uma jornada pela qual um aluno deve passar para dominar algum assunto ao longo do tempo. Os alunos controlam sua experiência de treinamento e podem adquirir e manter o conhecimento em ritmo individualizado com maior eficácia.
 
@@ -43,7 +43,7 @@ Os caminhos de aprendizado tornam o fornecimento de um programa de treinamento p
 
 No Learning Manager, no aplicativo de administração, clique em **[!UICONTROL Caminho de Aprendizado]** no painel esquerdo.
 
-Na página **[!UICONTROL Caminho de aprendizado]**, clique em **[!UICONTROL Adicionar]**. Insira os detalhes.
+Na página **[!UICONTROL Caminho do aprendizado]**, clique em **[!UICONTROL Adicionar]**. Insira os detalhes.
 
 ![](assets/add-learning-path.png)
 
@@ -71,11 +71,11 @@ Selecione o nível de produtos, funções e funções na seção **[!UICONTROL R
 
 *Recomendação*
 
-Escolha o tipo de sequenciamento para as seções e treinamentos como Ordenado ou Não ordenado de acordo com a sua preferência.
+Escolha o tipo de sequenciamento para as seções e treinamentos como Ordenado ou Não ordenado de acordo com as suas preferências.
 
 Se optar por Ordenado, os cursos serão exibidos na mesma sequência em que foram criados. Se optar por Não ordenado, os cursos não são organizados em sequência. Os alunos podem finalizar os cursos em qualquer ordem.
 
-Para adicionar um curso no Caminho de Aprendizado, clique em **[!UICONTROL Adicionar Cursos ou Caminhos de Aprendizado]**.
+Para adicionar um curso no Caminho de aprendizado, clique em **[!UICONTROL Adicionar cursos ou caminhos de aprendizado]**.
 
 Na caixa de diálogo exibida, escolha o treinamento que deseja adicionar ao Caminho de aprendizado.
 
@@ -85,25 +85,25 @@ Na caixa de diálogo exibida, escolha o treinamento que deseja adicionar ao Cami
 
 Você pode classificar os cursos de acordo com as habilidades atribuídas, a data modificada e a eficácia do curso.
 
-Depois de selecionar os cursos ou o Caminho de Aprendizado, clique em **[!UICONTROL Salvar]**.
+Depois de selecionar os cursos ou o Caminho de aprendizado, clique em **[!UICONTROL Salvar]**.
 
 No Caminho de aprendizado, você pode executar o seguinte:
 
-**Criar e configurar uma Seção:** Uma Seção é criada para agrupar vários cursos de treinamento, o que completa uma área ou um componente substancial do treinamento. Cada seção pode ter um título. Cada seção também pode ser marcada como Obrigatória com requisitos específicos de conclusão.
+**Criar e configurar uma Seção:** uma seção é criada para agrupar vários cursos de treinamento, o que completa uma área ou um componente substancial do treinamento. Cada seção pode ter um título. Cada seção pode também ser marcada como obrigatória com requisitos específicos de conclusão.
 
-**Torne os cursos obrigatórios em cada seção:** habilite ou desabilite a caixa de seleção Obrigatório se você deseja/não deseja tornar os treinamentos obrigatórios dentro do Caminho de Aprendizado. Se você ativar a caixa de seleção, poderá tornar todos os treinamentos obrigatórios ou alguns dos treinamentos obrigatórios.
+**Tornar os cursos obrigatórios em cada seção:** ative ou desative a caixa de seleção Obrigatório se você deseja/não deseja tornar os treinamentos obrigatórios dentro do Caminho de aprendizado. Se você ativar a caixa de seleção, poderá tornar todos os treinamentos obrigatórios ou alguns dos treinamentos obrigatórios.
 
 ![](assets/choose-mandatory.png)
 
 *Tornar os cursos obrigatórios em cada seção*
 
-**Reorganize a ordem:** você pode mover os cursos para cima ou para baixo e alterar sua ordem.
+**Reorganizar a ordem:** é possível mover os cursos para cima ou para baixo e alterar sua ordem.
 
 ![](assets/rearrange.png)
 
 *Reorganizar a ordem do treinamento*
 
-**Remover um curso:** no cartão do curso, clique em X e remova o curso do Caminho de Aprendizado.
+**Remover um curso:** no cartão do curso, clique em X e remova o curso do Caminho de aprendizado.
 
 ![](assets/remove-course.png)
 
@@ -133,7 +133,7 @@ As instâncias do Caminho de aprendizado exibem um bloco adicional: **[!UICONTRO
 
 No bloco **Cursos**, você pode ver as instâncias do curso que estão visíveis para os alunos inscritos nesta instância.
 
-A caixa de seleção **[!UICONTROL Permitir que os alunos escolham instâncias (Caminho de Aprendizado Flexível)]** só se aplica aos cursos. Essa opção permite que os alunos alternem suas instâncias no caminho de aprendizado. Todos os Caminhos de aprendizado filho terão a opção de mapear uma instância do Programa de aprendizado com o Caminho de aprendizado. Por padrão, o mapeamento é definido como Instância padrão.
+A caixa de seleção **[!UICONTROL Permitir que os alunos escolham instâncias (Caminho de aprendizado flexível)]** só se aplica aos cursos. Essa opção permite que os alunos alternem suas instâncias no caminho de aprendizado. Todos os Caminhos de aprendizado filho terão a opção de mapear uma instância do Programa de aprendizado com o Caminho de aprendizado. Por padrão, o mapeamento é definido como Instância padrão.
 
 ![](assets/default-instance.png)
 
@@ -171,13 +171,14 @@ Siga as etapas abaixo:
 
 Observe que o recurso existente dos Programas de aprendizado será renomeado para Caminho de aprendizado imediatamente após a versão. Caso queira continuar a chamá-los de Programas de aprendizado, recomendamos que você use o recurso “Terminologias” para aplicar a terminologia desejada. Dessa forma, você pode usar o termo Programa de aprendizado.
 
-Os Caminhos de aprendizado trazem para você uma variedade de funcionalidades. Algumas delas ficam disponíveis imediatamente após o lançamento da versão. Administradores/autores podem começar a usá-los. Recursos estendidos, como “Seções”, “adição do Caminho de aprendizado em outro caminho” etc. estão desativadas e podem ser ativadas marcando a caixa de seleção mencionada abaixo.
+Os Caminhos de aprendizado trazem para você uma variedade de funcionalidades. Algumas delas ficam disponíveis imediatamente após o lançamento da versão. Administradores/autores podem começar a usá-los. Os recursos estendidos, como “Seções”, “adição de Caminho de aprendizado em outro caminho” etc., estão desativados e podem ser ativados marcando a caixa de seleção mencionada abaixo.
 
-Os alunos podem continuar a usar os Programas de aprendizado (agora chamados de Caminhos de aprendizado) e os autores/administradores também podem continuar a criá-los. Para aproveitar as funcionalidades estendidas do Caminho de aprendizado mencionadas acima, o administrador deve ativar a configuração conforme mencionado abaixo. Uma vez ativado, todos os novos recursos estendidos do Caminho de aprendizado estarão disponíveis.
+Os alunos podem continuar a usar os Programas de aprendizado (agora chamados de Caminhos de aprendizado) e os autores/administradores também podem continuar a criá-los. Para aproveitar as funcionalidades estendidas do Caminho de aprendizado mencionadas acima, o administrador deve ativar a configuração conforme mencionado abaixo. Depois de ativado, todos os novos recursos estendidos do Caminho de aprendizado estarão disponíveis.
 
 A página **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** tem uma nova opção para habilitar os Caminhos de Aprendizado. Se essa opção estiver ativada, você pode adicionar cursos e programas de aprendizado em um caminho de aprendizado. Não é possível alterar a opção depois de ativada.
 
-<!-- ## Other Learning Path-related details 
+<!--
+ ## Other Learning Path-related details 
 
 ### Learning Path option is disabled/unchecked in Admin Settings
 
@@ -249,4 +250,5 @@ A página **[!UICONTROL Configurações]** > **[!UICONTROL Geral]** tem uma nova
 
 **Reporting**
 
-* Same changes as that of Reporting stated above. -->
+* Same changes as that of Reporting stated above. 
+-->

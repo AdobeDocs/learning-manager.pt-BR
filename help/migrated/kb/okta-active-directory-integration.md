@@ -4,16 +4,16 @@ title: Integração do Okta Active Directory com o Adobe Learning Manager
 description: Integração do Okta Active Directory com o Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 55%
+source-wordcount: '587'
+ht-degree: 60%
 
 ---
 
 # Integração do Okta Active Directory com o Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
-Neste documento, você aprenderá como integrar o Adobe Learning Manager com o Okta Ative Diretory (AD). Ao integrar o Adobe Learning Manager com o Okta AD, você pode:
+Neste documento, você aprenderá como integrar o Adobe Learning Manager com o Okta Active Directory (AD). Ao integrar o Adobe Learning Manager com o Okta AD, você pode:
 
 * Verifique e controle o acesso do usuário do Learning Manager no Okta AD.
 * Permita que os usuários façam logon automaticamente no Adobe Learning Manager com suas contas do Okta AD.
@@ -61,7 +61,7 @@ O Adobe Learning Manager oferece suporte ao provedor de identidade (IdP) e ao pr
 
    1. No campo da URL de Logon Único, digite a URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
    1. No campo da URL da Audiência, digite a URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. Na caixa suspensa **Formato de ID de Nome**, selecione **Endereço de Email**.
+   1. Na caixa suspensa **Name ID Format**, selecione **Email Address**.
    1. Na lista suspensa **Nome de usuário do aplicativo**, selecione o nome de usuário do Okta.
    1. Caso queira passar atributos adicionais, você pode adicionar os atributos na **Instrução de atributos** (Opcional)
 
@@ -136,4 +136,5 @@ Para configurar o logon único do Adobe Learning Manager, execute as etapas menc
 article not in TOC
 
 [SSO Authentication](/help/migrated/kb/sso-authentication-for-learning-manager.md)
+
 -->

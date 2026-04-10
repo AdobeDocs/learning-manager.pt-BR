@@ -4,14 +4,14 @@ title: Iniciar como Aluno
 description: Use a página de introdução para percorrer os principais caminhos de aprendizado do Adobe Learning Manager.
 contentowner: manochan
 exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
-source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 77%
+source-wordcount: '675'
+ht-degree: 87%
 
 ---
 
-# Iniciar como Aluno
+# Iniciar como um Aluno
 
 Começar com o aplicativo do aluno no Learning Manager
 
@@ -43,13 +43,13 @@ Se for acessar o Learning Manager através de um iPad ou tablet Android, consul
 
 Cronograma do aprendizado mostra a agenda dos alunos com os cursos que eles precisam concluir. Nessa seção, você pode ver os alertas dos seus cursos, certificações e programas de aprendizado na ordem crescente dos prazos de conclusão. O prazo de conclusão de cada uma das suas atividades de aprendizado é exibido no painel esquerdo.
 
-Clique em cada objeto de aprendizado no quadro à esquerda para exibir as informações correspondentes ao cartão do curso no painel direito. Você pode clicar no quadro curso/programa de aprendizado/certificação para exibir as informações completas de cada objeto de aprendizado.
+Clique em cada objeto de aprendizado no quadro à esquerda para exibir as informações correspondentes ao cartão do curso no painel direito. Você pode clicar no quadro do curso/programa de aprendizado/certificação para ver a informação completa de cada objeto de aprendizado.
 
 Passe o mouse sobre área do cronograma para ver a barra de rolagem à direita. Use a barra de rolagem para mover para cima ou para baixo, e para ver mais alertas.
 
 ## Usuários do aplicativo para iPad e Android {#ipadandandroidappusers}
 
-No aplicativo Learning Manager no iPad ou tablet Android, após fazer logo como aluno, você pode ver as informações na guia Início da seguinte maneira:
+No aplicativo Learning Manager no iPad ou no tablet Android, após fazer logo como aluno, você pode ver as informações na guia Início da seguinte forma:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
@@ -65,7 +65,7 @@ Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** s
 
 Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPad. Baixe e faça cursos no modo off-line e sincronize o conteúdo com o aplicativo on-line ao conectar-se à rede.
 
-1. Toque na lista suspensa Menu na parte superior e toque em Opção de aprendizado. Uma lista de todos os cursos disponíveis é exibida em quadros.
+1. Toque no Menu suspenso na parte superior e toque na opção Aprendizado. Uma lista de todos os cursos disponíveis é exibida em quadros.
 1. Toque no ícone de download na parte inferior de cada quadro do objeto de aprendizado para baixar o conteúdo do aprendizado.
 
 ![](assets/download-ipad.png)
@@ -74,7 +74,8 @@ Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPa
 
 1. Quando estiver on-line, um prompt aparecerá em uma barra na parte superior do aplicativo para verificar se você quer sincronizar seu conteúdo on-line. Toque na barra vermelha se a resposta for sim. Uma barra verde indica que o conteúdo está em sincronia com o aplicativo on-line.
 
-<!--### Track device storage
+<!--
+### Track device storage
 
 You can monitor your device storage periodically.
 
@@ -86,4 +87,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/device-storage-detailed-e1439211162955.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+-->

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '7540'
-ht-degree: 69%
+source-wordcount: '7631'
+ht-degree: 75%
 
 ---
 
@@ -45,7 +45,7 @@ Para criar um curso, siga as etapas abaixo:
    * **Aprovado pelo gerente:** os gerentes aprovam esses cursos. Os alunos podem se inscrever nesses cursos, mas não são inscritos diretamente nesses tipos de cursos sem a aprovação do gerente. Uma solicitação de notificação será enviada para os gerentes quando os alunos se inscreverem nesses tipos de cursos. Após a aprovação do gerente, esses cursos são listados como inscritos para os alunos.
    * **Autoinscrição:** os alunos podem se inscrever diretamente nesses tipos de cursos.
 
-1. Para salvar as alterações, clique em **[!UICONTROL Salvar]**. Para publicar o curso, clique em **[!UICONTROL Publish]**.
+1. Para salvar as alterações, clique em **[!UICONTROL Salvar]**. Para publicar o curso, clique em **[!UICONTROL Publicar]**.
 
 ## Criar um curso - Fluxo de trabalho avançado {#createacourseadvancedworkflow}
 
@@ -95,16 +95,16 @@ Para criar um curso, siga as etapas abaixo:
 
 1. **Várias inscrições**
 
-   Usando isso, você pode inscrever alunos em mais de uma instância do curso em um ou diferentes períodos.
+   Usando esse recurso, você pode inscrever alunos em mais de uma instância do curso em um período ou em períodos diferentes.
 
    Ative a alternância **Inscrição múltipla** para alternar entre várias inscrições de curso de um aluno. Se você habilitou a Opção de Instância, não poderá usar o recurso de Várias inscrições.
 
 1. Selecione os cursos de pré-requisito que devem ser concluídos antes de realizar seu curso. Clique no campo Cursos e escolha na lista de cursos.
-1. Habilite a caixa de seleção **Habilitar** **Pré-requisitos** se quiser que os cursos de pré-requisito se tornem obrigatórios.
+1. Habilite a caixa de seleção **Ativar** **pré-requisitos** se quiser que os cursos de pré-requisito sejam obrigatórios.
 1. Adicione palavras-chave como marcas relacionadas ao curso. Essas marcas ajudam os alunos a localizarem com facilidade o curso durante a pesquisa. Todas essas marcas são adicionadas automaticamente com base nos módulos que adicionamos. Se tiver outras marcas que deseja adicionar a este curso, você pode incorporá-las.
 1. Adicione palavras-chave como marcas relacionadas ao curso. Essas marcas ajudam os alunos a localizarem com facilidade o curso durante a pesquisa. Todas essas marcas são adicionadas automaticamente com base nos módulos que adicionamos. Se tiver outras marcas que deseja adicionar a este curso, você pode incorporá-las.
 1. No campo Desativação automática, selecione uma data em que o curso será desativado. O administrador deve habilitar a opção Retirada automática primeiro.
-1. Para salvar as alterações, clique em **[!UICONTROL Salvar]**. Para publicar o curso, clique em **[!UICONTROL Publish]**.
+1. Para salvar as alterações, clique em **[!UICONTROL Salvar]**. Para publicar o curso, clique em **[!UICONTROL Publicar]**.
 
 ### Adicionar rótulos de conformidade ao curso/caminho de aprendizado/certificação {#add-custom-compliance-label}
 
@@ -179,9 +179,9 @@ Na seção **[!UICONTROL Recursos]**, a caixa de seleção Mostrar recursos cons
 
 ## Assistente de Agendamento
 
-Gerencie conflitos no agendamento de professores e salas de aula. Se quiser saber em que hora e data qualquer professor está disponível antes de atribuí-lo ao curso, use o Assistente de programação.
+Gerencie conflitos no agendamento de professores e salas de aula. Se quiser saber em que hora e data um professor estará disponível antes de atribuí-lo ao curso, use o Assistente de Agendamento.
 
-Ao criar um curso, para um curso de VC ou CR, clique em Assistente de agendamento.
+Ao criar um curso, para um curso de sala de aula ou virtual, clique em Assistente de Agendamento.
 
 ![Selecionar o Assistente de Agendamento](assets/scheduling-assistant.png)
 
@@ -220,7 +220,7 @@ As habilidades podem ser pesquisadas apenas pelo nome parcial ou completo da hab
 
 No Assistente, insira o nome do professor, o local e o limite de vagas.
 
-Além disso, você pode pesquisar habilidades, que seriam exibidas depois de clicar no ícone de filtro presente no lado direito da caixa de pesquisa do professor. A captura de tela abaixo exibe o botão.
+Além disso, você pode pesquisar a habilidade, que seria exibida após clicar no ícone de filtro localizado no lado direito da caixa de pesquisa do professor. A captura de tela abaixo exibe o botão.
 
 ![Insira habilidades para o professor](assets/scheduling-assistant-instructor-skill.png)
 
@@ -363,9 +363,9 @@ Após o administrador habilitar a opção de várias tentativas, como autor, voc
   </tr>
   <tr>
    <td>
-    <p>Definir tentativas como</p></td>
+    <p>Definir tentativas em</p></td>
    <td>
-    <p>Você pode definir o número de tentativas de um módulo como infinitas ou fornecer um limite definido. <span style="font-size: 0.8125rem;">As informações sobre a tentativa serão mostradas ao aluno depois de a opção ter sido habilitada. O aluno pode optar por tentar novamente o módulo clicando no botão 'Tentar Novamente'.</span></p></td>
+    <p>Você pode definir o número de tentativas de um módulo como infinitas ou fornecer um limite definido.<span style="font-size: 0.8125rem;">As informações sobre a tentativa serão mostradas ao aluno depois de a opção ter sido habilitada. O aluno pode optar por tentar novamente o módulo clicando no botão 'Tentar Novamente'.</span></p></td>
   </tr>
   <tr>
    <td>
@@ -377,7 +377,7 @@ Após o administrador habilitar a opção de várias tentativas, como autor, voc
    <td>
     <p>Bloquear módulo entre tentativas 0:0:1 Formato: Dias/Horas/Minutos</p></td>
    <td>
-    <p>Você pode bloquear módulos por um tempo específico entre tentativas, marcando a caixa de seleção “<b>Bloquear módulo entre tentativas 0:0:1 Formato: Dias/Horas/Minutos</b>”. Quando um módulo está bloqueado, o aluno não pode visitar o módulo até que o tempo de bloqueio fornecido expire. </p>
+    <p>Você pode bloquear módulos por um tempo específico entre tentativas, marcando a caixa de seleção “<b>Bloquear módulo entre tentativas 0:0:1 Formato: Dias/Horas/Minutos</b>”. Quando um módulo é bloqueado, o aluno não pode acessar o módulo até que o tempo de bloqueio fornecido termine. </p>
     <p>Você pode definir os critérios de término de uma tentativa marcando as caixas de seleção '<b>Player fechado</b>' ou '<b>Conclusão</b>'.</p></td>
   </tr>
   <tr>
@@ -454,16 +454,16 @@ Para adicionar um módulo de conteúdo, siga as etapas abaixo:
 
    *Adicionar um módulo de sala de aula*
 
-   Ao criar um curso, na caixa de diálogo de configuração de sala de aula virtual, defina o sistema de conferência para a conexão Microsoft Teams que você criou. Selecione se deseja um organizador de reunião para o evento.
+   Ao criar um curso, na caixa de diálogo de configuração de sala de aula virtual, defina o sistema de conferência para a conexão do Microsoft Teams que você criou. Selecione se deseja um organizador de reunião para o evento.
 
-   Se você selecionar Sim para um organizador de reunião, você deve inserir o nome do organizador. Digite o nome do organizador e selecione o organizador.
+   Se você selecionar Sim para um organizador de reuniões, você deve inserir o nome do organizador. Digite o nome do organizador e selecione o organizador.
 
    **Ignorando lobby**
 
-   * Se você selecionar Sim, qualquer aluno pode participar da reunião.
-   * Se você selecionar Não, uma solicitação é enviada ao organizador para permitir ou impedir que o aluno participe da reunião.
+   * Se você selecionar Sim, qualquer aluno poderá participar da reunião.
+   * Se você selecionar Não, uma solicitação será enviada ao organizador para permitir ou impedir que o aluno participe da reunião.
 
-   **Observação:** se um aluno quiser participar de Microsoft Teams como convidado, ele deverá inserir o e-mail. O e-mail deve estar presente no Learning Manager.
+   **Observação:** se um aluno quiser participar do Microsoft Teams como convidado, ele deverá inserir o e-mail. O e-mail deve estar presente no Learning Manager.
 
    **Módulo de atividade:** nesse modo, os alunos devem concluir um conjunto de atividades, como workshops, exercícios, questionários e outras atividades de aprendizado. Insira o título, a descrição e o URL externo para referência. Para salvar as alterações, clique em **[!UICONTROL Concluído]**.
 
@@ -529,11 +529,11 @@ Os alunos manterão o progresso em outros módulos, mas precisarão concluir o n
 
 A avaliação é um aspecto importante de qualquer LMS. Avaliações on-line são uma das principais maneiras de avaliar a compreensão de um aluno de um tópico. Mas muitas vezes, é necessário avaliar a compreensão de uma pessoa enquanto ela está no trabalho, observando-a realizar as tarefas necessárias.
 
-Considere os funcionários das lojas ou dos armazéns em avaliação das tarefas que devem desempenhar diariamente. Podem ser as etapas realizadas para consertar uma máquina de café ou as etapas envolvidas na embalagem de um produto. Os professores podem avaliar funcionários para tais tarefas com base em uma lista de verificação e avaliá-los como Aprovado ou Reprovado na atividade de avaliação.
+Considere os funcionários das lojas ou dos armazéns em avaliação de tarefas que devem desempenhar diariamente. Podem ser as etapas realizadas para consertar uma máquina de café ou as etapas envolvidas na embalagem de um produto. Os professores podem avaliar funcionários para tais tarefas com base em uma lista de verificação e avaliá-los como Aprovado ou Reprovado na atividade de avaliação.
 
 ### Criar uma lista de verificação {#createachecklist}
 
-Somente um autor pode criar uma lista de verificação. Uma lista de verificação é um tipo de módulo Atividade. Ao configurar um módulo de Atividade, você, um Autor, pode selecionar uma Atividade como **Lista de Verificação**, conforme mostrado abaixo:
+Somente um autor pode criar uma lista de verificação. Uma lista de verificação é um tipo de módulo Atividade. Ao configurar um módulo Atividade, você, um autor, pode selecionar uma Atividade como **Lista de verificação**, conforme mostrado abaixo:
 
 ![](assets/checklist-option.png)
 
@@ -632,7 +632,7 @@ Para permitir que os professores marquem o sucesso do aluno:
 6. Digite os detalhes necessários e selecione as datas.
 7. Selecione a opção **[!UICONTROL Permitir que o professor marque o êxito]**.
 
-   ![A mensagem “Permitir que o professor marque como bem-sucedido?” a caixa de seleção está realçada, permitindo que os autores registrem o status de sucesso do aluno para um módulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![A mensagem “Permitir que o professor marque como bem-sucedido?” A caixa de seleção está realçada, permitindo que os autores registrem o status de sucesso do aluno para um módulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Tela Detalhes da sessão com a opção Permitir que o professor marque como bem-sucedido destacada para os módulos Sala de aula ou Sala de aula virtual_
 
 8. Selecione **[!UICONTROL Concluído]**.
@@ -788,7 +788,7 @@ Para inscrever os alunos nos cursos ou permitir que os gerentes indiquem alunos 
 Para alternar para o modo de administrador,
 
 1. Clique em sua foto do perfil e, em seguida, selecione Administrador.
-1. No modo Administrador, clique em **[!UICONTROL Cursos]** no painel esquerdo. Nesta página, você pode ver todos os cursos criados por todos os autores na sua conta do Learning Manager.
+1. No modo Administrador, clique em **[!UICONTROL Cursos]** no painel esquerdo. Nessa página, você pode ver todos os cursos criados por todos os autores na sua conta do Learning Manager.
 1. Para inscrever os alunos, passe o mouse sobre o cartão do curso e você poderá ver a opção **Inscrever alunos**. Clique nessa opção.
 
    ![](assets/enroll-learners.png)
@@ -801,7 +801,7 @@ Para alternar para o modo de administrador,
 
    *Exibir instância padrão de um curso*
 
-1. Comece digitando o nome de um aluno no campo Incluir alunos e escolha um aluno. Você também pode adicionar grupos de usuários aqui. Se quiser inscrever todos os alunos na sua conta do Learning Manager, comece a digitar todos. Você também pode inscrever alunos em uma equipe.
+1. Comece digitando o nome de um aluno no campo Incluir alunos e escolha um aluno. Você também pode adicionar grupos de usuários aqui. Se quiser inscrever todos os alunos na sua conta do Learning Manager, digite todos. Você também pode inscrever alunos em uma equipe.
 
    ![](assets/include-learners.png)
 
@@ -831,8 +831,10 @@ Um URL permanente é sempre corrigido. Mas para os usuários que não têm o Con
 
 Agora você pode alterar o URL da sala permanente na página **Instância do curso**.
 
-<!--| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
-|---|---|-->
+<!--
+| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
+|---|---|
+-->
 
 ## Cancelar a inscrição de alunos em um curso {#unenrolllearnersfromacourse}
 
@@ -855,7 +857,7 @@ Você também pode publicar módulos de curso no Learning Manager a partir do so
 1. Faça logon com as credenciais da Adobe. Se não tiver uma Adobe ID, clique em **[!UICONTROL Criar conta]**. Após a autorização, você será direcionado para a página de publicação do módulo.
 1. Forneça quaisquer informações básicas sobre o módulo e clique em Publicar.
 
-Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/br/captivate/classic/publish-project-to-captivate-prime.html)
+Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)
 
 ## Eficácia do curso {#courseeffectiveness}
 
@@ -900,7 +902,7 @@ Quando os cursos são definidos como obrigatórios:
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
-+++Como remover &quot;procurar indicação do gerente&quot; para um curso?
++++Como remover “procurar indicação do gerente” para um curso?
 
 Execute as seguintes etapas:
 
@@ -934,7 +936,7 @@ Em um Programa de aprendizado, você só pode adicionar cursos com inscrição, 
 
 +++Como garantir que nem todos os cursos estejam visíveis para todos os alunos?
 
-Você pode conseguir isso através de catálogos. Um catálogo padrão contém todos os cursos adicionados ao Learning Manager por padrão.
+Você pode fazer isso por meio de catálogos. Um catálogo padrão contém todos os cursos adicionados ao Learning Manager por padrão.
 
 Você deve desabilitar o catálogo padrão e criar catálogos personalizados.
 
@@ -942,7 +944,7 @@ Você deve desabilitar o catálogo padrão e criar catálogos personalizados.
 1. No painel esquerdo, clique em **[!UICONTROL Catálogos]**.
 1. Crie um catálogo clicando em **[!UICONTROL Criar]**. Insira os detalhes e clique em **[!UICONTROL Salvar]**.
 
-1. Nas opções do catálogo recém-criado, você pode selecionar diferentes tipos de aprendizado que podem ser adicionados, por exemplo, programa de aprendizado, certificação ou curso.
+1. Nas opções recém-criadas do Catálogo, você pode selecionar diferentes tipos de aprendizado que podem ser adicionados, como por exemplo Programa de aprendizado, certificação ou curso.
 1. Na seção Programa de aprendizado, clique em **[!UICONTROL Adicionar conteúdo]**.
 1. No painel esquerdo, clique em **[!UICONTROL Compartilhar internamente]** ou **[!UICONTROL Compartilhar externamente]**, dependendo do público-alvo que deseja atingir.
 
@@ -981,7 +983,7 @@ Ao criar um curso, você pode adicionar arquivos de vídeo, áudio, pdf ou texto
 
 +++Como definir várias tentativas no módulo?
 
-**Pré-requisito:** o administrador deve habilitar a opção **Várias Tentativas** em **Configurações > Geral** no aplicativo do administrador.
+**Pré-requisito:** o administrador deve habilitar a opção **Várias tentativas** em **Configurações > Geral** no aplicativo do administrador.
 
 Como autor, na página de visão geral do curso, habilite a opção **Permitir várias tentativas**.
 

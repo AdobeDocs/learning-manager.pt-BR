@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Instalar o conector do Microsoft Teams no Adobe Learning Manager
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 6192559436074c3270644850b202589961e7b81b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 17%
+source-wordcount: '1212'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 Microsoft Teams® é uma plataforma de colaboração baseada em bate-papo persistente que oferece suporte total ao compartilhamento de documentos, reuniões on-line e outros recursos para comunicações de negócios.
 
-O Adobe Learning Manager usa um conector de sala de aula virtual que pode ser usado para integrar reuniões Microsoft Teams com o Learning Manager.
+O Adobe Learning Manager usa um conector de sala de aula virtual que pode ser usado para integrar as reuniões do Microsoft Teams ao Learning Manager.
 
 O conector do Microsoft Teams conecta os sistemas Learning Manager e Microsoft Teams para permitir a sincronização automática de reuniões virtuais. A lista a seguir descreve os recursos do conector do Microsoft Teams:
 
@@ -49,9 +49,9 @@ Para obter mais informações, consulte [Funções em uma reunião no Microsoft]
 
 ## Criar conta do desenvolvedor E5 da Microsoft &lt;Desenvolvedor/Opcional>
 
-Você pode acessar o conector Microsoft Teams se tiver o Office 365 E3 ou o Office 365 E5. A opção recomendada é o Office 365 E5.
+Você pode acessar o conector do Microsoft Teams se tiver o Office 365 E3 ou o Office 365 E5. A opção recomendada é o Office 365 E5.
 
-* Visite a [página de planos da Microsoft](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). Na página da Web, você pode comprar uma conta E3 ou E5 ou clicar em Experimente gratuitamente.
+* Visite a [página de planos da Microsoft](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnd kd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). Na página da Web, você pode comprar uma conta E3 ou E5 ou clicar em Experimente gratuitamente.
 * Forneça as informações necessárias e crie uma conta.
 
 >[!NOTE]
@@ -62,9 +62,9 @@ Você pode acessar o conector Microsoft Teams se tiver o Office 365 E3 ou o Offi
 
 1. Visite o [portal do Microsoft Azure®](https://portal.azure.com/).
 1. Faça logon com a conta do Microsoft E5 que você criou na seção anterior.
-1. Pesquise por **Azure Ative Diretory**.
-1. Clique em **[!UICONTROL Registros de Aplicativo]**.
-1. Clique em **[!UICONTROL Novo Registro]**, insira os seguintes detalhes e registre o aplicativo:
+1. Pesquise por **Azure Active Directory**.
+1. Clique em **[!UICONTROL Registros de aplicativo]**.
+1. Clique em **[!UICONTROL Novo registro]**, insira os seguintes detalhes e registre o aplicativo:
 
    1. **Nome** - Qualquer nome da sua escolha.
    1. **Tipos de contas suportados** - contas em qualquer diretório organizacional (Qualquer Ative Diretory do Azure - multilocatário).
@@ -83,14 +83,14 @@ Você pode acessar o conector Microsoft Teams se tiver o Office 365 E3 ou o Offi
 
 Observe o segredo do cliente, que será usado posteriormente durante a integração.
 
-## Obter permissão de acesso para o conector Microsoft Teams
+## Obter permissão de acesso para o conector do Microsoft Teams
 
 1. Visite o [portal do Microsoft Azure](https://portal.azure.com/).
 1. Faça logon com o Microsoft E5 que você criou anteriormente.
-1. Pesquise por **Azure Ative Diretory**.
-1. Clique em **[!UICONTROL Registros de Aplicativo]**.
+1. Pesquise por **Azure Active Directory**.
+1. Clique em **[!UICONTROL Registros de aplicativo]**.
 1. Clique no aplicativo que você criou na seção anterior.
-1. Clique em **[!UICONTROL Permissões de API]**.
+1. Clique em **[!UICONTROL Permissões da API]**.
 1. Clique em **[!UICONTROL Adicionar uma permissão]**.
 1. Selecione **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Permissões do aplicativo]** e adicione as seguintes permissões:
 
@@ -126,7 +126,7 @@ Isso permite que o conector acesse reuniões online do Microsoft Teams.
 
 >[!NOTE]
 >
->No documento acima, execute a etapa opcional 5 também para garantir que qualquer usuário ativo possa receber a função de organizador de dentro do aplicativo Learning Manager Author. Se esta etapa não for executada, os usuários não terão as permissões de acesso necessárias para serem organizadores e a criação da reunião falhará (APIs do Microsoft consideram o organizador o criador de uma reunião do Teams).
+>No documento acima, execute a etapa opcional 5 também para garantir que qualquer usuário ativo possa receber a função de organizador de dentro do aplicativo Learning Manager Author. Se esta etapa não for executada, os usuários não terão as permissões de acesso necessárias para serem organizadores e a criação da reunião falhará (APIs da Microsoft consideram o organizador o criador de uma reunião do Teams).
 
 ## Configurar o conector de Microsoft Teams no Learning Manager
 
@@ -154,7 +154,8 @@ Isso permite que o conector acesse reuniões online do Microsoft Teams.
 1. Clique em **[!UICONTROL Gerenciar Licenças de Produtos]**.
 1. Ative a licença para o Office 365 E5 sem conferência de áudio.
 
-<!--## Record a session
+<!--
+## Record a session
 
 The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
@@ -164,7 +165,8 @@ In the document,
 
 For learners, the recording URL is displayed on the VC course overview page.
 
-After 30 minutes of completing a course, the attendance for the learner gets marked. -->
+After 30 minutes of completing a course, the attendance for the learner gets marked. 
+-->
 
 ## Perguntas frequentes
 
@@ -174,20 +176,20 @@ Consulte a [documentação](https://support.microsoft.com/en-us/office/roles-in-
 
 +++
 
-+++Um organizador deve ser um usuário registrado no Learning Manager e nos Microsoft Teams?
++++Um organizador deve ser um usuário registrado no Learning Manager e no Microsoft Teams? 
 
 Sim, o organizador também deve fazer parte do Learning Manager e do Microsoft Teams. Além disso, o organizador deve fazer parte do mesmo locatário da Microsoft, que está configurado no aplicativo do administrador de integração.
 
 +++
 
-+++Um apresentador deve ser um usuário registrado no Learning Manager e nos Microsoft Teams?
++++Um apresentador deve ser um usuário registrado no Learning Manager e no Microsoft Teams? 
 
-Sim, o apresentador também deve fazer parte do Learning Manager e do Microsoft Teams. O apresentador deve ter uma ID do Azure Ative Diretory (pode ser parte do mesmo locatário que o organizador ou parte de qualquer outro locatário). Além disso, até mesmo usuários anônimos (usuários que fazem logon apenas com o nome de usuário e não fazem parte do Ative Diretory) também podem se tornar apresentadores pelo organizador/apresentadores existentes durante a reunião.
+Sim, o apresentador também deve fazer parte do Learning Manager e do Microsoft Teams. O apresentador deve ter uma ID do Azure Active Directory (pode ser parte do mesmo locatário que o organizador ou parte de qualquer outro locatário). Além disso, até mesmo usuários anônimos (usuários que fazem logon apenas com o nome de usuário e não fazem parte do Ative Diretory) também podem se tornar apresentadores pelo organizador/apresentadores existentes durante a reunião.
 
 +++
 
-+++Microsoft Teams tem reuniões, webinars e eventos ao vivo. Qual deles faz o suporte do conector do Teams?
++++O Microsoft Teams oferece reuniões, webinars e eventos ao vivo. Qual deles faz o suporte do conector do Teams? 
 
-No momento, o conector do Teams oferece suporte apenas a reuniões em Microsoft Teams. Para obter mais informações, consulte este [documento](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
+No momento, o conector do Teams oferece suporte apenas a reuniões no Microsoft Teams. Para obter mais informações, consulte este [documento](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 
 +++

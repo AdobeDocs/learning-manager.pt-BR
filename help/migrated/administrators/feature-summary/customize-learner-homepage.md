@@ -4,10 +4,10 @@ title: Personalizar a página inicial do aluno
 description: Um administrador pode personalizar a página inicial do aluno e torná-la mais moderna, orientada por conteúdo e personalizada para um aluno.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 46%
+source-wordcount: '1159'
+ht-degree: 63%
 
 ---
 
@@ -31,9 +31,9 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 ## Configurar a página inicial do aluno {#configurethelearnerhomepage}
 
-On the **Branding** > **Learner Homepage** page, an Administrator can customize the homepage experience of a learner, so that when the learner signs into the learner app, he/she sees a completely revamped look and feel.
+Na página **Marcas** > **Página inicial do aluno**, um administrador pode personalizar a experiência da página inicial de um aluno para que, quando ele entrar no aplicativo do aluno, ele veja uma aparência completamente renovada.
 
-Admins can set the UI (look and feel) from the Admin app (**Branding** > **Learner Home Page** tab).
+Os administradores podem definir a interface do usuário (aparência e funcionalidade) no aplicativo do administrador (**Marcas** > guia **Página inicial do aluno**).
 
 Os administradores podem alternar para a exibição Widget de interface de usuário imersiva, personalizar os widgets/recursos de acordo e, em seguida, ativar a interface de usuário imersiva.
 
@@ -78,25 +78,25 @@ Se houver menos de 1.000 alunos, a conta inteira será considerada como um escop
 
 >[!NOTE]
 >
->The check-box **Explore skills** has been moved to Settings > General.
+>A caixa de seleção **Explorar habilidades** foi movida para Configurações > Geral.
 
-This will be enabled and grayed out if Immersive experience is chosen. Essa caixa de seleção será ativada somente para a experiência Clássica.
+Isso será ativado e esmaecido se a experiência imersiva for escolhida. Essa caixa de seleção será ativada somente para a experiência Clássica.
 
 ![](assets/option-immersive.png)
 
-*Learner homepage settings*
+*Configurações da página inicial do aluno*
 
-The immersive layout is the default for all new accounts. A layout é controlada por widgets que um administrador pode ativar ou desativar. Com base em como os widgets são posicionados, o mesmo é refletido na página inicial do aluno.
+O layout imersivo é o padrão para todas as novas contas. O layout é controlado por widgets que um administrador pode ativar ou desativar. Com base na posição dos widgets, o mesmo se reflete na página inicial do aluno.
 
-Here are the widgets that you can enable/disable.
+Estes são os widgets que você pode ativar/desativar.
 
 Com isso, você pode visualizar a interface do usuário do aluno antes que ela entre em funcionamento.
 
-For existing accounts, the option **Immersive** will be **OFF**. It is enabled for new account with Social and Gamification ON.
+Para contas existentes, a opção **Imersivo** será **DESATIVADA**. Está ativada para nova conta com Social e Gamificação ativadas.
 
 ![](assets/immersive-layout-widgets.png)
 
-*Preview the learner UI*
+*Visualizar a interface do usuário do aluno*
 
 <table>
  <tbody>
@@ -111,10 +111,10 @@ For existing accounts, the option **Immersive** will be **OFF**. It is enabled f
     <p>Manchete</p></td>
    <td>
     <p><b>O que é um Manchete e como personalizar a Manchete dos Alunos? </b><br></p>
-    <p>É um banner de boas-vindas para os alunos. O banner pode ser uma imagem ou um vídeo. Você pode direcionar o manchete para grupos de usuários específicos e um aluno visualiza o Manchete assim que ele chega na página inicial. A User Group may see multiple hero images or videos according to the target plan set by the Admin. </p>
+    <p>É um banner de boas-vindas para os alunos. O banner pode ser uma imagem ou um vídeo. Você pode direcionar o cabeçalho para grupos de usuários específicos e um aluno visualiza a manchete assim que ele chega na página inicial. Um grupo de usuários pode ver várias imagens ou vídeos de heróis de acordo com o plano de destino definido pelo administrador. </p>
     <p>Veja como um administrador carrega um banner:</p>
     <ol>
-     <li>On the left panel, click <b>Announcements</b>.<br></li>
+     <li>No painel esquerdo, clique em <b>Comunicados</b>.<br></li>
      <li>No canto superior direito da página, clique em <b>Adicionar</b>.</li>
      <li>Na lista suspensa <b>Tipo </b>, escolha <b>Como Manchete</b>.</li>
      <li>Escreva uma mensagem que aparecerá na manchete.</li>
@@ -127,7 +127,7 @@ For existing accounts, the option **Immersive** will be **OFF**. It is enabled f
    <td>
     <p>Meu aprendizado</p></td>
    <td>
-    <p>Mostra os Objetos de aprendizado, que foram visitados recentemente pelo aluno. </p></td>
+    <p>Mostra os objetos de aprendizado que foram visitados recentemente pelo aluno. </p></td>
   </tr>
   <tr>
    <td>
@@ -137,7 +137,7 @@ For existing accounts, the option **Immersive** will be **OFF**. It is enabled f
   </tr>
   <tr>
    <td>
-    <p>Inscrições que mostram prazo</p></td>
+    <p>Inscrições mostrando o prazo</p></td>
    <td>
     <p>Exibe as inscrições vencidas, com prazos futuros ou que estão em andamento. </p></td>
   </tr>
@@ -151,44 +151,48 @@ For existing accounts, the option **Immersive** will be **OFF**. It is enabled f
    <td>
     <p>Aprendizado social</p></td>
    <td>
-    <p>Lista atividades e publicações de usuários que estão no mesmo escopo de usuário do aluno. </p></td>
+    <p>Lista atividades e postagens de usuários que estão no mesmo escopo de usuário que o aluno. </p></td>
   </tr>
   <tr>
    <td>
     <p>Recomendado pela organização</p></td>
    <td>
-    <p>Quando ativado, esse widget recomenda treinamentos para grupos de usuários específicos. Each User group can be targeted one or more trainings and the target plan would be based on a time frame. <br></p>
+    <p>Quando ativado, esse widget recomenda treinamentos para grupos de usuários específicos. Cada grupo de usuários pode ser direcionado a um ou mais treinamentos e o plano de destino deve ser baseado em um período. <br></p>
     <ul>
      <li>
-      <p>Firstly, the Admin <a href="announcements.md#recommendation">creates an announcement</a> of type <b>As Recommendation</b> and then selects the requisite training and uses groups. A learner belonging to a user group will get to see the recommended training.</p></li>
+      <p>Em primeiro lugar, o administrador <a href="announcements.md#recommendation">cria um anúncio</a> do tipo <b>Como recomendação</b> e seleciona o treinamento necessário e usa grupos. Um aluno pertencente a um grupo de usuários verá o treinamento recomendado.</p></li>
      <li>
       <p>Em segundo lugar, o administrador também pode decidir se as recomendações são iniciadas imediatamente ou em uma data especificada.</p></li>
     </ul></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on area of interest</p></td>
    <td>
     <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
   <tr>
    <td>
-    <p>Browse by catalog<br></p></td>
+    <p>Procurar por catálogo<br></p></td>
    <td>
     <p>Exibe catálogos como blocos na página inicial. </p></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on peer activity<br></p></td>
    <td>
     <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
  </tbody>
 </table>
 
 Depois de salvar as alterações, a página inicial do aluno reflete todas as alterações.
 
-When the learner signs in to the learner app via a browser, they can see the following immersive layout:
+Quando o aluno faz logon no aplicativo do aluno por meio de um navegador, ele pode ver o seguinte layout imersivo:
 
 <table>
  <tbody>
@@ -196,14 +200,14 @@ When the learner signs in to the learner app via a browser, they can see the fol
    <td>
     <p><strong>Página inicial</strong></p><img src="assets/home-page1.png"></td>
    <td>
-    <p><strong>Lista do meu aprendizado</strong></p><img src="assets/learning-list.jpg"></td>
+    <p><strong>Minha lista de aprendizado</strong></p><img src="assets/learning-list.jpg"></td>
    <td>
     <p><strong>Exibir catálogo</strong></p><img src="assets/catalog-new.jpg"></td>
   </tr>
  </tbody>
 </table>
 
-*View Immersive layout for various sections on the home page*
+*Exibir layout imersivo para várias seções na home page*
 
 ## Opção de layout clássico {#classiclayoutoption}
 
@@ -237,7 +241,7 @@ Na página **Geral**, você tem as seguintes opções:
    <td>
     <p>Estilo do logotipo</p></td>
    <td>
-    <p>This is how your logo and company name will appear on Learning Manager.<br></p></td>
+    <p>É assim que o logotipo e nome da empresa serão exibidos no Learning Manager.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -249,7 +253,7 @@ Na página **Geral**, você tem as seguintes opções:
    <td>
     <p>Personalizar</p></td>
    <td>
-    <p>Adobe Learning Manager allows you to customize your account to provide a richer experience to your users.<br></p></td>
+    <p>O Adobe Learning Manager permite que você personalize sua conta para proporcionar uma experiência mais completa aos seus usuários.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -286,5 +290,5 @@ Na página **Geral**, você tem as seguintes opções:
 
 >[!NOTE]
 >
->For the new account, the Learner Homepage, Training Type, and Recommendation Scope settings will not be visible.
+>Para a nova conta, as configurações Página inicial do aluno, Tipo de treinamento e Escopo da recomendação não estarão visíveis.
 

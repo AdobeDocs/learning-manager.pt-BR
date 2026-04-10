@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aplicativo de desktop do Adobe Learning Manager
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 76%
+source-wordcount: '1694'
+ht-degree: 79%
 
 ---
 
@@ -52,7 +52,7 @@ Faça o seguinte para criar uma gravação de vídeo e publicá-la na plataforma
 
    **Tela** Grava ações executadas na tela do monitor. Ao selecionar ícone da tela, a tela é realçada com uma caixa de diálogo de gravação no centro da tela.
 
-   **Ambos** registra as ações do narrador e da tela. Ao selecionar o último ícone, a tela é realçada e o usuário obtém uma janela ativa junto com ela.
+   **Ambos** registra as ações do narrador e da tela. A selecionar o último ícone, a tela é realçada e o usuário obtém uma janela ao vivo junto com ele.
 
 1. Defina as preferências de gravação.
 
@@ -91,8 +91,10 @@ Para fazer uma captura de tela, faça o seguinte:
 1. Clique no ícone de captura de tela na página inicial principal do aplicativo de desktop do Learning Manager.
 1. Para capturar apenas parte da tela, clique no ícone de corte parcial da tela. Para capturar toda a tela, clique no ícone de captura de tela inteira.
 
-   <!--![](assets/capture-screenshot.png)
-   *Capture a screenshot*-->
+   <!--
+   ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
+   -->
 
 1. Para ajudar outros alunos a compreender e reter melhor a apresentação ou o conteúdo estático, adicione anotações ao conteúdo.
 1. Para editar a captura de tela, [clique aqui](adobe-learning-manager-app-for-desktop.md#Editing), e para publicá-la, [clique aqui](adobe-learning-manager-app-for-desktop.md#Publishing).
@@ -134,7 +136,7 @@ As gravações podem ser cortadas inserindo a hora nos campos de entrada **[!UIC
 
 ## Panorâmica e zoom (qualquer gravação de vídeo) {#panampzoomanyvideorecording}
 
-A ação de Panorâmica e Zoom só pode ser executada em gravações de vídeo **Ambas** (webcam e tela). Por padrão, a webcam ou a tela inteira está selecionada. Selecione a alça do canto e arraste-a para selecionar a parte da tela que deve ser exibida ou focalizada. Clique duas vezes na janela para abrir a tela inteira.
+A ação de Panorâmica e Zoom só pode ser executada em gravações de vídeo **Ambas** (webcam e tela). Por padrão, a webcam ou a tela inteira está selecionada. Selecione a alça do canto e arraste-a para selecionar a parte da tela que deve ser exibida ou focalizada. Clique duas vezes na janela da tela inteira.
 
 ![](assets/pan-zoom-artboard10.png)
 *Panorâmica e zoom*
@@ -197,7 +199,7 @@ Para editar ou excluir um arquivo da galeria, clique nos três pontos na parte i
 
 As notificações no Learning Manager são exibidas janela de notificações independentemente se o aluno está ou não conectado no aplicativo da Web Learning Manager. As notificações incluem publicações ou painéis que os usuários criaram ou estão seguindo, ou dos quais participam. Clicar na notificação navegará o usuário para a web do aprendizado social do Learning Manager.
 
-Para silenciar as notificações, clique no **[!UICONTROL Menu Perfil*]* > &#x200B;** [!UICONTROL Configurações] > **[!UICONTROL Silenciar notificações]**.
+Para silenciar as notificações, clique no **[!UICONTROL Menu Perfil*]* > **[!UICONTROL Configurações] > **[!UICONTROL Silenciar notificações]**.
 
 ## Configurações no aplicativo de desktop do Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
 

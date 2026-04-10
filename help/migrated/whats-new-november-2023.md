@@ -2,10 +2,10 @@
 title: Novidades desta versão
 description: Saiba mais sobre os novos recursos e aprimoramentos na versão de novembro de 2023 do Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 70%
+source-wordcount: '2375'
+ht-degree: 73%
 
 ---
 
@@ -206,11 +206,13 @@ Um administrador personalizado pode acessar os seguintes relatórios de acordo c
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
+<!--
+| Report | Available | Scope |
 |--- |--- |
 | Content Audit Trail | Yes | Full Catalog |
 | User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+|Login Access | Yes | Full User |
+-->
 
 ## Integração de conexão aprimorada
 
@@ -288,7 +290,7 @@ O Adobe Learning Manager descontinuará o BlueJeans em fevereiro de 2024. Todas 
 
 ## Notas de versão
 
-Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão](release-note/release-notes.md).
+Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão de](release-note/release-notes.md).
 
 ## Erros corrigidos nesta versão
 

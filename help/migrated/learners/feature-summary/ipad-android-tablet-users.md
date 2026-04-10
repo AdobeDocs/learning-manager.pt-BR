@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aplicativo do aluno para dispositivos móveis e tablets
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 65%
+source-wordcount: '2714'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ Leia este artigo para saber baixar o aplicativo do aluno do Learning Manager par
 
 O aplicativo para alunos do Learning Manager está disponível para usuários de telefones Android e iPhone. Vá até a Google Play Store (Android OS) ou ao iTunes (macOS) e baixe o aplicativo Learning Manager.
 
-Depois de baixar e instalar este aplicativo, faça login no aplicativo usando suas credenciais do aluno. Ao abrir o aplicativo móvel do Learning Manager, a tela a seguir é exibida por padrão.
+Depois de baixar e instalar este aplicativo, faça login no aplicativo usando suas credenciais do aluno. Ao abrir o aplicativo móvel do Learning Manager, por padrão, é exibida a seguinte tela.
 
 ![](assets/1.png)
 
@@ -27,7 +27,7 @@ Depois de baixar e instalar este aplicativo, faça login no aplicativo usando su
 
 ## Página inicial {#homepage}
 
-Para todas as contas com a opção Layout imersivo ativada, há uma nova página inicial para suportar a configuração de Layout imersivo. A página inicial é organizada como uma lista de cartões para os seguintes:
+Para todas as contas com a opção Layout imersivo habilitada, há uma nova página inicial compatível com a configuração de Layout imersivo. A página inicial é organizada como uma lista de cartões para os seguintes:
 
 | ![](assets/image002.png) | ![](assets/image005.png) |
 |---|---|
@@ -46,9 +46,10 @@ O Learning Manager solicita que o aluno forneça feedback sobre a sua experiênc
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
+
 -->
 
-Para os usuários existentes, eles devem ver o pop-up de feedback ao fechar o Player pela primeira vez após atualizar o aplicativo para a versão mais recente.
+Para os usuários existentes, deve-se ver o pop-up de feedback ao fechar o Player pela primeira vez após atualizar o aplicativo para a versão mais recente.
 
 Observe que a coleção de comentários é anônima e exibida somente para usuários que habilitaram a opção **Compartilhar Dados de Uso** por meio de uma configuração nas configurações do aplicativo.
 
@@ -88,6 +89,7 @@ O suporte para a interface do usuário responsiva para a Web móvel só está di
   </tr>
  </tbody>
 </table>
+
 -->
 
 ## Prompt de download no ALM Web
@@ -119,9 +121,9 @@ O Aprendizado social agora é compatível com experiências online imersivas em 
 
 Existem alguns recursos que não são compatíveis com o aplicativo móvel imersivo. São eles:
 
-| Área **1&rbrace;** | **Sem suporte** |
+| Área **1}** | **Sem suporte** |
 |---|---|
-| Fórum | Criação de painel, Edição de painel, Copiar URL, Excluir, Relatório, Classificar, Filtro |
+| Painel | Criação de painel, Edição de painel, Copiar URL, Excluir, Relatório, Classificar, Filtro |
 | Publicar | Tipo de pesquisa Criação da publicação, Editar, Vários anexos à publicação, Copiar URL, Fixar na parte superior |
 | Comentário/Resposta | Editar, Marcar como resposta correta, Carregar imagem/vídeo/áudio em um comentário ou resposta |
 | Mídia | Capturar áudio; somente carregamento de arquivo de áudio |
@@ -163,7 +165,7 @@ Toque em um curso para visualizar os detalhes, incluindo sua data de conclusão 
 
 **Visualizar catálogos**
 
-Toque no ícone ao lado do ícone de livro na parte inferior da tela. Você pode visualizar imediatamente o catálogo com todos os objetos de aprendizado associados. Você pode optar por exibi-los no layout de grade ou escolher a exibição detalhada. Selecione recomendações para ver as recomendações do curso com base em seu histórico de aprendizado.
+Toque no ícone ao lado do ícone de livro na parte inferior da tela. Você pode visualizar imediatamente o catálogo com todos os objetos de aprendizado associados. Você pode optar por exibi-los no layout de grade ou escolher a exibição detalhada. Selecione as recomendações para ver os cursos recomendados com base no seu histórico de aprendizado.
 
 ![](assets/4.png)
 
@@ -181,11 +183,11 @@ Na parte superior da tela do telefone, é possível ver um ícone de pesquisa. T
 
 **Gerenciar perfil, configurações e notificação**
 
-Toque no menu ![](assets/hamburger.jpg) no canto superior esquerdo da tela para exibir seu perfil, as notificações e as configurações da conta.
+Toque no ![](assets/hamburger.jpg) menu no canto superior esquerdo da tela para exibir seu perfil, as notificações e as configurações de conta.
 
 Esse menu também permite ler o código QR para marcar a participação nos cursos.
 
-Tudo o que você precisa fazer é tocar na opção **Digitalizar QR Code** e digitalizar o código.
+Tudo o que você precisa fazer é tocar na opção **Ler código QR** e ler o código.
 
 **Realização de cursos off-line**
 
@@ -379,7 +381,7 @@ Siga as etapas abaixo:
 1. Faça logon no aplicativo do dispositivo usando suas credenciais de aluno.
 1. Procure o certificado que o autor criou.
 1. Na lista de certificados externos, escolha o certificado necessário e inscreva-se no certificado.
-1. Toque em **Comprovante de conclusão** e faça upload de um arquivo, por exemplo, um pdf ou uma imagem.
+1. Toque em **Comprovante de conclusão** e carregue um arquivo, por exemplo, um PDF ou uma imagem.
 
    | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png) |
    |---|---|
@@ -412,7 +414,7 @@ Se o gerente rejeitar o envio, o status mudará para **Rejeitado**, na cor verme
 Após a rejeição, é possível carregar um arquivo como comprovante de conclusão.
 
 * Você só pode enviar um arquivo quando o status for **Envio Pendente e Rejeitado**.
-* Você não pode enviar um arquivo quando o status for **Aprovação pendente e Aprovado**.
+* Não é possível enviar um arquivo quando os status forem **Aprovação pendente e Aprovado**.
 
 ## Faça cursos no LinkedIn Learning {#linkedin}
 
@@ -441,7 +443,7 @@ Como aluno, você pode enviar arquivos como comprovantes de conclusão do curso 
 
 Um autor pode criar apenas módulos de sala de aula e de atividade para um aluno consumir no aplicativo móvel.
 
-Depois que o aluno inicia um curso, ele pode ver o status **Envio de arquivo** como pendente junto com o link para carregar o arquivo, na tela, conforme mostrado na captura de tela abaixo.
+Depois que o aluno inicia um curso, ele pode ver o status de **Envio de arquivo** como pendente ao lado do link de upload de arquivo na tela, conforme mostrado na captura de tela abaixo.
 
 ![](assets/pending-approval.png)
 
@@ -494,13 +496,13 @@ Faça upload de qualquer arquivo e clique no botão **Enviar**.
 
 ## Aprovação ou rejeição do envio {#approvalorrejectionofsubmission}
 
-Depois de carregar o arquivo, o status muda para **Aprovação Pendente.**. O professor exibe a lista de [envios pendentes](/help/migrated/instructors/feature-summary/learners.md) e aprova ou rejeita o envio por meio do aplicativo Web do professor.
+Depois de carregar o arquivo, o status muda para **Aprovação pendente.**. O professor exibe a lista de [envios pendentes](/help/migrated/instructors/feature-summary/learners.md) e aprova ou rejeita o envio por meio do aplicativo Web do professor.
 
 Quando o professor aprovar o envio, o status no aplicativo móvel do aluno muda para **Aprovado**.
 
 <!--![](assets/approved.jpg)-->
 
-Quando o professor rejeita o envio, o status no aplicativo móvel do aluno muda para **Rejeitado**.
+Quando o professor rejeitar o envio, o status no aplicativo móvel do aluno muda para **Rejeitado**.
 
 <!--![](assets/rejected.jpg)-->
 
@@ -534,13 +536,14 @@ Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPa
    * A barra vermelha indica que a rede não está disponível para o dispositivo.
    * A barra verde indica que a rede está online novamente.
 
-O usuário pode voltar para o modo online clicando no botão **exibir conteúdo online** na barra verde. O conteúdo do dispositivo é sincronizado quando o usuário alterna para o modo online.
+O usuário pode voltar para o modo online clicando no botão **exibir conteúdo online** na barra verde. O conteúdo no dispositivo é sincronizado quando o usuário alternar para o modo on-line.
 
 ## Suporte a carrinho de vários itens em dispositivos móveis imersivos
 
-Os alunos agora podem adicionar vários cursos, programações de aprendizado ou certificações ao carrinho e comprá-los juntos. Exibir carrinho de vários itens no ALM[&#128279;](/help/migrated/learners/feature-summary/multi-item-cart.md)
+Os alunos agora podem adicionar vários cursos, programações de aprendizado ou certificações ao carrinho e comprá-los juntos. Exibir carrinho de vários itens no ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)[
 
-<!--## Track device storage {#trackdevicestorage}
+<!--
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -552,4 +555,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.
+-->

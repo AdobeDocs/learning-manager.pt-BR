@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '5832'
-ht-degree: 51%
+source-wordcount: '5898'
+ht-degree: 60%
 
 ---
 
@@ -180,7 +180,7 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 O arquivo do Excel contém planilhas para cada instância. Uma planilha consiste nos campos:
 
 * Alunos
-* Email
+* E-mail
 * ID exclusiva do usuário
 * Nome do curso
 * ID exclusiva do OA
@@ -205,7 +205,7 @@ O arquivo do Excel contém planilhas para cada instância. Uma planilha consiste
 >
 >Habilitar o recurso de Várias inscrições resulta na adição de várias linhas ao Relatório de transcrição do aluno para cada curso (uma linha para cada instância).
 >
->Se você tiver uma configuração de automação de relatórios que prevê apenas uma linha por curso, deverá fazer os ajustes necessários na automação de relatórios antes de ativar o recurso de Várias Inscrições.
+>Caso tenha configurado a automação de relatórios que prevê apenas uma linha por curso, faça os ajustes necessários na automação de relatórios antes de habilitar o recurso de Várias inscrições.
 
 ### Gerenciar a lista de alunos de um curso {#managelearnerslistforacourse}
 
@@ -320,7 +320,7 @@ Seguindo as colunas disponíveis no relatório Lista de espera:
 * ID da instância
 * Status da instância
 * Nome do usuário
-* Email
+* E-mail
 * ID exclusiva do usuário
 * Data da inscrição (fuso horário central da Europa)
 * Status
@@ -387,9 +387,9 @@ Se as duas perguntas obrigatórias, por algum motivo, não tiverem texto, as per
 
 >[!NOTE]
 >
->Não basta ativar essas configurações na instância do Programa de aprendizado. Você também deve ativar essas configurações no nível da Instância do curso para cada curso no Programa de aprendizado.
+>Não basta ativar essas configurações na instância do Programa de aprendizado. Você também deve habilitar essas configurações no nível da instância do curso para cada curso no programa de aprendizado.
 
-Na página Padrões de Instância, se você habilitar **[!UICONTROL Tornar Todas as Perguntas Obrigatórias]**, todas as novas instâncias criadas posteriormente herdarão essas configurações.
+Na página Padrões da instância, se você habilitar **[!UICONTROL Tornar todas as perguntas obrigatórias]**, todas as novas instâncias criadas a seguir herdarão essas configurações.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
@@ -399,19 +399,19 @@ Na página Padrões de Instância, se você habilitar **[!UICONTROL Tornar Todas
 
 Nas versões anteriores do Learning Manager, um administrador podia ativar o feedback L1 para o Programa de Aprendizado.
 
-Nesta versão do Learning Manager, o administrador pode enviar feedback L1 para todos os cursos que fazem parte do Programa de Aprendizado. O administrador deve garantir que o feedback L1 esteja ativado para todos os cursos no nível da instância do curso.
+Nesta versão do Learning Manager, o administrador pode enviar feedback L1 para todos os cursos que fazem parte do Programa de Aprendizado. O administrador deve garantir que o feedback L1 seja habilitar para todos os cursos no nível da instância do curso.
 
 1. Para habilitar o feedback L1 para cada curso, no aplicativo Admin, clique em **[!UICONTROL Programas de Aprendizado]** > **[!UICONTROL Exibir Programa de Aprendizado]**.
 
 1. Clique Em **[!UICONTROL Instâncias]** > **[!UICONTROL Feedback N1 Habilitado]**.
 
-1. Habilite a opção **[!UICONTROL Habilitar para Cada Curso]**.
+1. Ative a opção **[!UICONTROL Ativar para cada curso]**.
 
    ![](assets/enable-l1-feedbackforcourse.png)
 
    *Habilitar comentários sobre o curso*
 
-   Ativar essa alternância apenas no nível do Programa de aprendizado não acionará o feedback L1 para os cursos dentro deste programa. Para ativar o feedback L1, vá para cada curso no Programa de aprendizado e ative a alternância do feedback L1.
+   O feedback L1 para os cursos deste programa não será acionado apenas com a ativação dessa alternância no nível do programa de aprendizado. Para ativar o feedback N1, vá para cada curso no programa de aprendizado e ative a alternância do feedback N1.
 
    ![](assets/l1-reaction-feedback.png)
 
@@ -425,7 +425,7 @@ Os relatórios do quiz ajudam a avaliar o desempenho de um aluno após a conclus
 
 Atualmente, o Learning Manager facilita o aprendizado em 13 idiomas de interface e 32 idiomas de conteúdo. Embora essa opção seja amigável para o aluno e ofereça conveniência no suporte a nossos alunos globais, é de suma importância os administradores buscarem relatórios tentados em vários locais.
 
-Os relatórios do questionário exibem dados em diferentes idiomas, desde que o curso esteja sendo oferecido em vários idiomas. Até agora, os relatórios gerados pelo administrador exibiam as respostas uma abaixo da outra, independentemente do idioma em que o quiz foi tentado. **Por exemplo**, se um usuário fez um quiz em holandês, o administrador só poderá exibir os relatórios do quiz tentados por usuários em holandês de cada vez. O administrador que selecionou o inglês como um idioma de interface não pode exibir os relatórios de todos os usuários de uma só vez, independentemente do local tentado.
+Os relatórios do questionário exibem dados em diferentes idiomas, desde que o curso esteja sendo oferecido em vários idiomas. Até agora, os relatórios gerados pelo administrador exibiam as respostas uma abaixo da outra, independentemente do idioma em que o questionário foi tentado. **Por exemplo:** se um usuário fez um questionário em holandês, o administrador só poderá exibir os relatórios do questionário tentados por usuários em holandês de cada vez. O administrador que selecionou o inglês como um idioma de interface não pode exibir os relatórios de todos os usuários de uma só vez, independentemente do local tentado.
 
 Isso foi corrigido e o administrador agora pode exibir todos os relatórios no respectivo idioma que o aluno tentou tudo de uma vez, independentemente do local do conteúdo escolhido. O questionário tentado em idiomas diferentes será adicionado como colunas adicionais no relatório do questionário.
 
@@ -433,9 +433,9 @@ Isso foi corrigido e o administrador agora pode exibir todos os relatórios no r
 
 *Habilitar feedback L1 no nível da conta*
 
-Um administrador poderá ativar o feedback L1 para cursos recém-criados e programas de aprendizado ativando essa configuração no nível da conta. No entanto, ativar essa configuração não afeta os cursos e programas de aprendizado existentes
+Um administrador poderá habilitar o feedback L1 para cursos e programas de aprendizado recém-criados ao habilitar essa configuração no nível da conta. No entanto, ativar essa configuração não afeta os cursos e programas de aprendizado existentes.
 
-Se habilitado, todos os novos treinamentos e novas instâncias terão o feedback habilitado por padrão. Caso um autor/administrador visite a instância, ela é padronizada e desativada manualmente e, em seguida, é respeitada.
+Se habilitado, todos os novos treinamentos e novas instâncias terão o feedback habilitado por padrão. Caso um autor/administrador visite a instância, ela assumirá o padrão e desativará manualmente. Em seguida, ela é honrada.
 
 Para habilitar o feedback N1, no aplicativo Admin, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Comentários]**.
 
@@ -475,7 +475,7 @@ Se quiser que o questionário seja exibido ao aluno imediatamente após a conclu
 
 *Um exemplo de perguntas de feedback sobre o curso*
 
-Depois de ativar o feedback N3, você pode visualizar as opções conforme mostrado na captura de tela abaixo:
+Ao habilitar o feedback N3, você pode ver as opções conforme mostrado na captura de tela abaixo:
 
 ![](assets/l3-feedback-desc-questions.png)
 
@@ -493,9 +493,9 @@ A pergunta 2 é uma pergunta descritiva do feedback N3. Você pode torná-la obr
 
 Você pode configurar o questionário de feedback N1 e N3 e também definir lembretes no nível da conta.
 
-1. Clique em **[!UICONTROL Configurações]** e depois em **[!UICONTROL Comentários]** no painel esquerdo depois de fazer logon como administrador.\
+1. Clique em **[!UICONTROL Configurações]** e em **[!UICONTROL Feedback]** no painel esquerdo depois de fazer logon como administrador.\
    A página de configurações do feedback é exibida com duas guias: **[!UICONTROL Comentários N1]** e **[!UICONTROL Comentários N3]**.\
-   A guia **[!UICONTROL Comentários N1]** consiste em uma lista de questionário de **[!UICONTROL comentários N1]** padrão para cursos em sala de aula e em ritmo individualizado juntamente com as configurações do lembrete. Na guia **[!UICONTROL Feedback N3]**, você pode ver a instrução padrão do feedback N3 e as configurações padrão.
+   A guia **[!UICONTROL Comentários N1]** consiste em uma lista de questionário de **[!UICONTROL comentários N1]** padrão para cursos em sala de aula e em ritmo individualizado juntamente com as configurações do lembrete. No guia **[!UICONTROL Feedback N3]**, você pode ver a instrução padrão do feedback N3 e as configurações padrão.
 
 1. Clique em Editar no canto superior direito da página para modificar o questionário já existente.\
    Na guia **[!UICONTROL Feedback N1]**, você pode habilitar/desabilitar cada pergunta clicando no botão de alternância Sim/Não.\
@@ -570,7 +570,7 @@ Ao baixar um relatório após selecionar um filtro de status, o relatório de tr
 
 ## Exibição de cursos {#viewingcourses}
 
-Como administrador, você pode exibir uma lista de todos os cursos disponíveis.   Clique em **[!UICONTROL Cursos]** no painel esquerdo para exibir a lista de cursos com opções de pesquisa e filtro. Você também pode ver a porcentagem da eficácia de cada um dos cursos nas miniaturas do curso.
+Como administrador, você pode visualizar uma lista de todos os cursos disponíveis.   Clique em **[!UICONTROL Cursos]** no painel esquerdo para exibir a lista de cursos com opções de pesquisa e filtro. Você também pode ver a porcentagem da eficácia de cada um dos cursos nas miniaturas do curso.
 
 >[!NOTE]
 >
@@ -633,7 +633,7 @@ Os comentários estarão visíveis no relatório [Transcrições do aluno](/help
 
 ## Visualizar cursos {#previewcourses}
 
-O administrador pode visualizar cursos clicando na opção **[!UICONTROL Visualizar como aluno]** ao visualizar os módulos do curso.
+O administrador pode visualizar os cursos clicando na opção **[!UICONTROL Visualizar como aluno]** ao exibir os módulos do curso.
 
 1. Clique em **[!UICONTROL Cursos]** no painel esquerdo depois de fazer logon como administrador.
 1. Clique em qualquer quadro do curso na lista de cursos da página.
@@ -665,10 +665,10 @@ Conforme o gráfico circular mostrado acima, o gerente atribui mais peso ao feed
 
 O Adobe Learning Manager permite encontrar mais facilmente os cursos/programas de aprendizado da sua escolha. Você pode pesquisar pelos cursos de duas formas:
 
-1. Usando o campo Pesquisa. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou quaisquer palavras-chave associadas aos seus cursos para localizar os cursos/programas de aprendizado. Você também pode pesquisar usando tags predefinidas como Captivate, C, Java e HTML. As tags são pesquisáveis no campo de pesquisa, o que significa que elas são exibidas no campo de pesquisa conforme você digita.
+1. Usando o campo Pesquisa. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou as palavras-chave associadas aos seus cursos para localizar cursos/programas de aprendizado. Você também pode pesquisar usando marcas predefinidas como Captivate, C, Java e HTML. As tags são pesquisáveis no campo de pesquisa, o que significa que elas são exibidas no campo de pesquisa conforme você digita.
 1. Filtrando a lista de cursos/programas de aprendizado usando os filtros. Você pode filtrar os cursos por status como Todos, Publicado, Rascunho e Retirado. No modo de administrador, o filtro de rascunho não é exibido.
 
-É possível pesquisar com base em competências clicando em Competências e selecionando-as. Como administrador, você pode classificar os cursos de quatro maneiras para localizar melhor o curso necessário. Clique em Classificar por e escolha ordem alfabética crescente, ordem alfabética decrescente, data de atualização do curso ou eficácia dos cursos.
+É possível pesquisar com base em competências clicando em Competências e selecionando-as. Como administrador, você pode classificar os cursos de quatro maneiras para melhor localizar o curso desejado. Clique em Classificar por e escolha ordem alfabética crescente, ordem alfabética decrescente, data de atualização do curso ou eficácia dos cursos.
 
 <!--![](assets/admin-sortby.png)-->
 
@@ -726,7 +726,7 @@ A caixa de diálogo de resumo é exibida com o número de usuários do conjunto 
 
 ### Adicionar comentários ao inscrever alunos {#enroll-comments}
 
-<!---![](assets/enroll-learners-dialog.png)-->
+<!--![](assets/enroll-learners-dialog.png)-->
 
 Como administrador ou gerente, você pode adicionar comentários ao inscrever alunos em um curso. Você pode mencionar informações adicionais sobre o coorte dos usuários que estão sendo inscritos. Esses dados são exportados nos relatórios do curso.
 
@@ -734,7 +734,7 @@ O comentário **não** é exibido ao aluno.
 
 Quando um administrador gera o relatório do curso do aluno, qualquer comentário, se adicionado, aparece no relatório. A caixa de diálogo de resumo é exibida com o número de usuários do conjunto de inclusão, do conjunto de exclusão e os usuários já inscritos na instância do curso.
 
-No caixa de diálogo **[!UICONTROL Inscrever alunos]**, expanda a opção **[!UICONTROL Opções avançadas]**. No campo **[!UICONTROL Comentário Adicional]**, insira o comentário necessário.
+No caixa de diálogo **[!UICONTROL Inscrever alunos]**, expanda a opção **[!UICONTROL Opções avançadas]**. No campo **[!UICONTROL Comentário adicional]**, digite o comentário necessário.
 
 ![](assets/comment-for-learner.png)
 
@@ -767,7 +767,7 @@ Usando a pesquisa de digitação antecipada, você pode:
 
 Depois que uma pesquisa é executada, você não pode filtrar alunos por instâncias. A opção de selecionar uma instância na lista suspensa **[!UICONTROL Selecionar instância]** é desabilitada.
 
-Além disso, usando os resultados da pesquisa, você pode escolher um aluno ou grupo de usuários e executar as seguintes ações:
+Além disso, usando os resultados de pesquisa, você pode escolher um aluno ou um grupo de usuários e executar as seguintes ações:
 
 * Cancelar inscrição
 * Marcar conclusão
@@ -814,7 +814,7 @@ O relatório com a lista de alunos interessados será baixado. O relatório incl
 
    * ID do curso
    * Nome do aluno
-   * Email
+   * E-mail
    * Tipo
    * Estado
    * Data e Hora do Registro (UTC)
@@ -834,7 +834,7 @@ Um ciclo de vida típico do curso é semelhante ao seguinte:
 
 **Retirado** - após ter publicado um curso, o autor pode movê-lo para o estado Retirado se não quiser que o curso apareça no catálogo de cursos dos alunos. Você pode republicar ou excluir um curso nesse estado.
 
-**Excluído** - Um curso no estado Excluído é aquele que foi removido completamente do aplicativo Adobe Learning Manager. Os cursos podem ser excluídos pelos autores somente quando estiverem no estado Rascunho. Você também pode excluir cursos do estado desativado.
+**Excluído** - Um curso no estado Excluído é aquele que foi removido completamente do aplicativo Adobe Learning Manager. Os cursos podem ser excluídos pelos autores somente quando estiverem no estado Rascunho. Você também pode excluir cursos do estado Retirado.
 
 ![](assets/lifecycle-03.png)
 

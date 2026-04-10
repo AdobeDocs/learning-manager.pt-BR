@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Remover usuários
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 52%
+source-wordcount: '1143'
+ht-degree: 57%
 
 ---
 
@@ -27,13 +27,15 @@ A ação de remover um usuário pode ter os seguintes resultados:
 * Remover um usuário no Learning Manager não remove o usuário em nenhum aplicativo externo (sistemas de terceiros ou outros aplicativos criados por você). Entre em contato com proprietários de aplicativos externos para remover os usuários desses aplicativos.
 * Se um usuário removido for referido nas configurações de um conector, o conector será desativado. O conector precisa ser reconfigurado pelo administrador para continuar.
 
-<!---### Manage users
+<!--
+### Manage users
 
 In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
 [![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-If you're unable to launch the training, write to <almacademy@adobe.com>.-->
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+-->
 
 ## Como remover usuários
 
@@ -47,7 +49,7 @@ Para remover usuários, siga estas etapas:
 
    *Selecione um usuário a ser removido*
 
-1. Abra o menu suspenso **[!UICONTROL Ações]** e selecione **[!UICONTROL Limpar Usuário]**.
+1. Abra o menu suspenso **[!UICONTROL Ações]** e selecione **[!UICONTROL Remover usuário]**.
 
    ![](assets/purge-2.png)
 
@@ -63,7 +65,7 @@ Para remover usuários, siga estas etapas:
 
 >[!NOTE]
 >
->Depois que o usuário excluído é adicionado de volta ao sistema, as funções anteriores (por exemplo, administrador, gerente, autor, professor etc.) não serão mantidas. Elas serão adicionadas com a função de aluno.
+>Depois que o usuário excluído é adicionado de volta ao sistema, as funções anteriores (por exemplo, administrador, gerente, autor, professor etc.) não serão retidos.Eles serão adicionados com a função de aluno.
 
 ## Remoção em massa de usuários
 
@@ -145,7 +147,7 @@ Você pode classificar os usuários filtrados por **[!UICONTROL ID de Usuário E
    <td>Sim</td>
   </tr>
   <tr>
-   <td><strong>Remover usando a interface do usuário do Learning Manager - Não-corporativa</strong></td>
+   <td><strong>Remover usando a interface do usuário do Learning Manager - Não-corporativo</strong></td>
    <td> </td>
   </tr>
   <tr>

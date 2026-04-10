@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Painel do gerente
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 46%
+source-wordcount: '1507'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,7 @@ A Exibição da equipe mostra as equipes, seus membros e suas respectivas inscri
 
 *O Modo de Exibição de Equipe exibe as equipes, seus membros e suas respectivas inscrições*
 
-Ao clicar nos nomes das equipes, por exemplo, Equipe de Venkatesh, você pode visualizar os membros da equipe de Venkatesh junto com o número total de inscrições, progressões e conclusões para um objeto de aprendizado.
+Ao clicar nos nomes da equipe, por exemplo, equipe de Venkatesh, você pode exibir os membros da equipe de Venkatesh junto com o número total de inscrições, andamentos e conclusões de um objeto de aprendizado.
 
 ![](assets/ls-click-team-names.png)
 
@@ -139,7 +139,8 @@ Isso permite monitorar o progresso geral da aprendizagem da sua equipe.
 ![](assets/download-report.png)
 _Baixar relatórios_
 
-<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+<!--
+On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -197,7 +198,8 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*-->
+*Export and email data*
+-->
 
 ## Habilidades da equipe {#teamskills}
 
@@ -213,7 +215,7 @@ A previsão é baseada em cálculos do sistema que fornece uma visão futura do 
 
 Para exibir o status das habilidades de uma equipe, siga as etapas abaixo:
 
-1. Clique em **[!UICONTROL Habilidades da equipe]** no painel esquerdo da seção Exibição da minha equipe.
+1. Clique em **[!UICONTROL Habilidades da equipe]** no painel esquerdo na seção Exibição da minha equipe.
 1. Para ver as habilidades exibidas, clique no filtro de habilidades e selecione um na lista suspensa.
 1. Para selecionar um nível (Nível 1, Nível 2 ou Nível 3), clique no menu suspenso de níveis.
 1. Com base nas habilidades e níveis selecionados, é exibido um gráfico com o status da habilidade. Ao passar o mouse sobre o gráfico, você pode ver as seguintes porcentagens do status da habilidade: **Em andamento** e **Obtido**.
@@ -238,7 +240,7 @@ Para prever a porcentagem de conclusão da equipe em uma habilidade, siga as eta
 
    *Insira a porcentagem de conclusão de destino*
 
-1. Para ver o resultado da previsão, clique no botão **Estimativa**. O resultado se parece com a captura de tela abaixo.
+1. Para ver o resultado da previsão, clique no botão **Estimativa**. O resultado se parece à captura de tela abaixo.
 
    ![](assets/skill-tracker-output.png)
 

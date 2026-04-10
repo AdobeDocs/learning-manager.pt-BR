@@ -4,9 +4,9 @@ title: Rotulagem de branco no aplicativo Adobe Learning Manager para dispositivo
 description: A rotulagem branca é uma prática de mudar a identidade visual de um aplicativo ou serviço com sua própria marca e personalizá-lo como se você fosse o criador original. No Adobe Learning Manager, você pode aplicar rótulos brancos ao aplicativo para dispositivos móveis, além de remarcar o aplicativo e disponibilizá-lo para seus usuários com sua própria marca.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -383,11 +383,13 @@ Reutilize o mesmo projeto que você criou nas etapas acima para notificações p
 
 ### iOS
 
-<!--```
+<!--
+```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```-->
+```
+-->
 
 A pasta `<root>` contém o arquivo **Runner.xcarchive.zip**. Execute os comandos abaixo para gerar o binário assinado:
 

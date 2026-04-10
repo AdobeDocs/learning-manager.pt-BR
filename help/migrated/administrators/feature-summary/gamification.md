@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gamificação
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 54%
+source-wordcount: '1655'
+ht-degree: 67%
 
 ---
 
@@ -21,9 +21,11 @@ O Adobe Learning Manager inclui um recurso chamado Gamificação, desenvolvido p
 
 Por padrão, alguns pontos e dados de gamificação de amostra estão disponíveis para que os usuários compreendam o padrão. É possível modificar os pontos adequadamente.
 
-<!--A sample illustration is provided below that shows all the tasks and points.
+<!--
+A sample illustration is provided below that shows all the tasks and points.
 
-![](assets/gamification-feb12-e1439214291423.png)-->
+![](assets/gamification-feb12-e1439214291423.png)
+-->
 
 ## Configurações de gamificação {#gamificationsettings}
 
@@ -52,7 +54,7 @@ Há cinco tarefas de gamificação dos alunos para as quais o administrador pode
 
 >[!NOTE]
 >
->Os pontos de gamificação para alunos em uma tarefa em particular não são cumulativos. Mas os pontos são adicionados à conta dos alunos cumulativamente se os alunos receberem esses pontos em diferentes tarefas.
+>Os pontos de gamificação para alunos em uma tarefa em particular não são cumulativos. Porém, os pontos são adicionados à conta dos alunos cumulativamente se esses pontos forem obtidos através de diferentes tarefas.
 
 Ao atribuir cursos aos pontos, o administrador precisa garantir que os alunos recebam os pontos progressivamente.
 
@@ -75,7 +77,7 @@ Dentro de uma tarefa, os pontos não são cedidos aos alunos cumulativamente. Po
 
 **Para alunos autodirigidos (a)**
 
-Essa tarefa se aplica quando os alunos se inscrevem no número prescrito de cursos e concluem dentro de um mês/trimestre/ano. Nesse caso, o administrador pode ativar essa tarefa para alocar pontos e incentivá-los.
+Essa tarefa se aplica quando os alunos se inscrevem no número especificado de cursos e terminam dentro de um mês/trimestre/ano. Nesse caso, o administrador pode permitir que essa tarefa atribua pontos para incentivá-los.
 
 Cenários possíveis:
 
@@ -122,9 +124,9 @@ Essa tarefa se aplica sempre que os alunos concluírem o nível mais alto de uma
 
 Cenários possíveis para melhoria dos níveis em uma determinada competência:
 
-1. Quando os alunos atingem um nível, eles obtêm 100 pontos.
-1. Quando os alunos atingem dois níveis, eles obtêm 200 pontos.
-1. Quando os alunos atingem três níveis, eles obtêm 500 pontos.
+1. Quando os alunos adquirem um nível, eles obtêm 100 pontos.
+1. Quando os alunos adquirem dois níveis, eles obtêm 200 pontos.
+1. Quando os alunos adquirem três níveis, eles obtêm 500 pontos.
 
 >[!NOTE]
 >
@@ -146,7 +148,7 @@ Quando um aluno é um dos 10 primeiros em concluir o curso, ele obtém 100 ponto
 
 **Pontos para conclusão antecipada**
 
-Essa tarefa se aplica aos alunos que concluem um curso dentro de um número estipulado de dias após se inscreverem no curso.
+Essa tarefa é aplicável aos alunos que concluem um curso dentro de um número estipulado de dias após se inscreverem no curso.
 
 Cenário possível:\
 Quando os alunos terminam um curso 10 dias depois do início do curso, eles obtém 100 pontos.
@@ -234,7 +236,7 @@ Você pode desativar a gamificação para usuários internos e externos.
 
 ## Gamificação do nível de grupo {#grouplevelgamification}
 
-Os administradores podem definir o escopo da gamificação alterando as configurações do escopo. É possível ativar de forma seletiva a gamificação entre usuários, grupos ou locais de perfil semelhantes.
+Os administradores podem definir o escopo da gamificação alterando as configurações do escopo. É possível ativar de forma seletiva a gamificação entre usuários, grupos ou locais de perfil similar.
 
 1. No logon do administrador, clique em **[!UICONTROL Gamificação]** no painel esquerdo.
 1. Abra **[!UICONTROL Gamificações]** > **[!UICONTROL Configurações]** > **[!UICONTROL Configurações Do Escopo]**. A caixa de diálogo [!UICONTROL Configurações do Escopo de Gamificação] é exibida.

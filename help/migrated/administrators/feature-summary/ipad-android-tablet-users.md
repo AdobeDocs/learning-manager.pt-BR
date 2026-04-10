@@ -4,10 +4,10 @@ title: Usuários de tablet Android e iPad
 description: Configurações para usuários de tablet Android e iPad
 contentowner: manochan
 exl-id: 19abe9d6-b48e-4027-bb72-95d7c767c1ec
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 57%
+source-wordcount: '196'
+ht-degree: 74%
 
 ---
 
@@ -34,7 +34,8 @@ Você pode acessar o aplicativo Learning Manager offline no tablet Google Nexus 
 
 1. Quando estiver on-line, um prompt aparecerá em uma barra na parte superior do aplicativo para verificar se você quer sincronizar seu conteúdo on-line. Toque na barra vermelha se a resposta for sim. Uma barra verde indica que o conteúdo está em sincronia com o aplicativo on-line.
 
-<!--## Track device storage {#trackdevicestorage}
+<!--
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -46,4 +47,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+-->

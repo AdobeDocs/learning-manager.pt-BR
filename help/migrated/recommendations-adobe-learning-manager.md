@@ -2,10 +2,10 @@
 title: Recomendações no Adobe Learning Manager
 description: O núcleo do mecanismo de recomendação é orientado pelo novo algoritmo de classificação de cursos do Learning Manager. O algoritmo usa 50 milhões de pontos de dados e cinco anos de dados de aprendizado agregados em milhões de usuários para classificar os cursos com base na probabilidade de inscrição. Essa classificação garante que a maioria dos cursos aptos para inscrição seja exibida antecipadamente para os alunos.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 57%
+source-wordcount: '1490'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,10 @@ Os administradores recebem um fluxo de trabalho guiado no Learning Manager para 
 
 1. Clique em **[!UICONTROL Continuar]** para atualizar para o novo sistema de recomendações.
 
-   <!--![Proceed to the new system](assets/image521152.png)
-   *Select the Proceed button*-->
+   <!--
+   ![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*
+   -->
 
 1. Crie os parâmetros de recomendações para produtos e funções.
 
@@ -110,18 +112,18 @@ O administrador deve carregar os dados do usuário em um formato predeterminado.
 
 Para carregar os dados para que as recomendações funcionem, preencha os produtos, as funções e os níveis nos CSVs do objeto de aprendizado de recomendações e do usuário.
 
-Como parte do exercício de preparação de dados, estamos fornecendo dois modelos CSV:
+Como parte do exercício de preparação de dados, estamos fornecendo dois modelos de CSV:
 
 **RecUser.csv**
 
-* ID de usuário
+* ID do usuário
 * Produtos
 * Funções
 * Níveis (Iniciante, Intermediário ou Avançado)
 
 Veja a seguir um exemplo de registros no csv:
 
-| ID de usuário | Produtos | Funções | Níveis |
+| ID do usuário | Produtos | Funções | Níveis |
 |--- |--- |--- |--- |
 | 123 | Ciência de Dados | Analista | Analista: Intermediário |
 | 456 | Engenheiro Aeroespacial | Técnico | Técnico: Avançado |
@@ -150,8 +152,8 @@ Preencha esses CSVs e entre em contato com sua equipe de sucesso do cliente para
 
 Após o upload de ambos os CSVs, clique em Ativar. Isso tornará o novo sistema de recomendações visível aos alunos.
 
-![ativação](assets/computerdescription-automatically.png)
-*Disponibilize as recomendações*
+![colocar no ar](assets/computerdescription-automatically.png)
+*Disponibilizar as recomendações*
 
 O sistema de recomendações agora está disponível para seus alunos.
 
@@ -224,7 +226,7 @@ Um aluno pode ver as seguintes faixas no aplicativo:
 * Faixa Salvo por mim
 * Faixa super relevante
 * Faixa do produto – 1
-* Faixa do produto – 2
+* Faixa do produto - 2
 * Faixa de descoberta
 * Faixa recomendada pelo administrador
 * Procurar por faixa de catálogo
