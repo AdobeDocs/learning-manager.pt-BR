@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 65%
+source-wordcount: '900'
+ht-degree: 62%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 65%
 
 * [Guia do Usuário do Learning Manager](user-guide.md)
 * Introdução {#introduction}
-   * [Resumo dos novos recursos outubro de 2025](/help/migrated/whats-new.md)
+   * [Resumo dos novos recursos abril de 2026](/help/migrated/whats-new.md)
+   * [Resumo dos novos recursos outubro de 2025](/help/migrated/whats-new-october-2025.md)
    * [Resumo dos novos recursos em maio de 2025](/help/migrated/whats-new-may-2025.md)
    * [Resumo dos novos recursos novembro de 2024](/help/migrated/whats-new-nov-24.md)
    * [Resumo dos novos recursos julho de 2024](whats-new-july-2024.md)
@@ -38,6 +39,7 @@ ht-degree: 65%
    * [Recomendações no Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Rotulagem branca no Adobe Learning Manager](white-label.md)
 * Iniciar {#get-started}
+   * [Fazer logon no Adobe Learning Manager com o OpenID Connect](/help/migrated/oidc.md)
    * [Iniciando como administrador](administrators/feature-summary/getting-started-admin.md)
    * [Iniciando como autor](authors/feature-summary/getting-started-author.md)
    * [Iniciar como um Aluno](learners/feature-summary/getting-started-learner.md)
@@ -48,10 +50,11 @@ ht-degree: 65%
    * [Logon de usuário](administrators/feature-summary/user-login.md)
    * Gerenciamento de usuários {#user-management}
       * [Adicionar usuários no Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
-      * [Grupo de usuários no Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
+      * [Grupos de usuários no Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
       * [Campos ativos](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Adicionar locais de sala de aula](administrators/feature-summary/classroom.md)
    * [Criar instâncias do curso e programações de aprendizado](administrators/feature-summary/courses.md)
+   * [Controle de tempo de acesso do módulo](/help/migrated/administrators/feature-summary/module-access-time-control.md)
    * Experience Builder no Adobe Learning Manager {#experience-builder}
       * [Visão geral](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Componentes principais do Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -68,6 +71,12 @@ ht-degree: 65%
          * [Visão geral](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [Personalizar o Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Diretrizes e limitações do Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+      * [Experiência não conectada no Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+   * Configurações {#settings}
+      * [Visão geral](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
+      * [Configurações básicas](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
+      * [Configurações de integração](/help/migrated/administrators/feature-summary/settings/integration-settings.md)
+      * [Configurações avançadas](/help/migrated/administrators/feature-summary/settings/advanced-settings.md)
    * Marketplace de conteúdo {#content-marketplace}
       * [Marketplace de conteúdo](administrators/feature-summary/content-marketplace.md)
       * [Cursos Go1 curados para o Caminho de aprendizado](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
@@ -75,10 +84,12 @@ ht-degree: 65%
    * [Relatórios](administrators/feature-summary/reports.md)
    * [Painel de Sucesso do Grupo](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Caminhos de aprendizado](administrators/feature-summary/learning-paths.md)
+   * [Alternativas e equivalência](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [Planos de aprendizado](administrators/feature-summary/learning-plans.md)
    * [Gerenciar pedidos e faturamento do Learning Manager](administrators/feature-summary/billing-management.md)
    * [Ajudas de tarefa](administrators/feature-summary/job-aids.md)
    * [Certificações](administrators/feature-summary/certifications.md)
+   * [Criar e personalizar um certificado](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
    * [Catálogos](administrators/feature-summary/catalogs.md)
    * [Representar um aluno e gerente](administrators/feature-summary/impersonation-learner-manager.md)
    * [Logons de SSO múltiplo](administrators/feature-summary/multiple-sso-logins.md)
@@ -92,6 +103,7 @@ ht-degree: 65%
    * [Medalhas](administrators/feature-summary/badges.md)
    * [Temas de cores](administrators/feature-summary/themes.md)
    * [Transcrições do aluno](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+   * [Alterações nas transcrições do aluno](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
    * [Relatório de feedback](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
    * [Gerenciamento de listas de espera e participações](administrators/feature-summary/waitlist-attendance-management.md)
    * [Fluidic Player](administrators/feature-summary/fluidic-player.md)
@@ -132,7 +144,6 @@ ht-degree: 65%
    * [Instalar pacote do Salesforce no Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * Guia de implantação {#deployment-guide}
       * [Introdução](/help/migrated/deployment-guide/introduction.md)
-      * [Conectores de terceiros](/help/migrated/deployment-guide/third-party-connectors.md)
       * [Migração de usuários](/help/migrated/deployment-guide/user-migration.md)
       * [Configuração do usuário](/help/migrated/deployment-guide/user-setup.md)
    * [Instalar o conector do Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -202,6 +213,8 @@ ht-degree: 65%
    * [Anúncios da nova liga de experiência](/help/migrated/new-experience-league-announcement.md)
    * [Como enviar um tíquete de suporte no Experience League](/help/migrated/how-to-submit-support-ticket.md)
    * [Criar uma conta de avaliação no Adobe Learning Manager](/help/migrated/create-trial-account.md)
+* Alterações de API {#api-changes}
+   * [Alterações na API na versão de abril](/help/migrated/api-changes-alm.md)
 * Base de conhecimento {#knowledge-base}
    * [Não é possível fazer logon no Learning Manager](kb/unable-log-in-learning-manager.md)
    * [O Resumo do aprendizado não exibe os dados atuais](kb/learning-summary-not-display-data.md)

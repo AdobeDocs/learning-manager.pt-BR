@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '7631'
-ht-degree: 75%
+source-wordcount: '8840'
+ht-degree: 65%
 
 ---
 
@@ -531,7 +531,9 @@ A avaliação é um aspecto importante de qualquer LMS. Avaliações on-line sã
 
 Considere os funcionários das lojas ou dos armazéns em avaliação de tarefas que devem desempenhar diariamente. Podem ser as etapas realizadas para consertar uma máquina de café ou as etapas envolvidas na embalagem de um produto. Os professores podem avaliar funcionários para tais tarefas com base em uma lista de verificação e avaliá-los como Aprovado ou Reprovado na atividade de avaliação.
 
-### Criar uma lista de verificação {#createachecklist}
+Você pode criar uma lista de verificação em vários idiomas.
+
+### Criar uma lista de verificação em vários idiomas {#createachecklist}
 
 Somente um autor pode criar uma lista de verificação. Uma lista de verificação é um tipo de módulo Atividade. Ao configurar um módulo Atividade, você, um autor, pode selecionar uma Atividade como **Lista de verificação**, conforme mostrado abaixo:
 
@@ -539,9 +541,26 @@ Somente um autor pode criar uma lista de verificação. Uma lista de verificaç�
 
 *Criar uma lista de verificação*
 
-Depois de escolher a opção **Lista de verificação**, você verá algumas opções adicionais.
+1. Depois de escolher a opção **Lista de verificação**, você verá algumas opções adicionais.
 
-**Tipo de lista de verificação:** escolha qualquer opção, **Sim/Não** ou **1-5**. Se você escolher Sim/Não, a lista de verificação conterá perguntas que só podem ser respondidas com Sim ou Não. Se você escolher 1-5, poderá ver uma lista de verificação Likert, na qual você poderá classificar uma pergunta em uma escala de cinco pontos.
+2. **Tipo de lista de verificação:** escolha qualquer opção, **Sim/Não** ou **1-5**. Se você escolher Sim/Não, a lista de verificação conterá perguntas que só podem ser respondidas com Sim ou Não. Se você escolher 1-5, poderá ver uma lista de verificação Likert, na qual você poderá classificar uma pergunta em uma escala de cinco pontos.
+
+3. Selecione **Configurar**. A janela Lista de verificação é exibida.
+4. Insira quantas perguntas desejar. Você também pode inserir as mesmas perguntas nos idiomas adicionais.
+
+   ![](assets/multi-lang-support-for-checklists2.png)
+   *Há idiomas adicionais disponíveis*
+
+   ![](assets/multi-lang-support-for-checklists3.png)
+   *Por exemplo, perguntas também são inseridas em francês*
+
+   >[!NOTE]
+   >
+   >O ALM não traduz automaticamente as perguntas para você nesses idiomas adicionais. Você tem que traduzir as perguntas nos respectivos idiomas.
+
+5. Selecione **Salvar**. As perguntas são salvas em todos os idiomas.
+6. Selecione todas as outras opções relevantes e selecione **Adicionar**. A lista de verificação é criada em todos os idiomas em que o curso está disponível.
+
 
 **Critérios de aprovação:**
 
@@ -573,6 +592,8 @@ Agora adicione as perguntas da lista de verificação. Clique em **[!UICONTROL A
 *Adicionar perguntas da lista de verificação*
 
 Para adicionar mais perguntas, clique em **[!UICONTROL Adicionar mais]**.
+
+
 
 Salve as alterações, adicione o módulo e publique o curso.
 
@@ -617,6 +638,218 @@ Nessa página, insira os seguintes detalhes:
    *Atribuir uma função de professor a um usuário*
 
 1. Para republicar o curso com as atualizações, clique em **[!UICONTROL Republicar]**.
+
+### Lista de verificação com comentários
+
+
+Comentários na lista de verificação permitem que os autores habilitem **comentários contextuais** durante avaliações baseadas na lista de verificação.\
+Quando ativados, os revisores (professores ou gerentes) podem adicionar comentários para explicar os resultados da avaliação além das pontuações ou do status de aprovação/reprovação.
+
+Esse recurso transforma listas de verificação de uma ferramenta puramente avaliativa em um **mecanismo de aprendizado orientado por feedback**, melhorando a compreensão do aluno, a transparência e as ações de acompanhamento.
+
+Com isso, os autores podem:
+
+* Ativar comentários de revisores em listas de verificação
+* Controlar se os comentários ficam visíveis para os alunos
+* Controlar se o nome do revisor é mostrado aos alunos
+* Garantir que os comentários do revisor sejam capturados em transcrições e relatórios do aluno
+
+#### Casos de uso
+
+#### Avaliações de desempenho
+
+Fornecer feedback claro sobre os pontos fortes observados, as lacunas e as áreas de melhoria durante avaliações reais ou baseadas em funções.
+
+#### Treinamento ministrado por instrutor e VILT
+
+Permita que os professores expliquem por que um aluno foi aprovado ou reprovado em uma avaliação baseada em lista de verificação.
+
+#### Cenários de conformidade e auditoria
+
+Manter uma trilha auditável que explique as decisões de avaliação da lista de verificação.
+
+#### Ambientes de vários revisores
+
+Ajude os alunos a identificar quem os avaliou e faça o acompanhamento para esclarecer.
+
+#### Ativar comentários de lista de verificação
+
+1. Abra um curso existente ou crie um novo curso.
+2. Adicione um módulo de lista de verificação ou abra um módulo existente para edição.
+3. No painel de configuração da lista de verificação:
+   1. Selecione **Comentários do revisor**. Ao revisar a lista de verificação, os revisores podem adicionar seus comentários ou feedback. Depois de publicada, esta configuração não pode ser alterada.
+   2. (Opcional) Selecione **Mostrar nome do revisor para o aluno**. Isso permite que os alunos vejam o nome do revisor que revisou o módulo de lista de verificação.
+4. Salve a configuração da lista de verificação.
+5. Publish o curso para disponibilizar a lista de verificação para avaliações.
+
+A lista de verificação agora oferece suporte aos comentários do revisor durante a avaliação do aluno.
+
+#### O que acontece durante a avaliação
+
+Embora os autores não realizem avaliações, é útil entender como a configuração é usada:
+
+* Os revisores veem um **campo de comentários** ao avaliar os alunos
+* Os revisores podem adicionar comentários contextuais durante o envio
+* Se habilitado:
+   * Os alunos veem os comentários do revisor
+   * Os alunos veem o nome do revisor
+
+#### Experiência do aluno (quando ativada)
+
+* Quando os alunos abrem uma lista de verificação concluída:
+* Eles veem o resultado da lista de verificação (aprovado/reprovado ou pontuação)
+* Eles veem os comentários do revisor (se ativados)
+* Eles verão o nome do revisor (se ativado)
+
+Isso ajuda os alunos a entender claramente os resultados da avaliação e as próximas etapas.
+
+#### Observações principais para autores
+
+* Os comentários da lista de verificação são **opcionais** e devem ser explicitamente habilitados
+* A visibilidade dos comentários e da identidade do revisor é **totalmente controlada pelo autor**
+* Funciona com:
+   * Um ou vários revisores
+   * Listas de verificação baseadas em pontuação, Sim/Não e dimensionadas
+* Nenhum impacto nas listas de verificação existentes, a menos que sejam atualizadas pelo autor
+
+### Criar uma lista de verificação em vários idiomas
+
+O suporte a vários idiomas para listas de verificação permite que os autores criem **um único módulo de lista de verificação com perguntas disponíveis em vários idiomas**.\
+Quando habilitadas, os revisores veem automaticamente as perguntas da lista de verificação em seu **idioma de conteúdo selecionado**, garantindo avaliações consistentes e localizadas entre equipes globais.
+
+Isso elimina a necessidade de criar e gerenciar **listas de verificação separadas por idioma**, reduzindo a duplicação e simplificando a manutenção do curso.
+
+Com o suporte a listas de verificação em vários idiomas, os autores podem:
+
+* Adicionar perguntas de lista de verificação em vários idiomas na mesma lista de verificação
+* Manter paridade de idioma nas perguntas da lista de verificação
+* Certifique-se de que os revisores vejam perguntas de lista de verificação localizadas automaticamente no idioma do conteúdo
+* Baixar relatórios de lista de verificação no idioma selecionado
+
+#### Casos de uso
+
+#### Avaliações da força de trabalho global
+
+Permita que gerentes e professores em todas as regiões avaliem os alunos usando perguntas de lista de verificação localizadas.
+
+#### Avaliações padronizadas entre regiões
+
+Manter uma única estrutura de avaliação ao oferecer suporte a vários idiomas para diferentes regiões.
+
+#### Treinamento operacional e de conformidade
+
+Garantir que os avaliadores compreendam claramente os critérios da lista de verificação em seu idioma nativo, reduzindo os erros de interpretação.
+
+#### Redução da duplicação de conteúdo
+
+Evite criar e manter vários módulos de lista de verificação para idiomas diferentes.
+
+#### Como criar uma lista de verificação em vários idiomas
+
+1. Abra um curso existente ou crie um novo curso.
+2. Adicione um módulo de lista de verificação.
+3. Nas configurações do curso, adicione os **idiomas de conteúdo** necessários (por exemplo, inglês, francês, alemão).
+4. Salve a configuração do curso.
+
+#### Como configurar perguntas da lista de verificação em vários idiomas
+
+1. Abra a configuração do módulo de lista de verificação.
+2. Navegue até a seção **Configurar perguntas**.
+3. Use as **guias de idioma** para alternar entre os idiomas disponíveis.
+4. Para cada idioma:
+   * Adicionar a versão traduzida de cada pergunta da lista de verificação
+   * Manter significado e propósito de avaliação equivalentes nos idiomas
+5. Defina os critérios da lista de verificação (Sim/Não, com base na escala ou com base na pontuação) conforme necessário.
+
+Cada versão de idioma representa a mesma lista de verificação, não um módulo separado.
+
+Salve a configuração da lista de verificação e publique o curso. A lista de verificação agora está disponível em todos os idiomas configurados.
+
+#### Experiência do revisor
+
+* Os revisores veem as perguntas da lista de verificação em **seu idioma de conteúdo selecionado**
+* Não é necessário mudar de idioma manualmente durante a avaliação
+* Se um revisor alterar o idioma do conteúdo, as perguntas da lista de verificação serão adaptadas automaticamente
+
+### Atribuir pesos às perguntas da lista de verificação
+
+O peso da pergunta da lista de verificação permite que os autores criem **listas de verificação baseadas em pontuação** nas quais perguntas individuais da lista de verificação podem ter **pontuações máximas diferentes**.
+
+Em vez de tratar todos os itens da lista de verificação igualmente, os autores podem definir perguntas ponderadas e definir uma **pontuação total mínima** necessária para que um aluno seja aprovado.
+
+Esse recurso permite avaliações mais precisas e flexíveis, especialmente para **treinamento baseado em desempenho, orientado por avaliação e orientado à conformidade**.
+
+Com a ponderação da pergunta da lista de verificação, os autores podem:
+
+* Criar um **tipo de lista de verificação baseada em pontuação**
+* Atribuir **pontuações máximas** diferentes a perguntas individuais da lista de verificação
+* Defina uma **pontuação total mínima** necessária para passar na lista de verificação
+* Usar uma escala de pontuação expandida (faixa configurável até 10)
+* Exibir pontuação obtida versus pontuação máxima em relatórios
+
+#### Casos de uso
+
+#### Avaliações ministradas por instrutor
+
+Avalie os alunos usando critérios de pontuação detalhados em vez de resultados simples de Sim/Não.
+
+#### Treinamento operacional e SOP
+
+Atribua maior peso às etapas críticas e menor peso às tarefas secundárias.
+
+#### Prontidão para conformidade e certificação
+
+Certifique-se de que os alunos atinjam um limite mínimo de competência definido antes de serem aprovados.
+
+#### Benchmarking de habilidade e desempenho
+
+Apoiar avaliações estruturadas em que a conclusão parcial ainda contribui para a pontuação global.
+
+#### Como criar uma lista de verificação ponderada
+
+1. Abra um curso existente ou crie um novo curso.
+2. Adicione um módulo de lista de verificação ou abra um módulo existente para edição.
+3. No painel de configuração da lista de verificação, escolha o tipo de lista de verificação **Pontuação personalizada**.
+4. Isso ativa a pontuação por pergunta e o cálculo da pontuação total.
+5. Adicione perguntas de lista de verificação conforme necessário.
+6. Para cada pergunta:
+   * Defina a **pontuação máxima** (por exemplo, 5, 10, 20)
+7. Certifique-se de que as pontuações da pergunta reflitam sua importância relativa.
+
+Diferentes perguntas podem ter diferentes pontuações máximas na mesma lista de verificação.
+
+#### Definir critérios de aprovação
+
+1. Especifique a **pontuação total mínima** necessária para passar na lista de verificação. O sistema calcula a pontuação total possível automaticamente com base no peso da pergunta.
+2. Salve a configuração da lista de verificação e publique o curso.
+
+A lista de verificação agora está ativada com pontuação ponderada para avaliações do professor.
+
+#### Experiência do revisor
+
+* Os revisores veem cada pergunta da lista de verificação com sua **pontuação máxima**
+* Os revisores atribuem pontuações por pergunta durante a avaliação
+* O sistema calcula:
+   * Pontuação total obtida
+   * Status aprovado ou reprovado com base em critérios definidos
+
+#### Experiência do aluno
+
+* Os alunos veem o status de conclusão da lista de verificação (aprovado/reprovado)
+* Se ativado, os alunos também podem ver:
+   * Comentários do revisor
+   * Nome do revisor
+* A lógica de pontuação é aplicada de forma consistente nas avaliações
+
+#### Notas para autores
+
+* Listas de verificação ponderadas são mais adequadas para **avaliações formais**
+* As pontuações das perguntas devem ser calibradas cuidadosamente para evitar resultados distorcidos
+* Funciona com:
+   * Um ou vários revisores
+   * Comentários do revisor (se ativados)
+* As listas de verificação existentes não são afetadas, a menos que sejam atualizadas explicitamente
+
 
 ### Permitir que professores marquem como bem-sucedido
 
@@ -857,7 +1090,7 @@ Você também pode publicar módulos de curso no Learning Manager a partir do so
 1. Faça logon com as credenciais da Adobe. Se não tiver uma Adobe ID, clique em **[!UICONTROL Criar conta]**. Após a autorização, você será direcionado para a página de publicação do módulo.
 1. Forneça quaisquer informações básicas sobre o módulo e clique em Publicar.
 
-Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/br/captivate/classic/publish-project-to-captivate-prime.html)
+Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)
 
 ## Eficácia do curso {#courseeffectiveness}
 

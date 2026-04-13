@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gerenciamento dos alunos da sua sessão
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 69%
+source-wordcount: '1898'
+ht-degree: 47%
 
 ---
 
@@ -53,7 +53,7 @@ Seguindo as colunas disponíveis no relatório Lista de espera:
 * ID da instância
 * Status da instância
 * Nome do usuário
-* Email
+* E-mail
 * ID exclusiva do usuário
 * Data da inscrição (fuso horário central da Europa)
 * Status
@@ -83,6 +83,99 @@ Para baixar o relatório da seção Professor:
 
    ![](assets/markattendance.png)
    *Marcar participação do aluno*
+
+### Baixar códigos QR para inscrição e participação do aluno
+
+Os professores podem baixar códigos QR para suas sessões atribuídas a fim de permitir que os alunos se inscrevam em uma instância do curso e marquem a participação ou a conclusão digitalizando o código QR.
+
+Isso permite que os professores gerenciem a participação na sessão de maneira independente, sem precisar de assistência do administrador.
+
+As etapas a seguir são adequadas para:
+
+* Sessões de sala de aula física
+* Sessões de sala de aula online
+
+Para uma sessão física de sala de aula, como professor, você tem de gerar o código QR correto e colá-lo na sala de aula (ou passá-lo) onde os alunos estão participando da sessão para que eles possam digitalizar o código QR e marcar sua inscrição ou participação ou ambos, dependendo do código QR.
+
+Para uma sessão de sala de aula online, como professor, você pode enviar o código QR gerado por e-mail, um sistema de mensagens ou qualquer outro meio para que os alunos possam digitalizar o código QR e marcar sua inscrição ou participação ou ambos, dependendo do código QR.
+
+
+#### Baixar QR Codes para uma sessão
+
+1. Entre no Adobe Learning Manager com a função **Professor**.
+2. Vá para o **Painel do professor**.
+3. Abra a **instância do curso** relevante.
+4. Selecione a guia **Sessões**.
+5. Escolha uma sessão atribuída a você.
+6. Selecione **QR Code da Sessão**.
+   ![](assets/instructor-QR-code.png)
+
+Você pode baixar os seguintes códigos QR:
+
+* **Código QR de inscrição** - permite que os alunos se inscrevam na instância do curso
+* **Código QR de participação** - marca a participação na sessão
+* **Inscrição + Código QR de Participação** - inscreve alunos e marca a participação em uma única verificação
+
+O código QR é baixado como um PDF e pode ser compartilhado digitalmente ou exibido durante a sessão.
+
+#### O que acontece quando os alunos digitalizam o código QR
+
+* Os alunos digitalizam o código QR usando um dispositivo móvel.
+* O Adobe Learning Manager valida o aluno e a sessão.
+* Com base no tipo de código QR:
+   * Os alunos estão inscritos na instância do curso ou
+   * Presença e conclusão registradas para a sessão
+
+Todas as atualizações são refletidas automaticamente nos registros, transcrições e relatórios do aluno.
+
+#### Notas
+
+* Os códigos QR estão disponíveis apenas para professores atribuídos à sessão.
+* As regras de inscrição, participação e conclusão configuradas para o curso e a sessão continuam a ser aplicáveis.
+* Os fluxos de trabalho existentes de progresso e relatórios do aluno permanecem inalterados.
+
+#### Casos de uso
+
+* As organizações que executam grandes volumes de sessões no local (por exemplo, treinamento de produtos para profissionais) podem permitir que os professores imprimam códigos QR específicos da sessão que se inscrevem e marcam presença com uma digitalização.
+
+* No varejo, na fabricação e no treinamento de saúde, onde os alunos frequentemente participam das sessões diretamente do piso ou sem pré-inscrição, um código QR “Inscrever-se + Participar” pode ser colocado na porta. Isso permite que os alunos façam o autoatendimento da sua inscrição e da presença por meio de seus telefones.
+
+* Os eventos de treinamento para parceiros ou clientes permitem que o instrutor no local se adapte facilmente a alterações na sala, sessões adicionais ou participantes extras sem precisar consultar o administrador para obter novos códigos QR.
+
+### Convites do calendário
+
+* Quando um aluno ou professor está inscrito em uma sala de aula ou sessão de sala de aula virtual, o Learning Manager envia um convite da agenda (arquivo ICS).
+* O convite do calendário inclui:
+   * Data e hora da sessão
+   * Detalhes da sessão
+   * **Link de ingresso direto na sessão** na descrição do calendário
+
+Os participantes podem abrir o evento do calendário e ingressar na sessão diretamente de seu calendário.
+
+#### Ingressar em uma sessão do Gmail
+
+1. Abra o **Calendário do Google**.
+2. Selecione o evento da sessão.
+3. Nos detalhes do evento, clique no **link de ingresso na sessão**.
+4. A sessão é aberta diretamente no Adobe Learning Manager ou na ferramenta de sala de aula virtual configurada.
+
+Não é necessário abrir o email original para acessar o link da sessão.
+
+#### Ingressar em uma sessão de outros clientes de calendário
+
+O link da sessão é incluído no corpo do evento do calendário e pode ser acessado em:
+
+* Microsoft Outlook
+* Apple Calendar
+* Outros aplicativos de calendário que oferecem suporte a arquivos ICS
+
+#### Notas
+
+* Os convites do calendário são gerados automaticamente pelo Learning Manager.
+* As informações de fuso horário no convite do calendário são ajustadas com base no fuso horário selecionado do aluno.
+* Esse aprimoramento se aplica a convites de calendário recém-gerados.
+* Nenhuma configuração adicional é exigida por administradores ou professores.
+
 
 ## Marcar sucesso para alunos
 

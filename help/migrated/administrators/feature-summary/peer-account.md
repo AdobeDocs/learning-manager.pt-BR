@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Contas entre parceiros
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 52%
+source-wordcount: '905'
+ht-degree: 51%
 
 ---
 
@@ -92,13 +92,45 @@ Se você não deseja mais compartilhar licenças ou compras com uma conta, é po
 O administrador pode exibir o relatório de usuário da conta entre parceiros. O administrador da conta principal pode solicitar acesso ao relatório e, depois que o administrador da conta entre parceiros aceitar isso, o administrador pai poderá exibir o número de usuários registrados na conta entre parceiros e poderá baixar o relatório de usuário para a conta entre parceiros.
 
 1. Na página Contas entre Parceiros, clique em **[!UICONTROL Adicionar]**.
-1. Habilite a opção **[!UICONTROL Solicitar permissão para baixar relatórios de usuário para a conta inteira]**.
+1. Ative a opção **[!UICONTROL Solicitar permissão para baixar relatórios de usuário para a conta inteira]**.
 
 ![](assets/image034.png)
 
 *Exibir relatório de usuário de uma conta entre parceiros*
 
 Para baixar os relatórios de contas entre parceiros, clique em **[!UICONTROL Baixar]**.
+
+## Exibição do nome do autor para cursos compartilhados (incluindo cursos adquiridos anteriormente)
+
+O Adobe Learning Manager exibe o **nome do autor original** dos cursos compartilhados ou adquiridos por meio de contas entre parceiros.
+
+Anteriormente, os cursos adquiridos de contas entre parceiros eram geralmente exibidos com o nome do autor como **Autor externo**. Isso foi aprimorado para melhorar a atribuição e a clareza do conteúdo.
+
+### Como isso funciona
+
+* Quando um curso é compartilhado de uma conta entre parceiros, o Learning Manager agora resolve e exibe o **nome real do autor** da conta de origem.
+* Esse comportamento se aplica a:
+   * Cursos compartilhados recentemente
+   * Cursos adquiridos antes da introdução desse aprimoramento
+
+### Comportamento retroativo
+
+Este aprimoramento foi aplicado **retroativamente**.\
+Os cursos que já foram adquiridos de contas entre parceiros antes dessa alteração exibem automaticamente o nome do autor correto.
+
+Nenhuma ação é necessária de administradores ou autores:
+
+* Não é necessário compartilhar o curso novamente
+* Você não precisa publicar novamente nem editar o curso
+* As inscrições e o progresso existentes do aluno permanecem inalterados
+
+### O que não muda
+
+* A propriedade e as permissões do curso permanecem as mesmas
+* Somente o **nome do autor exibido** foi atualizado
+* Relatórios, inscrições e estrutura do curso não são afetados
+
+Isso garante uma atribuição consistente e precisa de autores em todo o conteúdo compartilhado, incluindo cursos históricos adquiridos por meio de contas entre parceiros.
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 

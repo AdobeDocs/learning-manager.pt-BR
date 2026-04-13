@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Remover usuários
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 57%
+source-wordcount: '1457'
+ht-degree: 45%
 
 ---
 
@@ -234,6 +234,49 @@ Você pode classificar os usuários filtrados por **[!UICONTROL ID de Usuário E
 </table>
 
 +++
+
+### Remoção automática de usuários excluídos{#auto-purge}
+
+A remoção automática de usuários excluídos é um recurso que limpa os dados de usuários que já foram excluídos no ALM. A remoção ocorre após um período de retenção configurável, com foco em operações em massa, para que as contas grandes de clientes possam ser tratadas de forma eficiente sem prejudicar o desempenho.
+
+O fluxo de exclusão em massa pode processar até 10.000 usuários por lote. O recurso está posicionado como um serviço em segundo plano, voltado para confiabilidade, para exclusão de grandes volumes.
+
+Como administrador, você pode especificar a duração na qual os usuários removidos podem ser excluídos. Exiba [configurações de administrador](/help/migrated/administrators/feature-summary/settings.md) para obter mais informações.
+
+#### O que ele faz:
+
+* Fornecer remoção automática configurável para usuários excluídos no nível da conta
+* Garantir que os usuários sejam removidos dentro de 24 horas depois de atenderem aos critérios de remoção
+* Suporta exclusão em massa de até 10.000 usuários por dia** sem prejudicar o desempenho do sistema
+* Manter a capacidade de resposta geral do sistema e a integridade do banco de dados enquanto essas operações são executadas
+* Aplicar o gerenciamento automatizado de retenção de dados para manter as obrigações do GDPR
+
+#### O que ele não faz:
+
+* O fluxo de exclusão em massa será executado somente como um trabalho cron agendado (não sob demanda por solicitação)
+
+### Ativando a opção Expurgação automática
+
+1. Faça logon no Adobe Learning Manager como administrador.
+2. Navegue até a seção **Configurar** > **Configurações** > seção **Básicos** > **Geral**.
+3. Role a página para baixo até **Limpar automaticamente usuários excluídos**.
+   ![](assets/auto-purge1.png)
+   *Opção de limpeza automática*
+   >[!NOTE]
+   >
+   >Se a opção **Limpar automaticamente usuários excluídos** não estiver habilitada, a seção exibirá uma mensagem que diz **Não configurado** na parte inferior da seção da opção.
+4. Selecione **Editar**.
+5. Marque a **caixa de seleção Habilitar**.
+6. Informe a duração após a qual a expurgação deve ter efeito.
+   >[!NOTE]
+   >
+   >O valor mínimo deve ser um ano. Você também pode incrementá-lo em 1. No entanto, não é possível inserir um valor como 1,5 ano ou 2,5 anos. Se você precisar de um valor personalizado como duração, entre em contato com nosso suporte ao cliente.
+7. Selecione **Salvar**. O ALM exibe uma mensagem de confirmação detalhada.
+   ![](assets/auto-purge2.png)
+   *Ativando e inserindo a duração*
+8. Selecione **Sim** para confirmar e salvar a configuração.
+   ![](assets/auto-purge3.png)
+   *Mensagem de confirmação*
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 

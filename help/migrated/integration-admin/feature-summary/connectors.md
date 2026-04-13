@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
 source-wordcount: '15959'
 ht-degree: 72%
@@ -146,9 +146,9 @@ Veja como você criará os objetos:
 
 1. Baixe e instale os pacotes para criar os objetos personalizados.
 
-   * [Pacote 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
-   * [Pacote 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
-   * [Pacote 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
+   * [Pacote 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS)
+   * [Pacote 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX)
+   * [Pacote 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic)
 
 1. Renomeie os nomes dos objetos personalizados no Salesforce.
 1. Selecione os eventos e clique em **[!UICONTROL Salvar]**.
@@ -1440,16 +1440,16 @@ Para configurar o conector, na página **[!UICONTROL Conectores]**, passe o mous
 1. Na seção Tipo de aplicativo, selecione a opção Aplicativo Web do servidor.
 1. Na seção **[!UICONTROL Redirecionar URL]**, selecione a opção **Usar uma URL personalizada** (Escolha esta opção se souber a URL do aplicativo de destino). Insira o seguinte URL:
 
-   `https://learningmanager.adobe.com/ctr/app/azure/_callback` (update the domain based on the environment)
+   `https://learningmanager.adobe.com/ctr/app/azure/_callback` (atualizar o domínio com base no ambiente)
 
-1. In the Home URL field, enter the following URL, `https://learningmanager.adobe.com/`
-1. In the permissions section, select **Read All data set** and **Read and Write all data set**.
+1. No campo URL Inicial, insira a seguinte URL: `https://learningmanager.adobe.com/`
+1. Na seção de permissões, selecione **Ler todos os conjuntos de dados** e **Ler e gravar todos os conjuntos de dados**.
 
    Obtenção do inquilino: entre em contato com seu administrador do Power BI para fornecer o nome do inquilino.
 
    Como obter a ID do local de trabalho: a criação do local de trabalho só é possível para usuários do Power BI Pro. Você pode criar um local de trabalho no Power BI e obter a ID do URL.
 
-1. Click **[!UICONTROL Register app]** and store the Client Id and Client Secret.
+1. Clique em **[!UICONTROL Registrar aplicativo]** e armazene a ID do cliente e o Segredo do cliente.
 
 >[!NOTE]
 >
@@ -1459,17 +1459,17 @@ Você pode exportar as transcrições do aluno, as habilidades do usuário e o r
 
 Habilite a **[!UICONTROL caixa de seleção Ativar exportação de habilidade do usuário/Transcrição do aluno usando esta conexão]**. Salve a alterações.
 
-**Configuração de exportação**: se quiser agendar a extração do relatório. Select the **[!UICONTROL Enable Schedule]** check box and specify the start date and time. Também é possível especificar o intervalo no qual deseja que o relatório seja gerado e enviado.
+**Configuração de exportação**: se quiser agendar a extração do relatório. Marque a caixa de seleção **[!UICONTROL Habilitar Agendamento]** e especifique a data e a hora de início. Também é possível especificar o intervalo no qual deseja que o relatório seja gerado e enviado.
 
 ![](assets/power-bi-configureuserskillpage.png)
 
-*Export configure to schedule the report*
+*Exportar a configuração para agendar o relatório*
 
-**Export on demand:** You can specify  the  start  date and export the report using the option . The  report is extracted from the date  entered  until present.
+**Exportar por demanda:** você pode especificar a data de início e exportar o relatório usando a opção . O relatório é extraído da data inserida até a presente.
 
 ![](assets/power-bi-userskillondemandpage.png)
 
-*Export on demand*
+*Exportar por demanda*
 
 Os dados exportados podem ser exibidos acessando sua conta do Power BI. Os dados exportados são listados na opção de conjuntos de dados.
 
@@ -1478,7 +1478,7 @@ Os dados exportados podem ser exibidos acessando sua conta do Power BI. Os dados
 Na página Recursos PowerBI-xAPI, clique em **[!UICONTROL Exportar relatório de atividades da xAPI]**.
 
 ![](assets/powerbi-dashboard.png)
-*PowerBI - Export xAPI Activity Report*
+*PowerBI - Exportar Relatório de Atividades da xAPI*
 
 No painel esquerdo, selecione **Configuração** e siga as etapas abaixo:
 
@@ -1496,14 +1496,14 @@ No painel esquerdo, clique em **[!UICONTROL Configurar agendamento]** e faça o 
 * Clique no botão **[!UICONTROL Salvar]** para salvar as definições em Configurar agendamento.
 
 ![](assets/configure-schedule.png)
-*xAPI Export Configure Schedule*
+*Agenda de Configuração de Exportação xAPI*
 
 **Sob demanda**
 
 No painel esquerdo, clique em **[!UICONTROL Sob demanda]** e especifique a data de início na página Exportar instruções da xAPI-Sob demanda.
 
 ![](assets/on-demand-2.png)
-*xAPI Export On Demand*
+*Exportação xAPI sob demanda*
 
 Todos os dados exportados serão exibidos em um conjunto de dados criado pela Adobe em sua conta do PowerBI.
 
@@ -1523,21 +1523,21 @@ O Learning Manager fornece uma maneira de exportar com uma combinação de relat
 Isso permite que os usuários do Power BI mesclem os dados de vários relatórios para apresentar análises e visualizações muito poderosas no Power BI.
 
 ![](assets/unified-power-bireports.png)
-*Unified Power BI reports*
+*Relatórios de Power BI unificados*
 
 **Exportação sob demanda**
 
 Especifique a data de início e de término e exporte o relatório usando a opção. O relatório é extraído para o período especificado.
 
 ![](assets/on-demand-export.png)
-*On demand export*
+*Exportação sob demanda*
 
 **Exportação agendada**
 
 Se você deseja agendar a extração do relatório. Selecione a caixa de seleção **Habilitar agendamento** e especifique a data e hora de início. Também é possível especificar o intervalo no qual deseja que o relatório seja gerado e enviado.
 
 ![](assets/configure-schedule.png)
-*Configure schedule*
+*Configurar agendamento*
 
 Você também pode exportar Relatórios de treinamento para o Power BI.
 
@@ -1545,7 +1545,7 @@ Os Relatórios de treinamento podem ser exportados para o Power BI como parte do
 
 O Relatório de treinamento tem dois campos adicionais:
 
-* Count of users who&#39;ve shared feedback on a course
+* Número de usuários que compartilharam feedback em um curso
 * Classificação de estrelas média para um curso
 
 ### Status do filtro de transcrições do aluno {#lt-status}
@@ -1554,13 +1554,13 @@ Na seção Relatórios unificados de uma conexão do Power BI, há uma opção p
 
 * **Selecionar tudo:** Exporte todos os registros ou atividades no nível do módulo no intervalo de datas especificado.
 * **Concluído:** Exporte todos os registros concluídos no intervalo de datas.
-* **In Progress:** Export all records that have the status- In Progress.
+* **Em andamento:** exporte todos os registros que têm o status- Em andamento.
 * **Não iniciado:** exclua os registros que estão inscritos no intervalo de datas especificado, mas não foram iniciados ao gerar o relatório.
 
 * **Não inscrito:** Inclua todos os registros não inscritos no intervalo de datas.
 
 ![](assets/lt-filters.png)
-*Filter status of Learning Transcripts*
+*Status do filtro de transcrições de aprendizado*
 
 Você pode exportar a lista obrigatória e usar o Power BI para analisar o relatório mais tarde.
 
@@ -1571,11 +1571,11 @@ O Learning Manager também fornece modelos de Power BI prontos. Esses modelos of
 Você pode baixar os modelos, exportar relatórios relevantes e criar relatórios usando esses modelos disponíveis com facilidade.
 
 ![](assets/download-power-bi-template.png)
-*Download Power BI templates*
+*Baixar modelos do Power BI*
 
 Isso permite que os usuários baixem esses modelos e os usem no aplicativo Power BI e os personalizem ainda mais, e faz com que seus relatórios contem uma história convincente.
 
-[**Download the templates**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
+[**Baixar os modelos**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
 
 <!--
 <table> 
@@ -1596,11 +1596,11 @@ Os relatórios de treinamento podem ser exportados para o Power BI como parte do
 
 O Relatório de treinamento tem estes campos adicionais:
 
-* Count of users who&#39;ve shared feedback on a course
+* Número de usuários que compartilharam feedback em um curso
 * Classificação de estrelas média para um curso
 
 ![](assets/export-training-report.png)
-*Export training report*
+*Exportar relatório de treinamento*
 
 ### Alterações relacionadas ao Caminho de aprendizado {#learning-path-related-changes}
 
@@ -1818,38 +1818,38 @@ Para configurar o conector do ADFS, entre em contato com a equipe de CSM do Lear
 
    ![](assets/adfs1.jpg)
 
-   *ADFS thumbnail*
+   *Miniatura do AD FS*
 
 1. Clique em Conectar para configurar uma nova conexão. A página do conector do ADFS é exibida. Insira os detalhes da conta que quer mapear.
 
    ![](assets/adfs2.jpg)
 
-   *Establish connection*
+   *Estabelecer conexão*
 
 1. Se quiser importar o usuário do ADFS diretamente como um usuário interno do Learning Manager, use a opção Importar usuários internos.
 
    ![](assets/adfs3.jpg)
 
-   *Import user to Learning Manager*
+   *Importar usuário para o Learning Manager*
 
-1. Na página de mapeamento, à esquerda   lado, você pode ver as colunas do Learning Manager e, à direita,   side  you can see the ADFS columns. Selecione o nome da coluna apropriada que faz mapeamento para o nome da coluna do Learning Manager.
+1. Na página de mapeamento, à esquerda   lado, você pode ver as colunas do Learning Manager e, à direita,   lado você pode ver as colunas do ADFS. Selecione o nome da coluna apropriada que faz mapeamento para o nome da coluna do Learning Manager.
 
    ![](assets/adfs4.jpg)
 
    *Mapear atributos*
 
-1. To view and edit data source, as an Administrator, click **[!UICONTROL Settings]** > **[!UICONTROL Data Source]**.
+1. Para exibir e editar a fonte de dados, como administrador, clique em **[!UICONTROL Configurações]** > **[!UICONTROL Fonte de Dados]**.
 
    A fonte do ADFS estabelecida será listada. Se você precisar editar o filtro, clique em **[!UICONTROL Editar]**.
 
    ![](assets/datasource.jpg)
-   *Data source setting*
+   *Configuração da fonte de dados*
 
-1. Você receberá uma notificação após a conclusão da importação. To view or edit the import log, click **[!UICONTROL Users]** > **[!UICONTROL Import log]**.
+1. Você receberá uma notificação após a conclusão da importação. Para exibir ou editar o log de importação, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Log de importação]**.
 
-### Delete a connection {#delete-a-connection-1}
+### Excluir uma conexão {#delete-a-connection-1}
 
-To delete an established miniOrange connection, follow these steps.
+Para excluir uma conexão miniOrange estabelecida, siga estas etapas.
 
 ## Adobe Connect {#connect}
 
@@ -1896,17 +1896,17 @@ Você pode criar uma sessão de sala de aula virtual usando uma sala já criada 
 O Learning Manager também permite que os alunos entrem na sala do Connect para suas sessões virtuais usando um método de autenticação.
 
 ![](assets/adobe-connect-authentication.png)
-*Adobe Connect authentication*
+*Autenticação do Adobe Connect*
 
 Ao criar um módulo de sala de aula virtual usando o Adobe Connect, você pode selecionar uma sala permanente. Se a opção **Não** for selecionada, será criada uma sala de reuniões dinâmica como antes.
 
 ![](assets/persistent-room-selection.png)
-*Persistent room selection*
+*Seleção de sala persistente*
 
 Quando um aluno faz um curso pelo Adobe Connect e termina, depois de algum tempo, a gravação da sessão junto com a senha é exibida no aplicativo do aluno.
 
 ![](assets/connect-recording.png)
-*Connect recording*
+*Conectar gravação*
 
 ### Importar pontuações do questionário do Adobe Connect {#quiz-adobe-connect}
 
@@ -1921,13 +1921,13 @@ Aqui está um breve fluxo de trabalho do processo.
 * O host no Connect cria um curso e carrega conteúdo que contém um questionário interativo.
 * O host cria um treinamento de **sala de aula virtual** e salva-o. O host tem a opção de vincular o curso criado acima ao VC ou pode usar a opção **Compartilhar curso** no aplicativo Connect durante a sessão para compartilhar o curso.
 
-**Learning Manager - Author**
+**Learning Manager - Autor**
 
-* The Author creates a course in Learning Manager with the module type as **Virtual Classroom.**
+* O autor cria um curso no Learning Manager com o tipo de módulo como **Sala de aula virtual.**
 * Na lista suspensa **Sistema de Conferência**, escolha Conectar como provedor VC.
 * Escolha o curso Reunião persistente e selecione a sala de aula VC criada pelo host no Connect. Escolha o professor. Salve e publique o curso.
 
-**Learning Manager - Learner**
+**Learning Manager - Aluno**
 
 * Depois que o curso é publicado, o aluno se inscreve no curso.
 * O aluno é redirecionado para a sessão VC do Connect, na qual ele/ela tem acesso à sessão VC pelo host do Connect.
@@ -1940,11 +1940,11 @@ Aqui está um breve fluxo de trabalho do processo.
 
 * O aluno faz o questionário e fecha a sessão após a sua conclusão.
 
-**Learning Manager - Learner**
+**Learning Manager - Aluno**
 
 * O aluno fecha a sessão e ela é sincronizada automaticamente.
 
-**Learning Manager - Admin**
+**Learning Manager - Administrador**
 
 * Depois que a sessão expirar, o fluxo de trabalho de importação do questionário será acionado após a duração programada.
 * Aguarde até que a programação seja acionada e o processamento seja concluído. Para verificar o status do processamento no lado do administrador de integração, você pode ver o **status de execução** no conector do Adobe Connect para observar o progresso. Sendo a execução bem-sucedida, o status será alterado para **Concluído**.
@@ -1954,18 +1954,18 @@ Aqui está um breve fluxo de trabalho do processo.
    * **Participação e pontuação** - Exibe a pontuação final do questionário e o status da participação.
    * **Pontuação do questionário L2**
 
-      * **By User** - Displays the final quiz score displayed as **Points** and **Percentage**.
+      * **Por usuário** - Exibe a pontuação final do quiz exibida como **Pontos** e **Porcentagem**.
       * **Por pergunta** - Exibe as informações do questionário como um gráfico de relatório.
 
 ## Conector do Marketo Engage {#marketo}
 
-Learning Manager integrates with Marketo Engage, a marketing automation software that helps run marketing campaigns.
+O Learning Manager integra-se ao Marketo Engage, um software de automação de marketing que ajuda a executar campanhas de marketing.
 
 O conector do Marketo Engage foi projetado para adicionar (ou atualizar) leads no banco de dados do Marketo Engage quando um novo usuário é adicionado à conta do Learning Manager. Ele também associa os comportamentos de aprendizado do usuário no Learning Manager (inscrição no curso, conclusão do curso, atribuição de habilidades e realização de habilidades) como objetos personalizados com os leads correspondentes no Marketo Engage. Isso permite que um comerciante use essas informações para segmentar os públicos com base em seus comportamentos de aprendizado capturados do Learning Manager e use recursos do Marketo Engage como &quot;listas inteligentes&quot;.
 
 Como administrador de integração, você pode integrar o Learning Manager a uma instância do Marketo Engage para automatizar a sincronização de dados. Você pode exportar usuários internos e exportar inscrições de treinamento e eventos de conclusão de habilidades. As operações podem ser executadas de acordo com um cronograma e podem ser configuradas sob demanda.
 
-For Learning Manager to integrate with your Marketo account, your Marketo account needs to have the ability to create schemas by APIs.
+Para que o Learning Manager se integre com a sua conta da Marketo, a sua conta da Marketo precisa ter a capacidade de criar esquemas por APIs.
 
 No aplicativo Marketo, você pode baixar estes três relatórios:
 
@@ -1982,15 +1982,15 @@ Ao criar uma conexão do Marketo Engage, você deve fornecer os seguintes detalh
 
 ![](assets/marketo-creds.png)
 
-*Enter credentials for Marketo*
+*Insira as credenciais para o Marketo*
 
 >[!NOTE]
 >
->Você pode obter a ID do cliente e o segredo do aplicativo Marketo Engage. On the Marketo app, you can get the Client id and secret from the **LaunchPoint** section, and the Marketo Domain from the **WebServices** section.
+>Você pode obter a ID do cliente e o segredo do aplicativo Marketo Engage. No aplicativo da Marketo, você pode obter a ID do cliente e o segredo da seção **LaunchPoint** e o Domínio do Marketo da seção **WebServices**.
 
 Na seção **Relatórios unificados** da conexão do Marketo Engage no aplicativo Learning Manager, você pode criar campanhas com base no seguinte:
 
-* A new user is added to Learning Manager
+* Um novo usuário foi adicionado ao Learning Manager
 * Um novo usuário foi inscrito em um curso
 * Um novo usuário concluiu um curso
 * Um aluno foi inscrito em uma habilidade
@@ -2258,7 +2258,7 @@ Depois que um autor tiver definido os preços em vários cursos, caminhos de apr
 
 >[!NOTE]
 >
->Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=pt-BR).
+>Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Clique em **[!UICONTROL Exportar metadados de treinamento]** > **[!UICONTROL Sob demanda]**.

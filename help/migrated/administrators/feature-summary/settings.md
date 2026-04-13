@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Configurações
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
+source-git-commit: 2265b277aa58ab9273de704e9f79ed28fdcd64a4
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 63%
+source-wordcount: '3974'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 Saiba mais sobre as configurações da conta do Learning Manager que você pode configurar como administrador.
 
-Você pode alterar as configurações do seu perfil de administrador e atualizar as configurações da conta. Exiba as informações do seu perfil, adicione/altere a foto do perfil e modifique o conteúdo de **[!UICONTROL Sobre mim]**. Atualize as informações da empresa, defina os métodos de logon dos usuários e configure a integração da conexão nas configurações da conta.
+Você pode alterar as configurações do seu perfil de administrador e atualizar as configurações da conta. Veja as informações do seu perfil, adicione ou altere a foto do perfil e modifique o conteúdo de **[!UICONTROL Sobre mim]**. Atualize as informações da empresa, defina os métodos de logon dos usuários e configure a integração da conexão nas configurações da conta.
 
 ![](assets/settings-admin.png)
 
@@ -38,9 +38,9 @@ Clique em **[!UICONTROL Alterar]** na página e edite o país, o fuso horário, 
 
 **Configurar administrador de contato**
 
-Se deseja adicionar ou alterar os endereços de e-mail dos administradores de suporte da empresa, você pode configurar clicando em **[!UICONTROL Geral]** no painel esquerdo. Clique em **[!UICONTROL Alterar]** ao lado de **[!UICONTROL ID de Email de Suporte]** e adicione as IDs de email. Um email é enviado a esses administradores quando o aluno clica em **[!UICONTROL Entrar em contato com o administrador]** no rodapé da página.
+Se deseja adicionar ou alterar os endereços de e-mail dos administradores de suporte da empresa, você pode configurar clicando em **[!UICONTROL Geral]** no painel esquerdo. Clique em **[!UICONTROL Alterar]** ao lado de **[!UICONTROL ID do e-mail de suporte]** e adicione as IDs de e-mail. O e-mail será enviado a esses administradores quando o aluno clicar em **[!UICONTROL Entrar em contato com o administrador]** no rodapé da página.
 
-Adicione mais IDs de e-mail com ponto-e-vírgula como separador.
+Adicione IDs de e-mail extras separando-as com ponto-e-vírgula.
 
 **Métodos de logon** - Os administradores podem escolher o modo através do qual os usuários internos ou externos podem acessar a conta.
 
@@ -71,11 +71,11 @@ Se você ativar a caixa de seleção “Várias tentativas”, os autores poder�
 
 **Moderação do curso**
 
-Clique em **[!UICONTROL Geral]** no painel esquerdo e selecione a opção Moderação do curso para ativar a funcionalidade Moderação do curso. Para saber mais sobre este recurso, consulte [Moderação do curso](courses.md#main-pars_header_1879001177).
+Clique em **[!UICONTROL Geral]** no painel esquerdo e selecione a opção Moderação do curso para ativar o recurso de moderação do curso. Para saber mais sobre este recurso, consulte [Moderação do curso](courses.md#main-pars_header_1879001177).
 
 **Quadro de discussão**
 
-Se ativar a caixa de seleção Quadro de discussão, os alunos e professores podem publicar comentários dos cursos usando a guia Discussão na página Cursos do aplicativo dos alunos. No entanto, se as configurações no nível do curso indicarem que este recurso não está selecionado, as configurações no nível do curso prevalecem sobre as configurações do administrador.
+Se habilitar a caixa de seleção Quadro de discussão, os alunos e professores podem publicar comentários dos cursos usando a guia Discussão na página Cursos do aplicativo dos alunos. No entanto, se as configurações no nível do curso indicarem que este recurso não está selecionado, as configurações no nível do curso prevalecem sobre as configurações do administrador.
 
 **Painel do aluno**
 
@@ -83,7 +83,7 @@ No painel esquerdo, clique em Painel do aluno. Esta página permite que você se
 
 **Adobe Connect**
 
-Clique em **[!UICONTROL Adobe Connect]** no painel esquerdo para configurar a conta do Adobe Connect para hospedar sessões de sala de aula virtual. Para obter mais informações, consulte a ajuda do recurso [Adobe Connect](adobeconnect-integration.md).
+Clique em **[!UICONTROL Adobe Connect]** no painel esquerdo para configurar a conta do Adobe Connect para hospedar as sessões de sala de aula virtual. Para obter mais informações, consulte a ajuda do recurso [Adobe Connect](adobeconnect-integration.md).
 
 ## Configurações gerais {#general}
 
@@ -101,7 +101,7 @@ Habilite ou desabilite as configurações a seguir:
   </tr>
   <tr>
    <td>Mostrar eficácia do curso</td>
-   <td>Se ativado, os alunos podem ver a eficácia do curso atual no quadro Curso. Este recurso está disponível apenas para cursos. A classificação por estrelas não é suportada em Programas de aprendizado ou Certificados. Está disponível para cursos e programas de aprendizado, mas não para certificações.</td>
+   <td>Se habilitada, os Alunos podem ver a Eficácia do curso atual no quadro do Curso. Este recurso está disponível apenas para cursos. A classificação por estrelas não é compatível com Programas de aprendizado ou Certificados. Está disponível para cursos e programas de aprendizado, mas não para certificações.</td>
   </tr>
   <tr>
    <td>Moderação do curso</td>
@@ -121,8 +121,13 @@ Habilite ou desabilite as configurações a seguir:
   </tr>
   <tr>
    <td>Visibilidade de habilidades ou tags</td>
-   <td>Exibir todas as habilidades e tags para os alunos. Exiba todas as habilidades e rótulos, apenas as atribuídas ou aquelas que fazem parte dos Catálogos visíveis ao Aluno.</td>
-  </tr>
+   <td>Exibir todas as habilidades e tags para os alunos. Exiba todas as habilidades e rótulos, apenas as atribuídas ou aquelas que fazem parte dos Catálogos visíveis ao Aluno.
+   <p><b>Important-Learner Assistant e visibilidade do catálogo</b></p>
+   <p>Se a conta usar o Assistente do aluno, lembre-se de que os catálogos selecionados como fontes de conteúdo para o Assistente não estão no escopo da visibilidade do catálogo por aluno. O assistente pode usar o conteúdo dos catálogos configurados mesmo quando alguns treinamentos não estiverem visíveis para um determinado aluno na exibição Catálogo.</p>
+   <p>A Adobe recomenda selecionar apenas catálogos que contenham conteúdo que você se sinta confortável expor (resumido ou explicado) a todos os alunos que possam acessar o Assistente do aluno. </p>
+   </td>
+
+</tr>
   <tr>
    <td>IDs exclusivas do objeto de aprendizado</td>
    <td>Se habilitada, um Administrador ou um Autor pode adicionar uma ID exclusiva para cada Objeto de aprendizado.</td>
@@ -164,8 +169,13 @@ Habilite ou desabilite as configurações a seguir:
    <td>Se habilitada, os usuários internos serão excluídos automaticamente se não acessarem o sistema por um determinado número de dias. Esse recurso é aplicável a usuários com a função <b>Aluno</b>. Para restaurar o acesso, os usuários devem entrar em contato com o Administrador.<br></td>
   </tr>
   <tr>
+   <td height="20">Excluir automaticamente usuários removidos</td>
+   <td>Se habilitada, os usuários internos serão excluídos automaticamente se não acessarem o sistema por um determinado número de dias. Esse recurso é aplicável a usuários com a função Aluno. Para restaurar o acesso, os usuários devem entrar em contato com o Administrador. Depois de ativar a opção, você pode especificar o tempo em anos após o qual os usuários removidos serão excluídos permanentemente do ALM.</td>
+  </tr>
+  <tr>
+  <tr>
    <td>Mostrar rótulos de catálogo</td>
-   <td>Se ativadas, administradores e autores podem definir rótulos de catálogo e seus valores, e vinculá-los a objetos de aprendizado. Selecionar essa opção também permite que os autores adicionem cursos, caminhos de aprendizado, certificações ou ajudas de tarefa aos catálogos.</td>
+   <td>Se habilitada, Administradores e Autores podem definir rótulos de catálogo e seus valores, e vinculá-los a Objetos de aprendizado. Selecionar essa opção também permite que os autores adicionem cursos, caminhos de aprendizado, certificações ou ajudas de tarefa aos catálogos.</td>
   </tr>
   <tr>
    <td>Alunos podem visualizar suas pontuações</td>
@@ -184,7 +194,7 @@ Habilite ou desabilite as configurações a seguir:
      <li>A opção <b>E-mail de resumo</b> será desativada.</li>
      <li>Um aluno não pode ver a configuração do usuário para a assinatura de e-mail de resumo.</li>
     </ul>
-    <p> Se o recurso estiver ativado:</p>
+    <p> Se o recurso estiver habilitado, então:</p>
     <ul>
      <li>O administrador pode ativar e modificar a opção E-mail de resumo.</li>
      <li>Em <b>Configuraçõe do perfil </b>no aplicativo do aluno, um aluno (não na lista DND) pode optar por assinar/cancelar a assinatura do e-mail de resumo.</li>
@@ -206,7 +216,7 @@ Habilite ou desabilite as configurações a seguir:
     </ol>
     <p>Além disso, você pode:</p>
     <ul>
-     <li>Clique no ícone <b>Redefinir</b> para redefinir os valores padrão nos campos <b>Ajuda</b> e <b>Contatar administrador</b>.</li>
+     <li>Clique no ícone <b>Redefinir</b> para restaurar os valores padrão nos campos <b>Ajuda</b> e <b>Contatar administrador</b>.</li>
      <li>Personalize o link no rodapé em todos os idiomas. Clique na lista suspensa <b>Idioma</b>, selecione o idioma e adicione o <b>Nome</b> e o <b>URL</b> nos campos especificados. Depois de salvar as alterações, os links atualizados aparecerão no rodapé.<br></li>
     </ul></td>
   </tr>
@@ -291,8 +301,13 @@ Habilite ou desabilite as configurações a seguir:
   </tr>
   <tr>
    <td height="20">Mostrar lista de catálogos</td>
-   <td>Se habilitada, os Alunos podem ver uma lista de todos os Catálogos disponíveis para eles. Alunos podem usar isso para ajustar os Objetos de aprendizado exibidos.</td>
-  </tr>
+   <td>Se habilitada, os Alunos podem ver uma lista de todos os Catálogos disponíveis para eles. Alunos podem usar isso para ajustar os Objetos de aprendizado exibidos.
+   <p><b>Important-Learner Assistant e visibilidade do catálogo</b></p>
+   <p>Se a conta usar o Assistente do aluno, lembre-se de que os catálogos selecionados como fontes de conteúdo para o Assistente não estão no escopo da visibilidade do catálogo por aluno. O assistente pode usar o conteúdo dos catálogos configurados mesmo quando alguns treinamentos não estiverem visíveis para um determinado aluno na exibição Catálogo.</p>
+   <p>A Adobe recomenda selecionar apenas catálogos que contenham conteúdo que você se sinta confortável expor (resumido ou explicado) a todos os alunos que possam acessar o Assistente do aluno. </p>
+   </td>
+
+</tr>
   <tr>
    <td height="20">Terminologia do produto</td>
    <td>O Learning Manager tem uma terminologia padrão usada em todo o produto. Modifique a terminologia para atender às necessidades da sua organização.</td>
@@ -305,11 +320,6 @@ Habilite ou desabilite as configurações a seguir:
    <td height="20">Registrar usuários automaticamente</td>
    <td>Se habilitada, usuários recém-importados serão registrados automaticamente. Por padrão, os usuários devem ser inscritos manualmente para começar a usar o Learning Manager.</td>
   </tr>
-  <tr>
-   <td height="20">Excluir usuários internos automaticamente</td>
-   <td>Se habilitada, os usuários internos serão excluídos automaticamente se não acessarem o sistema por um determinado número de dias. Esse recurso é aplicável a usuários com a função Aluno. Para restaurar o acesso, os usuários devem entrar em contato com o Administrador.</td>
-  </tr>
-  <tr>
    <td height="20">Mostrar rótulos de catálogo</td>
    <td>Se habilitada, Administradores e Autores podem definir rótulos de catálogo e seus valores, e vinculá-los a Objetos de aprendizado.</td>
   </tr>
@@ -322,28 +332,28 @@ Habilite ou desabilite as configurações a seguir:
    <td>Um administrador pode habilitar ou desabilitar o envio de um e-mail aos alunos. O administrador também poderá controlar a frequência dos e-mails enviados.</td>
   </tr>
   <tr>
-   <td height="19">Para contas ativas, os e-mails de resumo serão desativados por padrão e administrador pode ativá-los manualmente.</td>
+   <td height="19">Para contas ativas, os e-mails de resumo serão desabilitados por padrão e administrador pode habilitá-los manualmente.</td>
   </tr>
   <tr>
-   <td height="19">Para contas de avaliação, a opção para e-mails de resumo permanecerá desativada e o administrador não poderá ativar a opção.</td>
+   <td height="19">Para contas de avaliação, a opção para e-mails de resumo permanecerá desabilitada e o administrador não poderá habilitar a opção.</td>
   </tr>
   <tr>
    <td height="19">Se o recurso estiver desabilitado, então:</td>
   </tr>
   <tr>
-   <td height="19">A opção E-mail de resumo será desativada.</td>
+   <td height="19">A opção E-mail de resumo será desabilitada.</td>
   </tr>
   <tr>
    <td height="19">Um aluno não pode ver a configuração do usuário para a assinatura de e-mail de resumo.</td>
   </tr>
   <tr>
-   <td height="19"> Se o recurso estiver ativado:</td>
+   <td height="19"> Se o recurso estiver habilitado, então:</td>
   </tr>
   <tr>
    <td height="19">O administrador pode habilitar e modificar a opção E-mail de resumo.</td>
   </tr>
   <tr>
-   <td height="20">Nas Configurações do perfil no aplicativo do aluno, um aluno (não na lista DND) pode optar por assinar/cancelar a assinatura do e-mail de resumo.</td>
+   <td height="20">Em Configurações do perfil no aplicativo do aluno, um aluno (não na lista DND) pode optar por assinar ou cancelar a assinatura do e-mail de resumo.</td>
   </tr>
   <tr>
    <td height="20">Habilitar ícones do Cartão de treinamento</td>
@@ -369,7 +379,7 @@ Habilite ou desabilite as configurações a seguir:
    <td height="19">Além disso, você pode:</td>
   </tr>
   <tr>
-   <td height="19">Clique no ícone Redefinir para redefinir os valores padrão nos campos Ajuda e Contatar administrador.</td>
+   <td height="19">Clique no ícone Redefinir para restaurar os valores padrão nos campos Ajuda e Contatar administrador.</td>
   </tr>
   <tr>
    <td height="20">Personalize o link no rodapé em todos os idiomas. Clique na lista suspensa Idioma, selecione o idioma e adicione o Nome e o URL nos campos especificados. Depois de salvar as alterações, os links atualizados aparecerão no rodapé.</td>
@@ -400,12 +410,12 @@ Habilite ou desabilite as configurações a seguir:
    <td>
     <ul>
      <li>Se a opção <b>Eficácia do curso</b> estiver habilitada, os alunos poderão ver apenas o valor da eficácia do curso.</li>
-     <li>Se a opção <b>Classificação por estrelas</b> estiver ativada, os alunos poderão ver apenas a classificação por estrelas média e o número de alunos que classificaram o curso.<br></li>
+     <li>Se a opção <b>Classificação por estrelas</b> estiver habilitada, os alunos poderão ver apenas a classificação por estrelas média e o número de alunos que classificaram o curso.<br></li>
     </ul>
-    <p>Este recurso está disponível apenas para cursos. A classificação por estrelas não é compatível com Programas de aprendizado ou Certificados.<br><br><b>Observação: </b>esta alteração afeta apenas o aplicativo do aluno. </p>
+    <p>Este recurso está disponível apenas para cursos. A classificação por estrelas não tem suporte em Programas de Aprendizado ou Certificados.<br><br><b>Observação: </b>essa alteração afeta apenas o aplicativo do aluno. </p>
     <p>Em todos os outros aplicativos (administrador, autor, gerente, administrador personalizado, autor personalizado), as alterações nas configurações (classificação por estrelas ou eficácia do curso ou desabilitação da exibição da classificação) não terão nenhum efeito. </p>
     <p>Para novas contas, a seção <b>Mostrar classificações</b> terá a opção <b>Classificação por estrelas</b> habilitada por padrão.</p>
-    <p>Para contas existentes, se a conta tinha a opção <b>Eficácia do curso</b> ativada anteriormente, a seção <b>Mostrar classificações</b> será ativada com a opção Eficácia do curso selecionada. Se a opção <b>Eficácia do curso</b>s estiver desabilitada, a seção <b>Mostrar Classificações</b> também será desabilitada. Quando a seção <b>Mostrar classificações</b> estiver habilitada, a opção <b>Classificação por estrelas</b> será habilitada por padrão.</p></td>
+    <p>Para contas existentes, se a conta tinha a opção <b>Eficácia do curso</b> habilitada anteriormente, a seção <b>Mostrar classificações</b> será habilitada com a opção Eficácia do curso selecionada. Se a opção <b>Eficácia do curso</b> estiver desabilitada, a seção <b>Mostrar classificações</b> também será desabilitada. Quando a seção <b>Mostrar classificações</b> estiver habilitada, a opção <b>Classificação por estrelas</b> será habilitada por padrão.</p></td>
   </tr>
   <tr>
    <td height="19">Retirar</td>
@@ -439,6 +449,15 @@ Habilite ou desabilite as configurações a seguir:
     <td>
       <p>Se ativado, você pode escolher uma origem externa para importar Habilidades. As habilidades dos recursos de aprendizado existentes serão importadas para o repositório de habilidades uma vez durante a execução inicial. Para todas as importações subsequentes de recursos de aprendizado, as habilidades serão importadas para o repositório de habilidades apenas para itens recém-importados.
       Quando a opção é ativada, a ação é irreversível. Você não pode desativar ou mudar para outra fonte mais tarde.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>Cursos/caminhos alternativos</p>
+    </td>
+    <td>
+      <p>Quando os alunos concluem um curso/caminho, outro conjunto especificado de cursos/caminhos pode ser marcado como concluído por meio de alternativo. Os alunos não serão inscritos automaticamente nos cursos/caminhos marcados como concluídos por meio de alternativos e receberão apenas créditos, medalhas e pontos para o curso/caminho que efetivamente concluíram. As opções disponíveis são: Conclusões retroativas ativadas e Conclusões retroativas ativadas.
       </p>
     </td>
   </tr>
@@ -481,14 +500,14 @@ Atividade
 
 ## Configurações do perfil {#profilesettings}
 
-1. Clique na seta suspensa no canto superior direito, próximo à sua foto/conta, e escolha **[!UICONTROL Configurações do perfil]**.
-1. Na caixa de diálogo suspensa, você pode adicionar/alterar uma foto passando o mouse sobre a área da foto do perfil e clicando em **[!UICONTROL Editar]**.
-1. Adicione/modifique o conteúdo de **[!UICONTROL Sobre]** clicando em **[!UICONTROL Editar]** ao lado dele.
+1. Clique na seta suspensa no canto superior direito, ao lado da foto ou conta e escolha **[!UICONTROL Configurações do perfil]**.
+1. Na caixa de diálogo suspensa, você pode adicionar ou alterar uma foto passando o mouse sobre a área da foto do perfil e clicando em **[!UICONTROL Editar]**.
+1. Adicione ou modifique o conteúdo de **[!UICONTROL Sobre]** clicando em **[!UICONTROL Editar]** ao lado dele.
 1. Clique em **[!UICONTROL Salvar].**
 
 ## Pasta de conteúdo {#content-folder}
 
-O Learning Manager oferece suporte a pastas de conteúdo privado. Um administrador pode configurar pastas de conteúdo privadas e fornecer seu acesso a autores personalizados específicos usando Funções personalizadas. Observe que os autores padrão (também chamados de autores completos) continuam a ter acesso a todo o conteúdo da conta. Portanto, os autores completos têm acesso a todas as pastas e conteúdo.
+O Learning Manager é compatível com pastas de conteúdo privado. Um administrador pode configurar pastas de conteúdo privadas e fornecer acesso a autores personalizados específicos usando funções personalizadas. Observe que os autores padrão (também chamados de autores completos) continuam a ter acesso a todo o conteúdo da conta. Portanto, os autores completos têm acesso a todas as pastas e conteúdo.
 
 As pastas de conteúdo podem ser configuradas pelos administradores. Uma vez configuradas, as pastas de conteúdo ficam visíveis para os autores, que já poderão colocar o conteúdo em uma ou várias pastas.
 
@@ -531,11 +550,11 @@ Para adicionar uma pasta, clique em **[!UICONTROL Adicionar]** no canto superior
 
 **Excluir uma pasta**
 
-Você também pode excluir uma pasta. Selecione a pasta a ser excluída, clique no menu Ações e clique em **[!UICONTROL Excluir Pasta]**.
+Você também pode excluir uma pasta. Selecione a pasta a ser excluída, clique no menu Ações e depois em **[!UICONTROL Excluir pasta]**.
 
 >[!NOTE]
 >
->As pastas podem ser excluídas quando todo o seu conteúdo associado também estiver associado a outras pastas. Se houver conteúdo vinculado somente à pasta que está sendo excluída, primeiro mova o conteúdo para outra pasta e, em seguida, exclua a pasta.
+>As pastas podem ser excluídas quando todo o seu conteúdo associado também estiver associado a outras pastas. Se houver conteúdo vinculado apenas à pasta que está sendo excluída, primeiro mova o conteúdo para outra pasta e, em seguida, exclua a pasta.
 
 ## Locais de sala de aula
 
@@ -563,7 +582,7 @@ Adicione o seguinte:
 
 Você também pode adicionar o local com a ajuda de um CSV. O CSV deve conter os campos:
 
-* name
+* nome
 * informações
 * url
 * limite de vagas
@@ -592,5 +611,5 @@ Para obter mais informações, consulte a seção em [Pasta de conteúdo](settin
 
 +++Como adicionar exercício financeiro para a conta?
 
-Em **[!UICONTROL Configurações]** > **[!UICONTROL Informações Básicas]**, clique em **[!UICONTROL Alterar]**. Na lista suspensa **[!UICONTROL O exercício financeiro começa em]**, selecione o mês.
+Em **[!UICONTROL Configurações]** > **[!UICONTROL Informações Básicas]**, clique em **[!UICONTROL Alterar]**. Na lista suspensa **[!UICONTROL O exercício financeiro começa de]**, selecione o mês.
 +++

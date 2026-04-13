@@ -3,10 +3,10 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4664'
-ht-degree: 44%
+source-wordcount: '5368'
+ht-degree: 38%
 
 ---
 
@@ -43,9 +43,21 @@ A tabela abaixo mostra os tipos de arquivos interativos e estáticos que você p
      <li>SCORM 1.2</li>
      <li>SCORM 2004</li>
      <li>AICC</li>
-     <li>TinCan</li>
+     <li>xAPI</li>
     </ul>
-    <p></p></td>
+    <p><b>Importante: Assistente do aluno e avaliações baseadas em SCORM</b></p>
+    <p>Se a sua conta estiver com o Assistente do aluno ativado e você carregar pacotes SCORM/xAPI em catálogos configurados como fontes de conteúdo do Assistente do aluno, esteja ciente do seguinte:</p>
+    <ul>
+      <li>Os alunos podem usar o Assistente do aluno para fazer perguntas sobre o conteúdo dentro desses pacotes.</li>
+      <li>O assistente pode gerar explicações ou resumos que efetivamente revelem respostas às perguntas do quiz incorporadas ao curso SCORM (por exemplo, reafirmando o feedback ou explicando a opção “correta”).</li>
+   </ul>
+   <p>Para avaliações controladas ou de alto risco (como exames de conformidade ou certificação), a Adobe recomenda:</p>
+   <ul>
+      <li>Manter conteúdo SCORM com avaliação pesada em catálogos que não estão configurados como origens do Assistente do aluno ou</li>
+      <li>Criar avaliações para que a simples reformulação do material de aprendizado não exiba trivialmente as respostas corretas.</li>
+   </ul>
+   <p>Esse comportamento é esperado: o Adobe Learning Manager não impede que o Assistente de aluno explique o conteúdo que reside nos catálogos selecionados explicitamente como origens de IA.</p>
+    </td>
    <td>
     <p>zip</p></td>
   </tr>
@@ -250,6 +262,77 @@ Se uma conta de vendedor compartilha um catálogo que contém os cursos, e os cu
 A propagação do módulo deve funcionar corretamente da conta do vendedor para a conta do comprador. Isso pode incluir - editar/excluir/adicionar o arquivo vtt no módulo.
 
 Depois de carregar o conteúdo, você verá uma notificação clicando no ícone de sino no canto superior direito da página. Sempre que modificar um conteúdo e reenviá-lo, você receberá uma notificação. Se as alterações foram feitas por você, somente você receberá a notificação, outros autores não.
+
+### Suporte a VTT multilíngue
+
+O suporte a Faixas de texto de vídeo (VTT) multilíngues no Adobe Learning Manager permite que os autores forneçam legendas para conteúdo de áudio e vídeo em vários idiomas. Esse recurso simplifica a localização, tornando o treinamento acessível a um público global e garantindo a conformidade com os padrões de acessibilidade. Os autores podem gerar, traduzir, revisar e editar automaticamente arquivos VTT diretamente na plataforma.
+
+#### Casos de uso
+
+* Treinamento global: forneça conteúdo em vídeo com legendas em vários idiomas para alcançar os alunos internacionais.
+* Conformidade de acessibilidade: forneça legendas para usuários portadores de deficiência auditiva em seu idioma de preferência.
+* Localização mais rápida: reduza o esforço manual e acelere a implantação de conteúdo com a geração e tradução automáticas de arquivos VTT.
+* Experiência consistente: garanta que todos os alunos recebam as mesmas informações, independentemente do idioma.
+
+#### Principais recursos
+
+* Geração automática de VTT: faça upload de um arquivo de vídeo ou áudio e gere automaticamente legendas VTT no idioma original.
+* Tradução em vários idiomas: traduza legendas para qualquer um dos 39 idiomas não ingleses compatíveis.
+* Revisão e edição no aplicativo: revise, edite e baixe arquivos VTT antes de publicar.
+* Notificações: receba notificações no aplicativo quando a geração e a tradução do VTT estiverem concluídas.
+* Publicação tranquila: as legendas finalizadas do Publish para os alunos acessarem em seu idioma escolhido.
+
+#### Fazer upload de conteúdo e gerar VTT
+
+1. Vá para a Biblioteca de Conteúdo e selecione [!UICONTROL Adicionar Conteúdo].
+2. Carregue o arquivo MP3 ou MP4.
+3. Na caixa de diálogo de carregamento, selecione a opção para **Gerar Conversão**.
+4. Selecione o idioma do conteúdo original (o padrão é o idioma do arquivo).
+5. Selecione idiomas de destino adicionais para tradução (até 39 compatíveis).
+6. Selecione [!UICONTROL Salvar]. O sistema começa a gerar e traduzir arquivos VTT.
+
+#### Monitorar progresso
+
+1. Após salvar, a nova entrada de conteúdo aparece na Biblioteca de conteúdo.
+2. Um indicador de progresso mostra o status da geração e tradução de VTT.
+3. Você receberá uma notificação no aplicativo quando o processo for concluído.
+
+#### Revisar e editar arquivos VTT
+
+1. Na Biblioteca de Conteúdo, abra o conteúdo no modo **Editar**.
+2. Para cada idioma, selecione o link Revisão ao lado do arquivo VTT.
+3. Uma janela pop-up exibe as legendas para esse idioma.
+4. Edite as legendas diretamente no pop-up ou baixe o arquivo VTT para edição offline.
+5. Após fazer alterações, faça upload ou cole as legendas revisadas de volta no pop-up.
+6. Salve suas edições.
+
+#### Legendas do Publish
+
+1. Quando estiver satisfeito com todas as legendas de idioma, publique o conteúdo.
+2. Os alunos veem as opções de legenda em todos os idiomas publicados ao visualizar o vídeo.
+
+#### Informações adicionais
+
+* Idiomas com suporte: todos os 39 idiomas diferentes do inglês com suporte do Adobe Learning Manager.
+* Notificações: os autores são notificados quando a geração e a tradução do VTT são concluídas.
+* Flexibilidade de edição: as legendas podem ser editadas no aplicativo ou offline e recarregadas.
+* Escalabilidade: projetada para necessidades de acessibilidade e localização em escala empresarial.
+* Sem necessidade de upload manual de VTT: o sistema pode gerar arquivos VTT do zero usando o vídeo/áudio carregado.
+
+#### Práticas recomendadas
+
+* Sempre verifique a precisão das legendas geradas automaticamente antes de publicá-las.
+* Forneça traduções para todos os principais grupos de alunos para maximizar a acessibilidade.
+* Use o sistema de notificação para se manter atualizado sobre o status do processamento.
+* Atualizar legendas regularmente se o conteúdo de vídeo mudar.
+
+#### Solução de problemas
+
+* Se a geração de VTT falhar, verifique se o arquivo está em um formato compatível (MP3/MP4).
+* Para idiomas ausentes, verifique se eles são compatíveis e selecionados durante o upload.
+* Se as legendas estiverem fora de sincronia, use o editor do aplicativo para ajustar o tempo.
+* O suporte a VTT multilíngue permite que você ofereça experiências de aprendizado de vídeo acessíveis e localizadas de maneira eficiente. Ao usar geração automática, tradução e edição no aplicativo, você pode garantir que seu conteúdo alcance e ofereça suporte a todos os alunos, independentemente do idioma.
+
 
 ## Crie um questionário {#createaquiz}
 

@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Ajudas de tarefa
-description: Ajudas de tarefa é um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
+description: As ajudas de tarefa correspondem a um repositório de conteúdo de treinamento acessível aos alunos sem nenhum tipo de inscrição nem critérios de conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 65%
+source-wordcount: '1084'
+ht-degree: 42%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 65%
 
 As ajudas de tarefa podem ser usadas de forma independente ou em conjunto com a realização do curso no Learning Manager.
 
-Os autores podem criar ajudas de tarefa para os alunos. Use as ajudas de tarefa para fornecer aos alunos material de referência, como dicas, listas de verificação e guias, que podem ser usados continuamente para concluir suas tarefas.
+Os autores podem criar ajudas de tarefa para os alunos. Use as ajudas de tarefa para fornecer aos alunos material de referência, como dicas, listas de verificação, guias que eles podem usar continuamente para concluir as tarefas.
 
 ## Criar ajuda de tarefa {#createjobaid}
 
@@ -65,6 +65,67 @@ Estes são os formatos de arquivo suportados para ajudas de tarefa.
 >
 >Arquivos zip e arquivos de imagem não são suportados.
 
+## Ajudas de tarefa em vários idiomas
+
+As ajudas de tarefa multilíngues no Adobe Learning Manager (ALM) permitem que autores e administradores forneçam documentos complementares, guias ou recursos em vários idiomas em uma única entrada de ajuda de tarefa. Os alunos em diferentes regiões podem acessar materiais relevantes em seu idioma de preferência, o que melhora a compreensão, a conformidade e a experiência do usuário.
+
+**Casos de uso**
+
+* Ativação global da força de trabalho: forneça manuais de segurança, guias de processos ou documentos de referência em vários idiomas para uma força de trabalho diversificada.
+* Conformidade normativa: garante que todos os funcionários recebam a mesma documentação de conformidade em seu idioma nativo.
+* Integração consistente: fornecer listas de verificação de integração ou perguntas frequentes nos idiomas locais para novas contratações em todo o mundo.
+* Redução da duplicação: gerencie todas as versões de idioma de uma ajuda de tarefa em uma única entrada, o que simplifica as atualizações e a emissão de relatórios.
+
+### Principais recursos
+
+* Suporte a vários idiomas: anexe um arquivo ou URL exclusivo para cada idioma suportado em uma única ajuda de tarefa.
+* Nome e descrição localizados: insira o nome e a descrição da ajuda de tarefa em cada idioma.
+* Gerenciamento unificado: edite, atualize e gere relatórios em todas as versões de idioma em um só lugar.
+* Compatibilidade com versões anteriores: as ajudas de tarefa de idioma único existentes são replicadas automaticamente em todos os idiomas adicionados até que novos arquivos sejam carregados.
+
+### Criar uma ajuda de tarefa multilíngue
+
+1. Acesse a função Autor e selecione Ajudas de tarefa.
+2. Selecione Criar ajuda de tarefa.
+3. Insira o nome e a descrição da ajuda de tarefa no idioma padrão.
+4. Adicione o arquivo de conteúdo primário ou URL para o idioma padrão.
+5. Salve a ajuda da tarefa.
+
+### Adicionar idiomas adicionais
+
+1. No editor de ajuda de tarefa, selecione Adicionar idioma.
+2. Selecione o(s) idioma(s) desejado(s) na lista.
+3. Para cada idioma adicionado:
+   * Insira o nome e a descrição localizados.
+   * Faça upload do arquivo de conteúdo correspondente ou forneça um URL específico de idioma.
+4. Repita o procedimento para todos os idiomas necessários.
+
+### Editar e gerenciar idiomas
+
+1. Para atualizar um arquivo ou uma descrição para um idioma específico, selecione a guia de idioma e faça as alterações necessárias.
+2. Se um idioma for adicionado após a publicação da ajuda de tarefa, o arquivo original será atribuído automaticamente ao novo idioma até que um arquivo exclusivo seja carregado.
+3. Remova ou substitua arquivos para qualquer idioma conforme necessário.
+
+### Publish e experiência do aluno
+
+1. Depois que todos os idiomas e arquivos forem adicionados, publique a ajuda de tarefa.
+2. Os alunos veem a ajuda de tarefa em seu idioma de conteúdo selecionado, com o arquivo ou URL apropriado.
+3. Se o idioma de um aluno não estiver disponível, o arquivo de idioma padrão será exibido.
+
+### Relatórios
+
+* Baixe relatórios de ajuda de tarefa para exibir detalhes de todos os arquivos e idiomas associados a cada ajuda de tarefa.
+* Os relatórios incluem idioma, nome de arquivo e dados de uso para controle.
+
+### Práticas recomendadas
+
+* Forneça traduções precisas para nomes, descrições e arquivos de conteúdo.
+* Revise e atualize arquivos regularmente para garantir a consistência entre os idiomas.
+* Use convenções de nomenclatura claras para distinguir os arquivos em diferentes idiomas.
+* Teste a experiência do aluno alternando os idiomas do conteúdo para verificar a entrega correta do arquivo.
+
+As ajudas de tarefa multilíngues permitem fornecer recursos de suporte a um público global em uma única entrada, reduzir a duplicação e garantir que cada aluno receba as informações certas em seu idioma preferido. Este recurso melhora a acessibilidade, a conformidade e a eficiência administrativa no Adobe Learning Manager.
+
 ## Retirar/republicar ajudas de tarefa {#withdrawrepublishjobaids}
 
 Você pode retirar a ajuda de tarefa publicada clicando no ícone de configurações ao lado da ajuda de tarefa e escolhendo Retirar.
@@ -73,7 +134,7 @@ Você pode retirar a ajuda de tarefa publicada clicando no ícone de configuraç
 
 *Edite, retire ou visualize uma ajuda de tarefa publicada*
 
-Visualize ajudas de tarefa retiradas clicando na guia Retirado. Você pode republicar as tarefas retiradas clicando no ícone de configurações e escolhendo Publish.
+Visualize ajudas de tarefa retiradas clicando na guia Retirado. Você pode republicar as tarefas retiradas clicando no ícone de configurações e escolhendo Publicar.
 
 ## Suporte para pacotes HTML em ajudas de tarefa
 
