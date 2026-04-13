@@ -458,7 +458,7 @@ Você deve tratar a coluna de ordem herdada como removida ou ignorada:
 - O mapeamento necessário do núcleo permanece:
    - ID do programa de aprendizado ↔ ID do curso (e quaisquer outras colunas ainda documentadas, como ID, learningProgramId, courseId e datas).
 
-Sempre consulte as [_especificações do CSV_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) mais recentes da sua conta do Learning Manager (via csv_specifications.zip) para confirmar o conjunto de cabeçalhos e os requisitos atuais.
+Sempre consulte as [_especificações do CSV_](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/migration-manual) mais recentes da sua conta do Learning Manager (via csv_specifications.zip) para confirmar o conjunto de cabeçalhos e os requisitos atuais.
 
 ## timeZoneCode em instâncias de curso
 
