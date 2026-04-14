@@ -2,13 +2,13 @@
 title: Criar e personalizar um certificado
 description: Os certificados personalizados no Adobe Learning Manager (ALM) permitem que administradores e autores projetem, gerenciem e emitam certificados personalizados para alunos.
 jcr-language: en-us
-source-git-commit: c012fdc19d3695add97661e290db19a90771748f
+exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
+source-git-commit: 13fbdb95129ba7612e8e42d3da88ef3c6784e729
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2628'
 ht-degree: 0%
 
 ---
-
 
 # Certificados personalizados no Adobe Learning Manager
 
@@ -25,7 +25,9 @@ Os administradores podem:
 
 O processo de certificação segue a medalha existente e o modelo de realização no Learning Manager, para que o comportamento do aluno se mantenha familiar, enquanto os administradores e as equipes de suporte gastam menos tempo nas operações de certificação.
 
-**Observação:** os recursos de certificado que usam IA generativa estão sujeitos à cota. O limite é de 10.000 solicitações por usuário.
+>[!NOTE]
+>
+>Os recursos de certificado que usam IA generativa estão sujeitos à cota. O limite é de 10.000 solicitações por cliente.
 
 ## Principais recursos da certificação personalizada
 
@@ -254,8 +256,8 @@ Para usar imagens do Firefly, sua instância do Adobe Learning Manager deve ser 
 8. No menu suspenso, selecione um idioma padrão.
 9. Selecione **Criar**. Se você tiver escolhido o modelo em branco, uma tela em branco será exibida abaixo do nome do certificado.
 10. Adicione elementos: **Texto**, **Imagem**, **Valor Dinâmico** e **Fundo do Certificado**.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Adicionar elementos ao certificado*
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Adicionar elementos ao certificado*
 
 11. Para **Texto**, adicione conteúdo em **Texto pré-formatado** ou **Modelos de texto** ou adicione texto personalizado. O texto é exibido na tela. Quando o texto é selecionado, as opções de formatação aparecem acima da tela. Para remover o conteúdo indesejado, selecione o ícone **Excluir** no canto superior direito da tela.
 12. Para adicionar imagens, selecione **Imagem** ao lado de **Adicionar elementos**. Faça upload de imagens do seu computador ou selecione imagens nas listas de categorias.
@@ -263,12 +265,12 @@ Para usar imagens do Firefly, sua instância do Adobe Learning Manager deve ser 
 14. Selecione **Fundo do Certificado** para aplicar cores ou imagens. Para criar imagens com Adobe Firefly, selecione **Gerar Imagem**.
 15. No campo de prompt, descreva o que deseja (até 100 caracteres) e selecione **Gerar**. Quatro opções de imagem são exibidas com base no seu prompt.
 16. Selecione a imagem desejada. É aplicado como fundo do certificado.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Adicionar imagem ao certificado*
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Adicionar imagem ao certificado*
 
 17. Selecione **Visualizar** para revisar o certificado antes de publicar. Isso ajuda a entender como o certificado se parece.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Visualizar o certificado*
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Visualizar o certificado*
 
 18. Na visualização, é possível salvar no Google Drive, baixar, imprimir ou usar outras opções, como propriedades de anotação ou do documento.
 19. Selecione **Salvar como Rascunho** para continuar mais tarde ou selecione **Publish** para publicar o certificado. Após a publicação, os alunos podem baixar o certificado quando cumprirem a etapa configurada.
@@ -330,7 +332,9 @@ Use **Clonar** quando desejar uma cópia de um certificado para um novo nome ou 
 
 A exclusão de um certificado não pode ser desfeita. Continue apenas se tiver certeza.
 
-**Observação:** não é possível excluir um certificado que esteja anexado a um objeto de aprendizado ou instância.
+>[!NOTE]
+>
+>Não é possível excluir um certificado anexado a um objeto de aprendizado ou instância.
 
 1. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
