@@ -1,1135 +1,1137 @@
 ---
-title: Novidades na versão de abril de 2026 do Adobe Learning Manager
-description: Saiba mais sobre os novos recursos, melhorias e atualizações importantes na versão de abril de 2026 do Adobe Learning Manager.
+title: O que está por vir no Adobe Learning Manager
+description: Explore as mudanças futuras no Adobe Learning Manager. Mantenha-se informado com as atualizações mais recentes e anúncios futuros.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 33f503b69b979bfa962387388b453492a44cac5d
+source-git-commit: 1a374d09b1866d50d8e4001e8fab0ad9b202c587
 workflow-type: tm+mt
-source-wordcount: '20354'
-ht-degree: 2%
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
 # Atualizações no Adobe Learning Manager
 
+A [versão de abril de 2026](/help/migrated/whats-new.md) foi lançada. No momento, não há alterações futuras adicionais. Esta página será atualizada quando novos comunicados estiverem disponíveis.
+
+<!-- >[!IMPORTANT]
+>
+>The features in this release are available in beta. Functionality and behavior may change before general availability. Share feedback through your usual Adobe support channels.
+
+
+This document summarizes the new features, improvements, and updates in the April 2026 release of Adobe Learning Manager. Use it to plan changes for your organization and understand what's available for learners, administrators, and authors.
+
+**For learners:** The Fluidic Player now shows the next module name and a clear Exit button. Player language can be set via LTI for a consistent experience across platforms. Captivate content includes a unified table of contents, slide-level completion ticks, and reliable notes exports. Multi-language support is available for Job Aids, checklist questions, and video text tracks (VTT). The AI Assistant helps learners get answers within the learning experience.
+
+**For administrators and authors:** The Zoom Connector supports multiple concurrent VILT sessions. Shared courses in peer accounts display the real author instead of "External Author." Admins can restrict when modules can be started. Learning Object expiry dates are exposed in Learner APIs. Checklist modules support weighted scoring, multilingual question text, and optional reviewer comments. Custom certificates offer a drag-and-drop editor with dynamic fields and AI-generated backgrounds. The non-logged-in Experience Builder lets you build public learning pages without requiring login.
+
+**For instructors:** Generate QR codes for instance enrollment and session attendance. Add comments or feedback during checklist evaluation.
+
+**Reporting and analytics:** SCORM content can now report multiple quiz attempts in L2 reporting. Learning time spent calculation is improved in Learner Transcripts. Learning Transcript reports for Administrators are updated. Advanced search enhancements are available.
+
+## Fluidic Player navigation: show the name of the next module 
+
+### Overview
+
+This enhancement was already included in the November 2025 release of Adobe Learning Manager. 
+
+The "Next" action in the player indicates what will happen when clicked by displaying the name of the next module or course and by explicitly signaling when the learner is about to exit the player. 
+
+### What's new
+
+**"Next Module: {ModuleName}" label in the player**
+
+The Next icon in the Fluidic Player now shows the name of the next module in the course. For example, Next Module: Lesson 2- Getting started. 
+
+This applies wherever the learner is moving from one module to the next within the same course. 
+
+**Clear exit action on the last module** 
+
+When the learner is on the last module in a course, a new Exit action button appears, indicating that clicking it will close the player and return them to the course context. 
+
+**Responsive behavior for mobile and PDF content** 
+
+On smaller viewports (for example, ~320 px width), the Next label may be shortened or hidden, showing only the icon, to avoid overlapping with PDF controls. 
+
+For PDF modules, the player adjusts controls to a separate line, so navigation labels and PDF controls don't interfere with each other. 
+
+**Updated Admin > Branding > Player preview** 
+
+The player preview in Admin > Branding now reflects the new label, for example, Next Module: Lesson 2. This allows administrators to see the updated navigation behavior. 
+
+### Key benefits
+
+**Clearer navigation for learners** 
+
+Learners no longer have to guess what will happen when they select "Next." The label clearly specifies what comes next, whether it's a module or a course. This reduction in ambiguity helps alleviate hesitation and confusion, particularly in large customer education audiences where many learners may not be familiar with LMS interfaces. 
+
+**Higher course‑completion rates** 
+
+Clearly stating the next step (Next Module: {ModuleName}) and adding a distinct Exit action for the final module reduces the likelihood of learners abandoning the course or overlooking the last completion step. 
+
+**More predictable user experience across devices** 
+
+The updated labels align with the Next or Previous behavior and icons across desktop, tablet, and mobile. Layout constraints are respected across devices and PDF flows so that controls remain usable and accessible.  
+
+This is particularly important for headless implementations where the Fluidic Player is embedded inside a custom learning experience. 
+
+### Use cases
+
+**Customer and partner education portals (headless or AEM‑integrated)**
+
+Accounts utilizing Adobe Learning Manager in a fully headless setup, directing learners from external marketing channels. These learners: 
+
+* Often consume video content in long sequences. 
+
+* Expect a curriculum‑style experience where the system clearly indicates the next episode/module. 
+
+In these environments, the **Next Module: {ModuleName}** label: 
+
+* Reinforces the guided nature of the journey. 
+
+* Minimizes drop‑off between modules. 
+
+**Compliance and certification courses with ordered modules** 
+
+In regulated or compliance‑heavy scenarios: 
+
+* Learners must complete a strict sequence of modules. 
+
+* Authors often disable TOC to avoid skipping. 
+
+Here, showing **Next Module: {ModuleName}**: 
+
+* Confirms to learners that they are following the correct sequence. 
+
+* Makes it less likely that they misinterpret the Next action and exit early. 
+
+**Learning Paths where courses follow each other** 
+
+Where Learning Paths or equivalents chain multiple courses. This is useful when building curriculum‑style sequences for large audiences. 
+
+**Mobile‑first consumption** 
+
+For learners primarily using phones or tablets: 
+
+* Updated labels and responsive behavior ensure navigation remains understandable without relying on tiny close icons or hidden controls. 
+
+* This is important for customer education, gig workers, or frontline learners who may access content in short sessions on mobile devices. 
+
+## Zoom Connector - create multiple concurrent Zoom sessions
+
+### Overview
+
+The Zoom Connector upgrade enhances how Adobe Learning Manager manages Virtual Instructor-Led Training (VILT). Before, users could only create one Zoom session at a time. With the new update, administrators and authors can schedule multiple Zoom sessions at the same time using standard integration.
+
+### What's new
+
+#### Support for multiple concurrent Zoom sessions via the connector
+
+* The Zoom Connector now allows more than one VILT session at the same date/time to be created from ALM. 
+
+* The scheduling logic no longer enforces a "one Zoom meeting at a time" constraint at the account/connector level. 
+
+* Administrators and authors can configure overlapping VILT sessions (for example, regional classrooms, parallel tracks, or repeated sessions for different partner groups) without workarounds.
+
+#### Meetings are created using the instructor's Zoom identity (not the Zoom super admin) 
+
+To safely support concurrent meetings, the connector has been updated so that: 
+
+* Zoom meetings are now created using the instructor's email address, instead of the Zoom super admin email. 
+
+* Each instructor's Zoom account can host its own meetings in parallel with other instructors, subject to the limits of the existing Zoom plan.
+
+**Note**: 
+
+* Only one instructor per meeting is still supported. 
+
+* If an instructor's email is later updated in Adobe Learning Manager, existing meetings remain associated with the original email used at creation.
+
+#### No more manual Zoom URL pasting for concurrent sessions 
+
+Previously, when a second or third Zoom session had to run at the same time: 
+
+* Authors had to manually create Zoom meetings outside ALM and then paste the Zoom join URL into the course instance configuration. 
+
+* This was error‑prone and did not benefit from connector features like attendance tracking. 
+
+With the updated connector: 
+
+* All sessions can be created directly from the ALM UI using the Zoom Connector, even if they overlap in time. 
+
+* Session lifecycle (creation/cancellation) continues to be managed centrally via integration.
+
+### Key benefits
+
+#### Better VILT scheduling at scale 
+
+Organizations can now: 
+
+* Run multiple Zoom‑based virtual classrooms at the same time (for example, parallel tracks at a virtual summit, regional cohorts, or separate partner training sessions). 
+
+* Avoid bottlenecks that previously forced admins to serialize sessions or rely on manual Zoom management. 
+
+#### Reduced administrator and author overhead 
+
+The enhancement eliminates: 
+
+* Manual creation of Zoom meetings outside of Adobe Learning Manager. 
+
+* Copy‑paste of Zoom URLs into each course instance for overlapping sessions. 
+
+* Risk of mis‑configured links, wrong meetings being attached, or missed attendance tracking. 
+
+Administrators and authors can manage all Zoom sessions from Adobe Learning Manager, using familiar workflows. 
+
+#### Better alignment with Zoom provisioning and instructor roles 
+
+By tying meetings to individual instructor Zoom accounts: 
+
+* Each instructor can operate within their own Zoom license limits. 
+
+* Organizations can use their existing Zoom provisioning model (one account per trainer, per BU, etc.) while still integrating fully with Adobe Learning Manager. 
+
+* It avoids the single‑point bottleneck of using a shared super‑admin Zoom user for all sessions.
+
+### Use cases
+
+#### Multi‑track virtual events and summits 
+
+Customer education teams running large events (for example, product bootcamps, partner summits, or certification weeks) can: 
+
+* Configure multiple Zoom‑based sessions in the same time slot (for different tracks or topics). 
+
+* Manage all of them as VILT modules under Adobe Learning Manager's courses and Learning Paths. 
+
+* Provide learners a unified experience while the connector handles all underlying Zoom meeting creation.
+
+#### Global partner and customer training 
+
+Organizations that train customers and partners across regions can: 
+
+* Run separate Zoom sessions for EMEA, APAC, and Americas at overlapping times to match local working hours. 
+
+* Avoid forcing a single global time slot or manual Zoom setup for additional cohorts. 
+
+#### Internal enablement 
+
+Internal enablement teams (sales, support, and so on) can: 
+
+* Schedule parallel onboarding sessions or role‑based breakouts (for example, separate Zoom rooms for developers, admins, and business stakeholders) in ALM. 
+
+* Keep all sessions within ALM's VILT model for reporting and compliance purposes, rather than partially transitioning to unmanaged Zoom meetings.
+
+## Show original author for shared courses in peer accounts 
+
+### Overview 
+
+When a course is shared through the catalog to a peer account, Adobe Learning Manager currently labels the author as "External Author" in the Learner, Administrator, and Author views of the receiving account. This can create challenges for learners and administrators, particularly in large enterprises, as it becomes difficult to identify and contact the appropriate content owner when issues or questions arise. 
+
+The enhancement ensures that author information is preserved and surfaced for shared courses in peer accounts, rather than being replaced by a generic placeholder.   
+
+### What's new 
+
+Show actual author name for shared courses in peer accounts 
+
+For courses shared via external or peer catalogs, the original author name from the source account is now displayed in the receiving account instead of "External Author". 
+
+This applies to: 
+
+* Learner app (course card or course details). 
+
+* Administrator and author views when previewing as a learner. 
+
+### Key benefits 
+
+#### Direct owner visibility for shared content 
+
+Learners and administrators in peer accounts can now: 
+
+* See who authored the course, even when it is acquired via a shared catalog. 
+
+* Avoid the generic and unhelpful "External Author" label. 
+
+#### More consistent multi‑tenant and peer‑account experience 
+
+For customers running multi‑tenant or extended‑enterprise scenarios: 
+
+* The same course appears with consistent author branding across accounts. 
+
+* The learner experience is aligned with expectations from the primary account (for example, seeing the source account's author name instead of "External Author"). 
+
+### Use cases 
+
+#### Large enterprise with peer accounts 
+
+The enterprise uses ALM with: 
+
+* A main account that owns the canonical courses, and 
+
+* Peer accounts that acquire content via shared catalogs. 
+
+Learners in peer accounts need to know which enterprise team authored a course to route questions or improvement suggestions correctly. 
+
+With this enhancement: 
+
+* Shared courses now display the correct enterprise author's name in peer accounts. 
+
+* The enterprise's internal support load is reduced because learners and local admins know who to contact. 
+
+#### Internal multi‑BU sharing 
+
+Where one business unit curates learning for others: 
+
+* The owning BU can be identified in the author field across all consuming accounts. 
+
+* Local L&D admins can quickly see whether a course is maintained locally or by another BU, and collaborate accordingly.
+
+## Expose Learning Object expiry (auto‑retire) date in Learner APIs 
+
+### Overview 
+
+This enhancement makes the auto‑retire date of a Learning Object (LO) available directly through Adobe Learning Manager's Learner‑facing APIs. When a course, learning path, or certification is configured with an expiry or auto‑retire date, that information is now part of the LO data returned by key Learner endpoints. 
+
+### What's new 
+
+#### New expiry/auto‑retire field in Learner LO APIs 
+
+* The Learner LO APIs (for example, the endpoints that return learning objects to the learner experience and to external platforms) now include the LO expiry date (the auto‑retire date configured for that learning object). 
+
+* This field is returned as part of the LO entity in responses such as: 
+
+   * Get Learning Object (LO details). 
+
+   * LO data used to populate learner home, catalog, and search results. 
+
+* The field complements the existing completionDeadline that already exists at the instance level; the new field is specifically the LO‑level auto‑retire date. 
+
+#### Availability in search‑backed learner experiences 
+
+Because the expiry date is exposed as part of the search‑backed LO representation, it is now available anywhere ALM or an external platform uses: 
+
+* search APIs or 
+
+* search‑driven catalogs and suggestions to construct learner views. 
+
+**Scope and exclusions** 
+
+The enhancement applies to Learner APIs only. 
+
+### Key benefits 
+
+#### Expiry‑aware learner experience in custom LXPs 
+
+For large and medium enterprises, their custom LXP can now obtain LO expiry information directly from ALM, allowing them to: 
+
+* Show "Expiring on {date}" or "Expiring soon" labels on course cards and detail pages. 
+
+* Communicate with urgency more clearly, so learners prioritize training that is about to retire. 
+
+This is particularly important for compliance or time‑bound product training, where learning objects are regularly refreshed, and older versions are retired. 
+
+#### Better guidance for learners on which trainings to take now 
+
+By exposing LO expiry, the learner experience can: 
+
+* Highlight courses that are still valid vs. ones about to be retired. 
+
+* Help learners avoid enrolling in trainings that will no longer be available or valid in the near future. 
+
+#### Consistency with existing completion deadline data 
+
+Previously, learner APIs already exposed instance‑level completionDeadline, but not the LO‑level auto‑retire date. With this change: 
+
+The following aspects of a training are available: 
+
+* "By when must I finish this instance?" (completion deadline). 
+
+* "Until when is this training offered?" (auto‑retire/expiry date). 
+
+### Use cases 
+
+#### A global enterprise with strict course lifecycle management 
+
+Enterprises that regularly retire and replace courses (for example, regulatory, product, or methodology updates) can: 
+
+* Avoid learner confusion about whether a training is being phased out. 
+
+* Drive learners toward the most current, long‑lived offerings. 
+
+Their custom portals and internal tools can now read the expiry date directly from ALM via the Learner APIs. 
+
+#### External customer or partner academies 
+
+For customer and partner education, marketing pages and portals often emphasize up‑to‑date training. 
+
+Having expiry dates in the LO API lets experience builders: 
+
+* Hide or de‑emphasize content that is close to retirement.
+
+* Build "Last chance to complete" campaigns.
+
+## Set restriction on module start time 
+
+### Overview 
+
+The enhancement lets authors and administrators in Adobe Learning Manager define a time window during which learners are allowed to start a module. Outside the configured start/end window, the module remains visible in the course structure, but learners cannot initiate it. 
+
+This capability is critical for users who need tighter control over when certain content becomes available or should stop being initiated, for example, in timed programs, cohort‑based training, or time‑sensitive exercises. 
+
+### What's new 
+
+Authors can now configure, at the module level within a course, a start date/time and end date/time that governs when learners are allowed to launch that module. Within this window, the module behaves as usual; before the start time or after the end time, the learner sees the module in the course outline but cannot start it. 
+
+The configuration appears in the course authoring user interface as additional scheduling controls for specific module types, such as self-paced content, quizzes, or activities. Administrators can use these controls to create modules that open in phases or to prevent late starts in programs where content must be consumed within a defined timeframe. 
+
+#### Key benefits 
+
+The main advantage is the ability to control when modules are accessible. Training teams can synchronize module availability with real-world events, such as new product launches, regulatory deadlines, and internal programs. This ensures that learners complete prerequisite content before they can access later modules. 
+
+For instance, cohort 1 can access module 2 only in week 2, while module 3 will remain locked until week 3, eliminating the need to manually hide and unhide content or create separate course versions. 
+
+This enhances the learner experience: instead of facing modules that can technically be accessed but shouldn't be at that time (or should already be completed), learners see a course structure where the modules they are permitted to start are clearly aligned with the intended schedule. 
+
+#### Use cases 
+
+* **Cohort-based enablement program**: In this program, each week opens a new module. The content for Week 1 is available immediately, while Week 2 is visible but cannot be started until a specified date. Week 3 follows the same gating process. Learners can see the entire learning path, but the system controls when they can actually begin each step. 
+
+* **Time‑bound product or campaign training**: Marketing or product teams may create a training module that should only be accessed while a campaign is active or when a specific version of a product is still available. This designated start window ensures that learners don't begin a module about a discontinued product version after the specified end time. 
+
+* **Assessment or exam environments**: Organizations can open a module (such as a test) for a short, well‑defined window (for example, "you may start the exam anytime between 9:00 and 12:00 on a given date"). Learners cannot begin the exam outside that window, which supports fair scheduling across time zones and cohorts.
+
+## Control player language via custom LTI parameter 
+
+### Overview 
+
+The enhancement allows external platforms using LTI (Learning Tools Interoperability) to specify the language for Adobe Learning Manager content at the time of launch. Instead of depending on the learner to change the language within the Fluidic Player, the LTI consumer can send a language code through a custom LTI parameter. Adobe Learning Manager will then use this code to select the appropriate language variant. 
+
+### What's new 
+
+External platforms that act as LTI consumers can now pass a custom language parameter (and related player settings) when launching ALM content. ALM reads this parameter and: 
+
+* Sets the player language accordingly. 
+
+* Launches the corresponding language variant of the module, when multi‑language content is configured. 
+
+This means a first‑time learner, who selects French on the external platform, will see the ALM player and module launch directly in French, without having to adjust anything inside ALM. 
+
+The enhancement also accommodates scenarios in which the external platform treats ALM as a headless content player. For example, it allows the hiding of navigation elements and the table of contents (TOC) by sending additional custom parameters to adjust certain user interface settings. These settings work in conjunction with the language parameter, enabling the external platform to provide a smooth, branded experience while still utilizing ALM for playback and tracking. 
+
+### Key benefits 
+
+* **Consistent language experience across systems**: When a learner selects a language in the external portal, that choice is immediately reflected in ALM. This ensures that learners don't face any mismatch between the language of the portal and the course. As a result, they won't have to search for a language switch within the player. 
+
+* **Language‑specific reporting**: In their platform, language selection is consistent with ALM, which enhances the accuracy of their analytics and learner tracking. This alignment also supports configurations where ALM's own language controls are intentionally disabled or hidden in the Fluidic Player for specific courses. In these cases, the external platform serves as the single source of truth for language. 
+
+### Use cases 
+
+* A significant use case involves large enterprises utilizing LTI-based integrations. Learners first enroll and select a language on the platform. They then launch ALM training sessions through LTI. With this enhancement, when a learner selects Spanish, the ALM module automatically opens in Spanish. This means that learners don't need to adjust the language settings in ALM. Furthermore, language-based reporting remains consistent with what learners see and experience in ALM. 
+
+* Another application is the delivery of headless course experiences within a customer or partner portal. In this setup, the portal may embed ALM content using an iframe, while all navigation and language user experience (UX) are managed outside of ALM. By utilizing custom LTI parameters, the portal can ensure the ALM player is displayed in the correct language and that any unnecessary user interface elements (such as the table of contents and navigation buttons) are hidden. This allows learners to perceive a single, cohesive application rather than a disjointed collection of tools. 
+
+* This is beneficial for organizations that conduct large-scale training in multiple languages using another LMS or learning platform. They can standardize their use of that platform for managing learner profiles, selecting locales, and presenting catalogs. Meanwhile, ALM serves as a reliable content and tracking engine, respecting the language preferences and user interactions specified by the external system during each LTI launch.
+
+## Checklist question weightage for instructor evaluations 
+
+### Overview 
+
+The enhancement introduces weighted checklists, allowing instructors and managers to evaluate learners using graded scales and total scores, rather than treating each checklist question as equal. The goal is to facilitate checklist creation by implementing weighted evaluations of questions, which allows the reflection of the relative importance of different actions or skills within a single checklist. 
+
+### What's new 
+
+Checklists will support the following types: 
+
+1. Yes/No 
+Behavior remains the same as today: each question is Yes/No and pass criteria are based on the number of "Yes" responses. 
+
+2. Same‑weight questions 
+
+   * Questions are scored on a numeric scale (0–10 by default), where: 
+
+      * The max/min values on the scale are customizable at the checklist level. 
+
+      * The scale can now start at 0 (the previous minimum score was 1). 
+
+   * All questions share the same maximum score, so the checklist behaves as a uniform graded scale for each question. 
+
+3. Different‑weight questions 
+
+   * Each question has its own maximum score (weight). 
+
+   * The passing criteria depend on the percentage of the total possible score that the learner achieves across the checklist (for example, "pass if the learner achieves ≥ 70% of the total available score"). 
+
+For all checklist types: 
+
+* The **Reviewer** (instructor or manager) evaluates the learner according to the configured checklist type: 
+
+   * Selecting Yes/No. 
+
+   * Select scores on the defined scale. 
+
+* The **Checklist** report is updated to include, for questions with different weightage: 
+
+   * The maximum score for each question. 
+
+   * The score achieved by each learner for that question. 
+
+This allows analysis of overall performance and question-specific performance based on the intended weights. 
+
+### Key benefits 
+
+* **Richer, more realistic assessments**: Instructors can reflect real‑world priorities by giving more points to critical behaviors and fewer to minor ones, while still using a checklist workflow suited to observed or practical tasks. 
+
+* **Total‑score‑based pass/fail**: Evaluations can be based on the overall percentage score, not just how many questions pass a threshold, aligning more closely with typical competency or grading schemes. 
+
+* **Better reporting**: Updated checklist reports expose max score and achieved score per question, allowing program owners and quality teams to identify specific weak spots and refine training or evaluation guidance. 
+
+### Use cases 
+
+* **Enterprise skill assessments**: Engineers are assessed via practical, scenario‑based checklists where certain diagnostic or communication steps must carry more weight than cosmetic or low‑risk steps. Weighted questions and total‑score pass criteria make these assessments more credible and predictive of real‑world performance. 
+
+* **Safety and compliance observations**: In healthcare, manufacturing, or field service, critical safety steps can be given higher max scores, ensuring that missing a safety‑critical action has a larger impact on the total score than missing a minor procedural step. 
+
+* **Coaching and calibration**: With max and achieved scores per question in the report, managers can see exactly where learners underperform and calibrate instructors on how to score consistently.
+
+## Checklist with commenting capability for reviewer 
+
+### Overview 
+
+The enhancement introduces a commenting feature for checklist evaluations, allowing reviewers, such as instructors and managers, to provide qualitative feedback alongside the numeric scores. This feedback can be made visible to learners when necessary.  
+
+The goal is to support checklist-based evaluations where mentor feedback is as crucial as the numeric result. This includes highlighting specific strengths, areas for improvement, or providing context for the given score. 
+
+Today, reviewers can: 
+
+* Evaluate a checklist for each learner, question by question. 
+
+* View results and re‑evaluate learners who have failed. 
+
+In real-world scenarios, such as aviation, field trainers assess shop-floor agents and airport staff. Similarly, instructors and mentors in small and medium-sized enterprises (SMEs) often use checklists to evaluate job performance. However, these checklists typically do not include a structured section for capturing narrative feedback related to the evaluation. 
+
+### What's new 
+
+#### Authoring options 
+
+Authors can configure each checklist to: 
+
+* Enable or disable commenting capability for reviewers. 
+
+* Decide whether the reviewer's name should be shown to learners along with comments. 
+
+This allows organizations to tailor comment visibility to their culture and privacy requirements. 
+
+#### Reviewer experience 
+
+When commenting is enabled: 
+
+* Reviewers (instructors/managers) can add optional comments while evaluating a checklist. 
+
+* They can choose whether comments are visible to learners, based on the checklist settings. 
+
+If they re‑evaluate a learner, they can update or change comments to reflect the latest assessment. 
+
+#### Reporting and notifications 
+
+* The Checklist report gains a new column for reviewer's remarks, capturing the comment provided during evaluation. 
+
+* Learners receive notifications (in‑platform and email) whenever a checklist evaluation occurs. These notifications include: 
+
+   * The comment and 
+
+   * The reviewer's name, if those were configured to be visible. 
+
+This ensures feedback is not only stored but actively surfaced to learners. 
+
+### Key benefits 
+
+* **Richer, coach‑like feedback**: Numeric scores are supplemented with contextual remarks, making checklists a more effective tool for coaching, not just compliance. 
+
+* **Traceability and auditability**: Organizations gain a persistent record of who evaluated whom, when, and what they said, which is important in regulated environments and high‑stakes roles. 
+
+* **Better learner engagement**: Learners receive clear guidance linked to specific evaluations, which improves their understanding of expectations and subsequent steps. 
+
+### Use cases 
+
+* Organizations with regulated environments can use comments to document clinical judgment or procedural feedback for staff who are being observed in the field. 
+
+* Aviation and ground‑handling organizations can attach detailed notes on operational performance, safety practices, and customer‑facing behavior, turning a checklist into a structured debrief tool. 
+
+* In mentoring and SME evaluation, instructors can capture nuanced observations that wouldn't fit into a score alone, for example, "handled escalation well but needs to improve time management" or "excellent troubleshooting flow; missed a documentation step."
+
+## Content‑level multiple attempts and quiz reporting 
+
+### Overview 
+
 >[!IMPORTANT]
 >
->Os recursos desta versão estão disponíveis na versão beta. A funcionalidade e o comportamento podem mudar antes do lançamento. Compartilhe feedback por meio de seus canais de suporte Adobe comuns.
+>Note that the feature will only be available after enabling it in the account. Contact ALM support.
 
 
-Este documento resume os novos recursos, melhorias e atualizações na versão de abril de 2026 do Adobe Learning Manager. Use-a para planejar alterações para sua organização e entender o que está disponível para alunos, administradores e autores.
+Presently, ALM supports multiple attempts at the LMS level via the Multiple Quiz Attempt (MQA) feature: 
 
-**Para alunos:** o Fluidic Player agora mostra o nome do próximo módulo e um botão Limpar saída. O idioma do reprodutor pode ser definido por meio de LTI para uma experiência consistente em todas as plataformas. o conteúdo do Captivate inclui um sumário unificado, marcas de conclusão no nível do slide e exportações de notas confiáveis. O suporte a vários idiomas está disponível para ajudas de tarefa, perguntas de lista de verificação e faixas de texto de vídeo (VTT). O Assistente de IA ajuda os alunos a obter respostas dentro da experiência de aprendizado.
+* Authors can configure attempts at course level (applied to all quiz‑bearing modules in the course) or at module level (per quiz module). 
 
-**Para administradores e autores:** o conector do Zoom oferece suporte a várias sessões VILT simultâneas. Os cursos compartilhados em contas entre parceiros exibem o autor real em vez de “Autor externo”. Os administradores podem restringir quando os módulos podem ser iniciados. As datas de expiração do objeto de aprendizado são expostas nas APIs do aluno. Os módulos de lista de verificação oferecem suporte à pontuação ponderada, ao texto da pergunta multilíngue e aos comentários opcionais do revisor. Os certificados personalizados oferecem um editor de arrastar e soltar com campos dinâmicos e planos de fundo gerados por IA. O Experience Builder não conectado permite criar páginas de aprendizado público sem exigir logon.
+* Attempts can be: 
 
-**Para professores:** gere códigos QR para registro de instância e presença de sessão. Adicione comentários ou feedback durante a avaliação da lista de verificação.
+   * A specific number (for example, 3 attempts), or 
 
-**Relatórios e análises:** o conteúdo do SCORM agora pode relatar várias tentativas de questionário nos relatórios L2. O tempo de aprendizado gasto no cálculo foi aprimorado nas transcrições do aluno. Os relatórios de transcrição de aprendizado dos administradores são atualizados. Aprimoramentos de pesquisa avançada estão disponíveis.
+   * Infinite attempts, controlled at LMS level. 
 
-## Navegação no Fluidic Player: mostra o nome do próximo módulo
+* When a learner consumes a module through the Fluidic Player and then closes the player or completes the module, that session is treated as a single LMS attempt. 
 
-### Visão geral
+* Each LMS attempt is captured in the L2 quiz report as a new row. 
 
-Esse aprimoramento já estava incluído na versão de novembro de 2025 do Adobe Learning Manager.
+However, if the content file itself (for example, an Articulate SCORM quiz) implements its own multiple‑attempt logic, ALM's L2 quiz report does not currently distinguish or track those internal attempts correctly. 
 
-A ação “Próximo” no reprodutor indica o que acontecerá quando clicado exibindo o nome do próximo módulo ou curso e sinalizando explicitamente quando o aluno estiver prestes a sair do reprodutor.
+This enhancement introduces content-level multiple attempt tracking for quizzes, allowing Adobe Learning Manager to accurately capture each attempt within the content itself in the L2 quiz report. It's designed for situations where the content authoring tool (such as Articulate SCORM) manages quiz attempts independently. With this feature, attempts are correctly reflected in ALM reporting without depending on LMS-level Multiple Quiz Attempt (MQA) settings. 
 
-### Novidades
+### What's new 
 
-**Rótulo “Próximo Módulo: {ModuleName}” no reprodutor**
+#### Author flag for content‑level attempts 
 
-O ícone Próximo no Fluidic Player agora mostra o nome do próximo módulo no curso. Por exemplo, Próximo módulo: Lição 2 - Introdução.
+* When uploading content into the Content Library, authors can now indicate that a specific content file has multiple attempts embedded within it. 
 
-Isso se aplica onde quer que o aluno esteja mudando de um módulo para o outro no mesmo curso.
+* This is a per‑content setting that tells ALM to treat attempts defined inside the content as the source of truth. 
 
-**Limpar ação de saída no último módulo**
+#### Course/module behavior 
 
-Quando o aluno está no último módulo de um curso, um novo botão de ação Sair é exibido, indicando que ao clicar nele, o reprodutor será fechado e ele retornará ao contexto do curso.
+When such content is used in a course: 
 
-**Comportamento responsivo para conteúdo móvel e PDF**
+* The module will derive its attempts from the content, not from LMS MQA. 
 
-Em viewports menores (por exemplo, largura de ~320 px), o rótulo Próximo pode ser encurtado ou oculto, mostrando apenas o ícone, para evitar a sobreposição com controles de PDF.
+* Learners will see one LMS‑level attempt only: 
 
-Para módulos de PDF, o reprodutor ajusta os controles para uma linha separada, de modo que os rótulos de navegação e os controles de PDF não interfiram uns nos outros.
+   * The course overview and module view does not expose an LMS "re‑attempt" button for that module. 
 
-**Atualização do administrador > Marca > Visualização do player**
+   * Attempt handling (for example, re‑tries within the quiz) is governed by the content itself. 
 
-A visualização do reprodutor em Administrador > Marca agora reflete o novo rótulo, por exemplo, Próximo módulo: Lição 2. Isso permite que os administradores vejam o comportamento de navegação atualizado.
+#### Reporting 
 
-### Principais benefícios
+The L2 quiz report treats each content‑level attempt as a separate attempt row: 
 
-**Navegação mais clara para os alunos**
+* Each internal quiz attempt configured in the content appears as its own row in the L2 quiz report, like how LMS‑level attempts are represented today. 
 
-Os alunos não precisam mais adivinhar o que acontecerá quando selecionarem “Próximo”. O rótulo especifica claramente o que vem a seguir, seja um módulo ou um curso. Essa redução na ambiguidade ajuda a aliviar a hesitação e a confusão, especialmente em grandes públicos de treinamento de clientes, onde muitos alunos podem não estar familiarizados com as interfaces LMS.
+* The format of each row remains the same as existing multi‑attempt rows in L2 reporting (same columns, structure, and semantics). 
 
-**Taxas mais altas de conclusão de curso**
+* This gives a consistent reporting experience: 
 
-Indicar claramente a próxima etapa (Próximo Módulo: {ModuleName}) e adicionar uma ação Sair distinta para o módulo final reduz a probabilidade de os alunos abandonarem o curso ou negligenciarem a última etapa de conclusão.
+   * Whether attempts are controlled by LMS MQA or by the content, the L2 quiz report shows one row per attempt. 
 
-**Mais experiência previsível do usuário entre dispositivos**
+#### Key benefits 
 
-Os rótulos atualizados se alinham com o comportamento Próximo ou Anterior e os ícones no desktop, tablet e dispositivo móvel. As restrições de layout são respeitadas em todos os dispositivos e fluxos de PDF para que os controles permaneçam utilizáveis e acessíveis.
+* Accurate attempt history for SCORM quizzes where attempts are controlled internally by tools like Articulate, without forcing LMS‑level MQA configuration on top. 
 
-Isso é particularmente importante para implementações sem periféricos nas quais o Fluidic Player é incorporado em uma experiência de aprendizado personalizada.
+* Cleaner learner experience: for content‑controlled attempts, learners see a single slot at the LMS level and don't need to interact with LMS re‑attempt controls; all re‑tries are handled within the quiz UI they already know. 
 
-### Casos de uso
+* Flexible architecture: Users can choose whether ALM MQA or content‑level attempts should drive behavior per module, depending on how their content was authored and how they prefer to manage attempts. 
 
-**Portais educacionais de clientes e parceiros (sem periféricos ou integrados ao AEM)**
+* Consistent reporting model: downstream consumers of the L2 quiz report can treat each row as "one attempt," regardless of where the attempt logic originates. 
 
-Contas que utilizam o Adobe Learning Manager em uma configuração totalmente sem periféricos, direcionando os alunos de canais de marketing externos. Estes alunos:
+#### Use cases 
 
-* Geralmente consomem conteúdo de vídeo em sequências longas.
+* Organizations using Articulate SCORM can keep self-contained quiz logic within the SCORM package while achieving accurate attempt-level reporting in ALM without extra LMS configuration. 
 
-* Espere uma experiência no estilo de currículo, em que o sistema indique claramente o próximo episódio/módulo.
+* Organizations that use vendor-supplied SCORM content can avoid the need to modify or implement additional attempt and retry logic with LMS-level MQA.
 
-Nesses ambientes, o rótulo **Próximo Módulo:{ModuleName}**:
+## Instructor QR codes for instance enrollment and session attendance 
 
-* Reforça a natureza guiada da jornada.
+### Overview 
 
-* Minimiza a queda entre os módulos.
+This enhancement adds the ability for instructors to generate QR codes themselves for: 
 
-**Cursos de conformidade e certificação com módulos solicitados**
+* Course instance enrollment, 
 
-Em cenários regulamentados ou de conformidade pesada:
+* Session attendance, or 
 
-* Os alunos devem concluir uma sequência estrita de módulos.
+* Enrollment + attendance together 
 
-* Os autores geralmente desabilitam o sumário para evitar ignorar.
+at the session level. It's designed for situations where learners enter a physical or hybrid classroom and require a quick, self-service option to enroll and record their attendance using a QR code. 
 
-Aqui, mostrando o **Próximo Módulo:{ModuleName}**:
+### What's new 
 
-* Confirma aos alunos que estão seguindo a sequência correta.
+#### Instructor‑generated QR codes 
 
-* Torna menos provável que interpretem incorretamente a ação Próximo e saiam cedo.
+* Instructors can generate QR codes at the session level for: 
 
-**Caminhos de aprendizado em que os cursos se seguem**
+   * Enroll in instance: Learners scan to enroll into the instance that includes the current session. 
 
-Onde os Caminhos de aprendizado ou equivalentes agrupam vários cursos. Isso é útil ao criar sequências no estilo de currículo para grandes públicos.
+   * Mark session attendance: Learners scan during/after the session to record attendance for that specific session. 
 
-**Consumo em dispositivos móveis**
+   * Enroll in instance + mark session attendance : A combined QR for walk‑ins who are not yet enrolled and need their attendance marked in one step. 
 
-Para alunos que usam principalmente telefones ou tablets:
+* Instructors can export the QR codes they need based on the scenario (enrollment, attendance, or both). 
 
-* Os rótulos atualizados e o comportamento responsivo garantem que a navegação permaneça compreensível sem depender de ícones de fechamento minúsculos ou controles ocultos.
+#### QR code packaging 
 
-* Isso é importante para a educação do cliente, funcionários de shows ou alunos da linha de frente que podem acessar o conteúdo em sessões curtas em dispositivos móveis.
+The exported QR code PDF includes: 
 
-## Conector do Zoom - criar várias sessões simultâneas de Zoom
+* Course name 
 
-### Visão geral
+* Instance name 
 
-A atualização do conector do Zoom melhora a forma como o Adobe Learning Manager gerencia o VILT (Virtual Instructor-Led Training, treinamento virtual ministrado por instrutor). Antes, os usuários só podiam criar uma sessão de zoom por vez. Com a nova atualização, os administradores e autores podem agendar várias sessões do Zoom ao mesmo tempo usando a integração padrão.
+* Session name
 
-### Novidades
+These make it easy for instructors and coordinators to identify and print the correct QR code for each session. 
 
-#### Suporte para várias sessões simultâneas do Zoom por meio do conector
+### Key benefits 
 
-* O conector do Zoom agora permite que mais de uma sessão do VILT na mesma data/hora seja criada no ALM.
+* **Instructor autonomy**: Instructors no longer need to wait for admins to create QR codes. They can generate them directly for each session, improving agility and reducing coordination overhead. 
 
-* A lógica de agendamento não impõe mais uma restrição “uma reunião do Zoom por vez” no nível de conta/conector.
+* **Better classroom logistics**: For walk‑in or on‑site audiences (such as field workers, shop‑floor staff, or external attendees), instructors can manage enrollment and attendance on the spot using QR codes. 
 
-* Os administradores e autores podem configurar sessões VILT sobrepostas (por exemplo, salas de aula regionais, controles paralelos ou sessões repetidas para diferentes grupos de parceiros) sem soluções alternativas.
+* **Reduced admin workload**: Admin teams can focus on configuration and governance instead of handling routine QR code generation requests for every session. 
 
-#### As reuniões são criadas usando a identidade do professor no Zoom (não o superadministrador do Zoom)
+### Use cases 
 
-Para suportar reuniões simultâneas com segurança, o conector foi atualizado para que:
+* Organizations running large volumes of on‑site sessions (for example, product training for professionals) can enable instructors to print session‑specific QR codes that enroll and mark attendance with one scan. 
 
-* As reuniões do Zoom agora são criadas usando o endereço de email do professor, em vez do email do superadministrador do Zoom.
+* In retail, manufacturing, and healthcare training, where learners often join sessions directly from the floor or without pre-enrollment, an "Enroll + Attendance" QR code can be placed at the door. This allows learners to self-serve their enrollment and attendance via their phones. 
 
-* A conta do Zoom de cada professor pode hospedar suas próprias reuniões em paralelo com outros professores, sujeito aos limites do plano de Zoom existente.
+* Training events for partners or customers allow the on-site trainer to easily adapt to changes in the room, additional sessions, or extra attendees without needing to consult the administrator for new QR codes.
 
-**Observação**:
+## Captivate and ALM player improvements 
 
-* Ainda há suporte para apenas um professor por reunião.
+### Overview 
 
-* Se o e-mail de um professor for atualizado posteriormente no Adobe Learning Manager, as reuniões existentes permanecerão associadas ao e-mail original usado na criação.
+This enhancement improves the experience of playing Adobe Captivate content within the Adobe Learning Manager (ALM) player, particularly following the recent changes to Captivate's architecture. The aim is to allow learners to engage with Captivate modules natively in ALM while ensuring that navigation, completion tracking, and note-taking are clear, consistent, and reliable. 
 
-#### Chega de colar manualmente o URL do Zoom em sessões simultâneas
+### What's new 
 
-Anteriormente, quando uma segunda ou terceira sessão do Zoom tinha que ser executada ao mesmo tempo:
+#### Unified TOC experience 
 
-* Os autores precisavam criar manualmente reuniões do Zoom fora do ALM e colar o URL de ingresso do Zoom na configuração da instância do curso.
+* Only the ALM TOC is displayed on the left side of the player. 
 
-* Isso era propenso a erros e não se beneficiava de recursos de conector como controle de participação.
+* Captivate's own TOC is hidden when the module is played within ALM. 
 
-Com o conector atualizado:
+* This removes duplication, ensures a single source of truth for navigation, and frees up screen real estate. 
 
-* Todas as sessões podem ser criadas diretamente na interface do usuário do ALM usando o conector do Zoom, mesmo que se sobreponham no tempo.
+#### Visual completion feedback 
 
-* O ciclo de vida da sessão (criação/cancelamento) continua a ser gerenciado centralmente por meio de integração.
+* The ALM TOC shows green tick marks (or equivalent visual cues) indicating slide‑level completion. 
 
-### Principais benefícios
+* As learners progress through Captivate slides, the ALM TOC reflects which slides have been completed, aligning with learner expectations for modern course players. 
 
-#### Melhor programação do VILT em escala
+#### Contextual progress controls 
 
-Agora, as organizações podem:
+* The player controls will adapt based on slide type: 
 
-* Executar várias salas de aula virtuais baseadas em zoom ao mesmo tempo (por exemplo, trilhas paralelas em um cume virtual, coortes regionais ou sessões separadas de treinamento de parceiros).
+   * For video slides: 
 
-* Evite gargalos que antes forçavam os administradores a serializar sessões ou confiar no gerenciamento manual do Zoom.
+      * Show a time progress bar, reflecting video playback. 
 
-#### Redução da sobrecarga do administrador e do autor
+* For non‑video slides: 
 
-O aprimoramento elimina:
+   * Display slide navigation controls (next/previous slide, etc.) instead of a non‑functional time bar. 
 
-* Criação manual de reuniões do Zoom fora do Adobe Learning Manager.
+      * This avoids showing irrelevant or non‑working controls on certain slide types. 
 
-* Copie e cole os URLs do Zoom em cada instância do curso para sobrepor sessões.
+#### Streamlined navigation 
 
-* Risco de links configurados incorretamente, reuniões incorretas serem anexadas ou acompanhamento de participação perdida.
+* The separate module navigation bar (ALM) and course navigation bar is merged into a single, intuitive bar. 
 
-Administradores e autores podem gerenciar todas as sessões do Zoom no Adobe Learning Manager usando fluxos de trabalho familiares.
+* This unified navigation: 
 
-#### Melhor alinhamento com o provisionamento do Zoom e as funções de professor
+   * Clearly distinguishes moving through the Captivate module vs. moving back to course/module level. 
 
-Vinculando reuniões a contas individuais do Zoom do professor:
+   * Reduces confusion caused by multiple bars with overlapping purposes. 
 
-* Cada professor pode operar dentro de seus próprios limites de licença do Zoom.
+#### Reliable notes linking 
 
-* As organizações podem usar o modelo de provisionamento existente do Zoom (uma conta por treinador, por unidade de negócios etc.) ao mesmo tempo em que se integra totalmente ao Adobe Learning Manager.
+* Notes are linked to slide numbers rather than timestamps. 
 
-* Isso evita o gargalo de ponto único de usar um usuário compartilhado do Zoom superadministrador para todas as sessões.
+* This change: 
 
-### Casos de uso
+   * Fixes export failures caused by missing or incorrect timestamps. 
 
-#### Eventos virtuais de múltiplas faixas e cumes
+   * Ensures notes can be exported consistently as PDFs, with a reliable mapping between notes and the slide context they belong to. 
 
-As equipes de treinamento do cliente que realizam grandes eventos (por exemplo, campos de inicialização de produtos, cúpulas de parceiros ou semanas de certificação) podem:
+### Key benefits 
 
-* Configure várias sessões baseadas no Zoom no mesmo intervalo de tempo (para faixas ou tópicos diferentes).
+* Cleaner, single‑player experience: Learners interact with one TOC and one navigation model, reducing confusion and cognitive load. 
 
-* Gerencie todos eles como módulos VILT nos cursos e caminhos de aprendizado do Adobe Learning Manager.
+* Accurate completion and progress indications: Slide‑level ticks and contextual controls help learners understand where they are and what's left. 
 
-* Forneça aos alunos uma experiência unificada enquanto o conector lida com toda a criação de reuniões subjacentes no Zoom.
+* More reliable note‑taking and exports: By tying notes to slides instead of fragile timestamps, users regain a reliable notes‑to‑PDF workflow, even with slide‑based Captivate content. 
 
-#### Treinamento global para parceiros e clientes
+* Preserved author workflow: Authors retain the simplicity of Captivate's direct publish to ALM, while learners get a modern, integrated playback experience without extra authoring burdens. 
 
-As organizações que treinam clientes e parceiros em todas as regiões podem:
+### Use cases 
 
-* Execute sessões separadas do Zoom para EMEA, APAC e Américas em horários de sobreposição para corresponder ao horário de trabalho local.
+* Enablement programs that rely on Captivate for interactive simulations can deploy content into ALM, ensuring that navigation, completion tracking, and notes function consistently for learners. 
 
-* Evite forçar um único intervalo de tempo global ou configuração manual do Zoom para coortes adicionais.
+* Organizations using Captivate as their main content authoring tool can maintain one-click publishing and avoid confusing double TOCs and non-functional controls for learners. 
 
-#### Ativação interna
+* Organizations that rely on notes exported from Captivate content in ALM (for coaching, compliance, or records) can access the following: 
 
-As equipes internas de capacitação (vendas, suporte etc.) podem:
+   * Notes link correctly to slides. 
 
-* Agende sessões de integração paralelas ou breakouts baseados em funções (por exemplo, salas de zoom separadas para desenvolvedores, administradores e colaboradores do setor) no ALM.
+   * PDFs are generated as expected.
 
-* Manter todas as sessões no modelo VILT do ALM para fins de relatório e conformidade, em vez de fazer a transição parcialmente para reuniões não gerenciadas do Zoom.
+## Improved learning time spent calculation in Learner Transcripts
 
-## Mostrar o autor original dos cursos compartilhados em contas entre parceiros
+### Overview
 
-### Visão geral
+Adobe Learning Manager has revised how it calculates learning time in Learner Transcripts with its April 2026 release. Previously, the reporting logic could lead to inaccurate times if learners left the player open without engaging with the content, causing discrepancies. The new method now tracks active time based on user engagement, specifically when the tab is in focus and when there is user activity. This change results in more accurate data.
 
-Quando um curso é compartilhado pelo catálogo para uma conta entre parceiros, o Adobe Learning Manager atualmente rotula o autor como “Autor externo” nas exibições do aluno, administrador e autor da conta de recebimento. Isso pode criar desafios para alunos e administradores, especialmente em grandes empresas, pois torna-se difícil identificar e entrar em contato com o proprietário de conteúdo apropriado quando surgem problemas ou dúvidas.
+This update improves reports and dashboards, helping administrators better ensure compliance and track learner progress. After the release, review your Learner Transcripts to see these enhancements.
 
-O aprimoramento garante que as informações do autor sejam preservadas e apresentadas em cursos compartilhados em contas entre parceiros, em vez de serem substituídas por um espaço reservado genérico.
+The updated calculation method focuses on actual engagement, such as active tab focus and recent user interactions, thereby improving the accuracy of time reporting across the following areas:
 
-### Novidades
+* Learner Transcripts (UI)
+* Admin Dashboard metrics
+* Course Enrollment reports
+* APIs and Connectors
 
-Mostrar nome do autor real dos cursos compartilhados em contas entre parceiros
+### What's changed
 
-Para cursos compartilhados por meio de catálogos externos ou de mesmo nível, o nome do autor original da conta de origem agora é exibido na conta de recebimento em vez de “Autor externo”.
+The **Learning Time Spent** column in Learner Transcripts now uses improved logic to calculate time more accurately. Instead of simply tracking player open/close times, the system now distinguishes between active and idle periods based on user engagement.
 
-Aplica-se a:
+* **Active time**: Time when the learner is actively engaged (for example, on the correct tab, performing actions like scrolling or watching video).
+* **Idle time**: Time when the learner is not engaged (for example, tab switched, no activity for 10+ minutes), which is excluded from the total.
 
-* Aplicativo do aluno (cartão do curso ou detalhes do curso).
+This applies to most module types, with exceptions for SCORM, Captivate, and XAPI modules, which retain the original logic.
 
-* Visualizações do administrador e do autor ao visualizar como aluno.
+### How it works
 
-### Principais benefícios
+The new calculation varies by module type:
 
-#### Visibilidade direta do proprietário para conteúdo compartilhado
+* **Video and audio modules**: Active when the content is playing, even if the learner switches to another tab. Tab focus is not required for tracking playback time.
+* **Static modules (PDF, PPT, Excel, and so on)**: Active if on the tab and performing activities (mouse movement, scrolling, clicking, keyboard input) within the last 10 minutes. If there is no activity for 10 minutes, it switches to idle.
+* **SCORM and Captivate** retain the original open/close logic.
+* **xAPI** now uses tab‑based active time detection, where time is counted only when the tab is active. Note that AICC content **is not** supported.
+* **HTML, LTI, and Other Content**: May vary; check Learner Transcripts for accuracy.
 
-Os alunos e administradores em contas entre parceiros agora podem:
-
-* Veja quem é o autor do curso, mesmo quando adquirido por meio de um catálogo compartilhado.
-
-* Evite o rótulo genérico e inútil de “Autor externo”.
-
-#### Experiência mais consistente com vários locatários e contas entre parceiros
-
-Para clientes que executam cenários multilocatário ou corporativos estendidos:
-
-* O mesmo curso aparece com identidade visual consistente do autor nas contas.
-
-* A experiência do aluno está alinhada com as expectativas da conta principal (por exemplo, ver o nome do autor da conta de origem em vez de “Autor externo”).
-
-### Casos de uso
-
-#### Grande empresa com contas entre parceiros
-
-A empresa usa o ALM com:
-
-* Uma conta principal que possui os cursos canônicos, e
-
-* Contas entre parceiros que adquirem conteúdo via catálogos compartilhados.
-
-Os alunos em contas entre parceiros precisam saber qual equipe corporativa criou um curso para encaminhar perguntas ou sugestões de melhorias corretamente.
-
-Com este aprimoramento:
-
-* Os cursos compartilhados agora exibem o nome correto do autor corporativo em contas entre parceiros.
-
-* A carga de suporte interno da empresa é reduzida porque os alunos e os administradores locais sabem com quem entrar em contato.
-
-#### Compartilhamento de várias unidades de negócios internas
-
-Onde uma unidade de negócios organiza o aprendizado para outras:
-
-* A unidade de negócios proprietária pode ser identificada no campo autor em todas as contas de consumo.
-
-* Os administradores locais de L&amp;D podem ver rapidamente se um curso é mantido localmente ou por outra unidade de negócios e colaborar adequadamente.
-
-## Expor a data de expiração do objeto de aprendizado (desativação automática) nas APIs do aluno
-
-### Visão geral
-
-Esse aprimoramento torna a data de desativação automática de um objeto de aprendizado (LO) disponível diretamente por meio das APIs do Adobe Learning Manager voltadas para o aluno. Quando um curso, caminho de aprendizado ou certificação é configurado com uma data de expiração ou de retirada automática, essas informações agora fazem parte dos dados do OA retornados pelos principais endpoints de aluno.
-
-### Novidades
-
-#### Novo campo de expiração/desativação automática nas APIs do OA do aluno
-
-* As APIs do OA do aluno (por exemplo, os pontos de extremidade que retornam os objetos de aprendizado à experiência do aluno e às plataformas externas) agora incluem a data de expiração do OA (a data de desativação automática configurada para esse objeto de aprendizado).
-
-* Este campo é retornado como parte da entidade de OA em respostas como:
-
-   * Obter objeto de aprendizado (detalhes do OA).
-
-   * Dados do OA usados para preencher a página inicial do aluno, o catálogo e os resultados de pesquisa.
-
-* O campo complementa o completionDeadline existente que já existe no nível de instância; o novo campo é especificamente a data de desativação automática no nível de OA.
-
-#### Disponibilidade em experiências do aluno apoiadas por pesquisa
-
-Como a data de expiração é exposta como parte da representação do LO suportada pela pesquisa, ela agora está disponível em qualquer lugar que o ALM ou uma plataforma externa use:
-
-* pesquisar APIs ou
-
-* catálogos orientados por pesquisa e sugestões para criar visualizações do aluno.
-
-**Escopo e exclusões**
-
-O aprimoramento se aplica somente às APIs do aluno.
-
-### Principais benefícios
-
-#### Experiência do aluno sensível à expiração em LXPs personalizados
-
-Para grandes e médias empresas, seu LXP personalizado agora pode obter informações de expiração do LO diretamente do ALM, permitindo que elas:
-
-* Mostrar rótulos “Expirando em {date}” ou “Expirando em breve” nos cartões do curso e nas páginas de detalhes.
-
-* Comunique-se com a urgência com mais clareza, para que os alunos priorizem o treinamento que está prestes a se aposentar.
-
-Isso é particularmente importante para o treinamento de conformidade ou produtos com limite de tempo, em que os objetos de aprendizado são atualizados regularmente e as versões mais antigas são desativadas.
-
-#### Melhor orientação para os alunos sobre quais treinamentos fazer agora
-
-Ao expor a expiração do OA, a experiência do aluno pode:
-
-* Destaque os cursos que ainda são válidos em comparação com os que serão desativados.
-
-* Ajude os alunos a evitarem se inscrever em treinamentos que não estarão mais disponíveis ou serão válidos em um futuro próximo.
-
-#### Coerência com os dados existentes relativos ao prazo de conclusão
-
-Anteriormente, as APIs do aluno já apresentavam o prazo de conclusão no nível da instância, mas não a data de desativação automática no nível do OA. Com esta alteração:
-
-Os seguintes aspectos de um treinamento estão disponíveis:
-
-* “Quando devo terminar esta instância?” (prazo de conclusão).
-
-* “Até quando esse treinamento é oferecido?” (desativação automática/data de expiração).
-
-### Casos de uso
-
-#### Uma empresa global com gerenciamento rigoroso do ciclo de vida do curso
-
-Empresas que regularmente aposentam e substituem cursos (por exemplo, atualizações normativas, de produtos ou de metodologia) podem:
-
-* Evite confusão do aluno sobre se um treinamento está sendo descontinuado.
-
-* Orientar os alunos para as ofertas mais atuais e duradouras.
-
-Seus portais personalizados e ferramentas internas agora podem ler a data de expiração diretamente do ALM por meio das APIs do aluno.
-
-#### Academias externas de clientes ou parceiros
-
-Para treinamento de clientes e parceiros, as páginas e portais de marketing geralmente enfatizam o treinamento atualizado.
-
-Ter datas de expiração na API do LO permite que os criadores de experiência:
-
-* Oculte ou retire o foco do conteúdo que está próximo da aposentadoria.
-
-* Crie campanhas da “Última chance de concluir”.
-
-## Definir restrição na hora de início do módulo
-
-### Visão geral
-
-O aprimoramento permite que autores e administradores no Adobe Learning Manager definam uma janela de tempo durante a qual os alunos têm permissão para iniciar um módulo. Fora da janela inicial/final configurada, o módulo permanece visível na estrutura do curso, mas os alunos não podem iniciá-lo.
-
-Esse recurso é essencial para usuários que precisam ter um controle mais rígido sobre quando determinado conteúdo se torna disponível ou deve deixar de ser iniciado, por exemplo, em programas cronometrados, treinamento baseado em coorte ou exercícios com prazo apertado.
-
-### Novidades
-
-Os autores agora podem configurar, no nível do módulo em um curso, uma data/hora de início e uma data/hora de término que controlam quando os alunos têm permissão para iniciar esse módulo. Dentro dessa janela, o módulo se comporta como de costume; antes da hora de início ou após a hora de término, o aluno vê o módulo no resumo do curso, mas não pode iniciá-lo.
-
-A configuração aparece na interface de usuário de criação do curso como controles de agendamento adicionais para tipos de módulo específicos, como conteúdo em ritmo individualizado, questionários ou atividades. Os administradores podem usar esses controles para criar módulos que abrem em fases ou para evitar inícios tardios em programas em que o conteúdo deve ser consumido em um período definido.
-
-#### Principais benefícios
-
-A principal vantagem é a capacidade de controlar quando os módulos estão acessíveis. As equipes de treinamento podem sincronizar a disponibilidade do módulo com eventos do mundo real, como lançamentos de novos produtos, prazos normativos e programas internos. Isso garante que os alunos concluam o conteúdo de pré-requisito antes que possam acessar os módulos posteriores.
-
-Por exemplo, a coorte 1 pode acessar o módulo 2 somente na semana 2, enquanto o módulo 3 permanecerá bloqueado até a semana 3, eliminando a necessidade de ocultar e reexibir conteúdo manualmente ou criar versões separadas do curso.
-
-Isso aprimora a experiência do aluno: em vez de enfrentar módulos que podem ser tecnicamente acessados, mas não devem estar nesse momento (ou já devem estar concluídos), os alunos veem uma estrutura do curso na qual os módulos que têm permissão para iniciar estão claramente alinhados com a programação pretendida.
-
-#### Casos de uso
-
-* **Programa de habilitação baseado em coorte**: neste programa, a cada semana abre um novo módulo. O conteúdo da Semana 1 está disponível imediatamente, enquanto a Semana 2 está visível, mas não pode ser iniciada até uma data especificada. A semana 3 segue o mesmo processo de gating. Os alunos podem ver todo o caminho de aprendizado, mas o sistema controla quando eles podem realmente iniciar cada etapa.
-
-* **Treinamento de produto ou campanha associado ao tempo**: as equipes de marketing ou de produto podem criar um módulo de treinamento que só deve ser acessado enquanto uma campanha estiver ativa ou quando uma versão específica de um produto ainda estiver disponível. Essa janela de início designada garante que os alunos não iniciem um módulo sobre uma versão de produto descontinuada após a hora de término especificada.
-
-* **Ambientes de avaliação ou exame**: as organizações podem abrir um módulo (como um teste) para uma janela curta e bem definida (por exemplo, “você pode iniciar o exame a qualquer momento entre 9:00 e 12:00 em uma determinada data”). Os alunos não podem iniciar o exame fora dessa janela, que oferece suporte ao agendamento justo em fusos horários e coortes.
-
-## Controle o idioma do player por meio de um parâmetro de LTI personalizado
-
-### Visão geral
-
-O aprimoramento permite que plataformas externas que usam a LTI (Learning Tools Interoperability, Interoperabilidade das ferramentas de aprendizado) especifiquem o idioma do conteúdo do Adobe Learning Manager no momento da inicialização. Em vez de depender do aluno para alterar o idioma no Fluidic Player, o consumidor de LTI pode enviar um código de idioma por meio de um parâmetro de LTI personalizado. O Adobe Learning Manager usará esse código para selecionar a variante de idioma apropriada.
-
-### Novidades
-
-As plataformas externas que atuam como consumidores de LTI agora podem passar um parâmetro de idioma personalizado (e configurações do player relacionadas) ao iniciar o conteúdo do ALM. O ALM lê esse parâmetro e:
-
-* Define o idioma do reprodutor de acordo.
-
-* Inicia a variante de idioma correspondente do módulo quando o conteúdo multilíngue está configurado.
-
-Isso significa que um aluno pela primeira vez, que seleciona francês na plataforma externa, verá o reprodutor e o módulo do ALM serem lançados diretamente em francês, sem precisar ajustar nada dentro do ALM.
-
-O aprimoramento também acomoda cenários em que a plataforma externa trata o ALM como um reprodutor de conteúdo independente. Por exemplo, ele permite ocultar elementos de navegação e o sumário, enviando parâmetros personalizados adicionais para ajustar determinadas configurações de interface do usuário. Essas configurações funcionam em conjunto com o parâmetro de idioma, permitindo que a plataforma externa forneça uma experiência de marca tranquila e, ao mesmo tempo, use o ALM para reprodução e rastreamento.
-
-### Principais benefícios
-
-* **Experiência de idioma consistente entre sistemas**: quando um aluno seleciona um idioma no portal externo, essa escolha é refletida imediatamente no ALM. Isso garante que os alunos não enfrentem nenhuma incompatibilidade entre o idioma do portal e do curso. Como resultado, eles não terão que procurar por uma mudança de idioma dentro do reprodutor.
-
-* **Relatórios específicos de idioma**: em sua plataforma, a seleção de idioma é consistente com o ALM, o que melhora a precisão de suas análises e do rastreamento de aluno. Esse alinhamento também oferece suporte a configurações em que os próprios controles de idioma do ALM são desativados intencionalmente ou ocultados no Fluidic Player para cursos específicos. Nesses casos, a plataforma externa serve como uma única fonte de verdade para a linguagem.
-
-### Casos de uso
-
-* Um caso de uso significativo envolve grandes empresas que utilizam integrações baseadas em LTI. Os alunos se inscrevem primeiro e selecionam um idioma na plataforma. Em seguida, eles lançam sessões de treinamento do ALM por meio da LTI. Com esse aprimoramento, quando um aluno seleciona espanhol, o módulo ALM abre automaticamente em espanhol. Isso significa que os alunos não precisam ajustar as configurações de idioma no ALM. Além disso, os relatórios baseados em idioma permanecem consistentes com o que os alunos veem e experimentam no ALM.
-
-* Outro aplicativo é o fornecimento de experiências de curso sem periféricos em um portal do cliente ou parceiro. Nesta configuração, o portal pode incorporar conteúdo do ALM usando um iframe, enquanto toda a navegação e experiência de usuário de idioma (UX) são gerenciadas fora do ALM. Utilizando parâmetros de LTI personalizados, o portal pode garantir que o player do ALM seja exibido no idioma correto e que quaisquer elementos desnecessários da interface do usuário (como o sumário e os botões de navegação) estejam ocultos. Isso permite que os alunos percebam uma única aplicação coesa em vez de uma coleção desarticulada de ferramentas.
-
-* Isso é benéfico para organizações que fazem treinamento em grande escala em vários idiomas usando outro LMS ou plataforma de aprendizado. Eles podem padronizar o uso dessa plataforma para gerenciar perfis do aluno, selecionar localidades e apresentar catálogos. Enquanto isso, o ALM funciona como um mecanismo confiável de rastreamento e conteúdo, respeitando as preferências de idioma e as interações do usuário especificadas pelo sistema externo durante cada lançamento de LTI.
-
-## Ponderação de pergunta da lista de verificação para avaliações do professor
-
-### Visão geral
-
-O aprimoramento introduz listas de verificação ponderadas, permitindo que professores e gerentes avaliem os alunos usando escalas graduais e pontuações totais, em vez de tratar cada pergunta da lista de verificação como igual. O objetivo é facilitar a criação de listas de verificação através da implementação de avaliações ponderadas de perguntas, o que permite refletir a importância relativa de diferentes ações ou habilidades em uma única lista de verificação.
-
-### Novidades
-
-As listas de verificação suportarão os seguintes tipos:
-
-1. Sim/Não
-O comportamento permanece o mesmo de hoje: cada pergunta é Sim/Não e os critérios de aprovação são baseados no número de respostas “Sim”.
-
-2. Perguntas do mesmo peso
-
-   * As perguntas são pontuadas em uma escala numérica (0-10 por padrão), onde:
-
-      * Os valores máx./mín. na escala são personalizáveis no nível da lista de verificação.
-
-      * A escala agora pode começar em 0 (a pontuação mínima anterior era 1).
-
-   * Todas as perguntas compartilham a mesma pontuação máxima, portanto a lista de verificação se comporta como uma escala graduada uniforme para cada pergunta.
-
-3. Perguntas de peso diferente
-
-   * Cada pergunta tem sua própria pontuação máxima (peso).
-
-   * Os critérios de aprovação dependem da porcentagem da pontuação total possível que o aluno obtém na lista de verificação (por exemplo, “aprovação se o aluno obtém ≥ 70% da pontuação total disponível”).
-
-Para todos os tipos de lista de verificação:
-
-* O **Revisor** (professor ou gerente) avalia o aluno de acordo com o tipo de lista de verificação configurado:
-
-   * Selecionando Sim/Não.
-
-   * Selecione pontuações na escala definida.
-
-* O relatório **Lista de verificação** foi atualizado para incluir, para perguntas com peso diferente:
-
-   * A pontuação máxima para cada pergunta.
-
-   * A pontuação obtida por cada aluno para essa pergunta.
-
-Isso permite a análise do desempenho geral e do desempenho específico de perguntas com base nos pesos desejados.
-
-### Principais benefícios
-
-* **Avaliações mais avançadas e mais realistas**: os professores podem refletir as prioridades do mundo real dando mais pontos para os comportamentos críticos e menos para os menores, enquanto ainda usam um fluxo de trabalho de lista de verificação adequado para tarefas observadas ou práticas.
-
-* **Aprovação/reprovação total baseada em pontuação**: as avaliações podem ser baseadas na pontuação percentual geral, não apenas na quantidade de perguntas que ultrapassam um limite, alinhando-se mais estreitamente com esquemas típicos de competência ou classificação.
-
-* **Relatórios mais eficientes**: os relatórios atualizados da lista de verificação expõem a pontuação máxima e a pontuação obtida por pergunta, permitindo que os proprietários do programa e as equipes de qualidade identifiquem pontos fracos específicos e refinem o treinamento ou a orientação de avaliação.
-
-### Casos de uso
-
-* **Avaliações de habilidades corporativas**: os engenheiros são avaliados por meio de listas de verificação práticas e baseadas em cenários, nas quais determinadas etapas de diagnóstico ou comunicação devem ter mais peso do que etapas cosméticas ou de baixo risco. Perguntas ponderadas e critérios de aprovação de pontuação total tornam essas avaliações mais confiáveis e preditivas do desempenho real.
-
-* **Observações de segurança e conformidade**: no setor de saúde, manufatura ou serviço de campo, as etapas críticas de segurança podem receber pontuações máximas mais altas, garantindo que a ausência de uma ação crítica de segurança tenha um impacto maior na pontuação total do que a ausência de uma etapa processual menor.
-
-* **Treinamento e calibração**: com o máximo de pontuações alcançadas por pergunta no relatório, os gerentes podem ver exatamente onde os alunos têm um desempenho inferior e calibrar os professores sobre como pontuar de forma consistente.
-
-## Lista de verificação com recurso de comentários para revisor
-
-### Visão geral
-
-O aprimoramento introduz um recurso de comentários para avaliações de listas de verificação, permitindo que os revisores, como professores e gerentes, forneçam feedback qualitativo juntamente com as pontuações numéricas. Esse feedback pode ser exibido aos alunos quando necessário.
-
-O objetivo é apoiar avaliações baseadas em listas de verificação, em que o feedback do mentor é tão crucial quanto o resultado numérico. Isso inclui destacar pontos fortes específicos, áreas para melhoria ou fornecer contexto para a pontuação fornecida.
-
-Atualmente, os revisores podem:
-
-* Avalie uma lista de verificação para cada aluno, pergunta por pergunta.
-
-* Visualize os resultados e reavalie os alunos que falharam.
-
-Em cenários do mundo real, como aviação, treinadores de campo avaliam agentes de chão de fábrica e funcionários do aeroporto. Da mesma forma, os instrutores e mentores em pequenas e médias empresas (PME) frequentemente usam listas de verificação para avaliar o desempenho do trabalho. No entanto, essas listas de verificação geralmente não incluem uma seção estruturada para capturar feedback narrativo relacionado à avaliação.
-
-### Novidades
-
-#### Opções de criação
-
-Os autores podem configurar cada lista de verificação para:
-
-* Ative ou desative a capacidade de comentários dos revisores.
-
-* Decida se o nome do revisor deve ser exibido aos alunos junto com os comentários.
-
-Isso permite que as organizações adaptem a visibilidade dos comentários aos seus requisitos de cultura e privacidade.
-
-#### Experiência do revisor
-
-Quando os comentários estiverem ativados:
-
-* Os revisores (professores/gerentes) podem adicionar comentários opcionais ao avaliar uma lista de verificação.
-
-* Com base nas configurações da lista de verificação, eles podem escolher se os comentários serão visíveis para os alunos.
-
-Se reavaliarem um aluno, eles poderão atualizar ou alterar comentários para refletir a avaliação mais recente.
-
-#### Relatórios e notificações
-
-* O relatório Lista de verificação ganha uma nova coluna para comentários do revisor, capturando o comentário fornecido durante a avaliação.
-
-* Os alunos recebem notificações (na plataforma e por e-mail) sempre que ocorre uma avaliação da lista de verificação. Essas notificações incluem:
-
-   * O comentário e a
-
-   * O nome do revisor, se estiverem configurados para serem visíveis.
-
-Isso garante que o feedback não seja apenas armazenado, mas também exibido ativamente aos alunos.
-
-### Principais benefícios
-
-* **Comentários mais detalhados, semelhantes aos de treinadores**: as pontuações numéricas são complementadas com comentários contextuais, tornando as listas de verificação uma ferramenta mais eficaz para o treinamento, não apenas para a conformidade.
-
-* **Rastreabilidade e auditabilidade**: as organizações obtêm um registro persistente de quem avaliou quem, quando e o que disseram, o que é importante em ambientes regulamentados e funções de alto risco.
-
-* **Melhor envolvimento do aluno**: os alunos recebem orientações claras vinculadas a avaliações específicas, o que melhora sua compreensão das expectativas e etapas subsequentes.
-
-### Casos de uso
-
-* As organizações com ambientes regulamentados podem usar comentários para documentar o julgamento clínico ou feedback de procedimentos para a equipe que está sendo observada em campo.
-
-* As organizações de aviação e de assistência em escala podem anexar notas detalhadas sobre o desempenho operacional, as práticas de segurança e o comportamento voltado para o cliente, transformando uma lista de verificação em uma ferramenta estruturada de apontamento.
-
-* Em mentoreamento e avaliação do SME, os professores podem capturar observações sutis que não se encaixam somente em uma pontuação, por exemplo, “lidaram bem com o escalonamento, mas precisam melhorar o gerenciamento de tempo” ou “fluxo de solução de problemas excelente; perdeu uma etapa de documentação”.
-
-## Várias tentativas em nível de conteúdo e relatórios de questionário
-
-### Visão geral
-
->[!IMPORTANT]
->
->Observe que o recurso só estará disponível após ser ativado na conta. Entre em contato com o suporte do ALM.
-
-
-Atualmente, o ALM oferece suporte a várias tentativas no nível do LMS por meio do recurso MQA (Multiple Quiz Attempt):
-
-* Os autores podem configurar tentativas no nível do curso (aplicadas a todos os módulos participantes do curso) ou no nível do módulo (por módulo do questionário).
-
-* As tentativas podem ser:
-
-   * Um número específico (por exemplo, 3 tentativas) ou
-
-   * Tentativas infinitas, controladas no nível do LMS.
-
-* Quando um aluno consome um módulo por meio do Fluidic Player e, em seguida, fecha o player ou conclui o módulo, essa sessão é tratada como uma única tentativa de LMS.
-
-* Cada tentativa de LMS é capturada no relatório do questionário L2 como uma nova linha.
-
-No entanto, se o próprio arquivo de conteúdo (por exemplo, um quiz Articular SCORM) implementar sua própria lógica de várias tentativas, o relatório do quiz L2 do ALM não distingue ou acompanha atualmente essas tentativas internas corretamente.
-
-Esse aprimoramento apresenta o controle de várias tentativas em nível de conteúdo para questionários, permitindo que o Adobe Learning Manager capture com precisão cada tentativa dentro do próprio conteúdo no relatório do questionário L2. Ele foi projetado para situações em que a ferramenta de criação de conteúdo (como Articular SCORM) gerencia as tentativas de questionário de maneira independente. Com esse recurso, as tentativas são refletidas corretamente no relatório do ALM, sem depender das configurações de MQA (Multiple Quiz Attempt) no nível do LMS.
-
-### Novidades
-
-#### Sinalizador de autor para tentativas no nível de conteúdo
-
-* Ao carregar conteúdo na Biblioteca de conteúdo, os autores agora podem indicar que um arquivo de conteúdo específico tem várias tentativas incorporadas.
-
-* Esta é uma configuração por conteúdo que informa ao ALM para tratar as tentativas definidas dentro do conteúdo como a fonte da verdade.
-
-#### Comportamento do curso/módulo
-
-Quando esse conteúdo é usado em um curso:
-
-* O módulo derivará suas tentativas do conteúdo, não do MQA do LMS.
-
-* Os alunos verão apenas uma tentativa de nível LMS:
-
-   * A visão geral do curso e a visualização do módulo não expõem um botão de “nova tentativa” do LMS para esse módulo.
-
-   * A manipulação de tentativas (por exemplo, tentativas repetidas dentro do quiz) é regida pelo próprio conteúdo.
-
-#### Relatórios
-
-O relatório do quiz L2 trata cada tentativa de nível de conteúdo como uma linha de tentativa separada:
-
-* Cada tentativa de quiz interna configurada no conteúdo aparece como sua própria linha no relatório de quiz L2, da mesma forma que as tentativas de nível LMS são representadas hoje.
-
-* O formato de cada linha permanece o mesmo das linhas de várias tentativas existentes no relatório L2 (mesmas colunas, estrutura e semântica).
-
-* Isso proporciona uma experiência consistente de emissão de relatórios:
-
-   * Independentemente de as tentativas serem controladas por MQA do LMS ou pelo conteúdo, o relatório do quiz L2 mostra uma linha por tentativa.
-
-#### Principais benefícios
-
-* Histórico preciso de tentativas para questionários SCORM nos quais as tentativas são controladas internamente por ferramentas como Articular, sem forçar a configuração de MQA no nível do LMS pela parte superior.
-
-* Experiência do aluno mais limpa: para tentativas controladas por conteúdo, os alunos veem um único slot no nível do LMS e não precisam interagir com os controles de nova tentativa do LMS. Todas as novas tentativas são tratadas na interface do questionário que já conhecem.
-
-* Arquitetura flexível: os usuários podem escolher se o ALM MQA ou as tentativas no nível do conteúdo devem determinar o comportamento por módulo, dependendo de como o conteúdo foi criado e de como preferem gerenciar as tentativas.
-
-* Modelo de relatório consistente: os consumidores downstream do relatório do quiz L2 podem tratar cada linha como “uma tentativa”, independentemente de onde a lógica da tentativa se origina.
-
-#### Casos de uso
-
-* As organizações que usam o recurso Articular SCORM podem manter uma lógica de questionário independente no pacote SCORM e, ao mesmo tempo, obter relatórios precisos em nível de tentativa no ALM sem a configuração adicional do LMS.
-
-* As organizações que usam conteúdo SCORM fornecido pelo fornecedor podem evitar a necessidade de modificar ou implementar lógica adicional de tentativa e repetição com MQA no nível do LMS.
-
-## Códigos QR do professor para inscrição de instância e participação na sessão
-
-### Visão geral
-
-Esse aprimoramento adiciona a capacidade de os professores gerarem eles mesmos códigos QR para:
-
-* Inscrição na instância do curso,
-
-* Participação na sessão ou
-
-* Inscrição + participação conjunta
-
-no nível da sessão. Ele foi projetado para situações em que os alunos entram em uma sala de aula física ou híbrida e exigem uma opção rápida de autoatendimento para se inscrever e registrar sua participação usando um código QR.
-
-### Novidades
-
-#### Códigos QR gerados pelo professor
-
-* Os professores podem gerar códigos QR no nível da sessão para:
-
-   * Inscrever-se na instância: os alunos digitalizam para se inscrever na instância que inclui a sessão atual.
-
-   * Marcar participação na sessão: os alunos verificam durante/após a sessão para registrar a participação nessa sessão específica.
-
-   * Inscrever-se na instância + marcar presença na sessão : um QR combinado para entradas que ainda não estão inscritas e precisam que sua participação seja marcada em uma etapa.
-
-* Os professores podem exportar os códigos QR de que precisam com base no cenário (inscrição, participação ou ambos).
-
-#### Empacotamento do código QR
-
-O PDF de QR Code exportado inclui:
-
-* Nome do curso
-
-* Nome da instância
-
-* Nome da sessão
-
-Isso facilita para professores e coordenadores identificarem e imprimirem o código QR correto para cada sessão.
-
-### Principais benefícios
-
-* **Autonomia do professor**: os professores não precisam mais esperar que os administradores criem códigos QR. Eles podem gerá-los diretamente para cada sessão, melhorando a agilidade e reduzindo a sobrecarga de coordenação.
-
-* **Logística de sala de aula aprimorada**: para públicos visitantes ou participantes do local (como funcionários de campo, funcionários de chão-de-fábrica ou participantes externos), os professores podem gerenciar a inscrição e a participação no local usando códigos QR.
-
-* **Carga de trabalho de administrador reduzida**: as equipes de administração podem se concentrar na configuração e governança em vez de lidar com solicitações de geração de código QR de rotina para cada sessão.
-
-### Casos de uso
-
-* As organizações que executam grandes volumes de sessões no local (por exemplo, treinamento de produtos para profissionais) podem permitir que os professores imprimam códigos QR específicos da sessão que se inscrevem e marcam presença com uma digitalização.
-
-* No varejo, na fabricação e no treinamento de saúde, onde os alunos frequentemente participam das sessões diretamente do piso ou sem pré-inscrição, um código QR “Inscrever-se + Participar” pode ser colocado na porta. Isso permite que os alunos façam o autoatendimento da sua inscrição e da presença por meio de seus telefones.
-
-* Os eventos de treinamento para parceiros ou clientes permitem que o instrutor no local se adapte facilmente a alterações na sala, sessões adicionais ou participantes extras sem precisar consultar o administrador para obter novos códigos QR.
-
-## Melhorias no reprodutor de Captivate e ALM
-
-### Visão geral
-
-Esse aprimoramento melhora a experiência de reproduzir conteúdo do Adobe Captivate no reprodutor Adobe Learning Manager (ALM), especialmente após as recentes alterações na arquitetura Captivate. O objetivo é permitir que os alunos se envolvam com módulos de Captivate de forma nativa no ALM, garantindo que a navegação, o rastreamento da conclusão e a anotação sejam claras, consistentes e confiáveis.
-
-### Novidades
-
-#### Experiência de sumário unificado
-
-* Somente o sumário do ALM é exibido no lado esquerdo do reprodutor.
-
-* O sumário de Captivate own fica oculto quando o módulo é reproduzido no ALM.
-
-* Isso elimina a duplicação, garante uma única fonte confiável para a navegação e libera espaço na tela.
-
-#### Feedback de conclusão visual
-
-* O sumário do ALM mostra marcas de escala verdes (ou dicas visuais equivalentes) indicando conclusão no nível do slide.
-
-* À medida que os alunos avançam pelos slides de Captivate, o sumário do ALM reflete quais slides foram concluídos, alinhando-se às expectativas do aluno para os participantes modernos do curso.
-
-#### Controles de progresso contextuais
-
-* Os controles do reprodutor se adaptarão com base no tipo de slide:
-
-   * Para slides de vídeo:
-
-      * Mostrar uma barra de progresso de tempo, refletindo a reprodução do vídeo.
-
-* Para slides que não são de vídeo:
-
-   * Exibir controles de navegação do slide (próximo slide/slide anterior etc.) em vez de uma barra de tempo não funcional.
-
-      * Isso evita mostrar controles irrelevantes ou que não funcionem em determinados tipos de slide.
-
-#### Navegação simplificada
-
-* A barra de navegação separada do módulo (ALM) e a barra de navegação do curso são mescladas em uma única barra intuitiva.
-
-* Esta navegação unificada:
-
-   * Distingue claramente a movimentação pelo módulo do Captivate em comparação à movimentação de volta para o nível do curso/módulo.
-
-   * Reduz a confusão causada por várias barras com fins de sobreposição.
-
-#### Vinculação de notas confiáveis
-
-* As anotações são vinculadas aos números dos slides em vez de carimbos de data e hora.
-
-* Esta alteração:
-
-   * Corrige falhas de exportação causadas por carimbos de data/hora ausentes ou incorretos.
-
-   * Garante que as anotações possam ser exportadas consistentemente como PDF, com um mapeamento confiável entre as anotações e o contexto do slide ao qual pertencem.
-
-### Principais benefícios
-
-* Experiência mais limpa e com um único reprodutor: os alunos interagem com um sumário e um modelo de navegação, reduzindo a confusão e a carga cognitiva.
-
-* Indicações precisas de conclusão e progresso: os tiques no nível do slide e os controles contextuais ajudam os alunos a entender onde estão e o que resta.
-
-* Anotações e exportações mais confiáveis: ao vincular anotações aos slides em vez de carimbos de data e hora frágeis, os usuários recuperam um fluxo de trabalho confiável de anotações para PDF, mesmo com conteúdo de Captivate baseado em slides.
-
-* Fluxo de trabalho de autor preservado: os autores mantêm a simplicidade da publicação direta de Captivate no ALM, enquanto os alunos obtêm uma experiência de reprodução moderna e integrada sem ônus de criação adicionais.
-
-### Casos de uso
-
-* Os programas de ativação que dependem do Captivate para simulações interativas podem implantar conteúdo no ALM, garantindo que a navegação, o rastreamento da conclusão e as notas funcionem de forma consistente para os alunos.
-
-* As organizações que usam o Captivate como ferramenta de criação de conteúdo principal podem manter a publicação em um clique e evitar a confusão de sumários duplos e controles não funcionais para os alunos.
-
-* As organizações que dependem de notas exportadas do conteúdo de Captivate no ALM (para treinamento, conformidade ou registros) podem acessar o seguinte:
-
-   * As observações são vinculadas corretamente aos slides.
-
-   * Os PDF são gerados conforme esperado.
-
-## Melhoria no cálculo do tempo de aprendizado gasto nas transcrições do aluno
-
-### Visão geral
-
-A Adobe Learning Manager revisou como calcula o tempo de aprendizado nas transcrições do aluno com sua versão de abril de 2026. Anteriormente, a lógica do relatório poderia levar a tempos imprecisos se os alunos deixassem o reprodutor aberto sem se envolver com o conteúdo, causando discrepâncias. O novo método agora controla o tempo ativo com base no envolvimento do usuário, especificamente quando a guia está em foco e quando há atividade do usuário. Essa alteração resulta em dados mais precisos.
-
-Essa atualização aprimora relatórios e painéis, ajudando os administradores a garantir melhor conformidade e acompanhar o progresso do aluno. Após o lançamento, revise suas transcrições do aluno para ver esses aprimoramentos.
-
-O método de cálculo atualizado se concentra no envolvimento real, como foco de guia ativo e interações recentes do usuário, melhorando assim a precisão dos relatórios de tempo nas seguintes áreas:
-
-* Transcrições do aluno (UI)
-* Métricas do Painel de Administração
-* Relatórios de inscrição no curso
-* APIs e conectores
-
-### O que mudou
-
-A coluna **Tempo gasto no aprendizado** em transcrições do aluno agora usa lógica aprimorada para calcular o tempo com mais precisão. Em vez de simplesmente rastrear os tempos de abertura/fechamento do player, o sistema agora distingue entre os períodos ativos e ociosos com base no engajamento do usuário.
-
-* **Tempo ativo**: o tempo quando o aluno está ativamente envolvido (por exemplo, na guia correta, executando ações como rolagem ou exibição de vídeo).
-* **Tempo ocioso**: tempo quando o aluno não está envolvido (por exemplo, alternado por tabulação, nenhuma atividade por mais de 10 minutos), que é excluído do total.
-
-Isso se aplica à maioria dos tipos de módulo, com exceções para módulos SCORM, Captivate e XAPI, que retêm a lógica original.
-
-### Como funciona
-
-O novo cálculo varia de acordo com o tipo de módulo:
-
-* **Módulos de vídeo e áudio**: ativos quando o conteúdo está sendo reproduzido, mesmo que o aluno alterne para outra guia. O foco da guia não é necessário para controlar o tempo de reprodução.
-* **Módulos estáticos (PDF, PPT, Excel etc.)**: ativos se estiverem na guia e executando atividades (movimento do mouse, rolagem, clique, entrada do teclado) nos últimos 10 minutos. Se não houver atividade por 10 minutos, ele alternará para ocioso.
-* **SCORM e Captivate** mantêm a lógica de abertura/fechamento original.
-* A **xAPI** agora usa a detecção de tempo ativo baseada em tabulação, em que o tempo é contado apenas quando a tabulação está ativa. Observe que o conteúdo AICC **não é** suportado.
-* **HTML, LTI e outro conteúdo**: pode variar; verifique as transcrições do aluno para obter precisão.
-
-O tempo ocioso é subtraído, garantindo que apenas o tempo de envolvimento real seja relatado.
+Idle time is subtracted, ensuring only true engagement time is reported.
 
 >[!NOTE]
 >
->Se o notebook entrar no modo de hibernação, o tempo de aprendizado pode não ser rastreado corretamente. Isso ocorre porque o controle de atividades pausa enquanto o sistema está suspenso e reinicia somente quando o laptop é ativado.
+>If your laptop goes into sleep mode, learning time may not be tracked correctly. This is because activity tracking pauses while the system is asleep and resumes only when the laptop wakes up.
 
 
-### Tabela de resumo
+### Summary table
 
-| **Tipo de módulo** | **Tempo ativo (contado)** | **Tempo ocioso (excluído)** |
+| **Module type** | **Active time (counted)** | **Idle time (excluded)** |
 | --- | --- | --- |
-| **Vídeo/Áudio** | Tempo de reprodução | Não iniciado; finalizado; pausado **\>10 min** |
-| **Estático (PDF/PPT/DOC)** | Atividade **e** ativa da guia nos últimos **10 min** | Nenhuma atividade **\>10 min**; guia inativa |
-| **SCORM** | Tempo relatado pelo tempo de execução do conteúdo | Ocioso não pode ser detectado |
-| **Captivate** | Temporização baseada em slide | Ocioso não pode ser detectado |
-| **instrução** | Guia ativa | Guia inativa |
-| **HTML** | Tempo de abertura do reprodutor com a guia ativa | Guia inativa |
-| **Produtor/consumidor de LTI** | Se o conteúdo de LTI for reproduzido no player do ALM (ou seja, o ALM está consumindo conteúdo de LTI hospedado em outro LMS que atua como o Produtor), essa lógica de tempo gasto será aplicada.<br><br>No entanto, se o conteúdo for reproduzido fora do LMS (ou seja, o conteúdo estiver hospedado no ALM, o ALM será o Produtor, mas a reprodução acontecerá em um player externo), essa parte da lógica de cálculo de tempo não será aplicada.  <br>**Observação**: o consumidor de LTI não é compatível com o Adobe Learning Manager. | Guia inativa |
+| **Video / Audio** | Playback time | Not started; ended; paused **\>10 min** |
+| **Static (PDF/PPT/DOC)** | Tab active **and** activity in last **10 min** | No activity **\>10 min**; tab inactive |
+| **SCORM** | Time reported by content runtime | Idle cannot be detected |
+| **Captivate** | Slide‑based timing | Idle cannot be detected |
+| **xAPI** | Tab active | Tab inactive |
+| **HTML** | Player open time with tab active | Tab inactive |
+| **LTI Producer/Consumer** | If LTI content is played within ALM's player (that is, ALM is consuming LTI content hosted on another LMS acting as the Producer), then this time‑spent logic applies.<br><br>However, if the content is played outside the LMS (that is, the content is hosted in ALM, then ALM is the Producer, but the playback happens in an external player), this portion of the time‑calculation logic does not apply.  <br>**Note**: LTI Consumer is not supported in Adobe Learning Manager. | Tab inactive |
 
-**Observação**:
+**Note**:
 
-* **Revisitas e sessões paralelas**: conte como ativo quando as condições acima forem atendidas.
-* **Todos os dispositivos, navegadores e idiomas**: incluído; o uso de dispositivos móveis offline é adicionado após a sincronização.
+* **Revisits and parallel sessions**: Count as active when the above conditions are met.
+* **All devices, browsers, languages**: Included; offline mobile usage is added after sync.
 
-### Benefícios do novo cálculo
+### Benefits of the new calculation
 
-* **Relatórios precisos**: elimina os tempos excessivos de jogadores autônomos, fornecendo durações de aprendizado realistas.
-* **Melhor conformidade**: oferece suporte a controle preciso para treinamento obrigatório (por exemplo, requisito mensal de 5 horas de uma empresa).
-* **Painéis aprimorados**: os gráficos de atividade do usuário e os relatórios de tempo gasto agora refletem o engajamento real.
-* **Insights do aluno**: ajuda os administradores a identificarem o progresso genuíno e abordarem alunos desconectados.
+* **Accurate reporting**: Eliminates inflated times from unattended players, providing realistic learning durations.
+* **Better compliance**: Supports accurate tracking for mandatory training (for example, a company's 5-hour monthly requirement).
+* **Improved dashboards**: User activity graphs and time-spent reports now reflect actual engagement.
+* **Learner insights**: Helps administrators identify genuine progress and address disengaged learners.
 
-### Impacto dos relatórios e das análises
+### Reporting and analytics impact
 
-* **Transcrições do aluno:** o “Tempo gasto no aprendizado” agora reflete o **envolvimento real**.
-* **Painel de Administração:** as métricas que incluem tempo (por exemplo, blocos de “tempo gasto”, tendências) mostrarão valores **mais baixos, mas mais realistas** em cenários em que o tempo ocioso anteriormente inflacionou os resultados.
-* **Relatórios de inscrição do curso:** os campos relacionados ao tempo adotam o **novo cálculo** após o lançamento.
-* **Observação de comparabilidade:** como os dados históricos não são recalculados, as análises de séries de tempo que abrangem a data de lançamento podem mostrar uma **alteração de etapa**. Considere anotação ou segmentação por data nas ferramentas de análise.
+* **Learner Transcripts:** "Learning Time Spent" now reflects **actual engagement**.
+* **Admin Dashboard:** Metrics that include time (for example, "time spent" tiles, trends) will show **lower but more realistic** values in scenarios where idle time previously inflated results.
+* **Course Enrollment reports:** Time‑related fields adopt the **new calculation** post‑launch.
+* **Comparability note:** Because historical data is not recalculated, time‑series analyses that span the release date may show a **step change**. Consider annotation or segmentation by date in analytics tools.
 
-### API e conectores
+### API and connectors
 
-* **Não há alterações de esquema** em pontos de extremidade/campos existentes que relatam o tempo gasto.
-* **A semântica do campo** foi atualizada para refletir o _cálculo de tempo ativo_ para as sessões **após** a inicialização do recurso.
-* **Conectores e exportações** que consomem campos gastos com tempo receberão automaticamente os valores atualizados daqui para frente.
+* **No schema changes** to existing endpoints/fields that report time spent.
+* **Field semantics** are updated to reflect _active‑time calculation_ for sessions **after** the feature launch.
+* **Connectors and exports** consuming time‑spent fields will automatically receive the updated values going forward.
 
-### Compatibilidade retroativa e migração de dados
+### Backward compatibility and data migration
 
-* **Sessões históricas:** não recalculadas.
-* **Novas sessões:** use o **novo** cálculo de tempo ativo.
-* **Períodos mistos:** para auditorias ou relatórios longitudinais, segmente por **pré/pós-lançamento** para evitar interpretações incorretas.
+* **Historical sessions:** Not recalculated.
+* **New sessions:** Use the **new** active‑time calculation.
+* **Mixed periods:** For audits or longitudinal reporting, segment by **pre‑/post‑launch** to avoid misinterpretation.
 
-### Limitações conhecidas
+### Known limitations
 
-* O **Conteúdo interativo** (SCORM/Captivate) continua a depender do tempo fornecido pelo conteúdo; a detecção de ociosidade no conteúdo não está disponível.
-* O **conteúdo baseado em Iframe** (HTML/xAPI) limita a detecção de interações de granulação fina; o foco de tabulação é usado em seu lugar.
+* **Interactive content** (SCORM/Captivate) continues to rely on content‑provided timing; idle detection within the content is not available.
+* **Iframe‑based content** (HTML/xAPI) limits detection of fine‑grained interactions; tab focus is used instead.
 
-### Perguntas frequentes
+### Frequently asked questions
 
-**Esta atualização altera registros históricos?**
+**Does this update change historical records?**
 
-Não. A alteração se aplica somente a sessões após a inicialização do recurso.
+No. The change applies only to sessions after the feature launch.
 
-**Como verifico as alterações?**
+**How do I verify the changes?**
 
-Verifique as transcrições do aluno para módulos recentes; compare os tempos com as durações esperadas.
+Check Learner Transcripts for recent modules; compare times to expected durations.
 
-**Isso afeta todas as contas?**
+**Does this affect all accounts?**
 
-Sim, é uma atualização global para todas as contas da Adobe Learning Manager.
+Yes, it's a global update for all Adobe Learning Manager accounts.
 
-**Os alunos precisam realizar uma ação?**
+**Do learners need to take action?**
 
-Não. A alteração é automática e transparente para os alunos.
+No. The change is automatic and transparent to learners.
 
-**E se os alunos deixarem o conteúdo aberto?**
+**What if learners leave content open?**
 
-O tempo ocioso agora está excluído, evitando a geração de relatórios em excesso.
+Idle time is now excluded, preventing over-reporting.
 
-**As sessões de vídeo/áudio são pausadas automaticamente quando a guia está inativa?**
+**Are video/audio sessions auto‑paused when the tab is inactive?**
 
-Não. O comportamento de reprodução não foi alterado. O tempo é excluído quando pausado > 10 minutos ou quando não estiver jogando ativamente.
+No. Playback behavior is unchanged. Time is excluded when paused >10 minutes or when not actively playing.
 
-**A atividade móvel offline será refletida?**
+**Will offline mobile activity be reflected?**
 
-Sim O uso offline é incluído quando o dispositivo é sincronizado.
+Yes. Offline usage is included when the device syncs.
 
-**O que devo fazer se meus painéis agora mostrarem médias mais baixas?**
+**What should I do if my dashboards now show lower averages?**
 
-Isso é esperado onde o tempo ocioso teve resultados anteriormente inflados. Anote os painéis e ajuste os destinos conforme necessário.
+This is expected where idle time had previously inflated results. Annotate dashboards and adjust targets as needed.
 
-**Existem pré-requisitos?**
+**Are there any prerequisites?**
 
-Nenhuma; a alteração é automática.
+None; the change is automatic.
 
-## Atualização dos relatórios de transcrição de aprendizado para administradores
+## Update to Learning Transcript reports for Administrators
 
-Estamos atualizando os relatórios de Transcrição de aprendizado (LT) para que os administradores ofereçam melhor suporte às avaliações baseadas em lista de verificação e ao feedback do revisor.
+We are updating the Learning Transcript (LT) reports for Admins to better support checklist-based evaluations and reviewer feedback.
 
-## O que está mudando?
+## What is changing?
 
-### &#x200B;1. Renomear coluna na transcrição do aprendizado do administrador
+### 1. Column Rename in Admin Learning Transcript
 
-A coluna **Envio de comentário** existente no Aprendizado do Administrador
-A transcrição é:
+The existing **Submission comment** column in the Admin Learning
+Transcript is:
 
-1. **Renomeado para:** `Reviewer's remarks`
+1. **Renamed to:** `Reviewer's remarks`
 
-### Dados mostrados nesta coluna:
+### Data shown in this column:
 
-* **Para módulos de envio:**
-A coluna continua a exibir o comentário de envio (sem alteração de comportamento).
+* **For submission modules:**
+   The column continues to display the submission comment (no behavioral change).
 
-* **Para módulos de lista de verificação:**
-A coluna agora exibe o comentário de avaliação (as observações do revisor da lista de verificação).
+* **For checklist modules:**
+   The column now displays the evaluation comment (the checklist reviewer's remarks).
 
-Essa alteração se aplica a todas as origens de LT de administrador:
+This change applies to all Admin LT sources:
 
-* LT baixado da interface do administrador
-* LT obtido por meio da API de trabalho
-* LT gerado através de conectores
+* LT downloaded from the Admin UI
+* LT obtained via the Job API
+* LT generated via Connectors
 
-Após essa alteração, a mesma coluna contém: - Comentários de envio para módulos de envio
+After this change, the same column carries: - Submission comments for submission modules
 
-* Comentários de avaliação para módulos de lista de verificação
+* Evaluation comments for checklist modules
 
-Sob o novo nome de cabeçalho **Comentários do revisor**.
+Under the new header name **Reviewer's remarks**.
 
-### &#x200B;2. Nova coluna nas exportações de transcrição de aprendizado baseado em conector
+### 2. New Column in Connector-Based Learning Transcript Exports
 
-Para transcrições de aprendizado exportadas pelo conector:
+For connector-exported Learning Transcripts:
 
-* Uma nova coluna chamada **Comentários do revisor** é adicionada ao final do relatório.
-* Essa coluna contém os comentários do revisor, alinhados com o comportamento descrito acima:
-   * Comentários de envio para módulos de envio
-   * Comentários de avaliação para módulos de lista de verificação
+* A new column named **Reviewer's remarks** is added at the end of the report.
+* This column contains the reviewer's comments, aligned with the behavior described above:
+    * Submission comments for submission modules
+    * Evaluation comments for checklist modules
 
-## Impacto nas integrações e automações existentes
+## Impact on existing integrations and automations
 
-Se você estiver usando relatórios de transcrição de aprendizado em integrações personalizadas, automações ou ferramentas de relatórios externos, analise os seguintes cenários:
+If you are using Learning Transcript reports in custom integrations, automations, or external reporting tools, please review the following scenarios:
 
-| Cenário | Impacto | Ação necessária |
+| Scenario | Impact | Action required |
 |----------|--------|----------------|
-| É possível identificar campos no LT do administrador pelo nome da coluna (por exemplo, “Comentário de envio”) | O cabeçalho da coluna é alterado para Comentários do revisor. | Sim Atualize qualquer mapeamento ou lógica que faça referência ao comentário de Envio para usar as observações do Revisor. |
-| Os campos no LT de administração são identificados apenas pela posição da coluna (com base no índice) | A posição desta coluna permanece a mesma no Admin LT. | Normalmente, nenhuma ação. Se a sua lógica não depender do texto do cabeçalho, nenhuma alteração será necessária para o LT do administrador, basta alterar o nome da coluna se atualmente a coluna “Comentários de envio” for usada. |
-| Use o LT exportado pelo conector e use uma contagem de colunas fixa ou uma posição específica na última coluna | Uma nova coluna é anexada ao final do relatório. | Sim Ajuste a lógica de análise ou validação para considerar uma coluna extra no final do arquivo. |
-| Use o LT exportado pelo conector e mapeie por nome de coluna | Uma nova coluna Comentários do revisor está disponível. | Opcional. Nenhuma alteração é necessária, a menos que você queira consumir os novos dados de comentários do revisor/lista de verificação. |
+| You identify fields in Admin LT by column name (for example, "Submission comment") | The column header changes to Reviewer's remarks. | Yes. Update any mappings or logic that reference Submission comment to use Reviewer's remarks. |
+| You identify fields in Admin LT by column position only (index-based) | The position of this column remains the same in Admin LT. | Usually no action. If your logic does not depend on the header text, no change is needed for Admin LT, just change the column name if currently 'Submission Comments' column is used. |
+| You use connector-exported LT and rely on a fixed column count or specific last-column position | A new column is appended at the end of the report. | Yes. Adjust parsing or validation logic to account for an extra column at the end of the file. |
+| You use connector-exported LT and map by column name | A new column Reviewer's remarks is available. | Optional. No change is required unless you want to consume the new reviewer/checklist comments data. |
 
-**O que você deve fazer**
+**What you should do**
 
-* Revise todos os scripts, trabalhos de ETL, painéis ou integrações que consomem relatórios de Transcrição de aprendizado do administrador.
-* Se você fizer referência ao antigo nome da coluna _Comentário de envio_, atualize sua configuração ou código para usar os comentários do Revisor sobre o novo nome da coluna.
-* Se você usar exportações de LT baseadas em conector e assumir um número fixo de colunas ou uma última coluna fixa, atualize sua lógica para manipular uma coluna adicional no final da exportação.
+* Review any scripts, ETL jobs, dashboards, or integrations that consume Admin Learning Transcript reports.
+* If you reference the old column name _Submission comment_, update your configuration or code to use the new column name Reviewer's remarks.
+* If you use connector-based LT exports and assume a fixed number of columns or a fixed last column, update your logic to handle an additional column at the end of the export.
 
-Se a sua implementação atual depende exclusivamente das posições da coluna no Admin LT e não valida ou depende do texto do cabeçalho da coluna, nenhuma alteração é necessária para o próprio Admin LT. Somente exportações de conectores precisam de atenção quando você depende de um layout fixo.
+If your current implementation relies purely on column positions in Admin LT and does not validate or depend on the column header text, no change is required for the Admin LT itself. Only connector exports need attention when you depend on a fixed layout.
 
 
-## Experiência não conectada no Experience Builder
+## Non-logged-in experience in Experience Builder
 
-A experiência não conectada no Experience Builder permite que as organizações exibam o conteúdo de aprendizado e as páginas do portal para todos os visitantes, incluindo aqueles que não fizeram logon. Esse recurso foi desenvolvido para atrair, informar e envolver alunos potenciais, oferecendo uma visualização suave e com marca de suas ofertas de treinamento antes de exigir que eles façam logon ou se inscrevam.
+The non-logged-in experience in Experience Builder allows organizations to display their learning content and portal pages to all visitors, including those who have not signed in. This feature is designed to attract, inform, and engage prospective learners by offering a smooth and branded preview of your training offerings before requiring them to log in or enroll.
 
-Esse recurso permite criar e personalizar páginas voltadas para o público usando a mesma interface de arrastar e soltar amigável encontrada no Experience Builder padrão. Você pode exibir catálogos, categorias, caminhos e conteúdo estático avançado do curso, incluindo imagens, texto, HTML e iframes incorporados, para qualquer pessoa que visitar seu portal. Isso simplifica a tarefa de destacar seus programas de aprendizado, promover novos cursos e fornecer informações essenciais a um público mais amplo.
+This feature lets you create and customize public-facing pages using the same user-friendly drag-and-drop interface found in the standard Experience Builder. You can showcase course catalogs, categories, paths, and rich static content, including images, text, HTML, and embedded iframes, for anyone visiting your portal. This makes it simple to highlight your learning programs, promote new courses, and provide essential information to a broader audience.
 
-Os visitantes podem navegar no catálogo, visualizar detalhes sobre cursos e instâncias e utilizar a pesquisa global para explorar as oportunidades de treinamento disponíveis. No entanto, ações que exigem a identidade de um usuário, como se inscrever em um curso, acessar recursos personalizados (como Calendário, Conformidade, Quadro de classificação ou Aprendizado social) ou realizar treinamento exigirão que o visitante faça logon. Essa abordagem garante que informações confidenciais e personalizadas permaneçam seguras, ao mesmo tempo em que permite uma experiência de visualização abrangente.
+Visitors can browse the catalog, view details about courses and instances, and utilize the global search to explore available training opportunities. However, actions that require a user's identity, such as enrolling in a course, accessing personalized features (like, Calendar, Compliance, Leaderboard, or Social Learning), or consuming training, will prompt the visitor to log in. This approach ensures that sensitive and personalized information remains secure while still allowing for a comprehensive preview experience.
 
-Os administradores têm a capacidade de configurar quais páginas e widgets ficam visíveis para usuários que não estão conectados, garantindo que apenas o conteúdo adequado seja exibido. As páginas podem ser configuradas para serem acessíveis a usuários conectados e não conectados ou exclusivamente para um desses grupos. O Experience Builder oferece um modo de visualização, permitindo que você veja exatamente como as páginas serão exibidas aos visitantes antes que sejam publicadas.
+Administrators have the ability to configure which pages and widgets are visible to users who are not logged in, ensuring that only suitable content is displayed. Pages can be set to be accessible to both logged-in and non-logged-in users, or exclusively for one of these groups. The Experience Builder offers a preview mode, allowing you to see exactly how your pages will appear to visitors before they are published.
 
-Para ativar esse recurso, o administrador de integração do ALM deve ativar o Conector de Acesso a Dados de Treinamento. Esse conector garante que os metadados do curso estejam acessíveis publicamente.
+To enable this feature, your ALM integration administrator must activate the Training Data Access Connector. This connector ensures that course metadata is publicly accessible.
 
-A identidade visual e a localização são totalmente compatíveis, permitindo que você personalize títulos de página, favicons e configurações de idioma para alinhar com a identidade da sua organização e atender às necessidades do seu público. Como parte da transição para essa experiência aprimorada, o recurso de página inicial herdada para usuários não conectados será descontinuado. Portanto, todo conteúdo público novo deve ser criado usando o Experience Builder.
+Branding and localization are fully supported, enabling you to customize page titles, favicons, and language settings to align with your organization's identity and meet your audience's needs. As part of the transition to this enhanced experience, the legacy homepage feature for non-logged-in users will be deprecated. Therefore, all new public content should be created using Experience Builder.
 
-### Finalidade do recurso
+### Purpose of the feature
 
-A experiência não conectada no Experience Builder permite que as organizações exibam publicamente seu conteúdo de aprendizado e páginas do portal para qualquer pessoa, sem exigir que os usuários façam logon. Isso ajuda a atrair, informar e envolver alunos potenciais, fornecendo uma visualização do treinamento e dos recursos disponíveis antes que a inscrição ou a autenticação seja necessária.
+The non-logged-in experience in Experience Builder allows organizations to publicly showcase their learning content and portal pages to anyone, without requiring users to log in. This helps attract, inform, and engage potential learners by providing a preview of available training and resources before enrollment or authentication is needed.
 
-### Casos de uso reais em experiência não conectada
+### Real-world use cases on non-logged-in experience
 
-* **Marketing e extensão**: as organizações podem promover seus programas de treinamento para públicos externos, como clientes potenciais, parceiros ou candidatos a emprego, tornando catálogos de cursos e detalhes do programa acessíveis publicamente.
-* **Exploração de pré-inscrição**: os alunos podem procurar cursos disponíveis, visualizar visões gerais e explorar categorias antes de decidir se inscrever ou fazer logon, ajudando-os a tomar decisões de inscrição informadas.
-* **Portais de treinamento corporativo**: as empresas podem fornecer um portal público para informações de conformidade ou integração, permitindo que novos contratados ou prestadores de serviço vejam qual treinamento está disponível antes de receberem credenciais.
-* **Páginas de aterrissagem de evento ou campanha**: as organizações que executam campanhas de aprendizado ou eventos podem criar páginas públicas dedicadas para destacar cursos, agendas ou recursos em destaque, aumentando a visibilidade e o envolvimento.
-* **SEO e capacidade de descoberta**: ao tornar públicas páginas e catálogos selecionados, as organizações melhoram a visibilidade de seus mecanismos de pesquisa, ajudando as pessoas a descobrir suas ofertas de aprendizado online.
+* **Marketing and outreach**: Organizations can promote their training programs to external audiences, such as prospective customers, partners, or job applicants, by making course catalogs and program details publicly accessible.
+* **Pre-enrollment exploration**: Learners can browse available courses, view overviews, and explore categories before deciding to sign up or log in, helping them make informed enrollment decisions.
+* **Corporate training portals**: Companies can provide a public-facing portal for compliance or onboarding information, allowing new hires or contractors to see what training is available before they receive credentials.
+* **Event or campaign landing pages**: Organizations running learning campaigns or events can create dedicated public pages to highlight featured courses, schedules, or resources, increasing visibility and engagement.
+* **SEO and discoverability**: By making select pages and catalogs public, organizations improve their search engine visibility, helping people to discover their learning offerings online.
 
-### Principais conceitos de experiência não conectada
+### Key concepts of non-logged in experience
 
-A experiência não conectada do Experience Builder permite exibir publicamente conteúdo de aprendizado e páginas do portal, permitindo que os visitantes naveguem sem fazer logon.
+Experience Builder's non-logged-in experience lets you publicly showcase learning content and portal pages, allowing visitors to browse without logging in.
 
-* **Criar páginas e menus públicos**: você configura páginas e um único menu que todos podem acessar, independentemente do status de logon.
-* **Adicionar apenas widgets com suporte**: você inclui widgets que não precisam de contexto de usuário (categorias, cursos e caminhos de aprendizado, caixa de conteúdo, HTML, iframe), enquanto o sistema oculta widgets específicos do usuário.
-* **Configurar comportamento de página adaptável**: você decide se uma página é exibida para usuários conectados e não conectados, e o sistema adapta widgets visíveis e conteúdo com base no estado de logon.
-* **Visualize as duas experiências**: use opções de visualização para ver como as páginas são exibidas para usuários conectados e não conectados, com diferenças na visibilidade e no conteúdo do widget.
-* **Habilitar pesquisa global**: os visitantes pesquisam cursos e conteúdo, mas só obtêm recursos de pesquisa básicos sem integração avançada com IA.
-* **Permitir que os visitantes pesquisem o catálogo e as visões gerais do curso**: os visitantes exploram páginas do catálogo, detalhes do curso e instâncias, mas devem fazer logon para se inscrever ou acessar recursos personalizados.
-* **Personalizar identidade visual e localização**: defina favicons e configurações de idioma para atender às necessidades de identidade visual e acessibilidade da sua organização.
-* **Habilitar o Conector de Acesso a Dados de Treinamento**: ative este conector para exportar metadados do curso para exibição pública, mantendo atualizadas as páginas não conectadas.
-* **Tratar alto tráfego com infraestrutura compartilhada**: o sistema gerencia grandes volumes de visitantes anônimos usando recursos compartilhados e limitação de taxa.
-* **Otimizar para SEO**: a plataforma prepara páginas públicas para indexação do mecanismo de pesquisa, tornando mais simples de localizar o conteúdo de aprendizado.
+* **Create public pages and menus**: You set up pages and a single menu that everyone can access, regardless of login status.
+* **Add only supported widgets**: You include widgets that don't need user context (categories, courses and learning paths, content box, HTML, iframe), while the system hides user-specific widgets.
+* **Configure adaptive page behavior**: You decide if a page appears for both logged in and non logged in users, and the system adapts visible widgets and content based on login state.
+* **Preview both experiences**: You use preview options to see how pages look for logged in and non logged in users, with differences in widget visibility and content.
+* **Enable global search**: Visitors search for courses and content, but only get basic search features without advanced AI integration.
+* **Let visitors browse catalog and course overviews**: Visitors explore catalog pages, course details, and instances, but must log in to enroll or access personalized features.
+* **Customize branding and localization**: You set favicons, and language settings to match your organization's branding and accessibility needs.
+* **Enable the Training Data Access Connector**: You activate this connector to export course metadata for public display, keeping non-logged-in pages up to date.
+* **Handle high traffic with shared infrastructure**: The system manages large volumes of anonymous visitors using shared resources and rate limiting.
+* **Optimize for SEO**: The platform prepares public pages for search engine indexing, making your learning content simpler to find.
 
-### Pré-requisitos para experiência não conectada
+### Prerequisites for non-logged in experience
 
-* Você deve ativar o Conector de acesso a dados de treinamento no administrador de integração antes de usar a experiência não conectada.
-* O conector exporta os metadados do curso para um repositório público, que mantém as páginas não conectadas atualizadas.
+* You must enable the Training Data Access Connector in the integration admin before you can use the non logged in experience.
+* The connector exports course metadata to a public repository, which keeps non logged in pages updated.
 
-#### Inicialização do conector de acesso a dados de treinamento
+#### Training Data Access connector initialization
 
-O conector TDA (Training Data Access, acesso a dados de treinamento) é um pré-requisito crítico para ativar o novo recurso criador de experiências não conectado no ALM. Esse conector facilita a exportação de metadados de treinamento, permitindo que seu portal exiba as informações do curso para os usuários que não estão conectados.
+The Training Data Access (TDA) connector is a critical prerequisite for enabling the new non-logged-in experience builder feature in ALM. This connector facilitates the export of training metadata, allowing your portal to display course information to users who are not logged in.
 
-* **Ativação do conector**: você deve habilitar o conector TDA no painel do administrador de integração. Essa etapa ativa a funcionalidade do criador de experiências não conectado e torna visíveis as opções de interface relevantes na interface do administrador.
-* **Exportação de metadados**: depois de ativado, o conector exporta metadados de treinamento essenciais (como nome do curso, descrição, visão geral, classificação, duração e habilidades) do ALM para um repositório público. Esses dados são usados para preencher páginas e widgets que não estão conectados.
-* **Agendamento e sincronização**: o processo de exportação pode ser agendado (por exemplo, diariamente) para garantir que seu portal reflita as atualizações mais recentes do curso. As alterações feitas no ALM aparecerão em suas páginas não conectadas após o próximo ciclo de exportação, sujeitas ao armazenamento em cache e à frequência de exportação.
-* **Disponibilidade de recursos**: os recursos do Experience Builder não conectados, incluindo criação de menus, suporte a widgets e visibilidade de catálogo, só são acessíveis depois que o conector TDA é inicializado. Se o conector não estiver ativado, o Experience Builder permanecerá limitado a cenários de usuário conectado.
-* **Migração e suporte**: para contas que estão migrando de recursos de home page não conectados, inicializar o conector TDA é a primeira etapa para a migração. Isso garante que você possa usar a flexibilidade e os recursos aprimorados do novo criador de experiências.
+* **Connector activation**: You must enable the TDA connector from the integration admin panel. This step enables the non-logged-in experience builder functionality and makes relevant UI options visible in your admin interface.
+* **Metadata export**: Once activated, the connector exports essential training metadata (such as course name, description, overview, rating, duration, and skills) from ALM to a public repository. This data is used to populate non-logged-in pages and widgets.
+* **Scheduling and synchronization**: The export process can be scheduled (for example, daily) to ensure your portal reflects the latest course updates. Changes made in ALM will appear on your non-logged-in pages after the next export cycle, subject to caching and export frequency.
+* **Feature availability**: The non-logged-in experience builder features, including menu creation, widget support, and catalog visibility, are only accessible after the TDA connector is initialized. If the connector is not enabled, your experience builder will remain limited to logged-in user scenarios.
+* **Migration and support**: For accounts transitioning from legacy non-logged-in homepage features, initializing the TDA connector is the first step toward migration. It ensures you can use the new experience builder's flexibility and enhanced capabilities.
 
 
-### O que os visitantes podem fazer sem fazer logon
+### What visitors can do without logging in
 
-Em um site não conectado do Experience Builder, os visitantes podem navegar pelo catálogo de treinamento abrindo a página do catálogo de catálogos públicos. Eles podem usar filtros como catálogo, produto, função, tipo, habilidades e tags, dependendo de como você configurou o site. Os visitantes também podem pesquisar treinamentos usando a barra de pesquisa global no cabeçalho (se ativada) e exibir os resultados da pesquisa diretamente na página do catálogo.
+On a non-logged-in Experience Builder site, visitors can browse the training catalog by opening the catalog page for public catalogs. They can use filters such as catalog, product, role, type, skills, and tags, depending on how you have configured the site. Visitors can also search for trainings using the global search bar in the header (if enabled), and view search results directly on the catalog page.
 
-Os visitantes podem exibir detalhes do treinamento abrindo páginas de visão geral para cursos, programações de aprendizado e certificações. Essas páginas exibem os principais metadados, incluindo título, descrição, autor, duração, formato, tags e habilidades.
+Visitors can view training details by opening overview pages for courses, learning paths, and certifications. These pages display key metadata, including the title, description, author, duration, format, tags, and skills.
 
-Além disso, os visitantes podem explorar conteúdo estático e promocional. Eles podem ler blocos de texto e conteúdo avançado, exibir banners e blocos de imagens e interagir com iframes incorporados, como microsites externos, vídeos ou ferramentas.
+In addition, visitors can explore static and promotional content. They can read text and rich content blocks, view banners and image tiles, and interact with embedded iframes such as external microsites, videos, or tools.
 
-Se um visitante clicar em Inscrever-se ou tentar iniciar o treinamento, o sistema solicitará que faça logon ou se inscreva. Após o login bem-sucedido, o visitante é redirecionado para a página apropriada, seja ela a página inicial, uma página personalizada ou o treinamento específico selecionado.
+If a visitor clicks enroll or tries to start training, the system prompts them to log in or sign up. After successful login, the visitor is redirected to the appropriate page, whether it is the home page, a custom page, or the specific training they selected.
 
-### O que não está disponível sem efetuar login
+### What's not available without logging in
 
-Em um site não conectado do Experience Builder, os visitantes não podem acessar recursos ou conteúdo que exigem autenticação do usuário. Eles não podem se inscrever em treinamentos, iniciar ou consumir cursos ou acessar widgets personalizados, como Meu aprendizado, Calendário, Conformidade, Quadro de classificação ou Aprendizado social. Esses widgets dependem de dados específicos do usuário e só ficam disponíveis após o login.
+On a non-logged-in Experience Builder site, visitors cannot access features or content that require user authentication. They are unable to enroll in trainings, start or consume courses, or access personalized widgets such as My Learning, Calendar, Compliance, Leaderboard, or Social Learning. These widgets depend on user-specific data and are only available after logging in.
 
-Os visitantes também não podem executar ações como se inscrever em um curso ou acessar qualquer conteúdo que exija acompanhamento do progresso ou do contexto do usuário. A tentativa de se inscrever ou iniciar um treinamento solicita que o visitante faça logon ou se inscreva antes de continuar.
+Visitors also cannot perform actions like enrolling in a course or accessing any content that requires tracking progress or user context. Attempting to enroll or start a training prompts the visitor to log in or sign up before proceeding.
 
-### Widgets compatíveis em modo não conectado
+### Supported widgets in non-logged-in mode
 
-No modo não conectado, somente os widgets que não exigem dados específicos do usuário são compatíveis. São eles:
+In non-logged-in mode, only widgets that do not require user-specific data are supported. These include:
 
-* O widget Categorias, que exibe as categorias de treinamento disponíveis.
-* Widget Cursos e caminhos, que mostra cursos e caminhos de aprendizado do catálogo público.
-* Caixa Conteúdo, para adicionar texto estático, imagens ou conteúdo promocional.
-* widget HTML, para incorporar o conteúdo de HTML personalizado.
-* Widget Iframe, para exibir sites, vídeos ou ferramentas externas na página.
-* Os widgets que exigem contexto de usuário, como Meu aprendizado, Calendário, Conformidade, Quadro de classificação e Aprendizado social, não estão disponíveis no modo não conectado.
+* Categories widget, which displays available training categories.
+* Courses and paths widget, which shows courses and learning paths from the public catalog.
+* Content box, for adding static text, images, or promotional content.
+* HTML widget, for embedding custom HTML content.
+* Iframe widget, for displaying external sites, videos, or tools within the page.
+* Widgets that require user context, such as My Learning, Calendar, Compliance, Leaderboard, and Social Learning, are not available in non-logged-in mode.
 
-### Páginas e menus na experiência não conectada
+### Pages and menus in non-logged-in experience
 
-* Somente um menu não conectado é suportado, visível para todos os visitantes sem autenticação.
-* As páginas podem ser adicionadas a menus conectados e não conectados; se uma página estiver em ambos, ela adapta seus widgets e conteúdo com base no estado de logon do usuário.
-* Menus não conectados não têm direcionamento de público ou personalização. Todos veem o mesmo conjunto de páginas.
-* Os widgets não compatíveis com o modo não conectado são ocultados automaticamente; o layout da página se ajusta para preencher as lacunas.
-* O gerenciamento de menus e páginas (adição, visualização, exclusão) é semelhante ao modo conectado, mas com adaptações para restrições não conectadas.
+* Only one non-logged-in menu is supported, visible to all visitors without authentication.
+* Pages can be added to both logged-in and non-logged-in menus; if a page is in both, it adapts its widgets and content based on the user's login state.
+* Non-logged-in menus do not have audience targeting or personalization. Everyone sees the same set of pages.
+* Widgets not supported in non-logged-in mode are hidden automatically; page layout adjusts to fill gaps.
+* Menu and page management (adding, previewing, deleting) is like logged-in mode, but with adaptations for non-logged-in constraints.
 
-### Comportamento de pesquisa e catálogo
+### Search and catalog behavior
 
-No modo não conectado, os usuários podem acessar a página do catálogo e usar a pesquisa para procurar cursos e programações de aprendizado disponíveis. A página do catálogo exibe todos os cursos públicos, juntamente com os filtros e a funcionalidade de pesquisa, seguindo as mesmas configurações de conta que no modo conectado. Quando um usuário pesquisa, os resultados aparecem na página do catálogo e os usuários podem visualizar as páginas de visão geral do curso e da instância sem fazer logon. No entanto, ações como inscrição exigem logon.
+In non-logged-in mode, users can access the catalog page and use search to browse available courses and learning paths. The catalog page displays all public courses, along with filters and search functionality, following the same account settings as in logged-in mode. When a user searches, the results appear on the catalog page, and users can view course and instance overview pages without logging in. However, actions like enrollment require login.
 
-Se um usuário tentar se inscrever, o sistema exigirá que ele faça logon primeiro. A pesquisa por usuários não conectados é mais simples do que a pesquisa por usuários conectados e não inclui recursos avançados, como a integração do Assistente do AI.
+If a user attempts to enroll, the system requires them to log in first. The search for non-logged-in users is simpler than that for logged-in users and does not include advanced features like AI Assistant integration.
 
-### Implementação técnica
+### Technical implementation
 
-#### Configuração do conector de acesso a dados de treinamento
+#### Training data access connector setup
 
-Você deve ativar o conector de acesso a dados de treinamento no painel do administrador de integração antes de usar o recurso criador de experiências não conectado. Esse conector exporta metadados de treinamento do ALM para um repositório público, tornando-o acessível por meio de APIs para páginas não conectadas. A configuração do conector é um pré-requisito para ativar o recurso e garante que seu portal exiba informações de treinamento atualizadas.
+You must enable the training data access connector in the integration admin panel before you can use the non-logged-in experience builder feature. This connector exports training metadata from ALM to a public repository, making it accessible via APIs for your non-logged-in pages. The connector setup is a prerequisite for activating the feature and ensures your portal displays up-to-date training information.
 
-#### Exportação e sincronização de metadados
+#### Metadata export and synchronization
 
-O conector exporta os principais campos de metadados, como nome do curso, visão geral, descrição, classificação, duração e habilidades. Você pode agendar exportações (por exemplo, diariamente) para manter seu portal sincronizado com o ALM. Nem todos os campos de metadados podem ser incluídos; consulte a equipe de engenharia para obter uma lista completa. Os dados exportados são usados para preencher páginas não conectadas e as alterações no ALM aparecerão após o próximo ciclo de exportação.
+The connector exports key metadata fields such as course name, overview, description, rating, duration, and skills. You can schedule exports (for example, daily) to keep your portal synchronized with ALM. Not all metadata fields may be included; consult engineering for a complete list. Exported data is used to populate non-logged-in pages, and changes in ALM will appear after the next export cycle.
 
-#### Frequência de cache e exportação
+#### Caching and export frequency
 
-O sistema usa a frequência de exportação de back-end e o cache de front-end para gerenciar as atualizações de dados. As alterações feitas no ALM são refletidas em seu portal após a exportação agendada e a atualização do cache. Algumas atualizações podem não aparecer imediatamente devido a esses mecanismos. Se precisar de atualizações mais rápidas, ajuste o agendamento de exportação ou limpe o cache conforme necessário.
+The system uses backend export frequency and frontend caching to manage data updates. Changes made in ALM are reflected on your portal after the scheduled export and cache refresh. Some updates may not appear immediately due to these mechanisms. If you need faster updates, adjust the export schedule or clear the cache as needed.
 
-#### Suporte à personalização de CSS/JS
+#### CSS/JS customization support
 
-Você pode aplicar CSS personalizado e JavaScript a páginas conectadas e não conectadas usando a guia Personalização. Isso permite manter a consistência de marca, adicionar elementos personalizados de interface e aprimorar a experiência do usuário em todo o portal. Todas as personalizações são aplicadas globalmente, garantindo uma aparência unificada.
+You can apply custom CSS and JavaScript to both logged-in and non-logged-in pages using the customization tab. This allows you to maintain consistent branding, add custom UI elements, and enhance user experience across your portal. All customizations are applied globally, ensuring a unified look and feel.
 
-#### Diferenças de URL e marcas (favicon, título da página)
+#### URL differences and branding (favicon, page title)
 
-Páginas não conectadas e conectadas podem ter URLs diferentes para distinguir os estados de usuário. Você pode personalizar o favicon e o título da página do seu portal, ajudando a reforçar a identidade da sua marca. Esses recursos estão disponíveis no Experience Builder. Consulte o departamento de engenharia para obter o status mais recente no suporte não conectado.
+Non-logged-in and logged-in pages may have different URLs to distinguish user states. You can customize the favicon and page title for your portal, helping reinforce your brand identity. These features are available in the experience builder; check with engineering for the latest status on non-logged-in support.
 
-### Desempenho e escalabilidade
+### Performance and scalability
 
-#### Pilha compartilhada vs. pilha premium
+#### Shared stack vs premium stack
 
-A pilha compartilhada permite que vários clientes usem o criador de experiências não conectado em uma infraestrutura comum, oferecendo suporte a níveis de tráfego padrão. A pilha premium é uma opção paga que fornece recursos dedicados, recursos em tempo real e limites de vagas mais altos para clientes com necessidades avançadas. Selecione a pilha com base no tráfego esperado e nas necessidades dos negócios.
+The shared stack allows multiple customers to use the non-logged-in experience builder on common infrastructure, supporting standard traffic levels. The premium stack is a paid option that provides dedicated resources, real-time features, and higher seat limits for customers with advanced needs. Select the stack based on your expected traffic and business requirements.
 
-#### Limites de tráfego e limitação da taxa
+#### Traffic limits and rate limiting
 
-A pilha compartilhada impõe limites de tráfego para garantir o uso justo entre os clientes. A engenharia implementará a limitação de taxa para evitar que um único cliente consuma todos os recursos. Se você planeja campanhas de marketing ou espera alto tráfego, coordene-se com a engenharia para entender seus limites e evitar interrupções no serviço. A limitação de taxa ajuda a manter a estabilidade e o desempenho do sistema para todos os usuários.
+The shared stack enforces traffic limits to ensure fair usage among customers. Engineering will implement rate limiting to prevent any single customer from consuming all resources. If you plan marketing campaigns or expect high traffic, coordinate with engineering to understand your limits and avoid service disruptions. Rate limiting helps maintain system stability and performance for all users.
 
-#### Considerações sobre multilocação e SEO
+#### Multi-tenancy and SEO considerations
 
-A plataforma oferece suporte a multilocação, permitindo que vários clientes hospedem seus portais em uma infraestrutura compartilhada. As páginas não conectadas são compatíveis com SEO, juntamente com sitemap.xml e robots.txt para otimizar a visibilidade do mecanismo de pesquisa. Isso garante que seu portal seja detectável e indexado adequadamente pelos mecanismos de pesquisa.
+The platform supports multi-tenancy, allowing multiple customers to host their portals on shared infrastructure. Non-logged-in pages are SEO-friendly, along with sitemap.xml and robots.txt to optimize search engine visibility. This ensures your portal is discoverable and indexed appropriately by search engines.
 
-### Migração e obsolescência
+### Migration and deprecation
 
-#### Transição da página inicial não conectada existente
+#### Transition from existing non-logged-in homepage
 
-Você deve recriar sua página inicial usando o novo Experience Builder para flexibilidade aprimorada, suporte a widgets e experiência do usuário aprimorada. O plano de transição garante interrupção mínima e suporte contínuo.
+You should recreate your homepage using the new experience builder for enhanced flexibility, widget support, and improved user experience. The transition plan ensures minimal disruption and continued support.
 
-#### Plano de comunicação
+#### Communication plan
 
-Os clientes que usam a página inicial herdada receberão uma comunicação clara sobre o cronograma de descontinuação e as etapas de migração. Será fornecido suporte para ajudá-lo a mover sua página inicial para a nova plataforma do Experience Builder, garantindo que você se beneficie de novos recursos e atualizações contínuas.
+Customers using the legacy homepage will receive clear communication about the deprecation timeline and migration steps. Support will be provided to help you move your homepage to the new experience builder platform, ensuring you benefit from new features and ongoing updates.
 
-### Suporte a localização e login
+### Localization and login support
 
-#### Lógica de fallback de localidade
+#### Locale fallback logic
 
-O sistema exibe as páginas no local em que foram criadas. Se a localidade de um usuário não estiver disponível, o sistema usará uma lógica de fallback para selecionar a próxima melhor localidade disponível. Isso garante que os usuários sempre vejam o conteúdo em um idioma compatível, melhorando a acessibilidade e a satisfação do usuário.
+The system displays pages in the locale they were created. If a user's locale is unavailable, the system uses a fallback logic to select the next best available locale. This ensures users always see content in a supported language, improving accessibility and user satisfaction.
 
-#### Tipos de logon compatíveis
+#### Supported login types
 
-A experiência não conectada é compatível com todos os tipos de logon disponíveis no ALM, incluindo logon único e logon padrão. Os usuários podem navegar pelo conteúdo sem fazer logon e serão solicitados a fazer logon quando necessário, como se inscrever em um curso ou acessar recursos personalizados. Isso fornece uma transição tranquila da navegação para o engajamento.
+The non-logged-in experience supports all login types available in ALM, including SSO and standard login. Users can browse content without logging in and will be prompted to log in when required, such as enrolling in a course or accessing personalized features. This provides a smooth transition from browsing to engagement.
 
 
-### APIs não conectadas
+### Non-logged in APIs
 
-#### API do objeto de aprendizado do administrador
+#### Admin Learning Object API
 
-As páginas do Experience Builder e os portais sem periféricos não conectados geralmente organizam ou filtram cursos com base no produto e na função. A API do Admin LO foi aprimorada para garantir que essas associações sejam acessíveis consistentemente para integrações back-end e sem periféricos, bem como para o conector TDA.
+Non-logged-in Experience Builder pages and headless portals often organize or filter courses based on product and role. The Admin LO API has been enhanced to ensure that these associations are consistently accessible for back-end and headless integrations, as well as for the TDA connector.
 
-**Ponto de extremidade e comportamento**
+**Endpoint and behavior**
 
-Você continua a usar o ponto de extremidade do OA do administrador existente:
+You continue to use the existing Admin LO endpoint:
 
 ```
 GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
 ```
 
-Onde:
+Where:
 
-* loId é a ID do objeto de aprendizado (por exemplo, curso:12345).
+* loId is the learning object ID (for example course:12345).
 * enforcedFields[learningObject] instructs the API to explicitly include products and roles for that LO.
 
-Isso é feito garantindo que as associações de produto e função do OA estejam presentes na resposta quando solicitadas por meio de enforcedFields. A resposta contém, em atributos, os metadados de produto e função necessários para calcular ou expor os produtos (rec\_products) e funções (rec\_roles) recomendados para o Experience Builder e outros consumidores.
+This is fulfilled by ensuring that the LO's product and role associations are present in the response when requested through enforcedFields. The response then contains, in attributes, the product and role metadata needed to compute or expose the recommended products (rec\_products) and roles (rec\_roles) for Experience Builder and other consumers.
 
-Uma chamada típica de um administrador ou integração se parece com:
+A typical call from an admin or integration looks like:
 
 ```
 url -X GET \
@@ -1138,17 +1140,17 @@ url -X GET \
  -H "Accept: application/vnd.api+json
 ```
 
-O JSON do LO retornado tem a mesma estrutura básica de antes, mas agora você pode confiar na presença dos campos de produto/função ao solicitá-los por meio de enforcedFields. As integrações que não usam enforcedFields continuam se comportando como antes.
+The returned LO JSON is the same basic structure as before, but now you can rely on product/role fields being present when you request them with enforcedFields. Integrations that do not use enforcedFields continue to behave as before.
 
-#### Listagem de objetos de aprendizado - Suporte a JobAid no filtro effectiveModifiedDate
+#### Learning Objects Listing – JobAid Support in effectiveModifiedDate Filter
 
-**Finalidade**
+**Purpose**
 
-The Training Data Access (TDA) connector and headless implementations often need to perform incremental synchronization, based on the **effective modification date** of learning objects. Até esta versão, as ajudas de tarefa (do tipo OA, ajuda de tarefa) não eram tratadas corretamente quando combinadas com os filtros effectiveModifiedDate. Esta versão corrige isso para que as ajudas de tarefa possam ser sincronizadas incrementalmente, como cursos e programações de aprendizado.
+The Training Data Access (TDA) connector and headless implementations often need to perform incremental synchronization, based on the **effective modification date** of learning objects. Until this release, JobAids (LO type jobAid) were not correctly handled when combined with the effectiveModifiedDate filters. This release fixes this so JobAids can be synced incrementally like courses and learning paths.
 
-**Ponto de extremidade e comportamento**
+**Endpoint and behavior**
 
-Você usa o ponto de extremidade da listagem do LO existente com filtros de data e tipo de LO:
+You use the existing LO listing endpoint with date filters and LO type:
 
 ```
 GET /primeapi/v2/learningObjects
@@ -1157,9 +1159,9 @@ GET /primeapi/v2/learningObjects
  &filter.loTypes=jobAid
 ```
 
-Anteriormente, quando filter.loTypes=jobAid era combinado com um intervalo effectiveModifiedDate, o filtro excluía efetivamente JobAids e a chamada se comportava como se JobAids não fosse suportado.
+Previously, when filter.loTypes=jobAid was combined with an effectiveModifiedDate range, the filter effectively excluded JobAids, and the call behaved as though JobAids were not supported.
 
-A partir dessa atualização, a chamada retorna apenas objetos de aprendizado JobAid cuja effectiveModifiedDate esteja dentro da janela especificada.
+From this update onwards, the call returns only JobAid learning objects whose effectiveModifiedDate falls inside the specified window.
 
 ```
 {
@@ -1209,32 +1211,32 @@ A partir dessa atualização, a chamada retorna apenas objetos de aprendizado Jo
 }
 ```
 
-Isso significa que agora você pode implementar com segurança sincronizações incrementais de JobAid com base em effectiveModifiedDate, da mesma maneira que você já faz para outros tipos.
+This means you can now safely implement incremental JobAid syncs based on effectiveModifiedDate, in the same way you already do for other types.
 
-Se você omitir filter.loTypes=jobAid, o comportamento de outros tipos de LO não será alterado; a alteração afetará apenas a combinação de JobAid com esse filtro.
+If you omit filter.loTypes=jobAid, the behavior for other LO types is unchanged; the change only affects the combination of JobAid with that filter.
 
-#### **API de menu: filtro de menu não conectado**
+#### **Menu API: Non-logged-in menu filter**
 
-**Finalidade**
+**Purpose**
 
-O Experience Builder e os front-ends sem periféricos precisam de uma maneira direta de recuperar o **menu não conectado**, aquele que define a navegação para visitantes públicos. Antes desta versão, você tinha que buscar todos os menus e, em seguida, aplicar a lógica personalizada para identificar qual representava a navegação não conectada. Esta versão adiciona um filtro simples do lado do servidor.
+Experience Builder and headless frontends need a straightforward way to retrieve the **non-logged-in menu** , the one that defines navigation for public visitors. Before this release, you had to fetch all menus and then apply custom logic to identify which one represented the non-logged-in navigation. This release adds a simple server-side filter.
 
-**Ponto de extremidade e comportamento**
+**Endpoint and behavior**
 
-Use o ponto de extremidade da listagem de menus existente com um novo parâmetro de consulta:
+You use the existing Menu listing endpoint with a new query parameter:
 
 ```
 GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true
 ```
 
-Os pontos principais:
+The key points:
 
-* include=pages,subMenus.pages é opcional, mas recomendável quando precisar dos detalhes da página e da página do submenu na mesma resposta.
-* isNonLoggedIn=true é novo nesta versão e instrui o servidor a retornar somente menus sinalizados como menus não conectados.
+* include=pages,subMenus.pages is optional but recommended when you need the page and submenu page details in the same response.
+* isNonLoggedIn=true is new in this release and tells the server to return only menus that are flagged as non-logged-in menus.
 
-Sem o parâmetro isNonLoggedIn, o ponto de extremidade se comporta exatamente como antes e retorna menus de acordo com o comportamento padrão existente. Com isNonLoggedIn=true, ele normalmente retorna o menu único usado pela experiência não conectada para sua conta (já que normalmente há um menu não conectado por conta).
+Without the isNonLoggedIn parameter, the endpoint behaves exactly as before and returns menus according to the existing default behavior. With isNonLoggedIn=true, it typically returns the single menu used by the non-logged-in experience for your account (since there is normally one non-logged-in menu per account).
 
-Na prática, um cliente agora pode emitir:
+In practice, a client can now issue:
 
 ```
 curl -X GET \
@@ -1243,216 +1245,216 @@ curl -X GET \
  -H "Accept: application/vnd.api+json"
 ```
 
-e obtenha de volta a estrutura de navegação não conectada em uma chamada, com todas as páginas que devem estar visíveis para visitantes anônimos.
+and get back the non-logged-in navigation structure in one call, with all the pages that should be visible to anonymous visitors.
 
-Isso é particularmente útil ao criar um site independente não conectado e desejar espelhar a mesma navegação que o Experience Builder usa ou ao depurar se o menu não conectado foi configurado corretamente.
+This is particularly useful when you are building a headless non-logged-in site and want to mirror the same navigation that Experience Builder uses, or when you are debugging whether the non-logged-in menu has been configured correctly.
 
-### Permitir listagem de domínios personalizados
+### Allow listing of custom domains
 
-A pilha não conectada consiste em:
+The non-logged-in stack consists of:
 
-* Um domínio CDN público (por exemplo, cpcontents.adobe.com ou yourdomain.example.com) que fornece layouts, config JSON e ativos estáticos.
-* Um ponto de extremidade de Elasticsearch público (ES) que fornece dados de catálogo e pesquisa, mas somente se a solicitação vier de um **domínio com lista de permissões** para essa conta do ALM.
+* A public CDN domain (for example cpcontents.adobe.com or yourdomain.example.com) that serves layouts, config JSON, and static assets.
+* A public Elasticsearch (ES) endpoint that serves catalog and search data, but only if the request comes from an **allow-listed domain** for that ALM account.
 
-Quando você introduz um domínio personalizado, ele funciona perfeitamente sem nenhum esforço adicional após o processo existente para adicionar um domínio personalizado.
+When you introduce a custom domain, it works seamlessly without any additional effort following the existing process for adding a custom domain.
 
-#### Pré-requisitos
+#### Prerequisites
 
-Antes de incluir na lista de permissões um domínio personalizado para usuários não conectados:
+Before whitelisting a custom domain for non-logged-in:
 
-1. O domínio personalizado é configurado para sua conta ALM (por exemplo, DNS para academy.yourcompany.com aponta para Adobe / Akamai e certificados são provisionados).
-2. O **conector TDA (Acesso a Dados de Treinamento)** está habilitado para a conta.
-3. O recurso **Experience Builder** não conectado está habilitado (lado Adobe).
+1. The custom domain is configured for your ALM account (for example, DNS for academy.yourcompany.com points to Adobe / Akamai, and certificates are provisioned).
+2. The **Training Data Access (TDA) connector** is enabled for the account.
+3. The **non-logged-in Experience Builder** feature is enabled (Adobe-side).
 
-Essas etapas garantem que:
+These steps ensure that:
 
-* Sua conta tem um JSON **de conta não conectado (geralmente referenciado como accountConfig / experienceBuilderConfig), que inclui campos como cpDomain, almDomain, almCdnBaseUrl, esBaseUrl e domínios com permissão listada.**
-* A pilha não conectada sabe onde fornecer dados e de que domínios deve aceitar solicitações.
+* Your account has a non-logged-in **account JSON** (often referenced as accountConfig / experienceBuilderConfig), which includes fields such as cpDomain, almDomain, almCdnBaseUrl, esBaseUrl, and allow-listed domains.
+* The non-logged-in stack knows where to serve data and from which domains it should accept requests.
 
-#### Como funciona a listagem de permissões
+#### How allow-listing works
 
-A lista de permissões é armazenada na configuração que o TDA exporta e a pilha não conectada lê. Essa configuração inclui:
+The allow-list is stored in the configuration that TDA exports and the non-logged-in stack reads. That configuration includes:
 
-* Os domínios do ALM (cpDomain, almDomain).
-* A **URL base da CDN** para conteúdo não conectado (almCdnBaseUrl).
-* A **URL de base de pesquisa pública** (esBaseUrl).
-* A lista de domínios que podem fazer chamadas públicas não conectadas para essa conta.
+* The ALM domains (cpDomain, almDomain).
+* The **CDN base URL** for non-logged-in content (almCdnBaseUrl).
+* The **public search base URL** (esBaseUrl).
+* The list of domains that are allowed to make public non-logged-in calls for that account.
 
-Para que o Experience Builder não conectado funcione em um domínio personalizado:
+For non-logged-in Experience Builder to work on a custom domain:
 
-* O navegador deve carregar o HTML não conectado desse domínio personalizado (ou do domínio CDN não conectado ao ALM, dependendo da sua configuração).
-* Chamadas desse domínio para os endpoints públicos ES e CDN devem ser aceitas. Isso só acontece se o domínio estiver presente na lista de permissões.
+* The browser must load the non-logged-in HTML from that custom domain (or from the ALM non-logged-in CDN domain, depending on your setup).
+* Calls from that domain to the public ES and CDN endpoints must be accepted. That only happens if the domain is present in the allow-list.
 
-Esta versão adiciona um novo domínio CDN não conectado, cpcontents.adobe.com, e especifica que ele deve ser colocado nos **domínios listados de permissão** no conector TDA. Para usuários nativos não conectados, isso requer uma atualização.
+This release adds a new non-logged-in CDN domain, cpcontents.adobe.com, and specifies that it must be placed into the **allow-listed domains** in the TDA connector. For existing non-logged-in native users, this requires an update.
 
-#### Permitir listagem de um domínio personalizado
+#### Allow-list a custom domain
 
-**Configurar o domínio personalizado no ALM**
+**Configure the custom domain in ALM**
 
-Trabalhe com o Adobe para registrar seu domínio, por exemplo, academy.yourcompany.com, como o domínio personalizado para sua conta do ALM. Você atualiza o DNS para apontar para o Adobe Akamai, conforme instruído, e aguarda a conclusão do SSL e do roteamento.
+Work with Adobe to register your domain, for example, academy.yourcompany.com, as the custom domain for your ALM account. You update DNS to point to Adobe Akamai as instructed and wait for SSL and routing to complete.
 
-Nesse ponto, o tráfego conectado e não conectado pode acessar o ALM por meio desse domínio, mas chamadas de pesquisa e catálogo não conectadas ainda poderão ser bloqueadas se o domínio não estiver na lista de permissões.
+At this point, both logged-in and non-logged-in traffic can reach ALM through that domain, but non-logged-in search and catalog calls may still be blocked if the domain is not allow-listed.
 
-**Habilitar TDA e Experience Builder não conectado**
+**Enable TDA and non-logged-in Experience Builder**
 
-Verifique se:
+Ensure that:
 
-* O **Conector de Acesso a Dados de Treinamento** está habilitado.
-* O recurso **Experience Builder não conectado** está ativado para a conta.
+* The **Training Data Access connector** is enabled.
+* The **non-logged-in Experience Builder** feature is turned on for the account.
 
-A ativação do TDA cria ou atualiza o JSON da conta não conectada. Para novas contas, o processo também permite a pré-listagem do novo domínio CDN não conectado (cpcontent.adobe.com) por padrão, de modo que o ponto de extremidade ES público espera chamadas desse domínio.
+Enabling TDA creates or updates the non-logged-in account JSON. For new accounts, the process also allow-lists the new non-logged-in CDN domain (cpcontent.adobe.com) by default, so the public ES endpoint expects calls from that domain.
 
-Para contas que já estavam usando a pilha não conectada mais antiga, os conectores existentes devem ser excluídos e recriados para selecionar o novo domínio.
+For accounts that were already using the older non-logged-in stack, existing connectors must be deleted and recreated to pick up the new domain.
 
-**Adicionar o domínio personalizado à lista de permissões**
+**Add the custom domain to the allow-list**
 
-A parte crítica é informar à pilha ES não conectada que academy.yourcompany.com é uma origem aprovada. Há dois caminhos comuns.
+The critical part is telling the non-logged-in ES stack that academy.yourcompany.com is an approved origin. There are two common paths.
 
-1. **Reabilite o conector TDA (simples, amigável ao autoatendimento)**
+1. **Re-enable the TDA connector (simple, self-service friendly)**
 
-Os usuários nativos não conectados precisarão excluir e reativar a conexão TDA para que o novo domínio seja automaticamente incluído na lista de permissões. Isso permite duas coisas:
+Existing native non-logged-in users will need to delete and re-enable the TDA connection so the new domain is automatically allow-listed. Doing this achieves two things:
 
-1. A conta não conectada JSON é gerada novamente.
-2. Os domínios listados de permissão são atualizados para incluir o novo domínio CDN não conectado e seu domínio personalizado.
+1. The non-logged-in account JSON is regenerated.
+2. The allow-listed domains are updated to include the new non-logged-in CDN domain and your custom domain.
 
-Isso é recomendado quando você tem um pequeno número de contas e pode tolerar a desativação e reativação temporárias do conector.
+This is recommended when you have a small number of accounts and can tolerate temporarily disabling and re-enabling the connector.
 
-1. **Verifique se o domínio está na lista de permissões**
+1. **Verify that the domain is actually allow-listed**
 
-Após a listagem de permissões, abra o site não conectado no domínio personalizado e inspecione as chamadas de rede do navegador.
+After allow-listing, open your non-logged-in site on the custom domain and inspect the browser network calls.
 
-Você deseja ver:
+You want to see:
 
-* Solicitações para almCdnBaseUrl (por exemplo, <https://cpcontent.adobe.com/>...) 200/304.
-* Solicitações para esBaseUrl (API de pesquisa pública, por exemplo <https://primeapps.adobe.com/almsearch/api/v1/>...) êxito ao retornar JSON com dados de pesquisa/catálogo.
+* Requests to almCdnBaseUrl (for example <https://cpcontent.adobe.com/>...) succeeding with 200/304.
+* Requests to esBaseUrl (public search API, for example <https://primeapps.adobe.com/almsearch/api/v1/>...) succeeding, returning JSON with search / catalog data.
 
-Se essas chamadas retornarem 4xx ou erros explícitos sugerindo “domínio não confiável” ou “origem não permitida”, a lista de permissões estará incompleta ou configurada incorretamente e o suporte precisará ajustá-la.
+If these calls return 4xx or explicit errors suggesting "untrusted domain" or "origin not allowed," the allow-list is incomplete or misconfigured and Support needs to adjust it.
 
-O LLD não conectado também observa que a configuração da conta pode conter um valor de domínio esperado. No tempo de execução, o site verifica se o domínio no URL corresponde ao que está definido na configuração; se não corresponder, o usuário poderá ser redirecionado para uma página de erro. Isso protege contra o acesso da configuração de um cliente por meio do domínio de outro cliente.
+The non-logged-in LLD also notes that the account config can hold an expected domain value. At runtime, the site checks that the domain in the URL matches what is set in the config; if it does not, the user can be redirected to an error page. This protects against one customer's configuration being accessed via another customer's domain.
 
-### Usar recomendações no Experience Builder não conectado
+### Using recommendations in the non-logged-in Experience Builder
 
-O Experience Builder não conectado permite criar páginas de aprendizado públicas nas quais os visitantes podem navegar no catálogo e ver o conteúdo destacado antes de fazer logon. Mesmo que esses visitantes sejam anônimos, você ainda pode apresentar treinamentos recomendados usando metadados e widgets.
+The non-logged-in Experience Builder lets you build public learning pages where visitors can browse your catalog and see highlighted content before they sign in. Even though these visitors are anonymous, you can still present recommended trainings by using metadata and widgets.
 
-No aplicativo do aluno conectado, as recomendações podem ser personalizadas: elas podem depender do perfil, do histórico, das habilidades e do progresso do aluno. Na experiência **não conectada**, ainda não há nenhuma identidade do aluno, portanto, a plataforma não pode personalizar por usuário.
+In the logged-in learner app, recommendations can be personalized: they can depend on the learner's profile, history, skills, and progress. In the **non-logged-in** experience, there is no learner identity yet, so the platform cannot personalize per user.
 
-O Recommendations no modo não conectado é:
+Recommendations in non-logged-in mode are therefore:
 
-* **Com curadoria ou baseado em regras**: baseado em catálogo, produto, função, rótulos, marcas e outros metadados.
-* **Orientado a segmentos**: “recomendado para desenvolvedores”, “recomendado para parceiros”, “apresentado para iniciantes”.
-* **Foco em marketing**: usado para atrair e orientar os visitantes a se inscreverem assim que fizerem logon.
+* **Curated or rule-based**: based on catalog, product, role, labels, tags, and other metadata.
+* **Segment-oriented**: "recommended for developers", "recommended for partners", "featured for beginners".
+* **Marketing-focused**: used to attract and guide visitors to enroll once they log in.
 
-### Metadados e APIs que oferecem suporte a recomendações
+### Metadata and APIs that support recommendations
 
-Em segundo plano, as páginas não conectadas usam:
+Behind the scenes, non-logged-in pages use:
 
-* O **conector TDA** para exportar metadados de objetos de aprendizado (cursos, caminhos, certificações, ajudas de tarefa) para um índice de pesquisa público.
-* A **pilha de pesquisa pública** para responder a consultas de widgets não conectados (catálogo, pesquisa, cursos e caminhos, categorias).
-* A **API de Objetos de Aprendizado de Administrador** para expor metadados de produto e função que podem ser usados para regras de recomendação.
+* The **TDA connector** to export learning object metadata (courses, paths, certifications, job aids) to a public search index.
+* The **public search stack** to answer queries from non-logged-in widgets (catalog, search, Courses and paths, Categories).
+* The **Admin Learning Objects API** to expose product and role metadata that can be used for recommendation rules.
 
-Nesta versão, a API do Admin LO foi estendida para que as associações de produto e função estivessem disponíveis de forma confiável:
+In this release, the Admin LO API was extended so that product and role associations are reliably available:
 
 ```
 GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
 ```
 
-Isso permite que widgets e integrações sem periféricos criem recomendações baseadas em regras usando produtos, funções, etiquetas de catálogo, tags e outros campos de forma consistente.
+This allows widgets and headless integrations to build rule-based recommendations using products, roles, catalog labels, tags and other fields consistently.
 
-### Criar seções de recomendação com os widgets do Experience Builder
+### Designing recommendation sections with Experience Builder widgets
 
-Crie seções de recomendação em páginas não conectadas ao combinar **widgets do Experience Builder** com filtros de metadados.
+You create recommendation sections on non-logged-in pages by combining **Experience Builder widgets** with metadata filters.
 
-#### **Widget Cursos e caminhos**
+#### **Courses and Paths widget**
 
-Use o widget **Cursos e caminhos** quando quiser mostrar uma linha ou grade de itens recomendados. Em sua configuração, você pode escolher:
+Use the **Courses and Paths** widget when you want to show a row or grid of recommended items. In its configuration you can choose:
 
-* De quais catálogos extrair.
-* Quais rótulos de catálogo, produtos, funções ou tags usar como filtros.
-* Se deve mostrar cursos, caminhos, certificações, ajudas de tarefa ou uma combinação.
-* Classificação e número máximo de itens.
+* Which catalogs to pull from.
+* Which catalog labels, products, roles or tags to use as filters.
+* Whether to show courses, paths, certifications, job aids, or a mix.
+* Sorting and maximum number of items.
 
-Por exemplo, você pode criar:
+For example, you can create:
 
-* “Recomendado para desenvolvedores”: filtre por produto ou função usada para conteúdo de desenvolvedor.
-* “Iniciar aqui”: filtre por um rótulo, como “Inicial” ou “Integração”.
-* “Este trimestre em destaque”: filtre por um rótulo com limite de tempo, como destaque-q3-2026.
+* "Recommended for developers": filter by a product or role you use for developer content.
+* "Start here": filter by a label such as "Starter" or "Onboarding".
+* "Featured this quarter": filter by a time-bound label like featured-q3-2026.
 
-O widget não está aprendendo com o comportamento. Ele mostra tudo o que corresponde às regras de metadados que você definir. Do ponto de vista de um visitante, no entanto, parece uma faixa de recomendação.
+The widget is not learning from behavior; it is showing whatever matches the metadata rules you define. From a visitor's point of view, however, it looks like a recommendation strip.
 
-#### **Widget de categorias**
+#### **Categories widget**
 
-Use o widget **Categorias** para ajudar os visitantes a navegar nos conjuntos de conteúdo “recomendados”, mesmo que eles não saibam os nomes dos seus produtos.
+Use the **Categories** widget to help visitors navigate into "recommended" sets of content, even if they do not know your product names.
 
-É possível configurar ladrilhos que representem um segmento, como:
+You can configure tiles that each represent a segment such as:
 
-* “Para administradores”
-* “Para equipes de vendas”
-* “Para parceiros”
-* “Por linha de produto”
+* "For administrators"
+* "For sales teams"
+* "For partners"
+* "By product line"
 
-Cada bloco pode ser vinculado a:
+Each tile can link either to:
 
-* Uma página de catálogo filtrada (por exemplo, o catálogo filtrado por determinados produtos ou rótulos).
-* Uma página dedicada não conectada que usa cursos e caminhos pré-configurados para esse segmento.
+* A filtered catalog page (for example, the catalog filtered by certain products or labels).
+* A dedicated non-logged-in page that uses Courses and paths preconfigured for that segment.
 
-Isso proporciona uma experiência de “caminhos recomendados por segmento” sem personalização.
+This gives you a "recommended paths by segment" experience without personalization.
 
-### Criação de recomendações baseadas em segmentos
+### Building segment-based recommendations
 
-Como os visitantes não conectados ainda não têm um perfil ALM, é útil criar recomendações **por segmento** e permitir que os visitantes selecionem por conta própria.
+Because non-logged-in visitors have no ALM profile yet, it is useful to design recommendations **by segment** and let visitors self-select.
 
-1. Use uma **página inicial não conectada** que explique brevemente para quem é a sua academia e mostre um pequeno número de pontos de entrada de segmento (por exemplo, “Desenvolvedores”, “Profissionais de marketing”, “Parceiros”, “Novos funcionários”). Isso pode ser feito com um widget Categorias ou uma caixa de Conteúdo ou seção HTML simples com botões.
-2. Para cada segmento, crie uma **página dedicada não conectada** no Experience Builder. Nessa página, use um ou mais widgets Cursos e caminhos configurados com filtros que representem o que é “recomendado” para esse grupo. Por exemplo, para “Desenvolvedores” você pode filtrar em:
-   1. Catalog = “Treinamento público”
-   2. Produto = “Adobe Experience Manager”
-   3. Tags = “Fundamentos do desenvolvedor”
-3. Use essas páginas de segmento como destino de suas campanhas de marketing e como destino dos blocos na home page não conectada.
+1. Use a **non-logged-in home page** that briefly explains who your academy is for and shows a small number of segment entry points (for example, "Developers", "Marketers", "Partners", "New employees"). This can be done with a Categories widget or a simple Content box or HTML section with buttons.
+2. For each segment, create a **dedicated non-logged-in page** in Experience Builder. On that page use one or more Courses and paths widgets configured with filters that represent what is "recommended" for that group. For example, for "Developers" you might filter on:
+   1. Catalog = "Public Training"
+   2. Product = "Adobe Experience Manager"
+   3. Tags = "Developer fundamentals"
+3. Use those segment pages as the destination of your marketing campaigns and as the target of the tiles on the non-logged-in home page.
 
-Os visitantes percebem que estão vendo recomendações personalizadas para sua situação, mesmo que a lógica seja definida em tempo de design através de metadados.
+Visitors perceive that they are seeing recommendations tailored to their situation, even though the logic is defined at design time via metadata.
 
-### Transição de recomendações não conectadas para personalizadas
+### Transitioning from non-logged-in to personalized recommendations
 
-As recomendações não conectadas são principalmente sobre **capacidade de descoberta** e **conversão**. Depois que os visitantes decidirem se inscrever ou iniciar o treinamento, eles farão logon e se tornarão alunos completos com um perfil e um histórico.
+Non-logged-in recommendations are mainly about **discoverability** and **conversion**. Once visitors decide to enroll or start training, they will log in and become full learners with a profile and history.
 
-O fluxo normal é:
+The usual flow is:
 
-1. Um visitante descobre conteúdo por meio de seções de recomendação não conectadas (recomendações iniciais, páginas iniciais de segmentos, linhas em destaque).
-2. Eles clicam em uma visão geral do curso ou caminho e escolhem se inscrever ou começar.
-3. O ALM solicita que se inscrevam ou façam logon.
-4. Depois de fazer logon, a experiência padrão do aluno conectado assume o controle, incluindo:
-   1. “Meu aprendizado”
-   2. Catálogo conectado com progresso pessoal
-   3. Qualquer sistema de recomendação interno usado para os alunos existentes.
+1. A visitor discovers content through your non-logged-in recommendation sections (home recommendations, segment landing pages, featured rows).
+2. They click into a course or path overview and choose to enroll or start.
+3. ALM prompts them to sign up or log in.
+4. After they log in, the standard logged-in learner experience takes over, including:
+   1. "My Learning"
+   2. Logged-in catalog with personal progress
+   3. Any internal recommendation systems you use for existing learners.
 
-Em outras palavras, as recomendações conectadas os ajudam a decidir o que fazer em seguida e a continuar.
+In other words, the logged-in recommendations help them decide what to do next and keep going.
 
-### Como as ajudas de tarefa podem ser usadas no novo Experience Builder não conectado
+### How job aids can be used in the new non-logged-in Experience Builder
 
-Na **Interface de Usuário**, as ajudas de tarefa participam de experiências não conectadas principalmente por meio de widgets que podem mostrar objetos de aprendizado:
+On the **User Interface**, job aids participate in non-logged-in experiences mainly through the widgets that can show learning objects:
 
-1. **Widget Cursos e caminhos**
-Este widget pode mostrar vários tipos de objeto de aprendizado, incluindo ajudas de tarefa. Em páginas não conectadas, você pode configurá-las para:
-   1. Incluir ou excluir ajudas de tarefa explicitamente.
-   2. Filtre ajudas de tarefa por catálogo, produto, função, rótulos, marcas e outros metadados.
-   3. Apresente-os ao lado de cursos e caminhos ou como uma faixa separada de “Recursos”.
+1. **Courses and paths widget**
+   This widget can show multiple LO types, including job aids. In non-logged-in pages you can configure it to:
+   1. Include or exclude job aids explicitly.
+   2. Filter job aids by catalog, product, role, labels, tags, and other metadata.
+   3. Present them alongside courses and paths or as a separate "Resources" strip.
 
-Por exemplo, em uma página de aterrissagem pública, você pode configurar uma faixa intitulada “Recursos úteis”, que mostra apenas ajudas de tarefa, e outra faixa intitulada “Cursos recomendados”, que mostra cursos e caminhos.
+For example, on a public landing page you might configure one strip titled "Helpful resources" that shows job aids only, and another strip titled "Recommended courses" that shows courses and paths.
 
-1. **Página e pesquisa do catálogo**
-As superfícies do **catálogo** e da **pesquisa** não conectadas usam o índice de pesquisa público (alimentado pelo conector de Acesso a Dados de Treinamento). Esse índice agora suporta ajudas de tarefa corretamente, portanto:
-   1. Os resultados de pesquisa não conectados podem incluir ajudas de tarefa.
-   2. Filtros de catálogo não conectados (por tipo, produto, marcas etc.) pode incluir ajudas de tarefa, desde que a configuração da sua conta e os widgets estejam configurados para exibi-los.
-2. **Páginas de visão geral do LO**
-Quando um visitante clica em uma ajuda de tarefa de qualquer widget ou do catálogo, ele vai para uma **página de visão geral do OA** dessa ajuda de tarefa no modo não conectado. A partir daí, eles podem ler a descrição e os metadados. O download ou o consumo real normalmente ainda requer logon, mas a presença e a capacidade de descoberta da ajuda de tarefa em si são tratadas pela experiência não conectada.
+1. **Catalog page and search**
+   The non-logged-in **catalog** and **search** surfaces use the public search index (fed by the Training Data Access connector). That index now supports job aids correctly, so:
+   1. Non-logged-in search results can include job aids.
+   2. Non-logged-in catalog filters (by type, product, tags, etc.) can include job aids as long as your account configuration and widgets are set up to show them.
+2. **LO overview pages**
+   When a visitor clicks a job aid from any widget or from the catalog, they go to an **LO overview page** for that job aid in non-logged-in mode. From there, they can read its description and metadata. Actual download or consumption typically still requires login, but the presence and discoverability of the job aid itself is handled by the non-logged-in experience.
 
-### Como as ajudas de tarefa são expostas por meio de APIs não conectadas
+### How job aids are exposed through non-logged-in APIs
 
-No **lado da API**, as ajudas de tarefa são suportadas por:
+On the **API side**, job aids are supported by:
 
-1. O conector de Acesso a Dados de Treinamento e a pesquisa pública do **&#x200B;**
-O TDA exporta metadados de ajuda de tarefa junto com outros tipos de objeto de aprendizado para o índice de pesquisa pública que atende a consultas de pesquisa e catálogo não conectadas. É nisso que o Experience Builder e as frontends sem periféricos dependem.
-2. A listagem de **Objetos de Aprendizado com effectiveModifiedDate**
-Nesta versão, o ponto de extremidade da lista de OAs foi corrigido para que as ajudas de tarefa funcionem corretamente com o filtro effectiveModifiedDate. Agora você pode ligar para:
+1. The **Training Data Access connector and public search**
+   TDA exports job aid metadata along with other LO types to the public search index that serves non-logged-in search and catalog queries. This is what Experience Builder and headless frontends rely on.
+2. The **Learning Objects listing with effectiveModifiedDate**
+   In this release, the LO listing endpoint was corrected so that job aids work properly with the effectiveModifiedDate filter. You can now call:
 
 ```
 GET /primeapi/v2/learningObjects
@@ -1461,976 +1463,976 @@ GET /primeapi/v2/learningObjects
  &filter.loTypes=jobAid
 ```
 
-Antes dessa alteração, a combinação de effectiveModifiedDate com loTypes=jobAid não retornou ajudas de tarefa de forma confiável. Ou seja:
+Before this change, combining effectiveModifiedDate with loTypes=jobAid did not reliably return job aids. That means:
 
-1. Seus trabalhos TDA ou ETL podem **sincronizar incrementalmente ajudas de tarefa** para experiências não conectadas, da mesma forma que fazem para cursos e caminhos.
-2. Qualquer implementação sem periféricos que compila um diretório público de ajuda de tarefa pode consultar alterações com base em effectiveModifiedDate e loType=jobAid.
+1. Your TDA or ETL jobs can **incrementally sync job aids** for non-logged-in experiences, the same way they do for courses and paths.
+2. Any headless implementation that builds a public job aid directory can query changes based on effectiveModifiedDate and loType=jobAid.
 
-**Observação**:
+**Note**:
 
-No estado não conectado:
+In the non-logged-in state:
 
-* As ajudas de tarefa são principalmente **detectáveis**: os visitantes podem ver que elas existem, ler descrições e entender como elas oferecem suporte a tópicos ou cursos.
-* O **consumo** real (baixar ou abrir o conteúdo de ajuda de tarefa) normalmente ainda requer logon, especialmente se as ajudas de tarefa forem consideradas parte de conteúdo licenciado ou interno.
+* Job aids are mainly **discoverable**: visitors can see that they exist, read descriptions, and understand how they support topics or courses.
+* Actual **consumption** (downloading or opening the job aid content) typically still requires login, especially if job aids are considered part of licensed or internal content.
 
-### Alterações na breve descrição na pesquisa do LO (não conectado)
+### Changes in brief description in LO search (non-logged-in)
 
-Na pilha não conectada, a pesquisa e a listagem de objetos de aprendizado (LOs) são acionadas pelo conector Acesso a dados de treinamento (TDA) e por um índice de Elasticsearch público. Historicamente, essa pilha usava um único campo de visão geral/descrição para cada LO. Os clientes que criam portais sem periféricos não conectados queriam mostrar a mesma descrição curta em blocos do OA que a interface do aluno conectada mostra, em vez de apenas a visão geral longa.
+In the non-logged-in stack, search and listing of learning objects (LOs) are powered by the Training Data Access (TDA) connector and a public Elasticsearch index. Historically, this stack used a single overview/description field for each LO. Customers building headless non-logged-in portals wanted to show the same short description on LO tiles that the logged-in learner UI shows, rather than only the long overview.
 
-A alteração introduz suporte para o OA **breve descrição** em APIs de pesquisa e listagem não conectadas:
+The change introduces support for the LO **brief description** in non-logged-in search and listing APIs:
 
-* Para **cursos**, a semântica da interface do usuário existente é:
-* Cartões conectados mostram uma breve descrição (campo de 140 caracteres), se houver; caso contrário, eles retornarão à visão geral detalhada por muito tempo.
-* Para **caminhos de aprendizado**, a interface de usuário conectada usa o campo Benefícios como a descrição curta, se definida, e retorna para a visão geral caso contrário.
-* Para **certificações**, é usada uma Descrição curta, com uma visão geral de Certificação mais longa como fallback.
-* Para **ajudas de tarefa**, o campo de descrição principal é usado.
+* For **courses**, the existing UI semantics are:
+* Logged-in cards show Brief description (140-character field) if present; otherwise they fall back to the long Detailed overview.
+* For **learning paths**, the logged-in UI uses the Benefits field as the short description, if defined, and falls back to the overview otherwise.
+* For **certifications**, a short Description is used, with a longer Certification overview as fallback.
+* For **job aids**, the main description field is used.
 
-### Outras alterações
+### Other changes
 
-#### Restrição de que duas contas não podem compartilhar o mesmo domínio personalizado
+#### Restriction that no two accounts can share the same custom domain
 
-Nas arquiteturas não conectadas e conectadas do Adobe Learning Manager, um **domínio personalizado** (por exemplo, academy.example.com) é tratado como uma chave globalmente exclusiva que deve ser mapeada para exatamente uma conta do ALM, para que a plataforma aplique uma restrição rígida de que **nenhuma conta pode compartilhar o mesmo domínio personalizado**. Isso é necessário para segurança, roteamento e SEO: a camada de roteamento e a pilha não conectada usam o domínio para pesquisar a configuração correta da conta (incluindo sua conta não conectada JSON, menus do Experience Builder, identidade visual e pontos de extremidade TDA/pesquisa),
+In the non-logged-in and logged-in architectures of Adobe Learning Manager, a **custom domain** (for example, academy.example.com) is treated as a globally unique key that must map to exactly one ALM account, so the platform enforces a hard restriction that **no two accounts can share the same custom domain**. This is required for security, routing, and SEO: the routing layer and non-logged-in stack use the domain to look up the correct account configuration (including its non-logged-in account JSON, Experience Builder menus, branding, and TDA/search endpoints),
 
-Permitir o mesmo domínio personalizado em duas contas tornaria impossível garantir que os dados da conta sejam retornados, poderia causar vazamento entre locatários e também corromperia artefatos gerados, como sitemap.xml e robots.txt, que são produzidos por conta, mas descobertos por mecanismos de pesquisa por host. Operacionalmente, isso significa que, ao atribuir ou mover um domínio personalizado, primeiro você deve garantir que ele não esteja anexado a nenhuma outra conta (ou cancelar o registro dele), e as ferramentas internas do Adobe rejeitarão as tentativas de vincular o mesmo domínio a várias contas.
+Allowing the same custom domain on two accounts would make it impossible to guarantee which account's data is returned, could cause cross-tenant leakage, and would also corrupt generated artifacts such as sitemap.xml and robots.txt that are produced per account but discovered by search engines per host. Operationally, this means that when you assign or move a custom domain you must first ensure it is not attached to any other account (or de-register it there), and Adobe's internal tooling will reject attempts to bind the same domain to multiple accounts.
 
-#### Cache de navegador de recursos na experiência não conectada
+#### Browser caching of resources in the non-logged-in experience
 
-Na experiência não conectada do Adobe Learning Manager, o cache de recursos do navegador é uma parte central da estratégia de desempenho e escala, porque as páginas públicas devem lidar com tráfego de marketing grande, às vezes pontiagudo, com baixa latência e carga mínima de origem. Ativos estáticos e semiestáticos, como o shell de HTML não conectado (por exemplo, index.html/guest.html), a configuração no nível de conta JSON (account.json ou config.json), o layout de página do Experience Builder JSON (menus, layouts de widget, configurações de cartão), CSS, JS, imagens e favicons são fornecidos de um CDN do Akamai (cpcontents.adobe.com / cpcontent.adobe.com) com cabeçalhos de cache que incentivam a reutilização no lado do CDN e no lado do navegador, para que, após o primeiro carregamento de página, o navegador possa renderizar páginas não conectadas subsequentes em grande parte de seu cache, revalidando apenas quando necessário via ETag ou Última modificação.
+In the non-logged-in experience of Adobe Learning Manager, browser caching of resources is a core part of the performance and scale strategy, because public pages must handle large, sometimes spiky marketing traffic with low latency and minimal origin load. Static and semi-static assets such as the non-logged-in HTML shell (for example, index.html/guest.html), account-level configuration JSON (account.json or config.json), Experience Builder page layout JSON (menus, widget layouts, card settings), CSS, JS, images, and favicons are served from an Akamai CDN (cpcontents.adobe.com / cpcontent.adobe.com) with cache headers that encourage both CDN-side and browser-side reuse, so that after the first page load the browser can render subsequent non-logged-in pages largely from its cache, revalidating only when needed via ETag or Last-Modified.
 
-## Ajudas de tarefa em vários idiomas
+## Multi-lingual Job Aids
 
-### Introdução
+### Introduction
 
-As ajudas de tarefa multilíngues no Adobe Learning Manager (ALM) permitem que autores e administradores forneçam documentos complementares, guias ou recursos em vários idiomas em uma única entrada de ajuda de tarefa. Os alunos em diferentes regiões podem acessar materiais relevantes em seu idioma de preferência, o que melhora a compreensão, a conformidade e a experiência do usuário.
+Multilingual Job Aids in Adobe Learning Manager (ALM) let authors and administrators provide supporting documents, guides, or resources in multiple languages within a single job aid entry. Learners across different regions can access relevant materials in their preferred language, which improves comprehension, compliance, and user experience.
 
-### Comportamento anterior
+### Previous behavior
 
-Anteriormente, as ajudas de tarefa no ALM aceitavam apenas um único arquivo de conteúdo por ajuda de tarefa, mesmo quando o nome e a descrição podiam ser localizados. Para fornecer o mesmo recurso em vários idiomas, os autores tiveram que criar ajudas de tarefa separadas para cada idioma. Isso levou à duplicação, confusão e aumento da sobrecarga administrativa. Não havia uma maneira unificada de gerenciar recursos multilíngues, o que dificultava garantir a consistência e controlar o uso.
+Previously, job aids in ALM supported only a single content file per job aid, even when the name and description could be localized. To provide the same resource in multiple languages, authors had to create separate job aids for each language. This led to duplication, confusion, and increased administrative overhead. There was no unified way to manage multilingual resources, which made it difficult to ensure consistency and track usage.
 
-### Casos de uso
+### Use cases
 
-* **Habilitação global da força de trabalho**: fornecer manuais de segurança, guias de processo ou documentos de referência em vários idiomas para uma força de trabalho diversificada.
-* **Conformidade regulamentar**: garanta que todos os funcionários recebam a mesma documentação de conformidade em seu idioma nativo.
-* **Integração consistente**: forneça listas de verificação de integração ou perguntas frequentes em idiomas locais para novas contratações em todo o mundo.
-* **Duplicação reduzida**: gerenciar todas as versões de idioma de uma ajuda de tarefa em uma única entrada, o que simplifica as atualizações e os relatórios.
+* **Global workforce enablement**: Deliver safety manuals, process guides, or reference documents in multiple languages to a diverse workforce.
+* **Regulatory compliance**: Ensure all employees receive the same compliance documentation in their native language.
+* **Consistent onboarding**: Provide onboarding checklists or FAQs in local languages for new hires worldwide.
+* **Reduced duplication**: Manage all language versions of a job aid in a single entry, which simplifies updates and reporting.
 
-### Principais recursos
+### Key features
 
-* **Suporte a vários idiomas**: anexe um arquivo ou URL exclusivo para cada idioma com suporte em uma única ajuda de tarefa.
-* **Nome e descrição localizados**: insira o nome e a descrição da ajuda de tarefa em cada idioma.
-* **Gerenciamento unificado**: edite, atualize e relate todas as versões de idioma em um só lugar.
-* **Compatibilidade com versões anteriores**: as ajudas de tarefa de idioma único existentes são replicadas automaticamente em todos os idiomas adicionados até que novos arquivos sejam carregados.
+* **Multiple language support**: Attach a unique file or URL for each supported language within a single job aid.
+* **Localized name and description**: Enter the job aid's name and description in each language.
+* **Unified management**: Edit, update, and report on all language versions from one place.
+* **Backward compatibility**: Existing single-language job aids are automatically replicated across all added languages until new files are uploaded.
 
-### Criar uma ajuda de tarefa multilíngue
+### Create a multilingual job aid
 
-1. Vá para a função Autor e selecione **Ajudas de tarefa**.
-2. Selecione **Criar Ajuda de Trabalho**.
-3. Insira o nome e a descrição da ajuda de tarefa no idioma padrão.
-4. Adicione o arquivo de conteúdo primário ou URL para o idioma padrão.
-5. Salve a ajuda da tarefa.
+1. Go to the Author role and select **Job Aids**.
+2. Select **Create Job Aid**.
+3. Enter the job aid's name and description in the default language.
+4. Add the primary content file or URL for the default language.
+5. Save the job aid.
 
-### Adicionar idiomas adicionais
+### Add additional languages
 
-1. No editor de ajuda de tarefa, selecione **Adicionar Idioma**.
-2. Selecione o(s) idioma(s) desejado(s) na lista.
-3. Para cada idioma adicionado:
-   * Insira o nome e a descrição localizados.
-   * Faça upload do arquivo de conteúdo correspondente ou forneça um URL específico de idioma.
-4. Repita o procedimento para todos os idiomas necessários.
+1. In the job aid editor, select **Add Language**.
+2. Select the desired language(s) from the list.
+3. For each added language:
+   * Enter the localized name and description.
+   * Upload the corresponding content file or provide a language-specific URL.
+4. Repeat for all required languages.
 
-### Editar e gerenciar idiomas
+### Edit and manage languages
 
-1. Para atualizar um arquivo ou uma descrição para um idioma específico, selecione a guia de idioma e faça as alterações necessárias.
-2. Se um idioma for adicionado após a publicação da ajuda de tarefa, o arquivo original será atribuído automaticamente ao novo idioma até que um arquivo exclusivo seja carregado.
-3. Remova ou substitua arquivos para qualquer idioma conforme necessário.
+1. To update a file or description for a specific language, select the language tab and make changes as needed.
+2. If a language is added after the job aid is published, the original file is automatically assigned to the new language until a unique file is uploaded.
+3. Remove or replace files for any language as required.
 
-### Publish e experiência do aluno
+### Publish and learner experience
 
-1. Depois que todos os idiomas e arquivos forem adicionados, publique a ajuda de tarefa.
-2. Os alunos veem a ajuda de tarefa em seu idioma de conteúdo selecionado, com o arquivo ou URL apropriado.
-3. Se o idioma de um aluno não estiver disponível, o arquivo de idioma padrão será exibido.
+1. After all languages and files are added, publish the job aid.
+2. Learners see the job aid in their selected content language, with the appropriate file or URL.
+3. If a learner's language is not available, the default language file is shown.
 
-### Relatórios
+### Reporting
 
-1. Baixe relatórios de ajuda de tarefa para exibir detalhes de todos os arquivos e idiomas associados a cada ajuda de tarefa.
-2. Os relatórios incluem idioma, nome de arquivo e dados de uso para controle.
+1. Download job aid reports to view details of all files and languages associated with each job aid.
+2. Reports include language, file name, and usage data for tracking.
 
-### Práticas recomendadas
+### Best practices
 
-* Forneça traduções precisas para nomes, descrições e arquivos de conteúdo.
-* Revise e atualize arquivos regularmente para garantir a consistência entre os idiomas.
-* Use convenções de nomenclatura claras para distinguir os arquivos em diferentes idiomas.
-* Teste a experiência do aluno alternando os idiomas do conteúdo para verificar a entrega correta do arquivo.
+* Provide accurate translations for names, descriptions, and content files.
+* Review and update files regularly to ensure consistency across languages.
+* Use clear naming conventions to distinguish files for different languages.
+* Test the learner experience by switching content languages to verify correct file delivery.
 
-### Solução de problemas
+### Troubleshooting
 
-* **Arquivo ausente para um idioma**: o arquivo padrão é mostrado. Verifique se todos os idiomas têm o arquivo correto carregado.
-* **Ajudas de trabalho herdadas**: adicione novos arquivos de idioma para substituir originais replicados automaticamente.
-* **Idioma incorreto mostrado**: verifique as configurações de idioma do conteúdo do aluno e a configuração de idioma da ajuda de tarefa.
+* **Missing file for a language**: The default file is shown. Ensure all languages have the correct file uploaded.
+* **Legacy job aids**: Add new language files to replace automatically replicated originals.
+* **Wrong language shown**: Check the learner's content language settings and the job aid's language configuration.
 
-As ajudas de tarefa multilíngues permitem fornecer recursos de suporte a um público global em uma única entrada, reduzir a duplicação e garantir que cada aluno receba as informações certas em seu idioma preferido. Este recurso melhora a acessibilidade, a conformidade e a eficiência administrativa no Adobe Learning Manager.
+Multilingual Job Aids let you deliver supporting resources to a global audience in a single entry, reduce duplication, and ensure every learner receives the right information in their preferred language. This feature improves accessibility, compliance, and administrative efficiency in Adobe Learning Manager.
 
-## Obtenha respostas com o Assistente de IA para alunos
+## Get answers with AI Assistant for learners
 
-O Assistente de IA para alunos é um assistente conversacional orientado por IA no Adobe Learning Manager projetado para orientá-lo com as informações de que você precisa com mais rapidez. Ao fazer perguntas em linguagem natural, você pode obter explicações contextuais, revelar cursos relevantes e recuperar informações do conteúdo de aprendizado, sem navegar manualmente pelos catálogos.
+AI Assistant for learners is a conversational, AI-driven assistant within Adobe Learning Manager designed to guide you to the information you need faster. By asking questions in natural language, you can get contextual explanations, surface relevant courses, and retrieve insights from learning content — without manually browsing through catalogs.
 
-### Capacidades
+### Capabilities
 
-* **Resposta inteligente de perguntas:** lida com conversas de uma vez e de várias vezes, permitindo que você faça perguntas naturalmente. As respostas são derivadas de cursos, programações de aprendizado, certificações e ajudas de tarefa.
-* **Respostas baseadas em conteúdo com citações:** extrai informações diretamente de materiais de aprendizado e inclui citações que apontam de volta para o curso, módulo ou recurso original.
-* **Compatibilidade ampla de conteúdo:** oferece suporte a uma ampla variedade de formatos, incluindo documentos, apresentações, vídeos, arquivos de áudio, conteúdo de HTML e módulos SCORM (Sharable Content Object Reference Model).
-* **Experiência perfeita do usuário:** disponível como um painel lateral nas páginas do aluno, mantendo o histórico de bate-papo baseado em sessão para continuidade.
-* **Controles de administrador robustos:** os administradores podem habilitar ou desabilitar o assistente, limitar o acesso por grupos de usuários e escolher quais catálogos internos são usados como origem para respostas geradas por IA.
+* **Smart question-answering:** Handles both single-turn and multi-turn conversations, letting you ask questions naturally. Responses are derived from courses, learning paths, certifications, and job aids.
+* **Content-grounded answers with citations:** Pulls information directly from learning materials and includes citations that point back to the original course, module, or resource.
+* **Broad content compatibility:** Supports a wide range of formats, including documents, presentations, videos, audio files, HTML content, and Sharable Content Object Reference Model (SCORM) modules.
+* **Seamless user experience:** Available as a side panel across learner pages, maintaining session-based chat history for continuity.
+* **Robust administrator controls:** Administrators can enable or disable the assistant, limit access by user groups, and choose which internal catalogs are used as the source for AI-generated responses.
 
-### Benefícios
+### Benefits
 
-* **Acesso mais rápido ao conhecimento:** você recebe respostas instantâneas às suas perguntas, eliminando a necessidade de navegar por vários cursos ou documentos.
-* **Envolvimento mais alto:** as interações de conversa tornam a experiência de aprendizado mais natural, intuitiva e acessível.
-* **Melhor entendimento:** você pode fazer perguntas de acompanhamento para esclarecer conceitos e explorar tópicos mais detalhadamente.
-* **Suporte de aprendizado escalável:** respostas automatizadas e baseadas em IA minimizam a dependência de especialistas no assunto e equipes de suporte.
+* **Faster access to knowledge:** You receive instant answers to your questions, eliminating the need to navigate through multiple courses or documents.
+* **Higher engagement:** Conversational interactions make the learning experience more natural, intuitive, and accessible.
+* **Better understanding:** You can ask follow-up questions to clarify concepts and explore topics more thoroughly.
+* **Scalable learning support:** Automated, AI-driven responses minimize dependence on subject-matter experts and support teams.
 
-Saiba mais sobre o [Assistente de IA para alunos](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
+Learn more about [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
 
-## Suporte a faixas de texto de vídeo (VTT) multilíngues
+## Multi-lingual Video Text Tracks (VTT) support
 
-O suporte a Faixas de texto de vídeo (VTT) multilíngues no Adobe Learning Manager permite que os autores forneçam legendas para conteúdo de áudio e vídeo em vários idiomas. Esse recurso simplifica a localização, tornando o treinamento acessível a um público global e garantindo a conformidade com os padrões de acessibilidade. Os autores podem gerar, traduzir, revisar e editar automaticamente arquivos VTT diretamente na plataforma.
+Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables authors to provide subtitles and captions for video and audio content in multiple languages. This feature streamlines localization, making training accessible to a global audience and ensuring compliance with accessibility standards. Authors can auto-generate, translate, review, and edit VTT files directly within the platform.
 
-### Casos de uso
+### Use Cases
 
-* **Treinamento global:** forneça conteúdo em vídeo com legendas em vários idiomas para alcançar os alunos internacionais.
-* **Conformidade de acessibilidade:** forneça legendas para usuários portadores de deficiência auditiva em seu idioma preferido.
-* **Localização mais rápida:** reduza o esforço manual e acelere a implantação de conteúdo com a geração e tradução automáticas de arquivos VTT.
-* **Experiência consistente:** verifique se todos os alunos recebem as mesmas informações, independentemente do idioma.
+* **Global Training:** Deliver video content with subtitles in multiple languages to reach international learners.  
+* **Accessibility Compliance:** Provide captions for hearing-impaired users in their preferred language.  
+* **Faster Localization:** Reduce manual effort and accelerate content rollout by auto-generating and translating VTT files.  
+* **Consistent Experience:** Ensure all learners receive the same information, regardless of language.
 
-### Principais recursos
+### Key features
 
-* **Geração automática de VTT:** carregue um arquivo de vídeo ou áudio e gere automaticamente legendas VTT no idioma original.
-* **Tradução em vários idiomas:** traduza legendas para qualquer um dos 39 idiomas diferentes do inglês com suporte.
-* **Revisão e edição no aplicativo:** revise, edite e baixe arquivos VTT antes de publicar.
-* **Notificações:** receba notificações no aplicativo quando a geração e tradução de VTT estiverem concluídas.
-* **Publicação sem problemas:** legendas finalizadas do Publish para que os alunos acessem em seu idioma escolhido.
+* **Automatic VTT generation:** Upload a video or audio file and auto-generate VTT captions in the original language.  
+* **Multi-language translation:** Translate captions into any of the 39 supported non-English languages.  
+* **In-app review and editing:** Review, edit, and download VTT files before publishing.  
+* **Notifications:** Receive in-app notifications when VTT generation and translation are complete.  
+* **Smooth publishing:** Publish finalized captions for learners to access in their chosen language.
 
-### Fazer upload de conteúdo e gerar VTT
+### Upload content and generate VTT
 
-1. Vá para a Biblioteca de Conteúdo e selecione **Adicionar Conteúdo**.
-2. Carregue o arquivo MP3 ou MP4.
-3. Na caixa de diálogo de carregamento, selecione a opção para **Gerar Conversão**.
-4. Selecione o idioma do conteúdo original (o padrão é o idioma do arquivo).
-5. Selecione idiomas de destino adicionais para tradução (até 39 compatíveis).
-6. Selecione **Salvar**. O sistema começa a gerar e traduzir arquivos VTT.
+1. Go to the Content Library and select **Add Content**.
+2. Upload your MP3 or MP4 file.
+3. In the upload dialog, select the option to **Generate Translation**.
+4. Select the original content language (default is the file's language).
+5. Select additional target languages for translation (up to 39 supported).
+6. Select **Save**. The system begins generating and translating VTT files.
 
-### Monitorar progresso
+### Monitor progress
 
-1. Após salvar, a nova entrada de conteúdo aparece na Biblioteca de conteúdo.
-2. Um indicador de progresso mostra o status da geração e tradução de VTT.
-3. Você receberá uma notificação no aplicativo quando o processo for concluído.
+1. After saving, the new content entry appears in the Content Library.
+2. A progress indicator shows the status of VTT generation and translation.
+3. You receive an in-app notification when the process is complete.
 
-### Revisar e editar arquivos VTT
+### Review and edit VTT files
 
-1. Na Biblioteca de Conteúdo, abra o conteúdo no modo **Editar**.
-2. Para cada idioma, selecione o link **Revisão** ao lado do arquivo VTT.
-3. Uma janela pop-up exibe as legendas para esse idioma.
-4. Edite as legendas diretamente no pop-up ou baixe o arquivo VTT para edição offline.
-5. Após fazer alterações, faça upload ou cole as legendas revisadas de volta no pop-up.
-6. Salve suas edições.
+1. In the Content Library, open the content in **Edit** mode.
+2. For each language, select the **Review** link next to the VTT file.
+3. A pop-up displays the captions for that language.
+4. Edit captions directly in the pop-up or download the VTT file for offline editing.
+5. After making changes, upload or paste the revised captions back into the pop-up.
+6. Save your edits.
 
-### Legendas do Publish
+### Publish captions
 
-1. Quando estiver satisfeito com todas as legendas de idioma, publique o conteúdo.
-2. Os alunos veem as opções de legenda em todos os idiomas publicados ao visualizar o vídeo.
+1. When satisfied with all language captions, publish the content.
+2. Learners see subtitle options in all published languages when viewing the video.
 
-### Informações adicionais
+### Additional Information
 
-* **Idiomas com suporte:** todos os 39 idiomas diferentes do inglês com suporte do Adobe Learning Manager.
-* **Notificações:** os autores são notificados quando a geração e a tradução do VTT são concluídas.
-* **Flexibilidade de edição:** as legendas podem ser editadas no aplicativo ou offline e recarregadas.
-* **Escalabilidade:** criada para necessidades de acessibilidade e localização em escala empresarial.
-* **Não é necessário o carregamento manual de VTT:** o sistema pode gerar arquivos VTT do zero usando o vídeo/áudio carregado.
+* **Supported Languages:** All 39 non-English languages supported by Adobe Learning Manager.  
+* **Notifications:** Authors are notified when VTT generation and translation are complete.  
+* **Editing flexibility:** Captions can be edited in-app or offline and re-uploaded.  
+* **Scalability:** Designed for enterprise-scale localization and accessibility needs.  
+* **No Need for Manual VTT Upload:** The system can generate VTT files from scratch using the uploaded video/audio.  
 
-### Práticas recomendadas
+### Best Practices
 
-* Sempre verifique a precisão das legendas geradas automaticamente antes de publicá-las.
-* Forneça traduções para todos os principais grupos de alunos para maximizar a acessibilidade.
-* Use o sistema de notificação para se manter atualizado sobre o status do processamento.
-* Atualizar legendas regularmente se o conteúdo de vídeo mudar.
+* Always review auto-generated captions for accuracy before publishing.  
+* Provide translations for all major learner groups to maximize accessibility.  
+* Use the notification system to stay updated on processing status.  
+* Regularly update captions if video content changes.  
 
-### Solução de problemas
+### Troubleshooting
 
-* Se a geração de VTT falhar, verifique se o arquivo está em um formato compatível (MP3/MP4).
-* Para idiomas ausentes, verifique se eles são compatíveis e selecionados durante o upload.
-* Se as legendas estiverem fora de sincronia, use o editor do aplicativo para ajustar o tempo.
+* If VTT generation fails, ensure your file is in a supported format (MP3/MP4).  
+* For missing languages, verify they are supported and selected during upload.  
+* If captions are out of sync, use the in-app editor to adjust timing.  
 
-O suporte a VTT multilíngue permite que você ofereça experiências de aprendizado de vídeo acessíveis e localizadas de maneira eficiente. Ao usar geração automática, tradução e edição no aplicativo, você pode garantir que seu conteúdo alcance e ofereça suporte a todos os alunos, independentemente do idioma.
+Multi-lingual VTT support enables you to deliver accessible, localized video learning experiences efficiently. By using auto-generation, translation, and in-app editing, you can ensure your content reaches and supports all learners, regardless of language.
 
-## Criar certificados personalizados
+## Design custom certificates
 
-Os certificados personalizados no Adobe Learning Manager (ALM) permitem que administradores e autores projetem, gerenciem e emitam certificados personalizados para alunos. O recurso inclui um editor de arrastar e soltar, campos dinâmicos, suporte a vários idiomas e planos de fundo gerados por IA, para que as organizações possam criar certificados de marca sem conhecimento técnico.
+Custom Certificates in Adobe Learning Manager (ALM) let administrators and authors design, manage, and issue personalized certificates for learners. The feature includes a drag-and-drop editor, dynamic fields, multilingual support, and AI-generated backgrounds so organizations can create branded certificates without technical expertise.
 
-### Comportamento anterior
+### Previous behavior
 
-Anteriormente, a criação de certificados no ALM era limitada pela rigidez do modelo, falta de personalização e barreiras técnicas (como a edição de HTML). Os clientes solicitavam maneiras mais simples de criar certificados, adicionar campos dinâmicos (como nome do aluno ou professor) e oferecer suporte a vários idiomas, tudo isso mantendo a consistência da marca e o apelo visual.
+Previously, certificate creation in ALM was limited by template rigidity, lack of customization, and technical barriers (such as HTML editing). Customers requested simpler ways to design certificates, add dynamic fields (such as learner name or instructor), and support multiple languages, all while maintaining brand consistency and visual appeal.
 
-### Casos de uso
+### Use cases
 
-* **Reconhecimento de marca**: emita certificados com logotipos, cores e fontes corporativos para fins de conformidade, treinamento ou realização.
-* **Personalização dinâmica**: preencha automaticamente nomes de alunos, nomes de professores e outros campos ativos.
-* **Entrega multilíngue**: forneça certificados em vários idiomas para alunos globais.
-* **Design flexível**: crie certificados de paisagem ou retrato, use planos de fundo gerados por IA e visualize antes de publicar.
+* **Branded recognition**: Issue certificates with corporate logos, colors, and fonts for compliance, training, or achievement.
+* **Dynamic personalization**: Automatically populate learner names, instructor names, and other active fields.
+* **Multilingual delivery**: Provide certificates in multiple languages for global learners.
+* **Flexible design**: Create landscape or portrait certificates, use AI-generated backgrounds, and preview before publishing.
 
-### Acessar certificados personalizados
+### Access custom certificates
 
-1. Vá para a seção **Conquistas** na página inicial do administrador (anteriormente chamadas de **Medalhas**).
-2. Selecione **Certificados** para exibir, criar ou gerenciar modelos de certificado.
+1. Go to the **Achievements** section in the Admin home page (previously called **Badges**).
+2. Select **Certificates** to view, create, or manage certificate templates.
 
-### Criar um certificado
+### Create a certificate
 
-1. Selecione **Criar Certificado**.
-2. Selecione a orientação retrato ou paisagem.
-3. Selecione um modelo existente ou comece com uma tela em branco.
-4. Insira um nome de certificado e o idioma padrão.
-5. Use o editor de arrastar e soltar para adicionar:
-   * Campos de texto (com opções de fonte, cor e posicionamento)
-   * Imagens (logotipos, ícones etc.)
-   * Campos dinâmicos (nome do aluno, nome do professor etc.)
-   * Fundos de certificado (cor sólida, imagem carregada ou imagem gerada por IA)
-6. Para planos de fundo gerados por IA: insira um prompt (por exemplo, “alunos em uma sala de aula”) para gerar planos de fundo usando IA.
+1. Select **Create Certificate**.
+2. Select portrait or landscape orientation.
+3. Select an existing template or start from a blank canvas.
+4. Enter a certificate name and default language.
+5. Use the drag-and-drop editor to add:
+   * Text fields (with font, color, and positioning options)
+   * Images (logos, icons, etc.)
+   * Dynamic fields (learner name, instructor name, etc.)
+   * Certificate backgrounds (solid color, uploaded image, or AI-generated image)
+6. For AI-generated backgrounds: Enter a prompt (for example, "students in a classroom") to generate backgrounds using AI.
 
-### Adicionar campos dinâmicos
+### Add dynamic fields
 
-Os campos dinâmicos nos certificados personalizados do Adobe Learning Manager são espaços reservados que são preenchidos automaticamente com informações relevantes, como nome do aluno, nome do professor ou outros dados específicos da conta — quando o certificado é gerado, permitindo certificados personalizados e sensíveis ao contexto sem edição manual.
+Dynamic fields in Adobe Learning Manager custom certificates are placeholders that automatically populate with relevant information, such as learner name, instructor name, or other account-specific data—when the certificate is generated, allowing for personalized and context-aware certificates without manual editing.
 
-1. Insira variáveis dinâmicas, como nome do aluno, nome do professor ou outros campos ativos.
-2. Os campos são preenchidos automaticamente quando o certificado é emitido.
+1. Insert dynamic variables such as learner name, instructor name, or other active fields.
+2. Fields are automatically populated when the certificate is issued.
 
-### Suporte multilíngue
+### Multilingual support
 
-1. Adicione novos idiomas (por exemplo, francês, alemão) ao certificado.
-2. Insira o texto traduzido para cada idioma.
-3. Gerencie traduções e visualize certificados em cada idioma.
+1. Add new languages (for example, French, German) to the certificate.
+2. Enter translated text for each language.
+3. Manage translations and preview certificates in each language.
 
-### Visualizar e publicar
+### Preview and publish
 
-1. Use o recurso de visualização para ver como o certificado é exibido aos alunos.
-2. Baixe ou imprima a visualização para revisão.
-3. Salve como rascunho para continuar editando mais tarde ou publique quando estiver pronto.
+1. Use the preview feature to see how the certificate appears to learners.
+2. Download or print the preview for review.
+3. Save as draft to continue editing later, or publish when ready.
 
-### Aplicar certificados
+### Apply certificates
 
-1. Os administradores podem definir certificados padrão para a conta.
-2. Os autores podem anexar certificados a instâncias específicas de objetos de aprendizado (cursos, caminhos etc.).
-3. Selecione certificados diferentes no nível da instância, conforme necessário.
+1. Admins can set default certificates for the account.
+2. Authors can attach certificates to specific learning object instances (courses, paths, etc.).
+3. Select different certificates at the instance level as needed.
 
-### Gerenciar certificados
+### Manage certificates
 
-1. Exibir certificados publicados e de rascunho na biblioteca.
-2. Edite, atualize ou exclua modelos conforme necessário.
-3. Os certificados podem ser reutilizados em várias instâncias.
+1. View published and draft certificates in the library.
+2. Edit, update, or delete templates as required.
+3. Certificates can be reused across multiple instances.
 
-Os certificados personalizados no ALM fornecem uma maneira flexível de criar e emitir certificados personalizados, com marca e multilíngues. O recurso simplifica o gerenciamento de certificados, melhora o reconhecimento do aluno e suporta a conformidade global e as necessidades de marca.
+Custom Certificates in ALM provide a flexible way to design and issue personalized, branded, and multilingual certificates. The feature simplifies certificate management, improves learner recognition, and supports global compliance and branding needs.
 
-## Ajudas de tarefa em vários idiomas
+## Multi-lingual Job Aids
 
-As ajudas de tarefa multilíngues no Adobe Learning Manager (ALM) permitem que autores e administradores forneçam documentos complementares, guias ou recursos em vários idiomas em uma única entrada de ajuda de tarefa. Os alunos de diferentes regiões podem acessar materiais relevantes em seu idioma de preferência, o que melhora a acessibilidade, a conformidade e a experiência do usuário.
+Multilingual Job Aids in Adobe Learning Manager (ALM) let authors and administrators provide supporting documents, guides, or resources in multiple languages within a single job aid entry. Learners across different regions can access relevant materials in their preferred language, which improves accessibility, compliance, and user experience.
 
-### Comportamento anterior
+### Previous behavior
 
-Anteriormente, o ALM permitia apenas um arquivo de conteúdo por ajuda de tarefa, mesmo que o nome e a descrição pudessem ser localizados. Para fornecer o mesmo recurso em vários idiomas, os autores tiveram que criar ajudas de tarefa separadas para cada idioma. Isso levou à duplicação, confusão e aumento do esforço administrativo. Não havia uma maneira unificada de gerenciar recursos multilíngues, o que dificultava garantir a consistência e controlar o uso.
+Previously, ALM allowed only one content file per job aid, even though the name and description could be localized. To provide the same resource in multiple languages, authors had to create separate job aids for each language. This led to duplication, confusion, and increased administrative effort. There was no unified way to manage multilingual resources, which made it difficult to ensure consistency and track usage.
 
-### Casos de uso
+### Use cases
 
-* **Habilitação global da força de trabalho**: fornecer manuais de segurança, guias de processo ou documentos de referência em vários idiomas para uma força de trabalho diversificada.
-* **Conformidade regulamentar**: garanta que todos os funcionários recebam a mesma documentação de conformidade em seu idioma nativo.
-* **Integração consistente**: forneça listas de verificação de integração ou perguntas frequentes em idiomas locais para novas contratações em todo o mundo.
-* **Duplicação reduzida**: gerenciar todas as versões de idioma de uma ajuda de tarefa em uma única entrada, o que simplifica as atualizações e os relatórios.
+* **Global workforce enablement**: Deliver safety manuals, process guides, or reference documents in multiple languages to a diverse workforce.
+* **Regulatory compliance**: Ensure all employees receive the same compliance documentation in their native language.
+* **Consistent onboarding**: Provide onboarding checklists or FAQs in local languages for new hires worldwide.
+* **Reduced duplication**: Manage all language versions of a job aid in a single entry, which simplifies updates and reporting.
 
-### Criar uma ajuda de tarefa multilíngue
+### Create a multilingual Job Aid
 
-1. Vá para a função Autor e selecione **Ajudas de tarefa**.
-2. Selecione **Criar Ajuda de Trabalho**.
-3. Insira o nome e a descrição da ajuda de tarefa no idioma padrão.
-4. Faça upload do arquivo de conteúdo principal ou forneça um URL para o idioma padrão.
-5. Salve a ajuda da tarefa.
+1. Go to the Author role and select **Job Aids**.
+2. Select **Create Job Aid**.
+3. Enter the job aid's name and description in the default language.
+4. Upload the primary content file or provide a URL for the default language.
+5. Save the job aid.
 
-### Adicionar idiomas adicionais
+### Add additional languages
 
-1. No editor de ajuda de tarefa, selecione **Adicionar Idioma**.
-2. Selecione o(s) idioma(s) desejado(s) na lista.
-3. Para cada idioma adicionado:
-   * Insira o nome e a descrição localizados.
-   * Faça upload do arquivo de conteúdo correspondente ou forneça um URL específico de idioma.
-4. Repita o procedimento para todos os idiomas necessários.
+1. In the job aid editor, select **Add Language**.
+2. Select the desired language(s) from the list.
+3. For each added language:
+   * Enter the localized name and description.
+   * Upload the corresponding content file or provide a language-specific URL.
+4. Repeat for all required languages.
 
-### Editar e gerenciar idiomas
+### Edit and manage languages
 
-1. Para atualizar um arquivo ou uma descrição para um idioma específico, selecione a guia de idioma e faça as alterações necessárias.
-2. Se um idioma for adicionado após a publicação da ajuda de tarefa, o arquivo original será atribuído automaticamente ao novo idioma até que um arquivo exclusivo seja carregado.
-3. Remova ou substitua arquivos para qualquer idioma conforme necessário.
+1. To update a file or description for a specific language, select the language tab and make changes as needed.
+2. If a language is added after the job aid is published, the original file is automatically assigned to the new language until a unique file is uploaded.
+3. Remove or replace files for any language as required.
 
-### Publish e experiência do aluno
+### Publish and learner experience
 
-1. Depois que todos os idiomas e arquivos forem adicionados, publique a ajuda de tarefa.
-2. Os alunos veem a ajuda de tarefa em seu idioma de conteúdo selecionado, com o arquivo ou URL apropriado.
-3. Se o idioma de um aluno não estiver disponível, o arquivo de idioma padrão será exibido.
+1. After all languages and files are added, publish the job aid.
+2. Learners see the job aid in their selected content language, with the appropriate file or URL.
+3. If a learner's language is not available, the default language file is shown.
 
-### Relatórios
+### Reporting
 
-1. Baixe relatórios de ajuda de tarefa para exibir detalhes de todos os arquivos e idiomas associados a cada ajuda de tarefa.
-2. Os relatórios incluem idioma, nome de arquivo e dados de uso para controle.
+1. Download job aid reports to view details of all files and languages associated with each job aid.
+2. Reports include language, file name, and usage data for tracking.
 
-As ajudas de tarefa multilíngues no ALM permitem fornecer recursos de suporte a um público global em uma única entrada, reduzir a duplicação e garantir que cada aluno receba as informações corretas em seu idioma preferido. Este recurso melhora a acessibilidade, a conformidade e a eficiência administrativa no Adobe Learning Manager.
+Multilingual Job Aids in ALM let you deliver supporting resources to a global audience in a single entry, reduce duplication, and ensure every learner receives the right information in their preferred language. This feature improves accessibility, compliance, and administrative efficiency in Adobe Learning Manager.
 
-## Melhorias de reprodução para cursos gerados por Captivate
+## Playback improvements for Captivate generated courses
 
-A atualização melhora significativamente a experiência de reprodução de conteúdo do Adobe Captivate no ALM, introduzindo uma interface unificada e simplificada.
+The update significantly improves the playback experience for Adobe Captivate content within ALM by introducing a unified and streamlined interface.
 
-O reprodutor do ALM agora exibe um único sumário consolidado, ocultando o sumário do Captivate, e fornece indicadores claros de conclusão no nível do slide, incluindo marcas de escala verdes para controle visual do progresso.
+The ALM player now displays a single, consolidated TOC, hiding the Captivate TOC, and provides clear slide-level completion indicators, including green tick marks for visual progress tracking.
 
-O sistema simplifica a navegação mesclando os controles do módulo e do curso em uma barra intuitiva, reduzindo a confusão do aluno.
+The system simplifies navigation by merging module and course controls into one intuitive bar, reducing learner confusion.
 
-Os controles de progresso sensíveis a contexto melhoram a usabilidade exibindo barras de progresso de vídeo somente em slides de vídeo e controles de navegação de slides somente em slides que não sejam de vídeo.
+Context-aware progress controls enhance usability by displaying video progress bars only on video slides and slide navigation controls only on non-video slides.
 
-Além disso, o sistema agora vincula notas aos números dos slides em vez de carimbos de data e hora, garantindo exportações de PDF confiáveis e resolvendo inconsistências de formatos anteriores.
+Additionally, the system now links notes to slide numbers instead of timestamps, ensuring reliable PDF exports and resolving prior format inconsistencies.
 
-## Aprimoramentos na lista de verificação
+## Checklist enhancements
 
-### Suporte a vários idiomas para lista de verificação
+### Multi-language support for checklist
 
-Este recurso permite criar e gerenciar módulos de lista de verificação em vários idiomas. Cada pergunta, instrução e critério de avaliação da lista de verificação pode ser traduzida para que os revisores e alunos interajam com a lista de verificação em seu idioma preferido. O sistema exibe a lista de verificação no idioma de conteúdo selecionado do usuário, o que melhora a acessibilidade e a conformidade para equipes globais.
+This feature lets you create and manage checklist modules in multiple languages. Each checklist question, instruction, and evaluation criterion can be translated so reviewers and learners interact with the checklist in their preferred language. The system displays the checklist in the user's selected content language, which improves accessibility and compliance for global teams.
 
-1. Adicione ou edite um módulo de lista de verificação em seu curso.
-2. Selecione todos os idiomas que você deseja suportar nas opções de idioma.
-3. Para cada idioma, insira traduções para cada pergunta da lista de verificação, instrução e critério de avaliação.
-4. Salve suas alterações. A lista de verificação é exibida no idioma do conteúdo selecionado do revisor ou do aluno.
-5. Se você adicionar um novo idioma posteriormente, forneça traduções para todas as perguntas e critérios antes de publicar.
-6. Ao baixar relatórios de listas de verificação, selecione seu idioma preferido para exibir o relatório nesse idioma.
+1. Add or edit a checklist module in your course.
+2. Select all the languages you want to support from the language options.
+3. For each language, enter translations for every checklist question, instruction, and evaluation criterion.
+4. Save your changes. The checklist displays in the reviewer's or learner's selected content language.
+5. If you add a new language later, provide translations for all questions and criteria before publishing.
+6. When downloading checklist reports, select your preferred language to view the report in that language.
 
-### Ponderação de pergunta da lista de verificação para avaliações do professor
+### Checklist question weightage for instructor evaluations
 
-Esse recurso permite atribuir pontuações máximas diferentes (ponderação) a cada pergunta da lista de verificação. Você pode refletir a importância ou dificuldade variável de cada pergunta, o que permite avaliações mais precisas e significativas. O sistema calcula a pontuação total com base na sua entrada e determina se o aluno é aprovado ou reprovado de acordo com os critérios definidos.
+This feature lets you assign different maximum scores (weightage) to each checklist question. You can reflect the varying importance or difficulty of each question, which supports more accurate and meaningful evaluations. The system calculates the total score based on your input and determines if the learner passes or fails according to the criteria you set.
 
-1. Ao adicionar um módulo de lista de verificação, selecione **Pontuação personalizada**.
-2. Para cada pergunta da lista de verificação, defina uma pontuação máxima exclusiva que reflita sua importância.
-3. Defina a pontuação geral de aprovação para a lista de verificação.
-4. Salve e publique a lista de verificação.
-5. Como professor ou revisor, avalie cada aluno atribuindo uma pontuação para cada pergunta (até o máximo definido).
-6. O sistema calcula a pontuação total e determina o status de aprovação/reprovação.
-7. Baixe os relatórios de lista de verificação para visualizar as pontuações alcançadas e máximas para cada pergunta e a pontuação total.
+1. When adding a checklist module, select **Custom scoring**.
+2. For each checklist question, set a unique maximum score that reflects its importance.
+3. Define the overall passing score for the checklist.
+4. Save and publish the checklist.
+5. As an instructor or reviewer, evaluate each learner by assigning a score for every question (up to the maximum you set).
+6. The system calculates the total score and determines pass/fail status.
+7. Download checklist reports to view both achieved and maximum scores for each question and the total score.
 
-### Lista de verificação com recurso de comentários para revisor
+### Checklist with commenting capability for reviewer
 
-Esse recurso permite que os revisores adicionem comentários ou feedback durante a avaliação da lista de verificação. Você pode fornecer feedback personalizado e acionável para cada aluno. Você também pode optar por exibir seu nome com seus comentários para transparência. Todos os comentários são salvos na transcrição do aluno e incluídos nos relatórios da lista de verificação.
+This feature lets reviewers add comments or feedback during checklist evaluation. You can provide personalized, actionable feedback for each learner. You can also choose to display your name with your comments for transparency. All remarks are saved in the learner's transcript and included in checklist reports.
 
-1. Ao configurar a lista de verificação, habilite **Comentários do revisor**.
-2. Opcionalmente, habilite **Mostrar o nome do revisor ao aluno** se quiser que o seu nome apareça com os comentários.
-3. Durante a avaliação, insira comentários ou feedback para o aluno no campo de comentários fornecidos.
-4. Selecione se os comentários devem estar visíveis para o aluno.
-5. Envie sua avaliação. Se ativado, o aluno verá seus comentários e seu nome junto com os resultados.
-6. Todos os comentários são salvos na transcrição do aluno e incluídos nos relatórios de lista de verificação para referência futura.
+1. When setting up the checklist, enable **Reviewer remarks**.
+2. Optionally, enable **Show reviewer name to learner** if you want your name to appear with your comments.
+3. During evaluation, enter comments or feedback for the learner in the provided remarks field.
+4. Select whether your comments should be visible to the learner.
+5. Submit your evaluation. If enabled, the learner sees your remarks and your name alongside their results.
+6. All comments are saved in the learner's transcript and included in checklist reports for future reference.
 
-## Aprimoramentos de pesquisa avançada
+## Advanced search enhancements
 
-Esta versão inclui melhoria na pesquisa de conteúdo ao mostrar os cursos com correspondência de conteúdo com consulta mais alta em classificação. Além disso, as ajudas de tarefa agora estão incluídas no ranking de pesquisa avançada.
+This release includes improvement in in-content search by showing the courses with content match with query higher in rank. Also, Job Aids are now included in advanced search ranking.
 
-## Equivalentes e suplentes
+## Equivalents and alternates
 
-### Visão geral
+### Overview
 
-Em muitas organizações, os alunos encontram situações de treinamento em que diferentes cursos podem atender legitimamente ao mesmo requisito?por exemplo, quando um novo curso substitui um mais antigo, quando um curso mais abrangente pode substituir um mais curto ou quando um curso substituto especial precisa ser oferecido.
+In many organizations, learners encounter training situations where different courses can legitimately satisfy the same requirement?for example, when a new course replaces an older one, when a more comprehensive course can stand in for a shorter one, or when a special substitute course needs to be offered.
 
-O recurso Cursos alternativos ou Caminho de aprendizado fornece ao ALM uma maneira formal de dizer:
+The Alternate Courses or Learning Path feature gives ALM a formal way to say:
 
-“Se o aluno concluiu este treinamento, trate-o como tendo atendido a esse requisito de treinamento relacionado.”
+"If the learner completed this training, treat them as having satisfied that related training requirement."
 
-O recurso funciona em cursos e caminhos de aprendizado, garante que os requisitos de downstream, como pré-requisitos e regras de conformidade, sejam atendidos e faz isso sem forçar os alunos a passar por conteúdo redundante. Ele também mantém a precisão dos relatórios ao gravar o que foi concluído diretamente em comparação com o que foi satisfeito por meio de uma alternativa.
+The feature works across courses and Learning Paths, ensures downstream requirements such as prerequisites and compliance rules are honored, and does this without forcing learners to sit through redundant content. It also keeps reporting accurate by recording what was completed directly versus what was satisfied via an alternate.
 
-No núcleo, o recurso introduz o conceito de uma conclusão alternativa: um estado de conclusão especial criado automaticamente quando um aluno conclui um treinamento de origem configurado que conta para outro treinamento de destino.
+At the core, the feature introduces the concept of an alternate completion: a special completion state created automatically when a learner finishes a configured source training that counts towards another target training.
 
-### Equivalência vs. alternativas
+### Equivalence vs. alternates
 
-Alguns relacionamentos de treinamento são bidirecionais, o que significa que cada curso pode satisfazer os requisitos do outro. Este é efetivamente um cenário em que dois treinamentos são tratados como substituíveis entre si. Em contraste, as relações unidirecionais permitem que um treinamento satisfaça a exigência de outro, mas não vice-versa. O ALM modela ambos os cenários usando o mesmo mecanismo subjacente de conclusão alternativa.
+Some training relationships are bidirectional, meaning each course can satisfy the other's requirement. This is effectively a scenario where two trainings are treated as mutually substitutable. In contrast, unidirectional relationships allow one training to satisfy the requirement for another, but not vice versa. ALM models both scenarios using the same underlying alternate*completion mechanism.
 
-* **Relação bidirecional:** a conclusão de um dos treinamentos satisfaz o requisito do outro.
-* **Relacionamento unidirecional:** concluir o Treinamento A satisfaz o Treinamento B, mas concluir B não satisfaz A. Isso é comum quando uma versão mais recente ou mais abrangente deve contar para um requisito mais antigo, mas não o contrário.
+* **Bidirectional relationship:** Completing either training satisfies the requirement for the other.
+* **Unidirectional relationship:** Completing Training A satisfies Training B, but completing B does not satisfy A. This is common when a newer or more comprehensive version should count toward an older requirement, but not the reverse.
 
-As alternativas são usadas com mais frequência em cenários **unidirecionais**?por exemplo, quando um curso de superconjunto mais abrangente abrange tudo em um curso de subconjunto mais simples. Completar o superconjunto deve satisfazer o requisito para o subconjunto, mas não necessariamente o contrário.
+Alternates are most often used in **unidirectional** scenarios?for example, when a more comprehensive superset course covers everything in a simpler subset course. Completing the superset should satisfy the requirement for the subset, but not necessarily the other way around.
 
-* Um curso mais recente e expandido que deve contar para um requisito mais antigo.
-* Um curso criado para um público específico (por exemplo, uma variante regional ou adaptada à acessibilidade) que ainda atende ao mesmo requisito do curso principal.
-* Uma nova versão aprimorada de um curso que a organização deseja contar para um requisito mais antigo, mas a versão mais antiga não deve contar para o novo requisito.
+* A newer, expanded course that should count toward an older requirement.
+* A course designed for a specific audience (for example, a regional or accessibility*adapted variant) that still fulfills the same requirement as the primary course.
+* An enhanced new version of a course that the organization wants to count for an older requirement, but the older version should not count for the new requirement.
 
-Em Alternativas, a relação normalmente é **one*way**. Se o Curso A for uma alternativa para o Curso B, concluir A pode satisfazer a exigência de B, mas concluir B não necessariamente satisfaz A.
+In Alternates, the relationship is normally **one*way**. If Course A is an alternate for Course B, completing A can satisfy B's requirement, but completing B does not necessarily satisfy A.
 
-A equivalência e a alternativa compartilham o mesmo mecanismo subjacente no ALM: quando um treinamento de origem configurado é concluído, o ALM produz automaticamente uma conclusão alternativa para um ou mais treinamentos de destino.
+Both equivalence and alternate share the same underlying mechanism in ALM: when a configured source training is completed, ALM automatically produces an alternate completion for one or more target trainings.
 
-### Que problemas isso resolve?
+### What problems does this solve?
 
-Sem alternativas e equivalência, os administradores e alunos enfrentam vários problemas recorrentes:
+Without Alternates and Equivalence, administrators and learners face several recurring issues:
 
-* Os alunos são frequentemente solicitados a repetir cursos que abrangem conteúdo que já concluíram em uma versão ou formato diferente.
-* A atualização de programas de conformidade é mais simples porque os administradores podem substituir ou reestruturar treinamentos sem forçar os alunos que concluíram versões mais antigas a retomar conteúdo equivalente ou substituído.
-* A lógica de pré-requisito é rígida. Se um caminho exigir um curso específico como pré-requisito, não há uma maneira clara de reconhecer que outro treinamento é bom o suficiente.
-* Relatórios e auditorias são mais difíceis. Não há nenhum sinal formal que mostre que um requisito foi atendido através de uma conclusão alternativa e nenhuma maneira direta de rastrear a origem do crédito.
+* Learners are frequently asked to repeat courses that cover content they already completed in a different version or format.
+* Updating compliance programs is simpler because admins can replace or restructure trainings without forcing learners who completed older versions to retake equivalent or superseded content.
+* Prerequisite logic is rigid. If a path requires a particular course as a prerequisite, there is no clean way to recognize that another training is good enough.
+* Reporting and audits are harder. There is no formal signal showing that a requirement was satisfied via an alternate completion and no straightforward way to trace the source of the credit.
 
-O recurso Alternativas e Equivalência resolve esses problemas:
+The Alternates and Equivalence feature addresses these issues by:
 
-* Impedir esforços duplicados para alunos quando as alternativas são válidas.
-* Permitir que os administradores modifiquem as estruturas de treinamento (por exemplo, troquem um curso dentro de um caminho) sem interromper as conclusões dos alunos que fizeram a versão anterior.
-* Permitir que os pré-requisitos e as verificações de conformidade respeitem tanto as conclusões diretas quanto as conclusões alternativas ou equivalentes.
-* Registrar claramente, em transcrições e relatórios, se um treinamento foi concluído diretamente ou satisfeito por meio de um relacionamento alternativo, junto com o qual o treinamento serviu como fonte.
+* Preventing duplicate effort for learners when alternates are valid.
+* Allowing admins to modify training structures (for example, swap a course inside a path) without breaking completions for learners who took the earlier version.
+* Allowing prerequisites and compliance checks to respect both direct completions and alternate or equivalent completions.
+* Recording clearly, in transcripts and reports, whether a training was completed directly or satisfied via an alternate relationship, along with which training served as the source.
 
-### Como o recurso funciona conceitualmente
+### How the feature works conceptually
 
-O recurso é construído em três ideias principais: **relações**, **conclusão alternativa** e **comportamento downstream**.
+The feature is built on three main ideas: **relationships**, **alternate completion**, and **downstream behavior**.
 
-#### Relacionamentos entre treinamentos
+#### Relationships between trainings
 
-Os administradores definem as relações entre cursos e caminhos de aprendizado. Para cada relação, eles escolhem uma **origem** e um ou mais **destinos**. Um único curso pode ter até 30 metas, dependendo de quantos treinamentos anteriores ou relacionados ele deve atender.
+Administrators define relationships between courses and Learning Paths. For each relationship, they choose a **source** and one or more **targets**. A single course might have up to 30 targets depending on how many earlier or related trainings it should satisfy.
 
-Para a Equivalência, os administradores podem tornar a relação **bidirecional** se quiserem que os dois treinamentos satisfaçam uns aos outros. Para alternativas, os administradores normalmente mantêm a direção em uma*maneira para refletir que apenas algumas substituições são permitidas.
+For Equivalence, admins can make the relationship **bidirectional** if they want both trainings to satisfy each other. For Alternates, admins normally keep the direction one*way to reflect that only some substitutions are allowed.
 
-Esses relacionamentos são armazenados no nível do treinamento, não no nível do aluno. Uma vez configurados e ativados, eles se aplicam a todas as conclusões atuais e futuras do treinamento de origem, sujeito às configurações no nível de conta, como se a conclusão retroativa estiver ativada.
+These relationships are stored at the training level, not at the learner level. Once configured and enabled, they apply to all current and future completions of the source training, subject to account*level settings such as whether retroactive completion is enabled.
 
-### Conclusão alternativa
+### Alternate completion
 
-Quando um aluno conclui um treinamento de origem, o ALM examina todas as relações alternativas ou equivalentes configuradas e, para cada treinamento de destino relevante, cria um **registro de conclusão alternativa**. Esse registro é diferente de uma conclusão normal:
+When a learner completes a source training, ALM examines all configured alternate or equivalent relationships and, for each relevant target training, creates an **alternate completion record**. This record is distinct from a normal completion:
 
-* Ele marca o treinamento de destino do aluno, mas acompanha que ele foi concluído via alternativa ou equivalência em vez de diretamente.
-* Ele registra qual treinamento de origem foi usado para satisfazer o alvo.
-* Ele é armazenado em uma estrutura dedicada para que a emissão de relatórios possa distinguir entre conclusões diretas e alternativas.
+* It marks the target training for the learner but keeps track that it was completed via alternate or equivalence rather than directly.
+* It records which source training was used to satisfy the target.
+* It is stored in a dedicated structure so reporting can distinguish between direct and alternate completions.
 
-Os alunos verão uma conclusão alternativa mesmo se não estiverem inscritos. O relatório Transcrição do aluno (LT) inclui apenas registros de treinamentos nos quais o aluno se inscreveu.
+Learners will see alternate completion even if they're not enrolled. The Learner Transcript (LT) report includes only records of trainings that the learner has enrolled in.
 
-### Experiência do aplicativo do aluno para conclusões alternativas e equivalentes
+### Learner app experience for alternate and equivalent completions
 
-Conclusões alternativas e equivalentes são apresentadas de forma distinta no aplicativo do aluno para que os alunos possam entender claramente como um requisito de treinamento foi atendido, mantendo a consistência com transcrições e relatórios.
+Alternate and equivalent completions are surfaced distinctly in the learner app so learners can clearly understand how a training requirement was satisfied, while maintaining consistency with transcripts and reports.
 
-#### Comportamento da placa LO
+#### LO card behavior
 
-#### Status de conclusão alternativo
+#### Alternate completion status
 
-Quando um aluno conclui um treinamento por meio de uma relação alternativa ou equivalente, o cartão do Objeto de Aprendizado (LO) exibe um status distinto, como **Concluído via Alternativo**.\
-Essa distinção visual ajuda os alunos a diferenciar entre conclusões diretas e conclusões concedidas por meio de relacionamentos configurados.
+When a learner completes a training via an alternate or equivalent relationship, the Learning Object (LO) card displays a distinct status such as **Completed via Alternate**.  
+This visual distinction helps learners differentiate between direct completions and completions granted through configured relationships.
 
-#### Indicador do método de conclusão
+#### Completion method indicator
 
-O cartão do OA inclui um indicador do método de conclusão (por exemplo, um rótulo ou ícone) para mostrar que a conclusão foi obtida por meio de um **Alternativo**.\
-Se uma conclusão alternativa for revogada posteriormente devido a alterações como inconclusão retroativa ou exclusão do treinamento de origem, o cartão do OA será atualizado para refletir **Alternativo (revogado)**.
+The LO card includes a completion method indicator (for example, a label or icon) to show that the completion was achieved through an **Alternate**.  
+If an alternate completion is later revoked due to changes such as retroactive incompletion or deletion of the source training, the LO card updates to reflect **Alternate (Revoked)**.
 
-#### Transparência e detalhes de auditoria
+#### Transparency and audit details
 
-Os alunos podem abrir o cartão do OA para exibir detalhes adicionais, incluindo:
+Learners can open the LO card to view additional details, including:
 
-* O curso ou a programação de aprendizado de origem que concedeu a conclusão alternativa
-* A data de conclusão associada ao treinamento de origem
+* The source course or learning path that granted the alternate completion
+* The completion date associated with the source training  
 
-Isso garante a transparência e dá suporte a auditorias e revisões de conformidade.
+This ensures transparency and supports audit and compliance reviews.
 
-#### Filtragem e exibições
+#### Filtering and views
 
-#### Filtro de método de conclusão
+#### Completion method filter
 
-O aplicativo do aluno fornece um filtro que permite aos alunos distinguir entre:
+The learner app provides a filter that allows learners to distinguish between:
 
-* Conclusões **diretas**
-* Conclusões **alternativas**
-* **Todas** conclusões
+* **Direct** completions
+* **Alternate** completions
+* **All** completions  
 
-Isso permite que os alunos entendam rapidamente como seus requisitos de aprendizado foram atendidos.
+This enables learners to quickly understand how their learning requirements were fulfilled.
 
-#### Exibições de transcrição e progresso
+#### Transcript and progress views
 
-O filtro do método de conclusão está disponível nas exibições voltadas para o aluno*, como:
+The completion method filter is available in learner*facing views such as:
 
-* Transcrições de aprendizado
-* Seções de acompanhamento de progresso e conclusão
+* Learning transcripts
+* Progress and completion tracking sections  
 
-Essas exibições indicam claramente quais treinamentos foram concluídos diretamente e quais foram satisfeitos por meio de alternativas ou equivalência.
+These views clearly indicate which trainings were completed directly and which were satisfied through alternates or equivalence.
 
-#### Alinhamento de relatórios
+#### Reporting alignment
 
-A lógica de filtragem no aplicativo do aluno se alinha à coluna **Método de conclusão** usada nos relatórios.\
-Isso garante a consistência entre o que os alunos veem na interface e o que os administradores veem nas exportações e nos relatórios de conformidade.
+The filtering logic in the learner app aligns with the **Completion Method** column used in reports.  
+This ensures consistency between what learners see in the UI and what administrators see in exports and compliance reports.
 
-#### Encerrar *a* encerrar fluxo
+#### End*to*end flow
 
-#### Para alunos
+#### For learners
 
-1. Navegue até **Meu aprendizado** ou **Cursos concluídos** no aplicativo do aluno.
-2. Revise os cartões do OA para identificar treinamentos marcados como **Concluídos via Alternativo**.
-3. Abra um cartão do OA para ver detalhes sobre o treinamento de origem e a data de conclusão.
-4. Use o menu de filtro nas exibições de transcrição ou lista de cursos para selecionar **Direto**, **Alternativo** ou **Todos**.
-5. Revise a lista atualizada com base no método de conclusão selecionado.
+1. Navigate to **My Learning** or **Completed Courses** in the learner app.
+2. Review LO cards to identify trainings marked as **Completed via Alternate**.
+3. Open an LO card to view details about the source training and completion date.
+4. Use the filter menu in transcript or course list views to select **Direct**, **Alternate**, or **All**.
+5. Review the updated list based on the selected completion method.
 
-#### Para administradores e autores
+#### For administrators and authors
 
-1. Configure relacionamentos equivalentes ou alternativos entre cursos ou programações de aprendizado na interface do administrador.
-2. Verifique se as conclusões alternativas são corretamente refletidas nas placas de OA e nos filtros voltados para o aluno.
-3. Use as exibições e os relatórios do aluno para confirmar a consistência entre a interface do usuário e os dados exportados.
-4. Se um treinamento de origem for desativado ou excluído, valide se os cartões de OA afetados foram atualizados de acordo (por exemplo, mostrando **Alternativo (revogado)** quando aplicável).
+1. Configure equivalent or alternate relationships between courses or learning paths in the admin interface.
+2. Verify that alternate completions are correctly reflected on LO cards and in learner*facing filters.
+3. Use learner views and reports to confirm consistency between UI and exported data.
+4. If a source training is retired or deleted, validate that affected LO cards update accordingly (for example, showing **Alternate (Revoked)** when applicable).
 
-## Conclusão retroativa e comportamento incompleto
+## Retroactive completion and incompletion behavior
 
-O ALM oferece suporte à conclusão retroativa e à inconclusão retroativa para garantir que os relacionamentos alternativos e equivalentes permaneçam precisos ao longo do tempo, mesmo quando os relacionamentos são criados, modificados ou removidos depois que os alunos já concluíram o treinamento.
+ALM supports retroactive completion and retroactive incompletion to ensure that alternate and equivalent relationships remain accurate over time, even when relationships are created, modified, or removed after learners have already completed training.
 
-### Conclusão retroativa
+### Retroactive completion
 
-#### Definição
+#### Definition
 
-Quando a conclusão retroativa está ativada, os alunos que concluíram um curso de origem no passado recebem automaticamente uma conclusão alternativa para o curso de destino se um relacionamento equivalente ou alternativo for criado posteriormente.\
-Isso garante que o aprendizado histórico seja respeitado sem exigir que os alunos façam o treinamento novamente.
+When retroactive completion is enabled, learners who completed a source course in the past automatically receive an alternate completion for the target course if an equivalent or alternate relationship is created later.  
+This ensures that historical learning is honored without requiring learners to retake training.
 
-#### Como funciona
+#### How it works
 
-1. Um administrador ativa a conclusão retroativa no nível da conta.
-2. O administrador define uma relação equivalente ou alternativa entre um treinamento de origem e de destino.
-3. O sistema verifica os registros históricos de conclusão do treinamento de origem.
-4. Os alunos qualificados recebem a conclusão alternativa para o treinamento de destino.
-5. Esses registros aparecem como **Concluídos via Alternativo** em transcrições e relatórios do aluno.
+1. An administrator enables retroactive completion at the account level.
+2. The administrator defines an equivalent or alternate relationship between a source and target training.
+3. The system scans historical completion records for the source training.
+4. Eligible learners are granted alternate completion for the target training.
+5. These records appear as **Completed via Alternate** in learner transcripts and reports.
 
-### Inconclusão retroativa
+### Retroactive incompletion
 
-#### Definição
+#### Definition
 
-Quando a inconclusão retroativa estiver ativada, as conclusões alternativas serão revogadas se o relacionamento equivalente ou alternativo subjacente for removido ou se o treinamento de origem for excluído.\
-Isso garante que o sistema reflita os relacionamentos de treinamento atuais e válidos.
+When retroactive incompletion is enabled, alternate completions are revoked if the underlying equivalent or alternate relationship is removed or if the source training is deleted.  
+This ensures the system reflects the current and valid training relationships.
 
-#### Como funciona
+#### How it works
 
-1. Um administrador ativa a inconclusão retroativa no nível da conta.
-2. O administrador remove uma relação alternativa ou equivalente ou exclui o treinamento de origem.
-3. O sistema identifica os alunos que receberam a conclusão alternativa por meio do relacionamento afetado.
-4. Os registros de conclusão alternativos correspondentes são revogados.
-5. Os registros revogados são marcados como **Alternativo (revogado)** em transcrições e relatórios para visibilidade de auditoria.
+1. An administrator enables retroactive incompletion at the account level.
+2. The administrator removes an alternate or equivalent relationship, or deletes the source training.
+3. The system identifies learners who received alternate completion through the affected relationship.
+4. The corresponding alternate completion records are revoked.
+5. Revoked records are marked as **Alternate (Revoked)** in transcripts and reports for audit visibility.
 
-### Impacto nos pré-requisitos
+### Impact on prerequisites
 
-As conclusões alternativas—incluindo aquelas concedidas retroativamente—são tratadas como conclusões válidas ao avaliar pré-requisitos.\
-Se um aluno tiver **Concluído via Alternativo**, ele poderá continuar com os cursos que exigem o treinamento de destino.
+Alternate completions—including those granted retroactively—are treated as valid completions when evaluating prerequisites.  
+If a learner has **Completed via Alternate**, they are allowed to proceed with courses that require the target training.
 
-Se uma conclusão alternativa for revogada posteriormente por meio de inconclusão retroativa, o aluno pode perder a qualificação para cursos que dependiam desse pré-requisito.
+If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depended on that prerequisite.
 
-### Impacto nos caminhos de aprendizado e certificações
+### Impact on learning paths and certifications
 
-Conclusões alternativas contribuem para o progresso e a conclusão de caminhos de aprendizado e certificações.\
-Os alunos podem avançar ou concluir esses programas quando os treinamentos necessários forem atendidos por meio de relacionamentos alternativos ou equivalentes.
+Alternate completions contribute toward progress and completion of learning paths and certifications.  
+Learners can advance or complete these programs when required trainings are satisfied via alternate or equivalent relationships.
 
-Se uma conclusão alternativa for revogada, as programações de aprendizado ou certificações afetadas podem perder o progresso ou o status de conclusão até que o requisito seja atendido por meio de uma conclusão válida.
+If an alternate completion is revoked, affected learning paths or certifications may lose progress or completion status until the requirement is met through a valid completion.
 
-### Finalizar *a* finalizar fluxo de trabalho
+### End*to*end workflow
 
-#### Habilitando conclusão retroativa ou inconclusão
+#### Enabling retroactive completion or incompletion
 
-1. Os administradores navegam até as configurações da conta e ativam a conclusão retroativa e/ou a conclusão retroativa.
-2. Os administradores criam, modificam ou removem relacionamentos equivalentes ou alternativos entre treinamentos.
+1. Administrators navigate to account settings and enable retroactive completion and/or retroactive incompletion.
+2. Administrators create, modify, or remove equivalent or alternate relationships between trainings.
 
-#### Ações do sistema
+#### System actions
 
-* **Para conclusão retroativa:**\
-  O sistema concede conclusões alternativas com base nas conclusões de origem histórica.
-* **Para inconclusão retroativa:**\
-  O sistema revoga conclusões alternativas quando os relacionamentos são removidos ou os treinamentos de origem são excluídos.
+* **For retroactive completion:**  
+  The system grants alternate completions based on historical source completions.
+* **For retroactive incompletion:**  
+  The system revokes alternate completions when relationships are removed or source trainings are deleted.
 
-#### Experiência do aluno
+#### Learner experience
 
-Os alunos veem os status de conclusão atualizados em cartões LO e em transcrições, como:
+Learners see updated completion statuses on LO cards and in transcripts, such as:
 
-* **Concluído via Alternativo**
-* **Alternativa (Revogada)**
+* **Completed via Alternate**
+* **Alternate (Revoked)**  
 
-Verificações de pré-requisitos, progresso do caminho de aprendizado e atualização do status da certificação são atualizados dinamicamente com base no estado de conclusão atual.
+Prerequisite checks, learning path progress, and certification status update dynamically based on the current completion state.
 
-#### Relatórios e auditoria
+#### Reporting and audit
 
-Todas as alterações retroativas são refletidas no relatório Transcrição de aprendizado (LT).\
-Os relatórios distinguem claramente entre conclusões diretas, conclusões alternativas e conclusões alternativas revogadas para dar suporte à conformidade, dar suporte a investigações e auditorias.
+All retroactive changes are reflected in the Learning Transcript (LT) report.  
+Reports clearly distinguish between direct completions, alternate completions, and revoked alternate completions to support compliance, support investigations, and audits.
 
-### Conclusão retroativa e comportamento incompleto
+### Retroactive completion and incompletion behavior
 
-O ALM oferece suporte à conclusão retroativa e à inconclusão retroativa para garantir que os relacionamentos alternativos e equivalentes permaneçam precisos ao longo do tempo, mesmo quando os relacionamentos são criados, modificados ou removidos depois que os alunos já concluíram o treinamento.
+ALM supports retroactive completion and retroactive incompletion to ensure that alternate and equivalent relationships remain accurate over time, even when relationships are created, modified, or removed after learners have already completed training.
 
-#### Conclusão retroativa
+#### Retroactive completion
 
-#### Definição
+#### Definition
 
-Quando a conclusão retroativa está ativada, os alunos que concluíram um curso de origem no passado recebem automaticamente uma conclusão alternativa para o curso de destino se um relacionamento equivalente ou alternativo for criado posteriormente.\
-Isso garante que o aprendizado histórico seja respeitado sem exigir que os alunos façam o treinamento novamente.
+When retroactive completion is enabled, learners who completed a source course in the past automatically receive an alternate completion for the target course if an equivalent or alternate relationship is created later.  
+This ensures that historical learning is honored without requiring learners to retake training.
 
-#### Como funciona
+#### How it works
 
-1. Um administrador ativa a conclusão retroativa no nível da conta.
-2. O administrador define uma relação equivalente ou alternativa entre um treinamento de origem e de destino.
-3. O sistema verifica os registros históricos de conclusão do treinamento de origem.
-4. Os alunos qualificados recebem a conclusão alternativa para o treinamento de destino.
-5. Esses registros aparecem como **Concluídos via Alternativo** em transcrições e relatórios do aluno.
+1. An administrator enables retroactive completion at the account level.
+2. The administrator defines an equivalent or alternate relationship between a source and target training.
+3. The system scans historical completion records for the source training.
+4. Eligible learners are granted alternate completion for the target training.
+5. These records appear as **Completed via Alternate** in learner transcripts and reports.
 
-#### Inconclusão retroativa
+#### Retroactive incompletion
 
-#### Definição
+#### Definition
 
-Quando a inconclusão retroativa estiver ativada, as conclusões alternativas serão revogadas se o relacionamento equivalente ou alternativo subjacente for removido ou se o treinamento de origem for excluído.\
-Isso garante que o sistema reflita os relacionamentos de treinamento atuais e válidos.
+When retroactive incompletion is enabled, alternate completions are revoked if the underlying equivalent or alternate relationship is removed or if the source training is deleted.  
+This ensures the system reflects the current and valid training relationships.
 
-#### Como funciona
+#### How it works
 
-1. Um administrador ativa a inconclusão retroativa no nível da conta.
-2. O administrador remove uma relação alternativa ou equivalente ou exclui o treinamento de origem.
-3. O sistema identifica os alunos que receberam a conclusão alternativa por meio do relacionamento afetado.
-4. Os registros de conclusão alternativos correspondentes são revogados.
-5. Os registros revogados são marcados como **Alternativo (revogado)** em transcrições e relatórios para visibilidade de auditoria.
+1. An administrator enables retroactive incompletion at the account level.
+2. The administrator removes an alternate or equivalent relationship, or deletes the source training.
+3. The system identifies learners who received alternate completion through the affected relationship.
+4. The corresponding alternate completion records are revoked.
+5. Revoked records are marked as **Alternate (Revoked)** in transcripts and reports for audit visibility.
 
-#### Impacto nos pré-requisitos
+#### Impact on prerequisites
 
-As conclusões alternativas—incluindo aquelas concedidas retroativamente—são tratadas como conclusões válidas ao avaliar pré-requisitos.\
-Se um aluno tiver **Concluído via Alternativo**, ele poderá continuar com os cursos que exigem o treinamento de destino.
+Alternate completions—including those granted retroactively—are treated as valid completions when evaluating prerequisites.  
+If a learner has **Completed via Alternate**, they are allowed to proceed with courses that require the target training.
 
-Se uma conclusão alternativa for revogada posteriormente por meio de inconclusão retroativa, o aluno pode perder a qualificação para cursos que dependiam desse pré-requisito.
+If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depended on that prerequisite.
 
-#### Impacto nos caminhos de aprendizado e certificações
+#### Impact on learning paths and certifications
 
-Conclusões alternativas contribuem para o progresso e a conclusão de caminhos de aprendizado e certificações.\
-Os alunos podem avançar ou concluir esses programas quando os treinamentos necessários forem atendidos por meio de relacionamentos alternativos ou equivalentes.
+Alternate completions contribute toward progress and completion of learning paths and certifications.  
+Learners can advance or complete these programs when required trainings are satisfied via alternate or equivalent relationships.
 
-Se uma conclusão alternativa for revogada, as programações de aprendizado ou certificações afetadas podem perder o progresso ou o status de conclusão até que o requisito seja atendido por meio de uma conclusão válida.
+If an alternate completion is revoked, affected learning paths or certifications may lose progress or completion status until the requirement is met through a valid completion.
 
-#### Finalizar *a* finalizar fluxo de trabalho
+#### End*to*end workflow
 
-#### Habilitando conclusão retroativa ou inconclusão
+#### Enabling retroactive completion or incompletion
 
-1. Os administradores navegam até as configurações da conta e ativam a conclusão retroativa e/ou a conclusão retroativa.
-2. Os administradores criam, modificam ou removem relacionamentos equivalentes ou alternativos entre treinamentos.
+1. Administrators navigate to account settings and enable retroactive completion and/or retroactive incompletion.
+2. Administrators create, modify, or remove equivalent or alternate relationships between trainings.
 
-#### Ações do sistema
+#### System actions
 
-* **Para conclusão retroativa:**\
-  O sistema concede conclusões alternativas com base nas conclusões de origem histórica.
-* **Para inconclusão retroativa:**\
-  O sistema revoga conclusões alternativas quando os relacionamentos são removidos ou os treinamentos de origem são excluídos.
+* **For retroactive completion:**  
+  The system grants alternate completions based on historical source completions.
+* **For retroactive incompletion:**  
+  The system revokes alternate completions when relationships are removed or source trainings are deleted.
 
-#### Experiência do aluno
+#### Learner experience
 
-Os alunos veem os status de conclusão atualizados em cartões LO e em transcrições, como:
+Learners see updated completion statuses on LO cards and in transcripts, such as:
 
-* **Concluído via Alternativo**
-* **Alternativa (Revogada)**
+* **Completed via Alternate**
+* **Alternate (Revoked)**  
 
-Verificações de pré-requisitos, progresso do caminho de aprendizado e atualização do status da certificação são atualizados dinamicamente com base no estado de conclusão atual.
+Prerequisite checks, learning path progress, and certification status update dynamically based on the current completion state.
 
-#### Relatórios e auditoria
+#### Reporting and audit
 
-Todas as alterações retroativas são refletidas no relatório Transcrição de aprendizado (LT).\
-Os relatórios distinguem claramente entre conclusões diretas, conclusões alternativas e conclusões alternativas revogadas para dar suporte à conformidade, dar suporte a investigações e auditorias.
+All retroactive changes are reflected in the Learning Transcript (LT) report.  
+Reports clearly distinguish between direct completions, alternate completions, and revoked alternate completions to support compliance, support investigations, and audits.
 
-### Webhooks para equivalentes e alternativas
+### Webhooks for equivalents and alternates
 
-O ALM fornece eventos de webhook dedicados para conclusões equivalentes e alternativas a fim de oferecer suporte à automação, integrações e sincronização com sistemas externos.
+ALM provides dedicated webhook events for equivalent and alternate completions to support automation, integrations, and synchronization with external systems.
 
-Esses eventos permitem que os consumidores externos façam uma distinção confiável entre términos diretos e términos concedidos por meio de relacionamentos alternativos ou equivalentes.
+These events allow external consumers to reliably distinguish between direct completions and completions granted through alternate or equivalent relationships.
 
-#### Visão geral
+#### Overview
 
-Quando um aluno conclui um curso por meio de uma relação alternativa ou equivalente, o ALM aciona um evento de webhook separado do webhook de conclusão de curso padrão.\
-Isso garante que as integrações possam responder de forma diferente a conclusões alternativas, quando necessário.
+When a learner completes a course via an alternate or equivalent relationship, ALM triggers a webhook event that is separate from the standard course completion webhook.  
+This ensures that integrations can respond differently to alternate completions where required.
 
-Os eventos do webhook também são acionados quando ocorre conclusão retroativa ou inconclusão retroativa, abrangendo atualizações históricas, bem como alterações de relacionamento.
+Webhook events are also triggered when retroactive completion or retroactive incompletion occurs, covering historical updates as well as relationship changes.
 
-#### Comportamento do evento do Webhook
+#### Webhook event behavior
 
-* Um evento distinto de webhook é acionado quando um aluno recebe o status **Concluído via Alternativo** para um curso de destino.
-* O evento é gerado quando o aluno conclui um curso de origem configurado que satisfaz o destino por meio de um relacionamento equivalente ou alternativo.
-* Este webhook não é acionado para conclusões diretas de curso.
-* Quando a conclusão retroativa ou a inconclusão retroativa estão ativadas, os eventos do webhook são emitidos para cada aluno e curso de destino afetados.
+* A distinct webhook event is triggered when a learner receives **Completed via Alternate** status for a target course.
+* The event is generated when the learner completes a configured source course that satisfies the target through an equivalent or alternate relationship.
+* This webhook is not triggered for direct course completions.
+* When retroactive completion or retroactive incompletion is enabled, webhook events are emitted for each affected learner and target course.
 
-#### Detalhes da carga do Webhook
+#### Webhook payload details
 
-A carga do webhook de conclusão alternativa inclui os seguintes atributos de chave:
+The alternate completion webhook payload includes the following key attributes:
 
-* **ID do aluno**\
-  Identifica o aluno que recebeu a conclusão alternativa.
+* **Learner ID**  
+  Identifies the learner who received the alternate completion.
 
-* **Curso de origem**\
-  O curso ou caminho de aprendizado que o aluno concluiu diretamente.
+* **Source course**  
+  The course or learning path that the learner completed directly.
 
-* **Curso de destino**\
-  O curso marcado como concluído por meio do relacionamento alternativo ou equivalente.
+* **Target course**  
+  The course that is marked as completed via the alternate or equivalent relationship.
 
-* **Método de conclusão**\
-  Indica que o método de conclusão é **alternativo**.
+* **Completion method**  
+  Indicates that the completion method is **alternate**.
 
-* **Data de conclusão**\
-  Derivado da data de conclusão do curso de origem.
+* **Completion date**  
+  Derived from the completion date of the source course.
 
-* **Tipo de relação**\
-  Especifica se a relação é **equivalente** ou **alternativa**.
+* **Relationship type**  
+  Specifies whether the relationship is **equivalent** or **alternate**.
 
-Para cenários de inconclusão retroativa, os eventos do webhook indicam que uma conclusão alternativa existente foi revogada.
+For retroactive incompletion scenarios, webhook events indicate that an existing alternate completion has been revoked.
 
-#### Considerações de integração
+#### Integration considerations
 
-Os sistemas externos podem usar esses eventos de webhook para:
+External systems can use these webhook events to:
 
-* Atualizar registros do aluno
-* Sincronizar status de conclusão
-* Acionar notificações ou fluxos de trabalho downstream
-* Manter trilhas de auditoria para fins de conformidade
+* Update learner records
+* Synchronize completion status
+* Trigger notifications or downstream workflows
+* Maintain audit trails for compliance purposes
 
-Os consumidores do webhook devem diferenciar explicitamente entre conclusões **diretas** e **alternativas**.\
-As conclusões alternativas não concedem recompensas de habilidades, medalhas ou gamificação e devem ser tratadas adequadamente nos sistemas downstream.
+Webhook consumers should explicitly differentiate between **direct** and **alternate** completions.  
+Alternate completions do not grant skills, badges, or gamification rewards and should be handled accordingly in downstream systems.
 
-### Impacto da retirada e exclusão de treinamento de origem em equivalentes e suplentes
+### Impact of retiring and deleting source training in equivalents and alternates
 
-O estado do ciclo de vida de um treinamento de origem (retirado ou excluído) afeta diretamente como as conclusões alternativas e equivalentes são mantidas para os alunos. O ALM lida com esses cenários de forma diferente para preservar a precisão histórica, garantindo que os relacionamentos atuais permaneçam válidos.
+The lifecycle state of a source training (retired or deleted) directly affects how alternate and equivalent completions are maintained for learners. ALM handles these scenarios differently to preserve historical accuracy while ensuring current relationships remain valid.
 
-#### Desativação do treinamento de origem
+#### Retiring source training
 
-##### Definição
+##### Definition
 
-Retirar um curso o torna indisponível para novas inscrições, ao mesmo tempo em que o mantém no sistema para fins de referência histórica, relatórios e auditoria.
+Retiring a course makes it unavailable for new enrollments while keeping it in the system for historical reference, reporting, and audit purposes.
 
-##### Impacto
+##### Impact
 
-* As conclusões alternativas existentes concedidas por meio do curso de origem retirado permanecem válidas.
-* Os alunos que concluíram anteriormente o curso de origem continuam a manter a conclusão alternativa para o curso de destino.
-* Nenhuma nova conclusão alternativa é gerada a partir do curso inativo, pois ele não pode ser concluído por novos alunos.
-* As transcrições e os relatórios do aluno continuam a exibir **Concluído via Alternativo** para os alunos afetados.
+* Existing alternate completions granted through the retired source course remain valid.
+* Learners who previously completed the source course continue to hold alternate completion for the target course.
+* No new alternate completions are generated from the retired course, since it cannot be completed by new learners.
+* Learner transcripts and reports continue to display **Completed via Alternate** for affected learners.
 
-#### Excluindo treinamento de origem
+#### Deleting source training
 
-#### Definição
+#### Definition
 
-Excluir um curso o remove totalmente do sistema, incluindo seus registros de conclusão e relacionamentos configurados.
+Deleting a course removes it entirely from the system, including its completion records and configured relationships.
 
-#### Impacto
+#### Impact
 
-* Se a inconclusão retroativa estiver ativada, todas as conclusões alternativas concedidas por meio do curso de origem excluído serão revogadas.
-* As transcrições e os relatórios do aluno são atualizados para mostrar a **Alternativa (Revogada)** para visibilidade de auditoria e conformidade.
-* Os alunos podem perder o progresso ou o status de conclusão em programações de aprendizado, certificações ou pré-requisitos que dependem da conclusão alternativa revogada.
-* Nenhuma conclusão alternativa adicional pode ser concedida a partir do curso excluído.
+* If retroactive incompletion is enabled, all alternate completions granted through the deleted source course are revoked.
+* Learner transcripts and reports update to show **Alternate (Revoked)** for audit and compliance visibility.
+* Learners may lose progress or completion status in learning paths, certifications, or prerequisites that depended on the revoked alternate completion.
+* No further alternate completions can be granted from the deleted course.
 
-#### Fluxo de trabalho (WRK)
+#### Workflow
 
-1. Um administrador desativa ou exclui o curso de origem usando a interface do administrador.
-2. O sistema avalia todas as conclusões alternativas e equivalentes derivadas do curso de origem.
-3. O status de conclusão é atualizado com base no estado do curso:
-   * **Retirado:** as conclusões alternativas existentes permanecem inalteradas.
-   * **Excluído:** conclusões alternativas são revogadas se a inconclusão retroativa estiver habilitada.
-4. As transcrições e os relatórios do aluno refletem o status atualizado para suportar os requisitos de conformidade e auditoria.
+1. An administrator retires or deletes the source course using the admin interface.
+2. The system evaluates all alternate and equivalent completions derived from the source course.
+3. Completion status is updated based on the course state:
+   * **Retired:** Existing alternate completions remain unchanged.
+   * **Deleted:** Alternate completions are revoked if retroactive incompletion is enabled.
+4. Learner transcripts and reports reflect the updated status to support compliance and audit requirements.
 
-### Sem encadeamento de relacionamentos
+### No chaining of relationships
 
-O ALM não oferece suporte ao encadeamento de relações alternativas ou equivalentes. Conclusões alternativas são concedidas apenas para relacionamentos configurados diretamente e não estão em cascata entre vários níveis de cursos.
+ALM does not support chaining of alternate or equivalent relationships. Alternate completions are granted only for directly configured relationships and do not cascade across multiple levels of courses.
 
-#### Conceito: sem encadeamento de relacionamentos
+#### Concept: no chaining of relationships
 
-#### Definição
+#### Definition
 
-Encadeamento refere-se a permitir que relacionamentos alternativos ou equivalentes se propaguem por vários cursos.\
-Por exemplo, se o Curso A for uma alternativa para o Curso B e o Curso B for uma alternativa para o Curso C, o encadeamento implicaria que a conclusão do Curso A concederia a conclusão do Curso C.
+Chaining refers to allowing alternate or equivalent relationships to propagate across multiple courses.  
+For example, if Course A is an alternate for Course B, and Course B is an alternate for Course C, chaining would imply that completing Course A grants completion for Course C.
 
-#### Política
+#### Policy
 
-Não há suporte para encadeamento.\
-Relacionamentos alternativos e equivalentes são avaliados somente em um único nível. Concluir um curso de origem concede a conclusão alternativa apenas ao seu curso ou cursos de destino imediato, não a alvos downstream.
+Chaining is not supported.  
+Alternate and equivalent relationships are evaluated only at a single level. Completing a source course grants alternate completion only to its immediate target course or courses, not to any downstream targets.
 
-#### Fluxo de trabalho (WRK)
+#### Workflow
 
-#### Configuração de relacionamento
+#### Relationship setup
 
-Um administrador define relações alternativas ou equivalentes entre os cursos, como:
+An administrator defines alternate or equivalent relationships between courses, such as:
 
-* Curso A → Curso B
-* Curso B → Curso C
+* Course A → Course B
+* Course B → Course C
 
-#### Evento de conclusão
+#### Completion event
 
-Um aluno conclui o curso A diretamente.
+A learner completes Course A directly.
 
-#### Ação do sistema
+#### System action
 
-* O sistema concede a conclusão alternativa para o Curso B, se a relação A → B for definida.
-* O sistema não concede conclusão alternativa para o Curso C, mesmo se existir uma relação B → C.
+* The system grants alternate completion for Course B, if the A → B relationship is defined.
+* The system does not grant alternate completion for Course C, even if a B → C relationship exists.
 
-#### Requisito de conclusão direta
+#### Direct completion requirement
 
-Para receber a conclusão alternativa do curso C, o aluno deve:
+To receive alternate completion for Course C, the learner must:
 
-* Completar diretamente o curso B, ou
-* Conclua um curso explicitamente configurado como uma alternativa direta ou equivalente para o Curso C.
+* Directly complete Course B, or
+* Complete a course that is explicitly configured as a direct alternate or equivalent for Course C.
 
-### Implicações
+### Implications
 
-#### Nenhum benefício indireto
+#### No indirect benefits
 
-Os alunos não podem receber crédito de conclusão para cursos mais abaixo em uma cadeia de relacionamento, a menos que cada curso (ou sua alternativa direta) seja concluído.\
-Isso garante que os requisitos de aprendizado sejam atendidos de forma explícita e previsível.
+Learners cannot receive completion credit for courses further down a relationship chain unless each course (or its direct alternate) is completed.  
+This ensures that learning requirements are met explicitly and predictably.
 
-#### Auditoria e relatórios simplificados
+#### Simplified audit and reporting
 
-Relatórios e transcrições do aluno exibem conclusões alternativas somente para relacionamentos diretos.\
-Isso evita trilhas de auditoria complexas e de vários saltos e garante clareza ao revisar como uma conclusão foi concedida.
+Reports and learner transcripts display alternate completions only for direct relationships.  
+This avoids complex, multi-hop audit trails and ensures clarity when reviewing how a completion was granted.
 
-### Compartilhamento de catálogo com contas entre parceiros: relacionamentos não compartilhados
+### Catalog sharing with peer accounts: relationships not shared
 
-O compartilhamento de catálogo permite que os objetos de aprendizado (LOs) sejam compartilhados entre contas entre parceiros, mas os relacionamentos alternativos e equivalentes são gerenciados de forma independente em cada conta e não são compartilhados.
+Catalog sharing allows learning objects (LOs) to be shared across peer accounts, but alternate and equivalent relationships are managed independently within each account and are not shared.
 
-#### Conceito: compartilhamento e relacionamentos do catálogo
+#### Concept: catalog sharing and relationships
 
-#### Compartilhamento de catálogo
+#### Catalog sharing
 
-As contas podem compartilhar catálogos com contas entre parceiros para fornecer acesso a cursos, caminhos de aprendizado e outros objetos de aprendizado entre contas.
+Accounts can share catalogs with peer accounts to provide access to courses, learning paths, and other learning objects across accounts.
 
-#### Relações não compartilhadas
+#### Relationships not shared
 
-Relações alternativas, equivalentes e de conclusão alternativa configuradas na conta de origem não são compartilhadas ou replicadas quando um catálogo é compartilhado.\
-Cada conta mantém e avalia seus próprios relacionamentos de maneira independente.
+Alternate, equivalent, and alternate-completion relationships configured in the source account are not shared or replicated when a catalog is shared.  
+Each account maintains and evaluates its own relationships independently.
 
-### Fluxo de trabalho (WRK)
+### Workflow
 
-#### Compartilhamento de catálogo
+#### Catalog sharing
 
-Um administrador na **Conta A** compartilha um catálogo contendo objetos de aprendizado com a **Conta B**.
+An administrator in **Account A** shares a catalog containing learning objects with **Account B**.
 
-#### Configuração de relacionamento
+#### Relationship configuration
 
-A conta A pode ter relacionamentos alternativos ou equivalentes definidos entre os objetos de aprendizado no catálogo compartilhado.
+Account A may have alternate or equivalent relationships defined among the learning objects in the shared catalog.
 
-#### Acesso à conta entre parceiros
+#### Peer account access
 
-A conta B recebe acesso aos objetos de aprendizado compartilhados, mas não herda nenhum relacionamento alternativo ou equivalente configurado na conta A.
+Account B receives access to the shared learning objects but does not inherit any alternate or equivalent relationships configured in Account A.
 
-#### Gerenciamento independente
+#### Independent management
 
-Se a Conta B exigir um comportamento alternativo ou equivalente semelhante, um administrador da Conta B deverá configurar manualmente os relacionamentos nessa conta.
+If Account B requires similar alternate or equivalent behavior, an administrator in Account B must manually configure the relationships within that account.
 
-#### Implicações
+#### Implications
 
-#### Sem propagação automática de relacionamento
+#### No automatic relationship propagation
 
-Relacionamentos alternativos e equivalentes não estão automaticamente disponíveis em contas entre parceiros por meio do compartilhamento de catálogo.
+Alternate and equivalent relationships are not automatically available in peer accounts through catalog sharing.
 
-#### Configuração manual necessária
+#### Manual setup required
 
-Cada conta entre parceiros é responsável por definir e gerenciar seus próprios relacionamentos para objetos de aprendizado compartilhados.
+Each peer account is responsible for defining and managing its own relationships for shared learning objects.
 
-#### Considerações de consistência
+#### Consistency considerations
 
-O comportamento de conclusão, a satisfação de pré-requisitos e a emissão de relatórios podem diferir entre as contas, a menos que os relacionamentos sejam intencionalmente alinhados por meio da configuração manual.
+Completion behavior, prerequisite satisfaction, and reporting may differ across accounts unless relationships are intentionally aligned through manual configuration.
 
 
-### Comportamento downstream
+### Downstream behavior
 
-Quando houver uma conclusão alternativa para um treinamento de destino, o ALM a usará nas verificações de downstream:
+Once an alternate completion exists for a target training, ALM uses it in downstream checks:
 
-* Se o treinamento de destino for um **pré-requisito** para outros treinamentos, o aluno se tornará qualificado para esses treinamentos como se tivesse concluído o destino.
-* Se o destino for um curso **obrigatório em um caminho de aprendizado**, a lógica de conclusão do caminho poderá tratar o aluno como tendo concluído essa parte e prosseguir para marcar o caminho como concluído quando outras condições forem atendidas.
-* Conformidade e outros painéis, como o Painel de Controle de Sucesso do Grupo, que dependem do cumprimento de um requisito de treinamento podem incluir alunos que têm apenas conclusões alternativas.
+* If the target training is a **prerequisite** for other trainings, the learner becomes eligible for those trainings as if they had completed the target.
+* If the target is a **mandatory course in a learning path**, the path's completion logic can treat the learner as having completed that part and proceed to mark the path complete when other conditions are met.
+* Compliance and other dashboards such as Group Success Dashboard that rely on whether a training requirement is met can include learners who only have alternate completions.
 
-O sistema distingue entre conclusão real e conclusão alternativa de modo que:
+The system distinguishes between actual completion and alternate completion so that:
 
-* Se o aluno realizar o treinamento de destino diretamente e concluí-lo posteriormente, essa conclusão direta pode anular a necessidade da conclusão alternativa.
-* Se o relacionamento entre a origem e o destino for removido ou alterado, o ALM poderá remover ou ajustar as conclusões alternativas sem tocar nas conclusões originais, desde que as conclusões retroativas estejam habilitadas para a conta.
+* If the learner later takes the target training directly and completes it, this direct completion can override the need for the alternate completion.
+* If the relationship between source and target is removed or changed, ALM can remove or adjust the alternate completions without touching genuine completions, provided retroactive incompletions are enabled for the account.
 
-As conclusões alternativas são projetadas para não interferir na atividade real do aluno no treinamento de destino. Eles atuam como uma sobreposição que pode ser revisada se os relacionamentos mudarem.
+Alternate completions are designed not to interfere with actual learner activity on the target training. They act as an overlay that can be revised if the relationships change.
 
-## Alterações no relatório de transcrições de aprendizado nesta versão
+## Changes to Learning Transcripts report in this release
 
-### Coluna Método de Conclusão
+### Completion Method column 
 
-A coluna Método de conclusão indica como cada registro na transcrição do aluno do administrador foi concluído.
+The Completion Method column indicates how each record in the administrator's Learner Transcript was completed.  
 
-Valores:
+Values: 
 
-* Direto (para términos diretos)
-* Alternativa (para conclusões obtidas por meio de relacionamentos alternativos)
-* Alternativa Revogada (quando todas as conclusões alternativas são revogadas devido à inconclusão retroativa e remoção de relacionamento)
+* Direct (for direct completions) 
+* Alternate (for completions achieved via alternate relationships) 
+* Alternate Revoked (when all alternate completions are revoked due to retroactive incompletion and relationship removal)
 
 >[!NOTE]
 >
->Essa coluna não é visível no LT do aluno; ela só está disponível no LT do administrador para fins de relatório e rastreamento.
+>This column is not visible in the learner's LT; it is only available in the admin LT for reporting and tracking purposes.
 
-#### Impacto
+#### Impact
 
-Permite trilhas de auditoria, controle de conformidade e transparência claras para administradores em relação à forma como um curso foi concluído.
+Enables clear audit trails, compliance tracking, and transparency for admins regarding how a course was completed.
 
-### Controle de conclusão alternativo em transcrições do aluno
+### Alternate completion tracking in Learner Transcripts
 
-As conclusões alternativas permitem que os alunos recebam crédito de conclusão para um curso de destino ou caminho de aprendizado quando tiverem concluído um curso ou caminho de origem equivalente, com base em relacionamentos estabelecidos.
+Alternate completions allow learners to receive completion credit for a target course or learning path when they have completed an equivalent source course or path, based on established relationships.  
 
-Na transcrição do aluno (LT), as conclusões alternativas afetam três colunas existentes: status, data de conclusão e origem da conclusão:
+In the Learner Transcript (LT), alternate completions impact three existing columns: status, completion date, and completion source:
 
-* **Status**: o status pode ser Concluído mesmo se o aluno não tiver concluído diretamente o curso/caminho de destino, devido à conclusão alternativa. Outros status (Não Iniciado, Em Andamento, Não Inscrito) não são afetados pelas alternativas. Somente Concluído é afetado pelas alternativas.
-* **Data de conclusão**: a data de conclusão de uma conclusão alternativa é herdada do curso/caminho de origem que acionou a conclusão alternativa. Se o aluno concluir o destino diretamente posteriormente, a data será atualizada para refletir a conclusão direta.
-* **Origem da Conclusão**: esta coluna captura as IDs de treinamento do(s) curso(s) de origem ou caminho(s) que forneceram a conclusão alternativa. Se várias origens estiverem ativas, todas as IDs relevantes serão listadas; se as origens forem revogadas (com inconclusão retroativa ativada), somente as origens ativas permanecerão. A coluna Origem da Conclusão lista todas as IDs de treinamento de origem ativas (separadas por vírgulas) e, se houver várias origens, a data de conclusão mais antiga será usada.
+* **Status**: The status can be Completed even if the learner has not directly completed the target course/path, due to alternate completion. Other statuses (Not Started, In Progress, Unenrolled) are not affected by alternates. Only Completed is impacted by alternates.
+* **Completion Date**: The completion date for an alternate completion is inherited from the source course/path that triggered the alternate completion. If the learner later completes the target directly, the date is updated to reflect the direct completion.
+* **Completion Source**: This column captures the training ID(s) of the source course(s) or path(s) that provided the alternate completion. If multiple sources are active, all relevant IDs are listed; if sources are revoked (with retroactive incompletion enabled), only active sources remain. The Completion Source column lists all active source training IDs (separated by commas), and if multiple sources exist, the earliest completion date is used.
 
-#### Impacto
+#### Impact
 
-As conclusões alternativas reduzem a reconciliação manual, automatizam o rastreamento do progresso em programações de aprendizado e certificações e oferecem suporte aos requisitos de conformidade.
+Alternate completions reduce manual reconciliation, automate progress tracking in learning paths and certifications, and support compliance requirements.
 
 >[!NOTE]
 >
->As transcrições do aluno não exibem a coluna Método de conclusão; isso só está disponível no LT do administrador.
+>Learner Transcripts do not display the Completion Method column; this is only available in administrator LT.
 
-### Lógica de data de conclusão para alternativas
+### Completion date logic for alternates  
 
-A coluna Data de conclusão na transcrição do aluno (LT) é um campo existente usado para registrar quando um aluno obtém a conclusão de um curso ou caminho de aprendizado, seja por meios diretos ou alternativos. Para conclusões alternativas, a data de conclusão é herdada do curso ou caminho de origem que acionou a conclusão alternativa. Isso significa que a data reflete quando o aluno concluiu a origem, não o destino.
+The Completion Date column in the Learner Transcript (LT) is an existing field used to record when a learner achieves completion for a course or learning path, whether by direct or alternate means. For alternate completions, the completion date is inherited from the source course or path that triggered the alternate completion. This means the date reflects when the learner completed the source, not the target.  
 
-Se um aluno concluir posteriormente o curso ou o caminho de destino diretamente, a data de conclusão será atualizada para a data de conclusão direta, substituindo a data de conclusão alternativa anterior.
+If a learner later completes the target course or path directly, the completion date is updated to the date of direct completion, overriding the previous alternate completion date.  
 
-Não há nenhuma nova coluna adicionada para datas de conclusão alternativas; a coluna Data de Conclusão existente é usada para conclusões diretas e alternativas. Nos casos em que várias origens podem fornecer uma conclusão alternativa para um destino, a primeira data de conclusão alternativa ativa entre as origens é usada. Se uma origem for revogada (com inconclusão retroativa ativada), a data de conclusão será atualizada para a próxima origem ativa mais antiga ou será limpa se nenhuma origem ativa permanecer.
+There is no new column added for alternate completion dates; the existing Completion Date column is used for both direct and alternate completions. In cases where multiple sources can provide alternate completion for a target, the earliest active alternate completion date among the sources is used. If a source is revoked (with retroactive incompletion enabled), the completion date updates to the next earliest active source or is cleared if no active sources remain.
 
-#### Impacto
+#### Impact
 
-A lógica da data de conclusão garante o rastreamento histórico preciso e a consistência nos relatórios, especialmente quando conclusões alternativas são revogadas ou atualizadas.
+The completion date logic ensures accurate historical tracking and consistency in reporting, especially when alternate completions are revoked or updated.
 
-### Conclusões alternativas revogadas
+### Revoked alternate completions  
 
-As conclusões alternativas revogadas ocorrem quando a conclusão alternativa de um aluno para um curso ou caminho de aprendizado de destino é removida devido à revogação de todos os relacionamentos de origem, desde que a inconclusão retroativa esteja ativada na conta.
+Revoked alternate completions occur when a learner's alternate completion for a target course or learning path is removed due to the revocation of all source relationships, provided that retroactive incompletion is enabled in the account.  
 
-#### Condições de acionamento
+#### Trigger conditions
 
-* A inconclusão retroativa deve ser ativada para a conta; caso contrário, a remoção dos relacionamentos de origem não revogará conclusões alternativas.
-* A revogação ocorre somente quando todos os relacionamentos de origem ativos de um destino são removidos. Se pelo menos uma origem permanecer, o preenchimento alternativo persiste e a coluna de origem do preenchimento é atualizada para refletir apenas as origens ativas restantes.
+* Retroactive incompletion must be enabled for the account; otherwise, removing source relationships does not revoke alternate completions.  
+* Revocation happens only when all active source relationships for a target are removed. If at least one source remains, the alternate completion persists, and the completion source column updates to reflect only the remaining active sources.
 
-#### Impacto
+#### Impact
 
-* Status: Se todas as conclusões alternativas forem revogadas e não houver conclusão direta, o status será atualizado (por exemplo, de Concluído para Não Iniciado ou Em Andamento, conforme apropriado).
-* Data de conclusão: A data de conclusão será limpa se nenhuma origem ativa permanecer e o aluno não tiver concluído o destino diretamente.
-* Origem da Conclusão: A coluna origem da conclusão é atualizada para remover as origens revogadas; se todas forem revogadas, ela é apagada.
+* Status: If all alternate completions are revoked and there is no direct completion, the status is updated (e.g., from Completed to Not Started or In Progress as appropriate).  
+* Completion Date: The completion date is cleared if no active sources remain and the learner has not completed the target directly.  
+* Completion Source: The completion source column is updated to remove the revoked source(s); if all are revoked, it is cleared.
 
-Se o aluno tiver uma conclusão direta, revogar as alternativas não afetará seu status concluído ou data de conclusão.
+If the learner has a direct completion, revoking alternates does not affect their completed status or completion date.
 
-**Observação**:
+**Note**:
 
-1. Se várias fontes fornecerem conclusão alternativa e apenas algumas forem revogadas, o LT refletirá as fontes ativas restantes e sua data de conclusão mais antiga.
-2. Se todas as origens forem revogadas e não houver conclusão direta, o aluno perderá o status de conclusão do destino.
+1. If multiple sources provided alternate completion and only some are revoked, the LT reflects the remaining active sources and their earliest completion date. 
+2. If all sources are revoked, and there is no direct completion, the learner loses completion status for the target.
 
-### Relatórios aprimorados para comentários do revisor da lista de verificação
+### Enhanced reporting for checklist reviewer remarks
 
-Os comentários do revisor nos módulos de lista de verificação agora estão incluídos nas transcrições do aluno (LT) em uma coluna renomeada: **Comentários do revisor** (comentário de envio anterior).
+Reviewer comments from checklist modules are now included in Learner Transcripts (LT) under a renamed column: **Reviewer's remarks** (previously Submission comment).
 
-#### Impacto
+#### Impact
 
-Os alunos e os administradores podem visualizar o feedback consolidado e claramente identificado do revisor nas exportações de LT (interface, API de trabalho e conectores), melhorando a transparência, a auditabilidade e oferecendo suporte a avaliações e treinamentos mais precisos de desempenho.
+Learners and admins can view consolidated, clearly labeled reviewer feedback in LT exports (UI, Job API, and connectors), improving transparency, auditability, and supporting more accurate performance evaluation and coaching.
 
-#### O que mudou
+#### What has changed
 
-**Colunas renomeadas**
+**Renamed columns**
 
-| Área | Nome da coluna antiga | Novo nome de coluna | Notas |
+| Area                        | Old column name    | New column name    | Notes                                                     |
 | --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
-| Transcrições do aluno (administrador) | Comentário de envio | Observações do revisor | Aplica-se a todas as origens de LT de administrador: interface, API de trabalho, conectores, onde aplicável. |
+| Learner Transcripts (Admin) | Submission comment | Reviewer's remarks | Applies to all Admin LT sources: UI, Job API, Connectors, wherever applicable. |
 
-Essa alteração se aplica uniformemente a todas as origens de Admin LT (exportações de interface do usuário, relatórios de API de trabalho e exportações baseadas em conector, onde aplicável). O LT exportado para conector mostrará os comentários do revisor como uma coluna dedicada no final (para conectores que não expuseram anteriormente o comentário de envio), garantindo que as integrações downstream possam distinguir o feedback do revisor de outros comentários.
+This change applies uniformly to all Admin LT sources (UI exports, Job API reports, and Connector‑based exports, wherever applicable). Connector‑exported LT will surface Reviewer's remarks as a dedicated column at the end (for connectors that did not previously expose Submission comment), ensuring downstream integrations can distinguish reviewer feedback from other comments.
 
 >[!NOTE]
 >
->Para as transcrições do aluno para alunos, a coluna anteriormente rotulada “Comentário de envio” agora foi renomeada para “Comentários do revisor” e preenchida com o comentário do revisor da lista de verificação quando ativada.
+>For the Learner Transcripts for learners, the column previously labeled "Submission comment" is now renamed to "Reviewer's remarks", and populated with the checklist reviewer's comment when enabled.
 
 
 
-### Cálculo de tempo de aprendizado aprimorado
+### Improved learning time calculation 
 
-O relatório LT agora usa uma lógica refinada para distinguir entre o tempo ativo e ocioso gasto em módulos de aprendizado, com base na atividade do usuário e no foco da guia.
+The LT report now uses a refined logic to distinguish between active and idle time spent on learning modules, based on user activity and tab focus. 
 
-#### Impacto
+#### Impact
 
-Fornece uma medição mais precisa do envolvimento de aprendizado, suportando a conformidade e a análise.
+Provides more accurate measurement of learning engagement, supporting compliance and analytics.  -->
