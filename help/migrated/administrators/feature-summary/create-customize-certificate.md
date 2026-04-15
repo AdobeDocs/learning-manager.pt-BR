@@ -3,9 +3,9 @@ title: Criar e personalizar um certificado
 description: Os certificados personalizados no Adobe Learning Manager (ALM) permitem que administradores e autores projetem, gerenciem e emitam certificados personalizados para alunos.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 13fbdb95129ba7612e8e42d3da88ef3c6784e729
+source-git-commit: 54755d739e7f7396f7a9adc28b413cf69af189cc
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2632'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ Os administradores podem:
 - Crie certificados em um editor visual no estilo de tela em vez de escrever código.
 - Anexar certificados a cursos, programações de estudo e certificações com padrões flexíveis.
 - Use planos de fundo generativos viabilizados por Adobe Firefly, mantendo as necessidades de marca e conformidade em mente.
+
+  >[!NOTE]
+  >
+  >O recurso de IA de Firefly não está disponível para clientes do FedRAMP.
+
 - Migrar de modelos de HTML existentes e permanecer compatível com registros históricos do aluno.
 
 O processo de certificação segue a medalha existente e o modelo de realização no Learning Manager, para que o comportamento do aluno se mantenha familiar, enquanto os administradores e as equipes de suporte gastam menos tempo nas operações de certificação.
@@ -103,6 +108,10 @@ Quando um aluno conclui o treinamento, o Learning Manager escolhe um design nest
 - Modelo padrão da conta
 
 ### planos de fundo generativos baseados em Adobe Firefly
+
+>[!NOTE]
+>
+>O recurso de IA de Firefly não está disponível para clientes do FedRAMP.
 
 Para ajudar os clientes a produzir certificados consistentes com a marca em escala, o designer se integra ao Adobe Firefly:
 
@@ -233,10 +242,6 @@ Isso se aplica a instituições de saúde, finanças, governo e outros setores n
 
 ## Criar um certificado personalizado
 
-**Pré-requisito**
-
-Para usar imagens do Firefly, sua instância do Adobe Learning Manager deve ser integrada ao Firefly.
-
 1. Entre no Adobe Learning Manager como **Administrador**.
 2. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.
    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
@@ -256,8 +261,8 @@ Para usar imagens do Firefly, sua instância do Adobe Learning Manager deve ser 
 8. No menu suspenso, selecione um idioma padrão.
 9. Selecione **Criar**. Se você tiver escolhido o modelo em branco, uma tela em branco será exibida abaixo do nome do certificado.
 10. Adicione elementos: **Texto**, **Imagem**, **Valor Dinâmico** e **Fundo do Certificado**.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Adicionar elementos ao certificado*
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Adicionar elementos ao certificado*
 
 11. Para **Texto**, adicione conteúdo em **Texto pré-formatado** ou **Modelos de texto** ou adicione texto personalizado. O texto é exibido na tela. Quando o texto é selecionado, as opções de formatação aparecem acima da tela. Para remover o conteúdo indesejado, selecione o ícone **Excluir** no canto superior direito da tela.
 12. Para adicionar imagens, selecione **Imagem** ao lado de **Adicionar elementos**. Faça upload de imagens do seu computador ou selecione imagens nas listas de categorias.
@@ -265,12 +270,12 @@ Para usar imagens do Firefly, sua instância do Adobe Learning Manager deve ser 
 14. Selecione **Fundo do Certificado** para aplicar cores ou imagens. Para criar imagens com Adobe Firefly, selecione **Gerar Imagem**.
 15. No campo de prompt, descreva o que deseja (até 100 caracteres) e selecione **Gerar**. Quatro opções de imagem são exibidas com base no seu prompt.
 16. Selecione a imagem desejada. É aplicado como fundo do certificado.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Adicionar imagem ao certificado*
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Adicionar imagem ao certificado*
 
 17. Selecione **Visualizar** para revisar o certificado antes de publicar. Isso ajuda a entender como o certificado se parece.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Visualizar o certificado*
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Visualizar o certificado*
 
 18. Na visualização, é possível salvar no Google Drive, baixar, imprimir ou usar outras opções, como propriedades de anotação ou do documento.
 19. Selecione **Salvar como Rascunho** para continuar mais tarde ou selecione **Publish** para publicar o certificado. Após a publicação, os alunos podem baixar o certificado quando cumprirem a etapa configurada.
