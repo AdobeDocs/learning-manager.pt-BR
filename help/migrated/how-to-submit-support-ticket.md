@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Como enviar um tíquete de suporte no Experience League
 description: Saiba como enviar uma solicitação de suporte no Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
+source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ O processo de envio de tíquetes de suporte da Adobe Learning Manager agora est�
 
 Observe que o envio de um tíquete de suporte só está disponível para contatos de suporte autorizados. Para suas dúvidas de suporte, continue enviando seus tíquetes de suporte para a Adobe Learning Manager por email até 11 de maio de 2025. Após essa data, você pode enviar seus tíquetes de suporte por meio do portal de suporte Experience League, conforme descrito abaixo, além do canal de e-mail existente.
 
-1. Para acessar o portal de suporte, visite o site **[!UICONTROL Experience League]** e selecione a guia **[!UICONTROL Suporte]** localizada na parte superior da página. Você também pode visitar o [link direto](https://experienceleague.adobe.com/home?lang=pt-BR#support).
+1. Para acessar o portal de suporte, visite o site **[!UICONTROL Experience League]** e selecione a guia **[!UICONTROL Suporte]** localizada na parte superior da página. Você também pode visitar o [link direto](https://experienceleague.adobe.com/home#support).
 
    ![](assets/support.png)
    _Página inicial de suporte_
@@ -43,7 +43,7 @@ Observe que o envio de um tíquete de suporte só está disponível para contato
    ![](assets/ticket-form.png)
    _Formulário de tíquete_
 
-4. Depois de clicar em **[!UICONTROL Enviar caso]**, você será redirecionado para a página **[!UICONTROL Meus casos]**, onde poderá exibir todos os casos que sua organização enviou. Você também pode navegar para esta página clicando no botão **[!UICONTROL Meus casos]** no menu da barra lateral. Nesta página, você poderá exibir todos os casos de suporte abertos e fechados. Usando as opções na parte superior da página, você pode filtrar por status do caso (aberto ou fechado) ou por solução de Experience Cloud. Você também pode usar a barra de pesquisa para procurar quaisquer palavras-chave relacionadas aos seus problemas de suporte.
+4. Depois de clicar em **[!UICONTROL Enviar caso]**, você será redirecionado para a página **[!UICONTROL Meus casos]**, onde poderá exibir todos os casos que sua organização enviou. Você também pode navegar para esta página clicando no botão **[!UICONTROL Meus casos]** no menu da barra lateral. Nesta página, você poderá exibir todos os casos de suporte abertos e fechados. Usando as opções na parte superior da página, você pode filtrar por status do caso (aberto ou fechado) ou pela solução Adobe CX Enterprise. Você também pode usar a barra de pesquisa para procurar quaisquer palavras-chave relacionadas aos seus problemas de suporte.
 
    ![](assets/open-cases.png)
    _Casos abertos_

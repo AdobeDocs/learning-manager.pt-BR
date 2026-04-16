@@ -3,15 +3,17 @@ description: Explica como o Experience Builder pode publicar páginas de aprendi
 jcr-language: en_us
 title: Configurar e gerenciar páginas não conectadas no Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: ef6f7a9acd27b7fb4c08fe9a8b366d628d199050
+source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
 workflow-type: tm+mt
-source-wordcount: '6051'
+source-wordcount: '6058'
 ht-degree: 1%
 
 ---
 
 
-# Introdução
+# Experiência não conectada no Experience Builder
+
+## Introdução
 
 A experiência não conectada no Experience Builder permite que as organizações exibam o conteúdo de aprendizado e as páginas do portal para todos os visitantes, incluindo aqueles que não fizeram logon. Esse recurso foi desenvolvido para atrair, informar e envolver alunos potenciais, oferecendo uma visualização suave e com marca de suas ofertas de treinamento antes de exigir que eles façam logon ou se inscrevam.
 
@@ -29,7 +31,7 @@ A identidade visual e a localização são totalmente compatíveis, permitindo q
 
 A experiência não conectada no Experience Builder permite que as organizações exibam publicamente seu conteúdo de aprendizado e páginas do portal para qualquer pessoa, sem exigir que os usuários façam logon. Isso ajuda a atrair, informar e envolver alunos potenciais, fornecendo uma visualização do treinamento e dos recursos disponíveis antes que a inscrição ou a autenticação seja necessária.
 
-## Casos de uso reais em experiência não conectada
+## Casos de uso reais de experiência não conectada
 
 - **Marketing e extensão**: as organizações podem promover seus programas de treinamento para públicos externos, como clientes potenciais, parceiros ou candidatos a emprego, tornando catálogos de cursos e detalhes do programa acessíveis publicamente.
 - **Exploração de pré-inscrição**: os alunos podem procurar cursos disponíveis, visualizar visões gerais e explorar categorias antes de decidir se inscrever ou fazer logon, ajudando-os a tomar decisões de inscrição informadas.
