@@ -3,9 +3,9 @@ title: Criar e personalizar um certificado
 description: Os certificados personalizados no Adobe Learning Manager (ALM) permitem que administradores e autores projetem, gerenciem e emitam certificados personalizados para alunos.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 54755d739e7f7396f7a9adc28b413cf69af189cc
+source-git-commit: 0d4e8f06c3a9a3dcd6461036ec7fbfa4a54c0b58
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2845'
 ht-degree: 0%
 
 ---
@@ -240,6 +240,30 @@ Isso se aplica a instituições de saúde, finanças, governo e outros setores n
 - Os administradores podem migrar para modelos baseados em designer ao longo do tempo, começando com programas de alta prioridade.
 - Se a migração não puder preservar um mapeamento (por exemplo, medalhas desativadas no meio do caminho), o sistema volta para o modelo padrão global para que os alunos não sejam bloqueados.
 
+## Exceções importantes ao usar certificados personalizados
+
+A experiência de criação de certificados personalizados introduzida no M45 expande a forma como os certificados são criados e gerenciados. As exceções a seguir aplicam-se ao trabalhar com certificados criados antes desta versão:
+
+### Os certificados existentes são preservados, mas não podem ser editados
+
+Os certificados criados antes do M45 e já associados a objetos de aprendizado são migrados automaticamente. Esses certificados continuam a ser emitidos para objetos de aprendizado existentes. Após a migração, eles ficam disponíveis no modo somente leitura. Você não pode modificar o layout ou o conteúdo.
+
+Para atualizar os designs de certificados, crie um novo modelo de certificado usando o editor de certificados personalizado.
+
+### Os novos objetos de aprendizado usam certificados recém-criados
+
+Os objetos de aprendizado criados após a versão de abril de 2026 devem usar certificados criados por meio do novo editor. Os certificados migrados não estão disponíveis para seleção ao configurar novos objetos de aprendizado.
+
+Os administradores podem criar novos certificados e defini-los como padrões para simplificar a reutilização.
+
+### Certificados e medalhas devem ser ativados durante a criação
+
+Os autores devem ativar explicitamente certificados ou medalhas para cada objeto de aprendizado. Isso garante que os certificados sejam emitidos somente para objetos de aprendizado para os quais foram destinados.
+
+### A criação do certificado requer uma configuração única
+
+As organizações que dependem de certificados para vários objetos de aprendizado devem planejar o tempo de recriação dos modelos usados com frequência. O editor de arrastar e soltar foi criado para tornar esse processo rápido e consistente.
+
 ## Criar um certificado personalizado
 
 1. Entre no Adobe Learning Manager como **Administrador**.
@@ -261,8 +285,8 @@ Isso se aplica a instituições de saúde, finanças, governo e outros setores n
 8. No menu suspenso, selecione um idioma padrão.
 9. Selecione **Criar**. Se você tiver escolhido o modelo em branco, uma tela em branco será exibida abaixo do nome do certificado.
 10. Adicione elementos: **Texto**, **Imagem**, **Valor Dinâmico** e **Fundo do Certificado**.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Adicionar elementos ao certificado*
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Adicionar elementos ao certificado*
 
 11. Para **Texto**, adicione conteúdo em **Texto pré-formatado** ou **Modelos de texto** ou adicione texto personalizado. O texto é exibido na tela. Quando o texto é selecionado, as opções de formatação aparecem acima da tela. Para remover o conteúdo indesejado, selecione o ícone **Excluir** no canto superior direito da tela.
 12. Para adicionar imagens, selecione **Imagem** ao lado de **Adicionar elementos**. Faça upload de imagens do seu computador ou selecione imagens nas listas de categorias.
@@ -270,12 +294,12 @@ Isso se aplica a instituições de saúde, finanças, governo e outros setores n
 14. Selecione **Fundo do Certificado** para aplicar cores ou imagens. Para criar imagens com Adobe Firefly, selecione **Gerar Imagem**.
 15. No campo de prompt, descreva o que deseja (até 100 caracteres) e selecione **Gerar**. Quatro opções de imagem são exibidas com base no seu prompt.
 16. Selecione a imagem desejada. É aplicado como fundo do certificado.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Adicionar imagem ao certificado*
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Adicionar imagem ao certificado*
 
 17. Selecione **Visualizar** para revisar o certificado antes de publicar. Isso ajuda a entender como o certificado se parece.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Visualizar o certificado*
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Visualizar o certificado*
 
 18. Na visualização, é possível salvar no Google Drive, baixar, imprimir ou usar outras opções, como propriedades de anotação ou do documento.
 19. Selecione **Salvar como Rascunho** para continuar mais tarde ou selecione **Publish** para publicar o certificado. Após a publicação, os alunos podem baixar o certificado quando cumprirem a etapa configurada.
