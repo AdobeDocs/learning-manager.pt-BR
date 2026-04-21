@@ -3,9 +3,9 @@ description: Saiba mais sobre as transcrições do aluno
 jcr-language: en_us
 title: Alterações nas transcrições do aluno
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
+source-git-commit: 1f0d3af950429042b21606648b53b7a7dfaaa851
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ Se o aluno tiver uma conclusão direta, revogar origens alternativas não afeta 
 
 ## Relatórios aprimorados para comentários do revisor da lista de verificação
 
+Os comentários do revisor nos módulos de lista de verificação agora estão incluídos no relatório de transcrição do aluno em uma coluna renomeada chamada **Comentários do revisor.**
+
+| Área | Nome da coluna antiga | Novo nome de coluna | Notas |
+|------|-----------------|-----------------|-------|
+| Transcrições do aluno (administrador) | Comentário de envio | Observações do revisor | Aplica-se a todas as origens de LT de administrador: interface, API de trabalho, conectores. |
+
 Essa alteração se aplica uniformemente a todas as origens do Admin LT (exportações de interface, relatórios de API de trabalho e conectores, quando aplicável). O LT exportado para conector mostrará os comentários do revisor como uma coluna dedicada no final (para conectores que não expuseram anteriormente o comentário de envio), garantindo que as integrações downstream possam distinguir o feedback do revisor de outros comentários.
+
+**Impacto:** permite que alunos e administradores visualizem comentários consolidados, melhorando a transparência e apoiando a avaliação de desempenho.
 
 >[!NOTE]
 >
