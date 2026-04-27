@@ -2,13 +2,13 @@
 title: Equivalentes e alternativas no Adobe Learning Manager
 description: Forneça uma experiência de aprendizado sem problemas e elimine o treinamento redundante com equivalentes e alternativos no ALM. Esse novo recurso permite que os administradores configurem regras unidirecionais (alternativas) ou bidirecionais (equivalentes), onde a conclusão de um treinamento concede automaticamente a conclusão alternativa para outro
 jcr-language: en-us
-source-git-commit: e70a3b5a5d1080dc4b3a56aa726c717120c6bfa3
+exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
+source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: '3448'
 ht-degree: 0%
 
 ---
-
 
 # Alternativas e equivalentes
 
@@ -123,7 +123,8 @@ O filtro do método de conclusão está disponível nas exibições voltadas par
 
 Essas exibições indicam claramente quais treinamentos foram concluídos diretamente e quais foram satisfeitos por meio de alternativas.
 
-<!--## Configure equivalent courses (complete each other)
+<!--
+## Configure equivalent courses (complete each other)
 
 Use this workflow to define courses that are **equal in value**, where completing either course should automatically complete the other.
 
@@ -213,7 +214,8 @@ ALM:
 
 1. Identifies impacted alternate completions.
 2. Revokes previously applied alternate or equivalent completions.
-3. Updates transcript entries to **Alternate (Revoked)**.-->
+3. Updates transcript entries to **Alternate (Revoked)**.
+-->
 
 ### Fluxo completo
 
@@ -353,7 +355,7 @@ Excluir um curso o remove totalmente do sistema, incluindo seus registros de con
 * A conclusão dos caminhos de aprendizado e a disponibilidade dos certificados não são afetadas.
 * Nenhuma conclusão alternativa adicional pode ser concedida a partir do curso excluído.
 
-#### Fluxo de trabalho
+#### Fluxo de trabalho (WRK)
 
 1. Um administrador desativa ou exclui o curso de origem usando a interface do administrador.
 2. O sistema avalia todas as conclusões alternativas derivadas do curso de origem.
@@ -376,7 +378,7 @@ Encadeamento refere-se a permitir que relacionamentos alternativos se propaguem 
 
 Não há suporte para encadeamento. Relacionamentos alternativos e equivalentes são avaliados somente em um único nível. Concluir um curso de origem concede a conclusão alternativa apenas ao seu curso ou cursos de destino imediato, não a alvos downstream.
 
-### Fluxo de trabalho
+### Fluxo de trabalho (WRK)
 
 #### Configuração de relacionamento
 
@@ -425,7 +427,7 @@ As contas podem compartilhar catálogos com contas entre parceiros para fornecer
 
 Relações alternativas, equivalentes e de conclusão alternativa configuradas na conta de origem não são compartilhadas ou replicadas quando um catálogo é compartilhado. Cada conta mantém e avalia seus próprios relacionamentos de maneira independente.
 
-### Fluxo de trabalho
+### Fluxo de trabalho (WRK)
 
 #### Compartilhamento de catálogo
 
