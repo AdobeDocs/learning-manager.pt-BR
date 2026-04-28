@@ -2,7 +2,7 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+source-git-commit: b4371272c60fb43a21d2ceeaf75065156e786615
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 62%
@@ -21,7 +21,7 @@ ht-degree: 62%
    * [Resumo dos novos recursos julho de 2024](whats-new-july-2024.md)
    * [Novos recursos em março de 2024](whats-new-march-2024.md)
    * [Novos recursos em novembro de 2023](whats-new-november-2023.md)
-   * [Novos recursos em julho de 2023](whats-new-2023-july.md)
+   * {hide-from-toc}[Novos recursos em julho de 2023](whats-new-2023-july.md)
    * [Alterações futuras no Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Notas de versão](release-note/release-notes.md)
    * [Requisitos do sistema](system-requirements.md)
