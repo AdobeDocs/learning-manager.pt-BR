@@ -2,13 +2,13 @@
 description: Saiba mais sobre a criação de formulários de feedback L1 para os alunos
 jcr-language: en_us
 title: Formulário de feedback L1
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
-
 
 # Formulário de feedback L1
 
@@ -29,6 +29,10 @@ O recurso fornece maior flexibilidade, permitindo que os administradores:
 * Atribua formulários personalizados conforme necessário
 
 O **[!UICONTROL Relatório de Comentários N1]** e o **[!UICONTROL Relatório de Comentários]** (Relatório Personalizado) agora incluem duas novas colunas: Nome do Formulário de Comentários e Versão de Comentários. Estas colunas fornecem detalhes sobre os formulários de feedback usados.
+
+>[!NOTE]
+>
+>Este recurso - **Relatório de comentários N1** - não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
 
 ## Criar formulário de feedback L1
 
@@ -55,14 +59,14 @@ Para criar um formulário de feedback L1:
    _Adicionar página de formulário de comentários exibindo opção digite o Título do Formulário e a Descrição do Formulário_
 6. No menu **[!UICONTROL Adicionar pergunta]**, selecione um tipo de pergunta entre os seguintes:
 
-   a. **[!UICONTROL Texto livre]**: permite que os alunos forneçam respostas em suas próprias palavras.
+   a) **[!UICONTROL Texto Gratuito]**: permite que os alunos forneçam respostas em suas próprias palavras.
 
    * Digite sua pergunta no campo de texto **[!UICONTROL Pergunta]**.
    * Para tornar a pergunta obrigatória, selecione a alternância **[!UICONTROL Obrigatória]**.
      ![](assets/free-text.png)
      _Adicionar uma pergunta de texto livre ao formulário de comentários_
 
-   b. **[!UICONTROL Escala numérica/NPS]**: os alunos podem classificar a satisfação ou a probabilidade do curso ao recomendar o curso usando uma escala numérica (geralmente de 1 a 10).
+   b) **[!UICONTROL Escala numérica/NPS]**: os alunos podem classificar sua satisfação ou probabilidade de recomendar o curso usando uma escala numérica (geralmente de 1 a 10).
 
    * Digite sua pergunta no campo de texto **[!UICONTROL Pergunta]**.
    * Selecione o intervalo de classificação (1 a 10).
@@ -70,14 +74,14 @@ Para criar um formulário de feedback L1:
      ![](assets/numerical.png)\
      _Adicionar uma pergunta sobre escala numérica/NPS ao formulário de comentários_
 
-   c. **[!UICONTROL Escala Likert]**: os alunos podem especificar o quanto concordam com uma instrução, de Discordo totalmente para Concordo totalmente.
+   c) **[!UICONTROL Escala Likert]**: os alunos podem especificar o quanto concordam com uma instrução, de Discordo totalmente para Concordo totalmente.
 
    * Digite sua pergunta no campo de texto **[!UICONTROL Pergunta]**.
    * Para tornar a pergunta obrigatória, selecione a alternância **[!UICONTROL Obrigatória]**.
      ![](assets/likert.png)
      _Adicionar uma pergunta da Escala Likert ao formulário de comentários_
 
-   d. **[!UICONTROL Pontuação de eficácia do curso]**: uma escala para medir a eficácia com que um curso influencia os alunos, usando um sistema de classificação relativo.
+   d) **[!UICONTROL Pontuação de eficácia do curso]**: uma escala para medir a eficácia com que um curso influencia os alunos, usando um sistema de classificação relativo.
 
    * Uma pergunta predefinida com uma escala Likert de 1 a 10 será adicionada ao formulário de feedback.
    * Você pode adicionar apenas uma pergunta de **[!UICONTROL Pontuação de eficácia do curso]** e ela não pode ser editada
@@ -166,6 +170,3 @@ Siga as mesmas etapas para alterar os formulários de feedback padrão de um cam
 >[!NOTE]
 >
 >Se você não alterar o formulário, o curso usará o formulário de feedback padrão.
-
-
-

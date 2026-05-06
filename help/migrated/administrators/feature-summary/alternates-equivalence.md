@@ -3,9 +3,9 @@ title: Equivalentes e alternativas no Adobe Learning Manager
 description: Forneça uma experiência de aprendizado sem problemas e elimine o treinamento redundante com equivalentes e alternativos no ALM. Esse novo recurso permite que os administradores configurem regras unidirecionais (alternativas) ou bidirecionais (equivalentes), onde a conclusão de um treinamento concede automaticamente a conclusão alternativa para outro
 jcr-language: en-us
 exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '3448'
+source-wordcount: '3474'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ O recurso Cursos alternativos ou Caminho de aprendizado fornece ao ALM uma manei
 O recurso funciona em cursos e caminhos de aprendizado, garante que os requisitos de downstream, como pré-requisitos e regras de conformidade, sejam atendidos e faz isso sem forçar os alunos a passar por conteúdo redundante. Ele também mantém a precisão dos relatórios ao gravar o que foi concluído diretamente em comparação com o que foi satisfeito por meio de uma alternativa.
 
 No núcleo, o recurso introduz o conceito de uma conclusão alternativa: um estado de conclusão especial criado automaticamente quando um aluno conclui um treinamento de origem configurado que conta para outro treinamento de destino.
+
+>[!NOTE]
+>
+>Este recurso não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
 
 ## Relacionamentos alternativos
 
@@ -69,7 +73,7 @@ Os administradores definem as relações entre cursos e caminhos de aprendizado.
 
 Para equivalentes, os administradores podem tornar o relacionamento bidirecional se quiserem que ambos os treinamentos satisfaçam uns aos outros. Para alternativas, os administradores normalmente mantêm a direção em uma* maneira de refletir que apenas algumas substituições são permitidas.
 
-Esses relacionamentos são armazenados no nível do treinamento, não no nível do aluno. Depois de configurados e habilitados, eles podem se aplicar   para todas as conclusões atuais e futuras do treinamento de origem, sujeito às configurações no nível da conta, como se a conclusão retroativa estiver ativada.
+Esses relacionamentos são armazenados no nível do treinamento, não no nível do aluno. Uma vez configurados e ativados, eles podem ser aplicados a todas as conclusões atuais e futuras do treinamento de origem, sujeitos às configurações no nível da conta, como se a conclusão retroativa estiver ativada.
 
 ### Conclusão alternativa
 
@@ -320,7 +324,7 @@ O Relatório de inscrição deixa o campo Origem da conclusão em branco no caso
 
 Quando um destino é removido da origem (ou a própria origem é excluída), o Relatório de Inscrição talvez não exiba o mesmo status **Alternativo ou Alternativo (Revogado)** conforme mostrado na Transcrição do Aluno.
 
-Mesmo quando   **As alternativas** estão desabilitadas, as entradas históricas nas linhas de **Auditoria de Conteúdo** ou **Registro** ainda podem exibir atividades relacionadas às alternativas.
+Mesmo quando as **Alternativas** estão desabilitadas, as entradas históricas nas linhas de **Auditoria de Conteúdo** ou **Registro** ainda podem exibir atividades relacionadas às alternativas.
 
 A data de conclusão pode preceder a data de inscrição quando um OA é concluído por meio de um caminho alternativo **antes** de o aluno realmente se inscrever. Como podem ocorrer conclusões alternativas independentemente do status do aluno (**Inscrito**, **Não Inscrito** ou **Em andamento**), os alunos podem concluir o OA primeiro e somente se inscrever no curso de destino posteriormente.
 

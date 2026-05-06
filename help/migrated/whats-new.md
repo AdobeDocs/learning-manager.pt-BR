@@ -3,16 +3,24 @@ description: Saiba mais sobre os novos recursos e aprimoramentos, incluindo alte
 jcr-language: en_us
 title: Novidades na versão de abril de 2026 do Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 971a9c79fc2b831b990e30a44a2eeab5d5c5ce63
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
 
 # Novidades na versão de abril de 2026 do Adobe Learning Manager
 
-**Para alunos:** o Fluidic Player agora mostra o nome do próximo módulo e um botão Limpar saída. O idioma do reprodutor pode ser definido por meio de LTI para uma experiência consistente em todas as plataformas. O nome do parâmetro personalizado é &#39;locale&#39; e aceita o código de localidade. Por exemplo, locale=fr-FR. o conteúdo do Captivate inclui um sumário unificado, marcas de conclusão no nível do slide e exportações de notas confiáveis. O suporte a vários idiomas está disponível para ajudas de tarefa, perguntas de lista de verificação e faixas de texto de vídeo (VTT). O Assistente de IA ajuda os alunos a obter respostas dentro da experiência de aprendizado.
+**Para alunos:** o Fluidic Player agora mostra o nome do próximo módulo e um botão Limpar saída.
+
+O idioma do reprodutor pode ser definido por meio de LTI para uma experiência consistente em todas as plataformas. O nome do parâmetro personalizado é &#39;locale&#39; e aceita o código de localidade. Por exemplo, locale=fr-FR. o conteúdo do Captivate inclui um sumário unificado, marcas de conclusão no nível do slide e exportações de notas confiáveis.
+
+>[!NOTE]
+>
+>Este recurso não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
+
+O suporte a vários idiomas está disponível para ajudas de tarefa, perguntas de lista de verificação e faixas de texto de vídeo (VTT). O Assistente de IA ajuda os alunos a obter respostas dentro da experiência de aprendizado.
 
 **Para administradores e autores:** o conector do Zoom oferece suporte a várias sessões VILT simultâneas. Os cursos compartilhados em contas entre parceiros exibem o autor real em vez de “Autor externo”. Os administradores podem restringir quando os módulos podem ser iniciados. As datas de expiração do objeto de aprendizado são expostas nas APIs do aluno. Os módulos de lista de verificação oferecem suporte à pontuação ponderada, ao texto da pergunta multilíngue e aos comentários opcionais do revisor. Os certificados personalizados oferecem um editor de arrastar e soltar com campos dinâmicos e planos de fundo gerados por IA. O Experience Builder não conectado permite criar páginas de aprendizado público sem exigir logon.
 
@@ -97,6 +105,10 @@ Exibir [Experiência não conectada no Experience Builder](/help/migrated/admini
 Os resultados da pesquisa em Pesquisa avançada agora são mais precisos e relevantes. As correspondências de palavras-chave exatas são classificadas mais alto na pesquisa de conteúdo e nos metadados, facilitando para os alunos encontrar exatamente o que estão procurando.
 
 Os alunos agora também podem ver os objetos de aprendizado inscritos nos resultados de pesquisa, mesmo que não façam parte de um catálogo acessível, garantindo que nenhum conteúdo relevante seja perdido. Além disso, a classificação da ajuda de tarefa foi aprimorada tanto na pesquisa avançada quanto na pesquisa de conteúdo, trazendo à tona os recursos mais relevantes mais rapidamente.
+
+>[!NOTE]
+>
+>Este recurso não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
 
 ## Ajudas de tarefa em vários idiomas
 

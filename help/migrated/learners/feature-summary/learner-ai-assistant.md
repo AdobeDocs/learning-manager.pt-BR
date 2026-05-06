@@ -3,20 +3,26 @@ description: Obtenha respostas rápidas e precisas do seu conteúdo de aprendiza
 jcr-language: en_us
 title: Assistente do AI para alunos no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
 
 # Assistente de IA para alunos
 
+## Introdução
+
 O Assistente de IA (beta) para alunos os ajuda a encontrar rapidamente respostas a partir do conteúdo de aprendizado atribuído sem navegar pelos cursos inteiros. Você pode fazer perguntas em linguagem simples e receber respostas precisas e focadas com links de origem para o conteúdo relevante do curso.
 
 >[!IMPORTANT]
 >
 >O Assistente de IA para alunos está disponível como um recurso beta. Os recursos, os cenários compatíveis e as limitações podem mudar conforme o recurso evolui.
+
+>[!NOTE]
+>
+>Este recurso não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
 
 
 ## O que é o Assistente do AI para alunos

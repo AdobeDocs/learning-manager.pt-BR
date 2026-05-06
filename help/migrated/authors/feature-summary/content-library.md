@@ -3,9 +3,9 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '5368'
+source-wordcount: '5385'
 ht-degree: 38%
 
 ---
@@ -266,6 +266,10 @@ Depois de carregar o conteúdo, você verá uma notificação clicando no ícone
 ### Suporte a VTT multilíngue
 
 O suporte a Faixas de texto de vídeo (VTT) multilíngues no Adobe Learning Manager permite que os autores forneçam legendas para conteúdo de áudio e vídeo em vários idiomas. Esse recurso simplifica a localização, tornando o treinamento acessível a um público global e garantindo a conformidade com os padrões de acessibilidade. Os autores podem gerar, traduzir, revisar e editar automaticamente arquivos VTT diretamente na plataforma.
+
+>[!NOTE]
+>
+>Este recurso não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
 
 #### Casos de uso
 

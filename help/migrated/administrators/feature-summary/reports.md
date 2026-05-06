@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '7660'
+source-wordcount: '7677'
 ht-degree: 63%
 
 ---
@@ -707,6 +707,10 @@ Os administradores podem baixar a transcrição da gamificação no formato CSV.
 ### Relatório de trilha de auditoria de gamificação {#gamification-audit-trail}
 
 Este relatório contém o histórico e os motivos dos pontos de gamificação dos alunos obtidos para cada regra.
+
+>[!NOTE]
+>
+>Este recurso não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
 
 ### Baixar o relatório
 

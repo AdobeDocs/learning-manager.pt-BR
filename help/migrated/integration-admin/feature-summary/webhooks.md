@@ -4,16 +4,22 @@ title: Webhooks
 description: Saiba mais sobre os webhooks para enviar informações em tempo real, como inscrições no curso, criação do curso e outras informações, para um URL específico
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
 
 # Webhooks
 
+## Introdução
+
 Um webhook permite que uma entidade envie automaticamente dados ou notificações em tempo real para outra entidade quando ocorre um evento específico. Isso permitirá que um aplicativo forneça informações a outros aplicativos sem solicitar constantemente. Por exemplo, se um usuário concluir um curso do Sistema de Gerenciamento de Aprendizado (LMS), um webhook poderá enviar automaticamente essas informações para outra plataforma, como um CRM ou uma ferramenta de relatório. Os webhooks são frequentemente usados em integrações para automatizar processos e reduzir a necessidade de atualizações manuais entre sistemas. Configure webhooks fornecendo um URL de retorno de chamada para o qual você enviaria os dados.
+
+>[!NOTE]
+>
+>Este recurso não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
 
 ## Webhooks vs APIs
 

@@ -3,18 +3,22 @@ jcr-language: en_us
 title: Painel de Sucesso do Grupo
 description: Saiba mais sobre o Painel de sucesso do grupo no Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
 # Painel de Sucesso do Grupo
 
-## Visão Geral do Painel de Controle de Êxito do Grupo
+## Introdução
 
 O Painel de sucesso do grupo (GSD) no Adobe Learning Manager permite que administradores e gerentes monitorem o progresso do aluno quase em tempo real (60 minutos de atraso da inscrição, progresso ou conclusão para refletir no painel) entre departamentos ou grupos de usuários. Ele oferece suporte ao rastreamento pró-ativo da conclusão do curso, inscrição e ações pendentes, facilitando o gerenciamento do aprendizado para equipes. Exiba este [artigo](/help/migrated/administrators/feature-summary/add-users-user-groups.md) para saber mais sobre grupos de usuários.
+
+>[!NOTE]
+>
+>Este recurso não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
 
 ## Principais casos de uso
 
@@ -37,7 +41,7 @@ Um administrador pode ativar e criar os painéis dando um nome, selecionando gru
 O administrador deve ativar o Painel de sucesso do grupo para a conta. Para ativar o Painel de Controle de Êxito do Grupo, siga estas etapas:
 
 1. Faça logon como administrador.
-2. Selecione **[!UICONTROL Configurações]**&#x200B;e depois **[!UICONTROL Relatórios]**.
+2. Selecione **[!UICONTROL Configurações]**e depois **[!UICONTROL Relatórios]**.
 3. Selecione a alternância **[!UICONTROL Visibilidade do painel]**.
 4. Digite o nome do painel (por exemplo, **[!UICONTROL Painel do Gerenciador de Armazenamento]**).
    ![](assets/enable-gsd.png)
@@ -52,9 +56,9 @@ O administrador deve ativar o Painel de sucesso do grupo para a conta. Para ativ
 
 
    * Aluno
-   * Caminhos e cursos
+   * Programas e cursos
    * Status
-   * Data da inscrição
+   * Data de matrícula
    * Data do último acesso
    * Data de conclusão
 
