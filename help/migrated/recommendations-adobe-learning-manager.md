@@ -2,10 +2,10 @@
 title: Recomendações no Adobe Learning Manager
 description: O núcleo do mecanismo de recomendação é orientado pelo novo algoritmo de classificação de cursos do Learning Manager. O algoritmo usa 50 milhões de pontos de dados e cinco anos de dados de aprendizado agregados em milhões de usuários para classificar os cursos com base na probabilidade de inscrição. Essa classificação garante que a maioria dos cursos aptos para inscrição seja exibida antecipadamente para os alunos.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 57%
+source-wordcount: '1514'
+ht-degree: 56%
 
 ---
 
@@ -22,15 +22,6 @@ Para começar a usar esse recurso, você deve ativá-lo no aplicativo do adminis
 >[!NOTE]
 >
 >Este recurso não está disponível em ambientes autorizados pelo FedRAMP. Consulte [Disponibilidade de recursos em ambientes FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) para obter detalhes.
-
-## Ativar e configurar as recomendações
-
-1. Faça upload dos dados do curso e do usuário (opcional).
-1. Faça as alterações em tempo real.
-1. Depois de ativar e configurar as recomendações, carregue os dados no Adobe Learning Manager para que as recomendações comecem a funcionar. Esses dados consistem em:
-
-   * Dados do curso
-   * Dados do usuário (opcional)
 
 ## Algoritmo de classificação de curso
 
@@ -158,8 +149,13 @@ Preencha esses CSVs e entre em contato com sua equipe de sucesso do cliente para
 
 Após o upload de ambos os CSVs, clique em Ativar. Isso tornará o novo sistema de recomendações visível aos alunos.
 
+Quando a Recomendação PRL é ativada, ela não pode ser revertida para seu estado anterior. Durante a ativação, o Adobe Learning Manager exibe um prompt de confirmação para informar que a alteração é permanente. Até que a recomendação seja feita em tempo real, você ainda pode desfazer ou modificar suas alterações.
+
 ![colocar no ar](assets/computerdescription-automatically.png)
 *Disponibilizar as recomendações*
+
+![colocar no ar](assets/recommendations-irreversible.png)
+*Aviso de recomendação*
 
 O sistema de recomendações agora está disponível para seus alunos.
 
