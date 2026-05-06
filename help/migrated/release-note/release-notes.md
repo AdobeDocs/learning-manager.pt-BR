@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
 workflow-type: tm+mt
-source-wordcount: '29372'
+source-wordcount: '29433'
 ht-degree: 76%
 
 ---
@@ -24,6 +24,18 @@ ht-degree: 76%
  </tbody>
 </table>
 -->
+
++++Atualização 106: Versão de abril de 2026 do Adobe Learning Manager
+
+Data de lançamento: 30 de abril de 2026
+
+## Erro corrigido
+
+**Substituição de VTT bloqueada pelo limite de caracteres:** corrigido um problema no qual o cliente não conseguia substituir o arquivo VTT gerado automaticamente pelo ALM devido ao limite de caracteres no modo de revisão/edição. O limite de caracteres foi aumentado para um milhão no modo de edição VTT.
+
+
++++
+
 
 +++Atualização 105: versão de abril de 2026 do Adobe Learning Manager
 

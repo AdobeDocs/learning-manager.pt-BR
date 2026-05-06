@@ -4,10 +4,10 @@ title: Integrar o Adobe Learning Manager ao AEM
 description: O Learning Manager é um Sistema de Gerenciamento de Aprendizado com um Sistema de Gerenciamento de Conteúdo de Aprendizado interno. Os usuários gerenciam o conteúdo de aprendizado fazendo upload para o Learning Manager para que ele execute o controle de versão, a alocação para os cursos, a definição da visibilidade para os alunos, o controle do consumo e a emissão de relatórios para os administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
+source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
 workflow-type: tm+mt
-source-wordcount: '3273'
-ht-degree: 52%
+source-wordcount: '3817'
+ht-degree: 45%
 
 ---
 
@@ -18,7 +18,7 @@ O Adobe Learning Manager (ALM) integra-se aos sites do Adobe Experience Manager 
 
 Para criar essa experiência, o ALM fornece um pacote de site de referência do Adobe Learning Manager (pacote do site de referência ALM) para os sites do AEM na forma de um arquivo ZIP que você pode instalar na sua instância do AEM Sites.
 
-O pacote inclui modelos de página da Web e componentes do AEM Sites junto com widgets incorporáveis, por exemplo, catálogo de aprendizado, widgets incorporáveis, calendário e assim por diante.
+O pacote inclui modelos de página da Web e componentes do AEM Sites, juntamente com widgets incorporáveis. Por exemplo, catálogo de aprendizado, calendário, conformidade, categorias, cursos e caminhos e assim por diante.
 
 Depois de instalar o pacote do site de referência ALM, você pode começar a criar um site para o Adobe Learning Manager, que você pode hospedar na sua instância do AEM Sites. Seus usuários podem arrastar e soltar os componentes no site.
 
@@ -76,14 +76,14 @@ Siga as etapas abaixo:
 1. Para criar um no aplicativo, no canto superior direito da página, clique em **[!UICONTROL Registrar]**.
 1. Na tela Registrar um novo aplicativo, insira os seguintes detalhes:
 
-   1. Nome do aplicativo: o nome do aplicativo que você está criando.
-   1. URL: o URL da sua organização.
-   1. Domínios de redirecionamento: os domínios de hospedagem do site do AEM. Você também pode especificar curingas.
-   1. Descrição: a descrição do aplicativo.
-   1. Escopos: selecione o acesso de leitura da função Aluno e o acesso de gravação da função Aluno.
-   1. Apenas para esta conta?: selecione Sim se quiser usar o aplicativo para a conta do ALM existente.
+   1. **Nome do Aplicativo:** O nome do aplicativo que você está criando.
+   1. **URL:** A URL da sua organização.
+   1. **Domínios de redirecionamento:** os domínios de hospedagem do site AEM. Você também pode especificar curingas.
+   1. **Descrição:** a descrição do aplicativo.
+   1. **Escopos:** selecione o acesso de leitura da função do aluno e o acesso de gravação da função do aluno.
+   1. **Somente para esta conta?:** Selecione Sim se quiser usar o aplicativo para a conta do ALM existente.
 
-1. Após fazer as alterações, clique em Salvar.
+1. Após fazer as alterações, clique em **Salvar**.
 
 Anote as credenciais do aplicativo na tela.
 
@@ -105,23 +105,23 @@ Para aprovar o aplicativo, clique em **[!UICONTROL Aprovar]**.
    ![](assets/access-token-details.png)
    *Insira os detalhes do token*
 
-   1. Obter código OAuth: Insira a ID do cliente da seção anterior e altere o escopo. Clique em Enviar para obter o código Oauth.
-   1. Obter token de atualização: insira a ID do cliente e o segredo da seção anterior. Insira também o código OAuth obtido na etapa anterior. Clique em Enviar.
-   1. Obter token de acesso: insira a ID do cliente e o segredo da seção anterior. Além disso, insira o token de atualização obtido na etapa anterior. Clique em Enviar.
-   1. Obter detalhes do token de acesso: insira o token de acesso obtido na etapa anterior. Clique em Enviar.
+   1. **Obter código OAuth:** insira a ID do cliente da seção anterior e altere o escopo. Clique em Enviar para obter o código Oauth.
+   1. **Obter Token de Atualização:** insira a ID de cliente e o segredo da seção anterior. Insira também o código OAuth obtido na etapa anterior. Clique em **Enviar**.
+   1. **Obter Token de Acesso:** insira a ID de cliente e o segredo da seção anterior. Além disso, insira o token de atualização obtido na etapa anterior. Clique em **Enviar**.
+   1. **Obter Detalhes do Token de Acesso:** insira o token de acesso obtido na etapa anterior. Clique em **Enviar**.
 
 1. Você pode obter os detalhes da resposta JSON a seguir. A resposta consiste no token de acesso, token de atualização, função do usuário, ID da conta, ID do usuário e o tempo de expiração. Anote o token de atualização, pois você o reutilizará.
 
 ## Configurar conta do ALM no AEM
 
 1. Inicie sua instância do AEM.
-1. Clique em Configurações > Cloud Service.
-1. Clique em Configuração do Adobe Learning Manager.
+1. Clique em **Configurações** > **Cloud Service**.
+1. Clique em **Configuração do Adobe Learning Manager**.
 
    ![](assets/alm-configuration.png)
    *Selecionar a configuração do Adobe Learning Manager*
 
-1. Clique em Criar > Pasta de configuração. Nomeie sua pasta.
+1. Clique em **Criar** > **Pasta de Configuração**. Nomeie sua pasta.
 
    ![](assets/create-folder.png)
    *Criar configuração*
@@ -133,11 +133,11 @@ Para aprovar o aplicativo, clique em **[!UICONTROL Aprovar]**.
    ![](assets/account-congiguration.png)
    *Criar pasta de configuração*
 
-   1. Modo Adobe Learning Manager: escolha como deseja a experiência de aprendizado para alunos conectados e não conectados.
-   1. URL do Adobe Learning Manager: insira o URL da instância do ALM onde os serviços de aprendizado estão hospedados.
-   1. ID da conta: a ID da conta do ALM.
-   1. ID do cliente, Segredo do cliente e Token de atualização do autor: insira as credenciais que você obteve ao criar o aplicativo no ALM.
-   1. Personalização do Widget: para obter mais informações, consulte [Integrar com AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. **Modo Adobe Learning Manager:** escolha como deseja a experiência de aprendizado para alunos conectados e não conectados.
+   2. **URL do Adobe Learning Manager:** insira a URL da instância do ALM onde os serviços de aprendizado estão hospedados.
+   3. **ID da conta:** a ID da conta do ALM.
+   4. **ID do cliente, Segredo do cliente e Token de atualização do autor:** insira as credenciais que você obteve ao criar o aplicativo no ALM.
+   5. **Personalização do Widget:** Para obter mais informações, consulte [Integrar ao AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Salve e feche a configuração.
 
@@ -161,10 +161,10 @@ O conector exporta metadados de treinamento para uma solução de armazenamento 
 
 Ative este conector para criar e renderizar suas páginas da Web baseadas no AEM Sites e fornecer experiências personalizadas aos alunos antes e depois do logon. Ative este conector para criar e renderizar suas páginas da Web baseadas no AEM Sites e fornecer experiências personalizadas aos alunos antes e depois do logon.
 
-* URL de base do cdn do Adobe Learning Manager - insira o URL de base do caminho do serviço CDN de recuperação de dados na página de conexão do Acesso a dados de treinamento.
-* Token de atualização do administrador - insira o token de atualização que você determinou na seção anterior.
-* URL de base de metadados de treinamento - insira o URL de base do caminho do serviço de ativação de pesquisa e recuperação de dados de pesquisa na página de conexão Acesso a dados de treinamento.
-* URL de registro do Adobe Learning Manager - insira o URL de registro automático gerado pelo administrador de integração para a conta, que é usado pelos alunos para se inscreverem no treinamento.
+* **URL base do cdn do Adobe Learning Manager:** insira a URL base do caminho do serviço CDN de recuperação de dados na página de conexão do Acesso a Dados de Treinamento.
+* **Token de atualização do administrador:** insira o token de atualização que você determinou na seção anterior.
+* **URL de base de Metadados de Treinamento:** insira a URL de base do caminho do serviço de habilitação e recuperação de dados de pesquisa na página de conexão do Acesso a Dados de Treinamento.
+* **URL de registro do Adobe Learning Manager:** insira a URL de registro automático gerada pelo administrador de integração para a conta, que é usada pelos alunos para se inscreverem no treinamento.
 
 ### AEM + Adobe Learning Manager + Adobe Commerce (usuários conectados/não conectados)
 
@@ -172,19 +172,19 @@ O Adobe Learning Manager agora fornece soluções para ajudar você a integrar p
 
 Um usuário já pode usar o aplicativo AEM e aprová-lo, em vez de criar um.
 
-* URL de base do cdn do Adobe Learning Manager - insira o URL de base do caminho do serviço CDN de recuperação de dados na página de conexão do Adobe Commerce.
-* URL do Adobe Commerce: insira o URL da instância do Adobe Commerce que você está usando.
-* Caminho do proxy do GraphQL - Os componentes do Learning Manager do lado do cliente acessam o ponto de extremidade do Adobe Commerce GraphQL diretamente e, portanto, pode ocorrer um erro CORS. Para evitar esse erro, todas as chamadas devem ser atendidas do mesmo ponto de extremidade que o AEM ou por meio de um proxy que adicione cabeçalhos CORS.
-* Nome da loja da Adobe Commerce - insira o nome da loja da Adobe Commerce que você determinou na seção anterior.
-* Tempo de vida útil do token do cliente Adobe Commerce (em segundos) - insira o tempo de vida útil do token do cliente, indicando o período predeterminado para uma sessão de logon.
-* Token de atualização do administrador - insira o token de atualização que você determinou na seção anterior.
+* **URL de base do cdn do Adobe Learning Manager:** insira a URL de base do caminho do serviço CDN de recuperação de dados na página de conexão do Adobe Commerce.
+* **URL do Adobe Commerce:** insira a URL da instância do Adobe Commerce que você está usando.
+* **Caminho do proxy do GraphQL:** os componentes do Learning Manager do lado do cliente acessam o ponto de extremidade do Adobe Commerce GraphQL diretamente e, portanto, pode ocorrer um erro CORS. Para evitar esse erro, todas as chamadas devem ser atendidas do mesmo ponto de extremidade que o AEM ou por meio de um proxy que adicione cabeçalhos CORS.
+* **Nome da loja da Adobe Commerce:** insira o nome da loja da Adobe Commerce que você determinou na seção anterior.
+* **Tempo de vida útil do token do cliente Adobe Commerce (em segundos):** insira o tempo de vida útil do token do cliente, indicando o período predeterminado para uma sessão de logon.
+* **Token de atualização do administrador:** insira o token de atualização que você determinou na seção anterior.
 
 ## Personalizar páginas da Web
 
 Personalize suas páginas da Web usando o site de referências AEM e os widgets disponíveis.
 
 1. Inicie sua instância do AEM.
-1. Clique em Sites e abra a página de configuração.
+1. Clique em **Sites** e abra a página de configuração.
 1. Clique em **[!UICONTROL Site de Aprendizado]** > **[!UICONTROL Mestres de Idiomas]** > **[!UICONTROL Inglês]**. Todas as páginas da Web do projeto são incluídas na pasta.
 
    ![](assets/list-webpages.png)
@@ -203,25 +203,59 @@ Personalize suas páginas da Web usando o site de referências AEM e os widgets 
 
 Além dos modelos que você pode usar que são fornecidos pelo pacote do site de referência, você também pode criar páginas da Web com base nos modelos do AEM.
 
-1. Na página principal do AEM, clique em Criar > Página.
+1. Na página principal do AEM, clique em **Criar** > **Página**.
 
-1. Escolha o modelo que deseja personalizar. Clique em Avançar.
+2. Escolha o modelo que deseja personalizar. Clique em **Avançar**.
 
-1. Insira as propriedades da página.
+3. Insira as propriedades da página.
 
    ![](assets/page-properties.png)
    *Propriedades da página*
 
-1. Para criar a página, clique em **[!UICONTROL Criar]**.
+4. Para criar a página, clique em **[!UICONTROL Criar]**.
 
-1. Selecione a nova página e clique em **[!UICONTROL Editar]**.
+5. Selecione a nova página e clique em **[!UICONTROL Editar]**.
 
-1. Insira um componente na página, por exemplo, **Aprendizado- Conteúdo**.
+6. Adicione um componente à página. Por exemplo, **Widget Adobe Learning Manager**.
 
    ![](assets/learning-content.png)
    *Filtrar por site*
 
-1. Escolha os filtros necessários do Catálogo que serão exibidos na página.
+7. Arraste e solte o **Widget do Adobe Learning Manager** na página em que você deseja que ele resida.
+8. Selecione o ícone de configurações. O pop-up **Propriedades** é aberto.
+9. Selecione um widget no menu suspenso, insira um título e uma descrição e selecione **Concluído**. O widget selecionado é adicionado à página.
+
+## Widget do Adobe Learning Manager
+
+O Widget do Adobe Learning Manager está disponível na v 2.0.0 e posterior no grupo de componentes **Aprendizado - Conteúdo**. Um único componente hospeda todos os widgets de página inicial do ALM, selecionáveis em uma lista suspensa na caixa de diálogo de criação.
+
+Com a adição do novo **Widget do Adobe Learning Manager**, você pode criar experiências no AEM Sites que estão em paridade com as páginas nativas do Adobe Learning Manager - Início, Catálogo, Visão geral do objeto de aprendizado e páginas personalizadas criadas com widgets como Categorias e Cursos e Caminhos.
+
+**Widgets disponíveis:**
+
+* **Meu Aprendizado** — aprendizado inscrito no momento
+* **Quadro de classificação** — gamificação aponta para o quadro de classificação
+* **Calendário** — sessões futuras e concluídas, organizadas por mês
+* **Conformidade** — cursos com prazos vencidos ou futuros
+* **Aprendizado social** — publicações no aprendizado social
+* **Categorias** — cartões para catálogos, produtos ou funções
+* **Cursos e caminhos** — listas selecionadas, orientadas por origem ou escolhidas a dedo
+* **Marcadores** — os cursos salvos do aluno
+* **Recommendations do administrador** — conteúdo definido pelos administradores
+* **Recommendations de Áreas de Interesse, Tendências e Descobertas** — orientado pelas configurações de recomendação no nível de conta
+
+### Recursos de criação
+
+* Catálogos, produtos, funções e cursos são selecionáveis nas listas suspensas pesquisáveis dentro da caixa de diálogo.
+* Os campos de seleção múltipla aceitam até 25 itens com arrastar para reordenar e exibição baseada em tag.
+* A terminologia no nível da conta (por exemplo, nomes personalizados para **Catálogo** ou **Função**) é refletida automaticamente nos rótulos da caixa de diálogo.
+
+### Personalização do bloco do curso
+
+As personalizações de bloco do curso feitas no aplicativo do administrador do ALM — em **Administrador** > **Marcas** > **Bloco do curso** — se aplicam a cada widget que renderiza blocos para cursos, programações de aprendizado, certificações e ajudas de tarefa. Use isso para controlar quais detalhes (formato, duração, habilidade, classificação, nome do autor, descrição, status de conclusão e muito mais) são exibidos aos alunos nos novos widgets com uma única configuração que se propaga para todos os lugares da sua academia de aprendizado com base no AEM Sites.
+
+Para personalizar o Adobe Learning Manager Widget, consulte [Integrar com AEM](/help/migrated/integrate-aem-learning-manager.md).
+
 
 ## Criar site a partir do Blueprint
 
@@ -231,20 +265,20 @@ O pacote do site de referência do ALM fornece um “Plano do site de aprendizad
 
 1. Clique em **[!UICONTROL Criar]** > **[!UICONTROL Site]**.
 
-1. Clique em Blueprint do site de aprendizado.
+1. Clique em **Blueprint do site de aprendizado**.
 
    ![](assets/learning-site-blueprint.png)
 
    *Criar site a partir do esquema*
 
-1. Clique em Avançar.
+1. Clique em **Avançar**.
 
-1. Na página de propriedades, insira os metadados da página. Clique em Criar.
+1. Na página de propriedades, insira os metadados da página. Clique em **Criar**.
 
    ![](assets/blueprint-properties.png)
    *Selecionar Blueprint do Site de Aprendizado*
 
-1. Clique no hiperlink Início para navegar até a página inicial do site que você criou. Nesta página, você pode personalizar os widgets e os componentes do catálogo.
+1. Clique no hiperlink **Início** para navegar até a home page do site que você criou. Nesta página, você pode personalizar os widgets e os componentes do catálogo.
 
 ## Programar seu site
 
@@ -254,10 +288,36 @@ O código está no [Repositório GitHub do site de referência](https://github.c
 
 As principais partes do modelo são:
 
-* core: pacote Java que contém todas as funcionalidades principais, como serviços OSGi, ouvintes ou agendadores, bem como código Java relacionado a componentes, como servlets ou filtros de solicitação.
-* ui.apps: contém as partes /apps (e /etc) do projeto, ou seja, bibliotecas de clientes JS&amp;CSS, componentes, modelos.
-* ui.content: contém conteúdo de amostra que usam os componentes do ui.apps
-* ui.frontend: contém componentes do React.
+* Pacote Java `core:` que contém todas as funcionalidades principais, como serviços OSGi, ouvintes ou agendadores, bem como código Java relacionado a componentes, como servlets ou filtros de solicitação.
+* `ui.apps:` contém as partes /apps (e /etc) do projeto, ou seja, bibliotecas de clientes JS&amp;CSS, componentes, modelos.
+* `ui.content:` contém conteúdo de amostra que usa os componentes do ui.apps
+* `ui.frontend:` contém componentes React.
+
+### Personalizar widgets do Adobe Learning Manager usando código
+
+O componente **Widget do Adobe Learning Manager** é renderizado diretamente no DOM da página usando os componentes do React.
+
+**O que isso significa para o seu projeto?**
+
+* Marcação do widget, estilos e origem do React fazem parte do pacote AEM e são acessíveis ao seu projeto
+* Substitua o CSS usando sua própria biblioteca de clientes sem tocar no pacote
+* Para alterações comportamentais, renomeação de botões, lógica condicional e personalização da saída do componente, edite a origem do React no módulo ui.frontend e recompile
+
+### Classes CSS predefinidas para widgets
+
+As seguintes classes CSS predefinidas estão disponíveis como destinos para o estilo de nível de widget:
+
+| Nome do widget | CSS de contêiner |
+|------------|---------------|
+| Calendário | `alm-calendar-widget-container` |
+| Categoria | `alm-category-widget-container` |
+| Cartões de categoria | `alm-category-card-container` |
+| Conformidade | `alm-compliance-container` |
+| Curso e caminhos | `alm-course-path-widget-container` |
+| Cartas de OA de Curso e Caminhos | `alm-training-card-v2-card` |
+| Recommendations (todos) | `alm-course-path-widget-container` |
+| Gamificação | `alm-leaderboard-container` |
+| Aprendizado social | `alm-social-learning-container` |
 
 Todos os códigos estão no repositório para você começar a trabalhar.
 
@@ -270,9 +330,7 @@ No entanto, se quiser usar esses componentes recém-adicionados do Learning Mana
 1. Instale o pacote do site de referência do ALM.
 
 1. Abra o projeto da Web e navegue até o arquivo HTML (da página da Web ou do modelo da Web em que deseja adicionar os componentes do Learning Manager).
-1. Ingressando em uma reunião
-
-   Abra o arquivo HTML e adicione os seguintes snippets de código ao componente de página para que o código seja executado antes dos componentes de aprendizado presentes na renderização da página.
+1. Abra o arquivo HTML e adicione os seguintes snippets de código ao componente de página para que o código seja executado antes dos componentes de aprendizado presentes na renderização da página.
 
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
@@ -280,16 +338,16 @@ No entanto, se quiser usar esses componentes recém-adicionados do Learning Mana
    O código anterior adiciona a configuração mapeada na marca meta da página, que é necessária para que os componentes de aprendizado sejam renderizados. Para obter mais detalhes, consulte o [site de referência da Adobe Learning Manager](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Certifique-se de ter mapeado a configuração com o projeto da Web.
-1. Abra o modelo do AEM Sites onde deseja importar os componentes do Learning Manager.
-1. No editor de página de modelo, navegue até o contêiner Componentes permitidos e selecione **Política**.
-1. Na página Política, navegue até Propriedades > Componentes permitidos e selecione os seguintes componentes: “Aprendizado - Conteúdo”, “Aprendizado - Formulário” e “Aprendizado - Estrutura”
+1. Abra o modelo do **AEM Sites** para o qual deseja importar os componentes do Learning Manager.
+1. No editor de página de modelo, navegue até o contêiner **Componentes Permitidos** e selecione **Política**.
+1. Na página **Política**, navegue até **Propriedades** > **Componentes permitidos** e selecione os seguintes componentes: “**Aprendizado - Conteúdo,**” “**Aprendizado - Formulário**” e “**Aprendizado - Estrutura**”
 
 O procedimento a seguir permite que o modelo atenda às dependências da biblioteca do cliente dos componentes importados do Learning Manager.
 
 As páginas da Web que incluem esses componentes devem carregar essas bibliotecas para renderizar e usar os componentes com êxito.
 
-1. No editor da página de modelo, clique em Informações da página e em Política da página.
-1. Na página Política, navegue até Propriedades > Bibliotecas do cliente e adicione-as à página do modelo:
+1. No editor de página de modelo, clique em **Informações da Página** e em **Política de Página**.
+1. Na página **Política**, navegue até **Propriedades** > **Bibliotecas do Cliente** e adicione-as à página do modelo:
 
    1. learning.site
    1. learning.ui
@@ -306,7 +364,7 @@ Você também pode definir várias configurações de conta em várias páginas.
 1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuração do Widget do Learning Manager]**.
 1. Clique em **[!UICONTROL Criar]**.
 1. Digite o token de atualização aqui. Configure as outras configurações.
-1. O nome do host deve ser alterado para “learningmanagereu” para as regiões da UE.
+1. O nome do host deve ser alterado para **learningmanagereu** para as regiões da UE.
 1. Salve e feche a configuração.
 1. Selecione uma configuração e publique-a.
 
@@ -316,7 +374,7 @@ O autor do AEM deve primeiro adicionar o componente no modelo do AEM
 
 O autor do AEM poderá arrastar e soltar o componente Adobe Learning Manager e configurar adequadamente.
 
-O componente do Learning Manager requer que a configuração criada na etapa acima seja mapeada para a página.  O autor pode mapear a configuração editando as propriedades da página em **[!UICONTROL Avançado]** > **[!UICONTROL Configuração]** > **[!UICONTROL Configuração na nuvem]** e fornecer o caminho da configuração. Dessa forma, o autor pode criar configurações para várias contas do Learning Manager e mapear cada uma para páginas de sites diferentes. Se uma configuração não for mapeada para a página, o componente lerá a configuração da página pai recursivamente até encontrar uma.
+O componente do Learning Manager requer que a configuração criada na etapa acima seja mapeada para a **Página**.  O autor pode mapear a configuração editando as propriedades da página em **[!UICONTROL Avançado]** > **[!UICONTROL Configuração]** > **[!UICONTROL Configuração na nuvem]** e fornecer o caminho da configuração. Dessa forma, o autor pode criar configurações para várias contas do Learning Manager e mapear cada uma para páginas de sites diferentes. Se uma configuração não for mapeada para a página, o componente lerá a configuração da página pai recursivamente até encontrar uma.
 
 ## Aluno {#learner}
 
@@ -343,7 +401,7 @@ Se não houver recomendações, o widget aparecerá em branco.
 
 ## Suporte para Skyline
 
-Skyline é a versão em nuvem do AEM. Você deve primeiro instalar o Skyline a partir do gerenciador de pacotes. Para usar o componente do Skyline no AEM, um usuário deve estar presente na conta do Learning Manager. Em outras palavras, o endereço de email do usuário deve existir na conta.
+O Skyline é a versão em nuvem do AEM. Você deve primeiro instalar o Skyline a partir do gerenciador de pacotes. Para usar o componente do Skyline no AEM, um usuário deve estar presente na conta do Learning Manager. Em outras palavras, o endereço de email do usuário deve existir na conta.
 
 ### Implantar o Skyline
 
@@ -386,9 +444,9 @@ No AEM, o título de um cartão em uma tira estará vazio inicialmente. Em Propr
 
 **Personalização**
 
-Você pode personalizar a aparência do layout usando widgets.html. Você pode alterar a aparência dos cartões que aparecem e personalizar o tema.
+Você pode configurar a aparência do layout usando widgets.html. Você pode alterar a aparência dos cartões que aparecem e personalizar o tema.
 
-Na seção **[!UICONTROL Configurações Gerais]**, você pode escolher as cores primárias e secundárias para os cartões e especificar as propriedades para personalizar o tema.
+No seção **[!UICONTROL Configurações gerais]**, você pode escolher as cores primárias ou secundárias para os cartões e especificar as propriedades para personalizar o tema.
 
 ```
 { 
@@ -415,18 +473,18 @@ Na seção **[!UICONTROL Configurações Gerais]**, você pode escolher as cores
 
 O widget Meus cursos salvos permite que os alunos visualizem os cursos marcados ou salvos diretamente em suas páginas de aprendizado, fornecendo acesso fácil aos cursos que desejam revisitar ou concluir mais tarde.
 
-Para configurar o widget Meus cursos salvos em sites AEM:
+Para configurar o **Widget Meus cursos salvos** no AEM Sites:
 
-1. Abra os sites de AEM.
+1. Inicie o **AEM Sites**.
 2. Abra a página no modo **[!UICONTROL Editar]**.
 3. Vá para o **[!UICONTROL Navegador de Componentes]** e adicione o **[!UICONTROL widget Meu Aprendizado]** à página.
 4. Selecione o componente e selecione **[!UICONTROL Configurar]**.
 5. Selecione **[!UICONTROL Meus cursos salvos]** no menu suspenso em **[!UICONTROL Propriedades]**.
 6. Selecione **[!UICONTROL Concluído]** e atualize a página no modo **[!UICONTROL Visualizar]** ou **[!UICONTROL Publish]**.
 
-Os alunos podem exibir os cursos salvos na faixa **[!UICONTROL Salvos por mim]** na página inicial do aluno.A faixa **[!UICONTROL Salvos por mim]** leva os alunos à página do catálogo e exibe o número exato de cursos marcados.
+Os alunos podem exibir os cursos salvos na faixa **[!UICONTROL Salvos por mim]** na página inicial do aluno. A seleção da faixa **[!UICONTROL Salvo por mim]** leva os alunos à página do catálogo e exibe o número exato de cursos marcados.
 
-Quando você aplica outro filtro no catálogo, somente os resultados correspondentes a esse filtro são exibidos. Os itens marcados não são incluídos automaticamente.
+Quando você aplica outro filtro no **Catálogo**, somente os resultados correspondentes a esse filtro são exibidos. Os itens marcados não são incluídos automaticamente.
 
 ### Ignorar inscrição do OA de ordem superior
 
@@ -442,4 +500,4 @@ A configuração é então aplicada no widget.
 
 ### Segurança
 
-Os campos ID do cliente e Segredo do cliente estão adicionados. Além disso, o token de atualização fica mascarado. Depois que um usuário cria a configuração inteira, se ele abrir a configuração novamente para editá-la ou se algum outro usuário abrir essa configuração, o token de atualização será mascarado.
+Os campos **ID do Cliente** e **Segredo do Cliente** foram adicionados. Além disso, o token de atualização fica mascarado. Depois que um usuário cria a configuração inteira, se ele abrir a configuração novamente para editá-la ou se algum outro usuário abrir essa configuração, o token de atualização será mascarado.
