@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Remover usuários
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1441'
 ht-degree: 45%
 
 ---
@@ -239,7 +239,7 @@ Você pode classificar os usuários filtrados por **[!UICONTROL ID de Usuário E
 
 A remoção automática de usuários excluídos é um recurso que limpa os dados de usuários que já foram excluídos no ALM. A remoção ocorre após um período de retenção configurável, com foco em operações em massa, para que as contas grandes de clientes possam ser tratadas de forma eficiente sem prejudicar o desempenho.
 
-O fluxo de exclusão em massa pode processar até 10.000 usuários por lote. O recurso está posicionado como um serviço em segundo plano, voltado para confiabilidade, para exclusão de grandes volumes.
+O recurso está posicionado como um serviço em segundo plano, voltado para confiabilidade, para exclusão de grandes volumes.
 
 Como administrador, você pode especificar a duração na qual os usuários removidos podem ser excluídos. Exiba [configurações de administrador](/help/migrated/administrators/feature-summary/settings.md) para obter mais informações.
 
@@ -247,7 +247,7 @@ Como administrador, você pode especificar a duração na qual os usuários remo
 
 * Fornecer remoção automática configurável para usuários excluídos no nível da conta
 * Garantir que os usuários sejam removidos dentro de 24 horas depois de atenderem aos critérios de remoção
-* Suporta exclusão em massa de até 10.000 usuários por dia** sem prejudicar o desempenho do sistema
+* Suporte à exclusão em massa de até 5.000 usuários por dia
 * Manter a capacidade de resposta geral do sistema e a integridade do banco de dados enquanto essas operações são executadas
 * Aplicar o gerenciamento automatizado de retenção de dados para manter as obrigações do GDPR
 
@@ -264,7 +264,7 @@ Como administrador, você pode especificar a duração na qual os usuários remo
    *Opção de limpeza automática*
    >[!NOTE]
    >
-   >Se a opção **Limpar automaticamente usuários excluídos** não estiver habilitada, a seção exibirá uma mensagem que diz **Não configurado** na parte inferior da seção da opção.
+   >Se a opção **Limpar Automaticamente Usuários Excluídos** não estiver habilitada, a seção exibirá uma mensagem que diz **Não configurado** na parte inferior da seção da opção.
 4. Selecione **Editar**.
 5. Marque a **caixa de seleção Habilitar**.
 6. Informe a duração após a qual a expurgação deve ter efeito.
