@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71b68a6d08d1337afd915162d8130a6ad2379886
+source-git-commit: 061433edb12bf10287e56899e01dcc462c9ba5f0
 workflow-type: tm+mt
-source-wordcount: '15926'
+source-wordcount: '15903'
 ht-degree: 72%
 
 ---
@@ -1068,29 +1068,29 @@ Para configurar e usar o conector, siga estas etapas.
 1. Na página inicial do Learning Manager, passe o mouse sobre a miniatura do Zoom. Será exibido um menu. Clique na opção **[!UICONTROL Conectar]** no menu.
 
    <!--
-![](assets/connectors.png)
+   ![](assets/connectors.png)
 
-*Bloco do conector do Zoom*
--->
+   *Zoom connector tile* 
+   -->
 
 1. A página do conector do Zoom é aberta. Insira os detalhes da conta nos campos específicos para integrar e sincronizar o feed do usuário. Você pode obter os detalhes com o administrador da sua conta do conector.
 
    <!--
-![](assets/bluejeans-connecotrpage.png)
-*Conectar-se ao BlueJeans/Zoom*
--->
+   ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* 
+   -->
 
->[!NOTE]
->
->Como aluno, ao habilitar o conector, use a mesma ID de e-mail usada em sua conta do Learning Manager para ativar feeds do usuário no Learning Manager.
+   >[!NOTE]
+   >
+   >Como aluno, ao habilitar o conector, use a mesma ID de e-mail usada em sua conta do Learning Manager para ativar feeds do usuário no Learning Manager.
 
 1. Depois que a conexão for estabelecida, como autor, crie um curso de sala de aula virtual com o Zoom como o sistema de conferência.
 
    <!--
-![](assets/vc.jpg)
-
-*Criar um curso de sala de aula virtual*
--->
+   ![](assets/vc.jpg)
+   
+   *Create a VC course* 
+   -->
 
 1. Administradores, gerentes e alunos podem inscrever alunos no curso criado. Ao ser inscrito, o aluno receberá um e-mail. O aluno pode fazer logon na sua conta do Learning Manager para visualizar os detalhes do programa e realizar o curso.
 1. Quando o curso é concluído, o relatório de conclusão é enviado para o Learning Manager. O administrador pode visualizar o relatório de conclusão para verificar a participação e pontuação dos alunos.
@@ -1340,11 +1340,11 @@ O conector do LinkedIn é usado por clientes empresariais do LinkedIn.com que qu
 1. Se você estiver configurando o conector do LinkedIn Learning pela primeira vez, clique em [!UICONTROL Conectar].
 
    <!--
-Configure o Exavault FTP antes de configurar este conector.
+   Configure the Exavault FTP account before you configure this connector.
 
-![](assets/configure.jpg)
-*Configurar conexão*
--->
+   ![](assets/configure.jpg)
+   *Configure connection*
+   -->
 
 1. Na página de conexão, especifique um nome para o conector. Insira a chave do aplicativo e a chave secreta da sua conexão.
 
@@ -2268,7 +2268,7 @@ Depois que um autor tiver definido os preços em vários cursos, caminhos de apr
 
 >[!NOTE]
 >
->Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=pt-BR).
+>Na versão de março de 2024 do Adobe Learning Manager, introduzimos suporte para o [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Clique em **[!UICONTROL Exportar metadados de treinamento]** > **[!UICONTROL Sob demanda]**.
