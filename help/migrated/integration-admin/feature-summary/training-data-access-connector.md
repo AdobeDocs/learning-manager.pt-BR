@@ -83,7 +83,7 @@ Para exibir dados de treinamento em um site sem periféricos ou baseado no AEM S
 2. Use a **URL Base**, a **URL da CDN**, a **ID de Cliente**, o **Segredo de Cliente** e o **Token de Atualização de Administrador** para criar uma configuração no AEM.
 3. Construir o site usando componentes AEM.
 4. Publish o site para alunos.
-5. Para obter detalhes completos sobre a instalação, consulte [este artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) e [este artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
+5. Para obter detalhes completos sobre a instalação, consulte [este artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) e [este artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
 
 ### Experiência do aluno
 

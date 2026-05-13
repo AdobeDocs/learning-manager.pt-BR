@@ -178,7 +178,7 @@ Para mapear atributos:
 3. Na página **Mapear atributos**:
    - O **lado esquerdo** mostra os campos obrigatórios no Adobe Learning Manager.
    - O **lado direito** mostra os nomes de colunas CSV. Inicialmente, este lado contém listas suspensas vazias.
-   - Selecione **Escolher CSV** para carregar um arquivo CSV de exemplo. Isso preenche o menu suspenso do lado direito com os nomes de coluna do seu CSV. Consulte [este artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv).
+   - Selecione **Escolher CSV** para carregar um arquivo CSV de exemplo. Isso preenche o menu suspenso do lado direito com os nomes de coluna do seu CSV. Consulte [este artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/migration-manual#csv).
    - Mapeie cada campo do Adobe Learning Manager com a coluna CSV correspondente.
 
    ![](assets/ftp-connector6.png)

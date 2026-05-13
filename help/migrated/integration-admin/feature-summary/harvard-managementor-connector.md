@@ -144,5 +144,5 @@ Verifique se os seguintes arquivos estão presentes na pasta FTP do Harvard Mana
 
 **Arquivos de exemplo**
 
-- [Arquivo de metadados do curso para o conector Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
-- [Arquivo de feed de usuário para o conector Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)
+- [Arquivo de metadados do curso para o conector Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=pt-BR)
+- [Arquivo de feed de usuário para o conector Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=pt-BR)
