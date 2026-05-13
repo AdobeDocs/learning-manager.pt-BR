@@ -2,10 +2,10 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 8aa74f220c7bd0694fdb6d80b16d9a744eb3f7f3
+source-git-commit: fc9bf565de2f9491c793654645d2f2400ca49697
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 61%
+source-wordcount: '946'
+ht-degree: 62%
 
 ---
 
@@ -132,7 +132,24 @@ ht-degree: 61%
 * Administrador de Integração {#integration}
    * [Manual do desenvolvedor de aplicativos](integration-admin/feature-summary/developer-manual.md)
    * [Manual de migração](integration-admin/feature-summary/migration-manual.md)
-   * [Conectores do Learning Manager](integration-admin/feature-summary/connectors.md)
+   * Conectores do Learning Manager {#connectors}
+      * [Visão geral dos conectores](integration-admin/feature-summary/connectors.md)
+      * [Conector ADFS](integration-admin/feature-summary/adfs-connector.md)
+      * [Conector do Adobe Commerce](integration-admin/feature-summary/adobe-commerce-connector.md)
+      * [Conector do Adobe Connect](integration-admin/feature-summary/adobe-connect-connector.md)
+      * [Conector do Box](integration-admin/feature-summary/box-connector.md)
+      * [Conector FTP personalizado](integration-admin/feature-summary/custom-ftp-connector.md)
+      * [Conector FTP](integration-admin/feature-summary/ftp-connector.md)
+      * [Conector do getAbstract](integration-admin/feature-summary/getabstract-connector.md)
+      * [Conector do Harvard ManageMentor](integration-admin/feature-summary/harvard-managementor-connector.md)
+      * [Conector do LinkedIn Learning](integration-admin/feature-summary/linkedin-learning-connector.md)
+      * [Conector do Marketo Engage](integration-admin/feature-summary/marketo-engage-connector.md)
+      * [Conector do Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
+      * [Conector do Power BI](integration-admin/feature-summary/power-bi-connector.md)
+      * [Conector do Salesforce](integration-admin/feature-summary/salesforce-connector.md)
+      * [Conector de acesso a dados de treinamento](integration-admin/feature-summary/training-data-access-connector.md)
+      * [Conector do Workday](integration-admin/feature-summary/workday-connector.md)
+      * [Conector do Zoom](integration-admin/feature-summary/zoom-connector.md)
    * [APIs não conectadas](integration-admin/feature-summary/non-logged-in-apis.md)
    * Webhooks {#webhooks}
       * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
@@ -147,7 +164,6 @@ ht-degree: 61%
       * [Introdução](/help/migrated/deployment-guide/introduction.md)
       * [Migração de usuários](/help/migrated/deployment-guide/user-migration.md)
       * [Configuração do usuário](/help/migrated/deployment-guide/user-setup.md)
-   * [Instalar o conector do Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Aplicativo Learning Manager para Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Configurações](integration-admin/feature-summary/settings.md)
    * [Gerenciar funções personalizadas através de arquivos CSV](integration-admin/feature-summary/configure-role-csv-files.md)
