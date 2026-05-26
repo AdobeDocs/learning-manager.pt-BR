@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gerenciamento dos alunos da sua sessão
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -142,7 +142,7 @@ Todas as atualizações são refletidas automaticamente nos registros, transcri�
 
 * Os eventos de treinamento para parceiros ou clientes permitem que o instrutor no local se adapte facilmente a alterações na sala, sessões adicionais ou participantes extras sem precisar consultar o administrador para obter novos códigos QR.
 
-### Convites do calendário
+### Convites do calendário {#calendarinvites}
 
 * Quando um aluno ou professor está inscrito em uma sala de aula ou sessão de sala de aula virtual, o Learning Manager envia um convite da agenda (arquivo ICS).
 * O convite do calendário inclui:

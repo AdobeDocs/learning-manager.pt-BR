@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 24fe199514c70bc081eda47b3e8d8dca9d8faba3
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '6105'
 ht-degree: 58%
@@ -38,18 +38,19 @@ Depois que um autor cria um curso, é possível criar as instâncias do curso. A
 Para criar uma instância,
 
 1. No aplicativo do administrador, clique em **[!UICONTROL Cursos]** no painel esquerdo.
-1. Na lista de cursos, escolha o curso necessário e clique em **[!UICONTROL Exibir curso]**.
+2. Na lista de cursos, escolha o curso necessário e clique em **[!UICONTROL Exibir curso]**.
 
    ![](assets/view-course.png)
 
    *Exibir um curso*
 
-1. Para criar instâncias, clique em **[!UICONTROL Instâncias]** no painel esquerdo. Por padrão, todo curso tem uma instância. Você pode modificar a instância padrão ou adicionar instâncias. Não é possível excluir essa instância do curso.
-1. Para criar uma instância, clique em **[!UICONTROL Adicionar nova instância]** no canto superior direito das informações do curso. Uma nova instância do curso é exibida.
-1. Insira as propriedades da instância:
+3. Para criar instâncias, clique em **[!UICONTROL Instâncias]** no painel esquerdo. Por padrão, todo curso tem uma instância. Você pode modificar a instância padrão ou adicionar instâncias. Não é possível excluir essa instância do curso.
+4. Para criar uma instância, clique em **[!UICONTROL Adicionar nova instância]** no canto superior direito das informações do curso. Uma nova instância do curso é exibida.
+5. Insira as propriedades da instância:
 
    * No campo **[!UICONTROL Nome da instância]**, insira o nome da instância que você deseja associar ao curso. Certifique-se de usar um nome exclusivo para a instância.
-   * **Data de início:** esta é a data de início do curso. Dois e-mails de lembrete podem ser enviados em duas datas selecionadas diferentes ao aluno antes desta data de início. A data inicial deve ser anterior à data de conclusão. Depois de selecionar a data de início, essa data será destacada em azul no calendário, na seção **Alertas de Notificação** da instância.
+   * **Data de Início:** esta é a data de início da instância. Dois e-mails de lembrete podem ser enviados em duas datas selecionadas diferentes ao aluno antes desta data de início. A data inicial deve ser anterior à data de conclusão. Depois de selecionar a data de início, essa data será destacada em azul no calendário, na seção **Alertas de Notificação** da instância.
+     ![](assets/start-date-instance.png)
      ![](assets/start-date-highlighted-instance.png)
    * Especifique o prazo de conclusão para a instância. Os alunos devem atingir o status de conclusão do curso até esta data.
    * Selecione **[!UICONTROL Mostrar mais opções]** para exibir outras opções de prazo.
@@ -57,19 +58,17 @@ Para criar uma instância,
    * **[!UICONTROL Prazo de cancelamento da inscrição]:** Você pode optar por restringir o cancelamento de inscrição pelo próprio aluno, estabelecendo um prazo para o cancelamento da inscrição.
    * **[!UICONTROL Fuso horário]:** Pesquise e selecione o **[!UICONTROL Fuso horário]** na lista suspensa.
 
-   Selecione **Salvar**.
-   ![](assets/start-date-instance.png)
+6. Selecione **Salvar**.
 
 #### Definir lembretes de email antes da data de início
 
 Você pode definir lembretes de e-mail somente depois de salvar todas as informações da instância. Depois de selecionar **Salvar**, a instância se minimiza e entra no modo de edição.
 
 1. Selecione a caixa **Alertas de Notificação**.
-2. No calendário, selecione uma data que seja anterior à data de início do curso para o primeiro lembrete.
+2. No calendário, selecione uma data que seja anterior à data inicial da instância para o primeiro lembrete.
 3. Selecione **Adicionar lembrete** à direita.
-4. **Modelo de email:** selecione um modelo na lista suspensa **list
-5. **Recorrência:** selecione um tipo de recorrência na lista suspensa.
-Selecione a marca de seleção azul à direita para salvar a data do lembrete. Lembre-se de que cada data de lembrete deve ser salva separadamente.
+4. **Modelo de email:** selecione um modelo na lista suspensa.
+5. **Recorrência:** selecione um tipo de recorrência na lista suspensa. Selecione a marca de seleção azul à direita para salvar a data do lembrete. Lembre-se de que cada data de lembrete deve ser salva separadamente.
    ![](assets/start-date-reminder1.png)
 6. Selecione outra data que também seja anterior à data de início do curso para o segundo lembrete, repita o processo e selecione a marca de seleção azul à direita para salvar esta data de lembrete também.
    ![](assets/start-date-reminder2.png)
