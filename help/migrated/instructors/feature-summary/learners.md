@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gerenciamento dos alunos da sua sessão
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -146,9 +146,12 @@ Todas as atualizações são refletidas automaticamente nos registros, transcri�
 
 * Quando um aluno ou professor está inscrito em uma sala de aula ou sessão de sala de aula virtual, o Learning Manager envia um convite da agenda (arquivo ICS).
 * O convite do calendário inclui:
+
    * Data e hora da sessão
    * Detalhes da sessão
    * **Link de ingresso direto na sessão** na descrição do calendário
+
+  ![](assets/calendar-invite-session.png)
 
 Os participantes podem abrir o evento do calendário e ingressar na sessão diretamente de seu calendário.
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar instâncias do curso e programações de aprendizado
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: bb212865016726f84a240702533a099ac11e481a
+source-git-commit: 24fe199514c70bc081eda47b3e8d8dca9d8faba3
 workflow-type: tm+mt
-source-wordcount: '5898'
-ht-degree: 60%
+source-wordcount: '6105'
+ht-degree: 58%
 
 ---
 
@@ -49,17 +49,32 @@ Para criar uma instância,
 1. Insira as propriedades da instância:
 
    * No campo **[!UICONTROL Nome da instância]**, insira o nome da instância que você deseja associar ao curso. Certifique-se de usar um nome exclusivo para a instância.
+   * **Data de início:** esta é a data de início do curso. Dois e-mails de lembrete podem ser enviados em duas datas selecionadas diferentes ao aluno antes desta data de início. A data inicial deve ser anterior à data de conclusão. Depois de selecionar a data de início, essa data será destacada em azul no calendário, na seção **Alertas de Notificação** da instância.
+     ![](assets/start-date-highlighted-instance.png)
    * Especifique o prazo de conclusão para a instância. Os alunos devem atingir o status de conclusão do curso até esta data.
-   * Clique em **[!UICONTROL Mostrar mais opções]** para exibir outras opções de prazo.
+   * Selecione **[!UICONTROL Mostrar mais opções]** para exibir outras opções de prazo.
    * **[!UICONTROL Prazo de inscrição]:** esta é a data até a qual um aluno deve se inscrever em um objeto de aprendizado em caso de autoinscrição.
    * **[!UICONTROL Prazo de cancelamento da inscrição]:** Você pode optar por restringir o cancelamento de inscrição pelo próprio aluno, estabelecendo um prazo para o cancelamento da inscrição.
    * **[!UICONTROL Fuso horário]:** Pesquise e selecione o **[!UICONTROL Fuso horário]** na lista suspensa.
 
-   Um administrador pode decidir ter prazos de conclusão para um curso ou programa de aprendizado com base em requisitos. No entanto, é recomendável ter um prazo para os treinamentos com base em sala de aula/sala de aula virtual.
+   Selecione **Salvar**.
+   ![](assets/start-date-instance.png)
 
-   ![](assets/create-an-instance.png)
+#### Definir lembretes de email antes da data de início
 
-   *Definir prazo de conclusão*
+Você pode definir lembretes de e-mail somente depois de salvar todas as informações da instância. Depois de selecionar **Salvar**, a instância se minimiza e entra no modo de edição.
+
+1. Selecione a caixa **Alertas de Notificação**.
+2. No calendário, selecione uma data que seja anterior à data de início do curso para o primeiro lembrete.
+3. Selecione **Adicionar lembrete** à direita.
+4. **Modelo de email:** selecione um modelo na lista suspensa **list
+5. **Recorrência:** selecione um tipo de recorrência na lista suspensa.
+Selecione a marca de seleção azul à direita para salvar a data do lembrete. Lembre-se de que cada data de lembrete deve ser salva separadamente.
+   ![](assets/start-date-reminder1.png)
+6. Selecione outra data que também seja anterior à data de início do curso para o segundo lembrete, repita o processo e selecione a marca de seleção azul à direita para salvar esta data de lembrete também.
+   ![](assets/start-date-reminder2.png)
+
+Um administrador pode decidir ter prazos de conclusão para um curso ou programa de aprendizado com base em requisitos. No entanto, é recomendável ter um prazo para os treinamentos com base em sala de aula/sala de aula virtual.
 
 ### Exibir propriedades de uma instância {#viewpropertiesoftheinstance}
 
