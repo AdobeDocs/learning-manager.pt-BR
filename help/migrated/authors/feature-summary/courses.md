@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '8841'
-ht-degree: 65%
+source-wordcount: '9424'
+ht-degree: 61%
 
 ---
 
@@ -49,15 +49,16 @@ Para criar um curso, siga as etapas abaixo:
 
 ## Criar um curso - Fluxo de trabalho avançado {#createacourseadvancedworkflow}
 
-1. Faça logon no Adobe Learning Manager como autor porque somente os autores tem os direitos para criar cursos. Agora, na página de introdução, clique **[!UICONTROL Criar cursos]**.
-1. Na página **Visão geral do curso**, insira o nome do curso. Agora, digite uma descrição breve para este curso, a qual é exibida no cartão do curso. Essa descrição não deve ter mais de 140 caracteres. Em seguida, insira a visão geral detalhada do curso, a qual é exibida na página de detalhes do curso. A descrição não deve exceder 1.500 caracteres.
-1. Para tornar o curso disponível em outros idiomas, clique em Adicionar novo idioma no canto superior esquerdo da página. Selecione o idioma ou os idiomas nos quais você deseja disponibilizar o curso. Clique em **[!UICONTROL Salvar]**. Para obter mais informações, consulte [Adicionar conteúdo em diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
-1. **Modificar configurações do curso**-
+1. Faça logon no Adobe Learning Manager como autor porque somente os autores tem os direitos para criar cursos. Agora, na página Início, selecione **[!UICONTROL Criar Cursos]**. A página Catálogo de cursos é aberta e uma lista de cursos é exibida.
+2. Selecione **Adicionar** no canto superior direito. Uma página é aberta para criar um novo curso.
+3. Insira um nome para o curso e uma descrição curta. Essa descrição é exibida no cartão do curso. Essa descrição não deve ter mais de 140 caracteres. Em seguida, insira a visão geral detalhada do curso, a qual é exibida na página de detalhes do curso. A descrição não deve exceder 1.500 caracteres.
+4. Para tornar o curso disponível em outros idiomas, clique em Adicionar novo idioma no canto superior esquerdo da página. Selecione o idioma ou os idiomas nos quais você deseja disponibilizar o curso. Clique em **[!UICONTROL Salvar]**. Para obter mais informações, consulte [Adicionar conteúdo em diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
+5. **Modificar configurações do curso**-
 
-   1. Na página Configurações do curso, escolha uma habilidade para o curso. Selecione a habilidade necessária na lista suspensa Habilidade. Em seguida, na lista suspensa Nível, selecione o nível necessário.
-   1. Escolha as habilidades do curso, o nível e defina os créditos para a habilidade. Adicione mais habilidades, se necessário.
-   1. Adicione os rótulos de conformidade personalizados ao curso, se necessário. Consulte [Adicionar rótulos de conformidade ao curso/caminho de aprendizado/certificação](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-   1. Selecione o tipo de inscrição na lista suspensa **Tipo de inscrição**.
+   a) Na página Configurações do curso, escolha uma habilidade para o curso. Selecione a habilidade necessária na lista suspensa Habilidade. Em seguida, na lista suspensa Nível, selecione o nível necessário.
+b) Escolha as habilidades do curso, o nível e defina os créditos para a habilidade. Adicione mais habilidades, se necessário.
+c) Adicione os rótulos de conformidade personalizados ao curso, se necessário. Consulte [Adicionar rótulos de conformidade ao curso/caminho de aprendizado/certificação](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+d) Selecione o tipo de inscrição na lista suspensa **Tipo de inscrição**.
 
    Os tipos de inscrições são os seguintes:
 
@@ -65,13 +66,15 @@ Para criar um curso, siga as etapas abaixo:
    * **Aprovado pelo gerente:** os gerentes aprovam esses cursos. Os alunos podem se inscrever nesses cursos, mas não são inscritos diretamente nesses tipos de cursos sem a aprovação do gerente. Uma solicitação de notificação será enviada para os gerentes quando os alunos se inscreverem nesses tipos de cursos. Após a aprovação do gerente, esses cursos são listados como inscritos para os alunos.
    * **Autoinscrição:** os alunos podem se inscrever diretamente nesses tipos de cursos.
 
-1. Escolha se deseja definir um preço para o curso ou torná-lo gratuito. Se quiser tornar o curso pago, escolha a opção **[!UICONTROL Pago]** e especifique um preço. O preço então aparece no cartão do curso e na página de visão geral do curso de um aluno.
+6. Escolha se deseja definir um preço para o curso ou torná-lo gratuito. Se quiser tornar o curso pago, escolha a opção **[!UICONTROL Pago]** e especifique um preço. O preço então aparece no cartão do curso e na página de visão geral do curso de um aluno.
 
-   OBSERVAÇÃO: isso é ativado somente quando o conector do Adobe Commerce está configurado.
+   >[!NOTE]
+   >
+   >Isso é ativado somente quando o conector do Adobe Commerce está configurado.
 
-1. Se quiser que o aluno consiga cancelar sua inscrição no curso, habilite a caixa de seleção **Os alunos podem cancelar suas inscrições**.
+7. Se quiser que o aluno consiga cancelar sua inscrição no curso, habilite a caixa de seleção **Os alunos podem cancelar suas inscrições**.
 
-1. **Configuração da Instância**
+8. **Configuração da Instância**
 
    Se você ativar essa opção, os alunos que estão no estado Em andamento poderão visitar outras instâncias e se inscrever lá. Um aluno pode manter o progresso da instância anterior.
 
@@ -84,7 +87,9 @@ Para criar um curso, siga as etapas abaixo:
    * Sala de aula
    * Atividade
 
-   Observação: Ao duplicar um curso, se você tiver ativado a opção Configuração de instância no curso de origem, a opção permanecerá desativada no curso de destino.
+   >[!NOTE]
+   >
+   >Ao duplicar um curso, se você ativou a opção Configuração da instância no curso de origem, a opção permanece desativada no curso de destino.
 
    **Não há suporte para a Opção de Instância**:
 
@@ -93,18 +98,18 @@ Para criar um curso, siga as etapas abaixo:
 
    A configuração da alternãncia de instância não será propagada para contas de colegas se compartilhada pelo catálogo. A opção permanece desativada no curso de destino.
 
-1. **Várias inscrições**
+9. **Várias inscrições**
 
    Usando esse recurso, você pode inscrever alunos em mais de uma instância do curso em um período ou em períodos diferentes.
 
    Ative a alternância **Inscrição múltipla** para alternar entre várias inscrições de curso de um aluno. Se você habilitou a Opção de Instância, não poderá usar o recurso de Várias inscrições.
 
-1. Selecione os cursos de pré-requisito que devem ser concluídos antes de realizar seu curso. Clique no campo Cursos e escolha na lista de cursos.
-1. Habilite a caixa de seleção **Ativar** **pré-requisitos** se quiser que os cursos de pré-requisito sejam obrigatórios.
-1. Adicione palavras-chave como marcas relacionadas ao curso. Essas marcas ajudam os alunos a localizarem com facilidade o curso durante a pesquisa. Todas essas marcas são adicionadas automaticamente com base nos módulos que adicionamos. Se tiver outras marcas que deseja adicionar a este curso, você pode incorporá-las.
-1. Adicione palavras-chave como marcas relacionadas ao curso. Essas marcas ajudam os alunos a localizarem com facilidade o curso durante a pesquisa. Todas essas marcas são adicionadas automaticamente com base nos módulos que adicionamos. Se tiver outras marcas que deseja adicionar a este curso, você pode incorporá-las.
-1. No campo Desativação automática, selecione uma data em que o curso será desativado. O administrador deve habilitar a opção Retirada automática primeiro.
-1. Para salvar as alterações, clique em **[!UICONTROL Salvar]**. Para publicar o curso, clique em **[!UICONTROL Publicar]**.
+10. Selecione os cursos de pré-requisito que devem ser concluídos antes de realizar seu curso. Clique no campo Cursos e escolha na lista de cursos.
+11. Habilite a caixa de seleção **Ativar** **pré-requisitos** se quiser que os cursos de pré-requisito sejam obrigatórios.
+12. Adicione palavras-chave como marcas relacionadas ao curso. Essas marcas ajudam os alunos a localizarem com facilidade o curso durante a pesquisa. Todas essas marcas são adicionadas automaticamente com base nos módulos que adicionamos. Se tiver outras marcas que deseja adicionar a este curso, você pode incorporá-las.
+13. Adicione palavras-chave como marcas relacionadas ao curso. Essas marcas ajudam os alunos a localizarem com facilidade o curso durante a pesquisa. Todas essas marcas são adicionadas automaticamente com base nos módulos que adicionamos. Se tiver outras marcas que deseja adicionar a este curso, você pode incorporá-las.
+14. No campo Desativação automática, selecione uma data em que o curso será desativado. O administrador deve habilitar a opção Retirada automática primeiro.
+15. Para salvar as alterações, selecione **[!UICONTROL Salvar]**. Para publicar o curso, clique em **[!UICONTROL Publicar]**.
 
 ### Adicionar rótulos de conformidade ao curso/caminho de aprendizado/certificação {#add-custom-compliance-label}
 
@@ -131,6 +136,64 @@ Agora o curso/caminho de aprendizado/certificação é considerado como um tipo 
 >[!NOTE]
 >
 >Os autores também podem adicionar os rótulos de conformidade a um curso/caminho de aprendizado/certificação existente editando-os.
+
+## Criar uma instância
+
+Para criar uma instância, faça o seguinte:
+
+1. Faça logon como **Autor**.
+2. Navegue até o curso para o qual deseja criar uma instância e abra o curso.
+3. Selecione **Instâncias** no painel de navegação esquerdo. A página **Instâncias** é aberta. Por padrão, todo curso tem uma instância. Você pode modificar a instância padrão ou adicionar instâncias. Não é possível excluir essa instância do curso.
+4. Para criar uma instância, clique em **[!UICONTROL Adicionar nova instância]** no canto superior direito das informações do curso. Uma nova instância do curso é exibida.
+5. Insira as propriedades da instância:
+
+   * No campo **[!UICONTROL Nome da instância]**, insira o nome da instância que você deseja associar ao curso. Certifique-se de usar um nome exclusivo para a instância.
+   * **Data de início:** esta é a data de início do curso. Dois e-mails de lembrete podem ser enviados em duas datas selecionadas diferentes ao aluno antes desta data de início. A data inicial deve ser anterior à data de conclusão. Depois de selecionar a data de início, essa data será destacada em azul no calendário, na seção **Alertas de Notificação** da instância.
+     ![](assets/start-date-highlighted-instance.png)
+   * Especifique o prazo de conclusão para a instância. Os alunos devem atingir o status de conclusão do curso até esta data.
+   * Selecione **[!UICONTROL Mostrar mais opções]** para exibir outras opções de prazo.
+   * **[!UICONTROL Prazo de inscrição]:** esta é a data até a qual um aluno deve se inscrever em um objeto de aprendizado em caso de autoinscrição.
+   * **[!UICONTROL Prazo de cancelamento da inscrição]:** Você pode optar por restringir o cancelamento de inscrição pelo próprio aluno, estabelecendo um prazo para o cancelamento da inscrição.
+   * **[!UICONTROL Fuso horário]:** Pesquise e selecione o **[!UICONTROL Fuso horário]** na lista suspensa.
+
+6. Selecione **Salvar**.
+   ![](assets/start-date-instance.png)
+
+### Definir lembretes de email antes da data de início
+
+Você pode definir lembretes de e-mail somente depois de salvar todas as informações da instância. Depois de selecionar **Salvar**, a instância se minimiza e entra no modo de edição.
+
+1. Selecione a caixa **Alertas de Notificação**.
+2. No calendário, selecione uma data que seja anterior à data de início do curso para o primeiro lembrete.
+3. Selecione **Adicionar lembrete** à direita.
+4. **Modelo de email:** selecione um modelo na lista suspensa **list
+5. **Recorrência:** selecione um tipo de recorrência na lista suspensa.
+Selecione a marca de seleção azul à direita para salvar a data do lembrete. Lembre-se de que cada data de lembrete deve ser salva separadamente.
+   ![](assets/start-date-reminder1.png)
+6. Selecione outra data que também seja anterior à data de início do curso para o segundo lembrete, repita o processo e selecione a marca de seleção azul à direita para salvar esta data de lembrete também.
+   ![](assets/start-date-reminder2.png)
+
+## Exibir propriedades de uma instância {#viewpropertiesoftheinstance}
+
+1. **Módulos:** número de módulos criado pelo autor do curso
+2. **Sessões:** o número de módulos Sala de aula virtual e Sala de aula no curso
+3. **Conquistas:** as conquistas dos alunos
+4. **Alertas de notificação:** a opção de enviar dois emails de lembrete antes da data de início do curso
+
+### Ações {#actions}
+
+* **Salvar nas configurações do curso:** salva as configurações desta instância no curso de onde você criou a instância.
+* **Aplicar configurações padrão:** aplica as configurações padrão encontradas na página **Configurar** > **Padrões de instância**.
+* **Desativar Instância:** desativou uma instância. A instância não estará mais disponível.
+* **Excluir Instância:** exclui a instância específica.
+
+
+>[!NOTE]
+>
+>Não é possível excluir a instância padrão ou uma cópia da instância padrão. Nesses casos, a opção Excluir instância não aparecerá na lista suspensa Ação.
+
+* **Notificar Alunos em Lista de Espera:** notifica os alunos em lista de espera de que há outra instância na qual eles podem se inscrever
+* **Alunos inscritos no email:** envia emails para os alunos sobre comunicados importantes
 
 ## Pontos de gamificação
 
@@ -1090,7 +1153,7 @@ Você também pode publicar módulos de curso no Learning Manager a partir do so
 1. Faça logon com as credenciais da Adobe. Se não tiver uma Adobe ID, clique em **[!UICONTROL Criar conta]**. Após a autorização, você será direcionado para a página de publicação do módulo.
 1. Forneça quaisquer informações básicas sobre o módulo e clique em Publicar.
 
-Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/br/captivate/classic/publish-project-to-captivate-prime.html)
+Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)
 
 ## Eficácia do curso {#courseeffectiveness}
 
