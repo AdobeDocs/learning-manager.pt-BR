@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '9424'
 ht-degree: 61%
@@ -137,7 +137,7 @@ Agora o curso/caminho de aprendizado/certificação é considerado como um tipo 
 >
 >Os autores também podem adicionar os rótulos de conformidade a um curso/caminho de aprendizado/certificação existente editando-os.
 
-## Criar uma instância
+## Criar uma instância {#createaninstance}
 
 Para criar uma instância, faça o seguinte:
 
@@ -149,6 +149,7 @@ Para criar uma instância, faça o seguinte:
 
    * No campo **[!UICONTROL Nome da instância]**, insira o nome da instância que você deseja associar ao curso. Certifique-se de usar um nome exclusivo para a instância.
    * **Data de início:** esta é a data de início do curso. Dois e-mails de lembrete podem ser enviados em duas datas selecionadas diferentes ao aluno antes desta data de início. A data inicial deve ser anterior à data de conclusão. Depois de selecionar a data de início, essa data será destacada em azul no calendário, na seção **Alertas de Notificação** da instância.
+     ![](assets/start-date-instance.png)
      ![](assets/start-date-highlighted-instance.png)
    * Especifique o prazo de conclusão para a instância. Os alunos devem atingir o status de conclusão do curso até esta data.
    * Selecione **[!UICONTROL Mostrar mais opções]** para exibir outras opções de prazo.
@@ -157,18 +158,16 @@ Para criar uma instância, faça o seguinte:
    * **[!UICONTROL Fuso horário]:** Pesquise e selecione o **[!UICONTROL Fuso horário]** na lista suspensa.
 
 6. Selecione **Salvar**.
-   ![](assets/start-date-instance.png)
 
 ### Definir lembretes de email antes da data de início
 
 Você pode definir lembretes de e-mail somente depois de salvar todas as informações da instância. Depois de selecionar **Salvar**, a instância se minimiza e entra no modo de edição.
 
 1. Selecione a caixa **Alertas de Notificação**.
-2. No calendário, selecione uma data que seja anterior à data de início do curso para o primeiro lembrete.
+2. No calendário, selecione uma data que seja anterior à data inicial da instância para o primeiro lembrete.
 3. Selecione **Adicionar lembrete** à direita.
-4. **Modelo de email:** selecione um modelo na lista suspensa **list
-5. **Recorrência:** selecione um tipo de recorrência na lista suspensa.
-Selecione a marca de seleção azul à direita para salvar a data do lembrete. Lembre-se de que cada data de lembrete deve ser salva separadamente.
+4. **Modelo de email:** selecione um modelo na lista suspensa
+5. **Recorrência:** selecione um tipo de recorrência na lista suspensa. Selecione a marca de seleção azul à direita para salvar a data do lembrete. Lembre-se de que cada data de lembrete deve ser salva separadamente.
    ![](assets/start-date-reminder1.png)
 6. Selecione outra data que também seja anterior à data de início do curso para o segundo lembrete, repita o processo e selecione a marca de seleção azul à direita para salvar esta data de lembrete também.
    ![](assets/start-date-reminder2.png)
@@ -1153,7 +1152,7 @@ Você também pode publicar módulos de curso no Learning Manager a partir do so
 1. Faça logon com as credenciais da Adobe. Se não tiver uma Adobe ID, clique em **[!UICONTROL Criar conta]**. Após a autorização, você será direcionado para a página de publicação do módulo.
 1. Forneça quaisquer informações básicas sobre o módulo e clique em Publicar.
 
-Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/br/captivate/classic/publish-project-to-captivate-prime.html)
+Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)
 
 ## Eficácia do curso {#courseeffectiveness}
 
