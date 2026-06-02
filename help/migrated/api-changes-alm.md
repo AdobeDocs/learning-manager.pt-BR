@@ -2,13 +2,13 @@
 description: Alterações de API no ALM
 jcr-language: en_us
 title: Alterações na API na versão de abril
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
 source-wordcount: '4093'
 ht-degree: 0%
 
 ---
-
 
 # Alterações na API na versão de abril de 2026
 
@@ -288,7 +288,7 @@ Essa estrutura permite aos clientes:
 
 ### Compatibilidade com versões anteriores: 
 
-```/resources/{resourceId}```
+`/resources/{resourceId}`
 
 O ponto de extremidade do recurso herdado permanece disponível:
 
@@ -314,7 +314,7 @@ Integrações que atualmente armazenam ou fazem referência às IDs de recurso a
    - Use resource.attributes.locale para selecionar o URL correto (local / downloadUrl) para a localidade do aluno.
    - Implementar comportamento de fallback (por exemplo, fallback para pt-BR) se o local exato de um aluno não estiver disponível.
 - _APIs e armazenamento_
-   - Para novas integrações, armazene as _IDs de recurso de novo formato_ (```jobAid:<jobAidId>_<version>_<localeCode>```) para habilitar a recuperação específica de localidade sem ambiguidade.
+   - Para novas integrações, armazene as _IDs de recurso de novo formato_ (`jobAid:<jobAidId>_<version>_<localeCode>`) para habilitar a recuperação específica de localidade sem ambiguidade.
    - As IDs herdadas ainda podem ser usadas com /resources/{resourceId}, mas elas não farão distinção entre localidades.
 
 ## Restrições de timeslot para iniciar módulos
@@ -323,13 +323,13 @@ Algumas experiências de aprendizado devem estar disponíveis somente dentro de 
 
 Os metadados de intervalo de tempo estão disponíveis no endpoint:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 No nível de recurso do objeto de aprendizado, um objeto timeSlot agora pode estar presente nos atributos, com valores startTime e endTime em UTC. Especifica a janela durante a qual o recurso pode ser iniciado.
 
 Antes de iniciar um módulo, as integrações podem chamar um novo ponto de extremidade de validação:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 Esse ponto de extremidade, destinado a cenários lidos pelo aluno, retorna se o aluno tem permissão atualmente para iniciar o recurso, considerando o intervalo de tempo configurado, o tipo de entrega e outras regras de back-end.
 
@@ -341,7 +341,7 @@ Alguns pacotes de conteúdo implementam seu próprio rastreamento de tentativas 
 
 Até:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 os recursos do objeto de aprendizado agora podem expor um atributo booleano hasContentDrivenAttemptTracking. Quando isso é verdadeiro, o quiz ou o módulo gerencia as tentativas internamente (por exemplo, por meio do SCORM ou da lógica da xAPI), e os contadores de tentativas padrão da plataforma podem não refletir totalmente a experiência do aluno.
 
@@ -353,11 +353,11 @@ Esta versão apresenta uma importante __alteração comportamental__ no formato 
 
 Anteriormente, as IDs de recurso de ajuda de tarefa usavam um formato como:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 Na versão de abril de 2026, esse texto foi substituído por um formato simplificado e mais explícito:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 Por exemplo:
 
@@ -365,9 +365,9 @@ jobAid:131032_2_fr_FR
 
 Os componentes são:
 
-- ```<jobAidId>```: a ID numérica da Ajuda de Trabalho (por exemplo, 131032),
-- ```<version>```: o número de versão da Ajuda de Trabalho (por exemplo, 2),
-- ```<localeCode>```: o código de localidade (por exemplo, en_US, fr_FR, es_ES).
+- `<jobAidId>`: a ID numérica da Ajuda de Trabalho (por exemplo, 131032),
+- `<version>`: o número de versão da Ajuda de Trabalho (por exemplo, 2),
+- `<localeCode>`: o código de localidade (por exemplo, en_US, fr_FR, es_ES).
 
 Qualquer integração que indexe recursos ou persista em IDs de recurso de ajuda de tarefa deve atualizar sua lógica de análise e armazenamento para reconhecer o novo formato. Como os próprios identificadores são alterados, é altamente recomendável reconstruir todos os índices locais chaveados por IDs de recurso de ajuda de tarefa após atualizar para a versão de abril de 2026.
 
@@ -458,7 +458,7 @@ Você deve tratar a coluna de ordem herdada como removida ou ignorada:
 - O mapeamento necessário do núcleo permanece:
    - ID do programa de aprendizado ↔ ID do curso (e quaisquer outras colunas ainda documentadas, como ID, learningProgramId, courseId e datas).
 
-Sempre consulte as [_especificações do CSV_](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/migration-manual) mais recentes da sua conta do Learning Manager (via csv_specifications.zip) para confirmar o conjunto de cabeçalhos e os requisitos atuais.
+Sempre consulte as [_especificações do CSV_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) mais recentes da sua conta do Learning Manager (via csv_specifications.zip) para confirmar o conjunto de cabeçalhos e os requisitos atuais.
 
 ## timeZoneCode em instâncias de curso
 
@@ -657,7 +657,7 @@ _Como redefinir programaticamente a conclusão de um aluno para um curso ou prog
 
 Usar o novo ponto de extremidade:
 
-```POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion```
+`POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion`
 Isso redefine a conclusão da instância de destino quando as permissões e o estado permitirem.
 
 _Como saber se um aluno concluiu algo por meio de um objeto de aprendizado alternativo ou equivalente?_
@@ -668,7 +668,7 @@ _Como posso encontrar todas as alternativas que podem satisfazer um determinado 
 
 Use o seguinte ponto de extremidade:
 
-```GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}```
+`GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}`
 
 e use a matriz de dados (para as alternativas) e meta.count (para o número total de alternativas).
 
@@ -676,10 +676,10 @@ _Como saber se um aluno tem permissão para iniciar um módulo neste momento?_
 
 Primeiro, busque o timeSlot do recurso de:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 e use:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 _O que significa ContentDrivenAttemptTracking em um recurso?_
 
@@ -689,7 +689,7 @@ _Como obter menus apropriados para usuários não conectados (experiências púb
 
 Usar:
 
-```GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true```
+`GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true`
 
 Isso retorna estruturas de menu e página filtradas para usuários anônimos, adequadas para o Experience Builder ou outros sites sem periféricos.
 
@@ -701,10 +701,10 @@ _O que mudou no formato de ID de recurso de Ajuda de Trabalho e como devo lidar 
 
 O formato da ID mudou de valores como:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 até:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 por exemplo jobAid:131032_2_fr_FR. Qualquer sistema que armazena ou analisa IDs de recursos de ajuda de tarefa deve ser atualizado, e você deve planejar recriar índices locais chaveados por esses IDs após atualizar para a versão de abril de 2026.

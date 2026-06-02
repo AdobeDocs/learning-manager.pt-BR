@@ -4,9 +4,9 @@ title: Manual do desenvolvedor de aplicativos
 description: Saiba como integrar e personalizar aplicativos usando APIs RESTful, que abrangem tópicos essenciais, como autenticação OAuth 2.0, cenários de uso de API e modelos de dados. Aprimore os aplicativos corporativos com recursos como criação do curso, rastreamento do progresso do aluno, mapeamento de habilidades, certificação, gamificação e muito mais. Este guia fornece instruções passo a passo e exemplos reais para ajudar os desenvolvedores a criar fluxos de trabalho contínuos e eficientes. Ideal para desenvolvedores que desejam aproveitar os recursos do Adobe Learning Manager para criar aplicativos centrados no aluno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fe3070cbbeb1eac84e13fbed0262797064480aea
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '4583'
+source-wordcount: '4415'
 ht-degree: 6%
 
 ---
@@ -95,7 +95,7 @@ Um código de parâmetro é anexado junto com o uri de redirecionamento.
 
 Depois de obter o código, use qualquer ferramenta da API e adicione a seguinte solicitação de POST:
 
-```https://learningmanager.adobe.com/oauth/token ```
+`https://learningmanager.adobe.com/oauth/token`
 
 **Corpo da Solicitação (x-www-form-urlencoded)**:
 
