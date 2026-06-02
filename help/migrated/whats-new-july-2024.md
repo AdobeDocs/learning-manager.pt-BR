@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de j
 jcr-language: en_us
 title: Resumo dos novos recursos
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2336'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Para acessar o painel de conformidade no aplicativo do administrador, selecione 
 Com o painel de controle de conformidade aprimorado, os administradores e gerentes podem exibir os cursos do tipo conformidade, o caminho de aprendizado ou as certificações relacionadas à sua categoria específica (por exemplo, Vendas, Marketing e Jurídico). Os administradores podem categorizar cursos de conformidade personalizados em categorias específicas. As categorias de conformidade personalizadas são possibilitadas por rótulos de catálogo.  Os administradores podem criar um painel do curso e compartilhá-lo com os gerentes. Os gerentes podem exibir o mesmo painel em suas respectivas instâncias. Também foram feitos aprimoramentos na interface do usuário do painel de conformidade e nas notificações por email de conformidade.
 ![](assets/compliance-dashboard-admin.png)
 
-#### Fluxo de trabalho (WRK)
+#### Fluxo de trabalho
 
 Estas são as etapas para usar o Painel de conformidade aprimorado:
 
@@ -123,7 +123,7 @@ Os alunos receberão notificações por push sempre que perderem um prazo do cur
 
 A API de pesquisa inclui as seguintes alterações:
 
-Os alunos podem pesquisar marcas nos filtros do catálogo usando a API ```GET /search```. Os alunos podem pesquisar as tags selecionando ```tag``` como um valor para o parâmetro ```filter.loTypes```.
+Os alunos podem pesquisar marcas nos filtros do catálogo usando a API `GET /search`. Os alunos podem pesquisar as tags selecionando `tag` como um valor para o parâmetro `filter.loTypes`.
 
 **Exemplo de curva**
 
@@ -131,13 +131,13 @@ Os alunos podem pesquisar marcas nos filtros do catálogo usando a API ```GET /s
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-Os novos filtros, vaga disponível, lista de espera disponível e filtro de intervalo de tempo foram adicionados às seguintes APIs: ```GET /search``` e `GET /learningObjects`.
+Os novos filtros, vaga disponível, lista de espera disponível e filtro de intervalo de tempo foram adicionados às seguintes APIs: `GET /search` e `GET /learningObjects`.
 
-Os novos filtros `filter.session.includeEnrollmentDeadline` foram adicionados à API ```GET /search``` a seguir.
+Os novos filtros `filter.session.includeEnrollmentDeadline` foram adicionados à API `GET /search` a seguir.
 
 ### API da conta
 
-As novas colunas `custom_injections`, `showComplianceLabel` e `complianceLabelDefaultID` foram adicionadas à API ```GET /account``` para obter dados da conta do ponto de extremidade do usuário.
+As novas colunas `custom_injections`, `showComplianceLabel` e `complianceLabelDefaultID` foram adicionadas à API `GET /account` para obter dados da conta do ponto de extremidade do usuário.
 
 ### API do objeto de aprendizado
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
+source-git-commit: de174f32cdf0458e6e20e3263eefd1da1fc2da3d
 workflow-type: tm+mt
-source-wordcount: '29658'
+source-wordcount: '29617'
 ht-degree: 75%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 75%
 
 Data de lançamento: 26 de maio de 2026
 
-## Aprimoramentos (email de convite de instância e sessão)
+## Aprimoramentos nesta versão
 
-**Data de Início de uma Instância:** Como administrador ou autor, agora você pode incluir uma data de início para uma instância ao criar ou editar uma instância.
+**Data de Início de uma Instância:** Como administrador ou autor, agora você pode incluir uma data de início para uma instância ao criar ou editar uma instância. A data de início só pode ser exibida na interface do aluno por meio da API.
 
 **Lembretes de Email antes da Data de Início:** Isso está relacionado ao campo recém-introduzido **Data de Início** em uma instância. Como administrador ou autor, agora você pode definir dois lembretes de email em momentos diferentes antes da data de início de uma instância com vários tipos de recorrências.
 
@@ -590,7 +590,7 @@ O novo aplicativo Adobe Learning Manager no Microsoft Teams foi desenvolvido par
 
 * O botão Compartilhar no catálogo do aluno não funciona conforme o esperado no navegador safari e no aplicativo MS Teams para dispositivos móveis e iPad.
 * As notificações não são exibidas na guia Atividade depois que o aplicativo é removido em outros computadores.
-Nada acontece quando você clica nas notificações na guia Atividade do aplicativo no iPhone 14.
+Nada acontece ao clicar nas notificações na guia Atividade do aplicativo no iPhone 14.
 * No aplicativo MS Teams, as notificações do Learning Manager (conclusão, inscrição, prazo e encerramento) não exibem o status e o nome do curso na guia Atividade.
 * Um pop-up com conteúdo XML é exibida quando o administrador de integração não aprova o aplicativo MS Teams.
 * O idioma da interface do usuário no aplicativo Adobe Learning Manager no MS Teams às vezes não muda conforme esperado quando o idioma é alterado.
@@ -615,7 +615,7 @@ Nada acontece quando você clica nas notificações na guia Atividade do aplicat
 
 ### Melhorias De Desempenho Nesta Versão
 
-Quando uma inscrição em massa de alunos é executada, não haverá nenhum arquivo de registro gerado para cada aluno.
+Quando uma inscrição em massa dos alunos é executada, não haverá nenhum arquivo de log gerado para cada aluno.
 Otimizamos o processamento de planos de aprendizado para contas grandes. Isso evita quaisquer problemas ou lentidão na pesquisa.
 +++
 
@@ -649,7 +649,7 @@ Adição de suporte para código de idioma de quatro letras ao filtrar idiomas e
 ### Erros Corrigidos Nesta Atualização
 
 Para algumas localidades, a pesquisa retorna resultados incorretos.
-Os metadados do curso são substituídos quando o curso tem mais de uma variante da mesma localidade.
+Os metadados do curso são substituídos quando o curso tem mais de uma variante do mesmo local.
 +++
 
 +++Atualização 84

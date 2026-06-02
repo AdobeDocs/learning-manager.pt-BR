@@ -3,9 +3,9 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '5322'
+source-wordcount: '5320'
 ht-degree: 61%
 
 ---
@@ -862,7 +862,7 @@ Abaixo encontram-se as especificações CSV padrão que podem ser usadas para ma
 
 3-learning_program_enrollment.xlsx contém descrições dos metadados necessários do arquivo retrofit_learning_program_enrollment.csv.
 
-4-user_course_grades.xlsx contém descrições dos metadados necessários do arquivo retrofit_user_course_grades.csv.
+4-user_course_grades.xlsx-contém descrições de metadados necessários para o arquivo retrofit_user_course_grades.csv.
 [csv-specifications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -889,7 +889,7 @@ O Learning Manager oferece suporte à UUID para proporcionar flexibilidade às e
 
 **Contexto de uso da UUID em uma empresa**
 
-Considere um cenário em que um funcionário A entra em uma empresa chamada Learning Manager, como contratado. Durante o período do contrato, a empresa do Learning Manager não pode fornecer a ID de e-mail da empresa como ```A@example.com```. Em vez disso, a empresa pode considerar apenas a conta de e-mail pessoal do funcionário, por exemplo, ```A@gmail.com```. Após concluir 6 meses do período do contrato, se o mesmo funcionário A ingressar no Learning Manager como funcionário em tempo integral, o Learning Manager poderá alterar a ID de e-mail para a ID de e-mail da empresa: ```A@example.com```.
+Considere um cenário em que um funcionário A entra em uma empresa chamada Learning Manager, como contratado. Durante o período do contrato, a empresa do Learning Manager não pode fornecer a ID de e-mail da empresa como `A@example.com`. Em vez disso, a empresa pode considerar apenas a conta de e-mail pessoal do funcionário, por exemplo, `A@gmail.com`. Após concluir 6 meses do período do contrato, se o mesmo funcionário A ingressar no Learning Manager como funcionário em tempo integral, o Learning Manager poderá alterar a ID de e-mail para a ID de e-mail da empresa: `A@example.com`.
 
 Ter acesso à UUID da conta de usuário beneficiará a empresa Learning Manager no contexto acima mencionado. A empresa Learning Manager pode substituir facilmente a ID pessoal de e-mail do funcionário por uma ID de e-mail oficial. Os registros de funcionário relevantes a essa conta não são afetados por essa alteração.
 
