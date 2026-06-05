@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Modelos de e-mail
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
+source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 58%
+source-wordcount: '1753'
+ht-degree: 60%
 
 ---
 
@@ -35,18 +35,28 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 Você como administrador pode facilmente ativar, desativar ou modificar esses modelos de e-mail.
 
-1. Para acessar os modelos, clique em **[!UICONTROL Modelos de Email]** no painel esquerdo. Nesta página você pode ver três categorias diferentes de modelos: **[!UICONTROL Geral]**, **[!UICONTROL Atividade de Aprendizado]** e **[!UICONTROL Lembretes e Atualizações]**. Há uma quarta guia, **[!UICONTROL Configurações]**, onde você pode configurar os modelos.
+Os modelos de e-mail mencionados abaixo fazem parte deste grupo de modelos.
+
+**Atualização de progresso:** este modelo notifica um aluno de que o status de conclusão e o progresso em um caminho de aprendizado foram recalculados automaticamente devido a uma alteração no perfil ativo ou na configuração do caminho de aprendizado. Ele solicita que o aluno revise quaisquer requisitos recém-pendentes e tome medidas para concluir o caminho de aprendizado.
+
+**Cursos/caminhos foram marcados como concluídos por meio de um caminho alternativo:** este modelo notifica um aluno quando ele conclui um curso por meio de um caminho alternativo. Isso significa que eles concluíram diretamente um treinamento de origem que um administrador configurou como uma alternativa para esses destinos.
+
+**Cursos/caminhos foram marcados como incompletos:** este modelo notifica um aluno de que um curso ou caminho de aprendizado que deveria ter sido concluído anteriormente por meio de uma alternativa agora foi marcado como incompleto. Isso acontece quando um administrador remove ou modifica um relacionamento alternativo, e a inconclusão retroativa é ativada no nível da conta.
+
+**Lista de verificação aprovada/Falha na lista de verificação:** o objetivo desses modelos é informar aos alunos que eles foram avaliados pelos revisores. O aluno recebe este e-mail para cada avaliação, para que possa acessar a plataforma e verificar se precisa realizar alguma ação.
+
+1. Para acessar os modelos, clique em **[!UICONTROL Modelos de e-mail]** no painel à esquerda. Nessa página é possível ver três diferentes categorias de modelos, **[!UICONTROL Geral]**, **[!UICONTROL Atividade de aprendizado]** e **[!UICONTROL Lembretes e atualizações]**. Há uma quarta guia, **[!UICONTROL Configurações]**, onde você pode configurar os modelos.
 
    ![](assets/categories-of-emailtemplates.png)
 
    *Selecione a guia Geral*
 
-2. Para habilitar ou desabilitar modelos de email em massa para uma função específica, selecione as reticências (...) no cabeçalho da coluna e habilite todas as funções aplicáveis em **[!UICONTROL Destinatários de Email]**.
+2. Para ativar ou desativar modelos de e-mail em massa para uma função específica, selecione as reticências (...) no cabeçalho da coluna e habilite todas as funções aplicáveis em **[!UICONTROL Destinatários de Email]**.
 
    ![](assets/email-template-role.png)
    _Enviar todos os modelos de email no nível de função_
 
-3. Para habilitar ou desabilitar um modelo de email específico para uma função, selecione as reticências (...) para esse modelo e marque ou desmarque uma função.
+3. Para ativar ou desativar um modelo de email específico para uma função, selecione as reticências (...) para esse modelo, e marque ou desmarque uma função.
 
    ![](assets/email-template-role-1.png)
    _Enviar um Modelo de Email em um nível de função_
@@ -74,9 +84,9 @@ Você como administrador pode facilmente ativar, desativar ou modificar esses mo
 1. Para abrir a página de configurações, clique em **[!UICONTROL Configurações]**. Agora você pode personalizar seus modelos de e-mail.
 1. Para personalizar o nome e a ID de e-mail a partir dos quais os alunos recebem e-mails, edite o **[!UICONTROL Nome e Endereço do Remetente].**
 
-   Contate o [***Suporte do Adobe***](https://helpx.adobe.com/br/contact/enterprise-support.other.html#learning-manager) para configurar ou alterar esses detalhes.
+   Contate o [***Suporte do Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar ou alterar esses detalhes.
 
-1. Personalize seu banner de email com a opção **[!UICONTROL Banner de email]**. Altere a cor do banner selecionando **[!UICONTROL Fundo do banner]**.
+1. Personalize o banner do e-mail na opção **[!UICONTROL Banner do e-mail]**. Altere a cor do banner selecionando **[!UICONTROL Fundo do banner]**.
 
    Você pode usar uma imagem personalizada como banner selecionando a opção **[!UICONTROL Imagem personalizada]**. Clique em **[!UICONTROL Salvar]** depois de fazer as alterações.
 
@@ -163,7 +173,7 @@ Você pode baixar o relatório de acesso ao email clicando no botão **[!UICONTR
 
 ## Personalizar domínio do e-mail {#customizeemaildomain}
 
-Para personalizar o domínio e a ID de e-mail a partir dos quais os alunos recebem notificações, entre em contato com o [***Suporte do Learning Manager***](https://helpx.adobe.com/br/contact/enterprise-support.other.html#learning-manager) e forneça os detalhes do domínio que você deseja adicionar e a nova ID de e-mail.
+Para personalizar o domínio e a ID de e-mail a partir dos quais os alunos recebem notificações, entre em contato com o [***Suporte do Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) e forneça os detalhes do domínio que você deseja adicionar e a nova ID de e-mail.
 
 Sua solicitação será processada e um e-mail com o link de confirmação será enviado a você no novo endereço de e-mail especificado. Clique no link de verificação fornecido no e-mail para confirmar e concluir o processo de verificação.
 
@@ -171,7 +181,7 @@ Sua solicitação será processada e um e-mail com o link de confirmação será
 
 Como administrador, você pode selecionar os usuários que podem e não podem receber e-mails do Learning Manager.
 
-Você pode fazer isso usando a opção **[!UICONTROL Não Incomodar]** na guia **[!UICONTROL Configurações]**. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva.
+Você pode fazer isso usando a opção **[!UICONTROL Não incomodar]** na guia **[!UICONTROL Configurações]**. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva.
 
 Procure um usuário para adicioná-lo à lista.
 
@@ -179,7 +189,7 @@ Procure um usuário para adicioná-lo à lista.
 
 ## E-mails bloqueados {#blockedemails}
 
-Na lista suspensa **Emails bloqueados** de cada usuário, selecione os tipos de email a serem bloqueados para eles.
+Na lista suspensa **E-mails bloqueados** de cada usuário, selecione os tipos de e-mail a serem bloqueados.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
@@ -199,7 +209,7 @@ Se quiser excluir um usuário da lista, você pode usar a opção de exclusão d
 * Bloquear escalonamentos diretos recebidos
 * Bloquear escalonamentos superiores recebidos
 
-Insira true no campo de valor para impedir que os usuários recebam emails para essa opção selecionada. Se falso for inserido como valor, os usuários bloqueados serão desbloqueados. Nenhuma alteração será feita nas seleções anteriores se a coluna for deixada em branco.
+Insira verdadeiro no campo de valor para impedir que os usuários recebam e-mails específicos da opção selecionada. Se falso for inserido como valor, os usuários bloqueados serão desbloqueados. Nenhuma alteração será feita nas seleções anteriores se a coluna for deixada em branco.
 
 ## Flexibilidade na personalização de modelos
 
@@ -218,7 +228,7 @@ Selecione **[!UICONTROL Modelos de Email]** > **[!UICONTROL Configurações]**. 
 Você também pode personalizar o seguinte:
 
 * Banner e assinatura de e-mail no nível do curso e no nível da instância.
-* Edite o rodapé do email. A área do rodapé contém variáveis predefinidas para o URL da conta, a Assinatura e qualquer texto de forma livre que o usuário adicionar.
+* Edite o rodapé do e-mail. A área do rodapé contém variáveis predefinidas para o URL da conta, a Assinatura e qualquer texto de forma livre que o usuário adicionar.
 
 Os modelos também oferecem suporte a recursos avançados de edição, como a formatação, que é mantida quando o conteúdo é copiado e colado do Microsoft Word e para ele.
 
@@ -230,13 +240,13 @@ Os usuários do Learning Manager agora receberão convites embutidos por e-mail.
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
-+++Como desativar a Ajuda em modelos de e-mail?
++++Como desativar a Ajuda nos modelos de e-mail?
 
 No momento, não é possível desativar a **Ajuda** nos modelos de e-mail no Learning Manager.
 
 +++
 
-+++Como modificar modelos de e-mail?
++++Como modificar modelos de email?
 
 1. Como administrador, faça logon na sua conta do Learning Manager.
 1. No painel esquerdo, clique em **[!UICONTROL Modelos de e-mail]** e selecione o modelo de e-mail que deseja modificar.
@@ -260,6 +270,6 @@ Para desativar o modelo de e-mail, selecione o modelo que precisa ser desativado
 
 +++Como alterar o nome e o endereço do remetente no modelo?
 
-Para alterar o nome e o endereço de email do remetente, contate o [suporte da Adobe Learning Manager](https://helpx.adobe.com/br/contact/enterprise-support.other.html#learning-manager).
+Para alterar o nome e o endereço de e-mail do remetente, entre em contato o [Suporte do Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++
