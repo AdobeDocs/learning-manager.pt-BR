@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Modelos de e-mail
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
@@ -35,7 +35,7 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 Você como administrador pode facilmente ativar, desativar ou modificar esses modelos de e-mail.
 
-Os modelos de e-mail mencionados abaixo fazem parte deste grupo de modelos.
+Os modelos de e-mail mencionados abaixo fazem parte deste grupo de modelos:
 
 **Atualização de progresso:** este modelo notifica um aluno de que o status de conclusão e o progresso em um caminho de aprendizado foram recalculados automaticamente devido a uma alteração no perfil ativo ou na configuração do caminho de aprendizado. Ele solicita que o aluno revise quaisquer requisitos recém-pendentes e tome medidas para concluir o caminho de aprendizado.
 
@@ -84,7 +84,7 @@ Os modelos de e-mail mencionados abaixo fazem parte deste grupo de modelos.
 1. Para abrir a página de configurações, clique em **[!UICONTROL Configurações]**. Agora você pode personalizar seus modelos de e-mail.
 1. Para personalizar o nome e a ID de e-mail a partir dos quais os alunos recebem e-mails, edite o **[!UICONTROL Nome e Endereço do Remetente].**
 
-   Contate o [***Suporte do Adobe***](https://helpx.adobe.com/br/contact/enterprise-support.other.html#learning-manager) para configurar ou alterar esses detalhes.
+   Contate o [***Suporte do Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) para configurar ou alterar esses detalhes.
 
 1. Personalize o banner do e-mail na opção **[!UICONTROL Banner do e-mail]**. Altere a cor do banner selecionando **[!UICONTROL Fundo do banner]**.
 
@@ -173,7 +173,7 @@ Você pode baixar o relatório de acesso ao email clicando no botão **[!UICONTR
 
 ## Personalizar domínio do e-mail {#customizeemaildomain}
 
-Para personalizar o domínio e a ID de e-mail a partir dos quais os alunos recebem notificações, entre em contato com o [***Suporte do Learning Manager***](https://helpx.adobe.com/br/contact/enterprise-support.other.html#learning-manager) e forneça os detalhes do domínio que você deseja adicionar e a nova ID de e-mail.
+Para personalizar o domínio e a ID de e-mail a partir dos quais os alunos recebem notificações, entre em contato com o [***Suporte do Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) e forneça os detalhes do domínio que você deseja adicionar e a nova ID de e-mail.
 
 Sua solicitação será processada e um e-mail com o link de confirmação será enviado a você no novo endereço de e-mail especificado. Clique no link de verificação fornecido no e-mail para confirmar e concluir o processo de verificação.
 
@@ -270,6 +270,6 @@ Para desativar o modelo de e-mail, selecione o modelo que precisa ser desativado
 
 +++Como alterar o nome e o endereço do remetente no modelo?
 
-Para alterar o nome e o endereço de e-mail do remetente, entre em contato o [Suporte do Adobe Learning Manager](https://helpx.adobe.com/br/contact/enterprise-support.other.html#learning-manager).
+Para alterar o nome e o endereço de e-mail do remetente, entre em contato o [Suporte do Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++
