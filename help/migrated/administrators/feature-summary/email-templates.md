@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Modelos de e-mail
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
@@ -35,7 +35,7 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 Você como administrador pode facilmente ativar, desativar ou modificar esses modelos de e-mail.
 
-Os modelos de e-mail mencionados abaixo fazem parte deste grupo de modelos.
+Os modelos de e-mail mencionados abaixo fazem parte deste grupo de modelos:
 
 **Atualização de progresso:** este modelo notifica um aluno de que o status de conclusão e o progresso em um caminho de aprendizado foram recalculados automaticamente devido a uma alteração no perfil ativo ou na configuração do caminho de aprendizado. Ele solicita que o aluno revise quaisquer requisitos recém-pendentes e tome medidas para concluir o caminho de aprendizado.
 
