@@ -3,10 +3,10 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+source-git-commit: bb98f6ff998a09682bbd7c50d9bf92469859f0be
 workflow-type: tm+mt
-source-wordcount: '5320'
-ht-degree: 61%
+source-wordcount: '6280'
+ht-degree: 52%
 
 ---
 
@@ -916,3 +916,141 @@ Para obter mais informações sobre esse tópico, consulte o seguinte conteúdo 
 A versão de abril de 2026 do Adobe Learning Manager oferece aprimoramentos direcionados à API pública nas áreas de alternativas e equivalentes, acesso ao conteúdo em janela de tempo, tentativas de questionário orientadas por conteúdo, experiências de aluno não conectado e gerenciamento de ajuda de tarefa. Essas atualizações foram projetadas para permanecerem amplamente compatíveis com versões anteriores, permitindo padrões de integração mais precisos e extensíveis.
 
 Para alterações de API, exiba [alterações de API](/help/migrated/api-changes-alm.md).
+
+## Migração da sessão do VILT para o Adobe Learning Manager {#migrationofviltsessiontoalm}
+
+O Adobe Learning Manager oferece suporte à migração em massa e à atualização de dados de sessão do VILT (Virtual Instructor-Led Training, treinamento virtual ministrado por instrutor) por meio de arquivos CSV. Use esse fluxo de trabalho para configurar datas de início da instância, associar instâncias do caminho de aprendizado a instâncias do curso e configurar sessões de sala de aula virtual para Microsoft Teams, Adobe Connect e Zoom.
+
+>[!NOTE]
+>
+>As IDs de coluna em todos os arquivos CSV de migração agora usam o prefixo alm, por exemplo, `almCourseID` e `almModuleID`. Isso substitui o prefixo principal herdado usado em versões anteriores.
+
+### Migração de sessão VILT baseada em CSV
+
+A migração do Adobe Learning Manager permite que os administradores criem ou atualizem em massa o conteúdo de aprendizado usando arquivos CSV estruturados. Você pode aplicar esses fluxos de trabalho CSV a cursos de migração (conteúdo importado de um sistema externo) e cursos de aprimoramento (conteúdo criado diretamente no aplicativo do autor do ALM).
+
+Quatro arquivos CSV estão envolvidos na migração da sessão VILT:
+
+* **CSV da instância do curso:** cria ou atualiza instâncias do curso, incluindo datas de início
+* O **CSV da Instância LP:** cria ou atualiza instâncias do caminho de aprendizado, incluindo datas de início
+* **LP para CSV de associação de instância de curso:** mapeia uma instância do caminho de aprendizado para uma instância específica do curso
+* **O CSV de sessão:** cria sessões de sala de aula virtual com detalhes do sistema de conferência
+
+Baixe os arquivos acima [aqui](assets/csv-and-xlsx-migration-files.zip).
+
+Todos os quatro arquivos CSV aceitam `almCourseID` para fazer referência a cursos e `almModuleID` para fazer referência a módulos. Essas IDs são os identificadores exclusivos atribuídos pelo ALM quando um curso ou módulo é criado.
+
+### Definir a data de início das instâncias do curso e do caminho de aprendizado
+
+Use o **CSV da Instância do Curso** e o **CSV da Instância LP** para adicionar ou atualizar a data de início em uma instância. Isso se aplica a instâncias criadas por migração e por interface (retrofit).
+
+**CSV da instância do curso: adicionar uma data de início**
+
+1. Abra o arquivo CSV da instância do curso.
+2. Adicione a coluna `startDate` se ela ainda não estiver presente.
+3. Insira a data de início para cada linha de instância no formato AAAA-MM-DD.
+4. Preencha a coluna `almCourseID` com a ID do curso do ALM para o curso que deseja atualizar.
+5. Faça upload do CSV durante a execução da migração.
+
+**CSV de Instância LP: adicione uma data de início**
+
+1. Abra o arquivo CSV da instância LP.
+2. Adicione a coluna `startDate` se ela ainda não estiver presente.
+3. Insira a data de início para cada linha de instância no formato AAAA-MM-DD.
+4. Popular a coluna `almLearningProgramID` com a ID do caminho de aprendizado do ALM.
+5. Faça upload do CSV durante a execução da migração no.
+
+>[!NOTE]
+>
+>A coluna `startDate` é opcional. Se você incluí-lo, o valor deve ser anterior a `completionDate`. As linhas em que `startDate` for posterior a `completionDate` apresentarão erros e aparecerão na migração.
+
+### Associar instâncias do caminho de aprendizado a instâncias do curso
+
+Use o LP para o CSV da associação de instância de curso para vincular uma instância do caminho de aprendizado a uma instância específica do curso. Essa etapa é necessária para cursos VILT que fazem parte de um caminho de aprendizado.
+
+1. Abra o LP no arquivo CSV da Course Instance Association.
+2. Para cada linha, preencha as seguintes colunas:
+a. `almLearningProgramID` — a ID do caminho de aprendizado do ALM
+b. `almLearningProgramInstanceID` — a ID da instância do caminho de aprendizado do ALM
+c. `almCourseID` — a ID do curso ALM
+d. `almCourseInstanceID` — a ID da instância do curso ALM
+3. Faça upload do CSV durante a execução da migração.
+
+### Cenários de associação com suporte
+
+Nem todas as combinações de origens de migração e retrofit são suportadas. Revise a tabela abaixo antes de criar seu CSV.
+
+| Origem do caminho de aprendizado | Origem da instância do curso | Compatível |
+|-----------------------------|-------------------------------|-----------|
+| Migração | Migração | Sim |
+| Retrofit (criado por interface do usuário) | Retrofit (criado por interface do usuário) | Sim |
+| Migração | Retrofit (criado por interface do usuário) | Não |
+| Retrofit (criado por interface do usuário) | Migração | Não |
+
+>[!NOTE]
+>
+>Se precisar associar uma instância do caminho de aprendizado de aprimoramento a uma instância do curso de migração (ou vice-versa), adicione o curso ao caminho de aprendizado diretamente pelo aplicativo do autor do ALM em vez de usar este CSV.
+
+### Configurar detalhes da sessão da sala de aula virtual
+
+Use o **CSV de sessão** para criar ou atualizar sessões VILT com detalhes de conferência de sala de aula virtual. Quatro colunas foram adicionadas ao CSV da sessão para oferecer suporte a isso:
+
+| Coluna | Descrição |
+|--------------|-------------------------------------------------------|
+| `almCourseID ` | ID do ALM do curso |
+| `almModuleID` | ID do ALM do módulo |
+| `metadata` | Objeto JSON contendo configuração específica do sistema VC |
+| `meetingID` | ID de reunião do sistema de aula virtual externo |
+
+### Formato de metadados por sistema de conferência
+
+O campo `metadata` aceita um objeto JSON. A estrutura varia de acordo com o sistema de conferência. Todos os nomes de chave fazem distinção entre maiúsculas e minúsculas e devem usar camelCase **exatamente como mostrado.**
+
+**Microsoft Teams**
+
+```
+{
+  "organizerEmail": "user@example.com",
+  "coOrganizerEmail": "user2@example.com",
+  "lobbyBypass": true,
+  "isCompletionCriteria": false
+}
+```
+
+Todos os campos de metadados do Teams são opcionais. Se você não fornecer `organizerEmail`, o ALM usará o email do administrador de equipes configurado na sua conta do ALM como o organizador padrão.
+
+**Adobe Connect**
+
+```
+{
+  "primaryInstructor": "instructor@example.com",
+  "persistentRoom": true,
+  "templateID": "template-id-value"
+}
+```
+
+O campo `primaryInstructor` é **obrigatório** para sessões do Adobe Connect. Todos os outros campos são opcionais. Você pode fornecer `persistentRoom` ou `templateID`. Se você fornecer `templateID`, o ALM criará a sala usando esse modelo.
+
+**Zoom**
+
+O zoom não requer um objeto JSON de metadados. Transmita o professor da sessão usando a coluna do professor padrão no CSV da sessão.
+
+### Fazer upload do CSV da sessão
+
+1. Abra o arquivo CSV da sessão.
+2. Adicione as quatro novas colunas: almCourseID, almModuleID, metadados e meetingID.
+3. Para cada linha de sessão, preencha almCourseID e almModuleID com as IDs do ALM do curso e do módulo.
+4. Adicione a meetingID do seu sistema de sala de aula virtual (Teams, Adobe Connect ou Zoom).
+5. Crie o objeto JSON de metadados usando o formato do seu sistema de conferência.
+6. Certifique-se de que todos os nomes de chave JSON usem a grafia exata de camelCase. O uso incorreto de maiúsculas e minúsculas causa falha na linha.
+7. Faça upload do CSV durante a execução da migração.
+
+Solução de problemas comuns de migração
+
+| Problema | Solução |
+|-------|----------|
+| Erros de linha com “O prazo de conclusão deve ser maior que a data de início” | Verifique se `startDate` é anterior a `completionDate` no CSV da instância. |
+| Falha na associação da LP à instância do curso | Confirme se o caminho de aprendizado e a instância do curso foram criados pela mesma origem (migração ou aprimoramento). Fontes mistas não são suportadas. |
+| A linha da sessão falha com erro de metadados | Verifique se todos os nomes de chave JSON no campo `metadata` usam camelCase exato. As chaves diferenciam maiúsculas de minúsculas. |
+| Equipes `isCompletionCriteria` não têm efeito | O sinalizador de recurso de critérios de conclusão para equipes deve ser habilitado pelo administrador da conta do ALM antes que os valores da migração entrem em vigor. |
+| Linha de sessão criada, mas o campo de professor está vazio | Se o email do professor fornecido não corresponder a um usuário no ALM, a sessão é criada com um campo de professor vazio. Verifique se o email do professor existe no ALM antes de fazer upload. |
