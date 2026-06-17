@@ -27,7 +27,7 @@ Esse relatório ajuda os gerentes de treinamento e os administradores de pesquis
 8. Escolha **Inscrição - Data de Inscrição** e defina a granularidade como **Mês**. Escolha **Grupo de Usuários do Campo Ativo - Nome do Grupo de Usuários**. Ambos aparecem como marcas: **Registro - Data de Registro (Mês)** e **Grupo de Usuários do Campo Ativo - Nome do Grupo de Usuários**.
 9. Na linha **Inscrição - Tempo gasto**, selecione **Agregar por** e escolha **Soma**.
 10. Na linha **Objeto de Aprendizado - Contagem de Usuários de Registro**, selecione **Agregar por** e escolha **Contagem**.
-   ![](assets/image038.jpg)
+    ![](assets/image038.jpg)
 11. Selecione **Adicionar filtro**. Escolha **Inscrição - Data de Inscrição** e selecione um intervalo relativo, como **Últimos 3 meses**, ou insira um intervalo de datas específico.
 12. Selecione **+ Adicionar classificação**. Classifique por **Registro - Data de Registro** em ordem crescente e adicione uma classificação secundária em **Tempo total gasto** em ordem decrescente.
 13. Selecione **Salvar Relatório** e selecione **Ações** > **Baixar** para baixar o relatório.

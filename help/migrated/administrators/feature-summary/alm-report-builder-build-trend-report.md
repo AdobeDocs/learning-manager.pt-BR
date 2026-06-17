@@ -58,7 +58,7 @@ Esse relatório mostra os totais de conclusão mensal por catálogo durante um p
 9. Adicione um filtro: **A Data de Conclusão** está no ano passado.
    ![](assets/image044.png)
 10. Classificar por **Data de conclusão** em ordem crescente.
-   ![](assets/image_045.png)
+    ![](assets/image_045.png)
 11. Selecione **Salvar Relatório** e selecione **Ações** > **Baixar** para baixar o relatório.
 
 ## Práticas recomendadas

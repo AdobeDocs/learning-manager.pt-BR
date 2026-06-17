@@ -32,7 +32,7 @@ b. Nome do usuário\gerente
 c. Objeto de aprendizado\Nome do objeto de aprendizado
 d. Status de Conformidade do Usuário\% de Conclusão
 e. Status de Conformidade do Usuário\Conformidade %
-!   [](assets/image012.png)
+!   [&#128279;](assets/image012.png)
 7. Reordene as colunas arrastando-as na tela.
 8. Para renomear uma coluna, digite um nome no campo alias da coluna. O alias aparece como o cabeçalho da coluna no arquivo baixado.
 9. Selecione **Salvar Relatório**.

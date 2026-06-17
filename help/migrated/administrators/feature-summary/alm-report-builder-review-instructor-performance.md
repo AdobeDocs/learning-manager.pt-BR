@@ -28,9 +28,9 @@ Esse relatório ajuda os gerentes de treinamento a identificar quais professores
 9. Para mostrar também o total de inscrições, adicione **Status** uma segunda vez. Aplicar **Contagem se** a **Não iniciado**. Digite o alias _Total de inscrições_.
    ![](assets/image035.png)
 10. Filtrar **Nomes de Professores** para não ficar vazio.
-   ![](assets/image036.jpg)
+    ![](assets/image036.jpg)
 11. Classifique por **Total de conclusões** descendentes para destacar primeiro os professores com melhor desempenho.
-   ![](assets/image037.png)
+    ![](assets/image037.png)
 12. Selecione Salvar Relatório e selecione **Ações** > **Baixar** para baixar o relatório.
 
 O relatório baixado resume a eficiência do professor comparando o total de sessões de treinamento, a conclusão do aluno e as inscrições não iniciadas para cada professor, ajudando a avaliar o envolvimento, o desempenho da conclusão e as possíveis necessidades de acompanhamento do treinamento.
