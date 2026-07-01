@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
 source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3443'
-ht-degree: 68%
+source-wordcount: '3455'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,11 @@ Aprendizado social é uma plataforma do Learning Manager que incentiva os usuár
 
 A simples participação em um treinamento, não garante que os usuários conseguirão reter tudo o que foi ensinado. Por outro lado, o aprendizado social permite que os usuários usem a experiência ao seu redor para obter exatamente as informações de que precisam. Por sua vez, os usuários podem aplicar rapidamente essas informações para concluir uma tarefa e atingir uma meta.
 
-Da mesma forma, o recurso Aprendizado social do Learning Manager permite que os usuários sejam capazes de interagir entre si compartilhando e aprendendo com o conteúdo.
+Da mesma forma, o recurso Aprendizado social do Learning Manager permite que os usuários sejam capazes de interagir entre eles compartilhando e aprendendo com o conteúdo.
 
-Nesta plataforma, os tipos de conteúdo que podem ser compartilhados são vídeo, áudio, capturas de tela, texto, perguntas e enquetes. Os usuários também podem compartilhar aprendizados online com colegas usando o **bookmarklet Compartilhar no Social**. Para obter mais informações, consulte [Compartilhar no Aprendizado Social](share-to-social.md).
+Nesta plataforma, os tipos de conteúdo que podem ser compartilhados são vídeo, áudio, capturas de tela, texto, perguntas e enquetes. Os usuários também podem compartilhar aprendizados on-line com os colegas usando o **bookmarklet Compartilhar no social**. Para obter mais informações, consulte [Compartilhar no Aprendizado Social](share-to-social.md).
 
-O conteúdo também pode ser publicado em um painel com a ajuda do **aplicativo de desktop da Adobe Learning Manager**. Para obter mais informações, consulte [aplicativo de desktop da Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
+O conteúdo também pode ser publicado em um painel com a ajuda do **aplicativo de desktop Adobe Learning Manager**. Para obter mais informações, consulte [aplicativo de desktop da Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
 O recurso fica visível a um aluno somente se o administrador ativar o recurso Aprendizado social.
 
@@ -35,7 +35,7 @@ O recurso fica visível a um aluno somente se o administrador ativar o recurso A
  <tbody>
   <tr>
    <td>
-    <p><b>Letra Nº</b></p></td>
+    <p><b>Letra Não.</b></p></td>
    <td>
     <p><b>Terminologia ou conceito</b></p></td>
    <td>
@@ -137,11 +137,11 @@ O conteúdo é criado como uma publicação em um painel. Para criar uma publica
 
 1. Selecione qualquer um dos seguintes tipos de conteúdo para ser publicado: texto, pergunta, vídeo, áudio, enquete e captura de tela. O conteúdo existente pode ser carregado do sistema dos usuários ou da galeria do aplicativo de desktop Adobe Learning Manager.
 
-   Use o aplicativo de desktop Adobe Learning Manager para gravar um vídeo ou uma tela, áudio e fazer uma captura de tela. Para obter mais informações, consulte o [aplicativo de desktop da Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
+   Use o aplicativo de desktop Adobe Learning Manager para gravar um vídeo ou uma tela, áudio e fazer uma captura de tela. Para mais informações, consulte [aplicativo de desktop Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
-1. Procure um painel ou habilidade que esteja relacionado à publicação. Se o painel não existir, clique em **[!UICONTROL Criar um Novo Painel]**.
+1. Procure um painel ou habilidade que esteja relacionado à publicação. Se o painel não existir, clique em **[!UICONTROL Criar um novo painel]**.
 
    ![](assets/create-a-new-board-04.png)
 
@@ -153,7 +153,7 @@ O conteúdo é criado como uma publicação em um painel. Para criar uma publica
 
    * **Público** - A participação e a visibilidade das publicações estão disponíveis para todos os usuários.
    * **Particular** - A publicação só é visível para o criador do painel, moderadores e usuários adicionados ao painel.
-   * **Restrito** - Somente o proprietário do painel, o administrador e os moderadores do painel podem criar uma postagem. Outros usuários podem participar comentando/respondendo, aumentando/reduzindo o voto e assim por diante.
+   * **Restrito** - Somente o proprietário do painel, o administrador e os moderadores do painel podem criar uma postagem. Outros usuários podem participar comentando/respondendo, aprovando/desaprovando, e assim por diante.
 
    <!--![](assets/new-board-05.png)-->
 
@@ -161,7 +161,7 @@ O conteúdo é criado como uma publicação em um painel. Para criar uma publica
    >
    >No aplicativo Social Learner, somente um **Administrador** pode criar um quadro privado com grupos de usuários (interno/externo).
    >
-   >Qualquer outro usuário, exceto o administrador, autor, aluno, gerente, instrutor etc. **não é possível** criar quadros privados com grupos de usuários. Eles não podem ver a seção de **grupos de usuários** durante a criação do quadro privado.
+   >Qualquer outro usuário, exceto o administrador, autor, aluno, gerente, professor etc. **não pode** criar quadros privados com grupos de usuários. Eles não podem ver a seção de **grupos de usuários** durante a criação do quadro privado.
 
    Somente administrador- Ao escolher **Privado**, você vê duas opções- **Usuários** e **Grupos de usuários** Escolha a opção **Grupos de usuários** e adicione os grupos de usuários com quem você deseja compartilhar o quadro privado.
 
@@ -245,8 +245,7 @@ Os alunos com acesso ao Conselho social podem marcar outros usuários em publica
 
 ### Marcar usuários em publicações no Conselho social
 
-É possível marcar membros específicos do painel em publicações ou comentários usando @username. A marcação é limitada aos membros com acesso a esse painel.
-Para marcar usuários em um painel social:
+É possível marcar membros específicos do painel em publicações ou comentários usando @username. A marcação é limitada aos membros com acesso a esse painel.Para marcar usuários em um painel social:
 
 1. Faça logon no Adobe Learning Manager como aluno.
 2. Selecione **[!UICONTROL Aprendizado Social]** no painel de navegação esquerdo.
@@ -322,9 +321,9 @@ Os alunos podem baixar o conteúdo, com anexos, da plataforma de aprendizado soc
 
 Você pode baixar o conteúdo das seções Postagens ou Comentários ou Respostas. Você pode baixar apenas um arquivo por vez.
 
-Os dois tipos de usuários (interno ou externo) devem ser capazes de baixar o conteúdo.
+Os dois tipos de usuários (Interno ou Externo) devem ser capazes de baixar o conteúdo.
 
-O botão Baixar também pode ser visto nos resultados de pesquisa de publicações, comentários ou respostas.
+O botão Baixar também pode ser visto nos resultados da pesquisa para postagens, comentários ou respostas.
 
 Você ainda não pode baixar uma postagem no aplicativo do dispositivo. Este recurso estará disponível em breve.
 
@@ -387,7 +386,7 @@ Somente alguns usuários têm permissão para realizar tarefas específicas. Os 
  <tbody>
   <tr>
    <td>
-    <p><b>Letra Nº</b></p></td>
+    <p><b>Letra Não.</b></p></td>
    <td>
     <p><b>Ação</b></p></td>
    <td>
@@ -443,7 +442,7 @@ A história social permite que os usuários adicionem ou criem histórias com as
 
 Para adicionar uma publicação à uma história, siga as etapas abaixo:
 
-1. Clique no ícone do menu recolhido no canto superior direito de uma publicação e clique em **[!UICONTROL Adicionar à minha história]**.
+1. Clique no ícone contraído no menu do canto superior direito de uma publicação e clique em **[!UICONTROL Adicionar à minha história]**.
 
    ![](assets/add-to-my-story-05.png)
 
@@ -560,7 +559,7 @@ Em ambas as opções, Meus painéis e Todos os painéis, os usuários podem clas
 
 *Classificar quadros por relevância e data*
 
-Ao criar uma publicação, se não houver painéis relevantes para a publicação, clique em [Criar um novo painel](social-learning-web-user.md#Creatingcontentasapost).  Para exibir, editar, excluir, relatar, copiar o URL e adicionar um painel à sua lista de painéis favoritos, siga as etapas abaixo:
+Ao criar uma publicação, se não houver nenhum painel relevante à publicação, clique em [Criar um novo painel](social-learning-web-user.md#Creatingcontentasapost).  Para exibir, editar, excluir, denunciar, copiar URL e adicionar um painel à lista de painéis favoritos, siga as etapas abaixo:
 
 1. Clique no nome do painel ou clique em **[!UICONTROL Ir para painel]**.
 1. Na página de painéis, clique no ícone contraído no menu e selecione uma opção na lista suspensa.
