@@ -5,8 +5,8 @@ description: Saiba como integrar o Adobe Learning Manager ao Adobe Experience Ma
 contentowner: saghosh
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 44%
+source-wordcount: '1058'
+ht-degree: 74%
 
 ---
 
@@ -78,7 +78,7 @@ Para a configuração do widget, o autor do AEM requer apenas o token de atualiz
 
 Você também pode definir várias configurações de conta em várias páginas.
 
-1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuração do Widget do Captivate Learning Manager]**.
+1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Configuração do Widget do Captivate Learning Manager]**.
 1. Clique em **[!UICONTROL Criar]**.
 1. Digite o token de atualização aqui. Configure as outras configurações.
 1. O nome do host deve ser alterado para “learningmanagereu” para as regiões da UE.
@@ -118,7 +118,7 @@ Se não houver recomendações, o widget aparecerá em branco.
 
 ## Suporte para Skyline
 
-Skyline é a versão em nuvem do AEM. Você deve primeiro instalar o Skyline a partir do gerenciador de pacotes. Para usar o componente do Skyline no AEM, um usuário deve estar presente na conta do Learning Manager. Em outras palavras, o endereço de email do usuário deve existir na conta.
+O Skyline é a versão em nuvem do AEM. Você deve primeiro instalar o Skyline a partir do gerenciador de pacotes. Para usar o componente do Skyline no AEM, um usuário deve estar presente na conta do Learning Manager. Em outras palavras, o endereço de email do usuário deve existir na conta.
 
 ## Implantar o Skyline
 
@@ -126,7 +126,7 @@ As etapas para configurar o Skyline estão descritas no [repositório do GitHub]
 
 ## Widget Catálogo
 
-O widget Catálogo exibe o treinamento de um catálogo específico ou de um conjunto de catálogos para um usuário. Na seção Propriedades nas propriedades da página, selecione Catálogo nas opções listadas.
+O widget Catálogo exibe o treinamento de um catálago específico ou um conjunto de catálogos para um usuário. Na seção Propriedades nas propriedades da página, selecione Catálogo nas opções listadas.
 
 ![](assets/catalog-widget.png)
 
@@ -146,9 +146,9 @@ No AEM, o título de um cartão em uma tira estará vazio inicialmente. Em Propr
 
 **Personalização**
 
-Você pode personalizar a aparência do layout usando widgets.html. Você pode alterar a aparência dos cartões que aparecem e personalizar o tema.
+Você pode configurar a aparência do layout usando widgets.html. Você pode alterar a aparência dos cartões que aparecem e personalizar o tema.
 
-Na seção **[!UICONTROL Configurações Gerais]**, você pode escolher as cores primárias e secundárias para os cartões e especificar as propriedades para personalizar o tema.
+No seção **[!UICONTROL Configurações gerais]**, você pode escolher as cores primárias ou secundárias para os cartões e especificar as propriedades para personalizar o tema.
 
 ```
 \{ 
@@ -173,7 +173,7 @@ Na seção **[!UICONTROL Configurações Gerais]**, você pode escolher as cores
 
 ### Ignorar inscrição do OA de ordem superior
 
-Se a caixa de seleção **[!UICONTROL Ignorar inscrição do OA de ordem superior]** estiver habilitada e um usuário estiver inscrito diretamente em um programa de aprendizado ou certificação, os cursos para essa certificação ou programa de aprendizado aparecerão para o usuário nos widgets.
+Se a caixa de seleção **[!UICONTROL Ignorar inscrição do OA de ordem superior]** estiver ativada e um usuário estiver inscrito diretamente em um programa de aprendizado ou certificação, os cursos para essa certificação ou programa de aprendizado aparecerão para o usuário nos widgets.
 
 Se a caixa de seleção estiver desativada, os cursos presentes no Programa de aprendizado ou na Certificação, nos quais o usuário não se inscreveu diretamente, não aparecerão.
 

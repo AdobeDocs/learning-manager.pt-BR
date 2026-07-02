@@ -6,7 +6,7 @@ contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
 source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2451'
+source-wordcount: '2511'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Os administradores podem adicionar manualmente um usuário fornecendo seu nome, 
 
 >[!INFO]
 >
->Assista a este treinamento do ALM Academy para saber mais sobre como adicionar usuários únicos no Adobe Learning Manager.<br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
+>Assista a este treinamento do ALM Academy para saber mais sobre como adicionar usuários únicos ao Adobe Learning Manager.<br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
 
 Para adicionar um único usuário ao Adobe Learning Manager:
 
@@ -57,8 +57,7 @@ Para adicionar um único usuário ao Adobe Learning Manager:
    ![](assets/add-a-user-prompt.png)
    _Campos para inserir nome, email, identificador exclusivo e perfil para um novo usuário_
 5. Procure o gerente do usuário e selecione o nome na lista de gerentes.
-6. Selecione **Adicionar**.
-O usuário recebe um e-mail de boas-vindas contendo um URL de logon para acesso.
+6. Selecione **Adicionar**.O usuário recebe um e-mail de boas-vindas contendo um URL de logon para acesso.
 
 
 ### Permitir autorregistro para usuários internos
@@ -189,7 +188,7 @@ Para baixar o relatório de usuário:
 O relatório inclui as seguintes informações:
 
 * Nome
-* Email
+* E-mail
 * Status
 * Data de adição (fuso horário central da Europa)
 * Data de exclusão (fuso horário central da Europa)
@@ -270,7 +269,7 @@ Existem algumas diferenças entre registros internos e externos:
 | Usuários internos | Usuários externos |
 |---|---|
 | É possível fazer logon usando as credenciais do Adobe ID ou SSO. | É possível fazer logon usando qualquer ID de email. |
-| A gamificação está disponível. | Gamificação disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/gamification). |
+| A gamificação está disponível. | A gamificação está disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 
@@ -340,7 +339,7 @@ Os administradores podem editar detalhes do usuário, excluir usuários, atribui
 
 >[!INFO]
 >
->Assista a este treinamento do ALM Academy para saber como atribuir e remover funções, enviar um email de boas-vindas e excluir e remover usuários.<br>[![botão]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
+>Assista a este treinamento do Instituto ALM para saber como atribuir e remover funções, enviar um email de boas-vindas e excluir e limpar usuários.<br>[![botão]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
 
 ### Editar um usuário
 

@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 57%
+source-wordcount: '627'
+ht-degree: 71%
 
 ---
 
@@ -36,7 +36,7 @@ Saiba como instalar e configurar o aplicativo Learning Manager para Salesforce s
 
 1. Para instalar o aplicativo Learning Manager na sua conta do Salesforce, use o pacote instalável fornecido pelo seu gerente de contas ou gerente de sucesso do cliente. Você precisa ter privilégios de administrador para a conta do Salesforce onde pretende instalar este aplicativo.
 
-1. Escolha a opção apropriada para você conforme mostrado no instantâneo e clique em **[!UICONTROL Instalar]**.
+1. Escolha a opção apropriada para você conforme mostrado na imagem e clique em **[!UICONTROL Instalar]**.
 
    ![](assets/install-options.png)
 
@@ -54,7 +54,7 @@ A equipe do Learning Manager recomenda que o administrador do Salesforce também
 
 Para adicionar o componente de notificações do Learning Manager ao layout da Página inicial, siga as etapas:
 
-1. Clique em **[!UICONTROL Configurar]** no canto superior direito. A opção de layouts da página inicial é exibida no painel esquerdo, conforme mostrado na captura de tela abaixo.
+1. Clique em **[!UICONTROL Configurar]** no canto superior direito. A opção de layouts da página inicial é exibida no painel esquerdo, conforme mostrado na imagem abaixo.
 
    ![](assets/homepage-component.png)
 
