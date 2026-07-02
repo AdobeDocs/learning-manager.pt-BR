@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
 source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3307'
-ht-degree: 59%
+source-wordcount: '3331'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ O autor cria cursos. Os alunos podem realizar os cursos e os administradores pod
 
 ## Visão geral {#overview}
 
-O Adobe Learning Manager permite que os alunos acessem os cursos, programas de aprendizado e certificações. Os alunos podem navegar por todos os cursos usando o catálogo ou podem se inscrever nos cursos de sua escolha. Os alunos podem exibir todos os cursos inscritos e os cursos atribuídos a eles na guia Aprendizado.
+O Adobe Learning Manager permite que os alunos acessem os cursos, programas de aprendizado e certificações. Os alunos podem navegar por todos os cursos usando o catálogo ou podem se inscrever nos cursos de sua escolha. Os alunos podem ver todos os cursos inscritos e os cursos atribuídos a eles na guia Aprendizado.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ O Adobe Learning Manager permite que os alunos acessem os cursos, programas de a
 
 ## Exibição de objetos de aprendizado {#viewingcourses}
 
-Como aluno, você pode exibir uma lista de todos os cursos disponíveis. Clique em Meu aprendizado na página Inicial ou no painel esquerdo para exibir todos os cursos nos quais você se inscreveu.
+Como aluno, você pode exibir uma lista de todos os cursos disponíveis. Clique em Meu aprendizado na página inicial ou, no painel esquerdo, visualize todos os cursos nos quais se inscreveu.
 
 ![](assets/view-courses.png)
 *Exibir cursos atribuídos*
@@ -67,10 +67,10 @@ Clique na seta para baixo no canto inferior direito da janela pop-up para ver co
 
 O Adobe Learning Manager permite encontrar de forma mais fácil os cursos da sua escolha rapidamente. Você pode pesquisar seus cursos das seguintes maneiras:
 
-1. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso/programa de aprendizado ou qualquer palavra-chave associada aos seus cursos. Você pode pesquisar cursos por metadados, notas, habilidades, medalhas ou tags. As marcas podem ser pesquisadas dentro do campo de pesquisa, o que significa que são exibidas no campo de pesquisa à medida que você digita.
+1. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso/programa de aprendizado ou as palavras-chave associadas aos seus cursos. Você pode procurar cursos por metadados, por notas, por habilidades, por símbolos ou marcas. As marcas podem ser pesquisadas dentro do campo de pesquisa, o que significa que são exibidas no campo de pesquisa à medida que você digita.
 1. O aluno pode refinar os resultados da pesquisa na página do catálogo filtrando por tipo, habilidades, etiquetas e status.
 
-Você pode classificar os cursos por relevância, nome ou data de publicação clicando em Classificar por e escolhendo no menu suspenso.
+Você pode classificar os cursos por relevância, nome ou data de publicação clicando em Ordenar por e escolhendo a opção no menu suspenso.
 
 Na página de resultados da pesquisa, você pode filtrar os cursos de acordo com a **duração** dos cursos e o **formato** dos cursos. Isso proporciona maior flexibilidade na pesquisa de cursos e garante que você encontre os cursos adequados.
 
@@ -83,16 +83,16 @@ Os alunos são inscritos nos cursos das três formas possíveis:
 1. Os alunos podem se inscrever diretamente em um curso/programa de aprendizado:
 
    1. Se o curso/programa de aprendizado for do tipo que o próprio aluno se inscreve, ele é inscrito imediatamente.
-   1. Se o curso/programa de aprendizado for do tipo aprovado pelo gerente, o aluno passará para o estado **aprovação pendente**. Após a aprovação do gerente, o aluno é inscrito no curso.
+   1. Se o curso/programa de aprendizado for do tipo que precisa da aprovação do gerente, então, o aluno é passado para o estado **Aprovação pendente**. Após a aprovação do gerente, o aluno é inscrito no curso.
    1. Se os alunos se inscreverem em um curso com lista de espera (no caso da sala de aula), então, eles terão de aguardar até que alguém saia do curso ou até que o administrador os aprove para o curso.
 
 Os alunos podem se inscrever em uma ampla lista de cursos com base em suas escolhas. A guia Cursos exibe todos os cursos inscritos/atribuídos.
 
-No entanto, você tem a opção de percorrer qualquer um dos cursos listados no catálogo movendo o mouse sobre ele e clicando em Explorar. A página Inscrever é exibida. Clique em Inscrever-se no canto superior direito da página para incluir o curso na lista de cursos.
+No entanto, você tem uma opção de analisar os cursos listados no catálogo colocando o mouse sobre o curso e clicando em Explorar. A página de inscrição é exibida. Clique em Inscrever-se no canto superior direito da página para incluir o curso na lista de cursos.
 
 Pode haver várias fases/sessões de um curso/programa de aprendizado. No catálogo, clique no nome do curso/programa de aprendizado dentro do quadro para visualizar os detalhes. É possível ver a inscrição na fase do curso/programa de aprendizado com base na data do prazo de conclusão de cada fase do curso/programa de aprendizado.
 
-**Registrar interesse nos cursos** 
+**Registrar interesse nos cursos**
 
 Você pode se registrar para indicar interesse em qualquer curso de sala de aula sem sessões planejadas. Você recebe uma notificação sempre que a sessão do curso começar para participar do curso.
 
@@ -124,10 +124,10 @@ Um administrador pode alternar instâncias para os alunos. Selecione um curso no
 ![texto alternativo](assets/switch-instance-admin.png)
 _Alternar instância do Admin Console_
 
-![selecionar instâncias de comutação](assets/switch-instances-select.png)
+![alternar instâncias para selecionar](assets/switch-instances-select.png)
 _Prompt de alternar instância_
 
-Não é possível alternar instâncias até que qualquer instância do curso seja concluída no aplicativo do aluno ou do administrador.
+Não é possível alternar instâncias até que qualquer instância do curso seja concluída do aplicativo do aluno ou do administrador.
 
 Os autores, ao criar um curso, podem alternar entre ativar ou desativar a “Opção de instância”. A Alternância de instância está disponível apenas para cursos gratuitos.
 
@@ -135,7 +135,7 @@ Os autores, ao criar um curso, podem alternar entre ativar ou desativar a “Op�
 
 Como aluno, você terá permissão para classificar um curso somente após a inscrição. Você pode ver a média de classificações por estrelas de qualquer curso na página **Início**, **Meu aprendizado** e **Catálogo**.
 
-1. Faça logon como **Aluno**. Isso carrega a **Página Inicial**.
+1. Faça o logon como **aluno**. Isso carrega a **Página Inicial**.
 
 1. Pesquise um curso inserindo o nome do curso na barra de pesquisa. Como alternativa, você pode escolher na lista de cursos exibida clicando em **Meu aprendizado** ou **Catálogo** no painel esquerdo.
 
@@ -144,7 +144,7 @@ Como aluno, você terá permissão para classificar um curso somente após a ins
    ![](assets/cp-sr-enroll.png)
    *Inscrever-se em um curso*
 
-1. Selecione o número de estrelas para classificar um curso adequadamente, sendo 1 para péssimo e 5 para excelente. Depois, clique em **[!UICONTROL Enviar]**.
+1. Selecione o número de estrelas para classificar um curso adequadamente, sendo 1 para péssimo e 5 para excelente. Em seguida, clique em **[!UICONTROL Enviar]**.
 
    ![](assets/cp-sr-srsubmitt.png)
    *Enviar classificação do curso*
@@ -187,9 +187,9 @@ Você pode ver todos os módulos do curso na janela do navegador.
 * Clique em Rever enquanto o curso ainda estiver no estado concluído.
 * Clique em Continuar enquanto o curso ainda estiver no estado concluído.
 
-**Tela inteira** Clique no ícone Tela inteira no canto inferior direito do reprodutor para exibir o curso na janela de tela inteira.
+**Tela inteira** – Clique no ícone de tela inteira no canto inferior direito do reprodutor para ver o curso na janela de tela inteira.
 
-**Botões de navegação** Você pode clicar nas setas para cima/para baixo para mover pelos slides em conteúdo pdf, docx e pptx. As setas do slide podem ser usadas para ir para os tópicos seguintes de todos os tipos de conteúdo.
+**Botões de navegação** – Você pode clicar nas setas para cima/para baixo para mover-se através dos slides no conteúdo do pdf, do docx e do pptx. As setas do slide podem ser usadas para ir para os tópicos seguintes de todos os tipos de conteúdo.
 
 **Fechar o curso** – Clique no ícone de fechamento (x) no canto superior direito do reprodutor para sair o curso.
 
@@ -237,7 +237,7 @@ Como Aluno, você pode expressar interesse por um catálogo inteiro ou qualquer 
 
 Depois de expressar o seu interesse por um curso/treinamento, o interesse é registrado e o administrador pode, então, obter o registro.
 
-No aplicativo do aluno, todos os administradores têm acesso ao Marketplace de conteúdo. Se o acesso for revogado pelo administrador, os alunos não poderão ver a guia Marketplace de conteúdo.
+No aplicativo do aluno, todos os administradores têm acesso ao Marketplace de conteúdo. Se o acesso for revogado pelo administrador, os alunos não poderão ver a guia Marketplace de Conteúdo.
 
 Os alunos convidados pelo administrador podem explorar o Marketplace de Conteúdo.
 
@@ -256,7 +256,7 @@ Você pode explorar e visualizar o curso e ver se ele atende às suas necessidad
 
 ## Hub de Conteúdo
 
-O Hub de Conteúdo permite que os administradores e especialistas de domínio (SMEs) selecionem listas de reprodução obrigatórias no aplicativo do aluno. Depois de listar, os administradores podem baixar o formulário de solicitação de compra e compartilhá-lo com o agente de vendas do Adobe.
+O Hub de Conteúdo permite que os administradores e especialistas de domínio (SMEs) selecionem listas de reprodução obrigatórias no aplicativo do aluno. Depois de listar, os administradores podem baixar o formulário de solicitação de compra e compartilhá-lo com o agente de vendas da Adobe.
 
 Um administrador pode convidar SMEs para selecionar a lista de reprodução na qual estão interessados.
 
@@ -277,7 +277,7 @@ Para alterar a instância do curso, siga estas etapas:
    ![](assets/learning-program200s.jpg)
    *Selecione um programa de aprendizado*
 
-1. Use os botões de opção para escolher se deseja exibir todos os cursos ou cursos com instâncias não selecionadas. Observe que, se o aluno concluiu a instância, ele não poderá alternar para outra instância.
+1. Use os botões de opção para escolher se deseja visualizar todos os cursos ou os cursos com instâncias não selecionadas. Observe que se o aluno concluiu a instância, ele não pode passar para outra instância.
 
    ![](assets/radio-buttons.jpg)
    *Exibir todos os cursos ou cursos com instâncias não selecionadas*
@@ -289,7 +289,7 @@ Para alterar a instância do curso, siga estas etapas:
 
 1. Para aplicar a instância selecionada, clique em **[!UICONTROL Atualizar inscrição]**. A opção Atualizar inscrição está disponível na parte superior direita da página.
 
-   A instância recém-selecionada está inscrita. Se um aluno estiver inscrito em uma instância do curso que faz parte de outro OA e atualizar a instância do curso que faz parte do Programa de aprendizado flexível, ele será automaticamente cancelado da inscrição nos outros Objetos de aprendizado após um aviso.
+   A instância recentemente selecionada é inscrita. Se um aluno estiver inscrito em uma instância do curso que faz uma parte de outro objeto de aprendizado e atualizar a instância do curso que faz parte do programa de aprendizado flexível, ele será automaticamente removido dos outros objetos de aprendizado após um aviso.
 
 ## Gerenciamento de progresso com base na linguagem
 
@@ -321,7 +321,7 @@ Depois de concluir um tutorial com o número necessário de módulos, se desejar
 
 Como aluno, você poderá interagir com outros alunos e seus professores usando a guia Discussão. É possível exibir as postagens de qualquer curso que você vê ou no qual se inscreve. Se o administrador tiver habilitado as discussões para um curso, você poderá ver a guia Discussão ao lado da guia Notas daquele curso.
 
-Ao clicar na guia Discussões, você pode visualizar as postagens e comentários desse curso. Se você já tiver se inscrito no curso, também poderá começar a digitar postagens ou comentários para que outros usuários vejam. Depois de digitar a mensagem, clique em Publicar. Sua postagem deve conter pelo menos 10 caracteres. 
+Ao clicar na guia Discussões, você pode visualizar as postagens e comentários desse curso. Se você já tiver se inscrito no curso, também poderá começar a digitar postagens ou comentários para que outros usuários vejam. Depois de digitar a mensagem, clique em Publicar. Sua postagem deve conter pelo menos 10 caracteres.
 
 A postagem é imediatamente visível na guia Discussões. Você pode classificar as postagens como Mais recente primeiro ou Mais antigo primeiro e excluir as postagens que escreveu. Mesmo depois de cancelar a inscrição no curso, você ainda poderá ver todas as postagens e excluir as que você escreveu.
 

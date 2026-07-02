@@ -5,8 +5,8 @@ title: Objetos de aprendizado
 exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 60%
+source-wordcount: '1741'
+ht-degree: 75%
 
 ---
 
@@ -78,7 +78,7 @@ Você pode ver o feedback N1 fornecido a um curso pelos alunos e o feedback N3 f
 
 ## Visualizar cursos {#previewcourses}
 
-O gerente pode visualizar cursos clicando na opção **Visualizar como aluno** ao visualizar os módulos do curso.
+O gerente pode visualizar os cursos clicando na opção **Visualizar como aluno** ao exibir os módulos do curso.
 
 1. Clique em **[!UICONTROL Cursos]** no painel esquerdo depois de fazer logon.
 1. Clique em qualquer quadro do curso na lista de cursos da página.
@@ -110,10 +110,10 @@ Conforme o gráfico circular mostrado acima, o gerente atribui mais peso ao feed
 
 O Adobe Learning Manager permite encontrar mais facilmente os cursos/caminhos de aprendizado da sua escolha. Você pode pesquisar pelos cursos de duas formas:
 
-1. Usando o campo Pesquisa. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou qualquer palavra-chave associada aos seus cursos para localizar os cursos/caminhos de aprendizado. Você também pode pesquisar usando tags predefinidas como Captivate, C, Java e HTML. As tags são pesquisáveis no campo de pesquisa, o que significa que elas são exibidas no campo de pesquisa conforme você digita. A pesquisa também pode ser executada usando a ID exclusiva.
+1. Usando o campo Pesquisa. Clique no ícone de pesquisa exibido no canto superior direito. É exibido um campo de pesquisa. Digite o nome do curso ou qualquer palavra-chave associada aos seus cursos para localizar os cursos/caminhos de aprendizado. Você também pode pesquisar usando marcas predefinidas como Captivate, C, Java e HTML. As tags são pesquisáveis no campo de pesquisa, o que significa que elas são exibidas no campo de pesquisa conforme você digita. A pesquisa também pode ser executada usando a ID exclusiva.
 1. Filtrando a lista de cursos/programações de aprendizado/certificações usando os filtros. Você pode filtrar os cursos por status como Todos, Publicado e Retirado.
 
-Você pode pesquisar com base em competências selecionando **Competências** e escolhendo-as. Como gerente, você pode classificar os cursos de quatro maneiras, para localizar melhor o curso necessário. Clique em Classificar por e escolha ordem alfabética crescente, ordem alfabética decrescente, data de atualização do curso, data de criação do curso ou eficácia dos cursos:
+Você pode pesquisar com base em competências selecionando **Competências** e escolhendo-as. Como gerente, você pode classificar os cursos de quatro maneiras para melhor localizar o curso desejado. Clique em Classificar por e escolha ordem alfabética crescente, ordem alfabética decrescente, data de atualização do curso, data de criação do curso ou eficácia dos cursos:
 
 * Nome (a-z)
 * Nome (z-a)
@@ -179,8 +179,8 @@ Um gerente pode marcar um LP como concluído para os alunos. Para obter mais inf
 
 Você pode inscrever alunos na certificação de duas maneiras. Siga as etapas abaixo para inscrever os alunos.
 
-1. Clique em Certificações no painel esquerdo depois de fazer logon como gerente. Na lista de guias Publicados, passe o mouse sobre cada certificação e clique em Inscrever alunos. Como alternativa, clique em qualquer quadro de certificação publicado e clique em Alunos no painel esquerdo. Clique em + Inscreva-se no lado direito da página de alunos para começar a adicionar os alunos.
-1. Você pode exibir a caixa de diálogo pop-up Inscrever alunos depois de clicar na opção Inscrever alunos em cada uma das duas etapas acima. Comece a digitar o nome, o perfil e escolha o nome do aluno na lista suspensa e clique em Salvar.
+1. Clique em Certificações no painel esquerdo depois de fazer logon como Gerente. Na lista da guia Publicado, passe o mouse sobre cada certificação e clique em Inscrever alunos. Como alternativa, clique no quadro de qualquer certificação e clique em Alunos no painel esquerdo. Clique em + Inscrever no lado direito da página de alunos para começar a adicionar os alunos.
+1. Você pode ver a caixa de diálogo pop-up Inscrever alunos após clicar na opção Inscrever alunos em cada uma das duas etapas acima. Comece a digitar o nome ou perfil do aluno e escolha o nome do aluno na lista suspensa e clique em Salvar.
 
 ## Cancelar as inscrições dos alunos {#Unenrollmentforlearners-1}
 
@@ -209,7 +209,7 @@ Este é o fluxo de trabalho:
 
 1. O gerente recebe uma notificação quando um aluno solicita a aprovação de um curso.
 
-1. O gerente clica em **Detalhes da Sessão**.
+1. O gerente clica em **Detalhes da sessão**.
 
    ![](assets/pending-tasks.png)
 

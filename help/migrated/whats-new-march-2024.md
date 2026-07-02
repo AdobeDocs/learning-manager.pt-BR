@@ -6,7 +6,7 @@ contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
 source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
 workflow-type: tm+mt
-source-wordcount: '3903'
+source-wordcount: '3960'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ a opção **Baixar lista de alunos** muda para **Baixar lista de alunos para gru
 
 #### Usuários internos
 
-Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem para baixar os dados para uma análise mais detalhada posteriormente. A barra de pesquisa agora está proeminente e exibe um usuário no formato *Nome, email | UUID*.
+Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem para baixar os dados para uma análise mais detalhada posteriormente. A barra de pesquisa agora está proeminente e exibe um usuário no formato *Nome, email UUID |*.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem par
 
 #### Usuários externos
 
-Para usuários externos, o mesmo comportamento se aplica. Se o número de usuários for grande, você poderá baixar os usuários e também recuperar os detalhes de um usuário após uma pesquisa no formato *Nome, email | UUID*.
+Para usuários externos, o mesmo comportamento se aplica. Se o número de usuários for grande, você poderá baixar os usuários e também recuperar os detalhes de um usuário após uma pesquisa no formato *Nome, email UUID |*.
 
 #### Página Limpeza do Usuário
 
@@ -176,7 +176,7 @@ Se o número de usuários em um Grupo de Usuários for grande, o menu suspenso *
             <td>
                 <ul>
                     <li>A seleção de instância é desativada ao pesquisar um usuário.</li>
-                    <li>Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem adicional para baixar os dados para uma análise mais detalhada posteriormente. A barra de pesquisa agora está proeminente e exibe um usuário no formato Nome, email | UUID</li>
+                    <li>Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem adicional para baixar os dados para uma análise mais detalhada posteriormente. A barra de pesquisa agora está proeminente e exibe um usuário no formato Nome, email UUID |.</li>
                     <li>Se o número de usuários no Grupo de usuários for inferior a 10.000, independentemente da inscrição, você poderá executar ações individuais no nível do usuário juntamente com ações em massa. Nesse caso, a listagem de usuários não é desativada.</li>
                 </ul>
             </td>
@@ -203,7 +203,7 @@ Se o número de usuários em um Grupo de Usuários for grande, o menu suspenso *
             </td>
             <td>
                 <ul>
-                    <li>Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem adicional para baixar os dados para uma análise mais detalhada posteriormente. A barra de pesquisa agora está proeminente e exibe um usuário no formato Nome, email | UUID</li>
+                    <li>Se o número de usuários exceder, por exemplo, 50.000, haverá uma mensagem adicional para baixar os dados para uma análise mais detalhada posteriormente. A barra de pesquisa agora está proeminente e exibe um usuário no formato Nome, email UUID |.</li>
                     <li>Na página Limpeza do Usuário, para usuários excluídos, removemos o recurso de classificação em **Data de exclusão**. Você só pode classificar pelos UUIDs.</li>
                 </ul>
             </td>
@@ -266,9 +266,7 @@ Ao procurar qualquer usuário, as opções **Baixar aluno** e **Exportar** baixa
 
 * As colunas Etiqueta(s) e Habilidade(s) no Relatório de treinamentos foram alteradas para Etiqueta e habilidades.
 * Adicionado o relatório [Trilha de Auditoria de Gamificação](administrators/feature-summary/reports.md#gamification-audit-trail).
-* Se uma conta tiver mais de 280.000 alunos atribuídos a uma habilidade, o relatório do aluno de habilidade será baixado como um csv compactado.
-Se a conta tiver menos de 250.000 alunos, o mesmo relatório será baixado como um CSV.
-Na página Administrador, selecione **Administrador** > **Habilidades** > **Habilidades** > **Alunos**. O relatório é baixado como CSV.
+* Se uma conta tiver mais de 280.000 alunos atribuídos a uma habilidade, o relatório do aluno de habilidade será baixado como um csv compactado.Se a conta tiver menos de 250.000 alunos, o mesmo relatório será baixado como um CSV.Na página Administrador, selecione **Administrador** > **Habilidades** > **Habilidades** > **Alunos**. O relatório é baixado como CSV.
 * O [Relatório de Resumo da Sessão](administrators/feature-summary/reports.md#session-summary-report) tem duas novas colunas- Informações de Local e região de Local.
 
 ## Alterações na criação da sala de aula
@@ -283,8 +281,7 @@ Como administrador, você pode aplicar restrições a um autor para modificar ou
 
 ## Alterações no Caminho de aprendizado flexível
 
-Todas as contas (antigas e novas) em começarão incluindo Prazo de inscrição, Prazo de cancelamento de inscrição e Limite de vagas no aplicativo do aluno para um Caminho de aprendizado flexível.
-Os alunos agora poderão se inscrever no Caminho de aprendizado flexível sem selecionar nenhuma instância do curso.
+Todas as contas (antigas e novas) em começarão incluindo Prazo de inscrição, Prazo de cancelamento de inscrição e Limite de vagas no aplicativo do aluno para um Caminho de aprendizado flexível.Os alunos agora poderão se inscrever no Caminho de aprendizado flexível sem selecionar nenhuma instância do curso.
 
 ## Novo acionador para planos de aprendizado
 
@@ -329,7 +326,7 @@ Selecionar o botão permite reavaliar um aluno e marcá-lo como aprovado ou repr
 
 Exiba [Criar uma lista de verificação](authors/feature-summary/courses.md#checklist-fail) para obter mais informações.
 
-## Outras melhorias
+## Outros aprimoramentos
 
 ### Notificações de email relacionadas à sessão
 
@@ -372,8 +369,7 @@ Nesta versão do aplicativo móvel, os alunos podem agendar e gerenciar lembrete
 * Lembrar-me novamente em 3 dias
 * Lembrar-me novamente em uma semana
 
-No Android: clicar na notificação por push o direcionará para a página **Visão geral do curso**.
-No iOS: clicar na notificação por push o direcionará para a página inicial do aplicativo. Essa é uma limitação conhecida no iOS.
+No Android: clicar na notificação por push o direcionará para a página **Visão geral do curso**.No iOS: clicar na notificação por push o direcionará para a página inicial do aplicativo. Essa é uma limitação conhecida no iOS.
 
 ### Alterações na lista de verificação no aplicativo do aluno no Salesforce
 
@@ -492,15 +488,15 @@ Os caminhos a seguir estão obsoletos:
 * /learningObjects
    * Caminhos obsoletos:
       * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
+      * instance.loResources.resources
    * Caminhos existentes:
       * enrollment.loInstance
-      * instances.loResources
+      * instance.loResources
 * /learningObjects/{id}
    * Caminho preterido:
-      * enrollment.instances.subLoInstances.learningObject
+      * enrollment.instance.subLoInstances.learningObject
    * Caminho existente:
-      * enrollment.instances.subLoInstances
+      * enrollment.instance.subLoInstances
 * /enrollments
    * Caminho preterido:
       * loInstance.learningObject.enrollment
