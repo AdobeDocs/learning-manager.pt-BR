@@ -108,7 +108,7 @@ Consulte este [artigo](/help/migrated/administrators/feature-summary/purge-users
 
 O Adobe Learning Manager agora também permite selecionar salas de seminários do Adobe Connect ao configurar uma sessão de sala de aula virtual no Connect. Anteriormente, o administrador só podia selecionar o tipo de sala de Reunião. Esse aprimoramento permite que o administrador com uma licença de seminário válida agende e gerencie eventos únicos ou de grande escala (até 1.500 participantes) no Adobe Learning Manager.
 
-Exiba este [artigo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obter mais informações sobre a sala de seminários.
+Exiba este [artigo](https://helpx.adobe.com/br/adobe-connect/using/creating-seminars.html) para obter mais informações sobre a sala de seminários.
 
 ### Suporte para acesso à análise de sessão
 
