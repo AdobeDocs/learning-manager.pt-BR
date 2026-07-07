@@ -6,8 +6,8 @@ contentowner: dvenkate
 preview: true
 source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 48%
+source-wordcount: '817'
+ht-degree: 67%
 
 ---
 
@@ -65,7 +65,7 @@ Clique no link abaixo para exibir o documento swagger xAPI:
 
 ## Autenticação da API {#apiauthentication}
 
-A xAPI do Learning Manager usa a estrutura OAuth 2.0 para autenticar e autorizar os seus aplicativos cliente. Depois de registrar o aplicativo, você pode obter a clientId e o clientSecret. Obter URL é usado no navegador ao autenticar os usuários do Learning Manager usando suas contas pré-configuradas, como SSO e Adobe ID.
+A xAPI do Learning Manager usa a estrutura OAuth 2.0 para autenticar e autorizar os aplicativos cliente. Depois de registrar o aplicativo, você pode obter a clientId e o clientSecret. Obter URL é usado no navegador ao autenticar os usuários do Learning Manager usando suas contas pré-configuradas, como SSO e Adobe ID.
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
@@ -75,7 +75,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monitorar a experiência do usuário fora do Learning Manager. Por exemplo, você pode usar esse recurso para avaliar as atividades dos usuários em uma plataforma de terceiros usada para a realização do curso.
 
-1. Ao criar um **[!UICONTROL Módulo de Atividade]**, na opção **[!UICONTROL Tipo]**&#x200B;use o menu pop-up para selecionar o **[!UICONTROL Módulo baseado em xAPI.]**
+1. Ao criar um **[!UICONTROL Módulo de Atividade]**, na opção **[!UICONTROL Tipo]**use o menu pop-up para selecionar o **[!UICONTROL Módulo baseado em xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +97,7 @@ Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monito
 
 **Pontos a observar:**
 
-* No momento, o Learning Manager oferece suporte apenas   mbox como um identificador. Outros identificadores, incluindo mboz_sha1, openid , account, não são compatíveis.
+* No momento, o Learning Manager oferece suporte somente ao mbox como um identificador. Outros identificadores, incluindo mboz_sha1, openid , account, não são compatíveis.
 
 * A stateId e a profileId são UUID quando usadas com o Learning Manager.
 * A solicitação de PUT não substitui o documento para agentes/perfil xAPIs, atividade/perfil e atividade/estado

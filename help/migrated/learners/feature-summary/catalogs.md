@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
 source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 6%
+source-wordcount: '461'
+ht-degree: 26%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 6%
 
 Saiba como usar os catálogos no Learning Manager para visualizar os objetos de aprendizado qualificados
 
-O **Catálogo** consiste em todos os cursos, programas de aprendizado, certificações e ajudas de tarefa disponíveis para uma função de aluno na conta da empresa.
+O **Catálogo** contém todos os cursos, programas de aprendizado, certificações e ajudas de tarefa disponíveis para a função de aluno na conta de empresa.
 
-Os alunos podem exibir todos os objetos de aprendizado atribuídos e qualificados (programas de aprendizado, cursos e certificações) no **Catálogo Padrão**. Esses objetos de aprendizado são exclusivos para cada aluno com base em sua função, designação, grupo de usuários, perfil e assim por diante.
+Os alunos podem ver todos os objetos de aprendizado aos quais estão atribuídos e para os quais estão qualificados (programas de aprendizado, cursos e certificações) no **Catálogo padrão**. Esses objetos de aprendizado são exclusivos para cada aluno com base na sua função, designação, grupo de usuários, perfil e assim por diante.
 
 Você pode classificar os objetos de aprendizado com base em diferentes categorias, como Produtos, Funções do trabalho, Tipos, Tempo necessário, Habilidades e Palavras-chave. Também é possível filtrar usando as opções no painel esquerdo: por objetos de aprendizado, por habilidades e pelo status de conclusão.
 
-Use a barra de pesquisa na parte superior da página para inserir os nomes dos objetos de aprendizado comuns. Os alunos podem alternar entre a exibição em grade e em lista selecionando este ícone ![](assets/icon-list.png).
+Use a área de pesquisa na parte superior da página para inserir os nomes dos objetos de aprendizado comuns. Os alunos podem alternar entre a exibição em grade e em lista selecionando este ícone ![](assets/icon-list.png).
 
 ![](assets/catalogs.png)
 *Exibir catálogos*

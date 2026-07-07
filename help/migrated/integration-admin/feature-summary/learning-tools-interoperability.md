@@ -5,7 +5,7 @@ description: Saiba mais sobre a integração de LTI com o ALM
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
 source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1993'
 ht-degree: 1%
 
 ---
@@ -120,8 +120,7 @@ Usando esse link de inicialização ou o arquivo IMSCC, você pode exportar os c
 
 ## Adobe Learning Manager como consumidor de LTI - Fluxo de trabalho do administrador
 
-Como consumidor de LTI, o Adobe Learning Manager permite que você use atividade, ferramentas, conteúdo e widgets de provedores de LTI externos.
-Para adicionar o Adobe Learning Manager como um consumidor de LTI, você precisa das seguintes credenciais do provedor de LTI externo:
+Como consumidor de LTI, o Adobe Learning Manager permite que você use atividade, ferramentas, conteúdo e widgets de provedores de LTI externos.Para adicionar o Adobe Learning Manager como um consumidor de LTI, você precisa das seguintes credenciais do provedor de LTI externo:
 
 * Iniciar URL de login
 * URL do link de destino
@@ -165,8 +164,7 @@ Os provedores de LTI fornecem um link de inicialização ou arquivo IMSCC para a
 4. Digite o **[!UICONTROL Link de Inicialização]** e os **[!UICONTROL Parâmetros Personalizados]** do provedor de LTI.
 5. Selecione seu [!UICONTROL provedor de LTI] no menu suspenso **[!UICONTROL Provedor de Ferramentas]**.
 6. Pesquise e selecione o **[!UICONTROL Público]** na opção **[!UICONTROL Adicionar à Pasta]**. Isso disponibiliza os cursos para todos os autores.
-7. Selecione **[!UICONTROL Salvar]**.
-Depois que o conteúdo é criado, você pode adicioná-lo ao criar o curso.
+7. Selecione **[!UICONTROL Salvar]**.Depois que o conteúdo é criado, você pode adicioná-lo ao criar o curso.
 
 ### Criar curso com conteúdo de LTI - Fluxo de trabalho do autor
 
@@ -194,12 +192,12 @@ Os seguintes tipos de cursos não podem ser exportados como cursos de LTI:
 |---|---|---|---|
 | Ativo | Nenhum | Exportar | Nenhum |
 | Ativo | Ativo | Não exportar | Várias Instâncias |
-| Ativo | Aposentado | Não exportar | Várias Instâncias |
+| Ativo | Retirado | Não exportar | Várias Instâncias |
 | Ativo | Excluído | Exportar | Nenhum |
-| Aposentado | Nenhum | Não exportar | Desativar Instância de Definição |
-| Aposentado | Ativo | Não exportar | Desativar Instância De Definição, Várias Instâncias |
-| Aposentado | Aposentado | Não exportar | Desativar Instância De Definição, Várias Instâncias |
-| Aposentado | Excluir | Não exportar | Desativar Instância de Definição |
+| Retirado | Nenhum | Não exportar | Desativar Instância de Definição |
+| Retirado | Ativo | Não exportar | Desativar Instância De Definição, Várias Instâncias |
+| Retirado | Retirado | Não exportar | Desativar Instância De Definição, Várias Instâncias |
+| Retirado | Excluir | Não exportar | Desativar Instância de Definição |
 
 * **Cursos com várias respostas de pergunta**: cursos com MQA habilitado.
 * **Curso com alternância de instância ativada**: cursos que permitem aos alunos alternar entre instâncias.
