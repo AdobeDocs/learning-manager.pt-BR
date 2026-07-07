@@ -5,7 +5,7 @@ title: Resumo dos novos recursos
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
 source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2544'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,7 @@ O Adobe Learning Manager é uma plataforma multilíngue onde as preferências de
 
 Para usuários da plataforma nativa do Adobe Learning Manager, esse aprimoramento atende à necessidade de provisionamento de usuários “just-in-time”. Quando os usuários estão criando contas e fazendo logon pela primeira vez, esse recurso garante que suas preferências de idioma sejam capturadas e aplicadas com precisão.
 
-Este recurso garante que as preferências de idioma dos usuários sejam atualizadas automaticamente quando eles fizerem logon por SAML. Isso ajuda a fornecer uma experiência personalizada exibindo a interface no idioma preferido do usuário.
-Quando os usuários fazem logon por SAML, sua preferência de idioma (idioma da interface e do conteúdo) é verificada e atualizada com base nas informações fornecidas durante o processo de logon.
+Este recurso garante que as preferências de idioma dos usuários sejam atualizadas automaticamente quando eles fizerem logon por SAML. Isso ajuda a fornecer uma experiência personalizada exibindo a interface no idioma preferido do usuário.Quando os usuários fazem logon por SAML, sua preferência de idioma (idioma da interface e do conteúdo) é verificada e atualizada com base nas informações fornecidas durante o processo de logon.
 
 O recurso se integra ao processo de logon por SAML para capturar e atualizar a preferência de idioma do usuário sem problemas.
 
@@ -127,11 +126,9 @@ Exiba este [artigo](https://helpx.adobe.com/in/adobe-connect/using/session-dashb
 
 ### Critérios de sucesso do conteúdo usando a migração
 
-O processo de migração no Adobe Learning Manager para importar módulos agora suporta a capacidade de adicionar parâmetros para definir critérios de sucesso.
-Isso agora é compatível com a adição de três novas colunas opcionais no module_version.csv. Três novas colunas opcionais são: `successCriteria`, `successQuizData` e `successViewPercent`.
+O processo de migração no Adobe Learning Manager para importar módulos agora suporta a capacidade de adicionar parâmetros para definir critérios de sucesso.Isso agora é compatível com a adição de três novas colunas opcionais no module_version.csv. Três novas colunas opcionais são: `successCriteria`, `successQuizData` e `successViewPercent`.
 
-Esses campos aceitam apenas valores específicos e o conector não processará o arquivo se valores inválidos forem inseridos.
-Um módulo de questionário pode usar três tipos de critérios de sucesso. Ele poderá marcar aprovação se o aluno iniciar o conteúdo, dependendo de um valor de porcentagem pontuada (definido por `successViewPercent`: abaixo), ou poderá ser baseado no resultado do módulo de questionário (definido por `successQuizData`: abaixo). Este valor deve ser preenchido de acordo com as instruções abaixo. O parâmetro successCriteria é usado para determinar isso.
+Esses campos aceitam apenas valores específicos e o conector não processará o arquivo se valores inválidos forem inseridos.Um módulo de questionário pode usar três tipos de critérios de sucesso. Ele poderá marcar aprovação se o aluno iniciar o conteúdo, dependendo de um valor de porcentagem pontuada (definido por `successViewPercent`: abaixo), ou poderá ser baseado no resultado do módulo de questionário (definido por `successQuizData`: abaixo). Este valor deve ser preenchido de acordo com as instruções abaixo. O parâmetro successCriteria é usado para determinar isso.
 
 `successCriteria`: Aceita `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` ou `VIEWPERCENT_OR_QUIZ`.
 
@@ -161,8 +158,7 @@ Exiba este [artigo](/help/migrated/integration-admin/feature-summary/migration-m
 
 ## Aprimoramentos em webhooks
 
-Os webhooks agora oferecem suporte a eventos para cursos nos LPs (Caminhos de aprendizado) e certificações quando ocorre a inscrição, o cancelamento de inscrição ou a conclusão.
-Isso inclui eventos de suporte para cada curso dentro do LP ou certificação, além do evento de OA pai.
+Os webhooks agora oferecem suporte a eventos para cursos nos LPs (Caminhos de aprendizado) e certificações quando ocorre a inscrição, o cancelamento de inscrição ou a conclusão.Isso inclui eventos de suporte para cada curso dentro do LP ou certificação, além do evento de OA pai.
 
 Exiba este [artigo](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) para obter mais informações sobre Webhooks.
 

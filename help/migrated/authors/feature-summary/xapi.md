@@ -5,8 +5,8 @@ description: A Experience API (xAPI) é uma especificação de software de e-lea
 exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 49%
+source-wordcount: '779'
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,7 @@ Observação: a versão da xAPI compatível com o Learning Manager é 1.0.3.
 
 ## Autenticação da API {#apiauthentication}
 
-A xAPI do Learning Manager usa a estrutura OAuth 2.0 para autenticar e autorizar os seus aplicativos cliente. Depois de registrar o aplicativo, você pode obter a clientId e o clientSecret. Obter URL é usado no navegador ao autenticar os usuários do Learning Manager usando suas contas pré-configuradas, como SSO e Adobe ID.
+A xAPI do Learning Manager usa a estrutura OAuth 2.0 para autenticar e autorizar os aplicativos cliente. Depois de registrar o aplicativo, você pode obter a clientId e o clientSecret. Obter URL é usado no navegador ao autenticar os usuários do Learning Manager usando suas contas pré-configuradas, como SSO e Adobe ID.
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
@@ -90,7 +90,7 @@ Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monito
 * A stateId e a profileId são UUID quando usadas com o Learning Manager.
 * A solicitação de PUT não substitui o documento para agentes/perfil xAPIs, atividade/perfil e atividade/estado
 * O grupo não identificado não tem suporte no Ator.
-* O parâmetro “related_activities” não tem suporte na instrução GET.
+* O parâmetro “related_activities” não tem suporte na instrução GET
 * Os parâmetros &#39;format=ids&#39; e &#39;format=canonical&#39; não são suportados em instruções GET.
 * A anulação da instrução xAPI não desfaz as ações que ocorreram no Learning Manager quando a instrução foi publicada.
 

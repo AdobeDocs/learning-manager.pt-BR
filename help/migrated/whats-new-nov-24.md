@@ -5,7 +5,7 @@ title: Resumo dos novos recursos novembro de 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3307'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Seguindo as colunas disponíveis no relatório Lista de espera:
 * ID da instância
 * Status da instância
 * Nome do usuário
-* Email
+* E-mail
 * ID exclusiva do usuário
 * Data da inscrição (fuso horário central da Europa)
 * Status
@@ -151,8 +151,7 @@ Consulte estes artigos [Relatório de lista de espera (Admin)](/help/migrated/ad
 
 ## Acessibilidade na página inicial do aluno
 
-O Adobe Learning Manager agora oferece suporte a texto alternativo para todas as manchetes a fim de melhorar a acessibilidade para os alunos. Isso permite que alunos com necessidades especiais usem leitores de tela para ler o texto alternativo e entender a imagem. Você pode selecionar vários idiomas e fornecer texto alternativo para cada idioma. Certifique-se de adicionar o texto alternativo nos respectivos idiomas. Verifique se o logotipo da empresa em sua conta também inclui texto alternativo com o nome da empresa.
-Consulte este artigo [Anúncio](/help/migrated/administrators/feature-summary/announcements.md#masthead) para obter mais informações.
+O Adobe Learning Manager agora oferece suporte a texto alternativo para todas as manchetes a fim de melhorar a acessibilidade para os alunos. Isso permite que alunos com necessidades especiais usem leitores de tela para ler o texto alternativo e entender a imagem. Você pode selecionar vários idiomas e fornecer texto alternativo para cada idioma. Certifique-se de adicionar o texto alternativo nos respectivos idiomas. Verifique se o logotipo da empresa em sua conta também inclui texto alternativo com o nome da empresa.Consulte este artigo [Anúncio](/help/migrated/administrators/feature-summary/announcements.md#masthead) para obter mais informações.
 
 ## Suporte para hindi
 
@@ -528,7 +527,7 @@ Os administradores podem localizar essas alterações de relatório na seção *
 O relatório **[!UICONTROL Transcrições de Aprendizado]** conterá duas novas colunas:
 
 * **[!UICONTROL ID do módulo]**: exibe o identificador exclusivo de cada módulo. Esta nova coluna foi adicionada após a coluna **[!UICONTROL Módulo]** existente.
-* **[!UICONTROL ID da instância do curso]**: exibe o identificador exclusivo de cada instância do curso. Esta nova coluna foi adicionada após a coluna **[!UICONTROL Instância]** existente.
+* **[!UICONTROL ID da instância do curso]**: exibe o identificador exclusivo para cada instância do curso.Esta nova coluna foi adicionada após a coluna **[!UICONTROL Instância]** existente.
 * **[!UICONTROL Comentário de conclusão]**: esta coluna captura os comentários inseridos pelo administrador ao marcar a conclusão do usuário. Esta nova coluna foi adicionada ao final do relatório.
 
 
