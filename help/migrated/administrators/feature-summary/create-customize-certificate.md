@@ -3,9 +3,9 @@ title: Criar e personalizar um certificado
 description: Os certificados personalizados no Adobe Learning Manager (ALM) permitem que administradores e autores projetem, gerenciem e emitam certificados personalizados para alunos.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
+source-git-commit: 126655e080fad8055e16c31a227c59747e2ddfcb
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,6 @@ Os administradores podem:
 
 - Crie certificados em um editor visual no estilo de tela em vez de escrever código.
 - Anexar certificados aos cursos com padrões flexíveis.
-- Use planos de fundo generativos viabilizados por Adobe Firefly, mantendo as necessidades de marca e conformidade em mente.
-
-  >[!NOTE]
-  >
-  >O recurso de IA de Firefly não está disponível para clientes do FedRAMP.
-
 - Migrar de modelos de HTML existentes e permanecer compatível com registros históricos do aluno.
 
 O processo de certificação segue a medalha existente e o modelo de realização no Learning Manager, para que o comportamento do aluno se mantenha familiar, enquanto os administradores e as equipes de suporte gastam menos tempo nas operações de certificação.
@@ -107,19 +101,6 @@ Quando um aluno conclui o treinamento, o Learning Manager escolhe um design nest
 - Modelo padrão do OA
 - Modelo padrão da conta
 
-### planos de fundo generativos baseados em Adobe Firefly
-
->[!NOTE]
->
->O recurso de IA de Firefly não está disponível para clientes do FedRAMP.
-
-Para ajudar os clientes a produzir certificados consistentes com a marca em escala, o designer se integra ao Adobe Firefly:
-
-- Os administradores geram planos de fundo a partir de prompts de palavras-chave e um esquema de cores (por exemplo, “minimalista, da área de saúde, paleta azul-petróleo”).
-- Uma biblioteca de palavras-chave com curadoria é compatível com setores comuns (transporte, assistência médica e outros) de usuários que não são designers.
-- As imagens geradas são adicionadas à galeria de plano de fundo e podem ser reutilizadas em todos os modelos.
-- O crédito e a classificação por níveis para o uso de Firefly no Learning Manager são definidos pela política do produto.
-
 ### Migração de certificado de HTML herdado
 
 Os modelos de certificado de HTML ou ZIP existentes são preservados, mas não podem ser editados no novo designer:
@@ -147,8 +128,7 @@ Atualmente, o gerenciamento de certificados no Learning Manager depende de um mo
 
 **Restrições de vínculo de medalha** Os certificados estão fortemente acoplados a **medalhas**:
 
-- Um certificado deve estar associado a uma medalha; não há emissão somente de certificado.
-Esse acoplamento pode complicar as alterações de design quando os administradores desejam certificados sem elementos de gamificação.
+- Um certificado deve estar associado a uma medalha; não há emissão somente de certificado.Esse acoplamento pode complicar as alterações de design quando os administradores desejam certificados sem elementos de gamificação.
 
 **Criação não visual e inconsistência de marca**: os certificados baseados em HTML são flexíveis, mas precisam de habilidades de front-end que muitos administradores não têm. Alguns clientes confiam em certificados padrão genéricos, o que enfraquece a consistência da marca.
 
@@ -177,11 +157,10 @@ Ao consolidar o gerenciamento de certificados em **Conquistas** com uma experiê
 
 ### Controle, consistência e controle da marca
 
-Os padrões, Firefly e galerias ajudam os clientes a:
+Os padrões e galerias ajudam os clientes a:
 
 - Envie modelos de marca uma vez no nível da conta e substitua somente onde for necessário.
-- Use planos de fundo de Firefly dentro dos resguardos da empresa em vez de ativos externos ad hoc.
-- Administre certificados por meio dos estados publicar e aposentar, com rascunhos visualizáveis antes da implantação.
+- Administre certificados por meio dos estados publicar e aposentar com rascunhos visualizáveis antes da implantação.
 
 ### Alinhamento com fluxos de crachás e certificados existentes
 
@@ -200,7 +179,7 @@ Certificados pré-configurados e desempenho do alvo de renderização orientado 
 
 **Cenário:** uma empresa de software executa academias de clientes e parceiros com centenas de programas em várias regiões e marcas.
 
-- Use modelos padrão em nível de conta com planos de fundo gerados por Firefly alinhados a cada linha de produto.
+- Use modelos padrão em nível de conta com planos de fundo alinhados a cada linha de produto.
 - Adicione layouts específicos de locais para títulos de certificação localizados, isenções de responsabilidade e assinaturas regulatórias.
 - Para parceiros premium, duplique modelos base e adicione identidade visual de parceiro (logotipo e texto legal) no nível da instância.
 - Os PDF pré-cozidos permitem que os parceiros baixem certificados logo após a conclusão das certificações de parceiros, com carga mínima no Learning Manager.
@@ -230,7 +209,6 @@ Isso se aplica a instituições de saúde, finanças, governo e outros setores n
 
 - Os proprietários do programa podem criar **modelos de marca de programa** (por exemplo, acadêmicos internos ou visuais no estilo MAP) sem habilidades de HTML.
 - As substituições no nível da instância permitem que diferentes coortes ou regiões usem variantes (por exemplo, identidade visual regional ou específica da coorte).
-- fundos de Firefly dão suporte a visuais **específicos de evento ou de coorte** com menos dependência de equipes de design.
 
 ### Transição de certificados HTML herdados
 
@@ -267,17 +245,14 @@ As organizações que dependem de certificados para vários objetos de aprendiza
 ## Criar um certificado personalizado
 
 1. Entre no Adobe Learning Manager como **Administrador**.
-2. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.
-   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
+2. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.   !&lbrack;Criar um certificado personalizado
    *Navegue até Conquistas no painel de navegação esquerdo*
 
-3. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
-   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate2.png)
+3. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.   !&lbrack;Criar um certificado personalizado
    *A página Certificado*
 
 4. Na área superior direita da página, selecione **Novo certificado**. A caixa de diálogo **Criar um Novo Certificado** é aberta.
-5. Selecione **Paisagem** ou **Retrato**, dependendo da aparência do certificado. Depois de selecionar uma orientação, você verá um modelo em branco e modelos prontos para essa orientação.
-   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate3.png)
+5. Selecione **Paisagem** ou **Retrato**, dependendo da aparência do certificado. Depois de selecionar uma orientação, você verá um modelo em branco e modelos prontos para essa orientação.   !&lbrack;Criar um certificado personalizado
    *Opção Paisagem ou Retrato*
 
 6. Selecione o modelo em branco ou um modelo existente.
@@ -285,24 +260,18 @@ As organizações que dependem de certificados para vários objetos de aprendiza
 8. No menu suspenso, selecione um idioma padrão.
 9. Selecione **Criar**. Se você tiver escolhido o modelo em branco, uma tela em branco será exibida abaixo do nome do certificado.
 10. Adicione elementos: **Texto**, **Imagem**, **Valor Dinâmico** e **Fundo do Certificado**.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+    !&lbrack;Criar um certificado personalizado
     *Adicionar elementos ao certificado*
 
 11. Para **Texto**, adicione conteúdo em **Texto pré-formatado** ou **Modelos de texto** ou adicione texto personalizado. O texto é exibido na tela. Quando o texto é selecionado, as opções de formatação aparecem acima da tela. Para remover o conteúdo indesejado, selecione o ícone **Excluir** no canto superior direito da tela.
 12. Para adicionar imagens, selecione **Imagem** ao lado de **Adicionar elementos**. Faça upload de imagens do seu computador ou selecione imagens nas listas de categorias.
 13. Selecione **Valor Dinâmico** para adicionar detalhes básicos, etiquetas de catálogo e campos ativos.
-14. Selecione **Fundo do Certificado** para aplicar cores ou imagens. Para criar imagens com Adobe Firefly, selecione **Gerar Imagem**.
-15. No campo de prompt, descreva o que deseja (até 100 caracteres) e selecione **Gerar**. Quatro opções de imagem são exibidas com base no seu prompt.
-16. Selecione a imagem desejada. É aplicado como fundo do certificado.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Adicionar imagem ao certificado*
-
-17. Selecione **Visualizar** para revisar o certificado antes de publicar. Isso ajuda a entender como o certificado se parece.
-    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+14. Selecione **Fundo do Certificado** para aplicar cores ou imagens.
+15. Selecione **Visualizar** para revisar o certificado antes de publicar. Isso ajuda a entender como o certificado se parece.   !&lbrack;Criar um certificado personalizado
     *Visualizar o certificado*
 
-18. Na visualização, é possível salvar no Google Drive, baixar, imprimir ou usar outras opções, como propriedades de anotação ou do documento.
-19. Selecione **Salvar como Rascunho** para continuar mais tarde ou selecione **Publish** para publicar o certificado. Após a publicação, os alunos podem baixar o certificado quando cumprirem a etapa configurada.
+16. Na visualização, é possível salvar no Google Drive, baixar, imprimir ou usar outras opções, como propriedades de anotação ou do documento.
+17. Selecione **Salvar como Rascunho** para continuar mais tarde ou selecione **Publish** para publicar o certificado. Após a publicação, os alunos podem baixar o certificado quando cumprirem a etapa configurada.
 
 Depois de salvar um certificado em **Publicado** ou **Rascunhos**, você pode editá-lo, cloná-lo, renomeá-lo ou excluí-lo.
 
@@ -312,7 +281,7 @@ Depois de salvar um certificado em **Publicado** ou **Rascunhos**, você pode ed
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 4. Abra o menu de ações (**...**) do certificado e selecione **Editar**.
-   ![Editar certificado no menu de ações](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0001.png)
+   !&lbrack;Editar certificado no menu de ações
    *Opção Editar no menu suspenso*
 
 5. Faça as alterações.
@@ -330,7 +299,7 @@ Use **Clonar** quando desejar uma cópia de um certificado para um novo nome ou 
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 4. Abra o menu de ações (**...**) para o certificado e selecione **Clonar**.
-   ![Clonar certificado do menu de ações](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0002.png)
+   !&lbrack;Clonar certificado do menu de ações
    *Opção Clonar no menu suspenso*
 
 5. Faça as alterações.
@@ -348,11 +317,11 @@ Use **Clonar** quando desejar uma cópia de um certificado para um novo nome ou 
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 
 4. Abra o menu de ações (**...**) do certificado e selecione **Renomear**.
-   ![Renomear certificado do menu de ações](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
+   !&lbrack;Renomear certificado do menu de ações
    *Opção Renomear no menu suspenso*
 
 5. Na caixa de diálogo **Renomear certificado**, insira o novo nome.
-   ![Caixa de diálogo Renomear certificado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0004.png)
+   !&lbrack;Caixa de diálogo Renomear certificado
    *Insira um novo nome*
 
 6. Selecione **Salvar**. O Learning Manager mostra uma mensagem de confirmação.
@@ -368,10 +337,9 @@ A exclusão de um certificado não pode ser desfeita. Continue apenas se tiver c
 1. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
-4. Abra o menu de ações (**...**) do certificado e selecione **Excluir**. O Adobe Learning Manager mostra uma mensagem de confirmação.
-   ![Excluir certificado do menu de ações](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0005.png)
-   *Opção Excluir no menu suspenso*
-   ![Excluir confirmação do certificado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0006.png)
+4. Abra o menu de ações (**...**) do certificado e selecione **Excluir**. O Adobe Learning Manager mostra uma mensagem de confirmação.   !&lbrack;Excluir certificado do menu de ações
+   *Opção Excluir no menu suspenso
+   !&lbrack;Excluir confirmação do certificado
    *Mensagem de confirmação*
 
 5. Selecione **Sim**. Se o certificado não estiver anexado a um objeto de aprendizado ou instância, o Learning Manager concluirá a exclusão e poderá mostrar outra confirmação.
@@ -392,6 +360,5 @@ A exclusão de um certificado não pode ser desfeita. Continue apenas se tiver c
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 4. Abra o menu de ações (**...**) para o certificado, selecione **Definir como padrão** e selecione uma das quatro opções. O Learning Manager mostra uma mensagem de confirmação.
-5. Selecione **Sim**. O Learning Manager mostra outra confirmação. O certificado mostra um rótulo **Padrão para** com a categoria selecionada (por exemplo, **Padrão para treinamentos**).
-   ![Padrão para rótulo de categoria no certificado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0008.png)
+5. Selecione **Sim**. O Learning Manager mostra outra confirmação. O certificado mostra um rótulo **Padrão para** com a categoria selecionada (por exemplo, **Padrão para treinamentos**).   !&lbrack;Padrão para rótulo de categoria no certificado
    *Depois de se tornar o certificado padrão*
