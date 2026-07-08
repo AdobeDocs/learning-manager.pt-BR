@@ -245,14 +245,14 @@ As organizações que dependem de certificados para vários objetos de aprendiza
 ## Criar um certificado personalizado
 
 1. Entre no Adobe Learning Manager como **Administrador**.
-2. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.   ![Criar um certificado personalizado
+2. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.   !&lbrack;Criar um certificado personalizado
    *Navegue até Conquistas no painel de navegação esquerdo*
 
-3. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.   ![Criar um certificado personalizado
+3. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.   !&lbrack;Criar um certificado personalizado
    *A página Certificado*
 
 4. Na área superior direita da página, selecione **Novo certificado**. A caixa de diálogo **Criar um Novo Certificado** é aberta.
-5. Selecione **Paisagem** ou **Retrato**, dependendo da aparência do certificado. Depois de selecionar uma orientação, você verá um modelo em branco e modelos prontos para essa orientação.   ![Criar um certificado personalizado
+5. Selecione **Paisagem** ou **Retrato**, dependendo da aparência do certificado. Depois de selecionar uma orientação, você verá um modelo em branco e modelos prontos para essa orientação.   !&lbrack;Criar um certificado personalizado
    *Opção Paisagem ou Retrato*
 
 6. Selecione o modelo em branco ou um modelo existente.
@@ -260,15 +260,15 @@ As organizações que dependem de certificados para vários objetos de aprendiza
 8. No menu suspenso, selecione um idioma padrão.
 9. Selecione **Criar**. Se você tiver escolhido o modelo em branco, uma tela em branco será exibida abaixo do nome do certificado.
 10. Adicione elementos: **Texto**, **Imagem**, **Valor Dinâmico** e **Fundo do Certificado**.
-   ![Criar um certificado personalizado
-   *Adicionar elementos ao certificado*
+    !&lbrack;Criar um certificado personalizado
+    *Adicionar elementos ao certificado*
 
 11. Para **Texto**, adicione conteúdo em **Texto pré-formatado** ou **Modelos de texto** ou adicione texto personalizado. O texto é exibido na tela. Quando o texto é selecionado, as opções de formatação aparecem acima da tela. Para remover o conteúdo indesejado, selecione o ícone **Excluir** no canto superior direito da tela.
 12. Para adicionar imagens, selecione **Imagem** ao lado de **Adicionar elementos**. Faça upload de imagens do seu computador ou selecione imagens nas listas de categorias.
 13. Selecione **Valor Dinâmico** para adicionar detalhes básicos, etiquetas de catálogo e campos ativos.
 14. Selecione **Fundo do Certificado** para aplicar cores ou imagens.
-15. Selecione **Visualizar** para revisar o certificado antes de publicar. Isso ajuda a entender como o certificado se parece.   ![Criar um certificado personalizado
-   *Visualizar o certificado*
+15. Selecione **Visualizar** para revisar o certificado antes de publicar. Isso ajuda a entender como o certificado se parece.   !&lbrack;Criar um certificado personalizado
+    *Visualizar o certificado*
 
 16. Na visualização, é possível salvar no Google Drive, baixar, imprimir ou usar outras opções, como propriedades de anotação ou do documento.
 17. Selecione **Salvar como Rascunho** para continuar mais tarde ou selecione **Publish** para publicar o certificado. Após a publicação, os alunos podem baixar o certificado quando cumprirem a etapa configurada.
@@ -281,7 +281,7 @@ Depois de salvar um certificado em **Publicado** ou **Rascunhos**, você pode ed
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 4. Abra o menu de ações (**...**) do certificado e selecione **Editar**.
-   ![Editar certificado no menu de ações
+   !&lbrack;Editar certificado no menu de ações
    *Opção Editar no menu suspenso*
 
 5. Faça as alterações.
@@ -299,7 +299,7 @@ Use **Clonar** quando desejar uma cópia de um certificado para um novo nome ou 
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 4. Abra o menu de ações (**...**) para o certificado e selecione **Clonar**.
-   ![Clonar certificado do menu de ações
+   !&lbrack;Clonar certificado do menu de ações
    *Opção Clonar no menu suspenso*
 
 5. Faça as alterações.
@@ -317,11 +317,11 @@ Use **Clonar** quando desejar uma cópia de um certificado para um novo nome ou 
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 
 4. Abra o menu de ações (**...**) do certificado e selecione **Renomear**.
-   ![Renomear certificado do menu de ações
+   !&lbrack;Renomear certificado do menu de ações
    *Opção Renomear no menu suspenso*
 
 5. Na caixa de diálogo **Renomear certificado**, insira o novo nome.
-   ![Caixa de diálogo Renomear certificado
+   !&lbrack;Caixa de diálogo Renomear certificado
    *Insira um novo nome*
 
 6. Selecione **Salvar**. O Learning Manager mostra uma mensagem de confirmação.
@@ -337,9 +337,9 @@ A exclusão de um certificado não pode ser desfeita. Continue apenas se tiver c
 1. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
-4. Abra o menu de ações (**...**) do certificado e selecione **Excluir**. O Adobe Learning Manager mostra uma mensagem de confirmação.   ![Excluir certificado do menu de ações
+4. Abra o menu de ações (**...**) do certificado e selecione **Excluir**. O Adobe Learning Manager mostra uma mensagem de confirmação.   !&lbrack;Excluir certificado do menu de ações
    *Opção Excluir no menu suspenso
-   ![Excluir confirmação do certificado
+   !&lbrack;Excluir confirmação do certificado
    *Mensagem de confirmação*
 
 5. Selecione **Sim**. Se o certificado não estiver anexado a um objeto de aprendizado ou instância, o Learning Manager concluirá a exclusão e poderá mostrar outra confirmação.
@@ -360,5 +360,5 @@ A exclusão de um certificado não pode ser desfeita. Continue apenas se tiver c
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 4. Abra o menu de ações (**...**) para o certificado, selecione **Definir como padrão** e selecione uma das quatro opções. O Learning Manager mostra uma mensagem de confirmação.
-5. Selecione **Sim**. O Learning Manager mostra outra confirmação. O certificado mostra um rótulo **Padrão para** com a categoria selecionada (por exemplo, **Padrão para treinamentos**).   ![Padrão para rótulo de categoria no certificado
+5. Selecione **Sim**. O Learning Manager mostra outra confirmação. O certificado mostra um rótulo **Padrão para** com a categoria selecionada (por exemplo, **Padrão para treinamentos**).   !&lbrack;Padrão para rótulo de categoria no certificado
    *Depois de se tornar o certificado padrão*
