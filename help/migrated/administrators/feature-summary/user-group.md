@@ -5,7 +5,7 @@ title: Gerenciar grupos de usuários no Adobe Learning Manager | Organizar e atr
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
 source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ Você pode adicionar um ou mais grupos de usuários gerados automaticamente ao c
 
 Se você selecionar vários grupos de usuários no mesmo conjunto de inclusão, os usuários deverão atender a todas as condições para serem incluídos.
 
-Por exemplo,
+Por exemplo:
 
 * Grupo de equipe de vendas: 120 usuários
 * Grupo Location (Bangalore): 80 usuários
