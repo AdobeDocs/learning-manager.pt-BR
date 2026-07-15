@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
 source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 49%
+source-wordcount: '618'
+ht-degree: 57%
 
 ---
 
@@ -70,7 +70,7 @@ Clique no curso de sala de aula virtual, clique em Participação no painel esqu
 
 O Adobe Learning Manager oferece suporte à seleção de salas de seminário no Adobe Connect ao configurar uma sessão de sala de aula virtual no Connect. Anteriormente, o administrador só podia selecionar o tipo de sala de Reunião. Esse recurso permite que o administrador com uma licença de seminário válida agende e gerencie eventos únicos ou de grande escala (até 1.500 participantes) no ALM.
 
-Consulte este [artigo](https://helpx.adobe.com/br/adobe-connect/using/creating-seminars.html) para obter mais informações sobre a sala de seminários.
+Consulte este [artigo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obter mais informações sobre a sala de seminários.
 
 ### Suporte para acesso à análise de sessão
 
