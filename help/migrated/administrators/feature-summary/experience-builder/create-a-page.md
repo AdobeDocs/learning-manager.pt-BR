@@ -2,13 +2,13 @@
 title: Criar uma página no Experience Builder
 description: Saiba como criar novas páginas no Experience Builder no Adobe Learning Manager. Este guia aborda a seleção de modelos, a nomeação de páginas, a definição de propriedades de página e a publicação de páginas personalizadas.
 jcr-langauge: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: eebaca0b-c490-41c8-a8be-9b2a0bc5ad2b
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
 
 ---
-
 
 # Criar uma página personalizada no Experience Builder
 
@@ -113,8 +113,8 @@ Para configurar um widget na página personalizada de treinamento de vendas:
 6. Digite o título, a descrição e o rótulo do botão de ação na tela de configuração do **[!UICONTROL widget Caixa de Conteúdo]** para os engenheiros de vendas
 7. Selecione **[!UICONTROL Adicionar widget]**.
 8. Selecione **[!UICONTROL Salvar]** e escolha entre as seguintes opções:
-a. **[!UICONTROL Salvar como Rascunho]**: a página será salva como um rascunho. O administrador pode editar a página posteriormente.
-b. **[!UICONTROL Salvar e Publish]**: a página será publicada e o administrador poderá adicioná-la ao Menu.
+a) **[!UICONTROL Salvar como Rascunho]**: a página será salva como um rascunho. O administrador pode editar a página posteriormente.
+b) **[!UICONTROL Salvar &amp; Publish]**: a página será publicada e o administrador poderá adicioná-la ao Menu.
 
    ![](assets/select-save-options.png)
    _As opções de salvamento permitem que os administradores escolham entre salvar uma página como rascunho para futura edição ou publicá-la para acesso do aluno_
