@@ -40,7 +40,7 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 1. Você só pode editar uma única tag por vez. Para editar uma tag, siga esta etapa:
 
-   * Selecione a marca para editar > abra o menu suspenso **[!UICONTROL Ações]**e clique em **[!UICONTROL Editar]**.
+   * Selecione a marca para editar > abra o menu suspenso **[!UICONTROL Ações]**&#x200B;e clique em **[!UICONTROL Editar]**.
 
    A caixa de diálogo **[!UICONTROL Editar tag]** é exibida. Insira o novo nome para a tag e clique em **[!UICONTROL Salvar]**.
 
