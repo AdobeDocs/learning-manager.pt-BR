@@ -6,12 +6,12 @@ contentowner: shhivkum
 exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
 source-git-commit: 9b983d6b3b8526e7d92c74b504403bd76180993b
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '644'
 ht-degree: 28%
 
 ---
 
-# Adicionar objetos de aprendizado em diferentes locais
+# Adicionar objetos de aprendizado em locais diferentes
 
 Leia este tópico para saber como adicionar cursos, certificações e planos de aprendizado em diferentes idiomas.
 
@@ -37,7 +37,7 @@ Republique o curso para que as alterações tenham efeito.
 
 O Adobe Learning Manager (ALM) permite que os autores criem instâncias específicas do idioma usando a marcação de idioma nos módulos Sala de aula e Sala de aula virtual. Esse recurso permite que os alunos acessem módulos CR/VC em seu idioma preferido. Por exemplo, um autor pode criar um módulo CR/VC com duas instâncias: uma em inglês e outra em francês. Os alunos podem selecionar as instâncias em seu idioma preferido.
 
-### Fluxo de trabalho (WRK)
+### Fluxo de trabalho
 
 Primeiro, o autor cria e publica um curso em vários idiomas, ativando as opções de idioma na página de criação da instância. O autor pode criar instâncias diferentes selecionando um idioma para cada uma. Os alunos podem escolher a instância com base no idioma mapeado para eles.
 

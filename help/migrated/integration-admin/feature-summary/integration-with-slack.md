@@ -5,8 +5,8 @@ description: Integração do Learning Manager com o Slack
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 44%
+source-wordcount: '469'
+ht-degree: 52%
 
 ---
 

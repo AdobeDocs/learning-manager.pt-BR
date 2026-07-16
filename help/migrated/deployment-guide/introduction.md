@@ -4,14 +4,13 @@ title: Guia de Implantação do Learning Manager
 description: O Learning Manager é um sistema de gerenciamento de aprendizagem (LMS) que permite que os profissionais de treinamento forneçam materiais de aprendizado envolventes e rastreáveis que podem contribuir para as necessidades ou metas de uma organização. O Learning Manager permite que os treinadores ou gerentes atribuam cursos e outros objetos de aprendizado, em uma ordem específica, aos alunos.
 contentowner: shhivkum
 preview: true
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 72%
+source-wordcount: '3264'
+ht-degree: 76%
 
 ---
-
-
 
 # Guia de Implantação do Learning Manager
 
@@ -87,7 +86,7 @@ Você pode escolher um dos esquemas de cores para alinhar à sua marca corporati
 
    ![](assets/setting-the-themesforyoursite.png)
 
-1. Além disso, você pode editar a **Cor da barra superior**, a **Cor de destaque** e o **Brilho da barra lateral**.  Você pode usar suas próprias cores de marca para esses elementos essencias da interface.
+1. Além disso, você pode editar a **Cor da barra superior**, **Cor de destaque** e o **Brilho da barra lateral**.  Você pode usar suas próprias cores de marca para esses elementos essencias da interface.
 1. Para redefinir os valores para o esquema de cores padrão do tema, clique em **[!UICONTROL Redefinir tema]**. As cores dos elementos essencias da interface do usuário são definidas como as opções padrão para o tema escolhido.
 1. Depois de escolher o tema, clique em **[!UICONTROL Mostrar dicas]** para exibir os rótulos ou dicas na visualização.
 
@@ -133,9 +132,9 @@ Você pode ativar e configurar qualquer uma dessas notificações por e-mail no 
 
 1. Observe que não foi possível modificar o URL da conta ou a assinatura no modelo de e-mail. Para modificar o **[!UICONTROL URL da conta]** ou **[!UICONTROL Assinatura]**, clique na guia **[!UICONTROL Configurações]**. Nessa guia, você pode modificar o banner de e-mail, a assinatura de e-mail e o URL da conta.
 
-   O link do URL da conta é mostrado em todos os e-mails, pouco antes da assinatura. Insira sua URL preferida e clique em **[!UICONTROL Salvar]**. Esse URL é visível somente para os usuários internos.
+   O link do URL da conta é mostrado em todos os e-mails, pouco antes da assinatura. Insira o URL de sua preferência e clique em **[!UICONTROL Salvar]**. Esse URL é visível somente para os usuários internos.
 
-   Para o banner de email, você pode alterar a cor do banner selecionando **[!UICONTROL **&#x200B; Plano de fundo do banner &#x200B;**.] **&#x200B; Também é possível usar uma imagem personalizada como banner selecionando a opção &#x200B;** [!UICONTROL Imagem personalizada]&#x200B;**. Clique em &#x200B;** [!UICONTROL Salvar]** depois de fazer as alterações.
+   Para o banner de email, você pode alterar a cor do banner selecionando **[!UICONTROL **&#x200B; Plano de fundo do banner &#x200B;**.] **&#x200B; Você também pode usar uma imagem personalizada como banner selecionando a opção &#x200B;** [!UICONTROL Imagem personalizada]&#x200B;**. Clique em &#x200B;** [!UICONTROL Salvar]** depois de fazer as alterações.
 
    ***Observação: o tamanho da imagem personalizada para o banner de email deve ser de 1240x200px. As imagens maiores que o tamanho recomendado são cortadas.***
 
@@ -162,7 +161,7 @@ Para configurar modelos de e-mail para um objeto de aprendizado:
 
 ### Restringir usuários de receber e-mails {#restrictusersfromreceivingemails}
 
-Como administrador, você pode selecionar quem receberá ou não e-mails do Learning Manager. Você pode fazer isso usando a opção **&#x200B;**&#x200B;[!UICONTROL Usuário Restrito]&#x200B;**&#x200B;** na guia **&#x200B;**&#x200B;[!UICONTROL Configurações] **&#x200B; &#x200B;**. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva. Os usuários listados nessa opção ficarão restritos ao recebimento de qualquer comunicação por e-mail do Learning Manager.
+Como administrador, você pode selecionar quem receberá ou não e-mails do Learning Manager. Você pode fazer isso usando a opção **&#x200B;**&#x200B;[!UICONTROL Usuário Restrito]&#x200B;**&#x200B;** na guia **&#x200B;**&#x200B;[!UICONTROL Configurações] **&#x200B; **. Os usuários podem ser adicionados a esta lista através do nome, da ID de e-mail ou da ID de usuário exclusiva. Os usuários listados nessa opção ficarão restritos ao recebimento de qualquer comunicação por e-mail do Learning Manager.
 
 ## Configurações da sua conta {#configureyouraccountsettings}
 
@@ -251,7 +250,7 @@ Para definir as configurações de feedback em um nível de instância:
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. Para configurar o feedback de Alteração de Comportamento N3 em um nível de instância, **&#x200B;**&#x200B;[!UICONTROL Habilite]&#x200B;**&#x200B;** o Feedback N3. O aplicativo exibe uma pergunta predefinida e obrigatória e uma pergunta em branco na qual você pode inserir uma pergunta de sua escolha.
+1. Para configurar o feedback de Alteração de comportamento N3 em um nível de instância, **&#x200B;**&#x200B;[!UICONTROL Ative]&#x200B;**&#x200B;** o Feedback N3. O aplicativo exibe uma pergunta predefinida e obrigatória e uma pergunta em branco na qual você pode inserir uma pergunta de sua escolha.
 1. Para a pergunta predefinida sobre a melhoria do aluno após realizar o curso, a resposta está no formato Escala Likert. Isto é, os gestores têm de escolher uma opção numa escala de Concordo totalmente para Descordo totalmente.
 1. Especifique a segunda pergunta para o gerente. Os gerentes podem fornecer uma resposta descritiva para esta pergunta.
 1. Marque a caixa de seleção **&#x200B;**&#x200B;[!UICONTROL Tornar obrigatório]&#x200B;**&#x200B;** se quiser tornar a segunda pergunta obrigatória.
@@ -300,4 +299,3 @@ O painel do aluno no Learning Manager permite que os alunos vejam seus cursos ob
 1. Para aplicar as configurações padrão, clique em **[!UICONTROL Restaurar para Padrão.]** Nesse caso, todos os widgets, exceto **[!UICONTROL Bem-vindo e Comunicados pop-up]**, estão visíveis.
 
    ***Mesmo depois de habilitar as configurações do Painel do Aluno, os alunos podem modificar e mover os widgets em seus respectivos painéis.***
-

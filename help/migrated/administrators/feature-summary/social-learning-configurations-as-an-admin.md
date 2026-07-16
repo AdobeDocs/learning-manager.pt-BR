@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '3756'
-ht-degree: 62%
+source-wordcount: '3793'
+ht-degree: 75%
 
 ---
 
@@ -21,8 +21,8 @@ O aprendizado social permite que os alunos estudem em qualquer lugar e compartil
 
 Para ativar e configurar o recurso Aprendizado social, faça o seguinte:
 
-1. Clique em **[!UICONTROL Aprendizado social]** no painel de navegação esquerdo. Você é redirecionado para a página de atividade.
-1. Habilite o recurso **[!UICONTROL Aprendizado Social]** usando o botão **[!UICONTROL Habilitar]** na página Atividade se estiver ativando pela primeira vez. Caso contrário, ela poderá ser habilitada na página **[!UICONTROL Configurações]**.
+1. Clique em **[!UICONTROL Aprendizado social]** no painel de navegação esquerdo. Você será redirecionado para a página de atividade.
+1. Habilite o recurso **[!UICONTROL Aprendizado Social]** usando o botão **[!UICONTROL Habilitar]** na página Atividade se estiver ativando pela primeira vez. Caso contrário, ele pode ser ativado na página **[!UICONTROL Configurações]**.
 
    É exibida uma caixa de diálogo pop-up como a captura de tela abaixo.
 
@@ -55,7 +55,7 @@ Nas seções de quadro de classificação social, um usuário pode ver todos os 
 
 Se você recebeu privilégios de usuário especial, você pode ver todos os usuários da conta no seu quadro de classificação, independentemente dos escopos dos usuários.
 
-Se os usuários especiais se tornarem SMEs obtendo pontos suficientes, eles aparecerão na lista **[!UICONTROL Principais especialistas no assunto]** no quadro de líderes sociais.
+Se os usuários especiais se tornarem SMEs por ganhar suficientes pontos, eles aparecerão na lista **[!UICONTROL Principais especialistas no assunto]** no quadro de classificação social.
 
 Aguarde 60 minutos para que as alterações tenham efeito.
 
@@ -71,15 +71,15 @@ Existem seções distintas para ativar usuários internos e externos.
 
 **Ativar para Alunos internos**
 
-Nesta seção, você pode escolher a característica do usuário para definir o escopo do aprendizado social para usuários internos. Usuários com as mesmas características **valor** compartilham o mesmo espaço de Aprendizado Social.
+Nesta seção, você escolhe a característica do usuário que define o escopo do aprendizado social dos usuários internos. Usuários com o mesmo valor **valor** nessas características compartilharão o mesmo espaço de Aprendizado social.
 
-Na lista suspensa **Característica do usuário**, escolha a opção necessária.
+Selecione a opção desejada na lista suspensa **Característica do usuário**.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *Selecione as características do usuário para definir o escopo*
 
-Por padrão, a opção **[!UICONTROL Todos os usuários internos]** da lista suspensa Característica do usuário está sempre selecionada.
+A opção **[!UICONTROL Todos os usuários internos]** está selecionada por padrão na lista suspensa de Característica do usuário.
 
 Você pode definir o escopo de usuários internos com base em seus campos ativos.
 
@@ -133,7 +133,7 @@ A opção **[!UICONTROL Todos os alunos]** está ativada por padrão.
 
 **[!UICONTROL Todos os alunos]:** se você escolher essa opção, todos os usuários internos e externos poderão criar painéis.
 
-**Um grupo de alunos:** se essa opção for selecionada, apenas usuários com permissão para criar painéis verão o link **[!UICONTROL Criar um novo painel]** no Aprendizado social. Escolha o grupo de usuários que deve receber permissão para criar um painel. Você também pode adicionar grupos de usuários gerados automaticamente e personalizados.
+**Um grupo de alunos:** se essa opção for selecionada, apenas usuários com permissão para criar painéis verão o link **[!UICONTROL Criar um novo painel]** no Aprendizado social. Selecione o grupo de usuários que deve receber permissão para criar um painel. Também é possível adicionar grupos de usuários gerados automaticamente e personalizados.
 
 <!--![](assets/grant-permissiontoausergroup.png)-->
 
@@ -165,7 +165,7 @@ Nas seções de quadro de classificação social, um usuário pode ver todos os 
 
 Se você recebeu privilégios de usuário especial, você pode ver todos os usuários da conta no seu quadro de classificação, independentemente dos escopos dos usuários.
 
-Se os usuários especiais se tornarem SMEs obtendo pontos suficientes, eles aparecerão na lista **[!UICONTROL Principais especialistas no assunto]** no quadro de líderes sociais.
+Se os usuários especiais se tornarem SMEs por ganhar suficientes pontos, eles aparecerão na lista **[!UICONTROL Principais especialistas no assunto]** no quadro de classificação social.
 
 Aguarde 60 minutos para que as alterações tenham efeito.
 
@@ -225,7 +225,7 @@ Um administrador pode ativar a opção de organizar conteúdo automaticamente no
 
 Assim que um usuário carregar um conteúdo em um painel, um algoritmo baseado em IA varre o texto do conteúdo e o envia para o mecanismo de curadoria. O mecanismo de curadoria tenta localizar as habilidades presentes no conteúdo.
 
-As habilidades previstas do conteúdo carregado são correspondidas com as do painel em que o conteúdo foi carregado.  Se alguma habilidade corresponder a uma pontuação de confiança de mais de 50% da habilidade do quadro, o conteúdo será publicado no quadro. Se a pontuação de confiança for inferior a 50%, o conteúdo é enviado para curadoria manual.
+É feita a correspondência das habilidades previstas em conteúdos prévios com as do painel no qual o conteúdo foi enviado.  Se uma habilidade corresponder à habilidade do painel com uma pontuação de confiança acima de 50%, o conteúdo será publicado nesse painel. Se a pontuação de confiança for inferior a 50%, o conteúdo é enviado para curadoria manual.
 
 Sempre que um conteúdo passa por curadoria automática, o usuário recebe uma notificação de que o conteúdo está disponível no painel para o qual foi enviado.
 
@@ -241,13 +241,13 @@ Sempre que um conteúdo passa por curadoria automática, o usuário recebe uma n
 
 ## Perguntas frequentes sobre curadoria automática de conteúdo {#faq-auto-curation}
 
-+++Quanto tempo uma PME tem para organizar uma publicação?
++++Em quanto tempo uma SME faz a curadoria de uma publicação?
 
-Uma SME demora no mínimo 24 horas para fazer a curadoria de uma publicação. Devido a diferenças de fuso horário, ele pode ser aumentado para 47 horas.
+Uma SME demora no mínimo 24 horas para fazer a curadoria de uma publicação. Devido às diferenças de fuso horário, ela pode ser aumentada para 47 horas.
 
 +++
 
-+++Vai para o próximo conjunto de três PMEs se todas as três estiverem disponíveis? São sempre três as SMEs que estão envolvidas?
++++Será que vai para o próximo grupo de três SMEs se todas estiverem disponíveis? São sempre três as SMEs que estão envolvidas?
 
 O pedido de curadoria vai para o topo das SMEs no primeiro dia. Se não responderem, o pedido vai para as três próximas SMEs no dia seguinte.
 
@@ -257,17 +257,17 @@ Se os moderadores do painel não responderem, a solicitação será aprovada aut
 
 +++
 
-+++Se duas SMEs fizerem curadoria e uma não, o pedido vai para a quarta SME ou o pedido toma a média, seja qual for a primeira rodada de SMEs que classifica a publicação?
++++Se forem feitas curadorias em duas SMEs e em uma delas não - o pedido vai para a quarta SME ou o pedido toma a média, seja qual for a primeira rodada de SMEs que classifica a publicação?
 
 É necessária uma taxa de aprovação de 50% para aprovar a publicação. Da mesma forma, a taxa de rejeição de 50% é usada para rejeitar a publicação. A cada aprovação feita por uma SME, avalia-se se atingiu 50%.
 
 Se não atingir 50% após um dia, será enviado para o próximo conjunto de SMEs, expirando os pedidos anteriores de curadoria não atendidos.
 
-Por exemplo, no primeiro dia, o pedido de curadoria é enviado a três SMEs; e um deles o aprova, dois não responderam. No dia seguinte, o pedido de curadoria vai para o próximo conjunto de três SMEs; neste momento, existem quatro SMEs ativas no total. Pelo menos dois SEMs devem aprovar o pedido para que a curadoria seja aprovada.(No caso de 2 aprovações e 2 rejeições, o que atingir os 50% iniciais será obtido.)
+Por exemplo, no primeiro dia, o pedido de curadoria é enviado a três SMEs; e um deles o aprova, dois não responderam. No dia seguinte, o pedido de curadoria vai para o próximo conjunto de três SMEs; neste momento, existem quatro SMEs ativas no total. Pelo menos duas SEMs devem aprová-la para que a curadoria seja aprovada. (Caso 2 aprove e 2 rejeite, o que atingir os primeiros 50% será usado.)
 
 +++
 
-+++Pelo o que vejo, um “Moderador” é atribuído apenas (e não é obrigatório) quando alguém cria um novo painel - Qual é o caso de uso para um Aluno atribuir um “Moderador” a um painel se as SMEs forem atribuídas à habilidade associada a um painel?
++++Pelo o que vejo, um &quot;Moderador&quot; é atribuído apenas (e não é obrigatório) quando alguém cria um novo fórum - Qual é o caso de uso para um Aluno atribuir um &quot;Moderador&quot; a um fórum se as SMEs forem atribuídas à habilidade associada a um fórum?
 
 As responsabilidades de um moderador do Fórum Social são as seguintes:
 
@@ -278,13 +278,13 @@ As responsabilidades de um moderador do Fórum Social são as seguintes:
 
 +++
 
-+++Nossa equipe de treinamento estará adicionando / monitorando as habilidades associadas ao nível de habilidade, bem como as SMEs atribuídas às habilidades.
++++A nossa equipe de treinamento estará adicionando / monitorando as habilidades associadas ao nível de habilidade, bem como as SMEs atribuídas às habilidades.
 
 As SMEs são adicionadas/atribuídas com base na habilidade, e não no nível da habilidade. Isto é o que foi projetado.
 
 +++
 
-+++Qual é a diferença entre um “moderador” de aprendizado social e um “SME” de aprendizado social?
++++Qual é a diferença entre um &quot;moderador&quot; de aprendizagem social e um &quot;SME&quot; de aprendizagem social?
 
 **Moderadores:** Proprietários secundários do fórum. Eles são adicionados pelos criadores durante a criação do fórum para que eles possam controlar o fórum na ausência do criador. Por padrão, o criador do fórum é o moderador.
 
@@ -314,7 +314,7 @@ A primeira vista fornece ao administrador as seguintes informações do período
 
 1. **[!UICONTROL Novas publicações:]** exibe o número de publicações novas criadas dentro do período de data. Também é exibido o número total de publicações durante todo o período.
 1. **[!UICONTROL Porcentagem de usuários ativos]**: exibe a porcentagem total de usuários ativos no aprendizado social em comparação ao número total de usuários disponível na conta.
-1. **[!UICONTROL Novos painéis]**: exibe o número de novos painéis que foram criados. Também é exibido o número total de painéis para o período inteiro.
+1. **[!UICONTROL Novos painéis]**: exibe o número de novos painéis criados. Também é exibido o número total de publicações durante todo o período.
 
 A segunda vista é um gráfico de linha que exibe a tendência do número de painéis ou publicações criados com base no período selecionado no filtro de datas. Clique no filtro para exibir as diferentes opções de tempo como últimos sete dias, último mês, últimos três meses e sempre.
 
@@ -336,7 +336,7 @@ O administrador pode visualizar a pontuação de atividade, o número de publica
  <tbody>
   <tr>
    <td>
-    <p><b>Letra Nº</b></p></td>
+    <p><b>Letra Não.</b></p></td>
    <td>
     <p><b>Nome da coluna</b></p></td>
    <td>
@@ -397,7 +397,7 @@ O administrador pode visualizar a pontuação de atividade, o número de publica
 
 Com base nas habilidades mais usadas pelos usuários finais do Learning Manager, a Adobe Learning Manager categorizou uma lista de 25 domínios de habilidades que o sistema de curadoria automática usa para selecionar conteúdo. O administrador deve mapear as habilidades empresariais configuradas para os domínios de habilidade fornecidos pelo Prime. O mapeamento de habilidades pode ser feito na página de habilidades do administrador ao criar uma habilidade ou modificar uma habilidade existente. Para obter mais informações sobre como mapear ou adicionar uma habilidade, [clique aqui](skills-levels.md#Createaskillandalevel).
 
-+++Lista de domínios de habilidades usada pelo sistema de curadoria do Learning Manager
++++Lista de domínios de habilidade usados pelo sistema de curadoria do Learning Manager
 
 1. Contabilidade
 1. Análise
@@ -433,7 +433,7 @@ Com base nas habilidades mais usadas pelos usuários finais do Learning Manager,
 
 ## Requisitos para ser um SME {#requirementstobeansme}
 
-O status de SME pode ser obtido apenas ao receber muitos pontos de SME com as atividades no Aprendizado social. O administrador pode conceder pontos a um SME com base em sua experiência no nível de habilidade.
+O status de SME pode ser obtido apenas ao receber muitos pontos de SME com as atividades no Aprendizado social. O administrador pode conceder pontos a um SME com base na sua experiência em relação às habilidades.
 
 ## Adicionar SMEs a uma habilidade {#addingsmestoaskill}
 
@@ -463,7 +463,7 @@ Para adicionar SMEs a uma habilidade, siga as etapas fornecidas:
 
 1. Ao marcar a caixa de seleção **[!UICONTROL Ativar pontos mínimos de SME]**, você pode definir um limite para o número mínimo de pontos que um usuário deve ter para ser exibido como SME na lista de principais SMEs. Depois que o limite mínimo é definido, os SMEs com pontos iguais ou inferiores ao valor mínimo necessário não são exibidos na lista de SMEs.
 
-   Se a caixa de seleção **[!UICONTROL Habilitar Mínimo de SMEs]** não estiver marcada, os três principais usuários com os pontos mais altos serão considerados SMEs para essa habilidade em particular.
+   Se a caixa de seleção **[!UICONTROL Ativar pontos mínimos de SME]** não for marcada, os três primeiros usuários com mais pontos serão considerados SMEs de tal habilidade em particular.
 
 1. Clique no botão **[!UICONTROL Salvar]** para exibir as alterações feitas.
 
@@ -484,7 +484,7 @@ Para adicionar SMEs a uma habilidade, siga as etapas fornecidas:
 
 ## Plano de faturamento das atividades sociais para usuários ativos mensalmente {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Toda vez que um usuário cria um novo quadro social, publicação para redes sociais ou comentário para redes sociais, ele contaria como atividade válida a ser contada no plano MAU (**Usuário de Ativação Mensal**) se a conta seguisse o modelo de faturamento MAU. Para obter mais informações, consulte o [gerenciamento de faturamento](billing-management.md).
+Cada vez que um usuário cria um novo painel, publicação ou comentário no aprendizado social, essa ação é considerada uma atividade válida para ser contabilizada no plano **Usuário de Ativação Mensal** (MAU) se a conta seguir o modelo de faturamento MAU. Para obter mais informações, consulte o [gerenciamento de faturamento](billing-management.md).
 
 ## Perguntas frequentes {#frequentlyaskedquestions}
 

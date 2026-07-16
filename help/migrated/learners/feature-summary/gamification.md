@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
 source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 70%
+source-wordcount: '1468'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Alguns dos recursos do quadro de classificação dos alunos:
 
 * Os alunos inscritos em uma instância do Programa de aprendizado podem ver os pontos um do outro se a gamificação estiver ativada para essa instância.
 * Clique em **[!UICONTROL Adicionar colegas]** para incluir o membro da equipe com o qual deseja fazer a comparação. A imagem de perfil do membro da sua equipe é adicionada à escala da linha do tempo na parte superior da página do quadro de classificação. Esta escala do cronograma mostra os pontos no início e move sua posição para a direita quando você obtém mais pontos do que os membros da sua equipe. Só é possível fazer comparações com outros membros do mesmo grupo.
-* **Grupos de usuários:** a qualquer momento, você pode escolher os perfis dos membros da equipe com os quais deseja comparar sua classificação, usando a opção **[!UICONTROL Classificar-me com]**. No campo Selecionar grupos de usuários, digite e escolha o grupo. A lista de todos os membros da equipe, juntamente com seus últimos pontos, está listada abaixo. Os usuários internos e externos podem exibir a lista, mas somente os usuários internos estão habilitados para pesquisar outros alunos internos.
+* **Grupos de usuários:** Você pode escolher perfis de membros da equipe com os quais deseje fazer comparações, usando a opção **[!UICONTROL Comparar minha classificação com]**. No campo Selecionar grupos de usuário, digite e escolha o grupo. A lista de todos os membros da equipe, juntamente com os pontos mais recentes, é listada abaixo. Os usuários internos e externos podem exibir a lista, mas somente os usuários internos estão habilitados para pesquisar outros alunos internos.
 
 * Além disso, a caixa de diálogo Pessoas quase na sua posição exibe os nomes dos membros da equipe que estão acima, abaixo ou no mesmo nível que você.
 * Quando um usuário externo se torna um usuário interno, o cronograma será automaticamente atualizado.
@@ -68,7 +68,7 @@ Esse recurso incentiva os usuários a fornecer feedback ativamente, o que benefi
 
 ## Tarefas {#tasks}
 
-Há cinco tarefas de gamificação dos alunos. Você pode visualizar os pontos de gamificação dentro do círculo no canto superior direito da janela na página inicial dos alunos. Para exibir a alocação de cada tarefa, clique em Gamificação.
+Há cinco tarefas de gamificação dos alunos. Você pode visualizar os pontos de gamificação dentro do círculo no canto superior direito da janela na página inicial dos alunos. Para visualizar a alocação de cada tarefa, clique em Gamificação.
 
 O sistema exibe a página Gamificação, que descreve todas as tarefas dos alunos, e os pontos são exibidos abaixo:
 
@@ -97,7 +97,7 @@ Você pode ver os seguintes cenários possíveis:
 
 **Para alunos autodirigidos (a)**
 
-Essa tarefa se aplica quando os alunos se inscrevem no número prescrito de cursos e concluem dentro de um mês/trimestre/ano. Nesse caso, o administrador pode ativar essa tarefa para alocar pontos e incentivá-los.
+Essa tarefa se aplica quando os alunos se inscrevem no número especificado de cursos e terminam dentro de um mês/trimestre/ano. Nesse caso, o administrador pode permitir que essa tarefa atribua pontos para incentivá-los.
 
 Cenários possíveis:
 
@@ -130,7 +130,7 @@ Essa tarefa se aplica quando um aluno adquiri um número de competências. O adm
 Cenários possíveis para melhoria nas habilidades:
 
 1. Quando os alunos adquirem uma competência, eles ganham 100 pontos.
-1. Quando os alunos obtêm duas competências, eles ganham 300 pontos.
+1. Quando os alunos adquirem duas competências, eles ganham 300 pontos.
 1. Quando os alunos adquirem três competências, eles ganham 600 pontos.
 1. Quando os alunos adquirem quatro competências, eles ganham 900 pontos.
 
@@ -144,9 +144,9 @@ Essa tarefa se aplica sempre que os alunos concluírem o nível mais alto de uma
 
 Cenários possíveis para melhoria dos níveis em uma determinada competência:
 
-1. Quando os alunos atingem um nível, eles obtêm 100 pontos.
-1. Quando os alunos atingem dois níveis, eles obtêm 200 pontos.
-1. Quando os alunos atingem três níveis, eles obtêm 500 pontos.
+1. Quando os alunos adquirem um nível, eles obtêm 100 pontos.
+1. Quando os alunos adquirem dois níveis, eles obtêm 200 pontos.
+1. Quando os alunos adquirem três níveis, eles obtêm 500 pontos.
 
 >[!NOTE]
 >
