@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Página inicial do aluno
-description: Depois que o administrador ativa o layout imersivo, o aluno, após fazer logon no aplicativo, é recebido com uma interface de usuário completamente reformulada.
+description: Depois que o administrador ativa o layout imersivo, o aluno, após fazer logon no aplicativo, é saudado com uma interface de usuário completamente aprimorada.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 39%
+source-wordcount: '1205'
+ht-degree: 53%
 
 ---
 
@@ -81,15 +81,15 @@ _Barra lateral e barra de pesquisa_
 
 ### Manchete {#masthead}
 
-Apresenta um carrossel de imagens ou vídeo com um URL incorporado. O [administrador pode carregar qualquer ativo de imagem ou vídeo](../../administrators/feature-summary/announcements.md#masthead) como um manchete e definir sua visibilidade para um grupo de alunos.
+Apresenta um carrossel de vídeo ou imagem com um URL incorporado. O [administrador pode carregar qualquer ativo de imagem ou vídeo](../../administrators/feature-summary/announcements.md#masthead) como um manchete e definir sua visibilidade para um grupo de alunos.
 
 ![](assets/learner-masthead.png)
 
 *Exibir manchete*
 
-### Lista do meu aprendizado {#mylearninglist}
+### Minha lista de aprendizado {#mylearninglist}
 
-Exibe o treinamento que o aluno fez. Esses treinamentos são exibidos como cartões alinhados horizontalmente. Você pode clicar no botão direito ou esquerdo para navegar pelos cursos.
+Exibe o treinamento realizado pelo aluno. Esses treinamentos são exibidos como cartões alinhados horizontalmente. Você pode clicar no botão direito ou esquerdo para navegar pelos cursos.
 
 ![](assets/learner-my-learning-list.png)
 
@@ -169,17 +169,17 @@ As habilidades de perfil são usadas para as recomendações do curso. Se o admi
 ![](assets/profile-skills.png)
 *Exibir habilidades de perfil*
 
-Se um aluno se inscrever em um curso, somente as habilidades externas que são baseadas em uma pontuação são adicionadas às habilidades de perfil. Além disso, um aluno pode pesquisar, selecionar e adicionar habilidades externas ao seu perfil.Se um aluno fez logon no aplicativo do aluno pela primeira vez e se as habilidades do aluno já estiverem presentes, as habilidades serão exibidas em Meu perfil.
+Se um aluno se inscrever em um curso, somente as habilidades externas que são baseadas em uma pontuação são adicionadas às habilidades de perfil. Além disso, um aluno pode pesquisar, selecionar e adicionar habilidades externas ao seu perfil.Se um aluno entrou no aplicativo do aluno pela primeira vez e se as habilidades do aluno já estiverem presentes, as habilidades serão exibidas em Meu perfil.
 
 ## Recomendação baseada na sua área de interesse {#recommendationbasedonyourareaofinterest}
 
-Exibe treinamento com base na área de interesse escolhida. A recomendação é orientada por um algoritmo de Aprendizado de Máquina.
+Exibe treinamento com base na área de interesse escolhida. A recomendação é conduzida por um algoritmo de aprendizado de máquina.
 
 ![](assets/learner-recommendation.png)
 
 *Exibir cursos recomendados*
 
-Para obter mais recomendações direcionadas, você pode atualizar suas habilidades clicando em **Exibir/Atualizar**.
+Para obter recomendações mais direcionadas, você pode atualizar as suas habilidades clicando em **Exibir/Atualizar**.
 
 Depois de adicionar uma habilidade, as recomendações futuras se tornarão mais direcionadas e focadas de acordo com as suas preferências.
 
@@ -201,7 +201,7 @@ Na visualização do Mapa de habilidades, você pode procurar uma habilidade ou 
 
 *Visualização do mapa de habilidades*
 
-Habilite a opção **Mostrar habilidades para as quais os treinamentos estão presentes na minha conta**, se você deseja exibir todas as habilidades que estão na sua conta.
+Ative a opção **Mostrar habilidades para as quais os treinamentos estão presentes na minha conta**, se você deseja exibir todas as habilidades que estão na sua conta.
 
 Depois de adicionar uma habilidade, você pode ver o gráfico de força direcionada com a habilidade selecionada como o vértice principal e as habilidades associadas como vértices menores.
 
@@ -215,4 +215,4 @@ Para adicionar as habilidades, clique em **[!UICONTROL Adicionar]**.
 
 ## Recomendação baseada na atividade entre pares {#recommendationbasedonpeeractivity}
 
-Exibe treinamento com base no que seus colegas estão fazendo. Isso é controlado novamente por um algoritmo de aprendizado de máquina. As recomendações são baseadas em treinamento para alunos personalizados e alinhados ao setor.
+Exibe treinamento com base no que os seus colegas estão fazendo. Isso é controlado novamente por um algoritmo de aprendizado de máquina. As recomendações são baseadas em treinamento para alunos personalizados e alinhados ao setor.

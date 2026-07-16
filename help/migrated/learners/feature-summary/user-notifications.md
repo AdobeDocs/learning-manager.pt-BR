@@ -6,12 +6,12 @@ contentowner: manochan
 exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
 source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 72%
+source-wordcount: '467'
+ht-degree: 80%
 
 ---
 
-# Notificações de usuário
+# Notificações para o usuário
 
 <!--User notifications for Learners in Learning Manager.-->
 
@@ -45,7 +45,7 @@ Clique no link **[!UICONTROL Mostrar todas as notificações]** na parte inferio
 
 *Exibir todas as notificações em uma página separada*
 
-**Tipos de notificações dos alunos** 
+**Tipos de notificações dos alunos**
 
 Os alunos recebem notificações sempre que ocorrer os seguintes eventos:
 
@@ -61,7 +61,7 @@ Os alunos recebem notificações sempre que ocorrer os seguintes eventos:
 1. O aluno rejeitou a indicação
 1. Nos cursos aprovados pelo gerente, o gerente aprova/rejeita uma solicitação de inscrição no curso
 1. A lista de espera do aluno é cancelada.
-1. O aluno foi inscrito automaticamente em um curso, programa de aprendizado ou certificação
+1. O aluno foi inscrito automaticamente em um curso ou em um programa de aprendizado ou certificação
 1. O aluno termina uma certificação
 1. O gerente aprova/rejeita o comprovante do documento de conclusão da certificação carregado pelo aluno
 1. Quando o prazo de uma fase específica do curso está se aproximando. (O administrador pode definir a data a partir da qual as notificações de lembrete podem aparecer para o aluno).

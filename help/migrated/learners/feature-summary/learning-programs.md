@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 84%
+source-wordcount: '778'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ O Adobe Learning Manager permite que os alunos acessem os cursos e programas de 
 
 >[!NOTE]
 >
->Os alunos também podem instalar o aplicativo Learning Manager para iPad na App Store e o aplicativo Learning Manager para Android no Google Play e acessar os cursos nos dispositivos móveis. Todos os recursos da função de aluno também estão disponíveis no aplicativo. Os alunos também podem fazer cursos offline e obter acesso contínuo após ficar online.
+>Os alunos também podem instalar o aplicativo Learning Manager para iPad na App Store e o aplicativo Learning Manager para Android no Google Play e acessar os cursos nos dispositivos móveis. Todos os recursos da função de aluno também estão disponíveis no aplicativo. Os alunos podem também realizar os cursos off-line e obter um acesso perfeito após ficar on-line.
 
 ## Programa de aprendizado {#learningprogram}
 
@@ -43,7 +43,7 @@ Você pode ver a porcentagem de eficácia de cada curso na página Catálogo. Po
 
 O Adobe Learning Manager permite encontrar de forma mais fácil os cursos da sua escolha rapidamente. Você pode pesquisar seus programas de aprendizado das seguintes maneiras:
 
-1. Usando o campo Pesquisa. Clique na barra de pesquisa exibida na parte superior da página. Digite o nome do curso/programa de aprendizado ou qualquer palavra-chave associada aos seus cursos para localizar os programas de aprendizado. Você também pode pesquisar usando tags predefinidas como Captivate, C, Java, HTML e assim por diante. As marcas podem ser pesquisadas dentro do campo de pesquisa, o que significa que são exibidas no campo de pesquisa à medida que você digita.
+1. Usando o campo Pesquisa. Clique na barra de pesquisa exibida na parte superior da página. Digite o nome do curso/programa de aprendizado ou as palavras-chave associadas aos seus cursos para localizar seus programas de aprendizado. Você também pode pesquisar utilizando marcadores predefinidos como Captivate, C, Java, HTML, etc. As marcas podem ser pesquisadas dentro do campo de pesquisa, o que significa que são exibidas no campo de pesquisa à medida que você digita.
 1. O aluno pode procurar objetos de aprendizado baseados no status de conclusão do curso: Todos, Não iniciado, Concluído, Em andamento.
 1. O aluno pode pesquisar na página Catálogo usando Filtros, Classificar por, Competência e Tipo.
 
@@ -58,7 +58,7 @@ Os alunos são inscritos nos programas de aprendizado das três formas possívei
 
 Os alunos podem se inscrever em uma ampla lista de programas de aprendizado com base em suas escolhas. O widget Aprendizado recomendado exibe todos os cursos, programas de aprendizado, ajudas de tarefas ou certificações inscritos/atribuídos. Você pode clicar em Explorar e entrar na página Objeto de aprendizado para se inscrever.
 
-Você também tem a opção de percorrer qualquer um dos programas de aprendizado listados na página Catálogo clicando em Explorar. A página Inscrever é exibida. Clique em Inscrever-se no canto superior direito da página para incluir o curso na lista de cursos.
+Você também tem a opção de analisar os programas de aprendizado listados na página Catálogo clicando em Explorar. A página de inscrição é exibida. Clique em Inscrever-se no canto superior direito da página para incluir o curso na lista de cursos.
 
 Pode haver várias fases/sessões de um curso/programa de aprendizado. No catálogo, clique no nome do curso/programa de aprendizado dentro do quadro para visualizar os detalhes. É possível ver a inscrição na fase do curso/programa de aprendizado com base na data do prazo de conclusão de cada fase do curso/programa de aprendizado.
 
