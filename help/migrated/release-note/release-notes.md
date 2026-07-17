@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
+source-git-commit: 79de9fe16c4397ff769072c9f57868649664806f
 workflow-type: tm+mt
-source-wordcount: '30524'
-ht-degree: 73%
+source-wordcount: '30900'
+ht-degree: 72%
 
 ---
 
@@ -24,6 +24,22 @@ ht-degree: 73%
  </tbody>
 </table>
 -->
+
++++Atualização 109: versão de julho de 2026 do Adobe Learning Manager
+
+Data de lançamento: 16 de julho de 2026
+
+## Erros corrigidos
+
+**Modelos de email:** emails de lembrete para as próximas sessões foram enviados sem informações de data e hora da sessão para alunos inscritos nas instâncias do curso. Esse problema foi corrigido para preencher corretamente os detalhes do agendamento de sessões no modelo de email. Os alunos agora recebem e-mails de lembrete da próxima sessão que incluem a data e a hora relevantes da sessão, fornecendo informações completas de agendamento.
+
+**Conectores:** autores encontraram erros HTTP 400 intermitentemente ao duplicar ou editar cursos em sala de aula virtual/sala de aula baseada em conector. Depois de acionado, o problema persistia e bloqueava a criação subsequente do curso ou as ações de edição até que a sessão fosse atualizada. Esse problema foi corrigido para garantir a duplicação e a edição confiáveis de cursos baseados em conector. Os autores agora podem duplicar, criar e modificar cursos em sala de aula/sala de aula virtual sem encontrar 400 erros recorrentes.
+
+**Codificação de solicitação de API CMS:** um fluxo de trabalho automatizado da plataforma estava gerando solicitações de download repetidas para a API HTTP CMS com URLs codificadas incorretamente, causando erros HTTP 500 intermitentes e, às vezes, milhares de solicitações inválidas por segundo. A lógica de codificação do URL foi corrigida para garantir que os caminhos de ativos contendo caracteres especiais, como espaços, sejam codificados corretamente antes que as solicitações sejam enviadas. As solicitações de download para o NetStorage agora são executadas com êxito, eliminando os erros recorrentes de API e os picos de solicitação.
+
+**Resiliência do fluxo de trabalho de tradução:** solicitações de tradução de inglês para norueguês Bokmal falharam porque o par de idiomas não é suportado pelo serviço de tradução subjacente, resultando na interrupção de todo o fluxo de trabalho de tradução. A lógica de manipulação de tradução foi aprimorada para gerenciar normalmente pares de idiomas sem suporte e isolar falhas de tradução individuais. As solicitações de tradução para idiomas sem suporte agora são ignoradas e relatadas corretamente, enquanto as traduções para todos os idiomas de destino com suporte restantes continuam a ser processadas com êxito.
+
++++
 
 +++Atualização 108: versão de junho de 2026 do Adobe Learning Manager
 
@@ -51,7 +67,7 @@ Data de lançamento: 17 de junho de 2026
 4. Navegue até Alunos no painel de navegação esquerdo.
    ![](assets/instructor-send-email1.png)
 5. Selecione um aluno na lista de alunos.
-6. No canto superior direito, a lista suspensa **Ações** é aberta para revelar mais opções (incluindo as esmaecidas). O **Enviar email para todos** é uma das opções.
+6. No canto superior direito, a lista suspensa **Ações** é aberta para revelar mais opções (incluindo as esmaecidas). O **Enviar Email para Todos** é uma das opções.
    ![](assets/instructor-send-email2.png)
 
 **Limpeza automática de usuários excluídos:** a limpeza automática de usuários excluídos foi definida como um ano como o período mínimo necessário para exclusão. Isso foi aprimorado para acomodar um número em “dias” também. Agora, os administradores podem solicitar essa alteração entrando em contato com o gerente de sucesso do cliente e fazendo as alterações no back-end.
@@ -663,7 +679,7 @@ O novo aplicativo Adobe Learning Manager no Microsoft Teams foi desenvolvido par
 
 * O botão Compartilhar no catálogo do aluno não funciona conforme o esperado no navegador safari e no aplicativo MS Teams para dispositivos móveis e iPad.
 * As notificações não são exibidas na guia Atividade depois que o aplicativo é removido em outros computadores.
-Nada acontece ao clicar nas notificações na guia Atividade do aplicativo no iPhone 14.
+Nada acontece quando você clica nas notificações na guia Atividade do aplicativo no iPhone 14.
 * No aplicativo MS Teams, as notificações do Learning Manager (conclusão, inscrição, prazo e encerramento) não exibem o status e o nome do curso na guia Atividade.
 * Um pop-up com conteúdo XML é exibida quando o administrador de integração não aprova o aplicativo MS Teams.
 * O idioma da interface do usuário no aplicativo Adobe Learning Manager no MS Teams às vezes não muda conforme esperado quando o idioma é alterado.
@@ -688,7 +704,7 @@ Nada acontece ao clicar nas notificações na guia Atividade do aplicativo no iP
 
 ### Melhorias De Desempenho Nesta Versão
 
-Quando uma inscrição em massa dos alunos é executada, não haverá nenhum arquivo de log gerado para cada aluno.
+Quando uma inscrição em massa de alunos é executada, não haverá nenhum arquivo de registro gerado para cada aluno.
 Otimizamos o processamento de planos de aprendizado para contas grandes. Isso evita quaisquer problemas ou lentidão na pesquisa.
 +++
 
@@ -722,7 +738,7 @@ Adição de suporte para código de idioma de quatro letras ao filtrar idiomas e
 ### Erros Corrigidos Nesta Atualização
 
 Para algumas localidades, a pesquisa retorna resultados incorretos.
-Os metadados do curso são substituídos quando o curso tem mais de uma variante do mesmo local.
+Os metadados do curso são substituídos quando o curso tem mais de uma variante da mesma localidade.
 +++
 
 +++Atualização 84
