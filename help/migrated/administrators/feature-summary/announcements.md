@@ -5,8 +5,8 @@ description: Um comunicado é uma mensagem multimídia (imagem de texto ou víde
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
 source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 57%
+source-wordcount: '1072'
+ht-degree: 67%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 57%
 
 Um comunicado é uma mensagem multimídia (imagem de texto ou vídeo) que um administrador transmite para um conjunto definido de usuários.
 
-O administrador pode transmitir comunicados aos alunos para informá-los sobre a ocorrência de um evento ou uma atividade. O anúncio pode ser uma combinação de texto, imagens ou vídeos. Você pode vincular objetos de aprendizado como cursos, programas de aprendizado e certificações a um comunicado.
+O administrador pode transmitir comunicados aos alunos para informá-los sobre a ocorrência de um evento ou uma atividade. O comunicado pode ser uma combinação de texto, imagens ou vídeos. Você pode vincular objetos de aprendizado como cursos, programas de aprendizado e certificações a um comunicado.
 
 Há quatro tipos de anúncios:
 
 * Notificação
 * Manchete
 * Recomendação
-* Email
+* E-mail
 
 ## Notificação {#notification}
 
@@ -44,7 +44,7 @@ Há quatro tipos de anúncios:
 
    Comece a digitar o nome do grupo de usuários na caixa de texto e escolha na lista suspensa. Da mesma forma, escolha o treinamento digitando o nome do objeto na caixa de texto.
 
-1. Na caixa de diálogo, clique em Configurações avançadas. Você pode executar as seguintes ações:
+1. Clique em Configurações avançadas na caixa de diálogo. Você pode executar as seguintes ações:
 
    * Fixe este comunicado selecionando a caixa de seleção Ativar comunicado fixo.
    * Selecione o tempo de entrega do comunicado.
@@ -53,7 +53,7 @@ Há quatro tipos de anúncios:
 1. Clique em **[!UICONTROL Salvar]**.
 1. Na guia Rascunhos, clique no ícone de configurações ao lado de um comunicado e clique em Enviar.
 
-Se o anexo de multimídia for grande, pode levar tempo para fazer o upload. Após clicar em Salvar, você receberá uma janela pop-up com uma mensagem enquanto o upload estiver sendo processado. Você receberá uma notificação depois que o anexo for carregado com êxito.
+Se o anexo de multimídia for grande, pode levar tempo para fazer o upload. Depois de clicar em Salvar, você receberá um pop-up com uma mensagem enquanto o upload estiver sendo processado. Você receberá uma notificação depois que o anexo for carregado com êxito.
 
 ## Manchete {#masthead}
 
@@ -121,13 +121,13 @@ Ao clicar em **[!UICONTROL Salvar]**, você pode publicar o comunicado imediatam
 
 ## Lista de rascunhos, programados e enviados {#draftscheduledandsentlist}
 
-No logon do administrador, você pode ver todos os comunicados em três guias, como Rascunhos, Agendado e Enviado.
+No logon do administrador, você pode exibir todos os comunicados em três guias, como Rascunhos, Programados e Enviados.
 
 <!--![](assets/three-tabs-announcement1.png)-->
 
 ### Rascunho {#draft}
 
-Na guia Rascunhos, você pode exibir todos os comunicados criados por um administrador, mas ainda não transmitidos ou ainda não agendados para transmissão.
+Na guia Rascunhos, você pode exibir todos os comunicados criados por um administrador, mas que ainda não foram transmitidos ou ainda não foram programados para transmissão.
 
 Por padrão, todos os comunicados são definidos para transmissão imediata. Se você escolher configurações>opção de envio para um comunicado não programado, ele será transmitido imediatamente. Para programar uma transmissão de comunicado, é necessário escolher a data de início e término em Configurações avançadas.
 
@@ -135,7 +135,7 @@ Por padrão, todos os comunicados são definidos para transmissão imediata. Se 
 
 Na guia Programados, você pode ver todos os comunicados programados para transmissão em uma data posterior.
 
-### Enviada {#sent}
+### Enviados {#sent}
 
 Na guia Enviados, você pode ver todos os comunicados que já foram transmitidos.
 

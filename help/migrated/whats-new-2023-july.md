@@ -5,8 +5,8 @@ hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
 source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 67%
+source-wordcount: '2091'
+ht-degree: 74%
 
 ---
 
@@ -32,7 +32,7 @@ Os alunos não podem se inscrever em várias instâncias a partir de um aplicati
 >
 >Habilitar o recurso de Várias inscrições resulta na adição de várias linhas ao Relatório de transcrição do aluno para cada curso (uma linha para cada instância).
 >
->Se você tiver uma configuração de automação de relatórios que prevê apenas uma linha por curso, deverá fazer os ajustes necessários na automação de relatórios antes de ativar o recurso de Várias Inscrições.
+>Caso tenha configurado a automação de relatórios que prevê apenas uma linha por curso, faça os ajustes necessários na automação de relatórios antes de habilitar o recurso de Várias inscrições.
 
 ### Formato de medalhas em uma instância com vários inscritos
 
@@ -56,7 +56,7 @@ argument_object=
 
 Esta versão do Adobe Learning Manager incluirá um novo conector, que usará o protocolo SFTP da família AWS Transfer.
 
-Esta alteração também substituirá o conector ExaVault, que não estará mais disponível para novos usuários. Você pode usar qualquer cliente FTP de código aberto como substituto do ExaVault. Para obter mais informações, consulte [Transição do Adobe FTP Manager](transition-from-ftp-manager.md).
+Esta alteração também substituirá o conector ExaVault, que não estará mais disponível para novos usuários. Você pode usar qualquer cliente FTP de código aberto como substituto do ExaVault. Para obter mais informações, consulte [Transição do Gerenciador de FTP do Adobe](transition-from-ftp-manager.md).
 
 ## Lembretes no Outlook para sessões de sala de aula e virtuais
 
@@ -527,9 +527,9 @@ Solicitação de exemplo
 
 ### Implementação da base de alterações da API de pesquisa (localidade inglesa)
 
-O truncamento é o processo de reduzir uma palavra à sua forma raiz. Isso garante que as variantes de uma palavra correspondam durante uma pesquisa. Por exemplo, andar e andar podem ter a mesma raiz: caminhar. Uma vez feita a raiz, uma ocorrência de uma palavra corresponderia à outra em uma pesquisa.
+O stemming é o processo de reduzir uma palavra à sua forma-raiz. Isso garante que as variantes de uma palavra correspondam durante uma pesquisa. Por exemplo, “caminhando” e “caminhou” podem dar origem à mesma palavra-raiz: “caminhar”. Uma vez feita a raiz, uma ocorrência de uma palavra corresponderia à outra em uma pesquisa.
 
-Nesta versão, adicionamos a raiz para localidades em inglês, que inclui as seguintes variantes: en_US, en_AU, en_GB.
+Nesta versão, adicionamos o stemming para localidades em inglês, que inclui as seguintes variantes: en_US, en_AU e en_GB.
 
 O atributo “stemmed” menciona se o stemming é necessário nos resultados da pesquisa. Por padrão, esta opção está definida como False.
 
@@ -556,7 +556,7 @@ Permite que o aluno forneça feedback em cada nível de instância do recurso de
 
 Nesta versão, você deve enviar seções, prequisiteConstraints, prerequisiteLOs, subLOs, additionalResources, additionalLOs, instâncias, catalogLabels para o learningObject explicitamente.
 
-Por exemplo,
+Por exemplo:
 
 `enforcedFields[learningObject]=prerequisiteLOs,instances`
 
@@ -573,7 +573,7 @@ Para oferecer suporte a medalhas de instância com várias inscrições, estamos
 
 ## Notas de versão
 
-Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão](/help/migrated/release-note/release-notes.md).
+Para obter informações sobre as versões atuais e anteriores do aplicativo Web e do aplicativo de dispositivo do Learning Manager, consulte as [Notas da versão de](/help/migrated/release-note/release-notes.md).
 
 ## Problemas conhecidos ou limitações nesta versão
 
@@ -591,7 +591,7 @@ Os itens a seguir não são compatíveis ao exibir conteúdo offline no aplicati
 * Cursos, Planos de Aprendizado ou Certificações desativados.
 * Cursos, planos de aprendizado ou certificações com prazo expirado.
 * Certificados Externos.
-* Cursos, planos de aprendizado ou certificações habilitados para eCommerce.
+* Cursos habilitados para e-Commerce, Planos de Aprendizado ou Certificações.
 
 Os seguintes Caminhos de Aprendizado, Cursos ou Certificações têm alguns problemas com a sincronização offline:
 
@@ -606,10 +606,10 @@ Os itens a seguir não têm suporte para Produto/Função/Nível no novo sistema
 * Adobe Experience Manager, Teams, SFDC e Não Conectado.
 * O aplicativo para dispositivos móveis não oferece suporte à edição de produtos e funções na página de recomendação.
 * O mapeamento não é possível durante a migração.
-* Marcação automática de LinkedIn, Marketplace de conteúdo e outros cursos externos, planos de aprendizado ou certificações.
+* Marcação automática do LinkedIn, Marketplace de Conteúdo e outros Cursos externos, Planos de Aprendizado ou Certificações.
 * Revertendo para Baseado em habilidade ou Clássico depois de colocar no ar.
 * O menu de pesquisa de Produtos e Funções no aplicativo do aluno.
-* Mapeamento em massa de cursos, planos de aprendizado ou certificações e usuários no aplicativo do administrador.
+* Mapeamento em massa de Cursos, Planos de Aprendizado ou Certificações e Usuários no aplicativo do administrador.
 
 ## Requisitos do sistema
 
