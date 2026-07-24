@@ -3,9 +3,9 @@ description: Como autor, saiba como criar cursos adaptáveis para seus alunos.
 jcr-language: en_us
 title: Cursos adaptativos para autores
 contentowner: mmanuel
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Depois de adicionar um módulo de conteúdo, configure suas regras adaptáveis:
 
 **Regras-chave:**
 
-* Um aluno pertencente a vários grupos de usuários obtém o resultado mais restritivo: se qualquer grupo tornar um módulo obrigatório, ele será obrigatório para esse aluno.
+* Se qualquer grupo tornar um módulo obrigatório, ele será obrigatório para esse aluno.
 * Você deve configurar pelo menos um módulo como **Obrigatório** para pelo menos um grupo de usuários antes de poder publicar. O sistema bloqueia a publicação até que essa condição seja atendida.
 
 ### Curso em estado de rascunho
@@ -120,6 +120,10 @@ Observe que não é mais possível alterar as configurações de visibilidade no
 
 ![](assets/ac-author-008.png)
 
+>[!NOTE]
+>
+>Um aluno não pode ser colocado em lista de espera na instância de alternância; a inscrição será bloqueada.
+
 ### Adicionar ou modificar módulos
 
 1. Abra o curso publicado.
@@ -142,7 +146,7 @@ Um aluno que alterna instâncias de um curso adaptável leva o progresso adiante
 
 * Os módulos que eles já concluíram permanecem concluídos na nova instância.
 * As vagas são consumidas somente para módulos visíveis não concluídos na nova instância.
-* Se os módulos visíveis na nova instância não tiverem licenças disponíveis, o aluno será colocado em lista de espera nessas sessões.
+* Eles não podem ser colocados em lista de espera quando não há vagas disponíveis para uma instância. A inscrição será bloqueada.
 
 ## Gerenciar limites de vagas e listas de espera em cursos adaptáveis
 

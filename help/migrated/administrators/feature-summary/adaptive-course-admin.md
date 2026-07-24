@@ -3,9 +3,9 @@ description: Forneça um curso a vários públicos controlando quais módulos ca
 jcr-language: en_us
 title: Cursos adaptáveis no Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: ffaf107e8077b6a6270fa2f8afc76e721d393702
+source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,16 @@ As regras adaptativas aplicam-se apenas a **módulos de conteúdo**. As instruç
 
 - **Módulos de pré-trabalho:** mostrados a todos os alunos antes do início do conteúdo principal.
 - **Módulos de teste:** disponíveis para todos os alunos; ao concluir um teste, o curso é concluído, independentemente do status do módulo de conteúdo.
-- **Ajudas de tarefa e recursos:** Visível para todos os alunos inscritos o tempo todo.
+- **Pré-requisitos:** se um curso tiver pré-requisitos configurados, todos os alunos devem atender a esses pré-requisitos antes de se inscreverem, independentemente do grupo de usuários. Os pré-requisitos não são adaptáveis e não podem ter escopo definido para grupos de usuários específicos.
+
+As ajudas de tarefa e os recursos anexados ao curso também não são adaptativos. Eles são visíveis para todos os alunos inscritos.
+
+Habilidades, pontos de gamificação e medalhas são concedidos com base na primeira conclusão do curso do aluno e não são afetados por reconclusões resultantes de alterações no perfil.
+
+>[!NOTE]
+>
+>Quando um curso adaptável faz parte de um OA de ordem superior que é compartilhado externamente, o curso adaptável será copiado como um curso regular na conta da criança.
+
 
 ## Disponibilidade de recursos
 

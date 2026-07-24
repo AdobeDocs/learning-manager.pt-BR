@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos, incluindo alte
 jcr-language: en_us
 title: Novidades do Adobe Learning Manager na versão de agosto de 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ O Live Hub é uma experiência de treinamento virtual viabilizada por IA no Adob
 
 Principais destaques:
 
-&#x200B;- Aprimore o aprendizado ao vivo com uma experiência nativa do Adobe Learning Manager que melhora a qualidade instrucional e os resultados do aluno.
-&#x200B;- Dê aos professores um cofacilitador viabilizado por IA que orienta o engajamento por meio de pesquisas inteligentes, suporte a perguntas e respostas e insights de sala de sessão de grupo.
-&#x200B;- Ajude os alunos a obter mais de cada sessão com resumos gerados por IA e gravações de sessão pesquisáveis por tópicos.
-&#x200B;- Meça o que é importante com análises de envolvimento que vão além da participação para revelar a participação real no aprendizado.
-&#x200B;- Ajude seus autores a usar o localizador de professores viabilizado por IA para combinar com o professor certo por habilidades, disponibilidade, horários preferenciais, fuso horário e utilização atual.
+* Aprimore o aprendizado ao vivo com uma experiência nativa do Adobe Learning Manager que melhora a qualidade instrucional e os resultados do aluno.
+* Dê aos professores um cofacilitador viabilizado por IA que orienta o engajamento por meio de pesquisas inteligentes, suporte a perguntas e respostas e insights de sala de sessão de grupo.
+* Ajude os alunos a obter mais de cada sessão com resumos gerados por IA e gravações de sessão pesquisáveis por tópicos.
+* Meça o que é importante com análises de envolvimento que vão além da participação para revelar a participação real no aprendizado.
+* Ajude seus autores a usar o localizador de professores viabilizado por IA para combinar com o professor certo por habilidades, disponibilidade, horários preferenciais, fuso horário e utilização atual.
 
 ## Criador de modelos de email baseados em componentes
 
@@ -128,6 +128,8 @@ Principais recursos:
 * O administrador pode configurar campos obrigatórios, incluindo campos personalizados
 * Novas colunas nas transcrições do administrador e do aluno: nome do aprendizado externo, comentário de conclusão, colunas de campo personalizado
 * Suporte à API: cinco novos pontos de extremidade no escopo do aluno para criar, recuperar e atualizar envios
+
+Para obter mais informações no nível de administrador, consulte [Suporte a aprendizado externo](/help/migrated/administrators/feature-summary/settings/basic-settings.md). Para obter mais informações no nível de gerente, consulte [Suporte de aprendizado externo](/help/migrated/managers/feature-summary/review-external-learning-requests.md). Para obter mais informações no nível do aluno, consulte [Suporte de aprendizado externo](/help/migrated/learners/feature-summary/submit-external-learning.md).
 
 ## Recursos de IA
 
@@ -209,7 +211,7 @@ Os locais de sala de aula agora oferecem suporte a um **formato de local de quat
 
 Para mais informações, consulte [Locais de sala de aula](/help/migrated/administrators/feature-summary/classroom.md)
 
-## Adobe Learning Manager Content Composer
+## Em breve: Adobe Learning Manager Content Composer
 
 O Adobe Learning Manager Content Composer é uma futura ferramenta de criação de curso de IA no Adobe Learning Manager que ajuda a criar um curso pronto para publicação em um piscar de olhos.
 
