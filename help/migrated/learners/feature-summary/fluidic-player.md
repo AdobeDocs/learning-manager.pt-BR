@@ -4,18 +4,18 @@ jcr-language: en_us
 title: Fluidic Player
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 48%
+source-wordcount: '650'
+ht-degree: 52%
 
 ---
 
-# Fluidic Player
+# Recurso
 
 Leia este artigo para saber como usar o Fluidic Player nos cursos.
 
-O Fluidic Player é uma plataforma para que os alunos consumam conteúdo com uma experiência de aprendizagem combinada e sem interrupções. Todos os formatos compatíveis são reproduzidos consistentemente neste reprodutor. Os autores e os administradores podem visualizar o conteúdo usando o reprodutor.
+O Fluidic Player é uma plataforma para que os alunos consumam conteúdo com uma experiência de aprendizagem combinada e sem interrupções. Todos os formatos suportados são reproduzidos consistentemente nesse reprodutor. Os autores e os administradores podem visualizar o conteúdo usando o reprodutor.
 
 ## Recursos do reprodutor {#playerfeatures}
 
@@ -38,7 +38,7 @@ O Fluidic Player é uma plataforma para que os alunos consumam conteúdo com uma
 * Clique em Rever enquanto o curso ainda estiver no estado concluído.
 * Clique em Continuar enquanto o curso ainda estiver no estado concluído.
 
-**Tela cheia** Clique no ícone Tela cheia, no canto inferior direito do reprodutor, para exibir o curso na janela de tela cheia.
+**Tela inteira** – Clique no ícone de tela inteira no canto inferior direito do reprodutor para ver o curso na janela de tela inteira.
 
 **Botões de navegação** – Use as setas para cima ou para baixo para mover-se através dos slides no conteúdo do pdf, do docx e do pptx. As setas do slide podem ser usadas para ir para os tópicos seguintes de todos os tipos de conteúdo.
 
@@ -62,7 +62,7 @@ Depois de sair do curso, você pode rever o curso clicando no botão **Rever** /
 
 **Reprodução automática**: o Fluidic Player do Adobe Learning Manager não tem uma opção incorporada para impedir a reprodução automática de vídeos. A reprodução automática de um vídeo depende das configurações do navegador, não do reprodutor em si.
 
-O Fluidic Player também pode ser incorporado em um site ou aplicativo externo usando a API do Learning Manager.
+O Fluidic Player também pode ser incorporado em um site ou aplicativo externos usando a API do Learning Manager.
 
 O fluidic player móvel tem as seguintes funções:
 
@@ -70,3 +70,18 @@ O fluidic player móvel tem as seguintes funções:
 * Se não houver interação com a barra de navegação, ela desaparecerá após 3 segundos.
 * A barra de navegação permanecerá ativa até que os itens do menu de navegação (Sumário, Observações, Configurações) sejam fechados.
 
+**Suporte para 11 idiomas**: o fluidic player oferece suporte para 11 idiomas. São eles:
+
+| Idioma | Território | Identificador IBM |
+|---|---|---|
+| Árabe | Arábia Saudita | ar-SA |
+| Chinês tradicional | RAE de Hong Kong da China | zh-Hant-HK |
+| Chinês tradicional | Taiwan | zh-Hant-TW |
+| Tcheco | República Tcheca | cs-CZ |
+| Dinamarquês | Dinamarca | da-DK |
+| Hebraico | Israel | he-IL |
+| Húngaro | Hungria | hu-HU |
+| Indonésio | Indonésia | id-ID |
+| Romeno | Romênia | ro-RO |
+| Tailandês | Tailândia | th-TH |
+| Ucraniano | Ucrânia | uk-UA |

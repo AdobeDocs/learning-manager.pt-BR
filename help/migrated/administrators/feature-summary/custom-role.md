@@ -4,16 +4,20 @@ title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '3466'
-ht-degree: 31%
+source-wordcount: '5437'
+ht-degree: 24%
 
 ---
 
 # Funções personalizadas
 
 Esse recurso ajuda a definir funções personalizadas e atribuir responsabilidades específicas a um conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
+
+O Adobe Learning Manager permite que os administradores completos deleguem responsabilidades de gerenciamento de função personalizada a administradores personalizados confiáveis, incluindo a criação, edição e atribuição de funções personalizadas, sem fornecer a eles credenciais de administrador completas. Esse recurso permite que administradores personalizados gerenciem outras funções sem sobrecarregar administradores com obrigações. Isso é controlado por meio do nível de permissão **Avançado** na seção **Usuários** de uma definição de função personalizada. Consulte [O que a permissão avançada de usuário desbloqueia](#advanced-user) para obter mais informações.
+
+As organizações usam esse recurso para delegar o gerenciamento de funções de rotina a administradores personalizados designados. Por exemplo, para permitir que uma equipe dedicada crie e atribua funções de editor ou autor de forma contínua ou para permitir que uma equipe de operações limpe contas de usuários que deixaram a organização. Isso evita a necessidade de dar a essas equipes acesso total de administrador, que carrega privilégios mais amplos do que suas responsabilidades exigem.
 
 Você pode criar uma função personalizada para fornecer habilidades limitadas de criação de um catálogo específico. Também pode criar uma função dedicada ao gerenciamento de relatórios. Tais funções podem, então, ser atribuídas a indivíduos que deveriam assumir essas responsabilidades específicas.
 
@@ -29,11 +33,11 @@ Autores personalizados podem realizar as seguintes tarefas:
 
 * Acesse a biblioteca de conteúdo para adicionar, editar ou excluir conteúdo principal.
 * Criar, editar e excluir:
-   * Cursos
-   * Ajudas de tarefa
-   * Certificações
-   * Caminhos de aprendizado
-   * Planos de aprendizado
+  * Cursos
+  * Ajudas de tarefa
+  * Certificações
+  * Caminhos de aprendizado
+  * Planos de aprendizado
 
 Os administradores e autores, incluindo administradores personalizados e autores personalizados, terão a capacidade de compartilhar objetos de aprendizado (LOs) em catálogos compartilhados externamente. Os administradores e autores devem poder pesquisar catálogos compartilhados externamente ao criar objetos de aprendizado (LOs).
 
@@ -44,7 +48,7 @@ A função de administrador personalizada replica um conjunto de responsabilidad
 * Planos de aprendizado
 * Catálogos
 * Relatórios
-* Tags
+* Etiquetas
 
 Além disso, os administradores personalizados podem:
 
@@ -86,7 +90,7 @@ _Filtrar funções personalizadas_
 
    * Catálogos
    * Relatórios
-   * Tags
+   * Etiquetas
 
    ![](assets/core-features.png)
 
@@ -95,14 +99,14 @@ _Filtrar funções personalizadas_
 6. **Privilégios do recurso- Objetos de Aprendizado:** use esta opção para fornecer acesso aos recursos relacionados aos OAs. Os administradores podem fornecer permissões detalhadas para todos os objetos de aprendizado, incluindo cursos, programações de aprendizado, certificações e ajudas de tarefa. Eles podem atribuir permissões aos usuários, como criar, editar, excluir ou acesso somente leitura.
 
    * Certificações
-   * Cursos 
+   * Cursos
    * Ajudas de tarefa
    * Programas de aprendizado
 
    Você também pode conceder um controle de operação específico para os objetos de aprendizado. A permissão pode ser uma das seguintes opções:
 
    * Somente leitura
-   * Criar 
+   * Criar
    * Editar
    * Excluir
    * Inscrição
@@ -283,6 +287,207 @@ Os usuários com função personalizada podem:
    * Um administrador personalizado com permissão para Configurações poderá configurar o agendamento para sincronizar ou sincronizar usuários da Fonte de dados, mesmo se não tiver permissão para a entidade Usuários.
    * Se um administrador personalizado tiver permissão na entidade Usuários, ele poderá atribuir a si mesmo a função de administrador e se tornar um administrador padrão.
 
+## <a id="advanced-user"></a>O que a permissão avançada de usuário desbloqueia {#whatadvanceduserpermissionunlocks}
+
+Quando um administrador completo habilita o acesso **Avançado** sob **Usuários** em uma função personalizada, o administrador personalizado obtém acesso a quatro seções adicionais: **Funções personalizadas**, **Logs de importação**, **Campos ativos** e **Limpeza de usuário**.
+
+Dois níveis de acesso estão disponíveis:
+
+* **Somente Leitura**: o administrador personalizado pode exibir informações e baixar relatórios, mas não pode fazer alterações.
+* **Controle Total**: o administrador personalizado pode criar, editar e excluir funções personalizadas, importar usuários e limpar usuários excluídos.
+
+### Herança de permissão e escopo
+
+Quando um administrador personalizado cria uma nova função personalizada ou modifica uma existente, as permissões e o escopo que podem atribuir são limitados ao que eles próprios mantêm. Um administrador personalizado não pode conceder permissões de função que excedam a própria e não pode estender o escopo de uma função para além do escopo atribuído por ele.
+
+Isso significa que um administrador personalizado com acesso a um catálogo específico só pode criar funções com escopo para esse catálogo ou um subconjunto dele. Da mesma forma, eles só podem atribuir permissões que eles próprios detêm às funções que criam.
+
+Ao atribuir usuários a uma função que você criou, é possível pesquisar e adicionar qualquer usuário na conta. Permissões relacionadas ao usuário em funções personalizadas sempre se aplicam ao escopo completo do grupo de usuários e ao escopo completo do catálogo. O escopo do grupo de usuários ou do catálogo não se aplica quando uma função personalizada inclui permissões de gerenciamento de usuários.
+
+Se um administrador completo reduzir seu escopo ou remover uma permissão de sua função, quaisquer funções criadas anteriormente não serão afetadas imediatamente. Essas funções continuam a operar com suas permissões existentes até que um administrador completo abra e salve cada uma individualmente.
+
+## Conceder permissões de usuário avançadas a uma função personalizada
+
+Os administradores completos concluem esse procedimento para ativar o gerenciamento de usuários expandido para uma função personalizada.
+
+1. Faça logon no Adobe Learning Manager como administrador.
+2. Selecione **Usuários** na navegação à esquerda e selecione **Funções Personalizadas**.
+3. Selecione **Criar Função Personalizada** para criar uma nova função ou selecione uma função existente para editá-la.
+4. Em **Privilégios de Conta**, localize a seção **Usuários**.
+5. Na seção **Usuários Avançados**, selecione **Somente Leitura** ou **Controle Total** com base no nível de acesso necessário.
+6. Adicionar usuários à função na seção **Usuários**.
+7. Selecione **Salvar**.
+
+Os usuários atribuídos agora podem acessar as seções **Funções personalizadas**, **Campos ativos**, **Logs de importação** e **Limpeza de usuário** após o logon.
+
+## O que os administradores personalizados podem fazer com o acesso somente leitura
+
+### Importar registros
+
+Administradores personalizados com acesso somente leitura podem exibir todos os logs de importação na conta. O botão **Adicionar** não está disponível. Não podem ser iniciadas novas importações.
+
+### Limpeza de usuários
+
+A seção **Limpeza do Usuário** está disponível no modo somente exibição. Os administradores personalizados podem:
+
+* Exibir a lista de usuários excluídos
+* Pesquisar usuários específicos
+* Filtrar usuários excluídos por mês de exclusão
+* Exibir outros usuários na conta
+
+Nenhuma ação, como limpar, está disponível no acesso **Somente Leitura**.
+
+### Funções personalizadas
+
+Os administradores personalizados podem exibir todas as definições de função personalizadas na conta, incluindo as permissões atribuídas e as listas de usuários. Eles podem baixar o relatório de funções personalizadas. Eles não podem editar, criar ou excluir qualquer função.
+
+## O que os administradores personalizados podem fazer com o acesso de Controle total
+
+**Importar Logs**
+
+Administradores personalizados com controle total podem exibir todos os registros e adicionar ou importar novos usuários por meio de CSV.
+
+**Limpeza do Usuário**
+
+O Controle Total dá acesso a todas as ações de limpeza do usuário:
+
+* Exibir, pesquisar e filtrar usuários excluídos por mês de exclusão
+* Selecionar usuários individuais ou selecionar tudo
+* Remover usuários excluídos do sistema
+* Procurar e remover outros usuários
+
+**Funções personalizadas**
+
+Administradores personalizados com controle total podem:
+
+* Criar novas funções personalizadas, com permissões iguais ou menores que suas próprias
+* Editar funções personalizadas existentes
+* Excluir funções personalizadas
+* Atribuir usuários a funções personalizadas
+* Remover usuários de funções personalizadas
+* Baixar o relatório de funções personalizadas
+* Filtrar a lista de funções por **Todas**, **Criadas na interface do usuário** ou **Criadas no CSV**
+
+>[!NOTE]
+>
+>Os administradores personalizados não podem se adicionar a outra função e também não podem editar sua própria função com permissões mais altas.
+
+>[!IMPORTANT]
+>
+>As funções criadas por um administrador personalizado podem incluir acesso às Funções personalizadas, incluindo a permissão de usuário Avançada que permite o gerenciamento de Funções personalizadas. Isso significa que um administrador personalizado com Controle Total pode criar funções que concedem a outros usuários os mesmos recursos de Funções Personalizadas que eles possuem. As permissões disponíveis durante a criação da função ainda estão sujeitas ao modelo de delegação padrão. O administrador personalizado só pode atribuir permissões que ele detém pessoalmente, a menos que a conta tenha expandido a administração de funções habilitada.
+
+### Exemplo - Criar funções com escopo como um administrador personalizado
+
+Um administrador completo concede a um administrador personalizado Controle total com acesso a dois catálogos de produtos. O administrador personalizado então:
+
+1. Cria uma função de editor com escopo para o primeiro catálogo e atribui autores a ele
+1. Cria uma segunda função de editor com escopo para o segundo catálogo e atribui um conjunto diferente de autores
+1. Atribui novos autores, que fazem parte da equipe, à função apropriada, sem envolver o administrador total
+
+Cada função que o administrador personalizado cria herda um subconjunto das permissões do administrador personalizado. Os autores atribuídos a essas funções podem acessar e publicar conteúdo em seus respectivos catálogos. Eles não podem gerenciar funções personalizadas por conta própria, porque a seção Funções personalizadas não está disponível em funções criadas por administradores personalizados.
+
+## Comparação de recursos
+
+| Seção | Somente leitura | Controle total |
+|---|---|---|
+| Importar Logs: exibir logs | ✓ | ✓ |
+| Importar Logs: adicionar ou importar usuários via CSV | — | ✓ |
+| Limpeza do Usuário: exibir usuários excluídos, pesquisar, filtrar | ✓ | ✓ |
+| Limpeza do Usuário: limpar usuários excluídos | — | ✓ |
+| Funções Personalizadas: exiba todas as funções e definições | ✓ | ✓ |
+| Funções Personalizadas: baixar relatório de funções personalizadas | ✓ | ✓ |
+| Funções personalizadas: criar, editar e excluir funções | — | ✓ |
+| Funções personalizadas: atribuir e remover usuários | — | ✓ |
+
+## Compatibilidade com versões anteriores
+
+Se uma conta tiver funções personalizadas existentes com acesso **Avançado** habilitado, essas funções incluirão automaticamente acesso a Logs de Importação quando sua conta for atualizada. Se o Acesso avançado estiver desativado no momento em uma função, não haverá alterações. A função continua a se comportar como antes.
+
+>[!NOTE]
+>
+>Se as Opções avançadas de acesso estiverem ativadas para usuários, verifique quais funções têm esse privilégio e confirme se essas funções têm a intenção de mantê-lo.
+
+## Trilha de auditoria para alterações de função personalizada
+
+Todas as alterações em funções personalizadas, incluindo criação, edição, exclusão e atribuição de usuário, são registradas no relatório de auditoria de funções personalizadas. O relatório de auditoria agora mostra o nome da função personalizada responsável por cada alteração, em vez de um rótulo de administrador genérico. Nenhuma configuração é necessária para habilitar esse comportamento.
+
+Administradores completos podem acessar o relatório de auditoria da seção **Relatórios**.
+
+## Casos de uso reais
+
+### Equipe de gerenciamento de funções
+
+Uma grande organização tem uma equipe dedicada responsável por criar e atribuir funções de autor de conteúdo em dezenas de catálogos de produtos. Anteriormente, cada nova função exigia um administrador completo para criá-la. Com acesso de Controle Total, a equipe de gerenciamento de funções pode criar funções de editor e autor com escopo para catálogos específicos, atribuir novos autores e gerenciar essas funções de forma independente, sem qualquer envolvimento total do administrador para operações de rotina.
+
+### Gerenciamento das operações de RH e do ciclo de vida do usuário
+
+Uma equipe de operações de RH é responsável pela limpeza de contas quando os funcionários deixam a organização. Eles precisam remover os usuários excluídos regularmente, mas não devem ter acesso ao conteúdo do curso, aos dados do aluno ou às configurações do sistema. Conceder acesso de Controle Total Avançado, com escopo apenas para gerenciamento de usuários, dá à equipe de RH o acesso específico de que ela precisa para a limpeza do usuário e a importação sem expor outras funções administrativas.
+
+### Equipe de conformidade e auditoria
+
+Uma equipe de auditoria interna precisa revisar periodicamente quais funções personalizadas existem, quais permissões elas incluem e quem detém cada função. Com o acesso Somente Leitura, a equipe de auditoria pode exibir todas as definições de função e baixar o relatório de funções personalizadas para revisão, mas não pode modificar nada.
+
+## O que os administradores personalizados podem fazer
+
+Os procedimentos a seguir aplicam-se a administradores personalizados com acesso de **Controle Total**. Entre como administrador personalizado e navegue até **Usuários** > **Funções personalizadas** para começar.
+
+### Revisar funções personalizadas existentes
+
+1. Selecione **Usuários** > **Funções Personalizadas**.
+1. Use o menu suspenso de filtro para restringir a lista:
+
+   * **Todos**: cada função na conta
+   * **Criado da interface do usuário**: funções criadas manualmente
+   * **Criado a partir do CSV**: funções importadas via CSV
+
+1. Selecione um nome de função para abrir sua definição completa, incluindo permissões, escopo e usuários atribuídos.
+
+### Criar uma nova função personalizada
+
+1. Selecione **Usuários** > **Funções personalizadas** e selecione **Criar Função**.
+1. Insira um nome para a função.
+1. Em **Privilégios de Conta**, configure as permissões. Somente as permissões no seu próprio escopo estão disponíveis para seleção. As permissões fora do escopo aparecem desativadas.
+1. Defina o catálogo e o escopo do grupo de usuários para a função.
+1. Na seção **Usuários**, pesquise e adicione os usuários que terão essa função.
+1. Selecione **Salvar**.
+
+>[!NOTE]
+>
+>Você não pode se adicionar a uma função criada e não pode criar uma função com permissões que excedam as suas. Se uma permissão for desabilitada durante a criação da função, ela estará fora do escopo atual.
+
+### Editar uma função personalizada
+
+1. Selecione **Usuários** > **Funções personalizadas** e abra a função que deseja atualizar.
+1. Selecione **Editar**.
+1. Atualize o nome, as permissões, o escopo ou as atribuições do usuário conforme necessário.
+1. Selecione **Salvar**.
+
+>[!NOTE]
+>
+>Você não pode editar as permissões de sua própria função personalizada. Entre em contato com um administrador completo se for necessário fazer alterações em sua própria função.
+
+### Atribuir usuários a uma função personalizada
+
+1. Abra a função personalizada de **Usuários** > **Funções personalizadas**.
+1. Na seção **Usuários**, procure o usuário que deseja adicionar.
+1. Selecione o usuário para adicioná-lo à função.
+1. Selecione **Salvar**.
+
+### Remover usuários de uma função personalizada
+
+1. Abra a função personalizada de **Usuários** > **Funções personalizadas**.
+1. Na seção **Usuários**, localize o usuário que você deseja remover.
+1. Selecione a ação de remoção ao lado do nome.
+1. Selecione **Salvar**.
+
+### Remover usuários excluídos
+
+1. Selecione **Usuários** na navegação à esquerda.
+1. Selecione **Limpeza de Usuário**.
+1. Use o campo de pesquisa ou o filtro Mês de exclusão para localizar os usuários que deseja remover.
+1. Marque a caixa de seleção ao lado de usuários individuais ou selecione **Selecionar tudo** para selecionar todos os resultados.
+1. Selecione **Ações** > **Limpar Usuário**.
+
 ## Atribuir várias funções personalizadas a um usuário
 
 É possível atribuir várias funções personalizadas a usuários usando as seguintes maneiras:
@@ -420,15 +625,15 @@ Consulte este artigo [Trilha de auditoria para funções personalizadas](/help/m
 
 ## Restringir o acesso de pasta para autores personalizados {#folder-custom-author}
 
-O Learning Manager já é compatível com a capacidade de fornecer acesso à biblioteca de conteúdo usando funções personalizadas. Todos os autores personalizados que já têm acesso à biblioteca de conteúdo continuarão a ter acesso a todos os arquivos de conteúdo mesmo depois que as pastas de conteúdo forem configuradas. Isso é para manter o comportamento herdado. Os administradores não precisam fazer alterações caso desejem continuar com o comportamento atual.
+O Learning Manager já oferece suporte à capacidade de conceder acesso à biblioteca de conteúdo usando funções personalizadas. Todos os autores personalizados que já têm acesso à biblioteca de conteúdo continuarão a ter acesso a todos os arquivos de conteúdo mesmo depois que as pastas de conteúdo forem configuradas. Isso é para manter o comportamento herdado. Os administradores não precisam fazer alterações caso queiram continuar com o comportamento atual.
 
-Caso desejem restringir o acesso a esses autores personalizados, os administradores precisam editar a função personalizada existente e configurá-la, fornecendo acesso apenas a pastas de conteúdo específicas.
+Caso deseje restringir o acesso a esses autores personalizados, os administradores precisam editar a função personalizada existente e configurá-la fornecendo acesso apenas a pastas de conteúdo específicas.
 
 ![](assets/folder-access-forcustomauthors.png)
 
 *Restringir o acesso de pasta para autores personalizados*
 
-Ao criar um autor personalizado, será possível atribuir pastas de conteúdo ao autor. Escolha a opção **Pastas Selecionadas**.
+Ao criar um autor personalizado, será possível atribuir pastas de conteúdo ao autor. Escolha a opção **Pastas selecionadas**.
 
 Depois de clicar na opção, uma nova caixa de diálogo é aberta. Nela, você poderá atribuir as pastas ao autor personalizado.
 
@@ -440,13 +645,13 @@ Escolha as pastas e clique em **[!UICONTROL OK]**.
 
 ## Painel Resumo do aprendizado para administrador personalizado {#custom-admin-dashboard}
 
-Os administradores personalizados podem ver a mesma exibição que um administrador vê. Um administrador personalizado pode ter dados fora deste escopo. Isso só é aplicável se o administrador personalizado tiver escopo completo. Para conceder um escopo completo, ao criar um administrador personalizado, habilite a opção **[!UICONTROL Controle Total]** no Relatório de Resumo da Conta.
+Os administradores personalizados podem ver a mesma exibição que um administrador vê. Um administrador personalizado pode ter dados fora do escopo. Isso só é aplicável se o administrador personalizado tiver escopo completo. Para conceder um escopo completo, ao criar um administrador personalizado, ative a opção **[!UICONTROL Controle total]** no Relatório de resumo da conta.
 
 ![](assets/create-custom-role.png)
 
 *Criar uma função personalizada*
 
-Como resultado, as opções **[!UICONTROL Todos os catálogos]** e **[!UICONTROL Todos os grupos de usuários]** serão selecionadas e o restante desabilitado.
+Como resultado, as opções **[!UICONTROL Todos os catálogos]** e **[!UICONTROL Todos os grupos de usuários]** serão selecionadas e o restante desativado.
 
 ![](assets/scope-of-featureprivileges.png)
 
@@ -454,7 +659,7 @@ Como resultado, as opções **[!UICONTROL Todos os catálogos]** e **[!UICONTROL
 
 ## Permissões implícitas {#implicitpermissions}
 
-Quando um usuário recebe uma função com uma entidade específica, pode haver casos em que ele precisa de acesso a outras entidades para poder executar tarefas na entidade concedida. Por exemplo, se um usuário tiver acesso de criação na entidade do curso, ele precisará acessar as entidades Habilidade e Marca para poder associá-las ao curso que está sendo criado. Estas tabelas fornecem informações sobre essas permissões implícitas.
+Quando um usuário recebe uma função com uma entidade específica, pode haver casos nos quais ele precise acessar outras entidades para poder executar tarefas na entidade concedida. Na Instância, se um usuário recebe o acesso Criar na entidade Curso, ele precisa ter acesso às entidades Habilidades e Etiqueta para que ele possa se associar ao curso que está sendo criado. Estas tabelas fornecem informações sobre essas permissões implícitas.
 
 <table>
  <tbody>
@@ -489,7 +694,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
    <td>Criar</td>
    <td>Curso</td>
    <td>Grupo de conteúdo<br>
-     Marca<br>
+     Tag<br>
      Habilidade<br>
      Medalha<br>
      Ajuda de tarefa</td>
@@ -500,7 +705,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
    <td>Programa de aprendizado<br>
      Certificação<br></td>
    <td>Curso<br>
-     Marca<br>
+     Tag<br>
      Habilidade<br>
      Medalha</td>
    <td>Ler</td>
@@ -509,7 +714,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
    <td>Criar</td>
    <td>Plano de aprendizado</td>
    <td>Catálogo<br>
-     Grupo<br>
+     Agrupar<br>
      Habilidade<br>
      Todas as perdas (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
    <td>Ler</td>
@@ -518,7 +723,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
    <td>Criar</td>
    <td>Anúncio</td>
    <td>Usuário<br>
-     Grupo<br>
+     Agrupar<br>
      Todas as perdas (curso, ajuda de tarefa, programa de aprendizado, certificação)</td>
    <td>Ler</td>
   </tr>
@@ -544,7 +749,7 @@ Quando um usuário recebe uma função com uma entidade específica, pode haver 
   <tr>
    <td>*</td>
    <td>Configuração</td>
-   <td>Identidade visual<br>
+   <td>Marca<br>
      Usuário</td>
    <td>Ler</td>
   </tr>
@@ -576,7 +781,7 @@ Para alternar entre funções, clique no ícone do perfil no canto superior dire
 
 Em versões anteriores do Learning Manager, qualquer função personalizada com permissão para criar planos de aprendizado podia ampliar o escopo do plano de aprendizado a todos os tipos de grupos de usuários e objetos de aprendizado.
 
-A configuração do escopo costumava ser desativada quando o acesso ao plano de aprendizado era concedido, o que dava ao usuário acesso a Todos os catálogos e Todos os grupos de usuários por padrão.
+A configuração de escopo era desativada quando era concedido acesso ao plano de aprendizado, o que dava ao usuário acesso a todos os catálogos e a todos os grupos de usuários por padrão.
 
 Todos os planos de aprendizado criados por um administrador, por padrão, são aplicáveis a todos os usuários. Os usuários também podem ser atribuídos a qualquer objeto de aprendizado. Por outro lado, os usuários com funções personalizadas têm acesso a escopos completos, por exemplo, todos os catálogos, objetos de aprendizado ou grupos de usuários. Isso significava que os administradores não conseguiam criar funções personalizadas conforme o esperado, o que permitia o acesso aos planos de aprendizado para usuários com escopo limitado.
 
@@ -656,12 +861,29 @@ Se um administrador alterar os pontos de nível, os relatórios mostrarão os n�
 
 Redefinir gamificação não redefine o nível atingido.
 
-## Perguntas frequentes {#frequentlyaskedquestions}
+## Perguntas frequentes
 
-+++Como criar uma função personalizada?
+**O que acontece se um administrador completo remover uma permissão da minha função personalizada?**
 
-Uma função personalizada é como um subconjunto de uma função de autor ou administrador. Permita um ou vários privilégios, defina o escopo e atribua a função a um usuário.
+Sua função mantém as permissões existentes até a próxima vez que um administrador completo abrir e salvar sua definição de função. A alteração não tem efeito imediatamente. Suas permissões atuais permanecem em vigor até que sua função seja explicitamente editada e salva.
 
-Clique em **[!UICONTROL Usuários]** > **[!UICONTROL Funções personalizadas]**. Na página Funções personalizadas, clique em **[!UICONTROL Criar função]**. Insira o nome da função personalizada e defina os privilégios para a função. Para mais informações, consulte [Criar uma função personalizada](custom-role.md#create-role).
-+++
+**Posso conceder acesso ao catálogo de funções aos catálogos que não posso acessar?**
+
+Não. O escopo de qualquer função criada é limitado aos catálogos e grupos de usuários dentro de seu próprio escopo. Não é possível criar uma função com acesso mais amplo do que o que você mesmo retém, a menos que o administrador tenha configurado sua conta para permitir a administração de função expandida.
+
+**Qual é a diferença entre Somente Leitura e Controle Total?**
+
+**Somente Leitura** oferece a capacidade de exibir **Funções Personalizadas**, Campos Ativos, **Logs de Importação** e **Limpeza de Usuário**. Você pode procurar, pesquisar e baixar relatórios, mas não pode executar nenhuma ação. O **Controle Total** oferece todos esses recursos, além da capacidade de criar, editar e excluir funções, importar usuários via CSV, atribuir e remover usuários de funções e limpar usuários excluídos.
+
+**Posso atribuir a uma função as mesmas permissões que tenho?**
+
+Sim Você pode atribuir qualquer permissão que você possua pessoalmente às funções que criar. Você não pode exceder seu próprio conjunto de permissões, mas pode criar funções com o mesmo nível de acesso que você tem ou qualquer subconjunto dele.
+
+**A trilha de auditoria mostra quem eu sou quando faço alterações?**
+
+Sim O relatório de auditoria lista sua função personalizada como a origem de cada alteração. Isso significa que os administradores completos podem ver qual função personalizada fez determinada alteração no sistema.
+
+**O que acontece com as funções existentes quando este recurso está habilitado para a conta?**
+
+Funções personalizadas existentes com acesso **Avançado** já habilitadas obtêm acesso automático aos **Logs de Importação**. Todos os outros comportamentos existentes permanecem inalterados. As funções que não têm acesso Avançado ativado não são afetadas.
 

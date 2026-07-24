@@ -3,12 +3,13 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de o
 jcr-language: en_us
 title: Novidades na versão de outubro de 2025 do Adobe Learning Manager
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: f200caa15d4e58ce1a4b947c1d5b8a35ba87afc3
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5643'
+source-wordcount: '5580'
 ht-degree: 0%
 
 ---
+
 
 # Novidades na versão de outubro de 2025 do Adobe Learning Manager
 

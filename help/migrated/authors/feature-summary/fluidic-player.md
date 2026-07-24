@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Visualizar como aluno
-description: O Fluidic Player é uma plataforma para que os alunos consumam conteúdo com uma experiência de aprendizagem combinada e sem interrupções. Todos os formatos compatíveis são reproduzidos consistentemente neste reprodutor. Os autores e os administradores podem visualizar o conteúdo usando o reprodutor.
+description: O Fluidic Player é uma plataforma para que os alunos consumam conteúdo com uma experiência de aprendizagem combinada e sem interrupções. Todos os formatos suportados são reproduzidos consistentemente nesse reprodutor. Os autores e os administradores podem visualizar o conteúdo usando o reprodutor.
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 56%
+source-wordcount: '275'
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 56%
 
 ## Fluidic Player {#fluidicplayer}
 
-O Fluidic Player é uma plataforma para que os alunos consumam conteúdo com uma experiência de aprendizagem combinada e sem interrupções. Todos os formatos compatíveis são reproduzidos consistentemente neste reprodutor. Os autores e os administradores podem visualizar o conteúdo usando o reprodutor.
+O Fluidic Player é uma plataforma para que os alunos consumam conteúdo com uma experiência de aprendizagem combinada e sem interrupções. Todos os formatos suportados são reproduzidos consistentemente nesse reprodutor. Os autores e os administradores podem visualizar o conteúdo usando o reprodutor.
 
 Ao criar os cursos, os autores têm a opção de visualizar o curso.
 
@@ -23,8 +23,26 @@ Ao criar os cursos, os autores têm a opção de visualizar o curso.
 
 **Índice** Ao visualizar um curso, o reprodutor exibe um índice desse curso em particular no painel esquerdo da janela. Você pode clicar em cada tópico e navegar até ele diretamente.
 
-**Tela inteira** Clique no ícone Tela inteira no canto inferior direito do reprodutor para exibir o curso na janela de tela inteira.
+**Tela inteira** – Clique no ícone de tela inteira no canto inferior direito do reprodutor para ver o curso na janela de tela inteira.
 
-**Botões de navegação** Você pode clicar nas setas para cima/para baixo para mover pelos slides em conteúdo pdf, docx e pptx. As setas do slide podem ser usadas para ir para os tópicos seguintes de todos os tipos de conteúdo.
+**Botões de navegação** – Você pode clicar nas setas para cima/para baixo para mover-se através dos slides no conteúdo do pdf, do docx e do pptx. As setas do slide podem ser usadas para ir para os tópicos seguintes de todos os tipos de conteúdo.
 
 **Fechar o curso** – Clique no ícone de fechamento (x) no canto superior direito do reprodutor para sair o curso.
+
+## Suporte para 11 idiomas
+
+O Fluidic Player suporta 11 idiomas. São eles:
+
+| Idioma | Território | Identificador IBM |
+|---|---|---|
+| Árabe | Arábia Saudita | ar-SA |
+| Chinês tradicional | RAE de Hong Kong da China | zh-Hant-HK |
+| Chinês tradicional | Taiwan | zh-Hant-TW |
+| Tcheco | República Tcheca | cs-CZ |
+| Dinamarquês | Dinamarca | da-DK |
+| Hebraico | Israel | he-IL |
+| Húngaro | Hungria | hu-HU |
+| Indonésio | Indonésia | id-ID |
+| Romeno | Romênia | ro-RO |
+| Tailandês | Tailândia | th-TH |
+| Ucraniano | Ucrânia | uk-UA |

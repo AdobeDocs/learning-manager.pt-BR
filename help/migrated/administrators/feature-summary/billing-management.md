@@ -4,12 +4,13 @@ jcr-language: en_us
 title: Gerenciar pedidos e faturamento do Learning Manager
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 69%
+source-wordcount: '3488'
+ht-degree: 37%
 
 ---
+
 
 # Gerenciar pedidos e faturamento do Learning Manager
 
@@ -23,6 +24,93 @@ Somente os administradores da sua empresa podem gerenciar o faturamento.
 
 Se quiser entrar em contato com a Adobe para obter mais informações sobre a assinatura e o faturamento do Learning Manager, escreva para [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
 
+## A página Faturamento
+
+Para acessar a página Faturamento, faça logon no Adobe Learning Manager como administrador e selecione **[!UICONTROL Faturamento]** no painel de navegação esquerdo.
+
+A página Faturamento contém as seguintes guias:
+
+| Guia | Finalidade |
+|---|---|
+| **Assinatura** | Exiba detalhes da conta, direitos de licença e consumo de licenças. Gerenciar ativação de plano. |
+| **Histórico de pedidos** | Revisar pedidos anteriores feitos na conta. |
+
+### Guia Assinatura
+
+**Detalhes da conta**
+
+O cartão **Detalhes da conta** na parte superior da guia **Assinatura** exibe quatro identificadores somente leitura para sua conta.
+
+| Campo | Descrição |
+|---|---|
+| **ECCID** | número de referência da Adobe para sua conta. Faça uma citação ao entrar em contato com o suporte de Adobe. |
+| **ID da conta** | O identificador exclusivo da sua conta da Adobe Learning Manager. |
+| **Nome da conta** | O nome para exibição da sua conta da Adobe Learning Manager. |
+| **ID da Organização IMS** | A organização do Adobe Admin Console vinculada a esta conta. Em branco, se ainda não estiver vinculado. |
+
+**Licenças**
+
+A seção **Licenças** lista todas as licenças ou direitos ativos na conta. Cada bloco mostra o nome da licença, uma descrição do plano, quando aplicável, e uma linha de status mostrando os valores de consumo do período do contrato atual.
+
+As colunas da linha de estatísticas variam de acordo com o tipo de licença:
+
+| Tipo de licença | Colunas exibidas |
+|---|---|
+| Licença paga (por exemplo, Adobe Learning Manager Ultimate) | Comprado/Usado/Usado por contas entre parceiros/Restante |
+| Licença de avaliação (por exemplo, Virtual Coach) | Disponível/Usado/Restante |
+
+Selecione **[!UICONTROL Exibir Detalhes de Uso]** abaixo da linha de estatísticas para expandir um detalhamento embutido. A seção expandida mostra:
+
+- Uma lista suspensa **Selecionar período** para filtrar por período de contrato, incluindo períodos históricos
+- Uma tabela **Uso Geral** com colunas: Comprado/Usado por esta Conta/Usado por Contas entre Parceiros/Restante
+- Um link **Exibir divisão de conta** para ver o uso distribuído entre contas entre parceiros individuais
+- Um link para **Baixar Relatório Detalhado** para exportar dados de uso como um arquivo
+
+**Bloco de licença do Agent Orchestrator**
+
+Quando uma licença do Agent Orchestrator é vinculada, a linha de estatísticas mostra:
+
+| Coluna | Descrição |
+|---|---|
+| **Comprado** | Total de créditos Gen AI adquiridos para o período do contrato. |
+| **Usado** | Créditos consumidos em todos os serviços usando esta licença. |
+| **Usado pelo ALM** | Créditos consumidos especificamente pelo Adobe Learning Manager. |
+| **Restante** | Créditos ainda disponíveis. |
+
+Se a sua organização usa contas de pai e filho, a seção **Licenças** da conta de pai mostra uma coluna **Usado por contas entre parceiros** que reflete o consumo de crédito em todas as contas filho vinculadas. As contas filho exibem sua alocação como **Vagas Sancionadas** em vez de Compradas.
+
+## Vincule sua conta da Adobe Learning Manager ao Adobe Admin Console
+
+Para que os recursos de IA de geração possam ser ativados, sua conta da Adobe Learning Manager deve estar conectada a uma organização da Adobe Admin Console. Depois de vinculado, o Adobe Learning Manager detecta a licença do Agent Orchestrator e disponibiliza a guia **Créditos**.
+
+A vinculação é estabelecida automaticamente quando sua conta foi comprada por meio do processo de pedido padrão do Adobe ou quando você ativou sua conta usando uma chave de ativação. Você pode verificar o link na guia **Assinatura** — se o campo **ID da organização IMS** em **Detalhes da conta** estiver preenchido, a conta já estará vinculada.
+
+### Vincule sua conta manualmente
+
+Se sua conta foi configurada independentemente e o campo **ID da organização IMS** está em branco, vincule manualmente.
+
+**Pré-requisitos:**
+- Você deve ser um administrador da conta da Adobe Learning Manager.
+- Você deve manter a função de administrador do sistema na organização do Adobe Admin Console que deseja vincular.
+- A organização do Adobe Admin Console deve ter uma licença ativa do Agent Orchestrator.
+
+1. Selecione **[!UICONTROL Faturamento]** e selecione a guia **[!UICONTROL Assinatura]**.
+2. No cartão **Detalhes da conta**, selecione **[!UICONTROL Vincular Organização IMS]**.
+3. Uma janela de logon é aberta. Insira as credenciais da sua conta de Adobe e selecione sua organização na lista. A Adobe Learning Manager confirma que o logon na conta tem a função de administrador do sistema na organização do Adobe Admin Console e que a mesma conta tem a função de administrador no Adobe Learning Manager.
+4. Se ambas as verificações forem aprovadas, o link será estabelecido. O campo **ID da organização IMS** é atualizado com o identificador da sua organização, e o saldo de crédito aparece na seção **Licenças**.
+5. Se uma verificação falhar, uma mensagem de erro será exibida. Confirme os pré-requisitos acima e tente novamente.
+
+### Desvincular sua conta
+
+Após a desvinculação, os recursos do Gen AI são desabilitados para todos os alunos e a guia **Créditos** fica indisponível até que a conta seja vinculada novamente.
+
+1. Selecione **[!UICONTROL Faturamento]** e selecione a guia **[!UICONTROL Assinatura]**.
+2. No cartão **Detalhes da conta**, selecione **[!UICONTROL Desvincular Organização IMS]**.
+3. Faça logon novamente para confirmar sua função de administrador na organização.
+4. O link é removido. O campo **ID da Organização do IMS** retorna para branco e a guia **Créditos** está oculta.
+
+Para restaurar o acesso, repita as etapas de vinculação manual acima.
+
 ## Fazer pedidos com cartões de crédito {#placeordersusingcreditcards}
 
 É possível comprar uma assinatura para um máximo de 3.500 alunos através de um único pedido de pagamento com cartão de crédito. O primeiro pedido da conta deve ter no mínimo 10 alunos.
@@ -33,7 +121,7 @@ Se quiser entrar em contato com a Adobe para obter mais informações sobre a as
 
    *Iniciar faturamento do Adobe Learning Manager*
 
-1. Na página **[!UICONTROL Informações de cobrança]**, adicione o número de usuários no campo **[!UICONTROL Adicionar usuários]**. Ao usar um cartão de crédito para assinaturas pré-pagas, é possível ver o número de usuários que podem ser adicionados na assinatura. O número de usuários que podem ser adicionados não deve exceder o número mencionado na seção Restante.1.
+1. Na página **[!UICONTROL Informações de cobrança]**, adicione o número de usuários no campo **[!UICONTROL Adicionar usuários]**. Ao usar um cartão de crédito para assinaturas pré-pagas, é possível ver o número de usuários que podem ser adicionados na assinatura. O número de usuários que podem ser adicionados não deve exceder o número mencionado na seção Restante.
 
    ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
 
@@ -82,9 +170,9 @@ Todos os pedidos podem ter um dos quatro estados:
 
 **Suspenso:** um pedido passa para o estado suspenso nos seguintes cenários:
 
-* Atraso no recebimento do pagamento do cartão de crédito.
-* Expiração do cartão de crédito.
-* O pagamento é recusado em qualquer ciclo de pagamento periódico.
+- Atraso no recebimento do pagamento do cartão de crédito.
+- Expiração do cartão de crédito.
+- O pagamento é recusado em qualquer ciclo de pagamento periódico.
 
 **Cancelamento iniciado:** um pedido passa para esse estado quando o administrador do Learning Manager desativa a conta. O pedido passa para o estado cancelado depois de receber a confirmação de cancelamento do pedido.
 
@@ -99,8 +187,8 @@ Todos os pedidos podem ter um dos quatro estados:
 1. Na página Detalhes da assinatura, clique em **[!UICONTROL Editar assinatura]**.
 1. Escolha o item que deseja editar:
 
-   * Método de pagamento: use essa opção para atualizar os detalhes de pagamento, como o cartão de crédito.
-   * Endereço: use essa opção para atualizar os detalhes do endereço.
+   - Método de pagamento: use essa opção para atualizar os detalhes de pagamento, como o cartão de crédito.
+   - Endereço: use essa opção para atualizar os detalhes do endereço.
 
 ## Cancelar uma assinatura {#cancelasubscription}
 
@@ -125,21 +213,17 @@ Você pode escolher o processo de pedido de compra (PO) como forma alternativa d
 
 Depois que uma conta é ativada, ela pode estar em qualquer um dos seguintes estados:
 
-* **Avaliação** - Você pode criar uma conta da Adobe Learning Manager e usá-la gratuitamente por um período de 30 dias. Não há limite no número de alunos registrados durante o período de avaliação.
-* **Ativo** - Neste estado, a conta tem assinaturas de aluno ativas com pagamento mensal recorrente de acordo com o pedido de assinatura.
-* **Inativo** - Uma conta passa para o estado inativo nos seguintes cenários:
+- **Avaliação** - Você pode criar uma conta da Adobe Learning Manager e usá-la gratuitamente por um período de 30 dias. Não há limite no número de alunos registrados durante o período de avaliação.
+- **Ativo** - Neste estado, a conta tem assinaturas de aluno ativas com pagamento mensal recorrente de acordo com o pedido de assinatura.
+- **Inativo** - Uma conta passa para o estado inativo nos seguintes cenários:
 
-   * Após o período de avaliação, se não houver pedidos de assinatura ativos na conta.
-   * O administrador desativa a conta, o que resulta no cancelamento de todos os pedidos existentes em uma conta a partir do próximo ciclo de faturamento da assinatura.
-   * O pagamento é recusado para pedidos ativos em uma conta, mesmo após os lembretes.
+  - Após o período de avaliação, se não houver pedidos de assinatura ativos na conta.
+  - O administrador desativa a conta, o que resulta no cancelamento de todos os pedidos existentes em uma conta a partir do próximo ciclo de faturamento da assinatura.
+  - O pagamento é recusado para pedidos ativos em uma conta, mesmo após os lembretes.
 
-Um estado inativo não cancela a conta com efeito imediato. Você recebe pelo menos alguns lembretes da equipe do Learning Manager solicitando as informações mais recentes sobre
+Um estado inativo não cancela a conta com efeito imediato. Você recebe pelo menos alguns lembretes da equipe do Learning Manager solicitando que você forneça as informações mais recentes sobre seu cartão de crédito se ele estiver expirado. Em um estado inativo, somente um administrador pode fazer logon na conta da Adobe Learning Manager. Nenhum dos outros usuários pode acessar a conta.
 
-seu cartão de crédito se ele tiver expirado. Em um estado inativo, apenas um administrador pode fazer logon no Captivate
-
-Conta do Learning Manager. Nenhum dos outros usuários pode acessar a conta.
-
-* **Ativação necessária** - A conta passa para esse estado quando o administrador do Learning Manager opta por desativar a conta. Todos os pedidos dessa conta são cancelados. A cobrança do pagamento desses pedidos não é realizada no próximo ciclo de faturamento. O status da conta permanece nesse estado até o dia do último ciclo de faturamento. Nesse estado, todos os usuários podem continuar usando o aplicativo sem impacto algum até o final da última data de pagamento periódico.
+- **Ativação necessária** - A conta passa para esse estado quando o administrador do Learning Manager opta por desativar a conta. Todos os pedidos dessa conta são cancelados. A cobrança do pagamento desses pedidos não é realizada no próximo ciclo de faturamento. O status da conta permanece nesse estado até o dia do último ciclo de faturamento. Nesse estado, todos os usuários podem continuar usando o aplicativo sem impacto algum até o final da última data de pagamento periódico.
 
 ## Cancelar uma assinatura {#Cancelasubscription-1}
 
@@ -157,10 +241,10 @@ Use o exemplo a seguir para entender como o plano MAU é calculado.
 
 Supondo que o número de usuários por mês seja o seguinte:
 
-* Mês 1 = 50
-* Mês 2 = 500
-* Mês 3 = 5.000
-* Mês 4 a 12 = 10
+- Mês 1 = 50
+- Mês 2 = 500
+- Mês 3 = 5.000
+- Mês 4 a 12 = 10
 
 Total de usuários ativos mensais faturados = Mês 1 + Mês 2 + Mês 3 + Mês 4 a 12 = 50 + 500 + 5.000 + 90 = 5640.
 
@@ -170,11 +254,11 @@ No final do período de 12 meses, a cômputo de uso é redefinido de volta a zer
 
 Qualquer usuário que executar as seguintes ações ou obter as conclusões devido às ações executadas por outro é considerado como um usuário ativo original mensal no mês em questão.
 
-* Ao realizar um curso, programa de aprendizagem ou certificação.
-* Ao realizar, baixar uma ajuda de tarefa ou anexos do curso.
-* Ao realizar, baixar ou criar notas pessoais.
-* Ao participar na aprendizagem social criando painéis, publicações ou comentários.
-* Como obter as conclusões devido a aprovações de envio de certificado externo ou participação em uma sala de aula/sessões da sala de aula virtual.
+- Ao realizar um curso, programa de aprendizagem ou certificação.
+- Ao realizar, baixar uma ajuda de tarefa ou anexos do curso.
+- Ao realizar, baixar ou criar notas pessoais.
+- Ao participar na aprendizagem social criando painéis, publicações ou comentários.
+- Como obter as conclusões devido a aprovações de envio de certificado externo ou participação em uma sala de aula/sessões da sala de aula virtual.
 
 ## Exibir detalhes de uso {#viewusagedetails}
 
@@ -186,9 +270,8 @@ Qualquer usuário que executar as seguintes ações ou obter as conclusões devi
 
 1. Na página exibida, você pode ver o seguinte:
 
-   * **Uso geral:** é possível verificar o número total de usuários ativos, usuários que usam o Learning Manager em um mês e o número de usuários que ainda não se inscreveram em nenhum curso.
-
-   * **Uso mensal:** você pode ver uma tabela de usuários ativos exclusivos por mês.
+   - **Uso geral:** é possível verificar o número total de usuários ativos, usuários que usam o Learning Manager em um mês e o número de usuários que ainda não se inscreveram em nenhum curso.
+   - **Uso mensal:** você pode ver uma tabela de usuários ativos exclusivos por mês.
 
 ## Baixar relatório de uso {#downloadusagereport}
 
@@ -208,25 +291,110 @@ Os relatórios são salvos na pasta de downloads do seu navegador.
 
 Para cancelar uma assinatura ativa, entre em contato com a equipe de suporte do Learning Manager.
 
+## Créditos de IA da geração {#genaicredits}
+
+### Como funcionam os créditos da Gen AI
+
+Os créditos de IA de geração são consumidos sempre que um aluno interage com um recurso viabilizado por IA, por exemplo, ao fazer uma pergunta por meio do Assistente de IA ou gerar uma recomendação de aprendizado personalizada. Antes de cada interação começar, o Adobe Learning Manager verifica se os créditos estão disponíveis. Se houver créditos disponíveis, a interação continuará. Se o saldo tiver sido esgotado, o aluno verá uma mensagem de que o recurso está temporariamente indisponível.
+
+Os créditos são comprados como parte de uma licença do Adobe Experience Platform Agent Orchestrator. Essa licença é gerenciada no Adobe Admin Console, e o Adobe Learning Manager se conecta a ela automaticamente para detectar os créditos disponíveis.
+
+**Regra de prioridade de crédito:** se o seu plano do Adobe Learning Manager incluir créditos Gen AI integrados e você também tiver uma licença do Agent Orchestrator, os créditos incluídos serão consumidos primeiro. Os créditos do Agent Orchestrator são usados somente depois que os créditos agrupados se esgotam.
+
+**Pools de crédito compartilhados:** se sua organização tiver várias contas do Adobe Learning Manager, todas vinculadas à mesma organização do Adobe Admin Console, todas as contas serão retiradas de um único pool de crédito compartilhado.
+
+>[!IMPORTANT]
+>
+>Todos os recursos do Gen AI são desativados por padrão. Você deve ativar cada recurso e definir um limite de uso de crédito antes que os alunos possam acessá-lo.
+
+### Acessar a guia Créditos Gen AI
+
+1. Selecione **[!UICONTROL Administrador]** > **[!UICONTROL Faturamento]**.
+2. Selecione a guia **[!UICONTROL Créditos]**.
+
+A guia **Créditos** fica visível somente quando os créditos do Gen AI foram comprados ou estavam historicamente ativos na conta. Se a guia não estiver visível, verifique se sua conta está vinculada a uma organização do Adobe Admin Console que tenha uma licença ativa do Agent Orchestrator.
+
+### Tabela Recursos de IA da geração
+
+A tabela **Recursos de IA de geração** lista todos os recursos de IA disponíveis na conta.
+
+| Coluna | Descrição |
+|---|---|
+| **Nome do Recurso** | Nome do recurso de IA. Selecione o nome para ir para a página de configurações desse recurso. |
+| **Status** | Se o recurso está ativado ou desativado. Alterne o recurso de sua página de configurações. |
+| **Limite Máximo de Uso de Créditos** | Máximo de créditos que esse recurso pode consumir durante o período do contrato. Deve ser definido antes que o recurso possa ser habilitado. Aplica-se somente a recursos voltados para o aluno. |
+| **Créditos Usados** | Total de créditos consumidos por esse recurso desde a data de início do contrato, atualizado em tempo real. |
+
+### Ativar um recurso Gen AI
+
+1. Na guia **[!UICONTROL Créditos]**, localize o recurso na tabela **Recursos de IA de geração**.
+2. Na coluna **Limite Máximo de Uso de Créditos**, insira o número máximo de créditos que este recurso pode consumir durante o período do contrato.
+3. Selecione o nome do recurso para ir para a página **Configurações do Recurso**.
+4. Na página **Configurações do Recurso**, ative o recurso.
+5. Conclua quaisquer configurações adicionais, como a atribuição de alunos e catálogos ao Assistente do AI.
+
+### O que acontece quando os créditos se esgotam
+
+- Se um recurso atingir seu **Limite Máximo de Uso de Créditos**, os alunos verão uma mensagem informando que o recurso está temporariamente indisponível. Aumente o limite a qualquer momento na guia **Créditos**.
+- Se os créditos gerais da conta estiverem esgotados, todos os recursos do Gen AI pararão de funcionar para os alunos até que créditos adicionais sejam comprados. Os relatórios de uso e as métricas de crédito permanecem acessíveis aos administradores.
+- Se um aluno estiver no meio da interação quando os créditos estiverem esgotados, essa interação será concluída. Todas as interações subsequentes são bloqueadas.
+- Os administradores podem definir um limite de crédito maior que o número de créditos comprados. A superalocação é permitida e um ajuste pode ocorrer na renovação.
+
+### Gráfico Uso de Créditos Mensais
+
+Abaixo da tabela Recursos Gen AI, um gráfico **Uso Mensal de Créditos** mostra os créditos consumidos por recurso por mês. Por padrão, o gráfico mostra o período do ano do contrato atual com base na data de início do contrato do Agent Orchestrator. Selecione **[!UICONTROL Baixar]** para exportar o relatório mensal para o período selecionado. A geração de relatórios é assíncrona — você recebe uma notificação no aplicativo e um email quando o arquivo está pronto.
+
+### Gerar relatórios de uso de IA
+
+O Adobe Learning Manager fornece dois relatórios de uso de IA de geração em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios de IA]**.
+
+**Relatório de uso de créditos mensais**
+
+Mostra créditos consumidos por recurso por mês. Útil para planejamento de orçamento e renovação de contratos.
+
+- **Colunas:** Mês Recurso | | Créditos usados
+- **Filtro:** selecione um intervalo de datas que abranja um ou mais períodos de contrato
+- **Download:** Assíncrono — você recebe uma notificação no aplicativo e um email quando o arquivo está pronto
+
+**Relatório de uso de créditos de IA da geração de aluno**
+
+Uma trilha de auditoria mostrando quais alunos usaram quais recursos e quantos créditos foram consumidos por cada interação.
+
+- **Colunas:** Data | Nome do aluno | E-mail do aluno Recurso | | Créditos usados
+- **Filtro:** selecione o intervalo de datas que você deseja auditar
+- **Download:** Assíncrono — você recebe uma notificação no aplicativo e um email quando o arquivo está pronto
+
+### Alertas de uso de crédito
+
+O Adobe Learning Manager notifica você automaticamente quando o consumo de crédito ultrapassa os limites principais. As notificações são entregues no aplicativo e por email.
+
+| Acionador | Notificação |
+|---|---|
+| Os créditos da conta atingem 90% do total comprado | Aviso — os créditos estão quase esgotados no nível da conta |
+| Os créditos da conta atingem 100% do total comprado | Alerta — todos os créditos são consumidos e os recursos do Gen AI param para os alunos |
+| Um recurso atinge seu Limite de Uso Máximo de Créditos individual | Alerta — nomeia o recurso específico; esse recurso pára para os alunos |
+
+Quando você receber um aviso de 90%, entre em contato com a equipe da sua conta de Adobe para adquirir créditos adicionais antes de atingir o limite de 100%.
+
 ## Perguntas frequentes {#frequentlyaskedquestions}
 
-+++Como adicionar/remover assinaturas de uma conta?
+**Como adicionar/remover assinaturas de uma conta?**
 
 Para adicionar assinaturas em uma conta, adicione o número de usuários para quem você deseja comprar assinaturas. Em seguida, no canto superior direito, clique em **[!UICONTROL Fazer pedido]**. Revise a estimativa e clique em **[!UICONTROL Continuar]**. Insira os detalhes da conta e do cartão de crédito. Em seguida, para comprar as assinaturas, clique em **[!UICONTROL Concluir pedido]**.
 
 Para remover uma assinatura ativa, entre em contato com a equipe de suporte do Learning Manager.
-+++
 
-+++Como alterar um cartão de crédito para assinaturas?
+
+**Como alterar um cartão de crédito para assinaturas?**
 
 Na guia **[!UICONTROL Histórico de pedidos]**, para uma conta ativa, clique em **[!UICONTROL Editar]**. Em seguida, na página Detalhes da assinatura, clique em **[!UICONTROL Editar assinatura]**. Insira os detalhes do novo cartão de crédito e clique em **[!UICONTROL Atualizar método de pagamento]**.
 
 ![](assets/credit-card-details.png)
 
 *Exibir detalhes do cartão de crédito*
-+++
 
-+++Como atualizar as informações de faturamento no Learning Manager?
+
+**Como atualizar as informações de faturamento no Learning Manager?**
 
 Para atualizar as informações de faturamento, siga as etapas abaixo:
 
@@ -238,17 +406,270 @@ Escolha o item que deseja editar:
 
 1. **[!UICONTROL Método de pagamento]:** use esta opção para atualizar os detalhes de pagamento, como o cartão de crédito.
 1. **[!UICONTROL Endereço]:** use esta opção para atualizar os detalhes do endereço.
-+++
 
-+++Posso cancelar parcialmente uma assinatura?
+
+**Posso cancelar parcialmente uma assinatura?**
 
 Não, você não pode cancelar uma assinatura parcialmente. Se precisar reduzir o número de licenças adquiridas, você pode cancelar a assinatura no final do ciclo de faturamento e, em seguida, comprar o número necessário de licenças.
-+++
 
-+++Como obter uma nota fiscal dos meus pagamentos com cartão de crédito?
+
+**Como obter uma nota fiscal dos meus pagamentos com cartão de crédito?**
 
 Entre em contato com a [FastSpring](https://fastspring.com/) para obter uma nota fiscal dos seus pagamentos atravès de uma das seguintes formas:
 
-* Crie uma solicitação de serviço com a FastSpring usando o link `https://questionacharge.com`.
-* Envie um email para a FastSpring em `orders@fastspring.com` solicitando a nota fiscal.
+- Crie uma solicitação de serviço com a FastSpring usando o link `https://questionacharge.com`.
+- Envie um email para a FastSpring em `orders@fastspring.com` solicitando a nota fiscal.
+
+
+## Solução de problemas de crédito de IA de geração
+
+| Problema | Solução |
+|---|---|
+| **A guia Créditos não está visível** | Créditos de IA gerais não foram comprados nem aplicados a esta conta. Verifique sua licença do Agent Orchestrator em seu Adobe Admin Console e confirme se uma organização está vinculada em **[!UICONTROL Faturamento]** > **[!UICONTROL Assinatura]** > **Detalhes da conta**. |
+| **O campo ID da Organização IMS está em branco** | Sua conta ainda não está vinculada. Selecione **[!UICONTROL Vincular Organização IMS]** no cartão **Detalhes da conta** e siga as etapas de vinculação acima. |
+| **Falha ao vincular com um erro** | Confirme se você tem a função de administrador no Adobe Learning Manager e na organização da Adobe Admin Console que você está tentando vincular. Ambas as verificações devem ser aprovadas para que o link seja estabelecido. |
+| **O campo ID da Organização IMS fica em branco após a aplicação de uma chave de ativação** | A vinculação automática ocorre apenas para contas ativadas por meio do fluxo de ordenação padrão do Adobe. Para contas configuradas de forma independente, conclua as etapas de vinculação manual acima após ativar a tecla. |
+| **Após a desvinculação, os recursos do Gen AI ficam indisponíveis** | A desvinculação remove o acesso a todos os recursos do Gen AI e oculta a guia Créditos. Vincule novamente sua conta a uma organização do Adobe Admin Console com uma licença ativa do Agent Orchestrator para restaurar o acesso. |
+
+<!-- 
+# Manage Learning Manager orders and billing
+
+Credit card-based purchase is only available in the [US region](http://learningmanager.adobe.com/).
+
+Manage Learning Manager billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
+
+Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/products/learningmanager.html) page.
+
+Only the Administrators of your organization can manage billing.
+
+If you want to contact Adobe for more information about Learning Manager subscription and billing, write to us at [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
+
+## Place orders using credit cards {#placeordersusingcreditcards}
+
+You can buy a subscription for a maximum of 3500 learners through any single credit card payment order. The first order in the account must be for a minimum of 10 learners.
+
+1. On the Administrator app, click **[!UICONTROL Billing]** on the left navigation pane.
+
+   ![](assets/billing.png)
+
+   *Launch Adobe Learning Manager billing*
+
+1. On the **[!UICONTROL Billing Information]** page, add the number of users in the **[!UICONTROL Add Users]** field. When using a credit card for pre-paid subscriptions, you can see the number of users that you can add for the subscription. The number of users you can add must not exceed the number mentioned in the section Remaining.1. 
+
+   ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
+
+   *Add number of users*
+
+1. After specifying the number of users to add, click Place Order in the upper-right corner of the page.
+
+   ![](assets/billing2.png)
+
+1. Review the estimate that appears on the screen.
+
+   ![](assets/pricing-estimate.png)
+
+   *Place an order*
+
+   The annual subscription fee is calculated based on the number of users who are added for the subscription. For example, if four users are being added, the annual fee is calculated using the expression 4 usersX$4X$12, which returns $192.
+
+   Click **[!UICONTROL Proceed]**.
+
+   *Review the estimate*
+
+1. On the Payment Details page, you can view the estimated price of the order. The currency appears based on the current locale.
+
+   ![](assets/payment-details.png)
+
+   *View payment details*
+
+   You can also change the locale by choosing the country from the drop-down list.
+
+   ![](assets/change-locale.png)
+
+   *Select the country of billing*
+
+1. Enter your contact information, choose the credit card type, and provide the details of the credit card. After you've entered the required details, click **[!UICONTROL Complete Order]**.
+1. After you've placed the order, to see the recently ordered packages, click the **[!UICONTROL Order History]** tab on the **[!UICONTROL Billing]** page.
+
+   ![](assets/order-history.png)
+
+   *View order history*
+
+## Check order status {#checkorderstatus}
+
+All orders can have one of the four statuses:
+
+**Active:** An order is active, and users are registered successfully.
+
+**Suspended:** An order moves into suspended state in the following scenarios:
+
+* Delay in receipt of payment from the credit card
+* Expiry of the credit card.
+* Payment is declined for any recurring payment cycle.
+
+**Canceled initiated:** An order moves into this state when the Learning Manager Administrator deactivates the account. The order then moves into a canceled state after receiving the cancellation confirmation of the order.
+
+## Update subscription details {#updatesubscriptiondetails}
+
+1. In the list of orders, click **[!UICONTROL Edit]**.
+
+   ![](assets/update-subsciptiondetailsclickedit.png)
+
+   *Update subscription details*
+
+1. In the Subscription details page, click **[!UICONTROL Edit Subscription]**.
+1. Choose the item that you want to edit:
+
+   * Payment method: Use this option to update payment details, such as, credit card.
+   * Address: Use this option to update address details.
+
+## Cancel a subscription {#cancelasubscription}
+
+To cancel an order:
+
+1. In the left pane of the Administrator page, click Billing.
+1. In the Billing page, on the upper-right corner, choose **[!UICONTROL Actions]** > **[!UICONTROL Deactivate Account]**.
+1. Once the Administrator deactivates the account, all existing orders in the account are canceled from the next billing cycle.
+
+When an account is deactivated by the customer, it enters a trial state for the next 30 days. The account owner receives three reminder emails to revive the account. If the owner does not reactivate the account, none of the users are able to access Learning Manager apart from the owner.
+
+## Place orders using Purchase Order {#placeordersusingpurchaseorder}
+
+You can choose purchase order process as an alternative mode of payment. As a pre-requisite, your organization's account must be registered with Adobe. Your organization account is charged for this process. The account is charged based on a learner's activities. Only Learning Object-level activities are charged. To place an order using PO:
+
+1. Send an email to [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com) and mention the number of required learners.
+1. The Learning Manager team sends you an activation key.
+1. In the Billing page of the Administrator app, enter the activation key.
+1. Click Activate in the upper-right corner of the page.
+
+## Check account status {#checkaccountstatus}
+
+After an account gets activated, the account can be in any of the following states:
+
+* **Trial** - You can create an Adobe Learning Manager account and use it without any payment for a period of 30 days. There is no limit on the number of learners registered during the trial period.
+* **Active** - In this state, the account has active learner subscriptions with recurring monthly payment as per the subscription order.
+* **Inactive** - An account moves into inactive state in the following scenarios:
+
+  * After the trial period if there are no active subscription orders in the account.
+  * Administrator deactivates the account, which results in canceling all the existing orders in an account from the next billing cycle of subscription.
+  * Payment is declined for active orders in an account even after reminders.
+
+An inactive state does not cancel your account with immediate effect. You receive at least a couple of reminders from the Learning Manager team asking you to provide the latest information about
+
+your credit card if it has expired. In an inactive state, only an administrator can log in to the Captivate
+
+Learning Manager account. All other users cannot access the account.
+
+* **Activation required** - Your account moves into this state when the Learning Manager administrator chooses to deactivate the account. All the orders of this account get canceled. The collection of payment for these orders does not happen from the next billing cycle. The status of the account remains in this state until the day of the last billing cycle. In this state, all users can continue to use the application without any impact until the end of the last recurring payment date.
+
+## Cancel a subscription {#Cancelasubscription-1}
+
+To cancel an active subscription, contact the Learning Manager support team.
+
+## Account termination fee {#accountterminationfee}
+
+If you want to cancel the subscription before the completion of the annual term, an early termination fee is charged. The termination fee is equivalent to 50% of the subscription price of the remaining commitment period.
+
+## Monthly Active Users (MAU) plan {#monthlyactiveusersmauplan}
+
+You can choose a MAU plan as your preferred way of billing. This option generates billing based on the number of monthly unique active users. The monthly unique active users are added cumulatively for a period of 12 months starting from the month of plan activation. This number is used for billing for the period.
+
+Use the following example to understand how MAU is calculated.
+
+Let there be a case where the number of users per month are as follows:
+
+* Month 1 = 50
+* Month 2 = 500
+* Month 3 = 5000
+* Month 4 to 12 = 10
+
+Total Monthly Active Users that are billed = Month 1 + Month 2 + Month 3 + Month 4 to 12 = 50 + 500 + 5000 + 90 = 5640.
+
+The billing for the period would be for 5640 users.
+
+At the end of the 12-month period, the usage count is reset back to zero and a new period for MAU plan starts. You can add multiple activation keys to increase the purchased number of seats.
+
+Any user who performs the following actions or achieves completions due to actions taken by others is considered as a monthly unique active user for that calendar month.
+
+* Consuming a course, learning program or certification.
+* Consuming, downloading a Job Aid or course attachments.
+* Consuming, downloading or creating personal notes.
+* Participating in Social Learning by creating Boards, posts or comments.
+* Achieving completions due to External Certificate submission approvals or attendance for a classroom/virtual classroom sessions.
+
+## View usage details {#viewusagedetails}
+
+1. To view the number of active users by month, click **[!UICONTROL View Usage Details]**.
+
+   ![](assets/report-request-usage.png)
+
+   *View active users by month*
+
+1. On the page that displays, you can view the following:
+
+   * **Overall usage:** You can check the total number of active users, users who are consuming Learning Manager in a month, and the number of users who have not yet signed up for any course.
+
+   * **Monthly usage:** You can see a table of unique active users per month.
+
+## Download usage report {#downloadusagereport}
+
+You can also download the data of the number of active users by month and year. To download, click **[!UICONTROL Download Detailed Report]**.
+
+On the **Generate Report Request** dialog, enter the required months and year, and click **[!UICONTROL Generate]**.
+
+![](assets/generate-report-request.png)
+
+*Download active usage report*
+
+If you close the browser window, the download starts the next time you visit Learning Manager.
+
+The reports are saved in the Downloads folder of your browser.
+
+## Cancel a subscription
+
+To cancel an active subscription, contact the Learning Manager support team.
+
+## Frequently Asked Questions {#frequentlyaskedquestions}
+
++++How to add/remove subscriptions from an account?
+
+To add subscriptions in an account, add the number of users for who you'd like to purchase subscriptions. Then on the upper-right corner, click **[!UICONTROL Place Order]**. Review the estimate and click **[!UICONTROL Proceed]**. Enter your account details and also your credit card details. Then to purchase the subscriptions, click **[!UICONTROL Complete Order]**.
+
+To remove an active subscription, contact the Learning Manager support team.
 +++
+
++++How to change a credit card for subscriptions?
+
+In the **[!UICONTROL Order History]** tab, for an active account, click **[!UICONTROL Edit]**. Then on the Subscription Details page, click **[!UICONTROL Edit Subscription]**. Enter your new credit card details and click **[!UICONTROL Update Payment Method]**.
+
+![](assets/credit-card-details.png)
+
+*View credit card details*
++++
+
++++How to update the Billing information on Learning Manager?
+
+To update the billing information, follow the steps below:
+
+1. Log in as **Admin** and click **[!UICONTROL Billing]**.
+1. In the list of orders, click **[!UICONTROL Edit]**.
+1. In the Subscription details page, click **[!UICONTROL Edit Subscription]**.
+
+Choose the item that you want to edit:
+
+1. **[!UICONTROL Payment method]:** Use this option to update payment details, such as, credit card.
+1. **[!UICONTROL Address]:** Use this option to update address details.
++++
+
++++Can I partially cancel a subscription?
+
+No, you cannot cancel a subscription partially. If you need to reduce the number of seats that you have purchased, you can cancel the subscription at the end of the billing cycle and then purchase the number of seats required.
++++
+
++++How do I get an Invoice for my Credit card payments?
+
+Contact [FastSpring](https://fastspring.com/) to get an invoice for your payments, using one of the following ways:
+
+* Create a service request with FastSpring using the link `https://questionacharge.com`.
+* Send an email to FastSpring on `orders@fastspring.com` requesting for the invoice.
+-->
