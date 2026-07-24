@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos, incluindo alte
 jcr-language: en_us
 title: Novidades do Adobe Learning Manager na versão de agosto de 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
+source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,11 @@ Principais destaques:
 * Ajude os alunos a obter mais de cada sessão com resumos gerados por IA e gravações de sessão pesquisáveis por tópicos.
 * Meça o que é importante com análises de envolvimento que vão além da participação para revelar a participação real no aprendizado.
 * Ajude seus autores a usar o localizador de professores viabilizado por IA para combinar com o professor certo por habilidades, disponibilidade, horários preferenciais, fuso horário e utilização atual.
+
+>[!NOTE]
+>
+>O Live Hub está atualmente na versão beta e estará disponível na próxima versão de agosto do Adobe Learning Manager. A documentação do Live Hub estará disponível assim que o recurso for lançado.
+
 
 ## Criador de modelos de email baseados em componentes
 
@@ -214,6 +219,8 @@ Para mais informações, consulte [Locais de sala de aula](/help/migrated/admini
 ## Em breve: Adobe Learning Manager Content Composer
 
 O Adobe Learning Manager Content Composer é uma futura ferramenta de criação de curso de IA no Adobe Learning Manager que ajuda a criar um curso pronto para publicação em um piscar de olhos.
+
+Um assistente de IA conversacional guiará você por todo o processo: Prompt, Resumo, Esquema e Curso, para que você mantenha o controle em cada etapa, revisando e refinando antes de seguir em frente. Você poderá mover conteúdo em seus próprios documentos de origem, aplicar temas instantâneos do curso e compartilhar ou exportar cursos concluídos por meio do SCORM ou publicar diretamente no Adobe Learning Manager.
 
 ## Relatório de alterações na versão
 
