@@ -1,192 +1,267 @@
 ---
-jcr-language: en_us
 title: Adicionar locais de sala de aula
-description: Os administradores agora podem configurar uma biblioteca de locais de sala de aula. Para cada local da sala de aula, os administradores podem definir os metadados que incluem o nome do local, o limite de vagas, bem como informações adicionais, como o URL do local. Os autores e os administradores podem usar esses locais pré-configurados de sala de aula para configurar eventos de treinamento ministrados pelo professor (módulos de sala de aula).
-contentowner: saghosh
-exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
-source-git-commit: 8cb8a95812c97b0b59a2ae5188500cfafe09bd27
+description: Saiba como os administradores podem definir configurações e adicionar, migrar, editar e excluir locais de sala de aula no Adobe Learning Manager, e como adicionar traduções para um local de sala de aula.
+source-git-commit: 6f2b9abf305665fe0b66007411455bd2210ee248
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 54%
+source-wordcount: '1641'
+ht-degree: 3%
 
 ---
 
-# Sala de aula
 
-## Visão geral
+# Adicionar locais de sala de aula
 
-Os administradores agora podem configurar uma biblioteca de locais de sala de aula. Para cada local da sala de aula, os administradores podem definir os metadados que incluem o nome do local, o limite de vagas, bem como informações adicionais, como o URL do local. Os autores e os administradores podem usar esses locais pré-configurados de sala de aula para configurar eventos de treinamento ministrados pelo professor (módulos de sala de aula).
+Os administradores podem criar e gerenciar uma biblioteca de locais de sala de aula para reutilizar ao configurar eventos de treinamento ministrados pelo professor no módulo Sala de aula e Salas de aula virtuais. Para cada local, você pode definir detalhes como o nome do local, o limite de vagas e informações adicionais, incluindo um URL de local. Os autores podem selecionar esses locais predefinidos ao criar um curso.
 
-Você pode usar as duas seguintes maneiras para adicionar um local de sala de aula.
-
-## Adicionar sala de aula usando a interface do usuário
-
-Você pode adicionar um local da sala de aula usando a interface do usuário:
-
-1. No aplicativo do administrador (a interface para funções de administrador), clique em **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]**.
-
-1. Clique em **[!UICONTROL Adicionar]** > **[!UICONTROL Novo Local]**.
-
-1. No menu **[!UICONTROL Local da sala de aula]**, insira os seguintes detalhes:
-
-   * Digite o **[!UICONTROL Nome do local]**. Use um nome exclusivo. Caso contrário, o Learning Manager exibirá uma mensagem de erro.
-   * Digite a descrição do local no campo **[!UICONTROL Informações do local]**. Este campo é opcional.
-   * Digite o **[!UICONTROL URL do local]**. O aluno pode ver essas informações nos detalhes da sala de aula. O URL também pode ser um URL de localização de mapas, se necessário. Este é um campo opcional.
-   * Digite e selecione a **[!UICONTROL Região do Local]**. Este campo é opcional.
-   * Digite o número de licenças disponíveis no campo **[!UICONTROL Limite de vagas]**. Isso indica a capacidade da sala de aula. Esse valor pode ser alterado ao criar o evento real de treinamento ministrado pelo professor.
-
-   ![](assets/add-classroom-location.png)
-
-   *Adicionar um local de sala de aula*
-
-Depois de adicionar o local, a página **[!UICONTROL Configurações]** > **[!UICONTROL Locais de Sala de Aula]** lista as salas de reunião:
-
-![](assets/list-meeting-rooms.png)
-
-*Exibir todas as salas de reunião*
-
-A lista tem os seguintes campos:
-
-**[!UICONTROL Nome do local]** - Nome do local da sala de aula.
-
-**[!UICONTROL Sessões Futuras]** - Número de eventos que ocorrerão no local correspondente. Clique no número para exibir os detalhes em uma caixa de diálogo.
-
-![](assets/sessions-list.png)
-
-*Exibir sessões futuras*
-
-A caixa de diálogo exibe os detalhes de cada sessão, incluindo o nome da sessão, o nome do treinamento que inclui a sessão e o horário da sessão. A hora exibida se alinha com o fuso horário do sistema do aluno.
-
-O campo **[!UICONTROL Sessões futuras]** exibe **zero** quando a sala de aula não é usada para nenhuma sessão ou quando a sala de aula está associada a sessões passadas.
-
-**[!UICONTROL Limite de vagas]** - Exibe a capacidade da sala de aula.
-
-**URL do local** - URL que você forneceu ao criar o local da sala de aula.
-
-**Informações do local** - As informações da sala de aula que você forneceu ao criar a sala de aula.
-
-### Editar os locais da sala de aula
-
-Para editar os locais de sala de aula, siga as etapas abaixo:
-
-1. No aplicativo do administrador (a interface para funções de administrador), selecione **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]**.
-
-1. Passe o mouse sobre o local da sala de aula desejado que deseja editar.
-
-1. Selecione o ícone **[!UICONTROL Editar local da sala de aula]**.
-
-1. Modifique o local da sala de aula e selecione **[!UICONTROL Salvar]**.
-
-## Adicionar sala de aula usando CSV
-
-Como alternativa, você pode adicionar um ou mais locais de sala de aula importando um CSV que contenha as informações da sala de aula.
-
-No **[!UICONTROL Aplicativo de administrador]** > **[!UICONTROL Configurações]** > **[!UICONTROL Locais de sala de aula]** > **[!UICONTROL Adicionar]**, clique no botão **[!UICONTROL Locais de importação em massa]**. Navegue até o local que contém o arquivo CSV e selecione o arquivo.
-
-O arquivo CSV usa esses campos para armazenar detalhes sobre um ou mais locais de sala de aula:
-
-* name
-* informações
-* url
-* região
-* limite de vagas
-
-Você pode personalizar os cabeçalhos.
-
-O arquivo CSV deve conter obrigatoriamente todas as colunas na mesma ordem especificada aqui.
-
-Depois que o sistema importa o arquivo CSV, os locais são adicionados à biblioteca.
-
-## Pesquisar salas de aula
-
-Para pesquisar salas de aula, selecione o curso de sala de aula virtual e vá para **[!UICONTROL Instâncias]** > **[!UICONTROL Sessões]**. Um autor ou administrador pode começar a digitar o nome do local para ver os resultados relevantes que começam a aparecer. Eles podem, então, selecionar um local entre os resultados exibidos. Se nenhum local for exibido nos resultados do tipo adiantado, o usuário ainda poderá adicionar o novo nome do local da sala de aula. Observe que esse nome de local criado usando o fluxo de trabalho de criação da sessão não é adicionado à biblioteca de locais criada pelo administrador.
-
-Quando uma sala de aula é adicionada, a plataforma de aprendizado também indica se a sala de aula já está reservada no período mencionado. Ela até fornece horários alternativos como sugestões. Portanto, isso permite que o autor ajuste o horário da reunião se decidir usar o mesmo local da sala de aula.
-
-![](assets/classroom-search.png)
-
-*Pesquisar salas de aula*
-
-## Administrador
-
-Como administrador, você pode gerenciar os professores e as instâncias do curso.
-
-### Configurando professores:
-
-No aplicativo de administração, em **[!UICONTROL Configurações]** > **[!UICONTROL Geral]**, os administradores podem encontrar a opção **[!UICONTROL Gerenciamento de professores]**. Esse recurso garante que apenas usuários pré-aprovados atribuídos como professores possam ser adicionados para conduzir sessões.
-
-Para atribuir um professor, siga estas etapas:
-
-1. Vá para a página **[!UICONTROL Introdução]** e selecione **[!UICONTROL Usuários]** no painel esquerdo.
-
-1. Selecione o usuário desejado.
-
-1. Atribua ao usuário a função de professor selecionando **[!UICONTROL Ações]** > **[!UICONTROL Atribuir função]**.
-
-### Cancelando sessões:
-
-Na página **[!UICONTROL Instância do curso]**, os administradores podem cancelar uma ou mais sessões. Quando as sessões são canceladas, o sistema remove todos os detalhes da sessão, mas mantém o limite de vagas.
-
-Além disso, os administradores podem:
-
-* **[!UICONTROL Exibir inscrição]**: obtenha informações sobre alunos inscritos e em lista de espera para cada sessão.
-* **[!UICONTROL Cancelar inscrição dos alunos]**: remova os alunos de um curso com sessões canceladas sem alterar o status de inscrição.
-* **[!UICONTROL Gerenciamento de Participação]**: marque a participação nas sessões, mesmo que elas sejam canceladas.
-* **[!UICONTROL Conclusão do curso]**: os administradores podem marcar um curso como concluído mesmo se as sessões tiverem sido canceladas.
-* **[!UICONTROL Reagendamento]**: agende sessões canceladas para datas posteriores e adicione um professor durante o reagendamento.
-
-Observe que, após o cancelamento, os alunos permanecem inscritos na instância de treinamento. Seu status de inscrição—como inscrição confirmada, lista de espera e aguardando aprovação do gerente—permanece inalterado. Isso é útil porque o administrador pode configurar e reagendar a sessão cancelada no futuro.
-
-## Autor
-
-Se o administrador selecionar a opção **[!UICONTROL Gerenciamento de professores]**, um autor só poderá pesquisar e adicionar os usuários com a função de professor para as sessões de sala de aula, sessões de sala de aula virtual, listas de verificação e módulos de envio de arquivos.
-
-Além disso, o autor pode:
-
-* Adicionar e remover professores das sessões existentes.
-* Adicionar professores às sessões existentes que já têm um ou mais professores.
-
-Portanto, depois que um administrador habilita a opção **[!UICONTROL Gerenciamento de Professores]**, somente os usuários com a função de professor podem ser adicionados como professor.
+Por padrão, o Adobe Learning Manager usa um formato de local de campo único. Para organizações que gerenciam Locais de Sala de Aula em vários países e idiomas, o Learning Manager também oferece suporte a um formato estruturado de quatro campos que inclui **País**, **Estado/Província/Região**, **Cidade** e **Nome do local**. Esse formato fornece recursos adicionais, como filtragem baseada em local e suporte a idiomas para locais individuais. Os administradores podem alternar para o formato de quatro campos por meio de uma migração única.
 
 >[!NOTE]
 >
->Isso não é aplicável ao migrar sessões usando o arquivo CSV de sessões. Nesse caso, um usuário que não tem a função de professor pode ser adicionado como professor.
+>Se o formato de local de quatro campos não estiver ativado, os autores e alunos podem continuar usando os Locais de sala de aula normalmente. O formato de local de campo único existente permanece disponível e nenhuma alteração é necessária. Exiba [Migrar para o método de quatro campos](#migrate-classroom-locations-to-the-four-field-format) para obter mais informações.
 
-Na página **[!UICONTROL Instância do curso]**, o autor pode cancelar uma ou mais sessões. Quando as sessões são canceladas, o sistema remove todos os detalhes da sessão, mas mantém o limite de vagas.
+## Definir configurações do Local da Sala de Aula
 
-Portanto, um autor pode usar os links de **[!UICONTROL Cancelar sessão]** para cancelar uma ou mais sessões de sala de aula ou sessões de sala de aula virtual disponíveis na mesma instância ou em instâncias diferentes do curso.
+Os administradores podem controlar se os autores podem criar e gerenciar locais de sala de aula. Use as configurações de **Locais de sala de aula** para definir o nível de acesso disponível para os autores.
 
-## Restringir a lista predeterminada de professores
+Para definir as configurações de **Locais de Sala de Aula**:
 
-Atualmente, os usuários podem adicionar qualquer usuário registrado como professor ao criar uma sessão de sala de aula ou sala de aula virtual. Essa funcionalidade permanece inalterada nesta versão.
+1. Faça logon no Adobe Learning Manager como **Administrador**.
+1. Selecione **Configurações** > **Locais de sala de aula**.
 
-No entanto, os administradores agora têm uma opção adicional para controlar ainda mais quem é atribuído como professor na plataforma de aprendizado. Isso evita a adição acidental de um novo professor ao criar uma sessão.
+   Isso exibe a página **Locais de Sala de Aula**.
 
-## Cancelar sessão existente
+1. Selecione a guia **Configurações**.
 
-Um autor ou administrador pode cancelar uma sessão e reagendá-la, se necessário.
+   ![Guia Configurações para Locais de Sala de Aula](assets/classroom-locations-settings-tab.png)
 
-Quando um usuário cancela uma sessão, o sistema envia um e-mail de cancelamento de reunião a todos os alunos e professores inscritos. O e-mail inclui os detalhes da sessão atualizada.
+   *Habilite os privilégios de Autor para os locais de Sala de Aula e Sala de Aula Virtual na guia **Configurações**.*
 
-Há um modelo chamado **[!UICONTROL Cancelamento de sessão]** que ajuda no cancelamento de uma sessão.
+1. Selecione **Editar**.
 
-Na página **[!UICONTROL Instância do curso]** cada sessão listada em uma instância do curso inclui uma opção para cancelar a sessão.
+   A alternância se torna editável, permitindo que você atualize as seguintes configurações:
 
-![](assets/cancel-session.png)
+   | **Configuração** | **Descrição** |
+   |---|---|
+   | **Permitir que autores criem locais** | Ative esta opção para permitir que os autores criem locais de módulos de sala de aula e sala de aula virtual ao criar sessões de treinamento ministradas por instrutor. |
+   | **Permitir que autores modifiquem e excluam locais** | Ative esta opção para permitir que os autores editem ou excluam locais de sala de aula e sala de aula virtual. |
 
-*Cancelar uma sessão existente*
+1. Selecione **Salvar**.
 
-Ao clicar no link **[!UICONTROL Cancelar sessão]**, é exibida uma mensagem de aviso.
+## Criar e gerenciar locais de sala de aula
 
-Na caixa de diálogo de mensagem de aviso, se você clicar em **[!UICONTROL Continuar]**, o sistema cancela a sessão.
+Os administradores podem criar e gerenciar locais de sala de aula que os autores podem reutilizar ao criar sessões de treinamento em sala de aula e sala de aula virtual. O Adobe Learning Manager suporta dois formatos de local:
 
-O sistema também limpa os seguintes detalhes após cancelar uma sessão:
+* **Formato de campo único**: cada local da sala de aula é identificado por um único campo **Nome do local**. Exiba [Adicionar um Local da Sala de Aula usando um formato de campo único](#add-a-classroom-location-using-a-single-field-format) para obter mais informações.
+* **Formato de quatro campos**: cada local da sala de aula é organizado em **País**, **Estado/Província/Região**, **Cidade** e **Nome do local**, facilitando o gerenciamento de locais em várias regiões. Se sua conta atualmente usa o formato de campo único, conclua a migração única antes de alternar para o formato de quatro campos. Exiba [Migrar para o método de quatro campos](#migrate-classroom-locations-to-the-four-field-format) para obter mais informações.
 
-* Data de início da sessão
-* Data de término da sessão
-* Hora de início da sessão
-* Hora de término da sessão
-* Professores adicionados à sessão
-* URL da sala de aula virtual
-* Local/lugar adicionado à sessão
-* Limite de listas de espera adicionado pelo professor
+### Adicionar um local da sala de aula usando um formato de campo único
+
+Você pode adicionar um Local da sala de aula usando o formato de campo único:
+
+1. Faça logon no Adobe Learning Manager como **Administrador**.
+1. Selecione **Configurações** > **Locais de sala de aula**.
+1. Selecione **Adicionar** > **Novo Local**.
+1. Insira os seguintes detalhes na caixa de diálogo **Locais de Sala de Aula**:
+
+   1. Digite o **Nome do local**. Use um nome exclusivo. Caso contrário, o Learning Manager exibirá uma mensagem de erro.
+   1. Digite a descrição do local no campo **Informações do local**. Este campo é opcional.
+   1. Digite o **URL do local**. Os alunos podem ver essas informações nos detalhes da sala de aula. O URL também pode ser um URL de localização de mapas, se necessário. Este é um campo opcional.
+   1. Digite e selecione a **Região do Local**. Este campo é opcional.
+   1. Digite o número de licenças disponíveis no campo **Limite de vagas**. Isso indica a capacidade da sala de aula. Esse valor pode ser alterado ao criar o evento real de treinamento ministrado pelo professor.
+      ![Adicionar um local de sala de aula usando o formato de campo único](assets/add-classroom-location-single-field-format.jpeg)
+      *Adicione um Local de Sala de Aula usando o formato de campo único.*
+
+### Migrar locais de sala de aula para o formato de quatro campos
+
+Se sua conta usa o formato antigo de local da sala de aula de campo único, migre seus locais da sala de aula existentes antes de ativar o formato de quatro campos. O formato de quatro campos organiza os dados de local em **País**, **Estado/Província/Região**, **Cidade** e **Nome do local**, facilitando o gerenciamento de locais em várias regiões.
+
+Essa migração é um processo único. Depois de mudar para o formato de quatro campos, você não pode reverter a conta para o formato de campo único.
+
+Para migrar locais existentes:
+
+1. Navegue até **Administrador** > **Locais de sala de aula** e selecione a guia **Configurações**.
+1. Selecione **Exportar** na seção **Migração de formato de local**.
+
+   Um arquivo CSV com seus locais de sala de aula existentes é baixado. As seguintes colunas estão disponíveis:
+
+   1. **room_id**: identificador exclusivo do local.
+   1. **localidade**: a localidade para o Nome de Local e as Informações de Local traduzidos.
+   1. **nome**: nome da sala de aula.
+   1. **país**: país onde a sala de aula está localizada.
+   1. **estado**: estado, província ou região onde a sala de aula está localizada.
+   1. **cidade**: cidade onde a sala de aula está localizada.
+   1. **informações**: detalhes adicionais, como nome do edifício, andar ou número da sala.
+   1. **url**: URL associada ao local, como um link de mapa.
+   1. **limite de vagas**: capacidade máxima da sala de aula.
+
+   >[!NOTE]
+   >
+   >O CSV exportado sempre inclui as colunas de formato de local de quatro campos, mesmo quando o formato de quatro campos não está ativado.
+
+   ![Verificar o andamento da migração](assets/location-format-migration-progress.png)
+
+   *Verifique o andamento da migração antes de alternar para o formato de local de quatro campos.*
+
+1. Para cada nome de coluna, atualize o arquivo CSV com as informações necessárias, como País, Estado, Cidade, juntamente com todas as outras informações necessárias.
+1. Selecione **Importar** e carregue o arquivo CSV atualizado.
+
+   O Adobe Learning Manager valida os dados e atualiza o andamento da migração.
+
+1. Quando a barra de progresso da migração atingir 100%, selecione **Alternar para o novo formato de 4 campos**. O status de **Migração de formato de local** é atualizado para **Migração concluída**.
+
+   ![Status de conclusão da migração de formato de local](assets/location-format-migration-complete.png)
+
+   *A migração em formato de local atualiza o status de Migração concluída.*
+
+## Adicionar locais de sala de aula usando um formato de quatro campos
+
+Após concluir a migração única, os administradores podem criar locais de sala de aula no formato de quatro campos. Os autores podem reutilizar esses locais ao criar sessões de treinamento ministradas pelo professor. Os administradores podem adicionar locais de sala de aula individualmente ou importar vários locais de sala de aula de um arquivo CSV.
+
+### Adicionar um local de sala de aula
+
+Use os locais da sala de aula para padronizar locais de treinamento e simplificar o agendamento de sessões para autores.
+
+Para adicionar um local da sala de aula:
+
+1. No aplicativo de administração, selecione **Configurações** > **Locais de sala de aula**.
+
+   ![Guia Todos os Locais](assets/all-locations-tab.png)
+
+   *Selecione a guia **Todos os Locais**para adicionar um Local de Sala de Aula.*
+
+1. Selecione **Adicionar** > **Novo local** no canto superior direito.
+
+   A janela pop-up **Local da sala de aula** é exibida.
+
+   ![Janela pop-up Local da Sala de Aula](assets/classroom-location-popup-window.png)
+
+   *Insira os detalhes na janela pop-up Local da Sala de Aula.*
+
+1. Na janela pop-up **Local da Sala de Aula**, insira os seguintes detalhes:
+
+   | **Campo** | **Descrição** |
+   |---|---|
+   | **País** | Selecione o país onde está a sala de aula. |
+   | **Estado/Província/Região** | Selecione o estado, província ou região. |
+   | **Cidade** | Selecione a cidade onde fica a sala de aula. |
+   | **Nome do Local** | Insira o nome da sala de aula ou sala. |
+   | **Informações de Local** | Informe detalhes adicionais, como o nome do edifício, andar ou número da sala. |
+   | **URL do local** | Insira um URL para o local, como um link de mapa. |
+   | **Limite de vagas** | Insira a capacidade máxima de assentos da sala de aula. |
+
+1. Selecione **Salvar**.
+
+   O local da sala de aula é salvo e listado na guia **Todos os locais**.
+
+### Importar locais de sala de aula em massa
+
+Use a importação em massa para adicionar vários locais de sala de aula ou atualizar os locais existentes usando um arquivo CSV.
+
+Para importar locais de sala de aula em massa:
+
+1. No aplicativo de administração, selecione **Configurações** > **Locais de sala de aula**.
+1. Selecione **Baixar CSV** na guia **Todos os Locais**.
+
+   Um arquivo CSV que contém seus locais de sala de aula existentes é baixado. As seguintes colunas estão disponíveis:
+
+   1. **room_id**: identificador exclusivo do local.
+   1. **localidade**: a localidade para o Nome de Local e as Informações de Local traduzidos.
+   1. **nome**: nome da sala de aula.
+   1. **país**: país onde a sala de aula está localizada.
+   1. **estado**: estado, província ou região onde a sala de aula está localizada.
+   1. **cidade**: cidade onde a sala de aula está localizada.
+   1. **informações**: detalhes adicionais, como nome do edifício, andar ou número da sala.
+   1. **url**: URL associada ao local, como um link de mapa.
+   1. **limite de vagas**: capacidade máxima da sala de aula.
+
+1. Para cada nome de coluna, atualize o arquivo CSV com as informações necessárias, como País, Estado, Cidade, juntamente com todas as outras informações necessárias.
+1. Selecione **Adicionar** > **Locais de importação em massa** no canto superior direito.
+
+   A janela pop-up **Importar CSV de Locais** é exibida.
+
+   ![Janela pop-up Importar CSV de Locais](assets/import-locations-csv-popup.png)
+
+   *Arraste e solte o CSV com as informações atualizadas.*
+
+1. Arraste e solte o arquivo CSV atualizado na área de upload.
+1. Selecione **Importar**.
+
+   Os Locais de sala de aula são atualizados.
+
+## Adicionar traduções para um local da sala de aula
+
+Adicione traduções para os campos **Nome do local** e **Informações do local** para exibir detalhes do Local da Sala de Aula nos idiomas preferidos do aluno.
+
+Para adicionar traduções a um local da sala de aula:
+
+1. Selecione **Todos os locais** > **Adicionar** dos **Locais de sala de aula**.
+1. Selecione **Novo Local**.
+
+   A janela pop-up **Local da sala de aula** é exibida.
+
+1. Selecione **Adicionar Novo Idioma**.
+
+   A janela pop-up **Adicionar Novo Idioma** é exibida.
+
+   ![Janela pop-up Adicionar Novo Idioma](assets/add-new-language-popup.png)
+
+   *Selecione os idiomas na janela pop-up Adicionar Novo Idioma.*
+
+1. Selecione **Salvar**.
+
+   As traduções são salvas e exibidas aos usuários.
+
+>[!NOTE]
+>
+>Somente os campos **Nome do Local** e **Informações do Local** oferecem suporte a traduções. Detalhes do local, como **País**, **Estado/Província/Região** e **Cidade**, não foram traduzidos.
+
+## Editar um local da sala de aula
+
+Para editar um Local da sala de aula, siga estas etapas:
+
+1. No aplicativo de administração, selecione **Configurações** > **Locais de sala de aula**.
+1. Passe o mouse sobre o local da sala de aula desejado que deseja editar.
+
+   ![Ícone Editar para um Local de Sala de Aula](assets/edit-classroom-location-icon.png)
+
+   *Passe o mouse sobre o Local da Sala de Aula necessário e selecione o ícone de edição.*
+
+1. Selecione o ícone **Editar Local da Sala de Aula**.
+
+   A janela pop-up Local da sala de aula é exibida.
+
+1. Modifique o Local da Sala de Aula e selecione **Salvar**.
+
+## Excluir um local da sala de aula
+
+Para excluir um Local da sala de aula, siga estas etapas:
+
+1. No aplicativo de administração, selecione **Configurações** > **Locais de sala de aula**.
+1. Passe o mouse sobre o local da sala de aula desejado que deseja excluir.
+1. Selecione o ícone **Excluir local da sala de aula**.
+
+   A janela pop-up Confirmação necessária é exibida.
+
+   ![Janela pop-up de Confirmação Necessária](assets/delete-classroom-location-confirmation.png)
+
+   *Selecione Excluir para confirmar a exclusão de um Local de Sala de Aula.*
+
+1. Selecione **Excluir**.
+
+## Perguntas frequentes
+
+1. **O que acontece com os Locais de Sala de Aula existentes após a conclusão da migração?**<br>
+Você pode ativar o formato de local de quatro campos somente depois que todos os locais existentes forem migrados, manualmente ou por meio de um upload de CSV. Depois que o formato de quatro campos é ativado, todos os cursos existentes que usam Locais de sala de aula exibem locais no novo formato.
+
+1. **Preciso reestruturar manualmente o CSV exportado para corresponder ao formato de local de quatro campos?**<br>
+Não. O arquivo CSV exportado sempre usa o formato de local de quatro campos, independentemente de estar ativado no momento. Você só precisa atualizar os valores ausentes antes de importar o arquivo.
+
+1. **A migração afeta os relatórios do Adobe Learning Manager?**<br>
+Sim. Após a migração, os relatórios que incluem informações do Local da sala de aula exibem os locais no seguinte formato:
+
+   **País > Estado/Província/Região > Cidade > Nome do Local**
+
+   Esse formato substitui o valor anterior do local de campo único.
+
+1. **O que acontece se eu não habilitar o formato de localização de quatro campos?**<br>
+Nada é alterado para autores ou alunos. Os locais de sala de aula continuam a aparecer e funcionar como hoje, usando o formato de campo único existente até que um administrador conclua a migração e ative o formato de quatro campos.

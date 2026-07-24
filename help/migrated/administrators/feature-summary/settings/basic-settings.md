@@ -2,13 +2,13 @@
 description: Saiba mais sobre como as configurações básicas ajudam a adaptar o Adobe Learning Manager à estrutura e à experiência do aluno da sua organização
 jcr-language: en_us
 title: Configurações básicas
-source-git-commit: c5fa60b3c08d4ec007d632febb353e3c8da234ba
+exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
+source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
 workflow-type: tm+mt
-source-wordcount: '4494'
+source-wordcount: '5914'
 ht-degree: 4%
 
 ---
-
 
 # Configurações básicas no Adobe Learning Manager
 
@@ -105,9 +105,9 @@ Para maximizar suas taxas de resposta, é uma boa prática configurar lembretes 
 
 2. **Definir agendamento de lembrete**: no painel **Configurações de Lembrete** que aparece, use os menus suspensos e os campos de entrada para configurar o lembrete:
 
-   a) **[!UICONTROL Quando enviar]**: selecione se o lembrete será enviado **[!UICONTROL Na conclusão do curso]** ou **[!UICONTROL Após a conclusão do curso]**.
-b) **[!UICONTROL Recorrência]**: selecione a frequência do lembrete (por exemplo, Toda semana).
-c) **[!UICONTROL Para]**: especifique a duração total (em semanas) para a qual os lembretes serão enviados (por exemplo, 4 semanas).
+   a. **[!UICONTROL Quando enviar]**: selecione se o lembrete será enviado **[!UICONTROL Na conclusão do curso]** ou **[!UICONTROL Após a conclusão do curso]**.
+   b. **[!UICONTROL Recorrência]**: selecione a frequência do lembrete (por exemplo, Toda semana).
+   c. **[!UICONTROL Para]**: especifique a duração total (em semanas) para a qual os lembretes serão enviados (por exemplo, 4 semanas).
 
 3. **[!UICONTROL Salve o lembrete]**: selecione o ícone de marca de seleção azul para salvar a nova configuração de lembrete. Você pode repetir esse processo para adicionar mais lembretes, se necessário.
 
@@ -139,8 +139,8 @@ Para garantir que os gerentes forneçam feedback oportuno, você precisa configu
 
 1. **[!UICONTROL Adicionar novo lembrete]**: para criar um novo lembrete, selecione o link **[!UICONTROL Adicionar Novo Lembrete]**.
 2. **[!UICONTROL Definir agendamento de lembrete]**: no painel **[!UICONTROL Configurações de Lembrete]**, selecione os menus suspensos e os campos de entrada para configurar o lembrete:
-a) **[!UICONTROL Quando enviar]**: selecione quando o lembrete for enviado. As opções são: **[!UICONTROL Na conclusão do curso]** e **[!UICONTROL Após a conclusão do curso]**.
-b) **[!UICONTROL Recorrência]**: selecione a frequência do lembrete. Se a recorrência for **[!UICONTROL Uma vez]**, isso significa que o gerente receberá uma notificação para fornecer comentários. As opções disponíveis são: Uma vez, Todos os dias, Toda semana e Todo mês.
+a. **[!UICONTROL Quando enviar]**: selecione quando o lembrete for enviado. As opções são: **[!UICONTROL Na conclusão do curso]** e **[!UICONTROL Após a conclusão do curso]**.
+b. **[!UICONTROL Recorrência]**: selecione a frequência do lembrete. Se a recorrência for **[!UICONTROL Uma vez]**, isso significa que o gerente receberá uma notificação para fornecer feedback. As opções disponíveis são: Uma vez, Todos os dias, Toda semana e Todo mês.
 3. Depois de definir o agendamento, selecione o ícone de marca de seleção azul para salvar a configuração do lembrete. O lembrete é exibido na lista de lembretes existentes.
 
    ![texto alternativo](../settings/assets/Picture9.png)
@@ -172,8 +172,8 @@ Quando um autor atualiza um curso, por exemplo, adiciona ou remove um módulo ou
 2. Selecione a notificação para exibir as alterações feitas pelo autor.
 3. Compare o conteúdo novo e o antigo.
 4. Aprovar ou rejeitar alterações:
-a) Aprove as alterações para republicar o curso com atualizações.
-b) Rejeite as alterações para manter a versão anterior do curso ativa.
+a. Aprove as alterações para republicar o curso com atualizações.
+b. Rejeite as alterações para manter a versão anterior do curso ativa.
 5. Os autores são notificados sobre a sua decisão, seja ela aprovação ou rejeição.
 
 ### Painel de discussão
@@ -238,6 +238,10 @@ O Adobe Learning Manager tem determinada terminologia de produto para definir Ob
 
 Consulte Terminologia do produto no Adobe Learning Manager para obter mais informações.
 
+### Créditos
+
+Quando ativados, autores e professores podem gravar o número de créditos instrucionais para cada sessão ou módulo. Os créditos representam o tempo de instrução que um aluno será creditado por concluir a atividade. Os valores de crédito aparecem nas transcrições do aluno, nos relatórios de aprendizado e contribuem para os cálculos da duração total dos Caminhos de aprendizado. Se você desabilitar essa configuração, os valores de crédito inseridos anteriormente serão mantidos e restaurados se a configuração estiver ativada novamente.
+
 ### Atualização da versão do módulo
 
 Essa opção permite que os administradores atualizem o conteúdo de um módulo sem interromper o progresso dos alunos que já estão inscritos nos cursos que contêm esse módulo. Isso garante que os alunos possam continuar sua jornada de aprendizado sem problemas, enquanto os autores podem manter o conteúdo atualizado. Com a opção ativada, os autores podem fazer upload de uma nova versão de um módulo (por exemplo, pacotes SCORM, AICC ou xAPI) para substituir a versão existente.
@@ -260,6 +264,10 @@ Essa opção exclui usuários se eles não acessarem o Adobe Learning Manager po
 * Os usuários internos que ficaram inativos por uma duração definida são excluídos automaticamente.
 * Os usuários são notificados antes da exclusão, dando-lhes a oportunidade de fazer logon e impedir a remoção.
 * Para que seu acesso seja restaurado, um usuário excluído deve entrar em contato com o administrador da conta.
+
+### Remoção Automática de Usuários Excluídos
+
+Remova do sistema, de forma automática e permanente, os usuários que estiveram no estado de excluídos por um período especificado. Após remover, todos os dados associados do usuário são removidos permanentemente e não podem ser recuperados.
 
 ### Mostrar rótulos de catálogo
 
@@ -395,6 +403,215 @@ Esse recurso é particularmente útil para organizações que vendem vários ite
 *Finalização simplificada: reduz a necessidade de os alunos fazerem compras separadas para cada item de treinamento.
 * Gerenciamento de SKUs: os administradores podem gerenciar SKUs para cursos, programações de aprendizado e certificações para garantir o acompanhamento e a emissão de relatórios adequados.
 
+### Cursos/caminhos alternativos
+
+Quando os alunos concluem um curso/caminho, outro conjunto especificado de cursos/caminhos pode ser marcado como concluído por meio de alternativo. Isso é útil quando os cursos abrangem conteúdo equivalente ou sobreposto. Por exemplo, quando um novo curso substitui uma versão mais antiga ou quando existem variantes regionais do mesmo treinamento. Os alunos não são inscritos automaticamente nos cursos/caminhos marcados como concluídos por meio de alternativos e receberão apenas créditos, medalhas e pontos para o curso/caminho que efetivamente concluíram. As conclusões alternativas aparecem na transcrição do aluno e contam para qualquer caminho de aprendizado ou certificação que inclua o curso alternativo.
+
+**Ativar conclusões retroativas (Irreversível)**
+Se os alunos concluíram um curso/caminho anteriormente e outro curso/caminho foi adicionado posteriormente em Cursos/caminhos alternativos, eles também serão marcados como concluídos por meio de alternativos para os alunos. Isso se aplica retroativamente a todas as conclusões passadas — não apenas às inscrições futuras. Use-a quando quiser que conclusões históricas contem para cursos alternativos recém-adicionados. Uma vez ativado, não pode ser desativado.
+
+**Ativar inclusões retroativas (Irreversível)**
+Se um curso/caminho for removido dos cursos/caminhos alternativos, os alunos que foram marcados anteriormente como concluídos por meio de alternativos serão marcados como incompletos. Isso afeta todos os alunos cuja conclusão foi baseada apenas na alternativa, não os alunos que concluíram o curso diretamente. A transcrição refletirá o status incompleto atualizado. Uma vez ativado, não pode ser desativado.
+
+### Visibilidade do quadro de notas
+
+Quando ativado, os autores podem controlar a visibilidade do catálogo de notas no nível do curso, permitindo que os alunos visualizem suas pontuações ponderadas no módulo, agreguem a pontuação do curso e o status de aprovação/reprovação diretamente no reprodutor do curso. Se essa configuração estiver desativada no nível da conta, os alunos não poderão ver o livro de notas em nenhum curso, independentemente de como os cursos individuais estão configurados. As pontuações e os cálculos do gradebook continuam a ser executados em segundo plano para fins de relatórios do administrador, mesmo quando a visibilidade do aluno está desativada.
+
+**Habilitar exibição Gradebook para alunos**
+
+Ativa a permissão no nível da conta que permite aos autores mostrar ou ocultar o livro de notas por curso. Uma vez ativado, os autores veem uma opção Mostrar livro de notas aos alunos no editor do curso. Os alunos verão uma guia Caderno no reprodutor do curso para qualquer curso onde o autor o ativou. Desativar essa configuração no nível da conta substitui todas as configurações no nível do curso. Os alunos não verão o livro de notas em nenhum curso até que a configuração seja reativada.
+
+### Aprendizado externo
+
+Quando ativadas, os alunos podem enviar e acompanhar atividades de aprendizado concluídas fora do Adobe Learning Manager — como certificações, workshops, conferências e cursos externos, diretamente do painel do aluno. Os envios são revisados e aprovados pelo gerente direto do aluno antes de serem gravados. Depois de aprovada, a atividade de aprendizado externa é adicionada à transcrição do aluno e é contabilizada no registro de aprendizado geral do aluno. Os administradores podem configurar os campos que os alunos devem preencher ao enviar uma atividade de aprendizado externa, incluindo campos personalizados específicos da sua organização.
+
+**Habilitar**
+
+Ativa o recurso Aprendizado externo para todos os alunos da conta. Uma vez ativado, um formulário de envio fica disponível no painel do aluno. Os alunos podem inserir detalhes como o nome do treinamento, a duração, a data, a pontuação e a prova de conclusão. O envio é enviado ao gerente dele para revisão e aprovação. Os envios aprovados aparecem na transcrição do aluno e nos relatórios do administrador. Os envios rejeitados não são registrados na transcrição.
+
+>[!NOTE]
+>
+>Ativar essa configuração adiciona novas colunas à transcrição do aluno para envios de aprendizado externos. Se a sua organização usa fluxos de trabalho automatizados ou integrações que processam dados de transcrição do aluno, revise-os antes de ativar para garantir a compatibilidade com a estrutura de transcrição atualizada.
+
+Aprendizado externo é um tipo de atividade de aprendizado para treinamento fora da plataforma. Os alunos o usam para registrar um treinamento que não existe no Adobe Learning Manager, como um exame de certificação do setor, uma conferência profissional, uma sessão de mentoreamento ou um curso acadêmico.
+
+1. Um **aluno** preenche um formulário de envio com detalhes sobre seu treinamento externo e, opcionalmente, carrega o comprovante de conclusão.
+
+2. O **gerente** do aluno recebe uma notificação para revisar o envio e o aprova ou rejeita com um comentário opcional.
+
+3. Na aprovação, o envio é adicionado à **Transcrição do aluno**, onde os administradores podem exibi-la e relatá-la.
+
+Esse fluxo de trabalho permite que as organizações combinem o treinamento obrigatório de conformidade na plataforma com o aprendizado ad-hoc e autodirigido que seus funcionários realizam no mundo real, e monitorem ambos em um único sistema.
+
+O aprendizado externo é um recurso configurável. Os administradores controlam se ele está disponível para os alunos, quais campos aparecem no formulário de envio e se cada campo é obrigatório ou opcional. Campos personalizados podem ser adicionados para capturar informações específicas da organização, como um tipo de treinamento ou um número de referência do certificado.
+
+### Ciclo de vida do status do envio
+
+Cada envio de aprendizado externo passa por um conjunto definido de status:
+
+| **Status** | **Significado** |
+|-------------------|--------------------------------------------------------------------------------|
+| Aguardando Aprovação | O aluno enviou a solicitação; ela está com revisão do gerente pendente. |
+| Aprovado | O gerente aprovou o envio; ele aparece na transcrição do aluno. |
+| Rejeitado | O gerente rejeitou o envio. O aluno pode enviar uma nova solicitação. |
+
+Um aluno pode editar um envio enquanto ele está no status **Aguardando Aprovação**. Depois que um gerente executa uma ação, o envio não pode mais ser editado. Se um envio for rejeitado, o aluno enviará uma nova solicitação de aprendizado externa em vez de editar a rejeitada.
+
+### Disponibilidade e visibilidade dos recursos
+
+Os administradores controlam a disponibilidade de aprendizado externo por meio de uma única configuração no nível da conta:
+
+**Quando o aprendizado externo estiver habilitado:**
+
+* Os alunos veem a guia **Aprendizado externo** na navegação e podem enviar novas solicitações
+* Os gerentes veem a guia **Aprendizado Externo** em seu painel de equipe e podem revisar os envios
+* As transcrições do administrador e do aluno incluem dados de aprendizado externos para envios aprovados
+
+**Quando o aprendizado externo está desabilitado:**
+
+* Os alunos que não têm envios anteriores não veem nenhuma interface de aprendizado externa
+
+* Os alunos que têm envios anteriores ainda podem exibir seu histórico e status de envio, mas não podem criar novos envios
+
+* Os gerentes mantêm o acesso à guia Aprendizado externo se sua equipe tiver envios anteriores; caso contrário, a guia é removida
+
+* Os dados de transcrição existentes para envios aprovados não são afetados
+
+#### Campos principais
+
+Esses campos estão disponíveis para todas as contas por padrão. Os administradores podem escolher quais campos mostrar no formulário de envio do aluno e marcar cada um como obrigatório ou opcional.
+
+| **Campo** | **Tipo** | **Notas** |
+| --- | --- | --- |
+| Título | Texto | O nome do aprendizado, curso ou certificação externo. |
+| Descrição/observações | Texto | O aluno pode adicionar detalhes sobre o provedor de treinamento ou o contexto. |
+| Data/intervalo de datas | Data/hora | Data inicial e/ou data final. Oferece suporte a horas, minutos, semana, mês, dias ou ano. |
+| Duração | Duração (horas) | Tempo gasto no treinamento externo. |
+| Pontuação | Número | A pontuação que o aluno recebeu, se aplicável. |
+| Anexos | Upload de arquivo | Prova de conclusão. O aluno pode enviar um certificado, uma transcrição ou outra documentação. |
+
+#### Campos personalizados
+
+Os administradores podem adicionar até 10 campos personalizados para capturar informações adicionais específicas da organização. Os campos personalizados oferecem suporte aos seguintes tipos:
+
+| **Tipo** | **Descrição** |
+|------------|------------------------------------------------------------------|
+| Texto | Entrada de texto livre. |
+| Número | Entrada numérica. |
+| Caixa de seleção | Alternância única de sim/não. |
+| Lista suspensa | Seleção única em uma lista de opções definida pelo administrador. |
+
+### Comprovante dos requisitos do arquivo de conclusão
+
+* **Tipos de arquivos compatíveis:** PDF, DOC, DOCX, PNG, JPEG, JPG
+
+* **Tamanho máximo do arquivo:** 50 MB por anexo
+
+#### O que os administradores controlam no aprendizado externo
+
+O aprendizado externo está **desabilitado por padrão** para todas as contas. Você deve ativá-la explicitamente para que os alunos possam enviar solicitações ou os gerentes possam ver a guia Revisão.
+
+Ao ativar o aprendizado externo:
+
+* Os alunos obtêm acesso à guia **Aprendizado externo** e podem enviar novas solicitações
+
+* Os gerentes obtêm acesso à guia de revisão do **Aprendizado Externo**
+
+* As transcrições do administrador e do aluno obtêm as colunas de relatórios para atividades de aprendizado externas aprovadas. Depois que o aprendizado externo é ativado, ele pode afetar os relatórios de transcrição do aluno. Se a sua empresa usa dados de transcrição do aluno para automação, revise e atualize quaisquer fluxos de trabalho dependentes para considerar os novos campos e registros de aprendizado externos.
+
+Ao desativar o aprendizado externo após ele ter sido usado:
+
+* Os envios de novos alunos estão bloqueados
+
+* Os alunos com aprovação pendente enviada podem ser editados
+
+* Os gerentes com envios anteriores ainda podem agir em solicitações pendentes
+
+* Os dados de transcrição para envios aprovados anteriormente permanecem inalterados
+
+* Você pode reativar o recurso a qualquer momento. Nenhum dado é perdido quando o recurso é desativado.
+
+#### Ativar ou desativar aprendizado externo
+
+**Cuidado:** a habilitação do Aprendizado Externo adiciona novas colunas à Transcrição do Aluno Administrador: **Nome do Aprendizado Externo**, **Comentário de Conclusão** e todos os campos personalizados configurados para sua conta. As colunas do campo personalizado aparecem no final da transcrição.
+
+Se sua organização usa a transcrição do aluno em pipelines de relatórios downstream ou fluxos de trabalho automatizados, atualize esses sistemas para manipular as novas colunas antes de ativar esse recurso.
+
+1. Faça logon no Adobe Learning Manager como administrador.
+
+2. No painel de navegação esquerdo, selecione **Configurações**.
+
+3. Selecione **Geral**.
+
+4. Role até a seção **Aprendizado Externo**.
+
+5. Marque a caixa de seleção **Habilitar Aprendizado Externo** para habilitar o recurso.
+
+6. Selecione **Salvar**.
+
+Os alunos agora podem enviar solicitações externas de aprendizado. Seus gerentes receberão notificações na plataforma quando os envios forem criados.
+
+Para desativar o recurso, siga os mesmos passos e desative a opção.
+
+#### Configurar o formulário de aprendizado externo
+
+Depois de ativar o recurso, configure quais campos aparecerão no formulário de envio do aluno.
+
+1. Em **Configurações > Geral**, abra a seção **Aprendizado Externo**.
+
+2. Em **Configuração do Formulário**, revise a lista de campos padrão.
+
+3. Marque a caixa de seleção ao lado de cada campo para exibi-lo ou ocultá-lo no formulário do aluno.
+
+4. Para cada campo visível, selecione **Obrigatório** para controlar se os alunos devem concluí-lo antes de enviar.
+
+5. Selecione **Salvar**.
+
+**Observação:** o campo **Título** é sempre obrigatório e não pode ser ocultado nem se tornar opcional.
+
+O formulário de envio do aluno reflete imediatamente suas alterações. Os envios existentes não são afetados por alterações na configuração do formulário.
+
+#### Adicionar e gerenciar campos personalizados
+
+Você pode adicionar até 10 campos personalizados para capturar informações específicas da sua organização.
+
+**Adicionar um campo personalizado**
+
+1. Em **Configurações > Geral**, abra a seção **Aprendizado Externo**.
+
+2. Expanda **Campos personalizados**.
+
+3. Selecione **Novo campo**.
+
+4. Selecione um **Tipo de Campo**: **Texto**, **Número**, **Caixa de Seleção** ou **Suspenso**.
+
+   1. Se você selecionar **Suspenso**, insira a lista de valores que os alunos podem escolher. É possível adicionar até 100 valores suspensos.
+
+   2. Digite o nome do campo e, opcionalmente, sua descrição.
+
+5. Marque ou desmarque a opção **Obrigatório** para os novos campos personalizados.
+
+6. Selecione **Salvar**.
+
+O novo campo aparece imediatamente no formulário de envio do aluno.
+
+**Editar um campo personalizado**
+
+1. Em **Configurações > Geral**, abra a seção **Aprendizado Externo**.
+
+2. Ao lado do campo personalizado que você deseja editar, selecione **Editar**.
+
+3. Atualize o nome do campo ou, para campos suspensos, adicione, edite ou remova valores.
+
+4. Selecione **Salvar**.
+
+Editar um nome de campo ou valores suspensos não altera os dados já capturados nos envios existentes. Somente os novos envios usam as etiquetas e opções atualizadas.
+
+**IMPORTANTE**
+
+Depois de adicionar um campo personalizado, você não pode excluí-lo. Você só pode editá-lo. Se quiser que um campo não apareça em um formulário do aluno, desmarque o campo.
+
+
 ### Configurações do reprodutor
 
 Essa opção permite que os autores personalizem o Fluidic Player para diferentes cursos no nível do curso. Os autores podem configurar como o conteúdo do treinamento é exibido aos alunos no reprodutor. Isso inclui configurações relacionadas ao idioma do conteúdo, preferências de interface e opções de reprodução.
@@ -406,9 +623,9 @@ Os gerentes podem marcar a conclusão do curso por meio de:
 
 * Módulo de lista de verificação: o módulo de lista de verificação permite que os gerentes avaliem o desempenho dos alunos com base em tarefas ou critérios específicos. Os autores devem ativar esse módulo durante a criação do curso e atribuir gerentes como revisores.
 * Página Curso: na página do curso:
-a)    Selecione a guia **[!UICONTROL Alunos]** no painel esquerdo.
-b)    Selecione o aluno cuja participação você deseja marcar.
-c)    Selecione **[!UICONTROL Ações]** > **[!UICONTROL Marcar Conclusão]**.
+a. Selecione a guia **[!UICONTROL Alunos]** no painel esquerdo.
+b. Selecione o aluno cuja participação você deseja marcar.
+c. Selecione **[!UICONTROL Ações]** > **[!UICONTROL Marcar Conclusão]**.
 
 **Observações adicionais:**
 
@@ -420,18 +637,18 @@ c)    Selecione **[!UICONTROL Ações]** > **[!UICONTROL Marcar Conclusão]**.
 Essa opção permite que os autores retirem conteúdo de treinamento (cursos, programações de aprendizado, certificações) que não é mais relevante ou necessário. O conteúdo retirado é removido do catálogo do aluno, mas permanece acessível em relatórios e dados históricos para fins de controle. Você tem duas opções:
 
 1. Uma vez retirados, os alunos inscritos poderão exibir e executar ações, mas os alunos ainda não inscritos perderão o acesso:
-a) Alunos inscritos:
-i) Os alunos que já estão inscritos no curso ou caminho de aprendizado retirado ainda podem acessar o conteúdo.
+a. Alunos inscritos:
+i. Os alunos que já estão inscritos no curso ou caminho de aprendizado retirado ainda podem acessar o conteúdo.
 ii. Eles podem continuar a executar ações, como concluir o curso ou visualizar o material.
-b) Alunos ainda não inscritos:
-i) Os alunos que não se inscreveram no curso ou no caminho de aprendizado antes de ele ser desativado não verão mais o conteúdo no catálogo.
+b. Alunos ainda não inscritos:
+i. Os alunos que não se inscreveram no curso ou no caminho de aprendizado antes de ele ser desativado não verão mais o conteúdo no catálogo.
 ii. Eles perderão totalmente o acesso ao conteúdo retirado.
 2. Uma vez retirados, os alunos inscritos e ainda não inscritos perderão o acesso:
-a) Alunos inscritos:
-i) Os alunos que já estavam inscritos no curso ou no caminho de aprendizado perderão o acesso ao conteúdo assim que for retirado.
+a. Alunos inscritos:
+i. Os alunos que já estavam inscritos no curso ou no caminho de aprendizado perderão o acesso ao conteúdo assim que for retirado.
 ii. Eles não poderão mais exibir ou executar nenhuma ação no conteúdo desativado.
-b) Alunos ainda não inscritos:
-i) Os alunos que não se inscreveram no curso ou no caminho de aprendizado também perderão acesso, pois o conteúdo não aparecerá mais no catálogo.
+b. Alunos ainda não inscritos:
+i. Os alunos que não se inscreveram no curso ou no caminho de aprendizado também perderão acesso, pois o conteúdo não aparecerá mais no catálogo.
 
 ### Desativação Automática
 
@@ -459,11 +676,3 @@ As habilidades de provedores de conteúdo externos são adicionadas ao repositó
 2. Selecione um provedor de conteúdo na lista suspensa **[!UICONTROL Selecionar fonte de habilidades]**.
 3. Selecione **[!UICONTROL Salvar]**.
 Observe que, depois que a opção é ativada, a ação é irreversível. Você não pode desativar ou mudar para outra fonte mais tarde.
-
-
-
-
-
-
-
-

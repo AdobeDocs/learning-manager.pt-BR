@@ -3,10 +3,10 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '5385'
-ht-degree: 38%
+source-wordcount: '5992'
+ht-degree: 33%
 
 ---
 
@@ -128,9 +128,15 @@ A tabela abaixo mostra os tipos de arquivos interativos e estáticos que você p
  </tbody>
 </table>
 
+## Visualizar o conteúdo do curso {#previewcontentlibrary}
+
+Você pode visualizar o conteúdo do curso depois que ele for adicionado à Biblioteca de conteúdo. Para visualizar, selecione o ícone de olho no final da linha do respectivo curso.
+
+![](assets/preview-content-library.png)
+
 ## Adicionar conteúdo novo à biblioteca {#addnewcontentinthelibrary}
 
-**Autores** podem adicionar conteúdo no ALM. Há dois tipos de conteúdo no ALM: **[!UICONTROL Conteúdo]** e **[!UICONTROL Quiz]**. Para saber como adicionar conteúdo, consulte [Adicionar conteúdo estático](content-library.md#addstaticcontent) e [Criar um quiz](content-library.md##createaquiz).
+**Autores** podem adicionar conteúdo no ALM. Há dois tipos de conteúdo no ALM: **[!UICONTROL Conteúdo]** e **[!UICONTROL Quiz]**. Para saber como adicionar conteúdo, consulte [Adicionar conteúdo estático](content-library.md#addstaticcontent) e [Criar um quiz](content-library.md#createaquiz).
 
 ## Adicionar conteúdo estático {#addstaticcontent}
 
@@ -243,7 +249,7 @@ A biblioteca de conteúdo também faz controle de versão dos conteúdos carrega
    A mesma exibição está presente no **aplicativo do aluno**, bem como na **Visualização como aluno**.
 
    Quando você **adicionar, atualizar ou excluir** o arquivo vtt, receberá uma notificação.
-O suporte a WebVTT não está disponível para:
+   O suporte a WebVTT não está disponível para:
 
    1. Comunicados em vídeo.
    1. Vídeo reproduzido dentro do conteúdo de e-learning. Isso é impulsionado pelo conteúdo.
@@ -425,31 +431,114 @@ Na Biblioteca de conteúdo, há duas opções para gerenciar as pastas de conte�
 
 Isso está disponível **apenas** quando um administrador cria uma nova pasta.
 
+### Adicionar conteúdo a uma pasta
+
+Ao enviar um novo conteúdo, escolha em qual pasta ele será armazenado durante o processo de upload.
+
+1. Faça logon como autor e navegue até **Gerenciar** > **Biblioteca de Conteúdo** ou selecione **Criar Conteúdo** na página inicial.
+
+2. Selecione **Adicionar** > **Conteúdo** no canto superior direito da página.
+
+3. Insira um nome e uma descrição para o conteúdo.
+
+4. Em **Adicionar Arquivo de Conteúdo**, arraste e solte o arquivo de conteúdo ou selecione o campo para procurar e carregar.
+   ![](assets/cl2.png)
+
+5. Em **Adicionar à Pasta**, selecione **Procurar pastas** e navegue até a pasta onde deseja armazenar o conteúdo. Selecione a pasta a ser confirmada.
+   ![](assets/cl3.png)
+
+6. Selecione **Adicionar**.
+
+7. Preencha os campos restantes, **Duração**, **Marcas**, **ID exclusiva de conteúdo** e **Data de expiração**, conforme necessário.
+
+8. Selecione **Salvar**. O arquivo de conteúdo é adicionado à Biblioteca de conteúdo e aparece na parte superior da lista.
+   ![](assets/cl4.png)
+
+>[!NOTE]
+>
+>Não é possível copiar ou mover conteúdo entre as pastas pública e privada. Se você tentar fazer isso, o Adobe Learning Manager exibirá um erro.
+
+
+## Exibir caminhos de pasta na Biblioteca de conteúdo
+
+Na **Biblioteca de Conteúdo**, cada arquivo de conteúdo mostra seu caminho de pasta completo, por exemplo, **Treinamento de Vendas** > **Módulos de Ritmo Automático** > **Ativos de PDF**. Esse caminho informa exatamente onde o arquivo está na hierarquia.
+
+* Se um arquivo existir em mais de uma pasta, todos os caminhos aparecerão separados por vírgulas.
+
+* Se um caminho for longo, ele ficará truncado desde o início com reticências (...) e o nome de pasta mais profundo será sempre exibido.
+
+* Conteúdo publicado, retirado e de rascunho são exibidos na Biblioteca de conteúdo e mostram os caminhos de suas pastas.
+
+![](assets/cl1.png)
+
+## Filtrar conteúdo por pasta
+
+O filtro **Pastas** da Biblioteca de Conteúdo permite restringir a lista para mostrar apenas o conteúdo armazenado em pastas específicas.
+
+1. Na **Biblioteca de Conteúdo**, selecione a lista suspensa **Pastas** no cabeçalho da coluna.
+   ![](assets/cl5.png)
+   A lista suspensa mostra a pasta pública e uma lista de pastas privadas. Não é possível selecionar pastas públicas e privadas simultaneamente. Selecionar um desmarca o outro.
+
+2. Para filtrar por uma pasta particular específica:
+   * Selecionar uma **pasta do Nível 1** seleciona automaticamente todas as subpastas de Nível 2 e de Nível 3 abaixo dela. Essas subpastas aparecem como selecionadas, mas não podem ser desmarcadas individualmente. O filtro retorna todo o conteúdo da pasta de Nível 1 e suas subpastas.
+   * Selecionar uma **pasta de Nível 2** seleciona automaticamente todas as subpastas de Nível 3 abaixo dela.
+     ![](assets/cl6.png)
+
+3. Use a caixa de pesquisa suspensa para localizar uma pasta por nome.
+
+4. Você pode selecionar até **25 pastas** de cada vez. Selecionar mais de 25 exibe um erro.
+
 ## Mover o conteúdo para a pasta {#movecontenttofolder}
 
-Para mover um conteúdo da pasta pública para qualquer pasta particular,
+Quando o conteúdo é movido, ele é removido de sua pasta atual e é inserido na pasta de destino.
 
-1. Selecione a pasta **Pública** na lista suspensa **Todas as Pastas**.
+1. Na **Biblioteca de Conteúdo**, marque a caixa de seleção ao lado de cada arquivo de conteúdo que deseja mover.
+2. Selecione **Ações** > **Organizar Conteúdo** > **Mover Conteúdo para a Pasta**. O painel **Mover conteúdo para a pasta** é aberto.
+3. Selecione a pasta de destino para a qual deseja mover o conteúdo.
+4. Selecione **Mover conteúdo**. A Biblioteca de conteúdo é atualizada para mostrar o novo caminho de pasta.
+
+>[!NOTE]
+>
+>Não é possível mover o conteúdo de uma pasta privada para uma pasta pública ou da pasta pública para uma pasta privada.
+
+
+<!--
+
+1. Select **Public** folder from the **All Folders** drop-down list.
 
    ![](assets/list-of-public-folders.png)
 
-   *Exibir todo o conteúdo carregado*
+   *View all uploaded content*
 
-1. Escolha o conteúdo que deseja mover para uma pasta. Depois, clique em **[!UICONTROL Ações]** > **[!UICONTROL Organizar conteúdo]** > **[!UICONTROL Mover conteúdo para a pasta]**.
+1. Choose the content that you'd like to move it to a folder. Then click **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**. 
 
    ![](assets/move-content-to-folder.png)
 
-   *Mover um conteúdo selecionado para a pasta*
+   *Move a selected content to folder*
 
-1. Escolha a pasta para a qual deseja mover o conteúdo. Clique em **[!UICONTROL Mover]**.
+1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.
+-->
 
 ## Copiar conteúdo para a pasta {#copycontenttofolder}
 
-Copiar uma pasta significa adicionar uma tag à pasta. A operação de cópia não criará cópias de conteúdo; ela apenas adicionará uma associação com pastas especificadas.
+Copiar cria um link para o conteúdo em uma pasta adicional sem removê-lo do local atual. O arquivo de conteúdo em si não é duplicado.
+
+1. Na **Biblioteca de Conteúdo**, marque a caixa de seleção ao lado de cada arquivo de conteúdo que deseja copiar.
+2. Selecione **Ações** > **Organizar Conteúdo** > **Copiar Conteúdo para a Pasta**. O painel **Copiar conteúdo para a pasta** é aberto, mostrando a hierarquia de pastas.
+3. Selecione a pasta ou pastas de destino em que deseja que o conteúdo seja exibido.
+4. Selecione **Copiar conteúdo**. A Biblioteca de conteúdo é atualizada para mostrar os novos caminhos de pasta para o conteúdo copiado.
+
+>[!NOTE]
+>
+>Não é possível copiar o conteúdo de uma pasta privada para uma pasta pública ou da pasta pública para uma pasta privada.
+
+<!--
+Copying a folder means that you'd be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
 
 ![](assets/copy-content-to-folder.png)
 
-*Copiar uma pasta*
+*Copy a folder*
+-->
 
 ## Desvincular pasta {#unlinkfolder}
 
@@ -464,6 +553,26 @@ O conteúdo pode ser desvinculado de uma pasta especificada **SOMENTE** se tamb�
 ![](assets/unlink-a-folder.png)
 
 *Desvincular uma pasta*
+
+## Adicionar um módulo a um curso navegando pelas pastas
+
+Ao adicionar um módulo em ritmo individualizado a um curso, você pode navegar pela hierarquia de pastas para localizar o arquivo de conteúdo correto em vez de pesquisar por nome.
+
+1. Faça logon como autor e navegue até **Cursos** na navegação à esquerda.
+
+2. Selecione **Adicionar** para criar um novo curso ou abrir um curso existente no modo de edição.
+
+3. Navegue até a seção **Módulos** e selecione **Conteúdo** > **Adicionar módulos**.
+
+4. Na caixa de diálogo **Selecionar tipo de módulo**, selecione **Ritmo individualizado** como o tipo de módulo. A caixa de diálogo **Módulo de ritmo individualizado** é aberta.
+
+5. Selecione **Procurar pastas** para abrir a hierarquia de pastas.
+
+6. Navegue pelos níveis de pasta para localizar o módulo que deseja adicionar. Selecione o arquivo de conteúdo.
+
+7. Selecione **Adicionar**. O módulo é adicionado ao curso.
+
+8. Conclua todos os campos de curso restantes e selecione **Salvar**.
 
 ## Adicionar conteúdo em diferentes idiomas {#addcontentfordifferentlanguages}
 
@@ -525,10 +634,10 @@ Na seção Critérios de conclusão, você pode definir as opções a seguir:
 * **Questionário realizado:** o status é indicado como Concluído se os alunos realizarem o questionário, tanto se forem aprovados ou não no questionário.
 * **Questionário aprovado ou limite atingido:** o status é indicado como Concluído se os alunos forem aprovados no questionário ou esgotarem as tentativas. Por exemplo, se o número de tentativas definidas no curso for dois e:
 
-   * Se os alunos fizerem a primeira tentativa e forem aprovados, o status será informado como Concluído e Aprovado.
-   * Se os alunos fizerem a primeira tentativa e falharem, o status será informado como Incompleto e Falha, pois o limite de tentativas ainda não foi atingido.
-   * Se os alunos fizerem novamente o quiz e falharem, o status será informado como Concluído e Reprovado.
-   * Se os alunos tentarem fazer o questionário novamente e forem aprovados, o status será informado como Concluído e Aprovado.
+  * Se os alunos fizerem a primeira tentativa e forem aprovados, o status será informado como Concluído e Aprovado.
+  * Se os alunos fizerem a primeira tentativa e falharem, o status será informado como Incompleto e Falha, pois o limite de tentativas ainda não foi atingido.
+  * Se os alunos fizerem novamente o quiz e falharem, o status será informado como Concluído e Reprovado.
+  * Se os alunos tentarem fazer o questionário novamente e forem aprovados, o status será informado como Concluído e Aprovado.
 
 ## Definir critérios de êxito {#setsuccesscriteria}
 
