@@ -18,7 +18,7 @@ Esta versão adiciona três novos endpoints de API públicos com escopo de admin
 
 Esses endpoints funcionam apenas com grupos de usuários personalizados. Os grupos gerenciados pelo sistema, como o grupo Todos os usuários e os grupos de usuários gerados automaticamente, têm somente leitura: true na resposta da API e não pode ser modificado nem excluído por meio desses endpoints.
 
-Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Pontos finais de API de grupos de usuários
 
@@ -205,7 +205,7 @@ O fluxo de trabalho de aprendizado externo por meio da API espelha o fluxo de tr
 
 Todos os cinco pontos de extremidade têm escopo do aluno. Um aluno só pode acessar seus próprios envios — a API retorna um erro se um aluno tentar acessar os dados de outro aluno.
 
-Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Pontos de extremidade da API de aprendizado externos
 
