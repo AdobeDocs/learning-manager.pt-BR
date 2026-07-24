@@ -90,7 +90,7 @@ A tabela a seguir descreve o que cada função pode fazer com a hierarquia de pa
 
 ### Limites da estrutura de pastas
 
-| **Limite** | Valor **1}** |
+| **Limite** | Valor **1&rbrace;** |
 |---------------------------------------|-----------|
 | Pastas de nível 1 por conta | Sem limite |
 | Subpastas de nível 2 por pasta de nível 1 | 25 |

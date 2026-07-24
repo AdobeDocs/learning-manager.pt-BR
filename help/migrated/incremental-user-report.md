@@ -41,18 +41,18 @@ A exportação de usuário completa atual (tipo de trabalho generateUsers) retor
 | Cliente D | 7,7 milhões de usuários (migração) |
 
 
-* Nessas escalas, o pipeline de exportação é executado em aproximadamente 90% de utilização da CPU ao buscar, processar e armazenar dados.
-* Os painéis de controle downstream (PowerBI, Salesforce, integrações personalizadas) assimilam novamente os registros de usuário inalterados em cada execução, desperdiçando largura de banda e tempo de processamento.
-* Não há como perguntar “quais usuários mudaram desde a última exportação?” usando a API atual.
+&#x200B;* Nessas escalas, o pipeline de exportação é executado em aproximadamente 90% de utilização da CPU ao buscar, processar e armazenar dados.
+&#x200B;* Os painéis de controle downstream (PowerBI, Salesforce, integrações personalizadas) assimilam novamente os registros de usuário inalterados em cada execução, desperdiçando largura de banda e tempo de processamento.
+&#x200B;* Não há como perguntar “quais usuários mudaram desde a última exportação?” usando a API atual.
 
 ## Quando usar o Relatório Incremental
 
 Use a exportação incremental quando precisar manter um sistema externo sincronizado com os dados do usuário do Adobe Learning Manager. Casos de uso típicos:
 
-* Manter um painel corporativo (PowerBI, Tableau, SFDC) atualizado com as alterações do perfil do usuário.
-* Alimentando sistemas de gerenciamento de identidade downstream com alterações de função, estado ou metadados.
-* Execução de pipelines delta-sync noturnos ou por hora em vez de recarregamentos completos.
-* Redução da carga de API e dos custos de transferência de dados para contas com milhões de usuários.
+&#x200B;* Manter um painel corporativo (PowerBI, Tableau, SFDC) atualizado com as alterações do perfil do usuário.
+&#x200B;* Alimentando sistemas de gerenciamento de identidade downstream com alterações de função, estado ou metadados.
+&#x200B;* Execução de pipelines delta-sync noturnos ou por hora em vez de recarregamentos completos.
+&#x200B;* Redução da carga de API e dos custos de transferência de dados para contas com milhões de usuários.
 
 Use a exportação completa (generateUsers) quando precisar de uma linha de base autoritativa, por exemplo, na primeira configuração ou após um longo intervalo entre as sincronizações.
 
@@ -73,9 +73,9 @@ O relatório CSV do usuário atual é enviado como um trabalho por meio da API d
 
 A carga suporta três filtros opcionais:
 
-* `expandMetadata` - Passar true para exportar metadados como uma coluna separada.
-* `fetchActiveUsers` - Passagem true para exportar somente usuários ativos.
-* `peerAccountId` - Para gerar o relatório de usuário para uma conta entre parceiros.
+&#x200B;* `expandMetadata` - Passar true para exportar metadados como uma coluna separada.
+&#x200B;* `fetchActiveUsers` - Passagem true para exportar somente usuários ativos.
+&#x200B;* `peerAccountId` - Para gerar o relatório de usuário para uma conta entre parceiros.
 
 ## Colunas CSV
 
@@ -129,9 +129,9 @@ Tipo de trabalho: generateUsers. Somente função de administrador.
 
 ## Limitações
 
-* Sem filtragem com base em data - cada execução exporta todos os usuários.
-* Inviável para contas grandes - esgotamento de recursos do pipeline acima de ~1 milhão de usuários.
-* Sem capacidade incremental ou delta.
+&#x200B;* Sem filtragem com base em data - cada execução exporta todos os usuários.
+&#x200B;* Inviável para contas grandes - esgotamento de recursos do pipeline acima de ~1 milhão de usuários.
+&#x200B;* Sem capacidade incremental ou delta.
 
 ## Relatório de Usuário Incremental (generateUserIncrementalReport)
 
@@ -174,13 +174,13 @@ Um usuário será incluído em um relatório incremental se qualquer um dos segu
 
 Os campos a seguir aparecem na saída CSV, mas não acionam a inclusão em uma exportação incremental quando são alterados:
 
-* deletedFromGamification
-* pointsEarned
-* lastLoginDate
-* dateDeleted
-* dateCreated
-* userSource
-* lastSocialActivityDate
+&#x200B;* deletedFromGamification
+&#x200B;* pointsEarned
+&#x200B;* lastLoginDate
+&#x200B;* dateDeleted
+&#x200B;* dateCreated
+&#x200B;* userSource
+&#x200B;* lastSocialActivityDate
 
 ## Formato de saída
 
@@ -313,16 +313,16 @@ Etapa 4: Repita até que uma resposta retorne menos de 500.000 registros, indica
 
 O relatório de usuário incremental tem escopo intencional. Os seguintes recursos estão fora do escopo:
 
-* Não é um relatório de auditoria do usuário - ele não lista quais campos específicos foram alterados.
-* Nenhuma comparação de valores antiga/nova - o relatório mostra apenas os valores do campo atual.
-* Sem carimbos de data e hora por alteração - o tempo de modificações individuais de campos não é revelado.
-* Nenhuma indicação do número de alterações - um usuário modificado uma vez e um usuário modificado dez vezes aparecem de maneira idêntica na exportação.
-* O formato do relatório existente não foi alterado — a estrutura da coluna CSV é a mesma do relatório de usuário completo.
+&#x200B;* Não é um relatório de auditoria do usuário - ele não lista quais campos específicos foram alterados.
+&#x200B;* Nenhuma comparação de valores antiga/nova - o relatório mostra apenas os valores do campo atual.
+&#x200B;* Sem carimbos de data e hora por alteração - o tempo de modificações individuais de campos não é revelado.
+&#x200B;* Nenhuma indicação do número de alterações - um usuário modificado uma vez e um usuário modificado dez vezes aparecem de maneira idêntica na exportação.
+&#x200B;* O formato do relatório existente não foi alterado — a estrutura da coluna CSV é a mesma do relatório de usuário completo.
 
 ## Integração do conector
 
 O relatório de usuário incremental foi projetado para ser usado em conectores do Adobe Learning Manager (PowerBI, Salesforce e outros) como uma substituição drop-in para o relatório de usuário completo em pipelines de sincronização regular. Isso permite que os conectores que hoje usam generateUsers migrem para o modelo incremental sem alterações no esquema de dados de downstream.
 
-* O CSV de saída é compatível com a coluna do relatório de usuário completo.
-* Os conectores podem usar o relatório incremental para sincronização delta e voltar ao relatório completo para inicialização ou recuperação.
-* Suporte para integração de conector (PowerBI, SFDC)
+&#x200B;* O CSV de saída é compatível com a coluna do relatório de usuário completo.
+&#x200B;* Os conectores podem usar o relatório incremental para sincronização delta e voltar ao relatório completo para inicialização ou recuperação.
+&#x200B;* Suporte para integração de conector (PowerBI, SFDC)

@@ -95,11 +95,11 @@ O Live Hub é uma experiência de treinamento virtual viabilizada por IA no Adob
 
 Principais destaques:
 
-- Aprimore o aprendizado ao vivo com uma experiência nativa do Adobe Learning Manager que melhora a qualidade instrucional e os resultados do aluno.
-- Dê aos professores um cofacilitador viabilizado por IA que orienta o engajamento por meio de pesquisas inteligentes, suporte a perguntas e respostas e insights de sala de sessão de grupo.
-- Ajude os alunos a obter mais de cada sessão com resumos gerados por IA e gravações de sessão pesquisáveis por tópicos.
-- Meça o que é importante com análises de envolvimento que vão além da participação para revelar a participação real no aprendizado.
-- Ajude seus autores a usar o localizador de professores viabilizado por IA para combinar com o professor certo por habilidades, disponibilidade, horários preferenciais, fuso horário e utilização atual.
+&#x200B;- Aprimore o aprendizado ao vivo com uma experiência nativa do Adobe Learning Manager que melhora a qualidade instrucional e os resultados do aluno.
+&#x200B;- Dê aos professores um cofacilitador viabilizado por IA que orienta o engajamento por meio de pesquisas inteligentes, suporte a perguntas e respostas e insights de sala de sessão de grupo.
+&#x200B;- Ajude os alunos a obter mais de cada sessão com resumos gerados por IA e gravações de sessão pesquisáveis por tópicos.
+&#x200B;- Meça o que é importante com análises de envolvimento que vão além da participação para revelar a participação real no aprendizado.
+&#x200B;- Ajude seus autores a usar o localizador de professores viabilizado por IA para combinar com o professor certo por habilidades, disponibilidade, horários preferenciais, fuso horário e utilização atual.
 
 ## Criador de modelos de email baseados em componentes
 

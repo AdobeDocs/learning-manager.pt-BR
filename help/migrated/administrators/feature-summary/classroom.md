@@ -127,7 +127,7 @@ Para adicionar um local da sala de aula:
 
    ![Guia Todos os Locais](assets/all-locations-tab.png)
 
-   *Selecione a guia **Todos os Locais**para adicionar um Local de Sala de Aula.*
+   *Selecione a guia **Todos os Locais**&#x200B;para adicionar um Local de Sala de Aula.*
 
 1. Selecione **Adicionar** > **Novo local** no canto superior direito.
 

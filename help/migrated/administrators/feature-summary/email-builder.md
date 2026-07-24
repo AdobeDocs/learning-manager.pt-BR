@@ -378,7 +378,7 @@ Digite o nome da variável diretamente entre chaves duplas: {\{variable_name}\}.
 | Nome do IC | \{\{ciName\}\} |
 | Nome do painel de relatório | \{\{reportDashboardName\}\} |
 | Nome da ajuda de tarefa | \{\{jobAidName\}\} |
-| Conteúdo do anúncio | \{\{announ{ContentText\}\} |
+| Conteúdo do anúncio | \&lbrace;\{announ{ContentText\}\} |
 | Nome do perfil | \{\{profileName\}\} |
 | Limite de vagas para o curso | \{\{sitLimit\}\} |
 | Link para a página inicial do documento de ajuda | \{\{captivatePrimeHelp\}\} |

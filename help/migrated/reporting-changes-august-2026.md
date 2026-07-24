@@ -57,7 +57,7 @@ A transcrição do aluno agora suporta vários ciclos de conclusão. Quando ocor
 
 Uma nova coluna **Em lista de espera** indica se um aluno está em lista de espera em qualquer módulo de um curso.
 
-| Valor **1}** | **Significado** |
+| Valor **1&rbrace;** | **Significado** |
 |-----------|---------------------------------------------------------|
 | verdadeiro | O aluno está em lista de espera em um ou mais módulos |
 | falso | O aluno confirmou a inscrição em todos os módulos visíveis |
@@ -82,7 +82,7 @@ O relatório de Inscrição do Caminho de Aprendizado também recebe uma nova co
 
 A coluna **Status do aluno** agora distingue entre alunos confirmados e em lista de espera.
 
-| Valor **1}** | **Significado** |
+| Valor **1&rbrace;** | **Significado** |
 |------------|----------------------------------------|
 | Confirmado | O aluno tem uma vaga alocada |
 | Em lista de espera | O aluno tem alocação de vagas pendente |
@@ -93,7 +93,7 @@ A coluna **Status do aluno** agora distingue entre alunos confirmados e em lista
 
 Uma nova coluna **Peso** representa a contribuição de cada módulo pontuável para a pontuação geral do curso.
 
-| Valor **1}** | **Descrição** |
+| Valor **1&rbrace;** | **Descrição** |
 |----------------------------------------------|------------------------------------------------------|
 | Porcentagem numérica (por exemplo, 20, 30, 50) | Contribuição do módulo para a pontuação do curso |
 | Em branco | O módulo não é pontuável (por exemplo, PDF ou vídeos) |
