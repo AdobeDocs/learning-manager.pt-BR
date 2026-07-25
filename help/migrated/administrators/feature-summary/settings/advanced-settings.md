@@ -3,9 +3,9 @@ description: Saiba mais sobre como definir Configurações avançadas no Adobe L
 jcr-language: en_us
 title: Configurações avançadas no Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2391'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,10 @@ As pastas de conteúdo privado aceitam até três níveis de aninhamento:
 
 Essa estrutura dá às organizações a flexibilidade de espelhar a organização do conteúdo real, por área de tópico, tipo de entrega, público ou equipe, em vez de gerenciar milhares de arquivos em uma lista simples.
 
-Somente os administradores podem criar, editar ou excluir pastas em qualquer nível. Autores e usuários personalizados interagem com a hierarquia, mas não podem modificá-la.
+>[!NOTE]
+>
+>Somente os administradores podem criar, editar ou excluir pastas em qualquer nível. Autores e usuários personalizados interagem com a hierarquia, mas não podem modificá-la. Além disso, os administradores personalizados com acesso a qualquer pasta raiz podem criar, editar ou excluir pastas nessa pasta raiz.
+
 
 ### Regras de nomeação de pasta
 
@@ -71,7 +74,7 @@ Os nomes de pastas devem ser exclusivos dentro do mesmo nível na mesma pasta pa
 
 ### Como os caminhos da pasta são exibidos
 
-A Biblioteca de conteúdo exibe cada caminho de pasta completo do arquivo de conteúdo. Por exemplo, **Programas de treinamento** > **Integração** > **Ativos SCORM**. Este caminho mostra o local completo do conteúdo.
+A Biblioteca de conteúdo exibe cada caminho de pasta completo do arquivo de conteúdo. Por exemplo, **Programas de treinamento** / **Integração** / **Ativos SCORM**. Este caminho mostra o local completo do conteúdo.
 
 Se um arquivo existir em mais de uma pasta, todos os caminhos aparecerão separados por vírgulas. Se um caminho for longo, ele ficará truncado desde o início com reticências (...) e o nome de pasta mais profundo será sempre exibido.
 
@@ -90,7 +93,7 @@ A tabela a seguir descreve o que cada função pode fazer com a hierarquia de pa
 
 ### Limites da estrutura de pastas
 
-| **Limite** | Valor **1&rbrace;** |
+| **Limite** | Valor **1}** |
 |---------------------------------------|-----------|
 | Pastas de nível 1 por conta | Sem limite |
 | Subpastas de nível 2 por pasta de nível 1 | 25 |
@@ -140,7 +143,7 @@ Com uma estrutura de três níveis:
 
 * Nível 3: módulos ou ativos específicos por região (PDF de regulamentação de privacidade, planos de políticas locais, arquivos de avaliação)
 
-As equipes de autores regionais recebem acesso apenas às respectivas filiais de Nível 1 ou Nível 2. Eles podem localizar, atualizar e reutilizar apenas os ativos relevantes para sua jurisdição sem ver ou modificar acidentalmente o conteúdo de outra região.
+Nos casos de autores regionais, sendo uma função personalizada, somente a pasta de nível 1 pode ser selecionada durante a criação da função personalizada. A seleção de pastas de nível 2 não é uma opção. Eles podem localizar, atualizar e reutilizar apenas os ativos relevantes para sua jurisdição sem ver ou modificar acidentalmente o conteúdo de outra região.
 
 **Caso de uso 2- Programa de integração em grande escala com muitas funções**
 
@@ -212,7 +215,7 @@ Como administrador no Adobe Learning Manager, você cria e mantém a hierarquia 
 Antes de excluir, esteja ciente das seguintes regras:
 
 * Você pode excluir uma pasta vazia em qualquer nível.
-* Não é possível excluir uma pasta se ela contiver conteúdo que não está vinculado a nenhuma outra pasta. Mova esse conteúdo para outra pasta primeiro.
+* Somente pastas vazias podem ser excluídas. As pastas que contêm conteúdo não podem ser excluídas, independentemente de o conteúdo estar vinculado a outras pastas ou não.
 * A exclusão de uma pasta pai exclui todas as suas subpastas. Selecionar uma pasta pai seleciona automaticamente todos os seus filhos.
 
 #### Excluir a pasta pai
