@@ -2,9 +2,9 @@
 description: Tudo sobre o Gradebook da perspectiva do aluno
 jcr-language: en_us
 title: Gradiente para alunos
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 45338a2325a1d6b4c31869399acf3331c65afed7
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Você pode abrir a guia **Gradebook** a qualquer momento durante a inscrição:
 
 * **Antes de iniciar:** após a inscrição, você verá a lista completa de módulos pontuáveis com suas porcentagens de ponderação, as marcas máximas para cada um e os critérios de aprovação definidos pelo autor. Isso mostra exatamente como o curso é classificado antes de começar.
 * **Enquanto em andamento:** à medida que você conclui os módulos e as pontuações são gravadas, o catálogo de notas é atualizado para mostrar suas pontuações até agora, juntamente com os módulos que ainda não foram tentados ou que estão aguardando a correção.
-* **Após a conclusão:** o gradiente mostra todas as pontuações finais do módulo, a pontuação agregada calculada do curso e um resultado de **Aprovado** no cabeçalho.
+* **Após a conclusão:** o gradiente mostra todas as pontuações finais do módulo, a pontuação agregada calculada do curso e o resultado de uma **nota final** no cabeçalho.
 
 ## Exibir o catálogo de notas
 
@@ -78,8 +78,8 @@ Cada módulo no gradiente mostra um dos seguintes status:
 ![](assets/image_0012.png)
 
 | **Status** | **O que significa** |
-|------------|-------------------|
-| **Concluído** | Módulo concluído e pontuação registrada |
+| ------------ | ------------------- |
+| **Aprovado** | Módulo concluído e pontuação registrada |
 | **Em andamento** | Módulo iniciado mas ainda não concluído |
 | **Não iniciado** | Módulo ainda não aberto |
 | **Falha** | O módulo marcou e a pontuação não atingiu o limite de aprovação do módulo |
