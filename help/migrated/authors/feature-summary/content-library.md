@@ -3,9 +3,9 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '5992'
+source-wordcount: '6048'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Ao enviar um novo conteúdo, escolha em qual pasta ele será armazenado durante 
 4. Em **Adicionar Arquivo de Conteúdo**, arraste e solte o arquivo de conteúdo ou selecione o campo para procurar e carregar.
    ![](assets/cl2.png)
 
-5. Em **Adicionar à Pasta**, selecione **Procurar pastas** e navegue até a pasta onde deseja armazenar o conteúdo. Selecione a pasta a ser confirmada.
+5. Em **Adicionar à Pasta**, navegue pela pasta ou pesquise a pasta no campo de pesquisa.
    ![](assets/cl3.png)
 
 6. Selecione **Adicionar**.
@@ -461,7 +461,7 @@ Ao enviar um novo conteúdo, escolha em qual pasta ele será armazenado durante 
 
 ## Exibir caminhos de pasta na Biblioteca de conteúdo
 
-Na **Biblioteca de Conteúdo**, cada arquivo de conteúdo mostra seu caminho de pasta completo, por exemplo, **Treinamento de Vendas** > **Módulos de Ritmo Automático** > **Ativos de PDF**. Esse caminho informa exatamente onde o arquivo está na hierarquia.
+Na **Biblioteca de Conteúdo**, cada arquivo de conteúdo mostra seu caminho de pasta completo, por exemplo, **Treinamento de Vendas** / **Módulos de Ritmo Automático** / **Ativos de PDF**. Esse caminho informa exatamente onde o arquivo está na hierarquia.
 
 * Se um arquivo existir em mais de uma pasta, todos os caminhos aparecerão separados por vírgulas.
 
@@ -490,16 +490,17 @@ O filtro **Pastas** da Biblioteca de Conteúdo permite restringir a lista para m
 
 ## Mover o conteúdo para a pasta {#movecontenttofolder}
 
-Quando o conteúdo é movido, ele é removido de sua pasta atual e é inserido na pasta de destino.
+Quando o conteúdo é movido, ele é removido de sua pasta atual e é inserido na pasta de destino. É possível selecionar várias pastas privadas na caixa de diálogo para mover o conteúdo. No entanto, não é possível selecionar pastas privadas e públicas ao mesmo tempo. Você pode selecionar várias pastas privadas ou uma única pasta pública.
 
 1. Na **Biblioteca de Conteúdo**, marque a caixa de seleção ao lado de cada arquivo de conteúdo que deseja mover.
 2. Selecione **Ações** > **Organizar Conteúdo** > **Mover Conteúdo para a Pasta**. O painel **Mover conteúdo para a pasta** é aberto.
 3. Selecione a pasta de destino para a qual deseja mover o conteúdo.
 4. Selecione **Mover conteúdo**. A Biblioteca de conteúdo é atualizada para mostrar o novo caminho de pasta.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Não é possível mover o conteúdo de uma pasta privada para uma pasta pública ou da pasta pública para uma pasta privada.
+>É possível mover o conteúdo de uma pasta pública para uma pasta privada e vice-versa. Entretanto, não é possível mover o conteúdo para as pastas pública e privada na mesma ação. Se você selecionar uma pasta pública, não poderá selecionar nenhuma pasta privada e vice-versa.
+
 
 
 <!--

@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos, incluindo alte
 jcr-language: en_us
 title: Novidades do Adobe Learning Manager na versão de agosto de 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
+source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Principais recursos:
 * No máximo 10 programações de aprendizado personalizadas visíveis na página inicial do aluno
 * Caminhos concluídos podem ser compartilhados com colegas
 
-Para obter mais informações, consulte [Assistente do AI para alunos](/help/migrated/learners/feature-summary/learning-path-agent.md).
+Para obter mais informações, consulte [Agente do Caminho de Aprendizado](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 ### Agente de insights
 
