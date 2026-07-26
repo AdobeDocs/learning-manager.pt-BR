@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos, incluindo alte
 jcr-language: en_us
 title: Novidades do Adobe Learning Manager na versão de agosto de 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Principais recursos:
 * Explorar a experiência de pastas ao selecionar módulos na criação do curso
 
 Para obter mais informações sobre as funcionalidades no nível de administrador, consulte [Pastas de conteúdo hierárquico](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). Para obter mais informações sobre as funcionalidades no nível de autor, consulte [Pastas de conteúdo hierárquico](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
+
+Se estiver migrando o conteúdo de aprendizado de outra plataforma para o Adobe Learning Manager e quiser preservar sua organização de pastas existente, você pode usar arquivos CSV para criar uma estrutura de pastas hierárquica e associar seus arquivos de conteúdo às pastas apropriadas. Saiba mais sobre a migração em [Migrar hierarquia de pastas de conteúdo](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
 ## Hub ao vivo
 
