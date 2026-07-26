@@ -3,9 +3,9 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
+source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
 workflow-type: tm+mt
-source-wordcount: '9158'
+source-wordcount: '9051'
 ht-degree: 36%
 
 ---
@@ -1085,7 +1085,7 @@ Use o valor `LTI` no campo `contentType` para identificar a versão do módulo c
 
 *Campo e valor usados para identificar uma versão do módulo de LTI*
 
-| **Campo** | Valor **1&rbrace;** |
+| **Campo** | Valor **1}** |
 |-------------|-----------|
 | contentType | LTI |
 
@@ -1269,17 +1269,6 @@ O Adobe Learning Manager valida cada linha em course_module_user_group.csv antes
 Se estiver migrando o conteúdo de aprendizado de outra plataforma para o Adobe Learning Manager e quiser preservar sua organização de pastas existente, você pode usar arquivos CSV para criar uma estrutura de pastas hierárquica e associar seus arquivos de conteúdo às pastas apropriadas.
 
 Essa migração geralmente é realizada como parte de uma migração de plataforma maior, depois que seus usuários, cursos, módulos e arquivos de conteúdo já foram importados para o Adobe Learning Manager. Essa etapa de migração reorganiza o conteúdo na estrutura de pastas que você tinha no sistema de origem.
-
-### Pré-requisitos
-
-Antes de iniciar a migração da pasta de conteúdo, confirme o seguinte:
-
-| Pré-requisito | Por que isso importa |
-| --- | --- |
-| O recurso Pastas de Conteúdo Hierárquico está habilitado para sua conta | A migração falhará se esse recurso não estiver ativo. Entre em contato com a Adobe se não tiver certeza. |
-| Um projeto de migração foi criado na ferramenta de migração | Todos os arquivos CSV devem ser executados em um projeto de migração para acompanhar e executar o suporte novamente. |
-| Usuários, cursos, módulos e arquivos de conteúdo já foram migrados (etapas 1 a 4 da migração) | A migração de pasta está em estágio 5, organizando conteúdo que já deve existir no Adobe Learning Manager. |
-| Sua conta de administrador tem permissão de execução de migração | Necessário para acionar sprints de migração. |
 
 ### O que esta migração faz
 
