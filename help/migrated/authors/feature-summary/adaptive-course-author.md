@@ -3,9 +3,9 @@ description: Como autor, saiba como criar cursos adaptáveis para seus alunos.
 jcr-language: en_us
 title: Cursos adaptativos para autores
 contentowner: mmanuel
-source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '3038'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,18 @@ Depois de publicado, o curso está disponível para inscrição. Os alunos veem 
 >
 >Depois da publicação, não é possível alternar o curso de Adaptável para Regular ou vice-versa. Verifique sua configuração antes de publicar.
 
+### Comportamento de compartilhamento do catálogo
+
+Quando um catálogo contendo cursos adaptativos é compartilhado externamente para uma conta entre parceiros, os seguintes comportamentos se aplicam:
+
+* **Cursos adaptáveis compartilhados diretamente:** os cursos adaptáveis são excluídos do catálogo compartilhado. Eles não aparecem na conta de recebimento.
+* **Cursos adaptáveis dentro de um caminho de aprendizado ou certificação:** se um LP ou certificação contendo um curso adaptável for compartilhado, o LP ou a certificação em si será copiada para a conta de recebimento. O curso adaptável dentro dele é copiado como um **curso regular** — a configuração adaptável, incluindo todas as regras de visibilidade e conclusão, não é copiada. Os autores na conta de recebimento veem o curso como um curso regular com todos os módulos visíveis para todos os alunos.
+* **Cursos adaptáveis definidos como pré-requisitos:** se um curso adaptável for configurado como um pré-requisito de um curso regular, caminho de aprendizado ou certificação que está sendo compartilhado, a relação de pré-requisito não será propagada para a conta de recebimento. O curso pai ou OA chega à conta de recebimento sem o pré-requisito.
+
+>[!NOTE]
+>
+>Como as configurações adaptáveis não são copiadas durante o compartilhamento do catálogo, revise todos os relacionamentos de pré-requisitos e estruturas de LP/certificação antes de compartilhar um catálogo externamente. Os alunos na conta de recebimento não terão o mesmo comportamento adaptável dos alunos na conta de origem.
+
 
 ### Atualizar um curso adaptável publicado
 
@@ -140,6 +152,14 @@ Observe que não é mais possível alterar as configurações de visibilidade no
 | O módulo mudou de obrigatório para opcional para um grupo de usuários do aluno | O módulo permanece visível; o aluno não precisa mais concluí-lo para a conclusão do curso. |
 | Novo módulo obrigatório adicionado (o aluno já concluiu o curso) | O módulo se torna visível para o aluno, mas ele não recebe uma vaga automaticamente nem o acessa. O novo módulo se torna acessível somente quando uma conclusão de atualização é acionada. |
 
+>[!NOTE]
+>
+>**Caminho de aprendizado ordenado:** quando um curso adaptável é incluído em um caminho de aprendizado ordenado, os alunos que não têm módulos visíveis no curso adaptável não podem concluí-lo. Isso impede que todos os itens subsequentes no Caminho de aprendizado ordenado se tornem acessíveis. Certifique-se de que cada aluno inscrito no Caminho de Aprendizado pertença a pelo menos um grupo de usuários que torne pelo menos um módulo visível em cada curso adaptável no caminho.
+
+>[!NOTE]
+>
+>**Caminho de Aprendizado regular — cancelamento de inscrição automático:** quando um aluno é cancelado automaticamente em um curso adaptável dentro de um caminho de aprendizado regular porque uma alteração do grupo de usuários removeu todos os módulos visíveis, o caminho de aprendizado pai permanece em um estado inscrito. O Caminho de aprendizado não cancela a inscrição automaticamente. O aluno vê o Caminho de aprendizado como inscrito na transcrição, mesmo que o curso adaptável não esteja mais acessível. Se o caso de uso exigir que o Caminho de Aprendizado também cancele a inscrição quando o curso adaptável, use um **Caminho de Aprendizado adaptável** em vez de um Caminho de Aprendizado normal.
+
 ### Comportamento de alternância de instância
 
 Um aluno que alterna instâncias de um curso adaptável leva o progresso adiante:
@@ -159,10 +179,16 @@ Quando um aluno se inscreve em um curso adaptável que inclui módulos de sala d
 * Se todas as sessões visíveis da sala de aula ou da sala de aula virtual tiverem vagas disponíveis, o aluno será inscrito e terá acesso total imediatamente.
 * Se uma ou mais sessões visíveis não tiverem vagas disponíveis, o aluno será inscrito e ficará imediatamente em lista de espera somente nessas sessões específicas. Eles podem iniciar e avançar por todos os outros módulos imediatamente.
 
+### Limite da lista de espera
+
+Nos cursos regulares, os professores podem configurar um **limite de listas de espera**, um limite para o número de alunos que podem ser colocados na lista de espera de uma sessão.
+
+Nos cursos adaptáveis, a configuração de **Limite da lista de espera** está desabilitada no aplicativo do professor e não pode ser configurada. Não há limite para o número de alunos que podem ser colocados em lista de espera por uma sessão em um curso adaptável. Todos os alunos que tentam se inscrever quando uma sessão está cheia estão em lista de espera sem restrições.
+
 A tabela a seguir descreve todos os cenários de estações e listas de espera para cursos adaptáveis.
 
 | Condição na inscrição | Resultado |
-|---|---|
+| --- | --- |
 | Todas as sessões CR/VC visíveis têm licenças disponíveis | Inscrito com acesso total a todos os módulos |
 | Uma ou mais sessões CR/VC visíveis estão cheias | Inscrito; em lista de espera somente em sessões completas; todos os outros módulos acessíveis imediatamente |
 | Aluno já inscrito; o autor adiciona uma nova sessão CR/VC obrigatória sem vagas | O aluno está na lista de espera da nova sessão; o progresso e o acesso existentes não são afetados |
@@ -170,6 +196,12 @@ A tabela a seguir descreve todos os cenários de estações e listas de espera p
 | A alteração do grupo de usuários remove uma sessão do conjunto visível do aluno | Vaga liberada imediatamente |
 | O aluno conclui o curso; as novas sessões obrigatórias de CR/VC ficam visíveis | Módulo visível, mas sem assento atribuído automaticamente. O aluno deve acionar a conclusão da atualização para acessar a sessão. |
 | O administrador ou professor aloca licenças | Todas as sessões CR/VC em lista de espera para esse aluno são limpas simultaneamente |
+
+>[!NOTE]
+>
+>**Comportamento do Caminho de Aprendizado do Flex:** quando um curso adaptável faz parte de um Caminho de Aprendizado do Flex, o comportamento da lista de espera difere da inscrição direta. Se um aluno selecionar uma instância do curso adaptável dentro do LP do Flex e nenhuma vaga estiver disponível para essa instância, o aluno estará em lista de espera para essa instância específica. As informações de aluno na lista de espera para este cenário são visíveis somente no **Administrador > [Curso adaptável] > Lista de espera**. Elas não aparecem no **Administrador > Caminho de Aprendizado**. Verifique a guia Lista de espera do próprio curso adaptável para gerenciar os alunos que estavam na lista de espera por meio de um LP do Flex.
+
+Quando você baixa o **PDF do relatório de participação** para uma sessão em um curso adaptável que faz parte de um caminho de aprendizado do Flex, os alunos na lista de espera aparecem na seção **Ativo** do PDF. Isso ocorre porque a interface do Caminho de aprendizado não tem uma seção Lista de espera separada. Use **Administrador > [Curso adaptável] > Lista de espera** para identificar quais alunos estão na lista de espera e distingui-los dos participantes confirmados antes de marcar presença.
 
 ### Exibir a lista de espera
 
