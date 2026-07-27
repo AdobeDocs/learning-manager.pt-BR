@@ -2,9 +2,9 @@
 description: Configure a pontuação ponderada para os alunos no Gradebook para que a conclusão do curso possa ser vinculada à obtenção de um limite mínimo de pontuação.
 jcr-language: en_us
 title: Caderno para autores
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: d92f2c03d0b5520afcab0a6843819ddd527a6bd1
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ O Gradebook é configurado no nível do curso ao criar um novo curso. Não pode 
 
 * Selecione a alternância **Gradebook** para habilitá-lo. Duas opções aparecem abaixo dela. Ambos estão ativados por padrão:
   * **Mostrar Gradebook aos alunos:** os alunos veem uma guia **Gradebook** no reprodutor do curso mostrando as pontuações do módulo, a decomposição de peso e o resultado agregado. Desative essa opção para calcular as notas internamente sem expor as notas aos alunos.
-  * **Incluir módulos que não contribuem para a nota final:** módulos não pontuáveis (PDF, vídeo, áudio e semelhantes) aparecem no Gradebook. Os módulos não pontuáveis não contribuem para a pontuação final do aluno.
+  * **Incluir módulos que não contribuem para a nota final:** os módulos que não fazem parte do requisito de critérios de aprovação também serão mostrados no catálogo de notas. Se essa configuração não for marcada, serão mostrados apenas os módulos que fazem parte dos critérios de aprovação.
 
 ### Adicionar módulos e atribuir peso
 
