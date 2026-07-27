@@ -2,7 +2,7 @@
 description: Configure a pontuação ponderada para os alunos no Gradebook para que a conclusão do curso possa ser vinculada à obtenção de um limite mínimo de pontuação.
 jcr-language: en_us
 title: Caderno para autores
-source-git-commit: d92f2c03d0b5520afcab0a6843819ddd527a6bd1
+source-git-commit: 37db436b0f108423af185ebba377d8f06c7b7398
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
