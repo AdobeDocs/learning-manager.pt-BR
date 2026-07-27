@@ -3,9 +3,9 @@ description: Forneça um curso a vários públicos controlando quais módulos ca
 jcr-language: en_us
 title: Cursos adaptáveis no Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
+source-git-commit: cf30b15313599f8206b668709f245c3e388d3aa8
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -113,10 +113,18 @@ Os cursos adaptativos podem ser adicionados aos catálogos da sua conta. Quando 
 >
 >Quando um caminho de aprendizado ou uma certificação que contém um curso adaptável é compartilhado externamente, a conta de recebimento vê o caminho de aprendizado ou a certificação no catálogo, mas o curso adaptável dentro dele não é exibido. O objeto de aprendizado não é totalmente excluído; apenas o componente adaptável do curso é removido da versão compartilhada. Os autores na conta de recebimento devem estar cientes de que o Objeto de aprendizado compartilhado pode ter menos módulos do que a versão de origem.
 
+>[!NOTE]
+>
+>Quando um curso adaptativo é configurado como um pré-requisito de outro curso e esse curso pai é compartilhado com uma conta de recebimento por meio do compartilhamento do catálogo, o curso de pré-requisito adaptativo não é compartilhado com a conta de recebimento. Isso se aplica se o pré-requisito for definido diretamente no curso ou por meio de um Objeto de aprendizado de ordem superior, como um Caminho de aprendizado ou certificação.
+>
+>Na conta receptora, o curso pai está disponível, mas o pré-requisito adaptativo está ausente. Os alunos na conta de recebimento não são afetados pelo pré-requisito ausente porque a dependência de pré-requisito não é imposta para o conteúdo que chega pelo compartilhamento de catálogo sem seus pré-requisitos presentes.
+>
+>Não configure cursos adaptáveis como pré-requisitos para o conteúdo que pretende compartilhar externamente.
+
 ## Configurações compatíveis
 
 | Configuração | Compatível? |
-|---|---|
+| --- | --- |
 | Curso adaptativo em um caminho de aprendizado normal | Sim (veja a nota abaixo) |
 | Curso adaptável em um caminho de aprendizado flexível | Sim |
 | Curso adaptável em um caminho de aprendizado adaptável | Não |
