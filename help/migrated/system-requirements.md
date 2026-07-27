@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 62%
+source-wordcount: '605'
+ht-degree: 81%
 
 ---
 
@@ -39,7 +39,7 @@ Mínimo de 5 GB de espaço em disco disponível.
 
 É necessário um microfone para gravação de áudio; uma webcam é necessária para gravação de vídeo.
 
-## Aplicativo móvel
+## Aplicativo para dispositivos móveis
 
 ### Dispositivos
 
@@ -86,9 +86,9 @@ A página inicial de layout imersivo não é compatível com navegadores IE 11.
 ## Tamanho recomendado das imagens {#recommendedsizeofimages}
 
 * Manchete:
-   * Para configurações tão grandes: 1280 x 360 PX
-   * Para configurações como médias: 1280 x 273 PX
-   * Para configurações tão pequenas: 1280 x 187 PX
+  * Para configurações tão grandes: 1280 x 360 PX
+  * Para configurações como médias: 1280 x 273 PX
+  * Para configurações tão pequenas: 1280 x 187 PX
 * Imagem no cartão de catálogo: 280 x 100 px
 * Dimensão do cartão de treinamento: 300 x 240 px
 * Banner social: 1600 x 240 px
@@ -101,7 +101,7 @@ O tamanho máximo do arquivo que pode ser carregado é de 600 MB.
 >
 >Se o tamanho do arquivo *user.csv* exceder 100 MB, a importação desse arquivo pode fazer com que o navegador se comporte de forma imprevisível. O problema ocorre porque o navegador fica sem memória.
 
-Recomendamos importar arquivos *user.csv* de tamanho grande usando o fluxo de trabalho automatizado do Box/Exavault. Para saber mais, consulte [Migrando arquivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Recomendamos importar arquivos *user.csv* de tamanho grande usando o fluxo de trabalho automatizado do Box/Exavault. Para saber mais, consulte [Migração de arquivos](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Formatos de conteúdo suportados
@@ -240,13 +240,13 @@ Recomendamos importar arquivos *user.csv* de tamanho grande usando o fluxo de tr
    <td>
     <p>Logotipo da empresa no cabeçalho</p></td>
    <td>
-    <p>45 pixels de altura, a largura é calculada de acordo.</p></td>
+    <p>45 pixels de altura, e a largura é calculada de acordo esse valor.</p></td>
   </tr>
   <tr>
    <td>
     <p>Logotipo da empresa na página inicial do Learning Manager</p></td>
    <td>
-    <p>100 pixels de altura, a largura é calculada de acordo.</p></td>
+    <p>100 pixels de altura, e a largura é calculada de acordo esse valor.</p></td>
   </tr>
  </tbody>
 </table>
