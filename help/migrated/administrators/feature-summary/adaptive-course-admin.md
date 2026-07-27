@@ -3,9 +3,9 @@ description: Forneça um curso a vários públicos controlando quais módulos ca
 jcr-language: en_us
 title: Cursos adaptáveis no Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -113,10 +113,18 @@ Os cursos adaptativos podem ser adicionados aos catálogos da sua conta. Quando 
 >
 >Quando um caminho de aprendizado ou uma certificação que contém um curso adaptável é compartilhado externamente, a conta de recebimento vê o caminho de aprendizado ou a certificação no catálogo, mas o curso adaptável dentro dele não é exibido. O objeto de aprendizado não é totalmente excluído; apenas o componente adaptável do curso é removido da versão compartilhada. Os autores na conta de recebimento devem estar cientes de que o Objeto de aprendizado compartilhado pode ter menos módulos do que a versão de origem.
 
+>[!NOTE]
+>
+>Quando um curso adaptativo é configurado como um pré-requisito de outro curso e esse curso pai é compartilhado com uma conta de recebimento por meio do compartilhamento do catálogo, o curso de pré-requisito adaptativo não é compartilhado com a conta de recebimento. Isso se aplica se o pré-requisito for definido diretamente no curso ou por meio de um Objeto de aprendizado de ordem superior, como um Caminho de aprendizado ou certificação.
+>
+>Na conta receptora, o curso pai está disponível, mas o pré-requisito adaptativo está ausente. Os alunos na conta de recebimento não são afetados pelo pré-requisito ausente porque a dependência de pré-requisito não é imposta para o conteúdo que chega pelo compartilhamento de catálogo sem seus pré-requisitos presentes.
+>
+>Não configure cursos adaptáveis como pré-requisitos para o conteúdo que pretende compartilhar externamente.
+
 ## Configurações compatíveis
 
 | Configuração | Compatível? |
-|---|---|
+| --- | --- |
 | Curso adaptativo em um caminho de aprendizado normal | Sim (veja a nota abaixo) |
 | Curso adaptável em um caminho de aprendizado flexível | Sim |
 | Curso adaptável em um caminho de aprendizado adaptável | Não |
@@ -126,6 +134,15 @@ Os cursos adaptativos podem ser adicionados aos catálogos da sua conta. Quando 
 | Compartilhamento de catálogo (entre contas) | Não |
 | Regras de visibilidade nos módulos de pré-trabalho ou de teste | Não |
 | Regras de visibilidade nos principais módulos de conteúdo | Sim |
+| Curso adaptável em um caminho de aprendizado flexível | Sim |
+
+>[!NOTE]
+>
+>Ao baixar o **PDF do relatório de participação** para uma sessão em um curso adaptável que faz parte de um caminho de aprendizado do Flex, os alunos na lista de espera aparecem na seção Ativo do PDF. A interface do Caminho de aprendizado não tem uma seção de lista de espera dedicada, portanto, não existe nenhum bucket de lista de espera separado na exportação do PDF. Para identificar com precisão os alunos da lista de espera, verifique **Administrador > [Curso adaptável] > Lista de espera** antes de marcar a participação.
+
+A coluna **Incorporado em** no relatório de lista de espera identifica as instâncias do Caminho de Aprendizado do Flex que contêm esse curso adaptativo como um constituinte. Ela mostra o nome do Caminho de aprendizado e a ID do Objeto de aprendizado. Não tem a intenção de mostrar caminhos de inscrição individuais do aluno. Para cursos adaptativos aninhados em um subcaminho de aprendizado que está dentro de um caminho de aprendizado pai, somente o caminho de aprendizado pai direto aparece nessa coluna.
+
+Quando o curso adaptável faz parte de uma **certificação recorrente**, a conclusão da atualização se aplica somente à inscrição do aluno no ciclo de certificação raiz. Os ciclos recorrentes subsequentes contêm uma instância separada do curso adaptativo que não é afetada pela atualização. Os alunos inscritos em um ciclo recorrente não veem as atualizações do módulo nem têm as conclusões revertidas. Se a sua organização usa cursos adaptáveis em certificações recorrentes, comunique essa limitação aos administradores antes de acionar a conclusão da atualização.
 
 >[!NOTE]
 >

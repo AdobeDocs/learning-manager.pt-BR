@@ -3,9 +3,9 @@ description: Obtenha respostas rápidas e precisas do seu conteúdo de aprendiza
 jcr-language: en_us
 title: Assistente do AI para alunos no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3167'
 ht-degree: 0%
 
 ---
@@ -175,22 +175,25 @@ Antes de configurar o Assistente do AI, confirme se você tem credenciais de adm
 
 Para ativar o Assistente de IA do aluno:
 
-&#x200B;1. Faça logon no Adobe Learning Manager como administrador.
+1. Faça logon no Adobe Learning Manager como administrador.
 
-2.Selecione **Configurações** na home page.
-![Console do administrador com a opção Configurações no painel esquerdo](assets/settings-menu.png)
+1. Selecione **Configurações** na home page.
 
-3.Selecione **Assistente de IA do aluno (Beta)** no menu **Configurações**.
-![O console do administrador exibe a opção Assistente de IA do aluno no painel esquerdo](assets/learner-assistant-ai-beta.png)
+   ![Console do administrador com a opção Configurações no painel esquerdo](assets/settings-menu.png)
 
-4.Selecione a opção de alternância para habilitar o **Assistente de IA do aluno (Beta)**.
-<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
+1. Selecione **Assistente de IA do aluno (Beta)** no menu **Configurações**.
 
-5.Selecione um ou mais catálogos da opção **Catálogos qualificados**.
+   ![O console do administrador exibe a opção Assistente de IA do aluno no painel esquerdo](assets/learner-assistant-ai-beta.png)
 
-6.Selecione **Salvar** para aplicar as configurações do catálogo.
+1. Selecione a opção de alternância para habilitar o **Assistente de IA do aluno (Beta)**.
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. Selecione um ou mais catálogos da opção **Catálogos qualificados**.
+
+1. Selecione **Salvar** para aplicar as configurações do catálogo.
 
 >[!IMPORTANT]
 >
@@ -202,20 +205,23 @@ Para iniciar o Assistente do AI:
 
 1. Faça logon no Adobe Learning Manager como aluno.
 
-2. Selecione **Perguntar ao assistente de IA** na página inicial.
+1. Selecione **Perguntar ao assistente de IA** na página inicial.
+
    ![A página inicial do aluno exibe Perguntar ao assistente de IA para selecionar e abrir o painel Assistente de IA do aluno](assets/ask-ai-assistant.png)
 
-3. Quando a tela **Assistente de IA do aluno** for exibida, selecione **Introdução**.
+1. Quando a tela **Assistente de IA do aluno** for exibida, selecione **Introdução**.
+
    ![Selecione Começar para iniciar o Assistente de Aluno](assets/get-started-learner-assistant.png)
 
->[!NOTE]
->
->Ao iniciar o Assistente do AI pela primeira vez, você deve dar seu consentimento antes de usá-lo. A caixa de diálogo de consentimento será exibida somente durante essa primeira inicialização. Para todas as inicializações subsequentes, você será direcionado ao Assistente do AI para inserir seus prompts.
+   >[!NOTE]
+   >
+   >Ao iniciar o Assistente do AI pela primeira vez, você deve dar seu consentimento antes de usá-lo. A caixa de diálogo de consentimento será exibida somente durante essa primeira inicialização. Para todas as inicializações subsequentes, você será direcionado ao Assistente do AI para inserir seus prompts.
 
-&#x200B;4. Digite seu prompt no campo de texto.
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+1. Digite seu prompt no campo de texto.
 
-5.Pressione **Enter** para receber uma resposta. Revise suas respostas, fontes e recomendações.
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. Pressione **Enter** para receber uma resposta. Revise suas respostas, fontes e recomendações.
 
 Você pode:
 

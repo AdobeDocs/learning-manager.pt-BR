@@ -2,9 +2,9 @@
 description: A API de trabalho de relatório de usuário incremental permite que os administradores exportem apenas usuários cujos dados foram alterados em um intervalo de datas especificado. Isso elimina a necessidade de exportações completas de usuários e permite uma sincronização mais eficiente de registros novos ou atualizados de usuários.
 jcr-language: en_us
 title: Relatório de Usuário Incremental (API de Trabalho)
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: aad13507c56f0c2020a97e809edd9fa0b223479f
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1576'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Tipo de trabalho: generateUsers. Somente função de administrador.
 
 ## Relatório de Usuário Incremental (generateUserIncrementalReport)
 
-Esta seção documenta o novo recurso de relatório incremental de usuário introduzido no M46. Este é o assunto principal deste documento.
+Esta seção documenta o recurso recém-introduzido: Relatório de Usuário Incremental.
 
 ## O que é uma exportação incremental?
 
@@ -323,6 +323,4 @@ O relatório de usuário incremental tem escopo intencional. Os seguintes recurs
 
 O relatório de usuário incremental foi projetado para ser usado em conectores do Adobe Learning Manager (PowerBI, Salesforce e outros) como uma substituição drop-in para o relatório de usuário completo em pipelines de sincronização regular. Isso permite que os conectores que hoje usam generateUsers migrem para o modelo incremental sem alterações no esquema de dados de downstream.
 
-&#x200B;* O CSV de saída é compatível com a coluna do relatório de usuário completo.
-&#x200B;* Os conectores podem usar o relatório incremental para sincronização delta e voltar ao relatório completo para inicialização ou recuperação.
-&#x200B;* Suporte para integração de conector (PowerBI, SFDC)
+Os conectores podem usar o relatório incremental para sincronização delta e voltar ao relatório completo para inicialização ou recuperação.

@@ -3,9 +3,9 @@ description: Saiba mais sobre como as configurações básicas ajudam a adaptar 
 jcr-language: en_us
 title: Configurações básicas
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '5914'
+source-wordcount: '5921'
 ht-degree: 4%
 
 ---
@@ -413,13 +413,13 @@ Se os alunos concluíram um curso/caminho anteriormente e outro curso/caminho fo
 **Ativar inclusões retroativas (Irreversível)**
 Se um curso/caminho for removido dos cursos/caminhos alternativos, os alunos que foram marcados anteriormente como concluídos por meio de alternativos serão marcados como incompletos. Isso afeta todos os alunos cuja conclusão foi baseada apenas na alternativa, não os alunos que concluíram o curso diretamente. A transcrição refletirá o status incompleto atualizado. Uma vez ativado, não pode ser desativado.
 
-### Visibilidade do quadro de notas
+### Visibilidade do quadro de notas {#gradebookvisibility}
 
 Quando ativado, os autores podem controlar a visibilidade do catálogo de notas no nível do curso, permitindo que os alunos visualizem suas pontuações ponderadas no módulo, agreguem a pontuação do curso e o status de aprovação/reprovação diretamente no reprodutor do curso. Se essa configuração estiver desativada no nível da conta, os alunos não poderão ver o livro de notas em nenhum curso, independentemente de como os cursos individuais estão configurados. As pontuações e os cálculos do gradebook continuam a ser executados em segundo plano para fins de relatórios do administrador, mesmo quando a visibilidade do aluno está desativada.
 
 **Habilitar exibição Gradebook para alunos**
 
-Ativa a permissão no nível da conta que permite aos autores mostrar ou ocultar o livro de notas por curso. Uma vez ativado, os autores veem uma opção Mostrar livro de notas aos alunos no editor do curso. Os alunos verão uma guia Caderno no reprodutor do curso para qualquer curso onde o autor o ativou. Desativar essa configuração no nível da conta substitui todas as configurações no nível do curso. Os alunos não verão o livro de notas em nenhum curso até que a configuração seja reativada.
+Ativa a permissão no nível da conta que permite aos autores mostrar ou ocultar o livro de notas por curso. Uma vez ativado, os autores veem uma opção Mostrar livro de notas aos alunos no editor do curso. Os alunos verão uma guia Caderno no reprodutor do curso para qualquer curso onde o autor o ativou. Desativar essa configuração no nível da conta substitui todas as configurações no nível do curso. Os alunos não verão o livro de notas em nenhum curso até que a configuração seja reativada. Para obter mais informações, consulte [Gradebook para administrador](/help/migrated/administrators/feature-summary/alm-admin-gradebook.md).
 
 ### Aprendizado externo
 
