@@ -2,9 +2,9 @@
 description: Tudo sobre ativar o Gradebook e torná-lo visível para autores e alunos
 jcr-language: en_us
 title: Gradebook para administrador
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ Antes que os autores possam mostrar o livro de notas aos alunos em um curso, um 
 
 A configuração **Visibilidade do gradiente** em **Configurações** > **Geral** determina se os autores têm permissão para expor o gradiente aos alunos no nível do curso.
 
+Para obter mais informações, consulte [Visibilidade do Gradebook](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility).
+
 | Estado da configuração | Efeito |
 | --- | --- |
 | Ativado | Os autores podem controlar a visibilidade do livro de notas por curso usando a opção **Mostrar livro de notas aos alunos** no editor de curso. Os alunos veem a guia **Gradebook** nos cursos em que o autor a habilitou. |
 | Desativado | Os alunos não podem ver o livro de notas em nenhum curso. Se estiver desativada, a configuração do curso não terá a configuração para mostrar o livro de notas aos alunos. |
-
 
 Isso significa que as configurações no nível da conta e no nível do curso funcionam juntas. Ambos devem estar ativados para que um aluno veja o catálogo de notas.
 
