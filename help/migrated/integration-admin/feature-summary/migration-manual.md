@@ -3,9 +3,9 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9051'
+source-wordcount: '9122'
 ht-degree: 36%
 
 ---
@@ -1085,7 +1085,7 @@ Use o valor `LTI` no campo `contentType` para identificar a versão do módulo c
 
 *Campo e valor usados para identificar uma versão do módulo de LTI*
 
-| **Campo** | Valor **1&rbrace;** |
+| **Campo** | Valor **1}** |
 |-------------|-----------|
 | contentType | LTI |
 
@@ -1178,6 +1178,17 @@ A migração de um curso adaptável requer duas alterações no pacote CSV de mi
 * **Um novo arquivo,** _course_ module_user_group.csv_: uma linha por regra de módulo para grupo de usuários
 
 Ambos os arquivos devem ser incluídos no mesmo projeto de migração.
+
+### Nomes de arquivos CSV atualizados para a migração adaptável do curso
+
+Os nomes de arquivos CSV para a migração adaptável do curso e do caminho de aprendizado agora seguem a convenção de nome completo usada por todos os outros arquivos de migração no Adobe Learning Manager. Por exemplo, learning_object_section.csv em vez de lo_section.csv. Se você tiver scripts ou modelos de migração existentes que fazem referência aos nomes abreviados anteriores, atualize-os para os novos nomes antes da próxima execução da migração.
+
+| Nome antigo | Novo nome |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### Atualizar course.csv
 
