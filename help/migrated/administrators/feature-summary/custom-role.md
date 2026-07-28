@@ -4,9 +4,9 @@ title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
 workflow-type: tm+mt
-source-wordcount: '5437'
+source-wordcount: '5467'
 ht-degree: 24%
 
 ---
@@ -305,6 +305,11 @@ Isso significa que um administrador personalizado com acesso a um catálogo espe
 Ao atribuir usuários a uma função que você criou, é possível pesquisar e adicionar qualquer usuário na conta. Permissões relacionadas ao usuário em funções personalizadas sempre se aplicam ao escopo completo do grupo de usuários e ao escopo completo do catálogo. O escopo do grupo de usuários ou do catálogo não se aplica quando uma função personalizada inclui permissões de gerenciamento de usuários.
 
 Se um administrador completo reduzir seu escopo ou remover uma permissão de sua função, quaisquer funções criadas anteriormente não serão afetadas imediatamente. Essas funções continuam a operar com suas permissões existentes até que um administrador completo abra e salve cada uma individualmente.
+
+>[!IMPORTANT]
+>
+>**Somente funções criadas manualmente**: os recursos de administração de função personalizada expandida se aplicam apenas às funções criadas por meio da interface do administrador do Adobe Learning Manager. Não há suporte para funções importadas por meio de upload de CSV.
+
 
 ## Conceder permissões de usuário avançadas a uma função personalizada
 

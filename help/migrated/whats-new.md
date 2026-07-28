@@ -3,9 +3,9 @@ description: Saiba mais sobre os novos recursos e aprimoramentos, incluindo alte
 jcr-language: en_us
 title: Novidades do Adobe Learning Manager na versão de agosto de 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 0e94a4dddaf2d0b60d93ad633d3e6e79e48bc185
+source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -202,6 +202,10 @@ Dois níveis de acesso estão disponíveis:
 | **Somente leitura** | Exibir todas as funções personalizadas, logs de importação e usuários excluídos; baixar o relatório de funções personalizadas |
 | **Controle total** | Todos os recursos somente leitura, além de: criar, editar, excluir e atribuir funções personalizadas; importar usuários via CSV; limpar usuários excluídos |
 
+### Limitações
+
+**Somente funções criadas manualmente**: os recursos de administração de função personalizada expandida se aplicam apenas às funções criadas por meio da interface do administrador do Adobe Learning Manager. Não há suporte para funções importadas por meio de upload de CSV.
+
 Saiba mais sobre Alterações de função personalizada. Para obter mais informações, consulte [O que a permissão avançada de usuário desbloqueia](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
 
 ## deep linking LTI
@@ -246,7 +250,7 @@ Saiba mais sobre as [alterações de API na versão de agosto de 2026 do Adobe L
 | **Padronização de carimbo de data/hora do webhook** | Todos os campos de data e hora no objeto `data` de cargas de webhook agora têm segundos definidos como `00`, fornecendo uma precisão de nível de minuto consistente com os relatórios de Transcrição do aluno. |
 | **Aprimoramentos do Connect** | Atualizações do conector do Azure Data Lake Storage (ADLS); suporte a nome de sala persistente para sessões recorrentes de sala de aula virtual; controle de participação baseado em exibição de gravação. |
 | **Melhorias no desempenho do reprodutor** | O Fluidic Course Player foi otimizado para tempos de carregamento mais rápidos e transições mais suaves entre módulos. |
-| **Aviso de impacto antes de retirar cursos/LPs** | Os administradores agora veem um aviso listando todas as inscrições ativas e caminhos de aprendizado dependentes antes que um curso ou caminho de aprendizado possa ser desativado. |
+| **Aviso de impacto antes de retirar cursos/LPs** | O autor/administrador verá uma lista de avisos de OAs dependentes antes que um curso ou caminho de aprendizado possa ser desativado. Notifica o autor de que um OA constituinte foi desativado. Os administradores recebem se foram autores do OA, mas não têm a função Autor. |
 | **Módulo CR/VC: duração esperada** | Os autores agora podem definir uma duração esperada para os módulos de sala de aula e sala de aula virtual, separados do tempo de sessão agendada. Esse valor aparece nos relatórios e nas informações do curso voltado para o aluno. |
 | **Confirmação antes de editar cursos adquiridos** | Os administradores em contas entre parceiros agora veem uma caixa de diálogo de confirmação antes de editar um curso adquirido por meio do compartilhamento de catálogo, evitando alterações não intencionais no conteúdo compartilhado. |
 | **URL de sessão com ID de instância** | Os URLs de inicialização da sessão para sessões do Microsoft Teams, Adobe Connect e Zoom agora incluem a ID da instância, garantindo que os alunos sejam direcionados para a sessão correta quando houver várias instâncias. |

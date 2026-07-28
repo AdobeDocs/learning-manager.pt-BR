@@ -2,9 +2,9 @@
 description: O Insights Agent é um recurso viabilizado por IA no Adobe Learning Manager que permite que os administradores consultem os dados do aluno usando linguagem natural.
 jcr-language: en_us
 title: Agente do Insights (beta) no Adobe Learning Manager
-source-git-commit: f14f2211eabc025d921392711a3382dd62273dc3
+source-git-commit: 03dbee8fdbc83d7e23ee3c4d13fad621e1c80a7e
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2864'
 ht-degree: 1%
 
 ---
@@ -133,10 +133,11 @@ Após cada resposta, selecione o ícone de miniaturas para cima ou para baixo pa
 
 ## Práticas recomendadas
 
-- Comece com uma pergunta específica em vez de uma pergunta ampla. \”Qual é a taxa de conclusão do curso de Treinamento em Segurança no grupo de usuários da América do Norte?\” retorna resultados mais úteis do que \”Mostrar dados de conclusão.\”
+- Comece com uma pergunta específica em vez de uma pergunta ampla. \”Qual é a taxa de conclusão do curso de Treinamento em Segurança no grupo de usuários da América do Norte?\” retorna resultados mais úteis do que \”Mostrar dados de conclusão.”
 - Use termos exatos do Adobe Learning Manager ao nomear conteúdo e grupos de alunos. O guia de gravação de consultas lista os termos corretos a serem usados.
 - Se o agente fizer uma pergunta esclarecedora, trate-a como um sinal para refinar a consulta original. Quanto mais específica for a sua pergunta, menos esclarecimentos serão necessários.
 - Revise a seção **Abordagem** antes de agir nos resultados, especialmente para consultas relacionadas à conformidade em que a precisão é crítica.
+- **Especifique se deseja incluir ou excluir alunos na lista de espera**. Por padrão, as consultas de contagem de inscrições incluem alunos que estão em uma lista de espera juntamente com inscrições ativas confirmadas. Se você precisar apenas de participantes ativos, exclua explicitamente os alunos da lista de espera na consulta. Por exemplo: “Quantos alunos estão inscritos diretamente no curso de treinamento de segurança, exceto os alunos na lista de espera?” O agente divulgará na seção Abordagem que a exclusão foi aplicada. Sem essa instrução, os totais de inscrição podem incluir uma proporção significativa de alunos na lista de espera que ainda não iniciaram o conteúdo.
 
 
 ## Gravar consultas eficazes para o Agente do Insights
@@ -267,9 +268,11 @@ Ao consultar dados de um curso associado a uma certificação recorrente, o Agen
 
 Depois que o conteúdo é criado, os alunos são inscritos ou os registros de conclusão são atualizados, pode levar até 30 minutos para que os dados fiquem disponíveis nos resultados da consulta. Se os resultados parecerem incompletos ou não refletirem a atividade recente, aguarde 30 minutos e tente a consulta novamente.
 
-**Os dados de inscrição e conclusão incluem inscrições diretas e indiretas**
+**Contagens de inscrições diretas e indiretas**
 
-Quando você consulta os dados de inscrição ou conclusão de um curso ou caminho de aprendizado, o Agente do Insights retorna uma contagem combinada que inclui inscrições diretas (alunos inscritos especificamente nesse curso ou caminho de aprendizado) e indiretas (alunos que acessaram o mesmo conteúdo como parte de outro caminho de aprendizado ou certificação). Os resultados não separam esses dois tipos de inscrição.
+Ao consultar os dados de inscrição ou conclusão de um curso ou caminho de aprendizado, o Agente do Insights distingue entre inscrições diretas (alunos inscritos especificamente nesse curso ou caminho de aprendizado) e indiretas (alunos que acessaram o mesmo conteúdo como parte de um caminho de aprendizado ou certificação). Se você solicitar especificamente inscrições diretas ou indiretas, o agente retornará a contagem correta para cada tipo.
+
+Se sua consulta não especificar direta ou indireta, o agente pode retornar uma contagem combinada. Para obter contagens separadas, inclua a distinção explicitamente na sua consulta. Por exemplo: “Quantos alunos estão inscritos diretamente versus inscritos indiretamente no curso de treinamento de segurança?”
 
 **Não há suporte para consultas enviadas em scripts não latinos**
 

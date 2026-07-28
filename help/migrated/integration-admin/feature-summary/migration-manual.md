@@ -3,9 +3,9 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9051'
+source-wordcount: '9122'
 ht-degree: 36%
 
 ---
@@ -1166,7 +1166,7 @@ Ao criar versões do módulo de LTI:
 
 O sistema de migração aplica o fluxo de trabalho padrão de processamento de migração, além dos campos específicos de LTI.
 
-## Migrar cursos adaptáveis
+## Migrar cursos adaptáveis {#migrateadaptivecourses}
 
 Se estiver migrando cursos de um sistema externo para o Adobe Learning Manager e quiser configurá-los como cursos adaptáveis com visibilidade no nível do módulo e regras de conclusão por grupo de usuários, você pode usar dois arquivos CSV para definir os cursos e suas regras adaptáveis.
 
@@ -1178,6 +1178,17 @@ A migração de um curso adaptável requer duas alterações no pacote CSV de mi
 * **Um novo arquivo,** _course_ module_user_group.csv_: uma linha por regra de módulo para grupo de usuários
 
 Ambos os arquivos devem ser incluídos no mesmo projeto de migração.
+
+### Nomes de arquivos CSV atualizados para a migração adaptável do curso
+
+Os nomes de arquivos CSV para a migração adaptável do curso e do caminho de aprendizado agora seguem a convenção de nome completo usada por todos os outros arquivos de migração no Adobe Learning Manager. Por exemplo, learning_object_section.csv em vez de lo_section.csv. Se você tiver scripts ou modelos de migração existentes que fazem referência aos nomes abreviados anteriores, atualize-os para os novos nomes antes da próxima execução da migração.
+
+| Nome antigo | Novo nome |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### Atualizar course.csv
 

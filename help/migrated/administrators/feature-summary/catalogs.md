@@ -4,10 +4,10 @@ title: Catálogos
 description: Os catálogos são uma coleção de aprendizado - cursos, programas de aprendizado e certificações. Use os catálogos para proporcionar acesso a um conjunto personalizado de aprendizado aos alunos. Você pode associar o aprendizado a um catálogo durante a criação de um novo catálogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+source-git-commit: e8d279fd1c8ba0af01241c4041d016759966bdde
 workflow-type: tm+mt
-source-wordcount: '2593'
-ht-degree: 79%
+source-wordcount: '3244'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,92 @@ Para excluir um catálogo compartilhado, clique em **[!UICONTROL Ações]** e cl
 * Não é possível compartilhar um catálogo padrão com contas externas.
 * Você não pode excluir um catálogo que você compartilhou externamente.
 * Você não pode excluir um catálogo que foi compartilhado com você de outras contas.
+
+## Restringir alterações em cursos/caminhos de aprendizado adquiridos {#restrictchangesonacquiredcourseslp}
+
+Em organizações que usam o compartilhamento de conta, o conteúdo de aprendizagem é frequentemente criado e mantido em uma conta principal e, em seguida, compartilhado com contas entre parceiros por meio de catálogos compartilhados. Embora esse modelo ajude a manter a consistência do conteúdo em várias contas, ele também pode levar a modificações não intencionais nas contas de recebimento.
+
+Isso ajuda a proteger objetos de aprendizado compartilhados, impedindo que os autores que estão recebendo contas façam alterações que possam quebrar o relacionamento entre a conta de origem e o conteúdo compartilhado. Isso permite que os proprietários de conteúdo mantenham o controle centralizado e, ao mesmo tempo, garantam que as atualizações da conta de origem continuem a fluir para as contas de recebimento.
+
+Esse recurso ajuda as organizações a:
+
+* Preserve a integridade do conteúdo compartilhado de uma conta de origem.
+* Evite modificações acidentais que possam interromper a sincronização com a conta de origem.
+* Reduza a sobrecarga do gerenciamento de conteúdo em várias contas.
+* Verifique se as atualizações feitas na conta de origem continuam a ser propagadas para contas de recebimento.
+* Fornecer avisos claros aos autores quando eles tentarem modificar o conteúdo compartilhado.
+
+Quando um catálogo é compartilhado de uma conta de origem para uma conta de recebimento, os objetos de aprendizado, como cursos, programações de aprendizado e certificações, ficam disponíveis na conta de recebimento.
+
+Se a conta de recebimento ativar a opção Restringir alterações nos cursos/caminhos de aprendizado adquiridos, o Adobe Learning Manager restringirá a edição de conteúdo herdado que se origina do catálogo compartilhado. Os autores ainda podem consumir e usar o conteúdo compartilhado, mas não podem fazer alterações que possam interromper o relacionamento com a conta de origem.
+
+### Ativar restrições de edição para conteúdo do catálogo compartilhado
+
+**Pré-requisitos**
+
+A conta já deve estar recebendo conteúdo de um catálogo compartilhado.
+
+1. Faça logon no ALM como administrador.
+2. Selecione **Catálogos**.
+3. Selecione um catálogo compartilhado.
+4. Na seção **Visão geral** do catálogo compartilhado, selecione a opção **Restringir alterações em cursos/caminhos de aprendizado adquiridos**. Quando ativada, as alterações na parte Cursos/Caminhos de aprendizado do catálogo adquirido são restritas para permitir que as atualizações fluam da conta principal para esta conta.
+
+   ![](assets/shared-catalog-enabled.png)
+
+5. Selecione **Atualizar** para salvar a configuração.
+
+### Experiência do autor
+
+Quando um autor abre um curso adquirido por meio de um catálogo compartilhado, o sistema exibe uma mensagem informativa indicando que:
+
+* O curso se origina de um catálogo compartilhado.
+* As restrições de edição estão ativadas.
+* Certas modificações de conteúdo são restritas.
+
+### Tentativa de editar conteúdo restrito
+
+Se um autor tentar modificar o conteúdo protegido:
+
+* O autor pode ver um aviso indicando que o curso foi adquirido de uma conta de origem.
+* O aviso explica que modificar o conteúdo pode quebrar o relacionamento com a conta de origem.
+* Dependendo das configurações, o sistema restringe ou impede alterações no conteúdo afetado.
+
+Isso ajuda os autores a entenderem o impacto de suas ações antes que as alterações sejam feitas.
+
+**Quais alterações são restritas?**
+
+Quando as restrições de edição estão ativadas, as modificações no conteúdo herdado do curso são restritas porque esses componentes são mantidos pela conta de origem. Essas restrições são projetadas para preservar a sincronização entre contas.
+
+Exemplos de conteúdo normalmente regido pela conta de origem incluem:
+
+* Metadados do curso
+* Estrutura compartilhada do curso
+* Conteúdo de aprendizado compartilhado
+* Configurações compartilhadas do caminho de aprendizado
+
+O objetivo é evitar alterações que possam fazer com que a cópia da conta receptora diverja da versão de origem.
+
+**Quais alterações ainda são permitidas?**
+
+Algumas configurações continuam a ser gerenciadas de forma independente na conta de recebimento e permanecem editáveis. São eles:
+
+* Personalização do modelo de email
+* Gerenciamento de instâncias
+* Outras configurações no nível da conta que não se originam da conta de origem.
+
+### Exemplo de cenário
+
+#### Antes da restrição
+
+Uma equipe de aprendizado corporativo mantém um curso de conformidade na conta de origem e o compartilha com várias contas regionais.
+
+Um autor em uma conta regional edita diretamente o curso adquirido. Como resultado, a conexão com o curso original pode ser interrompida, impedindo que futuras atualizações da conta de origem fluam corretamente.
+
+#### Após a restrição
+
+A conta de recebimento permite **Restringir alterações em cursos/caminhos de aprendizado adquiridos**.
+
+Quando os autores regionais acessam o curso compartilhado, eles podem visualizar e atribuir o conteúdo, mas os campos protegidos não podem ser modificados. As atualizações feitas pela conta de origem continuam a ser entregues a contas de recebimento sem interrupção.
 
 ## Ativar controle total do catálogo compartilhado {#enablefullcontrolofsharedcatalog}
 

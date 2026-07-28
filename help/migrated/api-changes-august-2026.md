@@ -2,9 +2,9 @@
 description: Alterações de API no ALM
 jcr-language: en_us
 title: Alterações na API na versão de agosto de 2026 do Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3353'
 ht-degree: 3%
 
 ---
@@ -131,9 +131,8 @@ Qualquer um dos campos pode ser omitido; a omissão de um campo deixa seu valor 
 
 | **Parâmetro** | **Obrigatório** | **Tipo** | **Descrição** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| nome | Não | cadeia de caracteres | Novo nome para exibição. Não deve ficar em branco se fornecido. Omita para deixar inalterado. |
+| nome | Sim | cadeia de caracteres | Novo nome para exibição. Não deve ficar em branco se fornecido. Omita para deixar inalterado. |
 | descrição | Não | cadeia de caracteres | Nova descrição. Passar nulo para limpar. Omita para deixar inalterado. |
-| dados | — | null | Deve ser nulo ou estar ausente. Qualquer valor não nulo retorna um erro 400. |
 
 #### **Resposta 200 OK**
 
@@ -511,7 +510,9 @@ Forneça a **ID de certificação raiz** como entrada. A API avalia o histórico
 
 Isso significa que dois alunos que consultam a mesma ID de certificação raiz ao mesmo tempo podem receber resultados diferentes, dependendo do histórico de inscrição individual de cada aluno.
 
-**Observação**: pode haver uma breve janela durante uma recorrência, enquanto a nova versão está sendo criada e as inscrições estão sendo migradas, na qual a API pode retornar a versão que está prestes a ser substituída, em vez da versão recém-criada.
+>[!NOTE]
+>
+>Pode haver uma breve janela durante uma recorrência, enquanto a nova versão está sendo criada e as inscrições estão sendo migradas, na qual a API pode retornar a versão que está prestes a ser substituída, em vez da versão recém-criada.
 
 **Exemplo**
 
