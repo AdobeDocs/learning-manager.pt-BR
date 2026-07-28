@@ -3,7 +3,7 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
 workflow-type: tm+mt
 source-wordcount: '9051'
 ht-degree: 36%
@@ -1085,7 +1085,7 @@ Use o valor `LTI` no campo `contentType` para identificar a versão do módulo c
 
 *Campo e valor usados para identificar uma versão do módulo de LTI*
 
-| **Campo** | Valor **1&rbrace;** |
+| **Campo** | Valor **1}** |
 |-------------|-----------|
 | contentType | LTI |
 
@@ -1166,7 +1166,7 @@ Ao criar versões do módulo de LTI:
 
 O sistema de migração aplica o fluxo de trabalho padrão de processamento de migração, além dos campos específicos de LTI.
 
-## Migrar cursos adaptáveis
+## Migrar cursos adaptáveis {#migrateadaptivecourses}
 
 Se estiver migrando cursos de um sistema externo para o Adobe Learning Manager e quiser configurá-los como cursos adaptáveis com visibilidade no nível do módulo e regras de conclusão por grupo de usuários, você pode usar dois arquivos CSV para definir os cursos e suas regras adaptáveis.
 
