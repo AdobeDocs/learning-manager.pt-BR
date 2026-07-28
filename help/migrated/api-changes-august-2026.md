@@ -2,9 +2,9 @@
 description: Alterações de API no ALM
 jcr-language: en_us
 title: Alterações na API na versão de agosto de 2026 do Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3354'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Esta versão adiciona três novos endpoints de API públicos com escopo de admin
 
 Esses endpoints funcionam apenas com grupos de usuários personalizados. Os grupos gerenciados pelo sistema, como o grupo Todos os usuários e os grupos de usuários gerados automaticamente, têm somente leitura: true na resposta da API e não pode ser modificado nem excluído por meio desses endpoints.
 
-Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Pontos finais de API de grupos de usuários
 
@@ -131,9 +131,8 @@ Qualquer um dos campos pode ser omitido; a omissão de um campo deixa seu valor 
 
 | **Parâmetro** | **Obrigatório** | **Tipo** | **Descrição** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| nome | Não | cadeia de caracteres | Novo nome para exibição. Não deve ficar em branco se fornecido. Omita para deixar inalterado. |
+| nome | Sim | cadeia de caracteres | Novo nome para exibição. Não deve ficar em branco se fornecido. Omita para deixar inalterado. |
 | descrição | Não | cadeia de caracteres | Nova descrição. Passar nulo para limpar. Omita para deixar inalterado. |
-| dados | — | null | Deve ser nulo ou estar ausente. Qualquer valor não nulo retorna um erro 400. |
 
 #### **Resposta 200 OK**
 
@@ -205,7 +204,7 @@ O fluxo de trabalho de aprendizado externo por meio da API espelha o fluxo de tr
 
 Todos os cinco pontos de extremidade têm escopo do aluno. Um aluno só pode acessar seus próprios envios — a API retorna um erro se um aluno tentar acessar os dados de outro aluno.
 
-Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Pontos de extremidade da API de aprendizado externos
 
@@ -533,7 +532,7 @@ GET /primeapi/v2/learningObjects/{loId}/applicableCertification
 
 Resolve a versão de certificação que se aplica ao aluno atual, dada a ID de uma certificação raiz. Para alunos inscritos, isso retorna a versão na qual eles estão inscritos no momento. Para alunos não inscritos, isso retorna a versão ativa mais recente.
 
-| **Propriedade** | Valor **1&rbrace;** |
+| **Propriedade** | Valor **1}** |
 |----------------------------------------------------------|--------------------------|
 | **Escopo** | Acesso de leitura do aluno |
 | **Limite de taxa (chamadas padrão de aluno)** | 70 solicitações por minuto |
