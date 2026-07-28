@@ -532,7 +532,7 @@ GET /primeapi/v2/learningObjects/{loId}/applicableCertification
 
 Resolve a versão de certificação que se aplica ao aluno atual, dada a ID de uma certificação raiz. Para alunos inscritos, isso retorna a versão na qual eles estão inscritos no momento. Para alunos não inscritos, isso retorna a versão ativa mais recente.
 
-| **Propriedade** | Valor **1}** |
+| **Propriedade** | Valor **1&rbrace;** |
 |----------------------------------------------------------|--------------------------|
 | **Escopo** | Acesso de leitura do aluno |
 | **Limite de taxa (chamadas padrão de aluno)** | 70 solicitações por minuto |
