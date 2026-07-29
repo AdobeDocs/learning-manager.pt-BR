@@ -3,10 +3,10 @@ description: Consulte o manual para administradores de integração que desejam 
 jcr-language: en_us
 title: Manual de migração
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: d87afb28445e260e068c05b392c916fd4ba2ef8a
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '6760'
-ht-degree: 48%
+source-wordcount: '8322'
+ht-degree: 39%
 
 ---
 
@@ -1085,7 +1085,7 @@ Use o valor `LTI` no campo `contentType` para identificar a versão do módulo c
 
 *Campo e valor usados para identificar uma versão do módulo de LTI*
 
-| **Campo** | Valor **1&rbrace;** |
+| **Campo** | Valor **1}** |
 |-------------|-----------|
 | contentType | LTI |
 
@@ -1165,3 +1165,182 @@ Ao criar versões do módulo de LTI:
 * Continue a seguir todos os requisitos de migração de versão de módulo existentes e regras de validação documentadas para `module_version.csv`.
 
 O sistema de migração aplica o fluxo de trabalho padrão de processamento de migração, além dos campos específicos de LTI.
+
+## Migrar hierarquia de pastas de conteúdo {#migratecontentfolderhierarchy}
+
+Se estiver migrando o conteúdo de aprendizado de outra plataforma para o Adobe Learning Manager e quiser preservar sua organização de pastas existente, você pode usar arquivos CSV para criar uma estrutura de pastas hierárquica e associar seus arquivos de conteúdo às pastas apropriadas.
+
+Essa migração geralmente é realizada como parte de uma migração de plataforma maior, depois que seus usuários, cursos, módulos e arquivos de conteúdo já foram importados para o Adobe Learning Manager. Essa etapa de migração reorganiza o conteúdo na estrutura de pastas que você tinha no sistema de origem.
+
+### O que esta migração faz
+
+A migração da pasta de conteúdo cria até três níveis de pastas aninhadas na Biblioteca de conteúdo da Adobe Learning Manager e associa os arquivos de conteúdo existentes às subpastas corretas. Os vínculos do curso e do módulo com arquivos de conteúdo não são afetados. Somente a organização da pasta é alterada.
+
+A migração é executada como um trabalho em segundo plano assíncrono. Você faz upload de um arquivo CSV, os processos de migração em segundo plano e pode monitorar o progresso enquanto o sistema funciona. A migração poderá ser executada novamente se correções forem necessárias; as linhas que já foram processadas com êxito são ignoradas automaticamente em uma execução subsequente.
+
+### Duas fases da migração
+
+A migração da pasta de conteúdo tem duas fases independentes. Cada um pode ser executado e validado separadamente.
+
+| Fase | O que você fornece | O que ela faz |
+| --- | --- | --- |
+| **Fase 1 — Estrutura da pasta** | `content_folder.csv` | Cria sua hierarquia de pastas de Nível 1, Nível 2 e Nível 3 no Adobe Learning Manager |
+| **Fase 2 — Associação de conteúdo** | `module_version.csv` (atualizado com o caminho da pasta) | Associa seus arquivos de conteúdo às pastas corretas ao importar versões do módulo |
+
+A fase 2 não requer um arquivo CSV separado; você adiciona uma coluna de caminho de pasta ao arquivo `module_version.csv` existente.
+
+### Fase 1: Criar a hierarquia de pastas
+
+#### Planeje sua hierarquia de pastas primeiro
+
+Antes de preparar o CSV, mapeie a pasta ou a estrutura de categorias do sistema de origem para a hierarquia de três níveis do Adobe Learning Manager. O Adobe Learning Manager suporta uma profundidade máxima de três níveis (Nível 1 → Nível 2 → Nível 3). Se o sistema de origem tiver um aninhamento mais profundo, nivele-o em três níveis antes da migração.
+
+>[!NOTE]
+>
+>Se o sistema de origem usar barras oblíquas (`/`) nos nomes de categorias ou pastas, substitua-as por um hífen (`-`) ou sublinhado (`_`) antes de preparar o CSV. O Adobe Learning Manager não permite `/` em nomes de pasta porque ele está reservado para resolução de caminho de pasta.
+
+#### content_folder.csv
+
+Use `content_folder.csv` para definir a hierarquia de pastas de destino. Cada linha no arquivo representa uma pasta.
+
+**Referência de coluna:**
+
+| Coluna | Obrigatório | Descrição |
+| --- | --- | --- |
+| `id` | Sim | Um identificador exclusivo atribuído a esta pasta. Essa é a sua própria ID de referência; por exemplo, uma ID de categoria do sistema de origem. Usado para vincular pastas pai e filho no arquivo e tornar a migração executável novamente com segurança. |
+| `name` | Sim | O nome para exibição da pasta. Máximo de 63 caracteres. Não pode conter uma barra (`/`). Deve ser exclusivo entre pastas com o mesmo pai. |
+| `description` | Não | Uma descrição opcional para a pasta. Máximo de 2.046 caracteres. |
+| `parentExternalId` | Não | O `id` da pasta pai. Deixe em branco para as pastas de nível 1 (raiz). Para pastas de Nível 2, digite o `id` do pai de Nível 1. Para pastas de Nível 3, digite o `id` do pai de Nível 2. |
+| `action` | Sim | A operação a ser executada: `CREATE_FOLDER`, `UPDATE_FOLDER` ou `DELETE_FOLDER`. |
+
+**Exemplo:**
+
+```
+id,name,description,parentExternalId,action
+folder_001,Training,,, CREATE_FOLDER
+folder_002,Sales,,folder_001,CREATE_FOLDER
+folder_003,Onboarding,,folder_002,CREATE_FOLDER
+folder_004,HR,,,CREATE_FOLDER
+folder_005,Compliance,,folder_004,CREATE_FOLDER
+```
+
+Neste exemplo:
+
+* `Training` e `HR` são pastas de Nível 1 (sem pai)
+* `Sales` é uma pasta de Nível 2 em `Training`
+* `Onboarding` é uma pasta de Nível 3 em `Sales`
+* `Compliance` é uma pasta de Nível 2 em `HR`
+
+**Regras de validação:**
+
+* Uma pasta não pode ser seu próprio ancestral — referências circulares não são permitidas
+* A profundidade máxima da pasta é de 3 níveis (Nível 1 → Nível 2 → Nível 3)
+* Duas pastas com o mesmo pai não podem ter o mesmo nome
+* O `parentExternalId` deve fazer referência a outra linha no mesmo arquivo CSV ou a uma pasta existente que já esteja em sua conta
+* As pastas pai devem ser listadas antes de suas pastas filho no arquivo
+
+>[!NOTE]
+>
+>Você pode fazer referência a uma pasta existente em sua conta (criada antes dessa migração) como pai de uma nova pasta usando o prefixo `existing:` seguido do ID da pasta na coluna `parentExternalId` — por exemplo, `existing:12345`.
+
+### Fase 2: associar conteúdo a pastas
+
+Os arquivos de conteúdo são associados a pastas por meio da coluna `folder` no arquivo `module_version.csv`. Nenhum CSV separado é necessário para esta fase.
+
+#### Module_version.csv atualizado — coluna da pasta
+
+A coluna `folder` em `module_version.csv` agora dá suporte a caminhos de pasta, além de nomes de pasta simples.
+
+| valor da pasta | Como é resolvido |
+| --- | --- |
+| `Sales` (sem barra) | Resolve por nome de pasta — o comportamento existente para pastas de Nível 1 |
+| `Training/Sales/Onboarding` (barras oblíquas) | Resolve por caminho — navega do Nível 1 para baixo em cada nível para alcançar a subpasta de destino |
+| `"Training/Sales,HR/Compliance"` (separado por vírgula, entre aspas) | Associa o arquivo de conteúdo a várias pastas; cada caminho é resolvido de forma independente |
+| (em branco) | Nenhuma associação de pasta — o conteúdo permanece no local padrão |
+
+**Exemplo:**
+
+```
+moduleId,moduleVersion,contentType,...,folder
+MOD001,1,content,...,Training/Sales/Onboarding
+MOD002,1,content,...,HR/Compliance
+MOD003,1,content,...,"Training/Sales,HR/Compliance"
+MOD004,1,content,...,Marketing
+```
+
+>[!IMPORTANT]
+>
+>Ao associar um arquivo de conteúdo a várias pastas, a lista separada por vírgulas deve estar entre aspas no arquivo CSV, pois as vírgulas também são usadas como separadores de coluna.
+
+>[!NOTE]
+>
+>Esta fase oferece suporte à adição de um arquivo de conteúdo a uma pasta. Não é possível remover um arquivo de conteúdo de uma pasta usando a abordagem de caminho da pasta. Use a interface do administrador do Adobe Learning Manager para remover as associações de pastas após a migração.
+
+### Ordem de migração
+
+Ao executar uma migração de conteúdo completo, faça upload e processe seus arquivos na seguinte ordem:
+
+1. `module.csv` — defina seus módulos
+2. `module_version.csv` (sem caminhos de pasta) — carregar conteúdo do módulo
+3. `course.csv` — crie seus cursos
+4. `course_module.csv` — vincular módulos a cursos
+5. `content_folder.csv` — criar a hierarquia de pastas (Fase 1)
+6. `module_version.csv` (com caminhos de pasta) — associar conteúdo a pastas (Fase 2)
+
+>[!NOTE]
+>
+>`content_folder.csv` deve ser processado antes do arquivo de versão do módulo que contém caminhos de pasta, pois a estrutura de pastas deve existir para que o conteúdo possa ser associado a ele.
+
+### Validação e referência de erro
+
+O Adobe Learning Manager valida cada linha em `content_folder.csv` antes de processar. Linhas com falha na validação são ignoradas e relatadas como erros. Linhas válidas no mesmo arquivo continuam a ser processadas.
+
+| Cenário | O que acontece | Resolução |
+| --- | --- | --- |
+| O nome da pasta excede 63 caracteres | Linha rejeitada | Encurte o nome no CSV antes de reenviar |
+| A descrição excede 2.046 caracteres | Linha rejeitada | Diminua a descrição no CSV |
+| Um nome de pasta contém uma barra (`/`) | Linha rejeitada | Substituir `/` por `-` ou `_` no nome da pasta |
+| Duas pastas com o mesmo pai têm o mesmo nome | Linha rejeitada | Renomear uma das pastas duplicadas |
+| `parentExternalId` faz referência a uma ID não encontrada no arquivo ou na conta | Linha rejeitada | Confirme se a ID da pasta pai está correta e se a linha pai foi processada com êxito |
+| A profundidade da pasta excede 3 níveis | Linha rejeitada | Nivele sua hierarquia em no máximo três níveis antes de migrar |
+| Referência circular detectada (a pasta A é ancestral da pasta B e B está listado como pai de A) | CSV inteiro rejeitado | Revise a cadeia `parentExternalId` e remova a referência circular |
+| `action` não é `CREATE_FOLDER`, `UPDATE_FOLDER` ou `DELETE_FOLDER` | Linha rejeitada | Corrija o valor `action`. Somente esses três valores são aceitos |
+| `DELETE_FOLDER` para uma pasta que ainda contém arquivos de conteúdo | Linha rejeitada | Mova arquivos de conteúdo para outra pasta antes de excluir ou remova a linha de exclusão e manipule manualmente a interface do administrador |
+| `UPDATE_FOLDER` para um `id` que não existe na conta | Linha rejeitada | Confirme se a pasta foi criada com êxito em uma execução anterior; use `CREATE_FOLDER` para novas pastas |
+| `CREATE_FOLDER` para um `id` que já foi migrado com êxito | Linha ignorada | Nenhuma ação necessária — este é o comportamento esperado ao executar novamente uma migração |
+| O caminho da pasta em `module_version.csv` faz referência a uma pasta que não existe | Linha de módulo rejeitada | Execute primeiro o sprint de estrutura de pastas ou verifique se o nome e o caminho da pasta estão escritos corretamente |
+| Barra dupla no caminho da pasta (por exemplo, `Training//Sales`) | Linha de módulo rejeitada | Remover a barra extra do caminho |
+
+### Compatibilidade com versões anteriores
+
+Se você já usa o `content_folder.csv` ou o `module_version.csv` em seus fluxos de trabalho de migração, os arquivos existentes continuarão funcionando sem alterações.
+
+| Cenário | Comportamento |
+| --- | --- |
+| `content_folder.csv` existente sem a coluna `parentExternalId` | Funciona de maneira idêntica — as pastas são criadas como pastas de Nível 1, como antes |
+| `module_version.csv` existente com nomes de pasta simples (sem `/`) | Funciona de maneira idêntica — os nomes de pasta são resolvidos por pesquisa de nome, como antes |
+| Novo `module_version.csv` com caminhos de pasta contendo `/` | A resolução baseada em caminho é acionada automaticamente pela presença de `/` |
+| Mistura de nomes e caminhos simples no mesmo `module_version.csv` | Cada linha é resolvida de forma independente — ambos os formatos funcionam no mesmo arquivo |
+| Executando novamente o mesmo `content_folder.csv` | Seguro — as linhas já processadas com êxito são ignoradas automaticamente |
+
+### Práticas recomendadas
+
+**Preparando content_folder.csv**
+
+* Use as identificações de categoria ou pasta do próprio sistema de origem como o valor `id`. Eles são armazenados permanentemente para rastreamento de nova execução e devem permanecer estáveis.
+* Mantenha os nomes das pastas com menos de 63 caracteres. Trunque no CSV antes de fazer upload. A migração rejeitará nomes que excedam o limite.
+* Certifique-se de que duas pastas com a mesma página principal não tenham o mesmo nome. Pastas em diferentes páginas principais podem compartilhar um nome.
+* Embora a ordem das linhas no arquivo não afete o resultado — a migração classifica as linhas automaticamente — listar as pastas pai antes das pastas filho facilita a revisão do arquivo.
+
+**Preparando module_version.csv com caminhos de pasta**
+
+* A correspondência de caminho de pasta não diferencia maiúsculas de minúsculas, mas os nomes de pasta devem corresponder exatamente ao que foi criado na Fase 1.
+* Execute a Fase 1 (estrutura de pastas) antes de executar a Fase 2 (associação de conteúdo). A resolução de caminhos verifica as pastas que já existem — se uma pasta ainda não foi criada, a linha do módulo falhará.
+* Evite barras duplas nos caminhos — `Training//Sales` falhará devido a um segmento de caminho vazio.
+* As barras à esquerda e à direita são cortadas automaticamente — `Training/Sales/` e `/Training/Sales` são resolvidos corretamente, mas evitam-nas para maior clareza.
+
+**Executando a migração**
+
+* Primeiro, teste com um lote pequeno — faça upload de 10 a 20 linhas para verificar o formato CSV antes de dimensionar para o conjunto de dados completo.
+* Conclua o sprint da estrutura de pastas antes de iniciar o sprint da versão do módulo. Executá-los em paralelo pode causar falhas de resolução de caminho.
+* Após a conclusão de ambos os sprints, verifique na interface do administrador do Adobe Learning Manager se a árvore de pastas mostra a hierarquia correta e se os arquivos de conteúdo aparecem nas pastas esperadas.
