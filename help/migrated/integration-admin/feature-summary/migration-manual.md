@@ -1085,7 +1085,7 @@ Use o valor `LTI` no campo `contentType` para identificar a versão do módulo c
 
 *Campo e valor usados para identificar uma versão do módulo de LTI*
 
-| **Campo** | Valor **1}** |
+| **Campo** | Valor **1&rbrace;** |
 |-------------|-----------|
 | contentType | LTI |
 
