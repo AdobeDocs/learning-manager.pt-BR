@@ -2,9 +2,9 @@
 description: Alterações de API no ALM
 jcr-language: en_us
 title: Alterações na API na versão de agosto de 2026 do Adobe Learning Manager
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Esta versão adiciona três novos endpoints de API públicos com escopo de admin
 
 Esses endpoints funcionam apenas com grupos de usuários personalizados. Os grupos gerenciados pelo sistema, como o grupo Todos os usuários e os grupos de usuários gerados automaticamente, têm somente leitura: true na resposta da API e não pode ser modificado nem excluído por meio desses endpoints.
 
-Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Pontos finais de API de grupos de usuários
 
@@ -204,7 +204,7 @@ O fluxo de trabalho de aprendizado externo por meio da API espelha o fluxo de tr
 
 Todos os cinco pontos de extremidade têm escopo do aluno. Um aluno só pode acessar seus próprios envios — a API retorna um erro se um aluno tentar acessar os dados de outro aluno.
 
-Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Para obter os requisitos de autenticação da API, consulte [Autenticação da API do Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Pontos de extremidade da API de aprendizado externos
 
@@ -300,8 +300,8 @@ Verifique o atributo de nível superior ativado antes de continuar, se falso, o 
 | título | TEXTO | Sim | Nome do treinamento. Sempre presente. Não pode ser desabilitado pelo administrador. |
 | description_notes | TEXTO | Não | Descrição ou observações de texto livre. |
 | data | CARIMBO DE DATA/HORA | Não | Intervalo de datas. Forma de valor: { “start_date”: &quot;<ISO-Z>“, “end_date”: &quot;<ISO-Z>&quot; }. Qualquer valor pode ser nulo. |
-| pontuação | NÚMERO | Sim | Forma de valor: { “completed_score”: <number>, “max_score”: <number> }. Ambos os valores devem ser numéricos. |
-| duração | TEXTO | Não | String de forma livre, por exemplo “40 horas”. |
+| pontuação | NÚMERO | Sim | Forma de valor: { “completed_score”: <number>, “max_score”: <number> }. Ambos os valores devem ser numéricos.  max_score não pode ser negativo. |
+| duração | OBJETO | Não | Por exemplo, { “timeSpan”: 8, “period”: “HOURS” }. |
 | anexos | FILE_UPLOAD | Sim | Prova de conclusão. **Não** passado dentro de campos[] — use o atributo submissionUrl de nível superior. |
 
 Os campos personalizados são definidos pelo administrador e retornados em customFields[]. Suas IDs, tipos, sinalizadores obrigatórios, etiquetas e opções suspensas variam de acordo com a configuração da conta.
@@ -534,7 +534,7 @@ GET /primeapi/v2/learningObjects/{loId}/applicableCertification
 
 Resolve a versão de certificação que se aplica ao aluno atual, dada a ID de uma certificação raiz. Para alunos inscritos, isso retorna a versão na qual eles estão inscritos no momento. Para alunos não inscritos, isso retorna a versão ativa mais recente.
 
-| **Propriedade** | Valor **1&rbrace;** |
+| **Propriedade** | Valor **1}** |
 |----------------------------------------------------------|--------------------------|
 | **Escopo** | Acesso de leitura do aluno |
 | **Limite de taxa (chamadas padrão de aluno)** | 70 solicitações por minuto |
