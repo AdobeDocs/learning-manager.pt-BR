@@ -2,9 +2,9 @@
 description: Alterações de API no ALM
 jcr-language: en_us
 title: Alterações na API na versão de agosto de 2026 do Adobe Learning Manager
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 3%
 
 ---
@@ -300,8 +300,8 @@ Verifique o atributo de nível superior ativado antes de continuar, se falso, o 
 | título | TEXTO | Sim | Nome do treinamento. Sempre presente. Não pode ser desabilitado pelo administrador. |
 | description_notes | TEXTO | Não | Descrição ou observações de texto livre. |
 | data | CARIMBO DE DATA/HORA | Não | Intervalo de datas. Forma de valor: { “start_date”: &quot;<ISO-Z>“, “end_date”: &quot;<ISO-Z>&quot; }. Qualquer valor pode ser nulo. |
-| pontuação | NÚMERO | Sim | Forma de valor: { “completed_score”: <number>, “max_score”: <number> }. Ambos os valores devem ser numéricos. |
-| duração | TEXTO | Não | String de forma livre, por exemplo “40 horas”. |
+| pontuação | NÚMERO | Sim | Forma de valor: { “completed_score”: <number>, “max_score”: <number> }. Ambos os valores devem ser numéricos.  max_score não pode ser negativo. |
+| duração | OBJETO | Não | Por exemplo, { “timeSpan”: 8, “period”: “HOURS” }. |
 | anexos | FILE_UPLOAD | Sim | Prova de conclusão. **Não** passado dentro de campos[] — use o atributo submissionUrl de nível superior. |
 
 Os campos personalizados são definidos pelo administrador e retornados em customFields[]. Suas IDs, tipos, sinalizadores obrigatórios, etiquetas e opções suspensas variam de acordo com a configuração da conta.

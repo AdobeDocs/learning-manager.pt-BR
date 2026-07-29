@@ -3,7 +3,7 @@ description: Saiba mais sobre como as configurações básicas ajudam a adaptar 
 jcr-language: en_us
 title: Configurações básicas
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '5921'
 ht-degree: 4%
