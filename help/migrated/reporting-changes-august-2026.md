@@ -97,7 +97,7 @@ The **Learner status** column now distinguishes between confirmed and waitlisted
 
 Uma nova coluna **Peso** representa a contribuição de cada módulo pontuável para a pontuação geral do curso.
 
-| Valor **1}** | **Descrição** |
+| Valor **1&rbrace;** | **Descrição** |
 |----------------------------------------------|------------------------------------------------------|
 | Porcentagem numérica (por exemplo, 20, 30, 50) | Contribuição do módulo para a pontuação do curso |
 | Em branco | O módulo não é pontuável (por exemplo, PDF ou vídeos) |
