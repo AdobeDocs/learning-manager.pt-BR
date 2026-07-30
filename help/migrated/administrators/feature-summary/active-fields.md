@@ -3,9 +3,9 @@ description: Saiba como usar campos ativos no Adobe Learning Manager para captur
 jcr-language: en_us
 title: Configurar campos ativos no Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adicionando atributos personalizados aos perfis de usuário, os campos ativos ca
 
 >[!INFO]
 >
->Assista a este treinamento do ALM Academy para saber como adicionar, personalizar e configurar campos ativos.<br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
+>Assista a este treinamento do Instituto ALM para saber como adicionar, personalizar e configurar campos ativos.<br>[![botão](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
 
 ## Adicionar campos ativos
 
@@ -77,7 +77,7 @@ Para definir configurações de campos ativos:
    ![](assets/settings-active-field.png)
    _Selecione a guia Configurações para personalizar os campos ativos_
 
-2. Selecione uma ou ambas as opções, conforme necessário.:
+2. Selecione uma ou ambas as opções, conforme necessário:
 
    * **Mostrar apenas campos não preenchidos no logon do aluno:** quando selecionado, os alunos verão apenas os campos ativos que ainda não preencheram. Isso solicita que o usuário conclua seu perfil, ajudando a garantir que os dados do usuário sejam precisos e atualizados. A exibição desses campos suporta perfis completos do aluno e permite experiências de aprendizado personalizadas.
    * **Se essa opção estiver desmarcada, a página &#39;Concluir seu perfil&#39; não será exibida aos usuários:** Quando essa opção estiver desabilitada, os alunos não verão a página **Concluir seu perfil** após o logon. Eles não serão solicitados a atualizar ou preencher quaisquer informações de perfil e podem acessar a plataforma diretamente.
@@ -126,6 +126,6 @@ Em alguns casos, os administradores preferem que os alunos preencham manualmente
 
 Se um arquivo CSV não incluir todos os campos ativos, o administrador deverá inserir manualmente os valores ausentes após a importação.
 
-Por padrão, cada campo ativo deve ser mapeado para um campo correspondente no CSV de origem. No entanto, se não quiser mapear um campo ativo específico para qualquer coluna no CSV, você pode selecionar o valor **DontImportFromSource** na lista suspensa durante os processos de importação do Box e do FTP. Essa opção está disponível ao importar usuários por meio de conectores FTP ou Box. Consulte este [artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/connectors) para obter mais informações sobre os conectores.
+Por padrão, cada campo ativo deve ser mapeado para um campo correspondente no CSV de origem. No entanto, se não quiser mapear um campo ativo específico para qualquer coluna no CSV, você pode selecionar o valor **DontImportFromSource** na lista suspensa durante os processos de importação do Box e do FTP. Essa opção está disponível ao importar usuários por meio de conectores FTP ou Box. Consulte este [artigo](/help/migrated/integration-admin/feature-summary/connectors.md) para obter mais informações sobre os conectores.
 
 
