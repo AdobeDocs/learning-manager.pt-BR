@@ -2,9 +2,9 @@
 description: O Insights Agent é um recurso viabilizado por IA no Adobe Learning Manager que permite que os administradores consultem os dados do aluno usando linguagem natural.
 jcr-language: en_us
 title: Agente do Insights (beta) no Adobe Learning Manager
-source-git-commit: 03dbee8fdbc83d7e23ee3c4d13fad621e1c80a7e
+source-git-commit: d08f721676a301fc94a36dc58ca1f5508ae8c1b3
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '2730'
 ht-degree: 1%
 
 ---
@@ -91,10 +91,10 @@ Depois de enviar sua pergunta, o Agente do Insights processa sua solicitação e
 1. **Desambiguidade (se necessário):** se a sua pergunta contiver um termo ambíguo, como \”atividade de aprendizado\” ou \”desempenho\”, ou “Fornecer-me dados de desempenho dos últimos 3 meses”, o assistente exibirá uma lista de opções e solicitará que você selecione uma antes de continuar. Selecione a opção que melhor corresponde ao que você está procurando. Depois da pergunta inicial, não será possível digitar instruções adicionais. Selecionar entre as opções fornecidas é a única interação disponível até que você inicie uma nova consulta usando a interface de consulta. Você só pode responder à desambiguação selecionando uma das opções fornecidas; o acompanhamento de texto livre não está disponível nesta versão.
 
 ![](assets/disambiguation.png)
-&#x200B;2. **Abordagem:** a seção **Abordagem** descreve as etapas que o agente realizou para recuperar seus dados. Aparece como um painel rolável abaixo da pergunta. Selecione o ícone de expansão para ver a abordagem completa. A revisão desta seção ajuda a confirmar se a lógica corresponde à sua intenção, especialmente em consultas complexas. Por exemplo, se você solicitar “todos os alunos inscritos no último ano”, o agente poderá retornar a inscrição mais recente de cada aluno, em vez de cada registro de inscrição. A seção **maio** ou **Abordagem** explicará&#x200B;**essa decisão.** Se a lógica não corresponder à sua intenção, inicie uma nova consulta com termos mais específicos.
+2. **Abordagem:** a seção **Abordagem** descreve as etapas que o agente realizou para recuperar seus dados. Aparece como um painel rolável abaixo da pergunta. Selecione o ícone de expansão para ver a abordagem completa. A revisão desta seção ajuda a confirmar se a lógica corresponde à sua intenção, especialmente em consultas complexas. Por exemplo, se você solicitar “todos os alunos inscritos no último ano”, o agente poderá retornar a inscrição mais recente de cada aluno, em vez de cada registro de inscrição. A seção **maio** ou **Abordagem** explicará&#x200B;**essa decisão.** Se a lógica não corresponder à sua intenção, inicie uma nova consulta com termos mais específicos.
 
 ![](assets/approach.png)
-&#x200B;3. **Resultados:** o Agente do Insights gera resultados como texto ou tabela. Para pontos de dados que são melhor interpretados em um formato tabular, o Agente do Insights retorna uma tabela. O Agente do Insights não gera gráficos. Para visualizar os dados, baixe o CSV e abra-o na ferramenta de sua preferência. Se os resultados contiverem 50 ou menos linhas, um resumo em linguagem simples poderá ser incluído acima da tabela. Por exemplo, “Quais cursos não têm menos de 5 inscrições criadas no último ano e quem são os autores?\”
+3. **Resultados:** o Agente do Insights gera resultados como texto ou tabela. Para pontos de dados que são melhor interpretados em um formato tabular, o Agente do Insights retorna uma tabela. O Agente do Insights não gera gráficos. Para visualizar os dados, baixe o CSV e abra-o na ferramenta de sua preferência. Se os resultados contiverem 50 ou menos linhas, um resumo em linguagem simples poderá ser incluído acima da tabela. Por exemplo, “Quais cursos não têm menos de 5 inscrições criadas no último ano e quem são os autores?\”
 
 ![](assets/results.png)
 
@@ -133,11 +133,12 @@ Após cada resposta, selecione o ícone de miniaturas para cima ou para baixo pa
 
 ## Práticas recomendadas
 
-- Comece com uma pergunta específica em vez de uma pergunta ampla. \”Qual é a taxa de conclusão do curso de Treinamento em Segurança no grupo de usuários da América do Norte?\” retorna resultados mais úteis do que \”Mostrar dados de conclusão.”
+- Comece com uma pergunta específica em vez de uma pergunta ampla. “Qual é a taxa de conclusão do curso de Treinamento em Segurança no grupo de usuários da América do Norte?” retorna resultados mais úteis do que \”Mostrar dados de conclusão.”
 - Use termos exatos do Adobe Learning Manager ao nomear conteúdo e grupos de alunos. O guia de gravação de consultas lista os termos corretos a serem usados.
 - Se o agente fizer uma pergunta esclarecedora, trate-a como um sinal para refinar a consulta original. Quanto mais específica for a sua pergunta, menos esclarecimentos serão necessários.
 - Revise a seção **Abordagem** antes de agir nos resultados, especialmente para consultas relacionadas à conformidade em que a precisão é crítica.
 - **Especifique se deseja incluir ou excluir alunos na lista de espera**. Por padrão, as consultas de contagem de inscrições incluem alunos que estão em uma lista de espera juntamente com inscrições ativas confirmadas. Se você precisar apenas de participantes ativos, exclua explicitamente os alunos da lista de espera na consulta. Por exemplo: “Quantos alunos estão inscritos diretamente no curso de treinamento de segurança, exceto os alunos na lista de espera?” O agente divulgará na seção Abordagem que a exclusão foi aplicada. Sem essa instrução, os totais de inscrição podem incluir uma proporção significativa de alunos na lista de espera que ainda não iniciaram o conteúdo.
+- **Contagens de inscrições diretas e indiretas**: ao consultar os dados de inscrição ou conclusão de um curso ou caminho de aprendizado, o Agente do Insights distingue entre inscrições diretas (alunos inscritos especificamente nesse curso ou caminho de aprendizado) e indiretas (alunos que acessaram o mesmo conteúdo como parte de um caminho de aprendizado ou certificação). Se você solicitar especificamente inscrições diretas ou indiretas, o agente retornará a contagem correta para cada tipo. Se sua consulta não especificar direta ou indireta, o agente pode retornar uma contagem combinada. Para obter contagens separadas, inclua a distinção explicitamente na sua consulta. Por exemplo: “Quantos alunos estão inscritos diretamente versus inscritos indiretamente no curso de treinamento de segurança?”
 
 
 ## Gravar consultas eficazes para o Agente do Insights
@@ -256,23 +257,9 @@ Use-os como ponto de partida. Adapte-os substituindo os nomes de conteúdo, grup
 
 ## Limitações na versão
 
-**Certificações recorrentes podem mostrar várias opções durante a etapa de desambiguação**
-
-Quando você consulta dados para uma certificação recorrente, o Agente do Insights pode exibir várias opções durante a etapa de esclarecimento, uma para cada recorrência da certificação, em vez de mostrá-la como uma única entrada. A seleção de qualquer uma dessas opções pode retornar dados incorretos ou incompletos. Recomendamos não usar o Agente do Insights para consultar certificações recorrentes.
-
-**Os cursos que fazem parte de uma certificação recorrente podem mostrar várias opções durante a etapa de desambiguação**
-
-Ao consultar dados de um curso associado a uma certificação recorrente, o Agente do Insights pode exibir várias opções durante a etapa de esclarecimento, uma para cada versão do curso criada em ciclos de certificação, em vez de mostrá-la como uma única entrada. A seleção de qualquer uma dessas opções pode retornar dados incorretos ou incompletos.
-
 **Os dados recém-adicionados podem levar até 30 minutos para serem exibidos nos resultados**
 
 Depois que o conteúdo é criado, os alunos são inscritos ou os registros de conclusão são atualizados, pode levar até 30 minutos para que os dados fiquem disponíveis nos resultados da consulta. Se os resultados parecerem incompletos ou não refletirem a atividade recente, aguarde 30 minutos e tente a consulta novamente.
-
-**Contagens de inscrições diretas e indiretas**
-
-Ao consultar os dados de inscrição ou conclusão de um curso ou caminho de aprendizado, o Agente do Insights distingue entre inscrições diretas (alunos inscritos especificamente nesse curso ou caminho de aprendizado) e indiretas (alunos que acessaram o mesmo conteúdo como parte de um caminho de aprendizado ou certificação). Se você solicitar especificamente inscrições diretas ou indiretas, o agente retornará a contagem correta para cada tipo.
-
-Se sua consulta não especificar direta ou indireta, o agente pode retornar uma contagem combinada. Para obter contagens separadas, inclua a distinção explicitamente na sua consulta. Por exemplo: “Quantos alunos estão inscritos diretamente versus inscritos indiretamente no curso de treinamento de segurança?”
 
 **Não há suporte para consultas enviadas em scripts não latinos**
 
