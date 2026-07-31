@@ -6,8 +6,8 @@ contentowner: saghosh
 exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 76%
+source-wordcount: '205'
+ht-degree: 77%
 
 ---
 
@@ -31,7 +31,7 @@ Isso pode acontecer pelos seguintes motivos:
 1. Os lembretes estão desativados.
 1. Um lembrete está programado para aparecer após um determinado período de tempo.
 
-## Resolução
+## Solução
 
 1. Verifique se a opção “Mostrar questionário imediatamente após a conclusão do curso” está habilitada em **Curso** > **Instâncias** > **Feedback L1**.
    <!--![](assets/l1-feedback.png)-->

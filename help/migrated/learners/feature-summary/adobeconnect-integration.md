@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
 title: Integração do Adobe Connect
-description: Como aluno, você pode realizar cursos de sala de aula virtual usando o Adobe Connect se sua empresa integrar o Adobe Connect à sua conta do Learning Manager. Entre em contato com o administrador da sua empresa se não conseguir usar o Adobe Connect.
+description: Como aluno, você pode realizar cursos de sala de aula virtual usando o Adobe Connect se sua empresa integrar o Adobe Connect à sua conta do Learning Manager. Entre em contato com o administrador da sua empresa se não puder usar o Adobe Connect.
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '285'
+ht-degree: 93%
 
 ---
 
 # Integração do Adobe Connect
 
-Como aluno, você pode realizar cursos de sala de aula virtual usando o Adobe Connect se sua empresa integrar o Adobe Connect à sua conta do Learning Manager. Entre em contato com o administrador da sua empresa se não conseguir usar o Adobe Connect.
+Como aluno, você pode realizar cursos de sala de aula virtual usando o Adobe Connect se sua empresa integrar o Adobe Connect à sua conta do Learning Manager. Entre em contato com o administrador da sua empresa se não puder usar o Adobe Connect.
 
 ## Realizar cursos na sala de aula virtual do Adobe Connect {#consumeadobeconnectvirtualclassroomcourses}
 

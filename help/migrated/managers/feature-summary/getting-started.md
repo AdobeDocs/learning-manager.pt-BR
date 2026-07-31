@@ -5,8 +5,8 @@ title: Introdução para Gerentes
 contentowner: manochan
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 67%
+source-wordcount: '175'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ Assim que você efetuar o login como um Gerente, poderá ver a janela suspensa c
 
 Navegue através dos tutoriais em vídeo de amostra para compreender os principais recursos de sua função como um Gerente. Se você não deseja que essa janela suspensa apareça durante o login, poderá desativá-la clicando na opção Não mostrar no login no canto inferior direito da janela suspensa.
 
-Clique em **[!UICONTROL Fechar Janela]** para fechar a janela pop-up.
+Clique em **[!UICONTROL Fechar janela]** para fechar a janela suspensa.
 
 ![](assets/welcome-videos.png)
 
