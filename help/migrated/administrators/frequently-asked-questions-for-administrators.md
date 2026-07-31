@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
 source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2517'
-ht-degree: 52%
+source-wordcount: '2548'
+ht-degree: 77%
 
 ---
 
@@ -41,7 +41,7 @@ Para corrigir o logon do usuário, é necessário importar CSV no Learning Manag
 
 Os usuários devem ser adicionados na página Alunos.
 
-[CSV.csv de exemplo do Learning Manager](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[Amostra CSV.csv do Learning Manager](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
@@ -115,7 +115,7 @@ Como administrador, você pode solicitar a indicação do gerente para os cursos
 1. Clique em Cursos no painel esquerdo
 1. Passe o mouse sobre qualquer curso indicado pelo gerente e clique em **[!UICONTROL Buscar indicação do gerente]**.
 
-1. Na lista de instâncias, clique no link **[!UICONTROL Gerentes indicados]** seguido pelo link **[!UICONTROL Adicionar Gerentes]**.
+1. Na lista de instâncias, clique no link **[!UICONTROL Indivado pelos gerentes]** seguido pelo link **[!UICONTROL Adicionar gerentes]**.
 
 1. Adicione o nome do gerente, o número devagas atribuídas e clique na marca de seleção para salvar as alterações.
 
@@ -129,11 +129,11 @@ Inscreva os alunos nos cursos seguindo as etapas abaixo:
 
 1. Clique em Cursos no painel esquerdo depois de fazer logon como administrador. A lista de todos os cursos é exibida na página do lado direito.
 1. Escolha o curso ao qual deseja adicionar alunos e passe o mouse sobre ele.
-1. Clique em Inscrever alunos e adicione o nome dos alunos. **Observação:** você pode adicionar um ou vários alunos por vez.
+1. Clique em Inscrever alunos e adicione o nome dos alunos. **Nota:** você pode adicionar um ou vários alunos por vez.
 
 +++
 
-+++Como atribuir alunos a uma habilidade específica?
++++Como atribuir automaticamente uma habilidade aos alunos?
 
 Atribua alunos a competências seguindo as etapas abaixo:
 
@@ -209,7 +209,7 @@ Consulte a [Ajuda sobre temas de cores e marcas](/help/migrated/administrators/f
 
 +++Como configurar medalhas para os cursos?
 
-1. Clique em Medalhas no painel esquerdo depois de fazer logon como administrador.
+1. Clique em Medalhas no painel esquerdo depois de fazer logon como administrador.
 1. Clique em Adicionar no canto superior direito da página que aparece.
 1. Adicione o nome da medalha.
 1. Carregue a medalha clicando em Carregar medalha e clique em Salvar.
@@ -320,7 +320,7 @@ Consulte o recurso [Gerenciamento de faturamento](/help/migrated/administrators/
 
 +++
 
-+++É possível personalizar o design do certificado? Como?
++++Posso personalizar o design do certificado? Como?
 
 No Adobe Learning Manager, você pode reconhecer os alunos emitindo medalhas. Consulte o recurso Medalhas para mais informações.  Consulte também o recurso de certificação.
 
@@ -328,7 +328,7 @@ No Adobe Learning Manager, você pode reconhecer os alunos emitindo medalhas. Co
 
 +++Como configurar o perfil da minha empresa?
 
-1. Depois de fazer logon como administrador, clique em **[!UICONTROL Informações da Empresa]** no painel esquerdo.
+1. Depois de fazer logon como administrador, clique em **[!UICONTROL Informações da empresa]** no painel esquerdo.
 1. Adicione o perfil da empresa, subdomínio e logotipo clicando em cada uma dessas opções na página.
 
 +++
@@ -354,7 +354,7 @@ Consulte o recurso [Adicionar novos usuários](/help/migrated/administrators/fea
 
 +++
 
-+++Como alterar uma imagem de fundo para um aluno?
++++Como alterar uma imagem de plano de fundo para um aluno?
 
 Entre em contato com a equipe de suporte do Learning Manager.
 
@@ -379,7 +379,7 @@ Sim, você pode obter um **[!UICONTROL Relatório de treinamento]** que contém 
 
 +++
 
-+++Onde posso baixar a versão de desktop do aplicativo?
++++Onde posso baixar a versão de desktop do aplicativo? 
 
 Siga as etapas abaixo para baixar a versão para desktop:
 

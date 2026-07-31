@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 122b2fca-ad7c-4799-9a2e-ced820780d3f
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 66%
+source-wordcount: '167'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ Assim que você efetuar o login como um Gerente, poderá ver a janela suspensa c
 
 Navegue através dos tutoriais em vídeo de amostra para compreender os principais recursos de sua função como um Gerente. Se você não deseja que essa janela suspensa apareça durante o login, poderá desativá-la clicando na opção Não mostrar no login no canto inferior direito da janela suspensa.
 
-Clique em **[!UICONTROL Fechar Janela]** para fechar a janela pop-up.
+Clique em **[!UICONTROL Fechar janela]** para fechar a janela suspensa.
 
 <!--![](assets/welcome-videos.png) -->
 
