@@ -1,9 +1,9 @@
 ---
 title: Sobre o painel Bate-papo no Live Hub
 description: Saiba como o painel Chat permite a comunicação estruturada e em tempo real entre professores e alunos durante uma sessão do Live Hub.
-source-git-commit: 203b9dd661ddf9223d3e181c5887e6976ba8213e
+source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ O painel de Bate-papo está disponível para professores e alunos. As ações e 
 | [Acessar o painel de Chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#access-the-chat-panel) | [Acessar o painel de Chat](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#access-the-chat-panel) |
 | [Configurações do painel de bate-papo](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#chat-panel-settings) | [Gerenciar suas mensagens de chat](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
 | [Responder a mensagens de chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#reply-to-chat-messages) | [Personalizar o painel de chat](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#customize-the-chat-panel) |
-| [Reagir a uma mensagem](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [Personalizar o painel de chat](#overview) |
-| [Editar as mensagens de chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) | [Gerenciar suas mensagens de chat](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
-| [Mencionar participantes nas mensagens de chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | [Enviar mensagens privadas](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [Reagir a uma mensagem](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [Enviar mensagens privadas](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [Editar as mensagens de chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) |  |
+| [Mencionar participantes nas mensagens de chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | |
 | [Iniciar um chat privado](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#start-a-private-chat) | |
 | [Rascunho de respostas para perguntas de participantes com IA](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) | |
 | [Excluir mensagens](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#delete-messages) | |
