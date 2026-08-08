@@ -173,11 +173,11 @@ Para adicionar pontuações e comentários nos módulos de atividade que foram e
 
 Para sessões criadas usando o Live Hub, a seção **Hub do Live** na página **Visão geral da sessão** fornece acesso rápido às principais atividades da sessão.
 
-- **Entrar na sala de aula virtual**: selecione **Entrar na sala de aula** para ingressar na sala de aula virtual ou configurá-la antes do início da sessão. Você também pode selecionar **Copiar URL** para copiar o link da sessão e compartilhá-lo com os participantes.
+&#x200B;- **Entrar na sala de aula virtual**: selecione **Entrar na sala de aula** para ingressar na sala de aula virtual ou configurá-la antes do início da sessão. Você também pode selecionar **Copiar URL** para copiar o link da sessão e compartilhá-lo com os participantes.
 
-- **Exibir análise de sessão**: selecione a **página Exibir análise** para abrir o painel de análise de sessão após o término da sessão. O painel fornece informações sobre a participação, participação, envolvimento e outras métricas de sessão do aluno.
+&#x200B;- **Exibir análise de sessão**: selecione a **página Exibir análise** para abrir o painel de análise de sessão após o término da sessão. O painel fornece informações sobre a participação, participação, envolvimento e outras métricas de sessão do aluno.
 
-- **Exibir gravação**: se a sessão foi gravada, selecione **Exibir gravação** para acessar a gravação diretamente da página **Visão geral da sessão**. Se nenhuma gravação estiver disponível, o cartão indicará seu status.
+&#x200B;- **Exibir gravação**: se a sessão foi gravada, selecione **Exibir gravação** para acessar a gravação diretamente da página **Visão geral da sessão**. Se nenhuma gravação estiver disponível, o cartão indicará seu status.
 
 ![Página de visão geral da sessão](../../getting-started-with-live-hub/assets/session-overview-page.png)
 *Página de visão geral da sessão que mostra a seção do Live Hub com acesso às atividades do Live Hub.*

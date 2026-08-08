@@ -60,7 +60,7 @@ Para mais informações, consulte [Definir configurações do curso](#settings).
 4.**Publish o curso ALM:** um autor do ALM monta o módulo em um curso ALM, adiciona imagens e configurações do curso e o publica. Somente após essa etapa é possível inscrever os alunos.
 
 Para obter mais informações, consulte o [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author).
-![ A Biblioteca de Conteúdo no Adobe Learning Manager, mostrando os módulos publicados e de processamento](../assets/51_alm_content_library_list_view_updated.png)
+![&#x200B; A Biblioteca de Conteúdo no Adobe Learning Manager, mostrando os módulos publicados e de processamento](../assets/51_alm_content_library_list_view_updated.png)
 
 Para obter mais informações, consulte [Criação do curso como autor no ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses).
 

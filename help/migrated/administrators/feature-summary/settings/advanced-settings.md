@@ -93,7 +93,7 @@ A tabela a seguir descreve o que cada função pode fazer com a hierarquia de pa
 
 ### Limites da estrutura de pastas
 
-| **Limite** | Valor **1}** |
+| **Limite** | Valor **1&rbrace;** |
 |---------------------------------------|-----------|
 | Pastas de nível 1 por conta | Sem limite |
 | Subpastas de nível 2 por pasta de nível 1 | 25 |
@@ -302,17 +302,17 @@ Sessões de hub.
 
 Feriados são um conjunto de dias não úteis mantidos no nível da conta, com as seguintes propriedades:
 
-- Somente o administrador pode adicionar, editar ou excluir feriados.
+&#x200B;- Somente o administrador pode adicionar, editar ou excluir feriados.
 
-- Os feriados aplicam-se a toda a organização e aparecem no calendário de cada professor como dias não úteis.
+&#x200B;- Os feriados aplicam-se a toda a organização e aparecem no calendário de cada professor como dias não úteis.
 
-- Como os feriados marcam os professores como indisponíveis, as sessões do Live Hub não podem ser agendadas nessas datas.
+&#x200B;- Como os feriados marcam os professores como indisponíveis, as sessões do Live Hub não podem ser agendadas nessas datas.
 
-- Cada feriado requer uma data e um nome; uma descrição é opcional.
+&#x200B;- Cada feriado requer uma data e um nome; uma descrição é opcional.
 
-- Você pode adicionar feriados, um de cada vez, ou importar vários feriados de uma vez usando um arquivo CSV.
+&#x200B;- Você pode adicionar feriados, um de cada vez, ou importar vários feriados de uma vez usando um arquivo CSV.
 
-- Depois de adicionados, os feriados aparecem na página **Feriados**, onde você pode exibi-los, pesquisá-los e gerenciá-los.
+&#x200B;- Depois de adicionados, os feriados aparecem na página **Feriados**, onde você pode exibi-los, pesquisá-los e gerenciá-los.
 
 Exiba [Gerenciar Feriados](../../../getting-started-with-live-hub/manage-holidays.md) para obter mais informações.
 
