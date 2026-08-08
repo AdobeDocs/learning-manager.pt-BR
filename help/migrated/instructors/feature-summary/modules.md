@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Módulos
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 63%
+source-wordcount: '1098'
+ht-degree: 61%
 
 ---
 
@@ -126,7 +126,7 @@ Este é o fluxo de trabalho:
    ![](assets/proof-of-completion.png)
    *Enviar comprovante de conclusão*
 
-1. O professor seleciona o módulo de atividade que está atribuído a ele. Na página Envios do módulo, o professor clica em **Editar**. Em seguida, ele pode inserir os comentários para rejeição e ativar a opção Mostrar comentário, para que o aluno possa visualizar o comentário na notificação.
+1. O professor seleciona então o módulo de atividade atribuído. Na página Envios do módulo, o professor clica em **Editar**. Em seguida, ele pode inserir os comentários para rejeição e ativar a opção Mostrar comentário, para que o aluno possa visualizar o comentário na notificação.
 
    ![](assets/enter-comments.png)
    *Insira comentários sobre a conclusão*
@@ -141,7 +141,7 @@ Este é o fluxo de trabalho:
    ![](assets/rejected-status.png)
    *Exibir status de rejeição*
 
-1. O aluno agora vê uma notificação de que o envio foi rejeitado. Os comentários do professor também aparecem na notificação.
+1. O aluno agora recebe uma notificação de que seu envio foi rejeitado. Os comentários do professor também aparecem na notificação.
 
    ![](assets/notification-of-rejection.png)
    *Receber notificação de rejeição*
@@ -168,3 +168,16 @@ Para adicionar pontuações e comentários nos módulos de atividade que foram e
    *Editar pontuações e comentários*
 
 1. Clique em **[!UICONTROL Salvar]**.
+
+## Sessão do Live Hub
+
+Para sessões criadas usando o Live Hub, a seção **Hub do Live** na página **Visão geral da sessão** fornece acesso rápido às principais atividades da sessão.
+
+&#x200B;- **Entrar na sala de aula virtual**: selecione **Entrar na sala de aula** para ingressar na sala de aula virtual ou configurá-la antes do início da sessão. Você também pode selecionar **Copiar URL** para copiar o link da sessão e compartilhá-lo com os participantes.
+
+&#x200B;- **Exibir análise de sessão**: selecione a **página Exibir análise** para abrir o painel de análise de sessão após o término da sessão. O painel fornece informações sobre a participação, participação, envolvimento e outras métricas de sessão do aluno.
+
+&#x200B;- **Exibir gravação**: se a sessão foi gravada, selecione **Exibir gravação** para acessar a gravação diretamente da página **Visão geral da sessão**. Se nenhuma gravação estiver disponível, o cartão indicará seu status.
+
+![Página de visão geral da sessão](../../getting-started-with-live-hub/assets/session-overview-page.png)
+*Página de visão geral da sessão que mostra a seção do Live Hub com acesso às atividades do Live Hub.*

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '33074'
-ht-degree: 67%
+source-wordcount: '34007'
+ht-degree: 65%
 
 ---
 
@@ -26,10 +26,6 @@ ht-degree: 67%
 -->
 
 +++Atualização 110: versão de agosto de 2026 do Adobe Learning Manager
-
->[!IMPORTANT]
->
->Os recursos descritos nestas notas de versão estão disponíveis como parte da versão beta. Os recursos beta do Adobe Learning Manager são fornecidos para fins de avaliação e podem ser modificados, limitados ou removidos antes do lançamento de disponibilidade geral. Nomes de recursos, comportamento e opções de configuração estão sujeitos a alterações sem aviso prévio.
 
 ## Liberar destaques
 
@@ -119,6 +115,66 @@ O Agente do AI Orchestrator move a detecção de intenção para solicitações 
 
 ## Problemas conhecidos na versão
 
+### O professor não pode ingressar na sala de aula virtual entre módulos
+
+Os professores não podem ingressar na sala de aula virtual ao tentar entrar em uma sala fora do horário agendado de seu módulo de curso atribuído.
+
+O Adobe Learning Manager usa uma única sala de aula virtual para todos os módulos de um curso. Quando um professor inicia a sala, a sessão é associada ao módulo vinculado ao ingresso desse professor
+URL. Qualquer solicitação de associação subsequente deve corresponder ao módulo ativo associado à sala. Se outro professor tentar ingressar usando o link de ingresso de um módulo diferente enquanto um módulo diferente estiver ativo, acesse o
+sala negada. Somente um módulo pode estar ativo na sala compartilhada por vez.
+
+Esse comportamento é esperado na versão atual. As melhorias para permitir que os professores do curso ingressem na sala independentemente do módulo ativo estão planejadas para uma versão futura.
+
+### O áudio é interrompido quando o microfone e o alto-falante diferem no macOS
+
+O áudio pode quebrar ou soar distorcido intermitentemente durante uma sessão de sala de aula virtual no macOS quando o microfone e o alto-falante selecionados forem dispositivos diferentes.
+
+Esse comportamento pode ocorrer quando diferentes dispositivos são usados para entrada e saída de áudio, como AirPods para o microfone e alto-falante integrado para reprodução. Como cada dispositivo introduz seu próprio atraso de áudio, o eco
+o cancelamento é menos eficaz e a supressão do ruído de fundo pode, ocasionalmente, identificar incorretamente partes da fala como ruído. Isso pode resultar em breves interrupções de áudio. O problema é mais perceptível quando a
+a voz do alto-falante é capturada em um volume baixo, como quando o microfone é posicionado mais longe.
+
+Esta é uma limitação de plataforma conhecida e não é específica do Adobe Learning Manager. Um comportamento semelhante foi observado em outros aplicativos de conferência. Nenhuma correção está incluída nesta versão e o problema está sendo avaliado para uma versão futura.
+
+Use o mesmo dispositivo para microfone e alto-falantes para evitar esse comportamento.
+
+### O vídeo compartilhado congela no Chrome após perder o foco
+
+Quando um professor compartilha uma janela do Chrome reproduzindo um vídeo e depois muda o foco para longe dele, os participantes podem ver o conteúdo compartilhado congelado ou exibir uma tela preta.
+
+O vídeo continua a ser reproduzido localmente para o professor, mas os participantes remotos podem não ver a atualização de conteúdo enquanto a janela compartilhada estiver fora de foco. O comportamento varia de acordo com o sistema operacional:
+
+- No Windows, os participantes veem uma tela preta.
+- No macOS, os participantes veem o último quadro de vídeo exibido.
+
+A reprodução de vídeo para participantes geralmente reinicia quando o foco retorna à janela do navegador compartilhado.
+
+Esta é uma limitação do navegador e do sistema operacional e não é específica do Adobe Learning Manager. Nenhuma correção específica do produto está disponível para esta versão.
+
+Mantenha a janela do navegador compartilhado em foco ao apresentar o conteúdo do vídeo. Evite alternar de volta para a janela Sala de aula virtual durante a reprodução.
+
+### O professor não pode ingressar em um módulo que já está em uso
+
+Quando os professores tentam iniciar dois módulos do curso que usam a mesma sala de aula virtual ao mesmo tempo, apenas o primeiro professor pode entrar com sucesso na sala.
+
+O Adobe Learning Manager usa uma única sala de aula virtual compartilhada para uma instância do curso. Quando o primeiro professor entra na sala, a sala é associada ao módulo desse professor. As solicitações de ingresso adicionais são
+validado em relação ao módulo ativo. Se outro professor tentar ingressar usando um link de módulo diferente, o acesso será negado. Como resultado, as sessões simultâneas lideradas por instrutor não podem ser conduzidas na mesma
+instância do curso usando módulos separados que compartilham uma sala.
+
+Esse comportamento é esperado na versão atual e é consistente com a arquitetura da sala existente. A funcionalidade está sendo revisada para aprimoramento futuro com base no feedback do cliente.
+
+### O conteúdo compartilhado exibe um efeito de túnel após retornar à janela do Live Hub
+
+Quando um professor compartilha toda a tela e retorna à janela do Live Hub, os participantes podem experimentar um efeito de túnel no conteúdo compartilhado. Quando você compartilha sua tela inteira, o feed compartilhado inclui tudo o que é exibido em seu desktop. Alternar de volta para a janela do Live Hub pode fazer com que o conteúdo compartilhado capture e exiba repetidamente a interface do Live Hub, resultando em um comportamento visual inesperado. Essa é uma limitação conhecida do compartilhamento em tela cheia e está sendo avaliada para uma versão futura.
+
+Compartilhe um aplicativo ou janela específica em vez de toda a tela. Por exemplo, compartilhe a apresentação ou janela do documento que você deseja que os participantes visualizem. Compartilhar um único aplicativo mantém o conteúdo compartilhado isolado e impede o efeito de túnel.
+
+### O relatório do painel da sessão não estará disponível imediatamente após reingressar em uma sessão encerrada
+
+O relatório do Painel de Sessão não estará disponível imediatamente após reingressar em uma sessão encerrada
+Se um professor exibir o Painel de sessão após o término de uma sessão e depois reingressar na mesma sessão usando seu URL, o relatório existente do Painel de sessão pode não estar mais disponível. O relatório pode levar aproximadamente de cinco a sete minutos para ser atualizado e ficar disponível novamente enquanto a instância da sessão anterior é processada. Esta é uma limitação conhecida e está sendo avaliada para uma versão futura.
+
+Aguarde de cinco a sete minutos após fechar a sessão antes de reabrir o URL do painel. Isso permite que a instância da sessão anterior conclua o processamento, após o qual o relatório do Painel da Sessão fica disponível novamente.
+
 ### Os nomes das colunas não estão localizados no CSV de locais de sala de aula exportado
 
 Quando o idioma da interface do usuário é definido para um idioma diferente do inglês, o arquivo CSV exportado da página Locais de sala de aula exibe os nomes das colunas (a linha de cabeçalho) em inglês, e não no idioma selecionado.
@@ -184,7 +240,7 @@ Data de lançamento: 17 de junho de 2026
 4. Navegue até Alunos no painel de navegação esquerdo.
    ![](assets/instructor-send-email1.png)
 5. Selecione um aluno na lista de alunos.
-6. No canto superior direito, a lista suspensa **Ações** é aberta para revelar mais opções (incluindo as esmaecidas). O **Enviar email para todos** é uma das opções.
+6. No canto superior direito, a lista suspensa **Ações** é aberta para revelar mais opções (incluindo as esmaecidas). O **Enviar Email para Todos** é uma das opções.
    ![](assets/instructor-send-email2.png)
 
 **Limpeza automática de usuários excluídos:** a limpeza automática de usuários excluídos foi definida como um ano como o período mínimo necessário para exclusão. Isso foi aprimorado para acomodar um número em “dias” também. Agora, os administradores podem solicitar essa alteração entrando em contato com o gerente de sucesso do cliente e fazendo as alterações no back-end.
@@ -294,36 +350,36 @@ A versão de abril de 2026 do Adobe Learning Manager apresenta aprimoramentos na
 
 **Aprimoramentos na experiência do aluno**
 
-* Navegação aprimorada do Fluidic Player com rótulo “Next Module” (Próximo módulo) claro e uma ação de saída dedicada para melhorar o fluxo do curso.
-* Suporte a vários idiomas estendido para ajudas de tarefa, listas de verificação e legendas de vídeo.
-* O AI Assistant foi integrado à experiência de aprendizado para fornecer ajuda contextual.
-* Experiência aprimorada em conteúdo de Captivate com sumário unificado, indicadores de conclusão e exportação aprimorada de notas.
-* Suporte para definir o idioma do reprodutor por meio de LTI para uma experiência consistente em várias plataformas.
+&#x200B;* Navegação aprimorada do Fluidic Player com rótulo “Next Module” (Próximo módulo) claro e uma ação de saída dedicada para melhorar o fluxo do curso.
+&#x200B;* Suporte a vários idiomas estendido para ajudas de tarefa, listas de verificação e legendas de vídeo.
+&#x200B;* O AI Assistant foi integrado à experiência de aprendizado para fornecer ajuda contextual.
+&#x200B;* Experiência aprimorada em conteúdo de Captivate com sumário unificado, indicadores de conclusão e exportação aprimorada de notas.
+&#x200B;* Suporte para definir o idioma do reprodutor por meio de LTI para uma experiência consistente em várias plataformas.
 
 **Atualizações do administrador e do autor**
 
-* O conector do Zoom agora suporta várias sessões virtuais simultâneas, melhorando a eficiência do agendamento.
-* Capacidade de restringir o tempo de início do módulo e a visibilidade aprimorada da expiração do objeto de aprendizado por meio de APIs.
-* Módulos de lista de verificação aprimorados com pontuação ponderada, suporte multilíngue e opções de feedback do revisor.
-* Certificados personalizados atualizados com um editor de arrastar e soltar, campos dinâmicos e planos de fundo gerados por IA.
-* Introdução de um Construtor de experiências não conectado para criar páginas de aprendizado público.
-* Os cursos compartilhados agora exibem corretamente o autor original.
+&#x200B;* O conector do Zoom agora suporta várias sessões virtuais simultâneas, melhorando a eficiência do agendamento.
+&#x200B;* Capacidade de restringir o tempo de início do módulo e a visibilidade aprimorada da expiração do objeto de aprendizado por meio de APIs.
+&#x200B;* Módulos de lista de verificação aprimorados com pontuação ponderada, suporte multilíngue e opções de feedback do revisor.
+&#x200B;* Certificados personalizados atualizados com um editor de arrastar e soltar, campos dinâmicos e planos de fundo gerados por IA.
+&#x200B;* Introdução de um Construtor de experiências não conectado para criar páginas de aprendizado público.
+&#x200B;* Os cursos compartilhados agora exibem corretamente o autor original.
 
 **Recursos de professor**
 
-* Geração de código QR para registro de sessão e acompanhamento de participação.
-* Capacidade de fornecer comentários e feedback durante as avaliações da lista de verificação.
+&#x200B;* Geração de código QR para registro de sessão e acompanhamento de participação.
+&#x200B;* Capacidade de fornecer comentários e feedback durante as avaliações da lista de verificação.
 
 **Melhorias no Reporting and analytics**
 
-* Os relatórios SCORM foram aprimorados para capturar várias tentativas de questionário.
-* Cálculo mais preciso do tempo de aprendizado nas transcrições do aluno.
-* Atualizações nos relatórios de transcrição para administradores.
-* Aprimoramento da funcionalidade de pesquisa avançada.
+&#x200B;* Os relatórios SCORM foram aprimorados para capturar várias tentativas de questionário.
+&#x200B;* Cálculo mais preciso do tempo de aprendizado nas transcrições do aluno.
+&#x200B;* Atualizações nos relatórios de transcrição para administradores.
+&#x200B;* Aprimoramento da funcionalidade de pesquisa avançada.
 
 **Equivalentes e alternativas**
 
-* Aprimoramentos em equivalentes e alternativas melhoram a flexibilidade nos caminhos de aprendizado, permitindo a substituição e o mapeamento mais precisos dos cursos.
+&#x200B;* Aprimoramentos em equivalentes e alternativas melhoram a flexibilidade nos caminhos de aprendizado, permitindo a substituição e o mapeamento mais precisos dos cursos.
 
 **Impacto principal**
 Essas atualizações melhoram a usabilidade, a escalabilidade e a automação, com foco no aprendizado assistido por IA, suporte multilíngue, gerenciamento simplificado de treinamento virtual e relatórios mais precisos.
@@ -386,10 +442,10 @@ Uma ferramenta de conversação viabilizada por GenAI projetada para ajudar seus
 
 **Principais destaques**
 
-* Usa a RAG (Retrieval-Augmented Generation, geração aumentada para recuperação) para pesquisar de forma inteligente o conteúdo do curso, as ajudas de tarefa e os materiais de aprendizado, a fim de fornecer respostas precisas e contextuais.
-* Compreende o contexto, mantém interações anteriores e fornece respostas baseadas em citação como fonte básica da verdade, que podem ser consumidas posteriormente, conforme necessário.
-* Permite que os alunos solicitem scripts personalizados, pontos de discussão e resumos personalizados de acordo com suas necessidades de aprendizado individuais.
-* Pesquisa em todos os formatos de conteúdo compatíveis, incluindo PDF, DOCX, PPTX, Audio, Videos e SCORM 1.2 e 2004.
+&#x200B;* Usa a RAG (Retrieval-Augmented Generation, geração aumentada para recuperação) para pesquisar de forma inteligente o conteúdo do curso, as ajudas de tarefa e os materiais de aprendizado, a fim de fornecer respostas precisas e contextuais.
+&#x200B;* Compreende o contexto, mantém interações anteriores e fornece respostas baseadas em citação como fonte básica da verdade, que podem ser consumidas posteriormente, conforme necessário.
+&#x200B;* Permite que os alunos solicitem scripts personalizados, pontos de discussão e resumos personalizados de acordo com suas necessidades de aprendizado individuais.
+&#x200B;* Pesquisa em todos os formatos de conteúdo compatíveis, incluindo PDF, DOCX, PPTX, Audio, Videos e SCORM 1.2 e 2004.
 
 Consulte [Assistente de IA para alunos](/help/migrated/learners/feature-summary/learner-ai-assistant.md) para obter mais informações.
 
@@ -425,9 +481,9 @@ Anteriormente, o botão Próximo no Fluidic Player não exibia o título do pró
 
 Com esse aprimoramento, o botão Próximo agora inclui o título do próximo módulo, permitindo que os alunos:
 
-* Entenda quais conteúdos estão surgindo antes que eles continuem.
-* Navegue pelos módulos com mais clareza e confiança.
-* Mantenha um contexto melhor em todo o fluxo do curso.
+&#x200B;* Entenda quais conteúdos estão surgindo antes que eles continuem.
+&#x200B;* Navegue pelos módulos com mais clareza e confiança.
+&#x200B;* Mantenha um contexto melhor em todo o fluxo do curso.
 
 ![](assets/fluidic-player-next.png)
 _O Fluidic Player agora mostra o botão Próximo com o título do próximo módulo_
@@ -440,8 +496,8 @@ Os formulários de feedback podem ser traduzidos em idiomas adicionais, mantendo
 
 **Casos de uso**
 
-* Atribuir formulários de feedback personalizados a diferentes programas de treinamento. Por exemplo, os cursos de vendas podem usar perguntas focadas no NPS, enquanto os cursos de conformidade podem usar perguntas de eficácia do curso e de escala Likert para medir a clareza e a compreensão das políticas.
-* Use formulários de feedback separados com base em módulos de aprendizado. Por exemplo, três formulários diferentes para módulos mesclados, módulos de ritmo individualizado e módulos de sala de aula.
+&#x200B;* Atribuir formulários de feedback personalizados a diferentes programas de treinamento. Por exemplo, os cursos de vendas podem usar perguntas focadas no NPS, enquanto os cursos de conformidade podem usar perguntas de eficácia do curso e de escala Likert para medir a clareza e a compreensão das políticas.
+&#x200B;* Use formulários de feedback separados com base em módulos de aprendizado. Por exemplo, três formulários diferentes para módulos mesclados, módulos de ritmo individualizado e módulos de sala de aula.
 
 Exiba o [formulário de feedback N1](/help/migrated/administrators/feature-summary/l1-feedback-form.md) para obter mais informações.
 
@@ -470,8 +526,8 @@ Você (administrador ou autor) pode ativar ou desativar modelos de e-mail com ba
 
 ### Caso de uso
 
-* Os administradores e autores precisam enviar e-mail aos alunos sem notificar os gerentes (por exemplo, inscrições do aluno).
-* A opção de ativar ou desativar e-mails em massa para uma função específica (por exemplo, desativar todos os e-mails para gerentes).
+&#x200B;* Os administradores e autores precisam enviar e-mail aos alunos sem notificar os gerentes (por exemplo, inscrições do aluno).
+&#x200B;* A opção de ativar ou desativar e-mails em massa para uma função específica (por exemplo, desativar todos os e-mails para gerentes).
 
 ### Fluxo de trabalho existente
 
@@ -479,9 +535,9 @@ Se a intenção for enviar e-mails aos alunos, mas não aos gerentes (por exempl
 
 ### Novidades
 
-* Ativa/desativa a interface de modelos de email com base em funções.
-* Ativar/desativar em massa para uma função específica.
-* Visibilidade em funções por modelo.
+&#x200B;* Ativa/desativa a interface de modelos de email com base em funções.
+&#x200B;* Ativar/desativar em massa para uma função específica.
+&#x200B;* Visibilidade em funções por modelo.
 
 Consulte este [artigo](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level) para obter mais informações.
 
@@ -518,9 +574,9 @@ Com a Atualização não iniciada, os alunos que já concluíram o curso continu
 
 Quando um administrador clica em **[!UICONTROL Atualizar]**, ele pode escolher entre as seguintes opções:
 
-* **[!UICONTROL Atualizar todos os alunos agora]**: aplique a atualização de conteúdo imediatamente para todos os alunos. Alunos Não Iniciados, Em Andamento e Concluídos são movidos para a nova versão imediatamente.
-* **[!UICONTROL Atualizar todos os alunos eventualmente]**: aplique a atualização para todos os alunos em fases. Os alunos não iniciados e concluídos recebem a nova versão agora. Os alunos em andamento recebem a atualização após concluírem a versão atual.
-* **[!UICONTROL Atualizar apenas alunos não iniciados]**: aplique a atualização apenas aos alunos que ainda não iniciaram o curso. Os alunos em andamento e concluídos permanecem na versão original.
+&#x200B;* **[!UICONTROL Atualizar todos os alunos agora]**: aplique a atualização de conteúdo imediatamente para todos os alunos. Alunos Não Iniciados, Em Andamento e Concluídos são movidos para a nova versão imediatamente.
+&#x200B;* **[!UICONTROL Atualizar todos os alunos eventualmente]**: aplique a atualização para todos os alunos em fases. Os alunos não iniciados e concluídos recebem a nova versão agora. Os alunos em andamento recebem a atualização após concluírem a versão atual.
+&#x200B;* **[!UICONTROL Atualizar apenas alunos não iniciados]**: aplique a atualização apenas aos alunos que ainda não iniciaram o curso. Os alunos em andamento e concluídos permanecem na versão original.
 
 ### Mudanças na interface do usuário
 
@@ -541,9 +597,9 @@ Consulte este [artigo](/help/migrated/authors/feature-summary/content-library.md
 
 Esta versão traz um Fluidic Player atualizado para o Adobe Learning Manager com uma aparência moderna e uma experiência de aprendizado mais intuitiva. O player atualizado inclui uma interface mais limpa, controles de navegação aprimorados e um design consistente no desktop e em dispositivos móveis. Os alunos podem acessar e interagir facilmente com o conteúdo em qualquer modo de tela, incluindo retrato, paisagem, tela cheia ou exibição padrão.
 
-* **Capa atualizada do Fluidic Player**: uma aparência modernizada com elementos de interface do usuário atualizados.
-* **Controles de navegação aprimorados**: navegação mais suave e intuitiva para uma melhor experiência do aluno.
-* **Design otimizado**: a aparência e a usabilidade aprimoradas em dispositivos móveis e no desktop oferecem suporte aos modos retrato, paisagem, tela cheia e tela padrão.
+&#x200B;* **Capa atualizada do Fluidic Player**: uma aparência modernizada com elementos de interface do usuário atualizados.
+&#x200B;* **Controles de navegação aprimorados**: navegação mais suave e intuitiva para uma melhor experiência do aluno.
+&#x200B;* **Design otimizado**: a aparência e a usabilidade aprimoradas em dispositivos móveis e no desktop oferecem suporte aos modos retrato, paisagem, tela cheia e tela padrão.
 
 Todos os alunos que acessam conteúdo por meio do Adobe Learning Manager, usando a experiência nativa ou sem periféricos, verão automaticamente essas novas melhorias na interface do usuário e na navegação. Os alunos podem notar uma pequena mudança em como interagem com o reprodutor devido ao layout e aos controles atualizados.
 
@@ -555,7 +611,7 @@ Consulte este [artigo](/help/migrated/learners/feature-summary/fluidic-player.md
 
 ## Erro corrigido nesta versão
 
-* Correção de um problema em que os alunos que tinham concluído um curso viam uma tela em branco ao revisitá-lo após o módulo de conteúdo ter sido atualizado para uma nova versão.
+&#x200B;* Correção de um problema em que os alunos que tinham concluído um curso viam uma tela em branco ao revisitá-lo após o módulo de conteúdo ter sido atualizado para uma nova versão.
 
 Além disso, para obter detalhes sobre as próximas alterações no Adobe Learning Manager, consulte este [artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
@@ -632,8 +688,8 @@ Consulte [Novidades do Adobe Learning Manager](/help/migrated/whats-new-november
 
 ## Novidades desta atualização
 
-* Selecione o ícone de engrenagem do reprodutor para alterar a qualidade do vídeo.
-* Altere a qualidade e a velocidade de um vídeo nas redes sociais.
+&#x200B;* Selecione o ícone de engrenagem do reprodutor para alterar a qualidade do vídeo.
+&#x200B;* Altere a qualidade e a velocidade de um vídeo nas redes sociais.
 +++
 
 +++Atualização 93: versão de julho de 2023 do Adobe Learning Manager
@@ -663,16 +719,16 @@ Para obter mais informações, consulte [Novidades do lançamento do Adobe Learn
 
 **Erros corrigidos nesta atualização**
 
-* Depois de concluir um módulo, a API Grade não é acionada automaticamente, o que resulta na exibição da marca de seleção verde como esperado na Interface do usuário.
-* Depois de concluir alguns módulos em um caminho de aprendizado ou uma certificação, a marca de seleção verde, que indica a conclusão bem-sucedida, não é exibida conforme esperado.
-* O Adobe Learning Manager não é iniciado como esperado após o carregamento de um CSV de usuário com campos incorretos.
-* O pop-up de aviso sobre como entrar em contato com o administrador também exibe outros endereços de e-mail.
-* Todas as medalhas obtidas por um aluno não são exibidas na resposta.
-* Durante a inscrição do usuário, um nome de usuário com &quot; &quot; deve ser aceito.
+&#x200B;* Depois de concluir um módulo, a API Grade não é acionada automaticamente, o que resulta na exibição da marca de seleção verde como esperado na Interface do usuário.
+&#x200B;* Depois de concluir alguns módulos em um caminho de aprendizado ou uma certificação, a marca de seleção verde, que indica a conclusão bem-sucedida, não é exibida conforme esperado.
+&#x200B;* O Adobe Learning Manager não é iniciado como esperado após o carregamento de um CSV de usuário com campos incorretos.
+&#x200B;* O pop-up de aviso sobre como entrar em contato com o administrador também exibe outros endereços de e-mail.
+&#x200B;* Todas as medalhas obtidas por um aluno não são exibidas na resposta.
+&#x200B;* Durante a inscrição do usuário, um nome de usuário com &quot; &quot; deve ser aceito.
 
 #### Reprodutor
 
-* Adicione um menu para selecionar a resolução da tela ao reproduzir um vídeo.
+&#x200B;* Adicione um menu para selecionar a resolução da tela ao reproduzir um vídeo.
 +++
 
 +++Atualização 91
@@ -681,20 +737,20 @@ Para obter mais informações, consulte [Novidades do lançamento do Adobe Learn
 
 ### Conectores
 
-* O conector do Adobe Connect requer APIs para enviar tokens CSRF. Para obter mais informações, consulte Melhorar a segurança da conta da Adobe Connect.
+&#x200B;* O conector do Adobe Connect requer APIs para enviar tokens CSRF. Para obter mais informações, consulte Melhorar a segurança da conta da Adobe Connect.
 
 ### Alteração da cadeia de caracteres
 
-* Renomeamos a cadeia de caracteres Classificar este treinamento para Classificar este curso, Classificar este caminho de aprendizado ou Classificar esta certificação, com base no treinamento que o aluno faz. Dependendo do tipo de treinamento, um aluno vê a sequência de caracteres de acordo.
+&#x200B;* Renomeamos a cadeia de caracteres Classificar este treinamento para Classificar este curso, Classificar este caminho de aprendizado ou Classificar esta certificação, com base no treinamento que o aluno faz. Dependendo do tipo de treinamento, um aluno vê a sequência de caracteres de acordo.
 
 ### Erros corrigidos nesta atualização
 
-* A descrição do aplicativo para dispositivos móveis Adobe Learning Manager da Play Store diz incorretamente que um aluno pode fazer um curso offline.
-* Ocorreram problemas ao migrar o conteúdo (module_version.csv e course_module.csv) do LinkedIn para o Adobe Learning Manager.
-* Se uma conta estiver em um estado inativo e tiver sido criada há mais de três anos, todos os usuários da conta serão excluídos do GDPR, independentemente do status dos usuários.
-* No Aplicativo do instrutor, quando você define o limite da lista de espera para zero em uma sessão e salva a sessão, a interface do usuário exibe incorretamente &quot;Não aplicável&quot; em vez de zero.
-* Ao gerar transcrições do aluno para o conector do Power BI, a coluna Duração do módulo ou treinamento (min) exibe valores nulos para determinados módulos de sala de aula ou de sala de aula virtual.
-* Depois de marcar um curso como concluído para alunos em uma ou várias instâncias, todos os alunos do curso são marcados como concluídos, não apenas os alunos na instância ou instâncias atuais.
+&#x200B;* A descrição do aplicativo para dispositivos móveis Adobe Learning Manager da Play Store diz incorretamente que um aluno pode fazer um curso offline.
+&#x200B;* Ocorreram problemas ao migrar o conteúdo (module_version.csv e course_module.csv) do LinkedIn para o Adobe Learning Manager.
+&#x200B;* Se uma conta estiver em um estado inativo e tiver sido criada há mais de três anos, todos os usuários da conta serão excluídos do GDPR, independentemente do status dos usuários.
+&#x200B;* No Aplicativo do instrutor, quando você define o limite da lista de espera para zero em uma sessão e salva a sessão, a interface do usuário exibe incorretamente &quot;Não aplicável&quot; em vez de zero.
+&#x200B;* Ao gerar transcrições do aluno para o conector do Power BI, a coluna Duração do módulo ou treinamento (min) exibe valores nulos para determinados módulos de sala de aula ou de sala de aula virtual.
+&#x200B;* Depois de marcar um curso como concluído para alunos em uma ou várias instâncias, todos os alunos do curso são marcados como concluídos, não apenas os alunos na instância ou instâncias atuais.
 +++
 
 +++Atualização 90
@@ -744,75 +800,75 @@ O novo aplicativo Adobe Learning Manager no Microsoft Teams foi desenvolvido par
 
 **Curso**
 
-* Um autor personalizado não pode visualizar um módulo quando o curso está no estado &quot;UNDER_CONSTRUCTION&quot;. A resposta mostra o Erro 404.
-* O título do curso na página do curso/adicionar de um aplicativo do autor excede quando o título do curso ultrapassa determinado limite de caracteres.
+&#x200B;* Um autor personalizado não pode visualizar um módulo quando o curso está no estado &quot;UNDER_CONSTRUCTION&quot;. A resposta mostra o Erro 404.
+&#x200B;* O título do curso na página do curso/adicionar de um aplicativo do autor excede quando o título do curso ultrapassa determinado limite de caracteres.
 
 **Autor**
 
-* No aplicativo Autor, o título do curso (se for longo) excede os limites da página ao criar um curso.
-* Às vezes, um curso é adicionado, mesmo que nenhum autor seja selecionado.
+&#x200B;* No aplicativo Autor, o título do curso (se for longo) excede os limites da página ao criar um curso.
+&#x200B;* Às vezes, um curso é adicionado, mesmo que nenhum autor seja selecionado.
 
 **Relatórios do painel**
 
-* As dicas de ferramenta são exibidas corretamente quando o idioma da interface é inglês, mas gera um erro de console quando o idioma da interface é diferente.
-* Renomeie “Obrigatório” para “Obrigatório” no painel do aluno.
+&#x200B;* As dicas de ferramenta são exibidas corretamente quando o idioma da interface é inglês, mas gera um erro de console quando o idioma da interface é diferente.
+&#x200B;* Renomeie “Obrigatório” para “Obrigatório” no painel do aluno.
 
 **Aplicativo do professor**
 
-* O formato de hora no aplicativo do professor não é consistente com os outros aplicativos.
+&#x200B;* O formato de hora no aplicativo do professor não é consistente com os outros aplicativos.
 
 **Redes sociais**
 
-* Para certos tipos de postagens, após a postagem, o painel social não abre como esperado.
+&#x200B;* Para certos tipos de postagens, após a postagem, o painel social não abre como esperado.
 
 **Admin**
 
-* Um usuário com uma função personalizada não pode baixar recursos ao visualizar um curso.
+&#x200B;* Um usuário com uma função personalizada não pode baixar recursos ao visualizar um curso.
 
 **Modelos de e-mail**
 
-* Quando um aluno cancela a inscrição em um programa de aprendizado que contém um curso de sala de aula/sala de aula virtual, ele não recebe nenhum e-mail de cancelamento.
+&#x200B;* Quando um aluno cancela a inscrição em um programa de aprendizado que contém um curso de sala de aula/sala de aula virtual, ele não recebe nenhum e-mail de cancelamento.
 
 **Ajudas de tarefa**
 
-* Não é possível ver o nome do curso no widget Ajuda de tarefa.
+&#x200B;* Não é possível ver o nome do curso no widget Ajuda de tarefa.
 
 **Publicação**
 
-* A descrição do módulo adicionada no Adobe Captivate não fica visível no Learning Manager quando o módulo é publicado no ALM.
+&#x200B;* A descrição do módulo adicionada no Adobe Captivate não fica visível no Learning Manager quando o módulo é publicado no ALM.
 
 **Campos ativos**
 
-* Quando um CSV com um grande número de registros está em processo, leva um tempo significativo, durante o qual, se um usuário fizer logon e inserir um valor para um dos atributos, ele poderá criar um novo grupo de usuários que poderá resultar em erros de CSV. Para corrigir isso, quando a importação de CSV estiver em andamento, a mensagem pop-up do atributo Campos ativos será desativada e reativada assim que o upload do CSV for concluído.
-* Se a coluna no arquivo csv de Usuários tiver o mesmo nome do campo ativo de usuários externos, o carregamento do csv falhará.
+&#x200B;* Quando um CSV com um grande número de registros está em processo, leva um tempo significativo, durante o qual, se um usuário fizer logon e inserir um valor para um dos atributos, ele poderá criar um novo grupo de usuários que poderá resultar em erros de CSV. Para corrigir isso, quando a importação de CSV estiver em andamento, a mensagem pop-up do atributo Campos ativos será desativada e reativada assim que o upload do CSV for concluído.
+&#x200B;* Se a coluna no arquivo csv de Usuários tiver o mesmo nome do campo ativo de usuários externos, o carregamento do csv falhará.
 
 **Correções relacionadas à API**
 
-* Na resposta learningObjects, o atributo bookmark está ausente.
-* Uma entrada de acesso é criada ao gerar tokens de atualização oauth para usuários excluídos.
-* A API do LO retorna o formato lo incorreto, pois os módulos de pré-trabalho foram considerados para calcular o tipo de curso junto com o conteúdo principal.
+&#x200B;* Na resposta learningObjects, o atributo bookmark está ausente.
+&#x200B;* Uma entrada de acesso é criada ao gerar tokens de atualização oauth para usuários excluídos.
+&#x200B;* A API do LO retorna o formato lo incorreto, pois os módulos de pré-trabalho foram considerados para calcular o tipo de curso junto com o conteúdo principal.
 
 **Problemas conhecidos nesta atualização**
 
-* O botão Compartilhar no catálogo do aluno não funciona conforme o esperado no navegador safari e no aplicativo MS Teams para dispositivos móveis e iPad.
-* As notificações não são exibidas na guia Atividade depois que o aplicativo é removido em outros computadores.
-Nada acontece ao clicar nas notificações na guia Atividade do aplicativo no iPhone 14.
-* No aplicativo MS Teams, as notificações do Learning Manager (conclusão, inscrição, prazo e encerramento) não exibem o status e o nome do curso na guia Atividade.
-* Um pop-up com conteúdo XML é exibida quando o administrador de integração não aprova o aplicativo MS Teams.
-* O idioma da interface do usuário no aplicativo Adobe Learning Manager no MS Teams às vezes não muda conforme esperado quando o idioma é alterado.
-* Não é possível interagir com a primeira notificação quando o foco está no Iframe (Guias Início e Catálogo).
+&#x200B;* O botão Compartilhar no catálogo do aluno não funciona conforme o esperado no navegador safari e no aplicativo MS Teams para dispositivos móveis e iPad.
+&#x200B;* As notificações não são exibidas na guia Atividade depois que o aplicativo é removido em outros computadores.
+Nada acontece quando você clica nas notificações na guia Atividade do aplicativo no iPhone 14.
+&#x200B;* No aplicativo MS Teams, as notificações do Learning Manager (conclusão, inscrição, prazo e encerramento) não exibem o status e o nome do curso na guia Atividade.
+&#x200B;* Um pop-up com conteúdo XML é exibida quando o administrador de integração não aprova o aplicativo MS Teams.
+&#x200B;* O idioma da interface do usuário no aplicativo Adobe Learning Manager no MS Teams às vezes não muda conforme esperado quando o idioma é alterado.
+&#x200B;* Não é possível interagir com a primeira notificação quando o foco está no Iframe (Guias Início e Catálogo).
 
 **Limitações do aplicativo Adobe Learning Manager para dispositivos móveis**
 
-* Exibição de conteúdo offline.
-* Exibição em grade/lista na página Catálogo/Meu aprendizado.
-* Várias tentativas de fazer um curso.
-* Prazo final para inscrição em um cartão do curso.
-* Em dispositivos iOS, as notificações por push não aparecem quando o aplicativo está em primeiro plano.
-* Links profundos em notificações push não são redirecionados para a página de aterrissagem desejada.
-* Clicar no botão Registrar interesse redirecionará para a Web.
-* Ao responder ou comentar no Aprendizado Social, você não poderá anexar um arquivo.
-* Você não poderá fazer logon no LinkedIn Learning.
+&#x200B;* Exibição de conteúdo offline.
+&#x200B;* Exibição em grade/lista na página Catálogo/Meu aprendizado.
+&#x200B;* Várias tentativas de fazer um curso.
+&#x200B;* Prazo final para inscrição em um cartão do curso.
+&#x200B;* Em dispositivos iOS, as notificações por push não aparecem quando o aplicativo está em primeiro plano.
+&#x200B;* Links profundos em notificações push não são redirecionados para a página de aterrissagem desejada.
+&#x200B;* Clicar no botão Registrar interesse redirecionará para a Web.
+&#x200B;* Ao responder ou comentar no Aprendizado Social, você não poderá anexar um arquivo.
+&#x200B;* Você não poderá fazer logon no LinkedIn Learning.
 +++
 
 +++Atualização 88
@@ -821,7 +877,7 @@ Nada acontece ao clicar nas notificações na guia Atividade do aplicativo no iP
 
 ### Melhorias De Desempenho Nesta Versão
 
-Quando uma inscrição em massa dos alunos é executada, não haverá nenhum arquivo de log gerado para cada aluno.
+Quando uma inscrição em massa de alunos é executada, não haverá nenhum arquivo de registro gerado para cada aluno.
 Otimizamos o processamento de planos de aprendizado para contas grandes. Isso evita quaisquer problemas ou lentidão na pesquisa.
 +++
 
@@ -831,8 +887,8 @@ Otimizamos o processamento de planos de aprendizado para contas grandes. Isso ev
 
 ## Erros Corrigidos Nesta Atualização
 
-* Um aluno não recebia o e-mail de cancelamento de sessão se o módulo CR/VC fosse removido do curso inscrito.
-* Altere GetNotificationData de GET para POST. A implementação original produziu o erro, **IllegalArgumentException: o cabeçalho da solicitação é muito grande**, que levou a notificações com falha.
+&#x200B;* Um aluno não recebia o e-mail de cancelamento de sessão se o módulo CR/VC fosse removido do curso inscrito.
+&#x200B;* Altere GetNotificationData de GET para POST. A implementação original produziu o erro, **IllegalArgumentException: o cabeçalho da solicitação é muito grande**, que levou a notificações com falha.
 +++
 
 +++Atualização: 86
@@ -855,7 +911,7 @@ Adição de suporte para código de idioma de quatro letras ao filtrar idiomas e
 ### Erros Corrigidos Nesta Atualização
 
 Para algumas localidades, a pesquisa retorna resultados incorretos.
-Os metadados do curso são substituídos quando o curso tem mais de uma variante do mesmo local.
+Os metadados do curso são substituídos quando o curso tem mais de uma variante da mesma localidade.
 +++
 
 +++Atualização 84
@@ -886,19 +942,19 @@ Para alguns modelos de e-mail, agora você pode adicionar um pré-requisito ao m
 
 **Outras alterações**
 
-* Você pode adicionar um curso aprovado pelo gerente como pré-requisito.
-* Melhoria de desempenho ao atualizar o painel de resumo do aprendizado.
-* As IDs de e-mail e de conta são verificadas antes do envio de um relatório de rejeição.
+&#x200B;* Você pode adicionar um curso aprovado pelo gerente como pré-requisito.
+&#x200B;* Melhoria de desempenho ao atualizar o painel de resumo do aprendizado.
+&#x200B;* As IDs de e-mail e de conta são verificadas antes do envio de um relatório de rejeição.
 
 ### ERROS CORRIGIDOS NESTA ATUALIZAÇÃO
 
-* Nomes de autor duplicados aparecem na página de visão geral do curso.
-* Um hiperlink na página de criação da conta levou ao Erro 404.
-* A localidade tcheca não refletia conforme o esperado nas configurações do reprodutor.
-* Em alguns casos, as habilidades são exibidas como indefinidas para alunos em andamento e não iniciados.
-* O tempo gasto em vários dias mostra o tempo diferente gasto na transcrição do aluno e nos relatórios de inscrição.
-* O botão Voltar não responde para os perfis de administrador e gerente no curso > Pontuação do quiz L2 > guia Por pergunta e Presença e pontuação, respectivamente.
-* Em alguns locais, em um modelo de email, parte do conteúdo no corpo do email está ausente e a tradução do idioma no modelo não é consistente.
+&#x200B;* Nomes de autor duplicados aparecem na página de visão geral do curso.
+&#x200B;* Um hiperlink na página de criação da conta levou ao Erro 404.
+&#x200B;* A localidade tcheca não refletia conforme o esperado nas configurações do reprodutor.
+&#x200B;* Em alguns casos, as habilidades são exibidas como indefinidas para alunos em andamento e não iniciados.
+&#x200B;* O tempo gasto em vários dias mostra o tempo diferente gasto na transcrição do aluno e nos relatórios de inscrição.
+&#x200B;* O botão Voltar não responde para os perfis de administrador e gerente no curso > Pontuação do quiz L2 > guia Por pergunta e Presença e pontuação, respectivamente.
+&#x200B;* Em alguns locais, em um modelo de email, parte do conteúdo no corpo do email está ausente e a tradução do idioma no modelo não é consistente.
 +++
 
 +++Atualização 83
@@ -917,43 +973,43 @@ Para o conector do LinkedIn Learning, há uma nova caixa de seleção apresentad
 
 ### Erros Corrigidos Nesta Atualização
 
-* Ao passar o mouse sobre os gráficos de barras, a dica de ferramenta do relatório do painel aparece conforme esperado.
-* Em Relatórios na atividade do usuário, o relatório Tempo gasto no aprendizado exibe dados incorretos para dados diários/mensais.
-* Em alguns casos, o gráfico de pontuação do questionário exibe valores incorretos.
-* Em um curso com conteúdo SCORM com várias tentativas definidas, quando um aluno tenta o curso, o botão Rever é desativado.
-* Em alguns casos, após inscrever um aluno em um curso e baixar um registro de auditoria de e-mail, o e-mail é entregue, mas não aparece no registro.
-* O convite do calendário para um professor deve incluir o professor de texto no assunto.
-* O ícone do cartão de treinamento não reflete na recomendação de cursos relacionados e nos cartões do plano de aprendizado presentes na página de visão geral do curso.
-* Nas configurações da página inicial do aluno, adicione uma seção Salvo por mim.
-* Para determinadas contas, um usuário é solicitado a fazer logon SSO para uma conta em que a ID Adobe é necessária.
-* Em fusos horários com horário de verão, o campo &#39;start_time&#39; é calculado com base na diferença de hora atual, não com base na diferença de hora na data e hora de início reais. Isso causou convites com horários incorretos.
-* Sempre que uma certificação se repete, uma cópia dos cursos subjacentes é criada internamente no banco de dados. Esses cursos então aparecem em busca, ao contrário do comportamento esperado.
-* Quando o upload de um CSV falha, você não recebe nenhuma notificação por e-mail.
-* Se os nomes dos campos ativos forem longos, eles desaparecem quando arrastados e soltos. Depois disso, o botão Salvar também não funciona conforme o esperado.
-* Um relatório de sessão não é exportado por meio da página de participação e pontuação de um curso se o primeiro usuário no relatório tiver um registro na tabela de níveis de atividade com o comentário como nulo.
-* Ao usar a conta de administrador para recuperar as medalhas, você pode classificar a lista conforme esperado. Mas quando você executa o mesmo para um aluno, os resultados não são classificados.
-* Se você escolher um curso nos resultados da pesquisa e tentar voltar aos resultados usando o botão Voltar, os resultados da pesquisa desaparecem.
-* Nem todos os usuários são adicionados a um grupo de usuários como professores em uma sessão.
-* Modelos que contêm vários modelos de usuário, seu assunto é substituído por alguns valores.
+&#x200B;* Ao passar o mouse sobre os gráficos de barras, a dica de ferramenta do relatório do painel aparece conforme esperado.
+&#x200B;* Em Relatórios na atividade do usuário, o relatório Tempo gasto no aprendizado exibe dados incorretos para dados diários/mensais.
+&#x200B;* Em alguns casos, o gráfico de pontuação do questionário exibe valores incorretos.
+&#x200B;* Em um curso com conteúdo SCORM com várias tentativas definidas, quando um aluno tenta o curso, o botão Rever é desativado.
+&#x200B;* Em alguns casos, após inscrever um aluno em um curso e baixar um registro de auditoria de e-mail, o e-mail é entregue, mas não aparece no registro.
+&#x200B;* O convite do calendário para um professor deve incluir o professor de texto no assunto.
+&#x200B;* O ícone do cartão de treinamento não reflete na recomendação de cursos relacionados e nos cartões do plano de aprendizado presentes na página de visão geral do curso.
+&#x200B;* Nas configurações da página inicial do aluno, adicione uma seção Salvo por mim.
+&#x200B;* Para determinadas contas, um usuário é solicitado a fazer logon SSO para uma conta em que a ID Adobe é necessária.
+&#x200B;* Em fusos horários com horário de verão, o campo &#39;start_time&#39; é calculado com base na diferença de hora atual, não com base na diferença de hora na data e hora de início reais. Isso causou convites com horários incorretos.
+&#x200B;* Sempre que uma certificação se repete, uma cópia dos cursos subjacentes é criada internamente no banco de dados. Esses cursos então aparecem em busca, ao contrário do comportamento esperado.
+&#x200B;* Quando o upload de um CSV falha, você não recebe nenhuma notificação por e-mail.
+&#x200B;* Se os nomes dos campos ativos forem longos, eles desaparecem quando arrastados e soltos. Depois disso, o botão Salvar também não funciona conforme o esperado.
+&#x200B;* Um relatório de sessão não é exportado por meio da página de participação e pontuação de um curso se o primeiro usuário no relatório tiver um registro na tabela de níveis de atividade com o comentário como nulo.
+&#x200B;* Ao usar a conta de administrador para recuperar as medalhas, você pode classificar a lista conforme esperado. Mas quando você executa o mesmo para um aluno, os resultados não são classificados.
+&#x200B;* Se você escolher um curso nos resultados da pesquisa e tentar voltar aos resultados usando o botão Voltar, os resultados da pesquisa desaparecem.
+&#x200B;* Nem todos os usuários são adicionados a um grupo de usuários como professores em uma sessão.
+&#x200B;* Modelos que contêm vários modelos de usuário, seu assunto é substituído por alguns valores.
 +++
 
 +++Atualização 82
 
 **Data de lançamento:** 15 de dezembro de 2022
 
-* A API do GET agora inclui informações de preços, se disponíveis.
-* Uma nova coluna, Concluído por, é adicionada aos relatórios LT. Isso ajuda o administrador a identificar a fonte de conclusão de um LO.
-* Adicionamos um novo módulo ILT que pode gravar o status de aprovação/reprovação do aluno junto com a participação. Os professores agora podem marcar um aluno como participou com aprovação ou participou com reprovação.
-* Um administrador agora pode exigir que os alunos concluam e sejam aprovados antes de consumir o próximo módulo/curso. Isso se aplica a pré-requisitos, cursos solicitados e LPs.
+&#x200B;* A API do GET agora inclui informações de preços, se disponíveis.
+&#x200B;* Uma nova coluna, Concluído por, é adicionada aos relatórios LT. Isso ajuda o administrador a identificar a fonte de conclusão de um LO.
+&#x200B;* Adicionamos um novo módulo ILT que pode gravar o status de aprovação/reprovação do aluno junto com a participação. Os professores agora podem marcar um aluno como participou com aprovação ou participou com reprovação.
+&#x200B;* Um administrador agora pode exigir que os alunos concluam e sejam aprovados antes de consumir o próximo módulo/curso. Isso se aplica a pré-requisitos, cursos solicitados e LPs.
 
 **Correções de erros**
 
-* Problemas do idioma Bahasa de experiência móvel imersiva na barra lateral e rodapé.
-* Correções da exibição imersiva relacionadas à visualização do módulo.
-* Uma pesquisa do curso em administrador e autor retorna resultados em um local diferente do local digitado.
-* As alterações nos modelos de e-mail de boas-vindas não foram salvas após a edição.
-* Os usuários com IDs de e-mail e Adobe IDs diferentes não conseguiam fazer logon no aplicativo móvel.
-* Os usuários foram identificados incorretamente ao ingressar nas sessões de aula virtual do Zoom/BJ.
+&#x200B;* Problemas do idioma Bahasa de experiência móvel imersiva na barra lateral e rodapé.
+&#x200B;* Correções da exibição imersiva relacionadas à visualização do módulo.
+&#x200B;* Uma pesquisa do curso em administrador e autor retorna resultados em um local diferente do local digitado.
+&#x200B;* As alterações nos modelos de e-mail de boas-vindas não foram salvas após a edição.
+&#x200B;* Os usuários com IDs de e-mail e Adobe IDs diferentes não conseguiam fazer logon no aplicativo móvel.
+&#x200B;* Os usuários foram identificados incorretamente ao ingressar nas sessões de aula virtual do Zoom/BJ.
 +++
 
 +++Atualização 81 - Versão de novembro de 2022 do Adobe Learning Manager
@@ -966,65 +1022,65 @@ Para o conector do LinkedIn Learning, há uma nova caixa de seleção apresentad
 
 A versão de novembro de 2022 do Adobe Learning Manager consiste no seguinte:
 
-* Configuração de SSO múltiplo
-* Suporte ao recurso não conectado
-* Melhorias na página de visão geral do treinamento
-* Personalização do reprodutor
-* Representação do aluno e do gerente
+&#x200B;* Configuração de SSO múltiplo
+&#x200B;* Suporte ao recurso não conectado
+&#x200B;* Melhorias na página de visão geral do treinamento
+&#x200B;* Personalização do reprodutor
+&#x200B;* Representação do aluno e do gerente
 
 **Observação:** com a versão de novembro de 2022 do Adobe Learning Manager, o Zoom descontinuará a autenticação [JWT até junho de 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Da mesma forma, o conector do Zoom com JWT continuará funcionando até a data mencionada, mas recomendamos que os usuários criem um aplicativo OAuth de servidor para servidor para substituir a funcionalidade na conta dele. Toda nova conexão terá a autenticação OAuth do Zoom por padrão.
 
 ### Erros corrigidos nesta atualização
 
-* Como aluno, quando você tenta acessar um programa de aprendizado com mais de 10 cursos no dispositivo móvel, uma mensagem de erro é exibida.
-* Se um curso definiu um lembrete para ser enviado n dias após o fim do prazo, o e-mail está sendo enviado após n dias, conforme esperado, mas o número de dias em que o prazo foi perdido é n-1 em vez de n.
-* Um vídeo não é carregado no reprodutor se o feedback L1 estiver ativado para o curso no aplicativo do aluno e o usuário tiver apenas uma função de aluno.
-* Um e-mail de lembrete de conclusão não exibe a hora no fuso horário do usuário conforme esperado.
-* As transcrições do aluno geradas por relatórios do painel não obedecem os filtros e exibem mais informações do que o necessário.
-* Não é possível selecionar conteúdo no qual o idioma da interface não é adicionado como idioma do conteúdo.
-* Ao se registrar automaticamente em um curso pela segunda vez, o URL exibido estava incorreto.
-* Quando um professor é removido de uma sessão de sala de aula virtual, ele não recebe nenhum e-mail notificando-o do cancelamento da sessão.
-* O texto “minuto” em um bloco na página de treinamento do aluno não é traduzido para o indonésio bahasa como esperado.
-* O painel Conformidade exibe dados incorretos para alunos que não estão em conformidade.
-* Ao adicionar um relatório, não é possível selecionar cursos ou catálogos nos quais o idioma da interface não foi adicionado ao idioma do conteúdo.
-* Adicionamos os seguintes idiomas de conteúdo nesta versão:
-  * Búlgaro
-  * Flamengo
-  * Português (Brasil)
+&#x200B;* Como aluno, quando você tenta acessar um programa de aprendizado com mais de 10 cursos no dispositivo móvel, uma mensagem de erro é exibida.
+&#x200B;* Se um curso definiu um lembrete para ser enviado n dias após o fim do prazo, o e-mail está sendo enviado após n dias, conforme esperado, mas o número de dias em que o prazo foi perdido é n-1 em vez de n.
+&#x200B;* Um vídeo não é carregado no reprodutor se o feedback L1 estiver ativado para o curso no aplicativo do aluno e o usuário tiver apenas uma função de aluno.
+&#x200B;* Um e-mail de lembrete de conclusão não exibe a hora no fuso horário do usuário conforme esperado.
+&#x200B;* As transcrições do aluno geradas por relatórios do painel não obedecem os filtros e exibem mais informações do que o necessário.
+&#x200B;* Não é possível selecionar conteúdo no qual o idioma da interface não é adicionado como idioma do conteúdo.
+&#x200B;* Ao se registrar automaticamente em um curso pela segunda vez, o URL exibido estava incorreto.
+&#x200B;* Quando um professor é removido de uma sessão de sala de aula virtual, ele não recebe nenhum e-mail notificando-o do cancelamento da sessão.
+&#x200B;* O texto “minuto” em um bloco na página de treinamento do aluno não é traduzido para o indonésio bahasa como esperado.
+&#x200B;* O painel Conformidade exibe dados incorretos para alunos que não estão em conformidade.
+&#x200B;* Ao adicionar um relatório, não é possível selecionar cursos ou catálogos nos quais o idioma da interface não foi adicionado ao idioma do conteúdo.
+&#x200B;* Adicionamos os seguintes idiomas de conteúdo nesta versão:
+  &#x200B;* Búlgaro
+  &#x200B;* Flamengo
+  &#x200B;* Português (Brasil)
 
 ### Problemas conhecidos desta atualização
 
-* Em alguns casos, o gráfico de pontuação do questionário não é exibido conforme esperado. Ao redimensionar o gráfico, um espaço em branco é exibido no início. Além disso, nem todas as perguntas são exibidas e os dados incorretos são exibidos intermitentemente.
+&#x200B;* Em alguns casos, o gráfico de pontuação do questionário não é exibido conforme esperado. Ao redimensionar o gráfico, um espaço em branco é exibido no início. Além disso, nem todas as perguntas são exibidas e os dados incorretos são exibidos intermitentemente.
 +++
 
 +++Atualização 80
 
 **Data de lançamento:** 20 de setembro de 2022
 
-* Os problemas de logon no aplicativo móvel no iOS foram corrigidos.
-* Corrigido um problema com e-mails rejeitados.
-* Os professores eram notificados incorretamente mesmo antes de os envios terem sido feitos pelos alunos.
-* Um professor recebe uma notificação por e-mail mesmo que um aluno não tenha enviado uma atividade.
-* Depois de criar uma sessão de aula virtual no MS Teams ou no Adobe Connect, os professores não recebem os convites de sessão.
-* Status incorreto em um Caminho de Aprendizado.
-* Desempenho aprimorado do aplicativo.
+&#x200B;* Os problemas de logon no aplicativo móvel no iOS foram corrigidos.
+&#x200B;* Corrigido um problema com e-mails rejeitados.
+&#x200B;* Os professores eram notificados incorretamente mesmo antes de os envios terem sido feitos pelos alunos.
+&#x200B;* Um professor recebe uma notificação por e-mail mesmo que um aluno não tenha enviado uma atividade.
+&#x200B;* Depois de criar uma sessão de aula virtual no MS Teams ou no Adobe Connect, os professores não recebem os convites de sessão.
+&#x200B;* Status incorreto em um Caminho de Aprendizado.
+&#x200B;* Desempenho aprimorado do aplicativo.
 +++
 
 +++Atualização 79
 
 **Data de lançamento:** 18 de agosto de 2022
 
-* A confirmação de convite do calendário para sessões ILT/VILT agora funciona com o calendário do Google.
-* Um gerenciador de loja agora pode ver notificações para usuários abaixo deles, mesmo se eles forem removidos como um gerenciador de pessoas.
-* Em alguns casos, a inscrição no curso falha e exibe o Erro 500.
-* Em alguns casos, não é possível modificar uma instância virtual do curso para Equipes.
-* Os administradores e professores podem adicionar comentários para usuários que não participaram de sessões ILT/VILT.
-* Melhorias no desempenho ao baixar relatórios de tamanho grande.
-* Quando o e-mail de um usuário é rejeitado, o administrador recebe uma notificação por e-mail. O e-mail contém um link que, quando clicado, baixa um CSV com a lista de usuários cujos e-mails foram rejeitados. O administrador pode tomar as medidas necessárias.
-  * O e-mail é acionado quando um e-mail retorna ou é rejeitado.
-  * O e-mail é acionado uma vez por dia para todos os administradores adicionados à lista.
-  * O link expira em sete dias.
-* Uma mensagem de erro é exibida ao tentar integrar uma conta do Adobe Connect já integrada a outra conta do Learning Manager.
+&#x200B;* A confirmação de convite do calendário para sessões ILT/VILT agora funciona com o calendário do Google.
+&#x200B;* Um gerenciador de loja agora pode ver notificações para usuários abaixo deles, mesmo se eles forem removidos como um gerenciador de pessoas.
+&#x200B;* Em alguns casos, a inscrição no curso falha e exibe o Erro 500.
+&#x200B;* Em alguns casos, não é possível modificar uma instância virtual do curso para Equipes.
+&#x200B;* Os administradores e professores podem adicionar comentários para usuários que não participaram de sessões ILT/VILT.
+&#x200B;* Melhorias no desempenho ao baixar relatórios de tamanho grande.
+&#x200B;* Quando o e-mail de um usuário é rejeitado, o administrador recebe uma notificação por e-mail. O e-mail contém um link que, quando clicado, baixa um CSV com a lista de usuários cujos e-mails foram rejeitados. O administrador pode tomar as medidas necessárias.
+  &#x200B;* O e-mail é acionado quando um e-mail retorna ou é rejeitado.
+  &#x200B;* O e-mail é acionado uma vez por dia para todos os administradores adicionados à lista.
+  &#x200B;* O link expira em sete dias.
+&#x200B;* Uma mensagem de erro é exibida ao tentar integrar uma conta do Adobe Connect já integrada a outra conta do Learning Manager.
 +++
 
 +++Atualização 78
@@ -1033,11 +1089,11 @@ A versão de novembro de 2022 do Adobe Learning Manager consiste no seguinte:
 
 ### Erros corrigidos nesta atualização
 
-* Se você tiver um curso que contém um módulo com uma visualização e usar uma API para recuperar os recursos do curso, a resposta não conterá nenhum dado de location, contentZipUrl e contentStructureInfoUrl.
-* Resposta incorreta após enviar uma solicitação XAPI do documento Swagger, onde o nome do domínio é learningmanager.
-* Na resposta da API /boards/{id}/posts, a propriedade “post.attributes.myPoll” aparece como um objeto vazio.
-* Em alguns casos, para um usuário não conectado, o botão Adicionar ao carrinho é desativado para alguns cursos ou planos de aprendizado.
-* URL de subdomínio incorreto na página de identidade visual.
+&#x200B;* Se você tiver um curso que contém um módulo com uma visualização e usar uma API para recuperar os recursos do curso, a resposta não conterá nenhum dado de location, contentZipUrl e contentStructureInfoUrl.
+&#x200B;* Resposta incorreta após enviar uma solicitação XAPI do documento Swagger, onde o nome do domínio é learningmanager.
+&#x200B;* Na resposta da API /boards/{id}/posts, a propriedade “post.attributes.myPoll” aparece como um objeto vazio.
+&#x200B;* Em alguns casos, para um usuário não conectado, o botão Adicionar ao carrinho é desativado para alguns cursos ou planos de aprendizado.
+&#x200B;* URL de subdomínio incorreto na página de identidade visual.
 +++
 
 +++Atualização 77
@@ -1046,10 +1102,10 @@ A versão de novembro de 2022 do Adobe Learning Manager consiste no seguinte:
 
 **Problemas corrigidos nesta atualização:**
 
-* Os novos cursos não respeitam a sequência no aplicativo Salesforce. Se você alterar a sequência, o curso não será exibido na sequência desejada.
-* Depois de modificar as configurações na página inicial clássica e salvá-las, as alterações não são salvas conforme esperado. Isso acontece intermitentemente.
-* O código HTML é exibido quando os alunos verificam suas notificações, o que afeta negativamente a experiência.
-* No painel, o tempo gasto no aprendizado é exibido incorretamente como zero horas.
+&#x200B;* Os novos cursos não respeitam a sequência no aplicativo Salesforce. Se você alterar a sequência, o curso não será exibido na sequência desejada.
+&#x200B;* Depois de modificar as configurações na página inicial clássica e salvá-las, as alterações não são salvas conforme esperado. Isso acontece intermitentemente.
+&#x200B;* O código HTML é exibido quando os alunos verificam suas notificações, o que afeta negativamente a experiência.
+&#x200B;* No painel, o tempo gasto no aprendizado é exibido incorretamente como zero horas.
 
 ## ATUALIZAÇÃO: O Adobe Learning Manager será renomeado para Adobe Learning Manager
 
@@ -1072,20 +1128,20 @@ Para concluir esta ação, contate o departamento de TI da sua organização. Pa
 
 **Data de lançamento:** 20 de abril de 2022
 
-* Correções nas terminologias do produto em alguns relatórios do painel.
-* Uma barra dupla (&quot;//&quot;) no URL de um ponto de extremidade resultou em erros de validação.
-* Após atualizar uma página, a porcentagem de conclusão e os últimos campos visitados exibiram informações incorretas.
-* Fizemos algumas alterações em como o valor Certificado ou um plano de aprendizado é calculado.
-* Um administrador personalizado podia adicionar todos os usuários como professores, mesmo que tivesse permissão para adicionar apenas um usuário.
-* Em um PDF de medalha, uma data de conclusão incorreta era exibida.
+&#x200B;* Correções nas terminologias do produto em alguns relatórios do painel.
+&#x200B;* Uma barra dupla (&quot;//&quot;) no URL de um ponto de extremidade resultou em erros de validação.
+&#x200B;* Após atualizar uma página, a porcentagem de conclusão e os últimos campos visitados exibiram informações incorretas.
+&#x200B;* Fizemos algumas alterações em como o valor Certificado ou um plano de aprendizado é calculado.
+&#x200B;* Um administrador personalizado podia adicionar todos os usuários como professores, mesmo que tivesse permissão para adicionar apenas um usuário.
+&#x200B;* Em um PDF de medalha, uma data de conclusão incorreta era exibida.
 +++
 
 +++Atualização 75
 
 **Data de lançamento:** 29 de março de 2022
 
-* Em algumas contas, após copiar o csv bruto no local do FTP, a importação do usuário não ocorre conforme o esperado e há várias notificações de erros.
-* Em versões anteriores do Learning Manager, para configurar um conector do Zoom, era necessário configurar primeiro o FTP do Exavault para copiar o arquivo csv. Nesta versão, o conector FTP não será mais usado para o arquivo csv e, portanto, você não precisa configurar primeiro o FTP.
+&#x200B;* Em algumas contas, após copiar o csv bruto no local do FTP, a importação do usuário não ocorre conforme o esperado e há várias notificações de erros.
+&#x200B;* Em versões anteriores do Learning Manager, para configurar um conector do Zoom, era necessário configurar primeiro o FTP do Exavault para copiar o arquivo csv. Nesta versão, o conector FTP não será mais usado para o arquivo csv e, portanto, você não precisa configurar primeiro o FTP.
 +++
 
 +++Atualização 74: Instância do Learning Manager AWS India
@@ -1100,10 +1156,10 @@ Uma [instância](https://learningmanagerapac.adobe.com/acapindex.html) do Learni
 
 A instância da Adobe Learning Manager India está ao mesmo nível de outras instâncias, como regiões da UE e dos EUA, em termos de recursos. Existem alguns recursos que não são suportados na instância da Índia. São eles:
 
-* Pagamento com cartão de crédito para compra de vagas
-* catálogo de conteúdo do Creative Cloud
-* Aplicativo Slack
-* **&#42;** Aguardando certificação para conformidade com SOC2
+&#x200B;* Pagamento com cartão de crédito para compra de vagas
+&#x200B;* catálogo de conteúdo do Creative Cloud
+&#x200B;* Aplicativo Slack
+&#x200B;* **&#42;** Aguardando certificação para conformidade com SOC2
 
 ### Perguntas frequentes
 
@@ -1111,10 +1167,10 @@ A instância da Adobe Learning Manager India está ao mesmo nível de outras ins
 
 Não há diferença. A instância em Mumbai é igual as instãncias [AWS EUA](http://learningmanager.adobe.com/) ou [AWS UE](http://learningmanagereu.adobe.com/). Essa instância é hospedada na Índia e todos os registros de aprendizado e dados do usuário permanecem nesse país. Os seguintes recursos não são suportados na instância da Índia:
 
-* Pagamento com cartão de crédito para compra de vagas
-* catálogo de conteúdo do Creative Cloud
-* Aplicativo Slack
-* **&#42;** Aguardando certificação para conformidade com SOC2
+&#x200B;* Pagamento com cartão de crédito para compra de vagas
+&#x200B;* catálogo de conteúdo do Creative Cloud
+&#x200B;* Aplicativo Slack
+&#x200B;* **&#42;** Aguardando certificação para conformidade com SOC2
 
 **Este ambiente estará em conformidade com o CCF (Common Controls Framework)?**
 
@@ -1125,7 +1181,7 @@ Sim A nova instância está em conformidade com o CCF (Common Controls Framework
 
 Data de lançamento: 05 de fevereiro de 2022
 
-* O suporte a modelos de e-mail já está disponível para idiomas de conteúdo, incluindo húngaro e finlandês.
+&#x200B;* O suporte a modelos de e-mail já está disponível para idiomas de conteúdo, incluindo húngaro e finlandês.
 +++
 
 +++Atualização 72 - Versão de janeiro de 2022 do Learning Manager
@@ -1134,11 +1190,11 @@ Data de lançamento: 15 de janeiro de 2022
 
 ### Novidades e alterações
 
-* Adicionar locais de sala de aula
-* Alterações de gamificação
-* Conector do Microsoft Teams
-* Alterações de API
-* Alterações na Web imersivas para dispositivos móveis
+&#x200B;* Adicionar locais de sala de aula
+&#x200B;* Alterações de gamificação
+&#x200B;* Conector do Microsoft Teams
+&#x200B;* Alterações de API
+&#x200B;* Alterações na Web imersivas para dispositivos móveis
 
 <!--
 For more information, see What's new in the [**January 2022 release of Adobe Learning Manager**](../whats-new.md).
@@ -1149,86 +1205,86 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **Biblioteca de conteúdo**
 
-* A pesquisa de arquivos de conteúdo em pastas de conteúdo privadas não estava funcionando para usuários com privilégios de função personalizados. Esse problema já foi corrigido.
+&#x200B;* A pesquisa de arquivos de conteúdo em pastas de conteúdo privadas não estava funcionando para usuários com privilégios de função personalizados. Esse problema já foi corrigido.
 
 **Cursos**
 
-* A exclusão de um curso ou de uma programação de aprendizado não era possível se eles tivessem uma associação histórica com um plano de aprendizado. Esse problema já foi corrigido. Agora, os usuários podem excluir um curso ou uma programação de aprendizado se não estiverem associados a um plano de aprendizado.
-* Ao visualizar um curso ou caminho de aprendizado, se o arquivo de recurso tiver um nome longo sem espaços, o nome do arquivo não será quebrado conforme esperado e transbordará para a próxima linha. Esse problema foi corrigido.
-* No caso da sala de aula virtual, anteriormente você podia criar um módulo sem selecionar qualquer sistema de conferência de sala de aula virtual por meio de uma nova instância; o URL da sala de aula virtual não tinha as informações necessárias. Isso agora é evitado por uma mensagem de erro no estágio de criação do módulo solicitando que você especifique o sistema de conferência de sala de aula virtual antes de salvar o módulo.
-* A página da lista de espera estava exibindo uma mensagem de banner incorreta nos usuários registrados, que foi removida agora.
-* No caso do cancelamento de inscrição em massa dos cursos, o pop-up para inserir IDs de e-mail não era exibido, o que foi corrigido.
-* A opção de enviar e-mail aos alunos na guia Participação e pontuação no aplicativo do administrador e professor não excluía os alunos desmarcados após a execução de todas as operações selecionadas. Portanto, o Learning Manager estava enviando um e-mail a todos os alunos. Agora esse problema foi corrigido.
-* O relatório de inscrição é exibido como “Não iniciado”, mesmo que um aluno já tenha concluído o curso.
+&#x200B;* A exclusão de um curso ou de uma programação de aprendizado não era possível se eles tivessem uma associação histórica com um plano de aprendizado. Esse problema já foi corrigido. Agora, os usuários podem excluir um curso ou uma programação de aprendizado se não estiverem associados a um plano de aprendizado.
+&#x200B;* Ao visualizar um curso ou caminho de aprendizado, se o arquivo de recurso tiver um nome longo sem espaços, o nome do arquivo não será quebrado conforme esperado e transbordará para a próxima linha. Esse problema foi corrigido.
+&#x200B;* No caso da sala de aula virtual, anteriormente você podia criar um módulo sem selecionar qualquer sistema de conferência de sala de aula virtual por meio de uma nova instância; o URL da sala de aula virtual não tinha as informações necessárias. Isso agora é evitado por uma mensagem de erro no estágio de criação do módulo solicitando que você especifique o sistema de conferência de sala de aula virtual antes de salvar o módulo.
+&#x200B;* A página da lista de espera estava exibindo uma mensagem de banner incorreta nos usuários registrados, que foi removida agora.
+&#x200B;* No caso do cancelamento de inscrição em massa dos cursos, o pop-up para inserir IDs de e-mail não era exibido, o que foi corrigido.
+&#x200B;* A opção de enviar e-mail aos alunos na guia Participação e pontuação no aplicativo do administrador e professor não excluía os alunos desmarcados após a execução de todas as operações selecionadas. Portanto, o Learning Manager estava enviando um e-mail a todos os alunos. Agora esse problema foi corrigido.
+&#x200B;* O relatório de inscrição é exibido como “Não iniciado”, mesmo que um aluno já tenha concluído o curso.
 
 **SSO**
 
-* Na configuração de SSO, se a ID da entidade tivesse espaços de treinamento ou de entrelinha, a configuração de logon não funcionava. Isso agora está sendo tratado como parte da correção.
+&#x200B;* Na configuração de SSO, se a ID da entidade tivesse espaços de treinamento ou de entrelinha, a configuração de logon não funcionava. Isso agora está sendo tratado como parte da correção.
 
 **Comunicados**
 
-* Como administrador, as datas de início e término de um comunicado não eram salvas se a interface e o idioma do conteúdo fossem definidos como Deutsch/Espanol. Agora esse problema foi corrigido.
+&#x200B;* Como administrador, as datas de início e término de um comunicado não eram salvas se a interface e o idioma do conteúdo fossem definidos como Deutsch/Espanol. Agora esse problema foi corrigido.
 
 **Modelo de e-mail**
 
-* Convites de sessão que se estendem por vários dias, nos quais os convites não refletem as informações corretas sobre os dias que são bloqueados em alguns clientes de e-mail. Esse problema já foi corrigido.
-* A variável “Nome do local” estava ausente no modelo de e-mail “Lembrete da próxima sessão” para alunos na localidade alemã. Isso já foi adicionado.
-* O link para criar a conta como parte do e-mail de boas-vindas para o usuário não estava considerando a localidade do usuário, o que foi corrigido.
+&#x200B;* Convites de sessão que se estendem por vários dias, nos quais os convites não refletem as informações corretas sobre os dias que são bloqueados em alguns clientes de e-mail. Esse problema já foi corrigido.
+&#x200B;* A variável “Nome do local” estava ausente no modelo de e-mail “Lembrete da próxima sessão” para alunos na localidade alemã. Isso já foi adicionado.
+&#x200B;* O link para criar a conta como parte do e-mail de boas-vindas para o usuário não estava considerando a localidade do usuário, o que foi corrigido.
 
 **Lembretes de email**
 
-* Se os alunos foram inscritos no treinamento por meio de um plano de aprendizado, os e-mails de lembrete de conclusão eram enviados várias vezes com base no número de edições feitas nas datas de conclusão do mesmo plano de aprendizado. Agora esse problema foi corrigido.
+&#x200B;* Se os alunos foram inscritos no treinamento por meio de um plano de aprendizado, os e-mails de lembrete de conclusão eram enviados várias vezes com base no número de edições feitas nas datas de conclusão do mesmo plano de aprendizado. Agora esse problema foi corrigido.
 
 **Usuário**
 
-* A mensagem mostrada ao usuário quando sua conta está inativa/suspensa foi aprimorada, indicando que ele deve entrar em contato com o administrador para que suas contas sejam habilitadas novamente.
+&#x200B;* A mensagem mostrada ao usuário quando sua conta está inativa/suspensa foi aprimorada, indicando que ele deve entrar em contato com o administrador para que suas contas sejam habilitadas novamente.
 
 **Atividade**
 
-* Um professor não podia ver os envios do aluno se o nome do arquivo de envio tivesse um caractere especial. Esse problema já foi corrigido.
+&#x200B;* Um professor não podia ver os envios do aluno se o nome do arquivo de envio tivesse um caractere especial. Esse problema já foi corrigido.
 
 **Denunciar**
 
-* Um administrador não conseguia baixar o relatório de inscrição do curso se ele contivesse um aluno que estava inscrito indiretamente neste curso por meio de uma programação de aprendizado flexível, mas ainda não tinha escolhido uma instância para este curso no caminho de aprendizado. Agora esse problema foi corrigido.
-* Reorganizar relatórios no painel de relatórios para funções de administrador e gerente não estava preservando o estado da ordem de relatórios. Agora esse problema foi corrigido.
+&#x200B;* Um administrador não conseguia baixar o relatório de inscrição do curso se ele contivesse um aluno que estava inscrito indiretamente neste curso por meio de uma programação de aprendizado flexível, mas ainda não tinha escolhido uma instância para este curso no caminho de aprendizado. Agora esse problema foi corrigido.
+&#x200B;* Reorganizar relatórios no painel de relatórios para funções de administrador e gerente não estava preservando o estado da ordem de relatórios. Agora esse problema foi corrigido.
 
 **Conteúdo**
 
-* O conteúdo de áudio no treinamento não era reproduzido automaticamente na visualização como modo de aluno devido às políticas de reprodução automática do navegador. Agora isso foi corrigido para navegadores compatíveis, exceto o Safari.
+&#x200B;* O conteúdo de áudio no treinamento não era reproduzido automaticamente na visualização como modo de aluno devido às políticas de reprodução automática do navegador. Agora isso foi corrigido para navegadores compatíveis, exceto o Safari.
 
 **Gamificação**
 
-* Se um aluno externo foi convertido como aluno interno na mesma conta, ele não conseguia acessar o quadro de classificação de gamificação no aplicativo do aluno. Agora esse problema foi corrigido.
+&#x200B;* Se um aluno externo foi convertido como aluno interno na mesma conta, ele não conseguia acessar o quadro de classificação de gamificação no aplicativo do aluno. Agora esse problema foi corrigido.
 
 **Player**
 
-* O reprodutor não mostrava uma mensagem de aviso quando o usuário tentava pular módulos em um curso ordenado com o tipo AICC de módulos. Esse problema já foi corrigido.
-* Para certos cursos adquiridos com módulos de vídeo em caso de LMS sem periféricos, a reprodução não funcionava para certos usuários. Esse problema já foi corrigido.
+&#x200B;* O reprodutor não mostrava uma mensagem de aviso quando o usuário tentava pular módulos em um curso ordenado com o tipo AICC de módulos. Esse problema já foi corrigido.
+&#x200B;* Para certos cursos adquiridos com módulos de vídeo em caso de LMS sem periféricos, a reprodução não funcionava para certos usuários. Esse problema já foi corrigido.
 
 **Painel do gerente**
 
-* Um gerente não podia exportar o relatório para sua equipe direta da página de habilidades da equipe do Painel do Gerente. Agora esse problema foi corrigido.
+&#x200B;* Um gerente não podia exportar o relatório para sua equipe direta da página de habilidades da equipe do Painel do Gerente. Agora esse problema foi corrigido.
 
 **Publish**
 
-* Na instância europeia do conteúdo do Learning Manager que foi publicado diretamente no Adobe Learning Manager pelo Adobe Captivate, o conteúdo estava sendo publicado no local Deutsch por padrão. Esse problema já foi corrigido.
+&#x200B;* Na instância europeia do conteúdo do Learning Manager que foi publicado diretamente no Adobe Learning Manager pelo Adobe Captivate, o conteúdo estava sendo publicado no local Deutsch por padrão. Esse problema já foi corrigido.
 
 **API**
 
-* O campo de duração foi adicionado ao modelo de ajuda de tarefa.
-* Para as APIs de recomendação, às vezes uma solicitação GET retorna o Erro 500.
-* Ao migrar treinamentos por meio do Exavault e se o texto contivesse caracteres que não fossem do inglês, ele costumava ser atualizado com caracteres residuais no texto. Agora esse problema foi corrigido.
+&#x200B;* O campo de duração foi adicionado ao modelo de ajuda de tarefa.
+&#x200B;* Para as APIs de recomendação, às vezes uma solicitação GET retorna o Erro 500.
+&#x200B;* Ao migrar treinamentos por meio do Exavault e se o texto contivesse caracteres que não fossem do inglês, ele costumava ser atualizado com caracteres residuais no texto. Agora esse problema foi corrigido.
 
 **Localização**
 
-* `NormalTextRun  BCX0 SCXW38820519 For the`Aplicativos de administrador, autor e aluno, parte do conteúdo em alemão não aparece conforme esperado.
+&#x200B;* `NormalTextRun  BCX0 SCXW38820519 For the`Aplicativos de administrador, autor e aluno, parte do conteúdo em alemão não aparece conforme esperado.
 
 ## Problemas conhecidos nesta versão
 
-* Na página Aprendizado social, ao criar uma publicação, não é possível gravar um áudio ou carregar o áudio depois de tocar no botão do microfone. Essa é uma limitação do navegador.
-* No iOS, os arquivos de áudio H264 e WMA não são compatíveis com o navegador para dispositivos móveis.
-* Os alunos que têm um + em seu endereço de e-mail não têm o progresso marcado. Isso é depois que eles fazem um curso de sala de aula virtual em Microsoft Teams.
-* No navegador Safari para dispositivo móvel, os alunos não poderão carregar mais de 200 mb de arquivo no Aprendizado social. Esta é uma limitação do navegador.
+&#x200B;* Na página Aprendizado social, ao criar uma publicação, não é possível gravar um áudio ou carregar o áudio depois de tocar no botão do microfone. Essa é uma limitação do navegador.
+&#x200B;* No iOS, os arquivos de áudio H264 e WMA não são compatíveis com o navegador para dispositivos móveis.
+&#x200B;* Os alunos que têm um + em seu endereço de e-mail não têm o progresso marcado. Isso é depois que eles fazem um curso de sala de aula virtual em Microsoft Teams.
+&#x200B;* No navegador Safari para dispositivo móvel, os alunos não poderão carregar mais de 200 mb de arquivo no Aprendizado social. Esta é uma limitação do navegador.
 +++
 
 +++Atualização 71
@@ -1245,15 +1301,15 @@ Para obter mais informações, consulte [**Compartilhar treinamento com gerentes
 
 ### Erros corrigidos nesta atualização
 
-* Se houver duas contas e o recurso Caminho de aprendizado aprimorado estiver desativado e houver um catálogo compartilhado da primeira conta para a outra, então o Caminho de aprendizado na segunda conta terá seções duplicadas na página do curso.
-* Um FTP personalizado agora suporta sftp:// além de http:// e https://
-* O conector Exavault agora usa APIs V2.
-* Em alguns casos, a qualidade dos vídeos era inferior ao ideal. O problema já foi corrigido.
-* Mesmo após um aluno ter concluído um curso obrigatório e aprovado pelo gerente, a certificação permanece no estado Aprovação pendente.
-* Se os nomes dos autores contiverem caracteres acentuados, a migração do curso falhará.
-* Se o Campo ativo tiver valores em maiúsculas, ele não será salvo como esperado.
-* Não é possível filtrar Caminhos de aprendizado com base em habilidades.
-* Quando um administrador cria uma instância e adiciona uma nova sessão, um professor não recebe o e-mail de convite da sessão. Esse problema ocorre nos cursos por videoconferência no Zoom.
+&#x200B;* Se houver duas contas e o recurso Caminho de aprendizado aprimorado estiver desativado e houver um catálogo compartilhado da primeira conta para a outra, então o Caminho de aprendizado na segunda conta terá seções duplicadas na página do curso.
+&#x200B;* Um FTP personalizado agora suporta sftp:// além de http:// e https://
+&#x200B;* O conector Exavault agora usa APIs V2.
+&#x200B;* Em alguns casos, a qualidade dos vídeos era inferior ao ideal. O problema já foi corrigido.
+&#x200B;* Mesmo após um aluno ter concluído um curso obrigatório e aprovado pelo gerente, a certificação permanece no estado Aprovação pendente.
+&#x200B;* Se os nomes dos autores contiverem caracteres acentuados, a migração do curso falhará.
+&#x200B;* Se o Campo ativo tiver valores em maiúsculas, ele não será salvo como esperado.
+&#x200B;* Não é possível filtrar Caminhos de aprendizado com base em habilidades.
+&#x200B;* Quando um administrador cria uma instância e adiciona uma nova sessão, um professor não recebe o e-mail de convite da sessão. Esse problema ocorre nos cursos por videoconferência no Zoom.
 +++
 
 +++Atualização 70
@@ -1262,9 +1318,9 @@ Data de lançamento: 28 de outubro de 2021
 
 ### Erros corrigidos nesta atualização
 
-* Em alguns casos, as informações sobre um caminho de aprendizado não são refletidas em uma transcrição do aluno.
-* O texto dentro da caixa de diálogo **Marcar conclusão** é atualizado para refletir que a operação é irreversível.
-* A API dos objetos de aprendizado, em alguns casos, retornou um erro de metadados.
+&#x200B;* Em alguns casos, as informações sobre um caminho de aprendizado não são refletidas em uma transcrição do aluno.
+&#x200B;* O texto dentro da caixa de diálogo **Marcar conclusão** é atualizado para refletir que a operação é irreversível.
+&#x200B;* A API dos objetos de aprendizado, em alguns casos, retornou um erro de metadados.
 +++
 
 +++Atualização 69 - Versão de outubro de 2021 do Learning Manager
@@ -1285,34 +1341,34 @@ Para mais informações, consulte [***Caminhos de aprendizado***](../administrat
 
 ### Outras alterações
 
-* Novo aplicativo do Salesforce
-* Hub de Conteúdo
-* Alterações de relatórios
-* Relatório de resumo da sessão
-* Alterações no sumário do reprodutor
-* Alterações de API
-* Alterações relacionadas ao conector
+&#x200B;* Novo aplicativo do Salesforce
+&#x200B;* Hub de Conteúdo
+&#x200B;* Alterações de relatórios
+&#x200B;* Relatório de resumo da sessão
+&#x200B;* Alterações no sumário do reprodutor
+&#x200B;* Alterações de API
+&#x200B;* Alterações relacionadas ao conector
 
 Para mais informações, consulte [***Novidades do lançamento do Learning Manager em outubro de 2021***](../whats-new.md).
 
 ### Erros corrigidos nesta atualização
 
-* Os modelos de e-mail, como Cancelamento de inscrição no curso, Cancelamento de inscrição no programa de aprendizado ou Cancelamento de inscrição de certificação, não refletem as terminologias de produtos mais recentes, conforme definidas no csv. Agora, o texto padrão nos modelos de e-mail oferecerá suporte a terminologias personalizadas.
-* O idioma do usuário no Learning Manager não é suportado no fluxo de trabalho Publicar no Learning Manager. Se o idioma do usuário for diferente, Publicar no Learning Manager acontece em inglês.
-* Se você adicionar vários catálogos a uma função personalizada, ocorrerá um erro ao atualizar a função. O limite de número de catálogos foi aumentado em até 50 catálogos.
-* Em alguns casos, os treinamentos excluídos ainda são visíveis em um catálogo. Esse problema ocorreu somente no aplicativo de administração e está corrigido.
-* Quando a função de gerente era alterada de um usuário para outro, a função de gerente do usuário anterior ainda refletia na interface do usuário. Esse problema já foi corrigido. Esse problema estava presente apenas para usuários externos, não para usuários internos.
-* Em alguns cenários específicos para um grande conjunto de usuários que eram importados via csv do usuário, a importação falhava. Esse problema já foi corrigido.
-* Uma transcrição de aprendizado não exibe a data de conclusão de um certificado externo se um curso obrigatório for adicionado após a criação do certificado externo e um usuário estiver inscrito nele. Esse problema já foi corrigido.
-* Um certificado não exibia o nome localizado do aluno conforme esperado. Esse problema já foi corrigido.
-* No caso de sessões de vídeo conferência do Zoom, um professor nem sempre recebia o convite para a sessão. Esse problema já foi corrigido. O professor agora recebe a comunicação necessária.
-* Um aluno não recebia convites para uma sessão se os modelos de nível de curso estivessem ativados, mas os modelos de nível de conta estavam desativados. Esse problema já foi corrigido.
-* Para fusos horários específicos, lembretes por e-mail eram entregues um dia depois do esperado. Esse problema já foi corrigido.
-* Os alunos não recebiam e-mails de notificação de sessão se determinados modelos de e-mail estivessem desativados.
-* Caso uma reunião do BlueJeans fosse atualizada por autores ou administradores, o URL da reunião do BJ ficava inutilizável. Esse problema já foi corrigido.
-* Ao executar a API GET /LO, em alguns casos, os cursos que faziam parte de um programa de aprendizado não eram retornados.
-* Se o aluno tentasse carregar o conteúdo cujo nome tivesse espaço em branco, ele encontraria um erro interno no servidor.
-* Os PDF de emblema gerados para os alunos tinham problemas de formatação quando eram gerados em locais diferentes do inglês. Esses problemas já foram corrigidos.
+&#x200B;* Os modelos de e-mail, como Cancelamento de inscrição no curso, Cancelamento de inscrição no programa de aprendizado ou Cancelamento de inscrição de certificação, não refletem as terminologias de produtos mais recentes, conforme definidas no csv. Agora, o texto padrão nos modelos de e-mail oferecerá suporte a terminologias personalizadas.
+&#x200B;* O idioma do usuário no Learning Manager não é suportado no fluxo de trabalho Publicar no Learning Manager. Se o idioma do usuário for diferente, Publicar no Learning Manager acontece em inglês.
+&#x200B;* Se você adicionar vários catálogos a uma função personalizada, ocorrerá um erro ao atualizar a função. O limite de número de catálogos foi aumentado em até 50 catálogos.
+&#x200B;* Em alguns casos, os treinamentos excluídos ainda são visíveis em um catálogo. Esse problema ocorreu somente no aplicativo de administração e está corrigido.
+&#x200B;* Quando a função de gerente era alterada de um usuário para outro, a função de gerente do usuário anterior ainda refletia na interface do usuário. Esse problema já foi corrigido. Esse problema estava presente apenas para usuários externos, não para usuários internos.
+&#x200B;* Em alguns cenários específicos para um grande conjunto de usuários que eram importados via csv do usuário, a importação falhava. Esse problema já foi corrigido.
+&#x200B;* Uma transcrição de aprendizado não exibe a data de conclusão de um certificado externo se um curso obrigatório for adicionado após a criação do certificado externo e um usuário estiver inscrito nele. Esse problema já foi corrigido.
+&#x200B;* Um certificado não exibia o nome localizado do aluno conforme esperado. Esse problema já foi corrigido.
+&#x200B;* No caso de sessões de vídeo conferência do Zoom, um professor nem sempre recebia o convite para a sessão. Esse problema já foi corrigido. O professor agora recebe a comunicação necessária.
+&#x200B;* Um aluno não recebia convites para uma sessão se os modelos de nível de curso estivessem ativados, mas os modelos de nível de conta estavam desativados. Esse problema já foi corrigido.
+&#x200B;* Para fusos horários específicos, lembretes por e-mail eram entregues um dia depois do esperado. Esse problema já foi corrigido.
+&#x200B;* Os alunos não recebiam e-mails de notificação de sessão se determinados modelos de e-mail estivessem desativados.
+&#x200B;* Caso uma reunião do BlueJeans fosse atualizada por autores ou administradores, o URL da reunião do BJ ficava inutilizável. Esse problema já foi corrigido.
+&#x200B;* Ao executar a API GET /LO, em alguns casos, os cursos que faziam parte de um programa de aprendizado não eram retornados.
+&#x200B;* Se o aluno tentasse carregar o conteúdo cujo nome tivesse espaço em branco, ele encontraria um erro interno no servidor.
+&#x200B;* Os PDF de emblema gerados para os alunos tinham problemas de formatação quando eram gerados em locais diferentes do inglês. Esses problemas já foram corrigidos.
 +++
 
 +++Atualização 68
@@ -1321,30 +1377,30 @@ Data de lançamento: 28 de setembro de 2021
 
 ### Erros corrigidos nesta atualização
 
-* No navegador móvel, links profundos foram ativados para o seguinte:
+&#x200B;* No navegador móvel, links profundos foram ativados para o seguinte:
 
-  * Todos os painéis
-  * Painel público e publicação
-  * Painel particular e publicação com acesso
-  * Painel particular e publicação sem acesso
-  * Painel restrito e publicação
-  * Comentário na publicação
-  * Resposta ao comentário
-  * Perfil de usuário social
+  &#x200B;* Todos os painéis
+  &#x200B;* Painel público e publicação
+  &#x200B;* Painel particular e publicação com acesso
+  &#x200B;* Painel particular e publicação sem acesso
+  &#x200B;* Painel restrito e publicação
+  &#x200B;* Comentário na publicação
+  &#x200B;* Resposta ao comentário
+  &#x200B;* Perfil de usuário social
 
-* Para contas que usam domínio personalizado, o aplicativo do aluno não exibe o favicon.
-* No AEM, o componente do Learning Manager exclui a configuração de outros componentes.
-* A página de ajuda para o componemte do AEM é redirecionada para um local incorreto.
-* Obtenção e armazenamento externo de e-mails/tokens do usuário para que os usuários possam implementar os seus próprios back-ends de armazenamento em vez de usar nós de usuário da AEM.
-* Ao editar a descrição de texto sem formatação em Cursos, Programas de aprendizado, Certificados e Ajudas de tarefa, uma mensagem de aviso é exibida.
-* Os relatórios do painel Gerente não são baixados quando um usuário tem funções personalizadas e de gerente.
-* Uma compilação por e-mail exibe um valor incorreto da atividade de treinamento.
-* Em alguns casos, o Learning Manager se comporta inesperadamente quando você se move do Marketplace de Conteúdo para a página do Aluno.
-* No aplicativo Social, os filtros não funcionam conforme esperado na exibição de lista.
-* O e-mail de boas-vindas que os usuários internos recebem também é recebido por usuários externos.
-* Adicione o widget do Learning Manager no modelo de página no AEM.
-* Se quiser publicar novamente um certificado após remover um curso, não será possível fazer isso.
-* Os alunos não recebem e-mails que contêm detalhes de uma sessão.
+&#x200B;* Para contas que usam domínio personalizado, o aplicativo do aluno não exibe o favicon.
+&#x200B;* No AEM, o componente do Learning Manager exclui a configuração de outros componentes.
+&#x200B;* A página de ajuda para o componemte do AEM é redirecionada para um local incorreto.
+&#x200B;* Obtenção e armazenamento externo de e-mails/tokens do usuário para que os usuários possam implementar os seus próprios back-ends de armazenamento em vez de usar nós de usuário da AEM.
+&#x200B;* Ao editar a descrição de texto sem formatação em Cursos, Programas de aprendizado, Certificados e Ajudas de tarefa, uma mensagem de aviso é exibida.
+&#x200B;* Os relatórios do painel Gerente não são baixados quando um usuário tem funções personalizadas e de gerente.
+&#x200B;* Uma compilação por e-mail exibe um valor incorreto da atividade de treinamento.
+&#x200B;* Em alguns casos, o Learning Manager se comporta inesperadamente quando você se move do Marketplace de Conteúdo para a página do Aluno.
+&#x200B;* No aplicativo Social, os filtros não funcionam conforme esperado na exibição de lista.
+&#x200B;* O e-mail de boas-vindas que os usuários internos recebem também é recebido por usuários externos.
+&#x200B;* Adicione o widget do Learning Manager no modelo de página no AEM.
+&#x200B;* Se quiser publicar novamente um certificado após remover um curso, não será possível fazer isso.
+&#x200B;* Os alunos não recebem e-mails que contêm detalhes de uma sessão.
 +++
 
 +++Atualização 67 - Atualizações para o Azure
@@ -1355,9 +1411,9 @@ Esta atualização apresenta uma nova instância do Azure.
 >
 >Os seguintes itens não são suportados na instância:
 >
->* [Domínio personalizado](../custom-domain.md)
->* [Compra com cartão de crédito](../administrators/feature-summary/billing-management.md)
->* [Catálogo de conteúdo](../administrators/feature-summary/content-catalogs.md)
+>&#x200B;* [Domínio personalizado](../custom-domain.md)
+>&#x200B;* [Compra com cartão de crédito](../administrators/feature-summary/billing-management.md)
+>&#x200B;* [Catálogo de conteúdo](../administrators/feature-summary/content-catalogs.md)
 
 +++
 
@@ -1365,12 +1421,12 @@ Esta atualização apresenta uma nova instância do Azure.
 
 A versão de **agosto de 2021** **do Adobe Learning Manager** visa melhorar os fluxos de trabalho da Experiência do aluno, Relatórios e Administrações. Alguns dos destaques incluem:
 
-* **Marketplace de conteúdo:** o Learning Manager agora oferece mais de 70.000 cursos de campos variados, como Tecnologia, Gerenciamento, Liderança e assim por diante.
-* **Suporte de acessibilidade aprimorado: o** suporte de acessibilidade para a função do aluno fortalece por meio da navegação do teclado aprimorada, capacidade do leitor de tela e conformidade com a taxa de contraste.
-* **Formatação de Rich Text:** o Learning Manager agora oferece edição de rich text para descrições em cursos, programas, certificados e ajudas de tarefa. Isso permite que os autores especifiquem descrições em rich text, incluindo hiperlinks, imagens e outras opções de formatação de texto, em vez de texto sem formatação.
-* **Classificação por estrelas:** agora um aluno pode classificar um curso em uma escala de 5 pontos. Um administrador pode selecionar entre a classificação da eficácia existente ou a classificação de 5 estrelas.
-* **Integração do Badgr:** os alunos agora podem autorizar o Learning Manager a enviar automaticamente as medalhas que ganharam no Learning Manager para a conta do Badgr, de onde podem compartilhar as medalhas em suas redes sociais.
-* **Exportar eventos de aprendizado para o Salesforce:** o Learning Manager agora oferece a capacidade de exportar alguns eventos específicos no Learning Manager, como adição de novos usuários, inscrição e conclusão para um inquilino do Salesforce e fornece a capacidade de vinculá-los ao objeto de usuário ou ao objeto de contato apropriado no Salesforce.
+&#x200B;* **Marketplace de conteúdo:** o Learning Manager agora oferece mais de 70.000 cursos de campos variados, como Tecnologia, Gerenciamento, Liderança e assim por diante.
+&#x200B;* **Suporte de acessibilidade aprimorado: o** suporte de acessibilidade para a função do aluno fortalece por meio da navegação do teclado aprimorada, capacidade do leitor de tela e conformidade com a taxa de contraste.
+&#x200B;* **Formatação de Rich Text:** o Learning Manager agora oferece edição de rich text para descrições em cursos, programas, certificados e ajudas de tarefa. Isso permite que os autores especifiquem descrições em rich text, incluindo hiperlinks, imagens e outras opções de formatação de texto, em vez de texto sem formatação.
+&#x200B;* **Classificação por estrelas:** agora um aluno pode classificar um curso em uma escala de 5 pontos. Um administrador pode selecionar entre a classificação da eficácia existente ou a classificação de 5 estrelas.
+&#x200B;* **Integração do Badgr:** os alunos agora podem autorizar o Learning Manager a enviar automaticamente as medalhas que ganharam no Learning Manager para a conta do Badgr, de onde podem compartilhar as medalhas em suas redes sociais.
+&#x200B;* **Exportar eventos de aprendizado para o Salesforce:** o Learning Manager agora oferece a capacidade de exportar alguns eventos específicos no Learning Manager, como adição de novos usuários, inscrição e conclusão para um inquilino do Salesforce e fornece a capacidade de vinculá-los ao objeto de usuário ou ao objeto de contato apropriado no Salesforce.
 
 Para obter mais informações, consulte [***Novidades do lançamento do Learning Manager em agosto de 2021***](../whats-new.md).
 
@@ -1381,41 +1437,41 @@ Para obter mais informações, consulte [***Novidades do lançamento do Learnin
 
 **Experiência do aluno**
 
-* Depois que um aluno é adicionado a dois grupos de usuários e um plano de aprendizado é adicionado, o aluno é inscrito em uma instância diferente do mesmo curso.
-* Em alguns casos, após a inscrição e o início do curso, o curso não é reproduzido conforme esperado.
-* A descrição do curso exibe tags HTML, que agora foi corrigida.
-* Se você comentar em uma publicaçao em um painel social que abrange várias linhas, o comentário será exibido em uma única linha. Esse problema já foi corrigido.
+&#x200B;* Depois que um aluno é adicionado a dois grupos de usuários e um plano de aprendizado é adicionado, o aluno é inscrito em uma instância diferente do mesmo curso.
+&#x200B;* Em alguns casos, após a inscrição e o início do curso, o curso não é reproduzido conforme esperado.
+&#x200B;* A descrição do curso exibe tags HTML, que agora foi corrigida.
+&#x200B;* Se você comentar em uma publicaçao em um painel social que abrange várias linhas, o comentário será exibido em uma única linha. Esse problema já foi corrigido.
 
 **Criação**
 
-* Em alguns casos com inscrições automáticas, os alunos recebem vários e-mails de inscrição.
+&#x200B;* Em alguns casos com inscrições automáticas, os alunos recebem vários e-mails de inscrição.
 
 **Relatórios**
 
-* Quando a interface é definida para alguns locais que não são em inglês, as transcrições do aluno não são geradas conforme o esperado.
-* Capacidade de redefinir o progresso de um curso dentro de um programa de aprendizado e certificação.
-* Se um CSV contiver campos ativos com o mesmo nome, mas com distinção de maiúsculas e minúsculas diferente, o CSV produzirá uma exceção.
+&#x200B;* Quando a interface é definida para alguns locais que não são em inglês, as transcrições do aluno não são geradas conforme o esperado.
+&#x200B;* Capacidade de redefinir o progresso de um curso dentro de um programa de aprendizado e certificação.
+&#x200B;* Se um CSV contiver campos ativos com o mesmo nome, mas com distinção de maiúsculas e minúsculas diferente, o CSV produzirá uma exceção.
 
 **Outros**
 
-* A opção para editar pontuações e comentários deve ser desativada quando nenhum aluno estiver selecionado ou se a presença do aluno selecionado não estiver marcada.
-* Os valores nos campos ativos são exibidos em minúsculas na caixa de diálogo Editar usuário, mesmo que um usuário tenha adicionado os valores anteriormente em maiúsculas.
-* Capacidade de administradores e gerentes visualizarem aprovações pendentes para cursos. Isso permite que o gerenciamento garanta que os gerentes controlem o aprendizado e o treinamento dos funcionários, além de permitir que os administradores do Learning Manager aprovem a inscrição no curso conforme necessário.
-* Um usuário que tenha uma permissão personalizada de autor ou administrador/autor não pode editar uma ajuda de tarefa criada por outro usuário.
-* Na função Administrador, quando o usuário navega até Curso > Instância e seleciona “Alunos inscritos” para qualquer instância, antes era usado para mostrar os alunos de “Instância padrão”. O administrador precisava alterar a instância no menu suspenso manualmente. Agora o Learning Manager direciona corretamente o usuário para a página dos alunos com a instância correta selecionada.
+&#x200B;* A opção para editar pontuações e comentários deve ser desativada quando nenhum aluno estiver selecionado ou se a presença do aluno selecionado não estiver marcada.
+&#x200B;* Os valores nos campos ativos são exibidos em minúsculas na caixa de diálogo Editar usuário, mesmo que um usuário tenha adicionado os valores anteriormente em maiúsculas.
+&#x200B;* Capacidade de administradores e gerentes visualizarem aprovações pendentes para cursos. Isso permite que o gerenciamento garanta que os gerentes controlem o aprendizado e o treinamento dos funcionários, além de permitir que os administradores do Learning Manager aprovem a inscrição no curso conforme necessário.
+&#x200B;* Um usuário que tenha uma permissão personalizada de autor ou administrador/autor não pode editar uma ajuda de tarefa criada por outro usuário.
+&#x200B;* Na função Administrador, quando o usuário navega até Curso > Instância e seleciona “Alunos inscritos” para qualquer instância, antes era usado para mostrar os alunos de “Instância padrão”. O administrador precisava alterar a instância no menu suspenso manualmente. Agora o Learning Manager direciona corretamente o usuário para a página dos alunos com a instância correta selecionada.
 
 **Aplicativo de dispositivo**
 
-* Em dispositivos Android e iPhone, um aluno não pode iniciar módulos do curso aleatoriamente. Isso produz o Erro 401 não autorizado.
-* Um aluno pode digitalizar dois códigos QR, mas ao digitalizar o terceiro código QR, uma mensagem de erro é exibida.
-* Em alguns dispositivos Android e iOS, um arquivo não é aberto como esperado para alguns cursos baixados.
-* Tentar abrir uma ajuda de tarefa exibe uma mensagem de erro.
-* O aplicativo do dispositivo se comporta inesperadamente quando um programa de aprendizado é usado offline.
-* Quando um aluno volta online e abre o aplicativo, ele fica preso na tela inicial.
-* Às vezes, quando um usuário está novamente online, o aplicativo muda para a exibição clássica.
-* Às vezes, quando um curso é usado offline, o progresso não é salvo.
-* Às vezes, o nome de um curso não é exibido como esperado desde o início quando o nome é longo.
-* Na página do catálogo, os cursos não são classificados como esperado.
+&#x200B;* Em dispositivos Android e iPhone, um aluno não pode iniciar módulos do curso aleatoriamente. Isso produz o Erro 401 não autorizado.
+&#x200B;* Um aluno pode digitalizar dois códigos QR, mas ao digitalizar o terceiro código QR, uma mensagem de erro é exibida.
+&#x200B;* Em alguns dispositivos Android e iOS, um arquivo não é aberto como esperado para alguns cursos baixados.
+&#x200B;* Tentar abrir uma ajuda de tarefa exibe uma mensagem de erro.
+&#x200B;* O aplicativo do dispositivo se comporta inesperadamente quando um programa de aprendizado é usado offline.
+&#x200B;* Quando um aluno volta online e abre o aplicativo, ele fica preso na tela inicial.
+&#x200B;* Às vezes, quando um usuário está novamente online, o aplicativo muda para a exibição clássica.
+&#x200B;* Às vezes, quando um curso é usado offline, o progresso não é salvo.
+&#x200B;* Às vezes, o nome de um curso não é exibido como esperado desde o início quando o nome é longo.
+&#x200B;* Na página do catálogo, os cursos não são classificados como esperado.
 +++
 
 +++Atualização 65
@@ -1424,10 +1480,10 @@ Data de lançamento: julho de 2021.
 
 ### Erros corrigidos nesta atualização
 
-* Problemas com logons de usuários.
-* O modelo de e-mail de inscrição do curso para gerente não exibe o prazo de conclusão do curso se a variável for adicionada ao modelo.
-* TLS 1.0 e TLS 1.1 foram descontinuados.
-* Problemas com exclusão de dados do RGPD para um usuário.
+&#x200B;* Problemas com logons de usuários.
+&#x200B;* O modelo de e-mail de inscrição do curso para gerente não exibe o prazo de conclusão do curso se a variável for adicionada ao modelo.
+&#x200B;* TLS 1.0 e TLS 1.1 foram descontinuados.
+&#x200B;* Problemas com exclusão de dados do RGPD para um usuário.
 +++
 
 +++Atualização 64
@@ -1436,8 +1492,8 @@ Data de lançamento: julho de 2021.
 
 ### Erros corrigidos nesta atualização
 
-* A notificação de inscrição é enviada aos alunos que já estão inscritos em um curso.
-* Quando um certificado personalizado como uma medalha é gerado, o formato de data não é suportado no idioma alemão.
+&#x200B;* A notificação de inscrição é enviada aos alunos que já estão inscritos em um curso.
+&#x200B;* Quando um certificado personalizado como uma medalha é gerado, o formato de data não é suportado no idioma alemão.
 +++
 
 +++Atualização 63
@@ -1446,11 +1502,11 @@ Data de lançamento: junho de 2021
 
 ### Erros corrigidos nesta atualização
 
-* Você pode criar um usuário com um nome em branco em um csv.
-* Se houver um caractere &#39;/&#39; no campo ativo, depois de criar um trabalho para baixar user.csv, o estado do trabalho não é alterado de &quot;Enviado&quot; para &quot;Concluído&quot;.
-* Os módulos ordenados não obedecem à sequência.
-* Quando um autor externo é excluído, o curso que o autor criou não estará mais disponível.
-* Pesquisar um objeto de aprendizado com mais de uma habilidade produz resultados inesperados.
+&#x200B;* Você pode criar um usuário com um nome em branco em um csv.
+&#x200B;* Se houver um caractere &#39;/&#39; no campo ativo, depois de criar um trabalho para baixar user.csv, o estado do trabalho não é alterado de &quot;Enviado&quot; para &quot;Concluído&quot;.
+&#x200B;* Os módulos ordenados não obedecem à sequência.
+&#x200B;* Quando um autor externo é excluído, o curso que o autor criou não estará mais disponível.
+&#x200B;* Pesquisar um objeto de aprendizado com mais de uma habilidade produz resultados inesperados.
 +++
 
 +++Atualização 62
@@ -1459,12 +1515,12 @@ Data de lançamento: junho de 2021
 
 ### Erros corrigidos nesta atualização
 
-* Não é possível fazer logon no aplicativo quando a conta é iniciada pelo logon SP.
-* Os vídeos não são renderizados da Brightcove conforme esperado.
-* A API userGroupInfo não fica visível ao visitar o programa de aprendizado em nenhum dos aplicativos.
-* Não é possível pesquisar um programa de aprendizado e uma certificação inativos ao criar um relatório do Painel.
-* Um autor não pode editar ou atualizar uma ajuda de tarefa criada por outro autor.
-* A API para envio de arquivos não funciona como esperado no cluster da UE.
+&#x200B;* Não é possível fazer logon no aplicativo quando a conta é iniciada pelo logon SP.
+&#x200B;* Os vídeos não são renderizados da Brightcove conforme esperado.
+&#x200B;* A API userGroupInfo não fica visível ao visitar o programa de aprendizado em nenhum dos aplicativos.
+&#x200B;* Não é possível pesquisar um programa de aprendizado e uma certificação inativos ao criar um relatório do Painel.
+&#x200B;* Um autor não pode editar ou atualizar uma ajuda de tarefa criada por outro autor.
+&#x200B;* A API para envio de arquivos não funciona como esperado no cluster da UE.
 +++
 
 +++Atualização 61
@@ -1473,11 +1529,11 @@ Data de lançamento: maio de 2021
 
 ### Erros corrigidos nesta atualização
 
-* Melhoria de desempenho em chamadas userGroupInfo.
-* Depois de ativar os novos perfis da Brightcove, o Learning Manager suporta conteúdo com módulos de vídeo e áudio.
-* As transcrições de aprendizado não capturam os dados se um intervalo de datas estreito for selecionado.
-* Um convite de sessão é enviado aos alunos inscritos para todas as sessões, mesmo quando apenas uma nova sessão é adicionada.
-* Os módulos de áudio não estão sendo carregados como esperado.
+&#x200B;* Melhoria de desempenho em chamadas userGroupInfo.
+&#x200B;* Depois de ativar os novos perfis da Brightcove, o Learning Manager suporta conteúdo com módulos de vídeo e áudio.
+&#x200B;* As transcrições de aprendizado não capturam os dados se um intervalo de datas estreito for selecionado.
+&#x200B;* Um convite de sessão é enviado aos alunos inscritos para todas as sessões, mesmo quando apenas uma nova sessão é adicionada.
+&#x200B;* Os módulos de áudio não estão sendo carregados como esperado.
 +++
 
 +++Atualização 60
@@ -1488,59 +1544,59 @@ Data de lançamento: abril de 2021
 
 **Denunciar**
 
-* Depois de criar um relatório, se você procurar um curso inativo, não será possível fazer isso.
-* Erros em um relatório se espalham para outros. Como resultado, esses relatórios levam a erros.
+&#x200B;* Depois de criar um relatório, se você procurar um curso inativo, não será possível fazer isso.
+&#x200B;* Erros em um relatório se espalham para outros. Como resultado, esses relatórios levam a erros.
 
 **Ajudas de tarefa**
 
-* Após baixar uma ajuda de tarefa, você não poderá excluí-la.
+&#x200B;* Após baixar uma ajuda de tarefa, você não poderá excluí-la.
 
 **Player**
 
-* As legendas WebVTT não são exibidas conforme esperado.
+&#x200B;* As legendas WebVTT não são exibidas conforme esperado.
 
 **Aplicativo do aluno**
 
-* Na página Visão geral da certificação, a certificação externa não exibe a duração adicionada por um autor.
-* Adicione a opção **Todos** no filtro Habilidade.
-* Os alunos recebiam vários e-mails de resumo.
-* O número de linhas selecionadas não corresponde ao esperado em uma página.
+&#x200B;* Na página Visão geral da certificação, a certificação externa não exibe a duração adicionada por um autor.
+&#x200B;* Adicione a opção **Todos** no filtro Habilidade.
+&#x200B;* Os alunos recebiam vários e-mails de resumo.
+&#x200B;* O número de linhas selecionadas não corresponde ao esperado em uma página.
 
 **Componente AEM**
 
-* Os widgets não são atualizados como esperado após uma atualização de página.
+&#x200B;* Os widgets não são atualizados como esperado após uma atualização de página.
 
 **Localização**
 
-* Algumas cadeias de caracteres em alemão não estão traduzidas como esperado.
-* A tradução de cadeia de caracteres é padrão para inglês se um aluno não selecionou a interface e o idioma do conteúdo.
+&#x200B;* Algumas cadeias de caracteres em alemão não estão traduzidas como esperado.
+&#x200B;* A tradução de cadeia de caracteres é padrão para inglês se um aluno não selecionou a interface e o idioma do conteúdo.
 
 **Certificação**
 
-* A ordem do módulo pode ser ignorada se os pré-requisitos não forem aplicados.
+&#x200B;* A ordem do módulo pode ser ignorada se os pré-requisitos não forem aplicados.
 
 **Navegador**
 
-* Os aplicativos de autor, gerente ou aluno não são exibidos conforme esperado no IE 11.
+&#x200B;* Os aplicativos de autor, gerente ou aluno não são exibidos conforme esperado no IE 11.
 
 **Gamificação**
 
-* Os pontos de gamificação não são resgatados como esperado.
+&#x200B;* Os pontos de gamificação não são resgatados como esperado.
 
 **Biblioteca de conteúdo**
 
-* Os cursos do aplicativo de avaliação de conteúdo não funcionam como esperado.
+&#x200B;* Os cursos do aplicativo de avaliação de conteúdo não funcionam como esperado.
 
 **Player**
 
-* O player carrega apenas no espaço onde o widget está presente.
-* Os vídeos dentro de um módulo do Captivate não são reproduzidos conforme esperado.
+&#x200B;* O player carrega apenas no espaço onde o widget está presente.
+&#x200B;* Os vídeos dentro de um módulo do Captivate não são reproduzidos conforme esperado.
 
 **Conector**
 
-* Em alguns casos, os arquivos são excluídos de um conector FTP/Box.
-* Os arquivos são excluídos do FTP se forem atualizados com os mesmos nomes.
-* Um evento BlueJeans suporta paginação onde o número de eventos é maior que 100.
+&#x200B;* Em alguns casos, os arquivos são excluídos de um conector FTP/Box.
+&#x200B;* Os arquivos são excluídos do FTP se forem atualizados com os mesmos nomes.
+&#x200B;* Um evento BlueJeans suporta paginação onde o número de eventos é maior que 100.
 
 **Atualização do aplicativo móvel 3.3 - março de 2021**
 
@@ -1577,12 +1633,12 @@ Data de lançamento: 20 de fevereiro de 2021
 
 ### Novidades e alterações {#Whatsnewandchanged-1}
 
-* Exibição do quadro no social.
-* Personalizar o banner social.
-* Filtros de catálogo no aplicativo do aluno.
-* Cancelar inscrição no treinamento.
-* Importar usuários dos contatos do Salesforce.
-* ...e muito mais.
+&#x200B;* Exibição do quadro no social.
+&#x200B;* Personalizar o banner social.
+&#x200B;* Filtros de catálogo no aplicativo do aluno.
+&#x200B;* Cancelar inscrição no treinamento.
+&#x200B;* Importar usuários dos contatos do Salesforce.
+&#x200B;* ...e muito mais.
 
 Para mais informações, consulte Novidades da [atualização do Learning Manager de fevereiro de 2021](../whats-new.md).
 
@@ -1590,99 +1646,99 @@ Para mais informações, consulte Novidades da [atualização do Learning Manage
 
 **Certificação**
 
-* Em alguns casos, o aluno não conseguiu tentar novamente um curso, que faz parte de uma certificação, embora o máximo de tentativas para o curso esteja definido como infinito. Esse problema já foi corrigido.
-* Em alguns casos, o aluno não pode se inscrever em uma certificação, pois o botão **Inscrever-se** não está visível como esperado.
+&#x200B;* Em alguns casos, o aluno não conseguiu tentar novamente um curso, que faz parte de uma certificação, embora o máximo de tentativas para o curso esteja definido como infinito. Esse problema já foi corrigido.
+&#x200B;* Em alguns casos, o aluno não pode se inscrever em uma certificação, pois o botão **Inscrever-se** não está visível como esperado.
 
 **Biblioteca de conteúdo**
 
-* URL de ajuda incorreto na página **Adicionar novo conteúdo**. O URL correto foi atualizado.
+&#x200B;* URL de ajuda incorreto na página **Adicionar novo conteúdo**. O URL correto foi atualizado.
 
 **Curso**
 
-* Um relatório de pontuação do quiz L2 baixado para um módulo de conteúdo AICC mostra a pontuação incorreta na coluna Pontuação total do usuário/Pontuação do quiz. Esse problema foi corrigido.
-* Baixar recursos de um curso não funcionava se ele fosse duplicado de outro curso e se o aluno não tivesse acesso ao curso original, o que costumava criar um curso duplicado.
-* Imagens de banner que não são excluídas quando o autor as remove, estando o curso no estado de rascunho. Esse problema foi corrigido.
+&#x200B;* Um relatório de pontuação do quiz L2 baixado para um módulo de conteúdo AICC mostra a pontuação incorreta na coluna Pontuação total do usuário/Pontuação do quiz. Esse problema foi corrigido.
+&#x200B;* Baixar recursos de um curso não funcionava se ele fosse duplicado de outro curso e se o aluno não tivesse acesso ao curso original, o que costumava criar um curso duplicado.
+&#x200B;* Imagens de banner que não são excluídas quando o autor as remove, estando o curso no estado de rascunho. Esse problema foi corrigido.
 
 **AEM**
 
-* Após inserir o componente do Learning Manager no AEM, a página demorava a carregar, impedindo o acesso aos outros componentes. Esse problema foi corrigido.
+&#x200B;* Após inserir o componente do Learning Manager no AEM, a página demorava a carregar, impedindo o acesso aos outros componentes. Esse problema foi corrigido.
 
 **Admin**
 
-* Os cursos retirados não aparecem nos resultados da pesquisa conforme esperado. Esse problema foi corrigido.
-* O administrador não conseguiu pesquisar cursos retirados no **Aplicativo do administrador** -> **Relatórios personalizados** -> **Relatórios do Excel** -> **Relatórios do curso**, que agora foi corrigido.
+&#x200B;* Os cursos retirados não aparecem nos resultados da pesquisa conforme esperado. Esse problema foi corrigido.
+&#x200B;* O administrador não conseguiu pesquisar cursos retirados no **Aplicativo do administrador** -> **Relatórios personalizados** -> **Relatórios do Excel** -> **Relatórios do curso**, que agora foi corrigido.
 
-* Baixar um relatório do quiz como Excel não funcionará se o arquivo contiver alunos que realizaram os treinamentos antes e depois da atualização do conteúdo. Esse problema foi corrigido.
-* Um upload de CSV falhava se os campos ativos contivessem caracteres especiais. Esse problema foi corrigido.
-* Em alguns casos, quando um aluno fazia um quiz, criado no Captivate, as respostas não eram capturadas da maneira esperada.
-* Depois de criar uma assinatura e tentar editar a assinatura, os botões **Salvar** e **Cancelar** não aparecem conforme esperado. Esse problema foi corrigido.
+&#x200B;* Baixar um relatório do quiz como Excel não funcionará se o arquivo contiver alunos que realizaram os treinamentos antes e depois da atualização do conteúdo. Esse problema foi corrigido.
+&#x200B;* Um upload de CSV falhava se os campos ativos contivessem caracteres especiais. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, quando um aluno fazia um quiz, criado no Captivate, as respostas não eram capturadas da maneira esperada.
+&#x200B;* Depois de criar uma assinatura e tentar editar a assinatura, os botões **Salvar** e **Cancelar** não aparecem conforme esperado. Esse problema foi corrigido.
 
 **Player**
 
-* Para um tipo específico de conteúdo do cenário de retomada SCORM-2004 que não estava funcionando. Assim, os alunos tinham que navegar até o ponto em que pararam. Esse problema já foi corrigido. O conteúdo agora deve ser retomado a partir do ponto que foi usado antes.
-* Depois de se inscrever em um curso, em alguns casos, o conteúdo não era reproduzido conforme esperado. Esse problema foi corrigido.
+&#x200B;* Para um tipo específico de conteúdo do cenário de retomada SCORM-2004 que não estava funcionando. Assim, os alunos tinham que navegar até o ponto em que pararam. Esse problema já foi corrigido. O conteúdo agora deve ser retomado a partir do ponto que foi usado antes.
+&#x200B;* Depois de se inscrever em um curso, em alguns casos, o conteúdo não era reproduzido conforme esperado. Esse problema foi corrigido.
 
 **Cancelamento da inscrição**
 
-* Um relatório de inscrição listava apenas 20 alunos não inscritos, mesmo quando havia mais alunos não inscritos no curso/certificação. Esse problema foi corrigido.
-* Ocorria um problema ao exportar a lista de alunos não inscritos no relatório de inscrição em alguns casos. Esse problema já foi corrigido.
+&#x200B;* Um relatório de inscrição listava apenas 20 alunos não inscritos, mesmo quando havia mais alunos não inscritos no curso/certificação. Esse problema foi corrigido.
+&#x200B;* Ocorria um problema ao exportar a lista de alunos não inscritos no relatório de inscrição em alguns casos. Esse problema já foi corrigido.
 
 **Programa de aprendizado**
 
-* Para um plano de aprendizado flexível, se um aluno estivesse inscrito em apenas uma instância do curso, ao clicar no link do curso dos outros cursos, cujas instâncias não foram selecionadas, uma página em branco era aberta.
+&#x200B;* Para um plano de aprendizado flexível, se um aluno estivesse inscrito em apenas uma instância do curso, ao clicar no link do curso dos outros cursos, cujas instâncias não foram selecionadas, uma página em branco era aberta.
 
 **Aluno**
 
-* Alguns alunos, cujos nomes de usuário têm caracteres especiais, não recebiam notificações por e-mail conforme esperado.
-* Na exibição imersiva, em alguns casos, o widget Calendário não exibia as próximas sessões de aula virtual conforme esperado.
-* No aplicativo do aluno, o filtro **Habilidade** não funcionava conforme esperado. Esse problema foi corrigido.
+&#x200B;* Alguns alunos, cujos nomes de usuário têm caracteres especiais, não recebiam notificações por e-mail conforme esperado.
+&#x200B;* Na exibição imersiva, em alguns casos, o widget Calendário não exibia as próximas sessões de aula virtual conforme esperado.
+&#x200B;* No aplicativo do aluno, o filtro **Habilidade** não funcionava conforme esperado. Esse problema foi corrigido.
 
 **Pesquisa**
 
-* Em um cenário específico, o Gerente não conseguia procurar um grupo de usuários de um gerente anteriormente. Esse problema foi corrigido para a função Gerente.
+&#x200B;* Em um cenário específico, o Gerente não conseguia procurar um grupo de usuários de um gerente anteriormente. Esse problema foi corrigido para a função Gerente.
 
 **Grupo de usuários**
 
-* Ao exportar o relatório de grupo de usuários com mais de 500 usuários, os valores de dados e os cabeçalhos de coluna no relatório não correspondiam, o que foi corrigido.
-* Quando o administrador editava a assinatura por e-mail em modelos de e-mail e adicionava várias linhas, ele via tags html somente na interface do administrador. Esse problema já foi corrigido.
-* No **Aplicativo do administrador > Catálogo > procurar catálogo**, não era possível pesquisar.
+&#x200B;* Ao exportar o relatório de grupo de usuários com mais de 500 usuários, os valores de dados e os cabeçalhos de coluna no relatório não correspondiam, o que foi corrigido.
+&#x200B;* Quando o administrador editava a assinatura por e-mail em modelos de e-mail e adicionava várias linhas, ele via tags html somente na interface do administrador. Esse problema já foi corrigido.
+&#x200B;* No **Aplicativo do administrador > Catálogo > procurar catálogo**, não era possível pesquisar.
 
 **Usuários**
 
-* Alguns usuários externos ativos estavam sendo excluídos. Fizemos algumas alterações e o problema foi corrigido.
+&#x200B;* Alguns usuários externos ativos estavam sendo excluídos. Fizemos algumas alterações e o problema foi corrigido.
 
 **Importar**
 
-* A importação de um csv falhava se o cabeçalho csv contivesse espaços em branco à direita ou se o e-mail de um usuário contivesse acentos ou caracteres diacríticos.
+&#x200B;* A importação de um csv falhava se o cabeçalho csv contivesse espaços em branco à direita ou se o e-mail de um usuário contivesse acentos ou caracteres diacríticos.
 
 **Envio de atividade**
 
-* No aplicativo do instrutor - página de envios de atividade, o valor de data enviado costumava se sobrepor ao nome do arquivo, se fosse longo. Esse problema de interface do usuário agora está resolvido.
+&#x200B;* No aplicativo do instrutor - página de envios de atividade, o valor de data enviado costumava se sobrepor ao nome do arquivo, se fosse longo. Esse problema de interface do usuário agora está resolvido.
 
 **O professor**
 
-* O instrutor recebia convites de sessão para todas as suas sessões, mesmo que apenas uma nova sessão fosse adicionada. Esse problema foi corrigido.
+&#x200B;* O instrutor recebia convites de sessão para todas as suas sessões, mesmo que apenas uma nova sessão fosse adicionada. Esse problema foi corrigido.
 
 **SCORM**
 
-* Para determinados conteúdos do SCORM, havia alguns problemas relacionados ao navegador, problemas de navegação do reprodutor e inconsistências na gravação da pontuação do quiz. Esses problemas foram corrigidos.
+&#x200B;* Para determinados conteúdos do SCORM, havia alguns problemas relacionados ao navegador, problemas de navegação do reprodutor e inconsistências na gravação da pontuação do quiz. Esses problemas foram corrigidos.
 
 **SAML e SSO**
 
-* Atualizamos a mensagem de erro exibida quando as credenciais do SSO expiravam.
+&#x200B;* Atualizamos a mensagem de erro exibida quando as credenciais do SSO expiravam.
 
 **API do Learning Manager**
 
-* A API getlearningObject retornou dados de inscrição incorretos devido a problemas no armazenamento em cache. Esse problema foi corrigido.
-* Uma sessão de aula virtual agora exibe o URL da reunião no campo Local em um convite de reunião.
-* Se você configurou várias integrações de provedor de aula virtual e se alguma delas não funcionava como esperado, o menu suspenso de seleção de aula virtual costumava mostrar uma lista vazia. Esse problema já foi corrigido. A integração de aula virtual restante é listada corretamente agora.
-* Os modelos de aula virtual do Connect não eram carregados como esperado quando um instrutor entrava na sessão.
-* Uma duração incorreta era mostrada na interface do usuário após a migração de módulos com duração no arquivo csv module_version.
-* Para algumas contas, a atualização de um usuário não funcionava como esperado. Esse problema foi corrigido.
+&#x200B;* A API getlearningObject retornou dados de inscrição incorretos devido a problemas no armazenamento em cache. Esse problema foi corrigido.
+&#x200B;* Uma sessão de aula virtual agora exibe o URL da reunião no campo Local em um convite de reunião.
+&#x200B;* Se você configurou várias integrações de provedor de aula virtual e se alguma delas não funcionava como esperado, o menu suspenso de seleção de aula virtual costumava mostrar uma lista vazia. Esse problema já foi corrigido. A integração de aula virtual restante é listada corretamente agora.
+&#x200B;* Os modelos de aula virtual do Connect não eram carregados como esperado quando um instrutor entrava na sessão.
+&#x200B;* Uma duração incorreta era mostrada na interface do usuário após a migração de módulos com duração no arquivo csv module_version.
+&#x200B;* Para algumas contas, a atualização de um usuário não funcionava como esperado. Esse problema foi corrigido.
 
 ### Problemas conhecidos desta atualização {#known-issues}
 
-* Ao usar o filtro **Duração** no aplicativo do aluno, o conteúdo e o filtro podem não estar sincronizados se o aluno usar algum outro conteúdo local e não fizer parte da instância padrão em termos de inscrição.
+&#x200B;* Ao usar o filtro **Duração** no aplicativo do aluno, o conteúdo e o filtro podem não estar sincronizados se o aluno usar algum outro conteúdo local e não fizer parte da instância padrão em termos de inscrição.
 
 >[!NOTE]
 >
@@ -1700,8 +1756,8 @@ Data de lançamento: 18 de dezembro de 2020
 
 O conector do BlueJeans Events conecta os sistemas do Learning Manager e do BlueJeans para automatizar a sincronização de dados. Com esse conector, você pode:
 
-* **Configurar sessões virtuais usando o BlueJeans Events:** configure um novo evento no BlueJeans e configure uma sessão VC no Learning Manager selecionando o evento do BlueJeans apropriado. Os detalhes de data e hora são escolhidos automaticamente nos eventos do BlueJeans.
-* **Sincronização de conclusão de usuário automatizada:** um processo automatizado de sincronização de conclusão do usuário permite que o administrador do Learning Manager busque registros de conclusão para eventos do BlueJeans automaticamente.
+&#x200B;* **Configurar sessões virtuais usando o BlueJeans Events:** configure um novo evento no BlueJeans e configure uma sessão VC no Learning Manager selecionando o evento do BlueJeans apropriado. Os detalhes de data e hora são escolhidos automaticamente nos eventos do BlueJeans.
+&#x200B;* **Sincronização de conclusão de usuário automatizada:** um processo automatizado de sincronização de conclusão do usuário permite que o administrador do Learning Manager busque registros de conclusão para eventos do BlueJeans automaticamente.
 
 Este novo conector requer um conjunto separado de credenciais para configurar o conector.
 
@@ -1719,17 +1775,17 @@ Data de lançamento: 05 de dezembro de 2020
 
 Esta versão concentra-se no seguinte:
 
-* Experiência de página inicial do novo aluno
-* Layout móvel responsivo para a função do aluno
-* Recomendação baseada em IA para alunos
-* E-mails de resumo semanais
-* Lista de verificação
-* Marketo para envolver a integração
-* Domínio personalizado
-* Importação do questionário do Adobe Connect
-* Link profundo para o catálogo dos alunos
-* Aprimoramentos do LinkedIn Learning
-* ...e muito mais
+&#x200B;* Experiência de página inicial do novo aluno
+&#x200B;* Layout móvel responsivo para a função do aluno
+&#x200B;* Recomendação baseada em IA para alunos
+&#x200B;* E-mails de resumo semanais
+&#x200B;* Lista de verificação
+&#x200B;* Marketo para envolver a integração
+&#x200B;* Domínio personalizado
+&#x200B;* Importação do questionário do Adobe Connect
+&#x200B;* Link profundo para o catálogo dos alunos
+&#x200B;* Aprimoramentos do LinkedIn Learning
+&#x200B;* ...e muito mais
 
 Para obter mais informações, consulte [***Novidades do lançamento do Adobe Learning Manager em dezembro de 2020***](../whats-new.md).
 
@@ -1737,23 +1793,23 @@ Para obter mais informações, consulte [***Novidades do lançamento do Adobe Le
 
 Os seguintes recursos não são suportados:
 
-* Aplicativo Social: um aluno é redirecionado para a experiência Clássica se clicar no widget Social na Página inicial
-* Configurações de perfil/Editar perfil
-* Exibir medalha/habilidades
-* Quadro de classificação: um aluno é redirecionado para a experiência Clássica se clicar no widget Quadro de classificação na Página inicial
-* Baixando ajudas de tarefa.
-* Opções de filtro na Pesquisa.
+&#x200B;* Aplicativo Social: um aluno é redirecionado para a experiência Clássica se clicar no widget Social na Página inicial
+&#x200B;* Configurações de perfil/Editar perfil
+&#x200B;* Exibir medalha/habilidades
+&#x200B;* Quadro de classificação: um aluno é redirecionado para a experiência Clássica se clicar no widget Quadro de classificação na Página inicial
+&#x200B;* Baixando ajudas de tarefa.
+&#x200B;* Opções de filtro na Pesquisa.
 
 ### Erros corrigidos nesta atualização {#bug-fixes-1}
 
-* Não é possível excluir uma pasta de conteúdo se ela contiver conteúdo excluído.
-* O Plano de aprendizado permite que os administradores configurem um curso com instância automática. Para um curso com o módulo de envio de atividade, as informações do professor não estavam sendo configuradas corretamente anteriormente. Agora o Learning Manager atribui o professor da instância padrão a essa instância automática automaticamente.
-* Uma medalha personalizada com um rótulo de catálogo com um espaço não permite que o pdf seja baixado conforme esperado.
-* Um relatório baixado do painel é diferente do e-mail de assinatura recebido para o relatório do painel.
-* Uma transcrição do aluno não tem dados atualizados para uma certificação periódica.
-* Após iniciar um curso, se você deixar o curso expirar, o número de tentativas não será exibido conforme esperado. Também, há uma tela em branco às vezes quando você tenta um curso várias vezes.
-* Há o erro 5xx após o carregamento de um módulo.
-* Um quadro social privado não é visível para todos os alunos.
+&#x200B;* Não é possível excluir uma pasta de conteúdo se ela contiver conteúdo excluído.
+&#x200B;* O Plano de aprendizado permite que os administradores configurem um curso com instância automática. Para um curso com o módulo de envio de atividade, as informações do professor não estavam sendo configuradas corretamente anteriormente. Agora o Learning Manager atribui o professor da instância padrão a essa instância automática automaticamente.
+&#x200B;* Uma medalha personalizada com um rótulo de catálogo com um espaço não permite que o pdf seja baixado conforme esperado.
+&#x200B;* Um relatório baixado do painel é diferente do e-mail de assinatura recebido para o relatório do painel.
+&#x200B;* Uma transcrição do aluno não tem dados atualizados para uma certificação periódica.
+&#x200B;* Após iniciar um curso, se você deixar o curso expirar, o número de tentativas não será exibido conforme esperado. Também, há uma tela em branco às vezes quando você tenta um curso várias vezes.
+&#x200B;* Há o erro 5xx após o carregamento de um módulo.
+&#x200B;* Um quadro social privado não é visível para todos os alunos.
 
 ### Problemas conhecidos desta atualização {#known-issues-1}
 
@@ -1769,23 +1825,23 @@ Data de lançamento: 23 de setembro de 2020
 
 **Biblioteca de conteúdo**
 
-* Na biblioteca de conteúdo, desativar um conteúdo não remove o conteúdo na guia **Publicado**. Quando você atualiza a página, o conteúdo retirado não é mais exibido.
-* Ao criar uma pasta de conteúdo, o campo **Nome** não é marcado como obrigatório, o que na verdade é um campo obrigatório.
+&#x200B;* Na biblioteca de conteúdo, desativar um conteúdo não remove o conteúdo na guia **Publicado**. Quando você atualiza a página, o conteúdo retirado não é mais exibido.
+&#x200B;* Ao criar uma pasta de conteúdo, o campo **Nome** não é marcado como obrigatório, o que na verdade é um campo obrigatório.
 
 **Solicitação do cliente**
 
-* Para identificar todos os cursos nos quais cada aluno está inscrito e se ele o concluiu, inclua os seguintes campos no painel, Relatório de assinatura:
+&#x200B;* Para identificar todos os cursos nos quais cada aluno está inscrito e se ele o concluiu, inclua os seguintes campos no painel, Relatório de assinatura:
 
-  * UUID
-  * Endereço de e-mail
+  &#x200B;* UUID
+  &#x200B;* Endereço de e-mail
 
 **Transcrição do aluno**
 
-* Gerar uma transcrição do aluno no idioma indonésio estava causando erros.
+&#x200B;* Gerar uma transcrição do aluno no idioma indonésio estava causando erros.
 
 **Pesquisa**
 
-* Não é possível pesquisar um curso específico. Esse problema foi corrigido.
+&#x200B;* Não é possível pesquisar um curso específico. Esse problema foi corrigido.
 
 +++
 
@@ -1833,127 +1889,127 @@ Data de lançamento: 23 de agosto de 2020
 
 Esta versão concentra-se no seguinte:
 
-* Melhorias nos relatórios
-* Pastas de conteúdo privadas
-* FTP personalizado
-* Suporte a legendas para vídeos
-* Melhorias no Power BI
-* Melhorias no feedback
-* APIs novas e alteradas
-* Alterações na política de retenção de dados
-* ...e muito mais
+&#x200B;* Melhorias nos relatórios
+&#x200B;* Pastas de conteúdo privadas
+&#x200B;* FTP personalizado
+&#x200B;* Suporte a legendas para vídeos
+&#x200B;* Melhorias no Power BI
+&#x200B;* Melhorias no feedback
+&#x200B;* APIs novas e alteradas
+&#x200B;* Alterações na política de retenção de dados
+&#x200B;* ...e muito mais
 
 Para obter mais informações, consulte [***Novidades do lançamento do Adobe Learning Manager em agosto de 2020***](../whats-new.md).
 
 ### Notas sobre esta versão {#notes}
 
-* Gerar uma transcrição do aluno (~1 GB) leva menos de 15 minutos.
-* Em versões anteriores do Learning Manager, Pontuação do questionário das colunas de transcrição do aluno e Pontuação do questionário mais alta usadas para fornecer a pontuação e a pontuação máxima no formato 25/100. Para oferecer suporte a fim de uma melhor legibilidade e análise, a pontuação do questionário agora também é exportada como colunas separadas - **Pontuação_no_quiz, Pontuação_máxima_no_quiz, Pontuação_mais_alta_no_Quiz e Maior_pontuação_máxima_no_quiz**. Isso permite que os administradores façam cálculos e análises rápidamente.
+&#x200B;* Gerar uma transcrição do aluno (~1 GB) leva menos de 15 minutos.
+&#x200B;* Em versões anteriores do Learning Manager, Pontuação do questionário das colunas de transcrição do aluno e Pontuação do questionário mais alta usadas para fornecer a pontuação e a pontuação máxima no formato 25/100. Para oferecer suporte a fim de uma melhor legibilidade e análise, a pontuação do questionário agora também é exportada como colunas separadas - **Pontuação_no_quiz, Pontuação_máxima_no_quiz, Pontuação_mais_alta_no_Quiz e Maior_pontuação_máxima_no_quiz**. Isso permite que os administradores façam cálculos e análises rápidamente.
 
 ### Erros corrigidos nesta atualização {#bug-fixes-2}
 
 **Conector**
 
-* Um aluno não pode participar de duas reuniões diferentes ao mesmo tempo, que são criadas por dois autores diferentes.
-* Clicar na opção Gerenciar conexões do cartão Adobe Connect leva até a página de conexão FTP.
-* Uma sincronização FTP programada é encerrada com uma exceção.
-* Há problemas relacionados a senha ao se conectar ao Exavault.
+&#x200B;* Um aluno não pode participar de duas reuniões diferentes ao mesmo tempo, que são criadas por dois autores diferentes.
+&#x200B;* Clicar na opção Gerenciar conexões do cartão Adobe Connect leva até a página de conexão FTP.
+&#x200B;* Uma sincronização FTP programada é encerrada com uma exceção.
+&#x200B;* Há problemas relacionados a senha ao se conectar ao Exavault.
 
 **Curso**
 
-* Você pode criar um módulo VC sem selecionar qualquer sistema de conferência. Como efeito colateral, o processo de criação de um curso gera o Erro 500.
-* Um aluno não pode baixar recursos mesmo que esteja inscrito em um curso que foi duplicado.
-* Ao visualizar um curso como aluno, um administrador ou autor não pode baixar recursos a menos que esteja inscrito no curso.
+&#x200B;* Você pode criar um módulo VC sem selecionar qualquer sistema de conferência. Como efeito colateral, o processo de criação de um curso gera o Erro 500.
+&#x200B;* Um aluno não pode baixar recursos mesmo que esteja inscrito em um curso que foi duplicado.
+&#x200B;* Ao visualizar um curso como aluno, um administrador ou autor não pode baixar recursos a menos que esteja inscrito no curso.
 
 **Aplicativo de dispositivo**
 
-* Em casos específicos de inscrições, o gráfico de rosca em Meu aprendizado pendente exibe valores diferentes do aplicativo do aluno do navegador para o aplicativo móvel.
+&#x200B;* Em casos específicos de inscrições, o gráfico de rosca em Meu aprendizado pendente exibe valores diferentes do aplicativo do aluno do navegador para o aplicativo móvel.
 
 **Certificação**
 
-* O status do filtro de relatório não funciona como esperado ao tentar baixar um relatório do painel para certificação.
+&#x200B;* O status do filtro de relatório não funciona como esperado ao tentar baixar um relatório do painel para certificação.
 
 **Pesquisa**
 
-* Na página do catálogo do aluno, quando você tenta pesquisar um curso pela nota, nenhum resultado de pesquisa é exibido.
+&#x200B;* Na página do catálogo do aluno, quando você tenta pesquisar um curso pela nota, nenhum resultado de pesquisa é exibido.
 
 **SCORM**
 
-* Para alguns conteúdos, o player do SCORM exibe uma tela em branco.
-* Um conteúdo do Storyline é identificado como um conteúdo do Captivate, se o projeto do Storyline publicado tiver um objeto da Web apontando para a saída publicada do Captivate.
-* O conteúdo do SCORM não pode ser iniciado devido ao url incorreto.
+&#x200B;* Para alguns conteúdos, o player do SCORM exibe uma tela em branco.
+&#x200B;* Um conteúdo do Storyline é identificado como um conteúdo do Captivate, se o projeto do Storyline publicado tiver um objeto da Web apontando para a saída publicada do Captivate.
+&#x200B;* O conteúdo do SCORM não pode ser iniciado devido ao url incorreto.
 
 **Função personalizada**
 
-* Em determinadas situações, um administrador personalizado não pode ver a lista completa de objetos de aprendizado.
-* Um administrador personalizado não pode procurar por um programa de aprendizado ou certificação nos relatórios do painel.
-* Um administrador personalizado não pode procurar por um gerente em um painel.
-* As transcrições do aluno geradas por um administrador personalizado não contêm dados de usuários excluídos.
-* Um autor ou administrador personalizado não pode duplicar um programa de aprendizado ou um curso ou certificação.
+&#x200B;* Em determinadas situações, um administrador personalizado não pode ver a lista completa de objetos de aprendizado.
+&#x200B;* Um administrador personalizado não pode procurar por um programa de aprendizado ou certificação nos relatórios do painel.
+&#x200B;* Um administrador personalizado não pode procurar por um gerente em um painel.
+&#x200B;* As transcrições do aluno geradas por um administrador personalizado não contêm dados de usuários excluídos.
+&#x200B;* Um autor ou administrador personalizado não pode duplicar um programa de aprendizado ou um curso ou certificação.
 
 **Relatórios**
 
-* A coluna Tipo em uma transcrição do aluno exibe o valor como curso para os cursos que fazem parte de uma certificação, se o aluno não estiver inscrito na certificação.
+&#x200B;* A coluna Tipo em uma transcrição do aluno exibe o valor como curso para os cursos que fazem parte de uma certificação, se o aluno não estiver inscrito na certificação.
 
 **Habilidades**
 
-* Ao adicionar uma habilidade para um curso, há alguns problemas ao procurar por uma habilidade.
+&#x200B;* Ao adicionar uma habilidade para um curso, há alguns problemas ao procurar por uma habilidade.
 
 **Gamificação**
 
-* Se muitos usuários forem considerados confidenciais, ao clicar na guia confidencial do aluno no Edge e Internet Explorer, o navegador se comporta de forma inesperada.
-* Quando a frequência de um critério é alterada, os pontos calculados com frequência mais antiga são adicionados ao cálculo atual.
+&#x200B;* Se muitos usuários forem considerados confidenciais, ao clicar na guia confidencial do aluno no Edge e Internet Explorer, o navegador se comporta de forma inesperada.
+&#x200B;* Quando a frequência de um critério é alterada, os pontos calculados com frequência mais antiga são adicionados ao cálculo atual.
 
 **Administrador**
 
-* Os alunos não podem ser marcados como participantes se a instância do curso mapeada para um programa de aprendizado for alterada.
+&#x200B;* Os alunos não podem ser marcados como participantes se a instância do curso mapeada para um programa de aprendizado for alterada.
 
 **Modelos de e-mail**
 
-* Para Programas de aprendizado e Certificações, o botão alternar no modelo de e-mail está ausente.
+&#x200B;* Para Programas de aprendizado e Certificações, o botão alternar no modelo de e-mail está ausente.
 
 **Biblioteca de conteúdo**
 
-* O conteúdo do SCORM não é iniciado conforme esperado devido ao url incorreto.
+&#x200B;* O conteúdo do SCORM não é iniciado conforme esperado devido ao url incorreto.
 
 **Transcrições do aluno**
 
-* Ao gerar transcrições do aluno, se você adicionar um aluno excluído na caixa de entrada Selecionar alunos e ativar a opção &quot;Incluir dados de alunos excluídos&quot; em Avançado, a página se comporta de forma inesperada.
+&#x200B;* Ao gerar transcrições do aluno, se você adicionar um aluno excluído na caixa de entrada Selecionar alunos e ativar a opção &quot;Incluir dados de alunos excluídos&quot; em Avançado, a página se comporta de forma inesperada.
 
 **Pesquisa**
 
-* Não é possível pesquisar um curso usando as suas notas.
+&#x200B;* Não é possível pesquisar um curso usando as suas notas.
 
 **Relatórios do Excel**
 
-* Se um relatório de trilha de auditoria do usuário levar mais de uma hora para baixar devido a dados grandes ou processamento lento, a conexão expira e o relatório nunca é baixado.
-* Em uma transcrição do aluno, a coluna Tipo é exibida como &quot;Curso&quot; em vez de &quot;Certificação&quot; para os cursos que fazem parte da certificação, se o aluno não estiver inscrito na certificação.
+&#x200B;* Se um relatório de trilha de auditoria do usuário levar mais de uma hora para baixar devido a dados grandes ou processamento lento, a conexão expira e o relatório nunca é baixado.
+&#x200B;* Em uma transcrição do aluno, a coluna Tipo é exibida como &quot;Curso&quot; em vez de &quot;Certificação&quot; para os cursos que fazem parte da certificação, se o aluno não estiver inscrito na certificação.
 
 **Aplicativo do aluno**
 
-* Um aluno pode realizar um curso solicitado de forma não ordenada acessando os cursos por meio de um e-mail de cancelamento de inscrição ou de uma notificação de cancelamento de inscrição.
-* Um aluno não recebe os e-mails de lembrete de sessão conforme esperado.
-* Um curso não é iniciado como esperado se um determinado módulo estiver ausente.
+&#x200B;* Um aluno pode realizar um curso solicitado de forma não ordenada acessando os cursos por meio de um e-mail de cancelamento de inscrição ou de uma notificação de cancelamento de inscrição.
+&#x200B;* Um aluno não recebe os e-mails de lembrete de sessão conforme esperado.
+&#x200B;* Um curso não é iniciado como esperado se um determinado módulo estiver ausente.
 
 **Comunicados**
 
-* Se um comunicado contém a marca `<a>`, ele não é criado conforme esperado.
+&#x200B;* Se um comunicado contém a marca `<a>`, ele não é criado conforme esperado.
 
 **A conta**
 
-* Em alguns casos, as contas são desativadas mesmo que uma conta tenha uma OC válida.
+&#x200B;* Em alguns casos, as contas são desativadas mesmo que uma conta tenha uma OC válida.
 
 **API**
 
-* Se clicar em Gerenciar conexões no cartão do Adobe Connect, você será redirecionado para a página Conexão FTP.
-* Em alguns casos, o administrador do Connect recebe alertas incorretos.
-* A migração do LinkedIn Learning produz alguns erros.
+&#x200B;* Se clicar em Gerenciar conexões no cartão do Adobe Connect, você será redirecionado para a página Conexão FTP.
+&#x200B;* Em alguns casos, o administrador do Connect recebe alertas incorretos.
+&#x200B;* A migração do LinkedIn Learning produz alguns erros.
 
 ### Problemas conhecidos desta atualização {#known-issues-2}
 
 **Relatórios do painel**
 
-* Quando um Programa de aprendizado de certificação é excluído, o relatório Treinamento ativo exibe os cursos presentes no Programa de aprendizado ou na certificação, mesmo que o Programa de aprendizado ou a certificação não tenham inscrições.
+&#x200B;* Quando um Programa de aprendizado de certificação é excluído, o relatório Treinamento ativo exibe os cursos presentes no Programa de aprendizado ou na certificação, mesmo que o Programa de aprendizado ou a certificação não tenham inscrições.
 
 +++
 
@@ -1983,8 +2039,8 @@ Se você não quiser ler o anúncio nesse momento, poderá optar por ler o anún
 
 ### Erros corrigidos nesta atualização {#bugsfixedinthisupdate}
 
-* No iOS, um podcast para de ser reproduzido quando a tela estiver bloqueada. O problema foi corrigido e o áudio será reproduzido mesmo quando a tela estiver bloqueada.
-* Se você fizer um curso no aplicativo para dispositivos, o slide de resultado pode às vezes aparecer em branco. Esse problema foi corrigido nesta atualização.
+&#x200B;* No iOS, um podcast para de ser reproduzido quando a tela estiver bloqueada. O problema foi corrigido e o áudio será reproduzido mesmo quando a tela estiver bloqueada.
+&#x200B;* Se você fizer um curso no aplicativo para dispositivos, o slide de resultado pode às vezes aparecer em branco. Esse problema foi corrigido nesta atualização.
 
 +++
 
@@ -1994,13 +2050,13 @@ Data de lançamento: 04 de abril de 2020
 
 O lançamento do Learning Manager em abril de 2020 focou no seguinte:
 
-* [Aprimoramentos do desempenho](../whats-new.md#performance)
-* [Treinamento em sala de aula](../whats-new.md#classroom)
-* [Fluxos de trabalho do gerente](../whats-new.md#manager)
-* [Aprendizado social](../whats-new.md#social)
-* [Relatórios](../whats-new.md#reporting)
-* [Experiência do aluno](../whats-new.md#learner)
-* [Alterações a nível da API](../whats-new.md#api)
+&#x200B;* [Aprimoramentos do desempenho](../whats-new.md#performance)
+&#x200B;* [Treinamento em sala de aula](../whats-new.md#classroom)
+&#x200B;* [Fluxos de trabalho do gerente](../whats-new.md#manager)
+&#x200B;* [Aprendizado social](../whats-new.md#social)
+&#x200B;* [Relatórios](../whats-new.md#reporting)
+&#x200B;* [Experiência do aluno](../whats-new.md#learner)
+&#x200B;* [Alterações a nível da API](../whats-new.md#api)
 
 Para mais informações, consulte [***Novidades do lançamento do Learning Manager em abril de 2020***](../whats-new.md).
 
@@ -2024,10 +2080,10 @@ O Learning Manager agora inicia o aplicativo do dispositivo assim que você clic
 
 Aqui estão alguns casos de uso, que serão suportados nesta atualização.
 
-* Clique no URL de um treinamento recebido por e-mail.
-* URLs de treinamento padrão que aparecem nos modelos de e-mail.
-* URL da conta que aparece nos modelos de e-mail.
-* URLs de acesso a Meus aprendizado e ao Catálogo.
+&#x200B;* Clique no URL de um treinamento recebido por e-mail.
+&#x200B;* URLs de treinamento padrão que aparecem nos modelos de e-mail.
+&#x200B;* URL da conta que aparece nos modelos de e-mail.
+&#x200B;* URLs de acesso a Meus aprendizado e ao Catálogo.
 
 Além disso, qualquer URL com um domínio *learningmanager.adobe.com* é aberto no aplicativo do dispositivo.
 
@@ -2041,10 +2097,10 @@ Para obter mais informações, consulte [***Carregar ativos no certificado exter
 
 ### Problemas corrigidos nesta versão {#issuesfixedinthisrelease}
 
-* O usuário não consegue fazer logon no aplicativo do dispositivo se o e-mail contiver caracteres especiais.
-* Ao rolar, o ícone do Objeto de aprendizado pisca quando você estiver na visualização de lista.
-* Agora você pode visualizar todas as notificações por push sem pressionar o botão de seta para baixo e ver as mensagens uma de cada vez.
-* Ao clicar em uma notificação de uma publicação que foi aceita ou rejeitada na curadoria, uma página em branco é aberta no aplicativo. Nesta atualização, a página do painel é aberta.
+&#x200B;* O usuário não consegue fazer logon no aplicativo do dispositivo se o e-mail contiver caracteres especiais.
+&#x200B;* Ao rolar, o ícone do Objeto de aprendizado pisca quando você estiver na visualização de lista.
+&#x200B;* Agora você pode visualizar todas as notificações por push sem pressionar o botão de seta para baixo e ver as mensagens uma de cada vez.
+&#x200B;* Ao clicar em uma notificação de uma publicação que foi aceita ou rejeitada na curadoria, uma página em branco é aberta no aplicativo. Nesta atualização, a página do painel é aberta.
 
 +++
 
@@ -2092,10 +2148,10 @@ Agora, os alunos podem visualizar um anúncio em tela cheia, em vez de em uma li
 
 O Adobe Learning Manager agora permite que você personalize sua conta para proporcionar uma experiência mais completa aos seus usuários. Veja uma lista de elementos que podem ser personalizados. Contate o [suporte do Learning Manager](mailto:learningmanagersupport@adobe.com)para fazer essas alterações.
 
-* Cores do cartão de treinamento.
-* Ícone Progresso
-* Imagem do ponteiro do mouse
-* Fonte
+&#x200B;* Cores do cartão de treinamento.
+&#x200B;* Ícone Progresso
+&#x200B;* Imagem do ponteiro do mouse
+&#x200B;* Fonte
 
 Para obter mais informações, consulte [***Personalizar sua conta***](../administrators/feature-summary/themes.md#customize).
 
@@ -2135,24 +2191,24 @@ A API do aluno agora permite a busca de todos os pontos do aluno e de gamificaç
 
 Atualmente, apenas os administradores podem adicionar usuários a uma lista Não perturbe através da interface do usuário. Após esta versão, o aluno poderá definir essas permissões por meio da API, desde que essa API seja ativada pelo administrador. A ativação da API em uma conta requer uma configuração de backend. Essa API permite que o aluno edite as permissões abaixo relacionadas aos e-mails.
 
-* Direcionar e-mails ao aluno
-* E-mails de escalonamento para gerentes de alunos
-* Relatórios diretos do Sobre
-* Sobre relatórios de nível superior
+&#x200B;* Direcionar e-mails ao aluno
+&#x200B;* E-mails de escalonamento para gerentes de alunos
+&#x200B;* Relatórios diretos do Sobre
+&#x200B;* Sobre relatórios de nível superior
 
 ### Problemas corrigidos nesta versão {#Issuesfixedinthisrelease-1}
 
-* Somente usuários pertencentes a um grupo de usuários específico devem receber anúncios destinados a eles. Outros usuários não devem receber os anúncios.
-* O reprodutor exibe um ícone giratório de carregamento antes da exibição do conteúdo.
-* Os metadados do usuário nos relatórios causam uma exceção Null Pointer.
-* Ao adicionar um professor para uma instância padrão do curso Connect VC, a mensagem *&quot;Sem sessão para este módulo&quot;* é exibida na página Instância do curso do aplicativo do administrador.
+&#x200B;* Somente usuários pertencentes a um grupo de usuários específico devem receber anúncios destinados a eles. Outros usuários não devem receber os anúncios.
+&#x200B;* O reprodutor exibe um ícone giratório de carregamento antes da exibição do conteúdo.
+&#x200B;* Os metadados do usuário nos relatórios causam uma exceção Null Pointer.
+&#x200B;* Ao adicionar um professor para uma instância padrão do curso Connect VC, a mensagem *&quot;Sem sessão para este módulo&quot;* é exibida na página Instância do curso do aplicativo do administrador.
 
-* A exportação de uma transcrição do aluno gera um comportamento inesperado durante uma transferência FTP.
-* O nome de um autor é exibido incorretamente nos cursos de um programa de aprendizado.
-* As alterações na terminologia do produto da ajuda de tarefa não refletem conforme o esperado.
-* O nome de um módulo fica truncado se o nome for longo e for exibido no modo retrato móvel.
-* Não é possível criar uma instância para um curso mais antigo do Connect após atualizar a instância padrão com a implementação mais antiga do Connect.
-* Um professor recebe um convite de calendário mesmo antes da publicação do curso.
+&#x200B;* A exportação de uma transcrição do aluno gera um comportamento inesperado durante uma transferência FTP.
+&#x200B;* O nome de um autor é exibido incorretamente nos cursos de um programa de aprendizado.
+&#x200B;* As alterações na terminologia do produto da ajuda de tarefa não refletem conforme o esperado.
+&#x200B;* O nome de um módulo fica truncado se o nome for longo e for exibido no modo retrato móvel.
+&#x200B;* Não é possível criar uma instância para um curso mais antigo do Connect após atualizar a instância padrão com a implementação mais antiga do Connect.
+&#x200B;* Um professor recebe um convite de calendário mesmo antes da publicação do curso.
 
 +++
 
@@ -2228,8 +2284,8 @@ Para obter mais informações, consulte [***Suporte a sala permanente no Adobe C
 
 O autor ou administrador pode criar uma sessão com uma duração de 0. Isso é possível quando:
 
-* A data de início e/ou a data de término estão vazias.
-* A hora de início e/ou a hora de término estão vazias.
+&#x200B;* A data de início e/ou a data de término estão vazias.
+&#x200B;* A hora de início e/ou a hora de término estão vazias.
 
 Nesta atualização, a **mensagem de aviso que afirma que a duração de uma sessão é zero** é mostrada ao administrador, gerente ou professor.
 
@@ -2237,9 +2293,9 @@ Nesta atualização, a **mensagem de aviso que afirma que a duração de uma ses
 
 Se um autor cria um curso adicionando um módulo de sala de aula ou de sala de aula virtual, o autor pode:
 
-* Não adicionar uma data/hora de início/término.
-* Adicionar uma data, mas não hora de início/término.
-* Adicionar uma data e uma hora de início.
+&#x200B;* Não adicionar uma data/hora de início/término.
+&#x200B;* Adicionar uma data, mas não hora de início/término.
+&#x200B;* Adicionar uma data e uma hora de início.
 
 Em qualquer uma das situações acima, quando um administrador, gerente ou professor marca a participação ou a conclusão, os valores da data de início e da data de término da sessão são igualados, o que significa que em uma transcrição do aluno, o valor do tempo de aprendizado gasto é exibido como zero.
 
@@ -2249,45 +2305,45 @@ Nesta atualização, uma **mensagem de aviso que indica que os dados da sessão 
 
 **Aplicativo do aluno**
 
-* Um aluno não pode visualizar um curso em um Programa de aprendizado se o curso tiver sido criado por um autor externo.
-* Se um administrador adiciona uma publicação a um painel externo, a solicitação de curadoria vai para um SME interno, que tem essa habilidade atribuída a ele.
-* Um aluno não pode visualizar o botão Iniciar ou Continuar depois de se inscrever nos cursos do LinkedIn.
+&#x200B;* Um aluno não pode visualizar um curso em um Programa de aprendizado se o curso tiver sido criado por um autor externo.
+&#x200B;* Se um administrador adiciona uma publicação a um painel externo, a solicitação de curadoria vai para um SME interno, que tem essa habilidade atribuída a ele.
+&#x200B;* Um aluno não pode visualizar o botão Iniciar ou Continuar depois de se inscrever nos cursos do LinkedIn.
 
 **E-mail**
 
-* Quando havia um grande número de usuários em uma lista de DNDs de e-mail, a página **Configurações** era carregada muito lentamente. Nesta atualização, é adicionada a paginação a uma lista de DNDs de e-mail.
-* Um professor recebe atualizações/e-mails de sessões das quais não faz parte. Nesta atualização, isso foi corrigido.
+&#x200B;* Quando havia um grande número de usuários em uma lista de DNDs de e-mail, a página **Configurações** era carregada muito lentamente. Nesta atualização, é adicionada a paginação a uma lista de DNDs de e-mail.
+&#x200B;* Um professor recebe atualizações/e-mails de sessões das quais não faz parte. Nesta atualização, isso foi corrigido.
 
 **Habilidades**
 
-* Em uma transcrição do aluno, o tipo de valor de uma habilidade é exibido incorretamente como texto.
+&#x200B;* Em uma transcrição do aluno, o tipo de valor de uma habilidade é exibido incorretamente como texto.
 
 **Aplicativo para dispositivos móveis**
 
-* No aplicativo móvel, um aluno podia visualizar e se inscrever em uma instância do Plano de aprendizado, o que não era o comportamento pretendido. Nesta atualização, isso foi corrigido.
+&#x200B;* No aplicativo móvel, um aluno podia visualizar e se inscrever em uma instância do Plano de aprendizado, o que não era o comportamento pretendido. Nesta atualização, isso foi corrigido.
 
 **Funções personalizadas**
 
-* Como administrador personalizado, você não pode pesquisar por um gerente em um relatório do painel.
+&#x200B;* Como administrador personalizado, você não pode pesquisar por um gerente em um relatório do painel.
 
 **Várias tentativas**
 
-* Em algumas situações, alguns módulos do curso não são exibidos aos alunos.
+&#x200B;* Em algumas situações, alguns módulos do curso não são exibidos aos alunos.
 
 **Inscrição externa**
 
-* Não é possível alterar o perfil externo de um usuário se as vagas dos perfis principais foram preenchidas.
+&#x200B;* Não é possível alterar o perfil externo de um usuário se as vagas dos perfis principais foram preenchidas.
 
 ### Problemas conhecidos nesta versão {#knownissuesinthisrelease}
 
-* Nos navegadores mencionados abaixo, ao passar o mouse sobre o painel esquerdo, o texto aparece após um pequeno atraso.
+&#x200B;* Nos navegadores mencionados abaixo, ao passar o mouse sobre o painel esquerdo, o texto aparece após um pequeno atraso.
 
-  * Edge 42.17134.1.0
-  * Edge 44.17763.1.0
-  * Internet Explorer 11.1006
-  * Internet Explorer 11.615
+  &#x200B;* Edge 42.17134.1.0
+  &#x200B;* Edge 44.17763.1.0
+  &#x200B;* Internet Explorer 11.1006
+  &#x200B;* Internet Explorer 11.615
 
-* Um aluno pode entrar na sala de reuniões do Connect antes e depois da sessão.
+&#x200B;* Um aluno pode entrar na sala de reuniões do Connect antes e depois da sessão.
 
 +++
 
@@ -2301,11 +2357,11 @@ Data de lançamento: 26 de agosto de 2019
 
 **Aprimoramentos do desempenho**
 
-* A importação de usuários no sistema é mais rápida em comparação às versões anteriores. Há uma melhoria importante ao importar grandes dados do usuário.
-* Para gerentes e administradores, as opções na lista suspensa Configuração do relatório foram modificadas para carregar os dados sob demanda.
-* O desempenho da API foi melhorado. Muitas APIs devem ter agora um melhor tempo de resposta.
-* O tempo necessário para gerar transcrições do aluno melhorou.
-* Não há atraso nas páginas nas quais os alunos internos e externos estão listados, especialmente quando há um grande número de usuários.
+&#x200B;* A importação de usuários no sistema é mais rápida em comparação às versões anteriores. Há uma melhoria importante ao importar grandes dados do usuário.
+&#x200B;* Para gerentes e administradores, as opções na lista suspensa Configuração do relatório foram modificadas para carregar os dados sob demanda.
+&#x200B;* O desempenho da API foi melhorado. Muitas APIs devem ter agora um melhor tempo de resposta.
+&#x200B;* O tempo necessário para gerar transcrições do aluno melhorou.
+&#x200B;* Não há atraso nas páginas nas quais os alunos internos e externos estão listados, especialmente quando há um grande número de usuários.
 
 **Privilégios especiais de usuário**
 
@@ -2313,9 +2369,9 @@ Um administrador pode conceder privilégios especiais a um grupo de usuários, d
 
 **Alterações na interface do usuário**
 
-* Na caixa de diálogo **Adicionar relatório**, os seletores de **Intervalo de tempo** e **Filtros** aparecem como seções separadas, que estão no estado contraído, por padrão. Para obter mais informações, consulte [***Criar relatórios***](../administrators/feature-summary/reports.md#report).
+&#x200B;* Na caixa de diálogo **Adicionar relatório**, os seletores de **Intervalo de tempo** e **Filtros** aparecem como seções separadas, que estão no estado contraído, por padrão. Para obter mais informações, consulte [***Criar relatórios***](../administrators/feature-summary/reports.md#report).
 
-* Na caixa de diálogo **Adicionar relatórios** de um grupo de usuários, você pode usar a pesquisa com preenchimento automático para escolher um único ou vários grupos de usuários. Para obter mais informações, consulte [***Relatórios do grupo de usuários***](../administrators/feature-summary/reports.md#user-group-reporting).
+&#x200B;* Na caixa de diálogo **Adicionar relatórios** de um grupo de usuários, você pode usar a pesquisa com preenchimento automático para escolher um único ou vários grupos de usuários. Para obter mais informações, consulte [***Relatórios do grupo de usuários***](../administrators/feature-summary/reports.md#user-group-reporting).
 
 **Alterações nos valores das colunas Tempo**
 
@@ -2325,26 +2381,26 @@ Nas transcrições do aluno, nas colunas de tempo, os minutos são arredondados 
 
 **Painel do aluno**
 
-* Um calendário de aprendizagem exibia o status **Inscrito na sessão** mesmo quando um gerente ainda não tinha aprovado a inscrição. Agora o status correto **Pendente** é exibido ao aluno até o gerente aprovar a inscrição.
+&#x200B;* Um calendário de aprendizagem exibia o status **Inscrito na sessão** mesmo quando um gerente ainda não tinha aprovado a inscrição. Agora o status correto **Pendente** é exibido ao aluno até o gerente aprovar a inscrição.
 
-* Em um caso específico, em uma sessão, o calendário de aprendizagem exibia o status **Inscrito** mesmo se o aluno tivesse concluído o curso.
+&#x200B;* Em um caso específico, em uma sessão, o calendário de aprendizagem exibia o status **Inscrito** mesmo se o aluno tivesse concluído o curso.
 
 **Painel do gerente**
 
-* Os gerentes não podiam controlar os treinamentos de conformidade da sua equipe se os membros da equipe tivessem se inscrito através dos Planos de aprendizado.
+&#x200B;* Os gerentes não podiam controlar os treinamentos de conformidade da sua equipe se os membros da equipe tivessem se inscrito através dos Planos de aprendizado.
 
 **Pesquisa**
 
-* Na visualização do professor, não era possível procurar um aluno.
+&#x200B;* Na visualização do professor, não era possível procurar um aluno.
 
 **Interface do usuário**
 
-* Em uma conta com alterações de taxonomia, as alterações não eram refletidas conforme esperado nas notificações.
+&#x200B;* Em uma conta com alterações de taxonomia, as alterações não eram refletidas conforme esperado nas notificações.
 
 ### Problemas conhecidos nesta versão {#Knownissuesinthisrelease-1}
 
-* Usando a barra de pesquisa, não é possível pesquisar por usuários excluídos na lista de usuários externos. Como solução alternativa, role para baixo para exibir a lista de todos os usuários e localize o usuário necessário manualmente.
-* Se um usuário especial publicar em um painel externo, a solicitação de curadoria é recebida pelos SMEs no escopo seu escopo.
+&#x200B;* Usando a barra de pesquisa, não é possível pesquisar por usuários excluídos na lista de usuários externos. Como solução alternativa, role para baixo para exibir a lista de todos os usuários e localize o usuário necessário manualmente.
+&#x200B;* Se um usuário especial publicar em um painel externo, a solicitação de curadoria é recebida pelos SMEs no escopo seu escopo.
 
 +++
 
@@ -2360,7 +2416,7 @@ Data de lançamento: 02 de agosto de 2019
 
 ### Problemas conhecidos nesta versão {#Knownissuesinthisrelease-2}
 
-* Os links de rodapé personalizados não aparecem para as funções do administrador de integração.
+&#x200B;* Os links de rodapé personalizados não aparecem para as funções do administrador de integração.
 
 +++
 
@@ -2429,23 +2485,23 @@ Especificações CSV atualizadas que você pode usar para mapear os dados existe
 
 **API do Learning Manager**
 
-* Quando um perfil externo é adicionado pelo método POST da API *externalProfile*, o e-mail de boas-vindas não é exibido.
+&#x200B;* Quando um perfil externo é adicionado pelo método POST da API *externalProfile*, o e-mail de boas-vindas não é exibido.
 
 **Painel do gerente**
 
-* Se o gerente selecionasse a opção **Neste trimestre**, os detalhes de inscrição, andamento e conclusão do objeto de aprendizado não eram exibidos. Nesta versão, os detalhes são exibidos como esperado.
+&#x200B;* Se o gerente selecionasse a opção **Neste trimestre**, os detalhes de inscrição, andamento e conclusão do objeto de aprendizado não eram exibidos. Nesta versão, os detalhes são exibidos como esperado.
 
 **Alunos em lista de espera**
 
-* Nas versões anteriores do Learning Manager, depois do gerente inscrever os alunos, se um instrutor quisesse consultar os alunos em listas de espera, aparecia uma mensagem de erro. Nesta versão, um professor pode navegar na lista de alunos em lista de espera sem encontrar qualquer mensagem de erro.
+&#x200B;* Nas versões anteriores do Learning Manager, depois do gerente inscrever os alunos, se um instrutor quisesse consultar os alunos em listas de espera, aparecia uma mensagem de erro. Nesta versão, um professor pode navegar na lista de alunos em lista de espera sem encontrar qualquer mensagem de erro.
 
 **Visão geral da certificação**
 
-* Quando um autor havia criado um curso e uma certificação com descrição e visão geral do conteúdo, caso um aluno acessasse a página do curso, a visão geral não era exibida como esperado. No entanto, o conteúdo estava visível nas páginas de visualização dos alunos nos aplicativos de Administrador e de Autor. Nesta versão, a visão geral aparece corretamente no aplicativo do Aluno.
+&#x200B;* Quando um autor havia criado um curso e uma certificação com descrição e visão geral do conteúdo, caso um aluno acessasse a página do curso, a visão geral não era exibida como esperado. No entanto, o conteúdo estava visível nas páginas de visualização dos alunos nos aplicativos de Administrador e de Autor. Nesta versão, a visão geral aparece corretamente no aplicativo do Aluno.
 
 **Catálogo**
 
-* Em cada catálogo, o aluno pode exibir todos os objetos de aprendizado. Em versões anteriores, catálogos sem objetos de aprendizado ainda apareciam no início de outros catálogos. Nesta versão, catálogos que não possuem objetos de aprendizado aparecem na parte inferior dos catálogos.
+&#x200B;* Em cada catálogo, o aluno pode exibir todos os objetos de aprendizado. Em versões anteriores, catálogos sem objetos de aprendizado ainda apareciam no início de outros catálogos. Nesta versão, catálogos que não possuem objetos de aprendizado aparecem na parte inferior dos catálogos.
 
 +++
 
@@ -2455,33 +2511,33 @@ Data de lançamento: 30 de maio de 2019
 
 **Recursos novos e aprimorados**
 
-* Pesquisa consolidada em todas as instâncias para alunos inscritos na seção Aluno do objeto de aprendizado. Pesquise por usuários inscritos na seção Aluno do objeto de aprendizado usando a pesquisa de digitação antecipada. Para obter mais informações, consulte [***Pesquisar por usuários inscritos***](../administrators/feature-summary/courses.md#searchforusers).
-* Recursos completos de edição de objetos de aprendizado adquiridos através dos catálogos compartilhados. Para obter mais informações, consulte [***Controle de catálogos compartilhados***](../administrators/feature-summary/shared-catalog-full-control.md). Para ativar o recurso, entre em contato com o suporte do Learning Manager.
-* Os professores agora podem identificar facilmente as sessões e os módulos com revisões pendentes. Para obter mais informações, consulte [***Revisões pendentes***](../instructors/feature-summary/learners.md#pending).
+&#x200B;* Pesquisa consolidada em todas as instâncias para alunos inscritos na seção Aluno do objeto de aprendizado. Pesquise por usuários inscritos na seção Aluno do objeto de aprendizado usando a pesquisa de digitação antecipada. Para obter mais informações, consulte [***Pesquisar por usuários inscritos***](../administrators/feature-summary/courses.md#searchforusers).
+&#x200B;* Recursos completos de edição de objetos de aprendizado adquiridos através dos catálogos compartilhados. Para obter mais informações, consulte [***Controle de catálogos compartilhados***](../administrators/feature-summary/shared-catalog-full-control.md). Para ativar o recurso, entre em contato com o suporte do Learning Manager.
+&#x200B;* Os professores agora podem identificar facilmente as sessões e os módulos com revisões pendentes. Para obter mais informações, consulte [***Revisões pendentes***](../instructors/feature-summary/learners.md#pending).
 
-* As habilidades agora oferecem suporte à concessão de valores de crédito no formato decimal. Isso permite que os autores concedam valores decimais de crédito a um determinado curso. Para obter mais informações, consulte [***Suporte a casas decimais***](../administrators/feature-summary/skills-levels.md#decimal).
-* Automatize a criação de funções personalizadas. Para obter mais informações, consulte [***Configurar funções através de arquivos .csv***](../integration-admin/feature-summary/configure-role-csv-files.md).
-* Os envios necessários para certificações externas e módulos de atividade agora são opcionais. Isso permite que gerentes e professores avaliem sem um envio. Para obter mais informações, consulte [***Envio opcional***](../managers/feature-summary/learning-objects.md#optional).
-* Baixe as transcrições de aluno dos usuários excluídos. Para obter mais informações, consulte [***Transcrições do aluno***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
-* Suporte para os seguintes idiomas:
+&#x200B;* As habilidades agora oferecem suporte à concessão de valores de crédito no formato decimal. Isso permite que os autores concedam valores decimais de crédito a um determinado curso. Para obter mais informações, consulte [***Suporte a casas decimais***](../administrators/feature-summary/skills-levels.md#decimal).
+&#x200B;* Automatize a criação de funções personalizadas. Para obter mais informações, consulte [***Configurar funções através de arquivos .csv***](../integration-admin/feature-summary/configure-role-csv-files.md).
+&#x200B;* Os envios necessários para certificações externas e módulos de atividade agora são opcionais. Isso permite que gerentes e professores avaliem sem um envio. Para obter mais informações, consulte [***Envio opcional***](../managers/feature-summary/learning-objects.md#optional).
+&#x200B;* Baixe as transcrições de aluno dos usuários excluídos. Para obter mais informações, consulte [***Transcrições do aluno***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
+&#x200B;* Suporte para os seguintes idiomas:
 
-  * Coreano
-  * Turco
-  * Holandês
-  * Polonês
+  &#x200B;* Coreano
+  &#x200B;* Turco
+  &#x200B;* Holandês
+  &#x200B;* Polonês
 
 **Problema conhecido**
 
-* Os suporte a casas decimais nos créditos das habilidade é oferecido somente em inglês.
-* Para os idiomas coreano, japonês e russo, o valor da hora do Meridiano de Greenwich da sessão não é exibido conforme o esperado.
+&#x200B;* Os suporte a casas decimais nos créditos das habilidade é oferecido somente em inglês.
+&#x200B;* Para os idiomas coreano, japonês e russo, o valor da hora do Meridiano de Greenwich da sessão não é exibido conforme o esperado.
 
 **Problemas corrigidos nesta versão**
 
-* As pontuações do questionário de um programa de aprendizado ou de uma certificação não são salvas nas guias Participação e Pontuação.
-* Um administrador ou gerente não pode marcar como concluída uma certificação externa.
-* Na caixa de diálogo Transcrições do aluno, um administrador não pode selecionar um intervalo de data personalizado se o idioma estiver definido como português ou espanhol.
-* Um administrador não pode criar um perfil externo quando o idioma do perfil é o francês.
-* Os campos ativos não estão visíveis na caixa de diálogo Editar usuário se o idioma não for o inglês.
+&#x200B;* As pontuações do questionário de um programa de aprendizado ou de uma certificação não são salvas nas guias Participação e Pontuação.
+&#x200B;* Um administrador ou gerente não pode marcar como concluída uma certificação externa.
+&#x200B;* Na caixa de diálogo Transcrições do aluno, um administrador não pode selecionar um intervalo de data personalizado se o idioma estiver definido como português ou espanhol.
+&#x200B;* Um administrador não pode criar um perfil externo quando o idioma do perfil é o francês.
+&#x200B;* Os campos ativos não estão visíveis na caixa de diálogo Editar usuário se o idioma não for o inglês.
 
 +++
 
@@ -2489,15 +2545,15 @@ Data de lançamento: 30 de maio de 2019
 
 Data de lançamento: 26 de abril de 2019
 
-* **Alterações na interface do usuário:** no aplicativo, as opções ![](assets/hamburger.jpg) e ![](assets/search-magnifying-glass-icon.png) agora aparecem na parte superior.
+&#x200B;* **Alterações na interface do usuário:** no aplicativo, as opções ![](assets/hamburger.jpg) e ![](assets/search-magnifying-glass-icon.png) agora aparecem na parte superior.
 
 ![](assets/1.png)
 
-* **Digitalizar código QR para registrar:** os recursos de código QR foram aprimorados. Além do suporte à marcação de presença pelo código QR, esse recurso agora também oferece suporte à inscrição em cursos e à marcação da conclusão de um curso com o código QR.
+&#x200B;* **Digitalizar código QR para registrar:** os recursos de código QR foram aprimorados. Além do suporte à marcação de presença pelo código QR, esse recurso agora também oferece suporte à inscrição em cursos e à marcação da conclusão de um curso com o código QR.
 
   Para se inscrever e concluir um curso, você pode digitalizar um código QR fornecido pelo administrador. <!-- For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse) -->.
 
-* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. <!-- For more information on setting up multiple attempts, see  [***Multiple attempts***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts). -->
+&#x200B;* **Várias tentativas no curso:** o aplicativo Learning Manager permite que o aluno realize cursos com várias tentativas habilitadas. <!-- For more information on setting up multiple attempts, see  [***Multiple attempts***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts). -->
 
 <!-- NOTE TO AUTHORS: Above URLs are 404s -->
 
@@ -2509,22 +2565,22 @@ Data de lançamento: 26 de abril de 2019
 
 Data de lançamento: 28 de janeiro de 2019
 
-* O tempo de aprendizagem usado por um aluno em um módulo podia ser contado várias vezes ao participar mais de uma vez. Esse problema foi corrigido.
-* Marcar a presença de um objeto de aprendizado em uma sessão de vários dias pode exibir uma data de início incorreta da sessão para um aluno em uma transcrição de aprendizado. Esse problema foi corrigido.
-* Os usuários podiam não ver um curso quando este curso era adicionado a um programa ou certificação de aprendizado concluído. Esse problema foi corrigido.
-* A inscrição de usuários podia ocorrer de forma incorreta quando eles eram removidos de um grupo de usuários. Esse problema foi corrigido.
-* O aluno e o instrutor podiam não receber um e-mail quando os detalhes da sessão eram alterados no aplicativo do instrutor. Esse problema foi corrigido.
-* O URL do Adobe Connect podia não funcionar corretamente quando &#39;/’ era fornecido no final do URL. Esse problema foi corrigido.
-* Uma mensagem de erro podia ser exibida na seleção de pelo menos um módulo obrigatório de um curso já publicado. Esse problema foi corrigido.
-* Quando um aluno conclui um curso e este é marcado como obrigatório pelo autor, a conclusão do curso não pode ser marcada como concluída. Esse problema foi corrigido.
-* O valor marcado de um módulo selecionado em um curso duplicado podia não aparecer imediatamente. Ele era exibido apenas como um curso duplicado quando a página era atualizada. Esse problema foi corrigido.
-* Todos os módulos eram exibidos como desmarcados no modo de edição após a publicação de um curso. A página precisa ser atualizada para visualizar as alterações. Esse problema foi corrigido.
-* A seleção de um módulo obrigatório podia estar disponível para um curso solicitado quando não deveria. Esse problema foi corrigido.
-* Um módulo obrigatório continuava a aparecer na caixa de seleção suspensa mesmo após a remoção dele ao editar o curso. Esse problema foi corrigido.
-* Os módulos de pré-trabalho e teste podiam estar marcados como obrigatórios por padrão. Esse problema foi corrigido.
-* Ao clicar no link de feedback N3 no e-mail, o modo de feedback podia não abrir. Esse problema foi corrigido.
-* A certificação podia estar ausente no relatório suspenso do painel, embora estivesse visível no aplicativo do gerente e na lista de API de dados. Esse problema foi corrigido.
-* Alguns objetos de aprendizado não podiam ser desativados pelo administrador devido à falta de permissões, embora os catálogos compartilhados fossem independente das contas do Learning Manager. Esse problema foi corrigido.
+&#x200B;* O tempo de aprendizagem usado por um aluno em um módulo podia ser contado várias vezes ao participar mais de uma vez. Esse problema foi corrigido.
+&#x200B;* Marcar a presença de um objeto de aprendizado em uma sessão de vários dias pode exibir uma data de início incorreta da sessão para um aluno em uma transcrição de aprendizado. Esse problema foi corrigido.
+&#x200B;* Os usuários podiam não ver um curso quando este curso era adicionado a um programa ou certificação de aprendizado concluído. Esse problema foi corrigido.
+&#x200B;* A inscrição de usuários podia ocorrer de forma incorreta quando eles eram removidos de um grupo de usuários. Esse problema foi corrigido.
+&#x200B;* O aluno e o instrutor podiam não receber um e-mail quando os detalhes da sessão eram alterados no aplicativo do instrutor. Esse problema foi corrigido.
+&#x200B;* O URL do Adobe Connect podia não funcionar corretamente quando &#39;/’ era fornecido no final do URL. Esse problema foi corrigido.
+&#x200B;* Uma mensagem de erro podia ser exibida na seleção de pelo menos um módulo obrigatório de um curso já publicado. Esse problema foi corrigido.
+&#x200B;* Quando um aluno conclui um curso e este é marcado como obrigatório pelo autor, a conclusão do curso não pode ser marcada como concluída. Esse problema foi corrigido.
+&#x200B;* O valor marcado de um módulo selecionado em um curso duplicado podia não aparecer imediatamente. Ele era exibido apenas como um curso duplicado quando a página era atualizada. Esse problema foi corrigido.
+&#x200B;* Todos os módulos eram exibidos como desmarcados no modo de edição após a publicação de um curso. A página precisa ser atualizada para visualizar as alterações. Esse problema foi corrigido.
+&#x200B;* A seleção de um módulo obrigatório podia estar disponível para um curso solicitado quando não deveria. Esse problema foi corrigido.
+&#x200B;* Um módulo obrigatório continuava a aparecer na caixa de seleção suspensa mesmo após a remoção dele ao editar o curso. Esse problema foi corrigido.
+&#x200B;* Os módulos de pré-trabalho e teste podiam estar marcados como obrigatórios por padrão. Esse problema foi corrigido.
+&#x200B;* Ao clicar no link de feedback N3 no e-mail, o modo de feedback podia não abrir. Esse problema foi corrigido.
+&#x200B;* A certificação podia estar ausente no relatório suspenso do painel, embora estivesse visível no aplicativo do gerente e na lista de API de dados. Esse problema foi corrigido.
+&#x200B;* Alguns objetos de aprendizado não podiam ser desativados pelo administrador devido à falta de permissões, embora os catálogos compartilhados fossem independente das contas do Learning Manager. Esse problema foi corrigido.
 
 +++
 
@@ -2534,8 +2590,8 @@ Atualização 42
 
 Data de lançamento: 11 de janeiro de 2019.
 
-* A inserção de notificações do usuário pode falhar aleatoriamente e, como consequência, os e-mails associados não são entregues. Esse problema foi corrigido.
-* `If a Learner is enrolled in Learning Program 1 and a Course in Learning Program 2, when the Learning Transcript is downloaded for a user group or more than one individual, the Learning Transcript may have missing data. This issue is fixed.`
+&#x200B;* A inserção de notificações do usuário pode falhar aleatoriamente e, como consequência, os e-mails associados não são entregues. Esse problema foi corrigido.
+&#x200B;* `If a Learner is enrolled in Learning Program 1 and a Course in Learning Program 2, when the Learning Transcript is downloaded for a user group or more than one individual, the Learning Transcript may have missing data. This issue is fixed.`
 
 +++
 
@@ -2543,18 +2599,18 @@ Data de lançamento: 11 de janeiro de 2019.
 
 Atualização 41Data de lançamento: 1º de dezembro de 2018.
 
-* Os administradores podem controlar a permissão dada aos alunos para ver as pontuações do questionário nas transcrições do aluno. Isso pode ser ativado/desativado na página Configurações.
-* A inserção de notificações do usuário pode falhar aleatoriamente e, como consequência, os e-mails associados não são entregues. Esse problema foi corrigido.
-* Os dados do tempo gasto no aprendizado podem não ser exibidos na transcrição do aluno e nos relatórios do painel. Esse problema foi corrigido.
-* As informações sobre atividades como inscrição/conclusão podem não estar presentes na transcrição do aluno baixada pelo gerente. Isso foi corrigido.
-* Os módulos que fazem parte de um curso em andamento podem aparecer como concluídos na transcrição do aluno. Esse problema foi corrigido.
-* A transcrição do aluno pode não exibir os dados baixados conforme o intervalo de datas selecionado. Esse problema foi corrigido.
-* Somente para usuários com a função Autor atribuída, os catálogos podem não aparecer. Esse problema foi corrigido.
-* Quando um administrador de função personalizada baixa a transcrição do aluno, o relatório baixado não terá informações sobre os OAs que faziam parte apenas dos catálogos padrão. Esse problema foi corrigido.
-* Pode ocorrer incompatibilidade no número total de usuários e na lista de usuários na página do grupo de usuários. Isso foi corrigido.
-* A janela pop-up do programa de aprendizado pode não ser exibida mesmo quando ativada e os usuários podem ser redirecionados para a página do objeto de aprendizado. Esse problema foi corrigido.
-* Quando a lista de espera é apagada e os alunos estão registrados em um curso, o administrador pode receber uma notificação por e-mail com seu nome em vez do nome do aluno que está sendo indicado. Esse problema foi corrigido.
-* O Sobrenome pode não aparecer na interface do usuário para um usuário adicionado por meio da API de usuário do POST. Esse problema foi corrigido.
+&#x200B;* Os administradores podem controlar a permissão dada aos alunos para ver as pontuações do questionário nas transcrições do aluno. Isso pode ser ativado/desativado na página Configurações.
+&#x200B;* A inserção de notificações do usuário pode falhar aleatoriamente e, como consequência, os e-mails associados não são entregues. Esse problema foi corrigido.
+&#x200B;* Os dados do tempo gasto no aprendizado podem não ser exibidos na transcrição do aluno e nos relatórios do painel. Esse problema foi corrigido.
+&#x200B;* As informações sobre atividades como inscrição/conclusão podem não estar presentes na transcrição do aluno baixada pelo gerente. Isso foi corrigido.
+&#x200B;* Os módulos que fazem parte de um curso em andamento podem aparecer como concluídos na transcrição do aluno. Esse problema foi corrigido.
+&#x200B;* A transcrição do aluno pode não exibir os dados baixados conforme o intervalo de datas selecionado. Esse problema foi corrigido.
+&#x200B;* Somente para usuários com a função Autor atribuída, os catálogos podem não aparecer. Esse problema foi corrigido.
+&#x200B;* Quando um administrador de função personalizada baixa a transcrição do aluno, o relatório baixado não terá informações sobre os OAs que faziam parte apenas dos catálogos padrão. Esse problema foi corrigido.
+&#x200B;* Pode ocorrer incompatibilidade no número total de usuários e na lista de usuários na página do grupo de usuários. Isso foi corrigido.
+&#x200B;* A janela pop-up do programa de aprendizado pode não ser exibida mesmo quando ativada e os usuários podem ser redirecionados para a página do objeto de aprendizado. Esse problema foi corrigido.
+&#x200B;* Quando a lista de espera é apagada e os alunos estão registrados em um curso, o administrador pode receber uma notificação por e-mail com seu nome em vez do nome do aluno que está sendo indicado. Esse problema foi corrigido.
+&#x200B;* O Sobrenome pode não aparecer na interface do usuário para um usuário adicionado por meio da API de usuário do POST. Esse problema foi corrigido.
 
 +++
 
@@ -2566,11 +2622,11 @@ Data de lançamento: setembro de 2018.
 
 Aprimoramento do desempenho
 
-* Os usuários podem enfrentar problemas de tempo limite ao fazer grandes conjuntos de transcrição do aluno. Esse problema foi corrigido.
-* Os usuários podem sofrer atraso ao baixar grandes conjuntos de relatórios de inscrição nos quais está gravada a pontuação do questionário do aluno. Esse problema foi corrigido.
-* Baixar grandes conjuntos de relatórios de pontuação do questionário pode levar mais tempo que o normal. Isso foi corrigido.
-* Quando o aluno termina um programa de aprendizado, o formulário de comentários N1 pode não ser exibido automaticamente, mesmo quando a janela pop-up automática é ativada pelo Admin Console. Esse problema foi corrigido.
-* Nos relatórios baixados de registro de auditoria do usuário e do conteúdo, as colunas modificadas pelo nome do usuário e pelo e-mail do usuário podem não ser registradas. O relatório mostra o sistema em tais instâncias. Isso foi atualizado para ser marcado como Desconhecido.
+&#x200B;* Os usuários podem enfrentar problemas de tempo limite ao fazer grandes conjuntos de transcrição do aluno. Esse problema foi corrigido.
+&#x200B;* Os usuários podem sofrer atraso ao baixar grandes conjuntos de relatórios de inscrição nos quais está gravada a pontuação do questionário do aluno. Esse problema foi corrigido.
+&#x200B;* Baixar grandes conjuntos de relatórios de pontuação do questionário pode levar mais tempo que o normal. Isso foi corrigido.
+&#x200B;* Quando o aluno termina um programa de aprendizado, o formulário de comentários N1 pode não ser exibido automaticamente, mesmo quando a janela pop-up automática é ativada pelo Admin Console. Esse problema foi corrigido.
+&#x200B;* Nos relatórios baixados de registro de auditoria do usuário e do conteúdo, as colunas modificadas pelo nome do usuário e pelo e-mail do usuário podem não ser registradas. O relatório mostra o sistema em tais instâncias. Isso foi atualizado para ser marcado como Desconhecido.
 
 +++
 
@@ -2578,34 +2634,34 @@ Aprimoramento do desempenho
 
 Data de lançamento: 19 de maio de 2018.
 
-* Esta versão do Adobe Learning Manager traz novos recursos e aprimoramentos. Ela oferece a capacidade de criar funções personalizadas, adicionar rótulos de catálogo, limpar usuários, gerenciar marcas, renomear objetos de aprendizado, integração do Slack, novas integrações do conector, suporte a xAPI e muito mais. Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Resumo dos novos recursos](../whats-new.md#main-pars_text).
+&#x200B;* Esta versão do Adobe Learning Manager traz novos recursos e aprimoramentos. Ela oferece a capacidade de criar funções personalizadas, adicionar rótulos de catálogo, limpar usuários, gerenciar marcas, renomear objetos de aprendizado, integração do Slack, novas integrações do conector, suporte a xAPI e muito mais. Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Resumo dos novos recursos](../whats-new.md#main-pars_text).
 
-* O Learning Manager está em conformidade com o GDPR. Para mais informações, consulte [Conformidade do Learning Manager com o GDPR](/help/migrated/kb/prime-gdpr.md).
+&#x200B;* O Learning Manager está em conformidade com o GDPR. Para mais informações, consulte [Conformidade do Learning Manager com o GDPR](/help/migrated/kb/prime-gdpr.md).
 
 ## Problema conhecido {#knownissue}
 
-* O hiperlink para o número dos cursos e certificações dentro da janela modal de etiquetas inclui cursos fantasmas e certificações repetidas. Ao clicar no hiperlink, estes cursos e certificações podem não ser listados, causando discrepância nos números.
+&#x200B;* O hiperlink para o número dos cursos e certificações dentro da janela modal de etiquetas inclui cursos fantasmas e certificações repetidas. Ao clicar no hiperlink, estes cursos e certificações podem não ser listados, causando discrepância nos números.
 
 +++
 
 +++Atualização 38
 
-* Os alunos nos estados Pendente ou Aguardando aceitação estavam sendo marcados como concluídos. Esse problema foi corrigido.
-* Quando um professor pesquisa e seleciona todos os alunos, o número de alunos selecionados e a contagem mostrada têm disparidades. Esse problema foi corrigido.
-* Quando você pesquisa e seleciona qualquer aluno e marca a presença do aluno, o Learning Manager pode marcar a presença para todos os alunos. Isso foi corrigido.
-* O Learning Manager exibiria nos e-mails a hora no formato de 24 horas. Esse problema foi corrigido. A hora é exibida agora no formato de 12 horas.
-* Quando um gerente indica um aluno para um curso usando o botão disponível na página de notificações, a janela modal de indicação pode não ser carregada. Esse problema foi corrigido.
-* Nos relatórios exportados do Excel, a data do prazo, que deve ser a data de inscrição + dias para concluir o valor definido na instância automática dos OAs, seria exibida incorretamente. Esse problema foi corrigido.
+&#x200B;* Os alunos nos estados Pendente ou Aguardando aceitação estavam sendo marcados como concluídos. Esse problema foi corrigido.
+&#x200B;* Quando um professor pesquisa e seleciona todos os alunos, o número de alunos selecionados e a contagem mostrada têm disparidades. Esse problema foi corrigido.
+&#x200B;* Quando você pesquisa e seleciona qualquer aluno e marca a presença do aluno, o Learning Manager pode marcar a presença para todos os alunos. Isso foi corrigido.
+&#x200B;* O Learning Manager exibiria nos e-mails a hora no formato de 24 horas. Esse problema foi corrigido. A hora é exibida agora no formato de 12 horas.
+&#x200B;* Quando um gerente indica um aluno para um curso usando o botão disponível na página de notificações, a janela modal de indicação pode não ser carregada. Esse problema foi corrigido.
+&#x200B;* Nos relatórios exportados do Excel, a data do prazo, que deve ser a data de inscrição + dias para concluir o valor definido na instância automática dos OAs, seria exibida incorretamente. Esse problema foi corrigido.
 
-* Os resultados da pesquisa de usuários são exibidos vazios quando não há nenhum usuário no grupo pesquisado. Esse problema já foi corrigido.
-* Os gerentes não podiam ser excluídos mesmo se não houvesse subordinados diretos. Esse problema foi corrigido. Os gerentes agora podem ser excluídos.
-* A funcionalidade de redefinição do progresso do módulo podia parar de funcionar. Esse problema já foi corrigido.
-* A certificação excluída pode aparecer no widget para alunos. Esse problema foi corrigido.
-* O problema com o cálculo da eficácia do curso foi resolvido.
+&#x200B;* Os resultados da pesquisa de usuários são exibidos vazios quando não há nenhum usuário no grupo pesquisado. Esse problema já foi corrigido.
+&#x200B;* Os gerentes não podiam ser excluídos mesmo se não houvesse subordinados diretos. Esse problema foi corrigido. Os gerentes agora podem ser excluídos.
+&#x200B;* A funcionalidade de redefinição do progresso do módulo podia parar de funcionar. Esse problema já foi corrigido.
+&#x200B;* A certificação excluída pode aparecer no widget para alunos. Esse problema foi corrigido.
+&#x200B;* O problema com o cálculo da eficácia do curso foi resolvido.
 
-* O problema de integração de novas contas do Connect foi corrigido.
-* O pop-up automático do Feedback N1 podia não ser exibido se estivesse ativado nas instâncias não padrão. O problema foi corrigido.
-* O professor não conseguia marcar a presença para todos os usuários de uma só vez nas sessões que faziam parte de programas de aprendizado/certificações. Isso foi corrigido.
+&#x200B;* O problema de integração de novas contas do Connect foi corrigido.
+&#x200B;* O pop-up automático do Feedback N1 podia não ser exibido se estivesse ativado nas instâncias não padrão. O problema foi corrigido.
+&#x200B;* O professor não conseguia marcar a presença para todos os usuários de uma só vez nas sessões que faziam parte de programas de aprendizado/certificações. Isso foi corrigido.
 
 +++
 
@@ -2631,19 +2687,19 @@ Data de lançamento: 22 de janeiro de 2018.
 
 ### Problemas corrigidos {#issuesfixed}
 
-* Fazer qualquer alteração na configuração do modelo de e-mail pode fazer com que o banner de e-mail desapareça. Esse problema foi corrigido.
-* Os alunos podem não conseguir adicionar/iniciar ajudas de tarefa privadas. Isso foi corrigido.
-* Os grupos de usuários personalizados presentes em uma conta podem não estar listados no campo do grupo de usuários no modal de adicionar/editar relatório. Esse problema foi corrigido.
-* Se uma imagem de medalha tiver espaço no nome, talvez ela não seja exibida para o aluno na página inicial.
-* Quando um usuário registrado é excluído de um curso, o relatório do curso e o relatório do questionário podem não ser gerados para esse curso específico. Esse problema foi corrigido.
-* Se o administrador muda o número de vagas indicadas de um gerente, o total pode parecer incorreto na solicitação de indicação quando aberto em locais diferentes. Esse problema foi corrigido.
-* Ao converter um usuário externo em um usuário interno, o usuário pode não ser adicionado ao grupo Todos os alunos internos. Esse problema foi corrigido.
-* Se pesquisar por um aluno individual, selecioná-lo e executar a ação de cancelar a inscrição, pode resultar em um cancelamento de inscrição de todos os alunos de tal grupo em vez de apenas o aluno selecionado. Esse problema foi corrigido.
-* Como administrador, você pode não ser capaz de usar a caixa de verificação para selecionar um aluno dentro dos certificados. Esse problema foi corrigido.
-* A criação e a atualização dos grupos de usuários com mais de 600 usuários individuais podem falhar. Esse problema foi corrigido. Agora você pode criar grupos de usuários com mais de 600 usuários individuais.
-* Se excluir um grupo de usuários personalizado que faz parte de outro grupo de usuários personalizado, a regra de intersecção pode transferir o número de usuários para o grupo maior. Esse problema foi corrigido.
-* Quando o catálogo padrão é desativado e um novo catálogo é criado, e se o gerente tem acesso a este catálogo recém-criado, ele talvez não consiga pesquisar nenhum curso em tal catálogo. Esse problema foi corrigido.
-* Os usuários do aplicativo móvel podem não receber feedback N1 como notificações push. Esse problema foi corrigido.
+&#x200B;* Fazer qualquer alteração na configuração do modelo de e-mail pode fazer com que o banner de e-mail desapareça. Esse problema foi corrigido.
+&#x200B;* Os alunos podem não conseguir adicionar/iniciar ajudas de tarefa privadas. Isso foi corrigido.
+&#x200B;* Os grupos de usuários personalizados presentes em uma conta podem não estar listados no campo do grupo de usuários no modal de adicionar/editar relatório. Esse problema foi corrigido.
+&#x200B;* Se uma imagem de medalha tiver espaço no nome, talvez ela não seja exibida para o aluno na página inicial.
+&#x200B;* Quando um usuário registrado é excluído de um curso, o relatório do curso e o relatório do questionário podem não ser gerados para esse curso específico. Esse problema foi corrigido.
+&#x200B;* Se o administrador muda o número de vagas indicadas de um gerente, o total pode parecer incorreto na solicitação de indicação quando aberto em locais diferentes. Esse problema foi corrigido.
+&#x200B;* Ao converter um usuário externo em um usuário interno, o usuário pode não ser adicionado ao grupo Todos os alunos internos. Esse problema foi corrigido.
+&#x200B;* Se pesquisar por um aluno individual, selecioná-lo e executar a ação de cancelar a inscrição, pode resultar em um cancelamento de inscrição de todos os alunos de tal grupo em vez de apenas o aluno selecionado. Esse problema foi corrigido.
+&#x200B;* Como administrador, você pode não ser capaz de usar a caixa de verificação para selecionar um aluno dentro dos certificados. Esse problema foi corrigido.
+&#x200B;* A criação e a atualização dos grupos de usuários com mais de 600 usuários individuais podem falhar. Esse problema foi corrigido. Agora você pode criar grupos de usuários com mais de 600 usuários individuais.
+&#x200B;* Se excluir um grupo de usuários personalizado que faz parte de outro grupo de usuários personalizado, a regra de intersecção pode transferir o número de usuários para o grupo maior. Esse problema foi corrigido.
+&#x200B;* Quando o catálogo padrão é desativado e um novo catálogo é criado, e se o gerente tem acesso a este catálogo recém-criado, ele talvez não consiga pesquisar nenhum curso em tal catálogo. Esse problema foi corrigido.
+&#x200B;* Os usuários do aplicativo móvel podem não receber feedback N1 como notificações push. Esse problema foi corrigido.
 
 +++
 
@@ -2655,9 +2711,9 @@ Essa versão do Learning Manager traz as otimizações de desempenho voltadas pa
 
 ### Aprimoramentos {#enhancements}
 
-* Experimente pesquisas flexíveis ao pesquisar por cursos e usuários em todos os aplicativos. Isso inclui a pesquisa de cursos, usuários e grupo de usuários.
-* Suporte ao uso do conector Box para integrar o Learning Manager aos sistemas externos a fim de automatizar a sincronização dos dados. Para obter mais informações, consulte o [conector Box](../integration-admin/feature-summary/connectors.md#main-pars_header_302653946).
-* Especificações CSV atualizadas que você pode usar para mapear os dados existentes de migração do LMS. Use as especificações de csv para download mais recentes e os arquivos zip de csvs de amostra para entender o formato prescrito dos dados a serem inseridos. Para obter mais informações, consulte [Migração manual](../integration-admin/feature-summary/migration-manual.md).
+&#x200B;* Experimente pesquisas flexíveis ao pesquisar por cursos e usuários em todos os aplicativos. Isso inclui a pesquisa de cursos, usuários e grupo de usuários.
+&#x200B;* Suporte ao uso do conector Box para integrar o Learning Manager aos sistemas externos a fim de automatizar a sincronização dos dados. Para obter mais informações, consulte o [conector Box](../integration-admin/feature-summary/connectors.md#main-pars_header_302653946).
+&#x200B;* Especificações CSV atualizadas que você pode usar para mapear os dados existentes de migração do LMS. Use as especificações de csv para download mais recentes e os arquivos zip de csvs de amostra para entender o formato prescrito dos dados a serem inseridos. Para obter mais informações, consulte [Migração manual](../integration-admin/feature-summary/migration-manual.md).
 
 +++
 
@@ -2665,11 +2721,11 @@ Essa versão do Learning Manager traz as otimizações de desempenho voltadas pa
 
 ### Problemas corrigidos {#IssuesFixed-1}
 
-* Os comunicados podem falhar quando o número de usuários é alto. Esse problema foi corrigido.
-* Acessar a conta do Learning Manager usando o URL de subdomínio na União Europeia poderia redirecionar os usuários para uma página diferente. Esse problema foi corrigido.
-* Quando um LP é solicitado, um aluno pode consumir o LP somente na ordem especificada. Os alunos podiam realizar os cursos que não estavam listados primeiro usando os hiperlinks do curso. Esse problema foi corrigido. Os alunos não podem mais iniciar um curso até que ele termine o anterior.
+&#x200B;* Os comunicados podem falhar quando o número de usuários é alto. Esse problema foi corrigido.
+&#x200B;* Acessar a conta do Learning Manager usando o URL de subdomínio na União Europeia poderia redirecionar os usuários para uma página diferente. Esse problema foi corrigido.
+&#x200B;* Quando um LP é solicitado, um aluno pode consumir o LP somente na ordem especificada. Os alunos podiam realizar os cursos que não estavam listados primeiro usando os hiperlinks do curso. Esse problema foi corrigido. Os alunos não podem mais iniciar um curso até que ele termine o anterior.
 
-* A mensagem de erro “Versão do navegador não suportada” pode não aparecer em versões não suportadas do Internet Explorer (IE 7, IE 8, IE 9 e IE 10) e do Safari (versão 7, 8 e 9). Esse problema foi corrigido.
+&#x200B;* A mensagem de erro “Versão do navegador não suportada” pode não aparecer em versões não suportadas do Internet Explorer (IE 7, IE 8, IE 9 e IE 10) e do Safari (versão 7, 8 e 9). Esse problema foi corrigido.
 
 
 
@@ -2681,17 +2737,17 @@ Data de lançamento: 5 de outubro de 2017.
 
 ### Problemas corrigidos {#IssuesFixed-2}
 
-* As alterações feitas em um curso compartilhado podiam não ser propagadas para a conta compartilhada se o autor salvasse automaticamente o curso na conta principal. Esse problema foi corrigido.
-* Às vezes, em projetos específicos do Learning Manager, o conteúdo costumava congelar no Fluidic Player. Esse problema foi corrigido.
+&#x200B;* As alterações feitas em um curso compartilhado podiam não ser propagadas para a conta compartilhada se o autor salvasse automaticamente o curso na conta principal. Esse problema foi corrigido.
+&#x200B;* Às vezes, em projetos específicos do Learning Manager, o conteúdo costumava congelar no Fluidic Player. Esse problema foi corrigido.
 
-* A listagem do calendário no widget Calendário do aprendizado no Painel do aluno podia aparecer em ordem aleatória. Esse problema foi corrigido. A listagem agora será exibida de forma ordenada.
-* Ao marcar a participação usando a opção Selecionar todos, a presença dos alunos era marcada em todos os objetos de aprendizado da mesma sessão. Esse problema foi corrigido.
-* Em certas telas de alta resolução, o e-mail recebido do Learning Manager tinha problemas de alinhamento e truncamento na imagem e no texto do banner. Esse problema foi corrigido.
-* Certos e-mails do Learning Manager, como e-mails sem dados de notificação, não estavam sendo acionados para os usuários. Por exemplo, o e-mail recebido ao criar e ativar o perfil externo e o e-mail recebido ao configurar uma conta do Connect. Esse problema foi corrigido.
-* Ao criar uma LP, definir um lembrete, inscrever usuários e, em seguida, alterar o prazo da instância, o prazo alterado pode não ser refletido nos lembretes. Isso foi corrigido. Os lembretes agora mostram o prazo alterado.
-* Em certos casos, para o conteúdo criado usando o Adobe Presenter, o tempo total e o tempo decorrido no fluidic player não estavam em sincronia com o conteúdo. Esse problema foi corrigido.
-* Em alguns casos, após adicionar um programa de aprendizado a um catálogo, a opção para adicionar ainda podia ser ativada. Esse problema foi corrigido.
-* Abrir o Learning Manager em um navegador do dispositivo exibe uma opção para experimentar o Learning Manager no aplicativo do dispositivo. Clicar em sim deve iniciar a Play Store (Android) se o aplicativo não estiver instalado ou iniciar o aplicativo se instalado (no Android e no iOS). Este fluxo de trabalho tinha problemas e foi corrigido.
+&#x200B;* A listagem do calendário no widget Calendário do aprendizado no Painel do aluno podia aparecer em ordem aleatória. Esse problema foi corrigido. A listagem agora será exibida de forma ordenada.
+&#x200B;* Ao marcar a participação usando a opção Selecionar todos, a presença dos alunos era marcada em todos os objetos de aprendizado da mesma sessão. Esse problema foi corrigido.
+&#x200B;* Em certas telas de alta resolução, o e-mail recebido do Learning Manager tinha problemas de alinhamento e truncamento na imagem e no texto do banner. Esse problema foi corrigido.
+&#x200B;* Certos e-mails do Learning Manager, como e-mails sem dados de notificação, não estavam sendo acionados para os usuários. Por exemplo, o e-mail recebido ao criar e ativar o perfil externo e o e-mail recebido ao configurar uma conta do Connect. Esse problema foi corrigido.
+&#x200B;* Ao criar uma LP, definir um lembrete, inscrever usuários e, em seguida, alterar o prazo da instância, o prazo alterado pode não ser refletido nos lembretes. Isso foi corrigido. Os lembretes agora mostram o prazo alterado.
+&#x200B;* Em certos casos, para o conteúdo criado usando o Adobe Presenter, o tempo total e o tempo decorrido no fluidic player não estavam em sincronia com o conteúdo. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, após adicionar um programa de aprendizado a um catálogo, a opção para adicionar ainda podia ser ativada. Esse problema foi corrigido.
+&#x200B;* Abrir o Learning Manager em um navegador do dispositivo exibe uma opção para experimentar o Learning Manager no aplicativo do dispositivo. Clicar em sim deve iniciar a Play Store (Android) se o aplicativo não estiver instalado ou iniciar o aplicativo se instalado (no Android e no iOS). Este fluxo de trabalho tinha problemas e foi corrigido.
 
 +++
 
@@ -2737,41 +2793,41 @@ O campo UUID era exibido ao aluno ao completar seu perfil mesmo quando o adminis
 
 Os dados do tempo de aprendizado gasto não estavam sendo exibidos nos relatórios de um aluno:
 
-* Se a sua presença for marcada automaticamente pelo sistema para os módulos de conexão.
-* Quando um código QR era digitalizado para os módulos CR e VC usando o aplicativo Learning Manager do dispositivo.
+&#x200B;* Se a sua presença for marcada automaticamente pelo sistema para os módulos de conexão.
+&#x200B;* Quando um código QR era digitalizado para os módulos CR e VC usando o aplicativo Learning Manager do dispositivo.
 
 **Esta versão do Learning Manager também introduziu aprimoramentos e correções de erros relacionados ao reprodutor do dispositivo.**
 
-* Problemas relacionados à conclusão dos módulos de atividade. Esse problema foi corrigido.
-* Quando o aluno estava reproduzindo um vídeo no modo retrato, os botões +10 e -10 podiam não funcionar. Esse problema foi corrigido
-* A experiência de reprodução de determinados projetos de amostra foi aprimorada quando reproduzidos em um dispositivo Android (móvel e tablet), visto que anteriormente podia ocorrer uma reprodução trêmula.
-* Quando uma nova nota é adicionada, o painel de notas deveria fechar e a reprodução deveria continuar no reprodutor. Isso não pode ocorrer em alguns casos. Esse problema foi corrigido.
-* Ao abrir as notas adicionadas a um módulo, o botão Fechar podia não ser exibido. Esse problema foi corrigido.
-* Quando o estudante abre o painel ‘Notas’ usando o marcador de notas, pode ser necessário clicar duas vezes no ícone de notas para fechar o painel.
-* Ao clicar no índice, ele podia não se contrair automaticamente e precisava ser fechado manualmente para visualizar o conteúdo. Esse problema foi corrigido.
-* Um curso com um módulo em vários idiomas não podia exibir todos os idiomas disponíveis porque a barra de rolagem não se ampliava corretamente. Esse problema foi corrigido.
-* Ao abrir um módulo de curso da atividade de terceiros em um reprodutor no modo paisagem, a orientação do texto podia na se ajustar, dificultando a navegação. Esse problema foi corrigido.
-* A área de toque do botão Fechar do reprodutor foi aumentada nos modos on-line e off-line.
-* O índice não se fechava automaticamente quando a orientação do dispositivo era alterada. Esse problema foi corrigido.
-* Alguns problemas menores relacionados à interface do usuário, como o alinhamento do botão Play, do botão de opção e de outras configurações nos modos paisagem e retrato, foram corrigidos.
+&#x200B;* Problemas relacionados à conclusão dos módulos de atividade. Esse problema foi corrigido.
+&#x200B;* Quando o aluno estava reproduzindo um vídeo no modo retrato, os botões +10 e -10 podiam não funcionar. Esse problema foi corrigido
+&#x200B;* A experiência de reprodução de determinados projetos de amostra foi aprimorada quando reproduzidos em um dispositivo Android (móvel e tablet), visto que anteriormente podia ocorrer uma reprodução trêmula.
+&#x200B;* Quando uma nova nota é adicionada, o painel de notas deveria fechar e a reprodução deveria continuar no reprodutor. Isso não pode ocorrer em alguns casos. Esse problema foi corrigido.
+&#x200B;* Ao abrir as notas adicionadas a um módulo, o botão Fechar podia não ser exibido. Esse problema foi corrigido.
+&#x200B;* Quando o estudante abre o painel ‘Notas’ usando o marcador de notas, pode ser necessário clicar duas vezes no ícone de notas para fechar o painel.
+&#x200B;* Ao clicar no índice, ele podia não se contrair automaticamente e precisava ser fechado manualmente para visualizar o conteúdo. Esse problema foi corrigido.
+&#x200B;* Um curso com um módulo em vários idiomas não podia exibir todos os idiomas disponíveis porque a barra de rolagem não se ampliava corretamente. Esse problema foi corrigido.
+&#x200B;* Ao abrir um módulo de curso da atividade de terceiros em um reprodutor no modo paisagem, a orientação do texto podia na se ajustar, dificultando a navegação. Esse problema foi corrigido.
+&#x200B;* A área de toque do botão Fechar do reprodutor foi aumentada nos modos on-line e off-line.
+&#x200B;* O índice não se fechava automaticamente quando a orientação do dispositivo era alterada. Esse problema foi corrigido.
+&#x200B;* Alguns problemas menores relacionados à interface do usuário, como o alinhamento do botão Play, do botão de opção e de outras configurações nos modos paisagem e retrato, foram corrigidos.
 
-* O problema da barra de busca ser exibida mesmo quando a opção mostrar controle de reprodução está desmarcada no conteúdo foi corrigido.
-* O botão Fechar do reprodutor não era visível em determinados projetos quando a orientação do dispositivo era alterada. Esse problema foi corrigido.
-* O problema relacionado à seção do índice do módulo que aparecia truncada no modo paisagem no reprodutor do dispositivo foi corrigido. Em alguns casos, o índice não era visível para o conteúdo no reprodutor do dispositivo. Isso também foi corrigido.
+&#x200B;* O problema da barra de busca ser exibida mesmo quando a opção mostrar controle de reprodução está desmarcada no conteúdo foi corrigido.
+&#x200B;* O botão Fechar do reprodutor não era visível em determinados projetos quando a orientação do dispositivo era alterada. Esse problema foi corrigido.
+&#x200B;* O problema relacionado à seção do índice do módulo que aparecia truncada no modo paisagem no reprodutor do dispositivo foi corrigido. Em alguns casos, o índice não era visível para o conteúdo no reprodutor do dispositivo. Isso também foi corrigido.
 
 **Esta versão do Learning Manager também trouxe os aprimoramentos e correções listados abaixo para o aplicativo do dispositivo**.
 
-* A notificação de envio relacionada aos prazos de conclusão podia não ser entregue em alguns dispositivos. Esse problema foi corrigido.
-* Agora também oferecemos suporte ao ciclo de vida do objeto de aprendizado no aplicativo do dispositivo. Os alunos agora podem acessar o conteúdo mais recente nos objetos de aprendizado se tiverem sido editados pelo autor.
+&#x200B;* A notificação de envio relacionada aos prazos de conclusão podia não ser entregue em alguns dispositivos. Esse problema foi corrigido.
+&#x200B;* Agora também oferecemos suporte ao ciclo de vida do objeto de aprendizado no aplicativo do dispositivo. Os alunos agora podem acessar o conteúdo mais recente nos objetos de aprendizado se tiverem sido editados pelo autor.
 
-* Os problemas de orientação do aplicativo (incluindo a orientação padrão - modo retrato) Learning Manager foram corrigidos.
-* Podia não haver uma opção para atualizar o conteúdo quando o usuário passava do modo off-line para o modo on-line.
-* A ordenação do módulo agora é suportada nos cursos no aplicativo do dispositivo no modo on-line.
+&#x200B;* Os problemas de orientação do aplicativo (incluindo a orientação padrão - modo retrato) Learning Manager foram corrigidos.
+&#x200B;* Podia não haver uma opção para atualizar o conteúdo quando o usuário passava do modo off-line para o modo on-line.
+&#x200B;* A ordenação do módulo agora é suportada nos cursos no aplicativo do dispositivo no modo on-line.
 
-* Se um usuário não tivesse baixado nenhuma ajuda de tarefa, ao clicar na guia Minhas ajudas de tarefa no modo off-line o aplicativo podia travar no iOS e mostrar uma mensagem de erro de carregamento de dados no Android. Isso foi resolvido.
-* O aplicativo Learning Manager fechava ou exibia um erro se o curso fosse acessado imediatamente depois de desativar a Internet, mesmo se fosse um curso baixado. Esse problema já foi corrigido.
-* Às vezes, quando você digitalizava o código QR, ele exibia uma imagem capturada da digitalização anterior do código QR. Isso foi corrigido.
-* Uma mensagem de erro podia ser exibida em determinadas ocasiões ao tentar remover uma ajuda de tarefa que já tinha sido adicionada a partir da guia Minhas ajudas de tarefa. Esse problema foi corrigido.
+&#x200B;* Se um usuário não tivesse baixado nenhuma ajuda de tarefa, ao clicar na guia Minhas ajudas de tarefa no modo off-line o aplicativo podia travar no iOS e mostrar uma mensagem de erro de carregamento de dados no Android. Isso foi resolvido.
+&#x200B;* O aplicativo Learning Manager fechava ou exibia um erro se o curso fosse acessado imediatamente depois de desativar a Internet, mesmo se fosse um curso baixado. Esse problema já foi corrigido.
+&#x200B;* Às vezes, quando você digitalizava o código QR, ele exibia uma imagem capturada da digitalização anterior do código QR. Isso foi corrigido.
+&#x200B;* Uma mensagem de erro podia ser exibida em determinadas ocasiões ao tentar remover uma ajuda de tarefa que já tinha sido adicionada a partir da guia Minhas ajudas de tarefa. Esse problema foi corrigido.
 
 +++
 
@@ -2985,15 +3041,15 @@ Como administrador, ao clicar em Perfil externo e escolher Ações > Alterar per
 
 #### Ciclo de vida do curso {#courselifecycle}
 
-* Ao iniciar um curso criado com a ferramenta de e-learning da biblioteca do Biz, a ação “Retomar” não funcionava. Esse problema foi corrigido.
-* Alguns usuários não conseguiam iniciar um curso no iPad usando o link do curso nos comunicados. Esse problema já foi corrigido.
-* Ao clicar no botão Continuar no programa do aluno, você não podia acessar os cursos na ordem. Esse problema já foi corrigido.
-* O rótulo Visão geral do curso para os cursos no programa do aluno foi colocado anteriormente no lugar errado. Esse problema já foi corrigido.
+&#x200B;* Ao iniciar um curso criado com a ferramenta de e-learning da biblioteca do Biz, a ação “Retomar” não funcionava. Esse problema foi corrigido.
+&#x200B;* Alguns usuários não conseguiam iniciar um curso no iPad usando o link do curso nos comunicados. Esse problema já foi corrigido.
+&#x200B;* Ao clicar no botão Continuar no programa do aluno, você não podia acessar os cursos na ordem. Esse problema já foi corrigido.
+&#x200B;* O rótulo Visão geral do curso para os cursos no programa do aluno foi colocado anteriormente no lugar errado. Esse problema já foi corrigido.
 
 #### Aplicativo do aluno {#learnerapp}
 
-* Em seu dispositivo, se você abrisse a imagem de um comunicado no modo de tela cheia, não era possível voltar ao aplicativo. Agora esse problema foi corrigido.
-* O conteúdo da Tincan carregado do Captivate não era reproduzido no modo on-line em sistemas operacionais Android e iOS. Esse problema foi corrigido.
+&#x200B;* Em seu dispositivo, se você abrisse a imagem de um comunicado no modo de tela cheia, não era possível voltar ao aplicativo. Agora esse problema foi corrigido.
+&#x200B;* O conteúdo da Tincan carregado do Captivate não era reproduzido no modo on-line em sistemas operacionais Android e iOS. Esse problema foi corrigido.
 
 #### Relatórios do curso {#coursereports}
 
@@ -3043,11 +3099,11 @@ Data de lançamento: 06 de dezembro de 2016.
 
 Como parte desta atualização, o Learning Manager fornece um ponto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para atualizar os usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar&#x200B;**&#x200B;**&#x200B;este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
 
-* Nome
-* E-mail
-* Perfil
-* Função
-* Gerente
+&#x200B;* Nome
+&#x200B;* E-mail
+&#x200B;* Perfil
+&#x200B;* Função
+&#x200B;* Gerente
 
 ### Problema corrigido {#issuefixed}
 
@@ -3071,36 +3127,36 @@ Para obter mais informações sobre este recurso, consulte a [Ajuda sobre catál
 
 **Feedback N1 e N3**
 
-* A caixa de diálogo do feedback N1 aparece assim que um aluno concluir a realização do curso. Além disso, o aluno recebe uma notificação sobre a conclusão do feedback N1.
-* Uma opção para adicionar perguntas descritivas foi fornecida no recurso de feedback N1 e N3. Os administradores podem adicionar essas perguntas descritivas aos alunos. Essa condição está também no conjunto padrão de perguntas fornecidas pelo Learning Manager. Você pode adicionar duas perguntas descritivas do feedback N1 e uma pergunta descritiva do feedback N3.\
+&#x200B;* A caixa de diálogo do feedback N1 aparece assim que um aluno concluir a realização do curso. Além disso, o aluno recebe uma notificação sobre a conclusão do feedback N1.
+&#x200B;* Uma opção para adicionar perguntas descritivas foi fornecida no recurso de feedback N1 e N3. Os administradores podem adicionar essas perguntas descritivas aos alunos. Essa condição está também no conjunto padrão de perguntas fornecidas pelo Learning Manager. Você pode adicionar duas perguntas descritivas do feedback N1 e uma pergunta descritiva do feedback N3.\
   Para obter mais informações sobre esse recurso, consulte Ajuda sobre as [Perguntas descritivas do feedback N1 e N3](../administrators/feature-summary/courses.md#descriptive)
 
 **Exportar usuários**
 
-* Com base na solicitação de alguns grandes usuários corporativos, foi fornecida uma nova opção de download da lista de todos os usuários da conta do Learning Manager. No logon do administrador, clique em **[!UICONTROL Usuários]** no painel esquerdo e clique em **[!UICONTROL Exportar dados do usuário]** para baixar a lista de usuários como uma planilha do Excel.
+&#x200B;* Com base na solicitação de alguns grandes usuários corporativos, foi fornecida uma nova opção de download da lista de todos os usuários da conta do Learning Manager. No logon do administrador, clique em **[!UICONTROL Usuários]** no painel esquerdo e clique em **[!UICONTROL Exportar dados do usuário]** para baixar a lista de usuários como uma planilha do Excel.
 
 ### Problemas corrigidos {#Issuesfixed-1}
 
 **Inscrições no curso**
 
-* Em alguns casos, quando um administrador tentava visualizar as inscrições do curso usando a guia dos alunos, alguns dos nomes dos alunos inscritos não eram exibidos. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, quando um administrador tentava visualizar as inscrições do curso usando a guia dos alunos, alguns dos nomes dos alunos inscritos não eram exibidos. Esse problema foi corrigido.
 
 **Adicionar cursos**
 
-* Ao adicionar uma habilidade ao curso, se o autor adicionava uma habilidade que tivesse um espaço em branco no final do nome, ocorria um erro e o curso não era salvo. Esse problema foi corrigido.
+&#x200B;* Ao adicionar uma habilidade ao curso, se o autor adicionava uma habilidade que tivesse um espaço em branco no final do nome, ocorria um erro e o curso não era salvo. Esse problema foi corrigido.
 
 **Realizar cursos**
 
-* Em um curso solicitado, alguns alunos não conseguiam passar de um módulo para outro durante a realização do curso porque os módulos não eram marcados como concluídos. Esse problema foi corrigido.
-* Em um curso solicitado, os alunos não conseguiam navegar entre os módulos dentro do sumário durante os modos normais e de revisão. Esse problema foi corrigido.
+&#x200B;* Em um curso solicitado, alguns alunos não conseguiam passar de um módulo para outro durante a realização do curso porque os módulos não eram marcados como concluídos. Esse problema foi corrigido.
+&#x200B;* Em um curso solicitado, os alunos não conseguiam navegar entre os módulos dentro do sumário durante os modos normais e de revisão. Esse problema foi corrigido.
 
 **Fluidic Player**
 
-* Em alguns casos, quando um usuário carregava um conteúdo do módulo com quadros/slides ocultos, o sumário no painel esquerdo exibia os quadros/slides ocultos. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, quando um usuário carregava um conteúdo do módulo com quadros/slides ocultos, o sumário no painel esquerdo exibia os quadros/slides ocultos. Esse problema foi corrigido.
 
 **Relatórios**
 
-* O tempo necessário para carregar relatórios é maior na última atualização do Learning Manager. Esse problema foi corrigido.
+&#x200B;* O tempo necessário para carregar relatórios é maior na última atualização do Learning Manager. Esse problema foi corrigido.
 
 +++
 
@@ -3112,60 +3168,60 @@ Data de lançamento: 12 de outubro de 2016.
 
 **Relatórios do curso**
 
-* Nas contas do Learning Manager habilitadas para o identificador exclusivo universal (UUID), o UUID é exibido no relatório de inscrição do curso, nas transcrições do aluno e nos relatórios de pontuação do questionário.
+&#x200B;* Nas contas do Learning Manager habilitadas para o identificador exclusivo universal (UUID), o UUID é exibido no relatório de inscrição do curso, nas transcrições do aluno e nos relatórios de pontuação do questionário.
 
 ### Problemas corrigidos {#Issuesfixed-2}
 
 **Ajudas de tarefa**
 
-* Em alguns casos, quando um aluno tentava navegar da guia Aprendizado>Ajudas de tarefa para Aprendizado>Cursos de aprendizado, os cursos não eram carregados conforme o esperado na guia Aprendizado>Cursos. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, quando um aluno tentava navegar da guia Aprendizado>Ajudas de tarefa para Aprendizado>Cursos de aprendizado, os cursos não eram carregados conforme o esperado na guia Aprendizado>Cursos. Esse problema foi corrigido.
 
 **Adicionar usuários**
 
-* Em alguns casos, quando um único usuário era adicionado ao aplicativo Learning Manager, o usuário não recebia a notificação por e-mail. Esse problema foi corrigido.
-* Os administradores não conseguiam fazer download do arquivo CSV se o processo de carregamento do CSV falhasse. Esse problema foi corrigido. Os administradores podem fazer download do CSV mais recente mesmo se o processo de carregamento do CSV falhar.
-* Se um CSV fosse importado depois da modificação das informações do usuário que se registrou com letras maiúsculas e minúsculas misturadas, os detalhes do usuário inscrito não eram exibidos na interface do usuário do administrador. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, quando um único usuário era adicionado ao aplicativo Learning Manager, o usuário não recebia a notificação por e-mail. Esse problema foi corrigido.
+&#x200B;* Os administradores não conseguiam fazer download do arquivo CSV se o processo de carregamento do CSV falhasse. Esse problema foi corrigido. Os administradores podem fazer download do CSV mais recente mesmo se o processo de carregamento do CSV falhar.
+&#x200B;* Se um CSV fosse importado depois da modificação das informações do usuário que se registrou com letras maiúsculas e minúsculas misturadas, os detalhes do usuário inscrito não eram exibidos na interface do usuário do administrador. Esse problema foi corrigido.
 
 **Relatórios do curso**
 
-* Em alguns casos, as pontuações do questionário dos cursos não eram exibidas mesmo se as pontuações fossem exibidas nas transcrições do aluno. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, as pontuações do questionário dos cursos não eram exibidas mesmo se as pontuações fossem exibidas nas transcrições do aluno. Esse problema foi corrigido.
 
 **Relatórios de inscrição**
 
-* Em alguns casos, os relatórios em Excel de inscrição do aluno não eram transferidos para os objetos de aprendizado. Esse problema ocorria sempre que caracteres especiais ou não ASCII eram utilizados no nome dos objetos de aprendizado. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, os relatórios em Excel de inscrição do aluno não eram transferidos para os objetos de aprendizado. Esse problema ocorria sempre que caracteres especiais ou não ASCII eram utilizados no nome dos objetos de aprendizado. Esse problema foi corrigido.
 
 **Logon do usuário**
 
-* Ao configurar uma senha durante o registro ou durante a restauração, a mensagem de erro não era exibida mesmo se a senha inserida não estivesse de acordo com a política de senha. Esse problema foi corrigido.
+&#x200B;* Ao configurar uma senha durante o registro ou durante a restauração, a mensagem de erro não era exibida mesmo se a senha inserida não estivesse de acordo com a política de senha. Esse problema foi corrigido.
 
 **Eficácia do curso**
 
-* Na função do aluno, a eficácia do curso era exibida como uma das opções de filtro **Classificar por** mesmo quando um administrador desativava a eficácia do curso dos alunos. Esse problema foi corrigido.
+&#x200B;* Na função do aluno, a eficácia do curso era exibida como uma das opções de filtro **Classificar por** mesmo quando um administrador desativava a eficácia do curso dos alunos. Esse problema foi corrigido.
 
 **Certificações**
 
-* Quando um administrador removia alunos de uma certificação periódica, ocorria um erro e o aplicativo Learning Manager travava. Esse problema foi corrigido.
+&#x200B;* Quando um administrador removia alunos de uma certificação periódica, ocorria um erro e o aplicativo Learning Manager travava. Esse problema foi corrigido.
 
 **Relatórios**
 
-* Quando um administrador tenta gerar um relatório de certificação com **Data da caixa** como uma opção, os usuários inativos não são exibidos no relatório. Esse problema foi corrigido.
-* Quando um administrador clicava no link Relatórios do curso na guia Relatórios>Meus relatórios, era exibida uma caixa de diálogo pop-up sem o botão Fechar. Esse problema foi corrigido.
+&#x200B;* Quando um administrador tenta gerar um relatório de certificação com **Data da caixa** como uma opção, os usuários inativos não são exibidos no relatório. Esse problema foi corrigido.
+&#x200B;* Quando um administrador clicava no link Relatórios do curso na guia Relatórios>Meus relatórios, era exibida uma caixa de diálogo pop-up sem o botão Fechar. Esse problema foi corrigido.
 
 **Fluidic Player**
 
-* Ao visualizar cursos como administrador ou autor, quando um usuário escolhe o modo de Tela cheia no Fluidic Player, a tela aparece em branco. Esse problema foi corrigido.
+&#x200B;* Ao visualizar cursos como administrador ou autor, quando um usuário escolhe o modo de Tela cheia no Fluidic Player, a tela aparece em branco. Esse problema foi corrigido.
 
 **Suporte multilíngue**
 
-* Eram exibidos caracteres de ponto de interrogação no lugar dos caracteres chineses em resposta às chamadas de API pelos usuários. Esse problema foi corrigido.
+&#x200B;* Eram exibidos caracteres de ponto de interrogação no lugar dos caracteres chineses em resposta às chamadas de API pelos usuários. Esse problema foi corrigido.
 
 **Camada da API**
 
-* Um erro costumava ocorrer sempre que um usuário tentava obter a ID de catálogo padrão usando a API get/catalog/catalog Id. Uma id de catálogo padrão pode ser semelhante a &#39;970_default&#39;. Esse problema foi corrigido.
+&#x200B;* Um erro costumava ocorrer sempre que um usuário tentava obter a ID de catálogo padrão usando a API get/catalog/catalog Id. Uma id de catálogo padrão pode ser semelhante a &#39;970_default&#39;. Esse problema foi corrigido.
 
 **Interface do usuário**
 
-* Alguns pequenos erros de digitação foram corrigidos na interface de usuário do aplicativo Learning Manager na função do aluno.
+&#x200B;* Alguns pequenos erros de digitação foram corrigidos na interface de usuário do aplicativo Learning Manager na função do aluno.
 
 +++
 
@@ -3177,12 +3233,12 @@ Data de lançamento: 19 de setembro de 2016.
 
 **Transcrições do aluno**
 
-* Em alguns casos, se houvesse mais de vinte alunos inativos/excluídos em uma conta, os alunos inativos acima de vinte não eram exibidos na lista suspensa de pesquisa da caixa de diálogo de transcrição do aluno. Esse problema foi corrigido.
-* Se uma conta de usuário externo estivesse vencida, os alunos não eram listados na transcrição gerada do aluno. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, se houvesse mais de vinte alunos inativos/excluídos em uma conta, os alunos inativos acima de vinte não eram exibidos na lista suspensa de pesquisa da caixa de diálogo de transcrição do aluno. Esse problema foi corrigido.
+&#x200B;* Se uma conta de usuário externo estivesse vencida, os alunos não eram listados na transcrição gerada do aluno. Esse problema foi corrigido.
 
 **Catálogos**
 
-* Alguns dos clientes tinham problema com a exibição dos grupos de usuários em um catálogo. Mesmo se houvesse mais de vinte grupos de usuários em um catálogo, apenas 20 grupos de usuários eram exibidos. Nós corrigimos o problema exibindo 200 grupos de usuários em uma página.
+&#x200B;* Alguns dos clientes tinham problema com a exibição dos grupos de usuários em um catálogo. Mesmo se houvesse mais de vinte grupos de usuários em um catálogo, apenas 20 grupos de usuários eram exibidos. Nós corrigimos o problema exibindo 200 grupos de usuários em uma página.
 
 +++
 
@@ -3194,8 +3250,8 @@ Nessa versão da atualização, corrigimos alguns dos problemas de backend da en
 
 ### Problemas corrigidos {#Issuesfixed-4}
 
-* Havia um problema com exportação dos dados do módulo nas transcrições do aluno resultando em dados de exportação inapropriados. Esse problema foi corrigido.
-* Se um usuário usasse uma extensão de id do e-mail com mais de quatro caracteres, ela não era aceita. Por exemplo, se uma ID de email for <abcd@company.world>, ela não terá suporte, pois o universo da extensão tem mais de quatro caracteres. Corrigimos isso para oferecer suporte a extensões com mais de quatro caracteres.
+&#x200B;* Havia um problema com exportação dos dados do módulo nas transcrições do aluno resultando em dados de exportação inapropriados. Esse problema foi corrigido.
+&#x200B;* Se um usuário usasse uma extensão de id do e-mail com mais de quatro caracteres, ela não era aceita. Por exemplo, se uma ID de email for <abcd@company.world>, ela não terá suporte, pois o universo da extensão tem mais de quatro caracteres. Corrigimos isso para oferecer suporte a extensões com mais de quatro caracteres.
 
 +++
 
@@ -3229,8 +3285,8 @@ Em alguns recursos da interface do usuário do Learning Manager, as mensagens n�
 
 **Adicionar usuários**
 
-* Quando um usuário excluído era novamente adicionado como um único usuário, o usuário não era adicionado ao grupo de usuários ‘Todos os usuários’ por padrão. Esse problema foi corrigido.
-* Um número limitado de perfis era exibido nas caixas de diálogo de alteração de perfil das inscrições externas e das autoinscrições. A paginação está agora implementada.
+&#x200B;* Quando um usuário excluído era novamente adicionado como um único usuário, o usuário não era adicionado ao grupo de usuários ‘Todos os usuários’ por padrão. Esse problema foi corrigido.
+&#x200B;* Um número limitado de perfis era exibido nas caixas de diálogo de alteração de perfil das inscrições externas e das autoinscrições. A paginação está agora implementada.
 
 **Ajudas de tarefa**
 
@@ -3246,16 +3302,16 @@ Nas configurações da conta, quando um administrador usava um subdomínio que j
 
 **Camada da API**
 
-* Quando a opção incluir gerente era usada ao pesquisar usuários, a hierarquia completa de gerentes era pesquisada em vez do gerente imediato do usuário. Esse problema foi corrigido.
-* Quando um usuário com permissão de autorização do escopo do aluno tentava adicionar usuários, uma mensagem de erro genérica era exibida. Esse problema foi corrigido e agora uma mensagem de acesso não autorizado é exibida para o aluno.
-* Quando um usuário tentava excluir o último usuário existente de um grupo de usuários, uma mensagem de erro 204 era exibida para o usuário. Esse problema foi corrigido exibindo uma mensagem de erro relevante para o usuário indicando que o grupo deve ter pelo menos um usuário.
-* O espaço, se houvesse no início do nome, era cortado ao exibir o nome do usuário na API GET/users. Agora esse problema foi corrigido.
-* Os cursos de rascunho também eram retornados em resposta quando o administrador tentava obter todos os cursos.Estes cursos preliminares são supostamente privados para o autor. Esse problema foi corrigido e os cursos de rascunho agora não são devolvidos.
+&#x200B;* Quando a opção incluir gerente era usada ao pesquisar usuários, a hierarquia completa de gerentes era pesquisada em vez do gerente imediato do usuário. Esse problema foi corrigido.
+&#x200B;* Quando um usuário com permissão de autorização do escopo do aluno tentava adicionar usuários, uma mensagem de erro genérica era exibida. Esse problema foi corrigido e agora uma mensagem de acesso não autorizado é exibida para o aluno.
+&#x200B;* Quando um usuário tentava excluir o último usuário existente de um grupo de usuários, uma mensagem de erro 204 era exibida para o usuário. Esse problema foi corrigido exibindo uma mensagem de erro relevante para o usuário indicando que o grupo deve ter pelo menos um usuário.
+&#x200B;* O espaço, se houvesse no início do nome, era cortado ao exibir o nome do usuário na API GET/users. Agora esse problema foi corrigido.
+&#x200B;* Os cursos de rascunho também eram retornados em resposta quando o administrador tentava obter todos os cursos.Estes cursos preliminares são supostamente privados para o autor. Esse problema foi corrigido e os cursos de rascunho agora não são devolvidos.
 
 **Integração do Adobe Connect**
 
-* Em algumas instâncias das sessões de sala de aula virtual com base no Adobe Connect, a presença não estava sendo marcada automaticamente após a sessão. Esse problema ocorria somente quando uma id de logon era usada pelo professor para fazer logon em vez da id de e-mail. Agora esse problema foi corrigido.
-* Em alguns casos, o nome do professor era exibido várias vezes na lista suspensa Professor durante a criação do módulo da sala de aula virtual com base no Adobe Connect. Esse problema foi corrigido.
+&#x200B;* Em algumas instâncias das sessões de sala de aula virtual com base no Adobe Connect, a presença não estava sendo marcada automaticamente após a sessão. Esse problema ocorria somente quando uma id de logon era usada pelo professor para fazer logon em vez da id de e-mail. Agora esse problema foi corrigido.
+&#x200B;* Em alguns casos, o nome do professor era exibido várias vezes na lista suspensa Professor durante a criação do módulo da sala de aula virtual com base no Adobe Connect. Esse problema foi corrigido.
 
 +++
 
@@ -3294,8 +3350,8 @@ A ID de logon é fornecida como um campo opcional novo nas configurações de in
 
 **Relatórios do curso**
 
-* Quando um módulo do curso continha perguntas abertas ou somente perguntas de pesquisa, um relatório vazio da pontuação do questionário era exibido ao ser exportado. Esse problema foi corrigido.
-* Em alguns casos, o relatório de pontuação do questionário não era baixado quando o usuário usava o link de pontuação do questionário da exportação. Esse problema foi corrigido.
+&#x200B;* Quando um módulo do curso continha perguntas abertas ou somente perguntas de pesquisa, um relatório vazio da pontuação do questionário era exibido ao ser exportado. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, o relatório de pontuação do questionário não era baixado quando o usuário usava o link de pontuação do questionário da exportação. Esse problema foi corrigido.
 
 **Criar cursos**
 
@@ -3325,9 +3381,9 @@ O processo de verificação/autenticação da solicitação de integração foi 
 
 **Adicionar usuários**
 
-* Quando havia um grande número de usuários do Learning Manager, ocorria um atraso na página de carregamento dos usuários e dos grupos de usuários. Esse problema foi corrigido.
-* Depois que o administrador finalizava o carregamento do arquivo CSV com novos usuários, a lista de usuários na página não era atualizada com os novos usuários até que a página fosse atualizada. Esse problema foi corrigido.
-* Às vezes, após a importação de usuários que usam CSV, o valor da id do usuário na página era substituído pela id de e-mail. Esse problema foi corrigido.
+&#x200B;* Quando havia um grande número de usuários do Learning Manager, ocorria um atraso na página de carregamento dos usuários e dos grupos de usuários. Esse problema foi corrigido.
+&#x200B;* Depois que o administrador finalizava o carregamento do arquivo CSV com novos usuários, a lista de usuários na página não era atualizada com os novos usuários até que a página fosse atualizada. Esse problema foi corrigido.
+&#x200B;* Às vezes, após a importação de usuários que usam CSV, o valor da id do usuário na página era substituído pela id de e-mail. Esse problema foi corrigido.
 
 **Criar grupos de usuários**
 
@@ -3351,8 +3407,8 @@ Quando um administrador alterava o idioma do aplicativo para chinês simplificad
 
 **Fluidic Player**
 
-* Quando um autor criava um curso com o conteúdo AICC ou Tin Can e tentava visualizá-lo, o conteúdo não era reproduzido. Esse problema foi corrigido.
-* A visualização do módulo não funcionava quando o autor criava ou editava um curso. Esse problema foi corrigido.
+&#x200B;* Quando um autor criava um curso com o conteúdo AICC ou Tin Can e tentava visualizá-lo, o conteúdo não era reproduzido. Esse problema foi corrigido.
+&#x200B;* A visualização do módulo não funcionava quando o autor criava ou editava um curso. Esse problema foi corrigido.
 
 **Catálogos**
 
@@ -3360,13 +3416,13 @@ Quando um aluno tentava acessar o URL dos programas de aprendizado/catálogos di
 
 **Integração ao Salesforce**
 
-* Depois de definir uma conexão FTP ou Salesforce, na página Atributos do mapa, as setas suspensas dos campos não eram exibidas nos navegadores IE, Edge e Safari. Além disso, algumas das mensagens pop-up não eram exibidas nos fluxos de trabalho. Esse problema foi corrigido.
-* Em alguns casos, quando um administrador tentava fazer a sincronização dos dados do .csv importados no conector FTP, a sincronização falhava com entradas replicadas. Esse problema foi corrigido.
+&#x200B;* Depois de definir uma conexão FTP ou Salesforce, na página Atributos do mapa, as setas suspensas dos campos não eram exibidas nos navegadores IE, Edge e Safari. Além disso, algumas das mensagens pop-up não eram exibidas nos fluxos de trabalho. Esse problema foi corrigido.
+&#x200B;* Em alguns casos, quando um administrador tentava fazer a sincronização dos dados do .csv importados no conector FTP, a sincronização falhava com entradas replicadas. Esse problema foi corrigido.
 
 **Camada da API**
 
-* Quando um administrador autorizava o aluno externo usando a autenticação OAuth, às vezes, os alunos externos não podiam fazer logon no aplicativo. Esse problema foi corrigido.
-* Às vezes, quando havia uma chamada de API das Ajudas de tarefa, o erro de acesso não autorizado era exibido. Esse problema foi corrigido.
+&#x200B;* Quando um administrador autorizava o aluno externo usando a autenticação OAuth, às vezes, os alunos externos não podiam fazer logon no aplicativo. Esse problema foi corrigido.
+&#x200B;* Às vezes, quando havia uma chamada de API das Ajudas de tarefa, o erro de acesso não autorizado era exibido. Esse problema foi corrigido.
 
 **Configurações**
 
@@ -3410,11 +3466,11 @@ Você pode adicionar a pontuação do questionário nos módulos de sala de aula
 
 **Adicionar usuários**
 
-* Você pode mover alunos de um grupo de inscrição automática para outro grupo.
-* Você pode mover usuários de um grupo externo para outro grupo externo.
-* Você pode transformar um usuário do grupo externo em um Gerente do mesmo grupo externo.
-* Depois de adicionar um grupo de usuários externo ao Learning Manager, você também pode pausar o processo de registro de usuários externos. A qualquer momento, você pode revogar o bloqueio (pausa) selecionando a opção Continuar.
-* Agora, você pode editar o nome e a id de e-mail dos alunos.
+&#x200B;* Você pode mover alunos de um grupo de inscrição automática para outro grupo.
+&#x200B;* Você pode mover usuários de um grupo externo para outro grupo externo.
+&#x200B;* Você pode transformar um usuário do grupo externo em um Gerente do mesmo grupo externo.
+&#x200B;* Depois de adicionar um grupo de usuários externo ao Learning Manager, você também pode pausar o processo de registro de usuários externos. A qualquer momento, você pode revogar o bloqueio (pausa) selecionando a opção Continuar.
+&#x200B;* Agora, você pode editar o nome e a id de e-mail dos alunos.
 
 **Autoinscrição**
 
@@ -3426,8 +3482,8 @@ Agora, os administradores podem marcar como concluída uma atividade de aprendiz
 
 **Relatórios**
 
-* Você pode assinar relatórios de cursos, programas de aprendizado ou certificados. Você também pode assinar relatórios de curso individuais para obter dados como o status da pontuação do questionário e do aluno. As assinaturas serão enviadas à sua id de e-mail conforme registrada na conta do Learning Manager. Você também pode alterar esta id de e-mail.
-* Quando você exporta o relatório de inscrição de certificação, uma nova coluna denominada **Data de vencimento** também é exportada. Os dados dessa coluna permitem que os administradores saibam quais alunos ultrapassaram o prazo de realização do objeto de aprendizado.
+&#x200B;* Você pode assinar relatórios de cursos, programas de aprendizado ou certificados. Você também pode assinar relatórios de curso individuais para obter dados como o status da pontuação do questionário e do aluno. As assinaturas serão enviadas à sua id de e-mail conforme registrada na conta do Learning Manager. Você também pode alterar esta id de e-mail.
+&#x200B;* Quando você exporta o relatório de inscrição de certificação, uma nova coluna denominada **Data de vencimento** também é exportada. Os dados dessa coluna permitem que os administradores saibam quais alunos ultrapassaram o prazo de realização do objeto de aprendizado.
 
 **Modelos de e-mail**
 
@@ -3469,8 +3525,8 @@ Data de lançamento: 25 de maio de 2016
 
 **Programas de aprendizado/certificações**
 
-* Na lista de inscrição dos alunos nos programas de aprendizado e certificações, é exibido o nome completo (primeiro e último nomes). Anteriormente, somente o primeiro nome dos alunos era exibido.
-* As habilidades com os níveis de créditos mais elevados são tomadas da lista de cursos nos programas de aprendizado/certificações e exibidas nos cartões como habilidades do programa de aprendizado/certificação. Se houver vários cursos com o mesmo valor de créditos, eles serão selecionados em ordem alfabética. Anteriormente, os nomes de habilidade dos programas de aprendizado/certificação eram retirados aleatoriamente de uma lista de cursos.
+&#x200B;* Na lista de inscrição dos alunos nos programas de aprendizado e certificações, é exibido o nome completo (primeiro e último nomes). Anteriormente, somente o primeiro nome dos alunos era exibido.
+&#x200B;* As habilidades com os níveis de créditos mais elevados são tomadas da lista de cursos nos programas de aprendizado/certificações e exibidas nos cartões como habilidades do programa de aprendizado/certificação. Se houver vários cursos com o mesmo valor de créditos, eles serão selecionados em ordem alfabética. Anteriormente, os nomes de habilidade dos programas de aprendizado/certificação eram retirados aleatoriamente de uma lista de cursos.
 
 **Importar CSV**
 
@@ -3484,14 +3540,14 @@ Quando os alunos externos visitam a página de registro usando um URL de perfil 
 
 **Visualizar e publicar cursos**
 
-* Na função de autor, ao visualizar um curso que foi carregado do Captivate como um conteúdo SCORM+SWF com a variável `code $$cpQuizInfoStudentName$$`, um valor nulo era exibido para a variável. Esse problema foi corrigido.
-* Quando um curso do Presenter com um título que continha apóstrofo (&#39;) é publicado e exibido no Learning Manager, pontos de interrogação (???) usado para aparecer no sumário. Esse problema foi corrigido.
+&#x200B;* Na função de autor, ao visualizar um curso que foi carregado do Captivate como um conteúdo SCORM+SWF com a variável `code $$cpQuizInfoStudentName$$`, um valor nulo era exibido para a variável. Esse problema foi corrigido.
+&#x200B;* Quando um curso do Presenter com um título que continha apóstrofo (&#39;) é publicado e exibido no Learning Manager, pontos de interrogação (???) usado para aparecer no sumário. Esse problema foi corrigido.
 
 **Certificações**
 
-* Se uma certificação está associada a um catálogo e quando a certificação se repete, ela aparece em todos os catálogos associados. Anteriormente, havia algumas poucas ocorrências nas quais os usuários não podiam ver as certificação periódicas em seus catálogos.
-* Ao criar certificações, se um administrador inserir o valor de **dias para concluir**, que é maior ou igual ao período de validade da certificação, uma mensagem de aviso será exibida. Anteriormente, a mensagem de aviso não era mostrada para os administradores.
-* A **vigência** da certificação é exibida aos usuários em meses. Anteriormente, o valor base estava era exibido em anos.
+&#x200B;* Se uma certificação está associada a um catálogo e quando a certificação se repete, ela aparece em todos os catálogos associados. Anteriormente, havia algumas poucas ocorrências nas quais os usuários não podiam ver as certificação periódicas em seus catálogos.
+&#x200B;* Ao criar certificações, se um administrador inserir o valor de **dias para concluir**, que é maior ou igual ao período de validade da certificação, uma mensagem de aviso será exibida. Anteriormente, a mensagem de aviso não era mostrada para os administradores.
+&#x200B;* A **vigência** da certificação é exibida aos usuários em meses. Anteriormente, o valor base estava era exibido em anos.
 
 **Definir programas de aprendizado**
 
@@ -3499,8 +3555,8 @@ O prazo não aparece nas instâncias do programa de aprendizado padrão. Anterio
 
 **Criar cursos usando módulos**
 
-* Quando um autor atualizava um módulo de um curso misto, a página de participação não era exibida na função de administrador. Esse problema foi corrigido.
-* Quando o nome de uma instância do curso continha dois pontos (:), a ação de exportação da lista de alunos falhava. Esse problema foi corrigido.
+&#x200B;* Quando um autor atualizava um módulo de um curso misto, a página de participação não era exibida na função de administrador. Esse problema foi corrigido.
+&#x200B;* Quando o nome de uma instância do curso continha dois pontos (:), a ação de exportação da lista de alunos falhava. Esse problema foi corrigido.
 
 +++
 
@@ -3522,8 +3578,8 @@ Uma opção de feedback é fornecida na caixa de diálogo de confirmação de de
 
 **Exportar relatórios**
 
-* A exportação da lista dos alunos costumava falhar quando um grande conjunto de usuários estava inscrito em um programa de aprendizado. Esse problema foi corrigido.
-* Quando um curso tinha duas instâncias com o mesmo nome e o nome da instância era longo, não eram criadas duas planilhas no arquivo Excel exportado. Esse problema foi corrigido.
+&#x200B;* A exportação da lista dos alunos costumava falhar quando um grande conjunto de usuários estava inscrito em um programa de aprendizado. Esse problema foi corrigido.
+&#x200B;* Quando um curso tinha duas instâncias com o mesmo nome e o nome da instância era longo, não eram criadas duas planilhas no arquivo Excel exportado. Esse problema foi corrigido.
 
 **Inscrição em massa**
 
@@ -3551,10 +3607,10 @@ A exportação de dados de inscrição costumava falhar se um dos alunos inscrit
 
 **Modelos de e-mail**
 
-* A palavra **parceiros,** que era usada para representar os grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do título e do corpo dos modelos de e-mail. Os grupos externos não são chamados necessariamente de parceiros.\
+&#x200B;* A palavra **parceiros,** que era usada para representar os grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do título e do corpo dos modelos de e-mail. Os grupos externos não são chamados necessariamente de parceiros.\
   **Observação:** este modelo atualizado não será exibido se o modelo padrão já estiver modificado. Para exibir o modelo atualizado, clique em **Reverter para Original** na caixa de diálogo **Visualização do Modelo**.
 
-* O URL não será clicável no e-mail recebido pelos administradores sempre que os modelos de e-mail de **Perfil criado (autoinscrição)** e **Perfil criado (externo/parceiros)** estiverem editados. Esse problema foi corrigido.
+&#x200B;* O URL não será clicável no e-mail recebido pelos administradores sempre que os modelos de e-mail de **Perfil criado (autoinscrição)** e **Perfil criado (externo/parceiros)** estiverem editados. Esse problema foi corrigido.
 
 +++
 
@@ -3592,20 +3648,20 @@ No logon do administrador, a paginação não funcionava na página Comunicados.
 
 **Planos e programas de aprendizado**
 
-* Quando um aluno tentava pular o módulo de um curso ordenado em um programa de aprendizado, não era exibida nenhuma mensagem de erro. Esse problema já foi corrigido. Uma mensagem de erro **Não é possível ignorar módulos** aparece.
-* Os cursos não eram adicionados aos programas de aprendizado quando a paginação era usada na lista de cursos. Esse problema foi corrigido.
-* A guia **Retirado** foi exibida duas vezes em Programas de aprendizado > instâncias. Esse problema foi corrigido.
+&#x200B;* Quando um aluno tentava pular o módulo de um curso ordenado em um programa de aprendizado, não era exibida nenhuma mensagem de erro. Esse problema já foi corrigido. Uma mensagem de erro **Não é possível ignorar módulos** aparece.
+&#x200B;* Os cursos não eram adicionados aos programas de aprendizado quando a paginação era usada na lista de cursos. Esse problema foi corrigido.
+&#x200B;* A guia **Retirado** foi exibida duas vezes em Programas de aprendizado > instâncias. Esse problema foi corrigido.
 
 **Ajudas de tarefa**
 
-* Quando um aluno removia a ajuda de tarefa da guia **Aprendizado**, a classificação por **Nome** não funcionava conforme o esperado até que a página fosse atualizada. Esse problema foi corrigido.
+&#x200B;* Quando um aluno removia a ajuda de tarefa da guia **Aprendizado**, a classificação por **Nome** não funcionava conforme o esperado até que a página fosse atualizada. Esse problema foi corrigido.
 
-* Se uma ajuda de tarefa fizesse parte de vários cursos, os cursos não eram exibidos na lista de ajudas de tarefa. Esse problema foi corrigido.
-* Se um aluno aumentava ou diminuía o zoom no navegador, a paginação da lista de ajudas de tarefa não funcionava conforme o esperado. Esse problema foi corrigido.
+&#x200B;* Se uma ajuda de tarefa fizesse parte de vários cursos, os cursos não eram exibidos na lista de ajudas de tarefa. Esse problema foi corrigido.
+&#x200B;* Se um aluno aumentava ou diminuía o zoom no navegador, a paginação da lista de ajudas de tarefa não funcionava conforme o esperado. Esse problema foi corrigido.
 
 **Realização do curso**
 
-* Se um aluno aumentava ou diminuía o zoom no navegador, a paginação dos cursos não funcionava conforme o esperado. Esse problema foi corrigido.
+&#x200B;* Se um aluno aumentava ou diminuía o zoom no navegador, a paginação dos cursos não funcionava conforme o esperado. Esse problema foi corrigido.
 
 **Criar habilidades**
 
@@ -3613,12 +3669,12 @@ No logon dos alunos, a dica de ferramenta de nome de habilidade no **Mapa de hab
 
 **Adicionar parceiros externos**
 
-* Uma mensagem de texto foi incluída na página de registro de usuários externos como **Os usuários devem primeiro se registrar e criar uma senha do nome de usuário para logons subsequentes**.
+&#x200B;* Uma mensagem de texto foi incluída na página de registro de usuários externos como **Os usuários devem primeiro se registrar e criar uma senha do nome de usuário para logons subsequentes**.
 
 **Notificações do usuário**
 
-* Quando um aluno externo clica no link **Abrir notas** na notificação por email sobre o curso novamente visitado, o reprodutor abre, mas o painel de notas não estava funcionando. Esse problema foi corrigido.
-* Quando um aluno externo tentava abrir os módulos de avaliação e trabalho prévio usando o link **Abrir notas** na notificação de Rever curso enviada por e-mail, o conteúdo das notas não estava visível. Esse problema foi corrigido.
+&#x200B;* Quando um aluno externo clica no link **Abrir notas** na notificação por email sobre o curso novamente visitado, o reprodutor abre, mas o painel de notas não estava funcionando. Esse problema foi corrigido.
+&#x200B;* Quando um aluno externo tentava abrir os módulos de avaliação e trabalho prévio usando o link **Abrir notas** na notificação de Rever curso enviada por e-mail, o conteúdo das notas não estava visível. Esse problema foi corrigido.
 
 **Criar cursos usando módulos**
 
@@ -3638,10 +3694,10 @@ Data de lançamento: 15 de março de 2016
 
 **Criar cursos com módulos**
 
-* No logon do administrador, ao tentar criar uma nova instância para cursos da guia **Retirado** ocorria um erro. Esse problema foi corrigido.
-* No logon de administrador do conteúdo localizado, durante a inscrição de alunos em uma instância do curso, os layouts das ações e da tela de inscrição ficavam distorcidos. Esse problema foi corrigido.
-* Quando um autor estava criando módulos de sala de aula ou de sala de aula virtual, o mês padrão do calendário era exibido como janeiro de 2015. Esse problema foi corrigido para refletir a data atual por padrão.
-* Quando um nome da instância de um curso continha barra inclinada ou barra invertida, a ação de exportação da lista dos alunos falhava. Esse problema foi corrigido.
+&#x200B;* No logon do administrador, ao tentar criar uma nova instância para cursos da guia **Retirado** ocorria um erro. Esse problema foi corrigido.
+&#x200B;* No logon de administrador do conteúdo localizado, durante a inscrição de alunos em uma instância do curso, os layouts das ações e da tela de inscrição ficavam distorcidos. Esse problema foi corrigido.
+&#x200B;* Quando um autor estava criando módulos de sala de aula ou de sala de aula virtual, o mês padrão do calendário era exibido como janeiro de 2015. Esse problema foi corrigido para refletir a data atual por padrão.
+&#x200B;* Quando um nome da instância de um curso continha barra inclinada ou barra invertida, a ação de exportação da lista dos alunos falhava. Esse problema foi corrigido.
 
 **Comunicados**
 
@@ -3805,33 +3861,33 @@ Data de lançamento: 20 de janeiro de 2016.
 
 **E-mails personalizáveis**
 
-* Os usuários podem modificar a seção de rodapé dos modelos de e-mail. Você pode personalizar o rodapé de um modelo de e-mail com o texto de sua preferência. O rodapé personalizado é aplicado automaticamente a todos os tipos de modelos de e-mail.
+&#x200B;* Os usuários podem modificar a seção de rodapé dos modelos de e-mail. Você pode personalizar o rodapé de um modelo de e-mail com o texto de sua preferência. O rodapé personalizado é aplicado automaticamente a todos os tipos de modelos de e-mail.
 
 **Realização do curso**
 
-* Os objetos de recurso no modo de visualização de um curso são listados um após o outro em uma nova linha. Anteriormente, havia casos em que os recursos de um curso eram exibidos próximos um do outro em uma única linha.
+&#x200B;* Os objetos de recurso no modo de visualização de um curso são listados um após o outro em uma nova linha. Anteriormente, havia casos em que os recursos de um curso eram exibidos próximos um do outro em uma única linha.
 
 **Link direto aos objetos de aprendizado**
 
-* Você pode acessar os objetos de aprendizado (exceto a certificação) usando um URL direto. A opção **[!UICONTROL Copiar URL]** é exibida nos blocos de objetos de aprendizado. Os usuários podem clicar em **[!UICONTROL Copiar URL]** e colar o link em uma página separada do navegador para acessar diretamente o objeto de aprendizado.
+&#x200B;* Você pode acessar os objetos de aprendizado (exceto a certificação) usando um URL direto. A opção **[!UICONTROL Copiar URL]** é exibida nos blocos de objetos de aprendizado. Os usuários podem clicar em **[!UICONTROL Copiar URL]** e colar o link em uma página separada do navegador para acessar diretamente o objeto de aprendizado.
 
 **Criar cursos usando módulos**
 
-* Ao criar um curso, os autores podem organizar cursos de pré-requisito em qualquer ordem. Anteriormente, essa opção não estava disponível no Learning Manager.
+&#x200B;* Ao criar um curso, os autores podem organizar cursos de pré-requisito em qualquer ordem. Anteriormente, essa opção não estava disponível no Learning Manager.
 
-* Os autores podem adicionar ou excluir cursos de pré-requisito em cursos publicados. Anteriormente, este recurso estava disponível somente para cursos de rascunho.
+&#x200B;* Os autores podem adicionar ou excluir cursos de pré-requisito em cursos publicados. Anteriormente, este recurso estava disponível somente para cursos de rascunho.
 
 **Registro do usuário**
 
-* Os usuários podem fazer logon no Learning Manager sem nenhuma verificação adicional do URL se a sua ID da Adobe corresponder à ID de e-mail do Learning Manager. Ao adicionar usuários à conta, o administrador de uma empresa fornece a ID de e-mail do Learning Manager.
+&#x200B;* Os usuários podem fazer logon no Learning Manager sem nenhuma verificação adicional do URL se a sua ID da Adobe corresponder à ID de e-mail do Learning Manager. Ao adicionar usuários à conta, o administrador de uma empresa fornece a ID de e-mail do Learning Manager.
 
 **Criar catálogo**
 
-* Na função Administrador, ao criar catálogos usando a caixa de diálogo **Adicionar objetos de aprendizado**, os cursos retirados não eram exibidos na lista de cursos.
+&#x200B;* Na função Administrador, ao criar catálogos usando a caixa de diálogo **Adicionar objetos de aprendizado**, os cursos retirados não eram exibidos na lista de cursos.
 
 **Outras correções**
 
-* Na função Administrador, o nome completo dos alunos é indicado na guia **Alunos**. Anteriormente, somente o primeiro nome dos alunos era exibido.
+&#x200B;* Na função Administrador, o nome completo dos alunos é indicado na guia **Alunos**. Anteriormente, somente o primeiro nome dos alunos era exibido.
 
 +++
 
@@ -3843,12 +3899,12 @@ Data de lançamento: 13 de janeiro de 2016.
 
 **Realização do curso**
 
-* Ao acessar conteúdo do curso, a barra de reprodução do conteúdo sempre aparece na tela. Havia um problema anterior com a barra de reprodução do conteúdo viso que ela desaparecia da tela de forma intermitente.
-* Ao acessar o conteúdo do curso, se o conteúdo tiver uma caixa de diálogo pop-up que solicita aos usuários que confirmem se desejam realmente sair ou permanecer na página, ao optar por permanecer nessa caixa de diálogo, o usuário volta ao conteúdo. Em algumas situações, ao clicar no botão Permanecer, o usuário era levado para fora do conteúdo do curso.
+&#x200B;* Ao acessar conteúdo do curso, a barra de reprodução do conteúdo sempre aparece na tela. Havia um problema anterior com a barra de reprodução do conteúdo viso que ela desaparecia da tela de forma intermitente.
+&#x200B;* Ao acessar o conteúdo do curso, se o conteúdo tiver uma caixa de diálogo pop-up que solicita aos usuários que confirmem se desejam realmente sair ou permanecer na página, ao optar por permanecer nessa caixa de diálogo, o usuário volta ao conteúdo. Em algumas situações, ao clicar no botão Permanecer, o usuário era levado para fora do conteúdo do curso.
 
 **Outras correções**
 
-* Alguns problemas relacionados à reprodução de conteúdo foram resolvidos.
+&#x200B;* Alguns problemas relacionados à reprodução de conteúdo foram resolvidos.
 
 +++
 
@@ -3860,25 +3916,25 @@ Data de lançamento: 22 de dezembro de 2015
 
 **Painel pessoal**
 
-* Ao acessar cursos, catálogos e programas de aprendizado nas funções Administrador e Autor, a ordem das guias é alterado para **Publicado - Rascunho - Tudo - Retirado**. A seleção padrão é **Publicada.**
+&#x200B;* Ao acessar cursos, catálogos e programas de aprendizado nas funções Administrador e Autor, a ordem das guias é alterado para **Publicado - Rascunho - Tudo - Retirado**. A seleção padrão é **Publicada.**
 
 ### Problemas corrigidos {#Issuesfixed-16}
 
 **Realização do curso**
 
-* Na função do aluno, ao consumir um curso, se o reprodutor for fechado com o botão Voltar do navegador ou com a tecla Backspace do teclado, o tempo de aprendizado gasto no curso é capturado nos relatórios. Em algumas situações, ocorria um problema no qual essa duração não era registrada nos relatórios.
+&#x200B;* Na função do aluno, ao consumir um curso, se o reprodutor for fechado com o botão Voltar do navegador ou com a tecla Backspace do teclado, o tempo de aprendizado gasto no curso é capturado nos relatórios. Em algumas situações, ocorria um problema no qual essa duração não era registrada nos relatórios.
 
 **Registro do usuário**
 
-* Se um usuário registra uma conta do Learning Manager usando autorregistro habilitado para SSO, o nome do usuário aparece corretamente na lista de nomes nos registros. Em alguns casos, o nome de usuário não era exibido corretamente.
+&#x200B;* Se um usuário registra uma conta do Learning Manager usando autorregistro habilitado para SSO, o nome do usuário aparece corretamente na lista de nomes nos registros. Em alguns casos, o nome de usuário não era exibido corretamente.
 
 **Criar cursos usando módulos**
 
-* Quando um autor duplica um curso, os arquivos de recurso do curso duplicado podem ser removidos ou atualizados. Em alguns casos, os usuários tinham problema ao atualizar ou remover recursos dos cursos duplicados.
+&#x200B;* Quando um autor duplica um curso, os arquivos de recurso do curso duplicado podem ser removidos ou atualizados. Em alguns casos, os usuários tinham problema ao atualizar ou remover recursos dos cursos duplicados.
 
 **Criar catálogos personalizados para grupo de usuários**
 
-* Ao usar a caixa de diálogo **Adicionar objetos de aprendizado** na função Administrador, você pode filtrar cursos, escolher um curso e adicionar usando o botão **Adicionar** na parte inferior da caixa de diálogo. Em alguns casos, o botão **Adicionar** não estava aparecendo para alguns usuários.
+&#x200B;* Ao usar a caixa de diálogo **Adicionar objetos de aprendizado** na função Administrador, você pode filtrar cursos, escolher um curso e adicionar usando o botão **Adicionar** na parte inferior da caixa de diálogo. Em alguns casos, o botão **Adicionar** não estava aparecendo para alguns usuários.
 
 +++
 
@@ -3890,11 +3946,11 @@ Data de lançamento: 11 de dezembro de 2015
 
 **Logon do usuário**
 
-* Quando um usuário tentava entrar no aplicativo Learning Manager sem usar o link de ativação, a mensagem de erro era exibida no formato errado. Esse problema foi corrigido.
+&#x200B;* Quando um usuário tentava entrar no aplicativo Learning Manager sem usar o link de ativação, a mensagem de erro era exibida no formato errado. Esse problema foi corrigido.
 
 **Aplicativo para tablets**
 
-* Após instalar o Learning Manager em tablets Android ou iPhone, as mensagens de compatibilidade com o navegador não eram exibidas. Anteriormente, uma mensagem de compatibilidade com o navegador era exibida para os usuários. Esse problema foi corrigido.
+&#x200B;* Após instalar o Learning Manager em tablets Android ou iPhone, as mensagens de compatibilidade com o navegador não eram exibidas. Anteriormente, uma mensagem de compatibilidade com o navegador era exibida para os usuários. Esse problema foi corrigido.
 
 +++
 
@@ -3906,40 +3962,40 @@ Data de lançamento: 09 de dezembro de 2015
 
 **Adicionar usuários**
 
-* Na função Administrador, quando o administrador registra usuários ou termina a adição de um único usuário, uma mensagem é exibida indicando a conclusão bem-sucedida do fluxo de trabalho junto com as próximas etapas a seguir.
-* Quando um usuário tenta entrar no aplicativo Learning Manager diretamente sem usar o link de ativação do usuário, é exibida uma mensagem de erro solicitando que o usuário use o link de ativação.
+&#x200B;* Na função Administrador, quando o administrador registra usuários ou termina a adição de um único usuário, uma mensagem é exibida indicando a conclusão bem-sucedida do fluxo de trabalho junto com as próximas etapas a seguir.
+&#x200B;* Quando um usuário tenta entrar no aplicativo Learning Manager diretamente sem usar o link de ativação do usuário, é exibida uma mensagem de erro solicitando que o usuário use o link de ativação.
 
 **Navegadores suportados**
 
-* Se algum usuário acessa o aplicativo Learning Manager em navegadores não suportados, ele recebe um alerta com a lista branca de navegadores.
+&#x200B;* Se algum usuário acessa o aplicativo Learning Manager em navegadores não suportados, ele recebe um alerta com a lista branca de navegadores.
 
 ### Problemas corrigidos {#Issuesfixed-18}
 
 **Relatórios**
 
-* Na função Administrador ou Gerente, ao criar um relatório com o eixo secundário como tempo de aprendizado gasto, aplicar o filtro Gerente e salvar o relatório, o usuário não conseguia fazer download desses relatórios. É possível fazer download de todos os tipos de relatórios.
+&#x200B;* Na função Administrador ou Gerente, ao criar um relatório com o eixo secundário como tempo de aprendizado gasto, aplicar o filtro Gerente e salvar o relatório, o usuário não conseguia fazer download desses relatórios. É possível fazer download de todos os tipos de relatórios.
 
 **Adicionar usuários**
 
-* Havia alguns erros de digitação na mensagem de alerta exibida ao ativar alunos externos na função Administrador. O problema foi corrigido.
-* Na função Administrador, uma mensagem de erro apropriada é exibida quando o campo Gerente não estiver selecionado durante a adição de um único usuário.
+&#x200B;* Havia alguns erros de digitação na mensagem de alerta exibida ao ativar alunos externos na função Administrador. O problema foi corrigido.
+&#x200B;* Na função Administrador, uma mensagem de erro apropriada é exibida quando o campo Gerente não estiver selecionado durante a adição de um único usuário.
 
 **Registro do usuário**
 
-* O e-mail de boas-vindas recebido pelos novos usuários realça a importância vincular a ID da Adobe à ID do Learning Manager para que o logon seja bem sucedido.
+&#x200B;* O e-mail de boas-vindas recebido pelos novos usuários realça a importância vincular a ID da Adobe à ID do Learning Manager para que o logon seja bem sucedido.
 
 **E-mails personalizáveis**
 
-* Ao adicionar vários alunos aos cursos em salas de aula que têm sessões como anexos, alguns alunos não recebiam notificações por e-mail. Esse problema foi corrigido.
-* Os e-mails enviados aos alunos em relação às inscrições em objetos de aprendizado e outros eventos contêm o nome específico do objeto de aprendizado no assunto do e-mail.
+&#x200B;* Ao adicionar vários alunos aos cursos em salas de aula que têm sessões como anexos, alguns alunos não recebiam notificações por e-mail. Esse problema foi corrigido.
+&#x200B;* Os e-mails enviados aos alunos em relação às inscrições em objetos de aprendizado e outros eventos contêm o nome específico do objeto de aprendizado no assunto do e-mail.
 
 **Outras correções**
 
-* Os problemas relacionados aos links de URL nos modelos de e-mail foram corrigidos.
-* O suporte fornecido a
+&#x200B;* Os problemas relacionados aos links de URL nos modelos de e-mail foram corrigidos.
+&#x200B;* O suporte fornecido a
 
-  * Publish para Learning Manager
-  * Suporte ao carregamento mais rápido de conteúdo para a versão CP 8 (a correção CP803 é necessária)
+  &#x200B;* Publish para Learning Manager
+  &#x200B;* Suporte ao carregamento mais rápido de conteúdo para a versão CP 8 (a correção CP803 é necessária)
 
 +++
 
@@ -3951,27 +4007,27 @@ Data de lançamento: 26 de outubro de 2015.
 
 **Adicionar usuários**
 
-* Link da ajuda on-line, fornecido na caixa de diálogo Adicionar usuários > Carregamento de CSV, para que os usuários entendam melhor como carregar o arquivo CSV.
+&#x200B;* Link da ajuda on-line, fornecido na caixa de diálogo Adicionar usuários > Carregamento de CSV, para que os usuários entendam melhor como carregar o arquivo CSV.
 
 **Fluidic Player**
 
-* Ao carregar o conteúdo do curso do Captivate com mais de 500 MB, o conteúdo não era reproduzido no Fluidic Player. Essa restrição foi removida. Atualmente, o limite de tamanho foi alterado para 2 GB.
+&#x200B;* Ao carregar o conteúdo do curso do Captivate com mais de 500 MB, o conteúdo não era reproduzido no Fluidic Player. Essa restrição foi removida. Atualmente, o limite de tamanho foi alterado para 2 GB.
 
 **Faturamento**
 
-* Na função Administrador, quando um usuário introduz o número de alunos e clica em **Fazer pedido**, é exibida uma caixa de diálogo com detalhes sobre cobranças mensais e anuais da assinatura por usuário.
+&#x200B;* Na função Administrador, quando um usuário introduz o número de alunos e clica em **Fazer pedido**, é exibida uma caixa de diálogo com detalhes sobre cobranças mensais e anuais da assinatura por usuário.
 
 ### Problemas corrigidos {#Issuesfixed-19}
 
 **Criar cursos usando módulos**
 
-* Ao criar cursos com módulos de atividades, os autores podem escolher URLs externos válidos mesmo que contenham caminhos de pasta no URL. Anteriormente, os URLs com caminhos de pasta não eram suportados. Esse problema foi corrigido.
-* Se o conteúdo do curso fosse um projeto carregado com um arquivo zip no Learning Manager e se esse arquivo zip contivesse os caminhos de pasta, como Zip>pasta>conteúdo, esse tipo de conteúdo não era suportado. Esse problema foi corrigido.
+&#x200B;* Ao criar cursos com módulos de atividades, os autores podem escolher URLs externos válidos mesmo que contenham caminhos de pasta no URL. Anteriormente, os URLs com caminhos de pasta não eram suportados. Esse problema foi corrigido.
+&#x200B;* Se o conteúdo do curso fosse um projeto carregado com um arquivo zip no Learning Manager e se esse arquivo zip contivesse os caminhos de pasta, como Zip>pasta>conteúdo, esse tipo de conteúdo não era suportado. Esse problema foi corrigido.
 
 **Aplicativo para tablets**
 
-* Quando um usuário tentava baixar os arquivos de recurso de um curso no aplicativo Learning Manager para Android, os arquivos de recurso não podiam ser baixados. Esse problema foi corrigido.
-* Ao realizar um curso usando o Fluidic Player, quando um usuário gravava a nota e tentava baixá-la mais tarde do curso, ela não estava disponível para download. Esse problema foi corrigido.
+&#x200B;* Quando um usuário tentava baixar os arquivos de recurso de um curso no aplicativo Learning Manager para Android, os arquivos de recurso não podiam ser baixados. Esse problema foi corrigido.
+&#x200B;* Ao realizar um curso usando o Fluidic Player, quando um usuário gravava a nota e tentava baixá-la mais tarde do curso, ela não estava disponível para download. Esse problema foi corrigido.
 
 +++
 
@@ -3983,38 +4039,38 @@ Data de lançamento: 28 de setembro de 2015
 
 **Criar cursos usando módulos**
 
-* O aplicativo Learning Manager oferece suporte ao carregamento de conteúdo SCORM mesmo se a versão não for indicada no arquivo manifest.xml. Por padrão, a versão é considerada como 1.2.
-* Ao carregar o conteúdo do curso do Captivate com mais de 500 MB, o conteúdo não era reproduzido no Fluidic Player. Como parte da atualização 2, o limite de tamanho foi alterado para 800 MB.
+&#x200B;* O aplicativo Learning Manager oferece suporte ao carregamento de conteúdo SCORM mesmo se a versão não for indicada no arquivo manifest.xml. Por padrão, a versão é considerada como 1.2.
+&#x200B;* Ao carregar o conteúdo do curso do Captivate com mais de 500 MB, o conteúdo não era reproduzido no Fluidic Player. Como parte da atualização 2, o limite de tamanho foi alterado para 800 MB.
 
 **Faturamento**
 
-* Na função Administrador, ao adquirir uma assinatura usando o cartão de crédito, o usuário poderá optar por fazer o primeiro pedido com 10 alunos. Os alunos mínimos necessários para o primeiro pedido diminuiu de 100 para 10.
+&#x200B;* Na função Administrador, ao adquirir uma assinatura usando o cartão de crédito, o usuário poderá optar por fazer o primeiro pedido com 10 alunos. Os alunos mínimos necessários para o primeiro pedido diminuiu de 100 para 10.
 
 **Registro do usuário**
 
-* Um link de URL para criar a ID da Adobe foi fornecido no e-mail de boas-vindas recebido pelos alunos depois do registro.
+&#x200B;* Um link de URL para criar a ID da Adobe foi fornecido no e-mail de boas-vindas recebido pelos alunos depois do registro.
 
 **Adicionar usuários**
 
-* Na função Administrador, a adição de usuários usando a opção de carregamento de CSV diretamente na conta de Exavault não funcionava para alguns clientes. Esse problema foi corrigido.
+&#x200B;* Na função Administrador, a adição de usuários usando a opção de carregamento de CSV diretamente na conta de Exavault não funcionava para alguns clientes. Esse problema foi corrigido.
 
 ### Problemas corrigidos {#Issuesfixed-20}
 
 **Planos e programas de aprendizado**
 
-* Os alunos podem ser inscritos automaticamente no mesmo programa de aprendizado como parte de vários planos de aprendizado. Anteriormente, havia algumas exceções nesse fluxo de trabalho. Esse problema foi corrigido.
+&#x200B;* Os alunos podem ser inscritos automaticamente no mesmo programa de aprendizado como parte de vários planos de aprendizado. Anteriormente, havia algumas exceções nesse fluxo de trabalho. Esse problema foi corrigido.
 
 **Exibir quadro de classificação e medalhas**
 
-* Na função do aluno, depois de realizar um curso que continha uma medalha, a imagem da medalha não era exibida no mapa de medalhas do painel do aluno nem no arquivo baixado. Esse problema foi corrigido.
+&#x200B;* Na função do aluno, depois de realizar um curso que continha uma medalha, a imagem da medalha não era exibida no mapa de medalhas do painel do aluno nem no arquivo baixado. Esse problema foi corrigido.
 
 **Aplicativo para tablets**
 
-* Uma janela pop-up é exibida para indicar a disponibilidade do aplicativo do aluno quando o URL do aplicativo do aluno está aberto em navegador de dispositivos Android.
+&#x200B;* Uma janela pop-up é exibida para indicar a disponibilidade do aplicativo do aluno quando o URL do aplicativo do aluno está aberto em navegador de dispositivos Android.
 
 **Outras correções**
 
-* Foi resolvido um problema com a criação de uma conta de usuário devido ao suporte líquido de armazenamento do Akamai.
-* Foi resolvido um problema relacionado ao carregamento de conteúdo SCORM 1.2 que contém um arquivo zip com várias pastas.
+&#x200B;* Foi resolvido um problema com a criação de uma conta de usuário devido ao suporte líquido de armazenamento do Akamai.
+&#x200B;* Foi resolvido um problema relacionado ao carregamento de conteúdo SCORM 1.2 que contém um arquivo zip com várias pastas.
 
 +++

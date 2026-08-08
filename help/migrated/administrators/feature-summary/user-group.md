@@ -3,9 +3,9 @@ description: Saiba como criar e gerenciar grupos de usuários no Adobe Learning 
 jcr-language: en_us
 title: Gerenciar grupos de usuários no Adobe Learning Manager | Organizar e atribuir alunos
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
+source-git-commit: fbe0fd05b8ff57bf009024069073887c073da43e
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -215,4 +215,10 @@ Quando você usa a lógica OR, o Adobe Learning Manager adiciona usuários que e
 
 ![](assets/or-logic.png)
 _Exemplo que mostra vários grupos combinados usando a lógica OR_
+
+## Adicionar e gerenciar professores para sessões do Live Hub
+
+No Adobe Learning Manager, os administradores também podem gerenciar professores para sessões do Live Hub, incluindo a definição de suas habilidades, disponibilidade e preferências de ensino. Isso ajuda a garantir que os professores certos sejam atribuídos aos cursos certos com base no agendamento e na experiência.
+
+Para obter etapas detalhadas sobre como criar e gerenciar perfis de professor, consulte [Adicionar e gerenciar professores](../../getting-started-with-live-hub/instructor-management.md).
 

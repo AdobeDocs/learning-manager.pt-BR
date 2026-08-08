@@ -4,10 +4,10 @@ title: Requisitos do sistema
 description: Requisitos de sistema do Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: d463fb1bb54e14717eb51d0c13f66551018a0f92
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 81%
+source-wordcount: '660'
+ht-degree: 75%
 
 ---
 
@@ -344,3 +344,9 @@ Certifique-se de que os seguintes domínios de terceiros estão permitidos se vo
 ## Informe oficial de segurança do ALM
 
 [Informe oficial do ALM](assets/alm-security-whitepaper-2024.pdf)
+
+## Requisitos de sistema do Live Hub
+
+Antes de ingressar ou hospedar uma sessão do Live Hub, verifique se a configuração de dispositivo, navegador, rede, áudio e vídeo atende aos requisitos mínimos de sistema para obter a melhor experiência.
+
+O Live Hub tem seu próprio conjunto de navegadores, sistemas operacionais, requisitos de rede e recomendações de hardware compatíveis. Exiba [requisitos de sistema do Live Hub](../migrated/getting-started-with-live-hub/system-requirements-for-live-hub.md) para obter mais informações.

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
 workflow-type: tm+mt
-source-wordcount: '10009'
-ht-degree: 57%
+source-wordcount: '10239'
+ht-degree: 56%
 
 ---
 
@@ -55,10 +55,10 @@ Para criar um curso, siga as etapas abaixo:
 4. Para tornar o curso disponível em outros idiomas, clique em Adicionar novo idioma no canto superior esquerdo da página. Selecione o idioma ou os idiomas nos quais você deseja disponibilizar o curso. Clique em **[!UICONTROL Salvar]**. Para obter mais informações, consulte [Adicionar conteúdo em diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modificar configurações do curso**-
 
-   a. Na página Configurações do curso, escolha uma habilidade para o curso. Na lista suspensa Habilidade, escolha a habilidade necessária. Em seguida, na lista suspensa Nível, escolha o nível necessário.
-   b. Escolha as habilidades do curso, o nível e defina os créditos para a habilidade. Adicione mais habilidades, se necessário.
-   c. Adicione as etiquetas de conformidade personalizadas ao curso, se necessário. Consulte [Adicionar rótulos de conformidade ao curso/caminho de aprendizado/certificação](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-   d. Na lista suspensa **Tipo de inscrição**, escolha o tipo de inscrição.
+   a) Na página Configurações do curso, escolha uma habilidade para o curso. Selecione a habilidade necessária na lista suspensa Habilidade. Em seguida, na lista suspensa Nível, selecione o nível necessário.
+   b) Escolha as habilidades do curso, o nível e defina os créditos para a habilidade. Adicione mais habilidades, se necessário.
+   c) Adicione os rótulos de conformidade personalizados ao curso, se necessário. Consulte [Adicionar rótulos de conformidade ao curso/caminho de aprendizado/certificação](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+   d) Selecione o tipo de inscrição na lista suspensa **Tipo de inscrição**.
 
    Os tipos de inscrições são os seguintes:
 
@@ -592,6 +592,8 @@ Para adicionar um módulo de conteúdo, siga as etapas abaixo:
 
    **Observação:** um aluno deve estar disponível no Microsoft Teams. No entanto, o aluno pode participar do Learning Manager como convidado.
 
+   Você também pode criar um curso do Live Hub se os administradores tiverem habilitado o Live Hub para uma conta ALM. Para criar a sessão de aula virtual com o Live Hub, exiba [Criar uma sessão do Live Hub](../../getting-started-with-live-hub/create-a-live-hub-session.md)
+
    **Módulo de sala de aula:** nesse modo, os alunos participam pessoalmente em palestras realizadas por um professor treinado. Insira o título, a descrição e defina a duração da sessão. Você também pode especificar o local da aula e os professores que dirigem a sessão. Para salvar as alterações, clique em **[!UICONTROL Concluído]**.
 
    >[!NOTE]
@@ -1013,7 +1015,7 @@ Para permitir que os professores marquem o sucesso do aluno:
 6. Digite os detalhes necessários e selecione as datas.
 7. Selecione a opção **[!UICONTROL Permitir que o professor marque o êxito]**.
 
-   ![A caixa de seleção “Permitir que o professor marque o sucesso?” está realçada, permitindo que os autores registrem o status de sucesso do aluno para um módulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![A mensagem “Permitir que o professor marque como bem-sucedido?” A caixa de seleção está realçada, permitindo que os autores registrem o status de sucesso do aluno para um módulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Tela Detalhes da sessão com a opção Permitir que o professor marque como bem-sucedido destacada para os módulos Sala de aula ou Sala de aula virtual_
 
 8. Selecione **[!UICONTROL Concluído]**.

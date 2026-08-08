@@ -4,9 +4,9 @@ title: Visualizar como aluno
 description: O Fluidic Player é uma plataforma para que os alunos consumam conteúdo com uma experiência de aprendizagem combinada e sem interrupções. Todos os formatos suportados são reproduzidos consistentemente nesse reprodutor. Os autores e os administradores podem visualizar o conteúdo usando o reprodutor.
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 68%
 
 ---
@@ -33,7 +33,7 @@ Ao criar os cursos, os autores têm a opção de visualizar o curso.
 
 O Fluidic Player suporta 11 idiomas. São eles:
 
-| Idioma | Território | Identificador IBM |
+| Idioma | Território | Identificador |
 |---|---|---|
 | Árabe | Arábia Saudita | ar-SA |
 | Chinês tradicional | RAE de Hong Kong da China | zh-Hant-HK |

@@ -1,15 +1,15 @@
 ---
-title: Criar canais
+title: Criar Canais (Beta)
 description: Saiba como ativar, criar e editar canais no Adobe Learning Manager para trazer o conteúdo de aprendizado baseado em vídeo de páginas da Web e páginas da Confluence Cloud para um único local pesquisável para os alunos.
-source-git-commit: 362d56b5758d55e7aa564893beade853f4c72deb
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 
-# Criar canais
+# Criar Canais (Beta)
 
 As organizações costumam armazenar sessões de compartilhamento de conhecimento, gravações de treinamento e outros conteúdos de vídeo em páginas da Web e da Confluence Cloud selecionadas de conteúdo de aprendizado informal. Os canais conectam o Adobe Learning Manager a essas fontes de conteúdo, facilitando a descoberta e o consumo de vídeos sem exigir que os alunos naveguem em vários sistemas. Os canais ajudam a organizar e compartilhar conteúdo de aprendizado baseado em vídeo de páginas da Web corporativas e páginas da Confluence Cloud em um único local pesquisável. Em vez de pesquisar em vários sites internos, os alunos podem descobrir e acessar gravações relevantes diretamente do Adobe Learning Manager. Exiba [Descobrir e interagir com Canais](../../learners/feature-summary/discover-and-engage-with-channels.md) para obter mais informações.
 
@@ -86,7 +86,7 @@ Crie um canal para definir a fonte de conteúdo em que o Adobe Learning Manager 
 
    1. **Cor do tema do canal**: selecione uma cor para personalizar a aparência visual do canal.
 
-   1. **Profundidade de rastreamento**: insira a profundidade de rastreamento das páginas vinculadas para verificar o conteúdo de vídeo. Oferece suporte a uma profundidade máxima de rastreamento de **2**.
+   1. **profundidade de rastreamento**: insira a profundidade de rastreamento de páginas vinculadas para verificar o conteúdo de vídeo. Ele oferece suporte a uma profundidade de rastreamento máxima de **2**.
 
    1. **Frequência de rastreamento (em horas)**: insira com que frequência o Adobe Learning Manager deve verificar se há conteúdo novo ou atualizado na origem.
 
@@ -143,7 +143,7 @@ Para ocultar canais dos alunos:
 1. Marque a caixa de seleção ao lado de um ou mais canais e selecione **Ações**.
 1. Selecione **Ocultar dos alunos**.<br> A janela pop-up **Ocultar dos alunos** é exibida.
 
-   ![Oculte os canais dos alunos sem excluir a configuração de canal.](assets/hide-channels-from-learners.png)
+   ![Oculte canais dos alunos sem excluir a configuração de canal.](assets/hide-channels-from-learners.png)
    *Oculte os canais dos alunos sem excluir a configuração de canal.*
 
 1. Selecione **Ocultar dos alunos**.
