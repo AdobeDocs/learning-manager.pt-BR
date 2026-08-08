@@ -1,11 +1,11 @@
 ---
-description: Saiba mais sobre os novos recursos e aprimoramentos, incluindo alterações de API e webhooks, na versão de agosto de 2026 do Adobe Learning Manager
+description: Saiba mais sobre os novos recursos e aprimoramentos na versão de agosto de 2026 do Adobe Learning Manager
 jcr-language: en_us
 title: Novidades do Adobe Learning Manager na versão de agosto de 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: 458d21d11bfcfb701dbd61b865411f80a306adc1
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
