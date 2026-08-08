@@ -4,10 +4,10 @@ title: Gerenciar funções personalizadas através de arquivos CSV
 description: O administrador de integração pode adicionar várias funções personalizadas em massa à conta através do CSV, além de atribuir as mesmas a vários usuários. Essa abordagem automatiza o processo de criação de funções personalizadas.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 72%
+source-wordcount: '1002'
+ht-degree: 78%
 
 ---
 
@@ -25,8 +25,8 @@ Depois de fazer logon na conta de armazenamento do Box, o administrador de integ
 
 Para começar, baixe os CSVs e altere os valores de acordo com seus requisitos.
 
-* Arquivo de exemplo: [role.csv](assets/role.csv)
-* Arquivo de exemplo: [user_role.csv](assets/user_role.csv)
+* Arquivo de exemplo: [role.csv](assets/role.zip)
+* Arquivo de exemplo: [user_role.csv](assets/user-role.zip)
 
 **role.csv**
 
@@ -52,7 +52,7 @@ Para começar, baixe os CSVs e altere os valores de acordo com seus requisitos.
    <td>
     <p>&lt;Entity&gt;</p></td>
    <td>
-    <p>Identifique o Tipo de Acesso (COMPLETO, GRAVAÇÃO, INSCRIÇÃO, RELATÓRIO, NENHUM) para cada tipo de entidade, como CURSO, CATÁLOGO etc.</p></td>
+    <p>Identifique o tipo de acesso (COMPLETO, GRAVAÇÃO, INSCRIÇÃO, RELATÓRIO, NENHUM) de cada tipo de entidade, tal como CURSO, CATÁLOGO, etc.</p></td>
    <td>
     <p>COMPLETO</p>
     <p>NENHUM</p>
@@ -79,7 +79,7 @@ Para começar, baixe os CSVs e altere os valores de acordo com seus requisitos.
   </tr>
   <tr>
    <td>
-    <p>Descrição</p></td>
+    <p>Description</p></td>
    <td>
     <p>Descrição amigável opcional para ajudar a entender o propósito da função e para referência posterior.</p></td>
    <td>
@@ -160,7 +160,7 @@ Ambos os CSVs devem ser carregados somente por meio do Box e não podem ser carr
 
 As funções personalizadas criadas com o arquivo CSV não ficam visíveis na IU dos administradores. Essas funções não serão relacionadas ou afetadas por funções já criadas (ou criadas posteriormente) pela interface do usuário.
 
-Funções personalizadas que foram criadas por um csv podem ser gerenciadas inteiramente por meio do próprio csv. Isso inclui adicionar, modificar e deletar atribuições.
+As funções personalizadas criadas por um CSV podem ser totalmente controladas pelo CSV. Isso inclui adicionar, modificar e excluir funções.
 
 As funções atribuídas podem ser revogadas removendo as entradas de atribuição do CSV user_role. Porém, as atribuições feitas através da IU do administrador não são afetadas por essa ação.
 
@@ -178,7 +178,7 @@ Na seção Configurações de sincronização, ative a opção **[!UICONTROL Ati
 
 *Selecione a opção Habilitar Sincronização Automática*
 
-Ao escolher essa opção, você pode programar o horário exato da sincronização no campo Horário da sincronização. Se você especificar o horário de sincronização como 12:00 AM, as funções personalizadas serão atualizadas exatamente no horário especificado todos os dias.
+Ao escolher essa opção, você pode programar o horário exato da sincronização no campo Horário da sincronização. Se você especificar como horário de sincronização 12:00 AM, as funções personalizadas serão atualizadas exatamente nesse horário todos os dias.
 
 Se quiser sincronizar os dados sob demanda, clique em **[!UICONTROL Sincronizar agora]**.
 

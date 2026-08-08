@@ -3,7 +3,7 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de m
 jcr-language: en_us
 title: Resumo dos novos recursos
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
+source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
@@ -90,7 +90,8 @@ O Adobe Learning Manager é uma plataforma multilíngue onde as preferências de
 
 Para usuários da plataforma nativa do Adobe Learning Manager, esse aprimoramento atende à necessidade de provisionamento de usuários “just-in-time”. Quando os usuários estão criando contas e fazendo logon pela primeira vez, esse recurso garante que suas preferências de idioma sejam capturadas e aplicadas com precisão.
 
-Este recurso garante que as preferências de idioma dos usuários sejam atualizadas automaticamente quando eles fizerem logon por SAML. Isso ajuda a fornecer uma experiência personalizada exibindo a interface no idioma preferido do usuário.Quando os usuários fazem logon por SAML, sua preferência de idioma (idioma da interface e do conteúdo) é verificada e atualizada com base nas informações fornecidas durante o processo de logon.
+Este recurso garante que as preferências de idioma dos usuários sejam atualizadas automaticamente quando eles fizerem logon por SAML. Isso ajuda a fornecer uma experiência personalizada exibindo a interface no idioma preferido do usuário.
+Quando os usuários fazem logon por SAML, sua preferência de idioma (idioma da interface e do conteúdo) é verificada e atualizada com base nas informações fornecidas durante o processo de logon.
 
 O recurso se integra ao processo de logon por SAML para capturar e atualizar a preferência de idioma do usuário sem problemas.
 
@@ -108,7 +109,7 @@ Consulte este [artigo](/help/migrated/administrators/feature-summary/purge-users
 
 O Adobe Learning Manager agora também permite selecionar salas de seminários do Adobe Connect ao configurar uma sessão de sala de aula virtual no Connect. Anteriormente, o administrador só podia selecionar o tipo de sala de Reunião. Esse aprimoramento permite que o administrador com uma licença de seminário válida agende e gerencie eventos únicos ou de grande escala (até 1.500 participantes) no Adobe Learning Manager.
 
-Exiba este [artigo](https://helpx.adobe.com/br/adobe-connect/using/creating-seminars.html) para obter mais informações sobre a sala de seminários.
+Exiba este [artigo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) para obter mais informações sobre a sala de seminários.
 
 ### Suporte para acesso à análise de sessão
 
@@ -126,9 +127,11 @@ Exiba este [artigo](https://helpx.adobe.com/in/adobe-connect/using/session-dashb
 
 ### Critérios de sucesso do conteúdo usando a migração
 
-O processo de migração no Adobe Learning Manager para importar módulos agora suporta a capacidade de adicionar parâmetros para definir critérios de sucesso.Isso agora é compatível com a adição de três novas colunas opcionais no module_version.csv. Três novas colunas opcionais são: `successCriteria`, `successQuizData` e `successViewPercent`.
+O processo de migração no Adobe Learning Manager para importar módulos agora suporta a capacidade de adicionar parâmetros para definir critérios de sucesso.
+Isso agora é compatível com a adição de três novas colunas opcionais no module_version.csv. Três novas colunas opcionais são: `successCriteria`, `successQuizData` e `successViewPercent`.
 
-Esses campos aceitam apenas valores específicos e o conector não processará o arquivo se valores inválidos forem inseridos.Um módulo de questionário pode usar três tipos de critérios de sucesso. Ele poderá marcar aprovação se o aluno iniciar o conteúdo, dependendo de um valor de porcentagem pontuada (definido por `successViewPercent`: abaixo), ou poderá ser baseado no resultado do módulo de questionário (definido por `successQuizData`: abaixo). Este valor deve ser preenchido de acordo com as instruções abaixo. O parâmetro successCriteria é usado para determinar isso.
+Esses campos aceitam apenas valores específicos e o conector não processará o arquivo se valores inválidos forem inseridos.
+Um módulo de questionário pode usar três tipos de critérios de sucesso. Ele poderá marcar aprovação se o aluno iniciar o conteúdo, dependendo de um valor de porcentagem pontuada (definido por `successViewPercent`: abaixo), ou poderá ser baseado no resultado do módulo de questionário (definido por `successQuizData`: abaixo). Este valor deve ser preenchido de acordo com as instruções abaixo. O parâmetro successCriteria é usado para determinar isso.
 
 `successCriteria`: Aceita `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` ou `VIEWPERCENT_OR_QUIZ`.
 
@@ -152,13 +155,14 @@ Alterações no webhook.
 
 ### Adicionar ID exclusiva de conteúdo e data de expiração do conteúdo usando a migração
 
-A ID exclusiva do conteúdo e a Data de expiração agora são compatíveis durante a migração. Duas colunas adicionais: expiryDate e uniqueContentId foram adicionadas ao arquivo module_version.csv para habilitar essa funcionalidade. Consulte este [CSV de amostra](assets/module_version_content.csv) e o [arquivo de especificação de CSV](assets/4-module_version_content.xlsx) para obter mais informações.
+A ID exclusiva do conteúdo e a Data de expiração agora são compatíveis durante a migração. Duas colunas adicionais: expiryDate e uniqueContentId foram adicionadas ao arquivo module_version.csv para habilitar essa funcionalidade. Consulte este [CSV de amostra](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) e o [arquivo de especificação de CSV](/help/migrated/integration-admin/feature-summary/assets/module-version.zip) para obter mais informações.
 
 Exiba este [artigo](/help/migrated/integration-admin/feature-summary/migration-manual.md) para obter mais informações sobre o processo de migração.
 
 ## Aprimoramentos em webhooks
 
-Os webhooks agora oferecem suporte a eventos para cursos nos LPs (Caminhos de aprendizado) e certificações quando ocorre a inscrição, o cancelamento de inscrição ou a conclusão.Isso inclui eventos de suporte para cada curso dentro do LP ou certificação, além do evento de OA pai.
+Os webhooks agora oferecem suporte a eventos para cursos nos LPs (Caminhos de aprendizado) e certificações quando ocorre a inscrição, o cancelamento de inscrição ou a conclusão.
+Isso inclui eventos de suporte para cada curso dentro do LP ou certificação, além do evento de OA pai.
 
 Exiba este [artigo](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) para obter mais informações sobre Webhooks.
 
