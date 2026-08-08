@@ -2,9 +2,9 @@
 description: Faça upload de documentos, políticas ou planos existentes para fundamentar a IA no conteúdo da sua organização. Escolha se deseja restringir a geração somente a esses arquivos ou deixar que o AI complemente com seu conhecimento geral.
 jcr-language: en_us
 title: Gerenciar arquivos de origem
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ Formatos compatíveis:
 | PowerPoint (.ppt/.pptx) | 100 MB |
 | MS Word (.doc/.docx) | 100 MB |
 | Arquivo de texto (.txt) | 100 MB |
-| Imagens (.png, .jpg) | 100 MB |
 
 Selecione **Continuar** para gerar a estrutura de tópicos do curso.
 

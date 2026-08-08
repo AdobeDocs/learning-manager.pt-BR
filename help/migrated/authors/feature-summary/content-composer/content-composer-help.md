@@ -2,9 +2,9 @@
 title: Ajuda do Adobe Learning Manager Content Composer (Beta)
 description: De um prompt em linguagem simples a um curso publicado, o Adobe Learning Manager Content Composer lida com o design instrucional para que você possa se concentrar no que os alunos precisam criando conteúdo instrucional de alto impacto.
 contentowner: saghosh
-source-git-commit: 70827aa150f7fd9946732075c2c38f5b89c3e1f9
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -104,20 +104,7 @@ Pronto para montar seu primeiro curso? Abra o Compositor de conteúdo e vá de u
     <p>Implante seu curso concluído no Adobe Learning Manager e entenda como o Compositor de conteúdo e o ALM dividem as responsabilidades de criação, entrega e relatório.</p>
    </td>
   </tr>
-  <tr>
-   <td style="border:none;">
-    <a href="write-effective-prompts.md">
-    <img alt="Gravar prompts efetivos" src="../assets/cc-prompts.png" style="width:200px; height:120px; object-fit:cover;">
-    </a>
-    <div>
-    <a href="write-effective-prompts.md"><strong>Gravar prompts efetivos</strong></a>
-    </div>
-    <p>Saiba como escrever prompts que produzam resumos melhores, contornos mais fortes e conteúdo gerado por IA mais preciso.</p>
-   </td>
-   <td style="border:none;"></td>
-   <td style="border:none;"></td>
-  </tr>
- </tbody>
+  </tbody>
 </table>
 
 ## Procure coisas {#lookthingsup}
