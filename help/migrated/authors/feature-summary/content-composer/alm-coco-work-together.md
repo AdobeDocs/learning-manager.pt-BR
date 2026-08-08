@@ -59,14 +59,14 @@ Para mais informações, consulte [Definir configurações do curso](#settings).
 
 4.**Publish o curso ALM:** um autor do ALM monta o módulo em um curso ALM, adiciona imagens e configurações do curso e o publica. Somente após essa etapa é possível inscrever os alunos.
 
-Para obter mais informações, consulte o [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author).
+Para obter mais informações, consulte o [Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/get-started/getting-started-author).
 ![&#x200B; A Biblioteca de Conteúdo no Adobe Learning Manager, mostrando os módulos publicados e de processamento](../assets/51_alm_content_library_list_view_updated.png)
 
-Para obter mais informações, consulte [Criação do curso como autor no ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses).
+Para obter mais informações, consulte [Criação do curso como autor no ALM](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/authors/courses).
 
 5.**Os alunos concluem o curso:** acessam o curso por meio do Adobe Learning Manager, iniciam o módulo Compositor de Conteúdo, concluem lições e questionários e recebem pontuações com base nos critérios de conclusão e sucesso configurados na Etapa 1.
 
-Para mais informações, consulte [Acessar curso como aluno](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-learner).
+Para mais informações, consulte [Acessar curso como aluno](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/get-started/getting-started-learner).
 
 &#x200B;6. O ALM registra o progresso do aluno: o status de conclusão, as pontuações do quiz e os dados do aluno são registrados no ALM e disponibilizados por meio de transcrições do aluno e relatórios administrativos.
 
