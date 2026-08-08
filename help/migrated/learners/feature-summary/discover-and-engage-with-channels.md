@@ -1,15 +1,15 @@
 ---
 title: Descubra e interaja com canais
 description: Saiba como encontrar, assinar, assistir, curtir e participar de discussões sobre conteúdo de vídeo disponível por meio de canais no Adobe Learning Manager.
-source-git-commit: 4e24819c42a357c5d3c425d5e1c42b87835ed747
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
 
 
-# Descubra e interaja com canais
+# Descubra e interaja com canais (beta)
 
 Os canais ajudam os alunos a descobrir e acessar conteúdo de aprendizado informal baseado em vídeo, com curadoria nas páginas da Web e Confluência em nuvem no Adobe Learning Manager. Os administradores criam canais conectando-os a páginas da Web corporativas ou páginas de conferência na nuvem que hospedam sessões gravadas de compartilhamento e transferência de conhecimento.
 

@@ -3,9 +3,9 @@ description: Saiba mais sobre como definir Configurações avançadas no Adobe L
 jcr-language: en_us
 title: Configurações avançadas no Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
 workflow-type: tm+mt
-source-wordcount: '2391'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Essa estrutura dá às organizações a flexibilidade de espelhar a organizaçã
 
 >[!NOTE]
 >
->Somente os administradores podem criar, editar ou excluir pastas em qualquer nível. Autores e usuários personalizados interagem com a hierarquia, mas não podem modificá-la. Além disso, os administradores personalizados com acesso a qualquer pasta raiz podem criar, editar ou excluir pastas nessa pasta raiz.
+>Somente os administradores podem criar, editar ou excluir pastas em qualquer nível. Os administradores personalizados com acesso a qualquer pasta raiz podem criar, editar ou excluir pastas nessa pasta raiz.
 
 
 ### Regras de nomeação de pasta
@@ -93,27 +93,12 @@ A tabela a seguir descreve o que cada função pode fazer com a hierarquia de pa
 
 ### Limites da estrutura de pastas
 
-| **Limite** | Valor **1&rbrace;** |
+| **Limite** | Valor **1}** |
 |---------------------------------------|-----------|
 | Pastas de nível 1 por conta | Sem limite |
 | Subpastas de nível 2 por pasta de nível 1 | 25 |
 | Subpastas de nível 3 por pasta de nível 2 | 25 |
-| Profundidade máxima da pasta | 3 níveis |
-
-
-### Comportamento de seleção de pasta
-
-Ao selecionar uma pasta, por exemplo, durante a filtragem ou a exclusão, a seleção segue em cascata pela hierarquia da seguinte maneira:
-
-* Selecionar uma **pasta do Nível 1** seleciona automaticamente todas as pastas de Nível 2 e de Nível 3 abaixo dela.
-
-* Selecionar uma **pasta de Nível 2** seleciona automaticamente todas as pastas de Nível 3 abaixo dela. Outras pastas de Nível 2 na mesma pasta de Nível 1 não são selecionadas.
-
-* Selecionar uma **pasta de Nível 3** seleciona apenas essa pasta. Nenhuma outra pasta foi selecionada.
-
->[!NOTE]
->
->Quando você seleciona uma subpasta sem selecionar sua pasta pai, a pasta pai não exibe um indicador de seleção parcial ou mista. Isso é intencional. Porque uma pasta pai pode conter conteúdo, não apenas subpastas. Selecionar uma pasta pai significa “incluir todo o conteúdo desta pasta e tudo o que estiver abaixo dela”. Um indicador parcial sugere que o conteúdo da própria pasta pai está parcialmente incluído, o que seria enganoso. Se você desejar filtrar por apenas uma subpasta específica, selecione essa subpasta diretamente. Se quiser todo o conteúdo de uma pasta pai e suas subpastas, selecione a pasta pai.
+| Profundidade máxima de pastas | 3 níveis |
 
 ### Quando usar uma estrutura de pastas hierárquica
 
@@ -216,7 +201,7 @@ Antes de excluir, esteja ciente das seguintes regras:
 
 * Você pode excluir uma pasta vazia em qualquer nível.
 * Somente pastas vazias podem ser excluídas. As pastas que contêm conteúdo não podem ser excluídas, independentemente de o conteúdo estar vinculado a outras pastas ou não.
-* A exclusão de uma pasta pai exclui todas as suas subpastas. Selecionar uma pasta pai seleciona automaticamente todos os seus filhos.
+* A exclusão de uma pasta pai exclui todas as suas subpastas, desde que a pasta e todas as suas subpastas estejam vazias. Selecionar uma pasta pai seleciona automaticamente todos os seus filhos.
 
 #### Excluir a pasta pai
 
@@ -229,11 +214,6 @@ Antes de excluir, esteja ciente das seguintes regras:
 1. Na página **Pasta de Conteúdo**, marque a caixa de seleção ao lado da subpasta que deseja excluir.
 2. Selecione **Ações** > **Excluir pasta** no canto superior direito da página.
 3. Confirme a exclusão quando solicitado. A subpasta é excluída.
-
->[!CAUTION]
->
->A exclusão de uma pasta é permanente. Verifique se todo o conteúdo dentro da pasta foi movido para outro local antes de confirmar.
-
 
 #### Configurar acesso à pasta para funções personalizadas
 
@@ -267,9 +247,6 @@ As práticas a seguir ajudam a criar uma estrutura de pastas que é bem dimensio
 3. **Mantenha nomes curtos, descritivos e exclusivos dentro de seu pai.** Evite nomes genéricos como “Módulo 1” ou “Conteúdo”. Use identificadores que façam sentido para os autores que navegam na biblioteca.
 
 4. **Atribua acesso à função personalizada somente no Nível 1.** Como o acesso é realizado em cascata automaticamente, atribuir no Nível 1 é suficiente e mantém o gerenciamento de acesso simples. Não é necessário atualizar o acesso ao adicionar subpastas de Nível 2 ou de Nível 3.
-
-5. **Mover conteúdo antes de excluir pastas.** Se uma pasta contiver conteúdo que não está vinculado a nenhum outro lugar, a exclusão será bloqueada. Crie um hábito de revisar o conteúdo da pasta antes de excluí-la.
-
 
 <!--
 
@@ -315,6 +292,29 @@ To add a content folder, follow the steps:
 * **[!UICONTROL Add a folder]**: To add a folder, select the folder, and then select **[!UICONTROL Add]** on the upper-right corner of the screen.
 * **[!UICONTROL Delete a folder]**: To delete a folder, select the folder to delete, select the **[!UICONTROL Actions]** menu, and then select **[!UICONTROL Delete Folder]**.
 -->
+
+## Feriados
+
+A configuração **Feriados** no Adobe Learning Manager permite definir feriados em toda a organização. Os feriados aparecem no calendário do professor como dias não úteis, afetando a disponibilidade do professor ao agendar eventos ao vivo
+Sessões de hub.
+
+### Pontos principais
+
+Feriados são um conjunto de dias não úteis mantidos no nível da conta, com as seguintes propriedades:
+
+- Somente o administrador pode adicionar, editar ou excluir feriados.
+
+- Os feriados aplicam-se a toda a organização e aparecem no calendário de cada professor como dias não úteis.
+
+- Como os feriados marcam os professores como indisponíveis, as sessões do Live Hub não podem ser agendadas nessas datas.
+
+- Cada feriado requer uma data e um nome; uma descrição é opcional.
+
+- Você pode adicionar feriados, um de cada vez, ou importar vários feriados de uma vez usando um arquivo CSV.
+
+- Depois de adicionados, os feriados aparecem na página **Feriados**, onde você pode exibi-los, pesquisá-los e gerenciá-los.
+
+Exiba [Gerenciar Feriados](../../../getting-started-with-live-hub/manage-holidays.md) para obter mais informações.
 
 ## Locais de sala de aula
 

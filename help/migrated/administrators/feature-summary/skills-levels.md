@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Criar e modificar habilidades e níveis
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: 7f7e7d04943ce65fee3fa9ea801ab832e7c040fe
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 79%
+source-wordcount: '1828'
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ Crie, atribua e modifique habilidades e níveis.
 
 O mapa de habilidades é um agrupamento dos conjuntos de habilidades, conhecimentos e características do funcionário de uma empresa. Esses mapas de habilidades ajudam companhias/empresas a definir ou aumentar as expectativas do desempenho de seus funcionários. As habilidades permitem que os funcionários conciliem suas condutas às expectativas da empresa.
 
-O Adobe Learning Manager permite mapear o desempenho dos alunos com base em seu conjunto de habilidades através do mapa de habilidades. Quando os alunos terminam de realizar alguns cursos, eles podem saber sua classificação em relação a cada habilidade visualizando o mapa de habilidades.
+O Adobe Learning Manager permite mapear o desempenho dos alunos com base em seu conjunto de habilidades através do mapa de habilidades. Após concluírem alguns cursos, os alunos podem saber sua classificação em relação à cada habilidade visualizando o mapa de habilidades.
 
 O objetivo fundamental das habilidades no LMS do Learning Manager é fornecer ao administrador uma ferramenta que alinhe a aprendizagem com os objetivos comerciais.
 
@@ -69,6 +69,25 @@ Para adicionar uma habilidade, siga as etapas abaixo:
    ![](assets/list-of-skills.png)
 
    *Exibir lista de habilidades*
+
+## Adicionar habilidades em massa
+
+Os administradores podem adicionar várias habilidades diretamente no Adobe Learning Manager usando a opção de upload em massa na caixa de diálogo **Adicionar habilidades**.
+
+Para adicionar habilidades em massa:
+
+1. Selecione **Habilidades** no painel esquerdo.
+
+1. Selecione **Adicionar** > **Adicionar Habilidades**. <br> Uma janela pop-up de **Adicionar habilidades** é exibida.
+
+1. Selecione **Adicionar habilidades em massa (Carregar CSV)**.
+
+   ![Adicione habilidades na caixa de diálogo em massa com a opção Fazer upload de CSV](assets/add-skills-bulk-upload-csv.png)
+   *Janela pop-up Adicionar habilidades mostrando as opções para adicionar as habilidades em massa.*
+
+1. Carregue o arquivo CSV com os detalhes da habilidade.
+
+1. Selecione **Salvar**.
 
 ## Atribuir a habilidade aos alunos {#assigntheskilltolearners}
 
@@ -152,7 +171,7 @@ Você pode pesquisar por habilidades nas seções **[!UICONTROL Ativo]** e **[!U
 
 ## Editar uma habilidade {#editaskill}
 
-Na página **[!UICONTROL Habilidade]**, clique na habilidade que deseja modificar. Na caixa de diálogo **[!UICONTROL Editar Habilidade]**, faça as alterações necessárias, por exemplo:
+Na página **[!UICONTROL Habilidade]**, clique na habilidade que deseja modificar. Na caixa de diálogo **[!UICONTROL Editar habilidade]**, faça as alterações necessárias, por exemplo,
 
 * Adicionando ou excluindo um domínio de habilidade.
 * Editando o nome e a descrição da habilidade.
@@ -192,13 +211,13 @@ Você pode excluir uma habilidade somente quando ela não estiver associada a ne
 Adicione um arquivo CSV que consiste nas habilidades dos professores. Essas habilidades são adicionadas à lista de habilidades.
 
 1. No canto superior direito da tela, selecione **[!UICONTROL Adicionar]** > **[!UICONTROL Atribuir habilidades ao professor]**.
-1. Faça upload de um csv. As colunas no CSV são:
+1. Carregue um CSV. As colunas no CSV são:
 
    * Nome da habilidade
    * Nível da habilidade
    * E-mail do professor ou UUID do professor
 
-   Para contas habilitadas para UUID, substitua a coluna E-mail do professor pela UUID do professor.
+   Para contas habilitadas para UUID, substitua a coluna E-mail do professor por UUID do professor.
 
    Clique em Salvar.
 
@@ -246,7 +265,7 @@ O recurso de inscrição automática é válido apenas para grupos de usuários.
 Se você interromper a inscrição automática desse nível de habilidade para Todos os autores, todos os novos usuários adicionados ao grupo de usuários Todos os autores não terão a habilidade atribuída a eles.
 +++
 
-+++Como reiniciar o registro automático?
++++Como reiniciar a inscrição automática?
 
 Inscreva o mesmo grupo de usuários no nível de habilidade novamente para o qual a Inscrição automática foi interrompida.
 
@@ -260,12 +279,12 @@ Ou seja, sempre que você reinscreve um grupo de usuários para iniciar a Inscri
 Consulte a seção [Atribuir habilidades a um curso](skills-levels.md#assignskilltocourse) para obter mais informações sobre o procedimento.
 +++
 
-+++Como alterar um nível de habilidade?
++++Como altero um nível de habilidade?
 
 Para alterar um ou mais níveis de uma habilidade, edite a habilidade e modifique as propriedades dos níveis existentes.
 +++
 
-+++Como ativar medalhas e habilidades para que estejam vinculadas à conclusão do curso?
++++Como ativo medalhas e habilidades para que estejam vinculadas à conclusão do curso?
 
 As habilidades podem ser vinculadas à conclusão do curso ao criar um curso como autor. Na seção Configurações, você pode definir os critérios da habilidade para a conclusão do curso.
 
@@ -274,7 +293,7 @@ As habilidades podem ser vinculadas à conclusão do curso ao criar um curso com
 Para ativar as medalhas na conclusão do curso, na secção **[!UICONTROL Instâncias]** do aplicativo Autor, ative a medalha necessária.
 +++
 
-+++Um administrador pode marcar uma medalha como concluída mesmo se a medalha mostrar “Em andamento”?
++++Um administrador pode marcar uma medalha como concluída, mesmo que mostre &quot;Em andamento&quot;?
 
 Um administrador pode marcar um objeto de aprendizado como concluído. A habilidade e as medalhas estão associadas ao objeto de aprendizado e não podem ser marcadas como **[!UICONTROL concluídas]** separadamente.
 

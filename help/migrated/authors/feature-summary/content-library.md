@@ -3,9 +3,9 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '6048'
+source-wordcount: '6082'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Ao enviar um novo conteúdo, escolha em qual pasta ele será armazenado durante 
 4. Em **Adicionar Arquivo de Conteúdo**, arraste e solte o arquivo de conteúdo ou selecione o campo para procurar e carregar.
    ![](assets/cl2.png)
 
-5. Em **Adicionar à Pasta**, navegue pela pasta ou pesquise a pasta no campo de pesquisa.
+5. Em **Adicionar à Pasta**, navegue pela pasta ou pesquise a pasta no campo de pesquisa. Você também pode selecionar várias pastas.
    ![](assets/cl3.png)
 
 6. Selecione **Adicionar**.
@@ -453,11 +453,6 @@ Ao enviar um novo conteúdo, escolha em qual pasta ele será armazenado durante 
 
 8. Selecione **Salvar**. O arquivo de conteúdo é adicionado à Biblioteca de conteúdo e aparece na parte superior da lista.
    ![](assets/cl4.png)
-
->[!NOTE]
->
->Não é possível copiar ou mover conteúdo entre as pastas pública e privada. Se você tentar fazer isso, o Adobe Learning Manager exibirá um erro.
-
 
 ## Exibir caminhos de pasta na Biblioteca de conteúdo
 
@@ -486,7 +481,7 @@ O filtro **Pastas** da Biblioteca de Conteúdo permite restringir a lista para m
 
 3. Use a caixa de pesquisa suspensa para localizar uma pasta por nome.
 
-4. Você pode selecionar até **25 pastas** de cada vez. Selecionar mais de 25 exibe um erro.
+4. É possível selecionar várias pastas de uma vez.
 
 ## Mover o conteúdo para a pasta {#movecontenttofolder}
 
