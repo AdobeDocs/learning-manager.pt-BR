@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Gerenciar pedidos e faturamento do Learning Manager
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: b3212ae430cb5804a66c19a2e213dc9538e8cf5f
+source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2471'
 ht-degree: 52%
 
 ---
@@ -72,7 +72,7 @@ Quando uma licença do Agent Orchestrator é vinculada, a linha de estatísticas
 
 | Coluna | Descrição |
 |---|---|
-| **Comprado** | Total de créditos Gen AI adquiridos para o período do contrato. |
+| **Comprado** | Total de créditos comprados para o período do contrato. |
 | **Usado** | Créditos consumidos em todos os serviços usando esta licença. |
 | **Usado pelo ALM** | Créditos consumidos especificamente pelo Adobe Learning Manager. |
 | **Restante** | Créditos ainda disponíveis. |
