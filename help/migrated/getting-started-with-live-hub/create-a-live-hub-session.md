@@ -1,7 +1,7 @@
 ---
 title: Criar uma sessão do Live Hub
 description: Saiba como criar um curso do Live Hub, adicionar instâncias do curso, atribuir professores com o localizador de professores, inscrever alunos e personalizar a marca de sala.
-source-git-commit: 398fb6d707983fd021604396113c0f2af574dc17
+source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Para criar um curso do Live Hub:
 
    1. Insira os nomes dos professores no campo **Professores**.
 
-   1. Selecione **Localizar professores que usam IA** para exibir professores com IA recomendada. Consulte [Adicionar professores usando o Localizador de professores](#add-instructors-using-instructor-finder) para obter mais informações.
+   1. Selecione **Localizar professores que usam IA** para exibir professores com IA recomendada. Exiba [Adicionar professores usando o Localizador de professores](#add-instructors-using-instructor-finder) para obter mais informações.
 
 1. Selecione **Adicionar** > **Salvar**.
 
@@ -109,7 +109,7 @@ Para criar uma instância do curso:
    ![Painel de Configuração de Sessão](assets/session-configuration-panel.png)
    *Configure o agendamento, o professor e o local para uma instância de sessão específica.*
 
-1. No campo **Professores**, insira nomes manualmente ou selecione **Localizar professores usando IA** para professores recomendados por IA. Consulte [Adicionar professores usando o Localizador de professores](#add-instructors-using-instructor-finder) para obter mais informações.
+1. No campo **Professores**, insira nomes manualmente ou selecione **Localizar professores usando IA** para professores recomendados por IA. Exiba [Adicionar professores usando o Localizador de professores](#add-instructors-using-instructor-finder) para obter mais informações.
 
 1. Insira os detalhes do **Local** e selecione **Salvar**. A sessão é atualizada com os horários configurados, o professor e os detalhes do local.
 

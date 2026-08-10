@@ -2,9 +2,9 @@
 title: Ajuda do Adobe Learning Manager Content Composer (Beta)
 description: De um prompt em linguagem simples a um curso publicado, o Adobe Learning Manager Content Composer lida com o design instrucional para que você possa se concentrar no que os alunos precisam criando conteúdo instrucional de alto impacto.
 contentowner: saghosh
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,18 @@ O compositor de conteúdo orienta os autores por meio de metas de treinamento, m
 - **Publicação direta no Adobe Learning Manager**: os cursos concluídos são publicados diretamente no Adobe Learning Manager; sem ferramenta de criação separada, sem exportação manual de SCORM.
 - **Fluxo de trabalho de sistema único**: a criação do curso, o gerenciamento do aluno e os relatórios permanecem em uma plataforma, eliminando a sobrecarga de gerenciar várias ferramentas de criação e entrega.
 
+## Antes de entrar
+
+>[!IMPORTANT]
+>
+>Você deve fazer logon com uma conta válida da Adobe Creative Cloud. Se ainda não tiver uma, você pode criar uma conta gratuita por meio do Adobe Express. Para obter mais informações, consulte [Criar uma conta Adobe Express gratuita](https://helpx.adobe.com/br/express/web/adobe-express-subscription/free.html). Depois de criar suas credenciais de Adobe, inicie o Compositor de conteúdo e faça logon para começar a criar cursos. Se sua organização já tem uma assinatura do Creative Cloud, entre em contato com o administrador para provisionar uma conta de Creative Cloud para você antes de fazer logon no Compositor de conteúdo.
+
+
 ## Experimente o Compositor de conteúdo {#trycontent-composer}
 
 Pronto para montar seu primeiro curso? Abra o Compositor de conteúdo e vá de um prompt em linguagem simples para um curso pronto para publicação em um piscar de olhos.
 
-[**Experimente o compositor de conteúdo**](https://contentcomposer-dev.adobe.io/)
+[**Experimente o compositor de conteúdo**](https://contentcomposer.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
@@ -149,4 +156,4 @@ Respostas rápidas, restrições atuais e o esquema JSON completo. Tudo o que vo
 
 Você tem tudo o que precisa. Abra o Compositor de conteúdo e crie seu primeiro curso.
 
-[**Experimente o compositor de conteúdo**](https://contentcomposer-dev.adobe.io/)
+[**Experimente o compositor de conteúdo**](https://contentcomposer.adobe.io/)

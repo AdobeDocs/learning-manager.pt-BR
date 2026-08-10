@@ -3,7 +3,7 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de n
 jcr-language: en_us
 title: Resumo dos novos recursos novembro de 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
@@ -151,7 +151,8 @@ Consulte estes artigos [Relatório de lista de espera (Admin)](/help/migrated/ad
 
 ## Acessibilidade na página inicial do aluno
 
-O Adobe Learning Manager agora oferece suporte a texto alternativo para todas as manchetes a fim de melhorar a acessibilidade para os alunos. Isso permite que alunos com necessidades especiais usem leitores de tela para ler o texto alternativo e entender a imagem. Você pode selecionar vários idiomas e fornecer texto alternativo para cada idioma. Certifique-se de adicionar o texto alternativo nos respectivos idiomas. Verifique se o logotipo da empresa em sua conta também inclui texto alternativo com o nome da empresa.Consulte este artigo [Anúncio](/help/migrated/administrators/feature-summary/announcements.md#masthead) para obter mais informações.
+O Adobe Learning Manager agora oferece suporte a texto alternativo para todas as manchetes a fim de melhorar a acessibilidade para os alunos. Isso permite que alunos com necessidades especiais usem leitores de tela para ler o texto alternativo e entender a imagem. Você pode selecionar vários idiomas e fornecer texto alternativo para cada idioma. Certifique-se de adicionar o texto alternativo nos respectivos idiomas. Verifique se o logotipo da empresa em sua conta também inclui texto alternativo com o nome da empresa.
+Consulte este artigo [Anúncio](/help/migrated/administrators/feature-summary/announcements.md#masthead) para obter mais informações.
 
 ## Suporte para hindi
 
@@ -227,7 +228,7 @@ A coluna de pasta usa o tipo de dados string e é uma coluna opcional. Estas sã
 * Se você adicionar um novo nome de pasta para um módulo já presente em uma pasta diferente, o novo valor não substituirá nem substituirá a pasta atribuída. O módulo será adicionado à nova pasta e também permanecerá disponível na pasta existente.
 * Se o valor estiver em branco, a pasta assumirá **[!UICONTROL Pública]** como padrão.
 
-Consulte o arquivo de especificação csv [module_version](assets/4-module_version.xlsx) para obter mais informações.
+Consulte o arquivo de especificação csv [module_version](assets/module_version.csv) para obter mais informações.
 
 ### Alterações na migração de módulos — critérios de conclusão
 
@@ -238,10 +239,10 @@ Estas são as condições para as novas colunas:
 1. `completionCriteria`:
 
    * O tipo de dados deve ser uma cadeia de caracteres e os valores compatíveis são:
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
+     * `LAUNCH_CONTENT`
+     * `VIEW_PERCENT`
+     * `QUIZ`
+     * `MARK_COMPLETE`
    * Adicione critérios de conclusão no nível do módulo somente para tipos de módulo em ritmo individualizado.
    * Os valores com suporte para conteúdo estático são `LAUNCH_CONTENT` e `VIEW_PERCENT`.
    * Os valores com suporte para conteúdo interativo são `LAUNCH_CONTENT`, `VIEW_PERCENT` e `QUIZ`.
@@ -257,7 +258,7 @@ Estas são as condições para as novas colunas:
    * O tipo de dados deve ser uma cadeia de caracteres e os valores com suporte são `QUIZ_ATTEMPTED`, `QUIZ_PASSED` e `QUIZPASSED_OR_LIMITREACHED`.
    * Quando `completionCriteria` estiver definido como `QUIZ`, insira o valor apropriado para o questionário na coluna `quizData`.
 
-Consulte o arquivo de especificação csv [module_version](assets/4-module_version.xlsx) para obter mais informações.
+Consulte o arquivo de especificação csv [module_version](assets/module_version.csv) para obter mais informações.
 
 ### Alterações na migração do curso — Critérios de conclusão
 
@@ -271,27 +272,27 @@ Estas são as condições para a coluna `completionCriteria`:
 * Se você definir `completionCriteria` como `SELECTEDMODULES`, precisará marcar os módulos obrigatórios no arquivo [course_module.csv](assets/course_module.csv).
 * Na coluna `optionalCriteria`, insira `TRUE` ou `FALSE`. Se você definir o valor como `TRUE`, tornará o módulo obrigatório.
 
-Consulte o arquivo de [especificação csv do curso](assets/3-course.xlsx) e o arquivo de especificação csv do [course_module](assets/6-course_module.xlsx) para obter mais informações.
+Consulte o arquivo de [especificação csv do curso](assets/course.csv) e o arquivo de especificação csv do [course_module](assets/course_module.csv) para obter mais informações.
 
 ## Alterações de API
 
 Estas são as alterações da API:
 
 * **API de pesquisa**:
-   * Novo filtro de modo com opções: classicSearch e advanceSearch.
-   * Nova opção loMetadata para snippetTypes.
+  * Novo filtro de modo com opções: classicSearch e advanceSearch.
+  * Nova opção loMetadata para snippetTypes.
 * **API de Comunicado**:
-   * Inclui o atributo altText para descrições de manchete.
+  * Inclui o atributo altText para descrições de manchete.
 * **APIs de instância**:
-   * Novo atributo de localidade para recuperar detalhes de localidade.
+  * Novo atributo de localidade para recuperar detalhes de localidade.
 * **Verificação de profanação**:
-   * APIs atualizadas para verificar palavras proibidas em comentários e respostas em publicações em redes sociais:
+  * APIs atualizadas para verificar palavras proibidas em comentários e respostas em publicações em redes sociais:
 * **Limitação de RPM e intermitência**:
-   * Limites de RPM (Solicitações por minuto) e intermitência adicionados para todas as APIs.
+  * Limites de RPM (Solicitações por minuto) e intermitência adicionados para todas as APIs.
 * **APIs de medalha**:
-   * Novo atributo externalProvider para recuperar informações sobre emblemas externos.
+  * Novo atributo externalProvider para recuperar informações sobre emblemas externos.
 * **API de Trabalho**:
-   * Baixe o Relatório de grupo de usuários e o Relatório de auditoria de função personalizada usando a API de trabalho.
+  * Baixe o Relatório de grupo de usuários e o Relatório de auditoria de função personalizada usando a API de trabalho.
 
 ### Alterações na API de pesquisa
 

@@ -2,9 +2,9 @@
 description: Revise a lição e a estrutura de tópicos geradas por IA antes de se comprometer com a geração completa do curso. Solicite alterações por meio do painel de bate-papo. Renomeie, adicione, remova, divida ou mescle lições e tópicos conversacionalmente.
 jcr-language: en_us
 title: Editar a estrutura do curso
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Editar a estrutura do curso
 
-    ![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 O Adobe Learning Manager Content Composer gera uma estrutura de tópicos e lições a partir do resumo e do arquivo de origem. O contorno aparece na tela mostrando todas as lições e seus tópicos.
 
