@@ -2,9 +2,9 @@
 description: O editor de cursos é aberto automaticamente após a geração. Revise todo o conteúdo, texto, imagens, verificações de conhecimento e quiz antes de compartilhar ou publicar. A saída por IA pode variar e requer verificação do autor.
 jcr-language: en_us
 title: Revisar o curso gerado
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Revisar o curso gerado
 
-    ![](../assets/11_course_view_generated_topic_content_updated.png)
+![](../assets/11_course_view_generated_topic_content_updated.png)
 
 O Adobe Learning Manager Content Composer gera o curso completo com texto, imagens, verificações de conhecimento e um quiz, em uma única aprovação. O editor de **Curso** abre automaticamente quando a geração é concluída.
 

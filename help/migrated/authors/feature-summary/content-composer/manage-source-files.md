@@ -2,9 +2,9 @@
 description: Faça upload de documentos, políticas ou planos existentes para fundamentar a IA no conteúdo da sua organização. Escolha se deseja restringir a geração somente a esses arquivos ou deixar que o AI complemente com seu conhecimento geral.
 jcr-language: en_us
 title: Gerenciar arquivos de origem
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,6 @@ Os documentos de origem podem ficar desatualizados depois que um curso já foi g
 
 ### Confirme o upload do arquivo
 
-    ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
+![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
 Depois que um arquivo é anexado, o ícone de arquivo na barra de ferramentas mostra uma contagem de medalhas. O assistente confirma o carregamento e oferece um atalho **Gerar estrutura de tópicos**. Selecione-o ou selecione **Gerar Estrutura de Tópicos** na barra de ferramentas superior.
