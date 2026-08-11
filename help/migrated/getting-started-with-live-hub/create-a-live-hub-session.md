@@ -1,15 +1,15 @@
 ---
-title: Criar uma sessão do Live Hub
+title: Criar uma sessão do Live Hub (Beta)
 description: Saiba como criar um curso do Live Hub, adicionar instâncias do curso, atribuir professores com o localizador de professores, inscrever alunos e personalizar a marca de sala.
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# Criar uma sessão do Live Hub
+# Criar uma sessão do Live Hub (Beta)
 
 Use o Live Hub para fornecer treinamento ao vivo liderado por instrutores em um curso do Adobe Learning Manager. Você pode combinar sessões do Live Hub com conteúdo de ritmo individualizado para criar uma experiência de aprendizado combinada.
 
@@ -138,9 +138,9 @@ Para adicionar professores usando o Localizador do professor:
 
 Os alunos podem ser inscritos em um curso do Live Hub das duas seguintes maneiras:
 
-1. Um **administrador** inscreve alunos no curso com base nos requisitos da organização. Exiba [Criar instâncias do curso e programações de aprendizado](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/courses) para obter mais informações.
+1. Um **administrador** inscreve alunos no curso com base nos requisitos da organização. Exiba [Criar instâncias do curso e programações de aprendizado](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses) para obter mais informações.
 
-1. Os alunos podem se inscrever diretamente no curso pela página **Catálogo**. Se o curso estiver configurado para autoinscrição, os alunos serão inscritos imediatamente e poderão acessar o curso em **Meus aprendizados**. Exiba [Meus Aprendizados](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/learner/courses) para obter mais informações.
+1. Os alunos podem se inscrever diretamente no curso pela página **Catálogo**. Se o curso estiver configurado para autoinscrição, os alunos serão inscritos imediatamente e poderão acessar o curso em **Meus aprendizados**. Exiba [Meus Aprendizados](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses) para obter mais informações.
 
 Após a inscrição, os alunos são adicionados ao curso e recebem uma notificação em sua conta da Adobe Learning Manager. Dependendo das configurações de notificação por e-mail da conta, os alunos também podem receber um convite para participar do curso por e-mail.
 

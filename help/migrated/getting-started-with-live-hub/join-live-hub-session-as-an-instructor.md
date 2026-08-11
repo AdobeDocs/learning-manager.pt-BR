@@ -1,15 +1,15 @@
 ---
-title: Ingressar em uma sessão do Live Hub como professor
+title: Ingressar em uma sessão do Live Hub (Beta) como professor
 description: Saiba como os professores ingressam em uma sessão do Live Hub antes da hora de início programada para preparar a sala e definir as configurações antes que os alunos cheguem.
-source-git-commit: d9280a361eaecb46d40bdc0ffb19b6010da6d1ed
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 2%
 
 ---
 
 
-# Ingressar em uma sessão do Live Hub como professor
+# Ingressar em uma sessão do Live Hub (Beta) como professor
 
 Os professores podem entrar na sala de aula virtual antes do horário de início programado para preparar a sala, configurar permissões do aluno, legendas, pesquisas, questionários e breakouts e configurar seu próprio áudio e vídeo antes da chegada dos alunos.
 
