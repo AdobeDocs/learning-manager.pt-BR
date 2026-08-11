@@ -1,9 +1,9 @@
 ---
 title: Entenda o layout do Live Hub
 description: Saiba mais sobre os painéis e controles que compõem a sala de sessão do Live Hub, incluindo a barra de controle, o painel Participantes, o painel Bate-papo e o painel Debates.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ Abra **Mais aplicativos** para acessar ferramentas integradas que estendem a col
 
 * Colabore visualmente com todos os participantes sem sair da sessão.
 
-Exiba[Sobre o quadro de comunicações](./about-the-whiteboard.md) para obter mais informações.
+Exiba [Sobre o quadro de comunicações](./about-the-whiteboard.md) para obter mais informações.
 
 ### Compromisso do participante
 
@@ -120,4 +120,4 @@ O envolvimento do participante ajuda a monitorar a atividade e o envolvimento do
 
 * Identifique se os alunos estão ativamente envolvidos ou precisam de atenção.
 
-Exiba[acompanhar o envolvimento do participante](./track-the-participant-engagement.md) para obter mais informações.
+Exiba [Acompanhar o envolvimento do participante](./track-the-participant-engagement.md) para obter mais informações.
