@@ -1,15 +1,15 @@
 ---
-title: Criar uma sessão do Live Hub
+title: Criar uma sessão do Live Hub (Beta)
 description: Saiba como criar um curso do Live Hub, adicionar instâncias do curso, atribuir professores com o localizador de professores, inscrever alunos e personalizar a marca de sala.
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# Criar uma sessão do Live Hub
+# Criar uma sessão do Live Hub (Beta)
 
 Use o Live Hub para fornecer treinamento ao vivo liderado por instrutores em um curso do Adobe Learning Manager. Você pode combinar sessões do Live Hub com conteúdo de ritmo individualizado para criar uma experiência de aprendizado combinada.
 

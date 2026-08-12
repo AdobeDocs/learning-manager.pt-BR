@@ -1,15 +1,15 @@
 ---
-title: Perguntas frequentes sobre o Live Hub
+title: Perguntas frequentes sobre o Live Hub (Beta)
 description: Perguntas frequentes sobre o Live Hub no Adobe Learning Manager, organizadas por função para administradores, autores, professores e alunos.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '4473'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
 
 
-# Perguntas Frequentes sobre o Live Hub
+# Perguntas Frequentes sobre o Live Hub (Beta)
 
 <table>
  <tbody>

@@ -1,15 +1,15 @@
 ---
 title: Participar de uma sessão do Live Hub como aluno
 description: Saiba como os alunos ingressam em uma sessão do Hub ao vivo de seu curso inscrito, incluindo o teste de áudio e configurações da câmera antes de entrar na sala.
-source-git-commit: 83b1509610f1923424db1797c6e85d1f32422ce7
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
 
 
-# Participar de uma sessão do Live Hub como aluno
+# Participar de uma sessão do Live Hub (Beta) como aluno
 
 Os alunos ingressam em uma sessão do Live Hub diretamente do curso em que estão inscritos. Depois de ingressar, você participa do treinamento ao vivo por meio de bate-papo, pesquisas, questionários, quadros brancos e salas para sessão de grupo.
 
