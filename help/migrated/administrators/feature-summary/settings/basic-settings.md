@@ -3,9 +3,9 @@ description: Saiba mais sobre como as configurações básicas ajudam a adaptar 
 jcr-language: en_us
 title: Configurações básicas
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
-source-wordcount: '5921'
+source-wordcount: '6363'
 ht-degree: 4%
 
 ---
@@ -105,9 +105,9 @@ Para maximizar suas taxas de resposta, é uma boa prática configurar lembretes 
 
 2. **Definir agendamento de lembrete**: no painel **Configurações de Lembrete** que aparece, use os menus suspensos e os campos de entrada para configurar o lembrete:
 
-   a. **[!UICONTROL Quando enviar]**: selecione se o lembrete será enviado **[!UICONTROL Na conclusão do curso]** ou **[!UICONTROL Após a conclusão do curso]**.
-   b. **[!UICONTROL Recorrência]**: selecione a frequência do lembrete (por exemplo, Toda semana).
-   c. **[!UICONTROL Para]**: especifique a duração total (em semanas) para a qual os lembretes serão enviados (por exemplo, 4 semanas).
+   a) **[!UICONTROL Quando enviar]**: selecione se o lembrete será enviado **[!UICONTROL Na conclusão do curso]** ou **[!UICONTROL Após a conclusão do curso]**.
+   b) **[!UICONTROL Recorrência]**: selecione a frequência do lembrete (por exemplo, Toda semana).
+   c) **[!UICONTROL Para]**: especifique a duração total (em semanas) para a qual os lembretes serão enviados (por exemplo, 4 semanas).
 
 3. **[!UICONTROL Salve o lembrete]**: selecione o ícone de marca de seleção azul para salvar a nova configuração de lembrete. Você pode repetir esse processo para adicionar mais lembretes, se necessário.
 
@@ -139,8 +139,8 @@ Para garantir que os gerentes forneçam feedback oportuno, você precisa configu
 
 1. **[!UICONTROL Adicionar novo lembrete]**: para criar um novo lembrete, selecione o link **[!UICONTROL Adicionar Novo Lembrete]**.
 2. **[!UICONTROL Definir agendamento de lembrete]**: no painel **[!UICONTROL Configurações de Lembrete]**, selecione os menus suspensos e os campos de entrada para configurar o lembrete:
-a. **[!UICONTROL Quando enviar]**: selecione quando o lembrete for enviado. As opções são: **[!UICONTROL Na conclusão do curso]** e **[!UICONTROL Após a conclusão do curso]**.
-b. **[!UICONTROL Recorrência]**: selecione a frequência do lembrete. Se a recorrência for **[!UICONTROL Uma vez]**, isso significa que o gerente receberá uma notificação para fornecer feedback. As opções disponíveis são: Uma vez, Todos os dias, Toda semana e Todo mês.
+a) **[!UICONTROL Quando enviar]**: selecione quando o lembrete for enviado. As opções são: **[!UICONTROL Na conclusão do curso]** e **[!UICONTROL Após a conclusão do curso]**.
+b) **[!UICONTROL Recorrência]**: selecione a frequência do lembrete. Se a recorrência for **[!UICONTROL Uma vez]**, isso significa que o gerente receberá uma notificação para fornecer comentários. As opções disponíveis são: Uma vez, Todos os dias, Toda semana e Todo mês.
 3. Depois de definir o agendamento, selecione o ícone de marca de seleção azul para salvar a configuração do lembrete. O lembrete é exibido na lista de lembretes existentes.
 
    ![texto alternativo](../settings/assets/Picture9.png)
@@ -172,8 +172,8 @@ Quando um autor atualiza um curso, por exemplo, adiciona ou remove um módulo ou
 2. Selecione a notificação para exibir as alterações feitas pelo autor.
 3. Compare o conteúdo novo e o antigo.
 4. Aprovar ou rejeitar alterações:
-a. Aprove as alterações para republicar o curso com atualizações.
-b. Rejeite as alterações para manter a versão anterior do curso ativa.
+a) Aprove as alterações para republicar o curso com atualizações.
+b) Rejeite as alterações para manter a versão anterior do curso ativa.
 5. Os autores são notificados sobre a sua decisão, seja ela aprovação ou rejeição.
 
 ### Painel de discussão
@@ -268,6 +268,8 @@ Essa opção exclui usuários se eles não acessarem o Adobe Learning Manager po
 ### Remoção Automática de Usuários Excluídos
 
 Remova do sistema, de forma automática e permanente, os usuários que estiveram no estado de excluídos por um período especificado. Após remover, todos os dados associados do usuário são removidos permanentemente e não podem ser recuperados.
+
+Se habilitada, limpa os dados dos usuários que já foram excluídos no ALM após o número especificado de dias.
 
 ### Mostrar rótulos de catálogo
 
@@ -623,9 +625,9 @@ Os gerentes podem marcar a conclusão do curso por meio de:
 
 * Módulo de lista de verificação: o módulo de lista de verificação permite que os gerentes avaliem o desempenho dos alunos com base em tarefas ou critérios específicos. Os autores devem ativar esse módulo durante a criação do curso e atribuir gerentes como revisores.
 * Página Curso: na página do curso:
-a. Selecione a guia **[!UICONTROL Alunos]** no painel esquerdo.
-b. Selecione o aluno cuja participação você deseja marcar.
-c. Selecione **[!UICONTROL Ações]** > **[!UICONTROL Marcar Conclusão]**.
+a)    Selecione a guia **[!UICONTROL Alunos]** no painel esquerdo.
+b)    Selecione o aluno cuja participação você deseja marcar.
+c)    Selecione **[!UICONTROL Ações]** > **[!UICONTROL Marcar Conclusão]**.
 
 **Observações adicionais:**
 
@@ -637,18 +639,18 @@ c. Selecione **[!UICONTROL Ações]** > **[!UICONTROL Marcar Conclusão]**.
 Essa opção permite que os autores retirem conteúdo de treinamento (cursos, programações de aprendizado, certificações) que não é mais relevante ou necessário. O conteúdo retirado é removido do catálogo do aluno, mas permanece acessível em relatórios e dados históricos para fins de controle. Você tem duas opções:
 
 1. Uma vez retirados, os alunos inscritos poderão exibir e executar ações, mas os alunos ainda não inscritos perderão o acesso:
-a. Alunos inscritos:
-i. Os alunos que já estão inscritos no curso ou caminho de aprendizado retirado ainda podem acessar o conteúdo.
+a) Alunos inscritos:
+i) Os alunos que já estão inscritos no curso ou caminho de aprendizado retirado ainda podem acessar o conteúdo.
 ii. Eles podem continuar a executar ações, como concluir o curso ou visualizar o material.
-b. Alunos ainda não inscritos:
-i. Os alunos que não se inscreveram no curso ou no caminho de aprendizado antes de ele ser desativado não verão mais o conteúdo no catálogo.
+b) Alunos ainda não inscritos:
+i) Os alunos que não se inscreveram no curso ou no caminho de aprendizado antes de ele ser desativado não verão mais o conteúdo no catálogo.
 ii. Eles perderão totalmente o acesso ao conteúdo retirado.
 2. Uma vez retirados, os alunos inscritos e ainda não inscritos perderão o acesso:
-a. Alunos inscritos:
-i. Os alunos que já estavam inscritos no curso ou no caminho de aprendizado perderão o acesso ao conteúdo assim que for retirado.
+a) Alunos inscritos:
+i) Os alunos que já estavam inscritos no curso ou no caminho de aprendizado perderão o acesso ao conteúdo assim que for retirado.
 ii. Eles não poderão mais exibir ou executar nenhuma ação no conteúdo desativado.
-b. Alunos ainda não inscritos:
-i. Os alunos que não se inscreveram no curso ou no caminho de aprendizado também perderão acesso, pois o conteúdo não aparecerá mais no catálogo.
+b) Alunos ainda não inscritos:
+i) Os alunos que não se inscreveram no curso ou no caminho de aprendizado também perderão acesso, pois o conteúdo não aparecerá mais no catálogo.
 
 ### Desativação Automática
 

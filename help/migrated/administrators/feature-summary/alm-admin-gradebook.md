@@ -2,9 +2,9 @@
 description: Tudo sobre ativar o Gradebook e torná-lo visível para autores e alunos
 jcr-language: en_us
 title: Gradebook para administrador
-source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
+source-git-commit: 2f1a64abe8be62bfc23da052232d6ceb1202ebad
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,10 @@ Você pode baixar uma transcrição do aluno filtrada para este curso diretament
 * No **Gradebook de feedback ativo**, selecione **Baixar transcrição do aluno** no canto superior direito da página.
 * Na home page do administrador, selecione **Relatórios** e selecione **Relatórios Personalizados**. Selecione **Transcrições do aluno** na lista de relatórios disponíveis.
 
-Consulte Alterações de relatórios na versão para obter mais informações.
+>[!NOTE]
+>
+>A transcrição do aluno (relatório CSV e API de trabalhos) terá a Ponderação adicionada como uma coluna quando a agenda estiver ativada no nível do curso.
+
 
 ## Eventos da Trilha de auditoria de conteúdo
 
