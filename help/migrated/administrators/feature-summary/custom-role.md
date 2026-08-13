@@ -4,7 +4,7 @@ title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
+source-git-commit: f8473c0bfd1de5591d858e657dcc67c71c50ecd5
 workflow-type: tm+mt
 source-wordcount: '5467'
 ht-degree: 24%
@@ -524,7 +524,7 @@ Depois de atribuir usuários a uma função personalizada adicional, você pode 
 
 >[!NOTE]
 >
->Você pode atribuir até 50 funções a cada usuário e adicionar até 500 usuários a cada função.
+>Você pode atribuir até 50 funções a cada usuário e adicionar até 3.500 usuários a cada função.
 
 ### Atribuir várias funções personalizadas usando CSV
 
@@ -539,7 +539,7 @@ O arquivo user_role.csv inclui os campos Função personalizada e IDs de usuári
 
 O arquivo role.csv inclui os campos, a função Personalizada, a Origem da criação e informações detalhadas para Catálogos, Usuários, Cursos, Caminhos de aprendizado e muito mais.
 
-Se o arquivo CSV tiver dados incorretos ou ultrapassar os limites (50 funções por usuário e 500 usuários por função), uma mensagem será exibida mostrando os erros.
+Se o arquivo CSV tiver dados incorretos ou ultrapassar os limites (50 funções por usuário e 3500 usuários por função), uma mensagem será exibida mostrando os erros.
 
 ![](assets/error-custom-role.png)
 _Notificação de erro para funções personalizadas_
