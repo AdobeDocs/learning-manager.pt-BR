@@ -2,9 +2,9 @@
 title: Ajuda do Adobe Learning Manager Content Composer (Beta)
 description: De um prompt em linguagem simples a um curso publicado, o Adobe Learning Manager Content Composer lida com o design instrucional para que você possa se concentrar no que os alunos precisam criando conteúdo instrucional de alto impacto.
 contentowner: saghosh
-source-git-commit: 04c9d7f773e84a9658f0ad014569b4463f4cc2cd
+source-git-commit: fc3affc155fd10bd74f4b11175bf76fe64ddf6d4
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ O compositor de conteúdo orienta os autores por meio de metas de treinamento, m
 
 >[!IMPORTANT]
 >
->Você deve fazer logon com uma conta válida da Adobe Creative Cloud. Se ainda não tiver uma, você pode criar uma conta gratuita por meio do Adobe Express. Para obter mais informações, consulte [Criar uma conta Adobe Express gratuita](https://helpx.adobe.com/br/express/web/adobe-express-subscription/free.html). Depois de criar suas credenciais de Adobe, inicie o Compositor de conteúdo e faça logon para começar a criar cursos. Se sua organização já tem uma assinatura do Creative Cloud, entre em contato com o administrador para provisionar uma conta de Creative Cloud para você antes de fazer logon no Compositor de conteúdo.
+>Você deve fazer logon com uma conta válida da Adobe Creative Cloud. Se ainda não tiver uma, você pode criar uma conta gratuita por meio do Adobe Express. Para obter mais informações, consulte [Criar uma conta Adobe Express gratuita](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Depois de criar suas credenciais de Adobe, inicie o Compositor de conteúdo e faça logon para começar a criar cursos. Se sua organização já tem uma assinatura do Creative Cloud, entre em contato com o administrador para provisionar uma conta de Creative Cloud para você antes de fazer logon no Compositor de conteúdo.
+
+>[!NOTE]
+>
+>Para obter a melhor experiência com o Compositor de conteúdo, recomenda-se o Google Chrome. O Firefox e o Safari podem ter diferenças na funcionalidade ou no comportamento.
 
 ## Experimente o Compositor de conteúdo
 
