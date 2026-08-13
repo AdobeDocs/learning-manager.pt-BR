@@ -2,9 +2,9 @@
 description: Você precisa de acesso por meio da assinatura do Creative Cloud para experimentar o Compositor de conteúdo, uma ideia geral sobre o que o curso deve cobrir e, opcionalmente, documentos de origem para fundamentar a IA no conteúdo específico da sua organização.
 jcr-language: en_us
 title: Do que você precisa antes de começar
-source-git-commit: 456d4497c0c3cd5efca0350b57deeade4c87fb8b
+source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Antes de iniciar o Adobe Learning Manager Content Composer, confirme o seguinte:
 >[!IMPORTANT]
 >
 >Você deve fazer logon com uma conta válida da Adobe Creative Cloud. Se ainda não tiver uma, você pode criar uma conta gratuita por meio do Adobe Express. Para obter mais informações, consulte [Criar uma conta Adobe Express gratuita](https://helpx.adobe.com/br/express/web/adobe-express-subscription/free.html). Depois de criar suas credenciais de Adobe, inicie o Compositor de conteúdo e faça logon para começar a criar cursos. Se sua organização já tem uma assinatura do Creative Cloud, entre em contato com o administrador para provisionar uma conta de Creative Cloud para você antes de fazer logon no Compositor de conteúdo.
+
+Para obter a melhor experiência com o Compositor de Conteúdo, o **Google Chrome é o navegador recomendado**. Firefox e Safari podem mostrar diferenças na funcionalidade ou no comportamento.
 
 ## Requisitos opcionais
 
