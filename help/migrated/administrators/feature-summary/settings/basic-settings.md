@@ -3,9 +3,9 @@ description: Saiba mais sobre como as configurações básicas ajudam a adaptar 
 jcr-language: en_us
 title: Configurações básicas
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
+source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
 workflow-type: tm+mt
-source-wordcount: '6363'
+source-wordcount: '6386'
 ht-degree: 4%
 
 ---
@@ -431,6 +431,8 @@ Quando ativadas, os alunos podem enviar e acompanhar atividades de aprendizado c
 
 Ativa o recurso Aprendizado externo para todos os alunos da conta. Uma vez ativado, um formulário de envio fica disponível no painel do aluno. Os alunos podem inserir detalhes como o nome do treinamento, a duração, a data, a pontuação e a prova de conclusão. O envio é enviado ao gerente dele para revisão e aprovação. Os envios aprovados aparecem na transcrição do aluno e nos relatórios do administrador. Os envios rejeitados não são registrados na transcrição.
 
+![Selecione Habilitar para habilitar envios de aprendizado externos de um aluno](../assets/external-learning-enable.png)
+
 >[!NOTE]
 >
 >Ativar essa configuração adiciona novas colunas à transcrição do aluno para envios de aprendizado externos. Se a sua organização usa fluxos de trabalho automatizados ou integrações que processam dados de transcrição do aluno, revise-os antes de ativar para garantir a compatibilidade com a estrutura de transcrição atualizada.
@@ -502,6 +504,8 @@ Os administradores podem adicionar até 10 campos personalizados para capturar i
 | Número | Entrada numérica. |
 | Caixa de seleção | Alternância única de sim/não. |
 | Lista suspensa | Seleção única em uma lista de opções definida pelo administrador. |
+
+![Selecione os campos principais e personalizados que um aluno usa para enviar o aprendizado externo](../assets/external-learning-fields.png)
 
 ### Comprovante dos requisitos do arquivo de conclusão
 
