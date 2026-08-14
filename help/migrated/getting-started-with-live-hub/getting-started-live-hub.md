@@ -1,9 +1,9 @@
 ---
 title: Introdução ao Live Hub (Beta)
 description: Saiba como o Live Hub no Adobe Learning Manager permite que você realize sessões de treinamento ao vivo, ministradas por instrutor, diretamente na plataforma.
-source-git-commit: 8078e00844d3b2d757e37d65b6b4c99ff04ab1b6
+source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ experiência de aprendizado tranquila.
 
 | **Estágio** | **Principais atividades** |
 |---|---|
-| **Pré-sessão** | O administrador verifica se os [requisitos de sistema](./system-requirements-for-live-hub.md) foram atendidos e [habilita o Live Hub](../administrators/feature-summary/enable-live-hub.md) para a conta. Eles também podem inscrever os alunos em um curso. O Autor [cria o curso do Live Hub](create-a-live-hub-session.md), e o Professor prepara a sala [configurando layouts](./understand-the-live-hub-layout.md), conteúdo e atividades interativas para a próxima sessão. |
+| **Pré-sessão** | O administrador verifica se os [requisitos de sistema](./system-requirements-for-live-hub.md) foram atendidos e [habilita o Live Hub](../administrators/feature-summary/enable-live-hub.md) para a conta. O Autor [cria o curso do Live Hub](create-a-live-hub-session.md), e os alunos podem se inscrever no curso ou o administrador pode inscrevê-los. O professor prepara a sala [configurando layouts](./understand-the-live-hub-layout.md), conteúdo e atividades interativas para a próxima sessão. |
 | **Durante-sessão** | O professor entrega a sessão ao vivo e envolve os alunos usando recursos como [bate-papo](about-the-chat-panel.md), [pesquisas](./about-the-polls.md), [quizzes](./about-the-quiz.md), [quadros brancos](./about-the-whiteboard.md), [compartilhamento de tela](./about-the-screen-sharing.md) e [salas para sessão de grupo](./about-the-breakouts.md). Os alunos participam dessas atividades durante toda a sessão. O professor pode [gravar a sessão](./record-a-session.md) para disponibilizá-la para que os alunos a vejam posteriormente. |
 | **Pós-sessão** | O professor analisa gravações de sessão, relatórios de participação e [análises de engajamento](./view-the-session-dashboard.md) para avaliar a participação do aluno e a eficácia da sessão. Os alunos podem revisitar a sessão por meio de uma exibição de [gravação baseada em tópico](./view-recordings-as-a-learner.md) que divide a gravação em tópicos navegáveis, cada um com um título, uma visão geral e observações, para que possam pular para qualquer tópico ou lê-lo em vez de assistir. |
 
