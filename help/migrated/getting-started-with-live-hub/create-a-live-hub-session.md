@@ -1,9 +1,9 @@
 ---
 title: Criar uma sessão do Live Hub (Beta)
 description: Saiba como criar um curso do Live Hub, adicionar instâncias do curso, atribuir professores com o localizador de professores, inscrever alunos e personalizar a marca de sala.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Para adicionar professores usando o Localizador do professor:
    ![Recommendations do professor do painel Assistente de IA](assets/ai-assistant-panel-instructor-recommendations.png)
    *Use o painel Assistente do AI para obter as recomendações do professor e de horário com base nos detalhes da sessão.*
 
-1. Revise a lista de professores recomendados. O Localizador do professor recomenda os professores com base nas habilidades do curso e nos requisitos da sessão. A Recommendations também considera a disponibilidade, a utilização e o calendário de feriados do professor. Exiba o **Gerenciamento de professores** para obter mais informações.
+1. Revise a lista de professores recomendados.
 
 1. Navegue até o professor que deseja atribuir e selecione **Adicionar**. <br> O professor selecionado é adicionado ao campo **Professores** como uma marca.
 

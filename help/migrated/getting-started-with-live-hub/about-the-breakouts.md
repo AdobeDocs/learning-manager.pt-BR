@@ -1,9 +1,9 @@
 ---
 title: Sobre os surtos no Live Hub
 description: Saiba como as salas para sessão de grupo permitem que os professores dividam uma sessão do Live Hub em grupos menores para discussões, atividades e colaboração.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,12 @@ Quando a sessão de grupo termina, todos os participantes são automaticamente m
 
 Isso marca a conclusão da atividade de interrupção e permite a revisão pós-sessão.
 
-![Distribuição de Sala de Sessão de Grupo](assets/breakout-room-distribution.png "Interface do Live Hub mostrando a distribuição de alunos nas salas de sessão de grupo.")
+![Distribuição de Sala de Sessão de Grupo](assets/breakout-room-distribution.png)
+*Interface do Live Hub mostrando o layout da sessão de breakout*
 
 ## Funções e permissões
 
-As salas para sessão de grupo estão disponíveis para professores e alunos. As ações e controles disponíveis no painel variam com base na função do usuário na sala de aula virtual.
+Os Debates estão disponíveis para Professores e Alunos durante uma sessão do Live Hub. As ações e controles disponíveis variam de acordo com a função do usuário.
 
 | **Professores** | **Alunos** |
 |----|----|

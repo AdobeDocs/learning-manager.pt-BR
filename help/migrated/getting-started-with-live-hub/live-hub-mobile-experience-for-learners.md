@@ -1,7 +1,7 @@
 ---
 title: Use o Live Hub (Beta) em dispositivos móveis como aluno
 description: Saiba quais recursos do Live Hub estão disponíveis para os alunos no aplicativo móvel da Adobe Learning Manager, desde ingressar em uma sessão até sair de uma.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Use o aplicativo móvel Adobe Learning Manager para ingressar e participar de se
 
 >[!NOTE]
 >
-> O aplicativo para dispositivos móveis é compatível com os principais recursos de participação do Live Hub. Alguns recursos disponíveis na experiência de desktop não estão disponíveis em dispositivos móveis. Para obter uma lista completa de recursos compatíveis na área de trabalho, consulte [Introdução ao Live Hub](./getting-started-live-hub.md).
+> O aplicativo para dispositivos móveis é compatível com os principais recursos de participação do Live Hub. Alguns recursos disponíveis na experiência de desktop não estão disponíveis em dispositivos móveis. Para obter uma lista completa de recursos compatíveis na área de trabalho, exiba [Introdução ao Live Hub](./getting-started-live-hub.md).
 
 ## Experiência do aluno em dispositivos móveis
 
