@@ -2,9 +2,9 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 36%
 
 ---
@@ -359,12 +359,12 @@ ht-degree: 36%
       * [Participar de uma sessão de grupo](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
     * Legendas ocultas {#closed-captions}
       * [Entenda as legendas codificadas](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
-      * [Gerenciar as legendas codificadas como professor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
-      * [Gerenciar as legendas codificadas como um aluno](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+      * [Gerenciar legendas codificadas como professor](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [Gerenciar legendas codificadas como aluno](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
     * Gravações e transcrições{#recordings-and-transcripts}
       * [Noções básicas sobre gravações e transcrições](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
       * [Gravar uma sessão](../migrated/getting-started-with-live-hub/record-a-session.md)
-      * [Exibir gravações como aluno](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+      * [Exibir gravações de sessão como aluno](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
     * Painel da sessão {#session-dashboard}
       * [Exibir o painel da sessão](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [Componentes do painel da sessão](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)

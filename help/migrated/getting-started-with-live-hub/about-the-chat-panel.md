@@ -1,9 +1,9 @@
 ---
 title: Sobre o painel Bate-papo no Live Hub
 description: Saiba como o painel Chat permite a comunicação estruturada e em tempo real entre professores e alunos durante uma sessão do Live Hub.
-source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ O painel Chat inclui várias guias para ajudar a gerenciar diferentes tipos de c
 
 ## Funções e permissões
 
-O painel de Bate-papo está disponível para professores e alunos. As ações e controles disponíveis no painel variam com base na função do usuário na sala de aula virtual.
+O painel Chat está disponível para professores e alunos durante uma sessão do Live Hub. As ações e controles disponíveis variam de acordo com a função do usuário.
 
 | **Professores** | **Alunos** |
 |----|----|
