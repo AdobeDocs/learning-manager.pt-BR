@@ -1,10 +1,10 @@
 ---
-description: Defina repetições do quiz, limites de tempo, ordem de perguntas e pontuações de aprovação no Compositor de conteúdo. Saiba como cada configuração do quiz afeta a experiência do aluno e como as pontuações são informadas ao LMS.
+description: Saiba como configurar as repetições do quiz, os limites de tempo, a ordem de perguntas, a embaralhamento e as configurações de pontuação SCORM no Compositor de conteúdo.
 jcr-language: en_us
 title: Definir configurações do quiz
-source-git-commit: 4adddf525ba27f9e0c3c3234cfde2c472102a9db
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

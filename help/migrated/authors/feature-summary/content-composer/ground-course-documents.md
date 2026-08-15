@@ -1,10 +1,10 @@
 ---
-description: Faça upload de suas políticas, procedimentos ou planos e restrinja a IA somente a esse conteúdo. Isso garante que os cursos gerados reflitam o idioma exato da sua organização, o que é essencial para o treinamento baseado em conformidade, normas e procedimentos.
+description: Saiba como usar os cursos do Compositor de conteúdo em seus próprios documentos, restringindo a saída por IA apenas às suas políticas, procedimentos ou plataformas.
 jcr-language: en_us
 title: Defina seu curso em seus próprios documentos
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

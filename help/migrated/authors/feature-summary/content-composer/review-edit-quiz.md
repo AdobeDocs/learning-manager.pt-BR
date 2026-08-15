@@ -1,10 +1,10 @@
 ---
-description: Um quiz classificado é exibido no final do curso, com cada pergunta marcada para o tópico testado. Edite o texto da pergunta, altere a resposta correta, atribua pontuações ou faça com que a IA gere novamente as perguntas.
+description: 'Saiba como editar perguntas do quiz no Compositor de conteúdo: alterar as respostas corretas, atribuir pontuações, excluir perguntas ou fazer IA para regenerá-las.'
 jcr-language: en_us
 title: Revisar e editar o quiz
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---

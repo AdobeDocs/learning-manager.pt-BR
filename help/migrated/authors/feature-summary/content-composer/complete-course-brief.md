@@ -1,10 +1,10 @@
 ---
-description: O estágio Resumo captura três entradas - título do curso, perfil do aluno e objetivo de aprendizado - por meio de uma conversa guiada. Todos os três campos devem ser preenchidos para que a IA possa gerar uma estrutura de tópicos.
+description: Saiba como concluir o estágio Resumo do compositor de conteúdo — definir o título do curso, definir alunos e escrever um objetivo antes de gerar um esboço.
 jcr-language: en_us
 title: Concluir o resumo do curso
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---

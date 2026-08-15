@@ -2,9 +2,9 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+source-git-commit: 98f84cf0fd338b0a7e4d51df43f2b03387ace19c
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1660'
 ht-degree: 36%
 
 ---
@@ -233,12 +233,14 @@ ht-degree: 36%
       * [Editar ou adicionar uma imagem](authors/feature-summary/content-composer/edit-add-image.md)
       * [Adicionar um componente de conteúdo](authors/feature-summary/content-composer/add-content-component.md)
       * [Visualizar o curso](authors/feature-summary/content-composer/preview-course.md)
+    * Gravar prompts efetivos {#write-effective-prompt}
+      * [Gravar prompts eficazes no Compositor de Conteúdo](authors/feature-summary/content-composer/write-effective-prompts.md)
     * Compartilhe e colabore {#share}
-      * [Compartilhar e colaborar em um curso do Compositor de conteúdo](authors/feature-summary/content-composer/share-collaborate.md)
-      * {hide-from-toc}[Compartilhar um curso para revisão](authors/feature-summary/content-composer/share-course-review.md)
-      * {hide-from-toc}[Compartilhar um curso com os alunos](authors/feature-summary/content-composer/share-course-learners.md)
-      * {hide-from-toc}[Revisar o curso compartilhado](authors/feature-summary/content-composer/review-shared-course.md)
-      * {hide-from-toc}[Exibir e adicionar comentários a um curso](authors/feature-summary/content-composer/view-add-comments-course.md)
+      * [Compartilhar e colaborar em um projeto do Compositor de conteúdo](authors/feature-summary/content-composer/share-collaborate.md)
+      * [Compartilhar um projeto para revisão](authors/feature-summary/content-composer/share-course-review.md)
+      * [Compartilhar um projeto com os alunos](authors/feature-summary/content-composer/share-course-learners.md)
+      * [Revisar o projeto compartilhado](authors/feature-summary/content-composer/review-shared-course.md)
+      * [Gerenciar e responder a comentários de revisão](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * Definir configurações do curso {#settings}
       * [Configurações gerais do curso](authors/feature-summary/content-composer/general-course-settings.md)
       * [Definir critérios de conclusão e êxito](authors/feature-summary/content-composer/set-completion-success-criteria.md)

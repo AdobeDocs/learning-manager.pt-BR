@@ -1,10 +1,10 @@
 ---
-description: Selecione qualquer elemento de texto para ativar a barra de ferramentas de formatação incorporada. Edite o corpo do texto, os títulos e os rótulos diretamente na tela. Renomeie lições e tópicos com o assistente, não selecionando cabeçalhos.
+description: Saiba mais sobre como editar o texto do curso no Compositor de conteúdo usando a barra de ferramentas de formatação incorporada e como renomear lições e tópicos com o assistente.
 jcr-language: en_us
 title: Editar o texto do curso
-source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
