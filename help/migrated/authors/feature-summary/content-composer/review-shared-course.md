@@ -1,8 +1,9 @@
 ---
 description: Saiba como abrir e revisar um curso do Compositor de conteúdo compartilhado para feedback, incluindo como navegar pelo curso, adicionar comentários, responder a outros revisores e marcar outros revisores.
 jcr-language: en_us
-title: Revisar o curso compartilhado
-source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
+title: Revisar o projeto compartilhado
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%

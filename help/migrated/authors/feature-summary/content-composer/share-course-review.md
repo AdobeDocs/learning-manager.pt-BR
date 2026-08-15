@@ -2,7 +2,8 @@
 description: 'Saiba como compartilhar um projeto do Compositor de conteúdo para revisão: convidar revisores, coletar comentários, gerenciar acesso e solicitar acesso quando ele for removido.'
 jcr-language: en_us
 title: Compartilhar um projeto para revisão
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%

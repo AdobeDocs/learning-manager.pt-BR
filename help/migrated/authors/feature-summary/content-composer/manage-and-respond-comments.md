@@ -2,7 +2,8 @@
 description: Saiba como visualizar e gerenciar comentários no painel Comentários do compositor de conteúdo, incluindo como responder, resolver, mencionar um revisor usando @, filtrar por revisor, hora ou status e marcar comentários como resolvidos.
 jcr-language: en_us
 title: Gerenciar e responder a comentários
-source-git-commit: eb764ba06a5807bead165cbfdbfec0367654ed08
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
