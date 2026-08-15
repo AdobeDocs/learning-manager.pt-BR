@@ -17,7 +17,7 @@ Adicione um cabeçalho e um rodapé para incluir elementos, como o logotipo.
 1. Selecione **Temas** na barra de ferramentas, passe o mouse sobre o tema aplicado e selecione **Editar**.
 
 2. Ative a alternância **Adicionar cabeçalho** para adicionar um cabeçalho ao seu curso.
-   ![ As opções Adicionar cabeçalho e Adicionar rodapé no painel Editar tema](../assets/39_edit_theme_header_footer_toggles_updated.png)
+   ![&#x200B; As opções Adicionar cabeçalho e Adicionar rodapé no painel Editar tema](../assets/39_edit_theme_header_footer_toggles_updated.png)
 
 3. Em **Logotipo**, selecione **Adicionar** para carregar um logotipo para o cabeçalho.
 
