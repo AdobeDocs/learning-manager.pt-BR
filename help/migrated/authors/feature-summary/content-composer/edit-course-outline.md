@@ -1,10 +1,10 @@
 ---
-description: Revise a lição e a estrutura de tópicos geradas por IA antes de se comprometer com a geração completa do curso. Solicite alterações por meio do painel de bate-papo. Renomeie, adicione, remova, divida ou mescle lições e tópicos conversacionalmente.
+description: Saiba como editar um resumo de curso do Compositor de conteúdo — renomear, adicionar, remover, dividir ou mesclar lições e tópicos por meio do painel de bate-papo.
 jcr-language: en_us
 title: Editar a estrutura do curso
-source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---

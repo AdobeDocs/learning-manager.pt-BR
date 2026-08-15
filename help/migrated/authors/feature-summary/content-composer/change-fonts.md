@@ -1,10 +1,10 @@
 ---
-description: Saiba como alterar as fontes de título e corpo no Compositor de conteúdo editando um tema. Selecione uma das opções de fonte disponíveis e salve como um novo tema personalizado ou substitua o existente.
+description: Saiba como alterar as fontes de cabeçalho e corpo no Compositor de conteúdo editando um tema e, em seguida, salvando alterações ou criando um novo tema personalizado.
 jcr-language: en_us
 title: Alterar fontes
-source-git-commit: 93f8c8fd1fd9c9f708ba0085a268be53906d26f9
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

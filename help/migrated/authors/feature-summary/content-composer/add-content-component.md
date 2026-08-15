@@ -1,10 +1,10 @@
 ---
-description: Insira blocos interativos e de mídia entre elementos existentes, Parágrafo, Imagem, Vídeo, Virar placa, Acordeão, Linha do tempo, Guia, Carrossel, MCQ e Verdadeiro/falso, usando o seletor de componentes.
+description: 'Saiba como adicionar blocos de conteúdo no Compositor de conteúdo: parágrafo, imagem, vídeo, placa giratória, acordeão, linha do tempo, guia, carrossel, MCQ e verdadeiro/falso.'
 jcr-language: en_us
 title: Adicionar um componente de conteúdo
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

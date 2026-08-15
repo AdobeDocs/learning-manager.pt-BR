@@ -1,10 +1,10 @@
 ---
-description: Saiba como usar propriedades avançadas do tema no Compositor de conteúdo para personalizar elementos de texto individuais, incluindo nomes de lições, nomes de tópicos, cabeçalhos de blocos, legendas e parágrafos, com controles granulares de fonte e estilo.
+description: Saiba como usar propriedades avançadas do tema no Compositor de conteúdo para personalizar fontes, cores, espaçamento e layout para títulos e elementos de texto.
 jcr-language: en_us
 title: Personalização avançada de temas
-source-git-commit: 1fad4a773bfc5c32e47c034e6bf69d6c511b4920
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

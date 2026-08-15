@@ -1,10 +1,10 @@
 ---
-description: Faça upload de documentos, políticas ou planos existentes para fundamentar a IA no conteúdo da sua organização. Escolha se deseja restringir a geração somente a esses arquivos ou deixar que o AI complemente com seu conhecimento geral.
+description: Saiba como fazer upload de arquivos de origem no Compositor de conteúdo, restringir a saída por IA ao seu conteúdo e atualizar arquivos de origem quando houver alterações no material.
 jcr-language: en_us
 title: Gerenciar arquivos de origem
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
