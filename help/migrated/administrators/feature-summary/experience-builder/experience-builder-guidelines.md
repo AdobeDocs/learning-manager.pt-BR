@@ -2,13 +2,13 @@
 title: Diretrizes e limitações do Experience Builder no Adobe Learning Manager
 description: As diretrizes e limitações do Experience Builder oferecem sugestões personalizadas de cursos e conteúdo aos alunos usando algoritmos acionados por IA.
 jcr-language: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
-
 
 # Diretrizes e limitações do Experience Builder
 
@@ -115,13 +115,3 @@ Cada widget e página tem IDs exclusivas que podem ser usadas para alterações 
 * Nível global: aplique alterações de CSS em todas as páginas.
 * Nível do widget: aplica alterações de CSS a widgets específicos.
 * Nível da página: aplica alterações de CSS a todos os widgets em uma página específica.
-
-
-
-
-
-
-
-
-
-
