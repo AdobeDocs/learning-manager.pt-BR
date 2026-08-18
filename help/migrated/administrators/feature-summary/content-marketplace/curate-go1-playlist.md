@@ -2,13 +2,13 @@
 description: Saiba como criar e adicionar uma lista de reprodução Go1 a um caminho de aprendizado no Adobe Learning Manager. Este guia aborda instruções passo a passo e práticas recomendadas para a integração da lista de reprodução.
 jcr-language: en_us
 title: Curadoria da lista de reprodução Go1 para o Caminho de aprendizado do Adobe Learning Manager
-source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
+exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
 
 ---
-
 
 # Curar cursos Go1 para um caminho de aprendizado
 
@@ -44,8 +44,8 @@ Para criar um Caminho de aprendizado com cursos Go1:
 
    * Usando o **[!UICONTROL Assistente de IA Go1]**. Consulte o [Assistente de IA Go1](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant) para obter mais informações.
    * Na **[!UICONTROL Biblioteca]**, selecione **[!UICONTROL Criar lista de reprodução]** e escolha uma destas opções:
-a. **[!UICONTROL com IA]**: crie uma lista de reprodução com a ajuda da IA. Exiba esta [seção](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) para obter mais informações.
-b. **[!UICONTROL sozinho]**: crie uma lista de reprodução adicionando cursos manualmente a ela. Exiba esta [seção](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) para obter mais informações.
+     a) **[!UICONTROL com IA]**: crie uma lista de reprodução com a ajuda da IA. Exiba esta [seção](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) para obter mais informações.
+     b) **[!UICONTROL sozinho]**: crie uma lista de reprodução adicionando cursos manualmente a ela. Exiba esta [seção](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) para obter mais informações.
 
 ### Assistente de IA Go1
 
