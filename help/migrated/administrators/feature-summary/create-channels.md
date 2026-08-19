@@ -1,9 +1,9 @@
 ---
 title: Criar Canais (Beta)
 description: Saiba como ativar, criar e editar canais no Adobe Learning Manager para trazer o conteúdo de aprendizado baseado em vídeo de páginas da Web e páginas da Confluence Cloud para um único local pesquisável para os alunos.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 As organizações costumam armazenar sessões de compartilhamento de conhecimento, gravações de treinamento e outros conteúdos de vídeo em páginas da Web e da Confluence Cloud selecionadas de conteúdo de aprendizado informal. Os canais conectam o Adobe Learning Manager a essas fontes de conteúdo, facilitando a descoberta e o consumo de vídeos sem exigir que os alunos naveguem em vários sistemas. Os canais ajudam a organizar e compartilhar conteúdo de aprendizado baseado em vídeo de páginas da Web corporativas e páginas da Confluence Cloud em um único local pesquisável. Em vez de pesquisar em vários sites internos, os alunos podem descobrir e acessar gravações relevantes diretamente do Adobe Learning Manager. Exiba [Descobrir e interagir com Canais](../../learners/feature-summary/discover-and-engage-with-channels.md) para obter mais informações.
 
-Como administrador, você pode criar e gerenciar canais, definir configurações de visibilidade, sincronizar conteúdo com sua origem e verificar se os vídeos estão disponíveis antes de tornar o canal acessível aos alunos. Este artigo explica como executar essas tarefas de gerenciamento de canal.
+Como administrador, você pode criar e gerenciar canais, definir configurações de visibilidade, sincronizar conteúdo com sua origem e verificar se os vídeos estão disponíveis antes de tornar o canal acessível aos alunos. Os formatos de vídeo com suporte são **MP4** e **WebM**.
+
+Este artigo explica como executar essas tarefas de gerenciamento de canal.
 
 **Principais benefícios**
 
