@@ -1,15 +1,19 @@
 ---
 title: Criar Canais (Beta)
 description: Saiba como ativar, criar e editar canais no Adobe Learning Manager para trazer o conteúdo de aprendizado baseado em vídeo de páginas da Web e páginas da Confluence Cloud para um único local pesquisável para os alunos.
-source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
+source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
 
 
 # Criar Canais (Beta)
+
+>[!IMPORTANT]
+>
+>Os recursos beta podem conter defeitos e são fornecidos “NO ESTADO EM QUE SE ENCONTRAM” sem garantias de nenhum tipo. o Adobe tem o único critério de disponibilizar os recursos beta para o público em geral. O Adobe não tem obrigação de manter, corrigir, atualizar, alterar, modificar ou dar suporte (por meio dos Serviços de Suporte do Adobe ou de outra forma) aos recursos beta. Caso um recurso beta se torne disponível ao público, ele pode estar sujeito a termos e condições adicionais, incluindo taxas aplicáveis. Os recursos beta estão sujeitos a alterações sem aviso prévio, incluindo a descontinuação. Recomenda-se que os clientes tenham cuidado e não dependam de forma alguma do funcionamento ou desempenho ininterrupto ou sem erros dos recursos beta. Portanto, qualquer uso dos recursos beta é inteiramente por conta e risco do Cliente. Os recursos do produto e a documentação relacionada podem mudar conforme o recurso evolui. Esta documentação reflete a experiência beta atual e não deve ser considerada uma documentação final ou completa do produto.
 
 As organizações costumam armazenar sessões de compartilhamento de conhecimento, gravações de treinamento e outros conteúdos de vídeo em páginas da Web e da Confluence Cloud selecionadas de conteúdo de aprendizado informal. Os canais conectam o Adobe Learning Manager a essas fontes de conteúdo, facilitando a descoberta e o consumo de vídeos sem exigir que os alunos naveguem em vários sistemas. Os canais ajudam a organizar e compartilhar conteúdo de aprendizado baseado em vídeo de páginas da Web corporativas e páginas da Confluence Cloud em um único local pesquisável. Em vez de pesquisar em vários sites internos, os alunos podem descobrir e acessar gravações relevantes diretamente do Adobe Learning Manager. Exiba [Descobrir e interagir com Canais](../../learners/feature-summary/discover-and-engage-with-channels.md) para obter mais informações.
 
@@ -45,7 +49,7 @@ Para habilitar o recurso **Canais**:
 
    ![Habilitar Recurso de Canais](assets/enable-channels-feature.png)
 
-   *Habilite o recurso Canal na guia **Configurações**&#x200B;para permitir que os administradores criem canais para a conta.*
+   *Habilite o recurso Canal na guia **Configurações**para permitir que os administradores criem canais para a conta.*
 
 1. Habilitar **Recurso de canal**.
 
@@ -100,7 +104,7 @@ Crie um canal para definir a fonte de conteúdo em que o Adobe Learning Manager 
 
    ![Testar Conexão de Origem do Canal](assets/test-channel-source-connection.png)
 
-   *Use **Testar agora**&#x200B;para confirmar se os vídeos são recuperados da origem antes de criar o canal.*
+   *Use **Testar agora**para confirmar se os vídeos são recuperados da origem antes de criar o canal.*
 
 1. Selecione **Criar canal**. O canal é criado e adicionado à lista **Canais**.
 
