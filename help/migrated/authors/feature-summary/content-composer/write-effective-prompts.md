@@ -2,7 +2,8 @@
 description: O prompt é a entrada mais importante no Compositor de conteúdo. Um prompt específico, como nomear o público, 2 a 3 tópicos e um sinal de escopo, produz um resumo mais preciso, um contorno mais forte e menos edição downstream.
 jcr-language: en_us
 title: Gravar prompts eficazes no Compositor de Conteúdo
-source-git-commit: c58fff50e6ccf6ab45722a0aafb7f4cee73752b5
+hide: true
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
 source-wordcount: '2339'
 ht-degree: 0%
