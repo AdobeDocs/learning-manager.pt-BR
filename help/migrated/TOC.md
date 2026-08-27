@@ -2,9 +2,9 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1670'
 ht-degree: 36%
 
 ---
@@ -39,7 +39,9 @@ ht-degree: 36%
   * [Idiomas com suporte no Adobe Learning Manager](/help/migrated/languages-supported.md)
   * [Descontinuações e alterações de API no Adobe Learning Manager](api-deprecations-list.md)
   * [Recomendações no Adobe Learning Manager](recommendations-adobe-learning-manager.md)
-  * [Rotulagem branca no Adobe Learning Manager](white-label.md)
+  * [Rotulagem de permissões no Adobe Learning Manager](white-label.md)
+* Disponibilidade de recursos nas versões {#feature-availability}
+  * [Disponibilidade de recursos na versão de agosto de 2026](/help/migrated/feature-availability-aug-2026.md)
 * Iniciar {#get-started}
   * [Fazer logon no Adobe Learning Manager com o OpenID Connect](/help/migrated/oidc.md)
   * [Iniciando como administrador](administrators/feature-summary/getting-started-admin.md)
@@ -158,7 +160,8 @@ ht-degree: 36%
   * [Programas de aprendizado](administrators/feature-summary/learning-programs.md)
   * [Terminologia do produto](administrators/feature-summary/product-terminology.md)
 * Administrador de Integração {#integration}
-  * [Manual do desenvolvedor de aplicativos](integration-admin/feature-summary/developer-manual.md)
+  * [Manual do desenvolvedor de aplicativos](/help/migrated/integration-admin/feature-summary/developer-manual.md)
+  * [Integração do Assistente de Aluno usando o iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [Manual de migração](integration-admin/feature-summary/migration-manual.md)
   * Conectores do Learning Manager {#connectors}
     * [Visão geral dos conectores](integration-admin/feature-summary/connectors.md)
@@ -271,6 +274,7 @@ ht-degree: 36%
   * [Configurações do perfil](learners/feature-summary/settings.md)
   * [Catálogos](learners/feature-summary/catalogs.md)
   * [Inscrição com um clique](learners/feature-summary/learner-one-click-enrollment.md)
+  * {hide-from-toc}[Widget Salvo por mim](learners/feature-summary/saved-by-me-widget.md)
   * [Meu Aprendizado](learners/feature-summary/courses.md)
   * {hide-from-toc}[Curso Adaptável](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic Player](learners/feature-summary/fluidic-player.md)

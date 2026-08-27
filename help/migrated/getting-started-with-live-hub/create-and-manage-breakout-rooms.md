@@ -1,9 +1,9 @@
 ---
 title: Criar e gerenciar sessões de grupo no Live Hub
 description: Saiba como os professores criam, configuram, iniciam, monitoram e gerenciam salas para sessão de sessão do Live Hub, incluindo resumos e relatórios de salas gerados por IA.
-source-git-commit: f16239fb4a169f22e03a23d11c43f9accfbb72ec
+source-git-commit: 0da79f36c305889cb70831f7791fddbd1f470da0
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Os professores podem exibir resumos das discussões gerados por IA em cada sala 
 
 >[!NOTE]
 >
->Uma sala precisa de pelo menos 60 segundos de discussão para que um resumo possa ser gerado. As salas com menos atividade não mostrarão um resumo na janela Verificar sala.
+>Uma sala para sessão de grupo precisa de pelo menos 60 segundos de discussão para que um resumo possa ser gerado. As salas com menos atividade não mostrarão um resumo na janela Verificar sala.
 
 Para exibir resumos:
 
@@ -184,20 +184,24 @@ Você pode encerrar a sessão de breakout a qualquer momento.
 
 ## Exibir um relatório de sessão de breakout
 
-Após o término da sessão de breakout, você pode acessar o relatório da sessão de breakout para analisar a atividade e a participação da sessão. O relatório inclui detalhes do participante, resumos específicos da sala de discussões de grupo, instruções compartilhadas com os participantes e uma visão geral da duração e do engajamento da sessão.
+Após o término da sessão de breakout, você pode acessar o relatório da sessão de breakout para analisar a atividade e a participação da sessão. O relatório inclui detalhes do participante, resumos gerais e específicos da sala de discussões sobre debates, instruções compartilhadas com os participantes e uma visão geral da duração e do envolvimento da sessão.
 
 >[!NOTE]
 >
->As salas com menos de 60 segundos de discussão não têm um resumo incluído no relatório.
+>As salas para sessão de grupo com menos de 60 segundos de discussão não têm um resumo incluído no relatório.
 
 Para exibir um relatório de sessão de breakout:
 
 1. Navegue até a sessão de detalhamento fechada no painel **Detalhes**.
 
-1. Selecione **Exibir relatórios**. <br> A janela pop-up do relatório Breakouts é aberta com o relatório de salas.
+1. Selecione **Exibir relatórios**. <br> A janela pop-up Relatório de interrupções é aberta com o resumo da sessão.
 
    ![Relatório de Sessão de Interrupção](assets/breakout-session-report.png)
    *Janela pop-up de relatórios de interrupções mostrando o relatório de salas para sessão de grupo.*
+
+1. Siga um destes procedimentos:
+   * Selecione **Todas as salas** para exibir o **Resumo geral** da sessão de grupo.
+   * Selecione uma guia de sala para exibir o resumo dessa sala.
 
 Todos os insights de sessão de detalhamento também estão disponíveis no **Painel de sessão**, onde você pode revisar resumos, analisar participação e acompanhar os resultados da sessão após a sessão. Exiba [Componentes do painel da Sessão](./components-of-the-session-dashboard.md) para obter mais informações.
 

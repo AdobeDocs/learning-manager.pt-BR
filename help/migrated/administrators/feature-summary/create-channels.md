@@ -1,9 +1,9 @@
 ---
 title: Criar Canais (Beta)
 description: Saiba como ativar, criar e editar canais no Adobe Learning Manager para trazer o conteúdo de aprendizado baseado em vídeo de páginas da Web e páginas da Confluence Cloud para um único local pesquisável para os alunos.
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: 819dd240ab33369c6cb5050b1b354d632aabd62f
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Para habilitar o recurso **Canais**:
 
    ![Habilitar Recurso de Canais](assets/enable-channels-feature.png)
 
-   *Habilite o recurso Canal na guia **Configurações**&#x200B;para permitir que os administradores criem canais para a conta.*
+   *Habilite o recurso Canal na guia **Configurações**para permitir que os administradores criem canais para a conta.*
 
 1. Habilitar **Recurso de canal**.
 
@@ -86,11 +86,15 @@ Crie um canal para definir a fonte de conteúdo em que o Adobe Learning Manager 
 
    1. **Visível aos alunos**: habilite esta opção para disponibilizar o canal para os alunos. Desative-o para ocultar o canal enquanto continua configurando ou testando-o.
 
+      >[!NOTE]
+      >
+      >A guia Canais é visível para os alunos apenas quando essa configuração está ativada e contém pelo menos um vídeo.
+
    1. **Sincronizar automaticamente**: habilite esta opção para atualizar automaticamente o canal quando novos vídeos forem adicionados à origem. Desative-a se quiser sincronizar manualmente o canal.
 
 1. (Opcional) Selecione **Mostrar configurações avançadas** e configure as seguintes opções conforme necessário:
 
-   1. **Cor do tema do canal**: selecione uma cor para personalizar a aparência visual do canal.
+   1. **Cor do tema do canal**: selecione uma cor na lista suspensa para personalizar a aparência visual do canal.
 
    1. **profundidade de rastreamento**: insira a profundidade de rastreamento de páginas vinculadas para verificar o conteúdo de vídeo. Ele oferece suporte a uma profundidade de rastreamento máxima de **2**.
 
@@ -104,7 +108,7 @@ Crie um canal para definir a fonte de conteúdo em que o Adobe Learning Manager 
 
    ![Testar Conexão de Origem do Canal](assets/test-channel-source-connection.png)
 
-   *Use **Testar agora**&#x200B;para confirmar se os vídeos são recuperados da origem antes de criar o canal.*
+   *Use **Testar agora**para confirmar se os vídeos são recuperados da origem antes de criar o canal.*
 
 1. Selecione **Criar canal**. O canal é criado e adicionado à lista **Canais**.
 
