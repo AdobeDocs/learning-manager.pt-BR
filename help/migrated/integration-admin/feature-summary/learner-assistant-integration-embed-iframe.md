@@ -32,7 +32,7 @@ Quando incorporado pelo iFrame, o Assistente do aluno fornece acesso a todos os 
 Antes de começar, verifique se você tem:
 
 * Um locatário do ALM com o Assistente do aluno ativado. Configure o(s) catálogo(s) necessário(s) na página de configurações do administrador.
-* Um accessToken válido para autenticar a sessão do aluno (ou administrador). Para gerar um token de acesso, siga as instruções na página [Autenticação usando OAuth 2.0](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20). A página inclui as etapas necessárias para autenticar e gerar o token de acesso necessário para continuar.
+* Um accessToken válido para autenticar a sessão do aluno (ou administrador). Para gerar um token de acesso, siga as instruções na página [Autenticação usando OAuth 2.0](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20). A página inclui as etapas necessárias para autenticar e gerar o token de acesso necessário para continuar.
 * A capacidade de incorporar um `<iframe>` em seu aplicativo e se comunicar com ele por meio da API postMessage do navegador.
 * Propriedade de código front-end do aplicativo pai, pois o aplicativo deve ouvir e responder a mensagens do iFrame incorporado.
 
