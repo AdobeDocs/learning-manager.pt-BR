@@ -1,9 +1,9 @@
 ---
 title: Guia de Solução de Problemas do Live Hub (Beta)
 description: Mensagens de erro comuns e notificações que você pode encontrar durante uma sessão do Live Hub, suas causas e etapas para resolvê-las.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: a454fbcdfc37a139245d925dd01bb931d6f83432
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ As mensagens abaixo podem ser exibidas quando um professor tenta iniciar uma ses
 |---|---|---|
 | Não é possível iniciar a interrupção — a conexão foi interrompida. Tente novamente quando estiver reconectado. | Um professor tenta iniciar salas para sessão de grupo enquanto sua conexão é interrompida ou reconectada no momento. | Aguarde a conexão estabilizar (procure um indicador de reconexão) e, em seguida, inicie as salas para sessão de grupo novamente. |
 | Não foi possível iniciar a sessão de grupo. Tente novamente. | Um professor inicia salas para sessão de grupo e a solicitação para iniciá-las falha. | Tente iniciar novamente as salas para sessão de grupo. Se o problema persistir, feche o painel Saída e tente novamente. |
-| Não foi possível gerar o resumo. | Isso pode ocorrer nas seguintes situações: <ul><li>Nenhum usuário estava falando durante a sessão, portanto, não há nenhum conteúdo de áudio para resumir.</li><li>A discussão dura menos de 60 segundos.</li></ul> | Certifique-se de que os participantes falem ativamente por pelo menos 60 segundos durante a sessão antes de gerar o resumo. Se o problema persistir, aguarde um momento e tente novamente. |
+| Não foi possível gerar o resumo. | Este erro pode aparecer em três locais: o resumo ao vivo da **Sala de Verificação**, um resumo **específico da sala** no relatório de Grupo e o **resumo geral** no relatório de Grupo, dependendo da causa: <ul><li>Nenhum participante falou durante a discussão da sala.</li><li>A discussão da sala durou menos de 60 segundos.</li><li>Somente uma sala para sessão de grupo gerou resumo.</li></ul> | Corresponda a correção à causa acima: <ul><li>Certifique-se de que os participantes falem ativamente durante as discussões da sala.</li><li>Certifique-se de que a discussão dure pelo menos 60 segundos antes de verificar ou gerar o resumo.</li><li>Certifique-se de que pelo menos 2 salas para sessão de grupo tenham gerado resumos individuais antes de gerar o resumo geral.</li><li>Se o problema persistir depois de tratar da causa relevante, aguarde um momento e tente novamente.</li></ul> |
 
 ## Problemas de geração de notificação do sistema de resposta
 
