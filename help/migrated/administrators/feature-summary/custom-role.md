@@ -84,7 +84,7 @@ _Filtrar funções personalizadas_
 
    *Definir o escopo*
 
-   ### O layout do modelo de email requer o privilégio de conta Modelos de Email
+   &#x200B;### O layout do modelo de email requer o privilégio de conta Modelos de Email
 
    Para exibir um modelo de e-mail de nível de curso com seu layout renderizado corretamente, uma função personalizada precisa de **ambos** dos seguintes itens:
 
