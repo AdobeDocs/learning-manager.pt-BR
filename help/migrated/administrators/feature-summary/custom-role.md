@@ -4,9 +4,9 @@ title: Funções personalizadas
 description: O recurso Caminhos de aprendizado ajuda a definir funções personalizadas e atribuir responsabilidades específicas ao conjunto de usuários. Esse recurso permite atribuir responsabilidades fora do alcance da função existente do indivíduo.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: f8473c0bfd1de5591d858e657dcc67c71c50ecd5
+source-git-commit: a45822a6aa320440243fd93855fff88766391372
 workflow-type: tm+mt
-source-wordcount: '5467'
+source-wordcount: '5511'
 ht-degree: 24%
 
 ---
@@ -83,6 +83,13 @@ _Filtrar funções personalizadas_
    ![](assets/account-privileges.png)
 
    *Definir o escopo*
+
+   ### O layout do modelo de email requer o privilégio de conta Modelos de Email
+
+   Para exibir um modelo de e-mail de nível de curso com seu layout renderizado corretamente, uma função personalizada precisa de **ambos** dos seguintes itens:
+
+   * Acesso total a **Cursos** em Privilégios de recurso - Objetos de aprendizado
+   * Acesso a **Modelos de Email** sob privilégios de Conta
 
 5. **Privilégios do recurso - recursos principais**: usado para conceder acesso a recursos específicos para gerenciar atividades de aprendizado. Através dessa opção é possível conceder permissões aos recursos a seguir.
 
