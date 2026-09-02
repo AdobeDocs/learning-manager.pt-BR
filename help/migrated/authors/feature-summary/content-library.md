@@ -3,9 +3,9 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '6082'
+source-wordcount: '6083'
 ht-degree: 33%
 
 ---
@@ -323,11 +323,11 @@ O suporte a Faixas de texto de vídeo (VTT) multilíngues no Adobe Learning Mana
 
 #### Informações adicionais
 
-* Idiomas com suporte: todos os 39 idiomas diferentes do inglês com suporte do Adobe Learning Manager.
-* Notificações: os autores são notificados quando a geração e a tradução do VTT são concluídas.
+* **Idiomas com suporte:** o Adobe Learning Manager oferece suporte a todos os 39 idiomas que não sejam de língua inglesa.
+* **Notificações:** os autores são notificados quando a geração e a tradução do VTT são concluídas.
 * Flexibilidade de edição: as legendas podem ser editadas no aplicativo ou offline e recarregadas.
-* Escalabilidade: projetada para necessidades de acessibilidade e localização em escala empresarial.
-* Sem necessidade de upload manual de VTT: o sistema pode gerar arquivos VTT do zero usando o vídeo/áudio carregado.
+* **Escalabilidade:** criada para necessidades de acessibilidade e localização em escala empresarial.
+* **Não é necessário o carregamento manual de VTT:** o sistema pode gerar arquivos VTT do zero usando o vídeo/áudio carregado.
 
 #### Práticas recomendadas
 

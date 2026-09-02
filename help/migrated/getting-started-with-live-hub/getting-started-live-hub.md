@@ -1,9 +1,9 @@
 ---
 title: Introdução ao Live Hub (Beta)
 description: Saiba como o Live Hub no Adobe Learning Manager permite que você realize sessões de treinamento ao vivo, ministradas por instrutor, diretamente na plataforma.
-source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
+source-git-commit: d163afe818f4fc574fa4a809fce1f9eed5fd7ac6
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,15 @@ Ele fornece uma experiência perfeita baseada em navegador para professores e al
 
 Muitas organizações contam com ferramentas separadas para o gerenciamento de cursos, a realização de sessões e a colaboração. Isso pode apresentar desafios como:
 
-- Alternar entre várias plataformas para treinamento
-- Requisitos adicionais de instalação e configuração
-- Visibilidade limitada do envolvimento e da participação do aluno
+- Alternar entre várias plataformas para treinamento.
+- Requisitos adicionais de instalação e configuração.
+- Visibilidade limitada do envolvimento e da participação do aluno.
 
 O Live Hub trata desses desafios trazendo a entrega do curso, colaboração, engajamento e rastreamento para uma experiência unificada dentro do Adobe Learning Manager.
+
+Antes de mergulhar no processo passo a passo, assista a este vídeo curto que apresenta uma visão geral do Live Hub.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502433)
 
 ## O que é o Live Hub
 
