@@ -3,9 +3,9 @@ description: Saiba como criar conteúdo para que se ajuste aos cursos como conte
 jcr-language: en_us
 title: Biblioteca de conteúdo
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a375032d49a8f566ba075205bcb2d8ae87d8f4b1
 workflow-type: tm+mt
-source-wordcount: '6082'
+source-wordcount: '6094'
 ht-degree: 33%
 
 ---
@@ -287,7 +287,7 @@ O suporte a Faixas de texto de vídeo (VTT) multilíngues no Adobe Learning Mana
 #### Principais recursos
 
 * Geração automática de VTT: faça upload de um arquivo de vídeo ou áudio e gere automaticamente legendas VTT no idioma original.
-* Tradução em vários idiomas: traduza legendas para qualquer um dos 39 idiomas não ingleses compatíveis.
+* Tradução em vários idiomas: traduza legendas para qualquer um dos 10 idiomas diferentes do inglês compatíveis.
 * Revisão e edição no aplicativo: revise, edite e baixe arquivos VTT antes de publicar.
 * Notificações: receba notificações no aplicativo quando a geração e a tradução do VTT estiverem concluídas.
 * Publicação tranquila: as legendas finalizadas do Publish para os alunos acessarem em seu idioma escolhido.
@@ -298,7 +298,7 @@ O suporte a Faixas de texto de vídeo (VTT) multilíngues no Adobe Learning Mana
 2. Carregue o arquivo MP3 ou MP4.
 3. Na caixa de diálogo de carregamento, selecione a opção para **Gerar Conversão**.
 4. Selecione o idioma do conteúdo original (o padrão é o idioma do arquivo).
-5. Selecione idiomas de destino adicionais para tradução (até 39 compatíveis).
+5. Selecione idiomas de destino adicionais para tradução (até 10 compatíveis).
 6. Selecione [!UICONTROL Salvar]. O sistema começa a gerar e traduzir arquivos VTT.
 
 #### Monitorar progresso
@@ -323,11 +323,11 @@ O suporte a Faixas de texto de vídeo (VTT) multilíngues no Adobe Learning Mana
 
 #### Informações adicionais
 
-* Idiomas com suporte: todos os 39 idiomas diferentes do inglês com suporte do Adobe Learning Manager.
-* Notificações: os autores são notificados quando a geração e a tradução do VTT são concluídas.
+* **Idiomas com suporte:** dez idiomas diferentes do inglês (francês, alemão, espanhol, italiano, português, holandês, sueco, indonésio, norueguês Bokmal e dinamarquês) têm suporte no Adobe Learning Manager.
+* **Notificações:** os autores são notificados quando a geração e a tradução do VTT são concluídas.
 * Flexibilidade de edição: as legendas podem ser editadas no aplicativo ou offline e recarregadas.
-* Escalabilidade: projetada para necessidades de acessibilidade e localização em escala empresarial.
-* Sem necessidade de upload manual de VTT: o sistema pode gerar arquivos VTT do zero usando o vídeo/áudio carregado.
+* **Escalabilidade:** criada para necessidades de acessibilidade e localização em escala empresarial.
+* **Não é necessário o carregamento manual de VTT:** o sistema pode gerar arquivos VTT do zero usando o vídeo/áudio carregado.
 
 #### Práticas recomendadas
 
