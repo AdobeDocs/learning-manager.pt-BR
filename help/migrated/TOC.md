@@ -2,9 +2,9 @@
 user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
-source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
+source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1679'
 ht-degree: 36%
 
 ---
@@ -225,6 +225,8 @@ ht-degree: 36%
       * [Do que você precisa antes de começar](authors/feature-summary/content-composer/before-you-start.md)
       * [Defina seu curso em seus próprios documentos](authors/feature-summary/content-composer/ground-course-documents.md)
       * [O que o compositor de conteúdo não é](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * Gravar prompts efetivos {#write-effective-prompt}
+      * [Gravar prompts eficazes no Compositor de Conteúdo](authors/feature-summary/content-composer/write-effective-prompts.md)
     * Criar um curso {#create-course}
       * [Escrever um prompt](authors/feature-summary/content-composer/write-a-prompt.md)
       * [Concluir o resumo do curso](authors/feature-summary/content-composer/complete-course-brief.md)
@@ -274,7 +276,7 @@ ht-degree: 36%
   * [Configurações do perfil](learners/feature-summary/settings.md)
   * [Catálogos](learners/feature-summary/catalogs.md)
   * [Inscrição com um clique](learners/feature-summary/learner-one-click-enrollment.md)
-  * {hide-from-toc}[Widget Salvo por mim](learners/feature-summary/saved-by-me-widget.md)
+  * [Widget Salvo por mim](learners/feature-summary/saved-by-me-widget.md)
   * [Meu Aprendizado](learners/feature-summary/courses.md)
   * {hide-from-toc}[Curso Adaptável](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic Player](learners/feature-summary/fluidic-player.md)
