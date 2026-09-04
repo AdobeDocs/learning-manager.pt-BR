@@ -94,4 +94,4 @@ Verifique se o usuário tem direito de armazenamento de Creative Cloud. Caso con
 
 Se o administrador do Adobe Admin Console enfrentar um problema ao atribuir armazenamento de Creative Cloud ou ao depurar problemas relacionados ao acesso, o problema pode exigir suporte no nível de conta corporativa. Nesses casos, entre em contato com o Suporte para corporações da Adobe por meio das opções de suporte disponíveis em Admin Console.
 
-Para obter mais informações, consulte [Opções de suporte para Adobe corporativos](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)
+Para obter mais informações, consulte [Opções de suporte para Adobe corporativos](https://helpx.adobe.com/br/business/enterprise/get-help/support-options/support-for-enterprise.html)
