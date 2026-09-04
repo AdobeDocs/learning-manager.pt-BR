@@ -3,9 +3,9 @@ description: Obtenha respostas rápidas e precisas do seu conteúdo de aprendiza
 jcr-language: en_us
 title: Assistente do AI para alunos no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
+source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
 workflow-type: tm+mt
-source-wordcount: '3167'
+source-wordcount: '3236'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ o Adobe processa com segurança o seu conteúdo de aprendizado usando serviços 
 
 ### Limitações do catálogo e da fonte de conteúdo
 
-O Assistente de IA usa somente conteúdo de catálogos **internos** explicitamente configurados por administradores.
+O Assistente do AI usa somente conteúdo de catálogos internos, catálogos externos e bibliotecas de conteúdo de terceiros. As respostas às consultas dos alunos são derivadas apenas dos catálogos aos quais eles têm acesso.
 
 As seguintes fontes de conteúdo não são suportadas na versão atual:
 
@@ -152,7 +152,7 @@ Cada resposta do Assistente de IA inclui citações vinculadas diretamente ao cu
 - Verifique as informações e explore o contexto adicional a partir da fonte oficial.
 
 > **IMPORTANTE**
-> O Assistente de IA fornece respostas com base no conteúdo habilitado pelo administrador. Se você não tiver acesso a um item referenciado, verá uma mensagem “não suportado” ao tentar abri-lo.
+> O Assistente do AI fornece respostas com base no conteúdo ativado pelo administrador. Se você não tiver acesso a um item referenciado, verá uma mensagem “não suportado” ao tentar abri-lo.
 
 
 ## Prompts internos
@@ -331,7 +331,7 @@ Entenda como o Assistente de aprendizado do Adobe Learning Manager pode responde
 
 ### Como o Learning Assistant usa o Experience League
 
-O Assistente de aprendizado do Adobe Learning Manager pode fornecer respostas do [Adobe Experience League](/help/migrated/user-guide.md), da ajuda oficial do Adobe e do site de documentação. Quando um aluno faz uma pergunta sobre procedimentos ou instruções, o Learning Assistant pode recuperar uma resposta relevante e incluir um link para o artigo de Experience League completo.
+O Assistente de aprendizado do Adobe Learning Manager pode fornecer respostas do [Adobe Experience League](/help/migrated/user-guide.md), da ajuda oficial do Adobe e do site de documentação. Quando um aluno faz uma pergunta processual ou de instruções, o Learning Assistant pode recuperar uma resposta relevante e incluir um link para o artigo de Experience League completo.
 
 ### Quais tipos de perguntas o Assistente de aprendizado pode responder
 
@@ -380,7 +380,7 @@ Para que o Assistente de aprendizado consulte o conteúdo de aprendizado Go1 ou 
 ## Solução de problemas do Assistente de IA
 
 > **OBSERVAÇÃO**
-> Após configurar um novo catálogo, aguarde de de 4 a 5 horas para que o conteúdo seja indexado e fique disponível para respostas do Assistente do AI.
+> Após configurar um novo catálogo, aguarde de 4 a 5 horas para que o conteúdo seja indexado e fique disponível para respostas do Assistente do AI.
 
 ### Sem acesso ao conteúdo
 
