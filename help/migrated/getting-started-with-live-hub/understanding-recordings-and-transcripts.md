@@ -1,9 +1,9 @@
 ---
 title: Entenda gravações e transcrições no Live Hub
 description: Saiba como as gravações de sessão do Live Hub, transcrições geradas por IA, tópicos e resumos ajudam os professores e alunos a estenderem o aprendizado para além da sessão ao vivo.
-source-git-commit: 83b1509610f1923424db1797c6e85d1f32422ce7
+source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,20 @@ ht-degree: 0%
 As gravações de sessão no Live Hub permitem que os alunos revisitem as sessões e os professores para estender o aprendizado para além da sessão ao vivo. Cada gravação captura a experiência principal da sala de aula e a aprimora com recursos viabilizados por IA para oferecer suporte à navegação fácil e à descoberta de conteúdo.
 
 Depois que uma sessão termina, a gravação é processada automaticamente e disponibilizada na página do curso, geralmente em alguns minutos. Além do vídeo, o sistema gera tópicos, resumos e transcrições baseados em IA, permitindo que os alunos localizem e revisem rapidamente seções relevantes sem assistir à gravação inteira.
+
+## Navegação baseada em tópicos em gravações
+
+O Live Hub organiza gravações por tópico em vez de capítulos fixos baseados em tempo. Após o término da sessão, o Agente de gravação analisa a transcrição e identifica os tópicos com base no significado, mesmo quando ocorrem discussões sobre o mesmo assunto em pontos diferentes durante a sessão.
+
+Os tópicos são gerados somente quando o **Gerador de Tópicos para o agente de Gravação** está habilitado para sua conta.Exiba [Habilitar o Live Hub](../administrators/feature-summary/enable-live-hub.md) para obter mais informações.
+
+Por exemplo, se um tópico for introduzido no início de uma sessão, revisitado durante uma discussão e mencionado novamente durante uma sessão de perguntas e respostas, o Live Hub reconhecerá essas referências como parte do mesmo assunto e as agrupará em um único tópico. Para cada tópico detectado, o Live Hub gera:
+
+* Um título
+* Uma breve descrição
+* Detalhes adicionais
+
+Essas informações ajudam os alunos a determinar rapidamente se um tópico é relevante antes de reproduzir a gravação.
 
 ## Principais benefícios
 

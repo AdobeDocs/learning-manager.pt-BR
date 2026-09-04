@@ -1,10 +1,10 @@
 ---
 title: Ativar o Live Hub (Beta) no Adobe Learning Manager
 description: Saiba como os administradores ativam o Live Hub para uma conta, definem-no como o provedor de sala de aula virtual padrão e ativam os assistentes do Live Hub viabilizados por IA.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 4%
+source-wordcount: '510'
+ht-degree: 0%
 
 ---
 
@@ -45,15 +45,15 @@ Para ativar o Live Hub:
 
 1. Habilite os assistentes dos agentes do Live Hub:
 
-   1. Assistente de enquetes
+   1. **Assistente de pesquisa**: gera pesquisas com base no conteúdo do curso e na transcrição da sessão ao vivo, criando quebra-gelos ou verificações de conhecimento que estão prontas para serem revisadas e iniciadas com um clique. Exiba [Criar e iniciar uma pesquisa](../../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-using-ai) para obter mais informações.
 
-   1. Assistente de perguntas e respostas
+   1. **Assistente de perguntas e respostas**: detecta perguntas dos participantes no bate-papo da sessão e esboça respostas com base no conteúdo carregado e na transcrição da sessão para que os professores revisem, refinem e compartilhem. Exibir [Usar o painel de Bate-papo como professor](../../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) para obter mais informações.
 
-   1. Assistente de monitoramento de grupos de discussão
+   1. **Assistente de Monitoramento de Sessão de Grupo**: lê a transcrição de cada sala de sessão de grupo em relação ao objetivo do professor, publica um cartão de status a cada poucos minutos e fornece resumos de discussões por sala, além de uma única síntese entre salas de temas, decisões e lacunas para um resumo instantâneo. Exiba [Criar e gerenciar sessões de grupo](../../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#view-ai-generated-summaries-of-breakout-rooms) para obter mais informações.
 
-   1. Gerador de tópicos para gravações
+   1. **Gerador de tópicos para gravações**: segmente automaticamente gravações de sessão em tópicos nomeados com carimbos de data e hora e anotações estruturadas, para que um participante possa ir direto para o que precisa ou aprender com as anotações sem assistir à gravação completa. Exiba [Noções básicas sobre gravações e transcrições](../../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording) para obter mais informações.
 
-   1. Assistente de busca para professores
+   1. **Assistente de Localizador de Instrutor**: recomenda instrutores para uma sessão ponderando habilidades, disponibilidade, utilização, horas de instrução preferenciais e outros critérios. Exiba [Criar uma sessão do Live Hub](../../getting-started-with-live-hub/create-a-live-hub-session.md#add-instructors-using-instructor-finder) para obter mais informações.
 
 >[!NOTE]
 >

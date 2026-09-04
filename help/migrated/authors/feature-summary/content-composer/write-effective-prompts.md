@@ -3,9 +3,9 @@ description: O prompt é a entrada mais importante no Compositor de conteúdo. U
 jcr-language: en_us
 title: Gravar prompts eficazes no Compositor de Conteúdo
 hide: true
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: fad98839f06f2e9cea2e78621bbb7e2e52444e9e
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -21,21 +21,21 @@ O Compositor de conteúdo é conversacional por toda parte. A qualidade do que e
 
 O prompt de abertura é o seu ponto de partida. Não precisa ser perfeito. O Compositor de conteúdo lê seu prompt e o usa para abrir uma conversa. Até mesmo um prompt áspero faz com que o processo se mova; o assistente fará perguntas de acompanhamento no estágio Breve para preencher o que está faltando.
 
-Dito isso, um prompt mais específico significa que a IA pré-preenche o Resumo com mais precisão, reduzindo a oscilação antes de gerar o outline. Se você tiver uma ideia clara do público, dos tópicos e do objetivo, coloque-a no prompt.
-
-Um comando vago produz um resumo vago. Um resumo vago produz um contorno genérico. Um contorno genérico produz um curso que precisa de edição significativa. A especificidade no estágio de solicitação segue adiante em todas as etapas subsequentes.
+Dito isso, um prompt mais específico significa que a IA pré-preenche o Resumo com mais precisão, reduzindo a oscilação antes de gerar o outline. Se você tiver uma ideia clara do público, título e objetivo, coloque-a no prompt.
 
 ### O que o Content Composer espera
 
-O compositor de conteúdo espera o seguinte em uma ou duas frases:
+O compositor de conteúdo espera o seguinte:
 
-- **Quem** são os alunos? Nomeie sua função e nível de experiência.
-  - **O que** o curso cobrirá? Descreva 2 a 3 áreas de assunto específicas em vez de um domínio amplo. Por exemplo, “reconhecimento de phishing, higiene de senha e configuração de MFA” é mais útil do que “segurança de TI”.
-- **Qual é o objetivo do aprendizado?** Descreva o resultado ou a alteração de comportamento que você deseja que os alunos realizem após concluir o curso.
+- **Sobre o que** é o curso? Descreva a área do assunto em uma ou duas frases. Esse se torna o título do curso.
+- **Quem** são os alunos? Nomeie sua função e nível de experiência. Isso se torna o perfil do aluno.
+- **Qual é o objetivo do aprendizado?** Descreva o resultado ou a alteração de comportamento que você deseja que os alunos realizem após concluir o curso. Isso se torna o objetivo de aprendizado no Resumo.
 
 ### Anatomia de um prompt efetivo
 
-**[Nível de audiência + experiência]** + **[2-3 tópicos específicos]** + **[objetivo de aprendizado]**
+**[Alunos + nível de experiência]** + **[um título específico]** + **[objetivo de aprendizado]**
+
+Um prompt eficaz faz três coisas: descreve o tema do curso, para quem ele serve e o que os alunos devem ser capazes de fazer depois de concluí-lo.
 
 **Exemplo**:
 
@@ -43,29 +43,28 @@ Quero criar um curso para novos representantes de vendas que abranja nossos tipo
 
 Quebrando isso:
 
-- **Público-alvo:** novos representantes de vendas
-
-- **Tópicos:** camadas de preços corporativos, fluxo de trabalho de aprovação de descontos, três objeções comuns
-  - **Objetivo de aprendizado**: lidar com as três objeções mais comuns do cliente de maneira confidencial - um resultado comportamental mensurável, não um tópico a ser abordado
+- **Cargo:** um curso sobre preços corporativos, aprovações de descontos e como lidar com objeções de clientes para novos representantes de vendas
+- **Aluno:** novos representantes de vendas nos primeiros 90 dias, não familiarizados com as estruturas de preços corporativos
+- **Objetivo:** trate as três objeções mais comuns do cliente com segurança usando a estrutura de mensagens aprovada
 
 Depois de selecionar **Começar**, o Compositor de Conteúdo abre a etapa **Resumo**. Revise os campos pré-preenchidos, o título, o perfil do aluno e o objetivo que a IA gerou a partir do seu prompt e refine tudo o que não corresponde à sua intenção antes de gerar a estrutura de tópicos.
 
 ### O que fazer e o que não fazer de um aviso eficaz
 
-| **Incluir** | **Evitar** |
-|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| Uma função específica do público-alvo (”novos representantes de vendas”, “gerentes de linha de frente”) | Audiências vagas (”toda a equipe”, “todos”, “usuários”) |
-| 2-3 áreas temáticas concretas | Mais de 6 tópicos em um prompt - eles produzem contornos sobrecarregados; divida em cursos separados |
-| Um sinal de escopo - duração, profundidade ou resultado do aluno | Objetivos genéricos (”ensinar tudo sobre X”, “cobrir todos os aspectos de”) |
-| Contexto que molda o tom ou a profundidade (”para conformidade”, “para um público não técnico”, “com base em cenário”) | Fazer perguntas sobre IA. O prompt é breve, não uma conversa |
-| O que os alunos poderão fazer após o curso | O que o curso conterá (deixe a estrutura para o estágio de estrutura de tópicos) |
+| Incluir | Evitar |
+|---|---|
+| Um título claro do curso ou área de assunto | Assuntos vagos (”algo sobre segurança”, “uma formação geral”) |
+| A função ou o perfil demográfico do aluno (”novos representantes de vendas”, “equipe de depósito de linha de frente”) | Público-alvo amplo (”toda a equipe”, “todos”, “usuários”) |
+| O nível de experiência do aluno (”início de carreira”, “familiarizado com X, mas não com Y”) | Supondo que a IA conheça os antecedentes do seu público |
+| O que os alunos atualmente lutam ou não sabem | Ignorando lacunas de aprendizado. A IA os usa para moldar vocabulário e cenários |
+| Um objetivo de aprendizado claro: o que os alunos poderão fazer após o curso | Objetivos genéricos (”ensinar tudo sobre X”, “cobrir todos os aspectos de”) |
 
 ### Prompts iniciais por tipo de curso
 
 | **Tipo de curso** | **Prompt inicial** |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Treinamento de conformidade** | “Quero criar um curso para todos os funcionários sobre o tratamento de dados do GDPR, abrangendo o que conta como dados pessoais, como armazená-los e compartilhá-los corretamente e o que fazer se ocorrer uma violação.” |
-| **Integração** | “Desejo criar um módulo de integração para o novo \[função\] que abrange \[tópico 1\], \[tópico 2\] e \[tópico 3\]. |
+| **Integração** | “Quero criar um módulo de integração para novos agentes de suporte ao cliente que abordem como registrar um tíquete, escalar um problema e fechar um caso em nosso sistema de helpdesk.” |
 | **Habilidades técnicas** | “Quero criar um curso para engenheiros de software júnior sobre práticas seguras de codificação, como prevenção de injeção de SQL, validação de entrada e como ler um relatório SAST.” |
 | **Habilidades pessoais** | “Quero criar um curso para os gerentes de varejo da linha de frente sobre como dar um feedback construtivo, como cobrir o modelo da SBI, como se preparar para uma conversa de feedback e como fazer o acompanhamento.” |
 | **Política e procedimento** | “Quero criar um curso para a equipe do depósito sobre procedimentos de manuseio manual, como técnica de elevação correta, quando usar equipamentos e como relatar um quase erro.” |
@@ -83,11 +82,9 @@ Este é um estágio de conversação. A qualidade das respostas às perguntas da
 
 ### Título do curso
 
-A IA sugere duas opções de título. Selecione a opção ideal ou digite a sua própria. Se nenhum dos dois estiver certo, descreva a lacuna:
+A IA pré-preenche o título do curso com base no seu prompt. Revise-o e selecione-o se encaixar, digite seu próprio ou descreva o que deseja:
 
 “Nem. O curso é especificamente sobre o fluxo de trabalho de aprovação, não sobre preços gerais.”
-
-Um bom título é voltado para o aluno. Ele descreve o que o aluno poderá fazer, não o que o curso abrange.
 
 ### Perfil do aluno
 
@@ -115,28 +112,30 @@ Escreva o objetivo como um comportamento começando com um verbo de ação:
 >
 >**Antes de gerar a estrutura de tópicos:** ela é criada inteiramente a partir do Resumo, não do prompt original. Antes de selecionar **Gerar estrutura de tópicos**, confirme se o título é voltado para o aluno, se o perfil do aluno nomeia uma função e um nível de experiência específicos e se o objetivo de aprendizado descreve um comportamento mensurável no trabalho. Um resumo bem definido produz um contorno bem estruturado. Se algum campo ainda parecer genérico, refine-o agora.  Essa opção salva uma edição significativa posteriormente.
 
+Você está sempre no controle. O compositor de conteúdo fará perguntas de acompanhamento para ajudar a refinar o Resumo, mas você decide o que vai em cada campo. Um resumo bem definido produz um contorno bem estruturado. Quanto mais específicas forem suas entradas, menos edição será necessária posteriormente.
+
 ### Assina que o resumo precisa de mais trabalho
 
 - O perfil do aluno diz “funcionários que desejam aprender sobre X” em vez de nomear uma função específica e nível de experiência
 - O objetivo de aprendizado descreve uma área do assunto em vez de um comportamento mensurável no trabalho
-- O título é um rótulo de tópico (”Segurança de TI”) em vez de um resultado voltado para o aluno (”Identificar e responder a tentativas de phishing”)
+- O título é vago (”Segurança de TI”) e não um resultado para o aluno (”Identificar e responder a tentativas de phishing”)
 
 ## Estágio 3: contorno - edite por meio da conversa
 
 Depois de confirmar o Resumo, o Compositor de conteúdo gera uma estrutura de tópicos e lições. Você o revisa e solicita alterações por meio do painel de bate-papo antes de gerar o curso completo.
 
-A edição de contorno é totalmente conversacional na versão atual. Não é possível selecionar uma lição ou tópico na tela para renomeá-lo ou reordená-lo. Todas as alterações são feitas digitando solicitações em linguagem simples.
+A edição de contorno é totalmente conversacional na versão atual. Não é possível selecionar uma lição ou título na tela para renomeá-lo ou reordená-lo. Todas as alterações são feitas digitando solicitações em linguagem simples.
 
-Esta é também a fase mais eficiente para a realização de mudanças estruturais. A edição do contorno leva segundos. Reestruturar um curso gerado leva significativamente mais tempo.
+Esta é também a etapa mais eficaz para realizar mudanças estruturais. A edição do contorno leva segundos. Reestruturar um curso gerado leva significativamente mais tempo.
 
 ### Como formatar solicitações de edição de estrutura de tópicos
 
-Seja direto e específico. Nomeie a lição ou o tópico pelo título atual, descreva a alteração desejada e, se desejar, explique o porquê.
+Seja direto e específico. Nomeie a lição pelo título atual, descreva a alteração desejada e, opcionalmente, explique o porquê.
 
 **Renomear:**
 
 - “Renomeie a Lição 1 para &#39;Como os Ataques de Phishing Funcionam&#39;.”
-- “Renomeie o tópico 2.3 para &#39;Caminhos e linhas do tempo de escalonamento&#39;.”
+- “Renomeie o título 2.3 para &#39;Caminhos de escalonamento e linhas do tempo&#39;.”
 
 **Adicionar:**
 
@@ -169,16 +168,17 @@ Seja direto e específico. Nomeie a lição ou o tópico pelo título atual, des
 ### O que o estágio de estrutura de tópicos não pode fazer
 
 - A hierarquia é definida como Lições > Tópicos. Não é possível criar subtópicos ou estruturas de três níveis.
-- Não é possível definir objetivos individuais de lição nesse estágio — o objetivo geral de aprendizado do Resumo aplica-se ao curso completo.
 - Não é possível adicionar componentes ou mídia neste estágio. Elas são adicionadas no Editor de curso.
 
-### Quando gerar novamente e quando editar
+<!--
+### When to regenerate versus when to edit
 
-| Usar edição de conversação quando... | Gerar novamente quando... |
+| Use conversational editing when... | Regenerate when... |
 |---|---|
-| A estrutura geral está certa, mas os nomes ou tópicos individuais precisam ser ajustados | A estrutura geral não corresponde à sua intenção |
-| Você deseja adicionar ou remover itens específicos | O Resumo foi refinado significativamente após a geração do primeiro esboço |
-| Uma lição precisa ser dividida ou mesclada | A estrutura parece genérica e não tem o contexto específico da sua organização |
+| The overall structure is right but individual names or topics need adjusting | The overall structure doesn't match your intent at all |
+| You want to add or remove specific items | The Brief was refined significantly after the first outline was generated |
+| One lesson needs splitting or merging | The outline feels generic and lacks your organisation's specific context |
+-->
 
 ## Etapa 4: curso - refinar conteúdo por meio do assistente
 
