@@ -81,7 +81,7 @@ Certifique-se de que o valor da chave **moduleOrderInCourse** de um curso comece
 
 Além disso, verifique se duas versões de Atividade, Sala de aula e Sala de aula virtual não estão vinculadas ao curso existente.
 
-### Receber uma mensagem como &amp;quot;O módulo já está vinculado a um curso existente&amp;quot; {#receivingamessageasmoduleisalreadylinkedwithanexistingcourse}
+### Receber uma mensagem como &quot;O módulo já está vinculado a um curso existente&quot; {#receivingamessageasmoduleisalreadylinkedwithanexistingcourse}
 
 O Learning Manager não permite vincular o módulo Atividade/Sala de aula virtual/Sala de aula a mais de um curso. Verifique se o módulo não está vinculado a nenhum outro curso.
 
