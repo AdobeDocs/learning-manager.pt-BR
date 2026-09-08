@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 71%
+source-wordcount: '858'
+ht-degree: 81%
 
 ---
 
@@ -29,13 +29,13 @@ Verifique se suas contas foram criadas nos serviços FTP e Box. Ao criar um proj
 
 * Certifique-se de que os nomes de arquivo dos arquivos CSV estejam de acordo com os nomes de especificação do CSV:
 
-   * course.csv
-   * course_instance.csv
-   * course_module.csv
-   * enrollment.csv
-   * module.csv
-   * module_version.csv
-   * user_course_grade.csv
+  * course.csv
+  * course_instance.csv
+  * course_module.csv
+  * enrollment.csv
+  * module.csv
+  * module_version.csv
+  * user_course_grade.csv
 
 ### As falhas são mostradas para tarefas com registros de erro {#failuresareshownforjobswitherrorrecords}
 
@@ -77,11 +77,11 @@ Verifique se a ID de e-mail fornecida como parte dos campos userId e assignedByU
 
 ### Os cursos aparecem em branco ou módulos incorretos são reproduzidos em um curso migrado {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Verifique se o valor da chave **moduleOrderInCourse** de um curso começa com **0** e está em ordem contínua. A ordem em termos de courseModuleType deve ser PRETEST, TESTOUT, CONTENT
+Certifique-se de que o valor da chave **moduleOrderInCourse** de um curso comece com **0** e está em ordem contínua. A ordem em termos de courseModuleType deve ser PRETEST, TESTOUT, CONTENT
 
 Além disso, verifique se duas versões de Atividade, Sala de aula e Sala de aula virtual não estão vinculadas ao curso existente.
 
-### Receber uma mensagem como &quot;O módulo já está vinculado a um curso existente&quot; {#receivingamessageasmoduleisalreadylinkedwithanexistingcourse}
+### Receber uma mensagem como &amp;quot;O módulo já está vinculado a um curso existente&amp;quot; {#receivingamessageasmoduleisalreadylinkedwithanexistingcourse}
 
 O Learning Manager não permite vincular o módulo Atividade/Sala de aula virtual/Sala de aula a mais de um curso. Verifique se o módulo não está vinculado a nenhum outro curso.
 
