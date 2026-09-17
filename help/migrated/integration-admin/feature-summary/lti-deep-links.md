@@ -3,13 +3,11 @@ description: Saiba como integrar o conector de aprendizado do LinkedIn ao Adobe 
 jcr-language: en_us
 title: Incorporar links profundos em uma ferramenta de LTI do ALM
 contentowner: mmanuel
-source-git-commit: ce25b5982c86695352029e22e427b4e85274a1cb
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 
 # Deep Linking de LTI no Adobe Learning Manager
 
@@ -87,20 +85,24 @@ Intercâmbios de ligação profunda entre o ALM e a plataforma de LTI:
 
 ## Criar um deep link
 
+>[!IMPORTANT]
+>
+>As etapas mencionadas na seção abaixo e na seção para autores devem ser executadas na plataforma que realiza os cursos, não no lado do ALM.
+
 ### Pré-requisito
 
 1. Você deve estar conectado como um administrador de integração.
-2. Ao configurar a integração de LTI, marque a caixa de seleção Suporta deep linking.
+2. Ao configurar a integração de LTI, marque a caixa de seleção **Oferece suporte à deep linking**. Saiba como configurar a [integração de LTI](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md).
 3. Forneça o URL no campo para levar o usuário ou autor à seleção.
-4. Selecione Salvar alterações.
+4. Selecione **Salvar alterações**.
 
    O mesmo URL de inicialização é reutilizado para simplificar a configuração e o uso.
 
-   O comportamento é determinado pelo tipo de mensagem de LTI. Quando o tipo de mensagem é `content_consumption`, o usuário é direcionado para o aluno do curso. Quando o tipo de mensagem é `content_selection`, o usuário é roteado pelo fluxo de vínculo profundo, no qual o autor pode selecionar o conteúdo desejado diretamente sem copiar manualmente os identificadores específicos do curso.
+   O comportamento é determinado pelo tipo de mensagem de LTI. Quando o tipo de mensagem é `content_consumption`, o usuário é direcionado para o aluno do curso. Quando o tipo de mensagem é `content_selection`, o usuário é encaminhado pelo fluxo de vínculo profundo, no qual o autor pode selecionar o conteúdo desejado diretamente sem copiar manualmente os identificadores específicos do curso.
 
    Depois de salvar as alterações, selecione a guia **Selecionar Conteúdo**. (A guia **Selecionar Conteúdo** só fica ativa depois que esta caixa de seleção é selecionada.)
 
-**A seção a seguir é para autores.**
+**Para os autores**
 
 Como autor, você pode selecionar conteúdo na janela **Selecionar Conteúdo**. A janela **Selecionar conteúdo** exibe **Catálogo**, **Contagem de cursos** e **Data de exportação**.
 
