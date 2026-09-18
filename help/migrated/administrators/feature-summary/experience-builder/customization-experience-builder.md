@@ -2,14 +2,12 @@
 title: Personalizar o Experience Builder
 jcr-language: en_us
 description: Saiba como o Experience Builder no Adobe Learning Manager permite uma personalização profunda das experiências do aluno.
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: d8f36868-8e6d-4420-9fab-fadaf2fe31ef
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '963'
 ht-degree: 1%
-
 ---
-
-
 # Personalizar o Experience Builder
 
 ## Personalizar um rodapé
@@ -61,19 +59,19 @@ Para personalizar os quadros do curso:
 
 4. Selecione as opções abaixo para mostrar ou ocultar detalhes relacionados às informações do curso:
 
-   a. **[!UICONTROL Formato]**: mesclado/ritmo próprio/sala de aula/sala de aula virtual: tipo do objeto de aprendizado.
-b. **[!UICONTROL Duração]**: duração do objeto de aprendizado.
-c. **[!UICONTROL Habilidade/Produto]**: exibir a habilidade principal ou o produto coberto pelo curso.
-d. **[!UICONTROL Classificação]**: exibe a classificação do aluno do curso.
-e. **[!UICONTROL Nome do autor]**: exibe o nome do autor do curso
-f. **[!UICONTROL Descrição (aparece ao passar o mouse)]**: exibe um breve resumo do curso quando os alunos passam o mouse sobre o cartão.
-g. **[!UICONTROL Data de publicação/data de vencimento (aparece em foco)]**: exibe quando o curso foi publicado ou o prazo de conclusão.
+   a) **[!UICONTROL Formato]**: mesclado/ritmo próprio/sala de aula/sala de aula virtual: tipo do objeto de aprendizado.
+   b) **[!UICONTROL Duração]**: duração do objeto de aprendizado.
+   c) **[!UICONTROL Habilidade/Produto]**: exibir a habilidade principal ou o produto coberto pelo curso.
+   d) **[!UICONTROL Classificação]**: exibe a classificação do aluno do curso.
+   e) **[!UICONTROL Nome do autor]**: exibe o nome do autor do curso
+   f) **[!UICONTROL Descrição (aparece ao passar o mouse)]**: exibe um breve resumo do curso quando os alunos passam o mouse sobre o cartão.
+   g) **[!UICONTROL Data de publicação/data de vencimento (aparece em foco)]**: exibe quando o curso foi publicado ou o prazo de conclusão.
 
 5. Selecione as opções abaixo para mostrar ou ocultar detalhes relacionados às ações do curso:
 
-   a. **[!UICONTROL Botão Adicionar à Lista de Aprendizado]**: permite que os alunos salvem o curso em sua lista de aprendizado pessoal para referência futura.
-b. **[!UICONTROL Botão Salvar]**: salva todas as alterações feitas nas configurações ou preferências do curso.
-c. **[!UICONTROL Botão Inscrever/Continuar]**: permite que os alunos se inscrevam em um novo curso ou continuem um curso que já iniciaram. Ocultar esta opção também removerá as ações Não recomendar e baixar que aparecem ao lado dela.
+   a) **[!UICONTROL Botão Adicionar à lista de aprendizado]**: permite que os alunos salvem o curso na sua lista de aprendizado pessoal para referência futura.
+   b) **[!UICONTROL Botão Salvar]**: salva todas as alterações feitas nas configurações ou preferências do curso.
+   c) **[!UICONTROL Botão Inscrever/Continuar]**: permite que os alunos se inscrevam em um novo curso ou continuem um curso que já iniciaram. Ocultar esta opção também removerá as ações Não recomendar e baixar que aparecem ao lado dela.
 
    ![](assets/select-details-to-show.png)
    _Tela de configuração de bloco do curso no Adobe Learning Manager, onde os administradores selecionam as informações e ações a serem exibidas para os alunos_
@@ -372,5 +370,3 @@ Estas são algumas classes CSS predefinidas disponíveis para widgets.
 | Caixa de Conteúdo | alm-custom-content-box-container |
 | Gamificação | alm-leaderboard-container |
 | Aprendizado social | alm-social-learning-container |
-
-

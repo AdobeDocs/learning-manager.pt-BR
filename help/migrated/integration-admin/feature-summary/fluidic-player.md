@@ -4,22 +4,19 @@ jcr-language: en_us
 title: Fluidic player incorporável
 contentowner: dvenkate
 preview: true
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 31%
-
+source-wordcount: '1693'
+ht-degree: 32%
 ---
-
-
-
 # Fluidic player incorporável
 
 Leia este artigo para saber como incorporar o fluidic player em um aplicativo personalizado.
 
 Como corporação, agora você pode fornecer uma experiência personalizada para seus alunos, mesmo fora do Learning Manager. Usando a API pública, você pode obter todas as informações relacionadas aos objetos de aprendizado, às inscrições dos alunos e ao progresso do aprendizado e exibi-las no seu site. Mais importante ainda: você pode até mesmo incorporar o fluidic player do Learning Manager em seu site, para que o aluno possa consumir o conteúdo diretamente em seu site. O Fluidic Player lhe dá o poder de reproduzir qualquer conteúdo compatível com o Learning Manager. Quando incorporado em seu próprio site, ele tem exatamente os mesmos recursos que quando usado no Learning Manager.
 
-**Reproduzir qualquer conteúdo de e-learning[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Reproduzir qualquer conteúdo de e-learning[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 O Fluidic Player reproduz praticamente qualquer tipo de conteúdo de e-learning da mesma maneira consistente e intuitiva, sem exigir plug-ins ou downloads. O aluno pode iniciar o conteúdo e, independentemente do tipo de arquivo de conteúdo, ele começa a ser reproduzido.
 
@@ -78,8 +75,8 @@ client_id= <application_id>
 Aqui, **[!UICONTROL id do cliente]** é a ID do aplicativo obtida na etapa 1.
 **[!UICONTROL redirect_url]** é o redirect_url definido na etapa 1.
 **[!UICONTROL estado]** é qualquer dado fictício com base no qual precisamos filtrar a URL de redirecionamento para obter o código OAuth. Escopo é o escopo do aluno definido na etapa 1.
-**[!UICONTROL response_typ]**&#x200B;e é sempre “CODE”.\
-**[!UICONTROL conta]**&#x200B;é um campo opcional\
+**[!UICONTROL response_typ]**e é sempre “CODE”.\
+**[!UICONTROL conta]**é um campo opcional\
 **[!UICONTROL email]** é um campo opcional\
 &#42; Se a ID da conta e o email forem fornecidos, a URL acima permitirá que o usuário faça logon na mesma conta. Este exemplo de ponto de extremidade é descrito no arquivo “index.html” no aplicativo de amostra.
 
@@ -179,7 +176,7 @@ Esse é um esforço que precisa ser realizado por alguém de sua equipe de TI ou
 
 1. Use o token de acesso como um parâmetro obrigatório.
 
-   * access_token : Este é o parâmetro de segurança, use o oauth da API pública   token de acesso
+   * access_token : Este é o parâmetro de segurança, use o token de acesso oauth da API pública
 
    Você pode obter seu token configurando seu fluidic player incorporável no administrador de integração. Você pode obter seu token de autenticação, que pode ser usado como seu token de acesso.
 
@@ -187,7 +184,7 @@ Esse é um esforço que precisa ser realizado por alguém de sua equipe de TI ou
 
    Aqui, lo_id será a ID do curso, do programa de aprendizado, da certificação e da ajuda de tarefa.
 
-   Exemplos de lo_id - curso:21324, learningProgram:2143, certificação:23432, jobAid:237
+   Exemplos de lo_id - course:21324, learningProgram:2143, certificação:23432, jobAid:237
 
 1. Faça chamadas à API do Learning Manager para recuperar os parâmetros mencionados acima.
 
@@ -224,7 +221,7 @@ Qualquer um desses parâmetros pode ser usado para iniciar um curso:
 
 Parâmetro obrigatório:
 
-* access_token : Este é o parâmetro de segurança, use o oauth da API pública   token de acesso
+* access_token : Este é o parâmetro de segurança, use o token de acesso oauth da API pública
 
 Faça chamadas à API do Learning Manager para recuperar os parâmetros mencionados acima. Essas chamadas de API devem ser feitas pelo aplicativo que sua equipe de TI/consultor gravaria e hospedaria no seu site.
 
@@ -235,5 +232,3 @@ API V1 do Learning Manager - [https://learningmanager.adobe.com/docs/primeapi/v1
 
 
 API V2 do Learning Manager - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
-

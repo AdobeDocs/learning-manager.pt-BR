@@ -2,14 +2,12 @@
 description: Saiba mais sobre como as Configurações de integração conectam o Adobe Learning Manager a soluções de terceiros
 jcr-language: en_us
 title: Configurações de integração no Adobe Learning Manager
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 4%
-
 ---
-
-
 # Configurações de integração no Adobe Learning Manager
 
 ## Métodos de login
@@ -84,8 +82,3 @@ Consulte [Conectores no Adobe Learning Manager](/help/migrated/integration-admin
 Contas entre parceiros no Adobe Learning Manager permitem compartilhar licenças compradas e exibir relatórios entre contas associadas. Esse recurso é útil para organizações que precisam colaborar ou compartilhar recursos entre diferentes contas.
 
 Consulte [Contas entre parceiros](/help/migrated/administrators/feature-summary/peer-account.md) no Adobe Learning Manager para obter mais informações.
-
-
-
-
-

@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Exibir a resposta do aluno a um convite do calendário do Outlook no Learning Manager
 contentowner: kuppan
 preview: true
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 0df7284f-20c1-410d-b985-3d031744deaf
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 36%
-
+source-wordcount: '523'
+ht-degree: 43%
 ---
-
-
-
 # Exibir a resposta do aluno a um convite do calendário do Outlook em [!DNL Learning Manager]
 
 Saiba como um administrador e um professor podem ver a resposta de um aluno a um convite da agenda.
@@ -25,7 +22,7 @@ Se um aluno responder ao mesmo convite mais de uma vez, a resposta mais recente 
 
 ## Ativação do recurso de rastreamento da resposta de convite {#enablingtheinvitereplytrackingfeature}
 
-* Entre em contato com o suporte da Adobe Learning Manager para ativar o recurso de rastreamento da resposta de convite.
+* Entre em contato com o suporte do Adobe Learning Manager para ativar o recurso de rastreamento da resposta de convite.
 * Depois que o recurso é ativado na conta, todas as futuras sessões de sala de aula virtual/sala de aula criadas por um autor podem registrar a resposta do aluno ao convite do calendário.
 
 Se os alunos estiverem inscritos em uma sessão de sala de aula virtual/sala de aula criada antes da ativação do recurso de rastreamento da resposta de convite, as respostas do aluno ao convite de calendário não serão registradas.
@@ -34,7 +31,7 @@ Se os alunos estiverem inscritos em uma sessão de sala de aula virtual/sala de 
 
 Se uma sessão de sala de aula virtual/sala de aula tiver o recurso de rastreamento da resposta de convite ativado, o administrador poderá visualizar as respostas do aluno ao convite junto com outras permissões da seguinte maneira:
 
-1. Clique em **[!UICONTROL Curso]** no painel de navegação esquerdo e visualize o curso que foi criado após a habilitação do recurso de rastreamento da resposta de convite.
+1. Clique em **[!UICONTROL Curso]** no painel de navegação à esquerda e visualize o curso que foi criado após a ativação do recurso de rastreamento da resposta de convite.
 1. Clique em **[!UICONTROL Presença e pontuação]** no painel de navegação esquerdo.
 1. Para exibir uma tabela abaixo com os nomes dos alunos e suas respostas ao convite do calendário, selecione a **Instância** e o **[!UICONTROL Módulo]** na página Presença e Pontuação.
 1. Use o filtro **[!UICONTROL Convidar]** para exibir alunos com base nas seguintes opções: todas as respostas, aceitas, recusadas, provisórias e enviadas
@@ -64,4 +61,3 @@ Se o recurso de rastreamento da resposta de convite estiver ativado para a conta
    Para enviar e-mails para todos os alunos na tabela exibida, clique em **[!UICONTROL Ações]** > **[!UICONTROL E-mail a todos]**.
 
    ![](assets/instructor-actions1.png)
-

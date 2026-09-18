@@ -2,14 +2,12 @@
 description: Saiba como acessar, baixar e interpretar o Relatório de feedback no Adobe Learning Manager. Entenda as colunas do relatório, os tipos de pergunta, as respostas do gerente e do aluno e como os insights de feedback apoiam a avaliação e o aprimoramento contínuo do treinamento.
 jcr-language: en_us
 title: Relatório de feedback no Adobe Learning Manager
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: 6a54b5eb-f79d-406f-8125-1f18fdc0cbd3
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '916'
 ht-degree: 7%
-
 ---
-
-
 # Relatório de feedback
 
 ## Visão geral
@@ -57,7 +55,7 @@ Estas são as colunas padrão no relatório no nível de conta:
 | Tipo de feedback | Indica se o feedback é do aluno (L1) ou do gerente (L3) |
 | Nome do usuário | Nome do aluno que concluiu o treinamento |
 | E-mail do usuário | Endereço de e-mail do aluno |
-| Id do treinamento | Um identificador exclusivo gerado pelo sistema atribuído a cada Objeto de aprendizado (curso, certificação ou caminho de aprendizado) |
+| ID do treinamento | Um identificador exclusivo gerado pelo sistema atribuído a cada Objeto de aprendizado (curso, certificação ou caminho de aprendizado) |
 | Nome do Treinamento | Nome do item de aprendizado para o qual o feedback é enviado |
 | Instância do treinamento | Nome de instância do treinamento (para cursos de várias instâncias) |
 | Tipo de Treinamento | Tipo de treinamento (curso, certificação, plano de aprendizado) |
@@ -108,7 +106,7 @@ As seguintes colunas são exibidas no relatório de nível do Objeto de aprendiz
 | Coluna | Descrição |
 |---|---|
 | Aluno | Nome do aluno |
-| Email | Endereço de e-mail do aluno |
+| E-mail | Endereço de e-mail do aluno |
 | Nome do formulário de feedback | Nome do formulário de comentários |
 | Versão do feedback | Número de versão do formulário de feedback |
 | Idioma do aluno | Idioma selecionado pelo aluno |

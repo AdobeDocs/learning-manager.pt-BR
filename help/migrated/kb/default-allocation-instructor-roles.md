@@ -4,15 +4,12 @@ title: Alocação padrão de funções de professor para grupos de usuários no 
 description: Alocação padrão de funções de professor para grupos de usuários no Learning Manager
 contentowner: nluke
 preview: true
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: a2ceeae5-7ad6-4910-94b5-9ef455129566
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 48%
-
 ---
-
-
-
 # Alocação padrão de funções de professor para grupos de usuários no Learning Manager
 
 ## Problema
@@ -36,7 +33,7 @@ Crie grupos de usuários personalizados para filtrar as funções de usuário at
 
    ![](assets/instructor-disable-all.png)
 
-1. Navegue até **Usuários** > **Grupo de usuários**. Clique em **[!UICONTROL Adicionar]**.
+1. Navegue até **Usuários** > **Grupo de usuários**. Clique em **[!UICONTROL Adicionar]**
 
    ![](assets/instructor-usergroups.png)
 
