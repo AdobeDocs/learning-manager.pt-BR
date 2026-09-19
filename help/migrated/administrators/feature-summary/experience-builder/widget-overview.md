@@ -2,14 +2,12 @@
 title: Widgets no Experience Builder
 jcr-language: en_us
 description: Saiba como os widgets no Experience Builder da Adobe Learning Manager funcionam como blocos modulares e configuráveis para criar páginas de aprendizado personalizadas. Adicione, configure e organize widgets, como caixas de conteúdo, catálogos e banners, para criar experiências de marca interativas sem programação.
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 5e179d28-d89e-4524-9610-98b22934bca4
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
-
+source-wordcount: '480'
+ht-degree: 1%
 ---
-
-
 # Visão geral
 
 Os widgets são blocos de conteúdo modulares e configuráveis ou elementos funcionais no Experience Builder da Adobe Learning Manager.
@@ -51,4 +49,3 @@ Você pode reposicionar widgets na página facilmente arrastando ou soltando os 
 | [Iframe](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-iframe-widget) | Incorpora páginas da Web ou aplicativos externos na interface. | Exibir conteúdo ou ferramentas externas sem sair da plataforma. |
 | [Meu Aprendizado](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-my-learning-widget) | Exibe uma exibição personalizada dos cursos em andamento e do progresso de um aluno. | Ajude os alunos a controlar a conclusão do curso e os objetivos de aprendizado. |
 | [Aprendizado Social](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-social-learning-widget) | Fornece acesso a fóruns, discussões, grupos ou ferramentas de colaboração social. | Incentive a interação entre colegas, a colaboração e o compartilhamento de conhecimento. |
-

@@ -2,14 +2,12 @@
 description: Saiba como usar o novo suporte de carrinho no ALM para comprar várias SKUs.
 jcr-language: en_us
 title: Carrinho de vários itens no ALM
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+exl-id: 471b956b-dbeb-4e73-b009-fb217812ce12
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 0%
-
 ---
-
-
 # Carrinho de vários itens no ALM
 
 Os alunos podem adicionar vários cursos, programações de aprendizado ou certificações ao carrinho e comprá-los juntos. Eles podem usar o carrinho para comprar vários cursos, programações de aprendizado ou certificações de uma só vez. Esse recurso está disponível apenas nos aplicativos do aluno, incluindo a interface do usuário existente, a interface do novo aluno e o aplicativo imersivo móvel.

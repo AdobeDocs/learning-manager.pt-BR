@@ -2,13 +2,12 @@
 description: Saiba mais sobre as APIs não conectadas para desenvolver a interface sem periféricos.
 jcr-language: en_us
 title: APIs não conectadas
-source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
+exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 0%
-
 ---
-
 # APIs não conectadas
 
 Saiba mais sobre as APIs do Adobe Learning Manager, que fornecem dados para a experiência sem periféricos ou não conectada neste artigo.

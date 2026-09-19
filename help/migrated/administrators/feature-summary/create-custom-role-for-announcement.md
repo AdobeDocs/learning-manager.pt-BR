@@ -2,14 +2,12 @@
 title: Função personalizada com permissões de comunicado com escopo
 jcr-language: en_us
 description: Saiba como criar uma função personalizada no Adobe Learning Manager que permite comunicados apenas para catálogos e grupos de usuários selecionados.
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: e038033c-ce06-454a-922b-ba0b0c894ac0
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
-
 ---
-
-
 # Função personalizada com permissões de comunicado com escopo
 
 Os administradores podem criar funções personalizadas com permissões de comunicado restritas a catálogos e grupos de usuários específicos. Isso garante que os anúncios sejam direcionados, relevantes e visíveis apenas para os alunos desejados. Anúncios no escopo garantem que os usuários certos recebam o anúncio relevante sem enviar detalhes para outras pessoas.
@@ -63,10 +61,10 @@ Para criar um comunicado para o escopo atribuído:
    _Página Comunicados no Adobe Learning Manager, na qual os administradores podem criar e gerenciar comunicados para grupos de usuários direcionados_
 
 4. Selecione o **[!UICONTROL Tipo de Comunicado]** no menu suspenso.
-a. **[!UICONTROL Como Notificação]**
-b. **[!UICONTROL Como Manchete]**
-c. **[!UICONTROL Como Recomendação]**
-d. **[!UICONTROL Como Email]**
+a) **[!UICONTROL Como Notificação]**
+b) **[!UICONTROL Como Manchete]**
+c) **[!UICONTROL Como Recomendação]**
+d) **[!UICONTROL Como Email]**
 5. Selecione **[!UICONTROL Como Manchete]**.
 6. Selecione o idioma e faça upload de uma imagem para a manchete.
 7. Ou adicione um URL para o botão de ação.

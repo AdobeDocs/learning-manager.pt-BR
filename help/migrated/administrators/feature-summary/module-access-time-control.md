@@ -3,13 +3,12 @@ description: Defina uma janela de tempo durante a qual os alunos têm permissão
 jcr-language: en_us
 title: Controle de tempo de acesso do módulo
 contentowner: mmanuel
-source-git-commit: 6423fd5c0853705a28c6c67b6936d93e68cbca20
+exl-id: b99b1c98-57a0-4201-bf1f-f85bacb0d00e
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '603'
 ht-degree: 1%
-
 ---
-
 # Controle de tempo de acesso do módulo
 
 ## Visão geral
@@ -33,7 +32,7 @@ Isso melhora a experiência do aluno: em vez de enfrentar módulos que podem ser
 
 **Programa de habilitação baseado em coorte**: neste programa, a cada semana abre um novo módulo. O conteúdo da Semana 1 está disponível imediatamente, enquanto a Semana 2 está visível, mas não pode ser iniciada até uma data especificada. A semana 3 segue o mesmo processo de gating. Os alunos podem ver todo o caminho de aprendizado, mas o sistema controla quando eles podem realmente iniciar cada etapa.
 **Produto ou treinamento de campanha associado ao tempo**: as equipes de marketing ou de produto podem criar um módulo de treinamento que só deve ser acessado enquanto uma campanha estiver ativa ou quando uma versão específica de um produto ainda estiver disponível. Essa janela de início designada garante que os alunos não iniciem um módulo sobre uma versão de produto descontinuada após a hora de término especificada.
-**Ambientes de avaliação ou exame**: as organizações podem abrir um módulo (como um teste) para uma janela curta e bem definida (por exemplo, “você pode iniciar o exame a qualquer momento entre 9:00 e 12:00 em uma determinada data”). Os alunos não podem iniciar o exame fora dessa janela, que oferece suporte ao agendamento justo em fusos horários e coortes.
+**Ambientes de avaliação ou exame**: as organizações podem abrir um módulo (como um teste) para uma janela curta e bem definida (por exemplo, “você pode iniciar o exame a qualquer momento entre 9h e 12h em uma determinada data”). Os alunos não podem iniciar o exame fora dessa janela, que oferece suporte ao agendamento justo em fusos horários e coortes.
 
 ## Definindo tempo de acesso ao módulo
 
@@ -45,13 +44,3 @@ Isso melhora a experiência do aluno: em vez de enfrentar módulos que podem ser
 6. Selecione **Editar**. As seções relevantes relacionadas ao módulo são abertas na parte inferior da página.![alt-text](/help/migrated/administrators/feature-summary/assets/module-access-time4.png)
 7. Para cada seção, selecione uma data inicial, uma data inicial, uma data final e uma data final.
 8. Selecione **Salvar**. O ALM exibe a seguinte mensagem: “Mapeamento salvo com sucesso”.
-
-
-
-
-
-
-
-
-
-

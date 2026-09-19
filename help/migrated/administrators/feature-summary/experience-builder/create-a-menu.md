@@ -2,14 +2,12 @@
 title: Como criar e personalizar menus no Experience Builder
 description: Este guia explica como os administradores podem criar menus no Experience Builder no Adobe Learning Manager. Saiba como organizar páginas em menus, personalizar layouts de menus e controlar a visibilidade do menu para diferentes grupos de usuários.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: a9eaf86e-a4b8-4ae2-9873-ab76d8807168
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '667'
 ht-degree: 0%
-
 ---
-
-
 # Criar um menu
 
 Como administrador de uma empresa financeira com duas equipes principais: gerentes de vendas e de sucesso do cliente (CSM), você deve criar menus separados com suas respectivas páginas. Isso permite que os alunos encontrem facilmente cursos relevantes para suas funções em seus próprios menus.
@@ -87,4 +85,3 @@ _Tela de configuração de menu mostrando páginas ocultas, como Catálogo, Apre
 ## O que vem a seguir
 
 Depois de configurar páginas, widgets e menus, aprimore a experiência geral do aluno adicionando personalizações usando JavaScript e CSS.
-

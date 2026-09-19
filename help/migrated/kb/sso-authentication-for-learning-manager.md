@@ -3,15 +3,12 @@ description: Este documento ajuda a configurar a autenticação SSO para fazer l
 jcr-language: en_us
 title: Fazer logon no Learning Manager usando autenticação SSO
 contentowner: dvenkate
-source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
+exl-id: ef5ab232-0a87-4f76-8dfd-b2497f360cbe
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 70%
-
+source-wordcount: '135'
+ht-degree: 68%
 ---
-
-
-
 # Fazer logon no Learning Manager usando autenticação SSO
 
 Este documento ajuda a configurar a autenticação SSO para fazer logon na sua conta do Learning Manager.
@@ -38,4 +35,3 @@ Para configurar a autenticação SSO, execute as seguintes etapas:
    O SSO que você configura no Learning Manager deve ser suportado por SAML 2.0.
 
    Você agora pode efetuar o login no Learning Manager usando sua autenticação SSO.
-

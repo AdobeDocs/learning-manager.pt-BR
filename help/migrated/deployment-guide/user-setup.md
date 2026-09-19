@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Configurar usuários no Learning Manager
 contentowner: shhivkum
 preview: true
-source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
+exl-id: 9cf893a5-9282-40fa-a12a-1d7078f0b98a
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 70%
-
 ---
-
-
-
 # Configurar usuários no Learning Manager
 
 ## Usuários internos e externos {#internalandexternalusers}
@@ -203,4 +200,3 @@ Você também pode criar grupos personalizados com uma lista selecionada de usu�
 1. Adicione usuários ao grupo de usuários personalizado inserindo o nome de usuário ou o perfil do usuário no campo **[!UICONTROL **&#x200B; Adicionar usuários &#x200B;**.]**
 1. Para adicionar mais usuários ao grupo personalizado, clique em **[!UICONTROL **&#x200B; Adicionar Mais Usuários &#x200B;**.]**
 1. Depois de adicionar todos os usuários, clique em **[!UICONTROL Salvar]**&#x200B;para salvar o grupo de usuários personalizado.
-

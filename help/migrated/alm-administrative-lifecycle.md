@@ -2,14 +2,12 @@
 title: Ciclo de vida da conta administrativa do Adobe Learning Manager
 description: Este documento fornece orientação abrangente sobre o gerenciamento seguro de contas administrativas de nível superior no Adobe Learning Manager (ALM) para atender à conformidade com o FedRAMP e às práticas recomendadas de segurança.
 jcr-language: en-us
-source-git-commit: db3ed4dc44da75b418e923999bdf3776bf81b11f
+exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
+source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
-
 ---
-
-
 # Tipos de conta administrativa no Adobe Learning Manager
 
 ## Mapeamento de funções do ALM

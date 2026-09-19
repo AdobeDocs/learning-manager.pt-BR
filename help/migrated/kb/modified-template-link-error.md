@@ -4,15 +4,12 @@ title: Os links de e-mail acionados a partir de modelos modificados geram um err
 description: Os links de e-mail acionados a partir de modelos modificados geram um erro no Adobe Learning Manager
 contentowner: nluke
 preview: true
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: a8fa64e1-aeab-4cb5-9bb0-7cfdad0aa389
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 73%
-
+source-wordcount: '220'
+ht-degree: 78%
 ---
-
-
-
 # Os links de e-mail acionados a partir de modelos modificados geram um erro no Learning Manager
 
 ## Problema

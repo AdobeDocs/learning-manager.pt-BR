@@ -2,14 +2,12 @@
 description: Saiba mais sobre o método de login OIDC
 jcr-language: en_us
 title: Fazer logon no Adobe Learning Manager com o OpenID Connect
-source-git-commit: 7c430e3fbb2716455310f2130d73af10ce2e56c7
+exl-id: 7f85f359-0f4c-428f-a104-c4ae3071793a
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
-
 ---
-
-
 # Fazer logon no Adobe Learning Manager com OpenID Connect (OIDC)
 
 Saiba como o logon com o OpenID Connect funciona no Adobe Learning Manager para alunos, autores e administradores. Este artigo aborda a experiência, não a implementação.
@@ -31,7 +29,7 @@ As organizações geralmente escolhem o OIDC porque:
 
 * Os usuários veem a mesma experiência de identidade corporativa ou na nuvem que usam para outros aplicativos.
 * Políticas de senha, autenticação de vários fatores e ciclo de vida da conta são gerenciados no provedor de identidade, de forma consistente com outros aplicativos corporativos.
-* O OIDC segue padrões semelhantes a outros fluxos de entrada modernos da perspectiva do usuário e de TI, sem a troca de documentos mais pesada associada a algumas configurações somente de SAML.
+* O OIDC segue padrões semelhantes a outros fluxos de entrada modernos de um usuário e de uma Perspectiva de TI, sem a troca de documentos mais pesada associada a algumas configurações somente de SAML.
 
 Sua experiência ainda é: acesse o Learning Manager, faça logon no aplicativo desejado pela sua organização e acesse-a no aplicativo.
 
@@ -50,7 +48,7 @@ Se sua conta usa OIDC, iniciar o logon normalmente redireciona seu navegador par
 
 ### Fazer logon com sua organização
 
-Na página do provedor de identidade, insira suas credenciais e conclua todas as etapas adicionais necessárias à sua organização, como autenticação de vários fatores. Essa etapa acontece fora do próprio formulário de logon da Adobe Learning Manager quando OIDC é o método em uso. Do seu ponto de vista, parece que você está fazendo logon na sua conta empresarial ou de estudante. Talvez você não veja termos técnicos como *OIDC* ou *OAuth* durante esta etapa.
+Na página do provedor de identidade, insira suas credenciais e conclua todas as etapas adicionais necessárias à sua organização, como autenticação de vários fatores. Essa etapa acontece fora do próprio formulário de logon da Adobe Learning Manager quando OIDC é o método em uso. Pela sua Perspectiva, parece que você está fazendo logon na sua conta empresarial ou de estudante. Talvez você não veja termos técnicos como *OIDC* ou *OAuth* durante esta etapa.
 
 ### Voltar ao Adobe Learning Manager
 

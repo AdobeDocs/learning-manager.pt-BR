@@ -2,14 +2,12 @@
 title: Componentes principais do Experience Builder no Adobe Learning Manager
 description: Saiba mais sobre os três componentes principais do Experience Builder, incluindo menus, páginas e widgets.
 jcr-language: en-us
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: 9b1da75a-d47b-496d-9e6e-40ca27daee20
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 5%
-
 ---
-
-
 # Componentes principais do Experience Builder
 
 O Experience Builder é construído em três componentes principais: páginas, widgets e menus. Os administradores podem criar páginas personalizadas usando layouts flexíveis, adicionar conteúdo dinâmico e estático por meio de uma biblioteca de widgets e criar menus de navegação direcionados a públicos específicos.
