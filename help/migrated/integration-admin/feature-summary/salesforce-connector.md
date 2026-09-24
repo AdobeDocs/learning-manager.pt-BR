@@ -3,13 +3,11 @@ description: Saiba como integrar o conector do Salesforce com o Adobe Learning M
 jcr-language: en_us
 title: Conector do Salesforce
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 5%
-
+ht-degree: 4%
 ---
-
 
 # Conector do Salesforce para Adobe Learning Manager
 
@@ -164,9 +162,9 @@ Antes de exportar registros de aprendizado do Adobe Learning Manager, crie objet
 
 O Adobe fornece pacotes pré-criados que criam os objetos personalizados necessários:
 
-- [Pacote 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ): objetos e campos de aprendizado principais
-- [Pacote 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT): objetos de análise de aprendizado estendidos
-- [Pacote 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi): objetos adicionais de relatório e integração
+- [Pacote 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS): objetos e campos de aprendizado principais
+- [Pacote 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX): objetos de análise de aprendizado estendidos
+- [Pacote 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic): objetos adicionais de relatório e integração
 
 >[!IMPORTANT]
 >
@@ -363,7 +361,7 @@ Você pode usar perfis existentes ou criar perfis personalizados para usuários 
 
 **Criar perfis personalizados**
 
-1. Navegue até **Configuração** e selecione **&#x200B; usuários. &#x200B;**
+1. Navegue até **Configuração** e selecione** usuários. **
 2. Selecione **Perfis**.
 3. Clique em **Novo Perfil**.
 4. Crie um perfil personalizado com base em um existente, personalizado para os usuários do Adobe Learning Manager.
