@@ -7,10 +7,8 @@ exl-id: c0f14f2e-733a-4b4f-a2c2-4c0b33a15fa1
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 53%
-
+ht-degree: 65%
 ---
-
 # O módulo é marcado como incompleto na conclusão do curso no Adobe Learning Manager
 
 ## Problema
@@ -23,7 +21,7 @@ O SCORM 2004 define os critérios de sucesso e conclusão e envia as instruçõe
 
 Por exemplo, deixe que haja um conjunto de conteúdo com **Critérios de conclusão** de 100% de exibições de slide e **Critérios de sucesso** definido como “Aprovado no questionário”.
 
-Um aluno conclui o curso, mas reprova no questionário. Nesse caso, o progresso é 100%, mas o módulo é marcado como incompleto, pois o aluno não atende aos **Critérios de Sucesso**.
+Um aluno conclui o curso, mas reprova no questionário. Nesse caso, o progresso é 100%, mas o módulo é marcado como incompleto, pois o aluno não atende aos **Critérios de sucesso**.
 
 ## Solução
 
