@@ -7,10 +7,8 @@ exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 62%
-
+ht-degree: 74%
 ---
-
 # Certificações
 
 Saiba como obter certificações usando o aplicativo Learning Manager para alunos.
@@ -39,7 +37,7 @@ Será exibida uma página com uma lista de todas as certificações relevantes p
    1. Clique em Meu aprendizado no painel esquerdo e selecione Certificações para exibir todas as certificações.
    1. Ordene e visualize a lista de certificações com base na relevância e na data de publicação.
 
-1. No widget Pendente, na página inicial, clique na certificação interna que você precisa realizar.\
+1. No widget Pendente, na página inicial, clique na certificação interna que você deve realizar.\
    As certificações que estão pendentes são exibidas abaixo do widget.
 
 1. Clique em Iniciar para realizar a certificação.
