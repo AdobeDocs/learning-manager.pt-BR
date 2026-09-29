@@ -7,10 +7,8 @@ exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 55%
-
+ht-degree: 61%
 ---
-
 # Problemas em desativar um programa de aprendizado
 
 ## Problema
@@ -23,7 +21,7 @@ Há situações em que um programa de aprendizad é desativado sem um administra
 
 Esse problema ocorre porque um programa de aprendizado é uma coleção de cursos. Os treinamentos de ordem superior são desativados se algum dos cursos dentro deles contiver uma instância desativada ou a instância do curso for desativada.
 
-## Resolução
+## Solução
 
 Para verificar o curso que contém uma instância desativada, siga as etapas abaixo:
 

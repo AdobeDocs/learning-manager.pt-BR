@@ -5,11 +5,9 @@ title: Transcrições do aluno
 exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 85%
-
+source-wordcount: '920'
+ht-degree: 91%
 ---
-
 # Transcrições do aluno
 
 Saiba como baixar a transcrição do aluno baseada nos usuários, nos objetos de aprendizado ou nas habilidades no Learning Manager.
@@ -36,7 +34,7 @@ O Adobe Learning Manager permite que os gerentes de uma empresa gerem transcriç
 
 É possível escolher um único aluno ou grupos de alunos. Para adicionar mais de um aluno, clique em Adicionar mais alunos.
 
-As transcrições são geradas e baixadas no seu computador como arquivos de .xls. Cada arquivo .xls excel tem sete folhas, cujos detalhes são mencionados abaixo:
+As transcrições são geradas e baixadas no seu computador como arquivos de .xls. Cada arquivo .xls do Excel tem sete planilhas, cujos detalhes são mencionados a seguir:
 
 ## Baixar transcrição do aluno com base no fuso horário {#lt-timezone}
 
@@ -60,7 +58,7 @@ Um arquivo típico de transcrição do aluno consiste em seis planilhas do Excel
 
 Na planilha do Excel de transcrição do aluno, junto com os detalhes do perfil sobre o aluno, são fornecidos detalhes de consumo inteligentes do objeto de aprendizado, como data de inscrição, data inicial, classificação alcançada, pontuação obtida no questionário e assim por diante. Se os cursos fizerem parte de qualquer programa de aprendizado, serão listados separadamente em relação aos detalhes individuais do consumo do curso.
 
-**1 - Painel da atividade de aprendizado**
+**1 - Painel da Atividade de Aprendizado**
 
 Nesse painel específico do objeto de aprendizado, é possível ver o número de alunos de cada curso, programa de aprendizado ou certificação. Você pode visualizar a planilha de progresso dos alunos de um objeto de aprendizado específico. Esta página exibe dados como o número de alunos que concluíram o curso ou o programa de aprendizado, os alunos em andamento e as datas de vencimento dos alunos.
 
@@ -78,7 +76,7 @@ Na planilha Habilidades, são fornecidos o nome e o nível de habilidade, os cr�
 
 **Painel de habilidade**
 
-Nesse painel, é possível ver se a sua organização está equipada em várias habilidades.  Para uma habilidade específica, você pode verificar o número de usuários em uma organização que deve ter essa habilidade em comparação com o número que tem realmente a habilidade. Esse painel também especifica os usuários que podem precisar atualizar suas habilidades. Esse valor é calculado com base na entrada inserida no campo de entrada. Por exemplo, se você inserir 50 dias como sua entrada, o painel fornece dados sobre os usuários que podem precisar de suas habilidades atualizadas após o período de 50 dias.
+Nesse painel, é possível ver se a sua organização está equipada em várias habilidades. Para uma habilidade específica, você pode verificar o número de usuários em uma organização que deve ter essa habilidade em comparação com o número que tem realmente a habilidade. Esse painel também especifica os usuários que podem precisar atualizar suas habilidades. Esse valor é calculado com base na entrada inserida no campo de entrada. Por exemplo, se você inserir 50 dias como sua entrada, o painel fornece dados sobre os usuários que podem precisar de suas habilidades atualizadas após o período de 50 dias.
 
 Este painel de habilidade é mais específico ao usuário. É possível filtrar um usuário específico ou vários usuários e visualizar seu nível de habilidade como um painel. Esta página pode ajudar os gerentes e administradores a controlarem o grau de habilidade de cada aluno em comparação ao que se espera dele. O painel Habilidade também ajuda a identificar os alunos que precisam atualizar suas habilidades. A lista de atualização de alunos é calculada com base no número de dias inserido no campo de entrada.
 

@@ -7,10 +7,8 @@ exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 74%
-
+ht-degree: 97%
 ---
-
 # Não é possível atribuir uma medalha
 
 ## Problema
@@ -29,7 +27,7 @@ Na versão anterior, não era possível adicionar uma medalha posteriormente se 
 
 Nas versões atuais, o recurso está disponível.
 
-## Resolução
+## Solução
 
 Se um aluno tiver um problema, tente as etapas abaixo:
 
@@ -47,7 +45,7 @@ Se um aluno tiver um problema, tente as etapas abaixo:
 
    ![](assets/remove-a-badge.png)
 
-1. Atribua novamente a medalha ao Objeto de Aprendizado e clique em **[!UICONTROL Salvar]**.
+1. Atribua novamente a medalha ao Objeto de aprendizado e clique em **[!UICONTROL Salvar]**.
 
    Essa etapa atribuirá a medalha a todos os alunos inscritos no Objeto de aprendizado.
 
