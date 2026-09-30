@@ -8,9 +8,7 @@ source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 78%
-
 ---
-
 # Catálogos
 
 Os catálogos no Learning Manager consistem em cursos, programas de aprendizado e certificações para a função de aluno na conta do Learning Manager.

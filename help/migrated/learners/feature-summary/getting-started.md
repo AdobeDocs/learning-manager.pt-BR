@@ -1,18 +1,16 @@
 ---
 description: Use a página de introdução para percorrer os principais caminhos de aprendizado do Adobe Learning Manager.
 jcr-language: en_us
-title: Iniciar como Aluno
+title: Iniciar como um Aluno
 contentowner: manochan
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 78%
-
+source-wordcount: '735'
+ht-degree: 94%
 ---
 
 
-
-# Iniciar como Aluno
+# Iniciar como um Aluno
 
 Começar com o aplicativo do aluno no Learning Manager
 
@@ -26,7 +24,7 @@ No aplicativo da Web do Learning Manager, após fazer login como aluno, você po
 
 **Minhas habilidades**: você também poderá visualizar mapas de habilidades no canto superior direito da página. Consulte o recurso [mapa de habilidades](skills-levels.md) para obter mais informações.
 
-**Widget Objeto de aprendizado**: Aparece direto abaixo do Meu aprendizado e exibe os objetos de aprendizado do usuário. Abaixo de Meu Aprendizado, você pode exibir todos os [cursos](courses.md), [programas de aprendizado](learning-programs.md) e [certificações](certifications.md) inscritos ou atribuídos a você. Você pode realizar diretamente um objeto de aprendizado ou retomar um objeto de aprendizado desse widget.
+**Widget Objeto de aprendizado**: Aparece direto abaixo do Meu aprendizado e exibe os objetos de aprendizado do usuário. Abaixo de Meu aprendizado, você pode ver todos os [cursos](courses.md), [programas de aprendizado](learning-programs.md) e [certificações](certifications.md) nos quais você se inscreveu ou atribuídos a você. Você pode realizar diretamente um objeto de aprendizado ou retomar um objeto de aprendizado desse widget.
 
 **Calendário do aprendizado**: Esse widget exibe a lista de aprendizados futuros e planejados da sua empresa para todos os trimestres. O status da inscrição é Inscrito, se você já tiver se inscrito em um curso específico.
 
@@ -42,13 +40,13 @@ Se for acessar o Learning Manager através de um iPad ou tablet Android, consul
 
 Cronograma do aprendizado mostra a agenda dos alunos com os cursos que eles precisam concluir. Nessa seção, você pode ver os alertas dos seus cursos, certificações e programas de aprendizado na ordem crescente dos prazos de conclusão. O prazo de conclusão de cada uma das suas atividades de aprendizado é exibido no painel esquerdo.
 
-Clique em cada objeto de aprendizado no quadro à esquerda para exibir as informações correspondentes ao cartão do curso no painel direito. Você pode clicar no quadro curso/programa de aprendizado/certificação para exibir as informações completas de cada objeto de aprendizado.
+Clique em cada objeto de aprendizado no quadro à esquerda para exibir as informações correspondentes ao cartão do curso no painel direito. Você pode clicar no quadro do curso/programa de aprendizado/certificação para ver a informação completa de cada objeto de aprendizado.
 
 Passe o mouse sobre área do cronograma para ver a barra de rolagem à direita. Use a barra de rolagem para mover para cima ou para baixo, e para ver mais alertas.
 
 ## Usuários do aplicativo para iPad e Android {#ipadandandroidappusers}
 
-No aplicativo Learning Manager no iPad ou tablet Android, após fazer logo como aluno, você pode ver as informações na guia Início da seguinte maneira:
+No aplicativo Learning Manager no iPad ou no tablet Android, após fazer logo como aluno, você pode ver as informações na guia Início da seguinte forma:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
@@ -60,7 +58,7 @@ Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** s
 
 Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPad. Baixe e faça cursos no modo off-line e sincronize o conteúdo com o aplicativo on-line ao conectar-se à rede.
 
-1. Toque na lista suspensa Menu na parte superior e toque em Opção de aprendizado. Uma lista de todos os cursos disponíveis é exibida em quadros.
+1. Toque no Menu suspenso na parte superior e toque na opção Aprendizado. Uma lista de todos os cursos disponíveis é exibida em quadros.
 1. Toque no ícone de download na parte inferior de cada quadro do objeto de aprendizado para baixar o conteúdo do aprendizado.
 
    ![](assets/download-ipad.png)
@@ -70,7 +68,7 @@ Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPa
 **Controlar o armazenamento do dispositivo**
 
 É possível monitorar periodicamente o armazenamento do dispositivo.\
-Toque no ícone do perfil no canto superior direito do aplicativo e toque na opção de menu **Armazenamento do dispositivo**.
+Toque no ícone do perfil no canto superior direito do aplicativo e toque na opção **Armazenamento do dispositivo** do menu.
 
 ![](assets/device-storage-option-ipad.png)
 

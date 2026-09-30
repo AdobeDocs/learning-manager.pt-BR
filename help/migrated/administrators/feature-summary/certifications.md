@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
 source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 67%
-
+source-wordcount: '1029'
+ht-degree: 83%
 ---
-
 # Certificações
 
 Saiba como criar certificações, inscrever alunos e editar certificações publicadas.
@@ -29,9 +27,9 @@ Como administrador, você pode criar um programa de certificação hospedado int
    1. Clique na guia **[!UICONTROL Rascunho]** para ver todas as certificações que estão no estado de rascunho. Você precisa terminar de criá-los.
    1. Clique em **[!UICONTROL Publicado]** para ver todas as certificações publicadas por você.
    1. Clique em **[!UICONTROL Todos]** para exibir as certificações em todos os estados.
-   1. Classifique e exiba a lista de certificações em ordem crescente ou decrescente ou com base na data em que foram atualizadas.
+   1. Ordene e exiba a lista de certificações na ordem crescente, na ordem decrescente ou pela data de atualização.
 
-1. Clique em **[!UICONTROL Adicionar]**.
+1. Clique em **[!UICONTROL Adicionar]**
 
    A página de uma nova certificação é exibida.
 
@@ -79,7 +77,7 @@ Como administrador, você pode criar um programa de certificação hospedado int
   <tr>
    <td>Emissor da certificação<br></td>
    <td>
-    <p>Escolha <b>Interno</b> se pertencer à sua organização ou <b>Externo</b> para certificações de fora da organização.</p>
+    <p>Escolha <b>Interno</b> se pertencer à sua empresa ou <b>Externo</b> para certificações de fora da organização.</p>
     <p>Ao escolher <b>Certificação externa</b>, você verá mais duas opções:</p>
     <ul>
      <li>Igual à data de aprovação<br></li>
@@ -92,7 +90,7 @@ Como administrador, você pode criar um programa de certificação hospedado int
    <td>Se escolheu a Certificação externa, então especifique a duração em minutos.</td>
   </tr>
   <tr>
-   <td>Tags</td>
+   <td>Etiquetas</td>
    <td>Insira as marcas que deseja associar ao certificado. As marcas são úteis quando você deseja procurar o certificado.</td>
   </tr>
   <tr>
@@ -110,10 +108,10 @@ Selecione o nível de produtos, funções e funções na seção **[!UICONTROL R
 
 Escolha os cursos a serem adicionados à certificação da guia **[!UICONTROL Cursos]** > **[!UICONTROL Catálogo]**.
 
-Passe o mouse sobre cada quadro do curso, clique em + para adicioná-los à certificação. Clique em **[!UICONTROL Visualizar]** para exibir o curso como aluno antes de adicioná-lo.
+Passe o mouse sobre cada quadro do curso, clique em + para adicioná-lo à certificação. Clique em **[!UICONTROL Visualizar]** para exibir o curso como aluno antes de adicioná-lo.
 
 1. Clique na guia **[!UICONTROL Currículo]** para exibir/verificar a lista de cursos adicionados.
-1. Clique em **[!UICONTROL Publish]**.
+1. Clique em **[!UICONTROL Publicar]**.
 
 ## Mapeamento de instâncias do curso para certificações {#courseinstancemappingforcertifications}
 
@@ -126,7 +124,7 @@ Para mapear o curso e a instância para certificações:
 1. Na janela pop-up exibida, selecione a instância do curso que será fornecida para a certificação escolhida.
 1. Clique em Salvar.
 
-Um administrador pode adicionar cursos de tipo de sala de aula virtual e sala de aula a um Programa de aprendizado. Qualquer sessão dada pelo autor durante a criação do curso se torna a instância padrão. Quando o administrador adiciona cursos a um programa de aprendizado, ele é mapeado, por padrão, para a instância padrão de todos os cursos, mas o administrador pode alterar o mapeamento da instância. O número de cursos adicionados a um programa de aprendizado também é visível na página de instâncias, conforme mostrado abaixo.
+Um administrador pode adicionar cursos de sala de aula e sala de aula virtual a um programa de aprendizado. Qualquer sessão dada pelo autor durante a criação do curso se torna a instância padrão. Quando o administrador adiciona cursos a um programa de aprendizado, ele é mapeado, por padrão, para a instância padrão de todos os cursos, mas o administrador pode alterar o mapeamento da instância. O número de cursos adicionados a um programa de aprendizado também é visível na página de instâncias, conforme mostrado abaixo.
 
 ## Ativar controle total do catálogo {#catalog}
 
@@ -167,7 +165,7 @@ Agora, é possível fazer com que os cursos sejam obrigatórios durante a ediç�
 
 Um administrador pode editar uma certificação no estado publicado. Nesse estado, o administrador pode editar todas as seções de uma certificação e republicá-la.
 
-Para editar uma certificação publicada, clique no cartão de certificação e clique em **[!UICONTROL Editar]** no canto superior direito da página.
+Para editar uma certificação publicada, clique no cartão da certificação e clique em **[!UICONTROL Editar]** no canto superior direito da página.
 
 Ao editar as seções de uma certificação, se for necessário sair da página, será necessário republicar a certificação. É exibida uma caixa de diálogo de confirmação que solicitará que a certificação seja publicada novamente.
 

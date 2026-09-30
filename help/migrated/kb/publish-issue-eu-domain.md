@@ -8,9 +8,7 @@ source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 83%
-
 ---
-
 # Não é possível publicar no domínio da UE do Learning Manager {#unable-to-publish-to-learning-manager-eu-domain}
 
 ## Problema

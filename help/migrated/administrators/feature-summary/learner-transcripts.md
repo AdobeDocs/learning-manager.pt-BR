@@ -6,11 +6,9 @@ contentowner: jayakarr
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
 source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '1912'
-ht-degree: 66%
-
+source-wordcount: '1928'
+ht-degree: 81%
 ---
-
 # Transcrições do aluno
 
 Baixar transcrição do aluno e gerenciar relatórios usando o Learning Manager.
@@ -42,7 +40,7 @@ O Adobe Learning Manager permite que os administradores de uma empresa gerem tra
 
    *Adicionar mais alunos*
 
-1. Você pode escolher catálogos específicos ativando a caixa de seleção. Somente a transcrição dos catálogos especificados é baixada. Você pode escolher catálogos específicos selecionando o catálogo na lista suspensa **[!UICONTROL Selecionar catálogos]**.
+1. Você pode escolher catálogos específicos marcando a caixa de seleção. Somente a transcrição dos catálogos especificados é baixada. Você pode escolher catálogos específicos selecionando o catálogo na lista suspensa **[!UICONTROL Selecionar catálogos]**.
 
    ![](assets/select-catalogs-lt.png)
 
@@ -60,14 +58,14 @@ O Adobe Learning Manager permite que os administradores de uma empresa gerem tra
 
 1. Você também pode baixar as transcrições dos alunos que foram excluídos de uma conta.
 
-   Para baixar as transcrições dos alunos de usuários excluídos, clique na seta **[!UICONTROL Opções Avançadas]** e habilite a caixa de seleção **[!UICONTROL Incluir dados de alunos excluídos]**.
+   Para baixar as transcrições do aluno de usuários excluídos, clique na seta **[!UICONTROL Opções Avançadas]** e ative a caixa de seleção **[!UICONTROL Incluir dados de alunos excluídos]**.
 
    ![](assets/data-deleted-learners.png)
 
    *Baixar transcrições de alunos excluídos*
 
-1. Você pode optar por baixar as informações de nível do módulo na transcrição do aluno ao habilitar a caixa de seleção “**[!UICONTROL Habilitar informações de nível do módulo]**”. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição, se esta opção estiver ativada.
-1. Você pode optar por baixar dados de habilidades e folhas de resumo habilitando a opção “**[!UICONTROL Incluir dados de habilidades e folhas de resumo]**”.
+1. Você pode optar por baixar as informações de nível do módulo na transcrição do aluno marcando a caixa de seleção “**[!UICONTROL Ativar informações de nível do módulo]**”. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição, se esta opção estiver ativada.
+1. Você pode optar por baixar dados sobre habilidades e folhas de resumo marcando a caixa de seleção da opção “**[!UICONTROL Incluir dados sobre habilidades e folhas de resumo]**”.
 
    As transcrições são geradas e baixadas no computador como arquivos .zip quando os dados da habilidade não estão incluídos. Se a caixa de seleção de dados sobre habilidades estiver marcada, as transcrições são geradas e baixadas em arquivos .xls.
 
@@ -79,7 +77,7 @@ Obter transcrições do aluno se torna um processo tedioso, pois podem ser obtid
 1. Vá para **[!UICONTROL Relatórios]** em **[!UICONTROL Gerenciar]**. Isso carrega a página **[!UICONTROL Atividade do Usuário]**.
 1. Clique em **[!UICONTROL Relatórios Personalizados]** no painel esquerdo e selecione **[!UICONTROL Transcrições do aluno]** na lista.
 1. Na página **[!UICONTROL Transcrições do aluno]**, clique no botão **[!UICONTROL Gerar novo]** no canto superior esquerdo.
-1. Selecione as datas preferenciais clicando no menu suspenso **[!UICONTROL Selecionar intervalo de datas]**. Clique na guia **[!UICONTROL IDs de email]** para inserir a lista copiada de IDs de email exclusivas.
+1. Selecione as datas preferenciais clicando no menu suspenso **[!UICONTROL Selecionar intervalo de datas]**. Clique na guia **[!UICONTROL IDs de e-mail]** para inserir a lista copiada de IDs de e-mail exclusivas.
 
    ![](assets/cp-copy-paste-feature.png)
 
@@ -163,7 +161,7 @@ Depois de ativar a opção e clicar em **[!UICONTROL Gerar]**, os dados dos alun
 
 Um administrador pode personalizar as colunas exportadas em um relatório de transcrição do aluno. Administradores, administradores personalizados e gerentes podem configurar as colunas antes de exportar o relatório.
 
-Na caixa de diálogo **[!UICONTROL Transcrições do aluno]**, clique em **[!UICONTROL Opções Avançadas]**. Na seção **[!UICONTROL Configurar Formato de Exportação]**, escolha as colunas que deseja exportar.
+Na caixa de diálogo **[!UICONTROL Transcrições do aluno]**, clique em **[!UICONTROL Opções avançadas]**. Na seção **[!UICONTROL Configurar formato de exportação]**, escolha as colunas que deseja exportar.
 
 ![](assets/image024.png)
 
@@ -173,11 +171,11 @@ A personalização é permitida somente quando um usuário baixa a transcrição
 
 ## Conteúdo do arquivo de transcrição do aluno {#learnertranscriptfilecontent}
 
-Um arquivo típico de transcrição do aluno consiste em seis planilhas do Excel em um único arquivo. As folhas de transcrição do aluno fornecem uma visão geral dos dados, incluindo o número de alunos envolvidos por curso, suas habilidades, a porcentagem de conclusão com base no curso ou aluno e um painel de conformidade. Estes são os painéis disponíveis nas transcrições do aluno:
+Um arquivo típico de transcrição do aluno consiste em seis planilhas do Excel em um único arquivo. As planilhas de transcrição do aluno oferecem uma ideia geral dos dados, incluindo o número de alunos envolvidos por curso, suas habilidades, a porcentagem de conclusão com base no curso ou no aluno e um painel de conformidade. Estes são os painéis disponíveis nas transcrições do aluno:
 
 **Transcrição do aluno**
 
-Na planilha do Excel de transcrição do aluno, junto com os detalhes do perfil sobre o aluno, são fornecidos detalhes recomendáveis de realização do objeto de aprendizado, como data de inscrição, data inicial, classificação alcançada, pontuação obtida no questionário. Se os cursos fizerem parte de qualquer programa de aprendizado, eles serão listados separadamente, além dos detalhes individuais de consumo do curso.
+Na planilha do Excel de transcrição do aluno, junto com os detalhes do perfil sobre o aluno, são fornecidos detalhes recomendáveis de realização do objeto de aprendizado, como data de inscrição, data inicial, classificação alcançada, pontuação obtida no questionário. Se os cursos fizerem parte de qualquer programa de aprendizado, eles serão listados separadamente dos detalhes individuais de realização do curso.
 
 **1 - Painel da atividade de aprendizado**
 
@@ -193,7 +191,7 @@ O progresso dos usuários para cada curso é calculado com base nas entradas que
 
 **Habilidade**
 
-Na planilha Habilidades, são fornecidos o nome e o nível de habilidade, os créditos exigidos, os créditos necessários, a porcentagem de conclusão e outros detalhes do perfil. Para referência, é fornecido abaixo um instantâneo de exemplo da planilha do Excel de habilidades.
+Na planilha Habilidades, são fornecidos o nome e o nível de habilidade, os créditos exigidos, os créditos necessários, a porcentagem de conclusão e outros detalhes do perfil. Para referência, é fornecido abaixo uma imagem de exemplo da planilha do Excel de habilidades.
 
 ![](assets/skills-learner-transcript.png)
 
