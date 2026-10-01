@@ -6,11 +6,9 @@ contentowner: kuppan
 exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 76%
-
+source-wordcount: '648'
+ht-degree: 81%
 ---
-
 # Compartilhar no Aprendizado social
 
 Saiba como usar o bookmarklet social para compartilhar instantaneamente os aprendizados on-line de um usuário na Web social.
@@ -57,7 +55,7 @@ Adicione uma descrição da sua publicação e, em seguida, selecione o painel n
 ## Internet Explorer {#internetexplorer}
 
 * Clique com o botão direito no ícone de configurações no canto superior direito do navegador. Ou use **Alt + C** no teclado para que a janela da barra de favoritos seja aberta.
-* Para tornar a barra de favoritos visível no navegador, clique em **[!UICONTROL Barra de favoritos]**.
+* Para tornar a barra de favoritos visível no navegador, clique na **[!UICONTROL Barra de favoritos]**.
 
 ## Microsoft Edge {#microsoftedge}
 
@@ -82,7 +80,7 @@ Para adicionar bookmarks manualmente à barra de favoritos, clique com o botão 
 ## Microsoft Edge no Windows {#microsoftedgeinwindows}
 
 1. Certifique-se de que a barra de favoritos esteja visível. Clique com o botão direito na barra de favoritos > **Criar nova pasta**.
-1. Para adicionar a URL à pasta da barra de favoritos que você gosta, clique no ícone do **Hub de marcadores** > **Ícone de marcadores**.
+1. Para adicionar o URL à sua pasta da barra de favoritos, clique no ícone do **Hub de favoritos** > **ícone de Favoritos**.
 1. Salve qualquer página on-line na pasta e renomeie-a como Compartilhar no social.
 1. Selecione o ícone do hub de marcadores > Compartilhar no social > Editar URL.
 1. Cole o endereço do link e clique no botão Inserir.

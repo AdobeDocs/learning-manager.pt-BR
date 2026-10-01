@@ -5,20 +5,18 @@ title: Ajudas de tarefa
 exl-id: e7861820-40bc-4914-86e3-245f348253cb
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 77%
-
+source-wordcount: '202'
+ht-degree: 100%
 ---
-
 # Ajudas de tarefa
 
 Saiba como visualizar e usar ajudas de tarefa no Learning Manager.
 
-Ajudas de tarefa é um repositório de conteúdo de treinamento acessível aos alunos sem critérios de inscrição ou conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
+As ajudas de tarefa correspondem a um repositório de conteúdo de treinamento acessível aos alunos sem nenhum tipo de inscrição nem critérios de conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
 
 As ajudas de tarefa podem ser usadas de forma independente ou em conjunto com a realização do curso no Learning Manager.
 
-Um administrador da sua empresa pode atribuir ajudas de tarefa aos alunos. No login do aluno, é possível ver as Ajudas de tarefa no widget Minhas ajudas de tarefa na página inicial. Se houver ajudas de tarefa atribuídas a você, você pode exibi-las no widget Minhas ajudas de tarefa na parte inferior da página do aluno.
+Um administrador da sua empresa pode atribuir ajudas de tarefa aos alunos. No login do aluno, é possível ver as Ajudas de tarefa no widget Minhas ajudas de tarefa na página inicial. Se houver alguma ajuda de tarefa atribuída a você, é possível visualizá-la no widget Minhas ajudas de tarefa na parte inferior da página dos alunos.
 
 ## Usar ajudas de tarefa {#consumejobaids}
 

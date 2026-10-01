@@ -7,10 +7,8 @@ exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 50%
-
+ht-degree: 70%
 ---
-
 # Não é possível registrar-se como Usuário externo
 
 ## Problema
@@ -39,7 +37,7 @@ Esse problema ocorre em um dos seguintes cenários:
 
 ## Solução:
 
-**Cenário 1:** o usuário já está registrado em outro Perfil Externo.
+**Cenário 1:** o usuário já está registrado em outro perfil externo.
 
 1. Faça logon como administrador.
 1. Em **Gerenciar**, clique em **[!UICONTROL Usuários]** > **[!UICONTROL Externos]**.
@@ -73,7 +71,7 @@ Esse problema ocorre em um dos seguintes cenários:
 
    *Abrir um perfil interno do aluno*
 
-1. Altere o endereço de e-mail do aluno ou adicione *_old* ao endereço de e-mail existente. Isso liberará o endereço de email.
+1. Altere o endereço de e-mail do aluno ou adicione *_old* ao endereço de e-mail existente. Isso liberará o endereço de e-mail.
 
    Por exemplo: se o endereço de email do aluno for *<abc@adobe.com>,* altere-o para *<abc_old@adobe.com>*
 
@@ -89,6 +87,6 @@ Esse problema ocorre em um dos seguintes cenários:
 
    *Editar endereço de email do usuário*
 
-1. Altere o endereço de e-mail do aluno ou adicione *_old* ao endereço de e-mail existente. Isso liberará o endereço de email.
+1. Altere o endereço de e-mail do aluno ou adicione *_old* ao endereço de e-mail existente. Isso liberará o endereço de e-mail.
 
    Por exemplo, se o endereço de e-mail do aluno for **<abc@adobe.com>**, altere-o para **<abc_old@adobe.com>**.
