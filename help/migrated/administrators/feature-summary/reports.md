@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 6142d938c3bd8758cf4c592a0f343e920ae8b0d7
+source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
 workflow-type: tm+mt
 source-wordcount: '8793'
 ht-degree: 55%
@@ -1232,7 +1232,7 @@ Ao criar um painel, insira o nome e a descrição. Para compartilhar com gerente
 
 Gere um relatório das alterações de configuração feitas nas configurações Básico, Avançado e de Integração da sua conta, incluindo quem fez cada alteração, quando e o valor antes e depois.
 
-## O que o relatório captura
+### O que o relatório captura
 
 O Relatório de registro de auditoria do administrador fornece um registro histórico das alterações de configuração para que você possa determinar:
 
@@ -1251,12 +1251,12 @@ O relatório é somente aditivo: os novos registros de alteração são adiciona
 
 O relatório está disponível para qualquer usuário com privilégios de relatório. Isso inclui administradores completos e administradores personalizados que receberam acesso ao relatório, não apenas proprietários de conta.
 
-## Registros e alterações {#recordschanges}
+### Registros e alterações {#recordschanges}
 
 * Os registros estarão disponíveis a partir da atualização 112 de setembro de 2026. As alterações feitas antes desta atualização não são incluídas no relatório. Consulte [notas de versão](/help/migrated/release-note/release-notes.md), atualização 112.
 * As alterações feitas em qualquer uma das configurações podem levar até uma hora para serem refletidas no relatório.
 
-## Por que este relatório é importante para a conformidade
+### Por que este relatório é importante para a conformidade
 
 As empresas que operam em setores regulamentados geralmente precisam demonstrar que as alterações de configuração nos sistemas que lidam com registros eletrônicos são rastreadas, atribuíveis e retidas. O Relatório de registro de auditoria do administrador suporta esses requisitos, identificando a pessoa, a configuração, o tempo e os valores de antes e depois de cada alteração.
 
@@ -1264,7 +1264,7 @@ As empresas que operam em setores regulamentados geralmente precisam demonstrar 
 >
 >Este relatório dá suporte às atividades de conformidade da sua organização. Não certifica, por si só, a conformidade com qualquer regulamentação ou norma específica.
 
-## Gerar um relatório de registro de auditoria do administrador
+### Gerar um relatório de registro de auditoria do administrador
 
 1. Faça logon no Adobe Learning Manager como administrador.
 2. Na navegação à esquerda, selecione **Gerenciar** > **Relatórios** > **Relatórios personalizados**.
@@ -1292,7 +1292,7 @@ As empresas que operam em setores regulamentados geralmente precisam demonstrar 
 
 Um arquivo `.csv` contendo as alterações é baixado para a pasta Downloads do seu navegador. A geração de relatórios pode demorar um pouco. Você pode continuar usando o Adobe Learning Manager enquanto ele processa. Se você fechar a janela do navegador antes que o relatório esteja pronto, o download começará da próxima vez que você fizer logon.
 
-## Usos comuns deste relatório
+### Usos comuns deste relatório
 
 - **Investigue uma alteração de configuração inesperada** — confirme o que mudou, quando e quem fez a alteração, em vez de confiar em pressupostos.
 - **Revise as alterações feitas por vários administradores** — gere uma exibição consolidada de toda a atividade de configuração nas configurações Básicas, Integrações e Avançadas de um determinado período, em vez de contatar cada administrador individualmente.
@@ -1302,7 +1302,7 @@ Um arquivo `.csv` contendo as alterações é baixado para a pasta Downloads do 
 - **Revise as configurações após uma alteração de política** — confirme se as atualizações de configuração pretendidas foram aplicadas de forma consistente e identifique as alterações que ocorreram inesperadamente.
 - **Manter um registro administrativo histórico** — baixe e retenha relatórios de acordo com as práticas de gerenciamento de registros da sua organização.
 
-## Referência de coluna de relatório
+### Referência de coluna de relatório
 
 O arquivo `.csv` baixado inclui as seguintes colunas.
 
@@ -1325,16 +1325,16 @@ O arquivo `.csv` baixado inclui as seguintes colunas.
 >
 >Para localizar todas as configurações que foram excluídas durante um período, filtre o arquivo baixado em que **Tipo de Ação** é `DELETE_SETTING`.
 
-## Acessar este relatório programaticamente
+### Acessar este relatório programaticamente
 
 Você pode recuperar o Relatório de registro de auditoria do administrador programaticamente usando a API Trabalhos, em vez de gerá-lo manualmente pelo aplicativo do administrador. Isso é útil se você deseja programar exportações regulares ou alimentar o relatório em um sistema de monitoramento ou alerta downstream. Saiba mais sobre a [API de Trabalho para o Relatório de Registro de Auditoria do Administrador](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report).
 
-## Limitações
+### Limitações
 
 - **Localização**: o conteúdo do relatório não está localizado. O relatório é gerado no idioma padrão da conta, independentemente das configurações de localidade definidas para sua conta.
 - **Motivo da alteração**: o relatório não captura o motivo pelo qual uma alteração foi feita. Manter separadamente qualquer solicitação de alteração, aprovação ou justificativa de negócios relacionada.
 
-## Práticas recomendadas
+### Práticas recomendadas
 
 - Selecione um intervalo de datas que abranja a alteração suspeita ou planejada.
 - Selecione **Selecionar Tudo** quando a área de configurações afetada não for conhecida.
@@ -1342,7 +1342,7 @@ Você pode recuperar o Relatório de registro de auditoria do administrador prog
 - Use as colunas **Nome do Administrador** e **Carimbo de data/hora** para correlacionar uma alteração com registros internos ou de trabalho aprovados.
 - Mantenha a solicitação de alteração, aprovação ou justificativa de negócios relacionada separadamente quando sua organização exigir uma explicação documentada para uma alteração.
 
-## Solução de problemas
+### Solução de problemas
 
 **Não vejo nenhum registro antes de uma determinada data**
 Os registros estão disponíveis somente a partir da atualização 112 (setembro de 2026). As alterações feitas antes dessa atualização não são incluídas no relatório. Consulte [notas de versão](/help/migrated/release-note/release-notes.md)
