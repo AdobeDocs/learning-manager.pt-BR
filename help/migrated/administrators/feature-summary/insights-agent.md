@@ -2,15 +2,13 @@
 description: O Insights Agent é um recurso viabilizado por IA no Adobe Learning Manager que permite que os administradores consultem os dados do aluno usando linguagem natural.
 jcr-language: en_us
 title: Agente do Insights (beta) no Adobe Learning Manager
-source-git-commit: ed7e51ce51aa57144b8e519cb24a95ffbc436504
+source-git-commit: a599b117a000c83105fd258c307fedd6a99b6f96
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2929'
 ht-degree: 1%
-
 ---
 
-
-# O que é o Insights Agent
+# O que é o Insights Agent?
 
 O Insights Agent é um recurso viabilizado por IA no Adobe Learning Manager que permite que os administradores consultem dados de aprendizado usando linguagem natural. Em vez de baixar relatórios e manipular planilhas, você digita uma pergunta, como “Quantos cursos foram criados nos últimos 3 meses na conta? Dê-me um relatório mensal.” e o agente do Insights recupera e apresenta os dados diretamente. Você pode exibir os resultados como texto, marcadores ou tabelas, ou baixá-los como um arquivo CSV.
 
@@ -28,7 +26,7 @@ Cada consulta retorna uma tabela formatada ou um arquivo CSV para download, junt
 
 ## O que o Data Insights Agent não suporta
 
-Os seguintes tipos de dados estão fora do escopo desta versão:
+Os seguintes tipos de dados estão fora do escopo do Agente do Insights atualmente:
 
 - Comentários e dados da pesquisa
 - Pontos e medalhas de gamificação
@@ -61,6 +59,7 @@ O Agente do Insights está disponível para administradores no painel Assistente
 Quando o modo **Obter Insights** estiver selecionado por padrão, você poderá começar imediatamente a consultar dados de aprendizado sem precisar ajustar o modo toda vez que acessar o assistente. No entanto, se você alternar para o modo **Aprender** para perguntas instrucionais, selecione novamente **Obter Insights** antes de enviar uma consulta.
 
 1. Selecione o ícone do assistente do AI no Learning Manager para abrir o painel do assistente. A opção **Obter Insights** já está selecionada por padrão.
+
    ![](assets/ask-question.png)
 
 2. Digite sua pergunta no campo de texto. Usar linguagem simples. Por exemplo: **Quantos cursos foram criados nos últimos 3 meses?**
@@ -71,13 +70,16 @@ Quando o modo **Obter Insights** estiver selecionado por padrão, você poderá 
 
 Depois de enviar sua pergunta, o Agente do Insights processa sua solicitação e retorna uma resposta com até quatro partes:
 
-1. **Desambiguidade (se necessário):** se a sua pergunta contiver um termo ambíguo, como “atividade de aprendizado” ou “desempenho”, ou “Fornecer-me dados de desempenho dos últimos 3 meses”, o assistente exibirá uma lista de opções e solicitará que você selecione uma antes de continuar. Selecione a opção que melhor corresponde ao que você está procurando. Depois da pergunta inicial, não será possível digitar instruções adicionais. Selecionar entre as opções fornecidas é a única interação disponível até que você inicie uma nova consulta usando a interface de consulta. Você só pode responder à desambiguação selecionando uma das opções fornecidas; o acompanhamento de texto livre não está disponível nesta versão.
+1. **Desambiguidade (se necessário):** se a sua pergunta contiver um termo ambíguo, como “atividade de aprendizado” ou “desempenho”, ou “Fornecer dados de desempenho dos últimos três meses”, o assistente exibirá uma lista de opções e solicitará que você selecione uma antes de continuar. Selecione a opção que melhor corresponde ao que você está procurando. Depois da pergunta inicial, não será possível digitar instruções adicionais. Selecionar entre as opções fornecidas é a única interação disponível até que você inicie uma nova consulta usando a interface de consulta. Você só pode responder à desambiguação selecionando uma das opções fornecidas; o acompanhamento de texto livre não está disponível nesta versão.
+
    ![](assets/disambiguation.png)
 
 2. **Abordagem:** a seção **Abordagem** descreve as etapas que o agente realizou para recuperar seus dados. Aparece como um painel rolável abaixo da pergunta. Selecione o ícone de expansão para ver a abordagem completa. A revisão desta seção ajuda a confirmar se a lógica corresponde à sua intenção, especialmente em consultas complexas. Por exemplo, se você solicitar “todos os alunos inscritos no último ano”, o agente poderá retornar a inscrição mais recente de cada aluno em vez de cada registro de inscrição. A seção **Abordagem** explica as decisões tomadas pelo agente ao recuperar seus dados. Se a lógica não corresponder à sua intenção, inicie uma nova consulta com termos mais específicos.
+
    ![](assets/approach.png)
 
 3. **Resultados:** o Agente do Insights gera resultados como texto ou tabela. Para pontos de dados que são melhor interpretados em um formato tabular, o Agente do Insights retorna uma tabela. O Agente do Insights não gera gráficos. Para visualizar os dados, baixe o CSV e abra-o na ferramenta de sua preferência. Um resumo em linguagem simples é incluído com os resultados. Quando os resultados contiverem 50 ou menos linhas, o resumo incluirá insights analíticos sobre os dados. Quando os resultados contiverem mais de 50 linhas, o resumo fornecerá estatísticas em nível de coluna. Por exemplo, “Quais cursos não têm menos de 5 inscrições criadas no último ano e quem são os autores?”
+
    ![](assets/results.png)
 
 E a resposta contém o seguinte resumo:
@@ -95,11 +97,9 @@ E a resposta contém o seguinte resumo:
 >
 >O formato do resumo varia de acordo com a natureza dos dados. Veja a seguir um exemplo de uma resposta resumida. Seu resumo real será diferente dependendo da consulta.
 
-
 >[!NOTE]
 >
 >O agente do Insights é probabilístico. Se você executar a mesma consulta duas vezes, a frase da resposta ou a ordenação do resultado poderão ser ligeiramente diferentes.
-
 
 ### Baixar o relatório
 
@@ -108,7 +108,8 @@ Selecione **Baixar relatório** para exportar seus resultados como um arquivo CS
 ## Iniciar uma nova consulta
 
 Cada sessão do agente do Insights lida com uma pergunta de cada vez. Depois de revisar seus resultados, selecione **Nova pergunta** para fazer uma pergunta diferente. Você também pode selecionar **Novo bate-papo** a qualquer momento, inclusive antes de receber uma resposta, se desejar abandonar a consulta atual e começar do zero. Você não pode digitar uma pergunta de acompanhamento na mesma sessão ou pedir ao agente para refinar ou expandir os resultados retornados.
-![](assets/new-question.png)
+
+![](/help/migrated/administrators/feature-summary/assets/new-question.png)
 
 >[!TIP]
 >
@@ -117,7 +118,8 @@ Cada sessão do agente do Insights lida com uma pergunta de cada vez. Depois de 
 ## Fornecer feedback
 
 Após cada resposta, selecione o ícone de miniaturas para cima ou para baixo para classificar o resultado. Você também pode especificar se o resultado foi impreciso, difícil de entender ou se demorou muito para retornar. Esse feedback ajuda a melhorar o agente ao longo do tempo.
-![](assets/feedback.png)
+
+![](/help/migrated/administrators/feature-summary/assets/feedback.png)
 
 ## Práticas recomendadas
 
@@ -125,9 +127,11 @@ Após cada resposta, selecione o ícone de miniaturas para cima ou para baixo pa
 - Use termos exatos do Adobe Learning Manager ao nomear conteúdo e grupos de alunos. O guia de gravação de consultas lista os termos corretos a serem usados.
 - Se o agente fizer uma pergunta esclarecedora, trate-a como um sinal para refinar sua consulta original da próxima vez. Quanto mais específica for a sua pergunta, menos esclarecimentos serão necessários.
 - Revise a seção **Abordagem** antes de agir nos resultados para confirmar se a lógica do agente corresponde à sua intenção.
-- **Especifique se deseja incluir ou excluir alunos na lista de espera**. Por padrão, as consultas de contagem de inscrições incluem alunos que estão em uma lista de espera juntamente com inscrições ativas confirmadas. Se você precisar apenas de participantes ativos, exclua explicitamente os alunos da lista de espera na consulta. Por exemplo: “Quantos alunos estão inscritos diretamente no curso de treinamento de segurança, exceto os alunos na lista de espera?” O agente divulgará na seção Abordagem que a exclusão foi aplicada. Sem essa instrução, os totais de inscrição podem incluir uma proporção significativa de alunos na lista de espera que ainda não iniciaram o conteúdo.
+- **Especifique se deseja incluir alunos na lista de espera.** Por padrão, as consultas de contagem de inscrições retornam apenas os alunos com uma inscrição ativa confirmada - os alunos em lista de espera são excluídos, de acordo com a lista de alunos inscritos disponível na página do curso ou caminho de aprendizado. Se quiser que os alunos da lista de espera sejam incluídos na contagem, diga isso explicitamente em sua consulta. Por exemplo: “Quantos alunos estão inscritos diretamente no curso de treinamento de segurança, incluindo alunos na lista de espera?” A seção Abordagem indicará se os alunos da lista de espera foram incluídos nos resultados.
+<!--
+- **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
+-->
 - **Contagens de inscrições diretas e indiretas**: ao consultar os dados de inscrição ou conclusão de um curso ou caminho de aprendizado, o Agente do Insights distingue entre inscrições diretas (alunos inscritos especificamente nesse curso ou caminho de aprendizado) e indiretas (alunos que acessaram o mesmo conteúdo como parte de um caminho de aprendizado ou certificação). Se você solicitar especificamente inscrições diretas ou indiretas, o agente retornará a contagem correta para cada tipo. Se sua consulta não especificar direta ou indireta, o agente pode retornar uma contagem combinada. Para obter contagens separadas, inclua a distinção explicitamente na sua consulta. Por exemplo: “Quantos alunos estão inscritos diretamente versus inscritos indiretamente no curso de treinamento de segurança?”
-
 
 ## Como o Insights Agent difere do Report Builder
 
@@ -176,6 +180,36 @@ O Agente do Insights corresponde sua consulta ao modelo de dados da Adobe Learni
 | **Etiqueta de catálogo** | Categoria/grupo de tags |
 
 O Agente do Insights não diferencia maiúsculas de minúsculas, mas a correspondência exata de termos aumenta a precisão.
+
+### Consultar usando a terminologia personalizada da sua organização
+
+Se o administrador renomeou termos padrão usando Terminologia do Produto em **Configurações > Geral**, o Agente do Insights reconhece os termos personalizados da sua organização no lugar dos padrões listados acima. Por exemplo, se sua organização renomeou o **Curso** para **Capítulo**, você poderá perguntar “Quantos capítulos foram concluídos no mês passado?” e o Insights Agent entende a pergunta e rotula os resultados usando **capítulos** nos cabeçalhos de resposta e coluna.
+
+A terminologia personalizada se aplica em qualquer lugar dentro da janela de bate-papo do Insights Agent, incluindo como a sua consulta é interpretada, a explicação da abordagem, o resumo dos resultados e os cabeçalhos de tabela ou coluna mostrados no bate-papo. **O arquivo CSV baixado não reflete a terminologia personalizada.** Os cabeçalhos e o conteúdo das colunas no arquivo exportado usam os termos padrão do Adobe Learning Manager, independentemente de como sua organização os personalizou.
+
+- O Agente do Insights reconhece as formas singular e plural de um termo personalizado, conforme configurado no arquivo CSV da Terminologia do produto.
+- Você ainda pode usar o termo padrão do Adobe Learning Manager em sua consulta mesmo depois que sua organização o personalizar. O Agente do Insights reconhece o termo padrão e responde usando o termo personalizado da sua organização. Por exemplo, se sua organização renomeou o **Curso** para **Capítulo**, você ainda poderá perguntar “Quantos capítulos foram concluídos no mês passado?” usando o termo original. O Agente do Insights entende a pergunta e responde usando o termo personalizado da sua organização, **capítulos**, na resposta.
+- Se a sua consulta incluir um termo com ortografia incorreta ou não reconhecido, o Agente do Insights fará uma pergunta esclarecedora e sugerirá o termo ou termos correspondentes mais próximos disponíveis em sua conta.
+- Se o administrador redefinir a terminologia personalizada, o Agente do Insights não reconhecerá mais os termos personalizados anteriormente e reverterá para os termos padrão.
+
+>[!NOTE]
+>
+>O suporte à terminologia personalizada não se estende aos módulos e guias que o agente do Insights não consulta atualmente, como Aprendizado social, Ajudas de tarefa, Fórum de discussão, Gamificação e Comunicados.
+
+<!--
+### Query using your organization's custom terminology
+
+If your administrator has renamed standard terms using **Product Terminology** in **Settings** > **General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Module** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+
+- Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term.
+- If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term available in your account.
+- If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
+
+>[!NOTE]
+>
+>Custom terminology support does not extend to modules and tabs that Insights Agent does not currently query, such as Social Learning, Job Aids, Discussion Forum, Gamification, and Announcements.
+-->
 
 ### Ancorar seu conteúdo
 
@@ -237,7 +271,7 @@ Use-os como ponto de partida. Adapte-os substituindo os nomes de conteúdo, grup
 
 **Progresso do programa e do curso**
 
-- “Qual é a decomposição do status de conclusão do caminho de aprendizado Desenvolvimento de liderança? Mostrar contagens concluídas, em andamento e não iniciadas?”
+- “Qual é a divisão do status de conclusão do caminho de aprendizado Desenvolvimento de liderança? Mostrar contagens concluídas, em andamento e não iniciadas.”
 - “Quantos alunos concluíram o curso de privacidade de dados no mês passado?”
 
 **Exibições organizacionais**
@@ -260,4 +294,4 @@ Use-os como ponto de partida. Adapte-os substituindo os nomes de conteúdo, grup
 
 **Não há suporte para consultas enviadas em scripts não latinos**
 
-O Agente do Insights oferece suporte a consultas escritas em idiomas do alfabeto inglês e latino, como francês e espanhol. As consultas enviadas usando scripts não latinos, incluindo japonês, chinês, árabe, coreano, hindi e russo, não podem ser processadas e o agente exibirá uma mensagem indicando que a consulta não pôde ser concluída. Se você enviar uma consulta em um desses idiomas, inicie uma nova consulta e a reformule em inglês.
+O Agente do Insights oferece suporte a consultas escritas em idiomas do alfabeto inglês e latino, como francês e espanhol. As consultas enviadas usando scripts não latinos, incluindo japonês, chinês, árabe, coreano, hindi e russo, não são processadas. O agente exibirá uma mensagem indicando que a consulta não pôde ser concluída. Se você enviar uma consulta em um desses idiomas, inicie uma nova consulta e a reformule em inglês.

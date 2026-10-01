@@ -4,13 +4,11 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: bad5de6025494320a863e58d1b0bd95ae6e10038
+source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
 workflow-type: tm+mt
-source-wordcount: '34464'
-ht-degree: 65%
-
+source-wordcount: '35308'
+ht-degree: 63%
 ---
-
 # Notas de versão do Adobe Learning Manager
 
 <!--
@@ -25,6 +23,123 @@ ht-degree: 65%
 </table>
 
 -->
+
++++Atualização 112: versão de 30 de setembro de 2026 do Adobe Learning Manager
+
+## Recursos nesta versão
+
+**Treinador virtual:** o Treinador virtual é uma solução de treinamento viabilizada por IA no Adobe Learning Manager que ajuda os alunos a desenvolverem habilidades por meio de cenários realistas de interpretação de funções, feedback personalizado e prática sob demanda antes de aplicar essas habilidades em situações reais. [Saiba mais](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
+
+**Compartilhamento de vagas:** o compartilhamento de vagas permite que uma conta compartilhe uma parte de suas licenças licenciadas com outra conta, permitindo que os alunos da conta receptora acessem o Adobe Learning Manager usando as vagas compartilhadas. O compartilhamento de vagas está disponível apenas para contas do Ultimate; as contas do Prime não podem compartilhar nem receber vagas e as contas faturadas por cartão de crédito estão no plano do Prime por padrão. As contas de avaliação são uma exceção e podem receber licenças compartilhadas de uma conta do Ultimate. Durante um relacionamento de compartilhamento de licença ativo, a conta de avaliação recebe acesso a recursos de nível mais avançado. [Saiba mais](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Relatório de Registro de Auditoria do Administrador:** o Relatório de Registro de Auditoria do Administrador fornece um registro histórico das alterações de configuração para que você possa determinar:
+
+* Quem fez a alteração
+* Quando a alteração foi feita
+* A configuração anterior à alteração
+* Qual é a configuração após a alteração
+
+O relatório abrange as alterações feitas em:
+
+* Noções básicas
+* Avançado
+* Integrações
+
+Para ver a lista inteira de configurações e seus detalhes em cada categoria, você pode selecionar o link **Baixar lista de configurações** no pop-up Trilha de auditoria do administrador que aparece antes de gerar o relatório.
+
+Estas são as opções disponíveis em cada categoria:
+
+Noções básicas
+
+* Informações básicas
+* Moderação do curso
+* Painel de discussão
+* Várias tentativas
+* Visibilidade de habilidades, tags, produtos e funções
+* IDs exclusivas do objeto de aprendizado → Ativar
+* Mostrar painéis de filtro
+* Exibição padrão (função do aluno) → Exibição em lista
+* Gestão de instrutores
+* Visualização do módulo
+* Ativar preços para cursos/caminhos de aprendizado/certificações
+* Ativar carrinho com SKU de vários itens
+* Configurações do reprodutor
+* Gerentes podem marcar como concluído
+* Registrar usuários automaticamente
+* Excluir automaticamente usuários internos (se eles não acessarem o sistema por (número configurável) dias)
+* Mostrar rótulos de catálogo
+* Tipo de conformidade personalizado
+* Alunos podem visualizar suas pontuações
+* E-mail do resumo
+* Ativar curso/caminho de aprendizado/certificação/cartão de ajuda de tarefa
+* Links de rodapé
+* Fuso horário do relatório
+* Integração do Badgr
+* Mostrar notas
+* Mostrar pop-up de classificação por estrelas no Player
+* Terminologia do produto
+* Atualização da versão do módulo
+* Desativar (curso, caminho de aprendizado ou certificação)
+* Desativação automática (curso, caminho de aprendizado ou certificação)
+* Mostrar todos os cursos inscritos nos resultados da pesquisa
+* Importação de habilidades
+* Gradebook (visibilidade do aluno)
+* Remoção Automática de Usuários Excluídos
+* Créditos
+* Cursos/caminhos alternativos
+* Aprendizado externo
+
+Integrações
+
+* Métodos de logon (interno e externo)
+* Configuração de logon único (SSO)
+* Origens de Dados — (Origens + Configurações de Sincronização)
+* Adicionar informações de parceiros
+
+Avançado
+
+* Etiquetas de catálogo → Todas as etiquetas de catálogo
+* Etiquetas de catálogo → Configurações (acesso de valor)
+* Pasta de conteúdo
+* Locais de sala de aula → lista e editor
+* Locais de sala de aula → Privilégios do autor (configurações)
+* Locais de sala de aula → Importação em massa
+* Locais de sala de aula → Migração de formato de local
+* Calendário de Feriados
+* Relatórios — Configurações (painéis Conformidade e Sucesso do grupo)
+
+Este relatório também pode ser gerado pela API de trabalho. Consulte [Relatório de registro de auditoria do administrador](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) e [API de trabalho para o Relatório de registro de auditoria do administrador](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
+
+## Aprimoramentos nesta versão
+
+### Agente de insights
+
+Foram feitos dois aprimoramentos ao Agente do Insights. São eles:
+
+* **Suporte à terminologia do produto:** se o administrador tiver personalizado termos padrão usando a Terminologia do Produto em Configurações > Geral, o Agente do Insights reconhecerá e usará esses termos em vez da terminologia padrão. Por exemplo, se sua organização renomeou Curso para Capítulo, você pode perguntar “Quantos capítulos foram concluídos no mês passado?” O Agente do Insights interpreta o termo personalizado e usa “capítulo” nos cabeçalhos de resposta e coluna.
+
+* **Inscrição no curso, excluindo a lista de espera por padrão:** Para consultas de inscrição direta e indireta sem filtros, a contagem de inscrições diretas inclui alunos com um status Aguardando, mesmo que eles estejam na lista de espera e não participem ativamente. Por padrão, o painel Abordagem não indica que os alunos da lista de espera estão incluídos na contagem. Os alunos em lista de espera são excluídos somente quando o administrador solicita explicitamente a exclusão, caso em que a regra aplicada é divulgada.
+
+[Saiba mais](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+## API
+
+* **API para acesso ao catálogo de objetos de aprendizado:** A API de acesso ao catálogo de objetos de aprendizado permite determinar se um ou mais objetos de aprendizado estão diretamente acessíveis a um aluno por meio de um catálogo atribuído. Use a resposta para controlar os elementos de interface relacionados à inscrição. Por exemplo, exiba a opção Inscrever-se somente quando o acesso direto ao catálogo for confirmado, permitindo que os alunos visualizem a página do curso independentemente do acesso ao catálogo.
+Saiba mais.
+
+* **API de trabalho para o Relatório de Registro de Auditoria do Administrador:** Esta API é usada para trabalhar com trabalhos de relatório de Registro de Auditoria — criando um trabalho que gera um relatório de Registro de Auditoria de Alteração de Configuração para um determinado intervalo de datas e um conjunto de tipos de configuração.
+
+[Saiba mais](/help/migrated/api-changes-sep-2026.md).
+
+## Correções
+
+**Instância do Caminho de Aprendizado:** as datas de início e término do Caminho de Aprendizado (LP) eram exibidas incorretamente quando o fuso horário da instância do LP era diferente do fuso horário do sistema ou do navegador do administrador. A edição de datas fez com que a Data de Início exibisse o dia errado do calendário e o mesmo problema de conversão de fuso horário afetou os alertas de notificação no calendário.
+
+**Aplicativo móvel:** o reprodutor não foi redimensionado corretamente no Safari e Edge quando os alunos alternaram entre as orientações paisagem e retrato, resultando em problemas de exibição, como uma linha branca na seção Visão geral e impedindo o acesso ao sumário e às notas.
+
+**Gamificação:** os alunos não recebiam pontos de gamificação ao revisitar um curso concluído na seção Marcadores.
+
++++
 
 +++Atualização 111: versão de 31 de agosto de 2026 do Adobe Learning Manager
 
@@ -121,7 +236,7 @@ O Agente do AI Orchestrator move a detecção de intenção para solicitações 
 
 **Emails e notificações:** os alunos que concluíam cursos de certificação recorrentes recebiam emails de conclusão do curso mesmo quando o modelo de email de conclusão estava desabilitado no curso original. Isso ocorria porque certificações recorrentes criavam novos cursos e instâncias sem copiar as configurações originais de notificação do nível do curso, fazendo com que os cursos duplicados usassem as configurações de e-mail padrão. O processo de recorrência foi atualizado para preservar as configurações de notificação do curso ao duplicar cursos. Como resultado, os e-mails de conclusão agora são enviados somente quando explicitamente ativados na configuração original do curso.
 
-**Aluno:** os comunicados de manchete configurados com vídeos exibiam apenas o quadro de vídeo inicial na página inicial do aluno e a reprodução não iniciava automaticamente conforme esperado. O comportamento de reprodução de vídeo foi atualizado para garantir que a reprodução automática de vídeos de manchete suportados ocorra corretamente quando o comunicado for carregado. Os alunos agora podem ver anúncios de manchetes com base em vídeo sem exigir reprodução manual, fornecendo uma experiência mais envolvente.
+**Aluno:** os comunicados de manchete configurados com vídeos exibiam somente o quadro de vídeo inicial na página inicial do aluno e a reprodução não iniciava automaticamente conforme esperado. O comportamento de reprodução de vídeo foi atualizado para garantir que a reprodução automática de vídeos de manchete suportados ocorra corretamente quando o comunicado for carregado. Os alunos agora podem ver anúncios de manchetes com base em vídeo sem exigir reprodução manual, fornecendo uma experiência mais envolvente.
 
 **Aluno:** o widget **Tendências na sua rede** exibiu incorretamente um cartão vazio **Iniciar aprendizado** em ambas as linhas horizontais. Esse problema foi corrigido com a renderização do cartão de estado vazio apropriado para cada linha. A primeira linha agora exibe um link **Ir para o catálogo**, enquanto a segunda linha continua a exibir o cartão **Iniciar aprendizado** conforme o esperado.
 
@@ -169,8 +284,8 @@ Quando um professor compartilha uma janela do Chrome reproduzindo um vídeo e de
 
 O vídeo continua a ser reproduzido localmente para o professor, mas os participantes remotos podem não ver a atualização de conteúdo enquanto a janela compartilhada estiver fora de foco. O comportamento varia de acordo com o sistema operacional:
 
-&#x200B;- No Windows, os participantes veem uma tela preta.
-&#x200B;- No macOS, os participantes veem o último quadro de vídeo exibido.
+- No Windows, os participantes veem uma tela preta.
+- No macOS, os participantes veem a última quadro de vídeo exibida.
 
 A reprodução de vídeo para participantes geralmente reinicia quando o foco retorna à janela do navegador compartilhado.
 
@@ -1889,7 +2004,7 @@ A notificação push agora também é suportada para comunicados.
 
 ### Feedback L1 obrigatório {#mandatoryl1feedback}
 
-Na versão de agosto de 2020 mais recente, o Learning Manager permite que os administradores configurem feedback L1 de modo que todas as perguntas se tornem obrigatórias. O mesmo agora é compatível com a perspectiva do aluno no aplicativo móvel.
+Na versão de agosto de 2020 mais recente, o Learning Manager permite que os administradores configurem feedback L1 de modo que todas as perguntas se tornem obrigatórias. O mesmo agora é compatível com a Perspectiva do aluno no aplicativo móvel.
 
 ### Melhorias na interface do usuário {#userinterfaceenhancements}
 

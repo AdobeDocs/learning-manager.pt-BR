@@ -3,9 +3,9 @@ description: Obtenha respostas rápidas e precisas do seu conteúdo de aprendiza
 jcr-language: en_us
 title: Assistente do AI para alunos no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
+source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3245'
 ht-degree: 0%
 ---
 # Assistente de IA para alunos
@@ -81,7 +81,7 @@ o Adobe processa com segurança o seu conteúdo de aprendizado usando serviços 
 
 O Assistente do AI usa somente conteúdo de catálogos internos e bibliotecas de conteúdo de terceiros. As respostas às consultas dos alunos são derivadas apenas dos catálogos aos quais eles têm acesso.
 
-Não há suporte para as seguintes fontes de conteúdo:
+As seguintes fontes de conteúdo não são suportadas na versão atual:
 
 - Catálogos externos compartilhados
 - Catálogos padrão

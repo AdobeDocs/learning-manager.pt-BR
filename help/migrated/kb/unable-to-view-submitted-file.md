@@ -7,10 +7,8 @@ exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 50%
-
+ht-degree: 59%
 ---
-
 # Não é possível exibir envios de arquivos no Adobe Learning Manager
 
 ## Problema
@@ -39,7 +37,7 @@ Quando o professor tenta aprovar o envio, ele não consegue fazer isso.
 
 Se não houver professor na instância do curso na qual o aluno está inscrito, o problema será exibido.
 
-## Resolução
+## Solução
 
 Para verificar se um professor foi adicionado à instância do curso, execute as etapas abaixo:
 

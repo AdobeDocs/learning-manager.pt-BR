@@ -6,16 +6,14 @@ contentowner: dvenkate
 exl-id: 966d163d-7878-44f4-afdc-38eb95996229
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 85%
-
+source-wordcount: '333'
+ht-degree: 94%
 ---
-
 # Etiquetas de catálogo
 
 As etiquetas de catálogo permitem marcar objetos de aprendizado com campos específicos e aplicar um ou vários valores. Se ativadas, Administradores e Autores podem definir rótulos de catálogo e seus valores, e vinculá-los a objetos de aprendizado.
 
-Use este recurso para categorizar facilmente os dados.  Por exemplo, se quiser categorizar Objetos de aprendizado com base na localização, departamento ou habilidades. Você pode aplicar esses campos e filtrar dados.
+Use este recurso para categorizar facilmente os dados. Por exemplo, se quiser categorizar Objetos de aprendizado com base na localização, departamento ou habilidades. Você pode aplicar esses campos e filtrar dados.
 
 Para ativar as etiquetas de catálogo, siga estas etapas:
 
@@ -49,6 +47,6 @@ Depois de criar as etiquetas de catálogo, você pode aplicá-las a catálogos e
 1. Abra as Etiquetas de catálogo no painel esquerdo.
 1. Clique em **[!UICONTROL Editar]** no canto superior direito. A página mostra a lista de etiquetas de catálogo disponíveis.
 1. Para adicionar uma etiqueta ao catálogo, clique em **[!UICONTROL Adicionar ao catálogo]**.
-1. Para remover etiquetas existentes adicionadas a um Catálogo, clique em **[!UICONTROL Remover]**.
+1. Para remover etiquetas existentes adicionadas a um catálogo, clique em **[!UICONTROL Remover]**.
 
 Quando o campo personalizado é adicionado ao catálogo, ele é aplicado a todos os objetos de aprendizado que fazem parte do catálogo.

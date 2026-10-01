@@ -2,13 +2,11 @@
 description: O agente do Caminho de aprendizado no Adobe Learning Manager é um assistente viabilizado por IA que gera um plano de aprendizado personalizado e sequenciado com base em suas metas, no plano de fundo e no tempo disponível.
 jcr-language: en_us
 title: Learning Path Agent (beta) no Adobe Learning Manager
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 94b05fbec63577cd7441ff91d7d6015f4423f745
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2201'
 ht-degree: 0%
-
 ---
-
 
 # O que é o Learning Path Agent
 
@@ -23,7 +21,7 @@ Os Caminhos de aprendizado personalizados foram desenvolvidos para dois casos de
 
 ## Como funciona a abordagem baseada em conversação
 
-O agente encontra você onde você está. Você começa descrevendo o que deseja aprender em linguagem simples, com o máximo ou mínimo de detalhes possível. O agente então faz perguntas de acompanhamento para entender sua função, seus desafios específicos e quanto tempo você pode dedicar ao aprendizado a cada semana.
+O agente gera um caminho de aprendizado nomeado mostrando cada curso, sua descrição, duração e contagem do módulo. Antes de salvar, você pode pedir ao agente para adicionar, remover ou substituir cursos individuais no caminho usando linguagem natural.”
 
 A partir de suas respostas, o agente identifica de 3 a 5 tópicos de aprendizado com níveis de proficiência sugeridos. Você pode revisar esses tópicos, solicitar alterações ou confirmá-los antes que o agente procure cursos correspondentes. O agente gera um caminho de aprendizado nomeado mostrando cada curso, sua descrição, duração e contagem do módulo. Você pode ajustar o caminho antes de salvá-lo.
 
@@ -47,6 +45,7 @@ Depois de salvar um caminho de aprendizado personalizado, você pode compartilh�
 - Forneça seu compromisso de tempo antecipadamente, para que o caminho gerado se ajuste à sua programação real. O agente entende a linguagem natural: “duas noites por semana” ou “30 minutos por dia” são ambas válidas.
 - Revise os tópicos sugeridos antes de pedir ao agente para gerar cursos. Confirmar ou ajustar tópicos nesse estágio economiza tempo em comparação à revisão posterior da lista de cursos.
 - Se um tópico não mostrar conteúdo correspondente, anote-o e entre em contato com seu administrador para solicitar que os cursos relevantes sejam adicionados ao catálogo.
+- Use o idioma natural para ajustar o caminho antes de salvar. Por exemplo, peça para remover um curso que você já concluiu ou para substituir um que pareça muito avançado.
 
 ## Configurar o agente do Caminho de aprendizado personalizado
 
@@ -84,7 +83,7 @@ Use o assistente de IA do aluno no Adobe Learning Manager para gerar um caminho 
 2. Digite seu objetivo de aprendizado no campo de texto. Seja o mais específico possível. Por exemplo:
    - *Sou um desenvolvedor de software e quero criar um agente de IA usando o cursor.*
    - *Acabei de ser promovido a gerente e quero aprender a lidar com conversas difíceis.*
-   - *Desejo dominar a modelagem financeira como analista.*
+   - *Quero dominar a modelagem financeira como analista.*
      ![](assets/ai-assistant.png)
 
 3. Opcionalmente, selecione _+ Novo chat_ para iniciar uma nova conversa se você tiver sessões anteriores abertas.
@@ -120,11 +119,11 @@ Continue a conversa até que o agente apresente os tópicos sugeridos.
 
 ### Revisar os tópicos sugeridos
 
-Depois de reunir contexto suficiente, o agente apresenta uma lista de 3 a 5 tópicos de aprendizado, cada um com um título, uma breve descrição e um nível de proficiência sugerido.
+Com base nas suas respostas, o agente identifica de 3 a 5 tópicos de aprendizado. Você pode revisar esses tópicos, solicitar alterações ou confirmá-los antes que o agente procure cursos correspondentes. O agente gera um caminho de aprendizado nomeado mostrando cada curso, sua descrição, duração e contagem do módulo. Você pode ajustar o caminho antes de salvá-lo.
 
-1. Leia a lista de tópicos com atenção. O agente seleciona níveis de proficiência com base no que você compartilhou, mas é possível solicitar alterações.
-2. Para ajustar um tópico, por exemplo, para alterar o nível de proficiência ou trocar um tópico, digite seu feedback no bate-papo. Por exemplo, eu já tenho algum conhecimento do primeiro tópico. Você pode definir esse como intermediário?
-3. Se você estiver satisfeito com os tópicos, confirme-os respondendo no chat ou selecionando o prompt de confirmação sugerido, se aparecer.
+1. Revise os tópicos sugeridos para garantir que se alinhem com sua meta de aprendizado.
+2. Para ajustar os tópicos, digite seu feedback no chat. Você pode pedir ao agente para adicionar, remover ou substituir um tópico.
+3. Se você estiver satisfeito com os tópicos sugeridos, confirme-os respondendo no bate-papo ou selecionando o prompt de confirmação sugerido, se aparecer.
 
 ### Revisar o caminho de aprendizado
 
@@ -141,7 +140,27 @@ O agente informa que não encontrou cursos para esses tópicos específicos e su
 <!-- - Review the path. If you want to change something, for example, remove a course, adjust the scope, or explore different topics. Type your request in the chat\. For example, Can you remove the first course and replace it with something shorter? -->
 Quando estiver satisfeito com o caminho, peça ao agente para salvá-lo digitando salvar o caminho de aprendizado.
 
+<!--
 ![](assets/create-lp.png)
+-->
+
+### Ajuste o caminho de aprendizado antes de salvar
+
+Antes de salvar seu caminho, você pode pedir ao agente para adicionar, remover ou substituir um curso. Descreva a alteração na linguagem simples. O agente atualiza somente o curso que você menciona. O restante do caminho permanece o mesmo.
+
+Por exemplo:
+
+- Já terminei o segundo curso. Remova-o.
+- Adicionar um curso sobre [tópico]. Não vejo um na lista.
+- O quarto curso parece muito avançado. Você pode substituí-lo por algo mais fundamental?
+
+O agente aplica sua alteração e mostra o caminho atualizado. Continue ajustando até ficar satisfeito e, em seguida, salve o caminho.
+
+>[!NOTE]
+>
+>Um caminho de aprendizado pode conter no máximo cinco cursos. Se você pedir para adicionar um curso quando o caminho já estiver cheio, o agente perguntará qual curso existente você deseja substituir.
+
+Se sua solicitação não estiver clara, o agente fará uma pergunta esclarecedora antes de fazer uma alteração. Se não houver nenhum substituto adequado para um curso que você deseja trocar, o agente explica o motivo e sugere o curso correspondente mais próximo.
 
 ### Salvar e acessar o seu Caminho de Aprendizado
 
@@ -177,7 +196,7 @@ Todos os seus caminhos salvos aparecerão na faixa _Caminhos de Aprendizado Pers
 
 _Quantos caminhos de aprendizado personalizados posso salvar?_
 
-A faixa _Caminhos de Aprendizado Personalizados_ na sua página inicial mostra um máximo de 10 caminhos.
+A faixa _Caminhos de Aprendizado Personalizados_ na sua página inicial mostra no máximo 20 caminhos.
 
 _Quais informações devo fornecer para obter um Caminho de Aprendizado relevante?_
 
@@ -201,9 +220,13 @@ Sim Durante a conversa, você pode pedir ao agente para adicionar, remover ou al
 
 _Posso alterar os cursos individuais em um caminho gerado?_
 
-Não. Depois que o agente gera um caminho, a seleção do curso é corrigida. Não é possível trocar, remover ou substituir cursos individuais. O que o agente recomenda é o caminho.
+Sim Antes de salvar o caminho, você pode pedir ao agente para adicionar, remover ou substituir um curso usando linguagem natural. Por exemplo, “remova o segundo curso” ou “substitua o quarto curso por algo mais fundamental”. O agente atualiza apenas o curso que você menciona e deixa o restante do caminho inalterado.
 
-Se os cursos sugeridos não parecem corretos, a melhor abordagem é voltar e ajustar os tópicos antes de gerar. O agente seleciona cursos com base nos tópicos que você confirma, portanto, alterar o escopo do tópico ou o nível de proficiência produzirá um conjunto de cursos diferente.
+Se você quiser uma alteração mais ampla em vários tópicos, é mais rápido ajustar os tópicos antes que o agente gere o caminho, uma vez que a seleção do curso é baseada nos tópicos que você confirma.
+
+_O que acontece se eu tentar adicionar um curso, mas meu caminho já estiver cheio?_
+
+Um caminho de aprendizado pode incluir um máximo de cinco cursos. Se você pedir para adicionar um novo curso enquanto o caminho estiver cheio, o agente perguntará qual curso existente você deseja substituir pelo novo.
 
 _Por que o agente continua fazendo perguntas de acompanhamento?_
 
