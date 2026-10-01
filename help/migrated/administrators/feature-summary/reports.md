@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: d8c811bdfc4f41ef354a8563ab59070db436bd1d
+source-git-commit: 6142d938c3bd8758cf4c592a0f343e920ae8b0d7
 workflow-type: tm+mt
-source-wordcount: '8746'
+source-wordcount: '8793'
 ht-degree: 55%
 ---
 # Relatórios {#reports}
@@ -1251,9 +1251,10 @@ O relatório é somente aditivo: os novos registros de alteração são adiciona
 
 O relatório está disponível para qualquer usuário com privilégios de relatório. Isso inclui administradores completos e administradores personalizados que receberam acesso ao relatório, não apenas proprietários de conta.
 
->[!NOTE]
->
->Os registros estarão disponíveis a partir da atualização 112 de setembro de 2026. As alterações feitas antes desta atualização não são incluídas no relatório. Consulte [notas de versão](/help/migrated/release-note/release-notes.md), atualização 112.
+## Registros e alterações {#recordschanges}
+
+* Os registros estarão disponíveis a partir da atualização 112 de setembro de 2026. As alterações feitas antes desta atualização não são incluídas no relatório. Consulte [notas de versão](/help/migrated/release-note/release-notes.md), atualização 112.
+* As alterações feitas em qualquer uma das configurações podem levar até uma hora para serem refletidas no relatório.
 
 ## Por que este relatório é importante para a conformidade
 
@@ -1326,7 +1327,7 @@ O arquivo `.csv` baixado inclui as seguintes colunas.
 
 ## Acessar este relatório programaticamente
 
-Você pode recuperar o Relatório de registro de auditoria do administrador programaticamente usando a API Trabalhos, em vez de gerá-lo manualmente pelo aplicativo do administrador. Isso é útil se você deseja programar exportações regulares ou alimentar o relatório em um sistema de monitoramento ou alerta downstream. Saiba mais sobre a [API de trabalhos para o Relatório de Registro de Auditoria do Administrador](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)
+Você pode recuperar o Relatório de registro de auditoria do administrador programaticamente usando a API Trabalhos, em vez de gerá-lo manualmente pelo aplicativo do administrador. Isso é útil se você deseja programar exportações regulares ou alimentar o relatório em um sistema de monitoramento ou alerta downstream. Saiba mais sobre a [API de Trabalho para o Relatório de Registro de Auditoria do Administrador](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report).
 
 ## Limitações
 
@@ -1345,6 +1346,9 @@ Você pode recuperar o Relatório de registro de auditoria do administrador prog
 
 **Não vejo nenhum registro antes de uma determinada data**
 Os registros estão disponíveis somente a partir da atualização 112 (setembro de 2026). As alterações feitas antes dessa atualização não são incluídas no relatório. Consulte [notas de versão](/help/migrated/release-note/release-notes.md)
+
+**Não vejo minhas alterações, que fiz há alguns minutos, refletidas no relatório**
+Consulte o segundo ponto de marcador em [Registros e alterações](#recordschanges) acima.
 
 **A coluna UUID está vazia para alguns ou todos os registros**
 A coluna UUID será preenchida somente se a UUID estiver ativada no nível da conta. Se não estiver habilitada, essa coluna não estará presente.
