@@ -5,9 +5,9 @@ title: Bem-vindo à documentação do Adobe Learning Manager
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
 contentowner: saghosh
 hide: true
-source-git-commit: 82722a54d6d273a04647ef0f2845aacd5aaba46e
+source-git-commit: eb83025fc9772cfc240b2253f2e6886bd74ee4f5
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1363'
 ht-degree: 1%
 ---
 
@@ -290,211 +290,68 @@ Escolha cursos focados para os principais recursos ou siga caminhos de aprendiza
 
 Descubra as novidades, explore os principais recursos e desenvolva suas habilidades.
 
-<div class="columns">
-    <!-- Check what's new -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Check what's new">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <img
-                        class="is-bordered-r-small"
-                        src="./help/assets/overview/whats-new-updated-new.png"
-                        alt="Confira as novidades"
-                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                </figure>
-            </div>
-            <div class="card-content is-padded-small"
-                 style="display: flex; flex-direction: column; flex-grow: 1;">
-                <p class="headline is-size-6 has-text-weight-bold">
-                    Confira as novidades
-                </p>
-                <p class="is-size-6">
-                    Explore os recursos mais recentes<br>
-                    e as atualizações de versão.
-                </p>
-                <p>
-                    <strong>
-                        <a href="/help/migrated/whats-new.md">
-                            Saiba mais
-                        </a>
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">
-                            Compositor de conteúdo (Beta)
-                        </a>
-                    </strong>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Explore AI -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Explore AI">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <img
-                        class="is-bordered-r-small"
-                        src="./help/assets/overview/explore-ai-new.png"
-                        alt="Explorar IA"
-                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                </figure>
-            </div>
-            <div class="card-content is-padded-small"
-                 style="display: flex; flex-direction: column; flex-grow: 1;">
-                <!-- Insights Agent -->
-                <p class="is-size-6">
-                    <strong>Agente do Insights (Beta)</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">
-                        Saiba mais
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">
-                        Iniciar curso
-                    </a>
-                </p>
-                <!-- Learning Path Agent -->
-                <p class="is-size-6">
-                    <strong>Agente de Caminho de Aprendizado (Beta)</strong><br>
-                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">
-                        Saiba mais
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">
-                        Iniciar curso
-                    </a>
-                </p>
-                <!-- Live Hub -->
-                <p class="is-size-6">
-                    <strong>Hub do Live (Beta)</strong><br>
-                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">
-                        Saiba mais
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">
-                        Iniciar curso
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Learning Experience -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Learning Experience">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <img
-                        class="is-bordered-r-small"
-                        src="./help/assets/overview/learning-experience-new.png"
-                        alt="Experiência de aprendizado"
-                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                </figure>
-            </div>
-            <div class="card-content is-padded-small"
-                 style="display: flex; flex-direction: column; flex-grow: 1;">
-                <!-- Experience Builder -->
-                <p class="is-size-6">
-                    <strong>Construtor de Experiências</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">
-                        Saiba mais
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">
-                        Iniciar curso
-                    </a>
-                </p>
-                <!-- Report Builder -->
-                <p class="is-size-6">
-                    <strong>Report Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">
-                        Saiba mais
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">
-                        Iniciar curso
-                    </a>
-                </p>
-                <!-- Email Builder -->
-                <p class="is-size-6">
-                    <strong>Criador de Email</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">
-                        Saiba mais
-                    </a>
-                    &vert;
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">
-                        Iniciar curso
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--
 <table style="table-layout:fixed">
  <tbody>
-  
-  <tr style="border: 0;">
-   <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
-   
-   <p><strong>Check what's new</strong>
+
+<tr style="border: 0;">
+   <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="Confira as novidades" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+
+<p><strong>Verificar as novidades</strong>
     </p>
-    <p>Explore the latest features<br>and release updates.</p>
+    <p>Explore os recursos<br>e as atualizações de versão mais recentes.</p>
                 <p>
                     <strong>
-                        <a href="/help/migrated/whats-new.md">Learn more</a>
+                        <a href="/help/migrated/whats-new.md">Saiba mais</a>
                     </strong>
                 </p>
                 <p>
                     <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Content Composer (Beta)</a>
+                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Compositor de Conteúdo (Beta)</a>
                     </strong>
     </p>
 
-   
-   </td>
-   <td><img src="./help/assets/overview/explore-ai-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
-   
-<p>
-                    <strong>Insights Agent (Beta)</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">Launch course</a>
-</p>
-<p>
-                    <strong>Learning Path Agent (Beta)</strong><br>
-                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">Launch course</a>
 
-</p>
+</td>
+   <td>&lt;img src=”./help/assets/overview/explore-ai-new.png” alt=”Verificar o que há de novo” style=”width: 100%; proporção: 16 / 9; object-fit: cover;”
 
 <p>
-                    <strong>Live Hub (Beta)</strong><br>
-                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">Launch course</a>
+                    <strong>Agente do Insights (Beta)</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Saiba mais</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">Iniciar curso</a>
+</p>
+<p>
+                    <strong>Agente de Caminho de Aprendizado (Beta)</strong><br>
+                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Saiba mais</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">Iniciar curso</a>
 
 </p>
 
+<p>
+                    <strong>Hub do Live (Beta)</strong><br>
+                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Saiba mais</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">Iniciar curso</a>
 
-                
-   
-   </td>
-   <td><img src="./help/assets/overview/learning-experience-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+</p>
+
+
+
+
+</td>
+   <td>&lt;img src=”./help/assets/overview/learning-experience-new.png” alt=”Verificar o que há de novo” style=”width: 100%; proporção: 16 / 9; object-fit: cover;”
    <p>
-                    <strong>Experience Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Launch course</a>
+                    <strong>Construtor de Experiências</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Saiba mais</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Iniciar curso</a>
     </p>
     <p>
                     <strong>Report Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">Launch course</a>
+                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Saiba mais</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">Iniciar curso</a>
     </p>
 <p>
-                    <strong>Email Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">Launch course</a>
+                    <strong>Criador de Email</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">Saiba mais</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">Iniciar curso</a>
     </p>
     </td>
   </tr>
-  
- </tbody>
+
+</tbody>
 </table>
--->
 
 Descubra como o ALM pode ajudar você a criar, gerenciar e fornecer experiências de aprendizado envolventes. Inscreva-se para uma demonstração personalizada hoje mesmo.
 
