@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35479'
 ht-degree: 63%
 ---
 # Notas de versão do Adobe Learning Manager
@@ -17,7 +17,7 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/br/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -31,6 +31,15 @@ ht-degree: 63%
 **Treinador virtual:** o Treinador virtual é uma solução de treinamento viabilizada por IA no Adobe Learning Manager que ajuda os alunos a desenvolverem habilidades por meio de cenários realistas de interpretação de funções, feedback personalizado e prática sob demanda antes de aplicar essas habilidades em situações reais. [Saiba mais](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
 
 **Compartilhamento de vagas:** o compartilhamento de vagas permite que uma conta compartilhe uma parte de suas licenças licenciadas com outra conta, permitindo que os alunos da conta receptora acessem o Adobe Learning Manager usando as vagas compartilhadas. O compartilhamento de vagas está disponível apenas para contas do Ultimate; as contas do Prime não podem compartilhar nem receber vagas e as contas faturadas por cartão de crédito estão no plano do Prime por padrão. As contas de avaliação são uma exceção e podem receber licenças compartilhadas de uma conta do Ultimate. Durante um relacionamento de compartilhamento de licença ativo, a conta de avaliação recebe acesso a recursos de nível mais avançado. [Saiba mais](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Aprimoramentos no Learning Path Agent:** agora o Learning Path Agent fornece mais flexibilidade para criar e refinar programações de aprendizado personalizadas antes de salvá-las.
+
+* **Criar mais programações de aprendizado:** Os alunos agora podem criar até 20 programações de aprendizado, o que aumentou em relação ao limite anterior de 10.
+* **Refine um caminho antes de salvar:** os alunos podem pedir ao agente em linguagem natural para adicionar, remover ou substituir cursos antes de salvar um caminho de aprendizado. O agente atualiza apenas o curso solicitado, mantendo o restante do caminho inalterado, permitindo que os alunos continuem refinando o caminho até atender às suas necessidades.
+* **Tratamento aprimorado de caminhos de aprendizado completos:** um caminho de aprendizado pode conter até cinco cursos. Se um aluno pedir para adicionar outro curso a um caminho completo, o agente solicita que escolha um curso existente para substituir.
+* **Orientação mais inteligente para alterações de curso:** se a solicitação de um aluno não for clara, o agente solicitará esclarecimentos antes de modificar o caminho. Se um curso de substituição adequado não estiver disponível, o agente explica a limitação e recomenda a alternativa correspondente mais próxima.
+
+[Saiba mais](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 **Relatório de Registro de Auditoria do Administrador:** o Relatório de Registro de Auditoria do Administrador fornece um registro histórico das alterações de configuração para que você possa determinar:
 
@@ -754,7 +763,7 @@ Consulte este [artigo](/help/migrated/learners/feature-summary/fluidic-player.md
 
 * Correção de um problema em que os alunos que tinham concluído um curso viam uma tela em branco ao revisitá-lo após o módulo de conteúdo ter sido atualizado para uma nova versão.
 
-Além disso, para obter detalhes sobre as próximas alterações no Adobe Learning Manager, consulte este [artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Além disso, para obter detalhes sobre as próximas alterações no Adobe Learning Manager, consulte este [artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2234,7 +2243,7 @@ Nesta atualização, o aluno pode carregar ativos como comprovante de conclusão
 
 O aluno pode abrir um certificado externo e carregar ativos, tais como pdf, texto ou arquivos de imagem.
 
-Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas corrigidos nesta versão {#issuesfixedinthisrelease}
 
@@ -2612,7 +2621,7 @@ Data de lançamento: 20 de junho de 2019
 
 **Curadoria automática de conteúdo**
 
-O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. De acordo com a pontuação de confiança, o conteúdo pode ser publicado ou enviado para curadoria manual. Para obter mais informações, consulte *[**&#x200B; Curadoria assistida automaticamente &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. De acordo com a pontuação de confiança, o conteúdo pode ser publicado ou enviado para curadoria manual. Para obter mais informações, consulte *[** Curadoria assistida automaticamente **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mapear habilidades com domínios de habilidades**
 
@@ -3238,7 +3247,7 @@ Data de lançamento: 06 de dezembro de 2016.
 
 ### Aprimoramento {#enhancement}
 
-Como parte desta atualização, o Learning Manager fornece um ponto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para atualizar os usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar&#x200B;**&#x200B;**&#x200B;este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
+Como parte desta atualização, o Learning Manager fornece um ponto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para atualizar os usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar****este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
 
 * Nome
 * E-mail
@@ -3748,7 +3757,7 @@ A exportação de dados de inscrição costumava falhar se um dos alunos inscrit
 
 **Modelos de e-mail**
 
-* A palavra **parceiros,** que era usada para representar os grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do título e do corpo dos modelos de e-mail. Os grupos externos não são chamados necessariamente de parceiros.\
+* A palavra **parceiros,** que era usada para representar os grupos externos,**** foi **** removida do título e do corpo dos modelos de e-mail. Os grupos externos não são chamados necessariamente de parceiros.\
   **Observação:** este modelo atualizado não será exibido se o modelo padrão já estiver modificado. Para exibir o modelo atualizado, clique em **Reverter para Original** na caixa de diálogo **Visualização do Modelo**.
 
 * O URL não será clicável no e-mail recebido pelos administradores sempre que os modelos de e-mail de **Perfil criado (autoinscrição)** e **Perfil criado (externo/parceiros)** estiverem editados. Esse problema foi corrigido.

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
 source-wordcount: '8793'
 ht-degree: 55%
@@ -1249,7 +1249,7 @@ O relatório abrange as alterações feitas em:
 
 O relatório é somente aditivo: os novos registros de alteração são adicionados ao longo do tempo e as entradas registradas anteriormente nunca são removidas. Isso permite que você revise o histórico completo de uma configuração em várias alterações, não apenas no valor atual.
 
-O relatório está disponível para qualquer usuário com privilégios de relatório. Isso inclui administradores completos e administradores personalizados que receberam acesso ao relatório, não apenas proprietários de conta.
+O relatório está disponível para qualquer usuário com privilégios de Relatório. Isso inclui administradores completos e administradores personalizados que receberam acesso ao relatório, não apenas proprietários de conta.
 
 ### Registros e alterações {#recordschanges}
 
