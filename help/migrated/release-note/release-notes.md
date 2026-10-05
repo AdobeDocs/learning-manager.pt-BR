@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '35479'
+source-wordcount: '35230'
 ht-degree: 63%
 ---
 # Notas de versão do Adobe Learning Manager
@@ -17,7 +17,7 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/br/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -53,69 +53,6 @@ O relatório abrange as alterações feitas em:
 * Noções básicas
 * Avançado
 * Integrações
-
-Para ver a lista inteira de configurações e seus detalhes em cada categoria, você pode selecionar o link **Baixar lista de configurações** no pop-up Trilha de auditoria do administrador que aparece antes de gerar o relatório.
-
-Estas são as opções disponíveis em cada categoria:
-
-Noções básicas
-
-* Informações básicas
-* Moderação do curso
-* Painel de discussão
-* Várias tentativas
-* Visibilidade de habilidades, tags, produtos e funções
-* IDs exclusivas do objeto de aprendizado → Ativar
-* Mostrar painéis de filtro
-* Exibição padrão (função do aluno) → Exibição em lista
-* Gestão de instrutores
-* Visualização do módulo
-* Ativar preços para cursos/caminhos de aprendizado/certificações
-* Ativar carrinho com SKU de vários itens
-* Configurações do reprodutor
-* Gerentes podem marcar como concluído
-* Registrar usuários automaticamente
-* Excluir automaticamente usuários internos (se eles não acessarem o sistema por (número configurável) dias)
-* Mostrar rótulos de catálogo
-* Tipo de conformidade personalizado
-* Alunos podem visualizar suas pontuações
-* E-mail do resumo
-* Ativar curso/caminho de aprendizado/certificação/cartão de ajuda de tarefa
-* Links de rodapé
-* Fuso horário do relatório
-* Integração do Badgr
-* Mostrar notas
-* Mostrar pop-up de classificação por estrelas no Player
-* Terminologia do produto
-* Atualização da versão do módulo
-* Desativar (curso, caminho de aprendizado ou certificação)
-* Desativação automática (curso, caminho de aprendizado ou certificação)
-* Mostrar todos os cursos inscritos nos resultados da pesquisa
-* Importação de habilidades
-* Gradebook (visibilidade do aluno)
-* Remoção Automática de Usuários Excluídos
-* Créditos
-* Cursos/caminhos alternativos
-* Aprendizado externo
-
-Integrações
-
-* Métodos de logon (interno e externo)
-* Configuração de logon único (SSO)
-* Origens de Dados — (Origens + Configurações de Sincronização)
-* Adicionar informações de parceiros
-
-Avançado
-
-* Etiquetas de catálogo → Todas as etiquetas de catálogo
-* Etiquetas de catálogo → Configurações (acesso de valor)
-* Pasta de conteúdo
-* Locais de sala de aula → lista e editor
-* Locais de sala de aula → Privilégios do autor (configurações)
-* Locais de sala de aula → Importação em massa
-* Locais de sala de aula → Migração de formato de local
-* Calendário de Feriados
-* Relatórios — Configurações (painéis Conformidade e Sucesso do grupo)
 
 Este relatório também pode ser gerado pela API de trabalho. Consulte [Relatório de registro de auditoria do administrador](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) e [API de trabalho para o Relatório de registro de auditoria do administrador](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
 
@@ -763,7 +700,7 @@ Consulte este [artigo](/help/migrated/learners/feature-summary/fluidic-player.md
 
 * Correção de um problema em que os alunos que tinham concluído um curso viam uma tela em branco ao revisitá-lo após o módulo de conteúdo ter sido atualizado para uma nova versão.
 
-Além disso, para obter detalhes sobre as próximas alterações no Adobe Learning Manager, consulte este [artigo](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Além disso, para obter detalhes sobre as próximas alterações no Adobe Learning Manager, consulte este [artigo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2243,7 +2180,7 @@ Nesta atualização, o aluno pode carregar ativos como comprovante de conclusão
 
 O aluno pode abrir um certificado externo e carregar ativos, tais como pdf, texto ou arquivos de imagem.
 
-Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Para obter mais informações, consulte [***Carregar ativos no certificado externo***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemas corrigidos nesta versão {#issuesfixedinthisrelease}
 
@@ -2621,7 +2558,7 @@ Data de lançamento: 20 de junho de 2019
 
 **Curadoria automática de conteúdo**
 
-O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. De acordo com a pontuação de confiança, o conteúdo pode ser publicado ou enviado para curadoria manual. Para obter mais informações, consulte *[**&#x200B; Curadoria assistida automaticamente &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+O aprendizado social permite dois métodos de curadoria do conteúdo publicado pelos alunos: **Sem curadoria** e **Curadoria manual**. Nesta versão, o Adobe Learning Manager aprimora o aprendizado social com recursos de curadoria automática por IA. Depois de publicado, o conteúdo é analisado para identificar se o conteúdo corresponde à habilidade atribuída. De acordo com a pontuação de confiança, o conteúdo pode ser publicado ou enviado para curadoria manual. Para obter mais informações, consulte *[** Curadoria assistida automaticamente **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mapear habilidades com domínios de habilidades**
 
@@ -3247,7 +3184,7 @@ Data de lançamento: 06 de dezembro de 2016.
 
 ### Aprimoramento {#enhancement}
 
-Como parte desta atualização, o Learning Manager fornece um ponto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para atualizar os usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar&#x200B;**&#x200B;**&#x200B;este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
+Como parte desta atualização, o Learning Manager fornece um ponto final <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> para atualizar os usuários em um aplicativo. Você pode acessar esse ponto final da API na função Administrador. Ao usar****este ponto final, você pode atualizar as seguintes informações dos usuários do Learning Manager:
 
 * Nome
 * E-mail
@@ -3757,7 +3694,7 @@ A exportação de dados de inscrição costumava falhar se um dos alunos inscrit
 
 **Modelos de e-mail**
 
-* A palavra **parceiros,** que era usada para representar os grupos externos,**&#x200B;** foi **&#x200B;**&#x200B;removida do título e do corpo dos modelos de e-mail. Os grupos externos não são chamados necessariamente de parceiros.\
+* A palavra **parceiros,** que era usada para representar os grupos externos,**** foi **** removida do título e do corpo dos modelos de e-mail. Os grupos externos não são chamados necessariamente de parceiros.\
   **Observação:** este modelo atualizado não será exibido se o modelo padrão já estiver modificado. Para exibir o modelo atualizado, clique em **Reverter para Original** na caixa de diálogo **Visualização do Modelo**.
 
 * O URL não será clicável no e-mail recebido pelos administradores sempre que os modelos de e-mail de **Perfil criado (autoinscrição)** e **Perfil criado (externo/parceiros)** estiverem editados. Esse problema foi corrigido.
