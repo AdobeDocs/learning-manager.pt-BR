@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Relatórios
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '8793'
-ht-degree: 55%
+source-wordcount: '9042'
+ht-degree: 54%
 ---
 # Relatórios {#reports}
 
@@ -1247,9 +1247,72 @@ O relatório abrange as alterações feitas em:
 - Configurações **avançadas**
 - Configurações de **integrações**
 
+Para ver a lista inteira de configurações e seus detalhes em cada categoria, você pode selecionar o link **Baixar lista de configurações** no pop-up Trilha de auditoria do administrador que aparece antes de gerar o relatório.
+
+Estas são as opções disponíveis em cada categoria:
+
+**Noções básicas**
+
+* Informações básicas
+* Moderação do curso
+* Painel de discussão
+* Várias tentativas
+* Visibilidade de habilidades, tags, produtos e funções
+* IDs exclusivas do objeto de aprendizado → Ativar
+* Mostrar painéis de filtro
+* Exibição padrão (função do aluno) → Exibição em lista
+* Gestão de instrutores
+* Visualização do módulo
+* Ativar preços para cursos/caminhos de aprendizado/certificações
+* Ativar carrinho com SKU de vários itens
+* Configurações do reprodutor
+* Gerentes podem marcar como concluído
+* Registrar usuários automaticamente
+* Excluir automaticamente usuários internos (se eles não acessarem o sistema por (número configurável) dias)
+* Mostrar rótulos de catálogo
+* Tipo de conformidade personalizado
+* Alunos podem visualizar suas pontuações
+* E-mail do resumo
+* Ativar curso/caminho de aprendizado/certificação/cartão de ajuda de tarefa
+* Links de rodapé
+* Fuso horário do relatório
+* Integração do Badgr
+* Mostrar notas
+* Mostrar pop-up de classificação por estrelas no Player
+* Terminologia do produto
+* Atualização da versão do módulo
+* Desativar (curso, caminho de aprendizado ou certificação)
+* Desativação automática (curso, caminho de aprendizado ou certificação)
+* Mostrar todos os cursos inscritos nos resultados da pesquisa
+* Importação de habilidades
+* Gradebook (visibilidade do aluno)
+* Remoção Automática de Usuários Excluídos
+* Créditos
+* Cursos/caminhos alternativos
+* Aprendizado externo
+
+**Integrações**
+
+* Métodos de logon (interno e externo)
+* Configuração de logon único (SSO)
+* Origens de Dados — (Origens + Configurações de Sincronização)
+* Adicionar informações de parceiros
+
+**Avançado**
+
+* Etiquetas de catálogo → Todas as etiquetas de catálogo
+* Etiquetas de catálogo → Configurações (acesso de valor)
+* Pasta de conteúdo
+* Locais de sala de aula → lista e editor
+* Locais de sala de aula → Privilégios do autor (configurações)
+* Locais de sala de aula → Importação em massa
+* Locais de sala de aula → Migração de formato de local
+* Calendário de Feriados
+* Relatórios — Configurações (painéis Conformidade e Sucesso do grupo)
+
 O relatório é somente aditivo: os novos registros de alteração são adicionados ao longo do tempo e as entradas registradas anteriormente nunca são removidas. Isso permite que você revise o histórico completo de uma configuração em várias alterações, não apenas no valor atual.
 
-O relatório está disponível para qualquer usuário com privilégios de relatório. Isso inclui administradores completos e administradores personalizados que receberam acesso ao relatório, não apenas proprietários de conta.
+O relatório está disponível para qualquer usuário com privilégios de Relatório. Isso inclui administradores completos e administradores personalizados que receberam acesso ao relatório, não apenas proprietários de conta.
 
 ### Registros e alterações {#recordschanges}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notas de versão do Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35230'
 ht-degree: 63%
 ---
 # Notas de versão do Adobe Learning Manager
@@ -32,6 +32,15 @@ ht-degree: 63%
 
 **Compartilhamento de vagas:** o compartilhamento de vagas permite que uma conta compartilhe uma parte de suas licenças licenciadas com outra conta, permitindo que os alunos da conta receptora acessem o Adobe Learning Manager usando as vagas compartilhadas. O compartilhamento de vagas está disponível apenas para contas do Ultimate; as contas do Prime não podem compartilhar nem receber vagas e as contas faturadas por cartão de crédito estão no plano do Prime por padrão. As contas de avaliação são uma exceção e podem receber licenças compartilhadas de uma conta do Ultimate. Durante um relacionamento de compartilhamento de licença ativo, a conta de avaliação recebe acesso a recursos de nível mais avançado. [Saiba mais](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
 
+**Aprimoramentos no Learning Path Agent:** agora o Learning Path Agent fornece mais flexibilidade para criar e refinar programações de aprendizado personalizadas antes de salvá-las.
+
+* **Criar mais programações de aprendizado:** Os alunos agora podem criar até 20 programações de aprendizado, o que aumentou em relação ao limite anterior de 10.
+* **Refine um caminho antes de salvar:** os alunos podem pedir ao agente em linguagem natural para adicionar, remover ou substituir cursos antes de salvar um caminho de aprendizado. O agente atualiza apenas o curso solicitado, mantendo o restante do caminho inalterado, permitindo que os alunos continuem refinando o caminho até atender às suas necessidades.
+* **Tratamento aprimorado de caminhos de aprendizado completos:** um caminho de aprendizado pode conter até cinco cursos. Se um aluno pedir para adicionar outro curso a um caminho completo, o agente solicita que escolha um curso existente para substituir.
+* **Orientação mais inteligente para alterações de curso:** se a solicitação de um aluno não for clara, o agente solicitará esclarecimentos antes de modificar o caminho. Se um curso de substituição adequado não estiver disponível, o agente explica a limitação e recomenda a alternativa correspondente mais próxima.
+
+[Saiba mais](/help/migrated/learners/feature-summary/learning-path-agent.md).
+
 **Relatório de Registro de Auditoria do Administrador:** o Relatório de Registro de Auditoria do Administrador fornece um registro histórico das alterações de configuração para que você possa determinar:
 
 * Quem fez a alteração
@@ -44,69 +53,6 @@ O relatório abrange as alterações feitas em:
 * Noções básicas
 * Avançado
 * Integrações
-
-Para ver a lista inteira de configurações e seus detalhes em cada categoria, você pode selecionar o link **Baixar lista de configurações** no pop-up Trilha de auditoria do administrador que aparece antes de gerar o relatório.
-
-Estas são as opções disponíveis em cada categoria:
-
-Noções básicas
-
-* Informações básicas
-* Moderação do curso
-* Painel de discussão
-* Várias tentativas
-* Visibilidade de habilidades, tags, produtos e funções
-* IDs exclusivas do objeto de aprendizado → Ativar
-* Mostrar painéis de filtro
-* Exibição padrão (função do aluno) → Exibição em lista
-* Gestão de instrutores
-* Visualização do módulo
-* Ativar preços para cursos/caminhos de aprendizado/certificações
-* Ativar carrinho com SKU de vários itens
-* Configurações do reprodutor
-* Gerentes podem marcar como concluído
-* Registrar usuários automaticamente
-* Excluir automaticamente usuários internos (se eles não acessarem o sistema por (número configurável) dias)
-* Mostrar rótulos de catálogo
-* Tipo de conformidade personalizado
-* Alunos podem visualizar suas pontuações
-* E-mail do resumo
-* Ativar curso/caminho de aprendizado/certificação/cartão de ajuda de tarefa
-* Links de rodapé
-* Fuso horário do relatório
-* Integração do Badgr
-* Mostrar notas
-* Mostrar pop-up de classificação por estrelas no Player
-* Terminologia do produto
-* Atualização da versão do módulo
-* Desativar (curso, caminho de aprendizado ou certificação)
-* Desativação automática (curso, caminho de aprendizado ou certificação)
-* Mostrar todos os cursos inscritos nos resultados da pesquisa
-* Importação de habilidades
-* Gradebook (visibilidade do aluno)
-* Remoção Automática de Usuários Excluídos
-* Créditos
-* Cursos/caminhos alternativos
-* Aprendizado externo
-
-Integrações
-
-* Métodos de logon (interno e externo)
-* Configuração de logon único (SSO)
-* Origens de Dados — (Origens + Configurações de Sincronização)
-* Adicionar informações de parceiros
-
-Avançado
-
-* Etiquetas de catálogo → Todas as etiquetas de catálogo
-* Etiquetas de catálogo → Configurações (acesso de valor)
-* Pasta de conteúdo
-* Locais de sala de aula → lista e editor
-* Locais de sala de aula → Privilégios do autor (configurações)
-* Locais de sala de aula → Importação em massa
-* Locais de sala de aula → Migração de formato de local
-* Calendário de Feriados
-* Relatórios — Configurações (painéis Conformidade e Sucesso do grupo)
 
 Este relatório também pode ser gerado pela API de trabalho. Consulte [Relatório de registro de auditoria do administrador](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) e [API de trabalho para o Relatório de registro de auditoria do administrador](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
 
