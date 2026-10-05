@@ -6,11 +6,9 @@ contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
 source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 65%
-
+source-wordcount: '2277'
+ht-degree: 67%
 ---
-
 # Pacote do site de referência do Adobe Learning Manager (site de referência ALM) para o AEM Sites
 
 O Adobe Learning Manager (ALM) integra-se aos sites do Adobe Experience Manager (AEM). Isso permite que você crie seu próprio site e interfaces móveis responsivas para o Adobe Learning Manager com o mínimo esforço de codificação. Com essa integração, você pode criar experiências de aprendizado personalizadas para seus usuários.
@@ -90,7 +88,7 @@ Para aprovar o aplicativo, clique em **[!UICONTROL Aprovar]**.
 ## Configurar conta do ALM no AEM
 
 1. Inicie sua instância do AEM.
-1. Clique em Configurações > Cloud Service.
+1. Clique em Configurações > Cloud Services.
 1. Clique em Configuração do Adobe Learning Manager.
 
    ![](assets/alm-configuration.png)
