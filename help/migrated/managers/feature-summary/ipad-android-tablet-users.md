@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 72%
-
+source-wordcount: '261'
+ht-degree: 89%
 ---
-
 # Usuários de tablet Android e iPad
 
 No aplicativo Learning Manager no iPad ou tablet Android, após fazer logon como aluno, você pode ver a seguinte tela **Inicial**:
@@ -25,7 +23,7 @@ Para navegar para os recursos de aprendizado e do catálogo, toque no **Menu** s
 
 Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPad. Baixe e faça cursos no modo off-line e sincronize o conteúdo com o aplicativo on-line ao conectar-se à rede.
 
-1. Toque na lista suspensa Menu na parte superior e toque em Opção de aprendizado. Uma lista de todos os cursos disponíveis é exibida em quadros.
+1. Toque no Menu suspenso na parte superior e toque na opção Aprendizado. Uma lista de todos os cursos disponíveis é exibida em quadros.
 1. Toque no ícone de download na parte inferior de cada quadro do objeto de aprendizado para baixar o conteúdo do aprendizado.
 
 ![](assets/download-ipad.png)
@@ -36,7 +34,7 @@ Você pode acessar o aplicativo Learning Manager offline no tablet Android e iPa
 
 É possível monitorar periodicamente o armazenamento do dispositivo.
 
-Toque no ícone do perfil no canto superior direito do aplicativo e toque na opção de menu **Armazenamento do dispositivo**.
+Toque no ícone do perfil no canto superior direito do aplicativo e toque na opção **Armazenamento do dispositivo** do menu.
 
 ![](assets/app-device-storage.png)
 

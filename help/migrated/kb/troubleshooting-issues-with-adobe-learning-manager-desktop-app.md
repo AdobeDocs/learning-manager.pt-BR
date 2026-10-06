@@ -6,18 +6,16 @@ contentowner: kuppan
 exl-id: 68d40a52-e048-43af-a7aa-917b569b583d
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 54%
-
+source-wordcount: '1448'
+ht-degree: 61%
 ---
-
 # Solução de problemas com o aplicativo Adobe Learning Manager para desktop
 
 Este documento contém dicas básicas de solução de problemas para solucionar alguns dos problemas típicos que podem ser encontrados ao instalar e usar o aplicativo de desktop Adobe Learning Manager.
 
 ## Não consigo fazer o seguinte {#iamunabletodothefollowing}
 
-+++Não consigo baixar o aplicativo de desktop da Adobe Learning Manager
++++Não consigo baixar o aplicativo de desktop Adobe Learning Manager
 
 1. Verifique a conexão com a Internet e as configurações do firewall.
 1. Em Aprendizado social, clique em **[!UICONTROL Nova publicação]** para criar uma publicação. Se não tiver um painel, primeiro crie um painel.
@@ -26,7 +24,7 @@ Este documento contém dicas básicas de solução de problemas para solucionar 
 
 +++
 
-+++Não consigo instalar o aplicativo de desktop da Adobe Learning Manager
++++Não consigo instalar o aplicativo de desktop Adobe Learning Manager
 
 1. Verifique se seu sistema atende aos requisitos mínimos do sistema. Consulte [Requisitos de sistema para o aplicativo de desktop Adobe Learning Manager](../learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md).
 1. Limpe quaisquer instalações anteriores do aplicativo de desktop Adobe Learning Manager. Para obter mais informações, consulte [Como limpar instalações anteriores](#howtocleanuppreviousinstallationsofadobelearningmanagerdesktopapp) para obter mais informações.
@@ -34,7 +32,7 @@ Este documento contém dicas básicas de solução de problemas para solucionar 
 
 +++
 
-+++Não consigo iniciar o aplicativo de desktop da Adobe Learning Manager
++++Não consigo iniciar o aplicativo de desktop Adobe Learning Manager
 
 1. Assegure-se de que o aplicativo de desktop Adobe Learning Manager tenha sido baixado e instalado.
 1. Em Aprendizado social, clique em **[!UICONTROL Nova publicação]** (se não tiver um painel, primeiro crie um painel). Clique em qualquer uma das seguintes opções de botão da publicação que aparece para criar conteúdo tal como Captura de tela, Gravar áudio, Gravar vídeo, Galeria do Adobe Learning Manager. Você é redirecionado para a página do aplicativo de desktop Adobe Learning Manager.
@@ -42,7 +40,7 @@ Este documento contém dicas básicas de solução de problemas para solucionar 
 
 +++
 
-+++Não consigo fazer logon na minha conta do aplicativo de desktop da Adobe Learning Manager
++++Não consigo fazer logon na minha conta do aplicativo de desktop Adobe Learning Manager
 
 1. Verifique se você está conectado à Internet e se suas configurações de firewall não bloqueiam o aplicativo de desktop Adobe Learning Manager.
 1. Assegure-se de ter uma conta de aluno válida do Adobe Learning Manager com o Aprendizado social ativado.
@@ -51,7 +49,7 @@ Este documento contém dicas básicas de solução de problemas para solucionar 
 
 +++
 
-+++Não consigo ver minha webcam nem meu microfone listados no aplicativo de desktop da Adobe Learning Manager
++++Não consigo ver minha webcam nem meu microfone listados no aplicativo de desktop Adobe Learning Manager
 
 1. Assegure-se de que a webcam ou o microfone esteja apropriadamente conectado ao sistema e que esteja funcionando corretamente.
 1. Verifique se você instalou os drivers mais recentes para a webcam/microfone. Alguns dispositivos não funcionam corretamente sem drivers dedicados.
@@ -60,7 +58,7 @@ Este documento contém dicas básicas de solução de problemas para solucionar 
 
 +++
 
-+++Não consigo publicar minhas publicações a partir do aplicativo de desktop da Adobe Learning Manager
++++Não consigo publicar minhas publicações a partir do aplicativo de desktop Adobe Learning Manager
 
 1. Assegure-se de ter uma conta de aluno válida do Adobe Learning Manager com o Aprendizado social ativado pelo seu administrador do Adobe Learning Manager.
 1. Redefina as preferências do aplicativo e, a seguir, reinicie o aplicativo de desktop Adobe Learning Manager e tente novamente. Para obter mais informações, consulte [Como redefinir as preferências do aplicativo](#howtoresetapplicationpreferences).
@@ -105,15 +103,15 @@ Este documento contém dicas básicas de solução de problemas para solucionar 
 1. Para abrir a caixa de diálogo **Ir para Pasta**, pressione as teclas **Cmd + Shift + G**.
 1. Digite “**/var/folders**” (sem aspas) e pressione Enter.
 1. Pesquise por “**elthor**” na barra de pesquisa e abra a pasta.
-1. Classifique as pastas por **Data de modificação &#x200B;** e abra a pasta mais recente. Essa pasta contém os registros mais recentes do aplicativo.
+1. Classifique as pastas por **Data de modificação **e abra a pasta mais recente. Essa pasta contém os registros mais recentes do aplicativo.
 
 ## Como ativar o registro avançado? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. Para abrir a caixa de diálogo Executar, pressione a tecla **Windows + R**.**&#x200B;**
-1. Digite “**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**” (sem aspas) e pressione Enter.**&#x200B;**
-1. Faça backup do arquivo **preferences.json** e, a seguir, abra-o em um editor de texto.**&#x200B;**
+1. Para abrir a caixa de diálogo Executar, pressione a tecla **Windows + R**.****
+1. Digite “**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**” (sem aspas) e pressione Enter.***
+1. Faça backup do arquivo **preferences.json** e, a seguir, abra-o em um editor de texto.****
 1. Procure a chave **debugMode** e altere a propriedade value dessa chave para “**true**” (sem aspas).
 
 ### Mac OS X {#MacOSX-2}
