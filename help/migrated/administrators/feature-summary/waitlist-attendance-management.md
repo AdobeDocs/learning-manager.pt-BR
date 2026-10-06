@@ -8,9 +8,7 @@ source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 72%
-
 ---
-
 # Gerenciamento de listas de espera e participações
 
 Os administradores podem gerenciar a presença e as listas de espera dos cursos dos alunos.

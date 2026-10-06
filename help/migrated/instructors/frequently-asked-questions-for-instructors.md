@@ -6,11 +6,9 @@ contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
 source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 70%
-
+source-wordcount: '382'
+ht-degree: 74%
 ---
-
 # Perguntas Frequentes para Professores
 
 Leia para conhecer as perguntas frequentes para professores no Learning Manager.
@@ -25,7 +23,7 @@ Se você já estiver conectado ao aplicativo do Learning Manager em outra funç�
 
 +++Quais são os recursos de um professor no Learning Manager?
 
-Os professores de módulos ou sessões podem gerenciar a data, a hora e o local da sessão. Os professores também podem gerenciar o limite de vagas para módulos, gerenciando o limite da lista de espera também. Eles podem limpar a lista de espera e confirmar a lista de participantes de uma sessão. Os professores também podem aprovar envios dos alunos e definir lembretes para os cursos que hospedam as sessões do professor.
+Os professores de módulos ou sessões podem gerenciar a data, a hora e o local da sessão. Os professores também podem gerenciar o limite de vagas para módulos, gerenciando o limite da lista de espera também. Eles podem limpar a lista de espera e confirmar a lista de participantes de uma sessão.Os professores também podem aprovar envios dos alunos e definir lembretes para os cursos que hospedam as sessões do professor.
 
 Depois que a sessão termina, os professores também podem marcar a participação na sessão e aprovar as atribuições e outros arquivos de recursos relacionados à sessão. Para obter informações detalhadas sobre os recursos do professor, consulte [Resumo dos recursos](feature-summary/modules.md).
 
