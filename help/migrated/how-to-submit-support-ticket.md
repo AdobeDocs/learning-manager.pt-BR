@@ -17,7 +17,7 @@ O processo de envio de tíquetes de suporte da Adobe Learning Manager agora est�
 
 Observe que o envio de um tíquete de suporte só está disponível para contatos de suporte autorizados. Para suas dúvidas de suporte, continue enviando seus tíquetes de suporte para a Adobe Learning Manager por email até 11 de maio de 2025. Após essa data, você pode enviar seus tíquetes de suporte por meio do portal de suporte Experience League, conforme descrito abaixo, além do canal de e-mail existente.
 
-1. Para acessar o portal de suporte, visite o site **[!UICONTROL Experience League]** e selecione a guia **[!UICONTROL Suporte]** localizada na parte superior da página. Você também pode visitar o [link direto](https://experienceleague.adobe.com/home#support).
+1. Para acessar o portal de suporte, visite o site **[!UICONTROL Experience League]** e selecione a guia **[!UICONTROL Suporte]** localizada na parte superior da página. Você também pode visitar o [link direto](https://experienceleague.adobe.com/home?lang=pt-BR#support).
 
    ![](assets/support.png)
    _Página inicial de suporte_

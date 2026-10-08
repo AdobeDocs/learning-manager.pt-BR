@@ -359,7 +359,7 @@ Descubra as novidades, explore os principais recursos e desenvolva suas habilida
 Descubra como o ALM pode ajudar você a criar, gerenciar e fornecer experiências de aprendizado envolventes. Inscreva-se para uma demonstração personalizada hoje mesmo.
 
 <div>
-    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
+    <a href="https://business.adobe.com/br/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
