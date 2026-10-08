@@ -4,7 +4,10 @@ jcr-language: en_us
 title: Conectores do Learning Manager
 preview: true
 exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '6186'
 ht-degree: 82%
@@ -49,7 +52,7 @@ Saiba mais sobre o processo de integração do Learning Manager com o Salesforce
 
 ### Pré-requisitos {#prerequisites}
 
-Certifique-se de que sua organização do Salesforce compartilhe um URL com você. Por exemplo, se o nome da organização é **myorg**, o URL do Salesforce pode ser [&#x200B; https://myorg.salesforce.com](https://myorg.salesforce.com/). Esta é a única entrada necessária para conectar a conta do Salesforce ao Learning Manager.
+Certifique-se de que sua organização do Salesforce compartilhe um URL com você. Por exemplo, se o nome da organização é **myorg**, o URL do Salesforce pode ser [ https://myorg.salesforce.com](https://myorg.salesforce.com/). Esta é a única entrada necessária para conectar a conta do Salesforce ao Learning Manager.
 
 Certifique-se também de possuir as credenciais apropriadas para fazer logon na conta.
 

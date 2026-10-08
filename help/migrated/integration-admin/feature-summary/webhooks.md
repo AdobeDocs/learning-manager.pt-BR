@@ -4,13 +4,14 @@ title: Webhooks
 description: Saiba mais sobre os webhooks para enviar informações em tempo real, como inscrições no curso, criação do curso e outras informações, para um URL específico
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1648'
 ht-degree: 0%
-
 ---
-
 # Webhooks
 
 ## Introdução

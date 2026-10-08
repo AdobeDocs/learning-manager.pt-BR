@@ -4,13 +4,14 @@ title: Não é possível obter uma habilidade após concluir um curso
 description: Um aluno, mesmo após concluir um curso, não obtém uma habilidade. As habilidades atribuídas a esse curso permanecem como Em andamento para o aluno.
 contentowner: nluke
 exl-id: d9c1e2a2-351d-4d6f-b2e6-f9e9278e6523
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 52%
-
+ht-degree: 72%
 ---
-
 # Não é possível obter uma habilidade após concluir um curso
 
 ## Problema
@@ -33,7 +34,7 @@ Verifique os **Créditos de habilidade** e o **Ponto** atuais necessários para 
    *Selecione a opção Incluir dados de habilidades e folhas de resumo*
 
 1. Abra o relatório de transcrição do aluno baixado.
-1. Navegue até a folha de **[!UICONTROL Transcrição de habilidades]**. Aqui, você pode ver os **[!UICONTROL Créditos necessários]** e os **[!UICONTROL Créditos obtidos]** pelo aluno.
+1. Navegue até a folha de **[!UICONTROL Transcrição de habilidades]**. Aqui, você pode ver os **[!UICONTROL Créditos necessários]** e **[!UICONTROL Créditos obtidos]** pelo aluno.
 
    Por exemplo, no exemplo abaixo, os créditos necessários para obter a habilidade para um curso são 50. Mas o aluno obteve apenas um crédito.
 

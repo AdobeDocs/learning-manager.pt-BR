@@ -3,13 +3,14 @@ description: Saiba mais sobre como as configurações básicas ajudam a adaptar 
 jcr-language: en_us
 title: Configurações básicas
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6386'
+source-wordcount: '6326'
 ht-degree: 4%
-
 ---
-
 # Configurações básicas no Adobe Learning Manager
 
 ## Visão geral
@@ -58,7 +59,7 @@ Essa opção permite definir o mês de início do exercício financeiro da organ
 
 **Moeda**
 
-A opção Moeda permite definir a moeda padrão da conta. Essa moeda é usada para precificar objetos de aprendizado, como cursos, caminhos de aprendizado e certificações. Por exemplo, se a sua organização opera nos Estados Unidos, você pode definir a moeda como USD ($). Da mesma forma, para operações na Europa, você pode selecionar EUR (€).
+A opção Moeda permite definir a moeda padrão da conta. Essa moeda é usada para precificar objetos de aprendizado, como cursos, caminhos de aprendizado e certificações. Por exemplo, se a sua organização opera nos Estados Unidos, você pode definir a moeda para USD ($). Da mesma forma, para operações na Europa, você pode selecionar EUR (€).
 
 ### Alterar configurações de feedback
 

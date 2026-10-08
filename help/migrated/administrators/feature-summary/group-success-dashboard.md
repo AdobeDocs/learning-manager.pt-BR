@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Painel de Sucesso do Grupo
 description: Saiba mais sobre o Painel de sucesso do grupo no Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 1%
-
 ---
-
 # Painel de Sucesso do Grupo
 
 ## Introdução
@@ -26,9 +27,9 @@ O Painel de Controle de Êxito do Grupo oferece o seguinte:
 
 * **Simplifica o acompanhamento do progresso do aluno**: o painel de sucesso do grupo fornece uma visualização em tempo real e fácil de usar dos dados do aluno, reduzindo a necessidade de transcrições baseadas em Excel. Os gerentes e administradores podem visualizar rapidamente as inscrições do aluno e o progresso do curso para suportar os principais cenários, como:
 
-   * **Prontidão da revisão de desempenho**: os gerentes podem avaliar o progresso do curso para os membros da equipe antes dos ciclos de avaliação.
-   * **Monitoramento de conformidade**: identifique os alunos que não concluíram treinamentos obrigatórios.
-   * **Acompanhamento de nível de equipe**: os gerentes de franquia, loja ou região podem garantir que suas equipes concluam o aprendizado necessário a tempo.
+  * **Prontidão da revisão de desempenho**: os gerentes podem avaliar o progresso do curso para os membros da equipe antes dos ciclos de avaliação.
+  * **Monitoramento de conformidade**: identifique os alunos que não concluíram treinamentos obrigatórios.
+  * **Acompanhamento de nível de equipe**: os gerentes de franquia, loja ou região podem garantir que suas equipes concluam o aprendizado necessário a tempo.
 
 * **Facilita o gerenciamento da equipe**: o Painel de Sucesso do Grupo é útil para gerentes com equipes pequenas (menos de 50 pessoas), como gerentes de lojas, gerentes de franquias, gerentes de concessionárias ou equipes internas. Ele fornece uma visão da equipe e permite que os gerentes verifiquem rapidamente se sua equipe concluiu o conjunto de cursos necessários para atingir as metas de negócios.
 
@@ -41,7 +42,7 @@ Um administrador pode ativar e criar os painéis dando um nome, selecionando gru
 O administrador deve ativar o Painel de sucesso do grupo para a conta. Para ativar o Painel de Controle de Êxito do Grupo, siga estas etapas:
 
 1. Faça logon como administrador.
-2. Selecione **[!UICONTROL Configurações]**&#x200B;e depois **[!UICONTROL Relatórios]**.
+2. Selecione **[!UICONTROL Configurações]**e depois **[!UICONTROL Relatórios]**.
 3. Selecione a alternância **[!UICONTROL Visibilidade do painel]**.
 4. Digite o nome do painel (por exemplo, **[!UICONTROL Painel do Gerenciador de Armazenamento]**).
    ![](assets/enable-gsd.png)

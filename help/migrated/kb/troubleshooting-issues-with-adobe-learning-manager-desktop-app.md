@@ -4,7 +4,10 @@ jcr-language: en_us
 title: Solução de problemas com o aplicativo Adobe Learning Manager para desktop
 contentowner: kuppan
 exl-id: 68d40a52-e048-43af-a7aa-917b569b583d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 61%
@@ -103,15 +106,15 @@ Este documento contém dicas básicas de solução de problemas para solucionar 
 1. Para abrir a caixa de diálogo **Ir para Pasta**, pressione as teclas **Cmd + Shift + G**.
 1. Digite “**/var/folders**” (sem aspas) e pressione Enter.
 1. Pesquise por “**elthor**” na barra de pesquisa e abra a pasta.
-1. Classifique as pastas por **Data de modificação &#x200B;** e abra a pasta mais recente. Essa pasta contém os registros mais recentes do aplicativo.
+1. Classifique as pastas por **Data de modificação **e abra a pasta mais recente. Essa pasta contém os registros mais recentes do aplicativo.
 
 ## Como ativar o registro avançado? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. Para abrir a caixa de diálogo Executar, pressione a tecla **Windows + R**.**&#x200B;**
+1. Para abrir a caixa de diálogo Executar, pressione a tecla **Windows + R**.****
 1. Digite “**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**” (sem aspas) e pressione Enter.***
-1. Faça backup do arquivo **preferences.json** e, a seguir, abra-o em um editor de texto.**&#x200B;**
+1. Faça backup do arquivo **preferences.json** e, a seguir, abra-o em um editor de texto.****
 1. Procure a chave **debugMode** e altere a propriedade value dessa chave para “**true**” (sem aspas).
 
 ### Mac OS X {#MacOSX-2}

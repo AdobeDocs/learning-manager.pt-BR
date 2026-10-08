@@ -4,13 +4,14 @@ title: Importar habilidades de fontes externas
 description: Importe habilidades de provedores de conteúdo, como LinkedIn e Go1, usando os respectivos conectores.  As habilidades importadas serão adicionadas às habilidades definidas pelo administrador no Learning Manager e estarão disponíveis para os autores durante o fluxo de trabalho de criação do curso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
-
 # Importar habilidades de fontes externas
 
 Importe habilidades de provedores de conteúdo, como LinkedIn e Go1, usando os respectivos conectores. Esse aprimoramento é uma parte da meta para a capacidade do Learning Manager de se integrar a nuvens de habilidades e sistemas de gerenciamento de talentos externos. As habilidades importadas serão adicionadas às habilidades definidas pelo administrador no Learning Manager e estarão disponíveis para os autores durante o fluxo de trabalho de criação do curso. Também foram feitos aprimoramentos na funcionalidade de pesquisa de habilidades em toda a plataforma para fornecer uma melhor experiência de pesquisa quando a conta tem um grande número de habilidades.

@@ -3,13 +3,14 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de o
 jcr-language: en_us
 title: Novidades na versão de outubro de 2025 do Adobe Learning Manager
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '5644'
 ht-degree: 0%
-
 ---
-
 
 # Novidades na versão de outubro de 2025 do Adobe Learning Manager
 
@@ -284,9 +285,9 @@ GET /bulkimport/runStatus
 
 * **migrationProjectId**: (Obrigatório). Um identificador exclusivo para um projeto de migração. Um projeto de migração é usado para transferir dados e conteúdo de um sistema de gerenciamento de aprendizagem (LMS) existente para o Adobe Learning Manager. Cada projeto de migração pode consistir em vários sprints, que são unidades menores de tarefas de migração.
 
-* **sprintId**: (obrigatório). Um identificador exclusivo de um sprint em um projeto de migração. Um sprint é um subconjunto de tarefas de migração que inclui itens de aprendizado específicos (por exemplo, cursos, módulos, registros do aluno) a serem migrados de um LMS existente para o Adobe Learning Manager. Cada sprint pode ser executado de forma independente, permitindo a migração em fases.
+* **sprintId**: (obrigatório). Um identificador exclusivo para um sprint em um projeto de migração. Um sprint é um subconjunto de tarefas de migração que inclui itens de aprendizado específicos (por exemplo, cursos, módulos, registros do aluno) a serem migrados de um LMS existente para o Adobe Learning Manager. Cada sprint pode ser executado de forma independente, permitindo a migração em fases.
 
-* **sprintRunId**: (Obrigatório). Um identificador exclusivo usado para rastrear a execução de um sprint específico em um projeto de migração. Está associado ao processo de migração real dos itens definidos em um sprint. O sprintRunId ajuda a monitorar, solucionar problemas e gerenciar o trabalho de migração.
+* **sprintRunId**: (Obrigatório). Um identificador exclusivo usado para controlar a execução de um sprint específico em um projeto de migração. Está associado ao processo de migração real dos itens definidos em um sprint. O sprintRunId ajuda a monitorar, solucionar problemas e gerenciar o trabalho de migração.
 
 **Resposta**
 
@@ -668,7 +669,7 @@ Anteriormente, a API pública não suportava a marcação de conclusão com base
 
 ### Definir preferência de ID de usuário para relatórios SCORM
 
-Alguns clientes exigem a UUID (Universally Unique Identifier) do aluno em vez da user_id padrão para a conclusão do conteúdo SCORM. O uso da UUID fornece um rastreamento mais preciso de todos os programas de aprendizado e impede a duplicação do uso de licenças em contas MAU (Monthly Ative User).
+Alguns clientes exigem a UUID (Universally Unique Identificador) do aluno em vez da user_id padrão para a conclusão do conteúdo do SCORM. O uso da UUID fornece um rastreamento mais preciso de todos os programas de aprendizado e impede a duplicação do uso de licenças em contas MAU (Monthly Ative User).
 
 Para oferecer suporte a isso, uma nova configuração no nível da conta, `reporting_userid_preference`, foi adicionada. Quando ativada, essa configuração envia a UUID no lugar da user_id sempre que os alunos concluem o conteúdo do SCORM.
 
@@ -730,7 +731,7 @@ Exiba a [Transcrição do aluno](/help/migrated/administrators/feature-summary/r
 
 O Relatório de usuário agora inclui campos adicionais para aprimorar o rastreamento do usuário e o mapeamento organizacional. Essas atualizações simplificam a identificação do usuário, oferecem suporte à integração com fluxos de trabalho de gerenciamento de usuários downstream, melhoram a compreensão das relações de emissão de relatórios e mantêm os limites organizacionais para evitar a comunicação cruzada acidental.
 
-* Coluna ID de Usuário Interno: fornece identificadores internos exclusivos para um controle de usuário suave entre diferentes sistemas e endpoints de API.
+* Coluna ID de usuário interno: fornece identificadores internos exclusivos para um rastreamento de usuário suave em diferentes sistemas e endpoints de API.
 * Coluna E-mail do Gerente: inclui informações de contato direto do gerente para rastreamento da hierarquia organizacional.
 
 ![Relatório de Usuário que mostra as colunas internas de ID de usuário e email do gerente destacadas em amarelo](/help/migrated/assets/user-report-columns.png)

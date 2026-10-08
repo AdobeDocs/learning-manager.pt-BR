@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Ajudas de tarefa
 description: As ajudas de tarefa correspondem a um repositório de conteúdo de treinamento acessível aos alunos sem nenhum tipo de inscrição nem critérios de conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 42%
-
 ---
-
 # Ajudas de tarefa
 
 **Ajudas de tarefa** é um repositório de conteúdo de treinamento acessível aos alunos sem qualquer inscrição ou critério de conclusão. Os alunos podem consultar essas ajudas de tarefa para obter assistência na execução de qualquer atividade ou tarefa em uma empresa.

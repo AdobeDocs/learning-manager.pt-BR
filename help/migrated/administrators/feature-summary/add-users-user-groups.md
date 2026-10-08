@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adicionar usuários no Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 2%
-
 ---
-
 
 # Adicionar usuários no Adobe Learning Manager
 
@@ -57,7 +58,8 @@ Para adicionar um único usuário ao Adobe Learning Manager:
    ![](assets/add-a-user-prompt.png)
    _Campos para inserir nome, email, identificador exclusivo e perfil para um novo usuário_
 5. Procure o gerente do usuário e selecione o nome na lista de gerentes.
-6. Selecione **Adicionar**.O usuário recebe um e-mail de boas-vindas contendo um URL de logon para acesso.
+6. Selecione **Adicionar**.
+O usuário recebe um e-mail de boas-vindas contendo um URL de logon para acesso.
 
 
 ### Permitir autorregistro para usuários internos
@@ -269,7 +271,7 @@ Existem algumas diferenças entre registros internos e externos:
 | Usuários internos | Usuários externos |
 |---|---|
 | É possível fazer logon usando as credenciais do Adobe ID ou SSO. | É possível fazer logon usando qualquer ID de email. |
-| A gamificação está disponível. | A gamificação está disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/gamification). |
+| A gamificação está disponível. | A gamificação está disponível. O administrador deve habilitar a gamificação para alunos externos nas [Configurações de gamificação](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausar perfil de registro externo
 

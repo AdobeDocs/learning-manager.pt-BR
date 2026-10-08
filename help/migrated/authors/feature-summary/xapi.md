@@ -3,13 +3,14 @@ jcr-language: en_us
 title: xAPI no Learning Manager
 description: A Experience API (xAPI) é uma especificação de software de e-learning que permite que o conteúdo de aprendizado e os sistemas de aprendizado se comuniquem entre si de maneira que registrem e rastreiem todos os tipos de experiências de aprendizado.
 exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 77%
-
 ---
-
 # xAPI no Learning Manager
 
 ## O que é xAPI? {#whatisxapi}
@@ -65,7 +66,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monitorar a experiência do usuário fora do Learning Manager. Por exemplo, você pode usar esse recurso para avaliar as atividades dos usuários em uma plataforma de terceiros usada para a realização do curso.
 
-1. Ao criar um **[!UICONTROL Módulo de Atividade]**, na opção **[!UICONTROL Tipo]**&#x200B;use o menu pop-up para selecionar o **[!UICONTROL Módulo baseado em xAPI.]**
+1. Ao criar um **[!UICONTROL Módulo de Atividade]**, na opção **[!UICONTROL Tipo]**use o menu pop-up para selecionar o **[!UICONTROL Módulo baseado em xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -85,7 +86,7 @@ Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monito
 
 **Pontos a observar:**
 
-* No momento, o Learning Manager oferece suporte somente ao mbox como um identificador. Outros identificadores, incluindo mboz_sha1, openid, account, não são suportados.
+* No momento, o Learning Manager oferece suporte somente ao mbox como um identificador. Outros identificadores, incluindo mboz_sha1, openid, account, não são compatíveis.
 
 * A stateId e a profileId são UUID quando usadas com o Learning Manager.
 * A solicitação de PUT não substitui o documento para agentes/perfil xAPIs, atividade/perfil e atividade/estado

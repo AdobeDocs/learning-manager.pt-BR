@@ -1,13 +1,14 @@
 ---
 title: Gerenciar feriados no Adobe Learning Manager
 description: Saiba como os administradores definem feriados em toda a organização que afetam a disponibilidade do professor para sessões do Live Hub, individualmente ou por importação de CSV.
-source-git-commit: 4c16d16205302542d2b2c5cfc10940cb4e7e7e98
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 7%
-
 ---
-
 
 # Gerenciar Feriados
 

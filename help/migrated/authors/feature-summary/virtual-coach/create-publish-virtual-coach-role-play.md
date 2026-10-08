@@ -3,7 +3,10 @@ description: Saiba como criar, configurar e publicar uma representação de coac
 jcr-language: en_us
 title: Criar e publicar uma interpretação de funções de treinador virtual
 exl-id: f37e93ef-6d76-4b7c-b4c3-f3f8c57b143c
-source-git-commit: 449f25df93867bf4d5ec11af057f8da7c405a09f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '4850'
 ht-degree: 0%
@@ -181,7 +184,7 @@ Duas guias estão disponíveis: **Pessoas do Sistema** e **Pessoas Personalizada
 ![](/help/migrated/authors/feature-summary/assets/virtual_coach4.png)
 *Reutilize uma persona personalizada de uma interpretação anterior em vez de criar uma nova do zero.*
 
-Você pode reutilizar uma pessoa de duas maneiras: edite seus detalhes diretamente para transformá-la em uma pessoa diferente ou selecione **Duplicar** para criar uma cópia e alterar os detalhes da cópia. Para ver ambas as opções, selecione o ícone de reticências verticais (**&#x200B;**) que aparece no canto superior direito da imagem de uma pessoa quando você passa o mouse sobre ela ou a seleciona.
+Você pode reutilizar uma pessoa de duas maneiras: edite seus detalhes diretamente para transformá-la em uma pessoa diferente ou selecione **Duplicar** para criar uma cópia e alterar os detalhes da cópia. Para ver ambas as opções, selecione o ícone de reticências verticais (****) que aparece no canto superior direito da imagem de uma pessoa quando você passa o mouse sobre ela ou a seleciona.
 
 ### Configurar detalhes e personalidade pessoais
 
@@ -292,7 +295,7 @@ Cada linha na tabela de tópicos representa uma área de conversa obrigatória:
 
 - Para editar qualquer campo em uma linha de tópico existente, selecione o campo diretamente e atualize o texto ou o valor.
 - Para regenerar as diretrizes de avaliação usando IA com base na sua personalidade e contexto, selecione o ícone de atualização (**↻**) na célula **Diretrizes de avaliação**.
-- Para remover um tópico, selecione o menu de opções (**&#x200B;**) no final da linha e selecione **Excluir tópico**.
+- Para remover um tópico, selecione o menu de opções (****) no final da linha e selecione **Excluir tópico**.
 - Para duplicar um tópico e usá-lo como base para outro semelhante, selecione **Duplicar tópico** no mesmo menu.
 
 ### Diretrizes para escrever tópicos eficazes

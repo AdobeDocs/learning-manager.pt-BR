@@ -4,13 +4,14 @@ title: Descontinuações de API no Adobe Learning Manager
 description: À medida que as APIs no Adobe Learning Manager evoluem, elas são periodicamente reorganizadas ou atualizadas. Quando as APIs evoluem, a API antiga é descontinuada e eventualmente removida. Esta página contém informações que você precisa saber ao migrar de versões de API obsoletas para versões de API mais novas e estáveis.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 34%
-
 ---
-
 # Descontinuações e alterações de API no Adobe Learning Manager
 
 ## Descontinuações de API na versão de março de 2024 do Adobe Learning Manager
@@ -76,30 +77,30 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 Os caminhos a seguir estão obsoletos:
 
 * /learningObjects
-   * Caminhos obsoletos:
-      * enrollment.loInstance.loResources.resources
-      * instance.loResources.resources
-   * Novos caminhos:
-      * enrollment.loInstance.loResources
-      * instance.loResources
+  * Caminhos obsoletos:
+    * enrollment.loInstance.loResources.resources
+    * instance.loResources.resources
+  * Novos caminhos:
+    * enrollment.loInstance.loResources
+    * instance.loResources
 
 * /learningObjects/{id}
-   * Caminho preterido:
-      * enrollment.instance.subLoInstances.learningObject
-   * Novo caminho:
-      * enrollment.instance.subLoInstances
+  * Caminho preterido:
+    * enrollment.instance.subLoInstances.learningObject
+  * Novo caminho:
+    * enrollment.instance.subLoInstances
 
 * /enrollments
-   * Caminho preterido:
-      * loInstance.learningObject.enrollment
-   * Novo caminho:
-      * loInstance.learningObject
+  * Caminho preterido:
+    * loInstance.learningObject.enrollment
+  * Novo caminho:
+    * loInstance.learningObject
 
 * /learningObjects/{id}
-   * Caminho preterido:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Novo caminho:
-      * instance.subLoInstances
+  * Caminho preterido:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Novo caminho:
+    * instance.subLoInstances
 
 <!--
 ### Instance summary count changes 

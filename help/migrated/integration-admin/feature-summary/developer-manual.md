@@ -4,13 +4,14 @@ title: Manual do desenvolvedor de aplicativos
 description: Saiba como integrar e personalizar aplicativos usando APIs RESTful, que abrangem tópicos essenciais, como autenticação OAuth 2.0, cenários de uso de API e modelos de dados. Aprimore os aplicativos corporativos com recursos como criação do curso, rastreamento do progresso do aluno, mapeamento de habilidades, certificação, gamificação e muito mais. Este guia fornece instruções passo a passo e exemplos reais para ajudar os desenvolvedores a criar fluxos de trabalho contínuos e eficientes. Ideal para desenvolvedores que desejam aproveitar os recursos do Adobe Learning Manager para criar aplicativos centrados no aluno.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4415'
+source-wordcount: '4577'
 ht-degree: 6%
-
 ---
-
 
 # Manual do desenvolvedor do Adobe Learning Manager
 
@@ -54,14 +55,14 @@ Integre o Adobe Learning Manager a aplicativos externos para aumentar a versatil
    * **[!UICONTROL Descrição]**: breve descrição do que o aplicativo faz.
    * **[!UICONTROL Escopos]**: selecione uma das seis opções disponíveis para definir o escopo do seu aplicativo. Com base na sua escolha mencionada aqui, os endpoints da API do Learning Manager estão acessíveis para o seu aplicativo. Por exemplo, se você escolheu o acesso de leitura da função do aluno, todos os pontos de extremidade da API do aluno do Learning Manager são somente leitura acessíveis ao seu aplicativo.
 
-      * Acesso de leitura/gravação da função de administrador: permite que o aplicativo acesse ou modifique dados como administrador.
-      * Acesso de leitura/gravação da função do aluno: permite que o aplicativo acesse ou modifique os dados dos alunos.
-      * Acesso de leitura/gravação xAPI: permite que o aplicativo acesse e envie instruções da Experience API (xAPI).
+     * Acesso de leitura/gravação da função de administrador: permite que o aplicativo acesse ou modifique dados como administrador.
+     * Acesso de leitura/gravação da função do aluno: permite que o aplicativo acesse ou modifique os dados dos alunos.
+     * Acesso de leitura/gravação xAPI: permite que o aplicativo acesse e envie instruções da Experience API (xAPI).
 
    * **[!UICONTROL Apenas para esta conta?]**
 
-      * **[!UICONTROL Sim]** - se você escolher Sim, o aplicativo não estará visível para outros administradores de conta.
-      * **[!UICONTROL Não]** - se você escolher Não, outros administradores de conta também poderão acessar este aplicativo, mas precisarão usar a ID do aplicativo para acessar este aplicativo. A ID do aplicativo é gerada e exibida no modo Edição do aplicativo Learning Manager.
+     * **[!UICONTROL Sim]** - se você escolher Sim, o aplicativo não estará visível para outros administradores de conta.
+     * **[!UICONTROL Não]** - se você escolher Não, outros administradores de conta também poderão acessar este aplicativo, mas precisarão usar a ID do aplicativo para acessar este aplicativo. A ID do aplicativo é gerada e exibida no modo Edição do aplicativo Learning Manager.
 
      ![texto alternativo](assets/register-an-app.png)
 

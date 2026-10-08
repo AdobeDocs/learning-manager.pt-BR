@@ -3,18 +3,19 @@ jcr-language: en_us
 title: Comunicados
 description: Um comunicado é uma mensagem multimídia (imagem de texto ou vídeo) que um administrador transmite para um conjunto definido de usuários.
 exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 61%
-
+ht-degree: 84%
 ---
-
 # Comunicados
 
 Um comunicado é uma mensagem multimídia (imagem de texto ou vídeo) que um administrador transmite para um conjunto definido de usuários.
 
-O administrador pode transmitir comunicados aos alunos para informá-los sobre a ocorrência de um evento ou uma atividade. Quando um comunicado é transmitido para um grupo específico ou usuários do objeto de aprendizado, todos os alunos associados ao grupo de destino recebem notificações.
+O administrador pode transmitir comunicados aos alunos para informá-los sobre a ocorrência de um evento ou uma atividade. Quando um comunicado é transmitido para um grupo específico ou para os usuários do objeto de aprendizado, todos os alunos associados ao grupo de destino recebem notificações.
 
 ## Notificação de comunicados {#announcementsnotification}
 

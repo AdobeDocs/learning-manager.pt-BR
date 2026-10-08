@@ -4,13 +4,14 @@ title: Instalar pacote do Salesforce
 description: O Learning Manager oferece um pacote do aplicativo Salesforce. Depois de instalados e configurados no SFDC, os funcionários de vendas podem executar suas atividades de treinamento no portal do SFDC. Este aplicativo permite que os usuários do SFDC explorem novos treinamentos, visualizem recomendações e as consumam diretamente no portal do SFDC. Os usuários também recebem os comunicados enviados pelos administradores na forma de cabeçalhos diretamente no aplicativo no portal do SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 64%
-
 ---
-
 # Instalar pacote do Salesforce
 
 ## Visão geral

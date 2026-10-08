@@ -3,7 +3,10 @@ description: Saiba como integrar o conector do Salesforce com o Adobe Learning M
 jcr-language: en_us
 title: Conector do Salesforce
 contentowner: mmanuel
-source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2251'
 ht-degree: 4%
@@ -361,7 +364,7 @@ Você pode usar perfis existentes ou criar perfis personalizados para usuários 
 
 **Criar perfis personalizados**
 
-1. Navegue até **Configuração** e selecione **&#x200B; usuários. &#x200B;**
+1. Navegue até **Configuração** e selecione** usuários. **
 2. Selecione **Perfis**.
 3. Clique em **Novo Perfil**.
 4. Crie um perfil personalizado com base em um existente, personalizado para os usuários do Adobe Learning Manager.

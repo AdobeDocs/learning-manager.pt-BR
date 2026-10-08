@@ -4,13 +4,14 @@ title: Credly
 description: Saiba mais sobre a integração de credenciais com o ALM para gerenciar e compartilhar medalhas externas da plataforma em vários canais de redes sociais
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # Credly
 
 A [Credibilidade](https://info.credly.com/) é uma plataforma de credencial digital que permite que alunos e organizações obtenham, compartilhem e verifiquem conquistas profissionais, como medalhas ou certificações. Os alunos podem gerenciar e compartilhar medalhas por meio de seu perfil de credencial nas redes sociais e em outros lugares.
@@ -45,11 +46,11 @@ O arquivo badge.csv no Adobe Learning Manager permite migrar medalhas do LMS exi
 * externalBadgeId
 * externalBadgeProvider
 
-A ID da medalha externa se refere à ID do modelo de medalha na plataforma Credly, e o provedor de medalha externa é Credly. Adicione esses valores em badge.csv e siga as etapas mencionadas no [Manual de migração](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar o csv.
+A ID da medalha externa se refere à ID do modelo de medalha na plataforma Credly, e o provedor de medalha externa é Credly. Adicione esses valores em badge.csv e siga as etapas mencionadas no [Manual de migração](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) para migrar o csv.
 
 ## Criar uma habilidade - Administrador
 
-Depois que a medalha for importada para o Adobe Learning Manager, o administrador pode criá-la como uma habilidade. Para saber como criar uma habilidade, consulte [Criar e modificar habilidades](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/admin/skills-levels).
+Depois que a medalha for importada para o Adobe Learning Manager, o administrador pode criá-la como uma habilidade. Para saber como criar uma habilidade, consulte [Criar e modificar habilidades](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels).
 
 ### Atribuir a habilidade/medalha ao objeto de aprendizado - Autor
 

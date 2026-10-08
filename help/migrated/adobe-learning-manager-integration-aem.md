@@ -4,7 +4,10 @@ title: Pacote do site de referência do Adobe Learning Manager (site de referên
 description: O Adobe Learning Manager (ALM) integra-se aos sites do Adobe Experience Manager (AEM). Isso permite que você crie seu próprio site e interfaces móveis responsivas para o Adobe Learning Manager com o mínimo esforço de codificação. Com essa integração, você pode criar experiências de aprendizado personalizadas para seus usuários.
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2277'
 ht-degree: 67%

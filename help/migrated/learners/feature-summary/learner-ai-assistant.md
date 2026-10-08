@@ -3,7 +3,10 @@ description: Obtenha respostas rápidas e precisas do seu conteúdo de aprendiza
 jcr-language: en_us
 title: Assistente do AI para alunos no Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3245'
 ht-degree: 0%
@@ -354,7 +357,7 @@ O Assistente de aprendizado do Adobe Learning Manager pode responder perguntas d
 
 >[!IMPORTANT]
 >
->Como pré-requisito, um administrador deve adicionar os catálogos necessários ao Assistente do aluno. Consulte[Configurar acesso ao Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obter mais detalhes.
+>Como pré-requisito, um administrador deve adicionar os catálogos necessários ao Assistente do aluno. Consulte[Configurar acesso ao Assistente de IA](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) para obter mais detalhes.
 
 
 Quando um administrador adiciona um catálogo Go1 ou LinkedIn Learning ao Adobe Learning Manager, o conteúdo do catálogo passa por um processo de inclusão agendada. Após a conclusão da ingestão, os objetos de aprendizado desse catálogo ficam disponíveis para consulta no Learning Assistant.

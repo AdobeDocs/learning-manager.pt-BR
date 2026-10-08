@@ -1,13 +1,14 @@
 ---
 title: Legendas ocultas em sessões do Live Hub
 description: Saiba como as legendas ocultas exibem conteúdo falado em tempo real para que professores e alunos possam acompanhar durante as sessões do Live Hub.
-source-git-commit: e5c05e030c1254b41d8a3197a168b6cd1aafb18b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
-
 ---
-
 
 As legendas codificadas transcrevem o conteúdo falado em tempo real durante uma sessão do Live Hub. Os participantes veem o texto falado na tela à medida que a conversa acontece. As legendas são úteis quando o áudio não está claro, por exemplo, em ambientes ruidosos ou quando os participantes preferem ler junto. As legendas codificadas são especialmente úteis em situações em que o áudio não é claro, como em ambientes ruidosos ou quando os participantes preferem ler junto com a discussão.
 

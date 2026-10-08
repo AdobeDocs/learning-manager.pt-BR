@@ -2,13 +2,14 @@
 description: Saiba como o Compositor de conteúdo lida com a criação e o Adobe Learning Manager lida com a entrega, o rastreamento e a geração de relatórios após a publicação.
 jcr-language: en_us
 title: Como o Compositor de conteúdo e o Adobe Learning Manager trabalham juntos
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
-
 ---
-
 
 # Como o Adobe Learning Manager Content Composer e o Adobe Learning Manager funcionam juntos
 
@@ -59,14 +60,14 @@ Para mais informações, consulte [Definir configurações do curso](#settings).
 
 4.**Publish o curso ALM:** um autor do ALM monta o módulo em um curso ALM, adiciona imagens e configurações do curso e o publica. Somente após essa etapa é possível inscrever os alunos.
 
-Para obter mais informações, consulte o [Adobe Learning Manager](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/get-started/getting-started-author).
-![&#x200B; A Biblioteca de Conteúdo no Adobe Learning Manager, mostrando os módulos publicados e de processamento](../assets/51_alm_content_library_list_view_updated.png)
+Para obter mais informações, consulte o [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author).
+![ A Biblioteca de Conteúdo no Adobe Learning Manager, mostrando os módulos publicados e de processamento](../assets/51_alm_content_library_list_view_updated.png)
 
-Para obter mais informações, consulte [Criação do curso como autor no ALM](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/authors/courses).
+Para obter mais informações, consulte [Criação do curso como autor no ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses).
 
 5.**Os alunos concluem o curso:** acessam o curso por meio do Adobe Learning Manager, iniciam o módulo Compositor de Conteúdo, concluem lições e questionários e recebem pontuações com base nos critérios de conclusão e sucesso configurados na Etapa 1.
 
-Para mais informações, consulte [Acessar curso como aluno](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/get-started/getting-started-learner).
+Para mais informações, consulte [Acessar curso como aluno](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-learner).
 
 &#x200B;6. O ALM registra o progresso do aluno: o status de conclusão, as pontuações do quiz e os dados do aluno são registrados no ALM e disponibilizados por meio de transcrições do aluno e relatórios administrativos.
 

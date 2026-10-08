@@ -1,13 +1,14 @@
 ---
 title: Gravar uma sessão no Live Hub
 description: Saiba como os professores iniciam, pausam e interrompem uma gravação, reproduzem e editam gravações e geram tópicos e transcrições de IA em uma sessão do Live Hub.
-source-git-commit: a674dd6e6ce34adbb7b756e151f6a0dc0437dc94
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 0%
-
 ---
-
 
 # Gravar uma sessão
 

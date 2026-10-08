@@ -3,20 +3,21 @@ jcr-language: en_us
 title: Como enviar um tíquete de suporte no Experience League
 description: Saiba como enviar uma solicitação de suporte no Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # Como enviar um tíquete de suporte no Experience League
 
 O processo de envio de tíquetes de suporte da Adobe Learning Manager agora está diretamente integrado à plataforma de suporte da Experience League. Este é um portal de autoatendimento que foi recentemente reprojetado para oferecer mais personalização e facilidade de uso para clientes autorizados. Consulte este guia abaixo para obter mais informações sobre como acessar o portal de Suporte Experience League e registrar um chamado.
 
 Observe que o envio de um tíquete de suporte só está disponível para contatos de suporte autorizados. Para suas dúvidas de suporte, continue enviando seus tíquetes de suporte para a Adobe Learning Manager por email até 11 de maio de 2025. Após essa data, você pode enviar seus tíquetes de suporte por meio do portal de suporte Experience League, conforme descrito abaixo, além do canal de e-mail existente.
 
-1. Para acessar o portal de suporte, visite o site **[!UICONTROL Experience League]** e selecione a guia **[!UICONTROL Suporte]** localizada na parte superior da página. Você também pode visitar o [link direto](https://experienceleague.adobe.com/home?lang=pt-BR#support).
+1. Para acessar o portal de suporte, visite o site **[!UICONTROL Experience League]** e selecione a guia **[!UICONTROL Suporte]** localizada na parte superior da página. Você também pode visitar o [link direto](https://experienceleague.adobe.com/home#support).
 
    ![](assets/support.png)
    _Página inicial de suporte_

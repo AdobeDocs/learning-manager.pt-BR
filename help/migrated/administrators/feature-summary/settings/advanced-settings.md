@@ -3,13 +3,14 @@ description: Saiba mais sobre como definir Configurações avançadas no Adobe L
 jcr-language: en_us
 title: Configurações avançadas no Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 1%
-
 ---
-
 # Configurações avançadas no Adobe Learning Manager
 
 ## Etiquetas de catálogo
@@ -93,7 +94,7 @@ A tabela a seguir descreve o que cada função pode fazer com a hierarquia de pa
 
 ### Limites da estrutura de pastas
 
-| **Limite** | Valor **1&rbrace;** |
+| **Limite** | Valor **1}** |
 |---------------------------------------|-----------|
 | Pastas de nível 1 por conta | Sem limite |
 | Subpastas de nível 2 por pasta de nível 1 | 25 |
@@ -302,17 +303,17 @@ Sessões de hub.
 
 Feriados são um conjunto de dias não úteis mantidos no nível da conta, com as seguintes propriedades:
 
-&#x200B;- Somente o administrador pode adicionar, editar ou excluir feriados.
+- Somente o administrador pode adicionar, editar ou excluir feriados.
 
-&#x200B;- Os feriados aplicam-se a toda a organização e aparecem no calendário de cada professor como dias não úteis.
+- Os feriados aplicam-se a toda a organização e aparecem no calendário de cada professor como dias não úteis.
 
-&#x200B;- Como os feriados marcam os professores como indisponíveis, as sessões do Live Hub não podem ser agendadas nessas datas.
+- Como os feriados marcam os professores como indisponíveis, as sessões do Live Hub não podem ser agendadas nessas datas.
 
-&#x200B;- Cada feriado requer uma data e um nome; uma descrição é opcional.
+- Cada feriado requer uma data e um nome; uma descrição é opcional.
 
-&#x200B;- Você pode adicionar feriados, um de cada vez, ou importar vários feriados de uma vez usando um arquivo CSV.
+- Você pode adicionar feriados, um de cada vez, ou importar vários feriados de uma vez usando um arquivo CSV.
 
-&#x200B;- Depois de adicionados, os feriados aparecem na página **Feriados**, onde você pode exibi-los, pesquisá-los e gerenciá-los.
+- Depois de adicionados, os feriados aparecem na página **Feriados**, onde você pode exibi-los, pesquisá-los e gerenciá-los.
 
 Exiba [Gerenciar Feriados](../../../getting-started-with-live-hub/manage-holidays.md) para obter mais informações.
 

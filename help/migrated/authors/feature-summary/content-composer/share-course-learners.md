@@ -2,13 +2,14 @@
 description: Saiba como gerar um link do aluno no Compositor de conteúdo, o que os alunos podem acessar por meio desse link e por que a entrega monitorada requer a publicação no Adobe Learning Manager em vez do compartilhamento de um link direto.
 jcr-language: en_us
 title: Compartilhar um curso com os alunos
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
-
 ---
-
 
 # Compartilhar um curso com os alunos
 

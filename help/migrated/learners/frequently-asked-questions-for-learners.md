@@ -5,13 +5,14 @@ description: Perguntas frequentes para alunos do Adobe Learning Manager
 contentowner: admin
 preview: true
 exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
-source-git-commit: f6e98e56cc03fa92464bf2ed277fcf6a71b4e0b4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 78%
-
 ---
-
 # Perguntas frequentes dos alunos
 
 +++Como posso me inscrever em uma oferta de curso?
@@ -159,7 +160,7 @@ Para obter mais informações, consulte o recurso [medalhas](feature-summary/bad
 
 +++O que é um programa de aprendizado?
 
-Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Somente os administradores podem criar programas de aprendizado para os alunos. Quando um administrador atribui uma instância do programa de aprendizado aos alunos, eles veem esse **programa &#x200B;** na guia Programas. Os alunos também podem visualizar e se inscrever em todos programas de aprendizado do tipo “autoinscrição”.
+Os programas de aprendizado são um conjunto de cursos exclusivamente projetados que atende aos objetivos específicos do aluno. Somente os administradores podem criar programas de aprendizado para os alunos. Quando um administrador atribui uma instância do programa de aprendizado aos alunos, eles veem esse **programa **na guia Programas. Os alunos também podem visualizar e se inscrever em todos programas de aprendizado do tipo “autoinscrição”.
 
 Para começar a realizar o programa de aprendizado, clique no programa atribuído a você. É possível visualizar as informações detalhadas desse programa em particular.
 

@@ -2,13 +2,14 @@
 description: 'Saiba como editar uma imagem no Compositor de conteúdo: ajustar tamanho, brilho e saturação ou substituí-la por um upload, Adobe Stock ou AI.'
 jcr-language: en_us
 title: Editar ou adicionar uma imagem
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
-
 ---
-
 
 # Editar ou adicionar uma imagem
 
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Selecione qualquer imagem para abrir a barra de ferramentas de imagens. Os controles incluem:
 
-- **Preenchimento**, **Ajuste:** como a imagem é dimensionada dentro de seu quadro
+- **Preenchimento**, **Ajuste:** como a imagem é dimensionada em seu quadro
 
 - Campo **Texto alternativo**: exibe a descrição da imagem.<br>
   **Observação**: este texto não pode ser modificado. Ele é atualizado automaticamente com base na imagem.

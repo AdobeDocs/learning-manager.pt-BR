@@ -2,7 +2,10 @@
 description: Pontos de extremidade de API públicos e voltados para o aluno para listagem, recuperação, inscrição e exclusão de Caminhos de aprendizado personalizados no Adobe Learning Manager e pontos de extremidade de API para verificar se um ou mais objetos de aprendizado estão diretamente acessíveis a um determinado aluno por meio de um catálogo atribuído a ele.
 jcr-language: en_us
 title: Alterações na API em setembro de 2026
-source-git-commit: 328d899c05384ff522f7f6413d2a451139f066ee
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 3%

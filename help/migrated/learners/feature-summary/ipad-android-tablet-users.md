@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Aplicativo do aluno para dispositivos móveis e tablets
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 77%
-
 ---
-
 # Aplicativo do aluno para dispositivos móveis e tablets
 
 Leia este artigo para saber baixar o aplicativo do aluno do Learning Manager para smartphones e tablets. Saiba como fazer cursos usando seu dispositivo móvel ou tablet.
@@ -121,7 +122,7 @@ O Aprendizado social agora é compatível com experiências online imersivas em 
 
 Existem alguns recursos que não são compatíveis com o aplicativo móvel imersivo. São eles:
 
-| Área **1&rbrace;** | **Sem suporte** |
+| Área **1}** | **Sem suporte** |
 |---|---|
 | Painel | Criação de painel, Edição de painel, Copiar URL, Excluir, Relatório, Classificar, Filtro |
 | Publicar | Tipo de pesquisa Criação da publicação, Editar, Vários anexos à publicação, Copiar URL, Fixar na parte superior |
@@ -217,7 +218,7 @@ Nesta atualização, os seguintes recursos não são compatíveis. Não é poss�
 
 * Criar ou seguir um painel.
 * Copiar um URL em uma publicação.
-* Adicione a publicação como história ou adicione-a como favorita ou fixe-a na parte superior.
+* Adicionar publicação como história ou adicioná-la como favorita ou fixar à parte superior.
 * Exibir um quadro de líderes sociais.
 
 Aprendizado social é uma plataforma do Learning Manager para aplicativos móveis que incentiva os usuários a compartilharem ideias e opiniões significativas em um ambiente informal. Trata-se de uma metodologia que complementa a ideia da aprendizagem tradicional.
@@ -346,7 +347,7 @@ No aplicativo móvel, não é possível criar um painel. Para criar um painel, v
 * Edite ou exclua comentários em um painel.
 * Edite ou exclua publicações com base em permissões.
 * Denuncie abusos em uma publicação se ela violar sua privacidade ou cujo conteúdo seja inapropriado. Depois que uma publicação é denunciada, uma notificação é enviada para o administrador e moderadores do painel para que sejam tomadas outras ações.
-* Curtir ![](assets/prime-like.png) ou não curtir ![](assets/prime-dislike.png)   uma publicação.
+* Curtir ![](assets/prime-like.png) ou não curtir ![](assets/prime-dislike.png) uma postagem.
 * Curtir ![](assets/prime-like.png) ou não curtir ![](assets/prime-dislike.png) um comentário.
 
 ## Criar uma publicação em outros painéis {#createapostinotherboards}
@@ -540,7 +541,7 @@ O usuário pode voltar para o modo online clicando no botão **exibir conteúdo 
 
 ## Suporte a carrinho de vários itens em dispositivos móveis imersivos
 
-Os alunos agora podem adicionar vários cursos, programações de aprendizado ou certificações ao carrinho e comprá-los juntos. Exibir carrinho de vários itens no ALM[&#128279;](/help/migrated/learners/feature-summary/multi-item-cart.md)
+Os alunos agora podem adicionar vários cursos, programações de aprendizado ou certificações ao carrinho e comprá-los juntos. Exibir carrinho de vários itens no ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)[
 
 <!--
 ## Track device storage {#trackdevicestorage}

@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Configurar armazenamento de Creative Cloud para o Adobe Learning Manager Content Composer
 description: Saiba como configurar o armazenamento de Creative Cloud para o Adobe Learning Manager Content Composer. Este guia explica por que o armazenamento do Creative Cloud é necessário, como os administradores podem atribuir a oferta de associação gratuita no Adobe Admin Console e como solucionar problemas de acesso relacionados ao armazenamento.
 contentowner: saghosh
-source-git-commit: 15e1f5c383442fb93706acdf68eb889c16511859
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 
 # Configurar armazenamento de Creative Cloud para o Adobe Learning Manager Content Composer
 
@@ -94,4 +95,4 @@ Verifique se o usuário tem direito de armazenamento de Creative Cloud. Caso con
 
 Se o administrador do Adobe Admin Console enfrentar um problema ao atribuir armazenamento de Creative Cloud ou ao depurar problemas relacionados ao acesso, o problema pode exigir suporte no nível de conta corporativa. Nesses casos, entre em contato com o Suporte para corporações da Adobe por meio das opções de suporte disponíveis em Admin Console.
 
-Para obter mais informações, consulte [Opções de suporte para Adobe corporativos](https://helpx.adobe.com/br/business/enterprise/get-help/support-options/support-for-enterprise.html)
+Para obter mais informações, consulte [Opções de suporte para Adobe corporativos](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Gerenciamento dos alunos da sua sessão
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
-
 ---
-
 # Gerenciamento dos alunos da sua sessão
 
 Leia esse artigo para saber como gerenciar os participantes e enviar e-mails e lembretes relacionados ao curso em suas sessões.
@@ -123,8 +124,8 @@ O código QR é baixado como um PDF e pode ser compartilhado digitalmente ou exi
 * Os alunos digitalizam o código QR usando um dispositivo móvel.
 * O Adobe Learning Manager valida o aluno e a sessão.
 * Com base no tipo de código QR:
-   * Os alunos estão inscritos na instância do curso ou
-   * Presença e conclusão registradas para a sessão
+  * Os alunos estão inscritos na instância do curso ou
+  * Presença e conclusão registradas para a sessão
 
 Todas as atualizações são refletidas automaticamente nos registros, transcrições e relatórios do aluno.
 
@@ -147,9 +148,9 @@ Todas as atualizações são refletidas automaticamente nos registros, transcri�
 * Quando um aluno ou professor está inscrito em uma sala de aula ou sessão de sala de aula virtual, o Learning Manager envia um convite da agenda (arquivo ICS).
 * O convite do calendário inclui:
 
-   * Data e hora da sessão
-   * Detalhes da sessão
-   * **Link de ingresso direto na sessão** na descrição do calendário
+  * Data e hora da sessão
+  * Detalhes da sessão
+  * **Link de ingresso direto na sessão** na descrição do calendário
 
   ![](assets/calendar-invite-session.png)
 

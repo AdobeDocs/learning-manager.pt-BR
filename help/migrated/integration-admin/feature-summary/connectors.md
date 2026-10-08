@@ -3,13 +3,14 @@ description: Uma visão geral sobre cada conector compatível com ALM
 jcr-language: en_us
 title: Visão geral dos conectores no Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 6%
-
 ---
-
 
 # Conectores do Adobe Learning Manager
 
@@ -221,7 +222,7 @@ Esses conectores habilitam recursos avançados de geração de relatórios, visu
 
 ### Conector do Power BI
 
-O Power BI transforma seus dados de aprendizado em insights de negócios acionáveis sincronizando automaticamente as métricas de aprendizado com a poderosa plataforma de business intelligence da Microsoft.
+O conector do Power BI transforma seus dados de aprendizado em insights de negócios acionáveis, sincronizando automaticamente as métricas de aprendizado com a poderosa plataforma de business intelligence da Microsoft.
 
 #### Principais recursos:
 

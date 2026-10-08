@@ -1,14 +1,15 @@
 ---
 title: Extensibilidade nativa
-description: Configure experiências personalizadas na versão nativa do Adobe Learning Manager, permitindo que você não use headless para casos menos complicados.
+description: Configure experiências personalizadas dentro da versão nativa do Adobe Learning Manager, permitindo que você não use headless para casos menos complicados.
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 48%
-
+source-wordcount: '760'
+ht-degree: 51%
 ---
-
 # Extensibilidade nativa
 
 Você pode configurar experiências personalizadas dentro da versão nativa do Adobe Learning Manager, permitindo que você não use headless para casos menos complicados. Você também pode criar aplicativos personalizados e colocá-los em vários pontos na versão nativa dos fluxos de trabalho do aluno, gerente, administrador, autor ou professor.
@@ -25,7 +26,7 @@ O Adobe Learning Manager oferece suporte a 15 pontos de chamada no aplicativo do
 
    Para este exemplo, selecione **[!UICONTROL Administrador]**, **[!UICONTROL Autor: Curso]**, **[!UICONTROL Caminho de Aprendizado]** - **[!UICONTROL Instâncias]** - **[!UICONTROL Linha de instância]**.
 
-   ![imagem de extensão](assets/list-native-extensions.png)
+   Imagem de extensão ![](assets/list-native-extensions.png)
    *Selecionar ponto de invocação*
 
 1. Digite o rótulo da extensão que aparecerá na interface do usuário no campo **[!UICONTROL Rótulo da extensão]**.
@@ -58,7 +59,7 @@ O Adobe Learning Manager oferece suporte a 15 pontos de chamada no aplicativo do
 1. Selecione **[!UICONTROL Instâncias]** no painel esquerdo.
 1. Selecione **[!UICONTROL Mais]** na seção Instâncias. A extensão aparece na seção Instâncias.
 
-   ![imagem de instâncias](assets/instances-extension.png)
+   Imagem de ![instâncias](assets/instances-extension.png)
    *Selecione a extensão*
 
    Quando você seleciona a extensão, a extensão aparece na janela modal.
@@ -70,7 +71,7 @@ O Adobe Learning Manager oferece suporte a 15 pontos de chamada no aplicativo do
 1. Selecione **[!UICONTROL Instâncias]** no painel esquerdo.
 1. Selecione **[!UICONTROL Mais]** na seção Instâncias. A extensão aparece na seção Instâncias.
 
-   ![imagem de instâncias](assets/instances-extension.png)
+   Imagem de ![instâncias](assets/instances-extension.png)
    *Acessar extensão como autor*
 
    Quando você seleciona a extensão, a extensão aparece na janela modal.
@@ -110,7 +111,7 @@ Há duas maneiras de baixar este relatório.
 
 1. Na página Extensões nativas, selecione **[!UICONTROL Relatório de configuração de extensão]**.
 
-   ![imagem do relatório](assets/extension-config-report.png)
+   ![relatar imagem](assets/extension-config-report.png)
    *Baixar relatório de extensão*
 
    O relatório é gerado.
@@ -122,14 +123,14 @@ Há duas maneiras de baixar este relatório.
 
    O relatório contém os seguintes campos:
 
-   * Nome da Extensão
-   * Ponto de Invocação
+   * Nome da extensão
+   * Ponto de Chamada
    * Rótulo
    * Abrir no URL
    * Escopo
    * Ativar
    * ID exclusiva do OA
-   * Id do treinamento
+   * ID do treinamento
    * Tipo de Treinamento
    * Nome do Treinamento
 
@@ -137,7 +138,7 @@ Há duas maneiras de baixar este relatório.
 
 1. Em **[!UICONTROL Relatórios]** > **[!UICONTROL Relatórios Personalizados]**, selecione **[!UICONTROL Relatório de Configuração de Extensão]**.
 
-   ![imagem da página de relatórios](assets/extension-report-page.png)
+   Imagem da página de ![relatórios](assets/extension-report-page.png)
    *Baixar o relatório da página Relatórios*
 
 O estado deve estar no intervalo **0 - 4294967295**, ao configurar o estado de inscrição.

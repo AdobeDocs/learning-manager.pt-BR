@@ -1,13 +1,14 @@
 ---
 title: Participar de uma sala de sessão de grupo como aluno
 description: Saiba o que esperar como aluno durante uma sessão de grupo do Live Hub, incluindo ingressar na sua sala, exibir instruções, colaborar com seu grupo, pedir ajuda ao seu professor e exibir o resumo da sala.
-source-git-commit: 225b1f20930eb5acd8d6aa30d8448305b33adaa1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
-
 ---
-
 
 # Participar de uma sessão de grupo
 

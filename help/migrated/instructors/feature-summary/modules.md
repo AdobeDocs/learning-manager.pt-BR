@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Módulos
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 61%
-
 ---
-
 # Módulos
 
 Leia este artigo para saber como gerenciar módulos como professor no Learning Manager.
@@ -173,11 +174,11 @@ Para adicionar pontuações e comentários nos módulos de atividade que foram e
 
 Para sessões criadas usando o Live Hub, a seção **Hub do Live** na página **Visão geral da sessão** fornece acesso rápido às principais atividades da sessão.
 
-&#x200B;- **Entrar na sala de aula virtual**: selecione **Entrar na sala de aula** para ingressar na sala de aula virtual ou configurá-la antes do início da sessão. Você também pode selecionar **Copiar URL** para copiar o link da sessão e compartilhá-lo com os participantes.
+- **Entrar na sala de aula virtual**: selecione **Entrar na sala de aula** para ingressar na sala de aula virtual ou configurá-la antes do início da sessão. Você também pode selecionar **Copiar URL** para copiar o link da sessão e compartilhá-lo com os participantes.
 
-&#x200B;- **Exibir análise de sessão**: selecione a **página Exibir análise** para abrir o painel de análise de sessão após o término da sessão. O painel fornece informações sobre a participação, participação, envolvimento e outras métricas de sessão do aluno.
+- **Exibir análise de sessão**: selecione a **página Exibir análise** para abrir o painel de análise de sessão após o término da sessão. O painel fornece informações sobre a participação, participação, envolvimento e outras métricas de sessão do aluno.
 
-&#x200B;- **Exibir gravação**: se a sessão foi gravada, selecione **Exibir gravação** para acessar a gravação diretamente da página **Visão geral da sessão**. Se nenhuma gravação estiver disponível, o cartão indicará seu status.
+- **Exibir gravação**: se a sessão foi gravada, selecione **Exibir gravação** para acessar a gravação diretamente da página **Visão geral da sessão**. Se nenhuma gravação estiver disponível, o cartão indicará seu status.
 
 ![Página de visão geral da sessão](../../getting-started-with-live-hub/assets/session-overview-page.png)
 *Página de visão geral da sessão que mostra a seção do Live Hub com acesso às atividades do Live Hub.*

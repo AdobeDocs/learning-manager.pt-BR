@@ -4,13 +4,14 @@ title: Suporte para domínio personalizado
 description: Domínios personalizados não são suportados em uma instância do Azure no Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 66%
-
+source-wordcount: '457'
+ht-degree: 78%
 ---
-
 # Suporte para domínio personalizado
 
 Domínios personalizados não são suportados em uma instância do Azure no Learning Manager.
@@ -25,10 +26,10 @@ Por exemplo, você gostaria de personalizar seu domínio para que os usuários t
 
 >[!NOTE]
 >
->Como pré-requisito, você deve registrar o domínio e, em seguida, o Adobe o guiará pela personalização do url.
+>Como pré-requisito, você deve registrar o domínio e, em seguida, a Adobe o orientará na personalização do url.
 
 
-O recurso de domínio personalizado está disponível por um custo adicional. Entre em contato com seu gerente de sucesso do cliente para saber mais detalhes.
+O recurso de domínio personalizado está disponível por um custo adicional. Entre em contato com o seu gerente de sucesso do cliente para saber mais detalhes.
 
 * Para a função de aluno, o domínio começará com `https://cdn.<customer_custom_domain>/` Por exemplo, `https://cdn.elearningstage1.cpdomaintest.in/`
 * Para todas as outras funções, o domínio começará com `https://<customer_custom_domain>/`. Por exemplo, `https://elearningstage1.cpdomaintest.in/`

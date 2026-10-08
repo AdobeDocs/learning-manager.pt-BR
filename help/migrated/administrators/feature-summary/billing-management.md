@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Gerenciar pedidos e faturamento do Learning Manager
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 52%
-
 ---
-
 
 # Gerenciar pedidos e faturamento do Learning Manager
 
@@ -39,12 +40,12 @@ A página Faturamento contém as seguintes guias:
 
 **Detalhes da conta**
 
-O cartão **Detalhes da conta** na parte superior da guia **Assinatura** exibe quatro identificadores somente leitura para sua conta.
+O cartão de **detalhes da conta** na parte superior da guia **Assinatura** exibe quatro identificadores somente leitura para sua conta.
 
 | Campo | Descrição |
 |---|---|
 | **ECCID** | número de referência da Adobe para sua conta. Faça uma citação ao entrar em contato com o suporte de Adobe. |
-| **ID da conta** | O identificador exclusivo da sua conta da Adobe Learning Manager. |
+| **ID da conta** | Seu identificador exclusivo de conta da Adobe Learning Manager. |
 | **Nome da conta** | O nome para exibição da sua conta da Adobe Learning Manager. |
 | **ID da Organização IMS** | A organização do Adobe Admin Console vinculada a esta conta. Em branco, se ainda não estiver vinculado. |
 

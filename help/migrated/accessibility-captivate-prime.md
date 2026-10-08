@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Acessibilidade no Adobe Learning Manager
 description: Este documento descreve o suporte de acessibilidade fornecido pelo Sistema de Gerenciamento de Aprendizado do Learning Manager para alunos com deficiência. Ele também fornece aos usuários opções de navegação e recursos de acessibilidade da plataforma.
 contentowner: saghosh
-source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 71%
-
+source-wordcount: '959'
+ht-degree: 78%
 ---
-
 
 # Acessibilidade no Adobe Learning Manager
 
@@ -219,10 +220,10 @@ Use a tecla `kbd Tab` para navegar pelos elementos da página. Use a tecla `kbd 
 
 ## Realizar um treinamento no Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. Depois que um treinamento for identificado, use `kbd Tab` ou `kbd Shift + Tab` para navegar até o botão Inscrever-se/Iniciar. O status do botão depende do seu status de inscrição para esse treinamento.
+1. Depois que um treinamento for identificado, use `kbd Tab` ou `kbd Shift + Tab` para navegar até o botão Inscrever-se/Iniciar. O status do botão depende do status da sua inscrição nesse treinamento.
 
 1. Pressione `kbd ENTER` para iniciar o treinamento.
-1. Veja a seguir os controles que aparecem independentemente do tipo de conteúdo:
+1. Estes são os controles que aparecem independentemente do tipo de conteúdo:
 
    * Tabela de conteúdos
    * Notas

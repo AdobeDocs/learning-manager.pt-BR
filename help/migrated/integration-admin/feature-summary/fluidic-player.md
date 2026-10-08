@@ -5,7 +5,10 @@ title: Fluidic player incorporável
 contentowner: dvenkate
 preview: true
 exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 32%
@@ -16,7 +19,7 @@ Leia este artigo para saber como incorporar o fluidic player em um aplicativo pe
 
 Como corporação, agora você pode fornecer uma experiência personalizada para seus alunos, mesmo fora do Learning Manager. Usando a API pública, você pode obter todas as informações relacionadas aos objetos de aprendizado, às inscrições dos alunos e ao progresso do aprendizado e exibi-las no seu site. Mais importante ainda: você pode até mesmo incorporar o fluidic player do Learning Manager em seu site, para que o aluno possa consumir o conteúdo diretamente em seu site. O Fluidic Player lhe dá o poder de reproduzir qualquer conteúdo compatível com o Learning Manager. Quando incorporado em seu próprio site, ele tem exatamente os mesmos recursos que quando usado no Learning Manager.
 
-**Reproduzir qualquer conteúdo de e-learning[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Reproduzir qualquer conteúdo de e-learning[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 O Fluidic Player reproduz praticamente qualquer tipo de conteúdo de e-learning da mesma maneira consistente e intuitiva, sem exigir plug-ins ou downloads. O aluno pode iniciar o conteúdo e, independentemente do tipo de arquivo de conteúdo, ele começa a ser reproduzido.
 
@@ -75,8 +78,8 @@ client_id= <application_id>
 Aqui, **[!UICONTROL id do cliente]** é a ID do aplicativo obtida na etapa 1.
 **[!UICONTROL redirect_url]** é o redirect_url definido na etapa 1.
 **[!UICONTROL estado]** é qualquer dado fictício com base no qual precisamos filtrar a URL de redirecionamento para obter o código OAuth. Escopo é o escopo do aluno definido na etapa 1.
-**[!UICONTROL response_typ]**&#x200B;e é sempre “CODE”.\
-**[!UICONTROL conta]**&#x200B;é um campo opcional\
+**[!UICONTROL response_typ]**e é sempre “CODE”.\
+**[!UICONTROL conta]**é um campo opcional\
 **[!UICONTROL email]** é um campo opcional\
 &#42; Se a ID da conta e o email forem fornecidos, a URL acima permitirá que o usuário faça logon na mesma conta. Este exemplo de ponto de extremidade é descrito no arquivo “index.html” no aplicativo de amostra.
 

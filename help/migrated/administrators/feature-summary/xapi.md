@@ -4,13 +4,14 @@ title: xAPI no Learning Manager
 description: A Experience API (xAPI) é uma especificação de software de e-learning que permite que o conteúdo de aprendizado e os sistemas de aprendizado se comuniquem entre si de maneira que registrem e rastreiem todos os tipos de experiências de aprendizado. As experiências de aprendizado são gravadas em um LRS (Armazenamento de Registros de Aprendizagem). Os LRSs podem existir em sistemas tradicionais de gerenciamento de aprendizagem (LMSs) ou por conta própria.
 contentowner: dvenkate
 preview: true
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 67%
-
 ---
-
 
 
 # xAPI no Learning Manager
@@ -75,7 +76,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monitorar a experiência do usuário fora do Learning Manager. Por exemplo, você pode usar esse recurso para avaliar as atividades dos usuários em uma plataforma de terceiros usada para a realização do curso.
 
-1. Ao criar um **[!UICONTROL Módulo de Atividade]**, na opção **[!UICONTROL Tipo]**&#x200B;use o menu pop-up para selecionar o **[!UICONTROL Módulo baseado em xAPI.]**
+1. Ao criar um **[!UICONTROL Módulo de Atividade]**, na opção **[!UICONTROL Tipo]**use o menu pop-up para selecionar o **[!UICONTROL Módulo baseado em xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +98,7 @@ Como autor, agora você pode escolher o módulo xAPI ao criar cursos para monito
 
 **Pontos a observar:**
 
-* No momento, o Learning Manager oferece suporte somente ao mbox como um identificador. Outros identificadores, incluindo mboz_sha1, openid , account, não são compatíveis.
+* No momento, o Learning Manager oferece suporte apenas ao mbox como identificador. Outros identificadores, incluindo mboz_sha1, openid , account, não são compatíveis.
 
 * A stateId e a profileId são UUID quando usadas com o Learning Manager.
 * A solicitação de PUT não substitui o documento para agentes/perfil xAPIs, atividade/perfil e atividade/estado

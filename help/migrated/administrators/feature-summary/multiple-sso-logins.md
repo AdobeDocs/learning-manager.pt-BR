@@ -1,15 +1,16 @@
 ---
-description: O Adobe Learning Manager oferece suporte a vários métodos de logon por meio de configurações de SSO múltiplo para usuários internos e externos.
+description: O Adobe Learning Manager oferece suporte a vários métodos de logon por meio de configurações de SSO Múltiplo para usuários internos e externos.
 title: Logons de SSO Múltiplo
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 38%
-
+source-wordcount: '806'
+ht-degree: 43%
 ---
-
 # Logons de SSO Múltiplo {#multiple-sso-logins}
 
 Um administrador pode configurar vários métodos de logon para usuários internos e externos. O Adobe Learning Manager oferece suporte a logons de SSO múltiplo que ajudarão os administradores a configurar o método de logon com base em suas necessidades e casos de uso.
@@ -44,10 +45,10 @@ Para configurar um SSO, siga as etapas abaixo:
    * Insira o nome do SSO.
    * Selecione o tipo de SSO- IDP iniciado ou SP iniciado.
 
-      * Se você selecionou IDP iniciado, insira o URL do IDP. Esse será o URL que será o identificador exclusivo do seu aplicativo e as informações fornecidas pelo provedor de serviços de IDP. Este é o URL para o qual todos os usuários do Adobe Learning Manager serão redirecionados após o logon.
-      * Carregue o XML de metadados de IDP do seu provedor de IDP. Esse arquivo contém informações sobre o IdP que permite que o Adobe Learning Manager aceite asserções SAML dele
-      * Se você selecionou SP iniciado, insira a ID da entidade. A ID da entidade é um URL fornecido pelo provedor de serviços (SP).
-      * Digite o URL de login do SP. Essa URL é usada pelos usuários para fazer logon no aplicativo.
+     * Se você selecionou IDP iniciado, insira o URL do IDP. Esse será o URL que será o identificador exclusivo do seu aplicativo e as informações fornecidas pelo provedor de serviços de IDP. Este é o URL para o qual todos os usuários do Adobe Learning Manager serão redirecionados após o logon.
+     * Carregue o XML de metadados de IDP do seu provedor de IDP. Esse arquivo contém informações sobre o IdP que permite que o Adobe Learning Manager aceite asserções SAML dele
+     * Se você selecionou SP iniciado, insira a ID da entidade. A ID da entidade é um URL fornecido pelo provedor de serviços (SP).
+     * Digite o URL de login do SP. Essa URL é usada pelos usuários para fazer logon no aplicativo.
 
 1. A configuração de SSO é adicionada à lista.
 

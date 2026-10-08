@@ -4,13 +4,14 @@ title: Personalizar a página inicial do aluno
 description: Um administrador pode personalizar a página inicial do aluno e torná-la mais moderna, orientada por conteúdo e personalizada para um aluno.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 63%
-
 ---
-
 # Personalizar a página inicial do aluno
 
 ## Visão geral {#overview}
@@ -157,7 +158,7 @@ Para contas existentes, a opção **Imersivo** será **DESATIVADA**. Está ativa
    <td>
     <p>Recomendado pela organização</p></td>
    <td>
-    <p>Quando ativado, esse widget recomenda treinamentos para grupos de usuários específicos. Cada grupo de usuários pode ser direcionado a um ou mais treinamentos e o plano de destino deve ser baseado em um período. <br></p>
+    <p>Quando ativado, esse widget recomenda treinamentos para grupos de usuários específicos. Cada grupo de usuários pode ser direcionado a um ou mais treinamentos e o plano de destino deve ser baseado em um quadro de tempo. <br></p>
     <ul>
      <li>
       <p>Em primeiro lugar, o administrador <a href="announcements.md#recommendation">cria um anúncio</a> do tipo <b>Como recomendação</b> e seleciona o treinamento necessário e usa grupos. Um aluno pertencente a um grupo de usuários verá o treinamento recomendado.</p></li>

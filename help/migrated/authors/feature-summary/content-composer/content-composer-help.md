@@ -2,13 +2,14 @@
 title: Ajuda do Adobe Learning Manager Content Composer (Beta)
 description: O Adobe Learning Manager Content Composer transforma um prompt em linguagem simples em um curso pronto para publicação com lições, avaliações e mídia usando IA.
 contentowner: saghosh
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
-
 ---
-
 
 # Ajuda do Adobe Learning Manager Content Composer (Beta)
 
@@ -34,7 +35,7 @@ O compositor de conteúdo orienta os autores por meio de metas de treinamento, m
 
 >[!IMPORTANT]
 >
->Você deve fazer logon com uma conta válida da Adobe Creative Cloud. Se ainda não tiver uma, você pode criar uma conta gratuita por meio do Adobe Express. Para obter mais informações, consulte [Criar uma conta Adobe Express gratuita](https://helpx.adobe.com/br/express/web/adobe-express-subscription/free.html). Depois de criar suas credenciais de Adobe, inicie o Compositor de conteúdo e faça logon para começar a criar cursos. Se sua organização já tem uma assinatura do Creative Cloud, entre em contato com o administrador para provisionar uma conta de Creative Cloud para você antes de fazer logon no Compositor de conteúdo.
+>Você deve fazer logon com uma conta válida da Adobe Creative Cloud. Se ainda não tiver uma, você pode criar uma conta gratuita por meio do Adobe Express. Para obter mais informações, consulte [Criar uma conta Adobe Express gratuita](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Depois de criar suas credenciais de Adobe, inicie o Compositor de conteúdo e faça logon para começar a criar cursos. Se sua organização já tem uma assinatura do Creative Cloud, entre em contato com o administrador para provisionar uma conta de Creative Cloud para você antes de fazer logon no Compositor de conteúdo.
 
 >[!NOTE]
 >

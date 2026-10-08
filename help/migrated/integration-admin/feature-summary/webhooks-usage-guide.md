@@ -4,13 +4,14 @@ title: Guia de uso de webhooks
 description: Saiba mais sobre o uso de webhooks, práticas recomendadas e limitações
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 1%
-
 ---
-
 # Guia de uso de webhooks
 
 Os webhooks são uma maneira de os aplicativos da Web se comunicarem entre si automaticamente e em tempo real.
@@ -192,7 +193,8 @@ Como o Adobe Learning Manager não exibirá diretamente os registros de tabela e
 
 ### Criar um banco de dados a partir de eventos do objeto de aprendizado
 
-Os eventos do objeto de aprendizado expõem `loId` e `loType` para identificar uma entidade. No entanto, esses atributos por si só não são suficientes para criar um banco de dados de objetos de aprendizado externo. Os clientes precisarão de campos adicionais para descrever melhor o objeto de aprendizado.Há duas abordagens para obter os dados adicionais:
+Os eventos do objeto de aprendizado expõem `loId` e `loType` para identificar uma entidade. No entanto, esses atributos por si só não são suficientes para criar um banco de dados de objetos de aprendizado externo. Os clientes precisarão de campos adicionais para descrever melhor o objeto de aprendizado.
+Há duas abordagens para obter os dados adicionais:
 
 #### Gerar um relatório de dados de treinamento para buscar todos os dados
 
@@ -238,7 +240,8 @@ O ALM tem o tempo limite de conexão configurado para 10 segundos e o tempo limi
 
 ### Retenção de dados
 
-Os eventos são mantidos por 7 dias. Se não forem processados dentro desse prazo, serão perdidos permanentemente. Se a recuperação ocorrer no último dia e mais tempo for necessário, o sistema não estenderá o período de retenção.Se os eventos forem produzidos mais rapidamente do que são consumidos, alguns eventos podem ser perdidos. Embora isso seja incomum, os assinantes devem monitorar para evitar que se torne um problema de longo prazo.
+Os eventos são mantidos por 7 dias. Se não forem processados dentro desse prazo, serão perdidos permanentemente. Se a recuperação ocorrer no último dia e mais tempo for necessário, o sistema não estenderá o período de retenção.
+Se os eventos forem produzidos mais rapidamente do que são consumidos, alguns eventos podem ser perdidos. Embora isso seja incomum, os assinantes devem monitorar para evitar que se torne um problema de longo prazo.
 
 ### Desativação de webhooks
 

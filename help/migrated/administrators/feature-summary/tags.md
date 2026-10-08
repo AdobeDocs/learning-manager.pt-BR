@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Etiquetas
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 71%
-
 ---
-
 # Etiquetas
 
 Agora, os administradores podem gerenciar etiquetas no Learning Manager. Use bancos de dados melhor etiquetados e gerenciáveis para ajudar os alunos a pesquisar melhor e obter resultados de pesquisa apropriados rapidamente. Você pode gerenciar etiquetas redundantes, com erros de ortografia e irrelevantes usando esse recurso. Você também podem adicionar, editar, excluir, acrescentar ou substituir tags.
@@ -40,7 +41,7 @@ Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.co
 
 1. Você só pode editar uma única tag por vez. Para editar uma tag, siga esta etapa:
 
-   * Selecione a marca para editar > abra o menu suspenso **[!UICONTROL Ações]**&#x200B;e clique em **[!UICONTROL Editar]**.
+   * Selecione a marca para editar > abra o menu suspenso **[!UICONTROL Ações]**e clique em **[!UICONTROL Editar]**.
 
    A caixa de diálogo **[!UICONTROL Editar tag]** é exibida. Insira o novo nome para a tag e clique em **[!UICONTROL Salvar]**.
 

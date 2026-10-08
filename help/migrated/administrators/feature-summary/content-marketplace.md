@@ -4,13 +4,14 @@ title: Marketplace de conteúdo
 description: O Learning Manager agora oferece o Marketplace de Conteúdo para que você explore e compre treinamentos. Explore mais de 70.000 cursos que abrangem uma grande variedade de tópicos disponíveis em vários formatos. Escolha entre listas de reprodução selecionadas que atendem a uma grande variedade de funções e às suas necessidades de aprendizado e requalificação.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
-
 ---
-
 # Marketplace de conteúdo
 
 Os administradores de aprendizado geralmente enfrentam desafios para fornecer e carregar conteúdo de qualidade. O Marketplace de Conteúdo no Adobe Learning Manager simplifica isso ao permitir o licenciamento de cursos premium de provedores confiáveis, permitindo uma entrega de aprendizado mais rápida e dimensionável. Usando o Marketplace de Conteúdo, o administrador pode navegar, visualizar e licenciar cursos de terceiros de provedores.

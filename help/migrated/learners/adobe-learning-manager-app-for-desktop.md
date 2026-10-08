@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Aplicativo de desktop do Adobe Learning Manager
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 79%
-
 ---
-
 # Aplicativo de desktop do Adobe Learning Manager
 
 Saiba como usar o aplicativo de desktop do Adobe Learning Manager para criar e enriquecer o conteúdo que pode ser compartilhado no aprendizado social.
@@ -199,7 +200,7 @@ Para editar ou excluir um arquivo da galeria, clique nos três pontos na parte i
 
 As notificações no Learning Manager são exibidas janela de notificações independentemente se o aluno está ou não conectado no aplicativo da Web Learning Manager. As notificações incluem publicações ou painéis que os usuários criaram ou estão seguindo, ou dos quais participam. Clicar na notificação navegará o usuário para a web do aprendizado social do Learning Manager.
 
-Para silenciar as notificações, clique no **[!UICONTROL Menu Perfil*]* > &#x200B;** [!UICONTROL Configurações] > **[!UICONTROL Silenciar notificações]**.
+Para silenciar as notificações, clique no **[!UICONTROL Menu Perfil*]* > **[!UICONTROL Configurações] > **[!UICONTROL Silenciar notificações]**.
 
 ## Configurações no aplicativo de desktop do Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
 
