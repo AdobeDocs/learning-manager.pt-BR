@@ -3,13 +3,14 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de m
 jcr-language: en_us
 title: Resumo dos novos recursos
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
-
 ---
-
 # Resumo dos novos recursos em maio de 2025
 
 A próxima versão do Adobe Learning Manager apresenta uma variedade de novos recursos e aprimoramentos destinados a otimizar a plataforma e aprimorar seus recursos.

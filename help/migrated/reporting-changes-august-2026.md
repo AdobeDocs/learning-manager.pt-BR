@@ -2,13 +2,14 @@
 description: Este documento resume as alterações dos relatórios de agosto de 2026 no Adobe Learning Manager. Ele aborda colunas novas e atualizadas na transcrição do aluno, no treinamento, na inscrição, na lista de espera, na participação, na auditoria de conteúdo e nos relatórios de usuário. Ele também explica o comportamento adaptável do curso, a pontuação do livro de notas, os registros de aprendizado externo, os relatórios de crédito da Gen AI, o rastreamento da certificação raiz, a padronização do carimbo de data e hora e as atualizações do autor da API.
 jcr-language: en_us
 title: Alterações de relatórios na versão de agosto de 2026 do Adobe Learning Manager
-source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 2%
-
 ---
-
 
 # Alterações de relatórios na versão de agosto de 2026 do Adobe Learning Manager
 
@@ -109,7 +110,7 @@ Dois novos eventos capturam alterações na configuração do gradiente.
 | **Evento** | **Acionado quando** | **Dados capturados** |
 |-----------------------|-----------------------------------------------------------------|----------------------------------------------------------|
 | Gradebook atualizado | Gradebook ativado, desativado ou modificado no nível do curso | Alteração no estado do catálogo de notas; avaliando atualizações de configuração |
-| Peso do módulo atualizado | O peso atribuído a um módulo é modificado | Identificador do módulo; valor de ponderação atualizado |
+| Peso do módulo atualizado | O peso atribuído a um módulo é modificado | Identificador do módulo; valor atualizado de ponderação |
 
 A transcrição do aluno reflete o peso mais recente. O relatório de auditoria de conteúdo controla as alterações históricas. Juntos, eles fornecem um quadro completo da atual lógica de pontuação e de como ela evoluiu.
 

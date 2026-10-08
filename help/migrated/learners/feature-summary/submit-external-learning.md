@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Enviar aprendizado externo no Adobe Learning Manager
 description: Use aprendizado externo para registrar treinamentos concluídos fora da Adobe Learning Manager, como workshops, seminários, certificações ou cursos on-line. Depois de enviar os detalhes para revisão do gerente, as atividades aprovadas são adicionadas à transcrição do aluno.
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 2%
-
+source-wordcount: '604'
+ht-degree: 1%
 ---
-
 
 # Enviar aprendizado externo como aluno
 

@@ -3,13 +3,14 @@ description: Saiba como usar campos ativos no Adobe Learning Manager para captur
 jcr-language: en_us
 title: Configurar campos ativos no Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
-
 ---
-
 # Campos ativos
 
 Os campos ativos no Adobe Learning Manager são atributos personalizados do usuário que ajudam os administradores a organizar e gerenciar usuários com eficiência. Eles permitem que você capture informações adicionais sobre o usuário, como departamento, local ou cargo. Os administradores podem usar esses dados para criar grupos de usuários, personalizar o aprendizado e filtrar relatórios com mais eficiência.

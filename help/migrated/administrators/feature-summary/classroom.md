@@ -1,13 +1,14 @@
 ---
 title: Adicionar locais de sala de aula
 description: Saiba como os administradores podem definir configurações e adicionar, migrar, editar e excluir locais de sala de aula no Adobe Learning Manager, e como adicionar traduções para um local de sala de aula.
-source-git-commit: 6f2b9abf305665fe0b66007411455bd2210ee248
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1641'
-ht-degree: 3%
-
+source-wordcount: '1740'
+ht-degree: 4%
 ---
-
 
 # Adicionar locais de sala de aula
 
@@ -84,7 +85,7 @@ Para migrar locais existentes:
 
    Um arquivo CSV com seus locais de sala de aula existentes é baixado. As seguintes colunas estão disponíveis:
 
-   1. **room_id**: identificador exclusivo do local.
+   1. **id_da_sala**: identificador exclusivo para o local.
    1. **localidade**: a localidade para o Nome de Local e as Informações de Local traduzidos.
    1. **nome**: nome da sala de aula.
    1. **país**: país onde a sala de aula está localizada.
@@ -164,7 +165,7 @@ Para importar locais de sala de aula em massa:
 
    Um arquivo CSV que contém seus locais de sala de aula existentes é baixado. As seguintes colunas estão disponíveis:
 
-   1. **room_id**: identificador exclusivo do local.
+   1. **id_da_sala**: identificador exclusivo para o local.
    1. **localidade**: a localidade para o Nome de Local e as Informações de Local traduzidos.
    1. **nome**: nome da sala de aula.
    1. **país**: país onde a sala de aula está localizada.
@@ -257,7 +258,7 @@ Você pode ativar o formato de local de quatro campos somente depois que todos o
 Não. O arquivo CSV exportado sempre usa o formato de local de quatro campos, independentemente de estar ativado no momento. Você só precisa atualizar os valores ausentes antes de importar o arquivo.
 
 1. **A migração afeta os relatórios do Adobe Learning Manager?**<br>
-Sim. Após a migração, os relatórios que incluem informações do Local da sala de aula exibem os locais no seguinte formato:
+Sim Após a migração, os relatórios que incluem informações do Local da sala de aula exibem os locais no seguinte formato:
 
    **País > Estado/Província/Região > Cidade > Nome do Local**
 

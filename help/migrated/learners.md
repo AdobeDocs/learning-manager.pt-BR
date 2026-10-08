@@ -4,13 +4,14 @@ title: Alunos
 description: Alunos do Adobe Learning Manager
 contentowner: manochan
 preview: true
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 88%
-
+ht-degree: 91%
 ---
-
 
 
 # Alunos
@@ -31,12 +32,12 @@ ht-degree: 88%
 ## Recursos {#features}
 
 * [Introdução](learners/feature-summary/getting-started-learner.md)
-* [Aplicativo do Salesforce](learners/feature-summary/sfdc-app.md)
+* [Aplicativo Salesforce](learners/feature-summary/sfdc-app.md)
 * [Gamificação](learners/feature-summary/gamification.md)
 * [Medalhas](learners/feature-summary/badges.md)
 * [Catálogos](learners/feature-summary/catalogs.md)
 * [Certificações](learners/feature-summary/certifications.md)
-* [Cursos &#x200B;](learners/feature-summary/courses.md)
+* [Cursos](learners/feature-summary/courses.md)
 * [Fluidic Player](learners/feature-summary/fluidic-player.md)
 * [Usuários de dispositivos móveis e tablets](learners/feature-summary/ipad-android-tablet-users.md)
 * [Programas de aprendizado](learners/feature-summary/learning-programs.md)

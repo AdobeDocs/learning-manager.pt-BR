@@ -2,13 +2,14 @@
 description: Saiba como criar um tema de curso personalizado no Compositor de conteúdo, do zero usando a opção Criar ou exportando um tema existente como JSON, editando suas propriedades e importando-o de volta.
 jcr-language: en_us
 title: Criar um tema
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 
 # Criar um tema
 

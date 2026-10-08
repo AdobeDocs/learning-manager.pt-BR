@@ -3,13 +3,14 @@ description: Saiba como integrar o conector Marketo Engage com o Adobe Learning 
 jcr-language: en_us
 title: Conector do Marketo Engage
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 3%
-
+ht-degree: 4%
 ---
-
 
 # conector do Marketo Engage no Adobe Learning Manager
 
@@ -33,9 +34,9 @@ Essa integração ajuda os profissionais de marketing a atingir públicos com ba
 - Exportar a atividade de aprendizado (inscrições, conclusões, conquistas de habilidades) como objetos personalizados para o Marketo.
 - Programe ou acione exportações sob demanda.
 - Suporte a relatórios unificados, incluindo:
-   - Relatório do usuário
-   - Transcrição de aprendizado
-   - Relatório de habilidades do usuário
+  - Relatório do usuário
+  - Transcrição de aprendizado
+  - Relatório de habilidades do usuário
 
 ## Pré-requisitos
 

@@ -4,13 +4,14 @@ title: Limites de taxa da API no Learning Manager
 description: O Adobe Learning Manager expõe um conjunto avançado de APIs REST que ajuda os clientes a criar aplicativos que se integram ao Learning Manager ou até mesmo experiências de usuário personalizadas e extensões para fluxos de trabalho que ajudam seus negócios.
 contentowner: saghosh
 preview: true
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 80%
-
 ---
-
 
 
 # Limites de taxa da API no Learning Manager

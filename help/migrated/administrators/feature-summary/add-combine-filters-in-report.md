@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adicionar e combinar filtros em um relatório
 description: Restrinja os dados de relatório no Adobe Learning Manager Report Builder usando filtros únicos, lógica AND / OR e grupos de filtros aninhados.
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # Adicionar e combinar filtros em um relatório
 

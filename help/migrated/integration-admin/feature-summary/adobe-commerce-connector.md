@@ -3,13 +3,14 @@ description: Saiba como integrar o conector do Adobe Commerce
 jcr-language: en_us
 title: Conector do Adobe Commerce
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 4%
-
 ---
-
 
 # Conector do Adobe Commerce no Adobe Learning Manager
 
@@ -41,7 +42,7 @@ Outros requisitos de configuração:
 - Substitua o limite de opções usando um módulo personalizado. Esta etapa é opcional, mas recomendada para grandes conjuntos de dados.
 - Habilite todas as **APIs assíncronas**. Grandes conjuntos de dados de treinamento são exportados de forma assíncrona. Quando o Learning Manager chama as APIs do Adobe Commerce, as solicitações são enfileiradas e processadas por um consumidor que cria produtos no lado do comércio. O processamento assíncrono deve estar habilitado porque não está disponível por padrão no Adobe Commerce.
 - Adicione um **link de retorno** ao Learning Manager na página de sucesso do pagamento no Adobe Commerce.
-   - Usar esta [URL de retorno](https://learningmanager.adobe.com/app/learner#/postPayment):
+  - Usar esta [URL de retorno](https://learningmanager.adobe.com/app/learner#/postPayment):
 - Altere a **indexação** de **Ao Salvar** para **Agendada**. Consulte a [Base de Dados de Conhecimento](https://experienceleague.adobe.com/pt-br/support?support-tab=home#home) para obter mais informações.
 - Aplique os **patches** necessários. Consulte [Aplicar documentação de patches](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/start/overview) para obter instruções.
 - Configure o **Fastly** para o Adobe Commerce na infraestrutura de nuvem (preparo e produção). Consulte [Configurar o Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) para obter mais informações.

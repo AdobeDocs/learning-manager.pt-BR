@@ -3,13 +3,14 @@ description: Saiba mais sobre os novos recursos e aprimoramentos na versão de n
 jcr-language: en_us
 title: Resumo dos novos recursos novembro de 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
-
 ---
-
 # Resumo dos novos recursos novembro de 2024 {#new-features-summary}
 
 Saiba mais sobre os novos recursos e aprimoramentos na versão de novembro de 2024 do Adobe Learning Manager.
@@ -527,7 +528,7 @@ Os administradores podem localizar essas alterações de relatório na seção *
 
 O relatório **[!UICONTROL Transcrições de Aprendizado]** conterá duas novas colunas:
 
-* **[!UICONTROL ID do módulo]**: exibe o identificador exclusivo de cada módulo. Esta nova coluna foi adicionada após a coluna **[!UICONTROL Módulo]** existente.
+* **[!UICONTROL ID do módulo]**: exibe o identificador exclusivo para cada módulo. Esta nova coluna foi adicionada após a coluna **[!UICONTROL Módulo]** existente.
 * **[!UICONTROL ID da instância do curso]**: exibe o identificador exclusivo para cada instância do curso.Esta nova coluna foi adicionada após a coluna **[!UICONTROL Instância]** existente.
 * **[!UICONTROL Comentário de conclusão]**: esta coluna captura os comentários inseridos pelo administrador ao marcar a conclusão do usuário. Esta nova coluna foi adicionada ao final do relatório.
 

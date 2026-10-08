@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Solução de problemas de migração
 contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 81%
-
 ---
-
 # Solução de problemas de migração
 
 Este documento contém dicas básicas de solução de problemas para solucionar alguns dos problemas típicos que podem ser encontrados ao migrar os dados e o conteúdo do LMS existente do Learning Manager.

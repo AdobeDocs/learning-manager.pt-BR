@@ -3,13 +3,14 @@ description: Saiba como integrar o conector FTP com o Adobe Learning Manager
 jcr-language: en_us
 title: Conector FTP
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 0%
-
 ---
-
 
 # Conector FTP no Adobe Learning Manager
 
@@ -248,11 +249,11 @@ Para mapear os campos:
 
 3. Por padrão, mapeie os seguintes campos obrigatórios:
    - **ator.mbox:** representa o endereço de email do aluno (o ator que está realizando
-a ação). Ele identifica exclusivamente quem fez a atividade.
-   - **verb.id:** é o identificador da ação executada pelo aluno, como
-concluído, tentado ou aprovado. Especifica a ação do aluno.
+     a ação). Ele identifica exclusivamente quem fez a atividade.
+   - **verb.id:** este é o identificador para a ação executada pelo aluno, como
+     concluído, tentado ou aprovado. Especifica a ação do aluno.
    - **object.id:** indica o objeto de aprendizado ou a atividade com a qual o aluno interagiu,
-como um curso, módulo ou caminho de aprendizado.
+     como um curso, módulo ou caminho de aprendizado.
 4. Selecione **Adicionar um novo Mapeamento** para mapear campos adicionais.
 5. Para cada campo, selecione o **tipo de dados** apropriado (cadeia de caracteres, número, booleano ou data).
 6. Selecione **Salvar** para concluir o mapeamento.
@@ -308,9 +309,9 @@ Para exibir o status da execução:
    - **Duração:** tempo total necessário para o processamento.
    - **Tipo de importação:** se a importação foi agendada ou por demanda.
    - **Status Atual:** Informações de status em tempo real.
-      - **Em andamento:** importação atualmente em execução
-      - **Concluído:** conclusão bem-sucedida com contagens de registros
-      - **Falha:** erro com informações de diagnóstico
+     - **Em andamento:** importação atualmente em execução
+     - **Concluído:** conclusão bem-sucedida com contagens de registros
+     - **Falha:** erro com informações de diagnóstico
 
 ## Solucionar problemas de importação
 

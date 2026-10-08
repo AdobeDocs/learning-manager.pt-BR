@@ -4,14 +4,15 @@ title: Notificações de usuário
 description: O recurso Notificações é aplicável a todos os usuários do Adobe Learning Manager. Mas cada usuário com base em sua função recebe diferentes tipos de notificações em vários cenários. Todos os alertas e notificações dos usuários são exibidos através de caixa de diálogo pop-up de notificações.
 contentowner: manochan
 exl-id: 241a2ceb-d6ba-4494-861b-828e3eb218a3
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 85%
-
+source-wordcount: '239'
+ht-degree: 100%
 ---
-
-# Notificações de usuário
+# Notificações para o usuário
 
 O recurso Notificações é aplicável a todos os usuários do Adobe Learning Manager. Mas cada usuário com base em sua função recebe diferentes tipos de notificações em vários cenários. Todos os alertas e notificações dos usuários são exibidos através de caixa de diálogo pop-up de notificações.
 
@@ -36,4 +37,4 @@ Clique no link **[!UICONTROL Mostrar todas as notificações]** na parte inferio
 Os autores podem receber notificações sempre que ocorrer os seguintes eventos:
 
 * Quando o carregamento do módulo for bem-sucedido
-* Quando uma versão do módulo é alterada
+* Quando a versão de um módulo é alterada

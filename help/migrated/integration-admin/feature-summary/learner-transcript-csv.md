@@ -4,13 +4,14 @@ title: Interpretar o CSV de transcrição do aluno
 description: Interpretar o CSV de transcrição do aluno
 contentowner: saghosh
 preview: true
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 88%
-
+source-wordcount: '2996'
+ht-degree: 93%
 ---
-
 
 
 # Interpretar o CSV de transcrição do aluno
@@ -41,19 +42,19 @@ A transcrição do aluno gerada por meio da interface do usuário será um arqui
 
 ## Exportar transcrição do aluno {#exportlearnertranscript}
 
-Quando a transcrição do aluno precisa ser consumida por um sistema externo, o Learning Manager fornece um recurso chamado Exportar dados, onde a transcrição do aluno é um dos tipos de dados que podem ser exportados. Como explicado no preâmbulo, isso é necessário para a integração do Learning Manager com um sistema externo que precisa processar dados de comportamento de aprendizado ou para preencher um data warehouse corporativo com dados de comportamento de aprendizado.
+Quando a transcrição do aluno precisa ser consumida por um sistema externo, o Learning Manager fornece um recurso chamado Exportar dados, onde a transcrição do aluno é um dos tipos de dados que podem ser exportados. Como explicado no Preâmbulo, isso é necessário para a integração do Learning Manager com um sistema externo que precisa processar dados de comportamento de aprendizado ou preencher um data warehouse corporativo com dados de comportamento de aprendizado.
 
 Para obter detalhes sobre como os conectores que suportam a exportação da transcrição do aluno, consulte a [seção Exportar dados](/help/migrated/integration-admin/feature-summary/connectors.md) no FTP, Box e conectores PowerBI.
 
 A finalidade servida por esses conectores é exportar dados para um aplicativo de downstream periodicamente (uma vez em N dias). Então, esses conectores exportam apenas os dados do comportamento de aprendizado incremental em cada execução. Observe que esses conectores não permitem a busca de registros pertencentes a um subconjunto específico de usuários ou objetos de aprendizado - são sempre dados sobre todos os usuários e todos os objetos de aprendizado nessa conta.
 
-No caso do PowerBI, o cliente deve fornecer um espaço de trabalho onde o Learning Manager possa continuar exportando esses dados incrementalmente para um conjunto de dados criado dinamicamente. Esse conector apenas exporta dados, e os clientes devem criar seus próprios relatórios/painéis com base nesse conjunto de dados conforme necessário.
+No caso do PowerBI, o cliente deve fornecer um espaço de trabalho no qual o Learning Manager possa continuar exportando esses dados incrementalmente em um conjunto de dados criado dinamicamente. Esse conector apenas exporta dados, e os clientes devem criar seus próprios relatórios/painéis com base nesse conjunto de dados conforme necessário.
 
 A próxima seção fornece detalhes sobre como um sistema downstream deve interpretar os registros na transcrição do aluno.
 
 ## Interpretar a transcrição do aluno {#interpretthelearnertranscript}
 
-Cada linha em uma transcrição do aluno pode ser considerada como um comportamento de aprendizado que foi capturado no Learning Manager em um período específico. Normalmente, os conectores exportam “dados incrementais” e, portanto, as linhas representam atividades de aprendizado que ocorreram entre a última execução do conector e a execução atual.
+Cada linha em uma transcrição do aluno pode ser considerada como um comportamento de aprendizado capturado no Learning Manager em um período específico. Normalmente, os conectores exportam “dados incrementais” e, portanto, as linhas representam atividades de aprendizado que ocorreram entre a última execução do conector e a execução atual.
 
 É claro que os conectores também permitem buscar a transcrição do aluno sob demanda, e nesse caso o usuário pode especificar uma data de início e a data de término é assumida como agora. Geralmente, isso era feito inicialmente e, em seguida, o conector era configurado para exportar a transcrição incremental do aluno em um horário específico do dia, uma vez em N dias (o valor padrão de N, sendo 1).
 
@@ -61,7 +62,7 @@ Vamos agora definir o que significa transcrição incremental do aluno
 
 Na transcrição do aluno, cada linha representa uma atividade específica que envolve um aluno específico e um objeto de aprendizado específico. Estamos principalmente interessados em qual estado um aluno está em relação ao objeto de aprendizado - **Inscrito**, **Iniciado**, **Em andamento** e **Concluído**. Portanto, a transcrição do aluno também captura quatro datas correspondentes.
 
-Agora há três tipos de objetos de aprendizado, nos quais o Learning Manager acompanha o progresso do aluno; e os dados exportados contêm informações de progresso no nível do módulo, que é a unidade de conteúdo mais granular que um aluno pode experimentar no Learning Manager.
+Agora há três tipos de objetos de aprendizado, onde o Learning Manager controla o progresso do aluno. e os dados exportados contêm informações de progresso no nível do módulo, que é a unidade de conteúdo mais granular que um aluno pode experimentar no Learning Manager.
 
 * **Curso** - uma composição de um ou mais módulos
 * **Programa de aprendizado** - uma composição de um ou mais cursos

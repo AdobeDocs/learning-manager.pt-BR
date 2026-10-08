@@ -5,13 +5,14 @@ title: Guia de Implantação do Learning Manager - Seção 2
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 63%
-
 ---
-
 # Guia de Implantação do Learning Manager - Seção 2
 
 ## Configuração técnica {#technicalsetup}
@@ -74,7 +75,7 @@ Para executar o fluxo de trabalho de migração, você precisa dos privilégios 
 
 Antes de iniciar o processo de migração, você deve executar o seguinte pré-requisito:
 
-* Extração de dados e conteúdo do LMS vigente e transformação dos dados em formatos de arquivo, conforme definido pelo Learning Manager.
+* Extração de dados e conteúdo do LMS vigente e transforme os dados em formatos de arquivo, conforme definido pelo Learning Manager.
 * Importação de usuários usando conectores FTP e BOX. O administrador de integração deve garantir que os conectores sejam configurados antes do processo de migração.
 
 
@@ -119,7 +120,7 @@ Certifique-se de que cada arquivo .csv contenha os dados de cada campo no format
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>Não.</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>Nº</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Nome da planilha do Excel</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Descrição do conteúdo</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Notas</strong></p></th> 

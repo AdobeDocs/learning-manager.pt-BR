@@ -1,13 +1,14 @@
 ---
 title: Função dos professores em uma sessão do Live Hub
 description: Saiba mais sobre os fluxos de trabalho do professor no Live Hub, desde preparar uma sessão e gerenciar interações do aluno até revisar resultados posteriormente.
-source-git-commit: bed5e19d010b24f328c0368c251d39be3dc29af2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 
 # Função dos professores em uma sessão do Live Hub
 

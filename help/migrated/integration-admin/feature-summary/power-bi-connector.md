@@ -3,13 +3,14 @@ description: Saiba como integrar o conector do Power BI ao Adobe Learning Manage
 jcr-language: en_us
 title: Conector do Power BI
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 4%
-
 ---
-
 
 # Power BI no Adobe Learning Manager
 
@@ -212,18 +213,18 @@ A forma como os **Caminhos de Aprendizado** aparecem em seus relatórios depende
 
 - **Conexões Existentes:**
 
-   - Se o **Caminho de Aprendizado** estiver desabilitado, nenhuma linha ou coluna relacionada será incluída.
-   - Se ativado, o relatório inclui o Caminho de Aprendizado (Nível superior) para alunos inscritos.
+  - Se o **Caminho de Aprendizado** estiver desabilitado, nenhuma linha ou coluna relacionada será incluída.
+  - Se ativado, o relatório inclui o Caminho de Aprendizado (Nível superior) para alunos inscritos.
 
 - **Novas Conexões:**
 
-   - Se o Caminho de aprendizado estiver desativado, as colunas mostrarão:
+  - Se o Caminho de aprendizado estiver desativado, as colunas mostrarão:
 
-      - **Caminho Incorporado:** Nome do Programa de Aprendizado.
-      - **ID do Caminho Inserido:** ID do Programa de Aprendizado.
-      - **ID do curso incorporado:** IDs de cursos no Caminho de Aprendizado.
-   - Se ativada, a coluna **Tipo** usa o Caminho de Aprendizado (Nível Superior) onde relevante.
-   - Para novas conexões, as alterações se aplicam após 30 dias.
+    - **Caminho Incorporado:** Nome do Programa de Aprendizado.
+    - **ID do Caminho Inserido:** ID do Programa de Aprendizado.
+    - **ID do curso incorporado:** IDs de cursos no Caminho de Aprendizado.
+  - Se ativada, a coluna **Tipo** usa o Caminho de Aprendizado (Nível Superior) onde relevante.
+  - Para novas conexões, as alterações se aplicam após 30 dias.
 
 ### Onde ver seus dados**
 

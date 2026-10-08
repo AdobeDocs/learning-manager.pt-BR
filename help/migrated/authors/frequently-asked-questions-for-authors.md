@@ -4,13 +4,14 @@ title: Perguntas Frequentes para Autores
 description: Perguntas frequentes para autores do Adobe Learning Manager
 contentowner: admin
 exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 51%
-
+source-wordcount: '1729'
+ht-degree: 77%
 ---
-
 # Perguntas Frequentes para Autores
 
 <table>
@@ -123,7 +124,7 @@ Os **módulos de teste** representam os módulos principais do curso. Se um alun
 
 Os **módulos de conteúdo** representam o currículo real do curso. O aluno pode entender melhor o conteúdo completo do curso passando por esses conteúdos.
 
-Os **módulos de pré-trabalho** ajudam os alunos a entender os conceitos básicos e a se preparar para o curso.
+Os **módulos de pré-trabalho** módulos ajudam os alunos a entender os conceitos básicos e a se preparar para o curso.
 
 +++
 
@@ -161,13 +162,13 @@ O autor pode alterar a sequência de módulos arrastando e soltando sobre outros
 
 +++
 
-+++Como filtrar para exibir um conjunto específico de cursos?
++++Como filtrar para ver um conjunto específico de cursos?
 
 Você pode usar a opção Filtrar cursos por estado para filtrar cursos. Para obter mais informações, consulte [Como pesquisar os cursos?](https://helpx.adobe.com/content/help/br/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 
-+++Que tipo de relatórios posso acessar?
++++Quais tipos de relatórios posso acessar?
 
 Como autor, você não pode acessar nenhum relatório. Somente o administrador tem direitos para exibir/gerar vários relatórios. Entre em contato com o administrador da sua empresa para obter relatórios.
 
@@ -201,7 +202,7 @@ Portanto, você pode adicionar apenas módulos compartilhados de outros autores 
 
 Você pode adicionar módulos de curso a um novo curso ou ao curso de rascunho existente. Para adicionar módulos a um novo curso, consulte [Como criar um curso?](http://primehelp.adobe.com/questions/how-do-i-create-a-new-course/)
 
-Você pode adicionar módulos à biblioteca de módulos clicando em **Biblioteca de Módulos** e depois em **Adicionar**.
+Você pode adicionar módulos à biblioteca de módulos clicando em **Biblioteca de módulos** e, em seguida, em **Adicionar**.
 
 Para adicionar módulos a um curso já publicado, você pode fazer uma duplicata desse curso primeiro, que é salva como rascunho e depois adicionar módulos.
 
@@ -244,7 +245,7 @@ Para criar um curso, siga as etapas:
 1. Forneça as informações básicas necessárias para o curso. Siga as instruções conforme a ajuda estática disponível.
 1. Clique em **[!UICONTROL Adicionar módulos]** ao curso e escolha um módulo na lista de quatro módulos: Forneça as informações básicas necessárias para cada módulo e clique em **[!UICONTROL Concluído]**.
 
-Depois de concluir a criação do curso, clique em Salvar. Seu curso é salvo como rascunho, por padrão. Clique em **[!UICONTROL Publish]** para publicar seu curso.
+Depois de concluir a criação do curso, clique em Salvar. O curso é salvo como rascunho, por padrão. Clique em **[!UICONTROL Publicar]** para publicar seu curso.
 
 Para preparar o seu curso para publicação, você precisa adicionar o nome do curso, pelo menos um módulo, o tipo de inscrição, a competência, o nível de competência e os créditos.
 

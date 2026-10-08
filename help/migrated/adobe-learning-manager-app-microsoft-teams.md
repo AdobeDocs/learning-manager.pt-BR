@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Aplicativo Adobe Learning Manager para Microsoft Teams
 contentowner: saghosh
 exl-id: 70c687ac-0ca6-4bc1-8c86-76943aeaf3e5
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 41%
-
+source-wordcount: '635'
+ht-degree: 42%
 ---
-
 # Aplicativo Adobe Learning Manager para Microsoft Teams
 
 ## Como configurar
@@ -29,7 +30,7 @@ O administrador do Azure terá que aprovar as permissões necessárias para o ap
 
 O administrador do MS Teams, no Centro de Administração, deve fixar o aplicativo ALM para todos os seus usuários e permitir isso como uma política global. Caso o ALM seja usado somente por um determinado grupo na empresa, o administrador do MS Teams deverá escolher uma política personalizada e aplicá-la somente a esse grupo específico.
 
-## A função de administrador de integração aprova o aplicativo do Teams
+## A função de administrador de integração aprova o aplicativo Teams
 
 Siga as etapas abaixo:
 

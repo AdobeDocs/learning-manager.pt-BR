@@ -3,13 +3,14 @@ description: Alterações de API no ALM
 jcr-language: en_us
 title: Alterações na API na versão de abril
 exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4106'
 ht-degree: 0%
-
 ---
-
 # Alterações na API na versão de abril de 2026
 
 A versão de abril de 2026 do Adobe Learning Manager apresenta aprimoramentos focados na API pública em torno de alternativas e equivalentes, acesso em janela de tempo ao conteúdo, tentativas de questionário orientadas por conteúdo, experiências não conectadas e manipulação de ajuda de tarefa. As alterações são projetadas para serem amplamente compatíveis com versões anteriores, permitindo integrações mais precisas.
@@ -83,8 +84,8 @@ As integrações de relatórios que consomem dados de conclusão (por exemplo, e
 - Quando isAlternateComplete == false:\
   Trate o registro como uma __conclusão direta__ do OA, como hoje.
 - Quando isAlternateComplete == true:
-   - Sinalize o registro como uma __conclusão alternativa__ em seu relatório (por exemplo, uma coluna “Método de Conclusão” com valores DIRECT vs ALTERNATE).
-   - Use relationship.alternateCompletions.data[*].id para capturar __qual(is) OA de origem__ concedeu essa conclusão (por exemplo, “Curso B concluído por meio do Curso A alternativo”).
+  - Sinalize o registro como uma __conclusão alternativa__ em seu relatório (por exemplo, uma coluna “Método de Conclusão” com valores DIRECT vs ALTERNATE).
+  - Use relationship.alternateCompletions.data[*].id para capturar __qual(is) OA de origem__ concedeu essa conclusão (por exemplo, “Curso B concluído por meio do Curso A alternativo”).
 
 Casos de uso típicos:
 
@@ -120,8 +121,8 @@ Para recursos de lista de verificação, os seguintes atributos podem estar pres
   Um comentário de texto livre deixado pelo revisor para o aluno, por exemplo:\
   “checklistComment”: “Excelente desempenho! Todos os protocolos de segurança foram seguidos corretamente.”\
   Este atributo foi populado _somente se_:
-   - showChecklistComment é verdadeiro e
-   - a configuração da lista de verificação tem enable_reviewer_remarks ativado.
+  - showChecklistComment é verdadeiro e
+  - a configuração da lista de verificação tem enable_reviewer_remarks ativado.
 - attributes.showChecklistComment\
   Um sinalizador Booleano que indica se as observações do revisor devem ser mostradas ao aluno:\
   “showChecklistComment”: true\
@@ -171,17 +172,17 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 ```
 
 - Na resposta:
-   - Use relationship.instance do learningObject principal para localizar as entradas learningObjectInstance relevantes no incluído.
-   - Em cada learningObjectInstance, siga relationship.loResources para localizar entradas de learningObjectResource.
-   - Filtrar entradas learningObjectResource onde:
-      - attributes.resourceSubType == “LISTA DE VERIFICAÇÃO” (para recursos de lista de verificação) e
-      - opcionalmente attributes.showChecklistComment == true para localizar listas de verificação com comentários visíveis ao aluno.
+  - Use relationship.instance do learningObject principal para localizar as entradas learningObjectInstance relevantes no incluído.
+  - Em cada learningObjectInstance, siga relationship.loResources para localizar entradas de learningObjectResource.
+  - Filtrar entradas learningObjectResource onde:
+    - attributes.resourceSubType == “LISTA DE VERIFICAÇÃO” (para recursos de lista de verificação) e
+    - opcionalmente attributes.showChecklistComment == true para localizar listas de verificação com comentários visíveis ao aluno.
 
 - Para cada learningObjectResource da lista de verificação, consuma:
-   - attributes.checklistComment (se presente e showChecklistComment for verdadeiro)
-   - attributes.checklistEvaluationStatus (por exemplo, “APROVADO”)
-   - attributes.showReviewerNameToLearner
-   - relationship.checklistReviewedBy (quando presente) para identificar o revisor.
+  - attributes.checklistComment (se presente e showChecklistComment for verdadeiro)
+  - attributes.checklistEvaluationStatus (por exemplo, “APROVADO”)
+  - attributes.showReviewerNameToLearner
+  - relationship.checklistReviewedBy (quando presente) para identificar o revisor.
 
 Esse padrão permite que clientes sem periféricos ou personalizados renderizem uma experiência abrangente de lista de verificação, incluindo status, sinalizadores obrigatórios/opcionais e feedback do revisor, diretamente das APIs do Prime.
 
@@ -189,14 +190,14 @@ Esse padrão permite que clientes sem periféricos ou personalizados renderizem 
 
 - _Relatórios e análises_
 As integrações que controlam o desempenho do aluno nas listas de verificação podem incorporar:
-   - checklistEvaluationStatus para indicadores de aprovação/reprovação ou outros indicadores de status.
-   - isChecklistMandatory para diferenciar as atividades de lista de verificação obrigatórias vs. opcionais.
-   - Presença ou ausência de checklistComment e showChecklistComment para auditorias da cobertura de feedback.
+  - checklistEvaluationStatus para indicadores de aprovação/reprovação ou outros indicadores de status.
+  - isChecklistMandatory para diferenciar as atividades de lista de verificação obrigatórias vs. opcionais.
+  - Presença ou ausência de checklistComment e showChecklistComment para auditorias da cobertura de feedback.
 - _Experiências do aluno_
 As implementações de UI devem:
-   - Respeite showChecklistComment antes de exibir comentários.
-   - Use showReviewerNameToLearner e checklistReviewedBy para decidir se deseja exibir o nome do revisor ou manter a revisão anônima.
-   - Volte normalmente quando os comentários estiverem desativados ou não estiverem presentes e ainda mostrem o status da avaliação e as informações de envio.
+  - Respeite showChecklistComment antes de exibir comentários.
+  - Use showReviewerNameToLearner e checklistReviewedBy para decidir se deseja exibir o nome do revisor ou manter a revisão anônima.
+  - Volte normalmente quando os comentários estiverem desativados ou não estiverem presentes e ainda mostrem o status da avaliação e as informações de envio.
 
 ## Suporte multilíngue para ajuda de tarefa
 
@@ -221,21 +222,21 @@ Quando uma ajuda de tarefa tem várias variantes de idioma, a matriz incluída c
 Uso de ajudas de tarefa em vários idiomas:
 
 - _learningObject (type: learningObject)_
-   - Contém metadados localizados com várias entradas (por exemplo, en-US, fr-FR) para que os clientes possam apresentar o título/descrição da ajuda de tarefa no idioma apropriado.
+  - Contém metadados localizados com várias entradas (por exemplo, en-US, fr-FR) para que os clientes possam apresentar o título/descrição da ajuda de tarefa no idioma apropriado.
 - _learningObjectInstance (tipo: learningObjectInstance)_
-   - Refere-se a uma ou mais entradas learningObjectResource por meio de relationship.loResources.
+  - Refere-se a uma ou mais entradas learningObjectResource por meio de relationship.loResources.
 - _learningObjectResource (tipo: learningObjectResource)_
-   - Contém a configuração comum (tipo de conteúdo, versão etc.) e vários locais localizedMetadata.
-   - Links para uma ou mais entidades de recurso via relationship.resources.
+  - Contém a configuração comum (tipo de conteúdo, versão etc.) e vários locais localizedMetadata.
+  - Links para uma ou mais entidades de recurso via relationship.resources.
 - _recurso (tipo: recurso)_
-   - *Um por localidade*, cada uma com sua própria id, localidade, nome e URL (location/downloadUrl).
+  - *Um por localidade*, cada uma com sua própria id, localidade, nome e URL (location/downloadUrl).
 
 Para uma ajuda de tarefa em vários idiomas, um padrão típico é:
 
 - learningObjectResource com localizedMetadata para en-US e fr-FR
 - relationship.resources.data apontando para:
-   - recurso com localidade: “en-US”
-   - recurso com localidade: “fr-FR”
+  - recurso com localidade: “en-US”
+  - recurso com localidade: “fr-FR”
 
 Os clientes podem selecionar o recurso apropriado fazendo a correspondência da localidade do aluno com o campo resource.attributes.locale.
 
@@ -299,23 +300,23 @@ O ponto de extremidade do recurso herdado permanece disponível:
 Agora, ele é _compatível com versões anteriores_ com os formatos de ID antigo e novo:
 
 - _Formato de ID antiga_ (por exemplo, jobAid:131032_-1_-1_2_resource)
-   - Continua a trabalhar.
-   - Retorna o _primeiro recurso criado_ associado a esse identificador herdado (geralmente o recurso en-US original).
+  - Continua a trabalhar.
+  - Retorna o _primeiro recurso criado_ associado a esse identificador herdado (normalmente o recurso en-US original).
 - _Novo formato de ID_ (por exemplo, jobAid:131032_2_fr_FR)
-   - Retorna o _recurso específico de localidade exato_ correspondente a essa ID.
-   - Isso permite a recuperação e a manipulação precisas de variantes localizadas de ajuda de tarefa.
+  - Retorna o _recurso específico de localidade exato_ correspondente a essa ID.
+  - Isso permite a recuperação e a manipulação precisas de variantes localizadas de ajuda de tarefa.
 
 Integrações que atualmente armazenam ou fazem referência às IDs de recurso antigas podem continuar a funcionar sem alteração, enquanto implementações mais recentes são incentivadas a adotar o novo formato de ID para operações específicas da localidade.
 
 ### Considerações sobre integração e UX
 
 - _Interface do usuário do aluno/administrador_
-   - Use learningObject.localizedMetadata e learningObjectResource.localizedMetadata para apresentar títulos e descrições no idioma apropriado.
-   - Use resource.attributes.locale para selecionar o URL correto (local / downloadUrl) para a localidade do aluno.
-   - Implementar comportamento de fallback (por exemplo, fallback para pt-BR) se o local exato de um aluno não estiver disponível.
+  - Use learningObject.localizedMetadata e learningObjectResource.localizedMetadata para apresentar títulos e descrições no idioma apropriado.
+  - Use resource.attributes.locale para selecionar o URL correto (local / downloadUrl) para a localidade do aluno.
+  - Implementar comportamento de fallback (por exemplo, fallback para pt-BR) se o local exato de um aluno não estiver disponível.
 - _APIs e armazenamento_
-   - Para novas integrações, armazene as _IDs de recurso de novo formato_ (`jobAid:<jobAidId>_<version>_<localeCode>`) para habilitar a recuperação específica de localidade sem ambiguidade.
-   - As IDs herdadas ainda podem ser usadas com /resources/{resourceId}, mas elas não farão distinção entre localidades.
+  - Para novas integrações, armazene as _IDs de recurso de novo formato_ (`jobAid:<jobAidId>_<version>_<localeCode>`) para habilitar a recuperação específica de localidade sem ambiguidade.
+  - As IDs herdadas ainda podem ser usadas com /resources/{resourceId}, mas elas não farão distinção entre localidades.
 
 ## Restrições de timeslot para iniciar módulos
 
@@ -369,7 +370,7 @@ Os componentes são:
 - `<version>`: o número de versão da Ajuda de Trabalho (por exemplo, 2),
 - `<localeCode>`: o código de localidade (por exemplo, en_US, fr_FR, es_ES).
 
-Qualquer integração que indexe recursos ou persista em IDs de recurso de ajuda de tarefa deve atualizar sua lógica de análise e armazenamento para reconhecer o novo formato. Como os próprios identificadores são alterados, é altamente recomendável reconstruir todos os índices locais chaveados por IDs de recurso de ajuda de tarefa após atualizar para a versão de abril de 2026.
+Qualquer integração que indexe recursos ou persista em IDs de recurso de ajuda de tarefa deve atualizar sua lógica de análise e armazenamento para reconhecer o novo formato. Como os próprios identificadores mudam, é altamente recomendável que você reconstrua todos os índices locais chaveados por IDs de recurso de ajuda de tarefa após atualizar para a versão de abril de 2026.
 
 ## Definir imagens de banner do curso por migração
 
@@ -429,8 +430,8 @@ O campo do banner funciona em ambos os cenários:
 Quando um curso é criado pela primeira vez em course.csv e a coluna de banner é preenchida, esse banner é definido imediatamente.
 - _Cursos existentes (aprimoramento/correções)_
 Se você executar novamente a migração com a mesma ID do curso e um novo valor de banner:
-   - O Learning Manager localiza o curso existente.
-   - A imagem do banner está _atualizada_ para a nova imagem especificada no CSV.
+  - O Learning Manager localiza o curso existente.
+  - A imagem do banner está _atualizada_ para a nova imagem especificada no CSV.
 
 Os nomes e caminhos das colunas reais devem corresponder à _especificação de CSV baixada_ e ao layout do repositório de conteúdo.
 
@@ -453,10 +454,10 @@ Você deve tratar a coluna de ordem herdada como removida ou ignorada:
 
 - Não confie na ordem para controlar a sequência de cursos em um Programa de aprendizado durante a migração.
 - Se você ainda tiver uma coluna de ordem de modelos mais antigos:
-   - O Learning Manager o ignorará para pedidos.
-   - É possível removê-lo com segurança do CSV ao longo do tempo para simplificar os arquivos de migração.
+  - O Learning Manager o ignorará para pedidos.
+  - É possível removê-lo com segurança do CSV ao longo do tempo para simplificar os arquivos de migração.
 - O mapeamento necessário do núcleo permanece:
-   - ID do programa de aprendizado ↔ ID do curso (e quaisquer outras colunas ainda documentadas, como ID, learningProgramId, courseId e datas).
+  - ID do programa de aprendizado ↔ ID do curso (e quaisquer outras colunas ainda documentadas, como ID, learningProgramId, courseId e datas).
 
 Sempre consulte as [_especificações do CSV_](https://experienceleague.adobe.com/pt-br/docs/learning-manager/using/integration/migration-manual) mais recentes da sua conta do Learning Manager (via csv_specifications.zip) para confirmar o conjunto de cabeçalhos e os requisitos atuais.
 
@@ -561,9 +562,9 @@ Estas APIs fazem parte da superfície padrão __API de Administração v2__.
 - [URL base (prod)](https://learningmanager.adobe.com/docs/primeapi/v2/)
 - Autenticação: Token de acesso OAuth 2.0 com escopo `admin:write`
 - Cabeçalhos obrigatórios:
-   - Autorização: Portador &lt;access_token>
-   - Content-Type: application/json
-   - Aceitar: application/json
+  - Autorização: Portador &lt;access_token>
+  - Content-Type: application/json
+  - Aceitar: application/json
 
 Para o comportamento e os escopos gerais da API de administração, consulte:
 

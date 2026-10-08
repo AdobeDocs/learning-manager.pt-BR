@@ -2,13 +2,14 @@
 title: Inscrição múltipla no Adobe Learning Manager
 description: Como administrador da conta, uma das suas principais tarefas é criar instâncias diferentes de sessões VILT em fusos horários diferentes e, possivelmente, criar sessões para grupos de usuários específicos.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 63%
-
+source-wordcount: '624'
+ht-degree: 70%
 ---
-
 # Inscrição múltipla no Adobe Learning Manager
 
 No Adobe Learning Manager, cada curso pode ter instâncias diferentes. Como administrador da conta, uma das suas principais tarefas é criar instâncias diferentes de sessões VILT em fusos horários diferentes e, possivelmente, criar sessões para grupos de usuários específicos.
@@ -43,7 +44,7 @@ O progresso de cada instância pode ser acompanhado individualmente, e um relat�
 
 ## Como ativar a Inscrição Múltipla
 
-1. Faça logon na sua conta da Adobe Learning Manager como autor.
+1. Faça logon na sua conta do Adobe Learning Manager como autor.
 1. Selecione o curso no qual deseja que os alunos se inscrevam várias vezes.
 1. No painel esquerdo, selecione **[!UICONTROL Configurações]** > **[!UICONTROL Editar]** > **[!UICONTROL Configuração de instância]** > **[!UICONTROL Habilitar várias inscrições]**.
 
@@ -81,7 +82,7 @@ Ao inscrever os alunos, você pode ativar as seguintes caixas de seleção:
 
 *”Os alunos selecionados podem já estar inscritos em outras instâncias deste curso. Permita que esses alunos também sejam inscritos na instância ...”*
 
-![alterações de administrador](assets/admin-changes.png)
+![alterações do administrador](assets/admin-changes.png)
 *Opção de registro para administradores*
 
 Se o aluno já estiver inscrito em uma instância e você, como administrador, estiver tentando inscrevê-lo em uma instância diferente do curso, selecione Sim.

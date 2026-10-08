@@ -4,13 +4,14 @@ title: Logon do usuário
 description: Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua conta.
 contentowner: manochan
 exl-id: f8f0ac74-606e-40ac-81c7-1c3d2fa9a0bf
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 42%
-
+source-wordcount: '149'
+ht-degree: 52%
 ---
-
 # Logon do usuário
 
 Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua conta seguindo as etapas abaixo:
@@ -27,9 +28,9 @@ Ao usar o Adobe Learning Manager pela primeira vez, você precisa criar sua cont
 
 1. Insira a Adobe ID e a senha, e clique em **[!UICONTROL Entrar]**.
 
-   Se você esqueceu a senha, clique em **[!UICONTROL Esqueceu a senha?]** e forneça sua ID de email usada para criar o Adobe ID.
+   Se você esqueceu a senha, clique em **[!UICONTROL Esqueceu a senha?]** e forneça a ID de e-mail que você usou ao criar o Adobe ID.
 
-1. Como alternativa, você pode usar o Enterprise ID clicando em **[!UICONTROL Entrar com um link de Enterprise ID]**.
+1. Como alternativa, você pode usar a ID da empresa clicando em **[!UICONTROL Entrar com um link da ID da empresa]**.
 
 >[!NOTE]
 >

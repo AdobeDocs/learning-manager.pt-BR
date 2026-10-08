@@ -2,13 +2,14 @@
 description: O Content Composer não oferece suporte a caminhos de ramificação, conteúdo baseado em simulação ou interatividade avançada. Produz cursos lineares. Para cenários complexos, use o Adobe Captivate junto com o Compositor de conteúdo.
 jcr-language: en_us
 title: O que o compositor de conteúdo não é
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 1%
-
 ---
-
 
 # O que o Adobe Learning Manager Content Composer não é
 

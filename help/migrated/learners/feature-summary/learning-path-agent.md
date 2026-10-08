@@ -2,7 +2,10 @@
 description: O agente do Caminho de aprendizado no Adobe Learning Manager é um assistente viabilizado por IA que gera um plano de aprendizado personalizado e sequenciado com base em suas metas, no plano de fundo e no tempo disponível.
 jcr-language: en_us
 title: Learning Path Agent (beta) no Adobe Learning Manager
-source-git-commit: 94b05fbec63577cd7441ff91d7d6015f4423f745
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2201'
 ht-degree: 0%

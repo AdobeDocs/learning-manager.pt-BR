@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Criar, modificar e publicar cursos
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '10239'
 ht-degree: 56%
-
 ---
-
 # Criar, modificar e publicar cursos
 
 Para saber como criar cursos, certificações e programas de aprendizado no Learning Manager, leia este artigo.

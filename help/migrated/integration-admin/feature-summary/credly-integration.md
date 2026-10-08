@@ -4,13 +4,14 @@ title: Credly
 description: Saiba mais sobre a integração de credenciais com o ALM para gerenciar e compartilhar medalhas externas da plataforma em vários canais de redes sociais
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # Credly
 
 A [Credibilidade](https://info.credly.com/) é uma plataforma de credencial digital que permite que alunos e organizações obtenham, compartilhem e verifiquem conquistas profissionais, como medalhas ou certificações. Os alunos podem gerenciar e compartilhar medalhas por meio de seu perfil de credencial nas redes sociais e em outros lugares.

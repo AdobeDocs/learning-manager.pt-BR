@@ -3,13 +3,14 @@ description: As transcrições do aluno no Adobe Learning Manager (ALM) permitem
 jcr-language: en_us
 title: Transcrições do aluno no Adobe Learning Manager
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4883'
+source-wordcount: '4899'
 ht-degree: 7%
-
 ---
-
 # Transcrições do aluno no Adobe Learning Manager
 
 ## Visão geral
@@ -151,10 +152,10 @@ Eles se referem a cursos, módulos, caminhos de aprendizado, certificações e a
 |---|---|
 | Nome do plano de aprendizado | Título do Plano de Aprendizado. |
 | LP/Certificação/Curso | O título do Objeto de aprendizado. |
-| Tipo | O tipo de Objeto de aprendizado no qual o usuário foi inscrito. Por exemplo:<ul><li>Caminho de Aprendizado</li><li>Certificação</li><li>Curso</li></ul> |
+| Tipo | O tipo de Objeto de aprendizado no qual o usuário foi inscrito. Por exemplo:<ul><li>Caminho do aprendizado</li><li>Certificação</li><li>Curso</li></ul> |
 | Caminho incorporado | Um caminho incorporado é um tipo de caminho de aprendizado incluído como parte de outro curso ou caminho de aprendizado. O campo indica que um aluno está concluindo esse caminho de aprendizado como parte de outro caminho de aprendizado, em vez de uma atribuição individual. |
 | Curso | Nome do curso no qual o usuário está inscrito. Quando estiver vazia, a linha representa um Caminho de Certificação ou de Aprendizado. <br><b>Observação:</b> embora os Caminhos de Aprendizado sejam compostos por cursos individuais ou Caminhos de Aprendizado aninhados, cada componente mantém seu próprio registro independente. Isso garante que os dados de progresso, conclusão e relatório sejam rastreados separadamente para os elementos pai e filho.</br> |
-| ID exclusiva do OA | Esse é um identificador opcional atribuído pelo administrador para um Objeto de aprendizado (curso, certificação ou caminho de aprendizado) no Adobe Learning Manager. Ele é usado principalmente por organizações que mantêm suas próprias IDs de sistema externas para conteúdo de aprendizado e desejam mapear essas IDs para objetos de aprendizado do ALM para fins de integração ou relatório. A ID exclusiva do LO só estará presente se a conta tiver ativado esse recurso e o autor tiver atribuído uma ID durante a criação do LO. Nota: a ID do treinamento está sempre presente e identifica exclusivamente cada Objeto de aprendizado no ALM. A ID exclusiva do LO é para mapeamento entre sistemas e não é necessária para operações padrão do ALM. |
+| ID exclusiva do OA | Este é um identificador opcional atribuído pelo administrador para um Objeto de aprendizado (curso, certificação ou caminho de aprendizado) no Adobe Learning Manager. Ele é usado principalmente por organizações que mantêm suas próprias IDs de sistema externas para conteúdo de aprendizado e desejam mapear essas IDs para objetos de aprendizado do ALM para fins de integração ou relatório. A ID exclusiva do LO só estará presente se a conta tiver ativado esse recurso e o autor tiver atribuído uma ID durante a criação do LO. Nota: a ID do treinamento está sempre presente e identifica exclusivamente cada Objeto de aprendizado no ALM. A ID exclusiva do LO é para mapeamento entre sistemas e não é necessária para operações padrão do ALM. |
 | Instância | O nome da instância do usuário do Objeto de aprendizado está inscrito. |
 | Critérios de seleção | Essa coluna indica como o aluno foi inscrito no Objeto de aprendizado (curso, certificação ou caminho de aprendizado). O valor é determinado da seguinte forma:<ul><li>Inscrição de administrador/gerente: exibe diretamente quando um aluno é inscrito diretamente por um administrador ou gerente. </li><li>Inscrição no plano de aprendizado: exibe a inscrição automática quando um aluno é inscrito por meio de um plano de aprendizado ou acionador de inscrição automatizado.</li><li>O administrador inscreve o grupo de usuários: exibe os nomes dos grupos de usuários se o aluno estava inscrito como parte de um grupo de usuários. </li><li>Caminhos de aprendizado aninhados: se o Caminho de aprendizado 1 contiver o Caminho de aprendizado 2, que contém o Curso A: para LP2 e o Curso A, o valor será pai. Para LP1, o valor é direto. </li><li>Autoinscrição: exibe a si mesmo quando o aluno se inscreve. </li></ul>O valor nesta coluna reflete o método de inscrição real e a hierarquia do OA, conforme detalhado acima.<ul><li>Inscrição no plano de aprendizado Aluno: Valor: Inscrição automática O aluno é inscrito automaticamente por meio de um plano de aprendizado ou acionador de inscrição automatizado. </li><li>Autoinscrição do aluno: Valor: Próprio O aluno se inscreve diretamente no curso, certificação ou caminho de aprendizado. </li>Inscrição do administrador no aluno diretamente (usando o email/nome do aluno): Valor: direto. O administrador ou gerente inscreve manualmente o aluno especificando seu e-mail ou nome. <li>Inscrição por meio de um grupo de usuários: Valor: Nome do grupo de usuários O aluno está inscrito como parte de um grupo de usuários. Se um aluno pertencer a vários grupos de usuários, o relatório exibirá os grupos de usuários relevantes por meio dos quais a inscrição ocorreu.  </li><li>Objeto de aprendizado inscrito devido à inscrição em um caminho de aprendizado: Valor: Caminho. O aluno está inscrito em um curso ou módulo porque ele faz parte de um caminho de aprendizado maior ao qual está atribuído.</li></ul> |
 | Módulo | Nome do módulo nos cursos. Apenas os módulos com status Concluído ou Em andamento são exibidos no relatório. Se o status for Não Iniciado ou Cancelar Inscrição, a coluna Módulo permanecerá vazia.<br>Baixe informações de nível de módulo na transcrição do aluno marcando a caixa de seleção <b>Habilitar informações de nível de módulo</b>. Nesse caso, os nomes dos módulos e o tempo gasto em cada módulo são obtidos como parte da transcrição se esta opção estiver habilitada.</br> |

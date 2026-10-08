@@ -3,13 +3,14 @@ title: Criar e personalizar um certificado
 description: Os certificados personalizados no Adobe Learning Manager (ALM) permitem que administradores e autores projetem, gerenciem e emitam certificados personalizados para alunos.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 126655e080fad8055e16c31a227c59747e2ddfcb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2642'
 ht-degree: 0%
-
 ---
-
 # Certificados personalizados no Adobe Learning Manager
 
 ## Introdução
@@ -72,9 +73,9 @@ A página de listagem **Design do Certificado** ajuda os administradores a geren
 - Catálogo baseado em blocos com as guias **Publicado** e **Rascunho**.
 - Pesquise por título do certificado; filtre por **Orientação**.
 - Ações em cada design:
-   - Duplicada (para variantes).
-   - Definido como padrão no nível de **Conta**, **Curso**, **Caminho de Aprendizado** ou **Certificação**.
-   - Desative ou desative modelos que não estão mais em uso.
+  - Duplicada (para variantes).
+  - Definido como padrão no nível de **Conta**, **Curso**, **Caminho de Aprendizado** ou **Certificação**.
+  - Desative ou desative modelos que não estão mais em uso.
 - Suporte a modelos de fornecedores terceirizados que podem ser integrados e reutilizados.
 
 ### Configuração e herança flexíveis
@@ -89,8 +90,8 @@ Os administradores podem configurar certificados em vários níveis:
 **Substituições em nível de instância**
 
 - Configuração em nível de instância para cursos, certificações e programações de aprendizado, incluindo:
-   - Marca por coorte (por exemplo, para regiões diferentes ou contas de parceiros).
-   - Designs de certificado diferentes para ciclos de certificação recorrentes.
+  - Marca por coorte (por exemplo, para regiões diferentes ou contas de parceiros).
+  - Designs de certificado diferentes para ciclos de certificação recorrentes.
 
 **Resolução e fallback de certificados**
 
@@ -109,11 +110,11 @@ Os modelos de certificado de HTML ou ZIP existentes são preservados, mas não p
 - Eles aparecem como entradas não editáveis (sem visualização WYSIWYG) e permanecem válidos para uso histórico.
 - Quando as medalhas são vinculadas a modelos herdados, a migração mantém os certificados para download; onde a configuração não pode ser preservada, os padrões globais são aplicados.
 
-### geração de PDF e pré-cozedura
+### geração e pré-fça bake de PDF
 
 Para melhorar o desempenho do tempo de execução e a experiência do aluno:
 
-- Os certificados são pré-assados no momento da conclusão (quando o OA é concluído) e, em seguida, armazenados em cache para que os alunos possam baixá-los rapidamente.
+- Os certificados são pré-feitos bake no momento da conclusão (quando o OA é concluído) e, em seguida, armazenados em cache para que os alunos possam baixá-los rapidamente.
 - Os fluxos de alunos existentes para baixar certificados por meio de **Medalhas** e **Conquistas** permanecem os mesmos.
 
 ## O desafio
@@ -128,7 +129,8 @@ Atualmente, o gerenciamento de certificados no Learning Manager depende de um mo
 
 **Restrições de vínculo de medalha** Os certificados estão fortemente acoplados a **medalhas**:
 
-- Um certificado deve estar associado a uma medalha; não há emissão somente de certificado.Esse acoplamento pode complicar as alterações de design quando os administradores desejam certificados sem elementos de gamificação.
+- Um certificado deve estar associado a uma medalha; não há emissão somente de certificado.
+Esse acoplamento pode complicar as alterações de design quando os administradores desejam certificados sem elementos de gamificação.
 
 **Criação não visual e inconsistência de marca**: os certificados baseados em HTML são flexíveis, mas precisam de habilidades de front-end que muitos administradores não têm. Alguns clientes confiam em certificados padrão genéricos, o que enfraquece a consistência da marca.
 
@@ -168,7 +170,7 @@ O design mantém o caminho atual do aluno: os certificados ainda são baixados d
 
 ### Desempenho e escalabilidade
 
-Certificados pré-configurados e desempenho do alvo de renderização orientado por JSON:
+Certificados pré-feitos bake e desempenho do destino de renderização orientado por JSON:
 
 - Os certificados são gerados na conclusão e armazenados, portanto, o download é efetivamente uma recuperação estática.
 - Os designs baseados em JSON permanecem leves para o editor e para a renderização em tempo de execução em escala.
@@ -182,7 +184,7 @@ Certificados pré-configurados e desempenho do alvo de renderização orientado 
 - Use modelos padrão em nível de conta com planos de fundo alinhados a cada linha de produto.
 - Adicione layouts específicos de locais para títulos de certificação localizados, isenções de responsabilidade e assinaturas regulatórias.
 - Para parceiros premium, duplique modelos base e adicione identidade visual de parceiro (logotipo e texto legal) no nível da instância.
-- Os PDF pré-cozidos permitem que os parceiros baixem certificados logo após a conclusão das certificações de parceiros, com carga mínima no Learning Manager.
+- Os PDF pré-feitos bake permitem que os parceiros baixem certificados logo após a conclusão das certificações dos parceiros, com carga mínima no Learning Manager.
 
 Esse padrão se encaixa em ecossistemas de franquias ou de várias marcas em que os certificados reforçam o valor da marca e do parceiro (por exemplo, grandes redes de parceiros, como a RealPage).
 
@@ -245,14 +247,17 @@ As organizações que dependem de certificados para vários objetos de aprendiza
 ## Criar um certificado personalizado
 
 1. Entre no Adobe Learning Manager como **Administrador**.
-2. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.   !&lbrack;Criar um certificado personalizado
+2. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
    *Navegue até Conquistas no painel de navegação esquerdo*
 
-3. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.   !&lbrack;Criar um certificado personalizado
+3. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate2.png)
    *A página Certificado*
 
 4. Na área superior direita da página, selecione **Novo certificado**. A caixa de diálogo **Criar um Novo Certificado** é aberta.
-5. Selecione **Paisagem** ou **Retrato**, dependendo da aparência do certificado. Depois de selecionar uma orientação, você verá um modelo em branco e modelos prontos para essa orientação.   !&lbrack;Criar um certificado personalizado
+5. Selecione **Paisagem** ou **Retrato**, dependendo da aparência do certificado. Depois de selecionar uma orientação, você verá um modelo em branco e modelos prontos para essa orientação.
+   ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate3.png)
    *Opção Paisagem ou Retrato*
 
 6. Selecione o modelo em branco ou um modelo existente.
@@ -260,14 +265,15 @@ As organizações que dependem de certificados para vários objetos de aprendiza
 8. No menu suspenso, selecione um idioma padrão.
 9. Selecione **Criar**. Se você tiver escolhido o modelo em branco, uma tela em branco será exibida abaixo do nome do certificado.
 10. Adicione elementos: **Texto**, **Imagem**, **Valor Dinâmico** e **Fundo do Certificado**.
-    !&lbrack;Criar um certificado personalizado
+    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
     *Adicionar elementos ao certificado*
 
 11. Para **Texto**, adicione conteúdo em **Texto pré-formatado** ou **Modelos de texto** ou adicione texto personalizado. O texto é exibido na tela. Quando o texto é selecionado, as opções de formatação aparecem acima da tela. Para remover o conteúdo indesejado, selecione o ícone **Excluir** no canto superior direito da tela.
 12. Para adicionar imagens, selecione **Imagem** ao lado de **Adicionar elementos**. Faça upload de imagens do seu computador ou selecione imagens nas listas de categorias.
 13. Selecione **Valor Dinâmico** para adicionar detalhes básicos, etiquetas de catálogo e campos ativos.
 14. Selecione **Fundo do Certificado** para aplicar cores ou imagens.
-15. Selecione **Visualizar** para revisar o certificado antes de publicar. Isso ajuda a entender como o certificado se parece.   !&lbrack;Criar um certificado personalizado
+15. Selecione **Visualizar** para revisar o certificado antes de publicar. Isso ajuda a entender como o certificado se parece.
+    ![Criar um certificado personalizado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
     *Visualizar o certificado*
 
 16. Na visualização, é possível salvar no Google Drive, baixar, imprimir ou usar outras opções, como propriedades de anotação ou do documento.
@@ -281,7 +287,7 @@ Depois de salvar um certificado em **Publicado** ou **Rascunhos**, você pode ed
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 4. Abra o menu de ações (**...**) do certificado e selecione **Editar**.
-   !&lbrack;Editar certificado no menu de ações
+   ![Editar certificado no menu de ações](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0001.png)
    *Opção Editar no menu suspenso*
 
 5. Faça as alterações.
@@ -299,8 +305,8 @@ Use **Clonar** quando desejar uma cópia de um certificado para um novo nome ou 
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 4. Abra o menu de ações (**...**) para o certificado e selecione **Clonar**.
-   !&lbrack;Clonar certificado do menu de ações
-   *Opção Clonar no menu suspenso*
+   Certificado de ![Clonar no menu de ações](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0002.png)
+   Opção *Clonar no menu suspenso*
 
 5. Faça as alterações.
 
@@ -317,11 +323,11 @@ Use **Clonar** quando desejar uma cópia de um certificado para um novo nome ou 
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 
 4. Abra o menu de ações (**...**) do certificado e selecione **Renomear**.
-   !&lbrack;Renomear certificado do menu de ações
+   ![Renomear certificado do menu de ações](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
    *Opção Renomear no menu suspenso*
 
 5. Na caixa de diálogo **Renomear certificado**, insira o novo nome.
-   !&lbrack;Caixa de diálogo Renomear certificado
+   ![Caixa de diálogo Renomear certificado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0004.png)
    *Insira um novo nome*
 
 6. Selecione **Salvar**. O Learning Manager mostra uma mensagem de confirmação.
@@ -337,9 +343,10 @@ A exclusão de um certificado não pode ser desfeita. Continue apenas se tiver c
 1. Na seção **Configurar**, selecione **Conquistas**. A página **Medalhas** é aberta.
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
-4. Abra o menu de ações (**...**) do certificado e selecione **Excluir**. O Adobe Learning Manager mostra uma mensagem de confirmação.   !&lbrack;Excluir certificado do menu de ações
-   *Opção Excluir no menu suspenso
-   !&lbrack;Excluir confirmação do certificado
+4. Abra o menu de ações (**...**) do certificado e selecione **Excluir**. O Adobe Learning Manager mostra uma mensagem de confirmação.
+   ![Excluir certificado do menu de ações](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0005.png)
+   *Opção Excluir no menu suspenso*
+   ![Excluir confirmação do certificado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0006.png)
    *Mensagem de confirmação*
 
 5. Selecione **Sim**. Se o certificado não estiver anexado a um objeto de aprendizado ou instância, o Learning Manager concluirá a exclusão e poderá mostrar outra confirmação.
@@ -360,5 +367,6 @@ A exclusão de um certificado não pode ser desfeita. Continue apenas se tiver c
 2. No painel de navegação esquerdo, selecione **Certificados**. A página **Certificados** é aberta.
 3. Selecione a guia **Publicado** ou **Rascunhos** para o certificado desejado.
 4. Abra o menu de ações (**...**) para o certificado, selecione **Definir como padrão** e selecione uma das quatro opções. O Learning Manager mostra uma mensagem de confirmação.
-5. Selecione **Sim**. O Learning Manager mostra outra confirmação. O certificado mostra um rótulo **Padrão para** com a categoria selecionada (por exemplo, **Padrão para treinamentos**).   !&lbrack;Padrão para rótulo de categoria no certificado
+5. Selecione **Sim**. O Learning Manager mostra outra confirmação. O certificado mostra um rótulo **Padrão para** com a categoria selecionada (por exemplo, **Padrão para treinamentos**).
+   ![Padrão para rótulo de categoria no certificado](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0008.png)
    *Depois de se tornar o certificado padrão*

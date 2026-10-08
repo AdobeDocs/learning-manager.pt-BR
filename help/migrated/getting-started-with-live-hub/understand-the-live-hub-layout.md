@@ -1,13 +1,14 @@
 ---
 title: Entenda o layout do Live Hub (Beta)
 description: Saiba mais sobre os painéis e controles que compõem a sala de sessão do Live Hub, incluindo a barra de controle, o painel Participantes, o painel Bate-papo e o painel Debates.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 1%
-
 ---
-
 
 # Entenda o layout do Live Hub (Beta)
 

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Aprendizado social no Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3455'
 ht-degree: 76%
-
 ---
-
 # Aprendizado social no Learning Manager
 
 Saiba como usar a Web de aprendizado social como um aluno
@@ -245,7 +246,8 @@ Os alunos com acesso ao Conselho social podem marcar outros usuários em publica
 
 ### Marcar usuários em publicações no Conselho social
 
-É possível marcar membros específicos do painel em publicações ou comentários usando @username. A marcação é limitada aos membros com acesso a esse painel.Para marcar usuários em um painel social:
+É possível marcar membros específicos do painel em publicações ou comentários usando @username. A marcação é limitada aos membros com acesso a esse painel.
+Para marcar usuários em um painel social:
 
 1. Faça logon no Adobe Learning Manager como aluno.
 2. Selecione **[!UICONTROL Aprendizado Social]** no painel de navegação esquerdo.

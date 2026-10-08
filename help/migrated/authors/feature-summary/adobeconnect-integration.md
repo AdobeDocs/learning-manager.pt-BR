@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Integração do Adobe Connect
 description: Os autores podem criar cursos em sala de aula virtual com o Adobe Connect durante o processo de criação do curso. Para ativar o Adobe Connect na sua conta do Learning Manager, você precisa entrar em contato com o administrador da sua organização.
 exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
-source-git-commit: a4ef66561570df00b4312a773b0c041df82114f7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 69%
-
 ---
-
 # Integração do Adobe Connect
 
 Os autores podem criar cursos em sala de aula virtual com o Adobe Connect durante o processo de criação do curso. Para ativar o Adobe Connect na sua conta do Learning Manager, você precisa entrar em contato com o administrador da sua organização.

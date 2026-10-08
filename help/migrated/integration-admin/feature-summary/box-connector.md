@@ -3,13 +3,14 @@ description: Conector Box no Adobe Learning Manager
 jcr-language: en_us
 title: Conector do Box
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 1%
-
 ---
-
 
 # Conector Box no Adobe Learning Manager
 
@@ -98,7 +99,7 @@ Para configurar uma origem:
 1. Navegue até a seção de configuração da xAPI.
 2. Selecione **Adicionar uma nova Configuração** na lista de configurações.
 3. Digite o **Nome** e o **Nome do Arquivo de Origem**.
-   - Nome: identificador descritivo para esta origem xAPI (por exemplo, Integração LMS ou Sistema de treinamento externo).
+   - Nome: identificador descritivo para essa origem xAPI (por exemplo, Integração do LMS ou Sistema de treinamento externo).
    - Nome do arquivo de origem: o nome do arquivo exato que será carregado na pasta do Box (deve corresponder exatamente, incluindo a extensão do arquivo).
 
    ![](assets/box-connector3.png)
@@ -174,6 +175,6 @@ Para exibir o status da execução:
    - **Duração:** tempo total necessário para o processamento
    - **Tipo de importação:** se a importação foi agendada ou por demanda
    - **Status atual:** informações de status em tempo real
-      - **Em andamento:** importação atualmente em execução
-      - **Concluído:** conclusão bem-sucedida com contagens de registros
-      - **Falha:** erro com informações de diagnóstico
+     - **Em andamento:** importação atualmente em execução
+     - **Concluído:** conclusão bem-sucedida com contagens de registros
+     - **Falha:** erro com informações de diagnóstico

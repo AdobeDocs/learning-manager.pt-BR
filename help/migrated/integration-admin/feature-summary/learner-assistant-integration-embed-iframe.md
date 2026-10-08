@@ -2,13 +2,14 @@
 description: Saiba como incorporar o Assistente do aluno em seu aplicativo usando um iframe, incluindo configuração e manipulação de eventos
 jcr-language: en_us
 title: Integrar o Learner Assistant incorporando o iFrame
-source-git-commit: 1549a4592b7a930631dcff6b2e75ec3a3d4f5592
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 1%
-
+ht-degree: 2%
 ---
-
 
 # Incorporação do Assistente do aluno usando um iframe
 
@@ -19,7 +20,7 @@ Os usuários do Adobe Learning Manager (ALM) podem incorporar o **Assistente de 
 Quando incorporado pelo iFrame, o Assistente do aluno fornece acesso a todos os recursos do Assistente do aluno, incluindo:
 
 * Orchestrator
-* Agente de resposta
+* Agente de respostas
 * Agente de conhecimento
 * Agente de caminhos de aprendizado
 

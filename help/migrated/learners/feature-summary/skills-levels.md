@@ -4,20 +4,21 @@ jcr-language: en_us
 title: Habilidades e níveis
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 86%
-
+source-wordcount: '327'
+ht-degree: 94%
 ---
-
 # Habilidades e níveis
 
 Leia esse artigo para saber como obter habilidades no Learning Manager, como aluno.
 
 O mapa de habilidades é um agrupamento dos conjuntos de habilidades, conhecimentos e características do funcionário de uma empresa. Essas habilidades ajudam as companhias/empresas a definir ou aumentar as expectativas do desempenho de seus funcionários. As habilidades permitem que os funcionários conciliem suas condutas às expectativas da empresa.
 
-O Adobe Learning Manager permite mapear o desempenho dos alunos com base em seu conjunto de habilidades através do widget Habilidades. Quando os alunos terminam de realizar alguns cursos, eles podem saber sua classificação em relação a cada habilidade clicando em Habilidades na página inicial dos alunos.
+O Adobe Learning Manager permite mapear o desempenho dos alunos com base em seu conjunto de habilidades através do widget Habilidades. Após concluírem alguns cursos, os alunos podem saber sua classificação em relação à cada habilidade clicando em Habilidades na página inicial dos alunos.
 
 ## Exibir habilidades {#viewskills}
 

@@ -3,13 +3,14 @@ description: Leia este artigo para saber como começar como professor no Learnin
 jcr-language: en_us
 title: Iniciando como professor no Learning Manager
 exl-id: d0540886-3e0d-4a88-8f4e-040dd8a6bde0
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 93%
-
 ---
-
 # Iniciando como professor no Learning Manager
 
 Leia este artigo para saber como começar como professor no Learning Manager.

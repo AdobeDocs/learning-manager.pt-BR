@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Resumo dos novos recursos
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3960'
 ht-degree: 1%
-
 ---
-
 # Resumo dos novos recursos {#new-features-summary}
 
 Saiba mais sobre os novos recursos e aprimoramentos na versão de março de 2024 do Adobe Learning Manager.
@@ -266,7 +267,9 @@ Ao procurar qualquer usuário, as opções **Baixar aluno** e **Exportar** baixa
 
 * As colunas Etiqueta(s) e Habilidade(s) no Relatório de treinamentos foram alteradas para Etiqueta e habilidades.
 * Adicionado o relatório [Trilha de Auditoria de Gamificação](administrators/feature-summary/reports.md#gamification-audit-trail).
-* Se uma conta tiver mais de 280.000 alunos atribuídos a uma habilidade, o relatório do aluno de habilidade será baixado como um csv compactado.Se a conta tiver menos de 250.000 alunos, o mesmo relatório será baixado como um CSV.Na página Administrador, selecione **Administrador** > **Habilidades** > **Habilidades** > **Alunos**. O relatório é baixado como CSV.
+* Se uma conta tiver mais de 280.000 alunos atribuídos a uma habilidade, o relatório do aluno de habilidade será baixado como um csv compactado.
+Se a conta tiver menos de 250.000 alunos, o mesmo relatório será baixado como um CSV.
+Na página Administrador, selecione **Administrador** > **Habilidades** > **Habilidades** > **Alunos**. O relatório é baixado como CSV.
 * O [Relatório de Resumo da Sessão](administrators/feature-summary/reports.md#session-summary-report) tem duas novas colunas- Informações de Local e região de Local.
 
 ## Alterações na criação da sala de aula
@@ -281,7 +284,8 @@ Como administrador, você pode aplicar restrições a um autor para modificar ou
 
 ## Alterações no Caminho de aprendizado flexível
 
-Todas as contas (antigas e novas) em começarão incluindo Prazo de inscrição, Prazo de cancelamento de inscrição e Limite de vagas no aplicativo do aluno para um Caminho de aprendizado flexível.Os alunos agora poderão se inscrever no Caminho de aprendizado flexível sem selecionar nenhuma instância do curso.
+Todas as contas (antigas e novas) em começarão incluindo Prazo de inscrição, Prazo de cancelamento de inscrição e Limite de vagas no aplicativo do aluno para um Caminho de aprendizado flexível.
+Os alunos agora poderão se inscrever no Caminho de aprendizado flexível sem selecionar nenhuma instância do curso.
 
 ## Novo acionador para planos de aprendizado
 
@@ -339,9 +343,9 @@ Em versões anteriores do Adobe Learning Manager, um aluno não tinha e-mails re
 Na versão de março de 2024 do Adobe Learning Manager, estas são as novas alterações:
 
 * Detalhes da sessão atualizados e convite da sessão (para aluno e professor)
-   * Para sessões futuras, os emails de **Detalhes da sessão atualizados**, **Convite de sessão** para alunos inscritos e professores atuais serão descontinuados. Para sessões anteriores, os emails de **Detalhes da sessão atualizados** e do **Convite de sessão** para alunos inscritos e professores atuais permanecerão no estado em que se encontram.
+  * Para sessões futuras, os emails de **Detalhes da sessão atualizados**, **Convite de sessão** para alunos inscritos e professores atuais serão descontinuados. Para sessões anteriores, os emails de **Detalhes da sessão atualizados** e do **Convite de sessão** para alunos inscritos e professores atuais permanecerão no estado em que se encontram.
 * E-mails de lembrete (para administrador e aluno)
-   * Para sessões futuras, somente os emails do **Lembrete de sessão** serão enviados.
+  * Para sessões futuras, somente os emails do **Lembrete de sessão** serão enviados.
 
 >[!NOTE]
 >
@@ -369,7 +373,8 @@ Nesta versão do aplicativo móvel, os alunos podem agendar e gerenciar lembrete
 * Lembrar-me novamente em 3 dias
 * Lembrar-me novamente em uma semana
 
-No Android: clicar na notificação por push o direcionará para a página **Visão geral do curso**.No iOS: clicar na notificação por push o direcionará para a página inicial do aplicativo. Essa é uma limitação conhecida no iOS.
+No Android: clicar na notificação por push o direcionará para a página **Visão geral do curso**.
+No iOS: clicar na notificação por push o direcionará para a página inicial do aplicativo. Essa é uma limitação conhecida no iOS.
 
 ### Alterações na lista de verificação no aplicativo do aluno no Salesforce
 
@@ -452,8 +457,8 @@ Um novo atributo, isExpiredSubmission, em learningObjectResource, que mostra se 
 
 * API GET /account: retorna o novo atributo **expireSubmissionDuration** X, onde X é o número de dias definido. Se não definido, 0 será retornado
 * A API GET /LO com recurso inclui o novo atributo **isExpiredSubmission**” True ou False.
-   * Verdadeiro, se o envio estiver expirado e “submissionUrl” não for exibido.
-   * Se for False, o envio não expirará e “submissionUrl” será buscado.
+  * Verdadeiro, se o envio estiver expirado e “submissionUrl” não for exibido.
+  * Se for False, o envio não expirará e “submissionUrl” será buscado.
 
 ### Alterações de API na lista de verificação
 
@@ -486,27 +491,27 @@ Recomendamos que todos os clientes novos e existentes façam chamadas pequenas v
 Os caminhos a seguir estão obsoletos:
 
 * /learningObjects
-   * Caminhos obsoletos:
-      * enrollment.loInstance.loResources.resources
-      * instance.loResources.resources
-   * Caminhos existentes:
-      * enrollment.loInstance
-      * instance.loResources
+  * Caminhos obsoletos:
+    * enrollment.loInstance.loResources.resources
+    * instance.loResources.resources
+  * Caminhos existentes:
+    * enrollment.loInstance
+    * instance.loResources
 * /learningObjects/{id}
-   * Caminho preterido:
-      * enrollment.instance.subLoInstances.learningObject
-   * Caminho existente:
-      * enrollment.instance.subLoInstances
+  * Caminho preterido:
+    * enrollment.instance.subLoInstances.learningObject
+  * Caminho existente:
+    * enrollment.instance.subLoInstances
 * /enrollments
-   * Caminho preterido:
-      * loInstance.learningObject.enrollment
-   * Novo caminho:
-      * loInstance.learningObject
+  * Caminho preterido:
+    * loInstance.learningObject.enrollment
+  * Novo caminho:
+    * loInstance.learningObject
 * /learningObjects/{id}
-   * Caminho preterido:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Novo caminho:
-      * instance.subLoInstances
+  * Caminho preterido:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Novo caminho:
+    * instance.subLoInstances
 
 ### Acesso de logon e alterações de arquivamento do relatório de auditoria do usuário para a API de trabalho
 

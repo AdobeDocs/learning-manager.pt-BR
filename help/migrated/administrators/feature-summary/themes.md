@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Temas de cores
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 42%
-
+source-wordcount: '1327'
+ht-degree: 51%
 ---
-
 # Temas de cores
 
 Temas de cores e marcas no Learning Manager
@@ -33,7 +34,7 @@ Clique em **[!UICONTROL Marcas]** no painel esquerdo para atualizar o nome da su
 
 Clique em **[!UICONTROL Editar]** para definir a aparência do logotipo e do nome da empresa no aplicativo Learning Manager.
 
-Clique em **[!UICONTROL Carregar novo logotipo]** e escolha o logotipo no computador para carregar. Você pode visualizar a aparência do logotipo e o nome da sua empresa abaixo. Escolha o estilo de cabeçalho de sua escolha e clique em **[!UICONTROL Salvar]**.
+Clique em **[!UICONTROL Carregar novo logotipo]** e escolha o logotipo no computador para carregar. Você pode visualizar a aparência do logotipo e o nome da sua empresa abaixo. Escolha o estilo de cabeçalho da sua preferência e clique em **[!UICONTROL Salvar]**.
 
 ## Temas {#themes}
 
@@ -41,7 +42,7 @@ Um conjunto de cinco imagens representativas é fornecido para visualizar as alt
 
 **Selecionar um tema**
 
-Clique em **[!UICONTROL Mostrar dicas]** abaixo desta seção para exibir as dicas na imagem, conforme mostrado abaixo.
+Clique em **[!UICONTROL Mostrar dicas]** abaixo desta seção para exibir as dicas na imagem conforme mostrado abaixo.
 
 ![](assets/themes-preview-images.png)
 
@@ -75,13 +76,13 @@ Clique em **[!UICONTROL Redefinir Tema]** para restaurar as configurações orig
 
 **Visualização ao vivo**
 
-Clique em **[!UICONTROL Visualização ao vivo]** no canto inferior esquerdo da seção Temas. Uma janela pop-up é exibida conforme mostrado abaixo:
+Clique em **[!UICONTROL Visualização ao vivo]** no canto inferior esquerdo da seção Temas. Uma janela pop-up é exibida, conforme mostrado abaixo:
 
 ![](assets/live-theme-preview.png)
 
 *Pop-up Visualização ao Vivo*
 
-Escolha o tema de sua preferência na lista suspensa, ajuste as configurações e clique em **[!UICONTROL Visualizar]** para exibir as alterações em tempo real no aplicativo. Agora, você pode analisar todos os recursos do aplicativo e testemunhar as alterações. Você também pode alterar as funções ao passar pela visualização ao vivo. Quando estiver satisfeito com as alterações, volte para o recurso pop-up Visualização dinâmica do tema e clique em **[!UICONTROL Aplicar tema]**.
+Escolha o tema de sua preferência na lista suspensa, ajuste as configurações e clique em **[!UICONTROL Visualizar]** para exibir as alterações em tempo real no aplicativo. Agora, você pode analisar todos os recursos do aplicativo e testemunhar as alterações. Você também pode alterar as funções ao passar pela visualização ao vivo. Quando estiver satisfeito com as alterações, você pode voltar ao recurso pop-up de visualização dinâmica do tema e clicar em **[!UICONTROL Aplicar tema]**.
 
 Ao visualizar as alterações em tempo real, a janela pop-up de visualização dinâmica do tema ainda aparece na parte inferior da tela. Você pode optar por minimizar a janela pop-up.
 
@@ -146,7 +147,7 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
     <p> </p>
     <ul>
      <li>Somente até 12 cores personalizadas. </li>
-     <li>As cores são aplicadas a todos os objetos de aprendizado. As cores serão aplicadas sequencialmente a todos os objetos de aprendizado (treinamentos) e o código de cores hexadecimais é o formato necessário para todas as cores, por exemplo, #ffffff.</li>
+     <li>As cores são aplicadas a todos os objetos de aprendizado. As cores serão aplicadas sequencialmente a todos os objetos de aprendizado (treinamantos) e o código de cores hexadecimais é o formato necessário para todas as cores, por exemplo, #ffffff.</li>
      <li>Se apenas uma cor for fornecida, essa cor será aplicada a todos os objetos de aprendizado.</li>
     </ul>
     <p> </p></td>
@@ -192,7 +193,7 @@ A lista abaixo exibe os componentes que podem ser personalizados. Para personali
   </tr>
    <tr>
    <td>
-    <p>Favicon</p></td>
+    <p>Ícone de favoritos</p></td>
    <td>
     <p>Os administradores não podem alterar o favicon da conta da Adobe Learning Manager. Para atualizar o favicon, entre em contato com a equipe de Suporte em <a href="mailto:learningmanagersupport@adobe.com">learningmanagersupport@adobe.com</a> </p>
     <p>Você deve compartilhar a imagem que precisa ser aplicada ao plano de fundo do aluno.</p>

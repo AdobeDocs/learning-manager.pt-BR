@@ -2,13 +2,14 @@
 title: Ciclo de vida da conta administrativa do Adobe Learning Manager
 description: Este documento fornece um resumo abrangente dos recursos de gerenciamento de conta de segurança, configuração e conformidade da Adobe Learning Manager (ALM), alinhados às recomendações do FedRAMP.
 jcr-language: en-us
-source-git-commit: 06051e44c0a6bc8ae60e44272ba088f2f6ff281f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
-
 ---
-
 
 # Recomendações de segurança do Adobe Learning Manager
 
@@ -119,16 +120,16 @@ O Adobe Learning Manager fornece uma API REST v2 completa que permite a visualiz
 ### Recuperação de Configuração de Conta
 
 * `GET /account` — retorna a configuração no nível da conta incluindo dados de configurações da conta no formato JSON, incluindo campos como:
-   * `complianceLabelDefaultID`
-   * `showComplianceLabel`
-   * `custom_injections`
+  * `complianceLabelDefaultID`
+  * `showComplianceLabel`
+  * `custom_injections`
 
 ### API de gerenciamento de usuários do Adobe (camada de Admin Console)
 
 * A API de gerenciamento de usuários do Adobe (UMAPI) fornece acesso programático às operações de Admin Console:
-   * Provisionamento de usuários
-   * Atribuição de direitos de produto
-   * Atribuição de funções de Administrador do Sistema no nível da organização
+  * Provisionamento de usuários
+  * Atribuição de direitos de produto
+  * Atribuição de funções de Administrador do Sistema no nível da organização
 * A UMAPI é separada da API REST do ALM e opera no nível da organização Adobe. Use-o para automatizar atribuições de função de Admin Console e provisionamento de usuários.
 
 ## A Adobe Learning Manager publica suas diretrizes de configuração segura — os padrões recomendados — em um formato legível por computador, como OSCAL, JSON ou YAML?
@@ -152,29 +153,29 @@ A Adobe Learning Manager mantém um histórico de versões detalhado e disponív
 
 * O Adobe publica notas de versão numeradas para cada atualização do Adobe Learning Manager (por exemplo, *Atualização 100*, *Atualização 99*).
 * Eles foram publicados no **Experience League** e no documento:
-   * Novos recursos
-   * Alterações nas configurações existentes
-   * Adições e remoções de API
-   * Alterações no conector
-   * Recursos obsoletos
+  * Novos recursos
+  * Alterações nas configurações existentes
+  * Adições e remoções de API
+  * Alterações no conector
+  * Recursos obsoletos
 * Cada nota de versão inclui uma seção dedicada para **alterações de API**, listando:
-   * Novos pontos de extremidade
-   * Campos de resposta modificados
-   * Descontinuações
-   * Eles são diretamente relevantes para os recursos de configuração relevantes para a segurança.
+  * Novos pontos de extremidade
+  * Campos de resposta modificados
+  * Descontinuações
+  * Eles são diretamente relevantes para os recursos de configuração relevantes para a segurança.
 
 ### Páginas “Novidades” — Resumos de recursos por versão
 
 * Cada versão principal tem uma página dedicada **”Novidades”** que documenta novos recursos relevantes para a segurança com contexto.
 * Exemplos de atualizações documentadas relacionadas à segurança incluem:
-   * Alterações na manipulação de permissão de função personalizada
-   * Adição de visibilidade de permissões criadas por CSV para funções personalizadas
-   * Alterações de limitação de taxa de API
+  * Alterações na manipulação de permissão de função personalizada
+  * Adição de visibilidade de permissões criadas por CSV para funções personalizadas
+  * Alterações de limitação de taxa de API
 
 ### Lista de obsolescências de API — Registro oficial de recursos de API removidos
 
 * O Adobe mantém uma página **Descontinuações de API** dedicada listando todos os endpoints de API do ALM substituídos e removidos, incluindo a versão de lançamento em que cada descontinuação ocorreu.
 * Exemplos de descontinuações relevantes para a segurança incluem:
-   * Alterações no comportamento de classificação e substituição do ponto de extremidade `GET /users`
-   * Notificação, requisitos de filtro de data de relatório
+  * Alterações no comportamento de classificação e substituição do ponto de extremidade `GET /users`
+  * Notificação, requisitos de filtro de data de relatório
 

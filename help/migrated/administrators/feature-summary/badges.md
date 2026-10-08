@@ -1,19 +1,20 @@
 ---
 jcr-language: en_us
 title: Medalhas
-description: As medalhas são um medidor de desempenho que o funcionário pode ganhar ao concluir um curso. O Adobe Learning Manager apresenta um dos mais recentes conceitos de e-learning denominado Medalhas. Profissionais no mundo inteiro usam essas medalhas como representação de uma habilidade em particular ou do resultado do aprendizado.
+description: As medalhas são um medidor de desempenho que o funcionário pode ganhar ao concluir um curso. O Adobe Learning Manager introduz um dos mais recentes conceitos de e-learning denominado Medalhas. Profissionais no mundo inteiro usam essas medalhas como representação de uma habilidade em particular ou do resultado do aprendizado.
 contentowner: manochan
 exl-id: c056e5d0-d646-4d15-979d-bae57c627eab
-source-git-commit: c7818fea372cb0324085de8ff08ec2ee1ff91864
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 47%
-
+source-wordcount: '205'
+ht-degree: 63%
 ---
-
 # Medalhas
 
-As medalhas são um medidor de desempenho que o funcionário pode ganhar ao concluir um curso. O Adobe Learning Manager apresenta um dos mais recentes conceitos de e-learning denominado Medalhas. Profissionais no mundo inteiro usam essas medalhas como representação de uma habilidade em particular ou do resultado do aprendizado.
+As medalhas são um medidor de desempenho que o funcionário pode ganhar ao concluir um curso. O Adobe Learning Manager introduz um dos mais recentes conceitos de e-learning denominado Medalhas. Profissionais no mundo inteiro usam essas medalhas como representação de uma habilidade em particular ou do resultado do aprendizado.
 
 Você pode definir Medalhas que podem servir como uma motivação para os usuários.
 

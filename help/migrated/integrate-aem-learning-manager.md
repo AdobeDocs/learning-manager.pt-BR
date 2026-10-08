@@ -4,13 +4,14 @@ title: Integrar o Adobe Learning Manager ao AEM
 description: O Learning Manager é um Sistema de Gerenciamento de Aprendizado com um Sistema de Gerenciamento de Conteúdo de Aprendizado interno. Os usuários gerenciam o conteúdo de aprendizado fazendo upload para o Learning Manager para que ele execute o controle de versão, a alocação para os cursos, a definição da visibilidade para os alunos, o controle do consumo e a emissão de relatórios para os administradores.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3817'
 ht-degree: 45%
-
 ---
-
 
 # Integrar o Adobe Learning Manager ao AEM
 
@@ -115,7 +116,7 @@ Para aprovar o aplicativo, clique em **[!UICONTROL Aprovar]**.
 ## Configurar conta do ALM no AEM
 
 1. Inicie sua instância do AEM.
-1. Clique em **Configurações** > **Cloud Service**.
+1. Clique em **Configurações** > **Cloud Services**.
 1. Clique em **Configuração do Adobe Learning Manager**.
 
    ![](assets/alm-configuration.png)
@@ -361,7 +362,7 @@ Para a configuração do widget, o autor do AEM requer apenas o token de atualiz
 
 Você também pode definir várias configurações de conta em várias páginas.
 
-1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuração do Widget do Learning Manager]**.
+1. Clique em **[!UICONTROL Ferramentas]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Configuração do Widget do Learning Manager]**.
 1. Clique em **[!UICONTROL Criar]**.
 1. Digite o token de atualização aqui. Configure as outras configurações.
 1. O nome do host deve ser alterado para **learningmanagereu** para as regiões da UE.
@@ -419,19 +420,19 @@ As opções do Catálogo contêm as seguintes opções:
 
 * **[!UICONTROL IDs de catálogo]:** IDs de catálogo separadas por vírgula para as quais o treinamento precisa ser exibido.
 * **[!UICONTROL Classificação]:** Ordem de classificação para o treinamento. Estas são as opções de classificação:
-   * nome: classifica objetos de aprendizado em ordem alfabética de A a Z.
-   * -name: classifica objetos de aprendizado em ordem alfabética, de Z a A.
-   * data: classifica por data em ordem crescente.
-   * -date: Classifica por data em ordem decrescente (última primeira).
-   * dateCreated: classifica pela data de criação do objeto de aprendizado (o mais antigo primeiro).
-   * -dateCreated: classifica por data de criação (mais recente primeiro).
-   * data de inscrição: classifica pela data de inscrição do aluno (a mais antiga primeiro).
-   * -dateEnroll: Classifica por data de inscrição (mais recente primeiro).
-   * classificação: classifica por classificações do aluno (da mais baixa para a mais alta).
-   * -rating: Classifica por classificações (do mais alto para o mais baixo).
-   * dueDate: Classifica pela data de vencimento do curso (primeiro o prazo mais antigo).
-   * eficácia: classifica por pontuações de eficácia com base no feedback do aluno.
-   * progresso: classifica pelo progresso do aluno (menos progresso para a maioria).
+  * nome: classifica objetos de aprendizado em ordem alfabética de A a Z.
+  * -name: classifica objetos de aprendizado em ordem alfabética, de Z a A.
+  * data: classifica por data em ordem crescente.
+  * -date: Classifica por data em ordem decrescente (última primeira).
+  * dateCreated: classifica pela data de criação do objeto de aprendizado (o mais antigo primeiro).
+  * -dateCreated: classifica por data de criação (mais recente primeiro).
+  * data de inscrição: classifica pela data de inscrição do aluno (a mais antiga primeiro).
+  * -dateEnroll: Classifica por data de inscrição (mais recente primeiro).
+  * classificação: classifica por classificações do aluno (da mais baixa para a mais alta).
+  * -rating: Classifica por classificações (do mais alto para o mais baixo).
+  * dueDate: Classifica pela data de vencimento do curso (primeiro o prazo mais antigo).
+  * eficácia: classifica por pontuações de eficácia com base no feedback do aluno.
+  * progresso: classifica pelo progresso do aluno (menos progresso para a maioria).
 * **[!UICONTROL Estado do Aluno]:** retorna todos os treinamentos que usam os seguintes filtros: inscrito, iniciado, concluído e não inscrito. Os resultados da pesquisa não serão exibidos se a opção de classificação for data de inscrição, data de conclusão ou data de inscrição.
 * **[!UICONTROL Nome da habilidade]:** A habilidade usada para filtrar o treinamento exato.
 * **[!UICONTROL Nome da marca]:** A marca usada para filtrar resultados exatos.
