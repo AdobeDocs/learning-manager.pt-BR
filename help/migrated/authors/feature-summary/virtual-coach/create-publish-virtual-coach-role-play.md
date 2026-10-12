@@ -184,7 +184,7 @@ Duas guias estão disponíveis: **Pessoas do Sistema** e **Pessoas Personalizada
 ![](/help/migrated/authors/feature-summary/assets/virtual_coach4.png)
 *Reutilize uma persona personalizada de uma interpretação anterior em vez de criar uma nova do zero.*
 
-Você pode reutilizar uma pessoa de duas maneiras: edite seus detalhes diretamente para transformá-la em uma pessoa diferente ou selecione **Duplicar** para criar uma cópia e alterar os detalhes da cópia. Para ver ambas as opções, selecione o ícone de reticências verticais (****) que aparece no canto superior direito da imagem de uma pessoa quando você passa o mouse sobre ela ou a seleciona.
+Você pode reutilizar uma pessoa de duas maneiras: edite seus detalhes diretamente para transformá-la em uma pessoa diferente ou selecione **Duplicar** para criar uma cópia e alterar os detalhes da cópia. Para ver ambas as opções, selecione o ícone de reticências verticais (**&#x200B;**) que aparece no canto superior direito da imagem de uma pessoa quando você passa o mouse sobre ela ou a seleciona.
 
 ### Configurar detalhes e personalidade pessoais
 
@@ -295,7 +295,7 @@ Cada linha na tabela de tópicos representa uma área de conversa obrigatória:
 
 - Para editar qualquer campo em uma linha de tópico existente, selecione o campo diretamente e atualize o texto ou o valor.
 - Para regenerar as diretrizes de avaliação usando IA com base na sua personalidade e contexto, selecione o ícone de atualização (**↻**) na célula **Diretrizes de avaliação**.
-- Para remover um tópico, selecione o menu de opções (****) no final da linha e selecione **Excluir tópico**.
+- Para remover um tópico, selecione o menu de opções (**&#x200B;**) no final da linha e selecione **Excluir tópico**.
 - Para duplicar um tópico e usá-lo como base para outro semelhante, selecione **Duplicar tópico** no mesmo menu.
 
 ### Diretrizes para escrever tópicos eficazes
