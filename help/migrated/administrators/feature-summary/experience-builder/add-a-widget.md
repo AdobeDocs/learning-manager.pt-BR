@@ -7,9 +7,7 @@ source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 0%
-
 ---
-
 # Adicionar e configurar widgets
 
 ## Widget Calendário
@@ -155,7 +153,7 @@ Para configurar o widget Cursos e caminhos:
 
 ![](assets/configure-course-paths.png)
 _Widget Cursos e caminhos onde os administradores definem o título, a descrição e selecionam Cursos ou Caminhos de aprendizado para serem exibidos como cartões interativos_
-&#x200B;11. Selecione **[!UICONTROL Adicionar widget]**.
+11. Selecione **[!UICONTROL Adicionar widget]**.
 
 O widget Cursos e caminhos será adicionado à página. Os administradores podem adicionar outros widgets e publicar a página.
 
