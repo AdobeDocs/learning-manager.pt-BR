@@ -7,9 +7,7 @@ source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 # Visão geral
 
 Uma página no Experience Builder é um espaço personalizável que serve como base para organizar e apresentar conteúdo de aprendizado, recursos e elementos interativos em seu portal de aprendizado. Ele atua como uma tela digital onde os administradores podem organizar vários widgets, como listas de cursos, calendários de eventos, status de conformidade, banners e feed social.
