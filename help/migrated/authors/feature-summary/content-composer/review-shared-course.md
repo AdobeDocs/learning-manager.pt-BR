@@ -38,7 +38,7 @@ Quando um projeto é compartilhado para revisão, você acessa o curso como revi
 
 ## Denunciar conteúdo ofensivo
 
-Se você encontrar conteúdo que viole os [Termos de uso](https://www.adobe.com/legal/terms.html) do Adobe ao revisar um curso do Compositor de conteúdo compartilhado, poderá denunciá-lo.
+Se você encontrar conteúdo que viole os [Termos de uso](https://www.adobe.com/br/legal/terms.html) do Adobe ao revisar um curso do Compositor de conteúdo compartilhado, poderá denunciá-lo.
 
 Selecione **Relatório** no canto superior direito e preencha o formulário. Como alternativa, você pode denunciar abuso via email para [abuse@adobe.com](mailto:abuse@adobe.com). 
 

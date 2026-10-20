@@ -38,7 +38,7 @@ Embora o GDPR seja um regulamento da UE, ele é aplicável a entidades comerciai
 
 De acordo com o GDPR, se a sua empresa fornece um produto ou serviço para residentes da UE, e se determina como e porque coleta, rastreia e monitora seus dados, você é considerado um [controlador de dados](https://gdpr-info.eu/art-24-gdpr/). Como um cliente do Adobe Learning Manager, se você executa uma destas atividades, é considerado como um controlador de dados.
 
-As empresas que processam dados em nome de controladores são consideradas [processadores de dados](https://gdpr-info.eu/art-28-gdpr/). Como um fornecedor do LMS Adobe Learning Manager hospedado na nuvem, a Adobe executa a função de processador de dados. Aqui estão alguns detalhes adicionais sobre o [GDPR e Sua Empresa](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+As empresas que processam dados em nome de controladores são consideradas [processadores de dados](https://gdpr-info.eu/art-28-gdpr/). Como um fornecedor do LMS Adobe Learning Manager hospedado na nuvem, a Adobe executa a função de processador de dados. Aqui estão alguns detalhes adicionais sobre o [GDPR e Sua Empresa](https://www.adobe.com/br/privacy/general-data-protection-regulation.html).
 
 +++
 
