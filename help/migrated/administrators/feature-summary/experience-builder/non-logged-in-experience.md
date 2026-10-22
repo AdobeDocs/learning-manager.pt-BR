@@ -3,13 +3,11 @@ description: Explica como o Experience Builder pode publicar páginas de aprendi
 jcr-language: en_us
 title: Configurar e gerenciar páginas não conectadas no Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
+source-git-commit: 1098caed370839d7adad2abf564e8f6ed137d10b
 workflow-type: tm+mt
-source-wordcount: '6058'
+source-wordcount: '6051'
 ht-degree: 1%
-
 ---
-
 
 # Experiência não conectada no Experience Builder
 
@@ -356,15 +354,16 @@ A parte crítica é informar à pilha ES não conectada que academy.yourcompany.
 
 1. **Reabilite o conector TDA (simples, amigável ao autoatendimento)**
 
-O wiki do Experience Builder M45 explica que os usuários nativos não conectados precisarão excluir e reativar a conexão TDA para que o novo domínio seja automaticamente incluído na lista de permissões. Isso permite duas coisas:
-1. A conta não conectada JSON é gerada novamente.
-2. Os domínios listados de permissão são atualizados para incluir o novo domínio CDN não conectado e seu domínio personalizado.
+   Os usuários nativos não conectados precisarão excluir e reativar a conexão TDA para que o novo domínio seja automaticamente incluído na lista de permissões. Isso permite duas coisas:
 
-Isso é recomendado quando você tem um pequeno número de contas e pode tolerar a desativação e reativação temporárias do conector.
+   * A conta não conectada JSON é gerada novamente.
+   * Os domínios listados de permissão são atualizados para incluir o novo domínio CDN não conectado e seu domínio personalizado.
 
-1. **Verifique se o domínio está na lista de permissões**
+   Isso é recomendado quando você tem um pequeno número de contas e pode tolerar a desativação e reativação temporárias do conector.
 
-Após a listagem de permissões, abra o site não conectado no domínio personalizado e inspecione as chamadas de rede do navegador.
+2. **Verifique se o domínio está na lista de permissões**
+
+   Após a listagem de permissões, abra o site não conectado no domínio personalizado e inspecione as chamadas de rede do navegador.
 
 Você deseja ver:
 
@@ -532,7 +531,7 @@ Na pilha não conectada, a pesquisa e a listagem de objetos de aprendizado (LOs)
 A alteração introduz suporte para o OA **breve descrição** em APIs de pesquisa e listagem não conectadas:
 
 - Para **cursos**, a semântica da interface do usuário existente é:
-   - Cartões conectados mostram “Breve descrição” (campo de 140 caracteres), se presente; caso contrário, eles voltam para a longa “Visão geral detalhada”.
+  - Cartões conectados mostram “Breve descrição” (campo de 140 caracteres), se presente; caso contrário, eles voltam para a longa “Visão geral detalhada”.
 - Para **caminhos de aprendizado**, a interface de usuário conectada usa o campo “Benefícios” como a descrição curta, se definida, e retorna para a visão geral caso contrário.
 - Para **certificações**, uma “Descrição” curta é usada, com uma “Visão geral da certificação” mais longa como fallback.
 - Para **ajudas de tarefa**, o campo de descrição principal é usado.
