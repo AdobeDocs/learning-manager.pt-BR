@@ -1,9 +1,8 @@
 ---
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 3%
-
+source-wordcount: '300'
+ht-degree: 0%
 ---
 # Contribuindo
 
@@ -13,24 +12,32 @@ Veja a seguir um conjunto de diretrizes a serem seguidas ao contribuir com este 
 
 ## Código De Conduta
 
-Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao participar, espera-se que você mantenha esse código. Denuncie comportamento inaceitável para
+Este projeto segue o [código de conduta](code-of-conduct.md) do Adobe. Ao participar,
+espera-se que você mantenha esse código. Denuncie comportamento inaceitável para
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Documentação do Guia do Colaborador
 
-Consulte a [Guia do Colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR).
+Consulte o [Guia do Colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR).
 
 ## Tem Alguma Dúvida?
 
-Comece preenchendo um problema. Os comitês existentes neste projeto trabalham para chegar a um consenso em torno da direção do projeto e das soluções de problemas dentro dos tópicos de problemas (quando apropriado).
+Comece preenchendo um problema. Os responsáveis por este projeto trabalham para
+consenso sobre a direção do projeto e as soluções de problemas dentro dos tópicos de problemas
+(quando adequado).
 
 ## Contrato de licença do colaborador
 
-Todas as contribuições de terceiros para este projeto devem ser acompanhadas de um contrato de licença de colaborador assinado. Isso dá permissão de Adobe para redistribuir suas contribuições como parte do projeto. [Assinar nosso contrato de licença](http://opensource.adobe.com/cla.html). Você só precisa enviar um CLA de Adobe uma vez, portanto, se tiver enviado um anteriormente, você está pronto para começar!
+Todas as contribuições de terceiros para este projeto devem ser acompanhadas por um colaborador assinado
+contrato de licença. Isso dá permissão de Adobe para redistribuir suas contribuições
+como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). Você
+você só precisa enviar um CLA de Adobe uma vez, portanto, se tiver enviado um anteriormente,
+você está pronto para ir!
 
 ## Revisões de código
 
-Todos os envios devem vir na forma de solicitações de recepção e devem ser revisados pelos responsáveis pelo projeto. Leitura [Documentação de solicitação pull do GitHub](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+Todos os envios devem vir na forma de solicitações de recebimento e precisam ser revisados
+pelos responsáveis pelo projeto. Ler a documentação de solicitação pull de [GitHub](https://help.github.com/articles/about-pull-requests/)
 para obter mais informações sobre o envio de solicitações pull.
 
 <!--
@@ -40,8 +47,13 @@ submitting a pull request!
 
 ## Do Colaborador Para O Committer
 
-Adoramos as contribuições da nossa comunidade! Se quiser ir além do colaborador e se tornar um comprometido com acesso total de gravação e uma voz no projeto, você deve ser convidado para o projeto. Os comitês existentes empregam um processo de nomeação interna que deve chegar a um consenso preguiçoso (silêncio é aprovação) antes que os convites sejam emitidos. Se você se sente qualificado e quer se envolver mais profundamente, fique à vontade para entrar em contato com os comprometidos existentes para ter uma conversa sobre isso.
+Adoramos as contribuições da nossa comunidade! Se você deseja ir além do colaborador
+e torne-se um comitê com acesso total de gravação e voz no projeto, você deve
+ser convidado para o projeto. Os comitês existentes empregam uma nomeação interna
+processo que deve chegar a um consenso preguiçoso (silêncio é aprovação) antes de convites
+são emitidos. Se você sente que é qualificado e quer se envolver mais profundamente,
+fique à vontade para entrar em contato com os comitês existentes e conversar sobre isso.
 
 ## Problemas de segurança
 
-Os problemas de segurança não devem ser relatados neste controlador de problemas. Em vez disso, [envie um problema para nossos especialistas em segurança](https://helpx.adobe.com/br/security/alertus.html)
+Os problemas de segurança não devem ser relatados neste controlador de problemas. Em vez disso, [envie um problema aos nossos especialistas em segurança](https://helpx.adobe.com/br/security/alertus.html)
