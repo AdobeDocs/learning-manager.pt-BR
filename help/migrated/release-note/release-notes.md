@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
 workflow-type: tm+mt
-source-wordcount: '35230'
+source-wordcount: '35301'
 ht-degree: 63%
 ---
 # Notas de versão do Adobe Learning Manager
@@ -70,6 +70,10 @@ Foram feitos dois aprimoramentos ao Agente do Insights. São eles:
 * **Inscrição no curso, excluindo a lista de espera por padrão:** Para consultas de inscrição direta e indireta sem filtros, a contagem de inscrições diretas inclui alunos com um status Aguardando, mesmo que eles estejam na lista de espera e não participem ativamente. Por padrão, o painel Abordagem não indica que os alunos da lista de espera estão incluídos na contagem. Os alunos em lista de espera são excluídos somente quando o administrador solicita explicitamente a exclusão, caso em que a regra aplicada é divulgada.
 
 [Saiba mais](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+### Certificado personalizado - Certificado Designer
+
+Quando uma medalha era adicionada a um design de certificado, o sistema de geração de certificados oferecia suporte apenas ao campo de medalha baseada em texto. Como resultado, a imagem da medalha do aluno estava ausente ou era exibida incorretamente no PDF gerado. Com essa correção, o sistema agora reconhece o alocador de espaço de imagem da medalha e a substitui pela imagem da medalha obtida do aluno, preservando a posição e o tamanho configurados no designer do certificado.
 
 ## API
 
