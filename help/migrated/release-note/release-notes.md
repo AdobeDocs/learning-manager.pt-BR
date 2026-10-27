@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
+source-git-commit: add4cde9d61b2ad004f8092a1ad7172a8da997fe
 workflow-type: tm+mt
-source-wordcount: '35301'
+source-wordcount: '35530'
 ht-degree: 63%
 ---
 # Notas de versão do Adobe Learning Manager
@@ -26,6 +26,22 @@ ht-degree: 63%
 </table>
 
 -->
+
++++Atualização 113: versão de 27 de outubro de 2026 do Adobe Learning Manager
+
+## Aprimoramentos nesta versão
+
+Integração do **Go1:** a integração do Go1 no Adobe Learning Manager foi aprimorada para tornar o rastreamento da conclusão do curso mais confiável. As conclusões do Go1 dos alunos agora são gravadas com precisão, mesmo que eles deixem o reprodutor do curso logo após a conclusão. Esta correção ajuda a garantir que as transcrições do aluno e os relatórios do administrador permaneçam completos e atualizados. Nenhuma configuração é necessária e os cursos Go1 existentes continuam funcionando como antes. [Saiba mais](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
+
+## Erros corrigidos
+
+**Dispositivo móvel:** em iPhones usando o iOS Safari, iniciar um curso na orientação retrato do catálogo ou pesquisar CTA exibiu o prompt “Gire seu dispositivo”. O prompt permaneceu mesmo depois de girar para paisagem, impedindo o início do curso. Esse problema foi corrigido e o reprodutor agora se recupera ao girar e inicia o curso conforme esperado.
+
+**Aluno:** Os alunos não puderam enviar arquivos do Excel, do PowerPoint, de vídeo, ZIP e outros tipos em módulos de Envio de Arquivos e receberam um erro genérico. Esse problema foi corrigido e os alunos agora podem carregar e enviar esses tipos de arquivo conforme esperado.
+
+**Modelo de email:** os emails de convite do calendário exibiam um corpo em branco e uma descrição vazia do evento .ics quando os modelos de sessão eram desvinculados do Layout Global. Esse problema foi corrigido e os modelos desvinculados agora exibem os detalhes da sessão e o conteúdo do layout configurados no email e na descrição do evento do calendário, conforme esperado.
+
++++
 
 +++Atualização 112: versão de 30 de setembro de 2026 do Adobe Learning Manager
 
