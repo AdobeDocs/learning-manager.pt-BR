@@ -4,7 +4,7 @@ description: Mensagens de erro comuns e notificações que você pode encontrar 
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Durante uma sessão do Live Hub, os professores podem encontrar mensagens de erro ou notificações que impedem que determinadas ações sejam concluídas conforme esperado. Este artigo descreve os erros comuns enfrentados pelo professor, suas possíveis causas e as etapas para resolvê-los.
 
-## Problemas de conexão
+## Problemas de conexão {#connection-issues}
 
 | Mensagem de erro | Cenário | Sugestões para superar o erro |
 |---|---|---|
@@ -61,7 +61,7 @@ As mensagens abaixo aparecem como notificações do sistema quando um professor 
 | “FileName.pdf” excede o limite de 1 MB. | Um professor carrega um arquivo PDF que excede o limite de tamanho de arquivo de 1 MB. | Compacte ou reduza o tamanho do arquivo de PDF para menos de 1 MB e faça upload novamente. |
 | “FileName.pptx” excede o limite de 3 MB. | Um professor carrega um arquivo PPT que excede o limite de tamanho de arquivo de 3 MB. | Compacte ou reduza o tamanho do arquivo PPT para menos de 3 MB e faça upload novamente. |
 
-## Problemas na sessão de grupo
+## Problemas na sessão de grupo {#breakout-issues}
 
 As mensagens abaixo podem ser exibidas quando um professor tenta iniciar uma sessão de breakout.
 

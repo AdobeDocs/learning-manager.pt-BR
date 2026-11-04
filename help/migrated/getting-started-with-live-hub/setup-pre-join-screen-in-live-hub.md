@@ -4,7 +4,7 @@ description: Saiba como funciona a tela de pré-ingresso do Live Hub, como permi
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2e198c9edfedc804db6a52b79b50372fb4875203
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Quando solicitado pelo navegador, selecione **Permitir** para habilitar o acesso
 ![Permitir Prompt de Permissões do Navegador](assets/allow-browser-permissions-prompt.png)
 *Selecione Permitir quando o navegador solicitar acesso ao microfone e à câmera.*
 
-### Configurar controles de áudio
+### Configurar controles de áudio {#audio-controls}
 
 O microfone e o alto-falante são selecionados automaticamente. Use o controle de áudio na tela de pré-ingresso para confirmar se eles funcionam ou alternam para um dispositivo diferente.
 
