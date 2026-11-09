@@ -5,9 +5,9 @@ title: Publicar no Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 9941036e5221aa8cc1deb4d5d05d1fd76bd4e66b
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '437'
 ht-degree: 1%
 ---
 
@@ -48,3 +48,23 @@ Depois de conectar sua conta, configure os detalhes de publicação na seção P
 - Insira uma **Descrição** - um breve resumo do curso que aparece junto com ele na Biblioteca de Conteúdo do ALM, ajudando os alunos e administradores a entender seu propósito.
 
 - Selecione **Publish** para enviar o curso para a Biblioteca de Conteúdo do ALM como um módulo.
+
+## Navegação do aluno em cursos publicados do Compositor de conteúdo
+
+Saiba como os alunos navegam nos cursos do Compositor de conteúdo publicados no Adobe Learning Manager ou exportados como pacotes SCORM, incluindo o sumário flexível e a navegação móvel.
+
+## Sumário recolhível
+
+Os cursos publicados no Adobe Learning Manager ou exportados como pacotes SCORM incluem um tutorial flexível e um painel de navegação de tópico.
+
+Os alunos podem:
+
+- **Expanda** o painel de navegação para procurar lições e tópicos e ir para qualquer seção.
+- **Recolha** o painel de navegação para focar no conteúdo do curso sem que o painel ocupe espaço na tela.
+O estado do painel é preservado à medida que os alunos se movem pelo curso.
+
+## Navegação móvel
+
+Em dispositivos móveis, a lição e a navegação de tópico são abertas como uma sobreposição de tela cheia, em vez de um painel lateral. Os alunos selecionam o ícone de navegação para abrir a sobreposição, navegar até a lição ou tópico desejado e selecioná-lo para navegar até lá.
+
+A sobreposição fecha automaticamente depois que o aluno seleciona um destino, retornando-o ao conteúdo do curso.
