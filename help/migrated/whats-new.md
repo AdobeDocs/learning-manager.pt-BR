@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
+source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -258,7 +258,6 @@ Os visitantes da sua academia pública agora podem reproduzir o conteúdo seleci
 
 Os administradores agora podem escolher os catálogos específicos que aparecem na academia pública. Somente esses catálogos podem ser pesquisados por visitantes anônimos e indexados por mecanismos de pesquisa e assistentes de IA, portanto, os cursos de teste ou conteúdo interno permanecem privados.
  
-
 ### Encontre em mecanismos de pesquisa e assistentes de IA (beta)
 
 O Adobe Learning Manager agora pode tornar sua academia pública detectável por mecanismos de pesquisa como Google e por assistentes de IA como ChatGPT, Claude e Gemini. Seus cursos podem então aparecer em resultados de pesquisa e respostas geradas por IA, atribuídas à sua academia.
@@ -402,9 +401,9 @@ Esta versão inclui novas APIs que oferecem suporte a notificações do professo
 
 A API de inscrições agora oferece suporte a instâncias de várias inscrições no aplicativo do aluno. Adicione o parâmetro `includeMultiInstanceEnrollments=true` opcional a `GET /enrollments` para incluí-los. O padrão é `false`, portanto as integrações existentes, incluindo implementações sem periféricos, continuam trabalhando inalteradas.
 
-### Data do último acesso para inscrição no caminho de aprendizado
+### Data do último acesso para inscrição nos Caminhos de aprendizado
 
-Agora você pode armazenar metadados personalizados, como uma data de último acesso, em uma inscrição no caminho de aprendizado e defini-los e lê-los por meio da API. Isso ajuda a controlar o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
+Agora você pode armazenar metadados personalizados, como uma data de último acesso, em uma inscrição no Caminho de aprendizado e defini-la e lê-la por meio da API. Isso ajuda a controlar o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
 
 * Defina os metadados em uma inscrição existente ou ao inscrever um aluno usando um token de administrador.
 * Leia-o com um token de administrador ou aluno.
