@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
+source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -102,9 +102,9 @@ Autores criam cenários com base em seus próprios materiais de referência usan
 
 O Virtual Coach oferece suporte a nove idiomas e pode ser usado como uma ajuda de tarefa independente ou incorporado em um curso.
 
-## Citações do caminho de aprendizado no Assistente do aluno
+## Citações do Caminho de aprendizado no Assistente do aluno
 
-As respostas do Assistente do aluno agora citam o caminho de aprendizado que contém um curso de origem, juntamente com o próprio curso. Os alunos abrem a página de visão geral do curso ou a página do caminho de aprendizado na citação. As respostas retiradas de uma ajuda de tarefa incluem um link para download. Isso ajuda os alunos a encontrar o treinamento que responde às suas perguntas.
+As respostas do Assistente de aluno agora citam o caminho de aprendizado que contém um curso de origem, juntamente com o próprio curso. Os alunos abrem a página Visão geral do curso ou Caminho de aprendizado na citação. As respostas retiradas de uma ajuda de tarefa incluem um link para download. Isso ajuda os alunos a encontrar o treinamento que responde às suas perguntas.
 
 ## Configurações do Assistente do AI
 
@@ -234,7 +234,7 @@ Nomes longos podem ser mais largos do que o espaço disponível em algumas parte
 
 Para exibir o nome completo, passe o mouse sobre o nome abreviado.
 
-## Informações de medalha para cursos e programações de aprendizado
+## Informações de medalhas para cursos e caminhos de aprendizado
 
 Quando os autores adicionam um curso ou caminho de aprendizado, uma janela lista cursos existentes e caminhos de aprendizado com informações da medalha. A janela mostra o nome, o tipo (curso ou caminho de aprendizado), o status da publicação e o formato do curso, como ritmo individualizado, virtual, sala de aula ou misto.
 
@@ -258,7 +258,6 @@ Os visitantes da sua academia pública agora podem reproduzir o conteúdo seleci
 
 Os administradores agora podem escolher os catálogos específicos que aparecem na academia pública. Somente esses catálogos podem ser pesquisados por visitantes anônimos e indexados por mecanismos de pesquisa e assistentes de IA, portanto, os cursos de teste ou conteúdo interno permanecem privados.
  
-
 ### Encontre em mecanismos de pesquisa e assistentes de IA (beta)
 
 O Adobe Learning Manager agora pode tornar sua academia pública detectável por mecanismos de pesquisa como Google e por assistentes de IA como ChatGPT, Claude e Gemini. Seus cursos podem então aparecer em resultados de pesquisa e respostas geradas por IA, atribuídas à sua academia.
@@ -273,9 +272,9 @@ O Adobe Learning Manager agora pode tornar sua academia pública detectável por
 >
 >A descoberta de IA e pesquisa no Adobe Learning Manager nativo requer um domínio personalizado. As implantações sem periféricos precisarão implementar partes da configuração em seu próprio ambiente.
 
-## Remover um curso sem tornar um caminho de aprendizado inacessível
+## Desativar um curso sem tornar um caminho de aprendizado inacessível
 
-Um curso inativo ou uma programação de aprendizado aninhada é removido do objeto de aprendizado de nível superior, que permanece aberto para novas inscrições. Retirar um curso não torna mais o caminho de aprendizado inacessível.
+Um curso inativo ou um caminho de aprendizado aninhado é removido do objeto de aprendizado de nível superior, que permanece aberto para novas inscrições. Retirar um curso não torna mais o Caminho de aprendizado inacessível.
 
 ## URL de página não conectada para perfis de autorregistro
 
@@ -285,7 +284,7 @@ Quando os usuários selecionam **Inscrever-se** em uma página acessada por meio
 
 ## Armazenar datas do último acesso para inscrições no Caminho de Aprendizado
 
-O Adobe Learning Manager agora permite anexar metadados personalizados, como uma data de último acesso, a uma inscrição no Caminho de aprendizado. Você o define e lê por meio da API, que ajuda a controlar o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
+O Adobe Learning Manager agora permite anexar metadados personalizados, como uma data de último acesso, a uma inscrição no Caminho de aprendizado. Você o define e lê por meio da API, que ajuda a rastrear o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
 
 As inscrições no curso já são compatíveis com uma última data de acesso por meio da API, que controla por quanto tempo um aluno pode acessar o curso. As inscrições no Caminho de aprendizado agora oferecem um campo de metadados genérico, para que você possa armazenar uma data de último acesso ou qualquer outro valor que queira controlar.
 
@@ -404,7 +403,7 @@ A API de inscrições agora oferece suporte a instâncias de várias inscriçõe
 
 ### Data do último acesso para inscrição nos Caminhos de aprendizado
 
-Agora você pode armazenar metadados personalizados, como uma data de último acesso, em uma inscrição no Caminho de aprendizado e defini-la e lê-la por meio da API. Isso ajuda a controlar o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
+Agora você pode armazenar metadados personalizados, como uma data de último acesso, em uma inscrição no Caminho de aprendizado e defini-la e lê-la por meio da API. Isso ajuda a rastrear o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
 
 * Defina os metadados em uma inscrição existente ou ao inscrever um aluno usando um token de administrador.
 * Leia-o com um token de administrador ou aluno.
