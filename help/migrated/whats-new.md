@@ -6,15 +6,15 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
 workflow-type: tm+mt
-source-wordcount: '4685'
+source-wordcount: '4684'
 ht-degree: 0%
 ---
 
 # Novidades na versão de dezembro de 2026 do Adobe Learning Manager
 
-A próxima versão do Adobe Learning Manager apresenta uma variedade de novos recursos e aprimoramentos destinados a simplificar a plataforma e expandir seus recursos. Essas atualizações simplificam os fluxos de trabalho diários, melhoram a forma como o conteúdo de aprendizagem é organizado e fornecido e tornam a experiência geral mais consistente e intuitiva.
+Esta versão do Adobe Learning Manager apresenta uma variedade de novos recursos e aprimoramentos destinados a simplificar a plataforma e expandir seus recursos. Essas atualizações simplificam os fluxos de trabalho diários, melhoram a forma como o conteúdo de aprendizagem é organizado e fornecido e tornam a experiência geral mais consistente e intuitiva.
 
 ## Report Builder gráficos e dashboards
 
@@ -92,7 +92,7 @@ Os administradores podem editar cada descrição de ferramenta para adicionar ex
 
 Os alunos agora podem remover tópicos ou cursos sugeridos em uma única etapa, além da opção existente para refinar as listas de tópicos e cursos por meio do bate-papo.
 
-Os administradores agora podem reposicionar a faixa de programações de aprendizado personalizadas na página inicial do aluno por meio da página Marcas.
+Os administradores agora podem reposicionar a faixa Caminhos de aprendizado personalizados na página inicial do aluno por meio da página Marcas.
 
 ## Pratique habilidades com role-play em Virtual Coach
 
@@ -258,7 +258,6 @@ Os visitantes da sua academia pública agora podem reproduzir o conteúdo seleci
 
 Os administradores agora podem escolher os catálogos específicos que aparecem na academia pública. Somente esses catálogos podem ser pesquisados por visitantes anônimos e indexados por mecanismos de pesquisa e assistentes de IA, portanto, os cursos de teste ou conteúdo interno permanecem privados.
  
-
 ### Encontre em mecanismos de pesquisa e assistentes de IA (beta)
 
 O Adobe Learning Manager agora pode tornar sua academia pública detectável por mecanismos de pesquisa como Google e por assistentes de IA como ChatGPT, Claude e Gemini. Seus cursos podem então aparecer em resultados de pesquisa e respostas geradas por IA, atribuídas à sua academia.
@@ -283,11 +282,11 @@ Os perfis de autorregistro permitem que usuários externos, como parceiros ou me
 
 Quando os usuários selecionam **Inscrever-se** em uma página acessada por meio dessa URL, eles são adicionados ao perfil ao qual a URL pertence. Isso mantém os usuários de diferentes organizações, como agências ou empresas parceiras separadas, em perfis separados.
 
-## Armazenar datas do último acesso para inscrições no caminho de aprendizado
+## Armazenar datas do último acesso para inscrições no Caminho de Aprendizado
 
-O Adobe Learning Manager agora permite anexar metadados personalizados, como uma data de último acesso, a uma inscrição no caminho de aprendizado. Você o define e lê por meio da API, que ajuda a controlar o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
+O Adobe Learning Manager agora permite anexar metadados personalizados, como uma data de último acesso, a uma inscrição no Caminho de aprendizado. Você o define e lê por meio da API, que ajuda a controlar o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
 
-As inscrições no curso já são compatíveis com uma última data de acesso por meio da API, que controla por quanto tempo um aluno pode acessar o curso. As inscrições no caminho de aprendizado agora oferecem um campo de metadados genérico, para que você possa armazenar uma data de último acesso ou qualquer outro valor que queira controlar.
+As inscrições no curso já são compatíveis com uma última data de acesso por meio da API, que controla por quanto tempo um aluno pode acessar o curso. As inscrições no Caminho de aprendizado agora oferecem um campo de metadados genérico, para que você possa armazenar uma data de último acesso ou qualquer outro valor que queira controlar.
 
 ## Exportar relatórios de Report Builder com a API de trabalho
 
@@ -302,7 +301,7 @@ Os tipos de trabalho existentes, incluindo `generateQuizReport`, não foram alte
 
 ## Alterações no cabeçalho da coluna em relatórios baixados
 
-O Report Builder agora inclui o nome do conjunto de dados nos cabeçalhos de coluna padrão de relatórios baixados. Portanto, o Nome do conjunto de dados do Objeto de Aprendizado aparece como **Objeto de Aprendizado - Nome** em vez de **Nome**. Para colunas agregadas, o cabeçalho também inclui a função, como “**Contagem de Objeto de Aprendizado - ID**”. Se você inserir um nome personalizado no campo **Alias** de uma coluna, esse alias será usado como o cabeçalho e permanecerá inalterado.
+O Report Builder agora inclui o nome do conjunto de dados nos cabeçalhos de coluna padrão de relatórios baixados. Portanto, o Nome do conjunto de dados do Objeto de Aprendizado aparece como **Objeto de Aprendizado - Nome** em vez de **Nome**. Para colunas agregadas, o título também inclui a função, como **Contagem de Objeto de Aprendizado - ID**. Se você inserir um nome personalizado no campo **Alias** de uma coluna, esse alias será usado como o cabeçalho e permanecerá inalterado.
 
 Após a atualização, os relatórios existentes sem aliases personalizados mostram os cabeçalhos atualizados, enquanto os dados, filtros e agendamentos dos relatórios não são afetados. Se os seus scripts, planilhas, painéis de inteligência comercial ou integrações fizerem referência a colunas por cabeçalho, atualize-os para os novos nomes ou defina um alias personalizado para manter um cabeçalho específico.
 
