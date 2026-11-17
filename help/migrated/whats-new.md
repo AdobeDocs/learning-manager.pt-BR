@@ -6,13 +6,17 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
+source-git-commit: 6fe06d8c4a60f611b3ceb243079daad28a48a710
 workflow-type: tm+mt
-source-wordcount: '4684'
+source-wordcount: '4832'
 ht-degree: 0%
 ---
 
 # Novidades na versão de dezembro de 2026 do Adobe Learning Manager
+
+>[!IMPORTANT]
+>
+>Os recursos beta podem conter defeitos e são fornecidos “NO ESTADO EM QUE SE ENCONTRAM” sem garantias de nenhum tipo. o Adobe tem o único critério de disponibilizar os recursos beta para o público em geral. O Adobe não tem obrigação de manter, corrigir, atualizar, alterar, modificar ou dar suporte (por meio dos Serviços de Suporte do Adobe ou de outra forma) aos recursos beta. Caso um recurso beta se torne disponível ao público, ele pode estar sujeito a termos e condições adicionais, incluindo taxas aplicáveis. Os recursos beta estão sujeitos a alterações sem aviso prévio, incluindo a descontinuação. Recomenda-se que os clientes tenham cuidado e não dependam de forma alguma do funcionamento ou desempenho ininterrupto ou sem erros dos recursos beta. Portanto, qualquer uso dos recursos beta é inteiramente por conta e risco do Cliente. Os recursos do produto e a documentação relacionada podem mudar conforme o recurso evolui. Esta documentação reflete a experiência beta atual e não deve ser considerada uma documentação final ou completa do produto.
 
 Esta versão do Adobe Learning Manager apresenta uma variedade de novos recursos e aprimoramentos destinados a simplificar a plataforma e expandir seus recursos. Essas atualizações simplificam os fluxos de trabalho diários, melhoram a forma como o conteúdo de aprendizagem é organizado e fornecido e tornam a experiência geral mais consistente e intuitiva.
 
