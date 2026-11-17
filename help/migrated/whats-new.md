@@ -262,6 +262,7 @@ Os visitantes da sua academia pública agora podem reproduzir o conteúdo seleci
 
 Os administradores agora podem escolher os catálogos específicos que aparecem na academia pública. Somente esses catálogos podem ser pesquisados por visitantes anônimos e indexados por mecanismos de pesquisa e assistentes de IA, portanto, os cursos de teste ou conteúdo interno permanecem privados.
  
+
 ### Encontre em mecanismos de pesquisa e assistentes de IA (beta)
 
 O Adobe Learning Manager agora pode tornar sua academia pública detectável por mecanismos de pesquisa como Google e por assistentes de IA como ChatGPT, Claude e Gemini. Seus cursos podem então aparecer em resultados de pesquisa e respostas geradas por IA, atribuídas à sua academia.
