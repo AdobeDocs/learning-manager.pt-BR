@@ -6,10 +6,10 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
 workflow-type: tm+mt
-source-wordcount: '6326'
-ht-degree: 4%
+source-wordcount: '7201'
+ht-degree: 3%
 ---
 # Configurações básicas no Adobe Learning Manager
 
@@ -243,6 +243,14 @@ Consulte Terminologia do produto no Adobe Learning Manager para obter mais infor
 
 Quando ativados, autores e professores podem gravar o número de créditos instrucionais para cada sessão ou módulo. Os créditos representam o tempo de instrução que um aluno será creditado por concluir a atividade. Os valores de crédito aparecem nas transcrições do aluno, nos relatórios de aprendizado e contribuem para os cálculos da duração total dos Caminhos de aprendizado. Se você desabilitar essa configuração, os valores de crédito inseridos anteriormente serão mantidos e restaurados se a configuração estiver ativada novamente.
 
+### Inscrição em grupo
+
+Ative essa configuração para permitir que os autores definam as datas de abertura das inscrições e reservem vagas para grupos de usuários específicos em uma instância do curso antes que a inscrição geral seja aberta. Se essa configuração estiver desativada, a opção Alocar vagas por grupo de usuários não estará disponível ao configurar uma instância do curso.
+
+### Integração do Navegador de Exame Seguro
+
+Ative essa configuração para permitir que os autores configurem questionários com a integração do Navegador de exame seguro. Para ativar essa integração, os administradores devem carregar o arquivo de configuração do Navegador de Exame Seguro para o cluster ou ambiente. Se essa configuração estiver desativada, a opção Navegador de exame seguro não estará disponível para os autores ao configurar questionários.
+
 ### Atualização da versão do módulo
 
 Essa opção permite que os administradores atualizem o conteúdo de um módulo sem interromper o progresso dos alunos que já estão inscritos nos cursos que contêm esse módulo. Isso garante que os alunos possam continuar sua jornada de aprendizado sem problemas, enquanto os autores podem manter o conteúdo atualizado. Com a opção ativada, os autores podem fazer upload de uma nova versão de um módulo (por exemplo, pacotes SCORM, AICC ou xAPI) para substituir a versão existente.
@@ -311,7 +319,7 @@ Essa opção permite personalizar a seção de rodapé do aplicativo do aluno ad
 
 Veja como personalizar os links do rodapé:
 
-1. **[!UICONTROL Adicionar links]**: selecione **[!UICONTROL Adicionar Mais]** e insira o nome e a URL ou ID de email nos campos especificados. Verifique se o URL tem o prefixo http:// ou https://.
+1. **[!UICONTROL Adicionar links]**: selecione **[!UICONTROL Adicionar Mais]** e insira o nome e a URL ou ID de email nos campos especificados. Verifique se a URL tem o prefixo `http://` ou `https://`.
 2. **[!UICONTROL Replicar entre localidades]**: selecione **[!UICONTROL Replicar]** para propagar as alterações em cascata entre todas as localidades, garantindo que todos os idiomas recebam o mesmo nome e URL.
 3. Selecione **[!UICONTROL Salvar]** para aplicar as alterações.
 
@@ -394,6 +402,48 @@ Quando os cursos são cobráveis, os autores podem especificar o curso, o caminh
 >
 >Certos tipos de treinamento, como certificações recorrentes e cursos aprovados pelo gerente, não podem ser adquiridos.
 
+## Ativar a formação automática de equipes no Adobe Learning Manager
+
+Ative a formação automática da equipe nas configurações do administrador para que o Adobe Learning Manager agrupe os alunos inscritos nas equipes antes que cada instância do curso comece.
+
+Essa configuração é opcional. Os envios para equipes funcionam sem ti e os professores podem criar equipes manualmente.
+
+Ao ativar essa configuração de conta, o Adobe Learning Manager agrupa automaticamente os alunos inscritos em equipes um número definido de dias antes do início de cada instância do curso. A configuração fica desativada por padrão. Os autores podem ajustar a programação de seus cursos, e os professores ainda podem criar equipes manualmente.
+
+### Ativar a formação automática do grupo
+
+1. No aplicativo do administrador, selecione **Configurações** > **Geral**.
+
+1. Na seção **Formação automática da equipe para envios com base na equipe**, selecione **Editar**. A opção permanece desativada por padrão.
+
+   ![Seção de formação automática de equipe nas Configurações gerais](assets/Group-Team-submission-and-rubric-based-assessments-image1.png "seção de formação automática de equipe")
+
+1. Marque a caixa de seleção **Habilitar**.
+
+   ![Habilitar caixa de seleção para formação automática de equipe](assets/Group-Team-submission-and-rubric-based-assessments-image2.png "Habilitar caixa de seleção")
+
+1. Em **Cronograma de formação de equipes**, insira o número de dias no campo **Criar equipes**. O valor deve ser 0 ou superior. Esse campo é obrigatório.
+
+   ![Criar campo de equipes no cronograma de formação de equipes](assets/Group-Team-submission-and-rubric-based-assessments-image3.png "Cronograma de formação de equipes")
+
+1. Selecione **Salvar**.
+
+A configuração funciona apenas para cursos que têm um módulo de envio de arquivos com base em equipe e uma data de início da instância.
+
+## Como as alterações afetam os cursos
+
+Quando você altera essa configuração, a alteração se aplica apenas aos cursos criados após você salvá-la. Os cursos que já existem mantêm a configuração com a qual foram publicados, independentemente de a formação automática do grupo estar ativada ou desativada, e mantêm a sua programação. Por exemplo, se você ativar a configuração em março, os cursos criados em fevereiro não irão recebê-la e os cursos criados em março ou depois irão.
+
+O Adobe Learning Manager não aplica a alteração aos cursos existentes porque isso pode interromper autores, professores e alunos que já estão trabalhando com esses cursos. Os autores e os professores podem continuar com a configuração com a qual o curso foi publicado. Se alguém precisa de uma configuração diferente, ele pode criar um novo curso e permitir que as pessoas envolvidas saibam o que está mudando.
+
+É possível alterar a configuração a qualquer momento. O que quer que você escolha se aplica a todos os cursos criados depois disso, até que você o altere novamente. Isso permite definir a política adequada à sua organização.
+
+* Se você desativar a configuração, os cursos que já usam a formação automática de equipes continuarão funcionando conforme configurado.
+* As equipes que já foram formadas permanecem no lugar, e os professores ainda podem editá-las.
+* Quando os autores criam um novo curso, eles podem ajustar a programação desse curso. Veja como os autores definem as regras da equipe.
+
+Depois de desativar a configuração, os grupos que já foram formados permanecem no lugar. Os professores ainda podem editá-los.
+
 ### Ativar carrinho com SKU de vários itens
 
 Essa opção permite que os alunos adicionem vários itens de treinamento (cursos, caminhos de aprendizado, certificações) a um carrinho de compras e os comprem juntos. Esse recurso faz parte da funcionalidade de comércio eletrônico integrada ao Adobe Commerce.
@@ -403,7 +453,7 @@ Esse recurso é particularmente útil para organizações que vendem vários ite
 **Principais recursos:**
 
 * Várias compras: os alunos podem adicionar vários itens ao carrinho e comprá-los em uma transação. Consulte Carrinho de vários itens para obter mais informações.
-*Finalização simplificada: reduz a necessidade de os alunos fazerem compras separadas para cada item de treinamento.
+* Finalização simplificada: reduz a necessidade de os alunos fazerem compras separadas para cada item de treinamento.
 * Gerenciamento de SKUs: os administradores podem gerenciar SKUs para cursos, programações de aprendizado e certificações para garantir o acompanhamento e a emissão de relatórios adequados.
 
 ### Cursos/caminhos alternativos
@@ -574,7 +624,9 @@ Depois de ativar o recurso, configure quais campos aparecerão no formulário de
 
 5. Selecione **Salvar**.
 
-**Observação:** o campo **Título** é sempre obrigatório e não pode ser ocultado nem se tornar opcional.
+>[!NOTE]
+>
+>O campo **Título** é sempre obrigatório e não pode ser ocultado nem se tornar opcional.
 
 O formulário de envio do aluno reflete imediatamente suas alterações. Os envios existentes não são afetados por alterações na configuração do formulário.
 
@@ -634,10 +686,10 @@ a)    Selecione a guia **[!UICONTROL Alunos]** no painel esquerdo.
 b)    Selecione o aluno cuja participação você deseja marcar.
 c)    Selecione **[!UICONTROL Ações]** > **[!UICONTROL Marcar Conclusão]**.
 
-**Observações adicionais:**
-
-* Os gerentes também podem exportar a lista de alunos para fins de relatório.
-* Se um curso incluir várias instâncias, os gerentes podem exibir e gerenciar os alunos separadamente para cada instância.
+>[!NOTE]
+>
+> Os gerentes também podem exportar a lista de alunos para fins de relatório.
+> Se um curso incluir várias instâncias, os gerentes podem exibir e gerenciar os alunos separadamente para cada instância.
 
 ### Retirar
 
@@ -656,6 +708,24 @@ i) Os alunos que já estavam inscritos no curso ou no caminho de aprendizado per
 ii. Eles não poderão mais exibir ou executar nenhuma ação no conteúdo desativado.
 b) Alunos ainda não inscritos:
 i) Os alunos que não se inscreveram no curso ou no caminho de aprendizado também perderão acesso, pois o conteúdo não aparecerá mais no catálogo.
+
+### Impacto da desativação em objetos de aprendizagem de nível superior {#retiral-impact-ho-lo}
+
+A configuração **Impacto de desativação em objetos de aprendizado de ordem superior** controla o que acontece com um Caminho de Aprendizado ou Certificação quando um de seus cursos ou Caminhos de Aprendizado aninhados é desativado. Aplica-se apenas a objetos de aprendizado de ordem superior — Caminhos de aprendizado e Certificações. Selecione uma das seguintes opções:
+
+* **Bloquear novas inscrições em objetos de aprendizado de ordem superior que contenham o objeto de aprendizado desativado.**
+
+  Quando um objeto de aprendizado de ordem inferior é desativado, qualquer caminho de aprendizado ou certificação que o contenha fica indisponível para novas inscrições. Os alunos já inscritos mantêm o acesso ao objeto de aprendizado retirado no objeto de aprendizado de ordem superior e podem continuar e concluí-lo.
+
+* **Remova o objeto de aprendizado retirado dos Caminhos de Aprendizado e Certificações que o contêm, mantendo-os disponíveis para novas inscrições.**
+
+  Quando um objeto de aprendizado de ordem inferior é desativado, ele é removido dos Caminhos de aprendizado e Certificações que o contêm, exatamente como se tivesse sido removido manualmente. O objeto de aprendizado de ordem superior permanece disponível para novas inscrições e os novos alunos o veem como se o objeto retirado nunca tivesse feito parte dele. Os alunos já inscritos continuam sem o objeto desativado, com o progresso existente preservado na transcrição do aluno e as porcentagens de conclusão recalculadas de acordo. Os alunos que já concluíram o objeto de aprendizado de ordem superior mantêm a conclusão e a nota final.
+
+  Se a desativação de um objeto de aprendizado deixar o objeto de aprendizado de ordem superior sem conteúdo restante (por exemplo, quando todos os seus objetos de aprendizado, ou todos os seus objetos de aprendizado necessários, forem desativados), o objeto não será removido e o objeto de aprendizado de ordem superior será bloqueado de novas inscrições.
+
+>[!NOTE]
+>
+>A Remoção não se aplica a Certificações recorrentes, que permanecem inalteradas na remoção.
 
 ### Desativação Automática
 

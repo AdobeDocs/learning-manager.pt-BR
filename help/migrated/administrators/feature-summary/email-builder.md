@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Criador de email baseado em componente
 description: Crie seu email com base nos diferentes componentes disponíveis.
 contentowner: mmanuel
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
 workflow-type: tm+mt
-source-wordcount: '3287'
-ht-degree: 2%
-
+source-wordcount: '3470'
+ht-degree: 1%
 ---
-
 
 ## Criador de email baseado em componente
 
@@ -230,7 +228,30 @@ Configure o seguinte:
 
 3. Selecione **Salvar**.
 
-## Adicionar e configurar componentes individuais
+## Opções de formatação do Email Builder
+
+Procure as opções de fonte, cor, linha e botão que você pode definir no Adobe Learning Manager Email Builder e como as substituições de formatação se aplicam.
+
+Use essas opções para estilizar um email inteiro, linhas individuais, conteúdo dinâmico e botões.
+
+### Opções de formatação de email
+
+| **Opção** | **Aplica-se a** | **O que você pode definir** |
+|----|----|----|
+| Propriedades no nível do email | O email inteiro | Família de fontes, tamanho da fonte, cor de fundo e estilo do contêiner |
+| Propriedades em nível de linha | Cada linha, com estilo independente | Estilo que destaca as seções do anúncio, diferencia as áreas de plano de ação ou enfatiza informações importantes |
+| Conteúdo dinâmico | Seções de conteúdo dinâmico | Formatação que herda do contêiner pai |
+| Botões | Botões de ação | Texto, estilo e aparência visual do botão |
+
+### Prioridade de formatação
+
+A formatação definida em um nível inferior substitui a formatação de um nível superior. Por exemplo, uma alteração em um modelo de curso substitui o padrão definido por um administrador no modelo de conta.
+
+| **Nível** | **Uso típico** | **Substituído por** |
+|----|----|----|
+| Modelo de conta | Fontes e cores padrão para a conta inteira | Modelos de curso e instância |
+| Modelo do curso | Alterações específicas a um curso | Modelo de instância |
+| Modelo de instância | Alterações regionais, específicas de sessão ou de coorte | Nada, pois este é o nível mais alto de personalização |
 
 ### Componente Texto
 
@@ -249,7 +270,7 @@ O componente de texto oferece suporte à edição completa de rich text.
    * **Sobrescrito** e **Subscrito**
    * **Cor do texto** e **Cor do plano de fundo** (realce de texto)
    * **Alinhamento:** à esquerda, centralizado, à direita ou justificado
-   * **Espaçamento entre linhas:** multiplicador de altura de linha
+   * **Espaçamento entre linhas:** multiplicador de height de linha
    * **Preenchimento horizontal e vertical:** espaçamento interno dentro do bloco de texto
 5. Para adicionar um hiperlink:
    * Selecione o texto que deseja vincular
@@ -274,7 +295,7 @@ O componente de texto oferece suporte à edição completa de rich text.
    * **Tipo de borda:** define o estilo da borda da imagem. As opções disponíveis incluem Nenhum, Sólido e Pontilhado.
    * **Cor da borda:** define a cor da borda da imagem quando um estilo de borda é aplicado.
    * **Raio do canto:** controla o arredondamento dos cantos da imagem. Valores mais altos criam cantos mais arredondados.
-   * **Linha da borda:** ajusta a espessura (largura) da borda da imagem.
+   * **Linha da borda:** ajusta o thickness (largura) da borda da imagem.
    * **Espaçamento Superior:** adiciona espaço acima da imagem.
    * **Espaçamento inferior:** adiciona espaço abaixo da imagem.
    * **Espaçamento esquerdo:** adiciona espaço ao lado esquerdo da imagem.
@@ -293,7 +314,7 @@ O componente de texto oferece suporte à edição completa de rich text.
    * **Família e tamanho da fonte** para o rótulo do botão
    * **Cor do texto:** cor do rótulo
    * **Cor do plano de fundo:** cor de preenchimento do botão
-   * **Tamanho:** largura e altura do botão
+   * **Tamanho:** largura e height do botão
    * **Estilo do canto:** arredondado, quadrado ou circular
    * **Alinhamento:** à esquerda, no centro ou à direita dentro da coluna
    * **Preenchimento:** espaçamento interno entre o texto do rótulo e as bordas do botão
@@ -303,11 +324,11 @@ O componente de texto oferece suporte à edição completa de rich text.
 **Divisor:** adiciona uma linha horizontal visível entre as seções de conteúdo.
 
 1. Arraste um componente **Divisor** para uma coluna.
-2. Defina o **Estilo da linha** (sólido, tracejado, pontilhado), **Cor**, **Largura** e **Altura** (espaço vertical acima e abaixo da linha) no painel de propriedades.
+2. Defina o **estilo de linha** (sólido, tracejado, pontilhado), **Cor**, **Largura** e **Height** (espaço vertical acima e abaixo da linha) no painel de propriedades.
 
    O **Espaçador:** adiciona espaço vertical invisível entre elementos sem uma linha visível.
 
-3. Arraste um componente **Espaçador** e defina sua **Altura** no painel de propriedades.
+3. Arraste um componente **Espaçador** e defina seu **Height** no painel de propriedades.
 
 ## Inserir e gerenciar variáveis
 
@@ -378,7 +399,7 @@ Digite o nome da variável diretamente entre chaves duplas: {\{variable_name}\}.
 | Nome do IC | \{\{ciName\}\} |
 | Nome do painel de relatório | \{\{reportDashboardName\}\} |
 | Nome da ajuda de tarefa | \{\{jobAidName\}\} |
-| Conteúdo do anúncio | \&lbrace;\{announ{ContentText\}\} |
+| Conteúdo do anúncio | \{\{announ{ContentText\}\} |
 | Nome do perfil | \{\{profileName\}\} |
 | Limite de vagas para o curso | \{\{sitLimit\}\} |
 | Link para a página inicial do documento de ajuda | \{\{captivatePrimeHelp\}\} |

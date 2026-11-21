@@ -6,10 +6,10 @@ contentowner: mmanuel
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 6c26277dfbd20374e57273f8371b360ee770a0df
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 2%
+source-wordcount: '747'
+ht-degree: 1%
 ---
 
 # Criar um relatório personalizado no Report Builder
@@ -46,7 +46,24 @@ Neste exemplo, você identificará os alunos de cada gerente que estão em risco
    ![](assets/report-builder-0014.png)
 
 7. Reordene as colunas arrastando-as na tela.
-8. Para renomear uma coluna, digite um nome no campo alias da coluna. O alias aparece como o cabeçalho da coluna no arquivo baixado.
+8. Para renomear uma coluna, digite um nome no campo **Alias** da coluna. Se você especificar um alias, ele será usado como o cabeçalho da coluna. Se você não especificar um alias, o cabeçalho de coluna padrão incluirá o nome do conjunto de dados. Por exemplo, o Nome do conjunto de dados Objeto de aprendizado aparece como Objeto de aprendizado - Nome.
+
+   **Títulos de coluna**
+
+   Report Builder inclui o nome do conjunto de dados em cabeçalhos de coluna padrão para ajudar a distinguir colunas com nomes semelhantes em conjuntos de dados. Por exemplo, se você selecionar Nome no conjunto de dados do Objeto de aprendizado, o cabeçalho da coluna aparece como Objeto de aprendizado - Nome.
+
+   Se você especificar um alias personalizado para uma coluna, o Report Builder usará o alias em vez do cabeçalho de coluna padrão.
+
+   **Impacto nos relatórios existentes**
+
+   Após a atualização, os relatórios existentes que usam nomes de coluna padrão sem aliases personalizados exibem os cabeçalhos de coluna atualizados. Por exemplo, o nome do conjunto de dados do Objeto de aprendizado muda de Nome para Objeto de aprendizado - Nome.
+
+   Os dados, filtros e agendamentos do relatório não são afetados.
+
+   Se você usar a saída do relatório em scripts, planilhas, painéis de BI ou integrações que fazem referência a colunas por cabeçalho, verifique seus sistemas downstream e atualize as referências para os cabeçalhos de coluna anteriores, conforme necessário.
+
+   Para manter um cabeçalho de coluna específico, defina um alias personalizado para a coluna.
+
 9. Selecione **Salvar Relatório**.
 
 ## Baixar o relatório
@@ -106,6 +123,10 @@ Agrupar os registros por gerente para:
 4. Selecione **Count** como uma função de agregação para as colunas.
 
    ![](assets/report-builder-0019.png)
+
+   **Títulos de coluna para colunas agregadas:**
+
+   Quando você aplica uma função agregada, o cabeçalho de coluna padrão inclui a função agregada. Por exemplo, quando você aplica **Contagem** a **Objeto de aprendizado - ID**, o título da coluna aparece como **Contagem** de **Objeto de aprendizado - ID**. Se você especificou um alias personalizado, o alias permanecerá inalterado.
 
 5. Repita o processo para Objeto de aprendizado - Nome do objeto de aprendizado.
 

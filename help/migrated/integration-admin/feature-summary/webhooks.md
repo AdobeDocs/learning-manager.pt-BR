@@ -7,7 +7,7 @@ exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 5e4f890c4f9855adb1926399e4391384b3317a45
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -66,7 +66,7 @@ O webhook envia as informações relevantes em um formato JSON. Veja um exemplo 
 }
 ```
 
-## Criar e gerenciar Webhooks - Administrador de integração
+## Criar e gerenciar Webhooks - Administrador de integração {#create-manage-webhooks}
 
 Siga as etapas abaixo para criar a integração de webhooks no Adobe Learning Manager:
 

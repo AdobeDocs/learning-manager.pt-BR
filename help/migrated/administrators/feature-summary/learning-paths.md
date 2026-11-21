@@ -7,10 +7,10 @@ exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 463f53a7b0a6ca5a9ee8d2926ffe341acc29c91c
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 61%
+source-wordcount: '1483'
+ht-degree: 59%
 ---
 # Caminhos de aprendizado
 
@@ -78,9 +78,9 @@ Se optar por Ordenado, os cursos serão exibidos na mesma sequência em que fora
 
 Para adicionar um curso no Caminho de aprendizado, clique em **[!UICONTROL Adicionar cursos ou caminhos de aprendizado]**.
 
-Na caixa de diálogo exibida, escolha o treinamento que deseja adicionar ao Caminho de aprendizado.
+Na janela exibida, selecione o treinamento que deseja adicionar ao caminho de aprendizado. Cada entrada mostra o nome, o tipo (curso ou caminho de aprendizado), o status da publicação e o formato do curso, como ritmo individualizado, virtual, sala de aula ou misto.
 
-![](assets/choose-training.png)
+![](assets/LP_4.png)
 
 *Adicionar treinamento ao Caminho de Aprendizado*
 

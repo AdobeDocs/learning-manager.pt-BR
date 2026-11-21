@@ -7,10 +7,10 @@ exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 72%
+source-wordcount: '430'
+ht-degree: 38%
 ---
 # Gerenciamento de listas de espera e participações
 
@@ -18,21 +18,43 @@ Os administradores podem gerenciar a presença e as listas de espera dos cursos 
 
 ## Gerenciamento de listas de espera {#waitlistmanagement}
 
-Os alunos são colocados em lista de espera de qualquer curso em sala de aula quando as vagas são limitadas, com base na ordem de inscrição. Os administradores podem selecionar os alunos da lista de espera e atribuir vagas que ultrapassam o limite de vagas para qualquer curso em sala de aula. Os alunos são inscritos no curso assim que o administrador atribui uma vaga.
+Os alunos são colocados em lista de espera de um curso em sala de aula quando as vagas são limitadas, com base na ordem de inscrição. Quando todas as licenças reservadas para um grupo de usuários são preenchidas, os membros adicionais desse grupo são colocados na lista de espera do grupo. Os alunos fora dos grupos de usuários são colocados na **Abrir Lista de Espera**.
 
-1. Clique em **[!UICONTROL Cursos]** no painel esquerdo depois de fazer logon como administrador.
-1. Na lista de cursos disponíveis, clique no nome do curso de qualquer curso de sala de aula de sua escolha. Uma nova página é exibida com informações detalhadas sobre o curso.
+Os administradores podem revisar a lista de espera e gerenciar os alunos na lista de espera. O Adobe Learning Manager também pode promover alunos na lista de espera automaticamente quando uma vaga se torna disponível.
 
-![](assets/waitlist-and-attendance-mgmnt.png)
+Para gerenciar alunos na lista de espera:
 
-*Selecione a opção Lista de Espera*
+1. Selecione **Cursos** no painel esquerdo.
+1. Selecione o nome de um curso em sala de aula nos cursos disponíveis.
 
-1. Clique em **[!UICONTROL Lista de espera]** no painel esquerdo da página de detalhes do curso. A lista de alunos na lista de espera é exibida na página.
-1. Selecione os alunos e clique em **[!UICONTROL Atribuir vagas]** para inscrever os alunos diretamente nos cursos, substituindo o limite de vagas.
+   Uma nova página é exibida com informações detalhadas sobre o curso.
 
->[!NOTE]
->
->Os alunos inscritos não podem ser movidos para a lista de espera e suas vagas não podem ser realocadas para outros alunos.
+1. Selecione **Lista de espera** no painel esquerdo da página de detalhes do curso.
+
+   A página da lista de espera é aberta com o seguinte **status da lista de espera**:
+
+   * **Limite de vagas:** Número total de vagas disponíveis para a sessão.
+   * **Preenchido:** número de licenças atualmente ocupadas.
+   * **Na Lista de Espera:** Número de alunos aguardando inscrição.
+
+1. Selecione as seguintes guias na página **Lista de espera**:
+
+   1. **Lista de espera por grupo de usuários**: lista os alunos na lista de espera em cada grupo de usuários.
+
+   >[!NOTE]
+   >
+   >Esta guia aparecerá somente se a configuração **Registro de Grupo** estiver habilitada.
+
+   1. **Abrir Lista de Espera**: lista os alunos na lista de espera que não estão reservados para nenhum grupo de usuários.
+
+   ![Página de lista de espera mostrando a guia Lista de espera por grupo de usuários](assets/waitlist-by-user-group-tab.png "Página de lista de espera mostrando a guia Lista de espera por grupo de usuários")
+
+1. Ao lado de um aluno, selecione uma das seguintes ações:
+
+   | **Ação** | **Descrição** |
+   |---|---|
+   | **Confirmar** | Inscreve o aluno na lista de espera na sessão e o remove da lista de espera. |
+   | **Cancelar inscrição** | Remove o aluno da lista de espera e atualiza as posições dos alunos restantes na lista de espera. |
 
 ## Gerenciamento de participação {#attendancemanagement}
 

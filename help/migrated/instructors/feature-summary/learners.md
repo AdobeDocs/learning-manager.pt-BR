@@ -7,10 +7,10 @@ exl-id: 2f4f8589-2350-4683-a141-809084d6309a
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a56c810d5222b6ab6f128db9661ff7fb6d2c93
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 47%
+source-wordcount: '3424'
+ht-degree: 26%
 ---
 # Gerenciamento dos alunos da sua sessão
 
@@ -212,7 +212,7 @@ Para enviar e-mails aos alunos, na página Alunos do aplicativo do professor, si
 
 ## Capturar respostas ao convite
 
-Os professores podem capturar as respostas de convite dos alunos apenas quando a opção **[!UICONTROL Convidar resposta]** estiver habilitada pelo administrador do ACAP. Para habilitar este recurso, os administradores precisam entrar em contato com a equipe de suporte em [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+Os professores podem capturar as respostas de convite dos alunos apenas quando a opção **[!UICONTROL Convidar resposta]** está habilitada pelo administrador do ACAP. Para habilitar este recurso, os administradores precisam entrar em contato com a equipe de suporte em [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
 
 Depois de concluído, você pode exibir as respostas aos convites na seção **[!UICONTROL Alunos]**. Vá para qualquer sessão, selecione **[!UICONTROL Alunos]** e selecione a resposta ao convite no menu suspenso.
 
@@ -270,3 +270,230 @@ Se os alunos enviarem documentos como atribuições, relatórios ou avaliações
    Se já tiver definido lembretes para suas sessões, poderá visualizá-los no campo Lembretes existentes. Além disso, você também pode adicionar lembretes extras aos seus lembretes existentes.
 
    Para excluir um lembrete existente, clique no lembrete. Na janela pop-up exibida, clique no ícone Excluir (ícone de lixeira) para excluir o lembrete.
+
+## Criar e gerenciar equipes no Adobe Learning Manager
+
+Crie equipes manualmente dos alunos em uma instância do curso e adicione, mova, remova, renomeie ou exclua equipes até que uma equipe seja bloqueada.
+
+Como professor, você cria equipes para cada instância de um curso que tem um módulo de envio com base em equipes. Qualquer professor atribuído à instância pode gerenciar suas equipes. O Adobe Learning Manager também pode criar equipes automaticamente. Depois que as equipes são formadas, os alunos podem enviar trabalhos e você pode avaliar os envios à equipe.
+
+### Abrir a página de gerenciamento de equipes
+
+1. No aplicativo do professor, selecione **Equipes** no painel de navegação esquerdo. A página lista as instâncias do curso baseado em equipe às quais os alunos estão atribuídos.
+
+   ![Opção de equipes no painel de navegação esquerdo](assets/Group-Team-submission-and-rubric-based-assessments-image17.png "página de gerenciamento de equipes")
+
+1. Para localizar um curso, procure-o ou classifique a lista pela data da última atualização.
+
+1. Selecione a instância do curso. A página de instância mostra os alunos não atribuídos e as equipes.
+
+### Criar equipes com uma regra
+
+1. Na página da instância, selecione os alunos não atribuídos para dividir em equipes.
+
+1. Escolha uma regra. Selecione **Ação** > **Formar uma única equipe** ou **Formar várias equipes**.
+
+   ![Menu de ação com regras de formação da equipe](assets/Group-Team-submission-and-rubric-based-assessments-image18.png "Menu de ação")
+
+1. Se você selecionar **Formar várias equipes**, insira o número de alunos de cada equipe. O valor deve ser 1 ou superior. A página mostra quantas equipes serão criadas. Por exemplo, com 94 alunos e 2 alunos por equipe, 47 equipes são criadas. Se o número for maior que o número de alunos inscritos, uma mensagem de erro será exibida. Insira um número menor.
+
+   ![Número de alunos por equipe e o número resultante de equipes](assets/Group-Team-submission-and-rubric-based-assessments-image19.png "Alunos por equipe")
+
+   Se você inserir um valor maior que o número de alunos inscritos, uma mensagem de erro será exibida.
+
+   ![Mensagem de erro para um valor maior que o número de alunos inscritos](assets/Group-Team-submission-and-rubric-based-assessments-image20.png "Mensagem de erro")
+
+1. Selecione **Criar equipes**. As equipes aparecem na guia **Equipes**.
+
+   ![Guia Equipes mostrando as equipes criadas](assets/Group-Team-submission-and-rubric-based-assessments-image21.png "Equipes criadas")
+
+1. Confirme e salve. As equipes aparecem na guia **Equipes**.
+
+A regra se aplica somente aos alunos não atribuídos selecionados. Para reagrupar todos, exclua as equipes existentes primeiro. Seus alunos retornam à lista não atribuída.
+
+![Opção Excluir para equipes existentes](assets/Group-Team-submission-and-rubric-based-assessments-image22.png "Excluir equipes")
+
+Depois de selecionar **Excluir**, você obtém a seguinte caixa de diálogo de confirmação:
+
+![Caixa de diálogo de confirmação de exclusão de equipes](assets/Group-Team-submission-and-rubric-based-assessments-image23.png "Excluir confirmação")
+
+Selecione **Excluir equipes**. Todos os alunos retornam à lista não atribuídos.
+
+### Criar um único grupo
+
+1. Selecione os alunos não atribuídos a serem incluídos na equipe.
+
+1. Selecione **Ação** > **Formar uma única equipe**. Uma equipe é criada com o número especificado de alunos.
+
+   ![Formar uma única opção de equipe](assets/Group-Team-submission-and-rubric-based-assessments-image24.png "Formar uma única equipe")
+
+1. Salve a equipe. Uma equipe precisa de pelo menos um aluno e um aluno pode pertencer a apenas uma equipe na instância.
+
+1. Repita as etapas para criar equipes uma a uma.
+
+### Adicionar alunos a uma equipe existente
+
+1. Selecione os alunos não atribuídos a serem adicionados.
+
+1. Escolha para atribuí-los a uma equipe existente e, em seguida, selecione a equipe.
+
+   ![Atribuir alunos não atribuídos a uma equipe existente](assets/Group-Team-submission-and-rubric-based-assessments-image25.png "Atribuir a uma equipe existente")
+
+1. Confirme sua escolha. Selecione **Atribuir Aluno**.
+
+### Mover ou remover alunos
+
+1. Abra a guia **Equipes** e expanda uma equipe para exibir seus membros.
+
+1. Selecione os alunos que deseja mover.
+
+   ![Membros da equipe selecionados para mover](assets/Group-Team-submission-and-rubric-based-assessments-image26.png "Mover alunos")
+
+1. Escolha para movê-los e, em seguida, selecione a equipe de destino.
+
+1. Para remover um aluno de uma equipe, selecione-o e remova-o. O aluno retorna à lista não atribuída.
+
+Quando uma equipe não tem mais alunos, ela é excluída automaticamente.
+
+### Renomear um grupo
+
+1. Na guia **Equipes**, selecione a equipe e escolha renomeá-la.
+
+1. Selecione **Ação** > **Renomear**.
+
+   ![Opção Renomear no menu Ação](assets/Group-Team-submission-and-rubric-based-assessments-image27.png "Opção Renomear")
+
+1. Insira um nome exclusivo, como Alpha de grupo.
+
+   ![Caixa de diálogo Renomear equipe](assets/Group-Team-submission-and-rubric-based-assessments-image28.png "Caixa de diálogo Renomear equipe")
+
+1. Selecione **Renomear equipe**.
+
+Nomes não podem ser repetidos e você não pode usar o formato gerado pelo sistema, como Team-1.
+
+### Excluir equipes
+
+1. Na guia **Equipes**, selecione uma ou mais equipes.
+
+1. Selecione **Ação** > **Excluir**.
+
+1. Selecione **Excluir equipe**.
+
+   ![Caixa de diálogo de confirmação Excluir equipe](assets/Group-Team-submission-and-rubric-based-assessments-image29.png "Excluir equipe")
+
+1. Confirmar. Os alunos das equipes excluídas retornam à lista não atribuídas.
+
+### Tratar inscrições atrasadas e cancelamentos de inscrição
+
+* Um aluno que se inscreve após a formação de equipes aparece na lista não atribuída. Adicionar o aluno a uma equipe.
+* Se todas as equipes estiverem bloqueadas, crie uma nova equipe para o aluno.
+* Um aluno que cancela a inscrição é removido da equipe automaticamente. O grupo continua e um grupo vazio é excluído.
+
+### Solução de problemas
+
+**Não é possível selecionar uma equipe ou mover seus membros.** Um grupo é bloqueado após o primeiro envio, e o bloqueio se aplica a todos os módulos do grupo na ocorrência. Para desbloquear a equipe, cancele o envio. Exibir **Avaliar e cancelar o envio de envio à equipe**.
+
+**Não é possível renomear uma equipe.** O nome já está em uso ou corresponde ao formato gerado pelo sistema. Insira um nome diferente.
+
+**Um erro aparece ao criar equipes.** Uma equipe não pode ter mais de 100 membros. Reduza o número de membros por equipe.
+
+**Não é possível abrir o gerenciamento de equipes para uma instância.** A criação automática de equipes pode estar em execução. O acesso retorna quando termina.
+
+**O salvamento foi rejeitado e a página foi recarregada.** Outro professor ou a tarefa automática salvou alterações primeiro. Revise as equipes atualizadas e refaça sua alteração.
+
+**Uma equipe desapareceu.** Uma equipe sem alunos é excluída automaticamente.
+
+## Avaliar e cancelar o envio à equipe
+
+Revise o arquivo enviado de uma equipe, conclua o plano de avaliação, aprove ou rejeite o trabalho ou cancele o envio para que a equipe possa enviar novamente.
+
+Quando você avalia um envio de equipe, o resultado se aplica a todos os membros da equipe e cada membro recebe uma notificação. Somente professores atribuídos à instância podem avaliar. As etapas são as mesmas para envios individuais, exceto que os envios individuais não têm detalhes da equipe. Verifique se os grupos existem primeiro. Exibir **Criar e gerenciar equipes**.
+
+Equipes que foram formadas automaticamente podem ser editadas da mesma forma que as equipes manuais.
+
+### Localizar um envio
+
+1. No aplicativo do professor, abra a área de envios e selecione **Envios de equipe**. Selecione **Envios individuais** para módulos de aluno único.
+
+1. Para localizar um módulo, pesquise por nome de sessão ou módulo.
+
+1. Selecione o nome do módulo.
+
+   ![Lista de módulos na área de envios](assets/Group-Team-submission-and-rubric-based-assessments-image35.png "Lista de módulos")
+
+1. Para restringir a lista, filtre por status: **Envio pendente**, **Revisão pendente**, **Aprovado**, **Rejeitado** ou **Concluído**.
+
+1. Para exibir os membros da equipe, expanda a equipe. Nomes e endereços de e-mail são exibidos, e o aluno que enviou o arquivo tem uma tag **Remetente**.
+
+1. Para baixar o arquivo enviado, selecione a opção de download para a equipe.
+
+### Avaliar um envio
+
+1. Localize a equipe com o status de **Revisão pendente**.
+
+1. Abra o arquivo enviado e revise o conteúdo.
+
+1. Selecione **Ação** > **Avaliar**.
+
+   ![Opção Avaliar no menu Ação](assets/Group-Team-submission-and-rubric-based-assessments-image36.png "Opção Avaliar")
+
+1. Conclua o plano de avaliação:
+
+   * Responda a todas as perguntas necessárias.
+   * Para perguntas de objetivo, selecione uma opção. Com a pontuação baseada em critérios, a pontuação é atualizada conforme você seleciona.
+   * Para perguntas subjetivas, insira sua resposta.
+   * Se forem permitidas observações, acrescentar observações à pergunta ou à avaliação na sua totalidade.
+
+   ![Plano de avaliação com perguntas objetivas e subjetivas](assets/Group-Team-submission-and-rubric-based-assessments-image37.png "Plano de avaliação")
+
+1. Se o módulo exigir aprovação do revisor, selecione **Aprovar** ou **Rejeitar**. Adicione um comentário ao rejeitar para que a equipe saiba o que corrigir.
+
+   ![Opções Aprovar e Rejeitar](assets/Group-Team-submission-and-rubric-based-assessments-image38.png "Aprovar ou rejeitar")
+
+1. Se o módulo usar pontuação manual, insira a pontuação geral.
+
+   ![Campo de pontuação geral para pontuação manual](assets/Group-Team-submission-and-rubric-based-assessments-image39.png "Pontuação geral")
+
+   **Opcional**: insira uma nota particular selecionando a opção **Adicionar uma nota particular à pontuação**. Uma observação privada é visível somente para professores atribuídos à instância. Os alunos não podem visualizá-lo, mesmo quando você seleciona **Mostrar comentário**.
+
+1. Envie a avaliação. Selecione **Enviar**. O status de envio é alterado para **Aprovado**.
+
+   ![Enviar opção para a avaliação](assets/Group-Team-submission-and-rubric-based-assessments-image40.png "Enviar avaliação")
+
+Outros professores também podem avaliar o mesmo envio, desde que ainda não tenha sido aprovado. Uma avaliação posterior substitui uma anterior até que a submissão seja aprovada.
+
+Se o módulo não exigir a aprovação do revisor, ele será concluído para todos os membros da equipe quando a equipe enviar. Somente a opção de envio é exibida e você não poderá editar a pontuação ou os comentários depois disso.
+
+Depois de aprovar ou rejeitar o envio de uma equipe, um aluno pode visualizar o status do envio e o resultado da avaliação.
+
+![Exibição do status do envio e do resultado da avaliação pelo aluno](assets/Group-Team-submission-and-rubric-based-assessments-image41.png "Exibição do status pelo aluno")
+
+Selecionar o resultado da avaliação exibe os parâmetros e comentários de avaliação do professor.
+
+![Parâmetros e comentários de avaliação no resultado da avaliação](assets/Group-Team-submission-and-rubric-based-assessments-image42.png "Resultado da avaliação")
+
+## Revisar ou alterar uma avaliação
+
+1. Encontrar uma equipe com o status **Rejeitado**.
+
+1. Para abrir a avaliação concluída, selecione **Exibir avaliação**.
+
+1. Para avaliar novamente, selecione a opção reavaliar e envie suas alterações. Você pode fazer isso apenas para envios rejeitados. **Os envios aprovados não podem ser alterados**.
+
+### Cancelar envio
+
+Cancele o envio quando a equipe precisar enviar novamente, quando a avaliação precisar começar de novo ou quando precisar alterar uma equipe bloqueada. Para uma submissão individual, você também pode usar isso para corrigir uma avaliação informada para o aluno errado.
+
+1. Encontre uma equipe ou aluno que tenha um envio.
+
+1. Selecione **Cancelar Envio**.
+
+   ![Opção de cancelamento de envio](assets/Group-Team-submission-and-rubric-based-assessments-image43.png "opção de cancelamento de envio")
+
+1. Insira seus comentários e selecione **Cancelar envio**.
+
+   ![Caixa de diálogo de cancelamento de envio com um campo de comentários](assets/Group-Team-submission-and-rubric-based-assessments-image44.png "Caixa de diálogo de cancelamento de envio")
+
+O envio é removido e o status retorna para **Envio pendente**. A equipe é desbloqueada para que você possa editar seus membros. Os membros da equipe recebem uma notificação e um email. Qualquer membro pode enviar novamente e o novo arquivo substitui o anterior. Sua nova avaliação substitui a avaliação anterior e nenhum histórico é mantido.
+
+Não é possível cancelar o envio de um membro da equipe após a conclusão do curso, pois a conclusão não pode ser revertida.

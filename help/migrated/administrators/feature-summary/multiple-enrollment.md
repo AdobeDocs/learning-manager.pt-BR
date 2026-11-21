@@ -5,7 +5,7 @@ exl-id: c430545d-b48e-432d-a278-658c9281818f
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 370f9abfd6ba47ad1364452ac4314b1ee6392a65
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 70%
@@ -90,3 +90,5 @@ Se o aluno já estiver inscrito em uma instância e você, como administrador, e
 ## Relatórios
 
 Para um aluno inscrito em duas instâncias do mesmo curso, duas linhas são criadas para cada instância do curso. O relatório também exibe o progresso das instâncias.
+
+

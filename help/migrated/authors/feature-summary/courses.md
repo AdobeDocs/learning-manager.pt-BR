@@ -7,10 +7,10 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
 workflow-type: tm+mt
-source-wordcount: '10239'
-ht-degree: 56%
+source-wordcount: '12332'
+ht-degree: 47%
 ---
 # Criar, modificar e publicar cursos
 
@@ -53,7 +53,7 @@ Para criar um curso, siga as etapas abaixo:
 1. Faça logon no Adobe Learning Manager como autor porque somente os autores tem os direitos para criar cursos. Agora, na página Início, selecione **[!UICONTROL Criar Cursos]**. A página Catálogo de cursos é aberta e uma lista de cursos é exibida.
 2. Selecione **Adicionar** no canto superior direito. Uma página é aberta para criar um novo curso.
 3. Insira um nome para o curso e uma descrição curta. Essa descrição é exibida no cartão do curso. Essa descrição não deve ter mais de 140 caracteres. Em seguida, insira a visão geral detalhada do curso, a qual é exibida na página de detalhes do curso. A descrição não deve exceder 1.500 caracteres.
-4. Para tornar o curso disponível em outros idiomas, clique em Adicionar novo idioma no canto superior esquerdo da página. Selecione o idioma ou os idiomas nos quais você deseja disponibilizar o curso. Clique em **[!UICONTROL Salvar]**. Para obter mais informações, consulte [Adicionar conteúdo em diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
+4. Para disponibilizar seu curso em outros idiomas, selecione **Adicionar Novo Idioma** no canto superior esquerdo da página. Selecione o idioma ou os idiomas nos quais você deseja disponibilizar o curso. **Selecione** **[!UICONTROL Salvar]**. Para obter mais informações, consulte [Adicionar conteúdo em diferentes idiomas](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modificar configurações do curso**-
 
    a) Na página Configurações do curso, escolha uma habilidade para o curso. Selecione a habilidade necessária na lista suspensa Habilidade. Em seguida, na lista suspensa Nível, selecione o nível necessário.
@@ -151,6 +151,124 @@ Depois de ativar o Gradebook, adicione seus módulos de conteúdo e atribua uma 
 >
 >A escala de pontuação não precisa ser compatível com todos os tipos de distribuição. Uma sessão de sala de aula com pontuação de 100 e um módulo SCORM com pontuação de 10 podem coexistir no mesmo Gradebook. A fórmula normaliza cada contribuição automaticamente.
 
+### Adicionar um módulo de envio com base em equipe no Adobe Learning Manager
+
+Adicione um módulo de envio de arquivo com base em equipe para que um membro da equipe possa enviar um arquivo para toda a equipe e escolha como ele será revisado e pontuado.
+
+Um módulo de envio de arquivos baseado em equipe permite que um aluno envie um arquivo em nome de uma equipe. O instrutor o avalia uma vez e o resultado se aplica a cada membro da equipe. Você deve adicionar o módulo antes de publicar o curso.
+
+### Adicionar o módulo a um curso
+
+1. Faça logon no Adobe Learning Manager como autor.
+
+1. No aplicativo do autor, crie um curso ou abra um curso não publicado.
+
+1. Adicione um novo módulo de atividade.
+
+1. Selecione o tipo de atividade de envio de arquivos.
+
+1. Selecione a opção com base em equipes. A opção individual é o módulo anterior de envio de arquivos para alunos únicos.
+
+   ![Opção baseada em equipe para o módulo de envio de arquivos](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Opção baseada em equipe")
+
+1. Selecione o professor ou professores.
+
+1. Defina a duração do módulo.
+
+Um curso pode ter módulos de envio individuais e com base em equipe juntos. Todos os módulos com base em equipe em uma instância do curso compartilham as mesmas equipes.
+
+### Escolher as opções de revisão e pontuação
+
+1. Abra o módulo de envio de arquivos baseado em equipe.
+
+1. Escolha se a **aprovação do revisor é necessária**.
+
+   * Se você ativá-lo, um professor deverá aprovar ou rejeitar cada envio antes que o módulo seja concluído.
+   * Se você desativá-lo, o módulo será concluído para todos os membros da equipe assim que a equipe enviar.
+
+1. Escolha um método de pontuação:
+
+   * Selecione a pontuação manual para permitir que o professor insira uma pontuação geral.
+   * Selecione a pontuação baseada em critérios para calcular a pontuação a partir dos pontos em cada opção do plano de avaliação. Este método requer um plano de avaliação.
+
+     ![Opções de revisão e pontuação para o módulo de envio de arquivos baseado em equipe](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+
+>[!CAUTION]
+>
+>Depois de publicar o curso, você não pode remover o módulo, alterar suas configurações ou usar vários tipos de entrega para ele.
+
+### Adicionar um plano de avaliação a um módulo de envio de arquivos
+
+Crie um plano de avaliação para envios individuais ou de equipe adicionando perguntas objetivas e subjetivas a um módulo de envio de arquivos.
+
+Um plano de avaliação é o conjunto de perguntas que os professores usam para avaliar um envio. Cada módulo tem um plano de avaliação e não pode ser reutilizado em outro módulo. Você pode adicionar um plano de avaliação a um módulo individual de envio de arquivos ou a um módulo de envio com base em equipes. Adicione-o antes de publicar o curso.
+
+#### Ativar o plano de avaliação
+
+1. Ative o plano de avaliação.
+
+1. Insira uma descrição da avaliação.
+
+1. Escolha se os alunos podem exibir o plano de avaliação antes de enviar. Essa opção está desativada por padrão. Os alunos veem a descrição da avaliação e a descrição de cada critério. Eles não veem as opções de resposta, pontos ou peso.
+
+   ![Configurações do plano de avaliação para um módulo de envio de arquivos](assets/Group-Team-submission-and-rubric-based-assessments-image6.png "Configurações do plano de avaliação")
+
+#### Adicionar parâmetros de avaliação ao plano de avaliação
+
+Você pode adicionar até 100 parâmetros de avaliação. Cada parâmetro é objetivo ou subjetivo.
+
+1. Selecione **Definir parâmetros**. Insira o texto do parâmetro no campo Parâmetro/Pergunta.
+
+   ![Definir opção de parâmetros com o campo Parâmetro/Pergunta](assets/Group-Team-submission-and-rubric-based-assessments-image7.png "Definir parâmetros")
+
+1. Selecione o tipo de parâmetro:
+
+   * **Objetivo:** o professor seleciona opções de resposta. Adicione as opções.
+
+     ![Parâmetro de objetivo com opções de resposta](assets/Group-Team-submission-and-rubric-based-assessments-image8.png "Parâmetro de objetivo")
+
+   * **Subjetivo:** o professor escreve uma resposta descritiva.
+
+     ![Parâmetro subjetivo com uma resposta descritiva](assets/Group-Team-submission-and-rubric-based-assessments-image9.png "Parâmetro subjetivo")
+
+1. Para um parâmetro de objetivo com pontuação baseada em critérios, insira pontos em número inteiro para cada opção. Números negativos são permitidos. Cada opção precisa de um valor de ponto.
+
+1. Escolha as configurações de parâmetro:
+
+   * **Obrigatório:** o professor deve responder ao parâmetro. Os parâmetros que não são obrigatórios mostram uma tag opcional ao professor.
+   * **Permitir comentários do revisor:** o professor pode adicionar comentários ao parâmetro. Esta opção é exibida somente para parâmetros de objetivo.
+
+1. Para permitir que os professores adicionem um comentário para todo o plano de avaliação, ative as observações gerais.
+
+1. Repita o procedimento para cada pergunta.
+
+1. Selecione **Salvar**.
+
+>[!NOTE]
+>
+>Parâmetros subjetivos não têm pontos.
+
+#### Calcular a pontuação geral
+
+Quando você escolhe a pontuação com base em critérios, o Adobe Learning Manager calcula a pontuação geral a partir dos pontos nas opções que o professor seleciona. Somente os parâmetros de avaliação do objetivo são contados. Parâmetros de avaliação subjetivos não contribuem para a pontuação.
+
+* **Sem limite:** a pontuação geral é a soma dos pontos para as opções selecionadas.
+* **Com um teto:** a pontuação geral é a soma dos pontos, dividida pelo máximo de pontos possível, multiplicada pelo teto e arredondada para um número inteiro. O teto pode ser qualquer número inteiro de 1 a 100. O padrão é 100.
+
+Como uma opção pode ter pontos negativos, o cálculo pode produzir um número abaixo de 0. Quando isso acontece, o Adobe Learning Manager define a pontuação geral como 0. A pontuação geral nunca fica abaixo de 0.
+
+Por exemplo, suponha que o máximo possível de pontos seja 12 e o teto seja 10. Se as opções selecionadas adicionarem até 6, a pontuação geral será 5. Se somarem 10, a pontuação total será 8, que é arredondada para 8,33. Se somarem -3, o cálculo fornece um número abaixo de 0, portanto, a pontuação geral é 0.
+
+Para escolher entre a pontuação manual e a baseada em critérios, siga as etapas de pontuação em Adicionar um módulo de envio com base em equipe.
+
+#### Adicionar parâmetros de avaliação para cada localidade
+
+Os códigos de idioma de um módulo seguem os códigos de idioma do curso. Adicione os parâmetros de avaliação manualmente para cada localidade que o curso usa. Os professores veem os parâmetros de avaliação em sua localidade de conteúdo.
+
+#### Publish o curso
+
+Publish o curso quando o plano estiver concluído. As novas instâncias do curso recebem o mesmo plano. Depois de publicar, você pode editar apenas o texto dos parâmetros e opções de avaliação. Você não pode alterar a configuração, adicionar configurações ou ativar ou desativar o plano.
+
 ### Definir a pontuação mínima de aprovação
 
 * No editor de cursos, localize a seção **Critérios de aprovação**.
@@ -194,6 +312,142 @@ Depois de definir todas as configurações do Gradebook, publique o curso usando
 * Use **O mais alto** para a configuração de várias tentativas quando os módulos forem avaliações que os alunos devem repetir. Use as **Mais recentes** quando desejar capturar o nível de conhecimento atual em vez do melhor desempenho.
 * Verifique se o indicador **Peso total** mostra exatamente 100% antes de salvar.
 
+## Configurar a criação automática de equipes no Adobe Learning Manager
+
+Defina as regras de criação automática de equipes para um curso de modo que o Adobe Learning Manager divida os alunos inscritos em equipes antes que uma instância seja iniciada.
+
+A criação automática de equipes atua como fallback quando os professores não criam equipes manualmente. Você pode ativar a formação automática de equipe para qualquer curso que tenha um módulo de envio de arquivos com base em equipe, mesmo se a configuração da conta estiver desativada. Se o administrador ativou a configuração da conta, os novos cursos começam com a programação da conta e você pode ajustá-la durante a configuração do curso.
+
+O curso deve incluir um módulo de envio com base em equipe. Cada instância precisa de uma data de início.
+
+## Definir as regras da equipe para um curso
+
+1. No aplicativo do autor, abra um curso que tenha um módulo de envio com base em equipe.
+
+1. Abra as configurações do curso e encontre a configuração **Formação automática de equipe para envios de equipe**. Aparece somente quando o curso tem pelo menos um módulo de envio de arquivos baseado em equipe.
+
+1. Selecione **Habilitar**.
+
+   ![Habilitar opção para formação automática de equipe nas configurações do curso](assets/Group-Team-submission-and-rubric-based-assessments-image10.png "Habilitar formação automática de equipe")
+
+1. Revise o **cronograma de formação de equipes**. Se o administrador ativou a configuração da conta, ele mostra o número de dias que definiu. Equipes são criadas muitos dias antes da data de início da instância.
+
+1. Opcional: para alterar o número de dias deste curso, selecione **Editar**, selecione **Sim** no aviso e insira um novo número.
+
+   ![Aviso mostrado ao editar o agendamento de formação de equipe](assets/Group-Team-submission-and-rubric-based-assessments-image11.png "Editar aviso")
+
+1. Altere o valor para um diferente.
+
+   ![Campo de valor do agendamento de formação da equipe](assets/Group-Team-submission-and-rubric-based-assessments-image12.png "Valor do agendamento de formação da equipe")
+
+1. Revise o **cronograma de formação de equipes**. Começa com o valor da conta. Para usar um lead time diferente, informe um novo número de dias.
+
+1. Escolha como formar equipes. Insira 1 ou superior. Uma equipe pode ter até 100 membros.
+
+   * Selecione **Membros por equipe** e insira o número de alunos de cada equipe.
+
+     ![Opção Membros por equipe](assets/Group-Team-submission-and-rubric-based-assessments-image13.png "Membros por equipe")
+
+   * Selecione **Número de equipes** e insira o número total de equipes.
+
+     ![Opção de número de equipes](assets/Group-Team-submission-and-rubric-based-assessments-image14.png "Número de equipes")
+
+1. Salve suas alterações e publique o curso.
+
+>[!WARNING]
+>
+>Depois de publicar, você não pode ativar ou desativar a formação automática de equipe para o curso e não pode alterar o prazo de entrega. Você ainda pode alterar a regra para formar as equipes e seu valor.
+
+![Curso publicado com configurações automáticas de formação da equipe](assets/Group-Team-submission-and-rubric-based-assessments-image15.png "Configurações do curso publicado")
+
+## Definir a data de início da instância
+
+1. Abra a instância do curso.
+
+1. Insira uma data de início e selecione **Salvar**.
+
+   ![Campo de data de início da instância](assets/Group-Team-submission-and-rubric-based-assessments-image16.png "Data de início da instância")
+
+As equipes são criadas às 12:00h no dia do prazo de entrega, no fuso horário da instância. Por exemplo, com um prazo de entrega de 3 dias, as equipes são criadas às 12:00h três dias antes da data de início. A data de início define apenas essa duração. Isso não bloqueia a inscrição.
+
+## Alterar as regras de equipe após a publicação
+
+Você pode alterar a regra, **Membros por equipe**, ou **Número de equipes** a qualquer momento. A alteração se aplica a todas as instâncias, mas entra em vigor somente onde as equipes ainda não foram criadas. Equipes que já existem nunca são reagrupadas.
+
+## Usar cursos em equipe nos caminhos de aprendizado
+
+As equipes pertencem à instância do curso. Se você adicionar um curso baseado em equipe a um caminho de aprendizado, defina o prazo de entrega e a data de início na instância do curso, não no caminho de aprendizado. Para saber como os alunos são divididos, consulte Configurações e limites do grupo.
+
+## Solução de problemas
+
+**As equipes não foram criadas para uma instância.** Verifique se a instância tem uma data de início. A criação automática não ocorre sem uma. Verifique também se a formação automática do grupo está ativada para o curso. As equipes não foram criadas para uma instância que começa em breve.
+
+**Não é possível encontrar a configuração de nível de curso.** A configuração aparece somente quando o curso tem pelo menos um módulo baseado em equipe. Adicione uma antes de publicar.
+
+**Você alterou as regras, mas as equipes não foram alteradas.** As regras se aplicam apenas se as equipes não tiverem sido criadas para a instância. Para alterar as equipes existentes, peça ao professor para editá-las.
+
+## Configurar janela de inscrição e alocação de vagas para um curso em sala de aula
+
+Você pode definir quando diferentes grupos de alunos podem se inscrever, alocar um número específico de vagas para grupos de usuários selecionados e promover automaticamente alunos qualificados da lista de espera quando as vagas estiverem disponíveis.
+
+Os autores podem alocar licenças para grupos de usuários somente depois que um administrador habilitar a configuração **Registro de grupo**. Consulte o artigo Configurações gerais para obter mais informações.
+
+Para configurar a alocação de estação para grupos de usuários:
+
+1. Faça logon no Adobe Learning Manager como autor.
+1. Selecione **Cursos** na navegação à esquerda.
+1. Criar um curso de **sala de aula**. Exibir módulos do curso para mais informações.
+1. Defina as seguintes configurações:
+
+   | Configuração | Descrição |
+   |---|---|
+   | **Limite de vagas** | Exibe o limite mínimo de vagas configurado nos módulos Sala de aula ou Sala de aula virtual. Este campo é somente leitura. Para alocar vagas para grupos de usuários, primeiro defina um limite de vagas no módulo Sala de aula ou Sala de aula virtual. |
+   | **Data de Inscrição em Aberto** | Selecione a data na qual todos, incluindo os grupos de usuários selecionados, podem se inscrever. |
+   | **Alocar licenças por grupo de usuários** | Ative esta opção para reservar licenças para grupos de usuários específicos.<p>**Observação:**<ul><li>Reserve 100% das vagas disponíveis para grupos de usuários específicos para garantir que apenas os alunos desses grupos possam se inscrever no curso.</li><li>Não é possível ativar ou desativar essa opção depois que o curso é publicado.</li></ul> |
+   | **Licenças não alocadas** | Exibe o número de licenças que permanecem disponíveis para os alunos fora dos grupos de usuários selecionados. |
+   | **Data de Inscrição em Aberto para Grupos** | Selecione a data a partir da qual os membros dos grupos de usuários selecionados podem começar a se inscrever. |
+
+
+1. Selecione **Adicionar Alocação de Grupo** e configure o seguinte:
+
+   1. **Grupo de usuários**: selecione o grupo de usuários para o qual você deseja reservar licenças.
+   1. **Vagas alocadas**: insira o número de vagas a serem reservadas para o grupo de usuários selecionado.
+
+   ![Configurações de alocação de vagas e liberação automática da lista de espera em um curso de sala de aula](assets/seat-allocation-and-waitlist-clearance-settings.png "Configurações de alocação de vagas e liberação automática da lista de espera em um curso de sala de aula")
+
+1. Selecione **Salvar**.
+
+### Gerenciar alocações de grupo de usuários
+
+Depois que você adiciona um grupo de usuários, o grupo e suas licenças alocadas aparecem na lista de alocação. Use as ações disponíveis para modificar a alocação.
+
+![Lista de alocação de grupo de usuários com ações Editar e Excluir](assets/user-group-allocation-list.png "Lista de alocação de grupo de usuários com ações Editar e Excluir")
+
+| **Ação** | **Descrição** |
+|---|---|
+| **Editar** | Modifique o número de licenças alocadas para o grupo de usuários. |
+| **Excluir** | Remova a alocação de licença para o grupo de usuários. |
+
+>[!NOTE]
+>
+>O número total de licenças alocadas entre grupos de usuários não pode exceder o Limite de licenças.
+
+### Configurar liberação automática da lista de espera
+
+Quando um administrador ativa a Inscrição em grupo, a liberação automática da lista de espera promove o próximo aluno qualificado da lista de espera quando uma vaga é aberta. Isso é ativado por padrão.
+
+Para configurar a liberação automática da lista de espera:
+
+1. Habilite **Permitir liberação automática da lista de espera** na página **Visão geral do curso**.
+1. (Opcional) Selecione uma data no seletor **Promover Automaticamente Corte**.
+1. Selecione **Salvar**.
+A promoção automática é interrompida após o corte.
+
+>[!NOTE]
+>
+>* Se você também alocar licenças por grupo de usuários, somente os membros de um grupo serão promovidos para as licenças desse grupo.
+>* A data de **Fim da Promoção Automática** aplica-se ao grupo de usuários e às listas de espera abertas. As promoções automáticas são interrompidas em ambas as listas de espera após essa data.
+
 ## Adicionar rótulos de conformidade ao curso/caminho de aprendizado/certificação {#add-custom-compliance-label}
 
 Para adicionar os rótulos de conformidade aos cursos, siga estas etapas:
@@ -233,8 +487,10 @@ Para criar uma instância, faça o seguinte:
    * No campo **[!UICONTROL Nome da instância]**, insira o nome da instância que você deseja associar ao curso. Certifique-se de usar um nome exclusivo para a instância.
    * **Data de início:** esta é a data de início do curso. Dois e-mails de lembrete podem ser enviados em duas datas selecionadas diferentes ao aluno antes desta data de início. A data inicial deve ser anterior à data de conclusão. Depois de selecionar a data de início, essa data será destacada em azul no calendário, na seção **Alertas de Notificação** da instância.
      ![](assets/start-date-instance.png)
-     ![](assets/start-date-highlighted-instance.png)
    * Especifique o prazo de conclusão para a instância. Os alunos devem atingir o status de conclusão do curso até esta data.
+     ![](assets/start-date-highlighted-instance.png)
+   * **Data de Inscrição em Aberto** (Opcional): a data a partir da qual os alunos podem se inscrever. Se as vagas estiverem alocadas para grupos de usuários, essa data se aplicará aos alunos fora desses grupos.
+   * **Fechamento de Promoção Automática** (Opcional): após essa data, a promoção automática de listas de espera é interrompida para a instância. Este campo aparece quando a liberação automática da lista de espera está ativada.
    * Selecione **[!UICONTROL Mostrar mais opções]** para exibir outras opções de prazo.
    * **[!UICONTROL Prazo de inscrição]:** esta é a data até a qual um aluno deve se inscrever em um objeto de aprendizado em caso de autoinscrição.
    * **[!UICONTROL Prazo de cancelamento da inscrição]:** Você pode optar por restringir o cancelamento de inscrição pelo próprio aluno, estabelecendo um prazo para o cancelamento da inscrição.
@@ -1241,7 +1497,7 @@ Você também pode publicar módulos de curso no Learning Manager a partir do so
 1. Faça logon com as credenciais da Adobe. Se não tiver uma Adobe ID, clique em **[!UICONTROL Criar conta]**. Após a autorização, você será direcionado para a página de publicação do módulo.
 1. Forneça quaisquer informações básicas sobre o módulo e clique em Publicar.
 
-Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/br/captivate/classic/publish-project-to-captivate-prime.html)
+Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)
 
 ## Eficácia do curso {#courseeffectiveness}
 
