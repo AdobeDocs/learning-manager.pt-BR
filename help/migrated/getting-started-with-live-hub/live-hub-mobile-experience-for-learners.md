@@ -1,16 +1,16 @@
 ---
-title: Use o Live Hub (Beta) em dispositivos móveis como aluno
+title: Usar o Live Hub em dispositivos móveis como aluno
 description: Saiba quais recursos do Live Hub estão disponíveis para os alunos no aplicativo móvel da Adobe Learning Manager, desde ingressar em uma sessão até sair de uma.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '752'
 ht-degree: 0%
 ---
 
-# Use o Live Hub (Beta) em dispositivos móveis como aluno
+# Usar o Live Hub em dispositivos móveis como aluno
 
 Use o aplicativo móvel Adobe Learning Manager para ingressar e participar de sessões do Live Hub diretamente do seu dispositivo iOS ou Android. Durante uma sessão, você pode interagir com professores e participantes, responder a pesquisas e questionários, colaborar em salas para sessão de grupo e acessar conteúdo compartilhado diretamente do dispositivo móvel.
 

@@ -1,16 +1,16 @@
 ---
-title: Criar uma sessão do Live Hub (Beta)
+title: Criar uma sessão do Live Hub
 description: Saiba como criar um curso do Live Hub, adicionar instâncias do curso, atribuir professores com o localizador de professores, inscrever alunos e personalizar a marca de sala.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 9d05ad4a059bd1fec6e64f050070dae336ba2d1b
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1617'
 ht-degree: 0%
 ---
 
-# Criar uma sessão do Live Hub (Beta)
+# Criar uma sessão do Live Hub
 
 Use o Live Hub para fornecer treinamento ao vivo liderado por instrutores em um curso do Adobe Learning Manager. Você pode combinar sessões do Live Hub com conteúdo de ritmo individualizado para criar uma experiência de aprendizado combinada.
 
@@ -134,6 +134,46 @@ Para adicionar professores usando o Localizador do professor:
 1. Revise a lista de professores recomendados.
 
 1. Navegue até o professor que deseja atribuir e selecione **Adicionar**. <br> O professor selecionado é adicionado ao campo **Professores** como uma marca.
+
+## Criar um curso para sessões grandes {#create-large-session}
+
+O Live Hub oferece suporte a grandes sessões de até 5.000 participantes. Ao criar um curso com essa capacidade, o Live Hub configura automaticamente a sala para um grande público e aplica as restrições de recursos correspondentes.
+
+Para criar uma sessão grande:
+
+1. Faça logon no ALM como **Autor**.
+1. Selecione **Adicionar** no **catálogo de cursos** página.
+1. Insira o nome e a descrição do curso.
+1. Selecione **Conteúdo** > **Adicionar Módulos** na seção **Módulos**. A janela pop-up **Selecionar tipo de módulo** é exibida.
+1. Selecione **Sala de aula virtual** e insira os detalhes do curso, incluindo título, descrição, fuso horário, data de início e término e hora de início e término.
+1. Selecione o **Hub do Live** nas **Ferramentas de Treinamento Virtual do Live**.
+1. Selecione **Habilitar capacidade de 5.000 participantes**. Se você não ativar essa opção, a sessão oferecerá suporte a até 1.100 participantes.
+
+   ![Caixa de diálogo de Sala de Aula Virtual com o Live Hub selecionado e a opção Habilitar capacidade de 5.000 participantes](assets/virtual-classroom-enable-5000-attendee-capacity.png "Caixa de diálogo de Sala de Aula Virtual com o Live Hub selecionado e a opção Habilitar capacidade de 5.000 participantes")
+
+1. Selecione **Salvar** > **Publish**.
+
+### Recursos disponíveis em sessões grandes
+
+Quando um professor abre a sessão, as configurações da sala mostram que se aplicam restrições em grandes sessões.
+
+| Recurso | Comportamento em uma sessão grande |
+|---|---|
+| **Participantes** | Uma sessão grande tem suporte para até 5.000 participantes. Quando a sessão atingir esse limite, participantes adicionais não poderão ingressar. |
+| **Câmeras** | Até 10 professores podem ligar suas câmeras simultaneamente. Os alunos não podem ligar as câmeras. Se o limite de câmera for atingido, uma mensagem será exibida quando outro professor tentar ligar a câmera.<p>As solicitações de câmera feitas ao mesmo tempo são processadas em lote. Como resultado, o número de câmeras ativas pode exceder o limite configurado. No entanto, a dica de ferramenta do botão de câmera continuará exibindo o limite configurado. |
+| **Microfones** | Até 20 participantes podem ativar o som de seus microfones simultaneamente. Se o limite de microfone for atingido, uma mensagem será exibida quando outro participante tentar ativar o som.<p>As solicitações de microfone feitas ao mesmo tempo são processadas como um lote. Como resultado, o número de participantes sem som pode exceder temporariamente o limite configurado. |
+| **Salas para sessão de grupo** | O ícone da sala para sessão de grupo permanece visível, mas os professores não podem iniciar salas para sessão de grupo. Uma mensagem é exibida quando eles tentam iniciar uma. |
+| **Compartilhamento de tela e quadro de comunicações** | Somente professores podem compartilhar suas telas e usar o quadro de comunicações. Os professores não podem fornecer essas permissões aos alunos. |
+| **Chat particular** | Os alunos podem enviar mensagens privadas aos professores, mas não podem enviar mensagens privadas a outros alunos. |
+| **Indicador de digitação** | O indicador de digitação não aparece em sessões grandes. |
+| **Bate-papo, reações, perguntas e mãos levantadas** | O sistema processa essas interações em lotes, de modo que elas possam aparecer após um pequeno atraso. O Live Hub também agrupa reações e exibe um número limitado de cada vez. |
+| **Histórico do bate-papo** | O sistema remove automaticamente as mensagens de bate-papo antigas quando o histórico do bate-papo fica muito grande para manter a estabilidade da sessão. |
+| **Sondagens, questionários, gravação e presença** | Esses recursos funcionam da mesma maneira que em sessões regulares. |
+| **Recursos de IA** | <ul><li>O sistema detecta perguntas no chat e as exibe no painel **Perguntas**, embora elas possam aparecer após um pequeno atraso.</li><li>Os recursos de IA associados a salas para sessão de grupo não estão disponíveis porque sessões grandes não oferecem suporte a salas para sessão de grupo.</li><li>Outros recursos de IA funcionam da mesma maneira que em sessões regulares.</li></ul> |
+
+>[!NOTE]
+>
+>Sem a opção **Habilitar capacidade de 5.000 participantes**, uma sessão regular oferece suporte a até 1.100 participantes, 50 câmeras e 20 participantes sem som.
 
 ## Inscrever alunos no curso
 

@@ -7,10 +7,10 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
 workflow-type: tm+mt
-source-wordcount: '2471'
-ht-degree: 52%
+source-wordcount: '3562'
+ht-degree: 36%
 ---
 
 # Gerenciar pedidos e faturamento do Learning Manager
@@ -51,7 +51,11 @@ O cartão de **detalhes da conta** na parte superior da guia **Assinatura** exib
 
 **Licenças**
 
-A seção **Licenças** lista todas as licenças ou direitos ativos na conta. Cada bloco mostra o nome da licença, uma descrição do plano, quando aplicável, e uma linha de status mostrando os valores de consumo do período do contrato atual.
+A seção **Licenças** lista todas as licenças ou direitos ativos na conta, incluindo as horas de treinamento do Live Hub para planos Ultimate. Cada bloco mostra o nome da licença, uma descrição do plano, quando aplicável, e uma linha de status mostrando os valores de consumo do período do contrato atual.
+
+>[!IMPORTANT]
+>
+> O Live Hub está na versão beta para clientes Prime.
 
 As colunas da linha de estatísticas variam de acordo com o tipo de licença:
 
@@ -66,6 +70,7 @@ Selecione **[!UICONTROL Exibir Detalhes de Uso]** abaixo da linha de estatístic
 - Uma tabela **Uso Geral** com colunas: Comprado/Usado por esta Conta/Usado por Contas entre Parceiros/Restante
 - Um link **Exibir divisão de conta** para ver o uso distribuído entre contas entre parceiros individuais
 - Um link para **Baixar Relatório Detalhado** para exportar dados de uso como um arquivo
+- Na guia Live Hub, use as horas de treinamento do Live Hub em horas. Exiba [horas de treinamento do Live Hub](#live-hub-training-hours) para obter mais informações.
 
 **Bloco de licença do Agent Orchestrator**
 
@@ -274,6 +279,91 @@ Qualquer usuário que executar as seguintes ações ou obter as conclusões devi
    - **Uso geral:** é possível verificar o número total de usuários ativos, usuários que usam o Learning Manager em um mês e o número de usuários que ainda não se inscreveram em nenhum curso.
    - **Uso mensal:** você pode ver uma tabela de usuários ativos exclusivos por mês.
 
+## Horas de treinamento do Live Hub {#live-hub-training-hours}
+
+O Live Hub está incluído nos planos de assinatura Ultimate e não requer uma licença básica ou ativação separada do Live Hub. O uso do Live Hub é medido em horas de treinamento, que os administradores podem rastrear na página **Faturamento**.
+
+### Horas de treinamento do plano de assinatura {#subscription-plan-training-hours}
+
+O número de horas de treinamento do Live Hub disponível depende do seu plano de assinatura.
+
+| Plano | Horas de treinamento incluídas |
+|---|---|
+| Ultimate | Ilimitado. O uso ainda é gravado e exibido. |
+| Teste grátis | 100 horas para todo o teste. O saldo não é redefinido durante a avaliação. |
+
+### Limites de sessão do Live Hub {#live-hub-session-limits}
+
+Os planos Ultimate oferecem os mesmos recursos do Live Hub e limites de sessão:
+
+* Somente Administradores, Autores e Professores podem iniciar sessões do Live Hub.
+* Os participantes devem ser usuários autenticados do Adobe Learning Manager, por meio da autenticação nativa ou do logon único (SSO).
+* Uma sessão pode durar até oito horas. Você pode estender a sessão duas vezes, em incrementos de 15 minutos, por até 30 minutos adicionais.
+
+### Como as horas de treinamento são calculadas {#how-training-hours-are-calculated}
+
+As horas de treinamento são calculadas com base na duração programada de uma sessão do Live Hub, não no tempo real em que a sessão é executada.
+
+Considere o seguinte ao calcular o uso de horas de treinamento:
+
+* Se uma sessão terminar mais cedo, sua duração agendada completa será contada.
+* Uma sessão cancelada antes da hora de início agendada não é contada. Se você cancelar a sessão depois que ela for iniciada, a duração agendada será contada mesmo que nenhum participante participe.
+* Cada ocorrência de uma sessão recorrente é contada separadamente.
+* Uma sessão duplicada é contada como uma sessão separada.
+* Se você alterar a hora de início ou término de uma sessão entregue e reutilizá-la, a sessão reutilizada será contada como uma ocorrência separada.
+* As salas para sessão de grupo e as extensões de sessão não adicionam ao uso em horas de treinamento.
+* As sessões entregues por meio de outros conectores, como Zoom ou Microsoft Teams, não são contadas como horas de treinamento do Live Hub.
+* Se você mudar uma sessão programada para um ano de licenciamento diferente, suas horas de treinamento contam para o ano de licenciamento em que agora está programada.
+* As horas de treinamento não são arredondadas. Por exemplo, uma sessão de 90 minutos conta como 1,5 hora de treinamento.
+
+#### Sessões que se estendem por vários dias {#sessions-spanning-multiple-days}
+
+Para sessões que se estendem por mais de um dia, cada período de 24 horas completo conta como **oito horas de treinamento**. Qualquer duração restante é contada em seu comprimento real, até oito horas.
+
+Por exemplo:
+
+* Uma sessão de 30 horas distribuídas em dois dias conta como 14 horas de treinamento, com oito horas contadas para o primeiro período de 24 horas e seis horas para a duração restante.
+* Uma sessão de 10 horas distribuídas em dois dias conta como oito horas de treinamento.
+
+### Exibir o uso do seu Live Hub {#view-live-hub-usage}
+
+1. Faça logon no Adobe Learning Manager como administrador.
+1. Selecione **Faturamento**.
+1. Navegue até **Licenças** na guia **Assinatura**.
+1. Selecione **Exibir Detalhes de Uso**.
+
+   A seção **Detalhes de Uso** é exibida.
+
+   ![Seção de Detalhes de Uso na página de Faturamento](assets/billing-usage-details.png "seção de Detalhes de Uso na página de Faturamento")
+
+1. Selecione a guia **Live Hub**.
+
+   A seção de uso do **Live Hub (em horas)** mostra o seguinte:
+
+   | Campo | Descrição |
+   |---|---|
+   | **Comprado** | As horas de treinamento disponíveis para a conta, que é Ilimitada para clientes do Ultimate. |
+   | **Usado por esta conta** | As horas de treinamento contadas até agora no período de licenciamento atual. |
+   | **Restante** | Horas de treinamento restantes. Mostra Ilimitado para contas Ultimate. |
+   | **Próxima redefinição** | A data em que o saldo é redefinido para o próximo ano de licenciamento. |
+
+### Quando todas as horas de treinamento são usadas {#when-all-training-hours-are-used}
+
+Atingir o limite de horas de treinamento disponível não impede que você use o Live Hub. As contas de avaliação gratuita também podem continuar usando o Live Hub após consumirem suas 100 horas de treinamento.
+
+* **Administradores:** um aviso de uso excessivo aparece na página **Faturamento** junto com outros avisos de licenciamento.
+* **Autores:** nenhum aviso de hora de treinamento aparece ao agendar sessões do Live Hub.
+* **Contas Ultimate:** nenhum aviso de uso excessivo é exibido porque as horas de treinamento são ilimitadas.
+* **Pai e subcontas do MAU:** um único aviso aparece no nível da conta pai. Consulte [pai e subcontas do MAU](#mau-parent-and-sub-accounts) para obter mais informações.
+
+Para adquirir horas de treinamento adicionais, entre em contato com learningmanagersales@adobe.com.
+
+### Pai e subcontas do MAU {#mau-parent-and-sub-accounts}
+
+Para contas de Usuários Ativos Mensais (MAU) com um relacionamento de subconta pai estabelecido, todo o direito de hora de treinamento do Live Hub da conta pai está disponível para suas contas filho. Esse pool compartilhado inclui as horas de treinamento do responsável e as horas complementares adquiridas. As contas secundárias não recebem uma alocação ou limite de horas do Live Hub separado.
+
+As horas do Live Hub usadas pelo pai e suas contas filho MAU são deduzidas do mesmo pool pai. A página **Cobrança** do responsável mostra o direito agrupado, o consumo, as horas restantes e o uso por subconta. Consulte [Contas entre parceiros](../feature-summary/peer-account.md) para obter mais informações.
+
 ## Baixar relatório de uso {#downloadusagereport}
 
 Você também pode baixar os dados do número de usuários ativos por mês e ano. Para baixar, clique em **[!UICONTROL Baixar relatório detalhado]**.
@@ -422,6 +512,38 @@ Entre em contato com a [FastSpring](https://fastspring.com/) para obter uma nota
 
 - Crie uma solicitação de serviço com a FastSpring usando o link `https://questionacharge.com`.
 - Envie um email para a FastSpring em `orders@fastspring.com` solicitando a nota fiscal.
+
+**O licenciamento do Live Hub se aplica aos clientes Prime?**
+
+Não. O Live Hub está atualmente na versão Beta para contas do Prime, portanto, o licenciamento por hora de treinamento e o rastreamento de uso não se aplicam a clientes do Prime durante o período beta. Esses requisitos se aplicarão às contas do Prime assim que o Live Hub sair da versão Beta. Para contas Ultimate, o licenciamento por hora de treinamento e o rastreamento de uso são aplicáveis.
+
+**Preciso comprar o Live Hub separadamente?**
+
+Não. O Live Hub está incluído nos planos de assinatura do Ultimate e não requer ativação separada. O plano Ultimate inclui horas de treinamento ilimitadas.
+
+**Uma sessão do Live Hub cancelada é contada no meu horário de treinamento?**
+
+Depende de quando você cancela a sessão. Uma sessão cancelada antes da hora de início agendada não é contada. Se você cancelar uma sessão após seu início, sua duração agendada completa será contada, mesmo que nenhum participante participe.
+
+**O que acontece quando eu uso todos os meus horários de treinamento do Live Hub?**
+
+O Live Hub permanece disponível depois que você usa todos os seus horários de treinamento. Contas de avaliação gratuita podem continuar a agendar e conduzir sessões do Live Hub. Os administradores veem um aviso de uso em excesso na página **Faturamento**. Para adquirir horas de treinamento adicionais, entre em contato com learningmanagersales@adobe.com.
+
+**As horas de treinamento não utilizadas ou as horas do complemento são postergadas?**
+
+Não. Os horários de treinamento incluídos não utilizados não são postergados para o próximo ano de licenciamento. As horas de treinamento complementares também expiram no final do período de licenciamento atual do seu plano básico.
+
+**Posso comprar o complemento de horas de treinamento com um cartão de crédito?**
+
+Não. Os complementos para horas de treinamento estão disponíveis somente por meio do departamento de vendas de Adobe. Para adquirir horas de treinamento adicionais, entre em contato com learningmanagersales@adobe.com.
+
+**Quantas horas de treinamento de complementos um Live Hub oferece?**
+
+No momento, você não pode comprar horas de treinamento adicionais.
+
+**As subcontas do MAU podem usar os horários de treinamento do Live Hub da conta principal?**
+
+Sim As subcontas do MAU compartilham o pool de horas de treinamento do Live Hub da conta principal. Cada subconta pode acessar todo o grupo disponível sem uma alocação separada. As horas de treinamento consumidas pelas subcontas são deduzidas do saldo compartilhado da conta pai.
 
 
 <!--

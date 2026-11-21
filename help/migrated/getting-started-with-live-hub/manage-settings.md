@@ -4,9 +4,9 @@ description: Saiba como os professores acessam e definem as configurações da s
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '584'
 ht-degree: 0%
 ---
 
@@ -31,9 +31,11 @@ Em uma sessão do Live Hub, os professores podem controlar as permissões dos pa
 
    1. **Gravação**: escolha o que será capturado na gravação, incluindo feeds de vídeo dos participantes, pesquisas e transcrição do bate-papo.
 
+   1. **Legendas**: selecione o idioma em que as legendas são geradas durante a sessão.
+
    1. **IA**: ative ou desative os assistentes de IA da sessão, incluindo o assistente de Perguntas e Respostas, o assistente de pesquisa, o agente de monitoramento de breakout e a geração de tópicos de gravação.
 
-   1. **Privacidade**: mostrar ou ocultar participantes inscritos que ainda não ingressaram na sessão.
+   1. **Privacidade**: mostrar ou ocultar participantes inscritos que ainda não ingressaram na sessão.Selecione a guia relevante no painel esquerdo:
 
 1. Altere as configurações necessárias.
 
@@ -94,6 +96,12 @@ As configurações a seguir ajudam a gerenciar a sessão controlando o que os pa
 <td>Adiciona a transcrição do chat à gravação.</td>
 </tr>
 <tr>
+<tr>
+<td><p><strong>Legendas</strong></p>
+<p><strong>Padrão</strong>: inglês</p></td>
+<td>Idioma de exibição das legendas</td>
+<td>Define o idioma em que as legendas são geradas para todos os participantes. As legendas não são traduzidas, portanto o idioma selecionado deve corresponder ao idioma falado pelo professor.</td>
+</tr>
 <td rowspan="4"><p><strong>IA</strong></p>
 <p><strong>Padrão</strong>: todos os assistentes de IA são habilitados se os administradores os habilitaram.</p></td>
 <td>Habilitar assistente de perguntas e respostas e geração de respostas</td>

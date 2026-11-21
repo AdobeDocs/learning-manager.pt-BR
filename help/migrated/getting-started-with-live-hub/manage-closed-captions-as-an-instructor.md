@@ -4,9 +4,9 @@ description: Saiba como os professores ativam, exibem e personalizam o tamanho d
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '353'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,26 @@ ht-degree: 0%
 
 As legendas ocultas exibem o conteúdo falado como texto na tela, facilitando o acompanhamento de uma sessão do Live Hub, por exemplo, enquanto você apresenta, responde a perguntas dos participantes ou trabalha em um ambiente barulhento. Como professor, você pode gerenciar suas próprias legendas codificadas no menu de **Mais ações** da sala.
 
-Este artigo explica como exibir, personalizar e ocultar legendas codificadas durante uma sessão do Live Hub.
+Este artigo explica como selecionar o idioma da legenda, exibir legendas codificadas e alterar a aparência durante uma sessão do Live Hub.
+
+## Selecionar o idioma da legenda
+
+Selecione o idioma usado para exibir as legendas durante a sessão. Todos os participantes veem legendas no idioma selecionado.
+
+>[!NOTE]
+>
+>Os recursos viabilizados por IA estão disponíveis apenas para cursos em inglês. Se o idioma do curso estiver definido para outro idioma, a guia **Legendas** indicará que os recursos com IA não estão disponíveis.
+
+Para selecionar o idioma da legenda:
+
+1. Selecione **Mais ações** na barra de controle.
+1. Selecione **Configurações**.
+
+   A caixa de diálogo Configurações da sala é aberta.
+
+1. Selecione **Legendas**.
+1. Selecione um idioma no menu suspenso Idioma de exibição das legendas.
+1. Selecione **Concluído**.
 
 ## Exibir legendas codificadas
 

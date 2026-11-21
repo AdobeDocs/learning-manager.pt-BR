@@ -5,9 +5,9 @@ title: Learning Path Agent (beta) no Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: b01b116a2edd22350d0d20eb53984f1a66d494e3
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2336'
 ht-degree: 0%
 ---
 
@@ -147,23 +147,34 @@ Quando estiver satisfeito com o caminho, peça ao agente para salvá-lo digitand
 ![](assets/create-lp.png)
 -->
 
-### Ajuste o caminho de aprendizado antes de salvar
+### Ajustar um caminho de aprendizado antes de salvar {#adjust-lp-before-saving}
 
-Antes de salvar seu caminho, você pode pedir ao agente para adicionar, remover ou substituir um curso. Descreva a alteração na linguagem simples. O agente atualiza somente o curso que você menciona. O restante do caminho permanece o mesmo.
+Remova, adicione ou substitua tópicos e cursos em um caminho de aprendizado gerado usando o ícone de exclusão ou o bate-papo antes de salvá-lo.
 
-Por exemplo:
+Quando você solicita que o agente de caminho de aprendizado no Adobe Learning Manager crie um caminho personalizado, ele primeiro propõe tópicos e depois faz a correspondência dos cursos com eles. Antes de salvar o caminho, você pode refinar ambos, para que o caminho final se ajuste aos seus objetivos.
 
-- Já terminei o segundo curso. Remova-o.
-- Adicionar um curso sobre [tópico]. Não vejo um na lista.
-- O quarto curso parece muito avançado. Você pode substituí-lo por algo mais fundamental?
-
-O agente aplica sua alteração e mostra o caminho atualizado. Continue ajustando até ficar satisfeito e, em seguida, salve o caminho.
+Você pode ajustar o caminho selecionando o ícone de exclusão em um cartão ou digitando uma solicitação no bate-papo.
 
 >[!NOTE]
 >
->Um caminho de aprendizado pode conter no máximo cinco cursos. Se você pedir para adicionar um curso quando o caminho já estiver cheio, o agente perguntará qual curso existente você deseja substituir.
+>O Agente de Caminho de Aprendizado está disponível com a camada Ultimate ou como um complemento para a camada Prime. Cada solicitação usa créditos de IA. Se você não vir o agente, entre em contato com o administrador.
 
-Se sua solicitação não estiver clara, o agente fará uma pergunta esclarecedora antes de fazer uma alteração. Se não houver nenhum substituto adequado para um curso que você deseja trocar, o agente explica o motivo e sugere o curso correspondente mais próximo.
+1. No Assistente do aluno, peça ao Agente do caminho de aprendizado para gerar um caminho de aprendizado. Responda a quaisquer perguntas de esclarecimento feitas pelo agente. Por exemplo, insira Ajude-me a criar um caminho de aprendizado para passar do coordenador de marketing para o analista de dados.
+2. Responda às perguntas esclarecedoras que o agente faz. Em seguida, o agente gera uma lista de tópicos.
+3. Revise os tópicos e ajuste-os conforme necessário:
+
+   * Para remover um tópico, selecione o ícone de exclusão no cartão ou digite uma solicitação como “Remover este tópico”.
+   * Para adicionar um tópico, digite uma solicitação que descreva o tópico desejado.
+
+4. Confirme os tópicos. O agente vincula os cursos da sua conta a cada tópico.
+5. Revise os cursos sugeridos e ajuste-os conforme necessário:
+
+   * Para remover um curso, selecione o ícone de exclusão no cartão ou peça ao agente para removê-lo.
+   * Para adicionar um curso, digite uma solicitação que descreva o que você deseja aprender.
+   * Para trocar um curso, peça ao agente para substituí-lo. O agente sugere uma alternativa com base em sua solicitação original.
+
+6. Repita as etapas 3 e 5 até que o caminho corresponda aos seus objetivos.
+7. Salve o caminho de aprendizado.
 
 ### Salvar e acessar o seu Caminho de Aprendizado
 

@@ -7,10 +7,10 @@ exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 68acc921d6c2d027ef6df082cb31389b1760f0f5
 workflow-type: tm+mt
-source-wordcount: '3238'
-ht-degree: 63%
+source-wordcount: '3588'
+ht-degree: 57%
 ---
 # Catálogos
 
@@ -26,6 +26,49 @@ Neste treinamento, você aprenderá como criar e gerenciar catálogos.
 
 Se você não conseguir iniciar o treinamento, escreva para <almacademy@adobe.com>.
 
+## Pesquisar catálogos {#search-catalogs}
+
+A pesquisa de catálogo classifica os resultados por relevância. Uma correspondência exata para o termo de pesquisa aparece na parte superior da lista, seguida das correspondências mais próximas. Isso ajuda a localizar o catálogo desejado sem percorrer longas listas de nomes semelhantes.
+
+### Sobre a pesquisa de catálogo com base em relevância
+
+A pesquisa de catálogo retorna resultados em ordem decrescente de relevância. Ele usa o mesmo tipo de classificação de pesquisa e correspondência de frase que já está disponível em outras experiências de pesquisa do Adobe Learning Manager para alunos e administradores.
+
+Antes de dezembro de 2026, os resultados das pesquisas não eram ordenados por relevância. Se a sua conta tiver muitos catálogos com nomes semelhantes, como um prefixo compartilhado seguido de data, mês ou ID, o catálogo desejado poderá ser exibido muito abaixo na lista.
+
+Com pesquisa baseada em relevância:
+
+* Uma correspondência exata para o termo de pesquisa é exibida primeiro.
+* A próxima correspondência mais próxima aparece em segundo lugar.
+* Os resultados restantes seguem em ordem decrescente de relevância.
+
+### Pesquisar um catálogo
+
+1. Faça logon no Adobe Learning Manager como administrador.
+
+1. Selecione **Catálogos** no painel de navegação esquerdo.
+
+1. Na caixa de pesquisa, insira o nome do catálogo ou parte dele.
+
+Revise os resultados. A correspondência mais próxima aparece na parte superior da lista. Selecione o catálogo necessário na lista.
+
+### Exemplo de resultado de pesquisa
+
+Suponha que sua conta inclua catálogos com nomes que difiram em apenas alguns caracteres. A tabela a seguir mostra como os resultados são ordenados quando você pesquisa o termo 5 de março.
+
+| Termo de pesquisa | Posição do resultado | Tipo de correspondência |
+|---|---|---|
+| 5 de março | Os primeiros | Correspondência exata |
+| 5 de março seguido de caracteres adicionais, como 52 de março | Segundo(a) | Próxima correspondência mais próxima |
+| Outros catálogos que contenham texto semelhante | Após as correspondências mais próximas | Menor relevância |
+
+Se você pesquisar por 52 de março, o catálogo chamado 52 de março aparece primeiro, seguido das próximas correspondências mais próximas.
+
+A pesquisa com base em relevância é mais útil se a sua organização gerencia centenas ou milhares de catálogos. Ele ajuda você a:
+
+* Localize um catálogo específico sem rolagem ou pesquisa manual.
+* Faça a distinção entre catálogos com padrões de nomenclatura comuns.
+* Tenha um comportamento de pesquisa consistente com outras experiências de pesquisa no Adobe Learning Manager.
 
 ## Criar catálogo {#createacatalog}
 

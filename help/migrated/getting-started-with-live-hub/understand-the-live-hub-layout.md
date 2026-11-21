@@ -1,16 +1,16 @@
 ---
-title: Entenda o layout do Live Hub (Beta)
+title: Entenda o layout do Live Hub
 description: Saiba mais sobre os painéis e controles que compõem a sala de sessão do Live Hub, incluindo a barra de controle, o painel Participantes, o painel Bate-papo e o painel Debates.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '820'
 ht-degree: 1%
 ---
 
-# Entenda o layout do Live Hub (Beta)
+# Entenda o layout do Live Hub
 
 No Adobe Learning Manager Live Hub, a sala de sessão foi projetada para ajudar professores e alunos a colaborar de forma eficaz durante as sessões ao vivo. O layout inclui vários painéis e controles que permitem gerenciar áudio, vídeo, participantes e interações em tempo real.
 
