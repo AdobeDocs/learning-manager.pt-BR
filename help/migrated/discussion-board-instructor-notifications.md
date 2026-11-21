@@ -42,7 +42,7 @@ Os seguintes casos de uso mostram como as notificações do professor ajudam:
 
 * Um usuário deve ser capaz de acessar um painel quando uma notificação é enviada. O acesso é verificado novamente no momento da entrega, não apenas quando o usuário está inscrito. Se um assinante perder o acesso a um painel, a assinatura será mantida, mas as notificações para esse painel serão ignoradas.
 * O resumo é enviado como um e-mail, portanto, um quadro ocupado pode ficar muito longo. Por exemplo, uma coorte de cerca de 40 alunos podia postar várias centenas de comentários em seis horas.
-* Se as placas estiverem muito ativas, use uma frequência de compilação mais curta, como a cada seis horas, para que cada e-mail permaneça gerenciável. Defina a frequência com `digestFrequencyHours` na API [`boardSubscriptionSettings` ](api-changes-dec-2026.md#api-create-settings).
+* Se as placas estiverem muito ativas, use uma frequência de compilação mais curta, como a cada seis horas, para que cada e-mail permaneça gerenciável. Defina a frequência com `digestFrequencyHours` na API [`boardSubscriptionSettings` &#x200B;](api-changes-dec-2026.md#api-create-settings).
 * O número de publicações no resumo por email é limitado a 20 por painel por resumo. O mesmo limite aplica-se independentemente às observações (20) e respostas (20) por conselho de administração. Apenas as listas exibidas estão truncadas; as contagens de títulos/subtítulos sempre refletem a atividade verdadeira e não truncada da janela.
 * O número de assinantes é limitado a 200 por placa.
 * Como o conteúdo é enviado diretamente no email, e não como um anexo, o corpo do email também tem um limite de tamanho.
@@ -59,11 +59,11 @@ Os seguintes casos de uso mostram como as notificações do professor ajudam:
 
 ### Eventos incluídos
 
-O resumo inclui novas postagens, comentários e respostas quando a configuração correspondente for `true` na API [`boardSubscriptionSettings` ](api-changes-dec-2026.md#api-create-settings): `notifyNewPost`, `notifyComment` e `notifyReply`. Você os definiu com `POST` ou `PATCH /boardSubscriptionSettings`. Todas as configurações são `false` por padrão.
+O resumo inclui novas postagens, comentários e respostas quando a configuração correspondente for `true` na API [`boardSubscriptionSettings` &#x200B;](api-changes-dec-2026.md#api-create-settings): `notifyNewPost`, `notifyComment` e `notifyReply`. Você os definiu com `POST` ou `PATCH /boardSubscriptionSettings`. Todas as configurações são `false` por padrão.
 
 ### Eventos excluídos
 
-O resumo exclui eventos cuja configuração correspondente na API [`boardSubscriptionSettings` ](api-changes-dec-2026.md#api-create-settings) (por exemplo, `notifyComment`) é `false`. Nenhuma compilação é enviada quando não há nenhuma atividade qualificada.
+O resumo exclui eventos cuja configuração correspondente na API [`boardSubscriptionSettings` &#x200B;](api-changes-dec-2026.md#api-create-settings) (por exemplo, `notifyComment`) é `false`. Nenhuma compilação é enviada quando não há nenhuma atividade qualificada.
 
 ### Amostra de layout de email de resumo
 
