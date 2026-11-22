@@ -4,9 +4,9 @@ description: Perguntas frequentes sobre o Live Hub no Adobe Learning Manager, or
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
+source-git-commit: bf1aebd9c505dd632c5f31a3bc71e03462ec5e16
 workflow-type: tm+mt
-source-wordcount: '4471'
+source-wordcount: '4470'
 ht-degree: 0%
 ---
 
@@ -54,7 +54,8 @@ Os administradores podem ativar a IA no Live Hub e escolher quais assistentes de
 
 +++O Live Hub está disponível para minha conta?
 
-O Live Hub (Beta) estará disponível a partir de agosto de 2026. Os administradores podem ativar ou desativar o Live Hub para sua conta da Adobe Learning Manager. Se o Live Hub estiver ativado, os autores podem selecioná-lo como o provedor de treinamento ao vivo ao criar um módulo de Sala de aula virtual. Se a opção Live Hub não estiver disponível, entre em contato com o administrador para habilitar o recurso para sua conta.
+O Live Hub estará disponível a partir de agosto de 2026. Os administradores podem ativar ou desativar o Live Hub para sua conta da Adobe Learning Manager. Se o Live Hub estiver ativado, os autores podem selecioná-lo como o provedor de treinamento ao vivo ao criar um módulo de Sala de aula virtual. Se a opção Live Hub não estiver disponível, entre em contato com o administrador para habilitar o recurso para sua conta.
+
 
 +++
 
