@@ -3,7 +3,7 @@ description: Saiba como usar as configurações de assinatura do painel e as API
 jcr-language: en_us
 title: Alterações na API em novembro de 2026
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # Alterações na API em dezembro de 2026
 
-## APIs para notificações do professor do quadro de discussão
+## APIs para notificações do professor do quadro de discussão {#api-discussion-board-instructors}
 
 Este artigo descreve as novas APIs que oferecem suporte às notificações do professor do quadro de discussão. Use-os para inscrever professores e gerentes de coorte em painéis de discussão e controlar qual atividade aparece em seus emails de resumo.
 
@@ -585,7 +585,7 @@ A resposta não tem corpo.
 | 401 | A solicitação não tem credenciais válidas ou o acesso foi negado devido a credenciais inválidas. |
 | 404 | O recurso solicitado, como o painel ou a assinatura, não foi encontrado. |
 
-## Pedidos de API de marcador e manipulação de conteúdo desativado
+## Pedidos de API de marcador e manipulação de conteúdo desativado {#bookmark-api-ordering-retired-content}
 
 ### Finalidade da API
 
@@ -721,7 +721,7 @@ Um caso de uso comum é uma lista “Salvo para mais tarde” em uma experiênci
 3. Remova qualquer classificação do lado do cliente ou filtragem de conteúdo desativado que você adicionou como solução alternativa.
 4. Mostrar uma contagem de marcadores usando o número de itens na resposta. Os marcadores dos objetos de aprendizado retirados não estão mais incluídos.
 
-### Suporte de API para instâncias com várias inscrições no widget de conformidade do aluno no aplicativo do aluno
+### Suporte de API para instâncias com várias inscrições no widget de conformidade do aluno no aplicativo do aluno {#api-multienrolled-instances-lc-widget}
 
 A API pública suporta esse comportamento por meio de um parâmetro de consulta opcional no endpoint de inscrições existente. Se você omitir o parâmetro, a API retornará os mesmos resultados de antes, portanto as integrações existentes, incluindo implementações sem periféricos, continuarão funcionando inalteradas.
 
@@ -1553,7 +1553,7 @@ verdadeiro. Falso por padrão.
 
 &rbrace;
 
-## Data do último acesso para inscrição no caminho de aprendizado {#last-access-date-lp-enrollment}
+## Data do último acesso para inscrição no caminho de aprendizado {#api-last-access-date-lp-enrollment}
 
 O Adobe Learning Manager permite armazenar metadados personalizados, como uma data de último acesso, em uma inscrição no caminho de aprendizado. Você define e lê os metadados por meio da API. Isso ajuda a rastrear o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
 
@@ -1638,7 +1638,7 @@ Portais e integrações externos usam as mesmas chamadas de API. Use a solicita�
 * **Mostrar o valor em seu portal:** envie a solicitação GET para o seu tipo de token da tabela acima e leia o objeto `metadata` da resposta.
 * **Atualize o valor de um sistema externo, como uma plataforma de comércio:** envie a solicitação de PATCH com um token de administrador.
 
-## API de trabalho: exportar relatórios de Report Builder com generateCustomReport
+## API de trabalho: exportar relatórios de Report Builder com generateCustomReport {#api-job-report-builder-exports}
 
 A versão de dezembro de 2026 do Adobe Learning Manager adiciona um novo tipo de trabalho, `generateCustomReport`, à API de trabalho. Use-o para exportar qualquer relatório criado no Report Builder, de forma automatizada, passando a ID do relatório.
 

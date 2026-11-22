@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12306'
 ht-degree: 47%
 ---
 # Criar, modificar e publicar cursos
@@ -169,7 +169,7 @@ Um módulo de envio de arquivos baseado em equipe permite que um aluno envie um 
 
 1. Selecione a opção com base em equipes. A opção individual é o módulo anterior de envio de arquivos para alunos únicos.
 
-   ![Opção baseada em equipe para o módulo de envio de arquivos](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Opção baseada em equipe")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. Selecione o professor ou professores.
 
@@ -189,15 +189,15 @@ Um curso pode ter módulos de envio individuais e com base em equipe juntos. Tod
 1. Escolha um método de pontuação:
 
    * Selecione a pontuação manual para permitir que o professor insira uma pontuação geral.
-   * Selecione a pontuação baseada em critérios para calcular a pontuação a partir dos pontos em cada opção do plano de avaliação. Este método requer um plano de avaliação.
+   * Selecione a pontuação baseada em critérios para calcular a pontuação a partir dos pontos em cada opção do plano de avaliação. Este método requer um Plano de Avaliação.
 
-     ![Opções de revisão e pontuação para o módulo de envio de arquivos baseado em equipe](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
 >Depois de publicar o curso, você não pode remover o módulo, alterar suas configurações ou usar vários tipos de entrega para ele.
 
-### Adicionar um plano de avaliação a um módulo de envio de arquivos
+### Adicionar um Plano de Avaliação a um módulo de envio de arquivos
 
 Crie um plano de avaliação para envios individuais ou de equipe adicionando perguntas objetivas e subjetivas a um módulo de envio de arquivos.
 
@@ -205,7 +205,7 @@ Um plano de avaliação é o conjunto de perguntas que os professores usam para 
 
 #### Ativar o plano de avaliação
 
-1. Ative o plano de avaliação.
+1. Ativar o Plano de Avaliação.
 
 1. Insira uma descrição da avaliação.
 

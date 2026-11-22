@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Quando o Assistente do aluno responde a uma pergunta, ele lista o conteúdo de a
 
 Confirme se o Caminho de aprendizado é relevante para a pergunta e visível para o aluno no catálogo. O Assistente do aluno não mostra o conteúdo oculto do aluno.
 
-## Configurar agentes do Assistente do aluno
+## Configurar agentes do Assistente do aluno {#configure-la-agents}
 
 Ative ou desative agentes individuais do Assistente do aluno para controlar quais recursos de IA seus alunos podem usar no Adobe Learning Manager.
 
