@@ -3,9 +3,9 @@ description: Permita que os alunos descubram cursos, acompanhem o progresso e ob
 jcr-language: en_us
 title: Servidor do Protocolo de Contexto de Modelo da Adobe Learning Manager
 exl-id: 8d0a25a6-1301-4f68-8db7-e3b1d3ff6537
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ Para ver a lista completa, exiba a **referência das ferramentas do aluno**.
 
 O treinamento de clientes e parceiros é o principal uso do servidor MCP. As organizações que criam seus próprios agentes corporativos de IA podem conectá-los às ferramentas do aluno do Adobe Learning Manager. Seus clientes e parceiros aprendem dentro do assistente que já usam, sem passar para um assistente de aprendizado separado.
 
-Por exemplo, a Acme Inc. desenvolve seu próprio assistente corporativo de IA. Um parceiro da Acme Inc. visita o ambiente da Lenovo para conhecer os produtos da Lenovo. O assistente da Acme se conecta à sua conta da Adobe Learning Manager por meio do servidor MCP e retorna respostas relacionadas à aprendizagem, de modo que o parceiro nunca sai da experiência da Acme.
+Por exemplo, a Acme Inc. desenvolve seu próprio assistente corporativo de IA. Um parceiro da Acme Inc. visita o ambiente da Tech Corp para conhecer os produtos da Tech Corp. O assistente da Acme se conecta à sua conta da Adobe Learning Manager por meio do servidor MCP e retorna respostas relacionadas à aprendizagem, de modo que o parceiro nunca sai da experiência da Acme.
 
 Essa abordagem permite que as organizações:
 

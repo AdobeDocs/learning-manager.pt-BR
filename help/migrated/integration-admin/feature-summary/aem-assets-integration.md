@@ -3,9 +3,9 @@ description: Importe conteúdo de aprendizado e imagens do Adobe Experience Mana
 jcr-language: en_us
 title: Integração com o AEM Assets
 exl-id: cd33c0f2-59df-4f35-a7d9-d7bff6b9ffba
-source-git-commit: 3c0f45721777421361401cf836a21b88cee3a259
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3447'
 ht-degree: 0%
 ---
 
@@ -424,3 +424,9 @@ Confirme se o link de visualização pública está ativado, se o conteúdo é S
 **P. O ALM gera um link de visualização pública?**
 
 **A.** Sim, somente para arquivos SCORM 1.2, SCORM 2004 e HTML. Isso é possível somente quando o recurso de visualização pública é ativado pelo administrador de integração.
+
+**Links relacionados:**
+
+* [Gerenciar conteúdo na Biblioteca de Conteúdo](/help/migrated/authors/feature-summary/content-library.md)
+* [Documentação do Adobe Admin Console](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
