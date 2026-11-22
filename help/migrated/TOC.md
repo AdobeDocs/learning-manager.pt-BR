@@ -3,10 +3,10 @@ user-guide-title: Manual do Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentação do Adobe Learning Manager
 nudge: true
-source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
+source-git-commit: b41600793d54a08999e5e4aacf29840dd4365b33
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 31%
+source-wordcount: '1946'
+ht-degree: 32%
 ---
 
 # Guia do Usuário do Adobe Learning Manager {#using}
@@ -305,7 +305,6 @@ ht-degree: 31%
   * [Configurações](authors/feature-summary/settings.md)
 * O professor {#instructor}
   * [Módulos](/help/migrated/instructors/feature-summary/modules.md)
-  * [Avaliar e cancelar o envio de uma equipe](/help/migrated/instructors/feature-summary/learners.md)
   * [Gerenciamento dos alunos da sua sessão](instructors/feature-summary/learners.md)
   * [Reenviar convite da sessão](instructors/feature-summary/resend-session-invite.md)
 * Aluno {#learner}
@@ -443,7 +442,7 @@ ht-degree: 31%
 * Alterações de Relatórios {#reporting-changes}
   * [Relatório de alterações na versão de agosto de 2026](/help/migrated/reporting-changes-august-2026.md)
 * Base de conhecimento {#knowledge-base}
-  * [Guia de solução de problemas do Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Guia de solução de problemas do Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
   * [Não é possível fazer logon no Learning Manager](kb/unable-log-in-learning-manager.md)
   * [O Resumo do aprendizado não exibe os dados atuais](kb/learning-summary-not-display-data.md)
   * [Não é possível carregar um CSV](kb/unable-to-upload-csv.md)

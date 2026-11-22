@@ -1,21 +1,19 @@
 ---
-description: Saiba como os autores personalizam e-mails no nível do curso e no nível da instância no Email Builder com um layout de administrador e corrigem problemas comuns
+description: Personalize e-mails no nível do curso e no nível da instância no Adobe Learning Manager com o E-mail Builder e um layout fornecido pelo administrador.
 jcr-language: en_us
 title: Personalizar e-mails do curso e da instância no Email Builder
 exl-id: 06499e3f-0610-4983-83f2-3e8b578fc8bf
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: 172889a4ff67e54c8e7b9a39ef5f393af0a1d703
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 
-## Personalizar e-mails do curso e da instância no Email Builder
-
-Personalize e-mails no nível do curso e no nível da instância no Adobe Learning Manager com o E-mail Builder e um layout fornecido pelo administrador.
+# Personalizar e-mails do curso e da instância no Email Builder
 
 Como autor, você pode personalizar e-mails para um curso ou para uma instância específica de um curso. Ambos os procedimentos começam em um layout fornecido pelo administrador.
 
-### Personalizar um e-mail de nível de curso
+## Personalizar um e-mail de nível de curso
 
 1. Abrir o curso.
 2. Selecione **Modelos de Email**.
@@ -24,7 +22,7 @@ Como autor, você pode personalizar e-mails para um curso ou para uma instância
 5. Salve o modelo.
 6. Publish o curso.
 
-### Personalizar um email em nível de instância
+## Personalizar um email em nível de instância
 
 Use um e-mail de nível de instância quando diferentes coortes precisarem de mensagens diferentes. Você gerencia essas coortes por meio de instâncias do curso.
 
@@ -38,7 +36,7 @@ Use um e-mail de nível de instância quando diferentes coortes precisarem de me
 >
 >Quando ambos existem, os e-mails em nível de instância substituem os modelos em nível de curso.
 
-### Usar a variável Título e uma imagem para cabeçalhos de email
+## Usar a variável Título e uma imagem para cabeçalhos de email
 
 Use a variável Title com um componente Image para criar o cabeçalho de e-mail em vez do componente Banner. A imagem do componente Banner não aparece em alguns clientes de email, como o Outlook.
 
@@ -50,14 +48,14 @@ Para adicionar um cabeçalho de título:
 2. Adicione um componente Texto e insira a variável de título na lista suspensa de variáveis no painel de configuração do componente.
 3. Centralize o componente Texto. No layout global, coloque-o no cabeçalho superior.
 
-Emails individuais usam o cabeçalho do layout global por padrão. Em um email individual, você pode editar o componente Texto para:
+   Emails individuais usam o cabeçalho do layout global por padrão. Em um email individual, você pode editar o componente Texto para:
 
-1. Substituir a variável pelo texto personalizado
-2. Adicionar texto antes ou depois da variável e manter `EmailTitle`
+4. Substituir a variável pelo texto personalizado
+5. Adicionar texto antes ou depois da variável e manter `EmailTitle`
 
 Se você adicionar uma imagem ao componente Banner, o Criador de e-mail mostrará um aviso de que a imagem pode não aparecer corretamente em alguns clientes de e-mail. O aviso sugere o uso de um componente Imagem e a variável de título.
 
-### Solução de problemas
+## Solução de problemas
 
 **Não é possível selecionar um layout.**
 A herança do layout depende dos layouts pai disponíveis. Peça ao administrador para criar um layout de conta.
