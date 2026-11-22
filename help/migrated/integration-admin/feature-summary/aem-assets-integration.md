@@ -428,5 +428,5 @@ Confirme se o link de visualização pública está ativado, se o conteúdo é S
 **Links relacionados:**
 
 * [Gerenciar conteúdo na Biblioteca de Conteúdo](/help/migrated/authors/feature-summary/content-library.md)
-* [Documentação do Adobe Admin Console](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
-* [Documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
+* [Documentação do Adobe Admin Console](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Documentação do Adobe Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/overview)
