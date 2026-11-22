@@ -3,7 +3,7 @@ description: Saiba como usar as configurações de assinatura do painel e as API
 jcr-language: en_us
 title: Alterações na API em novembro de 2026
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # Alterações na API em dezembro de 2026
 
-## APIs para notificações do professor do quadro de discussão
+## APIs para notificações do professor do quadro de discussão {#api-discussion-board-instructors}
 
 Este artigo descreve as novas APIs que oferecem suporte às notificações do professor do quadro de discussão. Use-os para inscrever professores e gerentes de coorte em painéis de discussão e controlar qual atividade aparece em seus emails de resumo.
 
@@ -585,7 +585,7 @@ A resposta não tem corpo.
 | 401 | A solicitação não tem credenciais válidas ou o acesso foi negado devido a credenciais inválidas. |
 | 404 | O recurso solicitado, como o painel ou a assinatura, não foi encontrado. |
 
-## Pedidos de API de marcador e manipulação de conteúdo desativado
+## Pedidos de API de marcador e manipulação de conteúdo desativado {#bookmark-api-ordering-retired-content}
 
 ### Finalidade da API
 
@@ -721,7 +721,7 @@ Um caso de uso comum é uma lista “Salvo para mais tarde” em uma experiênci
 3. Remova qualquer classificação do lado do cliente ou filtragem de conteúdo desativado que você adicionou como solução alternativa.
 4. Mostrar uma contagem de marcadores usando o número de itens na resposta. Os marcadores dos objetos de aprendizado retirados não estão mais incluídos.
 
-### Suporte de API para instâncias com várias inscrições no widget de conformidade do aluno no aplicativo do aluno
+### Suporte de API para instâncias com várias inscrições no widget de conformidade do aluno no aplicativo do aluno {#api-multienrolled-instances-lc-widget}
 
 A API pública suporta esse comportamento por meio de um parâmetro de consulta opcional no endpoint de inscrições existente. Se você omitir o parâmetro, a API retornará os mesmos resultados de antes, portanto as integrações existentes, incluindo implementações sem periféricos, continuarão funcionando inalteradas.
 
@@ -737,31 +737,31 @@ includeMultiInstanceEnrollments (opcional)
 
 https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&filter.loTypes=course&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&sort=dateEnrollments
 
-Valor **1&rbrace;**
+Valor **1}**
 
 verdadeiro. Falso por padrão.
 
 **Corpo da resposta**
 
-&lbrace;
+{
 
-“links”: &lbrace;
+“links”: {
 
 “self”: “[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnroll&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true)”,
 
 “next”: “[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnroll&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true&amp;page\[cursor\]=eyJb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmb1luZ](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page%5bcursor%5d=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9)
 
-&rbrace;,
+},
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:15067_30122_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “completionDeadline”: “2026-02-24T10:50:45.000Z”,
 
@@ -775,73 +775,73 @@ verdadeiro. Falso por padrão.
 
 “state”: “PENDING_APPROVAL”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:15067”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:15067_30122”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:15067_30122_41715_1_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:1108800_1997400_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “enrollmentSource”: “SELF_ENROLL”,
 
@@ -853,73 +853,73 @@ verdadeiro. Falso por padrão.
 
 “state”: “PENDING_APPROVAL”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:1108800”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:1108800_1997400”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:1108800_1997400_2174574_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:2027668_3707328_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “enrollmentSource”: “MGR_APPROVAL”,
 
@@ -931,73 +931,73 @@ verdadeiro. Falso por padrão.
 
 “state”: “PENDING_APPROVAL”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2027668”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2027668_3707328”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:2027668_3707328_2665897_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:2030067_3709862_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “enrollmentSource”: “MGR_APPROVAL”,
 
@@ -1009,73 +1009,73 @@ verdadeiro. Falso por padrão.
 
 “state”: “PENDING_APPROVAL”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2030067”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2030067_3709862”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:2030067_3709862_2668467_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:3081896_5749155_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “enrollmentSource”: “MGR_APPROVAL”,
 
@@ -1087,81 +1087,81 @@ verdadeiro. Falso por padrão.
 
 “state”: “PENDING_APPROVAL”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:3081896”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:3081896_5749155”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:3081896_5749155_3737554_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:3081896_5749155_3737555_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:2037893_3717940_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “enrollmentSource”: “MGR_APPROVAL”,
 
@@ -1173,73 +1173,73 @@ verdadeiro. Falso por padrão.
 
 “state”: “PENDING_APPROVAL”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2037893”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2037893_3717940”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:2037893_3717940_3676856_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:3049434_5713130_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “completedDeadline”: “2020-05-05T18:29:59.000Z”,
 
@@ -1253,73 +1253,73 @@ verdadeiro. Falso por padrão.
 
 “state”: “PENDING_APPROVAL”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:3049434”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:3049434_5713130”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:3049434_5713130_3693595_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:2001397_3679403_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “enrollmentSource”: “MGR_APPROVAL”,
 
@@ -1331,73 +1331,73 @@ verdadeiro. Falso por padrão.
 
 “state”: “PENDING_APPROVAL”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2001397”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2001397_3679403”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:2001397_3679403_2635974_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:2037862_3717900_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “enrollmentSource”: “MGR_APPROVAL”,
 
@@ -1409,73 +1409,73 @@ verdadeiro. Falso por padrão.
 
 “state”: “PENDING_APPROVAL”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2037862”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2037862_3717900”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:2037862_3717900_3676816_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”: “course:2037837_3717863_3400468”,
 
 “type”: “learningObjectInstanceEnrollment”,
 
-“attributes”: &lbrace;
+“attributes”: {
 
 “completionDeadline”: “2020-02-29T18:29:59.000Z”,
 
@@ -1489,71 +1489,71 @@ verdadeiro. Falso por padrão.
 
 “state”: “OTHER”
 
-&rbrace;,
+},
 
-“relationship”: &lbrace;
+“relationship”: {
 
-“learner”: &lbrace;
+“learner”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “3400468”,
 
 “type”: “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”: &lbrace;
+“learningObject”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2037837”,
 
 “type”: “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”: &lbrace;
+“loInstance”: {
 
-“data”: &lbrace;
+“data”: {
 
 “id”: “course:2037837_3717863”,
 
 “type”: “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”: &lbrace;
+“loResourceGrades”: {
 
-“data”: \&lbrack;
+“data”: \[
 
-&lbrace;
+{
 
 “id”: “course:2037837_3717863_3597363_0_3400468”,
 
 “type”: “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-## Data do último acesso para inscrição no caminho de aprendizado {#last-access-date-lp-enrollment}
+## Data do último acesso para inscrição no caminho de aprendizado {#api-last-access-date-lp-enrollment}
 
 O Adobe Learning Manager permite armazenar metadados personalizados, como uma data de último acesso, em uma inscrição no caminho de aprendizado. Você define e lê os metadados por meio da API. Isso ajuda a rastrear o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
 
@@ -1638,7 +1638,7 @@ Portais e integrações externos usam as mesmas chamadas de API. Use a solicita�
 * **Mostrar o valor em seu portal:** envie a solicitação GET para o seu tipo de token da tabela acima e leia o objeto `metadata` da resposta.
 * **Atualize o valor de um sistema externo, como uma plataforma de comércio:** envie a solicitação de PATCH com um token de administrador.
 
-## API de trabalho: exportar relatórios de Report Builder com generateCustomReport
+## API de trabalho: exportar relatórios de Report Builder com generateCustomReport {#api-job-report-builder-exports}
 
 A versão de dezembro de 2026 do Adobe Learning Manager adiciona um novo tipo de trabalho, `generateCustomReport`, à API de trabalho. Use-o para exportar qualquer relatório criado no Report Builder, de forma automatizada, passando a ID do relatório.
 

@@ -1,9 +1,9 @@
 ---
 title: Navegador de Exame Seguro
 description: Ative a integração do Navegador de exame seguro no nível da conta do Adobe Learning Manager para que os autores possam exigir um ambiente de navegador seguro para questionários nativos.
-source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ Este artigo explica como ativar a integração do Navegador de exame seguro para
 
 ## Ativar integração do Navegador do Safe Exam
 
-Ative a integração do Navegador de exame seguro para disponibilizar a opção para os Autores quando configurarem questionários. Antes de começar, certifique-se de ter o arquivo Safe Exam Browser para sua conta.
+Configure a integração do Navegador do Safe Exam para disponibilizar a opção para os Autores ao configurar os questionários. Antes de começar, certifique-se de ter o arquivo Safe Exam Browser para sua conta.
 
 Para ativar a integração do navegador Safe Exam:
 
@@ -36,6 +36,8 @@ Para ativar a integração do navegador Safe Exam:
 1. Selecione **Salvar**.
 
    O Navegador do Safe Exam agora está disponível para que os Autores ativem ao configurar questionários compatíveis.
+
+Exiba [Criar um curso com o SEB](../../authors/feature-summary/create-a-course-with-safe-exam-browser.md) para obter mais informações sobre como configurar o Navegador de Exame Seguro como **Autor**.
 
 ### Configure o arquivo .seb para o macOS {#configure-the-seb-file-for-macos}
 

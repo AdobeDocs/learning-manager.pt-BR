@@ -1,9 +1,9 @@
 ---
 title: Criar um curso com o Navegador do exame seguro
 description: Crie um quiz com o modo Navegador de exame seguro e adicione-o a um curso como um módulo em ritmo individualizado no Adobe Learning Manager para fornecer um ambiente de avaliação restrito.
-source-git-commit: 6629e193116a8c2de12606277986811b20bbdf90
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ Para criar um quiz com o modo Navegador do Safe Exam:
 
    >[!NOTE]
    >
-   > Se o administrador ativar essa opção, você poderá ativar ou desativar o requisito do Navegador de exame seguro (SEB) para um módulo de questionário do curso. Se o administrador desabilitar essa opção, o SEB se tornará obrigatório para o quiz e você não poderá alterar esse requisito.
+   > Se o administrador ativar essa opção, você poderá ativar ou desativar o requisito do Navegador de exame seguro (SEB) para um módulo de questionário do curso. Se o administrador desabilitar essa opção, o SEB se tornará obrigatório para o quiz e você não poderá alterar esse requisito. Exiba [Habilitar a integração do Navegador de Exame Seguro](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration) para obter mais informações.
 
 1. Selecione **Publish**.
 
@@ -68,3 +68,5 @@ Para adicionar o quiz a um curso:
 1. Selecione **Salvar** > **Publish**.
 
    O curso agora inclui uma avaliação que exige que os alunos usem o navegador seguro do exame.
+
+Exiba [Iniciar um quiz no Navegador de Exame Seguro](../../learners/feature-summary/launch-safe-exam-browser.md) para saber como os Alunos podem acessar e fazer questionários usando o Navegador de Exame Seguro.
