@@ -3,9 +3,9 @@ title: Adicionar e configurar widgets no Experience Builder
 description: Saiba como adicionar, personalizar e configurar vários widgets no Experience Builder no Adobe Learning Manager. Este guia aborda os widgets mais usados, como calendários, categorias, status de conformidade, cursos e caminhos, gamificação, conteúdo HTML, IFrames, aprendizado social e muito mais.
 jcr-language: en-us
 exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
-source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
+source-git-commit: fefdedcb70c7006bd818646c505fb5d09f0c0035
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '3102'
 ht-degree: 0%
 ---
 # Adicionar e configurar widgets
@@ -153,7 +153,7 @@ Para configurar o widget Cursos e caminhos:
 
 ![](assets/configure-course-paths.png)
 _Widget Cursos e caminhos onde os administradores definem o título, a descrição e selecionam Cursos ou Caminhos de aprendizado para serem exibidos como cartões interativos_
-&#x200B;11. Selecione **[!UICONTROL Adicionar widget]**.
+11. Selecione **[!UICONTROL Adicionar widget]**.
 
 O widget Cursos e caminhos será adicionado à página. Os administradores podem adicionar outros widgets e publicar a página.
 
@@ -312,6 +312,38 @@ Para configurar o widget Meu aprendizado:
 9. Selecione **[!UICONTROL Adicionar widget]**.
 
 O widget Meu aprendizado será adicionado à página. Os administradores podem adicionar outros widgets e publicar a página.
+
+## Widget Caminho de aprendizado personalizado {#add-a-plp}
+
+O widget Caminho de aprendizado personalizado é uma faixa de conteúdo que você pode adicionar às páginas do aluno no Experience Builder. Ela mostra aos alunos o caminho de aprendizado gerado para eles pelo agente Caminho de aprendizado personalizado (PLP) no Assistente do aluno para que eles possam ver os cursos recomendados e retomar o aprendizado sem sair da página.
+
+Use o widget Caminho de aprendizado personalizado para mostrar aos alunos um conjunto personalizado de cursos em uma página no Experience Builder.
+
+## Antes de começar
+
+* Verifique se o agente Caminho de aprendizado personalizado está ativado para sua conta. Está incluído na camada Ultimate ou disponível como um complemento para a camada Prime.
+* Verifique se o Assistente do aluno e o agente do Caminho de Aprendizado Personalizado estão ativados nas configurações do **Assistente de IA**.
+* Verifique se você tem a função Administrador.
+
+### Adicionar o widget Caminho de aprendizado personalizado
+
+1. Faça logon no Adobe Learning Manager como **Administrador**.
+
+2. No painel esquerdo, selecione **Marcas**.
+
+3. Selecione **Páginas Personalizadas**.
+
+4. Selecione **Editar** e selecione o layout. Depois, selecione
+
+5. Selecione **Adicionar widget** e selecione **Caminho de Aprendizado Personalizado**.
+
+6. Em **Título do widget**, insira um título para o widget.
+
+7. (Opcional) Em **Descrição do widget**, insira uma descrição curta. É possível inserir até 180 caracteres.
+
+8. Revise a visualização no lado direito da tela. Cada cartão mostra o formato do curso, a duração, a habilidade, a classificação, o título e o autor, juntamente com um botão **Continuar**.
+
+9. Selecione **Adicionar widget** e clique em **Publish** para disponibilizar a página para os alunos.
 
 ## Widget Salvo por mim {#bookmark-widget}
 
