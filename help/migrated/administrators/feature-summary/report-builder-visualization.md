@@ -1,9 +1,9 @@
 ---
 title: Visualizações em Report Builder
 description: Crie gráficos e painéis de controle a partir de relatórios salvos no Adobe Learning Manager Report Builder para comparar grupos, identificar tendências e compartilhar resultados.
-source-git-commit: 8354c2285602189dd7c8211b8b44900385dc6c8b
+source-git-commit: 27a1b9f6669097ce85d1c4994537fb8cdf571abe
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3975'
 ht-degree: 0%
 ---
 
@@ -64,6 +64,7 @@ Confirme o seguinte:
 * **Salvar o relatório.** A opção para adicionar um gráfico aparece na página de Report Builder após salvar o relatório.
 * **Usar seu próprio relatório.** Duplique um relatório compartilhado para criar sua própria cópia e use-o para criar gráficos.
 * **Verifique o tamanho.** Um relatório com mais de 10 milhões de linhas não pode ser plotado. Um relatório resumido com mais de 10.000 pontos de dados não é plotado. Consulte Limites do gráfico e do painel.
+* **Otimizar os dados para visualização.** Aplique filtros apropriados em nível de relatório ou de gráfico para limitar a quantidade de dados plotados. O tempo necessário para carregar um gráfico depende de fatores como o volume de dados do relatório, o intervalo de datas selecionado e a combinação de conjuntos de dados e tabelas usadas no relatório. Os relatórios que processam grandes volumes de dados ou combinações complexas de conjuntos de dados podem demorar mais para carregar ou podem expirar. Se isso ocorrer, restrinja os filtros ou o intervalo de datas e tente novamente.
 * **Conheça suas colunas.** O eixo X (dimensão) e o eixo Y (medida) do gráfico provêm das colunas do relatório. Para resumir o relatório em si, use **Agrupar por** e agrega. Para obter mais informações, consulte Aplicar agrupar por e agregações.
 
 ### Configurar um gráfico {#configure-chart}
