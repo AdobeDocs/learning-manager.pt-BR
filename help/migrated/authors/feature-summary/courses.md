@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: f752ede2a7b2980bad014fcbcaa2d7028d695321
 workflow-type: tm+mt
-source-wordcount: '12306'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # Criar, modificar e publicar cursos
@@ -312,7 +312,7 @@ Depois de definir todas as configurações do Gradebook, publique o curso usando
 * Use **O mais alto** para a configuração de várias tentativas quando os módulos forem avaliações que os alunos devem repetir. Use as **Mais recentes** quando desejar capturar o nível de conhecimento atual em vez do melhor desempenho.
 * Verifique se o indicador **Peso total** mostra exatamente 100% antes de salvar.
 
-## Configurar a criação automática de equipes no Adobe Learning Manager
+## Configurar a criação automática de equipes no Adobe Learning Manager {#enable-automatic-team-formation}
 
 Defina as regras de criação automática de equipes para um curso de modo que o Adobe Learning Manager divida os alunos inscritos em equipes antes que uma instância seja iniciada.
 
@@ -1497,7 +1497,7 @@ Você também pode publicar módulos de curso no Learning Manager a partir do so
 1. Faça logon com as credenciais da Adobe. Se não tiver uma Adobe ID, clique em **[!UICONTROL Criar conta]**. Após a autorização, você será direcionado para a página de publicação do módulo.
 1. Forneça quaisquer informações básicas sobre o módulo e clique em Publicar.
 
-Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/br/captivate/classic/publish-project-to-captivate-prime.html)
+Você pode ver o módulo publicado na página de módulos do Learning Manager. Para obter mais informações, consulte [Publicar projeto no Adobe Learning Manager.](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)
 
 ## Eficácia do curso {#courseeffectiveness}
 
