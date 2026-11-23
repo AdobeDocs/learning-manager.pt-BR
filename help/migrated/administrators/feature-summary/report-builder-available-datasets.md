@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Conjuntos de dados disponíveis no Report Builder
 description: Um guia de referência para os conjuntos de dados, campos e campos derivados disponíveis no Adobe Learning Manager Report Builder.
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 27%
-
+source-wordcount: '1478'
+ht-degree: 29%
 ---
-
 
 # Conjuntos de dados disponíveis no Report Builder
 
@@ -61,10 +59,31 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * % de conclusão do usuário
 * % de conformidade do usuário
 
+### Quiz L2 após campo Personalizado (Usuário)
+
+* Número da tentativa
+* ID do curso
+* ID da instância do curso
+* Nome do curso
+* Tipo de interação
+* ID do módulo
+* Nome do módulo
+* Versão do módulo
+* Pergunta - resposta correta
+* Pergunta - ID
+* Pergunta - pontuação máxima possível
+* Pergunta - texto
+* Resposta - pontuação obtida
+* Resposta - resposta
+* Resposta - está correta
+* Resposta - carimbo de data/hora
+* ID do usuário
+
 ### Objeto de aprendizado
 
 * Nomes dos autores
 * Data de desativação automática
+* Validade do certificado (meses)
 * Contagem de Conclusões
 * Data de criação
 * Duração (minutos)
@@ -135,6 +154,8 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * Data de inscrição
 * Fonte da inscrição
 * Estado da inscrição
+* É a inscrição principal
+* Metadados
 * ID do objeto de aprendizado
 * Nome do objeto de aprendizado
 * ID da instância do objeto de aprendizado
@@ -156,6 +177,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * ID do curso
 * ID do módulo
 * Nome do módulo
+* Status de sucesso do módulo
 * Data da aprovação
 * Porcentagem do progresso
 * Pontuação total do módulo de questionário
@@ -218,7 +240,10 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 
 ### Grupo de usuários (personalizado)
 
+* Criado por e-mail de usuário
+* Criado por nome de usuário
 * Data de criação
+* Descrição
 * ID
 * Contagem de membros
 * Nome
@@ -227,6 +252,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 ### Grupo de usuários (equipe direta)
 
 * Data de criação
+* Descrição
 * ID
 * Contagem de membros
 * Nome
@@ -239,6 +265,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 ### Grupo de usuários (integrados)
 
 * Data de criação
+* Descrição
 * ID
 * Contagem de membros
 * Nome
@@ -247,6 +274,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 ### Grupo de usuários (equipe)
 
 * Data de criação
+* Descrição
 * ID
 * Contagem de membros
 * Descrição
