@@ -1,17 +1,19 @@
 ---
-description: Adicione o servidor Adobe Learning Manager MCP ao seu cliente corporativo de IA, como Claude ou ChatGPT Enterprise, para que os alunos possam se conectar a ele
+description: Registre o servidor MCP do Adobe Learning Manager como um conector no cliente corporativo de IA para que os alunos da sua organização possam se conectar e consultar o aprendizado.
 jcr-language: en_us
 title: Adicionar o Adobe Learning Manager ao seu cliente corporativo de IA
 exl-id: d893efb7-dc0d-4a3a-88d6-b315340e5daa
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '215'
 ht-degree: 0%
 ---
 
 # Adicionar o Adobe Learning Manager ao seu cliente corporativo de IA
 
-Você precisa de privilégios de administrador no seu cliente AI. Obtenha primeiro o URL do ponto de extremidade, a ID do cliente e a chave secreta do seu administrador do Adobe Learning Manager. Exiba **Configurar um servidor do Protocolo do Contexto do Modelo** para obter mais detalhes.
+## Visão geral
+
+Você precisa de privilégios de administrador no seu cliente AI. Antes de começar, obtenha o URL do ponto de extremidade do MCP, a ID do cliente e a chave secreta do seu administrador do Adobe Learning Manager. Saiba mais sobre [configurar um servidor de Protocolo de Contexto de Modelo](/help/migrated/administrators/feature-summary/configure-mcp-admin.md).
 
 ## Adicionar o conector
 
@@ -29,6 +31,8 @@ Você precisa de privilégios de administrador no seu cliente AI. Obtenha primei
 
 ## Solução de problemas
 
-**Os alunos não veem o conector.** Confirme se o conector está ativado para o espaço de trabalho ou grupo do aluno.
+**Os alunos não veem o conector.**
+Confirme se o conector está ativado para o espaço de trabalho ou grupo do aluno.
 
-**A autorização falha quando um aluno seleciona Conectar.** Verifique se a ID do cliente e a chave secreta correspondem aos valores na página **Credenciais do cliente** do servidor no Adobe Learning Manager.
+**A autorização falha quando um aluno seleciona Conectar.**
+Verifique se a ID do cliente e a chave secreta correspondem aos valores na página **Credenciais do cliente** do servidor no Adobe Learning Manager.
