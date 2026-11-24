@@ -6,9 +6,9 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: b05fc0d33acf0b594a64f3ad4aa9a5c8e570ab30
 workflow-type: tm+mt
-source-wordcount: '4846'
+source-wordcount: '4748'
 ht-degree: 2%
 ---
 
@@ -102,14 +102,14 @@ O servidor fornece os seguintes recursos:
 * Responder à pergunta sobre conteúdo de aprendizado
 * Obter caminho de aprendizado personalizado
 
-Os administradores podem editar cada descrição de ferramenta para adicionar exemplos específicos da organização. Os clientes leem os detalhes de autorização dos metadados do servidor, portanto a instalação precisa apenas de uma ID de cliente e um segredo do cliente.
+Os administradores podem editar cada descrição de ferramenta para adicionar exemplos específicos da organização. Os clientes leem os detalhes da autorização nos metadados do servidor, portanto a configuração precisa apenas de uma ID de cliente e um segredo do cliente.
 
 [Saiba mais](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-## Faixas personalizadas de edição e identidade visual do caminho de aprendizado
+## Faixas personalizadas de edição e identidade visual do Caminho de Aprendizado
 
 * Os alunos agora podem remover tópicos ou cursos sugeridos em uma única etapa, além da opção existente para refinar as listas de tópicos e cursos por meio do bate-papo.
-* Os administradores agora podem reposicionar a faixa de programações de aprendizado personalizadas na página inicial do aluno por meio da página Marcas.
+* Os administradores agora podem reposicionar a faixa Caminhos de aprendizado personalizados na página inicial do aluno por meio da página Marcas.
 
 [Saiba mais](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
@@ -121,7 +121,7 @@ Autores criam cenários com base em seus próprios materiais de referência usan
 
 O Virtual Coach oferece suporte a nove idiomas e pode ser usado como uma ajuda de tarefa independente ou incorporado em um curso.
 
-[Saiba mais](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[Saiba mais](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## Citações do caminho de aprendizado no Assistente do aluno
 
@@ -338,14 +338,6 @@ Quando os usuários selecionam **Inscrever-se** em uma página acessada por meio
 
 [Saiba mais](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## Armazenar datas do último acesso para inscrições no caminho de aprendizado
-
-O Adobe Learning Manager agora permite anexar metadados personalizados, como uma data de último acesso, a uma inscrição no caminho de aprendizado. Você o define e lê por meio da API, que ajuda a controlar o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
-
-As inscrições no curso já são compatíveis com uma última data de acesso por meio da API, que controla por quanto tempo um aluno pode acessar o curso. As inscrições no caminho de aprendizado agora oferecem um campo de metadados genérico, para que você possa armazenar uma data de último acesso ou qualquer outro valor que queira controlar.
-
-[Saiba mais](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## Alterações no cabeçalho da coluna em relatórios baixados
 
 O Report Builder agora inclui o nome do conjunto de dados nos cabeçalhos de coluna padrão de relatórios baixados. Portanto, o Nome do conjunto de dados do Objeto de Aprendizado aparece como **Objeto de Aprendizado - Nome** em vez de **Nome**. Para colunas agregadas, o cabeçalho também inclui a função, como “**Contagem de Objeto de Aprendizado - ID**”. Se você inserir um nome personalizado no campo **Alias** de uma coluna, esse alias será usado como o cabeçalho e permanecerá inalterado.
@@ -356,7 +348,7 @@ Após a atualização, os relatórios existentes sem aliases personalizados most
 
 O Live Hub agora está disponível para clientes do Ultimate e permanece na versão beta para clientes do Prime.
 
-[Saiba mais](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[Saiba mais](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## Suporte multilíngue para legendas ocultas no Live Hub
 
@@ -387,7 +379,7 @@ Em sessões grandes, os seguintes recursos e comportamentos se aplicam:
 
 Isso permite que as organizações executem grandes sessões de treinamento na mesma plataforma, com uma sala que pode ser definida para o tamanho esperado do público.
 
-[Saiba mais](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[Saiba mais](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## Canais
 
@@ -468,7 +460,7 @@ A API de inscrições agora oferece suporte a instâncias de várias inscriçõe
 
 [Saiba mais](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
-### Data do último acesso para inscrição no caminho de aprendizado
+### Data do último acesso para inscrição no Caminho de Aprendizado
 
 Agora você pode armazenar metadados personalizados, como uma data de último acesso, em uma inscrição no caminho de aprendizado e defini-los e lê-los por meio da API. Isso ajuda a controlar o acesso limitado no tempo aos caminhos de aprendizado atribuídos.
 

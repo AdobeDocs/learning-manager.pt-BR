@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Conjuntos de dados disponíveis no Report Builder
 description: Um guia de referência para os conjuntos de dados, campos e campos derivados disponíveis no Adobe Learning Manager Report Builder.
 contentowner: mmanuel
-source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
+source-git-commit: 3cb434b8a4eeebab140981b71da72fad380ded24
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 29%
+source-wordcount: '1493'
+ht-degree: 31%
 ---
 
 # Conjuntos de dados disponíveis no Report Builder
@@ -59,7 +59,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * % de conclusão do usuário
 * % de conformidade do usuário
 
-### Quiz L2 após campo Personalizado (Usuário)
+### Quiz L2
 
 * Número da tentativa
 * ID do curso
@@ -108,6 +108,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * Etiquetas
 * Tipo
 * ID exclusivo
+* Validade do certificado (meses)
 
 ### Instância do objeto de aprendizado
 
@@ -170,6 +171,8 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * Maior pontuação de usuário
 * ID do usuário
 * Pontuação mais recente do usuário
+* É a inscrição principal
+* Metadados
 
 ### Transcrição (módulo)
 
@@ -189,6 +192,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * ID do usuário
 * Pontuação mais recente do usuário
 * Nome do usuário
+* Status de sucesso do módulo
 
 ### Usuário
 
@@ -229,6 +233,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * Contagem de membros
 * Nome
 * Status
+* Contagem de membros
 
 ### Grupo de usuários (campo ativo)
 
@@ -237,6 +242,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * Contagem de membros
 * Nome
 * Status
+* Contagem de membros
 
 ### Grupo de usuários (personalizado)
 
@@ -261,6 +267,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * Nome do proprietário
 * ID único do proprietário
 * Status
+* Descrição
 
 ### Grupo de usuários (integrados)
 
@@ -270,6 +277,7 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * Contagem de membros
 * Nome
 * Status
+* Descrição
 
 ### Grupo de usuários (equipe)
 
@@ -285,6 +293,8 @@ As informações na tabela não são exaustivas. Consulte a seção **Lista de c
 * Status do proprietário
 * ID único do proprietário
 * Status
+* Descrição
+* Contagem de membros
 
 ## Como os conjuntos de dados se unem
 
