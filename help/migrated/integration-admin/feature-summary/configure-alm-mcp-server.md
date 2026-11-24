@@ -221,7 +221,7 @@ As conversas iniciadas por meio de answer_learning_content_question aparecem no 
 
 ## Limites
 
-| **Limite** | Valor **1}** |
+| **Limite** | Valor **1&rbrace;** |
 |----|----|
 | Resultados por página (pesquisa e inscrições) | Até dez. Use o cursor retornado para mais páginas. |
 | taxa de answer_learning_content_question | 10 solicitações por minuto por aluno (intermitência de 5), com no máximo 2 em andamento de uma só vez |
@@ -232,13 +232,13 @@ As conversas iniciadas por meio de answer_learning_content_question aparecem no 
 
 Claude e ChatGPT descobrem isso automaticamente. Eles estão listados aqui para clientes ou proxies que precisam inseri-los manualmente. Substitua `alm-host` pelo host na URL do Servidor MCP (seu host de região ou domínio personalizado ALM).
 
-| Valor **1}** | **URL** |
+| Valor **1&rbrace;** | **URL** |
 |----|----|
 | URL do servidor MCP | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | URL de autorização | [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize) |
 | URL do token | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | Atualizar URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| Base do servidor de autorização | [https://\[alm-host](https://[alm-host)\] |
+| Base do servidor de autorização | &lbrack;https://\[alm-host](https://[alm-host)\] |
 | Recurso | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | Escopo | aluno:write |
 
