@@ -7,7 +7,7 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
+source-git-commit: 53804a4311b741e87f06d497a866552995a521b2
 workflow-type: tm+mt
 source-wordcount: '3562'
 ht-degree: 36%
@@ -266,7 +266,7 @@ Qualquer usuário que executar as seguintes ações ou obter as conclusões devi
 - Ao participar na aprendizagem social criando painéis, publicações ou comentários.
 - Como obter as conclusões devido a aprovações de envio de certificado externo ou participação em uma sala de aula/sessões da sala de aula virtual.
 
-## Exibir detalhes de uso {#viewusagedetails}
+## Exibir detalhes de uso {#view-usage-details}
 
 1. Para exibir o número de usuários ativos por mês, clique em **[!UICONTROL Exibir detalhes de uso]**.
 
