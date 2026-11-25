@@ -6,10 +6,10 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
+source-git-commit: be7170bc8e384e0084eaa62b6f31ac0332bac6b5
 workflow-type: tm+mt
-source-wordcount: '7201'
-ht-degree: 3%
+source-wordcount: '7194'
+ht-degree: 4%
 ---
 # Configurações básicas no Adobe Learning Manager
 
@@ -402,15 +402,13 @@ Quando os cursos são cobráveis, os autores podem especificar o curso, o caminh
 >
 >Certos tipos de treinamento, como certificações recorrentes e cursos aprovados pelo gerente, não podem ser adquiridos.
 
-## Ativar a formação automática de equipes no Adobe Learning Manager
+### Formação automática de equipes para envios baseados em equipe {#enable-auto-team-formation}
 
 Ative a formação automática da equipe nas configurações do administrador para que o Adobe Learning Manager agrupe os alunos inscritos nas equipes antes que cada instância do curso comece.
 
 Essa configuração é opcional. Os envios para equipes funcionam sem ti e os professores podem criar equipes manualmente.
 
 Ao ativar essa configuração de conta, o Adobe Learning Manager agrupa automaticamente os alunos inscritos em equipes um número definido de dias antes do início de cada instância do curso. A configuração fica desativada por padrão. Os autores podem ajustar a programação de seus cursos, e os professores ainda podem criar equipes manualmente.
-
-### Ativar a formação automática do grupo
 
 1. No aplicativo do administrador, selecione **Configurações** > **Geral**.
 
@@ -430,7 +428,7 @@ Ao ativar essa configuração de conta, o Adobe Learning Manager agrupa automati
 
 A configuração funciona apenas para cursos que têm um módulo de envio de arquivos com base em equipe e uma data de início da instância.
 
-## Como as alterações afetam os cursos
+#### Como as alterações afetam os cursos
 
 Quando você altera essa configuração, a alteração se aplica apenas aos cursos criados após você salvá-la. Os cursos que já existem mantêm a configuração com a qual foram publicados, independentemente de a formação automática do grupo estar ativada ou desativada, e mantêm a sua programação. Por exemplo, se você ativar a configuração em março, os cursos criados em fevereiro não irão recebê-la e os cursos criados em março ou depois irão.
 
