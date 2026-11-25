@@ -7,10 +7,10 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
 workflow-type: tm+mt
-source-wordcount: '39583'
-ht-degree: 56%
+source-wordcount: '40356'
+ht-degree: 55%
 ---
 # Notas de versão do Adobe Learning Manager
 
@@ -316,6 +316,46 @@ Quando o idioma da interface do usuário é definido para um idioma diferente do
 Esse comportamento ocorre durante a exportação de Locais de sala de aula do perfil do administrador > Configurações > Locais de sala de aula. Embora os dados do local no arquivo sejam retornados corretamente, os cabeçalhos das colunas não são convertidos para corresponder ao local da interface do usuário escolhido pelo administrador. Como resultado, um administrador que trabalha em um local diferente do inglês vê os nomes de colunas em inglês em um ambiente localizado.
 
 Somente a linha de cabeçalho é afetada; os dados do local subjacente no arquivo exportado não são afetados. Nenhuma correção está incluída nesta versão e o problema está sendo avaliado para uma versão futura.
+
+**O professor não pode ingressar na Sala de Aula Virtual entre módulos**
+Os professores não podem ingressar na sala de aula virtual ao tentar entrar em uma sala fora do horário agendado de seu módulo de curso atribuído.
+
+O Adobe Learning Manager usa uma única sala de aula virtual para todos os módulos de um curso. Quando um professor inicia a sala, a sessão é associada ao módulo vinculado ao URL de ingresso desse professor. Qualquer solicitação de associação subsequente deve corresponder ao módulo ativo associado à sala. Se outro professor tentar participar usando o link de ingresso de um módulo diferente enquanto um módulo diferente estiver ativo, o acesso à sala será negado. Somente um módulo pode estar ativo na sala compartilhada por vez.
+
+Esse comportamento é esperado na versão atual. As melhorias para permitir que os professores do curso ingressem na sala independentemente do módulo ativo estão planejadas para uma versão futura.
+
+**O áudio é interrompido quando o microfone e o alto-falante diferem no macOS**
+O áudio pode quebrar ou soar distorcido intermitentemente durante uma sessão de sala de aula virtual no macOS quando o microfone e o alto-falante selecionados forem dispositivos diferentes. Esse comportamento pode ocorrer quando diferentes dispositivos são usados para entrada e saída de áudio, como AirPods para o microfone e alto-falante integrado para reprodução. Como cada dispositivo introduz seu próprio atraso de áudio, o cancelamento de eco é menos eficaz e a supressão de ruído de fundo pode, ocasionalmente, identificar incorretamente partes da fala como ruído. Isso pode resultar em breves interrupções de áudio. O problema é mais perceptível quando a voz do alto-falante é capturada em um volume baixo, como quando o microfone é posicionado mais longe.
+
+Esta é uma limitação de plataforma conhecida e não é específica do Adobe Learning Manager. Um comportamento semelhante foi observado em outros aplicativos de conferência. Nenhuma correção está incluída nesta versão e o problema está sendo avaliado para uma versão futura.
+
+Use o mesmo dispositivo para microfone e alto-falantes para evitar esse comportamento.
+
+**O vídeo compartilhado congela no Chrome após perder o foco**
+Quando um professor compartilha uma janela do Chrome reproduzindo um vídeo e depois muda o foco para longe dele, os participantes podem ver o conteúdo compartilhado congelado ou exibir uma tela preta. O vídeo continua a ser reproduzido localmente para o professor, mas os participantes remotos podem não ver a atualização de conteúdo enquanto a janela compartilhada estiver fora de foco. O comportamento varia de acordo com o sistema operacional:
+
+* No Windows, os participantes veem uma tela preta.
+* No macOS, os participantes veem a última quadro de vídeo exibida.
+
+A reprodução de vídeo para participantes geralmente reinicia quando o foco retorna à janela do navegador compartilhado.
+
+Esta é uma limitação do navegador e do sistema operacional e não é específica do Adobe Learning Manager. Nenhuma correção específica do produto está disponível para esta versão.
+
+Mantenha a janela do navegador compartilhado em foco ao apresentar o conteúdo do vídeo. Evite alternar de volta para a janela Sala de aula virtual durante a reprodução.
+
+**Os alunos podem ingressar em uma sessão do Live Hub antes da janela de 15 minutos permitida usando uma URL direta**
+No Adobe Learning Manager, os alunos podem ingressar em uma sessão do Live Hub pelo portal somente em 15 minutos após a hora de início agendada. No entanto, os alunos com um URL de sessão direta, como um compartilhado por um professor, podem ingressar na sessão antes, desde que estejam conectados à Adobe Learning Manager. Essa é uma limitação conhecida e pode ser resolvida em uma versão futura.
+
+**O professor não pode ingressar em um módulo que já está em uso**
+Quando os professores tentam iniciar dois módulos do curso que usam a mesma sala de aula virtual ao mesmo tempo, apenas o primeiro professor pode entrar com sucesso na sala.
+
+O Adobe Learning Manager usa uma única sala de aula virtual compartilhada para uma instância do curso. Quando o primeiro professor entra na sala, a sala é associada ao módulo desse professor. As solicitações de junção adicionais são validadas em relação ao módulo ativo. Se outro professor tentar ingressar usando um link de módulo diferente, o acesso será negado. Como resultado, as sessões simultâneas ministradas por instrutor não podem ser conduzidas na mesma instância do curso usando módulos separados que compartilham uma sala.
+
+Esse comportamento é esperado na versão atual e é consistente com a arquitetura da sala existente. A funcionalidade está sendo revisada para aprimoramento futuro com base no feedback do cliente.
+
+**O modo de tela cheia não funciona no Firefox no iPad**
+Quando os participantes acessam uma sessão de Hub ao vivo usando o navegador Firefox em um iPad, selecionar o botão Tela cheia não alterna a sessão para o modo de tela cheia. A sessão permanece na visualização padrão do navegador em vez de ser expandida para preencher a tela.
+Essa é uma limitação conhecida do navegador, específica para o Firefox no iPad. A funcionalidade de tela cheia não está disponível nesta combinação de navegador e dispositivo. Essa é uma limitação conhecida e pode ser resolvida em uma versão futura.
 
 **Limitações de qualidade de legendas no Live Hub**
 
