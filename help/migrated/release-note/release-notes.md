@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
+source-git-commit: ba51f210cd63e074c009aa167173cfee35a44fe1
 workflow-type: tm+mt
-source-wordcount: '40356'
+source-wordcount: '40347'
 ht-degree: 55%
 ---
 # Notas de versão do Adobe Learning Manager
@@ -355,6 +355,7 @@ Esse comportamento é esperado na versão atual e é consistente com a arquitetu
 
 **O modo de tela cheia não funciona no Firefox no iPad**
 Quando os participantes acessam uma sessão de Hub ao vivo usando o navegador Firefox em um iPad, selecionar o botão Tela cheia não alterna a sessão para o modo de tela cheia. A sessão permanece na visualização padrão do navegador em vez de ser expandida para preencher a tela.
+
 Essa é uma limitação conhecida do navegador, específica para o Firefox no iPad. A funcionalidade de tela cheia não está disponível nesta combinação de navegador e dispositivo. Essa é uma limitação conhecida e pode ser resolvida em uma versão futura.
 
 **Limitações de qualidade de legendas no Live Hub**
