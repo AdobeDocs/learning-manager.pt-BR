@@ -4,7 +4,7 @@ description: Saiba como os administradores definem feriados em toda a organizaç
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: d0b166a48876f5dcb7268c9c956d624cff55fae1
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 7%
@@ -58,7 +58,7 @@ Para adicionar um feriado manualmente:
 
 1. Selecione **Salvar**. O feriado é adicionado à lista.
 
-### Adicionar feriados em massa
+### Adicionar feriados em massa {#holidays-in-bulk}
 
 Use um arquivo CSV para adicionar vários feriados de uma só vez.
 
